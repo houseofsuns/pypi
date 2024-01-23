@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	<dev-python/numexpr-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Bottleneck[${PYTHON_USEDEP}]"
+	<dev-python/bottleneck-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

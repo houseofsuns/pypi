@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/construct[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	develop? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

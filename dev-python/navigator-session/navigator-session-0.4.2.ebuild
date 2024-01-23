@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Navigator Session allows us to store user-specific data into session object. [topver 0.5.1]"
+DESCRIPTION="Navigator Session allows us to store user-specific data into session object. [topver 0.5.1, newver 0.5.1]"
 
 HOMEPAGE="https://github.com/phenobarbital/navigator-session"
 LICENSE="Apache-2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.9[${PYTHON_USEDEP}]
-	dev-python/pypubsub[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]"
+	dev-python/PyPubSub[${PYTHON_USEDEP}]
+	dev-python/wxpython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

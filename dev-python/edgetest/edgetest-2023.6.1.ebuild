@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs qa tests"
-DEPENDENCIES="dev-python/Cerberus[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/cerberus-1.3.4[${PYTHON_USEDEP}]
 	<=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	<=dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
 	<=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]"
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

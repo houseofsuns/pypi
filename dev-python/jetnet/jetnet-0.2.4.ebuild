@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="emdloss"
 DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/energyflow[${PYTHON_USEDEP}]
+	dev-python/EnergyFlow[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/coffea[${PYTHON_USEDEP}]

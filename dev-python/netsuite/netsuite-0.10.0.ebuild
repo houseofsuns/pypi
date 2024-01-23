@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli odbc orjson soap-api"
-DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.26[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	orjson? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/keyring[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]"
+	dev-python/twisted[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

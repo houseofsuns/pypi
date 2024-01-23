@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyInstaller[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
+	dev-python/pyinstaller[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]"

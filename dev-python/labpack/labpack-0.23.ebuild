@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/pytz-2015.7[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/jsonmodel[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	>=dev-python/pyjwt-1.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

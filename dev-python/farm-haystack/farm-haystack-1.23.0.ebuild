@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-gpu audio aws colab crawler dev docstores docstores-gpu elasticsearch elasticsearch7 elasticsearch8 faiss faiss-gpu file-conversion formatting inference metrics mongodb ocr only-faiss only-faiss-gpu only-pinecone onnx onnx-gpu opensearch pdf pinecone preprocessing ray sql weaviate"
 DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
-	dev-python/events[${PYTHON_USEDEP}]
+	dev-python/Events[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/lazy-imports[${PYTHON_USEDEP}]
@@ -105,14 +105,14 @@ DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
 	onnx-gpu? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
 	onnx-gpu? ( dev-python/onnxruntime-tools[${PYTHON_USEDEP}] )
 	opensearch? ( >=dev-python/opensearch-py-2.0[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	pdf? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	preprocessing? ( dev-python/langdetect[${PYTHON_USEDEP}] )
 	preprocessing? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	ray? ( dev-python/aiorwlock[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	sql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	sql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	sql? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	weaviate? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

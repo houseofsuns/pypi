@@ -27,7 +27,7 @@ IUSE="all docs tests"
 DEPENDENCIES="dev-python/LinkHeader[${PYTHON_USEDEP}]
 	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/Sickle[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	~dev-python/twisted-18.0[${PYTHON_USEDEP}]
 	~dev-python/amqp-2.0[${PYTHON_USEDEP}]
 	~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
 	dev-python/autosemver[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/LinkHeader[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/ftputil[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
-	dev-python/harvestingkit[${PYTHON_USEDEP}]
+	dev-python/HarvestingKit[${PYTHON_USEDEP}]
 	dev-python/inspire-dojson[${PYTHON_USEDEP}]
 	dev-python/inspire-schemas[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
@@ -55,8 +55,8 @@ DEPENDENCIES="dev-python/LinkHeader[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/structlog-20.1.0[${PYTHON_USEDEP}]
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/deepdiff-3.3.0[${PYTHON_USEDEP}] )
@@ -70,10 +70,10 @@ DEPENDENCIES="dev-python/LinkHeader[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-mock-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/deepdiff-3.3.0[${PYTHON_USEDEP}] )

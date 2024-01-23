@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-3.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-3.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/typing-extensions-3.5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/sphobjinv-2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

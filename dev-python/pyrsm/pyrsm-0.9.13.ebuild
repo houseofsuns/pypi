@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/shiny[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.10.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.0.1[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
 	>=dev-python/black-22.6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]"

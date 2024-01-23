@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/contourpy-1.0.6[${PYTHON_USEDEP}]
 	~dev-python/cycler-0.11.0[${PYTHON_USEDEP}]

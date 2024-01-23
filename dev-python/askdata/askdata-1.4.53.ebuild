@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/yaml-1_3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.0[${PYTHON_USEDEP}]

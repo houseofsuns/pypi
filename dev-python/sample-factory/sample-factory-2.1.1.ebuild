@@ -45,7 +45,7 @@ DEPENDENCIES="dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/pyglet[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/tensorboardx[${PYTHON_USEDEP}]
+	dev-python/tensorboardX[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	>=dev-python/threadpoolctl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]

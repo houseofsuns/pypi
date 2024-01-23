@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/ifaddr-0.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
-	dev-python/websocket_client[${PYTHON_USEDEP}]"
+	>=dev-python/websocket-client-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

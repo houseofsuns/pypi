@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.14.6[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -44,9 +44,9 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
-	dev-python/STEAM-materials[${PYTHON_USEDEP}]
+	dev-python/steam-materials[${PYTHON_USEDEP}]
 	~dev-python/svglib-1.5.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/steam-pysigma[${PYTHON_USEDEP}]
 	all? ( dev-python/gmsh[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
@@ -68,13 +68,13 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	all? ( ~dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/STEAM-materials[${PYTHON_USEDEP}] )
+	all? ( dev-python/steam-materials[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/svglib-1.5.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/steam-pysigma[${PYTHON_USEDEP}] )
-	all? ( dev-python/Markdown[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/markdown-3.3.7[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/markdown-include-0.7.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mkdocs-1.3.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mkdocs-autorefs-0.4.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.1.0[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	all? ( ~dev-python/mkdocs-material-extensions-1.0.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mkdocstrings-python-0.7.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pymdown-extensions-9.5[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
@@ -92,9 +92,9 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/setuptools-65.3.0[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/setuptools-65.3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Markdown[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markdown-3.3.7[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markdown-include-0.7.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.3.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-autorefs-0.4.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.1.0[${PYTHON_USEDEP}] )
@@ -103,7 +103,7 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mkdocs-material-extensions-1.0.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-python-0.7.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pymdown-extensions-9.5[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )

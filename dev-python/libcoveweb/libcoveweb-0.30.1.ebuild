@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]
 	dev-python/flattentool[${PYTHON_USEDEP}]
 	dev-python/libcove[${PYTHON_USEDEP}]

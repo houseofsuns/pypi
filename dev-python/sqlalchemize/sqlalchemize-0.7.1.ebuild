@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	dev-python/tinytim[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )

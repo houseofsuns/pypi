@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
 	dev-python/symfit[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]"
+	dev-python/ipython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

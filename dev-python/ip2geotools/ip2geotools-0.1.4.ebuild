@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple tool for getting geolocation information on given IP address from various geolocation databases. [topver 0.1.6]"
+DESCRIPTION="Simple tool for getting geolocation information on given IP address from various geolocation databases. [topver 0.1.6, newver 0.1.6]"
 
 HOMEPAGE="https://github.com/tomas-net/ip2geotools"
 LICENSE="MIT"
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/astroid-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/bleach-3.0.2[${PYTHON_USEDEP}]
 	~dev-python/certifi-2018.10.15[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/cssselect-1.0.3[${PYTHON_USEDEP}]
 	~dev-python/decorator-4.3.0[${PYTHON_USEDEP}]
 	dev-python/dicttoxml[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/astroid-2.1.0[${PYTHON_USEDEP}]
 	dev-python/pip-review[${PYTHON_USEDEP}]
 	~dev-python/pkginfo-1.4.2[${PYTHON_USEDEP}]
 	~dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/pylint-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/pyquery-1.4.0[${PYTHON_USEDEP}]

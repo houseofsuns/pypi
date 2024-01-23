@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/seasonal[${PYTHON_USEDEP}]
 	dev-python/static-ffmpeg[${PYTHON_USEDEP}]
 	all? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/PySide6[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )

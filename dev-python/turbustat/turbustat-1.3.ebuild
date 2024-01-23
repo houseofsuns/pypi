@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	dev-python/spectral-cube[${PYTHON_USEDEP}]
 	all? ( dev-python/astrodendro[${PYTHON_USEDEP}] )
 	all? ( dev-python/emcee[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )

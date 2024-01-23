@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
 	>=dev-python/python-keystoneclient-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/python-neutronclient-4.1.1[${PYTHON_USEDEP}]
 	>=dev-python/python-novaclient-3.3.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.2.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/ddt-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

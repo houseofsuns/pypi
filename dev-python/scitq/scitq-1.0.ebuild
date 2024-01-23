@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-2.2[${PYTHON_USEDEP}]
 	<=dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	<dev-python/flask-sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-restx[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]

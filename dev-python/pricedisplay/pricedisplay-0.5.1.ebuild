@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/datetime[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/usersettings[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]

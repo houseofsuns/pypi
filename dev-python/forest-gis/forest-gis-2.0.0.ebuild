@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-gallery-0.7.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pillow-7.1.2[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/pandas-0.25.0[${PYTHON_USEDEP}] )

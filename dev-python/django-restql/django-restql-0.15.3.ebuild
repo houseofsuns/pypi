@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.5[${PYTHON_USEDEP}]
-	dev-python/pypeg2[${PYTHON_USEDEP}]"
+	dev-python/pyPEG2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

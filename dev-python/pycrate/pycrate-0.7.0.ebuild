@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="corenet diameter_dict nas5g naslte sedebugmux"
-DEPENDENCIES="nas5g? ( dev-python/CryptoMobile[${PYTHON_USEDEP}] )
-	naslte? ( dev-python/CryptoMobile[${PYTHON_USEDEP}] )
+DEPENDENCIES="nas5g? ( dev-python/cryptomobile[${PYTHON_USEDEP}] )
+	naslte? ( dev-python/cryptomobile[${PYTHON_USEDEP}] )
 	sedebugmux? ( dev-python/crcmod[${PYTHON_USEDEP}] )
 	corenet? ( dev-python/pysctp[${PYTHON_USEDEP}] )
-	corenet? ( dev-python/CryptoMobile[${PYTHON_USEDEP}] )
+	corenet? ( dev-python/cryptomobile[${PYTHON_USEDEP}] )
 	diameter_dict? ( dev-python/lxml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

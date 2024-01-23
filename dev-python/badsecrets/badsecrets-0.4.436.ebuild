@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/flask-unsign[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.13[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.41.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/plotly-4.4.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipython-5.5.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pydata-sphinx-theme-0.6.3[${PYTHON_USEDEP}] )

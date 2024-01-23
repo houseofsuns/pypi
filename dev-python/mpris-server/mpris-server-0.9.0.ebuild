@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/emoji-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydbus-0.7.0[${PYTHON_USEDEP}]
-	dev-python/PyGObject[${PYTHON_USEDEP}]
+	>=dev-python/pygobject-3.34.0[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

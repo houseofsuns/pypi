@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/passlib-1.7[${PYTHON_USEDEP}]
 	>=dev-python/chardet-5.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.19[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-38.0[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

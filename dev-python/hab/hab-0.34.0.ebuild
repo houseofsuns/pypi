@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev json5"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-0.23[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

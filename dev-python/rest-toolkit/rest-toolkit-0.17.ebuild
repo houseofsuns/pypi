@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	tests? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/colander[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyramid-sqlalchemy[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pyramid_sqlalchemy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyramid-tm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

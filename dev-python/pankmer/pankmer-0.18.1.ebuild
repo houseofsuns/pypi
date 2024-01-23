@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/upsetplot[${PYTHON_USEDEP}]
+	dev-python/UpSetPlot[${PYTHON_USEDEP}]
 	dev-python/pybedtools[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

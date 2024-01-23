@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/aioredis[${PYTHON_USEDEP}] )
@@ -42,8 +42,8 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	server? ( dev-python/featurebyte-freeware[${PYTHON_USEDEP}] )
 	server? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/lazy-object-proxy-2.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/motor[${PYTHON_USEDEP}] )
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	server? ( dev-python/pdfkit[${PYTHON_USEDEP}] )
 	<dev-python/pyarrow-11.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	server? ( dev-python/pyhive[${PYTHON_USEDEP}] )
+	server? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]

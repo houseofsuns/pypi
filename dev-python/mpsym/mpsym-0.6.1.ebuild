@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MPSoC Symmetry Reduction [topver 0.6.2]"
+DESCRIPTION="MPSoC Symmetry Reduction [topver 0.6.2, newver 0.6.2]"
 
 HOMEPAGE="https://github.com/tud-ccc/mpsym"
 LICENSE="MIT"

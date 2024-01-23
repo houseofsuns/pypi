@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	query_fits? ( dev-python/requests[${PYTHON_USEDEP}] )
 	docs? ( dev-python/astropy-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/astropy_healpix[${PYTHON_USEDEP}] )
+	docs? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
 	docs? ( dev-python/healpy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	dev? ( dev-python/astropy_healpix[${PYTHON_USEDEP}] )
+	dev? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

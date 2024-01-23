@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/codetiming[${PYTHON_USEDEP}]
 	>=dev-python/flatdict-4.0.1[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
-	dev-python/levenshtein[${PYTHON_USEDEP}]
+	>=dev-python/Levenshtein-0.20.0[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
 	dev-python/osm-rawdata[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package for supporting the external loading and processing of OpenSignals electrophysiological acquisitions. [topver 0.6.13]"
+DESCRIPTION="A Python package for supporting the external loading and processing of OpenSignals electrophysiological acquisitions. [topver 0.6.13, newver 0.6.13]"
 
 HOMEPAGE="https://github.com/biosignalsplux/biosignalsnotebooks"
 LICENSE="MIT"
@@ -29,10 +29,10 @@ DEPENDENCIES="~dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]

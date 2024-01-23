@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/botocore-2.0[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
 	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-6.0[${PYTHON_USEDEP}]
 	<dev-python/backoff-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

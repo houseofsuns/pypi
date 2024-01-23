@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/platformdirs-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	build? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )

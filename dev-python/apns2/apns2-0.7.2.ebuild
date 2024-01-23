@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/hyper[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.7.2[${PYTHON_USEDEP}]
 	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

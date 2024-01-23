@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev geoip"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.8[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	geoip? ( ~dev-python/pycountry-17.5.14[${PYTHON_USEDEP}] )
 	geoip? ( dev-python/geoip2[${PYTHON_USEDEP}] )
 	geoip? ( dev-python/GeoIP[${PYTHON_USEDEP}] )"

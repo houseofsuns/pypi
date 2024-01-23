@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Adds social media features to any website [topver 1.0.1]"
+DESCRIPTION="Adds social media features to any website [topver 1.0.1, newver 1.0.1]"
 
 HOMEPAGE="https://github.com/gsteixeira"
 LICENSE="GNU License"

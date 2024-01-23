@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="shapely_support"
-DEPENDENCIES="shapely_support? ( dev-python/Shapely[${PYTHON_USEDEP}] )"
+DEPENDENCIES="shapely_support? ( >=dev-python/shapely-1.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

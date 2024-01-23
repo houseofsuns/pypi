@@ -28,8 +28,8 @@ DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
 	advanced? ( dev-python/llvmlite[${PYTHON_USEDEP}] )
 	advanced? ( dev-python/numba[${PYTHON_USEDEP}] )
-	advanced? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
-	advanced? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
+	advanced? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
+	advanced? ( dev-python/pywavelets[${PYTHON_USEDEP}] )
 	advanced? ( dev-python/scikit-fmm[${PYTHON_USEDEP}] )
 	advanced? ( dev-python/spgl1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

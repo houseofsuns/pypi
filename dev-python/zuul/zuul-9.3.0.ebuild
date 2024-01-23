@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test zuul_base"
 DEPENDENCIES=">=dev-python/GitPython-2.1.8[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/prettytable-0.8[${PYTHON_USEDEP}]
+	dev-python/pymysql[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	>=dev-python/APScheduler-3.0[${PYTHON_USEDEP}]
+	>=dev-python/Babel-1.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	<dev-python/cachecontrol-0.12.7[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
@@ -67,7 +67,7 @@ DEPENDENCIES=">=dev-python/GitPython-2.1.8[${PYTHON_USEDEP}]
 	>dev-python/virtualenv-20.0[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.10.2[${PYTHON_USEDEP}]
 	dev-python/ws4py[${PYTHON_USEDEP}]
-	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/fixtures-0.3.14[${PYTHON_USEDEP}] )

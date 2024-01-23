@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	dask? ( >=dev-python/dask-2023.4.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )

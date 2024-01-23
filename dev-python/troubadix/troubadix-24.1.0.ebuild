@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pontos[${PYTHON_USEDEP}]
 	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0[${PYTHON_USEDEP}]
 	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

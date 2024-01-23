@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/qdarkstyle[${PYTHON_USEDEP}]
 	dev-python/qtawesome[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/timechart[${PYTHON_USEDEP}]
 	doc? ( dev-python/docs-versions-menu[${PYTHON_USEDEP}] )
 	doc? ( dev-python/happi[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	test? ( dev-python/caproto[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/ipython-7.16[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
 	test? ( dev-python/pcdsdevices[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

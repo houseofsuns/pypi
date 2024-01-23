@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Wand[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/wand[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/cssselect[${PYTHON_USEDEP}]
 	dev-python/cssutils[${PYTHON_USEDEP}]
@@ -44,9 +44,9 @@ DEPENDENCIES="dev-python/Wand[${PYTHON_USEDEP}]
 	dev-python/pylatex[${PYTHON_USEDEP}]
 	dev-python/pylatexenc[${PYTHON_USEDEP}]
 	<dev-python/pyx-1.0.0[${PYTHON_USEDEP}]
-	dev-python/smpl_doc[${PYTHON_USEDEP}]
-	dev-python/smpl_io[${PYTHON_USEDEP}]
-	dev-python/smpl_util[${PYTHON_USEDEP}]
+	dev-python/smpl-doc[${PYTHON_USEDEP}]
+	dev-python/smpl-io[${PYTHON_USEDEP}]
+	dev-python/smpl-util[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/xsdata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

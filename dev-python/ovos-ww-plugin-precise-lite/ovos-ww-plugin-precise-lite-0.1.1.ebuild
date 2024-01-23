@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wake word plugin for OpenVoiceOS [topver 0.1.2]"
+DESCRIPTION="A wake word plugin for OpenVoiceOS [topver 0.1.2, newver 0.1.2]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-ww-plugin-precise-lite"
 LICENSE="Apache-2.0"

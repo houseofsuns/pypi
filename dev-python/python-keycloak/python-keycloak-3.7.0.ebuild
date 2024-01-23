@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/alabaster-0.8.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/commonmark-0.10.0[${PYTHON_USEDEP}] )
 	>=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]

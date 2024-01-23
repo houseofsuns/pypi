@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/httpx-sse[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

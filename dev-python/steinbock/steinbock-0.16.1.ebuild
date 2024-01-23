@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
 	dev-python/xtiff[${PYTHON_USEDEP}]
 	cellpose? ( dev-python/cellpose[${PYTHON_USEDEP}] )
-	deepcell? ( dev-python/deepcell[${PYTHON_USEDEP}] )
+	deepcell? ( dev-python/DeepCell[${PYTHON_USEDEP}] )
 	deepcell? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	imc? ( dev-python/readimc[${PYTHON_USEDEP}] )
 	napari? ( dev-python/napari[${PYTHON_USEDEP}] )"

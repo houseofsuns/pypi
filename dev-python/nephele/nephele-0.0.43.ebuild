@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/stdplus[${PYTHON_USEDEP}]
-	dev-python/stdplusAwsHelpers[${PYTHON_USEDEP}]
+	dev-python/stdplusawshelpers[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

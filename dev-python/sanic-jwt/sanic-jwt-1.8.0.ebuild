@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs"
 DEPENDENCIES="<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -41,7 +41,7 @@ DEPENDENCIES="devices-yamaha-yas-209? ( dev-python/async-upnp-client[${PYTHON_US
 	clients? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	exceptions? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	logging? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
-	devices-epd? ( dev-python/rpi-gpio[${PYTHON_USEDEP}] )
+	devices-epd? ( dev-python/RPi-GPIO[${PYTHON_USEDEP}] )
 	devices-epd? ( dev-python/spidev[${PYTHON_USEDEP}] )
 	clients? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
 	devices-yamaha-yas-209? ( dev-python/xmltodict[${PYTHON_USEDEP}] )"

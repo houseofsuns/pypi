@@ -27,7 +27,7 @@ IUSE="linchpin-wrapper notify-service-plugin openstack-client-plugin terraform-p
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
 	~dev-python/apache-libcloud-2.2.0[${PYTHON_USEDEP}]
 	dev-python/blaster[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pykwalify-1.6.0[${PYTHON_USEDEP}]

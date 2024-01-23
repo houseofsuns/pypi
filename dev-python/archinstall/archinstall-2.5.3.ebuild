@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Arch Linux installer - guided, templates etc. [topver 2.7.1]"
+DESCRIPTION="Arch Linux installer - guided, templates etc. [topver 2.7.1, newver 2.7.1]"
 
 HOMEPAGE=""
 LICENSE=""

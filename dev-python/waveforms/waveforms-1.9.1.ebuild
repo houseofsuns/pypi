@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	>=dev-python/ply-3.11[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-zopeext[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/antlr4-python3-runtime-4.12.0[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	full? ( >=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/portalocker-1.4.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/sqlalchemy-1.4.11[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}] )

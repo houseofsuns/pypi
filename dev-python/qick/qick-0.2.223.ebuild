@@ -27,6 +27,6 @@ IUSE="full"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pynq[${PYTHON_USEDEP}]
-	full? ( dev-python/pyro4[${PYTHON_USEDEP}] )"
+	full? ( dev-python/Pyro4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

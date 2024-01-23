@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/pytest-xdist[${PYTHON_USEDEP}]
 	dev-python/pytest-instafail[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/UnittestZero[${PYTHON_USEDEP}]
+	dev-python/unittestzero[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]"
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

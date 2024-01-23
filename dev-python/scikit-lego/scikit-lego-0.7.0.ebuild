@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all base cvxpy dev docs formulaic patsy test umap"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]
 	all? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/patsy-0.5.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/formulaic[${PYTHON_USEDEP}] )
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	base? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
-	base? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}] )
 	cvxpy? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-autorefs-0.5.0[${PYTHON_USEDEP}] )

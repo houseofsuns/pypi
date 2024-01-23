@@ -40,10 +40,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/absl-py[${PYTHON_USEDEP}] )
-	testing? ( dev-python/opt_einsum[${PYTHON_USEDEP}] )
+	testing? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pymlir[${PYTHON_USEDEP}] )
 	testing? ( dev-python/click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

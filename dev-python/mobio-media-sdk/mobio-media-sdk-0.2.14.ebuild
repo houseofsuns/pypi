@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/m-singleton[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/werkzeug[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/m-caching[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/confluent_kafka[${PYTHON_USEDEP}]
+	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/mobio-admin-sdk[${PYTHON_USEDEP}]
 	dev-python/m-filetypes[${PYTHON_USEDEP}]"

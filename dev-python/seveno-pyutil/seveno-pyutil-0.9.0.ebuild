@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/faker[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-spec[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

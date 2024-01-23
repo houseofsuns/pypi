@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	runtime? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/scipy[${PYTHON_USEDEP}] )

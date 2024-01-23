@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Asynchronous requests. Using concurrent.futures to make requests async(like Tomorrow), and some functions to make async-coding easy. read more :https://github.com/ClericPy/torequests [topver 6.0.0]"
+DESCRIPTION="Asynchronous requests. Using concurrent.futures to make requests async(like Tomorrow), and some functions to make async-coding easy. read more :https://github.com/ClericPy/torequests [topver 6.0.0, newver 6.0.0]"
 
 HOMEPAGE="https://github.com/ClericPy/torequests"
 LICENSE="MIT"

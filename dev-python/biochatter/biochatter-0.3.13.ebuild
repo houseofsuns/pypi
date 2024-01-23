@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="podcast streamlit xinference"
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pymupdf[${PYTHON_USEDEP}]
+	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	dev-python/pymilvus[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]

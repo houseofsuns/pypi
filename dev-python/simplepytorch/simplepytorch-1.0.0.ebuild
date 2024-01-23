@@ -32,7 +32,7 @@ DEPENDENCIES="ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pretrainedmodels[${PYTHON_USEDEP}]

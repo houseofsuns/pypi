@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="boto3storage"
 DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/pyprind[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.1.1[${PYTHON_USEDEP}]
+	dev-python/PyPrind[${PYTHON_USEDEP}]
 	dev-python/filemagic[${PYTHON_USEDEP}]
 	boto3storage? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	boto3storage? ( dev-python/boto3[${PYTHON_USEDEP}] )"

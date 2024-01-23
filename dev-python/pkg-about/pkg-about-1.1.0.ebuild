@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.2.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	doc? ( <dev-python/docutils-0.20[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )

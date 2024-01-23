@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.1.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/yamlable[${PYTHON_USEDEP}]
 	test? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )

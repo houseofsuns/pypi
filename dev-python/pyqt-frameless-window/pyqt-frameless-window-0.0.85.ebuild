@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]"
+	dev-python/QtPy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

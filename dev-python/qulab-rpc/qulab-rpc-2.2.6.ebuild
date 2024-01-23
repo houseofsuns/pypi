@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-18.0.1[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-zopeext[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )

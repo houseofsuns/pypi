@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,17 +28,17 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/ezdxf[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/splipy[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
+	dev-python/Splipy[${PYTHON_USEDEP}]
 	dev-python/frozenlist[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/svgwrite[${PYTHON_USEDEP}]
 	dev-python/pyhershey[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-coverage[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql sqlite"
-DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/TatSu[${PYTHON_USEDEP}]
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	sqlite? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/sb-json-tools[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-json[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]

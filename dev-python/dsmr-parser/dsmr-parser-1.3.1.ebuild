@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/Tailer[${PYTHON_USEDEP}]
+	dev-python/tailer[${PYTHON_USEDEP}]
 	dev-python/dlms-cosem[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

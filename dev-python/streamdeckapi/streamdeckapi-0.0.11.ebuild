@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/jsonpickle-3.0.1[${PYTHON_USEDEP}]
 	dev-python/streamdeck[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/cairosvg[${PYTHON_USEDEP}]
+	dev-python/CairoSVG[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/alphaPredict[${PYTHON_USEDEP}]
-	dev-python/getSequence[${PYTHON_USEDEP}]"
+	dev-python/alphapredict[${PYTHON_USEDEP}]
+	dev-python/getsequence[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

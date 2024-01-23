@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	doc? ( >dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	doc? ( <=dev-python/sphinx-gallery-0.7.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
 	doc? ( >dev-python/sphinx-copybutton-0.2.9[${PYTHON_USEDEP}] )

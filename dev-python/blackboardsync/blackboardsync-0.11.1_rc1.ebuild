@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="package test"
-DEPENDENCIES="dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/PyQt5-5.15.10[${PYTHON_USEDEP}]
+	>=dev-python/PyQtWebEngine-5.15.6[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pathvalidate-3.1.0[${PYTHON_USEDEP}]

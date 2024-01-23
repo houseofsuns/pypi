@@ -31,8 +31,8 @@ DEPENDENCIES=">=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]
 	>=dev-python/python-openstackclient-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
 	>=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/prettytable-0.8[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/osc-lib-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

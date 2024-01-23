@@ -27,11 +27,11 @@ IUSE="dev docs"
 DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/soprano[${PYTHON_USEDEP}]
+	dev-python/Soprano[${PYTHON_USEDEP}]
 	dev-python/lark[${PYTHON_USEDEP}]
 	dev-python/qutip[${PYTHON_USEDEP}]
 	dev-python/pybind11[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

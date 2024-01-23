@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	table? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	table? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
 	table? ( >=dev-python/thrift-0.11.0[${PYTHON_USEDEP}] )
-	table? ( dev-python/pyhive[${PYTHON_USEDEP}] )
+	table? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	table? ( dev-python/pyodps[${PYTHON_USEDEP}] )
 	table? ( dev-python/sasl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

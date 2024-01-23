@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/render-engine-tailwindcss[${PYTHON_USEDEP}]
 	dev-python/render-engine-markdown[${PYTHON_USEDEP}]
 	dev-python/render-engine[${PYTHON_USEDEP}]

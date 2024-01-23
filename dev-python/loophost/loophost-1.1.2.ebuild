@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Loophost: for a better local dev [topver 1.2.11]"
+DESCRIPTION="Loophost: for a better local dev [topver 1.2.11, newver 1.2.11]"
 
 HOMEPAGE="https://loophost.dev"
 LICENSE="Apache-2.0"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/certbot[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/fling-cli[${PYTHON_USEDEP}]
 	dev-python/fling-start[${PYTHON_USEDEP}]
 	dev-python/lastversion[${PYTHON_USEDEP}]

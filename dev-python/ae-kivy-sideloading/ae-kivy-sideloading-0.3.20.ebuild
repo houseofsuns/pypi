@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/kivy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Kivy[${PYTHON_USEDEP}]
 	dev-python/ae-files[${PYTHON_USEDEP}]
 	dev-python/ae-i18n[${PYTHON_USEDEP}]
 	dev-python/ae-sideloading-server[${PYTHON_USEDEP}]

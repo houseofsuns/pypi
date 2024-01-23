@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/django-crum[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/edx-celeryutils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

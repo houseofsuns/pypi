@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/django-json-widget[${PYTHON_USEDEP}]
-	dev-python/django-polymorphic[${PYTHON_USEDEP}]
+	<dev-python/django_polymorphic-4.0.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-polymorphic[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/drf-yasg[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/nwon-baseline[${PYTHON_USEDEP}]"
+	dev-python/nwon_baseline[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

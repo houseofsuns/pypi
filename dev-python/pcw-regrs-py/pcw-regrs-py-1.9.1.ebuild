@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="example"
-DEPENDENCIES="dev-python/pycw_fn[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pycw-fn[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10[${PYTHON_USEDEP}]
 	example? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

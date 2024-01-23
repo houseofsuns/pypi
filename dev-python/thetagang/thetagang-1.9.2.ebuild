@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-log-0.5.0[${PYTHON_USEDEP}]
-	dev-python/ib_insync[${PYTHON_USEDEP}]
+	dev-python/ib-insync[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytimeparse-2.0.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]

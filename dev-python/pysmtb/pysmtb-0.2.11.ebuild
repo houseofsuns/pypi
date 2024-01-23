@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	exr? ( dev-python/openexr[${PYTHON_USEDEP}] )
+	exr? ( dev-python/OpenEXR[${PYTHON_USEDEP}] )
 	iv? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	rendering? ( dev-python/PyQt5[${PYTHON_USEDEP}] )

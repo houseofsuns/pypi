@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cellpose czi dev jobqueue mpi"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/dask-2022.1.1[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]

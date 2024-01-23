@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	dev-python/mysql-replication[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	~dev-python/pymysql-1.1[${PYTHON_USEDEP}]
 	dev-python/plpygis[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
 	test? ( ~dev-python/nose-1.3[${PYTHON_USEDEP}] )

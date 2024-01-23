@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aafiguresupport mathsupport plantumlsupport rawhtmlsupport sphinx svgsupport tests"
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	rawhtmlsupport? ( dev-python/xhtml2pdf[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	svgsupport? ( dev-python/svglib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	tests? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

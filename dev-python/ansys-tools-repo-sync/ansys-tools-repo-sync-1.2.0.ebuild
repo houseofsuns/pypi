@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc tests"
 DEPENDENCIES=">=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	>=dev-python/PyGithub-1.58[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
@@ -37,6 +37,6 @@ DEPENDENCIES=">=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/PyGithub-2.1.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/gitpython[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/GitPython-3.1.37[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

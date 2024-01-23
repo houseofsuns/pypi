@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/setuptools-58.5.3[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.37.0[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	dev-python/flask-restful[${PYTHON_USEDEP}]
+	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	>=dev-python/waitress-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

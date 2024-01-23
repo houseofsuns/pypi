@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django model field that combines the functionality of GenericForeignKey and FileField [topver 3.0.1]"
+DESCRIPTION="Django model field that combines the functionality of GenericForeignKey and FileField [topver 3.0.1, newver 3.0.1]"
 
 HOMEPAGE="https://github.com/theatlantic/django-generic-plus"
 LICENSE="BSD"

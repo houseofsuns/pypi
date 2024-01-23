@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}]
 	<dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/mkdocs-autorefs-0.5.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

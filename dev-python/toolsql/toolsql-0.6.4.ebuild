@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev-python/toolstr[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	<dev-python/aiosqlite-0.19[${PYTHON_USEDEP}]

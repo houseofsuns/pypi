@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.31.1[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

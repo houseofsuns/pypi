@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	testing? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )

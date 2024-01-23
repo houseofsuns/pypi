@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pydot-1.4.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
 	docs? ( dev-python/releases[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

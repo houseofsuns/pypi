@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/google-cloud-monitoring[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/google-cloud-datacatalog[${PYTHON_USEDEP}]
-	dev-python/pyYAML[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

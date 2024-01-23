@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	dev-python/markdown[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]"

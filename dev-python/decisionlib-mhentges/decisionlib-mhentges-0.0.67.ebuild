@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Taskcluster task-builder [topver 0.0.68]"
+DESCRIPTION="Taskcluster task-builder [topver 0.0.68, newver 0.0.68]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/arrow-0.13.1[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-2.1.11[${PYTHON_USEDEP}]
 	dev-python/json-e[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/taskcluster[${PYTHON_USEDEP}]"

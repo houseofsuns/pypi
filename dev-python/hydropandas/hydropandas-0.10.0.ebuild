@@ -56,13 +56,13 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	rtd? ( dev-python/hydropandas[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/imod[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/requests[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	rtd? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	rtd? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	rtd? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/Ipython[${PYTHON_USEDEP}] )
+	rtd? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

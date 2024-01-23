@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-5.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/furo-2022.4.7[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )

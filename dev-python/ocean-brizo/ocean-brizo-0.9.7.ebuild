@@ -27,8 +27,8 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/ocean-utils[${PYTHON_USEDEP}]
 	dev-python/ocean-keeper[${PYTHON_USEDEP}]
 	dev-python/ocean-secret-store-client[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	~dev-python/flask-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.6[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/flask-swagger[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/ocean-utils[${PYTHON_USEDEP}]
 	dev-python/osmosis-driver-interface[${PYTHON_USEDEP}]
 	dev-python/osmosis-on-premise-driver[${PYTHON_USEDEP}]
 	dev-python/osmosis-ipfs-driver[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.15.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pkginfo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

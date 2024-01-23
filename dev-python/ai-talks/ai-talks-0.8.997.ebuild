@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pip-23.1[${PYTHON_USEDEP}]
 	dev-python/streamlit-chat[${PYTHON_USEDEP}]
 	dev-python/streamlit-option-menu[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/gtts[${PYTHON_USEDEP}]
+	dev-python/gTTS[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/streamlit-bokeh-events[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]"

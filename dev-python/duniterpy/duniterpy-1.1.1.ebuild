@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
-	dev-python/pypeg2[${PYTHON_USEDEP}]
+	dev-python/pyPEG2[${PYTHON_USEDEP}]
 	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	~dev-python/libnacl-1.8.0[${PYTHON_USEDEP}]

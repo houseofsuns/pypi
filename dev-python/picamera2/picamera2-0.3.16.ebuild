@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
-DEPENDENCIES="dev-python/PiDNG[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pidng[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/piexif[${PYTHON_USEDEP}]

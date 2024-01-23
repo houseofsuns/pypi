@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pyramid[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-7.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )

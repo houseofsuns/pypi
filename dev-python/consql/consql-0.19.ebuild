@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/libdev[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.8.3[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

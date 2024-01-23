@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

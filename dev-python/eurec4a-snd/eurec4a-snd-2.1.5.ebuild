@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pillow-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
 	dev-python/basemap[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/metpy[${PYTHON_USEDEP}]"
+	>=dev-python/netcdf4-1.4.0[${PYTHON_USEDEP}]
+	dev-python/MetPy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

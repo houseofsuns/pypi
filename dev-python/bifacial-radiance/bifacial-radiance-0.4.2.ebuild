@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pySMARTS[${PYTHON_USEDEP}] )
+	all? ( dev-python/pysmarts[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autoapi-1.1.0[${PYTHON_USEDEP}] )

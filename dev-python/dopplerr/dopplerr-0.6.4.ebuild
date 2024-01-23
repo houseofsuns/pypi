@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/apsw[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]

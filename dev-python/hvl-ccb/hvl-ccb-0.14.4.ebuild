@@ -30,16 +30,16 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/pymodbus[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	dev-python/pyvisa-py[${PYTHON_USEDEP}]
-	dev-python/pyvisa[${PYTHON_USEDEP}]
+	dev-python/PyVISA-py[${PYTHON_USEDEP}]
+	dev-python/PyVISA[${PYTHON_USEDEP}]
 	>=dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/hvl-ccb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-23.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-5.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipdb-0.13.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.19.0[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/watchdog-1.0.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
 	labjack? ( dev-python/labjack-ljm[${PYTHON_USEDEP}] )
-	picotech? ( dev-python/PicoSDK[${PYTHON_USEDEP}] )
+	picotech? ( dev-python/picosdk[${PYTHON_USEDEP}] )
 	tiepie? ( dev-python/python-libtiepie-bi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

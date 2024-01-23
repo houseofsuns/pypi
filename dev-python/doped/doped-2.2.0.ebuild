@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/tabulate[${PYTHON_USEDEP}]
 	analysis? ( dev-python/nonrad[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/pycairo[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-mpl-0.16.1[${PYTHON_USEDEP}] )"

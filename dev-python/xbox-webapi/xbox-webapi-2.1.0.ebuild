@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_mdinclude[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

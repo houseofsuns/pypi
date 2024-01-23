@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all base dev executor integration-tests kafka slack snowflake_tag_propagation tag_propagation teams term_propagation"
 DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
 	dev-python/stackprinter[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	all? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	all? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/acryl-datahub[${PYTHON_USEDEP}] )
 	all? ( dev-python/docker[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymsteams[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	base? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	base? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	base? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	base? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	base? ( dev-python/docker[${PYTHON_USEDEP}] )
 	base? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/click-6.0.0[${PYTHON_USEDEP}] )
@@ -97,7 +97,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-dataclasses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymsteams[${PYTHON_USEDEP}] )
@@ -126,7 +126,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	executor? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	executor? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	executor? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	executor? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	executor? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	executor? ( dev-python/docker[${PYTHON_USEDEP}] )
 	executor? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	executor? ( >=dev-python/click-6.0.0[${PYTHON_USEDEP}] )
@@ -143,7 +143,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	kafka? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	kafka? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	kafka? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/docker[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	kafka? ( >=dev-python/click-6.0.0[${PYTHON_USEDEP}] )
@@ -155,7 +155,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	slack? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	slack? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	slack? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	slack? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	slack? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	slack? ( dev-python/docker[${PYTHON_USEDEP}] )
 	slack? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	slack? ( >=dev-python/click-6.0.0[${PYTHON_USEDEP}] )
@@ -168,7 +168,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	snowflake_tag_propagation? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	snowflake_tag_propagation? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	snowflake_tag_propagation? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	snowflake_tag_propagation? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	snowflake_tag_propagation? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	snowflake_tag_propagation? ( dev-python/acryl-datahub[${PYTHON_USEDEP}] )
 	snowflake_tag_propagation? ( dev-python/docker[${PYTHON_USEDEP}] )
 	snowflake_tag_propagation? ( dev-python/tabulate[${PYTHON_USEDEP}] )
@@ -181,7 +181,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	tag_propagation? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	tag_propagation? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	tag_propagation? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	tag_propagation? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	tag_propagation? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	tag_propagation? ( dev-python/docker[${PYTHON_USEDEP}] )
 	tag_propagation? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	tag_propagation? ( >=dev-python/click-6.0.0[${PYTHON_USEDEP}] )
@@ -193,7 +193,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	teams? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	teams? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	teams? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	teams? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	teams? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	teams? ( dev-python/docker[${PYTHON_USEDEP}] )
 	teams? ( dev-python/pymsteams[${PYTHON_USEDEP}] )
 	teams? ( dev-python/tabulate[${PYTHON_USEDEP}] )
@@ -206,7 +206,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	term_propagation? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	term_propagation? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	term_propagation? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	term_propagation? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	term_propagation? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	term_propagation? ( dev-python/docker[${PYTHON_USEDEP}] )
 	term_propagation? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	term_propagation? ( >=dev-python/click-6.0.0[${PYTHON_USEDEP}] )

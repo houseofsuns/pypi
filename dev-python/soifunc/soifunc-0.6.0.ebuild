@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/vapoursynth[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/VapourSynth[${PYTHON_USEDEP}]
 	dev-python/vstools[${PYTHON_USEDEP}]
 	dev-python/vsscale[${PYTHON_USEDEP}]
 	dev-python/vsdenoise[${PYTHON_USEDEP}]

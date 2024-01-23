@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dataclasses dev pydantic"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dataclasses? ( dev-python/dacite[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )

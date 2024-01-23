@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pyserial-2.7[${PYTHON_USEDEP}]
-	dev-python/pysimplegui[${PYTHON_USEDEP}]"
+	dev-python/PySimpleGUI[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

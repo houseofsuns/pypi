@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/flask-2.0[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

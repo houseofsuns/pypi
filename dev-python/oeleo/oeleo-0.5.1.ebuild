@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/peewee-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
-	dev-python/Fabric[${PYTHON_USEDEP}]
+	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/SharePlum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

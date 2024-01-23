@@ -49,7 +49,7 @@ DEPENDENCIES="dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-clarity[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

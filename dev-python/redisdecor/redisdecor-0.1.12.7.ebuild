@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cython-3.0.4[${PYTHON_USEDEP}]
 	>=dev-python/hiredis-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.5.5[${PYTHON_USEDEP}]
 	dev-python/serializor[${PYTHON_USEDEP}]"

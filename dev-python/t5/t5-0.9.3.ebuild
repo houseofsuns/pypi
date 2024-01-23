@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Text-to-text transfer transformer [topver 0.9.4]"
+DESCRIPTION="Text-to-text transfer transformer [topver 0.9.4, newver 0.9.4]"
 
 HOMEPAGE="http://github.com/google-research/text-to-text-transfer-transformer"
 LICENSE="Apache-2.0"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cache-tasks gcp test"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
 	dev-python/gin-config[${PYTHON_USEDEP}]
 	dev-python/mesh-tensorflow[${PYTHON_USEDEP}]

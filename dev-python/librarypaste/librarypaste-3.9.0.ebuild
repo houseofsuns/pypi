@@ -27,7 +27,7 @@ IUSE="docs testing"
 DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/genshi[${PYTHON_USEDEP}]
 	dev-python/cherrypy[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/jaraco-functools-1.15[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-ruff[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pymongo-3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jaraco-mongodb[${PYTHON_USEDEP}] )
-	testing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	testing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

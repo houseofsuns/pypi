@@ -27,6 +27,6 @@ IUSE="autocompletion yaml"
 DEPENDENCIES=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
 	autocompletion? ( <dev-python/argcomplete-3.0[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYaml[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

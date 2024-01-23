@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/geemap[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/owslib[${PYTHON_USEDEP}]
-	dev-python/scienceplots[${PYTHON_USEDEP}]
+	dev-python/SciencePlots[${PYTHON_USEDEP}]
 	dev-python/meteostat[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

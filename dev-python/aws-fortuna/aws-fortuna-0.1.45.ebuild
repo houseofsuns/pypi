@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/flax[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-cpu[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )

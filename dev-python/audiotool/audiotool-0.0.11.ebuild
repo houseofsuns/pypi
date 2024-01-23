@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyannote-audio[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/rotary_embedding_torch[${PYTHON_USEDEP}]
+	dev-python/rotary-embedding-torch[${PYTHON_USEDEP}]
 	dev-python/modelscope[${PYTHON_USEDEP}]
 	dev-python/funasr[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]"

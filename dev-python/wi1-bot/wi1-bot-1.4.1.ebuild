@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
 	dev-python/pyarr[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )

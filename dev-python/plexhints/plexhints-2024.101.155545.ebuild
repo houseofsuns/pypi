@@ -28,10 +28,10 @@ DEPENDENCIES="~dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.4[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.19.2[${PYTHON_USEDEP}]
-	dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/demjson3[${PYTHON_USEDEP}]
 	~dev-python/feedparser-6.0.11[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/requests-cache-1.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

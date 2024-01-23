@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pyquil[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

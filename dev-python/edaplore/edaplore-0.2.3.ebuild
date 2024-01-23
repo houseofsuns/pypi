@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EDA helper [topver 0.3.26]"
+DESCRIPTION="EDA helper [topver 0.3.26, newver 0.3.26]"
 
 HOMEPAGE="https://github.com/mzabelin8/explore_hse"
 LICENSE="MIT"

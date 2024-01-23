@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/py-asciimath[${PYTHON_USEDEP}]
 	dev-python/inscriptis[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/resiliparse[${PYTHON_USEDEP}]
+	dev-python/Resiliparse[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

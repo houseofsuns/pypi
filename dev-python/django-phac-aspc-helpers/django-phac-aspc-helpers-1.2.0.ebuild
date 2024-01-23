@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-4.1[${PYTHON_USEDEP}]
 	dev-python/django-modeltranslation[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
 	dev-python/django-axes[${PYTHON_USEDEP}]

@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/asn1crypto-1.5.0[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/certomancer[${PYTHON_USEDEP}] )
-	web-api? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	web-api? ( >=dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}] )
 	web-api? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

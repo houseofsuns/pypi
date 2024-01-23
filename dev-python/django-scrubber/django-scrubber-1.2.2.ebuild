@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django-model-utils[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]"
+	>=dev-python/Faker-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

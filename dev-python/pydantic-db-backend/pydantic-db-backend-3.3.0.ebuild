@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="couchdb mongodb"
 DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
-	couchdb? ( dev-python/couchdb[${PYTHON_USEDEP}] )
+	couchdb? ( dev-python/CouchDB[${PYTHON_USEDEP}] )
 	mongodb? ( <dev-python/pymongo-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/pydash[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]

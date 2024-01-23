@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The kwcoco module and cli for image datasets [topver 0.7.5]"
+DESCRIPTION="The kwcoco module and cli for image datasets [topver 0.7.5, newver 0.7.5]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/kwcoco"
 LICENSE="Apache-2.0"
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	all? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/rich-12.3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ijson-3.1.4[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	all? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/delayed-image[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwarray[${PYTHON_USEDEP}] )
@@ -97,7 +97,7 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/rich-12.3.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/ijson-3.1.4[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	all-strict? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -180,8 +180,8 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	optional? ( >=dev-python/sqlalchemy-1.4.26[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/ujson-5.2.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/rich-argparse[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
-	postgresql-strict? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	postgresql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
+	postgresql-strict? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	postgresql-strict? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	postgresql-strict? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

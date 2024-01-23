@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/ansys-mapdl-core[${PYTHON_USEDEP}]
 	dev-python/pyansys-tools-versioning[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-mapdl-core[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-mapdl-reader[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/jupyterlab-4.0.4[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )

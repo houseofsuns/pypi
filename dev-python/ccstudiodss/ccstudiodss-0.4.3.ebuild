@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev? ( dev-python/gitignoreio[${PYTHON_USEDEP}] )
-	java? ( dev-python/jpype1[${PYTHON_USEDEP}] )
+	java? ( dev-python/JPype1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

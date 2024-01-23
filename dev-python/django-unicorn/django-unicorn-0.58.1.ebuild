@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.1.1[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
 	minify? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )

@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/deemix[${PYTHON_USEDEP}]
 	dev-python/PlexAPI[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.61.0[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]"
+	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	~dev-python/pymysql-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	~dev-python/joblib-0.16.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]"

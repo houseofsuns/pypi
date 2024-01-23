@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-19.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.35.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

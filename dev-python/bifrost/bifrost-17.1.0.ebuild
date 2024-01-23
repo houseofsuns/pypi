@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
 	>=dev-python/passlib-1.7.2[${PYTHON_USEDEP}]
 	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-18.0.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-39.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

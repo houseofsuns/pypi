@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	dev-python/meshkernel[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	<dev-python/netcdf4-2.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

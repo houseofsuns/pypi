@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -68,19 +68,19 @@ DEPENDENCIES=">=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/tox-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/geoviews[${PYTHON_USEDEP}] )
 	docs? ( dev-python/hvplot[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nc-time-axis[${PYTHON_USEDEP}] )
-	docs? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	docs? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/panel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pooch[${PYTHON_USEDEP}] )

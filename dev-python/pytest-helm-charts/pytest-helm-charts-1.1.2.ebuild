@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pykube-ng[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkapi[${PYTHON_USEDEP}] )
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

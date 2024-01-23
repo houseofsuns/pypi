@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="postgres test"
 DEPENDENCIES="~dev-python/alembic-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	~dev-python/flask-login-0.5.0[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
@@ -39,10 +39,10 @@ DEPENDENCIES="~dev-python/alembic-1.7.1[${PYTHON_USEDEP}]
 	dev-python/python-bitcoinlib[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.25[${PYTHON_USEDEP}]
 	dev-python/squeaklib[${PYTHON_USEDEP}]
 	dev-python/typed-config[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

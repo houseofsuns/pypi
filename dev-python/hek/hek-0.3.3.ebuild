@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyautogui[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/PyAutoGUI[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

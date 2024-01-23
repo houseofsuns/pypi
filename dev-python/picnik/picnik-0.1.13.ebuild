@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/derivative[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rxnmodel[${PYTHON_USEDEP}]
-	dev-python/picnik_integrator[${PYTHON_USEDEP}]"
+	dev-python/picnik-integrator[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

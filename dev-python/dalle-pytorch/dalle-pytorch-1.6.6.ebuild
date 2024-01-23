@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/axial-positional-embedding[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/youtokentome[${PYTHON_USEDEP}]
-	dev-python/WebDataset[${PYTHON_USEDEP}]"
+	dev-python/webdataset[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

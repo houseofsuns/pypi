@@ -37,9 +37,9 @@ DEPENDENCIES=">=dev-python/debtcollector-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-4.0.0[${PYTHON_USEDEP}]
 	bagpipe? ( dev-python/networking-bagpipe[${PYTHON_USEDEP}] )
 	horizon? ( dev-python/horizon[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebOb[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webob-1.8.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-2.0.27[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( dev-python/horizon[${PYTHON_USEDEP}] )

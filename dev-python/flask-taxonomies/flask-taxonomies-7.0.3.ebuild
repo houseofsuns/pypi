@@ -27,13 +27,13 @@ IUSE="migrate postgresql tests"
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/python-slugify[${PYTHON_USEDEP}]
 	dev-python/jsonpatch[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
 	dev-python/jsonpointer[${PYTHON_USEDEP}]
 	dev-python/LinkHeader[${PYTHON_USEDEP}]
-	dev-python/flask-principal[${PYTHON_USEDEP}]
+	dev-python/Flask-Principal[${PYTHON_USEDEP}]
 	dev-python/luqum[${PYTHON_USEDEP}]
 	migrate? ( dev-python/flask-migrate[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

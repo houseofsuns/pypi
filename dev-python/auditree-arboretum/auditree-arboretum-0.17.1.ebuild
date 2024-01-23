@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/auditree-framework[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/bandit-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.7.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"

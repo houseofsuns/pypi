@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/persistent[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/pyams-utils[${PYTHON_USEDEP}]
 	dev-python/pyams-zmq[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/pyramid-mailer[${PYTHON_USEDEP}]
+	dev-python/pyramid_mailer[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
 	dev-python/zope-annotation[${PYTHON_USEDEP}]

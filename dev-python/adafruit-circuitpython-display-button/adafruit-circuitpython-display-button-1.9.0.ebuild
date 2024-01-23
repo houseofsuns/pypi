@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="optional"
-DEPENDENCIES="dev-python/Adafruit-Blinka-displayio[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/adafruit-blinka-displayio[${PYTHON_USEDEP}]
 	dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-bitmap-font[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-display-text[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-display-shapes[${PYTHON_USEDEP}]
-	optional? ( dev-python/adafruit-circuitpython-ImageLoad[${PYTHON_USEDEP}] )"
+	optional? ( dev-python/adafruit-circuitpython-imageload[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

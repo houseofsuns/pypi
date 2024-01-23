@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

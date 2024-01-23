@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cs103 utils package [topver 0.3.6]"
+DESCRIPTION="cs103 utils package [topver 0.3.6, newver 0.3.6]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

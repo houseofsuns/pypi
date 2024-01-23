@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/dqsegdb2[${PYTHON_USEDEP}]
 	dev-python/MarkupPy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pycondor[${PYTHON_USEDEP}]
+	dev-python/PyCondor[${PYTHON_USEDEP}]
 	dev-python/python-ligo-lw[${PYTHON_USEDEP}]
 	conda? ( dev-python/omicron[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )

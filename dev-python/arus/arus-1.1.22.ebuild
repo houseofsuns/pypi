@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="demo dev metawear nn"
-DEPENDENCIES="dev? ( dev-python/dephell_versioning[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( dev-python/dephell-versioning[${PYTHON_USEDEP}] )
 	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev? ( dev-python/dephell_versioning[${PYTHON_USEDEP}] )
 	<dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}]
 	demo? ( dev-python/pymetawear[${PYTHON_USEDEP}] )
 	metawear? ( dev-python/pymetawear[${PYTHON_USEDEP}] )
-	demo? ( dev-python/pysimplegui[${PYTHON_USEDEP}] )
+	demo? ( dev-python/PySimpleGUI[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]

@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
 	dev-python/nulltype[${PYTHON_USEDEP}]
 	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]"
+	dev-python/Pint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

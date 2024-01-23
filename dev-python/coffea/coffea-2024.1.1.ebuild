@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	servicex? ( dev-python/servicex[${PYTHON_USEDEP}] )
 	servicex? ( dev-python/tenacity[${PYTHON_USEDEP}] )
 	spark? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	spark? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	spark? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

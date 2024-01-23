@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/py3rijndael[${PYTHON_USEDEP}]
 	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	develop? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

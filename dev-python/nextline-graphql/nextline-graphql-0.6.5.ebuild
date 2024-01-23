@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/apluggy[${PYTHON_USEDEP}]
 	>=dev-python/websockets-12.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/logging-tree[${PYTHON_USEDEP}] )
+	dev? ( dev-python/logging_tree[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

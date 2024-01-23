@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev ldap social"
 DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	~dev-python/django-4.2.5[${PYTHON_USEDEP}]
 	~dev-python/django-cors-headers-4.2.0[${PYTHON_USEDEP}]
 	dev-python/django-currentuser[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]

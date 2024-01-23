@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}]
 	dev-python/OSlash[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/QtPy-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Send2Trash[${PYTHON_USEDEP}]
+	<dev-python/send2trash-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiosignal-2.0.0[${PYTHON_USEDEP}]

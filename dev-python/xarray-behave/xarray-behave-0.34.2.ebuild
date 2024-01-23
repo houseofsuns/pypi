@@ -34,18 +34,18 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	dev-python/samplestamps[${PYTHON_USEDEP}]
-	dev-python/pysoundfile[${PYTHON_USEDEP}]
+	dev-python/PySoundFile[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gui? ( >dev-python/pyqtgraph-0.12.2[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyvideoreader[${PYTHON_USEDEP}] )
-	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	gui? ( dev-python/superqt[${PYTHON_USEDEP}] )
 	gui? ( dev-python/sounddevice[${PYTHON_USEDEP}] )
 	gui? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	gui? ( dev-python/defopt[${PYTHON_USEDEP}] )
 	gui? ( dev-python/colorcet[${PYTHON_USEDEP}] )
-	gui? ( dev-python/peakutils[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/PeakUtils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

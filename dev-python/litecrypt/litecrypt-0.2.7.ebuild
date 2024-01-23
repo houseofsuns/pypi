@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-41.0.0[${PYTHON_USEDEP}]
 	<dev-python/qrcode-8.0.0[${PYTHON_USEDEP}]
 	dev-python/ttkbootstrap[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

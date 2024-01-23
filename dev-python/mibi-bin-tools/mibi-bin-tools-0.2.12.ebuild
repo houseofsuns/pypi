@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-3.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]

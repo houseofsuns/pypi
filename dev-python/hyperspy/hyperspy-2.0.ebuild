@@ -27,12 +27,12 @@ IUSE="all coverage dev doc gui-jupyter gui-traitsui ipython learning speed tests
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	>=dev-python/dask-2021.3.1[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pooch[${PYTHON_USEDEP}]
 	>=dev-python/prettytable-2.3[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.5.0[${PYTHON_USEDEP}]
@@ -55,12 +55,12 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev? ( dev-python/hyperspy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hyperspy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hyperspy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	gui-jupyter? ( dev-python/hyperspy-gui-ipywidgets[${PYTHON_USEDEP}] )
 	gui-jupyter? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	gui-traitsui? ( dev-python/hyperspy-gui-traitsui[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	ipython? ( >dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
 	learning? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	speed? ( dev-python/numba[${PYTHON_USEDEP}] )

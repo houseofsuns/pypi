@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="3DN BIP allows blazingly fast image loads in Blender. [topver 1.0.11]"
+DESCRIPTION="3DN BIP allows blazingly fast image loads in Blender. [topver 1.0.11, newver 1.0.11]"
 
 HOMEPAGE="https://github.com/3dninjas/3dn-bip"
 LICENSE="GPL-3"
@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	dev-python/crc16[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/tonsdk[${PYTHON_USEDEP}]"

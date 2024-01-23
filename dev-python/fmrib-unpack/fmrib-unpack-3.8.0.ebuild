@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/fmrib-unpack-fmrib-config[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	demo? ( dev-python/bash-kernel[${PYTHON_USEDEP}] )
+	demo? ( dev-python/bash_kernel[${PYTHON_USEDEP}] )
 	demo? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	demo? ( dev-python/nbclassic[${PYTHON_USEDEP}] )
 	demo? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/fmrib-unpack-fmrib-config[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
 	test? ( dev-python/notedown[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )

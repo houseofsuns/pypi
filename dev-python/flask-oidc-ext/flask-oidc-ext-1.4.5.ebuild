@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/sphinx-2.0[${PYTHON_USEDEP}]
 	>=dev-python/sphinxcontrib-httpdomain-1.5.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
-	dev-python/sphinx-mdinclude[${PYTHON_USEDEP}]
+	dev-python/sphinx_mdinclude[${PYTHON_USEDEP}]
 	>=dev-python/picobox-2.2[${PYTHON_USEDEP}]
 	>=dev-python/deepmerge-0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

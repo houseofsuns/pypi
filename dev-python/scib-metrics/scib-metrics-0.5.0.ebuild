@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	test? ( dev-python/numba[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/scib[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/adjusttext[${PYTHON_USEDEP}] )
+	tutorial? ( dev-python/adjustText[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/goatools[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/harmony-pytorch[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/mygene[${PYTHON_USEDEP}] )

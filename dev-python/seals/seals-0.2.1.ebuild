@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	atari? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	atari? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	atari? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	atari? ( dev-python/autorom[${PYTHON_USEDEP}] )
-	atari? ( dev-python/shimmy[${PYTHON_USEDEP}] )
+	atari? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
+	atari? ( dev-python/Shimmy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -59,8 +59,8 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autorom[${PYTHON_USEDEP}] )
-	dev? ( dev-python/shimmy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Shimmy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-autodoc-typehints-1.21.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -94,7 +94,7 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	test? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	test? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	test? ( dev-python/autorom[${PYTHON_USEDEP}] )
-	test? ( dev-python/shimmy[${PYTHON_USEDEP}] )"
+	test? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
+	test? ( dev-python/Shimmy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for digital signing and verification of digital signatures in mail, PDF and XML documents. [topver 2.17.0]"
+DESCRIPTION="Library for digital signing and verification of digital signatures in mail, PDF and XML documents. [topver 2.17.0, newver 2.17.0]"
 
 HOMEPAGE="https://github.com/m32/endesive"
 LICENSE="MIT"
@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/asn1crypto[${PYTHON_USEDEP}]
 	dev-python/oscrypto[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pykcs11[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/PyKCS11[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]

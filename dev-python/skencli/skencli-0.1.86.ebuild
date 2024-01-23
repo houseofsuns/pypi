@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.10.26[${PYTHON_USEDEP}]
 	>=dev-python/docker-4.2.1[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]

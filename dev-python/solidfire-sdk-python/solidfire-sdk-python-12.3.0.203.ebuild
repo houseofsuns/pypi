@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/enum34[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-19.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
 	release? ( >=dev-python/twine-1.6.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )

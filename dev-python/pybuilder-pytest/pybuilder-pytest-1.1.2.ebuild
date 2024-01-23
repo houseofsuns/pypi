@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyBuilder Pytest Plugin [topver 1.1.3]"
+DESCRIPTION="PyBuilder Pytest Plugin [topver 1.1.3, newver 1.1.3]"
 
 HOMEPAGE="https://github.com/AlexeySanko/pybuilder_pytest"
 LICENSE="Apache-2.0"

@@ -27,7 +27,7 @@ IUSE="docs extra gpu testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
-	dev-python/pyfftw[${PYTHON_USEDEP}]
+	dev-python/pyFFTW[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/dask-2022.12.1[${PYTHON_USEDEP}]

@@ -16,8 +16,8 @@ DESCRIPTION="A set of utilities for group MediaWiki user actions into sessions."
 
 HOMEPAGE="http://github.com/mediawiki-utilities/python-mwsessions"
 LICENSE="The MIT License MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

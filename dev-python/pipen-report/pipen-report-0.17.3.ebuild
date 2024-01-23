@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pipen[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
 	dev-python/copier[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pipen-runinfo[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Shapely[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]

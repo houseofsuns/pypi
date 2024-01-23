@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	>=dev-python/pygments-1.6[${PYTHON_USEDEP}]
+	dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	docs? ( dev-python/robotframework[${PYTHON_USEDEP}] )
 	docs? ( dev-python/robotframework-selenium2library[${PYTHON_USEDEP}] )

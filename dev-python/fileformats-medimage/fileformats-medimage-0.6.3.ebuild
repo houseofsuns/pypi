@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/fileformats[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/fileformats-medimage-extras[${PYTHON_USEDEP}] )
 	test? ( dev-python/medimages4tests[${PYTHON_USEDEP}] )

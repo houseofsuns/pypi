@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/commonroad-io[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
-	dev-python/polygon3[${PYTHON_USEDEP}]
+	dev-python/Polygon3[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.6.4[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-62.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

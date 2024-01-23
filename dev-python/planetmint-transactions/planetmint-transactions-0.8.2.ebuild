@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/planetmint-cryptoconditions[${PYTHON_USEDEP}]
 	dev-python/planetmint-ipld[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/zenroom[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

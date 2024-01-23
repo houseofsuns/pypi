@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/lightargs[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

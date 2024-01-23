@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/connect-openapi-client[${PYTHON_USEDEP}]
 	<dev-python/Faker-16.0.0[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]"
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

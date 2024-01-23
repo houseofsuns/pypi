@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/kubernetes[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/python-hosts[${PYTHON_USEDEP}]
 	dev-python/beiboot[${PYTHON_USEDEP}]
 	dev-python/cli-tracker[${PYTHON_USEDEP}]"

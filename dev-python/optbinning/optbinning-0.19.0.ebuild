@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/ropwr[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
-	distributed? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	distributed? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/tdigest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

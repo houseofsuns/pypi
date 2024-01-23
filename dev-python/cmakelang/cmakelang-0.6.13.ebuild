@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="html-gen yaml"
 DEPENDENCIES=">=dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	yaml? ( >=dev-python/pyyaml-5.3[${PYTHON_USEDEP}] )
-	html-gen? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
+	html-gen? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

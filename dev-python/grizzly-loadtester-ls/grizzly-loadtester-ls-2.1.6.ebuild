@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci dev"
 DEPENDENCIES="dev-python/pygls[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
-	dev-python/random-word[${PYTHON_USEDEP}]
+	dev-python/Random-Word[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	ci? ( dev-python/build[${PYTHON_USEDEP}] )
 	ci? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pygls[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grizzly-loadtester[${PYTHON_USEDEP}] )

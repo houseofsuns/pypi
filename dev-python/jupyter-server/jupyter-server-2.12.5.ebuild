@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/anyio-3.1.0[${PYTHON_USEDEP}]
 	dev-python/argon2-cffi[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-client-7.4.4[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-core-4.12[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-events-0.9.0[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/anyio-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-5.6.0[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

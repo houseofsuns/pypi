@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pygame-ce[${PYTHON_USEDEP}]
 	dev-python/pygame-gui[${PYTHON_USEDEP}]
 	dev-python/pymunk[${PYTHON_USEDEP}]
-	dev-python/pysdl2[${PYTHON_USEDEP}]
+	>=dev-python/PySDL2-0.9.16[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

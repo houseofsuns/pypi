@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
-	dev-python/opentsne[${PYTHON_USEDEP}]
+	dev-python/openTSNE[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]

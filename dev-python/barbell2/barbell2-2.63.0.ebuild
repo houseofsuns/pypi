@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/pyopengl[${PYTHON_USEDEP}]
 	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/PyInstaller[${PYTHON_USEDEP}]
+	dev-python/pyinstaller[${PYTHON_USEDEP}]
 	dev-python/pynrrd[${PYTHON_USEDEP}]
 	dev-python/oauthlib[${PYTHON_USEDEP}]
 	dev-python/requests-oauthlib[${PYTHON_USEDEP}]"

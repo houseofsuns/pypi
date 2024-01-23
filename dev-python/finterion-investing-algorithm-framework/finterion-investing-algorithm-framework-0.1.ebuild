@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Official Finterion plugin for the investing algorithm framework [topver 0.13.1]"
+DESCRIPTION="Official Finterion plugin for the investing algorithm framework [topver 0.13.3, newver 0.13.3]"
 
 HOMEPAGE="https://github.com/finterion/finterion-investing-algorithm-framework.git"
 LICENSE="Apache-2.0"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/typish[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/scons[${PYTHON_USEDEP}] )
+	test? ( dev-python/SCons[${PYTHON_USEDEP}] )
 	test? ( dev-python/tzdata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

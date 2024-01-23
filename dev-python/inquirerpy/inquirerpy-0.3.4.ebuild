@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pfzy[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.16.0[${PYTHON_USEDEP}] )"

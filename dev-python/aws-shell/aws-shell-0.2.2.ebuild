@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-1.1.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/configobj-6.0.0[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]"
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

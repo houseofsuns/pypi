@@ -70,6 +70,6 @@ DEPENDENCIES="doc? ( dev-python/griffe-typingdoc[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-orjson[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

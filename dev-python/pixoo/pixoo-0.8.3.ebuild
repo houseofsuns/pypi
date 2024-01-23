@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-10.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

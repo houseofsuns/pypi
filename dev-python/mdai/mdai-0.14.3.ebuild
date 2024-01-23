@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/dicom2nifti[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

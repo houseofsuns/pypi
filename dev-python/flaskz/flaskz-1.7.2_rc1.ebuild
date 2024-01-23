@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ext"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	ext? ( >=dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}] )
 	ext? ( >=dev-python/paramiko-3.0.0[${PYTHON_USEDEP}] )"

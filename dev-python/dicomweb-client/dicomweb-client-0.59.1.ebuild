@@ -27,7 +27,7 @@ IUSE="gcp"
 DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.3[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	gcp? ( >=dev-python/google-auth-1.6[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-oauth[${PYTHON_USEDEP}] )"

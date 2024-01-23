@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/cdflib[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.4.4[${PYTHON_USEDEP}]
@@ -34,9 +34,9 @@ DEPENDENCIES="dev-python/cdflib[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.11.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/nox-2022.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-tabs-3.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

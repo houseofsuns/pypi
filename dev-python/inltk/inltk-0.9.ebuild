@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/bottleneck[${PYTHON_USEDEP}]
 	dev-python/fastprogress[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/oyaml[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/pan-python[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/xmldiff[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]

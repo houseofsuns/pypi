@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/watermark[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )

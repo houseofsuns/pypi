@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
 DEPENDENCIES=">=dev-python/aniso8601-1.2.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	dev-python/language-tags[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/aniso8601-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/requests-cache-0.4.13[${PYTHON_USEDEP}]
 	~dev-python/rfc3986-0.4.1[${PYTHON_USEDEP}]
 	~dev-python/validators-0.11.2[${PYTHON_USEDEP}]
-	server? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/flask-0.12.1[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

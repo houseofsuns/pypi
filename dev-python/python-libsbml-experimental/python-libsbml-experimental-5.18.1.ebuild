@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LibSBML Python API [topver 5.20.2]"
+DESCRIPTION="LibSBML Python API [topver 5.20.2, newver 5.20.2]"
 
 HOMEPAGE="http://sbml.org"
 LICENSE="LGPL-3"

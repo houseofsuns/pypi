@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/pygit2[${PYTHON_USEDEP}]
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	typing? ( dev-python/typing_extensions[${PYTHON_USEDEP}] )
+	typing? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	typing? ( dev-python/nox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

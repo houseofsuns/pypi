@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for generating audio with neural networks [topver 0.4.3]"
+DESCRIPTION="Python package for generating audio with neural networks [topver 0.4.3, newver 0.4.3]"
 
 HOMEPAGE="https://github.com/ktonal/mimikit"
 LICENSE="GNU General Public License v3 GPLv3"

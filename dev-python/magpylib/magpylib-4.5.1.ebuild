@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	binder? ( dev-python/jupyterlab-myst[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )

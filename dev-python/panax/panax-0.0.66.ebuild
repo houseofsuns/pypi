@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/peewee[${PYTHON_USEDEP}]
 	dev-python/peewee-migrate[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/xmldict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

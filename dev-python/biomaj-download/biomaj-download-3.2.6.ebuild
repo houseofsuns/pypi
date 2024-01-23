@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BioMAJ download service [topver 3.2.11]"
+DESCRIPTION="BioMAJ download service [topver 3.2.11, newver 3.2.11]"
 
 HOMEPAGE="http://biomaj.genouest.org"
 LICENSE=""
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/biomaj-core[${PYTHON_USEDEP}]
 	dev-python/py-bcrypt[${PYTHON_USEDEP}]
 	~dev-python/pika-0.13.0[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/python-consul[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.0.18[${PYTHON_USEDEP}]

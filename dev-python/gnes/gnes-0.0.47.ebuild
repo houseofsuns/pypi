@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	all? ( dev-python/annoy[${PYTHON_USEDEP}] )
 	all? ( dev-python/flair[${PYTHON_USEDEP}] )
-	all? ( dev-python/peakutils[${PYTHON_USEDEP}] )
+	all? ( dev-python/PeakUtils[${PYTHON_USEDEP}] )
 	all? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/plyvel-1.0.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
@@ -41,9 +41,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytorch-transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/sklearn[${PYTHON_USEDEP}] )
-	all? ( dev-python/gputil[${PYTHON_USEDEP}] )
+	all? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	all? ( dev-python/imagehash[${PYTHON_USEDEP}] )
+	all? ( dev-python/ImageHash[${PYTHON_USEDEP}] )
 	all? ( dev-python/bert-serving-server[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/librosa[${PYTHON_USEDEP}] )
@@ -77,11 +77,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/psutil-5.6.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/gputil[${PYTHON_USEDEP}] )
+	test? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/pytorch-transformers[${PYTHON_USEDEP}] )
 	vision? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	vision? ( dev-python/imagehash[${PYTHON_USEDEP}] )
+	vision? ( dev-python/ImageHash[${PYTHON_USEDEP}] )
 	vision? ( dev-python/image[${PYTHON_USEDEP}] )
-	vision? ( dev-python/peakutils[${PYTHON_USEDEP}] )"
+	vision? ( dev-python/PeakUtils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

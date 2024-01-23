@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client for performing precommit analysis with Teamscale. [topver 9.1.2]"
+DESCRIPTION="Client for performing precommit analysis with Teamscale. [topver 9.1.2, newver 9.1.2]"
 
 HOMEPAGE="https://github.com/cqse/teamscale-cli"
 LICENSE="Apache-2.0"
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/teamscale-client[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-2.1.15[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
-	dev-python/nuitka[${PYTHON_USEDEP}]"
+	~dev-python/Nuitka-0.6.14.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

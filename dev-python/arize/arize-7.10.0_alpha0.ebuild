@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A helper library to interact with Arize AI APIs"
+DESCRIPTION="A helper library to interact with Arize AI APIs [newver 7.10.0b0]"
 
 HOMEPAGE=""
 LICENSE="BSD"
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/requests-futures-1.0.0[${PYTHON_USEDEP}]
 	autoembeddings? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
 	autoembeddings? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	autoembeddings? ( dev-python/torch[${PYTHON_USEDEP}] )
-	autoembeddings? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	autoembeddings? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	llm_evaluation? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	llm_evaluation? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	llm_evaluation? ( dev-python/rouge-score[${PYTHON_USEDEP}] )

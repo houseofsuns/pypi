@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-admin[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-celery[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

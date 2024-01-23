@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sqlalchemy-2.0.19[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}]

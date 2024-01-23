@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-0.6[${PYTHON_USEDEP}]
 	>=dev-python/pendulum-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyaes[${PYTHON_USEDEP}]
-	dev-python/pyDAL[${PYTHON_USEDEP}]
+	dev-python/pydal[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

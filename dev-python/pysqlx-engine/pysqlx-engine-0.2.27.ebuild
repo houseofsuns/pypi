@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pysqlx-core[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]"
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A short utility library for Python [topver 1.3.6]"
+DESCRIPTION="A short utility library for Python [topver 1.3.6, newver 1.3.6]"
 
 HOMEPAGE="https://github.com/clemoni/clemoni_utilities"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"

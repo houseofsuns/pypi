@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/cartopy[${PYTHON_USEDEP}]
+	dev-python/Cartopy[${PYTHON_USEDEP}]
 	dev-python/mapclassify[${PYTHON_USEDEP}]
 	dev-python/contextily[${PYTHON_USEDEP}]
 	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )

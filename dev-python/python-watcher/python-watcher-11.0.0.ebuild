@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pastedeploy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.5[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.5[${PYTHON_USEDEP}]
+	>=dev-python/APScheduler-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/croniter-0.3.20[${PYTHON_USEDEP}]
 	dev-python/futurist[${PYTHON_USEDEP}]
 	dev-python/gnocchiclient[${PYTHON_USEDEP}]

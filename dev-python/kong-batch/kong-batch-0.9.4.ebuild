@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	<dev-python/humanfriendly-9.0[${PYTHON_USEDEP}]
 	ipython? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/notifiers[${PYTHON_USEDEP}]
 	<dev-python/peewee-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]

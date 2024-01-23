@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.12[${PYTHON_USEDEP}]
 	dev-python/jabbar[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.7[${PYTHON_USEDEP}]
 	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	r? ( >=dev-python/cffi-1.14.5[${PYTHON_USEDEP}] )
 	r? ( >=dev-python/ipython-7.18.1[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	julia? ( dev-python/julia[${PYTHON_USEDEP}] )
 	julia? ( >=dev-python/pygments-2.6.1[${PYTHON_USEDEP}] )
 	migrate? ( >=dev-python/alembic-1.5.4[${PYTHON_USEDEP}] )
-	ot? ( dev-python/pot[${PYTHON_USEDEP}] )
+	ot? ( dev-python/POT[${PYTHON_USEDEP}] )
 	petab? ( dev-python/petab[${PYTHON_USEDEP}] )
 	plotly? ( >=dev-python/plotly-5.3.1[${PYTHON_USEDEP}] )
 	plotly? ( dev-python/kaleido[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	test_petab? ( dev-python/petabtests[${PYTHON_USEDEP}] )
 	webserver_dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	webserver_dash? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
-	webserver_flask? ( dev-python/flask-bootstrap[${PYTHON_USEDEP}] )
+	webserver_flask? ( dev-python/Flask-Bootstrap[${PYTHON_USEDEP}] )
 	webserver_flask? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
 	webserver_flask? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	yaml2sbml? ( dev-python/yaml2sbml[${PYTHON_USEDEP}] )"

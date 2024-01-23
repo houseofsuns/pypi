@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/mysqlclient[${PYTHON_USEDEP}]
-	dev-python/dbutils[${PYTHON_USEDEP}]
+	dev-python/DBUtils[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/gwdc-python[${PYTHON_USEDEP}]
 	dev-python/jwt[${PYTHON_USEDEP}]
 	dev-python/graphene-file-upload[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

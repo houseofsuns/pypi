@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/reportlab-3.6.11[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
-	dev-python/fontTools[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.43.1[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

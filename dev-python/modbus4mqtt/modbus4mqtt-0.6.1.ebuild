@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pymodbus[${PYTHON_USEDEP}]
 	>=dev-python/click-6.7[${PYTHON_USEDEP}]
-	dev-python/SungrowModbusTcpClient[${PYTHON_USEDEP}]"
+	dev-python/sungrowmodbustcpclient[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

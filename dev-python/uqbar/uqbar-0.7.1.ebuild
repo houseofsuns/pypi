@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	crypto? ( ~dev-python/pycryptodome-3.0[${PYTHON_USEDEP}] )
 	db? ( dev-python/pg8000[${PYTHON_USEDEP}] )
-	db? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	db? ( ~dev-python/pymysql-1.0[${PYTHON_USEDEP}] )
 	db? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	db? ( <dev-python/rdflib-8.0[${PYTHON_USEDEP}] )
 	efm? ( dev-python/holidays[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	esef? ( ~dev-python/tinycss2-1.0[${PYTHON_USEDEP}] )
 	objectmaker? ( ~dev-python/graphviz-0.0[${PYTHON_USEDEP}] )
 	webserver? ( <dev-python/cheroot-11.0[${PYTHON_USEDEP}] )
-	webserver? ( dev-python/CherryPy[${PYTHON_USEDEP}] )
+	webserver? ( ~dev-python/cherrypy-18.0[${PYTHON_USEDEP}] )
 	webserver? ( ~dev-python/tornado-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

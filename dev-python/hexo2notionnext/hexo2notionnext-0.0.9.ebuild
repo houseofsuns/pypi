@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/md2notion[${PYTHON_USEDEP}]
 	dev-python/notion[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

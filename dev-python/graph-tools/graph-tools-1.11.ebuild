@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/perlcompat[${PYTHON_USEDEP}]
-	dev-python/pytess[${PYTHON_USEDEP}]
+	dev-python/Pytess[${PYTHON_USEDEP}]
 	dev-python/tbdump[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

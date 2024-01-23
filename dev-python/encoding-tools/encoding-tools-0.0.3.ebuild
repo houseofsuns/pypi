@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]"
+	dev-python/unidecode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

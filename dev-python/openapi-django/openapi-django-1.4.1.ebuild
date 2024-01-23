@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2.6[${PYTHON_USEDEP}]
 	dev-python/djantic[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

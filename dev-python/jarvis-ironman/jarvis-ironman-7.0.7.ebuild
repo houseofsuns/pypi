@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Natural Language User Interface [topver 7.2.2]"
+DESCRIPTION="Natural Language User Interface [topver 7.2.2, newver 4.4]"
 
 HOMEPAGE="https://github.com/thevickypedia/Jarvis"
 LICENSE=""
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
-	dev-python/wave[${PYTHON_USEDEP}]
+	dev-python/Wave[${PYTHON_USEDEP}]
 	dev-python/pyttsx3[${PYTHON_USEDEP}]
 	dev-python/wikipedia[${PYTHON_USEDEP}]
 	dev-python/newsapi-python[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/timezonefinder[${PYTHON_USEDEP}]
 	dev-python/pyicloud[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/axju-jokes[${PYTHON_USEDEP}]
 	~dev-python/inflect-6.0.2[${PYTHON_USEDEP}]
 	dev-python/pywebostv[${PYTHON_USEDEP}]
@@ -53,19 +53,19 @@ DEPENDENCIES="~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	dev-python/googlehomepush[${PYTHON_USEDEP}]
-	dev-python/PyChromecast[${PYTHON_USEDEP}]
+	~dev-python/pychromecast-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
-	dev-python/SoundFile[${PYTHON_USEDEP}]
+	dev-python/soundfile[${PYTHON_USEDEP}]
 	~dev-python/deepdiff-6.2.3[${PYTHON_USEDEP}]
 	dev-python/pymyq[${PYTHON_USEDEP}]
 	~dev-python/docker-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/websockets-10.4[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	dev-python/webull[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.6.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full httpx requests"
-DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	full? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	httpx? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )

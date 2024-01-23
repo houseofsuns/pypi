@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Faker-15.3.4[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rstr[${PYTHON_USEDEP}]

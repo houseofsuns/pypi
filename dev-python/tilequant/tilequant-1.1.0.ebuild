@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-10.1[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	dev-python/sortedcollections[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]

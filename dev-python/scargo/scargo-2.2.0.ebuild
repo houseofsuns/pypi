@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/clang[${PYTHON_USEDEP}]
 	dev-python/conan[${PYTHON_USEDEP}]
 	~dev-python/docker-6.0.1[${PYTHON_USEDEP}]
 	dev-python/esptool[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/libclang[${PYTHON_USEDEP}]
 	dev-python/lizard[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/clang[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinxcontrib-plantuml-0.24.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

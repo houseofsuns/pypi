@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/chinese-calendar[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	dev-python/ctpwrapper[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	dev-python/Flask-Bootstrap[${PYTHON_USEDEP}]
-	dev-python/Flask-Compress[${PYTHON_USEDEP}]
+	>=dev-python/flask-compress-1.12[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/qesdk[${PYTHON_USEDEP}]
-	dev-python/quantstats[${PYTHON_USEDEP}]
+	dev-python/QuantStats[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.3.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/passlib-1.7.4[${PYTHON_USEDEP}]"

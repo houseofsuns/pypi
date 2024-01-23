@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter_core[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jupyter-core[${PYTHON_USEDEP}]
 	>=dev-python/nbconvert-5.6.1[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]

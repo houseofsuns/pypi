@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neon Messagebus Module"
+DESCRIPTION="Neon Messagebus Module [newver 2.0.2a3]"
 
 HOMEPAGE="https://github.com/NeonGeckoCom/neon_messagebus"
 LICENSE="BSD"

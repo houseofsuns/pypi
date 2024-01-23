@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/ai2thor[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	~dev-python/typeguard-3.0.2[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.8.5[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-6.3.0[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -40,22 +40,22 @@ DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-14.0[${PYTHON_USEDEP}]
 	~dev-python/py-cpuinfo-9.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.5[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31[${PYTHON_USEDEP}]
 	~dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-scm-7.1[${PYTHON_USEDEP}]
-	dev-python/shapelets_native[${PYTHON_USEDEP}]
+	dev-python/shapelets-native[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9[${PYTHON_USEDEP}]
 	~dev-python/tomlkit-0.12[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.23[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.5[${PYTHON_USEDEP}]
 	~dev-python/websockets-10.3[${PYTHON_USEDEP}]
 	~dev-python/lockfile-0.12[${PYTHON_USEDEP}]
-	dev-python/python_daemon[${PYTHON_USEDEP}]
+	>=dev-python/python-daemon-2.3.2[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17[${PYTHON_USEDEP}]
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-0.13[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-applehelp-1.0.2[${PYTHON_USEDEP}] )

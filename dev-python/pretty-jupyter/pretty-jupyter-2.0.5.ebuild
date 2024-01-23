@@ -27,8 +27,8 @@ IUSE="all dev docs test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.1[${PYTHON_USEDEP}]
 	<dev-python/nbconvert-7.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/ipython-genutils[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/ipython_genutils-0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/cerberus-1.1[${PYTHON_USEDEP}]
 	all? ( dev-python/pretty-jupyter[${PYTHON_USEDEP}] )

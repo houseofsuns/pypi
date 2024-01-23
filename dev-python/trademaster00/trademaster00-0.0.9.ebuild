@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]

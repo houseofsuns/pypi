@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/Rx[${PYTHON_USEDEP}]
 	dev-python/google-cloud[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	~dev-python/tornado-5.0.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	~dev-python/python-ldap-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/websockets-5.0.1[${PYTHON_USEDEP}]
 	dev-python/findspark[${PYTHON_USEDEP}]"

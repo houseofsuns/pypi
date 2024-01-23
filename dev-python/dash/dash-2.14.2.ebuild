@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery ci compress dev diskcache testing"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.1[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.1[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	dev-python/dash-html-components[${PYTHON_USEDEP}]
 	dev-python/dash-core-components[${PYTHON_USEDEP}]
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	compress? ( dev-python/flask-compress[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fire[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )
 	diskcache? ( >=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}] )
 	diskcache? ( >=dev-python/multiprocess-0.70.12[${PYTHON_USEDEP}] )
 	diskcache? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )

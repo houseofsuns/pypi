@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="celery ci dev gunicorn gunicorn-extra ldap_authentication limit rtd sql websocket"
 DEPENDENCIES="~dev-python/trio-0.22.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
-	dev-python/Flask-Babel[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
+	~dev-python/flask-login-0.6.2[${PYTHON_USEDEP}]
+	~dev-python/flask-babel-3.0.1[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/flask-restx[${PYTHON_USEDEP}]
 	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	dev-python/Flask-Session[${PYTHON_USEDEP}]
-	dev-python/WTForms[${PYTHON_USEDEP}]
+	~dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/arrow-1.2.3[${PYTHON_USEDEP}]
 	~dev-python/pluginbase-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-4.3[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	~dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
-	dev-python/async-generator[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	dev-python/async_generator[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/python-pam-2.0.2[${PYTHON_USEDEP}]
-	celery? ( dev-python/Celery[${PYTHON_USEDEP}] )
+	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	celery? ( dev-python/redis[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -52,11 +52,11 @@ DEPENDENCIES="~dev-python/trio-0.22.0[${PYTHON_USEDEP}]
 	ci? ( dev-python/mock[${PYTHON_USEDEP}] )
 	ci? ( dev-python/mockredispy[${PYTHON_USEDEP}] )
 	ci? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
-	ci? ( dev-python/Celery[${PYTHON_USEDEP}] )
+	ci? ( dev-python/celery[${PYTHON_USEDEP}] )
 	ci? ( dev-python/redis[${PYTHON_USEDEP}] )
-	ci? ( dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}] )
-	ci? ( dev-python/Flask-Migrate[${PYTHON_USEDEP}] )
-	ci? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	ci? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
+	ci? ( dev-python/flask-migrate[${PYTHON_USEDEP}] )
+	ci? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -66,10 +66,10 @@ DEPENDENCIES="~dev-python/trio-0.22.0[${PYTHON_USEDEP}]
 	limit? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
 	limit? ( dev-python/redis[${PYTHON_USEDEP}] )
 	rtd? ( ~dev-python/sphinxcontrib-httpdomain-1.8.0[${PYTHON_USEDEP}] )
-	sql? ( dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}] )
-	sql? ( dev-python/Flask-Migrate[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
-	websocket? ( dev-python/flask-socketio[${PYTHON_USEDEP}] )
+	sql? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/flask-migrate-2.1.0[${PYTHON_USEDEP}] )
+	sql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
+	websocket? ( dev-python/Flask-SocketIO[${PYTHON_USEDEP}] )
 	websocket? ( dev-python/redis[${PYTHON_USEDEP}] )
 	websocket? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

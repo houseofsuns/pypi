@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/zhmcclient[${PYTHON_USEDEP}]
 	>=dev-python/pyrsistent-0.15.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.8[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.2[${PYTHON_USEDEP}]
 	dev-python/click-repl[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

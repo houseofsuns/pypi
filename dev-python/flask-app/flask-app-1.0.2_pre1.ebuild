@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/twine-1.13.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/flask-1.0.3[${PYTHON_USEDEP}]
+	~dev-python/flask-migrate-2.5.2[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-2.4.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Testing[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.10.3[${PYTHON_USEDEP}]"

@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.9[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	cf? ( dev-python/compliance-checker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -97,7 +97,7 @@ DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/dask[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

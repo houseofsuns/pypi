@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package provides a set of tools for accessing protein databases and manipulating PDB/CIF files. [topver 0.8.8]"
+DESCRIPTION="This package provides a set of tools for accessing protein databases and manipulating PDB/CIF files. [topver 0.8.8, newver 0.8.8]"
 
 HOMEPAGE="https://github.com/ilbsm/spyProt"
 LICENSE=""

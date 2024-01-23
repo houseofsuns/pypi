@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]

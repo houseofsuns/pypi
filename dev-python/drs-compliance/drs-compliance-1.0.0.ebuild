@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/python-json-logger-2.0.4[${PYTHON_USEDEP}]
 	~dev-python/structlog-21.5.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]

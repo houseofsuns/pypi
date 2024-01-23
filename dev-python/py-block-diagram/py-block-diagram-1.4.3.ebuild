@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/control[${PYTHON_USEDEP}]
 	dev-python/digcomp[${PYTHON_USEDEP}]
-	dev-python/krauss_misc[${PYTHON_USEDEP}]"
+	dev-python/krauss-misc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/json-strong-typing[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	trino? ( dev-python/aiotrino[${PYTHON_USEDEP}] )

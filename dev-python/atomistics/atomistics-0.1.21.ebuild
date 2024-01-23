@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
 	gpaw? ( dev-python/gpaw[${PYTHON_USEDEP}] )
 	lammps? ( dev-python/pylammpsmpi[${PYTHON_USEDEP}] )
-	lammps? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	lammps? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	lammps? ( <=dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
 	lammps_phonons? ( dev-python/pylammpsmpi[${PYTHON_USEDEP}] )
-	lammps_phonons? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	lammps_phonons? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	lammps_phonons? ( <=dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
 	lammps_phonons? ( dev-python/dynaphopy[${PYTHON_USEDEP}] )
 	phonopy? ( dev-python/phonopy[${PYTHON_USEDEP}] )

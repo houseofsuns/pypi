@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/canoser[${PYTHON_USEDEP}]
 	dev-python/libra-core[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+	dev-python/pynacl[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

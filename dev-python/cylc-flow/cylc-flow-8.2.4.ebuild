@@ -28,23 +28,23 @@ DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	<=dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/metomi-isodatetime[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-22.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-49.0[${PYTHON_USEDEP}]
 	~dev-python/urwid-2.0[${PYTHON_USEDEP}]
-	dev-python/rx[${PYTHON_USEDEP}]
+	dev-python/Rx[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
-	all? ( dev-python/EmPy[${PYTHON_USEDEP}] )
+	all? ( dev-python/empy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	all? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pandas-1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/async-generator[${PYTHON_USEDEP}] )
+	all? ( dev-python/async_generator[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-broken-line[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	all? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
@@ -70,17 +70,17 @@ DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
 	all? ( dev-python/types-six[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	empy? ( dev-python/EmPy[${PYTHON_USEDEP}] )
+	empy? ( dev-python/empy[${PYTHON_USEDEP}] )
 	graph? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	main_loop-log_data_store? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	main_loop-log_data_store? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	main_loop-log_data_store? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	main_loop-log_db? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
 	main_loop-log_main_loop? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	main_loop-log_memory? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	main_loop-log_memory? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	main_loop-log_memory? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	report-timings? ( ~dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	report-timings? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/async-generator[${PYTHON_USEDEP}] )
+	tests? ( dev-python/async_generator[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-broken-line[${PYTHON_USEDEP}] )
@@ -89,7 +89,7 @@ DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	tests? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )

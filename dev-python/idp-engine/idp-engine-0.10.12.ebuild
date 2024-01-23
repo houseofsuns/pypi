@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/textX-3.0.0[${PYTHON_USEDEP}]
 	dev-python/z3-solver[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/fast-html[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]

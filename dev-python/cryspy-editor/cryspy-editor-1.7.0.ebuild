@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cryspy[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

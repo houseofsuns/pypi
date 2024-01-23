@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bintrace pyinstaller"
-DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyside6-6.4.2[${PYTHON_USEDEP}]
 	dev-python/PySide6-QtAds[${PYTHON_USEDEP}]
-	dev-python/QtAwesome[${PYTHON_USEDEP}]
+	dev-python/qtawesome[${PYTHON_USEDEP}]
 	~dev-python/QtPy-2.3.0[${PYTHON_USEDEP}]
 	dev-python/angr[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]

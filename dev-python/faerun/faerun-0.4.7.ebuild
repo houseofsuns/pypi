@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/ujson-1.35[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
 	>=dev-python/colour-0.1.5[${PYTHON_USEDEP}]
-	dev-python/CherryPy[${PYTHON_USEDEP}]
+	>=dev-python/cherrypy-18.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-4.0[${PYTHON_USEDEP}]
 	dev-python/PyTurboJPEG[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

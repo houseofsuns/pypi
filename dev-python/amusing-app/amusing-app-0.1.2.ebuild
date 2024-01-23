@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/brotli[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]

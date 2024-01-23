@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/sgp4[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/timezonefinder[${PYTHON_USEDEP}]
-	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cython-0.29.24[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

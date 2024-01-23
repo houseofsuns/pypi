@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc interactive-plotting lint test"
-DEPENDENCIES="dev-python/cartopy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Cartopy[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/gdal[${PYTHON_USEDEP}]
+	dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/py_tools_ds[${PYTHON_USEDEP}]
+	dev-python/py-tools-ds[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	interactive-plotting? ( dev-python/folium[${PYTHON_USEDEP}] )
 	interactive-plotting? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	interactive-plotting? ( dev-python/holoviews[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	test? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	test? ( dev-python/dill[${PYTHON_USEDEP}] )
-	test? ( dev-python/gdal[${PYTHON_USEDEP}] )
+	test? ( dev-python/GDAL[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/py_tools_ds[${PYTHON_USEDEP}] )
+	test? ( dev-python/py-tools-ds[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	test? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -56,13 +56,13 @@ DEPENDENCIES="dev-python/cartopy[${PYTHON_USEDEP}]
 	lint? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-git[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gdal[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GDAL[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/py_tools_ds[${PYTHON_USEDEP}] )
+	dev? ( dev-python/py-tools-ds[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	dev? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/cartopy[${PYTHON_USEDEP}]
 	dev? ( dev-python/urlchecker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )"

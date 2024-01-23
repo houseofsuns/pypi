@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/igittigitt[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	dev-python/pyyaml-env-tag[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml_env_tag-0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/pymongo-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0[${PYTHON_USEDEP}]
-	dev-python/cached_property[${PYTHON_USEDEP}]"
+	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

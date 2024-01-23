@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	serve? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	serve? ( dev-python/tensorflow-serving-api[${PYTHON_USEDEP}] )
 	serve? ( dev-python/chalice[${PYTHON_USEDEP}] )
-	serve? ( dev-python/smart_open[${PYTHON_USEDEP}] )
+	serve? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Amin-QVM: Quantum Computing Library [topver 2.0.0]"
+DESCRIPTION="Amin-QVM: Quantum Computing Library [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://pypi.org/project/amin-qvm/"
 LICENSE=""
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/qiskit[${PYTHON_USEDEP}]
-	dev-python/pennylane[${PYTHON_USEDEP}]
+	dev-python/PennyLane[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/arduino[${PYTHON_USEDEP}]
 	dev-python/serial[${PYTHON_USEDEP}]"

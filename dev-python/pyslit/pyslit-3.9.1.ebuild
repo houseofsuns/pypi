@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/pyttsx3[${PYTHON_USEDEP}]
 	dev-python/pywhatkit[${PYTHON_USEDEP}]
 	dev-python/wikipedia[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

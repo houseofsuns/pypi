@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/confuse-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/termcolor-3.0.0[${PYTHON_USEDEP}]
 	dev-python/treestamps[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	dev-python/zipfile-deflate64[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

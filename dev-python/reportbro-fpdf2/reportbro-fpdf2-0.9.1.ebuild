@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple & fast PDF generation for Python [topver 2.7.4]"
+DESCRIPTION="Simple & fast PDF generation for Python [topver 2.7.4, newver 2.7.4]"
 
 HOMEPAGE="https://www.reportbro.com"
 LICENSE="LGPL-3+"
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/svg-path[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-6.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

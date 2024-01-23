@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/django-braces[${PYTHON_USEDEP}]
 	dev-python/django-handyhelpers[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]"
+	~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

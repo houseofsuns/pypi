@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cloudevents[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/rabbitmq-pika-flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

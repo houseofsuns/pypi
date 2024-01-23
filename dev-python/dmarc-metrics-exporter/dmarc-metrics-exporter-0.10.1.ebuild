@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bite-parser[${PYTHON_USEDEP}]
 	dev-python/dataclasses-serialization[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.20.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.26.0[${PYTHON_USEDEP}]
 	dev-python/xsdata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="aws dev k8s"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	k8s? ( dev-python/kubernetes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/rpy2[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/types-pyyaml[${PYTHON_USEDEP}]"
+	dev-python/types-PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/CFFI[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.0[${PYTHON_USEDEP}]
 	dev-python/pa-ringbuffer[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

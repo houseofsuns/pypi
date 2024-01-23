@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extended-testing"
-DEPENDENCIES="extended-testing? ( dev-python/faker[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+DEPENDENCIES="extended-testing? ( <dev-python/Faker-20.0.0[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/presidio-analyzer[${PYTHON_USEDEP}] )

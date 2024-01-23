@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/fcswrite[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
 	<dev-python/imageio-2.5.0[${PYTHON_USEDEP}]
-	dev-python/nptdms[${PYTHON_USEDEP}]
+	dev-python/npTDMS[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
-	dev-python/pyper[${PYTHON_USEDEP}]
+	dev-python/PypeR[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.13.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/chaco[${PYTHON_USEDEP}] )
 	gui? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	gui? ( dev-python/wxPython[${PYTHON_USEDEP}] )
+	gui? ( <dev-python/wxpython-4.0.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/kiwisolver[${PYTHON_USEDEP}] )
 	gui? ( dev-python/reportlab[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )

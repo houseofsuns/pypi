@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colanderalchemy[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ColanderAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/py3o-template[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/odswriter[${PYTHON_USEDEP}]

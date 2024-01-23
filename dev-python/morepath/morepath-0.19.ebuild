@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/webtest-2.0.14[${PYTHON_USEDEP}] )
 	pep8? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	pep8? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-remove-stale-bytecode[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/webtest-2.0.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

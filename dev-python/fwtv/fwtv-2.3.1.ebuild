@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev lint test"
 DEPENDENCIES="dev-python/factorialhr[${PYTHON_USEDEP}]
 	dev-python/outcome[${PYTHON_USEDEP}]
-	dev-python/pyside6-essentials[${PYTHON_USEDEP}]
+	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/trio[${PYTHON_USEDEP}]
 	dev? ( dev-python/fwtv[${PYTHON_USEDEP}] )

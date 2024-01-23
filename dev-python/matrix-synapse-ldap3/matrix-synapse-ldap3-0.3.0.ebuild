@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/twisted-15.1.0[${PYTHON_USEDEP}]
 	>=dev-python/ldap3-2.8[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
 	dev? ( dev-python/matrix-synapse[${PYTHON_USEDEP}] )

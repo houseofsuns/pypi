@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/Faker-15.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/Faker-15.0.0[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	dev-python/respx[${PYTHON_USEDEP}]
 	dev-python/returns[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	<dev-python/toolz-0.12.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/validators-0.20.0[${PYTHON_USEDEP}]"

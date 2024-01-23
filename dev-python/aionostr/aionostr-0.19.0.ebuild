@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-37.0.4[${PYTHON_USEDEP}]

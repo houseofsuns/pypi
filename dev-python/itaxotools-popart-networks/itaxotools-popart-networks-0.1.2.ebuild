@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/setuptools_scm[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

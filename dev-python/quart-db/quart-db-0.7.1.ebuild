@@ -29,8 +29,8 @@ DEPENDENCIES="sqlite? ( >=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )
 	dev-python/buildpg[${PYTHON_USEDEP}]
 	erdiagram? ( dev-python/eralchemy2[${PYTHON_USEDEP}] )
 	erdiagram? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
-	dev-python/quart[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev-python/Quart[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,10 +32,10 @@ DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
 	robotframework? ( dev-python/polars[${PYTHON_USEDEP}] )
 	robotframework? ( >=dev-python/pyarrow-0.18.15[${PYTHON_USEDEP}] )
 	robotframework? ( dev-python/xlsx2csv[${PYTHON_USEDEP}] )
-	robotframework? ( dev-python/XlsxWriter[${PYTHON_USEDEP}] )
+	robotframework? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
 	fileformats? ( dev-python/polars[${PYTHON_USEDEP}] )
 	fileformats? ( >=dev-python/pyarrow-0.18.15[${PYTHON_USEDEP}] )
 	fileformats? ( dev-python/xlsx2csv[${PYTHON_USEDEP}] )
-	fileformats? ( dev-python/XlsxWriter[${PYTHON_USEDEP}] )"
+	fileformats? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

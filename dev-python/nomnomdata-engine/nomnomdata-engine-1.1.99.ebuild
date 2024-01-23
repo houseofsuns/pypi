@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/dunamai[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]"
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

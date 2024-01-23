@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neural Network visualization toolkit for keras [topver 0.4.1]"
+DESCRIPTION="Neural Network visualization toolkit for keras [topver 0.4.1, newver 0.4.1]"
 
 HOMEPAGE="https://github.com/raghakot/keras-vis"
 LICENSE="MIT"

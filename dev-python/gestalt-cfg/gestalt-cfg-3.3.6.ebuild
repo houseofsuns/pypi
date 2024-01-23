@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<dev-python/hvac-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/prance[${PYTHON_USEDEP}]
 	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/canvasapi[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	dev-python/trogon[${PYTHON_USEDEP}]"

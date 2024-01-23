@@ -27,6 +27,6 @@ IUSE="sqlalchemy"
 DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/peewee[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	~dev-python/pycollada-0.6[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	<=dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	all? ( dev-python/noise[${PYTHON_USEDEP}] )
 	all? ( dev-python/yasha[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
@@ -94,7 +94,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	docs? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	docs? ( dev-python/noise[${PYTHON_USEDEP}] )
 	docs? ( dev-python/yasha[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/trimesh-3.6.4[${PYTHON_USEDEP}] )
@@ -118,7 +118,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	examples? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	examples? ( dev-python/noise[${PYTHON_USEDEP}] )
 	examples? ( dev-python/yasha[${PYTHON_USEDEP}] )
-	examples? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	examples? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/trimesh-3.6.4[${PYTHON_USEDEP}] )
 	examples? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
 	examples? ( dev-python/descartes[${PYTHON_USEDEP}] )
@@ -143,7 +143,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/noise[${PYTHON_USEDEP}] )
 	test? ( dev-python/yasha[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/trimesh-3.6.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
 	test? ( dev-python/descartes[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/CJKwrap[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cjkwrap-3.0[${PYTHON_USEDEP}]
 	dev-python/EbookLib[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]

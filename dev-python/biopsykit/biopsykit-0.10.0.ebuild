@@ -37,13 +37,13 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/nilspodlib[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-2.0[${PYTHON_USEDEP}]
 	<dev-python/xlrd-3.0[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.14[${PYTHON_USEDEP}]
-	dev-python/fau-colors[${PYTHON_USEDEP}]
+	dev-python/fau_colors[${PYTHON_USEDEP}]
 	dev-python/bioread[${PYTHON_USEDEP}]
 	mne? ( dev-python/mne[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipympl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/elasticsearch-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/croniter-0.3.14[${PYTHON_USEDEP}]
 	dev-python/python-logstash[${PYTHON_USEDEP}]
 	dev-python/fluent-logger[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	~dev-python/pyjwt-1.5.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

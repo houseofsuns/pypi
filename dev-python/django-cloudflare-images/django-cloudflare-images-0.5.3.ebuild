@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )

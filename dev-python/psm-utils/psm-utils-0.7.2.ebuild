@@ -41,10 +41,10 @@ DEPENDENCIES="dev-python/pyteomics[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/numpydoc-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_mdinclude[${PYTHON_USEDEP}] )
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/semver-2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	online? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	online? ( dev-python/plotly[${PYTHON_USEDEP}] )"

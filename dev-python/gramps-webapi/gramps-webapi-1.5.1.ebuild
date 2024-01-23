@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.1.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Caching[${PYTHON_USEDEP}]
-	dev-python/Flask-Compress[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	dev-python/flask-compress[${PYTHON_USEDEP}]
+	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.13.0[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/bleach-5.0.0[${PYTHON_USEDEP}]
 	dev-python/tinycss2[${PYTHON_USEDEP}]
 	dev-python/whoosh[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/pytesseract[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

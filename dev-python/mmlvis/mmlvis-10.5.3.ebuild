@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/cycler-0.10.0[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.12[${PYTHON_USEDEP}]
 	>=dev-python/kiwisolver-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/scons[${PYTHON_USEDEP}]
+	dev-python/SCons[${PYTHON_USEDEP}]
 	>=dev-python/semver-3.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

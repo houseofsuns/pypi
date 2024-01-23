@@ -31,13 +31,13 @@ DEPENDENCIES="dev-python/lomond[${PYTHON_USEDEP}]
 	dev-python/asks[${PYTHON_USEDEP}]
 	<dev-python/multidict-4.2.0[${PYTHON_USEDEP}]
 	dev-python/multio[${PYTHON_USEDEP}]
-	dev-python/async-generator[${PYTHON_USEDEP}]
+	dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-py3doc-enhanced-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	voice? ( dev-python/opuslib[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyNaCL[${PYTHON_USEDEP}] )"
+	voice? ( ~dev-python/pynacl-1.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

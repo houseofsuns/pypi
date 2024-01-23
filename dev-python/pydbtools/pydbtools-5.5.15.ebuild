@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/arrow-pd-parser[${PYTHON_USEDEP}]
+	dev-python/arrow_pd_parser[${PYTHON_USEDEP}]
 	dev-python/awswrangler[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.7.4[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
-	dev-python/sql-metadata[${PYTHON_USEDEP}]
+	dev-python/sql_metadata[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs druid exasol hiveserver2 presto pyspark rest s3 snowflake ssh ssh-paramiko test webhdfs"
 DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/interface-meta[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]
@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	all? ( dev-python/pydruid[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyexasol[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyhive[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyhive[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyHive[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/pywebhdfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -61,9 +61,9 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	druid? ( dev-python/pydruid[${PYTHON_USEDEP}] )
 	exasol? ( dev-python/pyexasol[${PYTHON_USEDEP}] )
-	hiveserver2? ( dev-python/pyhive[${PYTHON_USEDEP}] )
+	hiveserver2? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	hiveserver2? ( >=dev-python/thrift-0.10.0[${PYTHON_USEDEP}] )
-	presto? ( dev-python/pyhive[${PYTHON_USEDEP}] )
+	presto? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	rest? ( dev-python/requests[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )

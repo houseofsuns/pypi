@@ -30,12 +30,12 @@ DEPENDENCIES="dev-python/bravado[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-django2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

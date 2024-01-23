@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SMT Solver for Nonlinear Theories of Reals [topver 4.21.6.2]"
+DESCRIPTION="SMT Solver for Nonlinear Theories of Reals [topver 4.21.6.2, newver 4.21.6.2]"
 
 HOMEPAGE="https://github.com/dreal/dreal4"
 LICENSE=""

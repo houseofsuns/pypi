@@ -27,7 +27,7 @@ IUSE="dev so3g"
 DEPENDENCIES="dev-python/autobahn[${PYTHON_USEDEP}]
 	dev-python/twisted[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]

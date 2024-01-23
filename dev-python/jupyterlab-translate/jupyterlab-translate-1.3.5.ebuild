@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/copier-templates-extensions[${PYTHON_USEDEP}]
 	dev-python/copier[${PYTHON_USEDEP}]

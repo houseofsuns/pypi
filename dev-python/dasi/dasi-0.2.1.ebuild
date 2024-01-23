@@ -45,7 +45,7 @@ DEPENDENCIES="<dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/autodocsumm[${PYTHON_USEDEP}]
 	<dev-python/recommonmark-0.7.0[${PYTHON_USEDEP}]
 	documentation? ( <dev-python/nbsphinx-0.5.0[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/sphinx_autodoc_typehints[${PYTHON_USEDEP}] )
+	documentation? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	documentation? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	documentation? ( <dev-python/sphinx-bootstrap-theme-0.8.0[${PYTHON_USEDEP}] )

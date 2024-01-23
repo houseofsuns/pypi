@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/compas[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/COMPAS[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/numpydoc[${PYTHON_USEDEP}]
 	<dev-python/pydata-sphinx-theme-0.14[${PYTHON_USEDEP}]
 	dev-python/pydocstyle[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/compas[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
 	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
-	dev-python/sphinx-design[${PYTHON_USEDEP}]
+	dev-python/sphinx_design[${PYTHON_USEDEP}]
 	dev-python/sphinx-favicon[${PYTHON_USEDEP}]
 	dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}]
 	dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	development? ( >=dev-python/flake8-3.2.1[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/freezegun-0.3.10[${PYTHON_USEDEP}] )"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/Flask-Collect-Invenio[${PYTHON_USEDEP}]
-	dev-python/Flask-WebpackExt[${PYTHON_USEDEP}]
+	dev-python/flask-webpackext[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	<dev-python/node-semver-0.2.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/copulas[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbsphinx-0.5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )

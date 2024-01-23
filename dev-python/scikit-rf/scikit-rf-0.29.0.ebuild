@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Object Oriented Microwave Engineering [topver 0.30.0]"
+DESCRIPTION="Object Oriented Microwave Engineering [topver 0.30.0, newver 0.30.0]"
 
 HOMEPAGE="https://scikit-rf.org/"
 LICENSE="LICENSE.txt"
@@ -38,9 +38,9 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )
 	netw? ( >=dev-python/networkx-2.0[${PYTHON_USEDEP}] )
 	plot? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
-	qtapps? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	qtapps? ( >=dev-python/QtPy-2.2[${PYTHON_USEDEP}] )
 	qtapps? ( >=dev-python/pyqtgraph-0.13[${PYTHON_USEDEP}] )
-	qtapps? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	qtapps? ( >=dev-python/PyQt5-5.15[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tox-3.26.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nbval-0.9[${PYTHON_USEDEP}] )
 	visa? ( dev-python/PyVISA[${PYTHON_USEDEP}] )
-	visa? ( dev-python/pyvisa-py[${PYTHON_USEDEP}] )
+	visa? ( dev-python/PyVISA-py[${PYTHON_USEDEP}] )
 	xlsx? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

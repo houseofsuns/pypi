@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyside6-2.0[${PYTHON_USEDEP}]
 	dev-python/PyVCF3[${PYTHON_USEDEP}]
 	~dev-python/textX-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.2.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
 	dev-python/columnar[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]

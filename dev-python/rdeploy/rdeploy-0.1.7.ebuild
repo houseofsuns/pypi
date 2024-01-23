@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	~dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-20.9[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/semver-2.13.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

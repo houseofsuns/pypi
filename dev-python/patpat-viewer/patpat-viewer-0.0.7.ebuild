@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/bootstrap-flask[${PYTHON_USEDEP}]"
+	dev-python/Bootstrap-Flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

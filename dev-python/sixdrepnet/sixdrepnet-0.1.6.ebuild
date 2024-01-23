@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

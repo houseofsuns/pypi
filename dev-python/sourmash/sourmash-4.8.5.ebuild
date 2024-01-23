@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/screed[${PYTHON_USEDEP}]
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	test? ( dev-python/build[${PYTHON_USEDEP}] )
 	demo? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	demo? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	demo? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	demo? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )

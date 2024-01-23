@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/a-cv2-imshow-thread[${PYTHON_USEDEP}]
 	dev-python/a-cv2-shape-finder[${PYTHON_USEDEP}]
 	dev-python/a-cv-imwrite-imread-plus[${PYTHON_USEDEP}]

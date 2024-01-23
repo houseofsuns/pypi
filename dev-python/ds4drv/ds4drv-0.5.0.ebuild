@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Sony DualShock 4 userspace driver for Linux [topver 0.5.1]"
+DESCRIPTION="A Sony DualShock 4 userspace driver for Linux [topver 0.5.1, newver 0.5.1]"
 
 HOMEPAGE="https://github.com/chrippa/ds4drv"
 LICENSE="MIT"

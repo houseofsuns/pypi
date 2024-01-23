@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/snakemake[${PYTHON_USEDEP}]
 	dev-python/snakemake[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	dev-python/boutiques[${PYTHON_USEDEP}]

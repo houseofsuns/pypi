@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/pycifrw[${PYTHON_USEDEP}]"
+	dev-python/PyCifRW[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

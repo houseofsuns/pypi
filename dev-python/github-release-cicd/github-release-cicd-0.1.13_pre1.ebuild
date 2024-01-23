@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )

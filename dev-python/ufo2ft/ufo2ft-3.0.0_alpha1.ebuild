@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A bridge between UFOs and FontTools."
+DESCRIPTION="A bridge between UFOs and FontTools. [newver 3.0.0b1]"
 
 HOMEPAGE="https://github.com/googlefonts/ufo2ft"
 LICENSE="MIT"

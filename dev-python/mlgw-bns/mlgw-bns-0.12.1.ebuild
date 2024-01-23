@@ -35,14 +35,14 @@ DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/types-setuptools-58.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.16.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-bibtex-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-defaultargs[${PYTHON_USEDEP}] )
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

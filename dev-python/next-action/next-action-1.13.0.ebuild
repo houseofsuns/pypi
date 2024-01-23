@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/Cerberus[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]"
+	dev-python/cerberus[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

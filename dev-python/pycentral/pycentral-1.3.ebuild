@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="colorlog"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	colorlog? ( dev-python/colorlog[${PYTHON_USEDEP}] )"

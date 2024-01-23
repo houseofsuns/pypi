@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-bibtex-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

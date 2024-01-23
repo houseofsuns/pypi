@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pysam[${PYTHON_USEDEP}]
-	dev-python/Bio[${PYTHON_USEDEP}]
+	dev-python/bio[${PYTHON_USEDEP}]
 	dev-python/gffutils[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"

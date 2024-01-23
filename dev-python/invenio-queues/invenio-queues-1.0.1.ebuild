@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/invenio-base[${PYTHON_USEDEP}]
 	>=dev-python/redis-3.4.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

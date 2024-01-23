@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/mdanalysis[${PYTHON_USEDEP}]"
+	dev-python/MDAnalysis[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

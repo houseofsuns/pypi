@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/pathlib2[${PYTHON_USEDEP}]
-	dev-python/pyvisa[${PYTHON_USEDEP}]
+	dev-python/PyVISA[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/ddt[${PYTHON_USEDEP}] )

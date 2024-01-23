@@ -51,8 +51,8 @@ DEPENDENCIES=">=dev-python/zipp-3.1.0[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/rocrate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

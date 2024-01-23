@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-django-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/linkify-it-py-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2022.0.0[${PYTHON_USEDEP}] )

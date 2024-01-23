@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Arrow, pydantic style [topver 0.2.3]"
+DESCRIPTION="Arrow, pydantic style [topver 0.2.3, newver 0.2.3]"
 
 HOMEPAGE="https://github.com/jorgecarleitao/arrowdantic"
 LICENSE="Apache-2.0"

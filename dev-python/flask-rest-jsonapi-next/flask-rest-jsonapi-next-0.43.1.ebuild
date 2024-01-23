@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-jsonapi[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]

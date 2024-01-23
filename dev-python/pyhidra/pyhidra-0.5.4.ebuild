@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/Jpype1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/JPype1[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )"

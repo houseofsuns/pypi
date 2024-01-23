@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/geoalchemy2[${PYTHON_USEDEP}]
+	dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev-python/cjio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

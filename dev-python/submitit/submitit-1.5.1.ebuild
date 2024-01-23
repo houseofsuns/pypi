@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/cloudpickle-1.2.1[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-asyncio-0.15.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/cloudpickle-1.2.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pkg_resources[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flit-3.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

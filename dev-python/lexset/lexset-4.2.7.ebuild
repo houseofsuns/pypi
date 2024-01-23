@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyjson[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pyBase64[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	dev-python/pybase64[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs"
 DEPENDENCIES=">=dev-python/docopt-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-23.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/aggdraw[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

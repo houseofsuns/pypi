@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="docs? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.4[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/allpairspy-2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/click-6.2[${PYTHON_USEDEP}] )

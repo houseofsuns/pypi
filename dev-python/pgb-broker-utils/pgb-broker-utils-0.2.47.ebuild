@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

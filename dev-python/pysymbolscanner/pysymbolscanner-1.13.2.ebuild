@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
 	~dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]
 	dev-python/pytickersymbols[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/anki[${PYTHON_USEDEP}]
 	~dev-python/colour-0.1.5[${PYTHON_USEDEP}]
 	dev-python/genanki[${PYTHON_USEDEP}]

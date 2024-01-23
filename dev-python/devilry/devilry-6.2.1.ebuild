@@ -61,7 +61,7 @@ DEPENDENCIES="<dev-python/arrow-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/rq-1.9.0[${PYTHON_USEDEP}]
 	<dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
-	dev-python/urlobject[${PYTHON_USEDEP}]
+	dev-python/URLObject[${PYTHON_USEDEP}]
 	<dev-python/xlsxwriter-1.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/boto-2.32.1[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="<dev-python/arrow-0.13.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doc2dash[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fabric3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Fabric3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-2.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/htmls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/model-bakery[${PYTHON_USEDEP}] )

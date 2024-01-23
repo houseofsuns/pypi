@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf5"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/coolname[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dendropy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DendroPy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.35.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/body_scan[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/body-scan[${PYTHON_USEDEP}]
 	dev-python/botanist[${PYTHON_USEDEP}]
 	dev-python/shares[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]

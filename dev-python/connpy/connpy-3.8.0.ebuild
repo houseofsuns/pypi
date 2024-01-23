@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/pexpect[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/pyfzf[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

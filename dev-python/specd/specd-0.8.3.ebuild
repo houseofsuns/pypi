@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
 	>=dev-python/swagger-spec-validator-2.1.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	>=dev-python/dictdiffer-0.7.1[${PYTHON_USEDEP}]
 	dev-python/related[${PYTHON_USEDEP}]
 	>=dev-python/inflect-0.3.1[${PYTHON_USEDEP}]

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cerberus[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cerberus-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/asyncio-mqtt[${PYTHON_USEDEP}]
 	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	dev-python/confp[${PYTHON_USEDEP}]

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-compress-1.11[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.2.4[${PYTHON_USEDEP}]
-	dev-python/flask-restful[${PYTHON_USEDEP}]"
+	dev-python/Flask-RESTful[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

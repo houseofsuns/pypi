@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pysaml2[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	dev-python/dictor[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-67.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

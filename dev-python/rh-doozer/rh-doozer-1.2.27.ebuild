@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI tool for managing and automating Red Hat software releases [topver 2.0.9]"
+DESCRIPTION="CLI tool for managing and automating Red Hat software releases [topver 2.0.9, newver 2.0.9]"
 
 HOMEPAGE="https://github.com/openshift/doozer"
 LICENSE="Apache-2.0"
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/bashlex[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/koji[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/PyGitHub[${PYTHON_USEDEP}]
+	>=dev-python/PyGithub-1.46[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

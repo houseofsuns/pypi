@@ -35,22 +35,22 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	>=dev-python/multiprocess-0.70.11[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.21[${PYTHON_USEDEP}]
 	dev-python/progressbar[${PYTHON_USEDEP}]
 	dev-python/fvcore[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	dev-python/sse-starlette[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
@@ -67,15 +67,15 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	all? ( dev-python/faiss-gpu[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx_external_toc[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	all? ( dev-python/pyvoxel[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
@@ -118,14 +118,14 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx_external_toc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}] )
@@ -143,6 +143,6 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	text? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	vision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	vision? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	vision? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	vision? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

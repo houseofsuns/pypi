@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="burnin_network_kazoo test"
 DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.3[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/ironic-lib[${PYTHON_USEDEP}]

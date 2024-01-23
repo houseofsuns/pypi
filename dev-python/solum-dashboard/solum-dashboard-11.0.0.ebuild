@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
 	dev-python/horizon[${PYTHON_USEDEP}]
 	>=dev-python/oslo-log-3.37.0[${PYTHON_USEDEP}]

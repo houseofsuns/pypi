@@ -27,12 +27,12 @@ IUSE="brille matplotlib phonopy_reader"
 DEPENDENCIES=">=dev-python/scipy-1.10[${PYTHON_USEDEP}]
 	dev-python/seekpath[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	>=dev-python/threadpoolctl-1.0.0[${PYTHON_USEDEP}]
 	brille? ( dev-python/brille[${PYTHON_USEDEP}] )
 	matplotlib? ( >=dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}] )
 	phonopy_reader? ( >=dev-python/h5py-2.10.0[${PYTHON_USEDEP}] )
-	phonopy_reader? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	phonopy_reader? ( >=dev-python/pyyaml-3.13[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

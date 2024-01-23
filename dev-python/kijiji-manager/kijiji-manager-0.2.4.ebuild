@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
+	>=dev-python/flask-login-0.6.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Executor[${PYTHON_USEDEP}]
-	dev-python/WTForms[${PYTHON_USEDEP}]
+	>=dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.11[${PYTHON_USEDEP}]
 	dev-python/is-safe-url[${PYTHON_USEDEP}]

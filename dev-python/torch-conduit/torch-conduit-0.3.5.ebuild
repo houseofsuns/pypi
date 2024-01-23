@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	>=dev-python/pillow-5.3.0[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	logging? ( <dev-python/rich-13.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/rich-13.0.0[${PYTHON_USEDEP}] )
-	fair? ( dev-python/ethicml[${PYTHON_USEDEP}] )
-	all? ( dev-python/ethicml[${PYTHON_USEDEP}] )"
+	fair? ( dev-python/EthicML[${PYTHON_USEDEP}] )
+	all? ( dev-python/EthicML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

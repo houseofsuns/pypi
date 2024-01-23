@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/docopt-0.3.0[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]"

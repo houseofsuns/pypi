@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/PyQt5-5.14[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/stability-sdk[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

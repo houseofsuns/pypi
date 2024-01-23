@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast and simple library for calculating basic statistics [topver 1.3.2]"
+DESCRIPTION="A fast and simple library for calculating basic statistics [topver 1.3.2, newver 1.3.2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

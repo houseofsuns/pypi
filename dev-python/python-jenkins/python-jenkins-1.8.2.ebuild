@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/multi-key-dict[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/multi_key_dict[${PYTHON_USEDEP}]
 	>=dev-python/pbr-0.8.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/six-1.3.0[${PYTHON_USEDEP}]"

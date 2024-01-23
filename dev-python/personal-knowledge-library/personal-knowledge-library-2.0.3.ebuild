@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
 	dev-python/ndjson[${PYTHON_USEDEP}]
 	>=dev-python/rdflib-6.3.2[${PYTHON_USEDEP}]

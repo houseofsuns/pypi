@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/attrs-20.0.0[${PYTHON_USEDEP}]
 	dev-python/cli-ui[${PYTHON_USEDEP}]
-	dev-python/colored_traceback[${PYTHON_USEDEP}]
+	<dev-python/colored-traceback-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]

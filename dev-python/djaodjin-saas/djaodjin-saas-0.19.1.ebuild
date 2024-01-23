@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	dev-python/django-localflavor[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.3.1[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-2.4[${PYTHON_USEDEP}]
 	>=dev-python/phonenumbers-8.12.6[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
 	>=dev-python/stripe-2.71.0[${PYTHON_USEDEP}]

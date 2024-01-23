@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deploy test"
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	deploy? ( dev-python/build[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/pip[${PYTHON_USEDEP}] )
 	deploy? ( >=dev-python/setuptools-66.0[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

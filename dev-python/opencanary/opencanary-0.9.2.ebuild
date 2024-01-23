@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/twisted-22.8.0[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.4.5[${PYTHON_USEDEP}]
 	~dev-python/cryptography-38.0.1[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
 	~dev-python/setuptools-63.2.0[${PYTHON_USEDEP}]
 	dev-python/hpfeeds[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-22.1.0[${PYTHON_USEDEP}]
 	~dev-python/service-identity-21.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

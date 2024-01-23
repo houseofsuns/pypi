@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	idna? ( dev-python/idna[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/idna[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-pyopenssl[${PYTHON_USEDEP}] )
+	mypy? ( dev-python/types-pyOpenSSL[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-5.0.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

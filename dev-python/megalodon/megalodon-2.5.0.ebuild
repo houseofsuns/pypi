@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES=">=dev-python/h5py-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.25.2[${PYTHON_USEDEP}]
 	dev-python/mappy[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/ont-fast5-api[${PYTHON_USEDEP}]

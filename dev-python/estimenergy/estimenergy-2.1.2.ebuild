@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	dev-python/aioesphomeapi[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-crudrouter[${PYTHON_USEDEP}]
 	dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev-python/prometheus-fastapi-instrumentator[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
 	<dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
-	dev-python/types-pyyaml[${PYTHON_USEDEP}]
+	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

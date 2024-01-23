@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modular Python to execute any subprocess commands as another user(not necessarily superuser/root) [topver 1.0.0]"
+DESCRIPTION="Modular Python to execute any subprocess commands as another user(not necessarily superuser/root) [topver 1.0.0, newver 1.0.0]"
 
 HOMEPAGE="https://github.com/wesinator/python-sudo"
 LICENSE=""

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	all? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	all? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

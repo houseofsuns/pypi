@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	dev-python/django-modeldict-yplan[${PYTHON_USEDEP}]
 	dev-python/nexus-yplan[${PYTHON_USEDEP}]
 	dev-python/django-jsonfield[${PYTHON_USEDEP}]"

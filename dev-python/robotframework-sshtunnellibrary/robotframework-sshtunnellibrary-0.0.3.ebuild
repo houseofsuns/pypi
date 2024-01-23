@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SSH Tunnel Library for Robot framework [topver 1.0.0]"
+DESCRIPTION="SSH Tunnel Library for Robot framework [topver 1.0.0, newver 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

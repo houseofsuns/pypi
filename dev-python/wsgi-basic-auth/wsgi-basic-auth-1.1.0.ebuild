@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/webob-1.0.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/webtest-2.0.23[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )

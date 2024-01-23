@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="core devel devel-docs tests"
 DEPENDENCIES="dev-python/datalad[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	core? ( dev-python/datalad[${PYTHON_USEDEP}] )
-	core? ( dev-python/scrapy[${PYTHON_USEDEP}] )
+	core? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	devel? ( dev-python/datalad[${PYTHON_USEDEP}] )
-	devel? ( dev-python/scrapy[${PYTHON_USEDEP}] )
+	devel? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	devel? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	devel? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	devel? ( dev-python/datalad[${PYTHON_USEDEP}] )

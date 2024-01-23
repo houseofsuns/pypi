@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/dockerflow[${PYTHON_USEDEP}]
-	dev-python/pyhive[${PYTHON_USEDEP}]
+	dev-python/PyHive[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )

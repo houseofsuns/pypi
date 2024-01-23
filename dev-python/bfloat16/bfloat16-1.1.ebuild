@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Numpy bfloat16 package [topver 1.2.0]"
+DESCRIPTION="Numpy bfloat16 package [topver 1.2.0, newver 1.2.0]"
 
 HOMEPAGE="https://github.com/GreenWaves-Technologies/bfloat16"
 LICENSE="Apache-2.0"

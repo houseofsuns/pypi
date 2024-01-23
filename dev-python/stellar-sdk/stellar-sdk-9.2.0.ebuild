@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp"
-DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
 	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiohttp-sse-client[${PYTHON_USEDEP}] )
 	dev-python/mnemonic[${PYTHON_USEDEP}]

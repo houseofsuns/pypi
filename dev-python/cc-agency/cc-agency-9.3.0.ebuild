@@ -28,11 +28,11 @@ DEPENDENCIES="<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	<dev-python/pyzmq-24.0[${PYTHON_USEDEP}]
 	<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	<dev-python/flask-cors-5.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-jwt-extended[${PYTHON_USEDEP}]
+	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
 	dev-python/cc-core[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

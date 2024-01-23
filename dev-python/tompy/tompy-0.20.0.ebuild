@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/Bottleneck[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/bottleneck-1.4[${PYTHON_USEDEP}]
 	dev-python/atopy[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-3.2[${PYTHON_USEDEP}]

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/grai-schemas[${PYTHON_USEDEP}]"
+	dev-python/grai_schemas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

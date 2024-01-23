@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.44[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	s3? ( dev-python/moto[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	julia? ( dev-python/julia[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

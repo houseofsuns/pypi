@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	dimreduction? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	dimreduction? ( dev-python/pacmap[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -49,15 +49,15 @@ DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	doc? ( dev-python/jupyter-datatables[${PYTHON_USEDEP}] )
 	doc? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	notebook? ( <dev-python/notebook-7.0.0[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyter-datatables[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/dnikit_tensorflow[${PYTHON_USEDEP}] )
-	tensorflow1? ( dev-python/dnikit_tensorflow[${PYTHON_USEDEP}] )
-	tensorflow1-gpu? ( dev-python/dnikit_tensorflow[${PYTHON_USEDEP}] )
+	tensorflow? ( dev-python/dnikit-tensorflow[${PYTHON_USEDEP}] )
+	tensorflow1? ( dev-python/dnikit-tensorflow[${PYTHON_USEDEP}] )
+	tensorflow1-gpu? ( dev-python/dnikit-tensorflow[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -68,6 +68,6 @@ DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-copyright[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	torch? ( dev-python/dnikit_torch[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/dnikit-torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

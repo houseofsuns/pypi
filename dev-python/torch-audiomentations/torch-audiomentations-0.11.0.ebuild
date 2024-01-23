@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/julius[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/torch-pitch-shift[${PYTHON_USEDEP}]
-	extras? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	extras? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

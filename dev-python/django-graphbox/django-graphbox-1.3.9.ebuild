@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/django-4.2.6[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]

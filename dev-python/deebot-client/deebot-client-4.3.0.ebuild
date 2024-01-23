@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	dev-python/svg-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

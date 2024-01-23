@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/beaker[${PYTHON_USEDEP}]
+	dev-python/Beaker[${PYTHON_USEDEP}]
 	dev-python/certbot-nginx[${PYTHON_USEDEP}]
 	<dev-python/certifi-2020.0[${PYTHON_USEDEP}]
 	dev-python/crontab[${PYTHON_USEDEP}]
@@ -43,10 +43,10 @@ DEPENDENCIES="<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	<dev-python/pycountry-20.0[${PYTHON_USEDEP}]
 	<dev-python/pypng-0.0.21[${PYTHON_USEDEP}]
-	dev-python/pyqrcode[${PYTHON_USEDEP}]
+	dev-python/PyQRCode[${PYTHON_USEDEP}]
 	dev-python/python-digitalocean[${PYTHON_USEDEP}]
 	dev-python/python-taiga[${PYTHON_USEDEP}]
-	dev-python/requests_unixsocket[${PYTHON_USEDEP}]
+	<dev-python/requests-unixsocket-0.3.0[${PYTHON_USEDEP}]
 	dev-python/sendgrid[${PYTHON_USEDEP}]
 	dev-python/stellar-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

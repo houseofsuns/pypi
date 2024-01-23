@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/olefile[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/compressed_rtf[${PYTHON_USEDEP}]
+	dev-python/compressed-rtf[${PYTHON_USEDEP}]
 	dev-python/RTFDE[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]"

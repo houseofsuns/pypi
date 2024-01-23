@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bootstrap-flask[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Bootstrap-Flask[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/flask-babel-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.15[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/markdown-3.4.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/py-2.0.0[${PYTHON_USEDEP}]

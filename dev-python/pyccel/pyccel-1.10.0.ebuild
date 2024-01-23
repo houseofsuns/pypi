@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.2[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-1.0.0[${PYTHON_USEDEP}]
-	dev-python/textx[${PYTHON_USEDEP}]
+	>=dev-python/textX-2.2[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.4.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-2.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/scipy-1.5.0[${PYTHON_USEDEP}] )

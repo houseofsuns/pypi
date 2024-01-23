@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/mwclient[${PYTHON_USEDEP}]
 	dev-python/pydot[${PYTHON_USEDEP}]

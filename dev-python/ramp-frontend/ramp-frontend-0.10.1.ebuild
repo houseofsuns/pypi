@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs tests"
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/flask-login[${PYTHON_USEDEP}]
 	dev-python/Flask-Mail[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

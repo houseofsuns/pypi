@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/OpenNMT-py[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/alphabet-detector[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/keyring[${PYTHON_USEDEP}]

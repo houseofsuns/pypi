@@ -27,8 +27,8 @@ IUSE="testing"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tox-factor[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

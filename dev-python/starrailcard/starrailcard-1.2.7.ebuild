@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	dev-python/honkairail[${PYTHON_USEDEP}]
 	dev-python/python[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/cachetools-5.3.1[${PYTHON_USEDEP}] )"

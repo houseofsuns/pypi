@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
+	<dev-python/Babel-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/dramatiq[${PYTHON_USEDEP}]
 	<dev-python/flask-4.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-bcrypt[${PYTHON_USEDEP}]
+	dev-python/Flask-Bcrypt[${PYTHON_USEDEP}]
 	dev-python/flask-dramatiq[${PYTHON_USEDEP}]
-	dev-python/flask-limiter[${PYTHON_USEDEP}]
+	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
 	<dev-python/flask-migrate-5.0.0[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-3.0.5[${PYTHON_USEDEP}]
 	dev-python/gpxpy[${PYTHON_USEDEP}]

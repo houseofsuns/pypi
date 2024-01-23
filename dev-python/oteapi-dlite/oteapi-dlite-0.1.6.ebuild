@@ -27,7 +27,7 @@ IUSE="dev docs"
 DEPENDENCIES="dev-python/DLite-Python[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/oteapi-core[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/tripper[${PYTHON_USEDEP}]
 	dev? ( dev-python/otelib[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/ccxt[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]

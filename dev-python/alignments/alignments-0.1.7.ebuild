@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.11.0[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
-	dev-python/textgrid[${PYTHON_USEDEP}]
+	dev-python/TextGrid[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

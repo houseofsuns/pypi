@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pyqt6[${PYTHON_USEDEP}]
-	dev-python/pyqt6-webengine[${PYTHON_USEDEP}]
-	dev-python/pyqt6-webengine-qt6[${PYTHON_USEDEP}]"
+	dev-python/PyQt6[${PYTHON_USEDEP}]
+	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
+	dev-python/PyQt6-WebEngine-Qt6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

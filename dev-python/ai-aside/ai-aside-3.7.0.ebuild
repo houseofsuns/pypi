@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/edx-drf-extensions[${PYTHON_USEDEP}]
 	dev-python/edx-opaque-keys[${PYTHON_USEDEP}]
 	dev-python/edx-django-utils[${PYTHON_USEDEP}]
-	dev-python/xblock[${PYTHON_USEDEP}]"
+	dev-python/XBlock[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

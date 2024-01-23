@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/getch[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomli_w[${PYTHON_USEDEP}]
+	dev-python/tomli-w[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

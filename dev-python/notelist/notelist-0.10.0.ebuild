@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.17.0[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.2.0[${PYTHON_USEDEP}]

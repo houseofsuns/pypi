@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pyquaternion[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/urdf-parser-py[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

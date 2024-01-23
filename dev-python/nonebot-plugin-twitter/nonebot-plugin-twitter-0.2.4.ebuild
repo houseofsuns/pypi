@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/nonebot_plugin_apscheduler[${PYTHON_USEDEP}]
-	dev-python/nonebot_plugin_sendmsg_by_bots[${PYTHON_USEDEP}]
+	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
+	dev-python/nonebot-plugin-sendmsg-by-bots[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

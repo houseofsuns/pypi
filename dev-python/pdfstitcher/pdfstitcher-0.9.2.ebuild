@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="~dev-python/pikepdf-7.2.0[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]
+	>=dev-python/wxpython-4.2[${PYTHON_USEDEP}]
 	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pdf-mangler[${PYTHON_USEDEP}]

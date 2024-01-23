@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev sqla wtforms"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	sqla? ( dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}] )
+	sqla? ( >=dev-python/flask-sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	wtforms? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

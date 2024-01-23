@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aiodocker[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

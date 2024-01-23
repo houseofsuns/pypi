@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/gpiozero[${PYTHON_USEDEP}]
 	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-sockets[${PYTHON_USEDEP}]
+	dev-python/Flask-Sockets[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	computer_vision? ( dev-python/opencv[${PYTHON_USEDEP}] )

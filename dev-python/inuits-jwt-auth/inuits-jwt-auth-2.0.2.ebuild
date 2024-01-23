@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,10 +31,10 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/pgcolorbar[${PYTHON_USEDEP}]
 	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	<dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pyqtdarktheme[${PYTHON_USEDEP}]
 	<dev-python/pyqtgraph-0.14.0[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	<dev-python/QtPy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/specutils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="healthcheck"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	healthcheck? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	healthcheck? ( dev-python/aio-tiny-healthcheck[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

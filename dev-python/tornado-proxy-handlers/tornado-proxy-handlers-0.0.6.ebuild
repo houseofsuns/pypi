@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/tornado-6.0.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/importlib-metadata-4.12[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.11[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )"

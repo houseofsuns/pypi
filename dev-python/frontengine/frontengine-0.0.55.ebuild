@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/qt-material[${PYTHON_USEDEP}]
 	dev-python/re-edge-gpt[${PYTHON_USEDEP}]
 	dev-python/pyttsx3[${PYTHON_USEDEP}]
 	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
-	dev-python/PyAudio[${PYTHON_USEDEP}]"
+	dev-python/pyaudio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

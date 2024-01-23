@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-3.3.1[${PYTHON_USEDEP}]
 	>=dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}]
 	>=dev-python/argh-0.26.2[${PYTHON_USEDEP}]
 	>=dev-python/commonmark-0.9.1[${PYTHON_USEDEP}]

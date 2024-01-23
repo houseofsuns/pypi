@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/flask-2.2[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0[${PYTHON_USEDEP}]
-	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
+	~dev-python/flask-migrate-4.0[${PYTHON_USEDEP}]
 	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/flask-smorest[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-3.0[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/flask-2.2[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.30[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/urljoin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

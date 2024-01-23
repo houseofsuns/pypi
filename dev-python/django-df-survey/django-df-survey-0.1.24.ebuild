@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.2.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	dev-python/django-df-api-drf[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/django-hashid-field[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/django-admin-relation-links[${PYTHON_USEDEP}]

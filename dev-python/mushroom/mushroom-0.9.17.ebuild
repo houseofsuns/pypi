@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="real-time web messaging [topver 0.9.20]"
+DESCRIPTION="real-time web messaging [topver 0.9.20, newver 0.9.20]"
 
 HOMEPAGE="https://bitbucket.org/terreon/mushroom"
 LICENSE="BSD"

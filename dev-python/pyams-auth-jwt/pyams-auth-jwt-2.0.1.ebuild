@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/pyams-skin[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyams-viewlet[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyams-zmi[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyramid-zodbconn[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pyramid_zodbconn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PipelineAI CLI [topver 1.5.330]"
+DESCRIPTION="PipelineAI CLI [topver 1.5.330, newver 1.5.330]"
 
 HOMEPAGE="https://github.com/PipelineAI/"
 LICENSE=""

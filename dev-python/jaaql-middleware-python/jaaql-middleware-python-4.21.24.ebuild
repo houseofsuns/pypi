@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/jaaql-monitor[${PYTHON_USEDEP}]
 	~dev-python/psycopg-3.1.12[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/coverage-7.3.2[${PYTHON_USEDEP}]

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/metakernel[${PYTHON_USEDEP}]
 	dev-python/svgwrite[${PYTHON_USEDEP}]
-	dev-python/cairosvg[${PYTHON_USEDEP}]
+	dev-python/CairoSVG[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

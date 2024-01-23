@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/orjson-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/ordered-set-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

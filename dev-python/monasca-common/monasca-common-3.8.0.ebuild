@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymysql-0.8.0[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/kazoo[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-6.8.0[${PYTHON_USEDEP}]

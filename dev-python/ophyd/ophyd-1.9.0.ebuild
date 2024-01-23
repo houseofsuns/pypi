@@ -27,7 +27,7 @@ IUSE="ca dev pva"
 DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	ca? ( dev-python/aioca[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aioca[${PYTHON_USEDEP}] )
 	dev? ( dev-python/p4p[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-scm-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-direct[${PYTHON_USEDEP}] )
 	pva? ( dev-python/p4p[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

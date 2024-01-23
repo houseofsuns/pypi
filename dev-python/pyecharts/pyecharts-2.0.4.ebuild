@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="images phantomjs pyppeteer selenium"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
-	images? ( dev-python/PIL[${PYTHON_USEDEP}] )
+	images? ( dev-python/pil[${PYTHON_USEDEP}] )
 	phantomjs? ( dev-python/snapshot-phantomjs[${PYTHON_USEDEP}] )
 	pyppeteer? ( dev-python/snapshot-pyppeteer[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/snapshot-selenium[${PYTHON_USEDEP}] )"

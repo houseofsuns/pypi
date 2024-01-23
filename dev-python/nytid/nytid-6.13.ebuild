@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/ladok3[${PYTHON_USEDEP}]
 	dev-python/ics[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/typerconf[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]"

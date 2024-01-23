@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The finetuner-stubs package includes the interface of finetuner.runner. [topver 0.13.10]"
+DESCRIPTION="The finetuner-stubs package includes the interface of finetuner.runner. [topver 0.13.10, newver 0.13.10]"
 
 HOMEPAGE="https://github.com/jina-ai/finetuner.fit/"
 LICENSE="Proprietary"

@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/numpy-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/numexpr-2.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
-	dev-python/escher[${PYTHON_USEDEP}]
+	dev-python/Escher[${PYTHON_USEDEP}]
 	dev-python/IProgress[${PYTHON_USEDEP}]
 	dev-python/inspyred[${PYTHON_USEDEP}]
 	>=dev-python/lazy-object-proxy-1.2.0[${PYTHON_USEDEP}]
@@ -52,12 +52,12 @@ DEPENDENCIES=">=dev-python/numpy-1.9.1[${PYTHON_USEDEP}]
 	all? ( >=dev-python/plotly-4.12.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpydoc-0.5[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipyparallel-5.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	bokeh? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-0.5[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/ipywidgets-4.1.1[${PYTHON_USEDEP}] )

@@ -30,8 +30,8 @@ DEPENDENCIES=">=dev-python/dictdiffer-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyrsistent-0.11.13[${PYTHON_USEDEP}]
 	all? ( dev-python/editdistance[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/munkres-1.0.12[${PYTHON_USEDEP}] )
-	all? ( dev-python/Unidecode[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/unidecode-0.4.19[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
@@ -42,8 +42,8 @@ DEPENDENCIES=">=dev-python/dictdiffer-0.6.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/editdistance[${PYTHON_USEDEP}] )
 	contrib? ( <=dev-python/munkres-1.0.12[${PYTHON_USEDEP}] )
-	contrib? ( dev-python/Unidecode[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	contrib? ( >=dev-python/unidecode-0.4.19[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
@@ -54,6 +54,6 @@ DEPENDENCIES=">=dev-python/dictdiffer-0.6.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/editdistance[${PYTHON_USEDEP}] )
 	tests? ( <=dev-python/munkres-1.0.12[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Unidecode[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/unidecode-0.4.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/django-cast[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-environ[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django_extensions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )

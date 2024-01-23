@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/structlog-21.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0.0[${PYTHON_USEDEP}]
-	dev-python/validate-email[${PYTHON_USEDEP}]"
+	dev-python/validate_email[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

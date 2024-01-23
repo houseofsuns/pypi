@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/youtube-dl[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/youtube_dl[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/sh[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

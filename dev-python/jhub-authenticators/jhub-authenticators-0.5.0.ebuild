@@ -27,7 +27,7 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/jupyterhub[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Click[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/click-8.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/docker-5.0.3[${PYTHON_USEDEP}] )

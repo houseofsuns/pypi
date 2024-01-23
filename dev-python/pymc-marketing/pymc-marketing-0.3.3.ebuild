@@ -42,12 +42,12 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/lifetimes[${PYTHON_USEDEP}] )
+	test? ( dev-python/Lifetimes[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

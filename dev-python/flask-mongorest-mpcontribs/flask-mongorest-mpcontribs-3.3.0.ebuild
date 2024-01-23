@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/fastnumbers[${PYTHON_USEDEP}]
 	dev-python/flask-mongoengine-tschaume[${PYTHON_USEDEP}]
-	dev-python/flask-sse[${PYTHON_USEDEP}]
+	dev-python/Flask-SSE[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	dev-python/marshmallow-mongoengine[${PYTHON_USEDEP}]
 	dev-python/mimerender-pr36[${PYTHON_USEDEP}]

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/googledrivedownloader[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/checksumdir[${PYTHON_USEDEP}]
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )

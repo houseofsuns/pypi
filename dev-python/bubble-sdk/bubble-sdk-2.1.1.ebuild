@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bubble sdk [topver 2.1.6]"
+DESCRIPTION="Bubble sdk [topver 2.1.6, newver 2.1.6]"
 
 HOMEPAGE="https://github.com/shinnng/bubble.py"
 LICENSE="MIT"

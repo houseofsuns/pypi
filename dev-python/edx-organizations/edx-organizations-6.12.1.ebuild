@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/edx-opaque-keys[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/edx-drf-extensions[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/django-simple-history[${PYTHON_USEDEP}]"

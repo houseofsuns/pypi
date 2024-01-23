@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	model_worker? ( dev-python/sse-starlette[${PYTHON_USEDEP}] )
 	model_worker? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	model_worker? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	model_worker? ( dev-python/gputil[${PYTHON_USEDEP}] )
+	model_worker? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	train? ( dev-python/einops[${PYTHON_USEDEP}] )
 	train? ( dev-python/flash-attn[${PYTHON_USEDEP}] )
 	train? ( dev-python/wandb[${PYTHON_USEDEP}] )

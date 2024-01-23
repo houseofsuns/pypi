@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/certbot-nginx[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/django-bankreader[${PYTHON_USEDEP}]
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/mysqlclient[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pyexcel-xlsxw[${PYTHON_USEDEP}]
-	dev-python/PyICU[${PYTHON_USEDEP}]
+	dev-python/pyicu[${PYTHON_USEDEP}]
 	dev-python/pypdf[${PYTHON_USEDEP}]
 	dev-python/python-memcached[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/trml2pdf[${PYTHON_USEDEP}]
-	dev-python/Whoosh[${PYTHON_USEDEP}]
+	dev-python/whoosh[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

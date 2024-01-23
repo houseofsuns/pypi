@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/minify-html-0.15.0[${PYTHON_USEDEP}]
 	~dev-python/tinycss2-1.2.1[${PYTHON_USEDEP}]
 	dev-python/rcssmin[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	sass? ( dev-python/libsass[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/kivy[${PYTHON_USEDEP}]
+	dev-python/Kivy[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-rgb-display[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-aw9523[${PYTHON_USEDEP}]
 	dev? ( dev-python/poethepoet[${PYTHON_USEDEP}] )

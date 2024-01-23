@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.13.1[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]"
+	>=dev-python/pygments-2.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

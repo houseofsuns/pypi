@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/psychopy[${PYTHON_USEDEP}]
 	dev-python/psychopy-sounddevice[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ascii-magic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/keyboard[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyautogui[${PYTHON_USEDEP}] )
+	tests? ( dev-python/PyAutoGUI[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )"

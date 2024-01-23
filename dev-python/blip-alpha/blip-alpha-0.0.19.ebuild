@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ChainConsumer[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	~dev-python/cython-0.29.16[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	~dev-python/cycler-0.10.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django PDF views, the easy way [topver 0.2.0]"
+DESCRIPTION="Django PDF views, the easy way [topver 0.2.0, newver 0.2.0.dev1]"
 
 HOMEPAGE="https://github.com/nigma/django-easy-pdf"
 LICENSE="MIT"

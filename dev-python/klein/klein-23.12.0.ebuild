@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	dev-python/hyperlink[${PYTHON_USEDEP}]
 	dev-python/incremental[${PYTHON_USEDEP}]
-	dev-python/Tubes[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	dev-python/tubes[${PYTHON_USEDEP}]
+	>=dev-python/twisted-16.6[${PYTHON_USEDEP}]
+	dev-python/werkzeug[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

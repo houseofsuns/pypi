@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.9.7[${PYTHON_USEDEP}]
 	dev-python/zeep[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

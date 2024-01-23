@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/nvdlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

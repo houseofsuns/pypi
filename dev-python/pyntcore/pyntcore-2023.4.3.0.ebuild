@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binary wrappers for the FRC ntcore library [topver 2024.2.1.1]"
+DESCRIPTION="Binary wrappers for the FRC ntcore library [topver 2024.2.1.1, newver 2024.2.1.1]"
 
 HOMEPAGE="https://github.com/robotpy/pyntcore"
 LICENSE="BSD"

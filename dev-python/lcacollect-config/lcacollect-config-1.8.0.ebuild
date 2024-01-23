@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	dev-python/fastapi-azure-auth[${PYTHON_USEDEP}]
 	dev-python/aiocache[${PYTHON_USEDEP}]
-	database? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	database? ( >=dev-python/sqlalchemy-1.4.35[${PYTHON_USEDEP}] )
 	database? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
 	database? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	dev-python/msgraph-core[${PYTHON_USEDEP}]

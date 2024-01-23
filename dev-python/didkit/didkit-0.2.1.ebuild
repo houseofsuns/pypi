@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DIDKit python package [topver 0.3.2]"
+DESCRIPTION="DIDKit python package [topver 0.3.2, newver 0.3.2]"
 
 HOMEPAGE="https://github.com/spruceid/didkit"
 LICENSE=""

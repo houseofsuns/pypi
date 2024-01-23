@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	training? ( ~dev-python/imageio-2.27.0[${PYTHON_USEDEP}] )
 	training? ( ~dev-python/matplotlib-3.8.1[${PYTHON_USEDEP}] )
 	training? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	training? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	training? ( ~dev-python/shapely-2.0.2[${PYTHON_USEDEP}] )
 	training? ( dev-python/teklia-toolbox[${PYTHON_USEDEP}] )
 	training? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	training? ( dev-python/torchvision[${PYTHON_USEDEP}] )

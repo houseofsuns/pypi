@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="images"
 DEPENDENCIES="<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	images? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	images? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

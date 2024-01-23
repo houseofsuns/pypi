@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs json lxml"
 DEPENDENCIES="~dev-python/httpx-0.23[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
 	json? ( ~dev-python/xmltodict-0.13[${PYTHON_USEDEP}] )
 	lxml? ( ~dev-python/lxml-4.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

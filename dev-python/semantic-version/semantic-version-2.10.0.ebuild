@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="dev? ( dev-python/Django[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/django-1.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
@@ -32,7 +32,7 @@ DEPENDENCIES="dev? ( dev-python/Django[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

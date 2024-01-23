@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
-	dev-python/PyMongo[${PYTHON_USEDEP}]"
+	~dev-python/pymongo-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

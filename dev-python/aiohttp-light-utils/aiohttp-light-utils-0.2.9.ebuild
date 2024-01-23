@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/trafaret-config[${PYTHON_USEDEP}]
 	dev-python/jsonrpcclient[${PYTHON_USEDEP}]
 	<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	<dev-python/python-json-logger-0.2.0[${PYTHON_USEDEP}]
-	dev-python/aiohttp_graphql[${PYTHON_USEDEP}]
+	dev-python/aiohttp-graphql[${PYTHON_USEDEP}]
 	dev-python/graphene-file-upload[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

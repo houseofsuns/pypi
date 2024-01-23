@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/flask-cors[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/greenlet-1.1.2[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	<=dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<=dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.31.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

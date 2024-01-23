@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/twilio[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/discord[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/bardapi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

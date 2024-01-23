@@ -28,6 +28,6 @@ DEPENDENCIES="sqlite? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	full? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

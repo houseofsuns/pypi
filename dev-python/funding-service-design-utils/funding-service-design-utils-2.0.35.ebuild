@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask-Babel[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-babel-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.1[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/flipper-client[${PYTHON_USEDEP}]
 	dev-python/flask-redis[${PYTHON_USEDEP}]
-	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/flask-migrate[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-3.0.3[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

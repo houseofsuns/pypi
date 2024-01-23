@@ -27,7 +27,7 @@ IUSE="aiohttp avro celery confluent-kafka django gunicorn requests sanic"
 DEPENDENCIES=">=dev-python/semver-2.0[${PYTHON_USEDEP}]
 	>=dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]
 	dev-python/contextvars[${PYTHON_USEDEP}]
-	avro? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	avro? ( >=dev-python/pyyaml-5.0[${PYTHON_USEDEP}] )
 	avro? ( dev-python/avro-python3[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	sanic? ( dev-python/sanic[${PYTHON_USEDEP}] )

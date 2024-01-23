@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-oscar[${PYTHON_USEDEP}]
 	dev-python/django-oscar-api[${PYTHON_USEDEP}]
 	development? ( >=dev-python/coverage-4.4.2[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/flake8-3.2.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	development? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
 	development? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/sphinx-1.5.2[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/tox-2.6.0[${PYTHON_USEDEP}] )

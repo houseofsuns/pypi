@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	>=dev-python/arrow-1.3.0[${PYTHON_USEDEP}]
 	dev-python/feedgen[${PYTHON_USEDEP}]
 	dev-python/outdated[${PYTHON_USEDEP}]

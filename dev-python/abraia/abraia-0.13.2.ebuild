@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2020.9.4[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]

@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	webview? ( dev-python/pywebview[${PYTHON_USEDEP}] )
 	webview_gtk? ( dev-python/pywebview[${PYTHON_USEDEP}] )
-	webview_gtk? ( dev-python/PyGObject[${PYTHON_USEDEP}] )"
+	webview_gtk? ( dev-python/pygobject[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

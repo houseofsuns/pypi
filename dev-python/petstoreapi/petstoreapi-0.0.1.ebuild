@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An async API wrapper for the petstore microservice. [topver 0.0.10]"
+DESCRIPTION="An async API wrapper for the petstore microservice. [topver 0.0.10, newver 0.0.10]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/gptfunction[${PYTHON_USEDEP}]
 	dev-python/random-username[${PYTHON_USEDEP}]"

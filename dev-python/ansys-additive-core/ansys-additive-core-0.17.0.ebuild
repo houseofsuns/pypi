@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/ansys-api-additive[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/panel[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/ansys-api-additive[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Cerberus[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
+	>=dev-python/cerberus-1.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

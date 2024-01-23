@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+	dev-python/pynacl[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/django-crum[${PYTHON_USEDEP}]
 	dev-python/django-waffle[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
-	dev-python/rx[${PYTHON_USEDEP}]
+	dev-python/Rx[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]

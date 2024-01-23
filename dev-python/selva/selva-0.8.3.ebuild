@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="jinja"
 DEPENDENCIES="dev-python/asgikit[${PYTHON_USEDEP}]
-	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	<dev-python/loguru-0.8[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0[${PYTHON_USEDEP}]

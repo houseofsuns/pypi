@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyCaret - An open source, low-code machine learning library in Python. [topver 3.2.0]"
+DESCRIPTION="PyCaret - An open source, low-code machine learning library in Python. [topver 3.2.0, newver 3.2.0]"
 
 HOMEPAGE="https://github.com/pycaret/pycaret"
 LICENSE="MIT"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	<=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]

@@ -30,10 +30,10 @@ DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.3[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.5.1[${PYTHON_USEDEP}]
 	dev-python/bottleneck[${PYTHON_USEDEP}]
 	dev-python/cf-xarray[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	dev-python/shapely[${PYTHON_USEDEP}]
 	data_install? ( dev-python/cdsapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

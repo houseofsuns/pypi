@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Delphi FMX for Python [topver 1.0.8]"
+DESCRIPTION="Delphi FMX for Python [topver 1.0.8, newver 1.0.8]"
 
 HOMEPAGE="https://github.com/Embarcadero/DelphiFMX4Python"
 LICENSE="Other/Proprietary License"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
-	dev-python/compose-x-common[${PYTHON_USEDEP}]"
+	dev-python/compose_x_common[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

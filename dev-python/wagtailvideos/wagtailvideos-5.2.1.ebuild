@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-enumchoicefield[${PYTHON_USEDEP}]
 	dev-python/bcp47[${PYTHON_USEDEP}]
 	testing? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )"

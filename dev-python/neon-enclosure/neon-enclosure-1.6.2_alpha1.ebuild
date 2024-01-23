@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docker"
-DEPENDENCIES="dev-python/ovos-phal[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ovos-PHAL[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	~dev-python/click-default-group-1.2[${PYTHON_USEDEP}]
 	dev-python/ovos-bus-client[${PYTHON_USEDEP}]
-	docker? ( dev-python/ovos-phal-plugin-homeassistant[${PYTHON_USEDEP}] )
+	docker? ( dev-python/ovos-PHAL-plugin-homeassistant[${PYTHON_USEDEP}] )
 	docker? ( dev-python/ovos-phal-plugin-notification-widgets[${PYTHON_USEDEP}] )
 	docker? ( dev-python/ovos-phal-plugin-color-scheme-manager[${PYTHON_USEDEP}] )
 	docker? ( dev-python/ovos-phal-plugin-configuration-provider[${PYTHON_USEDEP}] )
 	docker? ( dev-python/ovos-phal-plugin-connectivity-events[${PYTHON_USEDEP}] )
-	docker? ( dev-python/ovos-phal-plugin-oauth[${PYTHON_USEDEP}] )
+	docker? ( dev-python/ovos-PHAL-plugin-oauth[${PYTHON_USEDEP}] )
 	docker? ( dev-python/neon-phal-plugin-monitoring[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

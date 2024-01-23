@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="oslo_config test"
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
 	>=dev-python/oslo-concurrency-3.26.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]

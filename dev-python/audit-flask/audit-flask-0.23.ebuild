@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.25.6]"
+DESCRIPTION=" [topver 0.25.6, newver 0.25.6]"
 
 HOMEPAGE="https://github.com/jrosalesmeza/audit_flask"
 LICENSE="MIT"

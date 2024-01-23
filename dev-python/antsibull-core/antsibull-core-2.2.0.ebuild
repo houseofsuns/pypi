@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	<dev-python/sh-2.0.0[${PYTHON_USEDEP}]
-	dev-python/twiggy[${PYTHON_USEDEP}]
+	dev-python/Twiggy[${PYTHON_USEDEP}]
 	codeqa? ( dev-python/antsibull-changelog[${PYTHON_USEDEP}] )
 	codeqa? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	codeqa? ( >=dev-python/pylint-2.15.7[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pyre-check[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
-	typing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	typing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	typing? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

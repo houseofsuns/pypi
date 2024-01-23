@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	full? ( dev-python/bsl[${PYTHON_USEDEP}] )

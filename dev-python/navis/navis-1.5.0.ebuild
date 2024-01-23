@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	>=dev-python/plotly-4.9[${PYTHON_USEDEP}]
 	dev-python/pynrrd[${PYTHON_USEDEP}]
 	>=dev-python/pypng-0.0.18[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	dev-python/skeletor[${PYTHON_USEDEP}]
 	all? ( dev-python/pathos[${PYTHON_USEDEP}] )
-	all? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/shapely-1.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pykdtree[${PYTHON_USEDEP}] )
 	all? ( dev-python/xxhash[${PYTHON_USEDEP}] )
 	all? ( dev-python/flybrains[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	all? ( dev-python/open3d[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyfqmr[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/pathos[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	all-dev? ( >=dev-python/shapely-1.6.0[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/pykdtree[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/xxhash[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/flybrains[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES=">=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	all-dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	all-dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	cloudvolume? ( dev-python/cloud-volume[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES=">=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	flybrains? ( dev-python/flybrains[${PYTHON_USEDEP}] )
 	hash? ( dev-python/xxhash[${PYTHON_USEDEP}] )
 	kdtree? ( dev-python/pykdtree[${PYTHON_USEDEP}] )
@@ -90,10 +90,10 @@ DEPENDENCIES=">=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	meshes? ( dev-python/pyfqmr[${PYTHON_USEDEP}] )
 	pathos? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
-	shapely? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	shapely? ( >=dev-python/shapely-1.6.0[${PYTHON_USEDEP}] )
 	test-notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	test-notebook? ( dev-python/neuprint-python[${PYTHON_USEDEP}] )
-	test-notebook? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	test-notebook? ( >=dev-python/shapely-1.6.0[${PYTHON_USEDEP}] )
 	vispy-default? ( dev-python/vispy[${PYTHON_USEDEP}] )
 	vispy-glfw? ( dev-python/vispy[${PYTHON_USEDEP}] )
 	vispy-pyglet? ( dev-python/vispy[${PYTHON_USEDEP}] )

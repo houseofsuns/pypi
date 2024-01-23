@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/docutils-0.14[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.19.2[${PYTHON_USEDEP}]
 	dev-python/cfn-flip[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/docutils-0.14[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/colorclass-2.2.2[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/better-boto[${PYTHON_USEDEP}]
 	~dev-python/deepmerge-0.3.0[${PYTHON_USEDEP}]
 	dev-python/yamale[${PYTHON_USEDEP}]

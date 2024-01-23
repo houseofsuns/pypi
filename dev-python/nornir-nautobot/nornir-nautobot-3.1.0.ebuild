@@ -33,6 +33,6 @@ DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/nornir-utils[${PYTHON_USEDEP}]
 	dev-python/pynautobot[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	mikrotik-driver? ( dev-python/routeros-api[${PYTHON_USEDEP}] )"
+	mikrotik-driver? ( dev-python/RouterOS-api[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

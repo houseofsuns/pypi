@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.11[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.27.2[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.10[${PYTHON_USEDEP}]
 	~dev-python/fasteners-0.15[${PYTHON_USEDEP}]"

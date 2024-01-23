@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
 	dev-python/murano-pkg-check[${PYTHON_USEDEP}]
 	>=dev-python/osc-lib-1.8.0[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
 	>=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.1.0[${PYTHON_USEDEP}]
 	>=dev-python/python-glanceclient-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/python-keystoneclient-3.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]

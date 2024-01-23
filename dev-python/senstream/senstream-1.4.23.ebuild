@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

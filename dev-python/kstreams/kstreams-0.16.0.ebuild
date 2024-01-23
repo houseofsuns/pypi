@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aiokafka[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-1.0[${PYTHON_USEDEP}]
 	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

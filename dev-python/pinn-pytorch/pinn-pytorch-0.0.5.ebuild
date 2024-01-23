@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/deepxde[${PYTHON_USEDEP}]"
+	dev-python/DeepXDE[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	dev-python/kconfiglib[${PYTHON_USEDEP}]

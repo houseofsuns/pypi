@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/asttokens-3.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/webtest-3.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

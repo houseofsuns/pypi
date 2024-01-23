@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/terminaltables-3.1.10[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

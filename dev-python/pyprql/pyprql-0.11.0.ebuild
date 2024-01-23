@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/duckdb-engine[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/duckdb_engine[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.0[${PYTHON_USEDEP}]
 	dev-python/jupysql[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]

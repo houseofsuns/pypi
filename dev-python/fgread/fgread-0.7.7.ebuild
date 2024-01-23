@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/get_version[${PYTHON_USEDEP}]
+	dev-python/get-version[${PYTHON_USEDEP}]
 	~dev-python/tables-3.6[${PYTHON_USEDEP}]
 	dev-python/loompy[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]

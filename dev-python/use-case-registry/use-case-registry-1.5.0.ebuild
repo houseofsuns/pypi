@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev sqlalchemy"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-jsonschema[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

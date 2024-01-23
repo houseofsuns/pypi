@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="agent [topver 820]"
+DESCRIPTION="agent [topver 820, newver 820]"
 
 HOMEPAGE="https://git.elenet.me/waimaiqa/qualityplatform.agent.git"
 LICENSE="MIT Licence"

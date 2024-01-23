@@ -27,7 +27,7 @@ IUSE="all amazon doc google postgres snowflake tests"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
 	<=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]

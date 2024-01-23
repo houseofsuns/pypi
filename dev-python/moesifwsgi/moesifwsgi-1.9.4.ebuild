@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.30.0[${PYTHON_USEDEP}]
 	dev-python/moesifapi[${PYTHON_USEDEP}]
 	dev-python/moesifpythonrequest[${PYTHON_USEDEP}]
 	dev-python/readerwriterlock[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	>=dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

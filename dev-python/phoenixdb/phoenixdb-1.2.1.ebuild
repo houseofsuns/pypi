@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-gssapi[${PYTHON_USEDEP}]
 	<dev-python/gssapi-1.6.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )"
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

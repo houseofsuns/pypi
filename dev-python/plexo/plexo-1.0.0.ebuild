@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/capnpy[${PYTHON_USEDEP}]
 	dev-python/python-jsonschema-objects[${PYTHON_USEDEP}]
 	<dev-python/pyzmq-26.0.0[${PYTHON_USEDEP}]
 	dev-python/returns[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

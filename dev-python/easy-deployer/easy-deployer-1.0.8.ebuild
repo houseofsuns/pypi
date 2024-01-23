@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/keyboard[${PYTHON_USEDEP}]
 	dev-python/pipreqs[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/InquirerPy[${PYTHON_USEDEP}]"
+	dev-python/click[${PYTHON_USEDEP}]
+	dev-python/inquirerpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

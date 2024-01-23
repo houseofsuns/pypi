@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]"

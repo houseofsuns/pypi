@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/mlpype[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/mlpype[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/joblib-1.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-0.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pypiserver-1.5.1[${PYTHON_USEDEP}] )
@@ -47,14 +47,14 @@ DEPENDENCIES="dev-python/mlpype[${PYTHON_USEDEP}]
 	strict? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	strict? ( ~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}] )
 	strict? ( ~dev-python/joblib-1.1.0[${PYTHON_USEDEP}] )
-	strict? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	strict? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	strict? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/mlpype[${PYTHON_USEDEP}] )
 	test? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/joblib-1.1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

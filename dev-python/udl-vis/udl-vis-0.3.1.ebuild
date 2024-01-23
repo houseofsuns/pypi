@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="unified pytorch framework for vision task [topver 0.3.7]"
+DESCRIPTION="unified pytorch framework for vision task [topver 0.3.7, newver 0.3.7]"
 
 HOMEPAGE="https://github.com/XiaoXiao-Woo/PanCollection"
 LICENSE="GPL-3"

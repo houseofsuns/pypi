@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/beaker-common[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
+	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/gssapi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

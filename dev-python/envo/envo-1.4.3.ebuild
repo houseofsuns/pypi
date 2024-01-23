@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prompt_toolkit[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/prompt-toolkit-3.0.26[${PYTHON_USEDEP}]
 	dev-python/rhei[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	dev-python/xonsh[${PYTHON_USEDEP}]

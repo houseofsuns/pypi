@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pint[${PYTHON_USEDEP}] )
+	all? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	all? ( dev-python/regex[${PYTHON_USEDEP}] )
 	all? ( dev-python/rich[${PYTHON_USEDEP}] )

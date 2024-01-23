@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib_github_alt[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinxcontrib-github-alt[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )

@@ -31,11 +31,11 @@ DEPENDENCIES=">=dev-python/Babel-2.8[${PYTHON_USEDEP}]
 	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pipfile[${PYTHON_USEDEP}]
 	>=dev-python/pipenv-2020.6.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/pynpm[${PYTHON_USEDEP}]
 	>=dev-python/virtualenv-20.0.35[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

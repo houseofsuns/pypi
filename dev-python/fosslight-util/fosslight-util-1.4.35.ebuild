@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/XlsxWriter[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/lastversion[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/python3-wget[${PYTHON_USEDEP}]

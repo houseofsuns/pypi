@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra tools"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	extra? ( dev-python/pinyin[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev-python/referencing[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	extra? ( dev-python/romanize[${PYTHON_USEDEP}] )
+	extra? ( dev-python/Romanize[${PYTHON_USEDEP}] )
 	extra? ( dev-python/romkan[${PYTHON_USEDEP}] )
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

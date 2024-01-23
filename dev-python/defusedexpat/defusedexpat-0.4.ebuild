@@ -16,8 +16,8 @@ DESCRIPTION="XML bomb protection with modified expat parser"
 
 HOMEPAGE="https://bitbucket.org/tiran/defusedexpat"
 LICENSE="PSF-2.4"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

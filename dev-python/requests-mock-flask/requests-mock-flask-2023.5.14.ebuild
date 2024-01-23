@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/werkzeug-2.3.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flask-2.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

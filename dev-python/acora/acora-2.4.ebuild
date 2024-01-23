@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="source"
-DEPENDENCIES="source? ( dev-python/Cython[${PYTHON_USEDEP}] )"
+DEPENDENCIES="source? ( >=dev-python/cython-0.29[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

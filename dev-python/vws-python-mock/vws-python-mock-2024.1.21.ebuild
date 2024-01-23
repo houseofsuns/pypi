@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/brisque[${PYTHON_USEDEP}]
 	dev-python/multipart[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-mock[${PYTHON_USEDEP}]
@@ -57,10 +57,10 @@ DEPENDENCIES="dev-python/brisque[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock-flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-prompt-1.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/brisque[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vws-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/VWS-Test-Fixtures[${PYTHON_USEDEP}] )
+	dev? ( dev-python/vws-test-fixtures[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vws-web-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

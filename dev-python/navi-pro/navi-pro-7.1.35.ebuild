@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A command-line interface to Tenable.io [topver 7.5.7]"
+DESCRIPTION="A command-line interface to Tenable.io [topver 7.5.7, newver 7.5.7]"
 
 HOMEPAGE="https://github.com/packetchaos/Navi"
 LICENSE="GNUv3"
@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/IPy-1.0[${PYTHON_USEDEP}]
-	dev-python/pytenable[${PYTHON_USEDEP}]
+	dev-python/pyTenable[${PYTHON_USEDEP}]
 	>=dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.48[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]

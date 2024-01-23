@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/qdrant_client[${PYTHON_USEDEP}]
+	dev-python/qdrant-client[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/sciphi_synthesizer[${PYTHON_USEDEP}]
+	dev-python/sciphi-synthesizer[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

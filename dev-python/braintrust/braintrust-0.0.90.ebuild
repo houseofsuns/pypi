@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/braintrust-core[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/build[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="crypto docs schema"
 DEPENDENCIES="docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-0.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/rich-11.0[${PYTHON_USEDEP}]

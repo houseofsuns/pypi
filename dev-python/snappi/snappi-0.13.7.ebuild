@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="convergence ixnetwork testing trex"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	~dev-python/grpcio-tools-1.54.2[${PYTHON_USEDEP}]

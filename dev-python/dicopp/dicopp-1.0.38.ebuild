@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyGObject[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pygobject-3.40[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21[${PYTHON_USEDEP}]"

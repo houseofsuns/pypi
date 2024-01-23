@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/euclid3[${PYTHON_USEDEP}]
 	<dev-python/pypng-0.0.20[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
+	~dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
 	<dev-python/ply-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

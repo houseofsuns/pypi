@@ -51,9 +51,9 @@ DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	serv? ( ~dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	serv? ( ~dev-python/urllib3-1.26.13[${PYTHON_USEDEP}] )
 	serv? ( dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}] )
-	serv? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	serv? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	serv? ( dev-python/uwsgi[${PYTHON_USEDEP}] )
+	serv? ( <dev-python/flask-2.3[${PYTHON_USEDEP}] )
+	serv? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	serv? ( dev-python/uWSGI[${PYTHON_USEDEP}] )
 	serv? ( >=dev-python/flasgger-0.9.5[${PYTHON_USEDEP}] )
 	serv? ( >=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}] )
 	serv? ( dev-python/aiohttp-retry[${PYTHON_USEDEP}] )"

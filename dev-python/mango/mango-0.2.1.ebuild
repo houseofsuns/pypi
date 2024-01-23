@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli dashboard data gcloud models plot shap"
 DEPENDENCIES="<=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	<=dev-python/charset-normalizer-3.3.0[${PYTHON_USEDEP}]
-	dev-python/et-xmlfile[${PYTHON_USEDEP}]
+	<=dev-python/et_xmlfile-1.1.0[${PYTHON_USEDEP}]
 	<=dev-python/fastjsonschema-2.18.1[${PYTHON_USEDEP}]
 	<=dev-python/idna-3.4[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="<=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	<=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	<=dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	<=dev-python/xlsxwriter-3.1.9[${PYTHON_USEDEP}]
 	cli? ( <=dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	dashboard? ( ~dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="<=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	data? ( <=dev-python/unidecode-1.3.7[${PYTHON_USEDEP}] )
 	data? ( <=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	models? ( dev-python/pyomo[${PYTHON_USEDEP}] )
+	models? ( dev-python/Pyomo[${PYTHON_USEDEP}] )
 	plot? ( <=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	plot? ( <=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
 	plot? ( <=dev-python/plotly-5.17.0[${PYTHON_USEDEP}] )

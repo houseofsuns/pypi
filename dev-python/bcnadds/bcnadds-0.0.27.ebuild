@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyrogram[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pyrogram[${PYTHON_USEDEP}]
 	dev-python/TgCrypto[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]

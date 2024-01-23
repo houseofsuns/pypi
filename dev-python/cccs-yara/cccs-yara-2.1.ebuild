@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/clint-0.5.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	dev-python/plyara[${PYTHON_USEDEP}]
 	dev-python/python-baseconv[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/stix2[${PYTHON_USEDEP}]
 	>=dev-python/yara-python-4.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]
 	dev-python/json2html[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

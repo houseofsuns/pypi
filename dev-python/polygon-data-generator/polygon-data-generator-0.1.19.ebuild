@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/datetime[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/polygon-api-client[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

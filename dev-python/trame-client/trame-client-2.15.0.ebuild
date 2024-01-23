@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/seleniumbase[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xprocess[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/pixelmatch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

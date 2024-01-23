@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/uiautomator[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
 	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]"
+	dev-python/pyopenssl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

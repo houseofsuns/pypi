@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="libsass watch"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	libsass? ( dev-python/libsass[${PYTHON_USEDEP}] )
 	watch? ( dev-python/watchdog[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

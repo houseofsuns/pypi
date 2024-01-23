@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="crawler commons [topver 0.0.54]"
+DESCRIPTION="crawler commons [topver 0.0.54, newver 0.0.54]"
 
 HOMEPAGE="https://github.com/cheddars/crawler_commons"
 LICENSE="MIT"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	~dev-python/pyaml-21.10[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )

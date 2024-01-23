@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
 	dev-python/python-benedict[${PYTHON_USEDEP}]
 	dev-python/jsonmerge[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/gwpy[${PYTHON_USEDEP}]
 	dev-python/python-crontab[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]"

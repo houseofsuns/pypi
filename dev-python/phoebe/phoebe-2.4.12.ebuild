@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

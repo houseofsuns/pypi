@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.9.100[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorboardx-hparams[${PYTHON_USEDEP}]
 	~dev-python/GitPython-2.1.11[${PYTHON_USEDEP}]
 	dev-python/sru[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="~dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	~dev-python/pip-19.1[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

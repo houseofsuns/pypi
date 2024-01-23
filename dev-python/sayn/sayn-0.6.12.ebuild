@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all bigquery graphviz mysql postgresql postgresql-binary redshift snowflake"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.8[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.10[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	>=dev-python/rsa-4.9[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )

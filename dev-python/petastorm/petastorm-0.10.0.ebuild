@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Petastorm is a library enabling the use of Parquet storage from Tensorflow, Pytorch, and other Python-based ML training frameworks. [topver 0.12.2]"
+DESCRIPTION="Petastorm is a library enabling the use of Parquet storage from Tensorflow, Pytorch, and other Python-based ML training frameworks. [topver 0.12.2, newver 0.12.2rc0]"
 
 HOMEPAGE="https://github.com/uber/petastorm"
 LICENSE="Apache-2.0"
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/dill-0.2.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/alabaster-0.7.11[${PYTHON_USEDEP}] )
 	opencv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	s3fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pillow-6.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pil"
 DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
-	pil? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	pil? ( >=dev-python/pillow-2.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -44,6 +44,6 @@ DEPENDENCIES="dev-python/counter-robots[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-records[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-records-ui[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

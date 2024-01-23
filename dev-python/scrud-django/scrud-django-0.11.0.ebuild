@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/django-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.16.0[${PYTHON_USEDEP}]
 	dev-python/safetydance-test[${PYTHON_USEDEP}]
-	dev-python/Whoosh[${PYTHON_USEDEP}]
+	<dev-python/whoosh-3.0.0[${PYTHON_USEDEP}]
 	dev-python/django-reversion[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

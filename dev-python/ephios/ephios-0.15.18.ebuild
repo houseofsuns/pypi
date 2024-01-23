@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql pgsql redis"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]
 	dev-python/django-ical[${PYTHON_USEDEP}]
-	dev-python/django-polymorphic[${PYTHON_USEDEP}]
+	<dev-python/django_polymorphic-4.0.0[${PYTHON_USEDEP}]
 	dev-python/django-select2[${PYTHON_USEDEP}]
 	<dev-python/reportlab-5.0.0[${PYTHON_USEDEP}]
 	dev-python/django-formset-js-improved[${PYTHON_USEDEP}]
 	dev-python/django-csp[${PYTHON_USEDEP}]
 	<dev-python/bleach-7.0.0[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	pgsql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	mysql? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )
 	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )

@@ -31,6 +31,6 @@ DEPENDENCIES="~dev-python/networkx-3.2[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	dev-python/nodejs[${PYTHON_USEDEP}]
 	dev-python/node[${PYTHON_USEDEP}]
-	dev-python/importlib_resources[${PYTHON_USEDEP}]"
+	dev-python/importlib-resources[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

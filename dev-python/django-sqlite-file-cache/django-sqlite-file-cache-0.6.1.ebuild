@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django cache backend which has a similar API to FileBasedCache, but reduces the number of inodes used [topver 0.6.2]"
+DESCRIPTION="A Django cache backend which has a similar API to FileBasedCache, but reduces the number of inodes used [topver 0.6.2, newver 0.6.2]"
 
 HOMEPAGE="https://github.com/murrple-1/django-sqlite-file-cache"
 LICENSE=""
@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

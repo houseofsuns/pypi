@@ -27,7 +27,7 @@ IUSE="docs plot test"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
-	dev-python/morphio[${PYTHON_USEDEP}]
+	dev-python/MorphIO[${PYTHON_USEDEP}]
 	dev-python/neurom[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]

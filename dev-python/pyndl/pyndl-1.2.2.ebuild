@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/xarray-2023.0.0[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]"
+	<dev-python/netcdf4-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/cython-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

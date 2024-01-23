@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A sweet Python cake for all Pythoners! [topver 0.0.94]"
+DESCRIPTION="A sweet Python cake for all Pythoners! [topver 0.0.94, newver 0.0.94]"
 
 HOMEPAGE="http://nixoahz.com"
 LICENSE="GNU General Public License v3 GPLv3"

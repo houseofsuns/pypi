@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HSS/LMS Digital Signatures [topver 2.0.0]"
+DESCRIPTION="HSS/LMS Digital Signatures [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/russhousley/pyhsslms"
 LICENSE="MIT"

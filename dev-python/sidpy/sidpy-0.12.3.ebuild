@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/ipympl[${PYTHON_USEDEP}]
-	file_widgets? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	file_widgets? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

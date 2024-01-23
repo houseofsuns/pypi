@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="small scikit-learn extension [topver 0.0.13]"
+DESCRIPTION="small scikit-learn extension [topver 0.0.13, newver 0.0.13]"
 
 HOMEPAGE="https://github.com/vanoudh/sklearn2"
 LICENSE="MIT"

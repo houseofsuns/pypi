@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES=">=dev-python/numpy-1.6[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.14[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/numpy-1.6[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-1.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

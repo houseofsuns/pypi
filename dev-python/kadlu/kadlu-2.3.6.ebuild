@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MERIDIAN Python package for ocean ambient noise modelling [topver 2.3.7]"
+DESCRIPTION="MERIDIAN Python package for ocean ambient noise modelling [topver 2.3.7, newver 2.3.7]"
 
 HOMEPAGE="https://gitlab.meridian.cs.dal.ca/public_projects/kadlu"
 LICENSE="GNU General Public License v3.0"
@@ -32,10 +32,10 @@ DEPENDENCIES="dev-python/cdsapi[${PYTHON_USEDEP}]
 	dev-python/mpl-scatter-density[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pygrib[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

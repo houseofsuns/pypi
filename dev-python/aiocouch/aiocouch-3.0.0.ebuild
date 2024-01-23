@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs examples tests typing"
 DEPENDENCIES="~dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

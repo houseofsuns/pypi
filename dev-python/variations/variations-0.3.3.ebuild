@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="facedetection full stackblur"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-5.2.0[${PYTHON_USEDEP}]
 	dev-python/pilkit[${PYTHON_USEDEP}]
 	facedetection? ( dev-python/face-recognition[${PYTHON_USEDEP}] )
 	full? ( dev-python/face-recognition[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.1[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]

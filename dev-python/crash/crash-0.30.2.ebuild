@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="argcompletion devel test"
 DEPENDENCIES="<dev-python/colorama-1.0[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	dev-python/crate[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-4.0[${PYTHON_USEDEP}]

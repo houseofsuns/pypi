@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/mojo-xmodules[${PYTHON_USEDEP}]
 	dev-python/mojo-runtime[${PYTHON_USEDEP}]
 	dev-python/mojo-results[${PYTHON_USEDEP}]
 	mongodb? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
-	couchdb? ( dev-python/couchdb[${PYTHON_USEDEP}] )"
+	couchdb? ( dev-python/CouchDB[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

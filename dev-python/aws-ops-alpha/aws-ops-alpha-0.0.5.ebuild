@@ -31,10 +31,10 @@ DEPENDENCIES="dev-python/boto-session-manager[${PYTHON_USEDEP}]
 	dev-python/aws-lambda-layer[${PYTHON_USEDEP}]
 	dev-python/config-patterns[${PYTHON_USEDEP}]
 	dev-python/config-patterns[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.12[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/boto-session-manager[${PYTHON_USEDEP}]
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rich[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

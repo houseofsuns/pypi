@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pynacl[${PYTHON_USEDEP}]
 	dev-python/libnacl[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]

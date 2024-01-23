@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-1.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.19[${PYTHON_USEDEP}]
 	<dev-python/rdflib-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/mistune-2.1[${PYTHON_USEDEP}]
-	dev-python/CacheControl[${PYTHON_USEDEP}]
+	<dev-python/cachecontrol-0.14[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )

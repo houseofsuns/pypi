@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/click-8.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/woodwork[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )

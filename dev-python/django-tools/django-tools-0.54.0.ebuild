@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/bx_py_utils[${PYTHON_USEDEP}]
+	dev-python/bx-py-utils[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/icdiff[${PYTHON_USEDEP}]
 	dev-python/pprintpp[${PYTHON_USEDEP}]"

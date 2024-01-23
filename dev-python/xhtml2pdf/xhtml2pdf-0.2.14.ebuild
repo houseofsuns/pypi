@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs pycairo release renderpm test"
 DEPENDENCIES="dev-python/arabic-reshaper[${PYTHON_USEDEP}]
 	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.1.1[${PYTHON_USEDEP}]
 	dev-python/pyHanko[${PYTHON_USEDEP}]
 	dev-python/pyhanko-certvalidator[${PYTHON_USEDEP}]
 	>=dev-python/pypdf-3.1.0[${PYTHON_USEDEP}]

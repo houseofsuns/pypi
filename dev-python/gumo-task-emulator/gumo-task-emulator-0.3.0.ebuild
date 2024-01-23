@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/gumo-core[${PYTHON_USEDEP}]
 	dev-python/gumo-datastore[${PYTHON_USEDEP}]
 	dev-python/gumo-task[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]"
+	>=dev-python/flask-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

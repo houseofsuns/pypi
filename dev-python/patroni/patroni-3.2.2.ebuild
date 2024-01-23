@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws consul etcd etcd3 exhibitor psycopg2 psycopg2-binary psycopg3 raft zookeeper"
 DEPENDENCIES=">=dev-python/urllib3-1.19.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/click-4.1[${PYTHON_USEDEP}]
 	>=dev-python/prettytable-0.7[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]

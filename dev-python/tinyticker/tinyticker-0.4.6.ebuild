@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/RPi-GPIO[${PYTHON_USEDEP}]
 	dev-python/spidev[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/cryptocompare[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]
 	<dev-python/qrcode-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]"

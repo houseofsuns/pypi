@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli docs tests"
 DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

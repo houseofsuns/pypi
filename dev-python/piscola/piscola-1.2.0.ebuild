@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/peakutils[${PYTHON_USEDEP}]
+	dev-python/PeakUtils[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/sfdmap2[${PYTHON_USEDEP}]
 	dev-python/extinction[${PYTHON_USEDEP}]

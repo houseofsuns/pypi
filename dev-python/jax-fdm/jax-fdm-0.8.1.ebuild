@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
-	dev-python/compas[${PYTHON_USEDEP}]
+	dev-python/COMPAS[${PYTHON_USEDEP}]
 	dev-python/compas-singular[${PYTHON_USEDEP}]
 	dev-python/compas-notebook[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

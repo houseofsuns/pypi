@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-2.0.0[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/django-solo[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]

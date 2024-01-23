@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MissingLink.ai Resource Manager - Docker version [topver 19.9.2606]"
+DESCRIPTION="MissingLink.ai Resource Manager - Docker version [topver 19.9.2606, newver 19.9.2606]"
 
 HOMEPAGE="https://missinglink.ai"
 LICENSE=""
@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/docker-3.6[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	~dev-python/websockets-7.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-1.6.4[${PYTHON_USEDEP}]
+	~dev-python/GitPython-2.1[${PYTHON_USEDEP}]
 	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/ml-crypto[${PYTHON_USEDEP}]
 	~dev-python/autobahn-17.10[${PYTHON_USEDEP}]
-	dev-python/async-generator[${PYTHON_USEDEP}]
+	dev-python/async_generator[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.7[${PYTHON_USEDEP}]
 	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.3[${PYTHON_USEDEP}]

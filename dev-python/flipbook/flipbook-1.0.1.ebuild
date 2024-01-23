@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/configargparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ConfigArgParse-1.5.5[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/configargparse[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/flask-2.1[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

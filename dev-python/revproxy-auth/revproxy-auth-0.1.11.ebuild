@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/config-yml[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

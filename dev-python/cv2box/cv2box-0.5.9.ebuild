@@ -27,7 +27,7 @@ IUSE="full"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	full? ( dev-python/apscheduler[${PYTHON_USEDEP}] )
+	full? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
 	full? ( dev-python/numexpr[${PYTHON_USEDEP}] )
 	full? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	full? ( dev-python/yaml[${PYTHON_USEDEP}] )"

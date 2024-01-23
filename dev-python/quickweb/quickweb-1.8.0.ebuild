@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/CherryPy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cherrypy[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	dev-python/Requests[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/webtest[${PYTHON_USEDEP}]
-	dev-python/WSGIProxy2[${PYTHON_USEDEP}]
+	dev-python/wsgiproxy2[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pyqt4 pyqt5 pyqt6 pyside pyside2 pyside6"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	pyqt4? ( dev-python/PyQt4[${PYTHON_USEDEP}] )
+	pyqt4? ( dev-python/pyqt4[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PySide[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/PySide6[${PYTHON_USEDEP}] )"
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

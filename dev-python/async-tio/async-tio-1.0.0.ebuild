@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An unoffical API wrapper for tio.run [topver 1.3.2]"
+DESCRIPTION="An unoffical API wrapper for tio.run [topver 1.3.2, newver 1.3.2]"
 
 HOMEPAGE="https://github.com/Tom-the-Bomb/Discord-Games"
 LICENSE="MIT"

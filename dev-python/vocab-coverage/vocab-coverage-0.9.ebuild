@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cuml datasets"
 DEPENDENCIES="datasets? ( dev-python/harvesttext[${PYTHON_USEDEP}] )
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]

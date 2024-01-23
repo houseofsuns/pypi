@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pydata-sphinx-theme-0.11.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

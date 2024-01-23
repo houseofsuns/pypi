@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="obj"
 DEPENDENCIES="dev-python/openapi3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]

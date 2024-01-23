@@ -27,18 +27,18 @@ IUSE=""
 DEPENDENCIES="~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/flask-smorest[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.4.4[${PYTHON_USEDEP}]
-	dev-python/flask-jwt-extended[${PYTHON_USEDEP}]
+	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/flask-marshmallow[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.9[${PYTHON_USEDEP}]
 	dev-python/flask-migrate[${PYTHON_USEDEP}]
-	dev-python/flask-mail[${PYTHON_USEDEP}]
+	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	dev-python/flask-shell-ipython[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

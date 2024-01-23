@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy-serializer[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/SQLAlchemy-serializer[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/flask-migrate[${PYTHON_USEDEP}]
-	dev-python/flask-script[${PYTHON_USEDEP}]"
+	dev-python/Flask-Script[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

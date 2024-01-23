@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/fpdf2[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/json5-0.10.0[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]"
+	<dev-python/xlsxwriter-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pre-commit[${PYTHON_USEDEP}]
 	<dev-python/black-24.0.0[${PYTHON_USEDEP}]
 	dev-python/blacken-docs[${PYTHON_USEDEP}]
-	dev-python/flake8-pyproject[${PYTHON_USEDEP}]
+	dev-python/Flake8-pyproject[${PYTHON_USEDEP}]
 	dev-python/flake8-annotations-complexity[${PYTHON_USEDEP}]
 	dev-python/flake8-bugbear[${PYTHON_USEDEP}]
 	dev-python/flake8-builtins[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/shellcheck-py[${PYTHON_USEDEP}]
 	dev-python/mdformat[${PYTHON_USEDEP}]
 	dev-python/mdformat-gfm[${PYTHON_USEDEP}]
-	dev-python/mdformat-frontmatter[${PYTHON_USEDEP}]
-	dev-python/mdformat-footnote[${PYTHON_USEDEP}]"
+	dev-python/mdformat_frontmatter[${PYTHON_USEDEP}]
+	dev-python/mdformat_footnote[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

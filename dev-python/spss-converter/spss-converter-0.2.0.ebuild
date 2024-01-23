@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/validator-collection[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pyreadstat[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]

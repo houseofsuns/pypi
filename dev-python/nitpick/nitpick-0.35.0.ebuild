@@ -27,14 +27,14 @@ IUSE="doc lint test"
 DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	dev-python/autorepr[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ConfigUpdater[${PYTHON_USEDEP}]
+	dev-python/configupdater[${PYTHON_USEDEP}]
 	dev-python/dictdiffer[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	>=dev-python/flake8-3.0.0[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	dev-python/furl[${PYTHON_USEDEP}]
-	dev-python/gitignore_parser[${PYTHON_USEDEP}]
+	dev-python/gitignore-parser[${PYTHON_USEDEP}]
 	dev-python/identify[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gitref[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphobjinv[${PYTHON_USEDEP}] )
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )

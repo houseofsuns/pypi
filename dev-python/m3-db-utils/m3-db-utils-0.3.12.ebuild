@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11.29[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.5.2[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

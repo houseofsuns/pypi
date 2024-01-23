@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="c2cgeoportal geoportal [topver 2.6.0]"
+DESCRIPTION="c2cgeoportal geoportal [topver 2.6.0, newver 2.6.0]"
 
 HOMEPAGE="http://www.camptocamp.com/solutions/geospatial/"
 LICENSE=""
@@ -31,13 +31,13 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/c2c-template[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	>=dev-python/dogpile-cache-0.6[${PYTHON_USEDEP}]
-	dev-python/Fiona[${PYTHON_USEDEP}]
+	dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
 	dev-python/lingua[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
-	dev-python/OWSLib[${PYTHON_USEDEP}]
+	dev-python/mako[${PYTHON_USEDEP}]
+	>=dev-python/owslib-0.6.0[${PYTHON_USEDEP}]
 	dev-python/papyrus[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
@@ -48,12 +48,12 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/pyramid-multiauth[${PYTHON_USEDEP}]
 	dev-python/pyramid-tm[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/shapely[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.7.2]"
+DESCRIPTION=" [topver 0.7.2, newver 0.7.2]"
 
 HOMEPAGE="https://github.com/ld-cd/rovcontrol/"
 LICENSE="MIT"
@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/RPi-GPIO[${PYTHON_USEDEP}]
-	dev-python/adafruit-pca9685[${PYTHON_USEDEP}]
+	dev-python/Adafruit-PCA9685[${PYTHON_USEDEP}]
 	dev-python/adafruit-mcp3008[${PYTHON_USEDEP}]
-	dev-python/adafruit-gpio[${PYTHON_USEDEP}]"
+	dev-python/Adafruit-GPIO[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

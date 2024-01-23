@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="webapp"
 DEPENDENCIES=">=dev-python/lxml-4.2.0[${PYTHON_USEDEP}]
 	dev-python/picles-plumber[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	webapp? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	~dev-python/pillow-6.2[${PYTHON_USEDEP}]
+	webapp? ( dev-python/flask[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/Flask-BabelEx[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )
-	webapp? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )"
+	webapp? ( ~dev-python/werkzeug-0.16.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

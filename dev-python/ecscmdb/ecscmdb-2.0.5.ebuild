@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ECSpylibs[${PYTHON_USEDEP}]
-	dev-python/autologging[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ecspylibs[${PYTHON_USEDEP}]
+	dev-python/Autologging[${PYTHON_USEDEP}]
 	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
 	<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
-	dev-python/et-xmlfile[${PYTHON_USEDEP}]
+	<dev-python/et_xmlfile-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/idna-4.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/bandit-1.5.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.7.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinxcontrib-programoutput-0.11[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/molecule[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]
 	docs? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-ansible-theme[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/molecule[${PYTHON_USEDEP}] )"

@@ -31,6 +31,6 @@ DEPENDENCIES="~dev-python/flatbuffers-23.5.26[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools_scm[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/setuptools-scm-7.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	decoder? ( dev-python/neuromaps[${PYTHON_USEDEP}] )
-	decoder? ( dev-python/nimare[${PYTHON_USEDEP}] )
+	decoder? ( dev-python/NiMARE[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/genbank[${PYTHON_USEDEP}]
-	dev-python/LinearFold[${PYTHON_USEDEP}]
+	dev-python/linearfold[${PYTHON_USEDEP}]
 	dev-python/hotknots[${PYTHON_USEDEP}]
 	dev-python/score-rbs[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]"

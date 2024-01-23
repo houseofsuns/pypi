@@ -30,10 +30,10 @@ DEPENDENCIES=">=dev-python/cryptography-38.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	dev-python/signxml[${PYTHON_USEDEP}]
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-2.2.24[${PYTHON_USEDEP}] )
 	djangorestframework? ( <dev-python/djangorestframework-3.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

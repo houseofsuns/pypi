@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Expose an app/api running on local host to public internet using AWS EC2 [topver 0.8]"
+DESCRIPTION="Expose an app/api running on local host to public internet using AWS EC2 [topver 0.8, newver 0.8]"
 
 HOMEPAGE="https://github.com/thevickypedia/expose"
 LICENSE=""
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/boto3-1.20.24[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-58.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

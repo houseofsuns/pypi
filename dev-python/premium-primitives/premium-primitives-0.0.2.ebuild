@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/phone-iso3166[${PYTHON_USEDEP}]
 	>=dev-python/phonenumbers-8.10.6[${PYTHON_USEDEP}]
-	dev-python/reverse-geocoder[${PYTHON_USEDEP}]
+	dev-python/reverse_geocoder[${PYTHON_USEDEP}]
 	dev-python/zipcodes[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )

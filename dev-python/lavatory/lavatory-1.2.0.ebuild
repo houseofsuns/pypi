@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Run retention policies against Artifactory repositories [topver 1.2.2]"
+DESCRIPTION="Run retention policies against Artifactory repositories [topver 1.2.2, newver 1.2.2]"
 
 HOMEPAGE="https://github.com/gogoair/lavatory"
 LICENSE="Apache-2.0"
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/party[${PYTHON_USEDEP}]
+	dev-python/Party[${PYTHON_USEDEP}]
 	dev-python/pluginbase[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

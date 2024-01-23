@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/xarray-2022.6.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.7[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]

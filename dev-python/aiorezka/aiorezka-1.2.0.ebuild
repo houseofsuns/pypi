@@ -27,7 +27,7 @@ IUSE="request-cache"
 DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	<dev-python/Faker-22.0.0[${PYTHON_USEDEP}]
 	request-cache? ( <dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

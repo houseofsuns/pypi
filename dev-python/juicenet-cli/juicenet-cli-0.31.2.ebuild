@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/rich-argparse[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	dev-python/strenum[${PYTHON_USEDEP}]"
+	dev-python/StrEnum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

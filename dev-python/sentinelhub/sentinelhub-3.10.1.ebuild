@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_mdinclude[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

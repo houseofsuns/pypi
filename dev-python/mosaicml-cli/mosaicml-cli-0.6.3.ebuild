@@ -61,11 +61,11 @@ DEPENDENCIES=">=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/radon-5.1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-katex[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx_external_toc[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
@@ -91,7 +91,7 @@ DEPENDENCIES=">=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	sphinx? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	sphinx? ( ~dev-python/sphinx-panels-0.6.0[${PYTHON_USEDEP}] )
 	sphinx? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
+	sphinx? ( dev-python/sphinx_external_toc[${PYTHON_USEDEP}] )
 	sphinx? ( >=dev-python/sphinxcontrib-applehelp-1.0.2[${PYTHON_USEDEP}] )
 	sphinx? ( >=dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
 	sphinx? ( >=dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}] )
@@ -104,6 +104,6 @@ DEPENDENCIES=">=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	sphinx? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	sphinx? ( >=dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
 	sphinx? ( >=dev-python/docutils-0.17.0[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )"
+	sphinx? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

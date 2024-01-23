@@ -46,7 +46,7 @@ DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/hydra-colorlog[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.37[${PYTHON_USEDEP}]
 	~dev-python/black-23.7.0[${PYTHON_USEDEP}]
 	~dev-python/isort-5.12.0[${PYTHON_USEDEP}]
 	~dev-python/mypy-1.5.1[${PYTHON_USEDEP}]
@@ -63,7 +63,7 @@ DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	full? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	full? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	full? ( dev-python/levenshtein[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/Levenshtein-0.23.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/seqeval[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/trl[${PYTHON_USEDEP}] )"

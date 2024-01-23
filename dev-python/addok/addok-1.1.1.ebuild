@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/progressist[${PYTHON_USEDEP}]
 	dev-python/python-geohash[${PYTHON_USEDEP}]
 	~dev-python/redis-4.5.4[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	dev-python/gnureadline[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

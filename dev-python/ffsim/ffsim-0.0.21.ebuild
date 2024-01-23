@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/opt_einsum[${PYTHON_USEDEP}]
+	>=dev-python/opt-einsum-3.3[${PYTHON_USEDEP}]
 	dev-python/pyscf[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev? ( dev-python/asv[${PYTHON_USEDEP}] )

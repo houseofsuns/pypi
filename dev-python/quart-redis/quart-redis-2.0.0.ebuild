@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/quart[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Quart[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

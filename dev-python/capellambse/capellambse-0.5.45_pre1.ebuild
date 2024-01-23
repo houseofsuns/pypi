@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli decl docs httpfiles png termgraphics test"
 DEPENDENCIES=">=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-1.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/svgwrite-1.3.1[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
 	decl? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/sphinx-7.2.0[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	httpfiles? ( >=dev-python/diskcache-5.0[${PYTHON_USEDEP}] )
 	httpfiles? ( >=dev-python/requests-2.25.0[${PYTHON_USEDEP}] )
-	png? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	png? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	termgraphics? ( dev-python/capellambse[${PYTHON_USEDEP}] )
 	test? ( dev-python/click[${PYTHON_USEDEP}] )
 	test? ( dev-python/cssutils[${PYTHON_USEDEP}] )

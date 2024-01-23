@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/xgboost[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.13.1[${PYTHON_USEDEP}]
 	dev-python/lime[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.4[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pandas-profiling[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.0.2[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/xgboost[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/tox-3.24.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/locust[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )

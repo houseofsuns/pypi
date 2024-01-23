@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Azure DevOps."
+DESCRIPTION="A Pulumi package for creating and managing Azure DevOps. [newver 2.16.0a1705927570]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

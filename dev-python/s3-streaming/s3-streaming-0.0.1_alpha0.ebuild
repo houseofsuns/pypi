@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="stream and (de)serialize s3 objects with no local footprint [topver 0.0.3]"
+DESCRIPTION="stream and (de)serialize s3 objects with no local footprint [topver 0.0.3, newver 0.0.3]"
 
 HOMEPAGE="https://github.com/robhowley/s3-streaming"
 LICENSE=""

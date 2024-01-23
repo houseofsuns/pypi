@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/Babel-2.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/lxml-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyICU[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pyicu-2.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

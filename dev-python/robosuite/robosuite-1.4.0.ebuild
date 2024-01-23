@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.3[${PYTHON_USEDEP}]
 	dev-python/mujoco[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

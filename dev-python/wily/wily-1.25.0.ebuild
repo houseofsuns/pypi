@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/radon-5.2[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/nbformat-6.0.0[${PYTHON_USEDEP}]

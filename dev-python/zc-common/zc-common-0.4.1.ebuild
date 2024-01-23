@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shared code for ZeroCater microservices [topver 0.4.17]"
+DESCRIPTION="Shared code for ZeroCater microservices [topver 0.4.17, newver 0.4.17]"
 
 HOMEPAGE="https://github.com/ZeroCater/zc_common"
 LICENSE="MIT"

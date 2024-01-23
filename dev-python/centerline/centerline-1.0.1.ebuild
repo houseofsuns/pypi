@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs gdal lint test"
-DEPENDENCIES="dev-python/Fiona[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/fiona[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.5.13[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.16.1[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

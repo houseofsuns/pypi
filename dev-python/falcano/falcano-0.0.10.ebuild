@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/stringcase[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/rsa-4.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.5.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )

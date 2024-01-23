@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples tests"
-DEPENDENCIES="dev-python/pysdd[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PySDD[${PYTHON_USEDEP}]
 	dev-python/problog[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	examples? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	examples? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

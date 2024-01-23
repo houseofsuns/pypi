@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/youtube-dl[${PYTHON_USEDEP}]
+	dev-python/youtube_dl[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	dev-python/lmdb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

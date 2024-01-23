@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate different reports of flake8 violations [topver 0.1.4]"
+DESCRIPTION="Generate different reports of flake8 violations [topver 0.1.4, newver 0.1.4]"
 
 HOMEPAGE="https://aperezhortal.github.io/flake8-dashboard/"
 LICENSE="Apache Software License 2.0"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/jsmin[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pip-9.0.1[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.29.0[${PYTHON_USEDEP}]

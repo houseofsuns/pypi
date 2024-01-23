@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fake package to warn the user they are not installing the correct package. [topver 11.8.89]"
+DESCRIPTION="A fake package to warn the user they are not installing the correct package. [topver 11.8.89, newver 11.8.89]"
 
 HOMEPAGE="https://github.com/NVIDIA"
 LICENSE="Apache-2.0"

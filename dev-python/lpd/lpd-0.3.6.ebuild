@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Fast, Flexible Trainer with Callbacks and Extensions for PyTorch [topver 0.4.12]"
+DESCRIPTION="A Fast, Flexible Trainer with Callbacks and Extensions for PyTorch [topver 0.4.12, newver 0.4.12]"
 
 HOMEPAGE="https://github.com/roysadaka/lpd"
 LICENSE="MIT Licences"

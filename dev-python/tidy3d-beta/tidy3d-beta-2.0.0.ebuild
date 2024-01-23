@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
@@ -57,6 +57,6 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	trimesh? ( ~dev-python/trimesh-3.20.0[${PYTHON_USEDEP}] )
 	trimesh? ( <=dev-python/networkx-3.0[${PYTHON_USEDEP}] )
-	trimesh? ( dev-python/rtree[${PYTHON_USEDEP}] )"
+	trimesh? ( dev-python/Rtree[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

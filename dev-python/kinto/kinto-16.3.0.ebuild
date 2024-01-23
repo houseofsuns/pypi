@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/logging-color-formatter[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/pyramid-mailer[${PYTHON_USEDEP}]
+	dev-python/pyramid_mailer[${PYTHON_USEDEP}]
 	dev-python/pyramid-multiauth[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
 	dev-python/pyramid-tm[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	monitoring? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/statsd[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	postgresql? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/zope-sqlalchemy[${PYTHON_USEDEP}] )
 	redis? ( dev-python/kinto-redis[${PYTHON_USEDEP}] )"

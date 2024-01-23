@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	<dev-python/cython-3.0.0[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

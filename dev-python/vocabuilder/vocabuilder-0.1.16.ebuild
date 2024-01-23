@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
-	dev-python/pyqt6[${PYTHON_USEDEP}]
+	<dev-python/PyQt6-7.0.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/pybullet[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/shimmy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Shimmy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

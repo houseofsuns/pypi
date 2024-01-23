@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinxcontrib-bibtex-2.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/nbsphinx-0.8[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/notebook-6.0[${PYTHON_USEDEP}] )

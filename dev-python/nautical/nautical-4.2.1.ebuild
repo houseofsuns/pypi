@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/pykml[${PYTHON_USEDEP}]
-	dev-python/pyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

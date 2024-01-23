@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/asteval-0.9.28[${PYTHON_USEDEP}]
 	dev-python/silx[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.2[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	>=dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
@@ -48,16 +48,16 @@ DEPENDENCIES=">=dev-python/asteval-0.9.28[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
 	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/peakutils[${PYTHON_USEDEP}]
+	dev-python/PeakUtils[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/mp-api[${PYTHON_USEDEP}]
-	dev-python/pycifrw[${PYTHON_USEDEP}]
+	dev-python/PyCifRW[${PYTHON_USEDEP}]
 	dev-python/fabio[${PYTHON_USEDEP}]
-	dev-python/pyfai[${PYTHON_USEDEP}]
+	dev-python/pyFAI[${PYTHON_USEDEP}]
 	>=dev-python/numexpr-2.8.7[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/asteval-0.9.28[${PYTHON_USEDEP}]
 	all? ( dev-python/wxutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/wxmplot[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/jupyter-core-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES=">=dev-python/asteval-0.9.28[${PYTHON_USEDEP}]
 	all? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/py3dmol[${PYTHON_USEDEP}] )
+	all? ( dev-python/py3Dmol[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyepics[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -104,7 +104,7 @@ DEPENDENCIES=">=dev-python/asteval-0.9.28[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/py3dmol[${PYTHON_USEDEP}] )
+	jupyter? ( dev-python/py3Dmol[${PYTHON_USEDEP}] )
 	larix? ( >=dev-python/wxpython-4.1[${PYTHON_USEDEP}] )
 	larix? ( dev-python/wxutils[${PYTHON_USEDEP}] )
 	larix? ( dev-python/wxmplot[${PYTHON_USEDEP}] )
@@ -115,9 +115,9 @@ DEPENDENCIES=">=dev-python/asteval-0.9.28[${PYTHON_USEDEP}]
 	larix? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	larix? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	larix? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	larix? ( dev-python/py3dmol[${PYTHON_USEDEP}] )
+	larix? ( dev-python/py3Dmol[${PYTHON_USEDEP}] )
 	qtgui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qtgui? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
+	qtgui? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
 	qtgui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	wxgui? ( >=dev-python/wxpython-4.1[${PYTHON_USEDEP}] )
 	wxgui? ( dev-python/wxutils[${PYTHON_USEDEP}] )

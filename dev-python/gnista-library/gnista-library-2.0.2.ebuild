@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/oauth2-client[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/structlog-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/keyring-24.0.0[${PYTHON_USEDEP}]"

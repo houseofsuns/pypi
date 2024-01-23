@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/ophyd[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-direct[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )

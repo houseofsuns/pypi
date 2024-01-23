@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/nonebot_plugin_sendmsg_by_bots[${PYTHON_USEDEP}]"
+	dev-python/nonebot-plugin-sendmsg-by-bots[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

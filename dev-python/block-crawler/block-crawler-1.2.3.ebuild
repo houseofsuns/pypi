@@ -53,6 +53,6 @@ DEPENDENCIES="dev-python/aioboto3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/python-dotenv-0.20[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pydata-sphinx-theme-0.12[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

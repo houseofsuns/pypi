@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/dictdiffer[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]

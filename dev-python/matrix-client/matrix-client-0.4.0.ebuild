@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc e2e test"
 DEPENDENCIES="~dev-python/requests-2.22[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.21[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/python-olm[${PYTHON_USEDEP}] )

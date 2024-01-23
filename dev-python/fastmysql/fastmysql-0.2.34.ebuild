@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/envx[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	dev-python/showlog[${PYTHON_USEDEP}]

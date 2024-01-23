@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fast"
-DEPENDENCIES="dev-python/dawg-python[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DAWG-Python[${PYTHON_USEDEP}]
 	dev-python/pymorphy2-dicts-ru[${PYTHON_USEDEP}]
 	>=dev-python/docopt-0.6[${PYTHON_USEDEP}]
 	fast? ( dev-python/DAWG[${PYTHON_USEDEP}] )"

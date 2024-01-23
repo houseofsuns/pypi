@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/canoser[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]"
+	dev-python/pynacl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

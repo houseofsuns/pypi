@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="c2cgeoportal commons [topver 2.6.0]"
+DESCRIPTION="c2cgeoportal commons [topver 2.6.0, newver 2.6.0]"
 
 HOMEPAGE="https://www.camptocamp.com/solutions/geospatial/"
 LICENSE=""
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/c2c-template[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	upgrade? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	upgrade? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

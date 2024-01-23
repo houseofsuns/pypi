@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/cliff-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/osc-lib-1.0.1[${PYTHON_USEDEP}]
-	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/sqlalchemy-1.4.41[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/oslo-db[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslotest-1.10.0[${PYTHON_USEDEP}] )

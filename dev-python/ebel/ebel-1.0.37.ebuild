@@ -38,13 +38,13 @@ DEPENDENCIES="dev-python/lark-parser[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
-	dev-python/flask_cors[${PYTHON_USEDEP}]
+	<dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	dev-python/connexion[${PYTHON_USEDEP}]
 	<dev-python/cryptography-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/graphviz-0.20[${PYTHON_USEDEP}]
 	dev-python/pyorientdb[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/mkdocstrings-0.19[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

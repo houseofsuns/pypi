@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pluggable notification system written for the Django framework. [topver 1.4]"
+DESCRIPTION="A pluggable notification system written for the Django framework. [topver 1.4, newver 1.4rc5]"
 
 HOMEPAGE="https://github.com/django-wiki/django-nyt"
 LICENSE=""

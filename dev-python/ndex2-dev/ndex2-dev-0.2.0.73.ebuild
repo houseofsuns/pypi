@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nice CX Python includes a client and a data model. [topver 2.0.0.6]"
+DESCRIPTION="Nice CX Python includes a client and a data model. [topver 2.0.0.6, newver 2.0.0.6]"
 
 HOMEPAGE="https://www.ndexbio.org"
 LICENSE="BSD"

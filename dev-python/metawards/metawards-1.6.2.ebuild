@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	>=dev-python/ConfigArgParse-1.2.0[${PYTHON_USEDEP}]
 	dev-python/lazy-import[${PYTHON_USEDEP}]
 	>=dev-python/rich-4.2.0[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]

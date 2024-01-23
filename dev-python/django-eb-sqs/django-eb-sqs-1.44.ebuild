@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/boto3-1.9.86[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-1.10.6[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

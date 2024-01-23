@@ -27,7 +27,7 @@ IUSE="ansible ansible-base"
 DEPENDENCIES="ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	ansible-base? ( dev-python/ansible-base[${PYTHON_USEDEP}] )
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/jmespath-0.11[${PYTHON_USEDEP}]
 	<dev-python/jsonpointer-3.0[${PYTHON_USEDEP}]
 	<dev-python/jsonref-0.3[${PYTHON_USEDEP}]

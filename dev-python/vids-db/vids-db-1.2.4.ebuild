@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/Whoosh[${PYTHON_USEDEP}]
+	dev-python/whoosh[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/types-pytz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

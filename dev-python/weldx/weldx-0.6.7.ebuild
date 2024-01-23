@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2022.9.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pint-xarray[${PYTHON_USEDEP}]
 	>=dev-python/bottleneck-1.3.3[${PYTHON_USEDEP}]
 	dev-python/boltons[${PYTHON_USEDEP}]
@@ -39,8 +39,8 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/fs[${PYTHON_USEDEP}]
 	dev-python/meshio[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
-	media? ( dev-python/pims[${PYTHON_USEDEP}] )
+	dev-python/ipython[${PYTHON_USEDEP}]
+	media? ( dev-python/PIMS[${PYTHON_USEDEP}] )
 	media? ( dev-python/av[${PYTHON_USEDEP}] )
 	media? ( dev-python/dask-image[${PYTHON_USEDEP}] )
 	media? ( dev-python/tifffile[${PYTHON_USEDEP}] )

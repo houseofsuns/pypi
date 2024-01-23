@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Shapely[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/shapely-1.8.2[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.4.2[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bigquery build datastore dns healthcare iam monitoring pubsub secret sheets speech storage tasks"
 DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/factory_boy[${PYTHON_USEDEP}]
+	dev-python/factory-boy[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	tasks? ( dev-python/google-cloud-tasks[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/google-cloud-scheduler[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

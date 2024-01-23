@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/Mastodon-py[${PYTHON_USEDEP}]
 	dev-python/revolt-py[${PYTHON_USEDEP}]
 	dev-python/rocketchat-API[${PYTHON_USEDEP}]
 	dev-python/simplematrixbotlib[${PYTHON_USEDEP}]
-	dev-python/telethon[${PYTHON_USEDEP}]
+	dev-python/Telethon[${PYTHON_USEDEP}]
 	dev-python/twitchio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

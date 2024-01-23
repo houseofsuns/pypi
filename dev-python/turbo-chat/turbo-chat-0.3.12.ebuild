@@ -30,11 +30,11 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	<dev-python/parse-2.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jinja2schema[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/lemminflect[${PYTHON_USEDEP}]
-	dev-python/proxytypes[${PYTHON_USEDEP}]
+	dev-python/ProxyTypes[${PYTHON_USEDEP}]
 	dev-python/dirtyjson[${PYTHON_USEDEP}]
 	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	debug? ( <dev-python/pygments-3.0.0[${PYTHON_USEDEP}] )

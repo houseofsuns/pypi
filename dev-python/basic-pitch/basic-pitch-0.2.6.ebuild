@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/mir-eval[${PYTHON_USEDEP}]
+	dev-python/mir_eval[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
-	dev-python/pretty-midi[${PYTHON_USEDEP}]
+	dev-python/pretty_midi[${PYTHON_USEDEP}]
 	dev-python/resampy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]

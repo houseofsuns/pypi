@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
 	dev-python/django-markwhat[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]

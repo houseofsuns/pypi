@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/volworld_common[${PYTHON_USEDEP}]"
+	dev-python/volworld-common[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -55,7 +55,7 @@ DEPENDENCIES="dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tuna[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-sqlalchemy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-SQLAlchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/memray[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

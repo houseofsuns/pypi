@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ansible mypy"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/deepmerge-1.1[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}]
 	dev-python/pygelf[${PYTHON_USEDEP}]

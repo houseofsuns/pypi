@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	<=dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/Pebble[${PYTHON_USEDEP}]
+	<dev-python/pebble-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/cython-0.30.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

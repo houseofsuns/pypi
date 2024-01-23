@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all db qr redis web"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/feedgen[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/python-stdnum[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	all? ( dev-python/pyramid[${PYTHON_USEDEP}] )
 	all? ( dev-python/colander[${PYTHON_USEDEP}] )
 	all? ( dev-python/cornice[${PYTHON_USEDEP}] )

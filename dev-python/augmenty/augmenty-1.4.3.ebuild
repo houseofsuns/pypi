@@ -39,13 +39,13 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	tutorials? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/faker[${PYTHON_USEDEP}] )"
+	tutorials? ( ~dev-python/Faker-13.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/galsim[${PYTHON_USEDEP}]
+	dev-python/GalSim[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

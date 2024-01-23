@@ -27,7 +27,7 @@ IUSE="full loggers notebooks openvino"
 DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/freia[${PYTHON_USEDEP}]
+	dev-python/FrEIA[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	dev-python/jsonargparse[${PYTHON_USEDEP}]
 	dev-python/kornia[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	full? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	full? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	full? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	full? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	full? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	loggers? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	loggers? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	loggers? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	notebooks? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/notebook[${PYTHON_USEDEP}] )

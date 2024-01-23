@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cloud dashboard dev gateway ml"
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
-	gateway? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
+	gateway? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-22.0[${PYTHON_USEDEP}] )
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	cloud? ( dev-python/cronsim[${PYTHON_USEDEP}] )

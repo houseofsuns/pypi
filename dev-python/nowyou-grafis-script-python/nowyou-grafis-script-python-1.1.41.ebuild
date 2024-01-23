@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyautogui[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyAutoGUI[${PYTHON_USEDEP}]
 	dev-python/pypiwin32[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="token based matrix registration app [topver 1.0.0]"
+DESCRIPTION="token based matrix registration app [topver 1.0.0, newver 0.9.2.dev3]"
 
 HOMEPAGE="https://github.com/zeratax/matrix-registration"
 LICENSE=""
@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.7[${PYTHON_USEDEP}]
-	dev-python/flask-httpauth[${PYTHON_USEDEP}]
-	dev-python/flask-limiter[${PYTHON_USEDEP}]
+	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]
+	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	dev-python/WTForms[${PYTHON_USEDEP}]"
+	>=dev-python/wtforms-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

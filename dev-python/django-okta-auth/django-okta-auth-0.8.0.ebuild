@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

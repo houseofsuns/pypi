@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/pyOSPParser[${PYTHON_USEDEP}]
+	dev-python/pyospparser[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	~dev-python/xmlschema-1.2.5[${PYTHON_USEDEP}]

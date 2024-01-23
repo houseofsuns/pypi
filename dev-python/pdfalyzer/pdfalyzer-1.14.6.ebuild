@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]

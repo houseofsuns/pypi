@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for participating in the Eltako Series 14 RS485 bus [topver 0.0.39]"
+DESCRIPTION="Library for participating in the Eltako Series 14 RS485 bus [topver 0.0.39, newver 0.0.39]"
 
 HOMEPAGE="https://github.com/grimmpp/eltako14bus"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coap eltakotool serial"
-DEPENDENCIES="serial? ( dev-python/pyserial_asyncio[${PYTHON_USEDEP}] )
+DEPENDENCIES="serial? ( dev-python/pyserial-asyncio[${PYTHON_USEDEP}] )
 	serial? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )
 	coap? ( dev-python/aiocoap[${PYTHON_USEDEP}] )
 	eltakotool? ( dev-python/pyyaml[${PYTHON_USEDEP}] )

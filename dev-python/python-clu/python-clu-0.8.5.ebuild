@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
 	dev-python/dbx-stopwatch[${PYTHON_USEDEP}]
-	dev-python/heapdict[${PYTHON_USEDEP}]
+	dev-python/HeapDict[${PYTHON_USEDEP}]
 	>=dev-python/humanize-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/mock-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/multidict-4.7.0[${PYTHON_USEDEP}]
 	dev-python/pout[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-3.4.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-30.0.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]

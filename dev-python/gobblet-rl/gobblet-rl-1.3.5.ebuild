@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PettingZoo[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pettingzoo[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	<dev-python/pygame-3.0.0[${PYTHON_USEDEP}]
 	dev-python/SuperSuit[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )

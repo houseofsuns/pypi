@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/requests_toolbelt[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

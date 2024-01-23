@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/normality[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	>=dev-python/six-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]

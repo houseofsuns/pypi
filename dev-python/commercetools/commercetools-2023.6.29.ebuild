@@ -30,10 +30,10 @@ DEPENDENCIES=">=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.10.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-enum[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.15.2[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.10.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.23.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/freezegun-1.2.0[${PYTHON_USEDEP}] )

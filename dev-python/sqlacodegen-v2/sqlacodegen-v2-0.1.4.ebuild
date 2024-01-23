@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="citext test"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/inflect-4.0.0[${PYTHON_USEDEP}]
 	citext? ( dev-python/sqlalchemy-citext[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

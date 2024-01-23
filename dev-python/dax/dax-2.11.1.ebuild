@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/pyxnat[${PYTHON_USEDEP}]
 	dev-python/yamale[${PYTHON_USEDEP}]
 	bids? ( dev-python/cubids-bond-fork[${PYTHON_USEDEP}] )
 	bids? ( dev-python/nibabel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

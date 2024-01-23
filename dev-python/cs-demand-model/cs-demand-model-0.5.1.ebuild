@@ -29,13 +29,13 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/fs-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	cli? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
-	web? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
+	web? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
+	web? ( <dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )

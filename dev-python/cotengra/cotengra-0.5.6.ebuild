@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/autoray[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/astroid-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/cotengrust[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/cytoolz[${PYTHON_USEDEP}] )

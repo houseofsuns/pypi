@@ -29,7 +29,7 @@ DEPENDENCIES="flask? ( <dev-python/flask-2.0[${PYTHON_USEDEP}] )
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-40.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

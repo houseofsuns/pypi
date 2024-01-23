@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="spiderx function [topver 1.10.79]"
+DESCRIPTION="spiderx function [topver 1.10.79, newver 1.10.79]"
 
 HOMEPAGE="https://pypi.org/project/spiderx/"
 LICENSE="https://pypi.org/project/spiderx/"
@@ -28,12 +28,12 @@ DEPENDENCIES=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/rsa-4.7.0[${PYTHON_USEDEP}]
-	dev-python/wmi[${PYTHON_USEDEP}]
+	dev-python/WMI[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.10.0[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	>=dev-python/js2py-0.71[${PYTHON_USEDEP}]
-	dev-python/pyexecjs[${PYTHON_USEDEP}]
+	dev-python/PyExecJS[${PYTHON_USEDEP}]
 	>=dev-python/pillow-8.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]

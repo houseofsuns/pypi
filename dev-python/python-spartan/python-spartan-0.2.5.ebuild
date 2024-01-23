@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/poetry-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]"
+	<dev-python/Faker-21.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

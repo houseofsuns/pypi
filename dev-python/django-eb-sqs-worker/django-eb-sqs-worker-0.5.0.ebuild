@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/boto3-1.10.28[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.17.5[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.15.2[${PYTHON_USEDEP}]
 	>=dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]

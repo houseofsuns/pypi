@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
-	linux? ( dev-python/netfilterqueue[${PYTHON_USEDEP}] )
+	linux? ( dev-python/NetfilterQueue[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/packaging-24.0[${PYTHON_USEDEP}] )
 	<dev-python/paramiko-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/scapy[${PYTHON_USEDEP}]
-	windows? ( dev-python/wmi[${PYTHON_USEDEP}] )
+	windows? ( dev-python/WMI[${PYTHON_USEDEP}] )
 	<dev-python/zstandard-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

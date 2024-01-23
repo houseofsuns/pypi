@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pdoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

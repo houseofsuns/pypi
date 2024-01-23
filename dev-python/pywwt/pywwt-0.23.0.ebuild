@@ -30,17 +30,17 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	>dev-python/matplotlib-1.5[${PYTHON_USEDEP}]
-	dev-python/nest_asyncio[${PYTHON_USEDEP}]
+	dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.9[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/reproject[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/toasty[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-5.0[${PYTHON_USEDEP}]
-	dev-python/wwt_data_formats[${PYTHON_USEDEP}]
+	dev-python/wwt-data-formats[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	qt? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
 	qt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask-security-too[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Flask-Security-Too[${PYTHON_USEDEP}]
 	>=dev-python/flask-sqlalchemy-3.0.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

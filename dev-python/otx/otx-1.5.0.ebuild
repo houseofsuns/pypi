@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/attrs-23.1[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<=dev-python/shapely-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3[${PYTHON_USEDEP}]
 	action? ( ~dev-python/natsort-8.1[${PYTHON_USEDEP}] )

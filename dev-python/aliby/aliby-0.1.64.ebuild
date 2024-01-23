@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="baby omero"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	dev-python/gaussianprocessderivatives[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
-	dev-python/Bottleneck[${PYTHON_USEDEP}]
+	<dev-python/bottleneck-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/p-tqdm[${PYTHON_USEDEP}]

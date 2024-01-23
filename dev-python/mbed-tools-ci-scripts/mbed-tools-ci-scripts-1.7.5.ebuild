@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/towncrier-19.2.0[${PYTHON_USEDEP}]
 	dev-python/pyautoversion[${PYTHON_USEDEP}]
 	dev-python/pdoc3[${PYTHON_USEDEP}]
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/license-expression[${PYTHON_USEDEP}]
 	dev-python/wcmatch[${PYTHON_USEDEP}]
 	dev-python/jellyfish[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev gg quant"
 DEPENDENCIES="dev-python/triton[${PYTHON_USEDEP}]
 	dev-python/stanford-stk[${PYTHON_USEDEP}]
-	gg? ( dev-python/grouped_gemm[${PYTHON_USEDEP}] )
+	gg? ( dev-python/grouped-gemm[${PYTHON_USEDEP}] )
 	quant? ( dev-python/mosaicml-turbo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/absl-py[${PYTHON_USEDEP}] )
 	all? ( dev-python/mosaicml-turbo[${PYTHON_USEDEP}] )
 	all? ( dev-python/absl-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/grouped_gemm[${PYTHON_USEDEP}] )"
+	all? ( dev-python/grouped-gemm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

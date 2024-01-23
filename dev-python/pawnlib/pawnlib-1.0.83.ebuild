@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/aiometer[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/parameterized-0.8.1[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.14.0[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/aiometer[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.59.0[${PYTHON_USEDEP}]
-	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
+	brotli? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
 	docker? ( dev-python/aiodocker[${PYTHON_USEDEP}] )
 	full? ( dev-python/aiodocker[${PYTHON_USEDEP}] )

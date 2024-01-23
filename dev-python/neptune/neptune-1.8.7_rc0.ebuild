@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="airflow aws detectron2 dev e2e fastai kedro lightgbm mlflow optuna prophet pytorch pytorch-lightning sacred sklearn tensorboard tensorflow-keras transformers xgboost zenml"
 DEPENDENCIES="dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	>=dev-python/GitPython-2.0.8[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pillow-1.1.6[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	e2e? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/altair[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/backoff[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES="dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	>=dev-python/typing-extensions-3.10.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/vega_datasets[${PYTHON_USEDEP}] )
+	dev? ( dev-python/vega-datasets[${PYTHON_USEDEP}] )
 	>=dev-python/websocket-client-0.35.0[${PYTHON_USEDEP}]
 	zenml? ( dev-python/zenml[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/zenml[${PYTHON_USEDEP}] )"

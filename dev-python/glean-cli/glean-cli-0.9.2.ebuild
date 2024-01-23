@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}]

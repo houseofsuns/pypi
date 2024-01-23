@@ -36,11 +36,11 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/gherkin-official[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/makefun[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
+	dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/parse-type[${PYTHON_USEDEP}]
+	>=dev-python/parse_type-0.6.0[${PYTHON_USEDEP}]
 	dev-python/py[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pytest-5.0[${PYTHON_USEDEP}]
@@ -56,13 +56,13 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	struct-bdd? ( dev-python/hjson[${PYTHON_USEDEP}] )
 	struct-bdd? ( dev-python/json5[${PYTHON_USEDEP}] )
 	struct-bdd? ( dev-python/pyhocon[${PYTHON_USEDEP}] )
-	struct-bdd? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	struct-bdd? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	struct-bdd? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	struct-bdd? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	test? ( dev-python/allure-python-commons-test[${PYTHON_USEDEP}] )
 	test? ( dev-python/execnet[${PYTHON_USEDEP}] )
 	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyhamcrest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
 	testenv? ( ~dev-python/tox-4.0[${PYTHON_USEDEP}] )

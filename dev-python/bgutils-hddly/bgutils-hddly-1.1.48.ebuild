@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.11.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

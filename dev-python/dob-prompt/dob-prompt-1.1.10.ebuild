@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Inflector[${PYTHON_USEDEP}]
 	dev-python/dob-bright[${PYTHON_USEDEP}]
 	dev-python/easy-as-pypi-appdirs[${PYTHON_USEDEP}]
 	dev-python/easy-as-pypi-getver[${PYTHON_USEDEP}]
-	dev-python/human-friendly_pedantic-timedelta[${PYTHON_USEDEP}]
+	dev-python/human-friendly-pedantic-timedelta[${PYTHON_USEDEP}]
 	dev-python/nark[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
 	readthedocs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )

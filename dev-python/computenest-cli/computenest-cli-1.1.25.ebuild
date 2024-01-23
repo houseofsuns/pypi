@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/alibabacloud-computenestsupplier20210521[${PYTHON_USEDE
 	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.35[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

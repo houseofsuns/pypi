@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/base32-lib[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/SQLAlchemy-Continuum[${PYTHON_USEDEP}] )
 	tests? ( dev-python/datacite[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc docs pointclouds style tests"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/looseversion[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]

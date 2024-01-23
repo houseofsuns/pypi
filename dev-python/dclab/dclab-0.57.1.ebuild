@@ -39,6 +39,6 @@ DEPENDENCIES="<dev-python/h5py-4.0[${PYTHON_USEDEP}]
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	tdms? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	tdms? ( dev-python/nptdms[${PYTHON_USEDEP}] )"
+	tdms? ( dev-python/npTDMS[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

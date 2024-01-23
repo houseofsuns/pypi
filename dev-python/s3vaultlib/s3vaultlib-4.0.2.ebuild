@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/python-string-utils[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-2.0.9[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.9.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.10[${PYTHON_USEDEP}]
 	~dev-python/colorlog-5.0.1[${PYTHON_USEDEP}]
 	~dev-python/humanfriendly-9.2[${PYTHON_USEDEP}]"

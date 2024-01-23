@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="emart"
 DEPENDENCIES="dev-python/thrift-sasl[${PYTHON_USEDEP}]
 	~dev-python/hvac-0.11.2[${PYTHON_USEDEP}]
-	dev-python/pyhive[${PYTHON_USEDEP}]
+	dev-python/PyHive[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/db-dtypes[${PYTHON_USEDEP}]

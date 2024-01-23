@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	dev-python/dnslib[${PYTHON_USEDEP}]
 	dev-python/maxminddb[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

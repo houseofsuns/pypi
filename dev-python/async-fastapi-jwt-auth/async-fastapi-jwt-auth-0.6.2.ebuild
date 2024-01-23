@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asymmetric"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	asymmetric? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )"

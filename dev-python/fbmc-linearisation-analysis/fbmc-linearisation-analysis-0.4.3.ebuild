@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all app-template plotting"
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
-	dev-python/cache_to_disk[${PYTHON_USEDEP}]
+	dev-python/cache-to-disk[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/duckdb-engine[${PYTHON_USEDEP}]
+	dev-python/duckdb_engine[${PYTHON_USEDEP}]
 	dev-python/entsoe-py[${PYTHON_USEDEP}]
 	app-template? ( dev-python/geojson-rewind[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/geojson-rewind[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	app-template? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	dev-python/levenshtein[${PYTHON_USEDEP}]
+	<dev-python/Levenshtein-0.23.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]

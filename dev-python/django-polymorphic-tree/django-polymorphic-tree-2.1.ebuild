@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django-polymorphic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django_polymorphic-3.0[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-tag-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

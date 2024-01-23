@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

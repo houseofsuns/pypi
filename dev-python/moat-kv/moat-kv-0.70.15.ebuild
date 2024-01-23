@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pynacl-1.3[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	dev-python/asyncactor[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]

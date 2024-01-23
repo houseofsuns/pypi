@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/pyogg[${PYTHON_USEDEP}]
+	dev-python/PyOgg[${PYTHON_USEDEP}]
 	~dev-python/requests-2.30.0[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
 	~dev-python/zeroconf-0.62.0[${PYTHON_USEDEP}]"

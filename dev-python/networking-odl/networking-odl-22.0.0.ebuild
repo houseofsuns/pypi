@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
 	>=dev-python/stevedore-1.28.0[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.47.0[${PYTHON_USEDEP}]
 	ceilometer? ( dev-python/ceilometer[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-2.0.27[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bashate-0.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/ceilometer[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/openstep-plist[${PYTHON_USEDEP}]
 	dev-python/ufoLib2[${PYTHON_USEDEP}]
 	dev-python/glyphsLib[${PYTHON_USEDEP}]
-	dev-python/fontTools[${PYTHON_USEDEP}]
+	dev-python/fonttools[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

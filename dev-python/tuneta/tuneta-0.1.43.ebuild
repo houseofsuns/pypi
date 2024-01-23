@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pandas-ta[${PYTHON_USEDEP}]
 	dev-python/finta[${PYTHON_USEDEP}]
-	dev-python/ta-lib[${PYTHON_USEDEP}]
+	dev-python/TA-Lib[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/dcor[${PYTHON_USEDEP}]

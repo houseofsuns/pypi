@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/docutils-0.18[${PYTHON_USEDEP}]
 	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
-	dev-python/cairosvg[${PYTHON_USEDEP}]
+	dev-python/CairoSVG[${PYTHON_USEDEP}]
 	~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}]
 	<dev-python/breathe-4.36.0[${PYTHON_USEDEP}]
 	~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/docutils-0.18[${PYTHON_USEDEP}]
 	<dev-python/sphinxcontrib-qthelp-1.0.4[${PYTHON_USEDEP}]
 	dev-python/nwdiag[${PYTHON_USEDEP}]
 	dev-python/recommonmark[${PYTHON_USEDEP}]
-	dev-python/sphinx-selective-exclude[${PYTHON_USEDEP}]
+	~dev-python/sphinx_selective_exclude-1.0.3[${PYTHON_USEDEP}]
 	dev-python/sphinx-idf-theme[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

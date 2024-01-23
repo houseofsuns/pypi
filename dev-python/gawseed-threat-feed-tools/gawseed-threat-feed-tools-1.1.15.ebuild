@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pyfsdb[${PYTHON_USEDEP}]
 	dev-python/kafka-python[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]

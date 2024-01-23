@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.1[${PYTHON_USEDEP}]
 	>=dev-python/debtcollector-1.2.0[${PYTHON_USEDEP}]

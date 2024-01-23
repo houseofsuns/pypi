@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ssh"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-1.6[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-0.9.2[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlglot-5.1.3[${PYTHON_USEDEP}]
 	>=dev-python/configobj-5.0.5[${PYTHON_USEDEP}]

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
 	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/PyGObject[${PYTHON_USEDEP}]
+	dev-python/pygobject[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/Levenshtein[${PYTHON_USEDEP}]
 	dev-python/python-mpv[${PYTHON_USEDEP}]
@@ -55,14 +55,14 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-bleach[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-peewee[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-termcolor[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	doc? ( dev-python/rst2html5[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	keyring? ( dev-python/keyring[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

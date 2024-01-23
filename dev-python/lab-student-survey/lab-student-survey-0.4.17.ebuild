@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pdfkit[${PYTHON_USEDEP}]
 	dev-python/pingouin[${PYTHON_USEDEP}]
-	dev-python/pydrive2[${PYTHON_USEDEP}]
+	dev-python/PyDrive2[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/xhtml2pdf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

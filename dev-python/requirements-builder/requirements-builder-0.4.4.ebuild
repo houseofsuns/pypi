@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	<dev-python/mock-4.0[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

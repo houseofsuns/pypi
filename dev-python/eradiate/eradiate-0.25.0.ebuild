@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/eradiate-mitsuba[${PYTHON_USEDEP}]
 	dev-python/environ-config[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/joseki[${PYTHON_USEDEP}]
-	dev-python/lazy-loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pinttrs[${PYTHON_USEDEP}]
 	dev-python/pooch[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
@@ -60,11 +60,11 @@ DEPENDENCIES="dev-python/eradiate-mitsuba[${PYTHON_USEDEP}]
 	recommended? ( dev-python/environ-config[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/joseki[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/lazy-loader[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}] )
 	recommended? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/pint[${PYTHON_USEDEP}] )
+	recommended? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/pinttrs[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/rich[${PYTHON_USEDEP}] )

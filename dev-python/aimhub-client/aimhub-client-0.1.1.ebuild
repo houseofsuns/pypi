@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/aimrocks[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.7[${PYTHON_USEDEP}]
 	dev-python/RestrictedPython[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.20.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-15.0[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/segment-analytics-python[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

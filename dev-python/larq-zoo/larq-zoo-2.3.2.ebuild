@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

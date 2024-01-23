@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/traits[${PYTHON_USEDEP}]
 	examples? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	pillow? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pygments[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/traits[${PYTHON_USEDEP}]
 	pyside6? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	traitsui? ( dev-python/traitsui[${PYTHON_USEDEP}] )
-	wx? ( dev-python/wxPython[${PYTHON_USEDEP}] )
+	wx? ( >=dev-python/wxpython-4.0[${PYTHON_USEDEP}] )
 	wx? ( dev-python/numpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

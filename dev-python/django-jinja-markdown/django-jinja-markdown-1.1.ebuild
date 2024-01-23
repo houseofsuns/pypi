@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/django-jinja[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

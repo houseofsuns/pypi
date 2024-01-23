@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="compat"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	<dev-python/resolvelib-0.9.0[${PYTHON_USEDEP}]

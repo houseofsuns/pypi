@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.30[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]
 	dev-python/exrex[${PYTHON_USEDEP}]

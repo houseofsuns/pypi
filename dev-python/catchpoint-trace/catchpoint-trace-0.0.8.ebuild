@@ -34,6 +34,6 @@ DEPENDENCIES=">=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
 	dev-python/fastcounter[${PYTHON_USEDEP}]
-	dev-python/pympler[${PYTHON_USEDEP}]"
+	dev-python/Pympler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

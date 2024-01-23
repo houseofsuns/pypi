@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/a2wsgi-2.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.30.0[${PYTHON_USEDEP}]
 	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
@@ -71,13 +71,13 @@ DEPENDENCIES="<dev-python/a2wsgi-2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncz[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/brotli[${PYTHON_USEDEP}] )
+	test? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	test? ( dev-python/edgy[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flask-4.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/freezegun-2.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-5.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mongoz[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )

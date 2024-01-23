@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	~dev-python/flask-2.0.3[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pysocks[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]

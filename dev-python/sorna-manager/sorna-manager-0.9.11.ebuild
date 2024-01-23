@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev monitor test"
 DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-2.2.0[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
 	dev-python/aiozmq[${PYTHON_USEDEP}]

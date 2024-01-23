@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
-	dev-python/PyChromecast[${PYTHON_USEDEP}]
+	>=dev-python/pychromecast-9.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pydbus-0.6.0[${PYTHON_USEDEP}]
-	dev-python/PyGObject[${PYTHON_USEDEP}]
+	>=dev-python/pygobject-3.34.0[${PYTHON_USEDEP}]
 	dev-python/mpris-server[${PYTHON_USEDEP}]
 	dev-python/cast-control[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

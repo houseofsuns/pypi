@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="flask tests"
-DEPENDENCIES="flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
+DEPENDENCIES="flask? ( >=dev-python/flask-0.8[${PYTHON_USEDEP}] )
 	flask? ( >=dev-python/blinker-1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/bottle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/celery[${PYTHON_USEDEP}] )
@@ -48,10 +48,10 @@ DEPENDENCIES="flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	tests? ( dev-python/anyjson[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ZConfig[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	tests? ( dev-python/zconfig[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-0.8[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/blinker-1.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask-Login[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-login-0.2.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/blinker-1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sanic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"

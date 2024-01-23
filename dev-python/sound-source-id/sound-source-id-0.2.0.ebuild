@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
-	dev-python/PyAudio[${PYTHON_USEDEP}]
+	>=dev-python/pyaudio-0.2.11[${PYTHON_USEDEP}]
 	>=dev-python/PyQt5-5.12[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

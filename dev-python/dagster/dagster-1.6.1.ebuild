@@ -27,7 +27,7 @@ IUSE="docker mypy pyright ruff test"
 DEPENDENCIES=">=dev-python/click-5.0[${PYTHON_USEDEP}]
 	<=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/croniter-0.3.34[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
@@ -72,7 +72,7 @@ DEPENDENCIES=">=dev-python/click-5.0[${PYTHON_USEDEP}]
 	pyright? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	pyright? ( dev-python/types-simplejson[${PYTHON_USEDEP}] )
 	pyright? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	pyright? ( dev-python/types-sqlalchemy[${PYTHON_USEDEP}] )
+	pyright? ( dev-python/types-SQLAlchemy[${PYTHON_USEDEP}] )
 	pyright? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	pyright? ( dev-python/types-tzlocal[${PYTHON_USEDEP}] )
 	pyright? ( dev-python/types-toml[${PYTHON_USEDEP}] )

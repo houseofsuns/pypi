@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.125[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.29.125[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

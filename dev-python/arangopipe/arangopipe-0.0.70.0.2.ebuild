@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/python-arango[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]
 	dev-python/sklearn2[${PYTHON_USEDEP}]
 	dev-python/yapf[${PYTHON_USEDEP}]
 	dev-python/autopep8[${PYTHON_USEDEP}]"

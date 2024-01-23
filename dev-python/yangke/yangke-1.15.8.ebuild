@@ -28,15 +28,15 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
 	>=dev-python/json5-0.8.5[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.9[${PYTHON_USEDEP}]
 	dev-python/pathlib2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	>dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
-	dev-python/pyKriging[${PYTHON_USEDEP}]
+	dev-python/pykriging[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
@@ -54,13 +54,13 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cryptography-3.1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	all? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/iapws[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-docx[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/scrapy[${PYTHON_USEDEP}] )
+	all? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	all? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )
 	all? ( dev-python/pypiwin32[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
@@ -108,7 +108,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	performance? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	performance? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
 	stock? ( dev-python/tushare[${PYTHON_USEDEP}] )
-	stock? ( dev-python/scrapy[${PYTHON_USEDEP}] )
+	stock? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	stock? ( dev-python/sxtwl[${PYTHON_USEDEP}] )
 	stock? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
 	stock? ( >=dev-python/DBUtils-1.3[${PYTHON_USEDEP}] )
@@ -125,7 +125,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	ugly? ( >=dev-python/lmdb-1.3.0[${PYTHON_USEDEP}] )
 	ugly? ( >dev-python/orjson-3.7.3[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
-	web? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}] )
 	web? ( dev-python/waitress[${PYTHON_USEDEP}] )
 	windows? ( dev-python/pypiwin32[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

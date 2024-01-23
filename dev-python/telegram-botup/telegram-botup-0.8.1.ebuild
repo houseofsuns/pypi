@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Telegram bot API [topver 1.0.6]"
+DESCRIPTION="Telegram bot API [topver 1.0.6, newver 1.0.6]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="redis socks"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	socks? ( dev-python/pysocks[${PYTHON_USEDEP}] )"
+	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

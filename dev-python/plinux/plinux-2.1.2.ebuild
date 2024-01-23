@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The cross-platform tool to execute bash commands remotely. [topver 2.1.3]"
+DESCRIPTION="The cross-platform tool to execute bash commands remotely. [topver 2.1.3, newver 2.1.3]"
 
 HOMEPAGE="https://github.com/c-pher/plinux"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python logging handler for Slack integration [topver 0.3.1]"
+DESCRIPTION="A Python logging handler for Slack integration [topver 0.3.1, newver 0.3.1]"
 
 HOMEPAGE="https://github.com/junhwi/python-slack-logger"
 LICENSE="MIT"

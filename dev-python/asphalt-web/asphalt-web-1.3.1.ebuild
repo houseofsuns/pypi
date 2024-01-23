@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/asphalt[${PYTHON_USEDEP}]
 	asgi3? ( ~dev-python/asgiref-3.5[${PYTHON_USEDEP}] )
 	asgi3? ( >=dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}] )
 	django? ( ~dev-python/asgiref-3.5[${PYTHON_USEDEP}] )
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )
 	django? ( >=dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/asphalt[${PYTHON_USEDEP}]
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/websockets[${PYTHON_USEDEP}] )
 	test? ( dev-python/asphalt-web[${PYTHON_USEDEP}] )
-	test? ( dev-python/Django[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/litestar[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/aiohttp-3.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

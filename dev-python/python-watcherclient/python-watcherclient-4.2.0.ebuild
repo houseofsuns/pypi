@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/cliff-2.11.0[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
 	>=dev-python/osc-lib-1.10.0[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="lint standalone test"
 DEPENDENCIES="lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/docutils-stubs[${PYTHON_USEDEP}] )
-	standalone? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	standalone? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/html5lib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

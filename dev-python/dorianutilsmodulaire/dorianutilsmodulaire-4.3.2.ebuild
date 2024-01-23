@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ipython-7.20.0[${PYTHON_USEDEP}]
+	~dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-2.8[${PYTHON_USEDEP}]
 	dev-python/dash-auth[${PYTHON_USEDEP}]
 	dev-python/dash-daq[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
-	dev-python/flask-caching[${PYTHON_USEDEP}]
+	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	~dev-python/odfpy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/opcua[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.1[${PYTHON_USEDEP}]

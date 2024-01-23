@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/h5py-3.0[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/cooler[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

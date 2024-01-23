@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-3.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"

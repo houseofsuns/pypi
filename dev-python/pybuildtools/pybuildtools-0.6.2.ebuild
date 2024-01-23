@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all pyqt5 twisted"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}]
 	pyqt5? ( <dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}] )
-	twisted? ( dev-python/Twisted[${PYTHON_USEDEP}] )
-	all? ( dev-python/Twisted[${PYTHON_USEDEP}] )
+	twisted? ( <dev-python/twisted-24.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/twisted-24.0.0[${PYTHON_USEDEP}] )
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]

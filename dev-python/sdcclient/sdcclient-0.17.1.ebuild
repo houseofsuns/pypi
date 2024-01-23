@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/pyaml-22.0[${PYTHON_USEDEP}]
 	<dev-python/requests-toolbelt-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
-	dev-python/tatsu[${PYTHON_USEDEP}]
+	dev-python/TatSu[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	<dev-python/sphinx-rtd-theme-1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

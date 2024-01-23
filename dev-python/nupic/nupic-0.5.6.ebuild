@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Numenta Platform for Intelligent Computing [topver 1.0.5]"
+DESCRIPTION="Numenta Platform for Intelligent Computing [topver 1.0.5, newver 1.0.5]"
 
 HOMEPAGE="https://github.com/numenta/nupic"
 LICENSE=""
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/DBUtils-1.1[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pymysql-0.6.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	~dev-python/asteval-0.9.1[${PYTHON_USEDEP}]
 	~dev-python/coverage-3.7.1[${PYTHON_USEDEP}]
 	~dev-python/mock-1.0.1[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="docs docslive test typing"
 DEPENDENCIES="<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	typing? ( ~dev-python/mypy-0.961[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	typing? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	docslive? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-spelling-7.4.0[${PYTHON_USEDEP}] )
 	docslive? ( <dev-python/sphinxcontrib-spelling-7.4.0[${PYTHON_USEDEP}] )
-	typing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	typing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

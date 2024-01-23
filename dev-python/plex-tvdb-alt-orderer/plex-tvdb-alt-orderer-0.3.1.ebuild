@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/plexapi[${PYTHON_USEDEP}]
+	dev-python/PlexAPI[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/tvdb-v4-official[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.6[${PYTHON_USEDEP}]
 	>=dev-python/pypng-0.0.20[${PYTHON_USEDEP}]
 	<dev-python/defusedxml-1.0[${PYTHON_USEDEP}]
 	>=dev-python/rfc3986-1.5.0[${PYTHON_USEDEP}]

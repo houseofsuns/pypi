@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/markdown-2.6[${PYTHON_USEDEP}]
 	dev-python/rcslice[${PYTHON_USEDEP}]
 	dev-python/cyclic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

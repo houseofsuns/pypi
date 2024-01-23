@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="datacenter_datasdk [topver 0.2.26]"
+DESCRIPTION="datacenter_datasdk [topver 0.2.26, newver 0.2.26]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/ahttp[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	~dev-python/nest-asyncio-1.5.1[${PYTHON_USEDEP}]"

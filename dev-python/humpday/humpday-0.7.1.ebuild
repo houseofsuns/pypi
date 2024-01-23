@@ -37,14 +37,14 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	full? ( dev-python/bayesian-optimization[${PYTHON_USEDEP}] )
 	full? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	full? ( dev-python/platypus-opt[${PYTHON_USEDEP}] )
-	full? ( dev-python/poap[${PYTHON_USEDEP}] )
-	full? ( dev-python/pysot[${PYTHON_USEDEP}] )
+	full? ( dev-python/Platypus-Opt[${PYTHON_USEDEP}] )
+	full? ( dev-python/POAP[${PYTHON_USEDEP}] )
+	full? ( dev-python/pySOT[${PYTHON_USEDEP}] )
 	full? ( dev-python/ultraopt[${PYTHON_USEDEP}] )
 	full? ( dev-python/dlib[${PYTHON_USEDEP}] )
 	full? ( dev-python/ax-platform[${PYTHON_USEDEP}] )
-	full? ( dev-python/py-bobyqa[${PYTHON_USEDEP}] )
-	full? ( dev-python/hebo[${PYTHON_USEDEP}] )
+	full? ( dev-python/Py-BOBYQA[${PYTHON_USEDEP}] )
+	full? ( dev-python/HEBO[${PYTHON_USEDEP}] )
 	full? ( dev-python/nlopt[${PYTHON_USEDEP}] )
 	full? ( dev-python/freelunch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs package test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-3.2.12[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

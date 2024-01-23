@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-mock-3.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/keyring-22.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

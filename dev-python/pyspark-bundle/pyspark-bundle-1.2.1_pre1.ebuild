@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PySpark bundle for the Daipe Framework [topver 1.2.3]"
+DESCRIPTION="PySpark bundle for the Daipe Framework [topver 1.2.3, newver 1.2.3]"
 
 HOMEPAGE="https://github.com/daipe-ai/pyspark-bundle"
 LICENSE="MIT"

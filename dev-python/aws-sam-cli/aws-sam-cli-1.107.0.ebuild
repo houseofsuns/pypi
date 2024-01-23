@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev pre-dev"
 DEPENDENCIES="dev-python/chevron[${PYTHON_USEDEP}]
 	~dev-python/click-8.1[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.1[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	~dev-python/aws-sam-translator-1.83.0[${PYTHON_USEDEP}]
 	~dev-python/docker-7.0.0[${PYTHON_USEDEP}]

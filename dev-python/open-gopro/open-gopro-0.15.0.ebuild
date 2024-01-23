@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open GoPro API and Examples [topver 0.15.1]"
+DESCRIPTION="Open GoPro API and Examples [topver 0.15.1, newver 0.15.1]"
 
 HOMEPAGE="https://github.com/gopro/OpenGoPro/tree/main/demos/python/sdk_wireless_camera_control"
 LICENSE="MIT"
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/bleak[${PYTHON_USEDEP}]
 	<dev-python/zeroconf-1.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	gui? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	gui? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

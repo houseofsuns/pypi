@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`japanmap\` is a package for Japanese map. [topver 0.1.0]"
+DESCRIPTION="\`japanmap\` is a package for Japanese map. [topver 0.1.0, newver 0.1.0]"
 
 HOMEPAGE="https://github.com/SaitoTsutomu/japanmap"
 LICENSE=""
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	<dev-python/pillow-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

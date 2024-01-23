@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev sandbox"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	>=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
 	ci? ( ~dev-python/twine-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/Django[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/django-4.2.4[${PYTHON_USEDEP}] )
 	sandbox? ( ~dev-python/django-configurations-2.4.1[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

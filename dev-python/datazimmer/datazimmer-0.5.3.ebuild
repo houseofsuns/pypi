@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/flit[${PYTHON_USEDEP}]
 	profile? ( dev-python/pyinstrument[${PYTHON_USEDEP}] )
 	test? ( dev-python/branthebuilder[${PYTHON_USEDEP}] )
 	test? ( dev-python/atqo[${PYTHON_USEDEP}] )
-	test? ( dev-python/faker[${PYTHON_USEDEP}] )
+	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/moto[${PYTHON_USEDEP}] )
 	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	test? ( dev-python/tabulate[${PYTHON_USEDEP}] )

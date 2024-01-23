@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cndio[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/CndIO[${PYTHON_USEDEP}]
 	dev-python/cndprint[${PYTHON_USEDEP}]
 	dev-python/hatch-requirements-txt[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]

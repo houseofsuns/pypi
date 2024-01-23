@@ -27,7 +27,7 @@ IUSE="doc tests"
 DEPENDENCIES=">=dev-python/requests-2.23[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )"

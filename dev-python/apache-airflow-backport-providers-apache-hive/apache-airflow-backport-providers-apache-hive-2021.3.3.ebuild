@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="amazon microsoft-mssql mysql presto samba vertica"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/hmsclient[${PYTHON_USEDEP}]
-	dev-python/pyhive[${PYTHON_USEDEP}]
+	dev-python/PyHive[${PYTHON_USEDEP}]
 	>=dev-python/thrift-0.9.2[${PYTHON_USEDEP}]
 	amazon? ( dev-python/apache-airflow-backport-providers-amazon[${PYTHON_USEDEP}] )
 	microsoft-mssql? ( dev-python/apache-airflow-backport-providers-microsoft-mssql[${PYTHON_USEDEP}] )

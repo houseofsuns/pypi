@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/click-completion[${PYTHON_USEDEP}]
 	dev-python/sequana[${PYTHON_USEDEP}]
-	dev-python/sequana_pipetools[${PYTHON_USEDEP}]"
+	dev-python/sequana-pipetools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

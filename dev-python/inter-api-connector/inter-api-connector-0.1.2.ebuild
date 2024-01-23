@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-23.3.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/build-1.0.3[${PYTHON_USEDEP}] )

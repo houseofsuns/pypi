@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple 1Password CLI to list and decrypt secrets by querying the local sqlite database [topver 1.2.0]"
+DESCRIPTION="Simple 1Password CLI to list and decrypt secrets by querying the local sqlite database [topver 1.2.0, newver 1.2.0]"
 
 HOMEPAGE="https://github.com/mickaelperrin/onepassword-local-search"
 LICENSE="GPL-3"

@@ -27,7 +27,7 @@ IUSE="all ccxt dev dydx ib oanda yfinance"
 DEPENDENCIES=">=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/art[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
 	dev-python/finta[${PYTHON_USEDEP}]

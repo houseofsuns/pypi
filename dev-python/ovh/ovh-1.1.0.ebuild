@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/requests-2.11.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

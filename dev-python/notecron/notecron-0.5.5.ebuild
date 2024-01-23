@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/records[${PYTHON_USEDEP}]
 	dev-python/notedata[${PYTHON_USEDEP}]

@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/pydateinfer[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
-	dev-python/type-infer[${PYTHON_USEDEP}]
+	dev-python/type_infer[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]"

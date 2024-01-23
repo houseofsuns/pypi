@@ -27,7 +27,7 @@ IUSE="docs tests"
 DEPENDENCIES=">=dev-python/pytest-3.5.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )

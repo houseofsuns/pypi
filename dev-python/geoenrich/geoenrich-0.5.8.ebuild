@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	~dev-python/netcdf4-1.5.8[${PYTHON_USEDEP}]
 	dev-python/python-dwca-reader[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

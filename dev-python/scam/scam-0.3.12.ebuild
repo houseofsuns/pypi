@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/javalang[${PYTHON_USEDEP}]
-	dev-python/PySide2[${PYTHON_USEDEP}]
+	dev-python/pyside2[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/clang[${PYTHON_USEDEP}]

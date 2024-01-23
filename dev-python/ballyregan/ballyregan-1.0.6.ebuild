@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/strenum[${PYTHON_USEDEP}]"
+	dev-python/StrEnum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

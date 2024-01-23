@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="devs tests"
-DEPENDENCIES="dev-python/ConfigUpdater[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/configupdater-4.0.0[${PYTHON_USEDEP}]
 	>dev-python/Faker-11.3.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>dev-python/black-23.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-6.0.0[${PYTHON_USEDEP}]

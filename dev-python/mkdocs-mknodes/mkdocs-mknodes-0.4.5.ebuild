@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jinjarope[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-1.5[${PYTHON_USEDEP}]
 	dev-python/mknodes[${PYTHON_USEDEP}]

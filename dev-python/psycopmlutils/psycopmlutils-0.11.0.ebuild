@@ -35,13 +35,13 @@ DEPENDENCIES=">=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/dill-0.3.7[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.5[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/furo-2022.12.8[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )

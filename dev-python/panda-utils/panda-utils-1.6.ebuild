@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autopath composer everything imagery pipeline runnable"
-DEPENDENCIES="autopath? ( dev-python/panda3d[${PYTHON_USEDEP}] )
+DEPENDENCIES="autopath? ( dev-python/Panda3D[${PYTHON_USEDEP}] )
 	composer? ( dev-python/panda-utils[${PYTHON_USEDEP}] )
 	composer? ( dev-python/doit[${PYTHON_USEDEP}] )
 	composer? ( dev-python/pydantic[${PYTHON_USEDEP}] )
@@ -32,11 +32,11 @@ DEPENDENCIES="autopath? ( dev-python/panda3d[${PYTHON_USEDEP}] )
 	everything? ( dev-python/panda-utils[${PYTHON_USEDEP}] )
 	everything? ( dev-python/panda-utils[${PYTHON_USEDEP}] )
 	everything? ( dev-python/panda-utils[${PYTHON_USEDEP}] )
-	imagery? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	imagery? ( >=dev-python/pillow-9.0[${PYTHON_USEDEP}] )
 	pipeline? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	pipeline? ( ~dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/panda3d-blend2bam[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/panda3d[${PYTHON_USEDEP}] )
+	pipeline? ( dev-python/Panda3D[${PYTHON_USEDEP}] )
 	runnable? ( ~dev-python/platformdirs-3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

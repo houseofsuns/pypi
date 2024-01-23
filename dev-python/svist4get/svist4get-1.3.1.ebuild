@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/reportlab[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/configs[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/Pybedtools[${PYTHON_USEDEP}]
+	dev-python/pybedtools[${PYTHON_USEDEP}]
 	dev-python/wand[${PYTHON_USEDEP}]
 	dev-python/statistics[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

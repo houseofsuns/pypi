@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	<dev-python/cfn-lint-0.76[${PYTHON_USEDEP}]

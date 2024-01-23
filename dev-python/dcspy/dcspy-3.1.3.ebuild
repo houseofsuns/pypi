@@ -27,11 +27,11 @@ IUSE="test"
 DEPENDENCIES="~dev-python/cffi-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.7[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyside6-6.6.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/interrogate[${PYTHON_USEDEP}] )

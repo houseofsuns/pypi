@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
 	test? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-certifi[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-itsdangerous[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-pkg_resources[${PYTHON_USEDEP}] )
+	test? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-toml[${PYTHON_USEDEP}] )

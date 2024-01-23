@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs testing"
 DEPENDENCIES="docs? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
 	testing? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs test"
 DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/packaging[${PYTHON_USEDEP}] )

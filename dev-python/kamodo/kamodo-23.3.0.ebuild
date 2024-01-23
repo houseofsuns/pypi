@@ -32,14 +32,14 @@ DEPENDENCIES=">=dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/flask-restful[${PYTHON_USEDEP}]
+	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	~dev-python/antlr4-python3-runtime-4.7[${PYTHON_USEDEP}]
 	dev-python/python-forge[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/incremental[${PYTHON_USEDEP}]
 	dev-python/pycapnp[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]"
+	dev-python/pyopenssl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

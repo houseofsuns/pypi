@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/demyst-common[${PYTHON_USEDEP}]
 	dev-python/yattag[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

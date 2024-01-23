@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/meshio[${PYTHON_USEDEP}]
 	dev-python/myPythonLibrary[${PYTHON_USEDEP}]
-	dev-python/myVTKPythonLibrary[${PYTHON_USEDEP}]
+	dev-python/myvtkpythonlibrary[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]"

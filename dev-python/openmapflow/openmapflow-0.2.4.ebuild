@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	all? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	all? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/xarray-0.19[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastcore[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	data? ( dev-python/earthengine-api[${PYTHON_USEDEP}] )
 	data? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	data? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	data? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	data? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	data? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	data? ( ~dev-python/xarray-0.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

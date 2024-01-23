@@ -27,13 +27,13 @@ IUSE="athena az bigquery cli dbt duckdb filesystem gcp gs motherduck mssql parqu
 DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.17.5[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2022.1[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.11.3[${PYTHON_USEDEP}]
 	>=dev-python/pathvalidate-2.5.2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/makefun-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.6.0[${PYTHON_USEDEP}]
 	>=dev-python/humanize-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.29[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.6.7[${PYTHON_USEDEP}]
@@ -81,7 +81,7 @@ DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	cli? ( dev-python/cron-descriptor[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/pipdeptree-2.10[${PYTHON_USEDEP}] )
-	athena? ( dev-python/pyathena[${PYTHON_USEDEP}] )
+	athena? ( dev-python/PyAthena[${PYTHON_USEDEP}] )
 	weaviate? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )
 	az? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyrsistent-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-19.1.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.10[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/funcsigs[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/idna-2.10[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyopenssl-19.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyrsistent-0.16.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-2.21[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/cryptography-2.8.0[${PYTHON_USEDEP}] )

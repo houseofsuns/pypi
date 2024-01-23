@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pycparser-2.20[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )"
+	gui? ( ~dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/PyQtWebEngine-5.15.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

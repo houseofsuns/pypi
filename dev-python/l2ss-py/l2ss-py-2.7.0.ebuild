@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="harmony"
-DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/netcdf4-2.0[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	harmony? ( dev-python/harmony-service-lib[${PYTHON_USEDEP}] )
 	harmony? ( dev-python/pystac[${PYTHON_USEDEP}] )
 	dev-python/julian[${PYTHON_USEDEP}]

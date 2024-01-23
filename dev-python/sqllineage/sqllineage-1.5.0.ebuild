@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}]
 	ci? ( dev-python/tox[${PYTHON_USEDEP}] )
 	ci? ( dev-python/twine[${PYTHON_USEDEP}] )
 	ci? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/graphtools[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
 	dev-python/scprep[${PYTHON_USEDEP}]
-	dev-python/pygsp[${PYTHON_USEDEP}]
+	dev-python/PyGSP[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )

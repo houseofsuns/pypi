@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A realtime logging and aggregation server. [topver 23.7.1]"
+DESCRIPTION="A realtime logging and aggregation server. [topver 23.7.1, newver 23.7.1]"
 
 HOMEPAGE="https://sentry.io"
 LICENSE="BSD"
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
 	dev-python/django-picklefield[${PYTHON_USEDEP}]
 	dev-python/django-sudo[${PYTHON_USEDEP}]
 	dev-python/django-templatetag-sugar[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	<dev-python/django-1.7[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-2.5.0[${PYTHON_USEDEP}]
 	dev-python/email-reply-parser[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
@@ -59,10 +59,10 @@ DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/percy[${PYTHON_USEDEP}]
 	dev-python/petname[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<=dev-python/pillow-4.2.1[${PYTHON_USEDEP}]
 	<dev-python/progressbar2-3.11[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-1.6.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-django-2.10.0[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
 	<dev-python/pytest-3.6.0[${PYTHON_USEDEP}]
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
 	<dev-python/python-memcached-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-openid[${PYTHON_USEDEP}]
 	dev-python/python-u2flib-server[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	<dev-python/qrcode-6.0.0[${PYTHON_USEDEP}]
 	dev-python/querystring-parser[${PYTHON_USEDEP}]
 	dev-python/rb[${PYTHON_USEDEP}]
@@ -93,7 +93,7 @@ DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
 	>=dev-python/unidiff-0.5.4[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.24.2[${PYTHON_USEDEP}]
-	dev-python/uwsgi[${PYTHON_USEDEP}]
+	dev-python/uWSGI[${PYTHON_USEDEP}]
 	dev? ( <dev-python/autopep8-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/configparser[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.1.0[${PYTHON_USEDEP}]"

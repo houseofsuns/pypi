@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-2.4[${PYTHON_USEDEP}]
 	dev-python/ckanapi[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	~dev-python/unidecode-0.4.21[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	dev-python/requests-mock[${PYTHON_USEDEP}]"

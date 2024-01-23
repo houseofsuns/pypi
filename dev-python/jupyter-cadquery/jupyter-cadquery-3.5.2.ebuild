@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/webcolors-1.12[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyYaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-packaging[${PYTHON_USEDEP}] )
 	prod? ( dev-python/cadquery[${PYTHON_USEDEP}] )"

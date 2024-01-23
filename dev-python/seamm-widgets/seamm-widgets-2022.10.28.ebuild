@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/Pmw[${PYTHON_USEDEP}]
+	dev-python/pmw[${PYTHON_USEDEP}]
 	dev-python/seamm-util[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

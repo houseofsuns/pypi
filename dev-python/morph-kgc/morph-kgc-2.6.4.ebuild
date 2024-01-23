@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/pyoxigraph[${PYTHON_USEDEP}]
 	<dev-python/rdflib-8.0.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
-	dev-python/sql-metadata[${PYTHON_USEDEP}]
+	dev-python/sql_metadata[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	mssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	mysql? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )
 	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
-	oracle? ( dev-python/cx-oracle[${PYTHON_USEDEP}] )
+	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	postgresql? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
 	spss? ( dev-python/pyreadstat[${PYTHON_USEDEP}] )
 	tabular? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )

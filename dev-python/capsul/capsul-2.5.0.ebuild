@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/traits[${PYTHON_USEDEP}]
 	dev-python/soma-workflow[${PYTHON_USEDEP}]
 	dev-python/populse-db[${PYTHON_USEDEP}]
 	>=dev-python/six-1.13[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	database? ( dev-python/populse-db[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/numpy-1.17[${PYTHON_USEDEP}] )

@@ -27,6 +27,6 @@ IUSE="test"
 DEPENDENCIES="dev-python/tensorflowjs[${PYTHON_USEDEP}]
 	dev-python/tensorflow-metal[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pillow-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

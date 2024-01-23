@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/cvxpy[${PYTHON_USEDEP}]
 	dev-python/pybedtools[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pyBigWig[${PYTHON_USEDEP}]
-	dev-python/deeptools[${PYTHON_USEDEP}]
-	mosek? ( dev-python/mosek[${PYTHON_USEDEP}] )
+	dev-python/deepTools[${PYTHON_USEDEP}]
+	mosek? ( dev-python/Mosek[${PYTHON_USEDEP}] )
 	ortools? ( dev-python/ortools[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

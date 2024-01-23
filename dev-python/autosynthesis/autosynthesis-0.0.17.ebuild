@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	dev-python/biosteam[${PYTHON_USEDEP}]
 	dev-python/thermosteam[${PYTHON_USEDEP}]
 	dev-python/flexsolve[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

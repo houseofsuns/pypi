@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flakes[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pyhamcrest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )

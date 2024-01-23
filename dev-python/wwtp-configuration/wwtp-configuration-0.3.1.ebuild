@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test"
-DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8.5[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22.1[${PYTHON_USEDEP}]
-	all? ( dev-python/pint[${PYTHON_USEDEP}] )
+	all? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/networkx-2.8.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/tox-3.24.5[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-3.24.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )

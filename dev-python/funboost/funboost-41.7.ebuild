@@ -31,9 +31,9 @@ DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	dev-python/AMQPStorm[${PYTHON_USEDEP}]
 	dev-python/rabbitpy[${PYTHON_USEDEP}]
 	~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/flask-bootstrap[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/Flask-Bootstrap[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/wtforms[${PYTHON_USEDEP}]
 	dev-python/flask-login[${PYTHON_USEDEP}]
 	dev-python/tomorrow3[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	dev-python/gnsq[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	~dev-python/peewee-3.15.1[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	~dev-python/APScheduler-3.10.1[${PYTHON_USEDEP}]
 	dev-python/pikav0[${PYTHON_USEDEP}]
 	dev-python/pikav1[${PYTHON_USEDEP}]
 	dev-python/redis2[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	dev-python/nats-python[${PYTHON_USEDEP}]
 	dev-python/nb-filelock[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
-	dev-python/pysnooper[${PYTHON_USEDEP}]
+	dev-python/PySnooper[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/auto-run-on-remote[${PYTHON_USEDEP}]
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	all? ( dev-python/flower[${PYTHON_USEDEP}] )
 	all? ( dev-python/nameko[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sqlalchemy-1.4.8[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	all? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	all? ( dev-python/dramatiq[${PYTHON_USEDEP}] )
 	all? ( dev-python/huey[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/rq-1.15.0[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	extra_brokers? ( dev-python/flower[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/nameko[${PYTHON_USEDEP}] )
 	extra_brokers? ( ~dev-python/sqlalchemy-1.4.8[${PYTHON_USEDEP}] )
-	extra_brokers? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	extra_brokers? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/dramatiq[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/huey[${PYTHON_USEDEP}] )
 	extra_brokers? ( ~dev-python/rq-1.15.0[${PYTHON_USEDEP}] )

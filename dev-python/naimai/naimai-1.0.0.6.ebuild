@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/habanero[${PYTHON_USEDEP}]

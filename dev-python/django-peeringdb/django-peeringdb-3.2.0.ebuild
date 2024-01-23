@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/asgiref-4.0[${PYTHON_USEDEP}]
-	dev-python/django_countries[${PYTHON_USEDEP}]
-	dev-python/django_handleref[${PYTHON_USEDEP}]
-	dev-python/django_inet[${PYTHON_USEDEP}]"
+	dev-python/django-countries[${PYTHON_USEDEP}]
+	dev-python/django-handleref[${PYTHON_USEDEP}]
+	dev-python/django-inet[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

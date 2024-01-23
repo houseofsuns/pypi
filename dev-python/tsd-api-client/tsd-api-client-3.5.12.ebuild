@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
 	dev-python/libnacl[${PYTHON_USEDEP}]

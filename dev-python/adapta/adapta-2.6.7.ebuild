@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/botocore-2.0[${PYTHON_USEDEP}]
 	datadog? ( dev-python/datadog[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/datadog-api-client[${PYTHON_USEDEP}] )
-	databases? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	databases? ( <dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}] )
 	databases? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	ml? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
 	caching? ( <dev-python/redis-4.5.0[${PYTHON_USEDEP}] )

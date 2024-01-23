@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs package test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-4.2[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	~dev-python/django-filter-23.1[${PYTHON_USEDEP}]
 	dev-python/resolwe[${PYTHON_USEDEP}]
 	~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/daphne[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}] )
 	package? ( dev-python/twine[${PYTHON_USEDEP}] )

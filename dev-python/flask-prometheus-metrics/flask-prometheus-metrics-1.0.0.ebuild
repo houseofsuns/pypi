@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="flask"
 DEPENDENCIES=">=dev-python/prometheus-client-0.6.0[${PYTHON_USEDEP}]
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )"
+	flask? ( >=dev-python/flask-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

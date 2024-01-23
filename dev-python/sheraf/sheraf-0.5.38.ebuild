@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc relstorage-pg zeo"
-DEPENDENCIES="dev-python/zodb[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ZODB[${PYTHON_USEDEP}]
 	dev-python/zodburi[${PYTHON_USEDEP}]
-	all? ( dev-python/zeo[${PYTHON_USEDEP}] )
-	zeo? ( dev-python/zeo[${PYTHON_USEDEP}] )
+	all? ( dev-python/ZEO[${PYTHON_USEDEP}] )
+	zeo? ( dev-python/ZEO[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/zodb[${PYTHON_USEDEP}]
 	relstorage-pg? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
 	relstorage-pg? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
-	all? ( dev-python/relstorage[${PYTHON_USEDEP}] )
-	relstorage-pg? ( dev-python/relstorage[${PYTHON_USEDEP}] )
+	all? ( dev-python/RelStorage[${PYTHON_USEDEP}] )
+	relstorage-pg? ( dev-python/RelStorage[${PYTHON_USEDEP}] )
 	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/legacycrypt[${PYTHON_USEDEP}]"

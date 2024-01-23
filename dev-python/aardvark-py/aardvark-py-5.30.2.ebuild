@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Total Phase Aardvark Python API [topver 5.40]"
+DESCRIPTION="Total Phase Aardvark Python API [topver 5.40, newver 5.40]"
 
 HOMEPAGE="https://github.com/FlyingCampDesign/aardvark_py.git"
 LICENSE="Proprietary License see LICENSE.txt provided with the distribution"

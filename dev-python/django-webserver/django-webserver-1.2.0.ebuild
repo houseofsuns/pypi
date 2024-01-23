@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gunicorn pyuwsgi test uvicorn waitress"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	gunicorn? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	pyuwsgi? ( dev-python/pyuwsgi[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

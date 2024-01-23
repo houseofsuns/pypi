@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/jsonschema-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/urlextract[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

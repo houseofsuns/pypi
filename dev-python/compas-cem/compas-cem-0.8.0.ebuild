@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/compas[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/COMPAS[${PYTHON_USEDEP}]
 	dev-python/nlopt[${PYTHON_USEDEP}]
 	dev-python/trimesh[${PYTHON_USEDEP}]
 	dev-python/autograd[${PYTHON_USEDEP}]

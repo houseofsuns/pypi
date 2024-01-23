@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.3.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/pysam[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

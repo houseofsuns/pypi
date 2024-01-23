@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
-	dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}]
-	dev-python/PyOpenGL[${PYTHON_USEDEP}]
+	~dev-python/pyopengl_accelerate-3.1.7[${PYTHON_USEDEP}]
+	~dev-python/pyopengl-3.1.6[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/skia-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="yaml11"
 DEPENDENCIES=">=dev-python/betamax-0.3.2[${PYTHON_USEDEP}]
-	yaml11? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml11? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

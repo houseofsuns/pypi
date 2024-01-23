@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	>=dev-python/pbkdf2-1.3[${PYTHON_USEDEP}]

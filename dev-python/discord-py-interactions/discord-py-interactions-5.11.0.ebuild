@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.1[${PYTHON_USEDEP}]
 	dev-python/discord-typings[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]
-	all? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	all? ( dev-python/Brotli[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typeguard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	dev? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Brotli[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/griffe-0.25[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	docs? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Brotli[${PYTHON_USEDEP}] )
@@ -91,6 +91,6 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	tests? ( dev-python/typeguard[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
+	voice? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

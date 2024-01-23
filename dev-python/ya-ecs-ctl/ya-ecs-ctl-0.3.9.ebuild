@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/click-6.6[${PYTHON_USEDEP}]
 	~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	dev-python/EasySettings[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-2.0.4[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="closure cssmin docs jsmin test"
-DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/webob-1.2[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	closure? ( dev-python/closure[${PYTHON_USEDEP}] )
 	cssmin? ( dev-python/cssmin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	jsmin? ( dev-python/jsmin[${PYTHON_USEDEP}] )
 	test? ( dev-python/closure[${PYTHON_USEDEP}] )
 	test? ( dev-python/cssmin[${PYTHON_USEDEP}] )

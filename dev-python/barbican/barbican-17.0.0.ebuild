@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dogtag test"
-DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paste-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pastedeploy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.0.10[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.8.10[${PYTHON_USEDEP}]
 	dev-python/castellan[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.7.0[${PYTHON_USEDEP}]
@@ -52,11 +52,11 @@ DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
 	dev-python/oslo-versionedobjects[${PYTHON_USEDEP}]
 	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pecan-1.0.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.1.0[${PYTHON_USEDEP}]
 	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
 	dogtag? ( dev-python/dogtag-pki[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-2.0.27[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyflakes-2.1.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/pykmip[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyKMIP[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/python-keystoneclient-3.8.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-2.18.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )

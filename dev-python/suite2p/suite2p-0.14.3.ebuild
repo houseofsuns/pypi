@@ -36,9 +36,9 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/cellpose[${PYTHON_USEDEP}]
 	dev-python/scanimage-tiff-reader[${PYTHON_USEDEP}]
-	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
+	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/pynwb[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -55,9 +55,9 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
+	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	io? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	io? ( dev-python/nd2[${PYTHON_USEDEP}] )

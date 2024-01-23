@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TBD [topver 0.7.3]"
+DESCRIPTION="TBD [topver 0.7.3, newver 0.7.3]"
 
 HOMEPAGE=""
 LICENSE="BSD"

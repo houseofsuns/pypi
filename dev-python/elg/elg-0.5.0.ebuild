@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/requests-2.25[${PYTHON_USEDEP}]
 	flask? ( >=dev-python/requests-toolbelt-0.9[${PYTHON_USEDEP}] )
 	quality? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	quality? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	quart? ( dev-python/quart[${PYTHON_USEDEP}] )
+	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	quart? ( >=dev-python/docker-5.0[${PYTHON_USEDEP}] )
 	quart? ( >=dev-python/requests-toolbelt-0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

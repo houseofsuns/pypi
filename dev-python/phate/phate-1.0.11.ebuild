@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/tasklogger[${PYTHON_USEDEP}]
 	dev-python/graphtools[${PYTHON_USEDEP}]
 	dev-python/scprep[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/s-gd2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

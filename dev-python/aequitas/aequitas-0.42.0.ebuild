@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ohio[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-0.12.2[${PYTHON_USEDEP}]
 	dev-python/Flask-Bootstrap[${PYTHON_USEDEP}]
 	~dev-python/markdown2-2.3.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]
 	dev-python/xhtml2pdf[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]

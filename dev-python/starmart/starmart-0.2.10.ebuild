@@ -33,6 +33,6 @@ DEPENDENCIES="~dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	dev-python/sshconf[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-8.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

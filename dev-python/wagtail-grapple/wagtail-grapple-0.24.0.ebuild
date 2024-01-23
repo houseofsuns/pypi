@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/Wagtail[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/wagtail-headless-preview[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-wagtail-theme[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-spelling-9.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

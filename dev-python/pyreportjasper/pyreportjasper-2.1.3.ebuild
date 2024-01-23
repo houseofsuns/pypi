@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/jpype1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/JPype1[${PYTHON_USEDEP}]
 	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/jpype1[${PYTHON_USEDEP}]
 	docs? ( dev-python/commonmark[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

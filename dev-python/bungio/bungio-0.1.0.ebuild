@@ -46,7 +46,7 @@ DEPENDENCIES="test? ( <dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	speedups? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/Brotli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

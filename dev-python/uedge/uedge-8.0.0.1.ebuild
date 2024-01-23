@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="2D Fluid simulation of plasma and neutrals in magnetic fusion devices [topver 8.0.5.0]"
+DESCRIPTION="2D Fluid simulation of plasma and neutrals in magnetic fusion devices [topver 8.0.5.0, newver 8.0.5.0]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/forthon[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Forthon[${PYTHON_USEDEP}]
 	dev-python/mppl[${PYTHON_USEDEP}]
 	dev-python/easygui[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

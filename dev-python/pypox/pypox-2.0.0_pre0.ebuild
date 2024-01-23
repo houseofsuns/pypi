@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/starlette-0.36.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.26.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

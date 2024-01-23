@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Wagtail[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	dev-python/wagtail[${PYTHON_USEDEP}]
 	>=dev-python/django-otp-0.8.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/qrcode-6.1[${PYTHON_USEDEP}]

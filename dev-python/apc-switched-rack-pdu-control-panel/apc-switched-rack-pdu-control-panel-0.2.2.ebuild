@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/easysnmp[${PYTHON_USEDEP}]
 	dev-python/wtforms[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

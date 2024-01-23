@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydata-sphinx-theme-0.7.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )

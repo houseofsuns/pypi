@@ -29,13 +29,13 @@ DEPENDENCIES=">=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	sphinx? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	sphinx? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

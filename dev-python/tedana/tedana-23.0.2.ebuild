@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-unused-arguments[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flake8-3.7[${PYTHON_USEDEP}] )

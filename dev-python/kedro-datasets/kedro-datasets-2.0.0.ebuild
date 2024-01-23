@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all api api-apidataset biosequence biosequence-biosequencedataset dask dask-parquetdataset databricks databricks-managedtabledataset docs geopandas geopandas-geojsondataset holoviews holoviews-holoviewswriter huggingface matplotlib matplotlib-matplotlibwriter networkx networkx-networkxdataset pandas pandas-csvdataset pandas-deltatabledataset pandas-exceldataset pandas-featherdataset pandas-gbqquerydataset pandas-gbqtabledataset pandas-genericdataset pandas-hdfdataset pandas-jsondataset pandas-parquetdataset pandas-sqlquerydataset pandas-sqltabledataset pandas-xmldataset pickle pickle-pickledataset pillow pillow-imagedataset plotly plotly-jsondataset plotly-plotlydataset polars polars-csvdataset polars-eagerpolarsdataset polars-lazypolarsdataset redis snowflake snowflake-snowparktabledataset spark spark-deltatabledataset spark-sparkdataset spark-sparkhivedataset spark-sparkjdbcdataset svmlight svmlight-svmlightdataset tensorflow tensorflow-tensorflowmodeldataset test video video-videodataset yaml yaml-yamldataset"
 DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
-	dev-python/lazy-loader[${PYTHON_USEDEP}]
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	all? ( ~dev-python/pillow-9.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/biopython[${PYTHON_USEDEP}] )
 	all? ( dev-python/compress-pickle[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/dask-2021.10[${PYTHON_USEDEP}] )
@@ -106,7 +106,7 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	matplotlib-matplotlibwriter? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
 	networkx? ( ~dev-python/networkx-2.4[${PYTHON_USEDEP}] )
 	networkx-networkxdataset? ( ~dev-python/networkx-2.4[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/deltalake[${PYTHON_USEDEP}] )
 	pandas? ( ~dev-python/lxml-4.6[${PYTHON_USEDEP}] )
 	pandas? ( <dev-python/openpyxl-4.0[${PYTHON_USEDEP}] )
@@ -132,10 +132,10 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	pandas-parquetdataset? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	pandas-parquetdataset? ( >=dev-python/pyarrow-6.0[${PYTHON_USEDEP}] )
 	pandas-sqlquerydataset? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
-	pandas-sqlquerydataset? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	pandas-sqlquerydataset? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	pandas-sqlquerydataset? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	pandas-sqltabledataset? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
-	pandas-sqltabledataset? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	pandas-sqltabledataset? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	pandas-xmldataset? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	pandas-xmldataset? ( ~dev-python/lxml-4.6[${PYTHON_USEDEP}] )
 	pandas? ( ~dev-python/tables-3.6[${PYTHON_USEDEP}] )
@@ -143,8 +143,8 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	pandas? ( dev-python/pandas-gbq[${PYTHON_USEDEP}] )
 	pickle? ( dev-python/compress-pickle[${PYTHON_USEDEP}] )
 	pickle-pickledataset? ( dev-python/compress-pickle[${PYTHON_USEDEP}] )
-	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	pillow-imagedataset? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	pillow? ( ~dev-python/pillow-9.0[${PYTHON_USEDEP}] )
+	pillow-imagedataset? ( ~dev-python/pillow-9.0[${PYTHON_USEDEP}] )
 	plotly? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	plotly? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
 	plotly-jsondataset? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
@@ -221,7 +221,7 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	test? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	test? ( <dev-python/openpyxl-4.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pandas-1.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pillow-9.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/polars[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -239,9 +239,9 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sqlalchemy-1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/triad[${PYTHON_USEDEP}] )
-	test? ( dev-python/trufflehog[${PYTHON_USEDEP}] )
+	test? ( dev-python/truffleHog[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/xlsxwriter-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
@@ -261,9 +261,9 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	video? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	video-videodataset? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	yaml-yamldataset? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
-	yaml-yamldataset? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml-yamldataset? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

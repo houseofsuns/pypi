@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/pymedphys[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8.0[${PYTHON_USEDEP}]
-	dev-python/simpleitk[${PYTHON_USEDEP}]"
+	dev-python/SimpleITK[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

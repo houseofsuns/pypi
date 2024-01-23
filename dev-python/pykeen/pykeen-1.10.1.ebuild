@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	opt_einsum? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	templating? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	templating? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	tests? ( dev-python/unittest-templates[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -70,6 +70,6 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	wandb? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	wordcloud? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
-	wordcloud? ( dev-python/IPython[${PYTHON_USEDEP}] )"
+	wordcloud? ( dev-python/ipython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

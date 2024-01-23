@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	>=dev-python/flake8-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/flake8-polyfill-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/radon-4.3.2[${PYTHON_USEDEP}]

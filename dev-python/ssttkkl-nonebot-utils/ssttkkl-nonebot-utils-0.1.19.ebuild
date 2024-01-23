@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
-	dev-python/nonebot-plugin-session[${PYTHON_USEDEP}]
+	dev-python/nonebot_plugin_session[${PYTHON_USEDEP}]
 	dev-python/asyncache[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

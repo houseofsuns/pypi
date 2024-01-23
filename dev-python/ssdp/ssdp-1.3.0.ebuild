@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli pygments test"
 DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	pygments? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	cli? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	pygments? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

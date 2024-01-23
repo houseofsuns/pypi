@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

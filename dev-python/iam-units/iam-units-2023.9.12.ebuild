@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests update"
-DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
 	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

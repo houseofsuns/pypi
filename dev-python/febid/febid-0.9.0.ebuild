@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pyaml[${PYTHON_USEDEP}]
 	dev-python/numexpr-mod[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/bottle-0.12.25[${PYTHON_USEDEP}]
 	dev-python/bottle-websocket[${PYTHON_USEDEP}]
-	dev-python/eel[${PYTHON_USEDEP}]
+	dev-python/Eel[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
-	dev-python/pymsgbox[${PYTHON_USEDEP}]
+	dev-python/PyMsgBox[${PYTHON_USEDEP}]
 	~dev-python/whichcraft-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/zope-event-4.6[${PYTHON_USEDEP}]
 	~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}]

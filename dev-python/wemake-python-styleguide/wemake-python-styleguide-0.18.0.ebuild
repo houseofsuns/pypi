@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">dev-python/flake8-5.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/astor-0.9[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	dev-python/flake8-commas[${PYTHON_USEDEP}]

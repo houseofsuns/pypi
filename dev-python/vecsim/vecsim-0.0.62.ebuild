@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	faiss? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	postgres? ( ~dev-python/sqlalchemy-1.3.22[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-4.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

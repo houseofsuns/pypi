@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pykwalify-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/colorlog-2.10.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fine-map transcriptome-wide association studies"
+DESCRIPTION="Fine-map transcriptome-wide association studies [newver 0.8]"
 
 HOMEPAGE="https://github.com/mancusolab/focus"
 LICENSE=""

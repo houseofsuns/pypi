@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/libusb[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
 	dev-python/pyftdi[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/qcloud-cmq-sdk-py3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]"

@@ -64,7 +64,7 @@ DEPENDENCIES="~dev-python/fsspec-2023.3.0[${PYTHON_USEDEP}]
 	dev-python/fasttext-wheel[${PYTHON_USEDEP}]
 	dev-python/nlpcda[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/opencc[${PYTHON_USEDEP}]
+	dev-python/OpenCC[${PYTHON_USEDEP}]
 	dev-python/imagededup[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/dlib[${PYTHON_USEDEP}]
@@ -111,7 +111,7 @@ DEPENDENCIES="~dev-python/fsspec-2023.3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/fasttext-wheel[${PYTHON_USEDEP}] )
 	all? ( dev-python/nlpcda[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	all? ( dev-python/opencc[${PYTHON_USEDEP}] )
+	all? ( dev-python/OpenCC[${PYTHON_USEDEP}] )
 	all? ( dev-python/imagededup[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/dlib[${PYTHON_USEDEP}] )
@@ -171,7 +171,7 @@ DEPENDENCIES="~dev-python/fsspec-2023.3.0[${PYTHON_USEDEP}]
 	mini? ( dev-python/fasttext-wheel[${PYTHON_USEDEP}] )
 	mini? ( dev-python/nlpcda[${PYTHON_USEDEP}] )
 	mini? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	mini? ( dev-python/opencc[${PYTHON_USEDEP}] )
+	mini? ( dev-python/OpenCC[${PYTHON_USEDEP}] )
 	mini? ( dev-python/imagededup[${PYTHON_USEDEP}] )
 	mini? ( dev-python/torch[${PYTHON_USEDEP}] )
 	mini? ( dev-python/dlib[${PYTHON_USEDEP}] )

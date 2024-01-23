@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pygit2[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

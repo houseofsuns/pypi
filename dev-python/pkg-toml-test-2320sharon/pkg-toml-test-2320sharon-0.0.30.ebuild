@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

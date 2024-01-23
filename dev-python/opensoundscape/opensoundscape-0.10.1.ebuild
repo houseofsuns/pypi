@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/aru-metadata-parser[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.37[${PYTHON_USEDEP}]
 	dev-python/grad-cam[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]

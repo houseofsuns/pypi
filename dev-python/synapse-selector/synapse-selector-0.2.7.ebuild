@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/pyqt6-webengine[${PYTHON_USEDEP}]
+	<dev-python/PyQt6-WebEngine-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

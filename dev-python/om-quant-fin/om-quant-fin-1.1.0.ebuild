@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/yfinance[${PYTHON_USEDEP}]
 	dev-python/statsmodels-tsa-stattools[${PYTHON_USEDEP}]
 	dev-python/numpy-ext[${PYTHON_USEDEP}]
 	dev-python/warnings[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]"
+	dev-python/DateTime[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

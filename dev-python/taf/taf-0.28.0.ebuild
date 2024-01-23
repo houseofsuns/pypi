@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/cattrs-23.1.2[${PYTHON_USEDEP}]
 	dev-python/securesystemslib[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.6[${PYTHON_USEDEP}]
 	~dev-python/pygit2-1.9[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-22.1[${PYTHON_USEDEP}]
 	dev-python/logdecorator[${PYTHON_USEDEP}]
 	ci? ( >=dev-python/bandit-1.6.0[${PYTHON_USEDEP}] )
 	ci? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )

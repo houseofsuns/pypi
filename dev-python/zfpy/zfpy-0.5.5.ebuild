@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="zfp compression in Python [topver 1.0.0]"
+DESCRIPTION="zfp compression in Python [topver 1.0.0, newver 1.0.0]"
 
 HOMEPAGE="https://computing.llnl.gov/projects/floating-point-compression"
 LICENSE=""

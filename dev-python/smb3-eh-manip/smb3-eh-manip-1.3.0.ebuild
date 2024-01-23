@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dataclass-wizard[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pydispatcher[${PYTHON_USEDEP}]
+	dev-python/PyDispatcher[${PYTHON_USEDEP}]
 	dev-python/pygame[${PYTHON_USEDEP}]
 	dev-python/pygrabber[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]

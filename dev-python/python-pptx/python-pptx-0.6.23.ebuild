@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/lxml-3.1.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/xlsxwriter-0.5.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

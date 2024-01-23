@@ -34,8 +34,8 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	<dev-python/django-filter-22.0[${PYTHON_USEDEP}]
 	dev-python/healpix-alchemy[${PYTHON_USEDEP}]
 	dev-python/astropy-healpix[${PYTHON_USEDEP}]
-	dev-python/MOCPy[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/mocpy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.42[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/ligo-skymap[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A GUI module for pygame 2 [topver 0.6.9]"
+DESCRIPTION="A GUI module for pygame 2 [topver 0.6.9, newver 0.6.9]"
 
 HOMEPAGE="https://github.com/MyreMylar/pygame_gui"
 LICENSE="MIT"

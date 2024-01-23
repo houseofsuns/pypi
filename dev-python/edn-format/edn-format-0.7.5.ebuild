@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/ply-3.10[${PYTHON_USEDEP}]
-	dev-python/pyRFC3339[${PYTHON_USEDEP}]
+	>=dev-python/pyrfc3339-0.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2016.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

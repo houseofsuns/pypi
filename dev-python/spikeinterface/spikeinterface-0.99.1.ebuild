@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/probeinterface[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/numba[${PYTHON_USEDEP}] )
 	extractors? ( dev-python/MEArec[${PYTHON_USEDEP}] )
 	extractors? ( dev-python/pynwb[${PYTHON_USEDEP}] )
-	extractors? ( dev-python/pyedflib[${PYTHON_USEDEP}] )
+	extractors? ( dev-python/pyEDFlib[${PYTHON_USEDEP}] )
 	extractors? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	extractors? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	extractors? ( dev-python/ONE-api[${PYTHON_USEDEP}] )

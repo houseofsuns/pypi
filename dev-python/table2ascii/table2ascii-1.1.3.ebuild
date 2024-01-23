@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/wcwidth-1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib_trio[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )

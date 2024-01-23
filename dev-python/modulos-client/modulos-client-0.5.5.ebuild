@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="<=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	<=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
-	dev-python/pyYAML[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	<=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )

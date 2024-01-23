@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dynamicadaptor[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DynamicAdaptor[${PYTHON_USEDEP}]
 	<dev-python/emoji-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/fonttools-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]

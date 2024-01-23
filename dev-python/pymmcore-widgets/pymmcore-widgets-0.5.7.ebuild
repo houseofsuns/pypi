@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs image pyqt5 pyqt6 pyside2 pyside6 test"
 DEPENDENCIES="dev-python/fonticon-materialdesignicons6[${PYTHON_USEDEP}]
 	dev-python/pymmcore-plus[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.5.3[${PYTHON_USEDEP}]
 	dev-python/useq-schema[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/fonticon-materialdesignicons6[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
 	docs? ( dev-python/vispy[${PYTHON_USEDEP}] )
 	image? ( dev-python/vispy[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( <dev-python/pyside6-6.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

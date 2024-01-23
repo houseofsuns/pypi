@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/docopt-0.7[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/pycountry-18.2.23[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	arabic? ( dev-python/pyarabic[${PYTHON_USEDEP}] )
+	arabic? ( dev-python/PyArabic[${PYTHON_USEDEP}] )
 	chinese? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	greek? ( dev-python/greek-stemmer-pos[${PYTHON_USEDEP}] )
 	hebrew? ( dev-python/hebrew-tokenizer[${PYTHON_USEDEP}] )

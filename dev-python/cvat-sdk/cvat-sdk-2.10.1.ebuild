@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pytorch"
 DEPENDENCIES=">=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/tuspy[${PYTHON_USEDEP}]

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/steam[${PYTHON_USEDEP}]
 	dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/pyqrcode[${PYTHON_USEDEP}]
+	dev-python/PyQRCode[${PYTHON_USEDEP}]
 	dev-python/vpk[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

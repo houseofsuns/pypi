@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Establish a connection to the errand-boy deamon to execute commands without the memory overhead incurred by os.fork(). [topver 0.3.9]"
+DESCRIPTION="Establish a connection to the errand-boy deamon to execute commands without the memory overhead incurred by os.fork(). [topver 0.3.9, newver 0.3.9]"
 
 HOMEPAGE="https://github.com/SeanHayes/errand-boy"
 LICENSE="BSD"

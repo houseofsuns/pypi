@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/ebooklib[${PYTHON_USEDEP}]
+	dev-python/EbookLib[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/aligo[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]

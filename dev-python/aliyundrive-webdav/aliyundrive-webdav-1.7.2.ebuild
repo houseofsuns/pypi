@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WebDAV server for AliyunDrive [topver 1.8.4]"
+DESCRIPTION="WebDAV server for AliyunDrive [topver 1.8.4, newver 1.8.4]"
 
 HOMEPAGE="https://github.com/messense/aliyundrive-webdav"
 LICENSE="MIT"

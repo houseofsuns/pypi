@@ -32,7 +32,7 @@ DEPENDENCIES=">dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.19.0[${PYTHON_USEDEP}]
 	>dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/lmfit-1.0.3[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	>dev-python/PyQt5-5.15.2[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/adaptive[${PYTHON_USEDEP}]
@@ -64,7 +64,7 @@ DEPENDENCIES=">dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

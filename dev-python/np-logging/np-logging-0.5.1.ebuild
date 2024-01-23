@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/np_config[${PYTHON_USEDEP}]
-	dev-python/importlib_resources[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/np-config[${PYTHON_USEDEP}]
+	dev-python/importlib-resources[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

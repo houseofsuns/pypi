@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/gcp-docuploader[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/recommonmark[${PYTHON_USEDEP}]
 	~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}]

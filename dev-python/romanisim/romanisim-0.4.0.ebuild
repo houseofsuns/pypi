@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/crds[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.5.0[${PYTHON_USEDEP}]
-	dev-python/galsim[${PYTHON_USEDEP}]
+	dev-python/GalSim[${PYTHON_USEDEP}]
 	dev-python/rad[${PYTHON_USEDEP}]
 	dev-python/roman-datamodels[${PYTHON_USEDEP}]
 	dev-python/gwcs[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/webbpsf[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.21[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.2.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/Faker-18.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/click-6.6[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.11.1[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/spur-0.3.22[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-ftp[${PYTHON_USEDEP}]
 	tests? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	tests? ( dev-python/WTForms[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/wtforms-2.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dbnd-test-scenarios[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

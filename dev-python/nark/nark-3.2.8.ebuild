@@ -31,10 +31,10 @@ DEPENDENCIES="dev-python/ansi-escape-room[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/easy-as-pypi-appdirs[${PYTHON_USEDEP}]
 	dev-python/easy-as-pypi-getver[${PYTHON_USEDEP}]
-	dev-python/human-friendly_pedantic-timedelta[${PYTHON_USEDEP}]
+	dev-python/human-friendly-pedantic-timedelta[${PYTHON_USEDEP}]
 	<dev-python/icalendar-4.1.0[${PYTHON_USEDEP}]
 	<dev-python/iso8601-0.2.0[${PYTHON_USEDEP}]
-	dev-python/lazy_import[${PYTHON_USEDEP}]
+	dev-python/lazy-import[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	readthedocs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	readthedocs? ( <dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}] )

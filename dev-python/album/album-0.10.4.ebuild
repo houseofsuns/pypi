@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.18.2[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.13[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/album-runner[${PYTHON_USEDEP}]

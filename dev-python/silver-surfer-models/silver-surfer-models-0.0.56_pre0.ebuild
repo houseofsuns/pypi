@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/marshmallow-2.10.5[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2019.1[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.2.15[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.9.134[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.12.134[${PYTHON_USEDEP}]
 	~dev-python/s3transfer-0.2.0[${PYTHON_USEDEP}]

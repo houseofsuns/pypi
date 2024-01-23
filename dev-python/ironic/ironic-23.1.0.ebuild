@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="devstack guru_meditation_reports i18n test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.4.2[${PYTHON_USEDEP}]
 	dev-python/automaton[${PYTHON_USEDEP}]
 	>=dev-python/construct-2.9.39[${PYTHON_USEDEP}]
@@ -72,8 +72,8 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	devstack? ( dev-python/virtualbmc[${PYTHON_USEDEP}] )
 	guru_meditation_reports? ( dev-python/oslo-reports[${PYTHON_USEDEP}] )
 	i18n? ( >=dev-python/oslo-i18n-3.20.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pymysql-0.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-2.0.27[${PYTHON_USEDEP}] )
 	test? ( <dev-python/bandit-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/ddt-1.2.1[${PYTHON_USEDEP}] )

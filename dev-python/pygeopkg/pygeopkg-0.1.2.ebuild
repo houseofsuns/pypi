@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library that allows for the creation and population of OGC GeoPackage databases with write access [topver 0.1.3]"
+DESCRIPTION="A Python library that allows for the creation and population of OGC GeoPackage databases with write access [topver 0.1.3, newver 0.1.3]"
 
 HOMEPAGE="https://github.com/realiii/pygeopkg"
 LICENSE=""

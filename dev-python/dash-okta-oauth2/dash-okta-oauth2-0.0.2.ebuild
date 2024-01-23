@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-core-components[${PYTHON_USEDEP}]
 	dev-python/dash-html-components[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	dev-python/Flask-Dance[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

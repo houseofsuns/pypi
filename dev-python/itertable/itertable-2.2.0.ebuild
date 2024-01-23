@@ -27,7 +27,7 @@ IUSE="gis oldexel pandas"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	gis? ( dev-python/Fiona[${PYTHON_USEDEP}] )
+	gis? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	gis? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	oldexel? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	oldexel? ( dev-python/xlwt[${PYTHON_USEDEP}] )

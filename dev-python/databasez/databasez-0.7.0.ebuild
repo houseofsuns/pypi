@@ -63,6 +63,6 @@ DEPENDENCIES="<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/starlette-0.26.1[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

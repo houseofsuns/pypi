@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/super-state-machine[${PYTHON_USEDEP}]
+	dev-python/super_state_machine[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.44[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	all? ( dev-python/doct[${PYTHON_USEDEP}] )
 	all? ( dev-python/historydict[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/lmfit[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/ophyd[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	common? ( dev-python/ophyd[${PYTHON_USEDEP}] )
 	common? ( dev-python/databroker[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	olog? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	olog? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	streamz? ( dev-python/streamz[${PYTHON_USEDEP}] )
 	tools? ( dev-python/doct[${PYTHON_USEDEP}] )

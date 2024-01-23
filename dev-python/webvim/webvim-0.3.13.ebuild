@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-BasicAuth[${PYTHON_USEDEP}]
+	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

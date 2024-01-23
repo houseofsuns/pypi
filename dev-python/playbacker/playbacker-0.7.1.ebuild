@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/sounddevice[${PYTHON_USEDEP}]
-	dev-python/SoundFile[${PYTHON_USEDEP}]
+	dev-python/soundfile[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]

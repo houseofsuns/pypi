@@ -26,25 +26,25 @@ KEYWORDS="~amd64 ~x86"
 IUSE="code disquscommentsarea formdesignerlink markup oembeditem tests text twitterfeed"
 DEPENDENCIES="dev-python/django-fluent-utils[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
-	dev-python/django-polymorphic[${PYTHON_USEDEP}]
+	>=dev-python/django_polymorphic-2.1.2[${PYTHON_USEDEP}]
 	dev-python/django-tag-parser[${PYTHON_USEDEP}]
 	dev-python/django-template-analyzer[${PYTHON_USEDEP}]
 	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
-	code? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	code? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	disquscommentsarea? ( dev-python/django-disqus[${PYTHON_USEDEP}] )
 	formdesignerlink? ( dev-python/django-form-designer-ai[${PYTHON_USEDEP}] )
 	markup? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	markup? ( dev-python/textile[${PYTHON_USEDEP}] )
-	markup? ( dev-python/Markdown[${PYTHON_USEDEP}] )
+	markup? ( >=dev-python/markdown-1.7[${PYTHON_USEDEP}] )
 	oembeditem? ( >=dev-python/micawber-0.3.3[${PYTHON_USEDEP}] )
 	oembeditem? ( >=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/django-wysiwyg[${PYTHON_USEDEP}] )
 	tests? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/micawber[${PYTHON_USEDEP}] )
 	tests? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	tests? ( dev-python/textile[${PYTHON_USEDEP}] )
-	tests? ( dev-python/MarkDown[${PYTHON_USEDEP}] )
+	tests? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	tests? ( dev-python/disqus[${PYTHON_USEDEP}] )
 	text? ( dev-python/django-wysiwyg[${PYTHON_USEDEP}] )

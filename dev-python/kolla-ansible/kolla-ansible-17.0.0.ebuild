@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.1[${PYTHON_USEDEP}]
 	>=dev-python/hvac-0.10.1[${PYTHON_USEDEP}]

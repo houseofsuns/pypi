@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev plot"
 DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -56,6 +56,6 @@ DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	build? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/numpy-1.22.4[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/cython-0.29.35[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools_scm[${PYTHON_USEDEP}] )"
+	build? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

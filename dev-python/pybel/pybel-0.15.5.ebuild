@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	grounding? ( dev-python/pyobo[${PYTHON_USEDEP}] )
 	grounding? ( dev-python/protmapper[${PYTHON_USEDEP}] )
 	indra? ( dev-python/indra[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	jupyter? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	neo4j? ( dev-python/py2neo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

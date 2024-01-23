@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/eyelinkparser[${PYTHON_USEDEP}]
 	dev-python/h5io[${PYTHON_USEDEP}]
 	dev-python/braindecode[${PYTHON_USEDEP}]
 	dev-python/python-picard[${PYTHON_USEDEP}]
-	dev-python/json_tricks[${PYTHON_USEDEP}]"
+	dev-python/json-tricks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

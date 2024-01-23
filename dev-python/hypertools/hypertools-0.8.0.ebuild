@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PPCA[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ppca[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.8.1[${PYTHON_USEDEP}]

@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/apsw-3.9.2[${PYTHON_USEDEP}]
 	>=dev-python/greenlet-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/boto3-1.24.28[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/apsw-3.9.2[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pygments-2.8[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/yarl-1.8.1[${PYTHON_USEDEP}] )
-	console? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	console? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
 	console? ( >=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
 	console? ( >=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )
 	console? ( >=dev-python/pygments-2.8[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES=">=dev-python/apsw-3.9.2[${PYTHON_USEDEP}]
 	pandasmemory? ( >=dev-python/pandas-1.2.2[${PYTHON_USEDEP}] )
 	s3selectapi? ( >=dev-python/boto3-1.24.28[${PYTHON_USEDEP}] )
 	systemapi? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/boto3-1.24.28[${PYTHON_USEDEP}] )

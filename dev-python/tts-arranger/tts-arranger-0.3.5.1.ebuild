@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
-	dev-python/ebooklib[${PYTHON_USEDEP}]
+	dev-python/EbookLib[${PYTHON_USEDEP}]
 	>=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	>=dev-python/pathvalidate-2.5.2[${PYTHON_USEDEP}]
@@ -34,6 +34,6 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/srt[${PYTHON_USEDEP}]
-	dev-python/tts[${PYTHON_USEDEP}]"
+	dev-python/TTS[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

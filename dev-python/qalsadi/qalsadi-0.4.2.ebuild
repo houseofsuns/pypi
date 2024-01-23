@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Qalsadi Arabic Morphological Analyzer and lemmatizer for Python [topver 0.5]"
+DESCRIPTION="Qalsadi Arabic Morphological Analyzer and lemmatizer for Python [topver 0.5, newver 0.5]"
 
 HOMEPAGE="http://qalsadi.sourceforge.net/"
 LICENSE="GPL-3"
@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
-	dev-python/pickledb[${PYTHON_USEDEP}]
+	dev-python/pickleDB[${PYTHON_USEDEP}]
 	dev-python/alyahmor[${PYTHON_USEDEP}]
 	dev-python/libqutrub[${PYTHON_USEDEP}]
-	dev-python/naftawayh[${PYTHON_USEDEP}]
-	dev-python/pyarabic[${PYTHON_USEDEP}]
-	dev-python/tashaphyne[${PYTHON_USEDEP}]
+	dev-python/Naftawayh[${PYTHON_USEDEP}]
+	dev-python/PyArabic[${PYTHON_USEDEP}]
+	dev-python/Tashaphyne[${PYTHON_USEDEP}]
 	dev-python/arramooz-pysqlite[${PYTHON_USEDEP}]
 	dev-python/Arabic-Stopwords[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

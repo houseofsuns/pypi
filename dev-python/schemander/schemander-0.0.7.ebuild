@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
 	>=dev-python/phonenumbers-3.12.32[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )

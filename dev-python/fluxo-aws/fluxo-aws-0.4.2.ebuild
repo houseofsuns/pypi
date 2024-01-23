@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/passlib-1.7.2[${PYTHON_USEDEP}]
-	dev-python/Cerberus[${PYTHON_USEDEP}]
+	~dev-python/cerberus-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.14.44[${PYTHON_USEDEP}]
 	dev-python/aioboto3[${PYTHON_USEDEP}]

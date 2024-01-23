@@ -33,6 +33,6 @@ DEPENDENCIES=">=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	spelling? ( ~dev-python/pyenchant-3.2[${PYTHON_USEDEP}] )
-	testutils? ( dev-python/gitpython[${PYTHON_USEDEP}] )"
+	testutils? ( >dev-python/GitPython-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

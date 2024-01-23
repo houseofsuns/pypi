@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/autodocsumm[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	~dev-python/Babel-2.10.3[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/livereload-2.6.3[${PYTHON_USEDEP}]
@@ -134,7 +134,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	complete? ( dev-python/babel[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/Babel-2.10.3[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}] )
@@ -158,7 +158,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
-	complete? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	complete? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/joblib-1.3.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/livereload-2.6.3[${PYTHON_USEDEP}] )
@@ -232,7 +232,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/h5py-3.9.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/keras[${PYTHON_USEDEP}] )
-	complete? ( dev-python/keras-preprocessing[${PYTHON_USEDEP}] )
+	complete? ( dev-python/Keras-Preprocessing[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/kiwisolver-1.4.4[${PYTHON_USEDEP}] )
 	complete? ( dev-python/libclang[${PYTHON_USEDEP}] )
 	complete? ( dev-python/lightgbm[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python wrapper for Bithumb API [topver 1.0.21]"
+DESCRIPTION="python wrapper for Bithumb API [topver 1.0.21, newver 1.0.21]"
 
 HOMEPAGE="https://github.com/sharebook-kr/pybithumb"
 LICENSE="MIT"

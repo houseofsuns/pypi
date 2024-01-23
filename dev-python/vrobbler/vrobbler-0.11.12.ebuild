@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0.0[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/django-filter-22.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	<dev-python/dj-database-url-0.6.0[${PYTHON_USEDEP}]
 	dev-python/django-mathfilters[${PYTHON_USEDEP}]

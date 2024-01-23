@@ -27,7 +27,7 @@ IUSE="compiler"
 DEPENDENCIES="dev-python/grpclib[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	compiler? ( dev-python/black[${PYTHON_USEDEP}] )
-	compiler? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	compiler? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	compiler? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

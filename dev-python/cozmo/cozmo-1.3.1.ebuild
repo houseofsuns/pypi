@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for Anki Cozmo, the small robot with the big personality [topver 1.4.10]"
+DESCRIPTION="SDK for Anki Cozmo, the small robot with the big personality [topver 1.4.10, newver 1.4.10]"
 
 HOMEPAGE="https://developer.anki.com/cozmo/"
 LICENSE="Apache-2.0"
@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="3dviewer camera test"
-DEPENDENCIES="3dviewer? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+DEPENDENCIES="3dviewer? ( >=dev-python/pyopengl-3.1[${PYTHON_USEDEP}] )
 	dev-python/cozmoclad[${PYTHON_USEDEP}]
-	3dviewer? ( dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}] )
-	3dviewer? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	3dviewer? ( >=dev-python/pyopengl_accelerate-3.1[${PYTHON_USEDEP}] )
+	3dviewer? ( >=dev-python/pillow-3.3[${PYTHON_USEDEP}] )
 	3dviewer? ( >=dev-python/numpy-1.11[${PYTHON_USEDEP}] )
-	camera? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	camera? ( >=dev-python/pillow-3.3[${PYTHON_USEDEP}] )
 	camera? ( >=dev-python/numpy-1.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

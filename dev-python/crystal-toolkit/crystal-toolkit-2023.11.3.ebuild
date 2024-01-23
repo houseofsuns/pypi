@@ -27,7 +27,7 @@ IUSE="dev fermi figures localenv robocrys server temdiff test vtk"
 DEPENDENCIES="dev-python/crystaltoolkit-extension[${PYTHON_USEDEP}]
 	dev-python/dash-mp-components[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
-	dev-python/flask-caching[${PYTHON_USEDEP}]
+	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
@@ -39,12 +39,12 @@ DEPENDENCIES="dev-python/crystaltoolkit-extension[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dephell[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	fermi? ( dev-python/ifermi[${PYTHON_USEDEP}] )
-	fermi? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	fermi? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	figures? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	localenv? ( dev-python/dscribe[${PYTHON_USEDEP}] )
 	robocrys? ( dev-python/robocrys[${PYTHON_USEDEP}] )

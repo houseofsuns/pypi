@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev filecache redis"
 DEPENDENCIES=">=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.5.2[${PYTHON_USEDEP}]
-	dev? ( dev-python/CacheControl[${PYTHON_USEDEP}] )
+	dev? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

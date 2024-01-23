@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Logs! Structured Logging and Exception Handling [topver 8.492.24021]"
+DESCRIPTION="More Logs! Structured Logging and Exception Handling [topver 8.492.24021, newver 8.492.24021]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-logs"
 LICENSE="MPL 2.0"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.29.21[${PYTHON_USEDEP}]
 	dev-python/diapyr[${PYTHON_USEDEP}]
 	dev-python/nativecommon[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	dev-python/python-minifier[${PYTHON_USEDEP}]
-	dev-python/flask-session[${PYTHON_USEDEP}]
+	dev-python/Flask-Session[${PYTHON_USEDEP}]
 	>=dev-python/flask-sqlalchemy-3.0.3[${PYTHON_USEDEP}]
 	dev-python/py-domapi[${PYTHON_USEDEP}]
 	dev-python/pyx-pysite[${PYTHON_USEDEP}]

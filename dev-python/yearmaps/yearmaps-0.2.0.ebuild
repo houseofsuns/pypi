@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/index-py[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]"

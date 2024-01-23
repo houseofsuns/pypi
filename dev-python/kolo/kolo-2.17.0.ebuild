@@ -33,8 +33,8 @@ DEPENDENCIES=">=dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.11.1[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
-	test_generation? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	test_generation? ( dev-python/more_itertools[${PYTHON_USEDEP}] )
+	test_generation? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test_generation? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
 	test_generation? ( >=dev-python/sqlglot-16.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

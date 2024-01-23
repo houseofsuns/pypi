@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/numpy-1.16.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/birdseye[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Django[${PYTHON_USEDEP}] )
+	tests? ( dev-python/django[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-order[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

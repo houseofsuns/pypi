@@ -25,37 +25,37 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cas docs functions handlers-netcdf netcdf server testing tests"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Webob[${PYTHON_USEDEP}]
+	dev-python/webob[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	cas? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	functions? ( dev-python/gsw[${PYTHON_USEDEP}] )
 	functions? ( dev-python/coards[${PYTHON_USEDEP}] )
-	handlers-netcdf? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	handlers-netcdf? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	handlers-netcdf? ( dev-python/ordereddict[${PYTHON_USEDEP}] )
-	netcdf? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	netcdf? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	netcdf? ( dev-python/ordereddict[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	server? ( dev-python/PasteDeploy[${PYTHON_USEDEP}] )
+	server? ( dev-python/pastedeploy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/gsw[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coards[${PYTHON_USEDEP}] )
 	testing? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	testing? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	testing? ( dev-python/PasteDeploy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	testing? ( dev-python/pastedeploy[${PYTHON_USEDEP}] )
+	testing? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ordereddict[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-attrib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	testing? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-attrib[${PYTHON_USEDEP}] )
 	tests? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	tests? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )"

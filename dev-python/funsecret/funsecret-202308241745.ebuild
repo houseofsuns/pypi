@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="funsecret"
+DESCRIPTION="funsecret [newver 1.2.17]"
 
 HOMEPAGE="https://github.com/farfarfun/funsecret"
 LICENSE=""

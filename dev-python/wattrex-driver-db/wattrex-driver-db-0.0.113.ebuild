@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mysql-connector-python[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	dev-python/system-config-tool[${PYTHON_USEDEP}]
 	dev-python/system-logger-tool[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

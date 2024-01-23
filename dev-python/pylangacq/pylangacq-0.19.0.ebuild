@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/python-dateutil-2.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

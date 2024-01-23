@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all graphite prometheus rrdtool standalone whisper zeromq"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-2.2[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}]
 	dev-python/confu[${PYTHON_USEDEP}]
 	standalone? ( dev-python/graphsrv[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphsrv[${PYTHON_USEDEP}] )
@@ -34,8 +34,8 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/munge[${PYTHON_USEDEP}]
 	<dev-python/pid-4.0[${PYTHON_USEDEP}]
 	dev-python/pluginmgr[${PYTHON_USEDEP}]
-	prometheus? ( dev-python/prometheus_client[${PYTHON_USEDEP}] )
-	all? ( dev-python/prometheus_client[${PYTHON_USEDEP}] )
+	prometheus? ( <dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}] )
 	<dev-python/python-daemon-3.0[${PYTHON_USEDEP}]
 	zeromq? ( >=dev-python/pyzmq-15.3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyzmq-15.3.0[${PYTHON_USEDEP}] )

@@ -31,10 +31,10 @@ DEPENDENCIES=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/cligj[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	all? ( dev-python/Fiona[${PYTHON_USEDEP}] )
+	all? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	calc? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/boto3-1.3.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/Fiona[${PYTHON_USEDEP}] )
+	test? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )"

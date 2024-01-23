@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="autobuild blendsearch graphs lmm mathchat retrievechat teachable test"
 DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/flaml[${PYTHON_USEDEP}]
+	dev-python/FLAML[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
 	autobuild? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	autobuild? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	autobuild? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	blendsearch? ( dev-python/flaml[${PYTHON_USEDEP}] )
+	blendsearch? ( dev-python/FLAML[${PYTHON_USEDEP}] )
 	graphs? ( ~dev-python/matplotlib-3.8.1[${PYTHON_USEDEP}] )
 	graphs? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	lmm? ( dev-python/pillow[${PYTHON_USEDEP}] )

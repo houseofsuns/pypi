@@ -51,9 +51,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask-Compress[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
+	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
+	flask? ( dev-python/flask-compress[${PYTHON_USEDEP}] )
+	flask? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

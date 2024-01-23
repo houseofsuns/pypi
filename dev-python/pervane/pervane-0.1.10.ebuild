@@ -30,8 +30,8 @@ DEPENDENCIES=">=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/email-validator-1.1.1[${PYTHON_USEDEP}]
 	dev-python/atomicfile[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/flask-appbuilder[${PYTHON_USEDEP}]
+	dev-python/Flask-AppBuilder[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]"
+	>=dev-python/flask-login-0.6.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

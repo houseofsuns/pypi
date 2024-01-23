@@ -27,12 +27,12 @@ IUSE="standard test"
 DEPENDENCIES=">=dev-python/asgiref-3.4.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/h11-0.8[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	<dev-python/cython-0.30.0[${PYTHON_USEDEP}]
 	standard? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )
 	standard? ( dev-python/watchgod[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/python-dotenv-0.13[${PYTHON_USEDEP}] )
-	standard? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Cython[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/cython-0.30.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

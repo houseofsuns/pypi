@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wrapper to the ArcGIS REST API, and a Python analogue to the Javascript APIs [topver 10.5.6]"
+DESCRIPTION="Wrapper to the ArcGIS REST API, and a Python analogue to the Javascript APIs [topver 10.5.6, newver 10.5.6]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

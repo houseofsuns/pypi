@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/qtconsole-4.5.1[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]"
+	>=dev-python/QtPy-1.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

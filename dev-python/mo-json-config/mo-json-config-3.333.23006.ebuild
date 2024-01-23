@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More JSON Configuration! JSON configuration files with \`\$ref\` and template overlays [topver 4.494.24021]"
+DESCRIPTION="More JSON Configuration! JSON configuration files with \`\$ref\` and template overlays [topver 4.494.24021, newver 4.494.24021]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-json-config"
 LICENSE="MPL 2.0"

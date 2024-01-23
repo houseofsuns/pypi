@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create beautiful Javascript charts with minimal code [topver 1.0.1]"
+DESCRIPTION="Create beautiful Javascript charts with minimal code [topver 1.0.1, newver 1.0.1]"
 
 HOMEPAGE="https://github.com/mher/chartkick.py"
 LICENSE="MIT"

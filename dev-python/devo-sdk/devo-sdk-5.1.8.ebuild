@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="~dev-python/requests-2.31[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/pem[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-23.3[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="~dev-python/cryptography-38.0.4[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/distro-1.8.0[${PYTHON_USEDEP}]

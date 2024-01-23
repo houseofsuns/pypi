@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

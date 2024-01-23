@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dependency graph with parallel asyncronous task runner [topver 0.0.6]"
+DESCRIPTION="Dependency graph with parallel asyncronous task runner [topver 0.0.6, newver 0.0.6]"
 
 HOMEPAGE="https://github.com/n-s-f/taskmap"
 LICENSE=""

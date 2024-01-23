@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/annexremote[${PYTHON_USEDEP}]
 	devel? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	devel? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	devel? ( dev-python/cheroot[${PYTHON_USEDEP}] )
-	devel? ( dev-python/wsgidav[${PYTHON_USEDEP}] )
+	devel? ( dev-python/WsgiDAV[${PYTHON_USEDEP}] )
 	devel? ( dev-python/webdavclient3[${PYTHON_USEDEP}] )
 	httpsupport? ( dev-python/requests[${PYTHON_USEDEP}] )
 	httpsupport? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )"

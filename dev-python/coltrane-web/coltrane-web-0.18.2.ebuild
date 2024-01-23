@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy docs"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/django-3.0[${PYTHON_USEDEP}]
 	>dev-python/python-dotenv-0.17[${PYTHON_USEDEP}]
 	<dev-python/markdown2-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/django-browser-reload[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/linkify-it-py-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2022.0.0[${PYTHON_USEDEP}] )

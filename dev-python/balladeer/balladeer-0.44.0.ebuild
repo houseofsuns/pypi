@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/hypercorn[${PYTHON_USEDEP}]
 	classic? ( dev-python/turberfield-dialogue[${PYTHON_USEDEP}] )
 	classic? ( dev-python/turberfield-utils[${PYTHON_USEDEP}] )
 	docbuild? ( <=dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
-	docbuild? ( dev-python/karma-sphinx-theme[${PYTHON_USEDEP}] )"
+	docbuild? ( dev-python/karma_sphinx_theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

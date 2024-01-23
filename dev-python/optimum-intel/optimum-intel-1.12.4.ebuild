@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	tests? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	tests? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/edk2-pytool-library[${PYTHON_USEDEP}]
 	>=dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	>=dev-python/xlsxwriter-3.0.9[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/edk2-pytool-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

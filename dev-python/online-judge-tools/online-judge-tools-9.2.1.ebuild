@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for online-judge services [topver 11.5.1]"
+DESCRIPTION="Tools for online-judge services [topver 11.5.1, newver 11.5.1]"
 
 HOMEPAGE="https://github.com/kmyk/online-judge-tools"
 LICENSE="MIT"

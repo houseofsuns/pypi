@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	dev-python/clip-by-openai[${PYTHON_USEDEP}]
-	dev-python/dall-e[${PYTHON_USEDEP}]
+	dev-python/DALL-E[${PYTHON_USEDEP}]
 	~dev-python/imageio-ffmpeg-0.4.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]

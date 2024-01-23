@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-2.10[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.2.0[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	development? ( dev-python/Cerberus[${PYTHON_USEDEP}] )
+	development? ( >dev-python/cerberus-1.3.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

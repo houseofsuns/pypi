@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/aiohttp-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
-	dev-python/idna-ssl[${PYTHON_USEDEP}]
+	dev-python/idna_ssl[${PYTHON_USEDEP}]
 	>=dev-python/multidict-4.1.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.1.1[${PYTHON_USEDEP}]
 	dev-python/m2r[${PYTHON_USEDEP}]"

@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/lz4[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-pytest-style[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-return[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	dev? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-type-checking[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/craft-cli[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	apt? ( dev-python/python-apt[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/craft-cli[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-7.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-pydantic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/dulwich-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/grimoirelab-toolkit[${PYTHON_USEDEP}]
 	docs? ( <dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )

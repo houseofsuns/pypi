@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES=">=dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.2.4[${PYTHON_USEDEP}]
-	dev-python/Cheetah3[${PYTHON_USEDEP}]
+	>=dev-python/cheetah3-3.2.6[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/gcovr[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]

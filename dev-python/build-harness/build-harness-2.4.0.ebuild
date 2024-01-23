@@ -27,8 +27,8 @@ IUSE="dev doc test"
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	<dev-python/black-24.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/click_logging_config[${PYTHON_USEDEP}]
-	dev-python/click_logging_config[${PYTHON_USEDEP}]
+	dev-python/click-logging-config[${PYTHON_USEDEP}]
+	dev-python/click-logging-config[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	<dev-python/flake8-7.0[${PYTHON_USEDEP}]
 	dev-python/flake8-annotations[${PYTHON_USEDEP}]
@@ -37,13 +37,13 @@ DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/flake8-comprehensions[${PYTHON_USEDEP}]
 	dev-python/flake8-docstrings[${PYTHON_USEDEP}]
 	<dev-python/flit-4.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	<dev-python/isort-6.0[${PYTHON_USEDEP}]
 	>=dev-python/mypy-1.6.1[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/parver-1.0[${PYTHON_USEDEP}]
 	<dev-python/pip-24.0[${PYTHON_USEDEP}]
-	dev-python/pre_commit[${PYTHON_USEDEP}]
+	dev-python/pre-commit[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	<dev-python/twine-5.0[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pipenv-2021.5.29[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )"

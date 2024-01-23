@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/rich-argparse[${PYTHON_USEDEP}]
 	~dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
 	~dev-python/chardet-5.1.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/gitignorefile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

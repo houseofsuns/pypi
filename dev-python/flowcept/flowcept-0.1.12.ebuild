@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dask full mlflow tensorboard zambeze"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/redis-4.4.2[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
 	dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
-	dev-python/flask-restful[${PYTHON_USEDEP}]
+	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dask? ( ~dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
 	dask? ( ~dev-python/dask-2022.12.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/redis-4.4.2[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
 	full? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
-	full? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/flask-2.2.2[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
-	full? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
+	full? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/pika-1.3.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
-	full? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/sqlalchemy-1.4.42[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/alembic-1.8.1[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/watchdog-2.2.1[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/pandas-1.5.1[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	full? ( ~dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/dask-2022.12.0[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	mlflow? ( ~dev-python/sqlalchemy-1.4.42[${PYTHON_USEDEP}] )
 	mlflow? ( ~dev-python/alembic-1.8.1[${PYTHON_USEDEP}] )
 	mlflow? ( ~dev-python/watchdog-2.2.1[${PYTHON_USEDEP}] )
 	tensorboard? ( ~dev-python/pandas-1.5.1[${PYTHON_USEDEP}] )

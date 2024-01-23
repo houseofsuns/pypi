@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">dev-python/flask-1.0[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/rjsmin[${PYTHON_USEDEP}]
 	dev-python/rcssmin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

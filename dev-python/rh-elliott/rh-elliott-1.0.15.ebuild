@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI tool for managing and automating Red Hat software releases [topver 2.0.14]"
+DESCRIPTION="CLI tool for managing and automating Red Hat software releases [topver 2.0.14, newver 2.0.14]"
 
 HOMEPAGE="https://github.com/openshift/elliott"
 LICENSE="Apache-2.0"

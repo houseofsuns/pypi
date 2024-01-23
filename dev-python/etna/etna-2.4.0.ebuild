@@ -42,15 +42,15 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
-	dev-python/Bottleneck[${PYTHON_USEDEP}]
+	<dev-python/bottleneck-2.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/hydra_slayer[${PYTHON_USEDEP}]
+	dev-python/hydra-slayer[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/tbats[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	dev-python/types-Deprecated[${PYTHON_USEDEP}]
 	prophet? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	all? ( dev-python/prophet[${PYTHON_USEDEP}] )
@@ -80,16 +80,16 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all-dev? ( dev-python/sphinx-mathjax-offline[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.10.0[${PYTHON_USEDEP}] )
 	all-dev? ( <dev-python/nbsphinx-0.10.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/pydata-sphinx-theme-0.14.0[${PYTHON_USEDEP}] )
 	all-dev? ( <dev-python/pydata-sphinx-theme-0.14.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	all-dev? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
 	all-dev? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
+	all-dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	all-dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )

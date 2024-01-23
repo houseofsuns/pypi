@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="nodepool_base test"
-DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/paste[${PYTHON_USEDEP}]
+	<dev-python/prettytable-0.8[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.1[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-compute[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-network[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-resource[${PYTHON_USEDEP}]

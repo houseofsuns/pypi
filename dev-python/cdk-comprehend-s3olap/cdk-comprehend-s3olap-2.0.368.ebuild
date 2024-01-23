@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A constrcut for PII and redaction scenarios with Amazon Comprehend and S3 Object Lambda [topver 2.0.369]"
+DESCRIPTION="A constrcut for PII and redaction scenarios with Amazon Comprehend and S3 Object Lambda [topver 2.0.369, newver 2.0.369]"
 
 HOMEPAGE="https://github.com/HsiehShuJeng/cdk-comprehend-s3olap.git"
 LICENSE="Apache-2.0"

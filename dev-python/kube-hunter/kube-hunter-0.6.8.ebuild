@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/netaddr[${PYTHON_USEDEP}]
 	dev-python/netifaces[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
+	dev-python/prettytable[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.24.3[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]

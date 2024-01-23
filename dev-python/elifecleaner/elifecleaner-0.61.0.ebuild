@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/docmaptools[${PYTHON_USEDEP}]
 	dev-python/elifetools[${PYTHON_USEDEP}]
 	dev-python/elifearticle[${PYTHON_USEDEP}]
 	dev-python/jatsgenerator[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/wand-0.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

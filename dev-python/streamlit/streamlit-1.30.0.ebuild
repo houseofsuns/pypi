@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]
 	<dev-python/validators-1.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	dev-python/pydeck[${PYTHON_USEDEP}]
 	<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-2.1.5[${PYTHON_USEDEP}]"

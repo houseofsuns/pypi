@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="documentation google testing"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Wagtail[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.1[${PYTHON_USEDEP}]
+	dev-python/wagtail[${PYTHON_USEDEP}]
 	<dev-python/polib-2.0[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	documentation? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
 	documentation? ( <dev-python/mkdocs-material-10.0[${PYTHON_USEDEP}] )
 	documentation? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )

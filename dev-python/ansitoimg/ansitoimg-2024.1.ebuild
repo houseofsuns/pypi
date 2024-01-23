@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
-	dev-python/install-playwright[${PYTHON_USEDEP}]
+	dev-python/install_playwright[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

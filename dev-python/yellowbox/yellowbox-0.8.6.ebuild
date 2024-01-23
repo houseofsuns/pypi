@@ -44,8 +44,8 @@ DEPENDENCIES=">=dev-python/docker-4.2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	websocket? ( dev-python/simple_websocket_server[${PYTHON_USEDEP}] )
-	dev? ( dev-python/simple_websocket_server[${PYTHON_USEDEP}] )
+	websocket? ( dev-python/simple-websocket-server[${PYTHON_USEDEP}] )
+	dev? ( dev-python/simple-websocket-server[${PYTHON_USEDEP}] )
 	webserver? ( >=dev-python/starlette-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/starlette-0.9.0[${PYTHON_USEDEP}] )
 	webserver? ( >=dev-python/uvicorn-0.13.0[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/docker-4.2.0[${PYTHON_USEDEP}]
 	vault? ( dev-python/hvac[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hvac[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )"

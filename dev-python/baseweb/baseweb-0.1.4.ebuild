@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]

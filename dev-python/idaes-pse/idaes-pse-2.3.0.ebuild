@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coolprop dmf grid omlt testing ui"
-DEPENDENCIES="dev-python/pyomo[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pyomo[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pyomo[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
-	coolprop? ( dev-python/coolprop[${PYTHON_USEDEP}] )
+	coolprop? ( dev-python/CoolProp[${PYTHON_USEDEP}] )
 	dmf? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	dmf? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dmf? ( dev-python/traitlets[${PYTHON_USEDEP}] )

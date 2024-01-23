@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	dev-python/ansible[${PYTHON_USEDEP}]
 	dev-python/ansible-runner[${PYTHON_USEDEP}]
 	>=dev-python/cliff-2.16.0[${PYTHON_USEDEP}]

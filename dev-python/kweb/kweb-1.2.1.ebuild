@@ -27,10 +27,10 @@ IUSE="dev docs ipy tests"
 DEPENDENCIES="dev-python/klayout[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylsp-mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-cachetools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )

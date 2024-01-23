@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop test"
 DEPENDENCIES="dev-python/django-appconf[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
-	dev-python/ipy[${PYTHON_USEDEP}]
+	dev-python/IPy[${PYTHON_USEDEP}]
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
 	develop? ( dev-python/django[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-django[${PYTHON_USEDEP}] )

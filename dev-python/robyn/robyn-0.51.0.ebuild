@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/watchdog-2.2.1[${PYTHON_USEDEP}]
 	dev-python/nestd[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}]
-	templating? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
+	templating? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

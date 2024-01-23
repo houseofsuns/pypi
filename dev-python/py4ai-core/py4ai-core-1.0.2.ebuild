@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/cfg-load[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/recommonmark-0.7[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-3.8[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/versioneer-0.21[${PYTHON_USEDEP}] )"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	<dev-python/django-5.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]

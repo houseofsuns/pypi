@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extension library for Python [topver 1.16.9]"
+DESCRIPTION="Extension library for Python [topver 1.16.9, newver 1.16.9]"
 
 HOMEPAGE="https://github.com/asuiu/pyxtension"
 LICENSE=""

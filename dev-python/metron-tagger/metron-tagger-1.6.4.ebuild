@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/mokkari[${PYTHON_USEDEP}]
 	<dev-python/pyxdg-0.29[${PYTHON_USEDEP}]
 	dev-python/darkseid[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
-	dev-python/imagehash[${PYTHON_USEDEP}]
+	dev-python/ImageHash[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all select2"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/django-modeltrans[${PYTHON_USEDEP}]
-	all? ( dev-python/Django[${PYTHON_USEDEP}] )
+	all? ( <dev-python/django-4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-modeltrans[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-easy-select2[${PYTHON_USEDEP}] )
 	select2? ( dev-python/django-easy-select2[${PYTHON_USEDEP}] )"

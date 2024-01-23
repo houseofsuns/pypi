@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]"
+	<dev-python/APScheduler-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

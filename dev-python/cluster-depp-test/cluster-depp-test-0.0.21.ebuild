@@ -33,6 +33,6 @@ DEPENDENCIES="~dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/apples[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
-	dev-python/dendropy[${PYTHON_USEDEP}]"
+	dev-python/DendroPy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

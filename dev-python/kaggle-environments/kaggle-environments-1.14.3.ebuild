@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/pettingzoo[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
-	dev-python/shimmy[${PYTHON_USEDEP}]
+	dev-python/Shimmy[${PYTHON_USEDEP}]
 	dev-python/stable-baselines3[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/vec-noise[${PYTHON_USEDEP}]"

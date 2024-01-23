@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

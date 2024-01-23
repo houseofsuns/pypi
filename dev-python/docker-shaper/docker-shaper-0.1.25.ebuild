@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aiodocker[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
-	dev-python/quart[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	dev-python/Quart[${PYTHON_USEDEP}]
+	<dev-python/Babel-3.0[${PYTHON_USEDEP}]
 	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	dev-python/apparat[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]

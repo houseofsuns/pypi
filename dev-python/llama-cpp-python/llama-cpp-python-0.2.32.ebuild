@@ -27,7 +27,7 @@ IUSE="all dev server test"
 DEPENDENCIES=">=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.6.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	server? ( >=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
@@ -43,6 +43,6 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mkdocs-material-9.1.18[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/llama_cpp_python[${PYTHON_USEDEP}] )"
+	all? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

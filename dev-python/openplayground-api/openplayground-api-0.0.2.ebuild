@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A reverse engineered API wrapper for OpenPlayground (nat.dev) [topver 0.1.1]"
+DESCRIPTION="A reverse engineered API wrapper for OpenPlayground (nat.dev) [topver 0.1.1, newver 0.1.1]"
 
 HOMEPAGE="https://github.com/ading2210/openplayground-api"
 LICENSE=""

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plot? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	plot? ( dev-python/pymap3d[${PYTHON_USEDEP}] )
-	plot? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	plot? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

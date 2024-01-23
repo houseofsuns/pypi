@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/pydantic-1.6.1[${PYTHON_USEDEP}]
 	hf? ( dev-python/biopython[${PYTHON_USEDEP}] )
 	hf? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
 	hf? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	include_package_data? ( dev-python/True[${PYTHON_USEDEP}] )
+	include_package_data? ( dev-python/true[${PYTHON_USEDEP}] )
 	setup_requires? ( >=dev-python/setuptools-scm-1.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

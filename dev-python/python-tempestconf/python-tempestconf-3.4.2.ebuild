@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/openstacksdk-0.11.3[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-3.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-1.8[${PYTHON_USEDEP}]

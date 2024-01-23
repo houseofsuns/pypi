@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )

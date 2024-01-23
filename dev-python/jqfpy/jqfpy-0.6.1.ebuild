@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="jq for pythonista [topver 0.6.2]"
+DESCRIPTION="jq for pythonista [topver 0.6.2, newver 0.6.2]"
 
 HOMEPAGE="https://github.com/podhmo/jqfpy"
 LICENSE=""
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev yaml"
 DEPENDENCIES="dev-python/magicalimport[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

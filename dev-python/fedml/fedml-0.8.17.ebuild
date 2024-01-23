@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="deepspeed fhe grpc llm mpi mxnet tensorflow"
 DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]

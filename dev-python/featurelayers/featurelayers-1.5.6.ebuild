@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/keras-applications[${PYTHON_USEDEP}]"
+	dev-python/Keras-Applications[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

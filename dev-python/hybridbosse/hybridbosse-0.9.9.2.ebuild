@@ -31,6 +31,6 @@ DEPENDENCIES="~dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
 	~dev-python/xlsxwriter-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-5.3.5[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

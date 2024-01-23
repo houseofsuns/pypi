@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
@@ -39,6 +39,6 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/qrcode-terminal[${PYTHON_USEDEP}]"
+	dev-python/qrcode_terminal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

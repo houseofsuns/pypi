@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pillow pillow-simd"
 DEPENDENCIES="pillow-simd? ( dev-python/Pillow-SIMD[${PYTHON_USEDEP}] )
-	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	pillow? ( >=dev-python/pillow-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

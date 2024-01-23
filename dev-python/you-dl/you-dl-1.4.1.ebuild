@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/PyInquirer[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/youtube-dl[${PYTHON_USEDEP}]
+	dev-python/youtube_dl[${PYTHON_USEDEP}]
 	dev-python/youtube-search-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

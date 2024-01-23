@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.10.0[${PYTHON_USEDEP}]
 	dev-python/diskimage-builder[${PYTHON_USEDEP}]
 	>=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
 	<dev-python/os-client-config-1.31.0[${PYTHON_USEDEP}]

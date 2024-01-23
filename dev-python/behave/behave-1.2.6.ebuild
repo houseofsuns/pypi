@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs"
 DEPENDENCIES=">=dev-python/parse-1.8.2[${PYTHON_USEDEP}]
-	dev-python/parse-type[${PYTHON_USEDEP}]
+	>=dev-python/parse_type-0.4.2[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11[${PYTHON_USEDEP}]
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )

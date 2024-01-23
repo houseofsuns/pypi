@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pbr-1.8[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.11[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-1.15.1[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.7.13[${PYTHON_USEDEP}]
 	dev-python/ncclient[${PYTHON_USEDEP}]

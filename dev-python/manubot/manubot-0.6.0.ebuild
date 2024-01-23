@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ai-rev dev webpage"
 DEPENDENCIES="dev-python/errorhandler[${PYTHON_USEDEP}]
 	dev-python/isbnlib[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/panflute[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple text-to-speech client using azure TTS API(trial). [topver 6.0.1]"
+DESCRIPTION="A simple text-to-speech client using azure TTS API(trial). [topver 6.0.1, newver 6.0.1]"
 
 HOMEPAGE="https://github.com/kxxt/aspeak"
 LICENSE=""
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	dev-python/deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

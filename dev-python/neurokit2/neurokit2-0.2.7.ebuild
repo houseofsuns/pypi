@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/nolds[${PYTHON_USEDEP}] )
 	test? ( dev-python/biosppy[${PYTHON_USEDEP}] )
 	test? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
+	test? ( dev-python/pywavelets[${PYTHON_USEDEP}] )
 	test? ( dev-python/EMD-signal[${PYTHON_USEDEP}] )
 	test? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/plotly[${PYTHON_USEDEP}] )

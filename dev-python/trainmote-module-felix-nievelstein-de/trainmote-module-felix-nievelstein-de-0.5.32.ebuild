@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/adafruit-circuitpython-ads1x15[${PYTHON_USEDEP}]
 	dev-python/PyBluez[${PYTHON_USEDEP}]
-	dev-python/RPI-GPIO[${PYTHON_USEDEP}]
-	dev-python/adafruit-blinka[${PYTHON_USEDEP}]
+	dev-python/RPi-GPIO[${PYTHON_USEDEP}]
+	dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]

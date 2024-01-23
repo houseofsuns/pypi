@@ -66,15 +66,15 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	vllm? ( dev-python/vllm[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/lm_eval[${PYTHON_USEDEP}] )"
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/lm-eval[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

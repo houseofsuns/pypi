@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/glpk[${PYTHON_USEDEP}]
-	dev-python/pulp[${PYTHON_USEDEP}]"
+	dev-python/PuLP[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

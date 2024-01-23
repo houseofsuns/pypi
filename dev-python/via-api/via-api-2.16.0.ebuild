@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ujson[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/reverse-geocoder[${PYTHON_USEDEP}]
+	dev-python/reverse_geocoder[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
 	dev-python/osmnx[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

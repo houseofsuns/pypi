@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.7.69[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	~dev-python/flask-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.4[${PYTHON_USEDEP}]
 	dev-python/flask-restplus[${PYTHON_USEDEP}]
 	dev-python/Flask-DotEnv[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.9.0[${PYTHON_USEDEP}]"

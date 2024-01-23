@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	<dev-python/iminuit-2.0.0[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/recommonmark-0.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

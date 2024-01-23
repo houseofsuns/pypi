@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
-	dev-python/email_validator[${PYTHON_USEDEP}]
+	<dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/ifaddr-0.3.0[${PYTHON_USEDEP}]

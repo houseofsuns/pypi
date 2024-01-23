@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-stub[${PYTHON_USEDEP}] )"

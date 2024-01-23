@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/PyEnchant[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyenchant-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )"

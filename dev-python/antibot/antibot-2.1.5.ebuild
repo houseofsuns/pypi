@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/injector[${PYTHON_USEDEP}]
-	dev-python/pyckson[${PYTHON_USEDEP}]
+	dev-python/Pyckson[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]
 	dev-python/arrow[${PYTHON_USEDEP}]

@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-direct[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

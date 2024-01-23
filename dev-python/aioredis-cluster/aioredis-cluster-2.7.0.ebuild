@@ -27,7 +27,7 @@ IUSE="devel"
 DEPENDENCIES="<dev-python/hiredis-3.0.0[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 	devel? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	devel? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	devel? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	devel? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	devel? ( dev-python/isort[${PYTHON_USEDEP}] )
 	devel? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )

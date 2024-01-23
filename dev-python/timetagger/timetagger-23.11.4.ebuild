@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/itemdb[${PYTHON_USEDEP}]
 	dev-python/pscript[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/iptools[${PYTHON_USEDEP}]"

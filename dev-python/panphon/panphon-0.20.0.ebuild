@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]

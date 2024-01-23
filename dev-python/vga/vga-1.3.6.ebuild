@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pMuTT[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pmutt[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

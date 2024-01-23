@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/argcomplete-1.12.1[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.2.2[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}]
 	dev-python/pytest-runner[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.36[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

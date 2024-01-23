@@ -33,11 +33,11 @@ DEPENDENCIES=">=dev-python/ecdsa-0.9[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
 	dev-python/construct-classes[${PYTHON_USEDEP}]
 	ethereum? ( dev-python/web3[${PYTHON_USEDEP}] )
-	extra? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	extra? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/hidapi-0.7.99[${PYTHON_USEDEP}] )
 	full? ( dev-python/web3[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	full? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	full? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	full? ( dev-python/stellar-sdk[${PYTHON_USEDEP}] )
 	hidapi? ( >=dev-python/hidapi-0.7.99[${PYTHON_USEDEP}] )
 	qt-widgets? ( dev-python/PyQt5[${PYTHON_USEDEP}] )

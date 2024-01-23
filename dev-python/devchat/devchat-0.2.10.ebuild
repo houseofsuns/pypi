@@ -27,12 +27,12 @@ IUSE=""
 DEPENDENCIES="<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/rich_click[${PYTHON_USEDEP}]
+	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]"
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

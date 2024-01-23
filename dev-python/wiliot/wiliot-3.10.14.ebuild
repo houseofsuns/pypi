@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	advance? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	advance? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	advance? ( dev-python/pygubu[${PYTHON_USEDEP}] )
-	advance? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	advance? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	advance? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	advance? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	advance? ( dev-python/pyjwt[${PYTHON_USEDEP}] )

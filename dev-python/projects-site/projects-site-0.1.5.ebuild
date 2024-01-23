@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/flask-bootstrap[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/Flask-Bootstrap[${PYTHON_USEDEP}]
 	dev-python/flask-nav[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/wtforms[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/wtforms-components[${PYTHON_USEDEP}]
+	dev-python/WTForms-Components[${PYTHON_USEDEP}]
 	dev-python/flask-login[${PYTHON_USEDEP}]
-	dev-python/flask-mail[${PYTHON_USEDEP}]
+	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/email-validator[${PYTHON_USEDEP}]"

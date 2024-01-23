@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	dev-python/oscrypto[${PYTHON_USEDEP}]
-	dev-python/Rich[${PYTHON_USEDEP}]"
+	dev-python/rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

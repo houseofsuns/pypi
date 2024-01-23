@@ -32,9 +32,9 @@ DEPENDENCIES=">=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.9[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/bevy[${PYTHON_USEDEP}]
+	dev-python/Bevy[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]
@@ -54,13 +54,13 @@ DEPENDENCIES=">=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	email? ( dev-python/mailgun[${PYTHON_USEDEP}] )
 	secrets? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
 	sql? ( >=dev-python/sqlalchemy-2.0.25[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	sql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	sql? ( >=dev-python/mysqlclient-2.2.1[${PYTHON_USEDEP}] )
 	sql? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
 	nosql? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	nosql? ( dev-python/motor[${PYTHON_USEDEP}] )
-	demo? ( dev-python/faker[${PYTHON_USEDEP}] )
+	demo? ( >=dev-python/Faker-22.4.0[${PYTHON_USEDEP}] )
 	ftp? ( dev-python/aioftp[${PYTHON_USEDEP}] )
 	ftp? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

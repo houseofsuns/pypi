@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bookkeeping & Financial analysis backend for Django. Balance Sheet, Income Statements, Chart of Accounts, Entities [topver 0.5.6.0]"
+DESCRIPTION="Bookkeeping & Financial analysis backend for Django. Balance Sheet, Income Statements, Chart of Accounts, Entities [topver 0.5.6.1, newver 0.5.6.1]"
 
 HOMEPAGE="https://www.djangoledger.com"
 LICENSE="GPLv3 License"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="~dev-python/django-4.1.3[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	~dev-python/Faker-15.3.3[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
 	dev-python/ofxtools[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.24[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	<dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

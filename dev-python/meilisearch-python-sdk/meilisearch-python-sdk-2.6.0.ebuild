@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/aiofiles-0.7[${PYTHON_USEDEP}]
 	dev-python/camel-converter[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.17[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	>=dev-python/pyjwt-2.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

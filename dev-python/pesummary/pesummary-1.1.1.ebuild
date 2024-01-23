@@ -43,10 +43,10 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.44.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/cython-0.28.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycbc[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyCBC[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )

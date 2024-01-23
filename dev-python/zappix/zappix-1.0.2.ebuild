@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/pyopenssl-psk[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyzabbix[${PYTHON_USEDEP}] )"

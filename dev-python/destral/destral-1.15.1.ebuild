@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	<dev-python/lazy-object-proxy-1.7.0[${PYTHON_USEDEP}]
 	<=dev-python/pylint-2.17.7[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.4.0[${PYTHON_USEDEP}]
 	dev-python/junit-xml[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

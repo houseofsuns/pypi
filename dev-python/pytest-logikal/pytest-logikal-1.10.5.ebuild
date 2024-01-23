@@ -37,14 +37,14 @@ DEPENDENCIES="~dev-python/bandit-1.7.5[${PYTHON_USEDEP}]
 	~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}]
 	dev-python/pytest-mypy[${PYTHON_USEDEP}]
 	~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.15[${PYTHON_USEDEP}]
 	dev-python/logikal-utils[${PYTHON_USEDEP}]
 	dev-python/pyorbs[${PYTHON_USEDEP}]
 	~dev-python/termcolor-2.3[${PYTHON_USEDEP}]
 	browser? ( ~dev-python/selenium-4.10.0[${PYTHON_USEDEP}] )
 	django? ( ~dev-python/Babel-2.12[${PYTHON_USEDEP}] )
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/django-4.2[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-migration-linter[${PYTHON_USEDEP}] )
 	django? ( dev-python/djlint[${PYTHON_USEDEP}] )

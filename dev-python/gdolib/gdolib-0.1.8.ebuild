@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="• Script Very Nice To Helping Programmer . [topver 0.2.4]"
+DESCRIPTION="• Script Very Nice To Helping Programmer . [topver 0.2.4, newver 0.2.4]"
 
 HOMEPAGE=""
 LICENSE=""

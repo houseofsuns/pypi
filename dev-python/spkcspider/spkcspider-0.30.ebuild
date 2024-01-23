@@ -47,6 +47,6 @@ DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	test? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	test? ( dev-python/spkcspider-domainauth[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
-	test? ( dev-python/WSGIProxy2[${PYTHON_USEDEP}] )"
+	test? ( dev-python/wsgiproxy2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

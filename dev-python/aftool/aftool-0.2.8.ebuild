@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pyecharts[${PYTHON_USEDEP}]
-	dev-python/snapshot_selenium[${PYTHON_USEDEP}]
+	dev-python/snapshot-selenium[${PYTHON_USEDEP}]
 	<dev-python/joblib-0.15.0[${PYTHON_USEDEP}]
 	<dev-python/pip-21.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
@@ -41,6 +41,6 @@ DEPENDENCIES="<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	<dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymysql-0.11.0[${PYTHON_USEDEP}]
 	<dev-python/DBUtils-2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

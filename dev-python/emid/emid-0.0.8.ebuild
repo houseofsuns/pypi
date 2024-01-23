@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
-	dev-python/PyAudio[${PYTHON_USEDEP}]
+	>=dev-python/pyaudio-0.2.11[${PYTHON_USEDEP}]
 	>=dev-python/PyQt5-5.12[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.1[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]"

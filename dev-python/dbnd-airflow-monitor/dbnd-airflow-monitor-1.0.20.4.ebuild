@@ -27,7 +27,7 @@ IUSE="composer tests"
 DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	composer? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+	composer? ( ~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}] )
 	composer? ( ~dev-python/cryptography-37.0.2[${PYTHON_USEDEP}] )
 	composer? ( ~dev-python/google-auth-1.10.0[${PYTHON_USEDEP}] )
 	composer? ( ~dev-python/requests-2.22.0[${PYTHON_USEDEP}] )

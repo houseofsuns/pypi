@@ -27,13 +27,13 @@ IUSE="build testing"
 DEPENDENCIES="dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pycromanager[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	testing? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

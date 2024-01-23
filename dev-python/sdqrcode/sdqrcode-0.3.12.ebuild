@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="diffusers"
 DEPENDENCIES="dev-python/webuiapi[${PYTHON_USEDEP}]
 	<dev-python/qrcode-8.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	diffusers? ( dev-python/xformers[${PYTHON_USEDEP}] )
 	diffusers? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	diffusers? ( dev-python/accelerate[${PYTHON_USEDEP}] )"

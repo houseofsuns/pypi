@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ConfigParser[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/findspark[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]

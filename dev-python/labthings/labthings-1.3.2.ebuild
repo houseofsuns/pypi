@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
 	<dev-python/apispec-5.0[${PYTHON_USEDEP}]
 	<dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/zeroconf-0.34.0[${PYTHON_USEDEP}]
-	dev-python/apispec_webframeworks[${PYTHON_USEDEP}]"
+	dev-python/apispec-webframeworks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

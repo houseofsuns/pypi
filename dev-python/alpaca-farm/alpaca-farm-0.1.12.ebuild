@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	full? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
 	full? ( dev-python/benepar[${PYTHON_USEDEP}] )
 	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	full? ( dev-python/spacy-fastlang[${PYTHON_USEDEP}] )
+	full? ( dev-python/spacy_fastlang[${PYTHON_USEDEP}] )
 	full? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	full? ( dev-python/mapply[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

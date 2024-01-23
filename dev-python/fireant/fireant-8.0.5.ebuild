@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ipython mssql mysql postgresql redshift snowflake vertica"
 DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
-	dev-python/pypika[${PYTHON_USEDEP}]
+	dev-python/PyPika[${PYTHON_USEDEP}]
 	~dev-python/toposort-1.6[${PYTHON_USEDEP}]
 	mysql? ( ~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
 	mssql? ( ~dev-python/cython-3.0.0[${PYTHON_USEDEP}] )

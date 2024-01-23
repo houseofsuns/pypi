@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs refresh"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	refresh? ( dev-python/bioregistry[${PYTHON_USEDEP}] )
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/curies[${PYTHON_USEDEP}]

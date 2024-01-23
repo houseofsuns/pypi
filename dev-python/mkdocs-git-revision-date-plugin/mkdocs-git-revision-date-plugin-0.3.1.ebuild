@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MkDocs plugin for setting revision date from git per markdown file. [topver 0.3.2]"
+DESCRIPTION="MkDocs plugin for setting revision date from git per markdown file. [topver 0.3.2, newver 0.3.2]"
 
 HOMEPAGE="https://github.com/zhaoterryy/mkdocs-git-revision-date-plugin/"
 LICENSE="MIT"
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/mkdocs-0.17[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

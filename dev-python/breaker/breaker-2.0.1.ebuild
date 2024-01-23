@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/HMpTy[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/crowdedText[${PYTHON_USEDEP}]
+	dev-python/crowdedtext[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/fundamentals[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]

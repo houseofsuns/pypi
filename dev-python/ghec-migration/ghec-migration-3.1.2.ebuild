@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/PyInquirer[${PYTHON_USEDEP}]
 	dev-python/python-jenkins[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/multi-key-dict[${PYTHON_USEDEP}]
+	dev-python/multi_key_dict[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

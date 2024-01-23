@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Jupyter notebook Python library for introductory data science"
+DESCRIPTION="A Jupyter notebook Python library for introductory data science [newver 0.17.5]"
 
 HOMEPAGE="https://github.com/data-8/datascience"
 LICENSE=""

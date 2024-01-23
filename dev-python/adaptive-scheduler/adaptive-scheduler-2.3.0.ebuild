@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/adaptive[${PYTHON_USEDEP}]
 	all? ( dev-python/dask-mpi[${PYTHON_USEDEP}] )
 	all? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_fontawesome[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

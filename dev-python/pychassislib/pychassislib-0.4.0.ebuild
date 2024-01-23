@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="apiflask dev ha log metric mongodb mysql nameko ob redis schema security"
 DEPENDENCIES="nameko? ( dev-python/nameko[${PYTHON_USEDEP}] )
-	apiflask? ( dev-python/apiflask[${PYTHON_USEDEP}] )
+	apiflask? ( dev-python/APIFlask[${PYTHON_USEDEP}] )
 	apiflask? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	apiflask? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	ha? ( ~dev-python/cachetools-5.3.0[${PYTHON_USEDEP}] )

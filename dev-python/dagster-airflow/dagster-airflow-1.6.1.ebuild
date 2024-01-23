@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	test_airflow_1? ( >=dev-python/boto3-1.26.7[${PYTHON_USEDEP}] )
 	test_airflow_1? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	test_airflow_1? ( <=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
-	test_airflow_1? ( dev-python/WTForms[${PYTHON_USEDEP}] )
+	test_airflow_1? ( <dev-python/wtforms-3.0.0[${PYTHON_USEDEP}] )
 	test_airflow_1? ( <dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	test_airflow_1? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
 	test_airflow_1? ( dev-python/connexion[${PYTHON_USEDEP}] )

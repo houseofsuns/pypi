@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/db-dtypes[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-multiversion-0.2.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

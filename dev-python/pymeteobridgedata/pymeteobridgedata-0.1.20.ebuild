@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-timeout-1.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/termcolor[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-termcolor[${PYTHON_USEDEP}] )
 	shell? ( dev-python/ipython[${PYTHON_USEDEP}] )

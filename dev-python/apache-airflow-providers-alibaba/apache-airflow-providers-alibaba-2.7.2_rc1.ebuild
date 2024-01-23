@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/alibabacloud_adb20211201[${PYTHON_USEDEP}]
-	dev-python/alibabacloud_tea_openapi[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/alibabacloud-adb20211201[${PYTHON_USEDEP}]
+	dev-python/alibabacloud-tea-openapi[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

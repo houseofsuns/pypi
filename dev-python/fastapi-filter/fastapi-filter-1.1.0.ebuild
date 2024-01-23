@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all mongoengine sqlalchemy"
-DEPENDENCIES="sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+DEPENDENCIES="sqlalchemy? ( <dev-python/sqlalchemy-2.1.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.1.0[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	mongoengine? ( dev-python/mongoengine[${PYTHON_USEDEP}] )
 	all? ( dev-python/mongoengine[${PYTHON_USEDEP}] )

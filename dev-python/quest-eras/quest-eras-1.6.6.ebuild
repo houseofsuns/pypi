@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
-	dev-python/pyomo[${PYTHON_USEDEP}]
+	dev-python/Pyomo[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
-	dev-python/kivy[${PYTHON_USEDEP}]
-	dev-python/kivy-garden[${PYTHON_USEDEP}]
+	dev-python/Kivy[${PYTHON_USEDEP}]
+	dev-python/Kivy-Garden[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
@@ -41,6 +41,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/eppy[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pyutilib[${PYTHON_USEDEP}]"
+	dev-python/PyUtilib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

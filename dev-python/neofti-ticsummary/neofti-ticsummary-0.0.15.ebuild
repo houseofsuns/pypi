@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TIC data viewer [topver 1.2.21]"
+DESCRIPTION="TIC data viewer [topver 1.2.21, newver 1.2.21]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyqt6[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/wrapt-timeout-decorator[${PYTHON_USEDEP}]
 	dev-python/mysql[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]"

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/bda-service-utils[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/alida-arg-parser[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/PyArrow[${PYTHON_USEDEP}]"
+	>=dev-python/pyarrow-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

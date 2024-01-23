@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aip dask dev dill examples full gcp geopandas image matplotlib parallel standard viz"
 DEPENDENCIES=">=dev-python/attrs-20.1[${PYTHON_USEDEP}]
 	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/attrs-20.1[${PYTHON_USEDEP}]
 	aip? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
@@ -72,13 +72,13 @@ DEPENDENCIES=">=dev-python/attrs-20.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dill? ( dev-python/dill[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	examples? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	examples? ( dev-python/hsluv[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	full? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	full? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	full? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	full? ( dev-python/dask[${PYTHON_USEDEP}] )
 	full? ( dev-python/dill[${PYTHON_USEDEP}] )
@@ -98,17 +98,17 @@ DEPENDENCIES=">=dev-python/attrs-20.1[${PYTHON_USEDEP}]
 	gcp? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	matplotlib? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	matplotlib? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	matplotlib? ( >=dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/loky[${PYTHON_USEDEP}] )
-	standard? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	standard? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	standard? ( dev-python/hsluv[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
 	standard? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	standard? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	viz? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	viz? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	viz? ( dev-python/hsluv[${PYTHON_USEDEP}] )
 	viz? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pydot[${PYTHON_USEDEP}] )"

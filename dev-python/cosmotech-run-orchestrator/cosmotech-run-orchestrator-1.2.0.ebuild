@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc"
-DEPENDENCIES="dev-python/cosmotech-acceleration-library[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/CosmoTech-Acceleration-Library[${PYTHON_USEDEP}]
 	dev-python/cosmotech-api[${PYTHON_USEDEP}]
 	dev-python/flowpipe[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]

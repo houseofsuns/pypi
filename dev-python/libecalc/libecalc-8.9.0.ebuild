@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="notebooks"
 DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/py4j[${PYTHON_USEDEP}]

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/perseus-core-library[${PYTHON_USEDEP}]
 	dev-python/perseus-restful-api-framework[${PYTHON_USEDEP}]
 	dev-python/xeberus-core-library[${PYTHON_USEDEP}]
-	dev-python/Fabric[${PYTHON_USEDEP}]"
+	dev-python/fabric[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

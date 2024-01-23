@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/youtube-dl[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/youtube_dl[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.7.11[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-httplib2-0.0.3[${PYTHON_USEDEP}]

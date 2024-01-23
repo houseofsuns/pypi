@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/betterproto[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
 	simulation? ( dev-python/certifi[${PYTHON_USEDEP}] )
 	dev-python/datadog-api-client[${PYTHON_USEDEP}]
-	dev-python/dependency_injector[${PYTHON_USEDEP}]
+	dev-python/dependency-injector[${PYTHON_USEDEP}]
 	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]

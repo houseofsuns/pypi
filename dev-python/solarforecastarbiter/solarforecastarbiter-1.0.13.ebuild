@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc fetch log plotting test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	dev-python/netcdf4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( <dev-python/plotly-5.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/selenium-4.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	all? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plotting? ( <dev-python/plotly-5.0[${PYTHON_USEDEP}] )
 	plotting? ( <dev-python/selenium-4.0[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	plotting? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

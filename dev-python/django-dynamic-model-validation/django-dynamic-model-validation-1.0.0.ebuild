@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	deploy? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	development? ( dev-python/Django[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/django-1.11.18[${PYTHON_USEDEP}] )
 	development? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	development? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	development? ( dev-python/future[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pluggy-0.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	tox? ( dev-python/Django[${PYTHON_USEDEP}] )
+	tox? ( >=dev-python/django-1.11.18[${PYTHON_USEDEP}] )
 	tox? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	tox? ( dev-python/check-manifest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

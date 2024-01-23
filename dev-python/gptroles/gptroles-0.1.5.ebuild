@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pyqt6[${PYTHON_USEDEP}]
-	dev-python/pyqt6-webengine[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-6.4.2[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-WebEngine-6.4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]

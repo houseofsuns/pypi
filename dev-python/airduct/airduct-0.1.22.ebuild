@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	<dev-python/flask-2.0[${PYTHON_USEDEP}]
-	dev-python/flask_cors[${PYTHON_USEDEP}]
-	dev-python/flask_httpauth[${PYTHON_USEDEP}]"
+	<dev-python/flask-cors-4.0[${PYTHON_USEDEP}]
+	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

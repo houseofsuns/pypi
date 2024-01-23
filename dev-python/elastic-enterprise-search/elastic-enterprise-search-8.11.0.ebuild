@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop requests"
 DEPENDENCIES="<dev-python/elastic-transport-9.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )

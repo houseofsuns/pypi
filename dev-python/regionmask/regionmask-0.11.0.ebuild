@@ -31,10 +31,10 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.20[${PYTHON_USEDEP}]
-	full? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	full? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
 	full? ( dev-python/cf-xarray[${PYTHON_USEDEP}] )
-	plot? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	plot? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	plot? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

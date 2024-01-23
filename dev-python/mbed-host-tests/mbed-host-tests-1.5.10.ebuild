@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mbed tools used to flash, reset and supervise test execution for mbed-enabled devices [topver 1.8.15]"
+DESCRIPTION="mbed tools used to flash, reset and supervise test execution for mbed-enabled devices [topver 1.8.15, newver 1.8.15]"
 
 HOMEPAGE="https://github.com/ARMmbed/mbed-os-tools"
 LICENSE="Apache-2.0"

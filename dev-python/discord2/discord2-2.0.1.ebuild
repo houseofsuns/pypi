@@ -31,8 +31,8 @@ DEPENDENCIES="<dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	speed? ( >=dev-python/orjson-3.5.4[${PYTHON_USEDEP}] )
 	speed? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
-	speed? ( dev-python/Brotlipy[${PYTHON_USEDEP}] )
+	speed? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
 	speed? ( dev-python/cchardet[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
+	voice? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

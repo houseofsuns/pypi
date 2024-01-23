@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests uvloop"
 DEPENDENCIES="<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
-	dev-python/rx[${PYTHON_USEDEP}]
+	dev-python/Rx[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-2.0[${PYTHON_USEDEP}]
 	dev-python/aiocoap[${PYTHON_USEDEP}]
 	dev-python/aiomqtt[${PYTHON_USEDEP}]
@@ -37,10 +37,10 @@ DEPENDENCIES="<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-rerunfailures-11.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/mock-3.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/faker[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/Faker-14.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pyopenssl-19.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}] )

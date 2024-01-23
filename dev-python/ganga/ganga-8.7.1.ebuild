@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/ipython-5.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	profiler? ( dev-python/memory_profiler[${PYTHON_USEDEP}] )
+	profiler? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	lhcb? ( dev-python/LbDevTools[${PYTHON_USEDEP}] )
 	dirac? ( dev-python/UltraDict[${PYTHON_USEDEP}] )
 	dirac? ( dev-python/psutil[${PYTHON_USEDEP}] )"

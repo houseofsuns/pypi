@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/docutils-0.15[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	all? ( dev-python/texsoup[${PYTHON_USEDEP}] )
+	all? ( dev-python/TexSoup[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -55,6 +55,6 @@ DEPENDENCIES=">=dev-python/docutils-0.15[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	testing? ( dev-python/texsoup[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/TexSoup[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

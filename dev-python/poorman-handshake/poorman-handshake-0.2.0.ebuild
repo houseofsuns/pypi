@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="poor man's key exchange, powered by RSA [topver 0.2.2]"
+DESCRIPTION="poor man's key exchange, powered by RSA [topver 0.2.2, newver 0.2.2a3]"
 
 HOMEPAGE="https://github.com/JarbasHiveMind/poorman_handshake"
 LICENSE="Apache-2.0"

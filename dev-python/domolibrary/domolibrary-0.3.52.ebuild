@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/nbdev[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/sql-metadata[${PYTHON_USEDEP}]
+	dev-python/sql_metadata[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/nbqa[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]"

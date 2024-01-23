@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python常用底层库封装 [topver 2.2.9]"
+DESCRIPTION="python常用底层库封装 [topver 2.2.9, newver 2.2.9]"
 
 HOMEPAGE="https://www.python.org"
 LICENSE="MIT Licence"
@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/twine-3.8.0[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-2.5.6[${PYTHON_USEDEP}]
 	dev-python/python-jenkins[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.0.0[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pymssql[${PYTHON_USEDEP}]
 	~dev-python/pika-1.3.1[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/asn1crypto-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cbor2-6.0.0[${PYTHON_USEDEP}]
 	dev-python/certvalidator[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/pyhpke[${PYTHON_USEDEP}]"

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/github3-py[${PYTHON_USEDEP}]
 	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

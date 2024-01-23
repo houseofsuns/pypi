@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.8.0[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="viewer"
 DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	>dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.0[${PYTHON_USEDEP}]
 	>=dev-python/dask-2022.1.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]

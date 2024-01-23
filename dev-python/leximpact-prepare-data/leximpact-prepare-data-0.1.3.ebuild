@@ -36,7 +36,7 @@ DEPENDENCIES="pipeline? ( dev-python/diagrams[${PYTHON_USEDEP}] )
 	<dev-python/multipledispatch-0.7.0[${PYTHON_USEDEP}]
 	dev-python/nbdev[${PYTHON_USEDEP}]
 	~dev-python/numexpr-2.8.4[${PYTHON_USEDEP}]
-	dev-python/openfisca-survey-manager[${PYTHON_USEDEP}]
+	dev-python/OpenFisca-Survey-Manager[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	<dev-python/pip-24.0[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]

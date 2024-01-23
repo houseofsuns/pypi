@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/mpu[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2018.4[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )"

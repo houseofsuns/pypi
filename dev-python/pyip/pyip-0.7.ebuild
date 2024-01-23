@@ -16,8 +16,8 @@ DESCRIPTION="pyip: assemble/disassemble raw ip packet"
 
 HOMEPAGE="https://sourceforge.net/projects/pyip"
 LICENSE="Standard Python License"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

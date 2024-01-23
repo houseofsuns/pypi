@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for mathematical functions [topver 4.2.3]"
+DESCRIPTION="Python library for mathematical functions [topver 4.2.3, newver 4.2.3]"
 
 HOMEPAGE="https://github.com/theunkownhacker/mathkit"
 LICENSE=""

@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
 	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
 	dev-python/dtbase[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]"
+	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

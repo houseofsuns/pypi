@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	>dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
 	dev-python/napari-pystackreg[${PYTHON_USEDEP}]
 	>dev-python/imageio-2.22.1[${PYTHON_USEDEP}]
-	dev-python/redlionfish[${PYTHON_USEDEP}]
+	dev-python/RedLionfish[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-2.0.0[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

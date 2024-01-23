@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cairo doc matplotlib plotly plotting test test-musl"
 DEPENDENCIES=">=dev-python/texttable-1.6.2[${PYTHON_USEDEP}]
 	cairo? ( >=dev-python/cairocffi-1.2.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-gallery-0.14.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydoctor[${PYTHON_USEDEP}] )
@@ -46,6 +46,6 @@ DEPENDENCIES=">=dev-python/texttable-1.6.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pandas-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/scipy-1.5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pillow-9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

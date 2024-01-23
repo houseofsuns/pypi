@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	>=dev-python/django-2.1.5[${PYTHON_USEDEP}]
 	>=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/docker-3.4.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.14.1[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-httplib2-0.0.3[${PYTHON_USEDEP}]
 	>=dev-python/progressbar2-3.38.0[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/absl-py-0.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox-automation[${PYTHON_USEDEP}] )

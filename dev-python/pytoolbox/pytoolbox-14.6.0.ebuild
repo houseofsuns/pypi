@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	all? ( dev-python/PyGObject[${PYTHON_USEDEP}] )
+	all? ( dev-python/pygobject[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/django[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-filter[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	all? ( dev-python/ezodf[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastxor[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/jira[${PYTHON_USEDEP}] )
 	all? ( dev-python/keras[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
@@ -62,8 +62,8 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	imaging? ( dev-python/PyGObject[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	imaging? ( dev-python/pygobject[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	network? ( dev-python/tldextract[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/ezodf[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/lxml[${PYTHON_USEDEP}] )

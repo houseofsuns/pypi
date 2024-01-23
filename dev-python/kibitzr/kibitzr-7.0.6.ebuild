@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	<dev-python/sh-2.0[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/anyio-3.6.2[${PYTHON_USEDEP}] )
-	locked? ( dev-python/async-generator[${PYTHON_USEDEP}] )
+	locked? ( dev-python/async_generator[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/beautifulsoup4-4.12.0[${PYTHON_USEDEP}] )
 	locked? ( dev-python/bs4[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/httpx-0.23.3[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/hyperframe-6.0.1[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
-	locked? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	locked? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/outcome-1.2.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/psutil-5.9.4[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}] )
-	locked? ( dev-python/pysocks[${PYTHON_USEDEP}] )
+	locked? ( ~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}] )
 	locked? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pytimeparse-1.1.8[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pytz-2022.7.1[${PYTHON_USEDEP}] )

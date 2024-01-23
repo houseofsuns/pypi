@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IBM Functional Genomics Platform SDK to explore data. [topver 0.1.50]"
+DESCRIPTION="IBM Functional Genomics Platform SDK to explore data. [topver 0.1.50, newver 0.1.50]"
 
 HOMEPAGE="https://github.ibm.com/GrandChallenge-Almaden/omxware-pypi"
 LICENSE="IBM"

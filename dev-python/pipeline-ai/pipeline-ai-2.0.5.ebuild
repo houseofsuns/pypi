@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.27.0[${PYTHON_USEDEP}]

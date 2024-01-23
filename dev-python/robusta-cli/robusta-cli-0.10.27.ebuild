@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	all? ( dev-python/supabase[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
-	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flask-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/grafana-api[${PYTHON_USEDEP}] )
 	all? ( <dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/better-exceptions[${PYTHON_USEDEP}] )
@@ -57,12 +57,12 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/dulwich-0.20.28[${PYTHON_USEDEP}] )
 	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	dev-python/fpdf2[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/prometrix[${PYTHON_USEDEP}]
 	dev-python/hikaru-model_26[${PYTHON_USEDEP}]
 	<dev-python/apprise-2.0.0[${PYTHON_USEDEP}]
-	dev-python/rocketchat-api[${PYTHON_USEDEP}]"
+	dev-python/rocketchat-API[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

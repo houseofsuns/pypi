@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/authomatic[${PYTHON_USEDEP}]
+	dev-python/Authomatic[${PYTHON_USEDEP}]
 	dev-python/persistent[${PYTHON_USEDEP}]
 	dev-python/pyams-form[${PYTHON_USEDEP}]
 	dev-python/pyams-layer[${PYTHON_USEDEP}]

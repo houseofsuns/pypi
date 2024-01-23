@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	all? ( >=dev-python/semver-2.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/prance[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask-opentracing[${PYTHON_USEDEP}] )
+	all? ( dev-python/Flask-OpenTracing[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentracing[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentracing-instrumentation[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tornado-6.0[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES=">=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/importlib-metadata-3.0[${PYTHON_USEDEP}] )
 	traces? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
-	traces? ( dev-python/flask-opentracing[${PYTHON_USEDEP}] )
+	traces? ( dev-python/Flask-OpenTracing[${PYTHON_USEDEP}] )
 	traces? ( dev-python/opentracing[${PYTHON_USEDEP}] )
 	traces? ( dev-python/opentracing-instrumentation[${PYTHON_USEDEP}] )
 	traces? ( <dev-python/tornado-6.0[${PYTHON_USEDEP}] )"

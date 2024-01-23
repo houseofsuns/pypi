@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Embed pandas DataFrames as images in pdf and markdown files when converting from Jupyter Notebooks [topver 0.2.3]"
+DESCRIPTION="Embed pandas DataFrames as images in pdf and markdown files when converting from Jupyter Notebooks [topver 0.2.3, newver 0.2.3]"
 
 HOMEPAGE="https://github.com/dexplo/dataframe_image"
 LICENSE="MIT"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lock"
-DEPENDENCIES="dev-python/cairosvg[${PYTHON_USEDEP}]
-	dev-python/linkchecker[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
+	dev-python/LinkChecker[${PYTHON_USEDEP}]
 	>=dev-python/markdown-exec-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-gen-files-0.4.0[${PYTHON_USEDEP}]
@@ -40,10 +40,10 @@ DEPENDENCIES="dev-python/cairosvg[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pipdeptree-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pymdown-extensions-9.9.2[${PYTHON_USEDEP}]
-	lock? ( dev-python/babel[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/Babel-2.13.1[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/cairocffi-1.6.1[${PYTHON_USEDEP}] )
-	lock? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	lock? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/cffi-1.16.0[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}] )
@@ -58,9 +58,9 @@ DEPENDENCIES="dev-python/cairosvg[${PYTHON_USEDEP}]
 	lock? ( dev-python/htmlmin2[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}] )
-	lock? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	lock? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/jsmin-3.0.1[${PYTHON_USEDEP}] )
-	lock? ( dev-python/linkchecker[${PYTHON_USEDEP}] )
+	lock? ( dev-python/LinkChecker[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/markdown-3.5.1[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/markdown-exec-1.8.0[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES="dev-python/cairosvg[${PYTHON_USEDEP}]
 	lock? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
-	lock? ( dev-python/pyyaml-env-tag[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/pyyaml_env_tag-0.1[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/regex-2023.10.3[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )

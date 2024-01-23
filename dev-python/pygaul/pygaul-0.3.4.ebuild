@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
 	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-icon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	doc? ( dev-python/geemap[${PYTHON_USEDEP}] )

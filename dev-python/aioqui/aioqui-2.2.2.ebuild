@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyside6-6.5.0[${PYTHON_USEDEP}]
 	dev-python/qasync[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

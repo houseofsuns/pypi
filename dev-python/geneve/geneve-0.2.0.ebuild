@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/elasticsearch-8.2.0[${PYTHON_USEDEP}]
 	dev-python/eql[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/pytoml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"

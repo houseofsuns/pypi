@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Vertica dialect for sqlalchemy [topver 0.0.5]"
+DESCRIPTION="Vertica dialect for sqlalchemy [topver 0.0.5, newver 0.0.5]"
 
 HOMEPAGE="https://github.com/lv10/sqlalchemy-vertica"
 LICENSE="MIT"

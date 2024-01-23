@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/GitPython-1.0.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
 	dev-python/metalsmith[${PYTHON_USEDEP}]
 	>=dev-python/oslo-concurrency-3.26.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/midiutil[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/MIDIUtil[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pygame[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]

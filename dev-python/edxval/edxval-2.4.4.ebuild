@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/edx-drf-extensions[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pysrt[${PYTHON_USEDEP}]

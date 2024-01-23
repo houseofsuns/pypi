@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/rich-12.4.3[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/rich-cli[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/levenshtein[${PYTHON_USEDEP}]
+	>=dev-python/Levenshtein-0.18.1[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	cairo? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )

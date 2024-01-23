@@ -29,8 +29,8 @@ DEPENDENCIES="h3? ( dev-python/aioquic[${PYTHON_USEDEP}] )
 	dev-python/h11[${PYTHON_USEDEP}]
 	>=dev-python/h2-3.1.0[${PYTHON_USEDEP}]
 	dev-python/priority[${PYTHON_USEDEP}]
-	docs? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib_mermaid[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	dev-python/taskgroup[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	trio? ( >=dev-python/trio-0.22.0[${PYTHON_USEDEP}] )

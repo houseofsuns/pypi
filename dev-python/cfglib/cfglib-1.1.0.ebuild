@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-apidoc-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-fulltoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

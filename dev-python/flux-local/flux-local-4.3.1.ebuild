@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	>=dev-python/python-slugify-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

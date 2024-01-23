@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fork of django-avatar, for GeoNode [topver 5.0.8]"
+DESCRIPTION="A fork of django-avatar, for GeoNode [topver 5.0.8, newver 5.0.8]"
 
 HOMEPAGE="http://github.com/GeoNode/geonode-avatar/"
 LICENSE="BSD"

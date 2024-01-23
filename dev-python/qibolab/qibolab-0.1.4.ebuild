@@ -28,13 +28,13 @@ DEPENDENCIES="zh? ( dev-python/laboneq[${PYTHON_USEDEP}] )
 	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
-	qblox? ( dev-python/pyvisa-py[${PYTHON_USEDEP}] )
+	qblox? ( dev-python/PyVISA-py[${PYTHON_USEDEP}] )
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	qblox? ( dev-python/qblox-instruments[${PYTHON_USEDEP}] )
 	qblox? ( dev-python/qcodes[${PYTHON_USEDEP}] )
 	los? ( dev-python/qcodes[${PYTHON_USEDEP}] )
-	qblox? ( dev-python/qcodes_contrib_drivers[${PYTHON_USEDEP}] )
-	los? ( dev-python/qcodes_contrib_drivers[${PYTHON_USEDEP}] )
+	qblox? ( dev-python/qcodes-contrib-drivers[${PYTHON_USEDEP}] )
+	los? ( dev-python/qcodes-contrib-drivers[${PYTHON_USEDEP}] )
 	dev-python/qibo[${PYTHON_USEDEP}]
 	rfsoc? ( dev-python/qibosoq[${PYTHON_USEDEP}] )
 	qm? ( dev-python/qm-qua[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-1.0[${PYTHON_USEDEP}]
 	~dev-python/jsonpickle-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-2.14.0[${PYTHON_USEDEP}]
 	>=dev-python/kombu-4.0.0[${PYTHON_USEDEP}]

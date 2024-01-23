@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/boto3-1.10[${PYTHON_USEDEP}]
 	dev-python/yandexcloud[${PYTHON_USEDEP}]
 	>=dev-python/boltons-21.0[${PYTHON_USEDEP}]
 	<dev-python/idna-3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

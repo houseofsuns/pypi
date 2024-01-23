@@ -27,7 +27,7 @@ IUSE="ujson"
 DEPENDENCIES="dev-python/gongish[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	dev-python/user-agents[${PYTHON_USEDEP}]
 	>=dev-python/webtest-2.0.35[${PYTHON_USEDEP}]

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/canopen[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )

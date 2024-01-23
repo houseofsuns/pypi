@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paste-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pastedeploy-1.5.0[${PYTHON_USEDEP}]
 	<dev-python/elasticsearch-3.0.0[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]

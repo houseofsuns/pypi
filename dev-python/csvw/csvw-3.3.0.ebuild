@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES=">=dev-python/attrs-18.1[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]

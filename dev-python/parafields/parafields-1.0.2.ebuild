@@ -27,15 +27,15 @@ IUSE="docs jupyter tests"
 DEPENDENCIES="<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	docs? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_mdinclude[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipywidgets-jsonschema[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/wrapt[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Replace default \`flask shell\` command by similar command running IPython. [topver 0.5.1]"
+DESCRIPTION="Replace default \`flask shell\` command by similar command running IPython. [topver 0.5.1, newver 0.5.1]"
 
 HOMEPAGE="http://github.com/ei-grad/flask-shell-ipython"
 LICENSE=""
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/flask-1.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

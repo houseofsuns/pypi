@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-3.6.0[${PYTHON_USEDEP}]
 	dev-python/xsdata[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	gdal? ( dev-python/gdal[${PYTHON_USEDEP}] )
+	gdal? ( dev-python/GDAL[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

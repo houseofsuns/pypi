@@ -52,6 +52,6 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

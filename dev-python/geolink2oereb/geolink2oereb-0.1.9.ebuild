@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="no-version recommend testing"
-DEPENDENCIES="no-version? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="no-version? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	no-version? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	no-version? ( dev-python/pluggy[${PYTHON_USEDEP}] )
 	no-version? ( dev-python/pyramid-oereb[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="no-version? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	no-version? ( dev-python/six[${PYTHON_USEDEP}] )
 	no-version? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	no-version? ( dev-python/twine[${PYTHON_USEDEP}] )
-	recommend? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	recommend? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	recommend? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	recommend? ( ~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}] )
 	recommend? ( dev-python/pyramid-oereb[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="no-version? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	recommend? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	recommend? ( ~dev-python/sphinx-rtd-theme-1.2.1[${PYTHON_USEDEP}] )
 	recommend? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/webtest-1.3.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

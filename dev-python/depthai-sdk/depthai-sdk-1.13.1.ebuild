@@ -33,14 +33,14 @@ DEPENDENCIES="dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-1.21.0[${PYTHON_USEDEP}]
 	dev-python/depthai-pipeline-graph[${PYTHON_USEDEP}]
-	dev-python/ahrs[${PYTHON_USEDEP}]
+	dev-python/AHRS[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	record? ( dev-python/av[${PYTHON_USEDEP}] )
 	replay? ( dev-python/mcap[${PYTHON_USEDEP}] )
 	replay? ( dev-python/mcap-ros1-support[${PYTHON_USEDEP}] )
 	replay? ( dev-python/rosbags[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	visualize? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	visualize? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	visualize? ( dev-python/Qt-py[${PYTHON_USEDEP}] )
 	visualize? ( ~dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

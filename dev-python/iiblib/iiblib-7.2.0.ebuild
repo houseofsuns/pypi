@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-kerberos[${PYTHON_USEDEP}]
 	dev-python/kerberos[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
-	rest? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	rest? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

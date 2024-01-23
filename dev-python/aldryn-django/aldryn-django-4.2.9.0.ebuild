@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aldryn-addons[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	~dev-python/django-4.2.9[${PYTHON_USEDEP}]
 	dev-python/dj-database-url[${PYTHON_USEDEP}]
 	dev-python/dj-email-url[${PYTHON_USEDEP}]
 	dev-python/dj-redis-url[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/aldryn-addons[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	dev-python/aiocontextvars[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/uwsgi[${PYTHON_USEDEP}]
+	dev-python/uWSGI[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/django-storage-url[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]

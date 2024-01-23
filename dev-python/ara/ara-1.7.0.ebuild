@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	server? ( dev-python/Django[${PYTHON_USEDEP}] )
+	server? ( <dev-python/django-4.3[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/djangorestframework-3.9.1[${PYTHON_USEDEP}] )
 	server? ( dev-python/django-cors-headers[${PYTHON_USEDEP}] )
 	server? ( dev-python/django-filter[${PYTHON_USEDEP}] )

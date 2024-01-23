@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/deepdiff-7.0.0[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	<dev-python/Faker-19.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonref[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dist"
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/markdown-3.5.1[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.17.2[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	~dev-python/pymdown-extensions-10.5[${PYTHON_USEDEP}]
 	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]

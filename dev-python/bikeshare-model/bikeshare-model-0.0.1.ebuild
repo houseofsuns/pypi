@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bikeshare dataset classification model package [topver 1.0.1]"
+DESCRIPTION="Bikeshare dataset classification model package [topver 1.0.1, newver 1.0.1]"
 
 HOMEPAGE=""
 LICENSE="BSD"

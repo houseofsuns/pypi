@@ -39,8 +39,8 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	shell? ( dev-python/aioconsole[${PYTHON_USEDEP}] )
 	sqlalchemy? ( ~dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	sqlalchemy_slim? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( ~dev-python/sqlalchemy-2.0.22[${PYTHON_USEDEP}] )
+	sqlalchemy_slim? ( ~dev-python/sqlalchemy-2.0.22[${PYTHON_USEDEP}] )
 	telegram? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

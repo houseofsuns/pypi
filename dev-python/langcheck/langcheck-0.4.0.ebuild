@@ -27,7 +27,7 @@ IUSE="dev optional"
 DEPENDENCIES="dev-python/chikkarpy[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/fugashi[${PYTHON_USEDEP}]
-	dev-python/janome[${PYTHON_USEDEP}]
+	dev-python/Janome[${PYTHON_USEDEP}]
 	dev-python/nlpaug[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/chikkarpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	optional? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )
-	optional? ( dev-python/sudachidict-core[${PYTHON_USEDEP}] )
-	optional? ( dev-python/sudachipy[${PYTHON_USEDEP}] )"
+	optional? ( dev-python/SudachiDict-core[${PYTHON_USEDEP}] )
+	optional? ( dev-python/SudachiPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

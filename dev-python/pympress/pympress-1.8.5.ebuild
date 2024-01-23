@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="babel build_sphinx vlc_video"
 DEPENDENCIES="dev-python/watchdog[${PYTHON_USEDEP}]
-	babel? ( dev-python/babel[${PYTHON_USEDEP}] )
-	babel? ( dev-python/babelgladeextractor[${PYTHON_USEDEP}] )
-	build_sphinx? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( dev-python/BabelGladeExtractor[${PYTHON_USEDEP}] )
+	build_sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	build_sphinx? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	build_sphinx? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	build_sphinx? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

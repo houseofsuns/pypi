@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all api dev kafka mongo_connect postgresql pubsub s3"
 DEPENDENCIES="~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpyexpect[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
 	all? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
 	all? ( dev-python/typer[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	all? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/httpx-0.23.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/boto3-1.26.46[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES="~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	dev? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/httpx-0.23.3[${PYTHON_USEDEP}] )
 	kafka? ( ~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Argus is an alert aggregator for monitoring systems [topver 1.14.1]"
+DESCRIPTION="Argus is an alert aggregator for monitoring systems [topver 1.14.1, newver 1.14.1]"
 
 HOMEPAGE="https://github.com/Uninett/Argus"
 LICENSE="GPL-3+"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES=">=dev-python/django-cors-headers-3.2[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	<dev-python/django-4.2[${PYTHON_USEDEP}]
 	>=dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Get, clean, convert and validate input. [topver 0.5.4]"
+DESCRIPTION="Get, clean, convert and validate input. [topver 0.5.4, newver 0.5.4]"
 
 HOMEPAGE="https://github.com/lwanger/cooked_input"
 LICENSE="MIT"

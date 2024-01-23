@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.4.23[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.14.0[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
 	dev-python/neutron-lib[${PYTHON_USEDEP}]

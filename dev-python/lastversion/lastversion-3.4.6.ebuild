@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/requests-2.6.1[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/feedparser[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/requests-2.6.1[${PYTHON_USEDEP}]
 	build? ( dev-python/appdirs[${PYTHON_USEDEP}] )
 	build? ( dev-python/feedparser[${PYTHON_USEDEP}] )
 	build? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	build? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	build? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	build? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	build? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	build? ( dev-python/distro[${PYTHON_USEDEP}] )
@@ -68,7 +68,7 @@ DEPENDENCIES=">=dev-python/requests-2.6.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/appdirs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/feedparser[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	tests? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/distro[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/setuptools-42.0.2[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.6.4[${PYTHON_USEDEP}]
 	dev-python/pkg-about[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-tabs-3.1.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinxcontrib-spelling-7.2.1[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/restructuredtext-lint-1.3.2[${PYTHON_USEDEP}] )

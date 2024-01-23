@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-1.11[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.3.1[${PYTHON_USEDEP}]
 	dev-python/djaodjin-deployutils[${PYTHON_USEDEP}]
 	dev-python/djaodjin-extended-templates[${PYTHON_USEDEP}]
 	dev-python/mammoth[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

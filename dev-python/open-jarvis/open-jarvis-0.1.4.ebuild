@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helper classes for Jarvis applications [topver 0.1.6]"
+DESCRIPTION="Helper classes for Jarvis applications [topver 0.1.6, newver 0.1.6]"
 
 HOMEPAGE="https://github.com/open-jarvis"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/couchdb2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/CouchDB2[${PYTHON_USEDEP}]
 	dev-python/paho-mqtt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/DBUtils[${PYTHON_USEDEP}]
 	dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

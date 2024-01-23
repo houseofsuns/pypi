@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
 	dev-python/bluetooth-data-tools[${PYTHON_USEDEP}]

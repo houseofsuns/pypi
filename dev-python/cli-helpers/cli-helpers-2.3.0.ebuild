@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="styles"
 DEPENDENCIES=">=dev-python/configobj-5.0.5[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]
-	styles? ( dev-python/Pygments[${PYTHON_USEDEP}] )"
+	styles? ( >=dev-python/pygments-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

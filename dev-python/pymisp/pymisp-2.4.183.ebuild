@@ -27,7 +27,7 @@ IUSE="brotli docs email fileobjects openioc pdfexport url virustotal"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
-	email? ( dev-python/extract_msg[${PYTHON_USEDEP}] )
+	email? ( dev-python/extract-msg[${PYTHON_USEDEP}] )
 	email? ( dev-python/RTFDE[${PYTHON_USEDEP}] )
 	email? ( dev-python/oletools[${PYTHON_USEDEP}] )
 	fileobjects? ( <dev-python/python-magic-0.5.0[${PYTHON_USEDEP}] )
@@ -41,6 +41,6 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	url? ( dev-python/pyfaup[${PYTHON_USEDEP}] )
 	dev-python/publicsuffixlist[${PYTHON_USEDEP}]
 	brotli? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

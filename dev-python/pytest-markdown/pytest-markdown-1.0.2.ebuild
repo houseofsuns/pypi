@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
-	dev-python/CommonMark[${PYTHON_USEDEP}]"
+	<dev-python/commonmark-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

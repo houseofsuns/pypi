@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiocache-0.13.0[${PYTHON_USEDEP}]"

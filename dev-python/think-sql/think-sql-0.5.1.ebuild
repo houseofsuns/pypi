@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/cacheout[${PYTHON_USEDEP}]
 	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
-	dev-python/sql-metadata[${PYTHON_USEDEP}]
+	dev-python/sql_metadata[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

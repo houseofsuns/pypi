@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/werkzeug-2.0[${PYTHON_USEDEP}]
 	dev-python/ashes[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	>=dev-python/boltons-20.0.0[${PYTHON_USEDEP}]

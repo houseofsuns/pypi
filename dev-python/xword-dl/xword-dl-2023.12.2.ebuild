@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
 	dev-python/puzpy[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]"

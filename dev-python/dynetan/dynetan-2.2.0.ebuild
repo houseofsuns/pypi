@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/mdanalysis[${PYTHON_USEDEP}]
+	dev-python/MDAnalysis[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/nglview[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

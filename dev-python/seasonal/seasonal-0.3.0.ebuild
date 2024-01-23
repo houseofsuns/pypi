@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Estimate trend and seasonal effects in a timeseries [topver 0.3.1]"
+DESCRIPTION="Estimate trend and seasonal effects in a timeseries [topver 0.3.1, newver 0.3.1]"
 
 HOMEPAGE="https://github.com/welch/seasonal"
 LICENSE="MIT"

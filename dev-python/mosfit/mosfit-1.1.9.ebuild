@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/astrocats[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.24.1[${PYTHON_USEDEP}]
 	dev-python/dynesty[${PYTHON_USEDEP}]
 	>=dev-python/emcee-3.0.2[${PYTHON_USEDEP}]
 	dev-python/extinction[${PYTHON_USEDEP}]

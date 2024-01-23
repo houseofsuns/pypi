@@ -27,17 +27,17 @@ IUSE="all core"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/NAFFlib[${PYTHON_USEDEP}]
+	dev-python/nafflib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/NAFFlib[${PYTHON_USEDEP}] )
+	all? ( dev-python/nafflib[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	core? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	core? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	core? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	core? ( dev-python/NAFFlib[${PYTHON_USEDEP}] )
+	core? ( dev-python/nafflib[${PYTHON_USEDEP}] )
 	core? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

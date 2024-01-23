@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-22.0[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]

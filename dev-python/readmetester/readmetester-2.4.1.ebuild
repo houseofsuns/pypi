@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	dev-python/object-colors[${PYTHON_USEDEP}]
 	dev-python/pyproject-parser[${PYTHON_USEDEP}]
 	<dev-python/restructuredtext-lint-2.0.0[${PYTHON_USEDEP}]"

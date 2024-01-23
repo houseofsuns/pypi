@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="svg"
 DEPENDENCIES=">=dev-python/segno-1.0.2[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	svg? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
+	dev-python/pillow[${PYTHON_USEDEP}]
+	svg? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

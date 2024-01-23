@@ -34,12 +34,12 @@ DEPENDENCIES="~dev-python/contourpy-1.0.5[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

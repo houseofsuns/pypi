@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/django-1.10[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/django-money[${PYTHON_USEDEP}]
 	dev-python/django-import-export[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
 	subqueries? ( dev-python/django-sql-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

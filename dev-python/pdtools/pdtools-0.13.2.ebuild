@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-2.1.5[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-0.40.0[${PYTHON_USEDEP}]"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/Flask-Babel[${PYTHON_USEDEP}]
+	>=dev-python/flask-babel-3.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Babel-JS[${PYTHON_USEDEP}]
 	test? ( dev-python/unittest[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hacking Toolkit [topver 0.1.39]"
+DESCRIPTION="Hacking Toolkit [topver 0.1.39, newver 0.1.39]"
 
 HOMEPAGE="https://github.com/fportantier/habu"
 LICENSE="BSD 3-clause"

@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/trino[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]"
+	dev-python/ipython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

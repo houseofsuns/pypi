@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/netcdf4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"

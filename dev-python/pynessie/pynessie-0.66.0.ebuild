@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	~dev-python/confuse-2.0.1[${PYTHON_USEDEP}]
 	dev-python/desert[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]

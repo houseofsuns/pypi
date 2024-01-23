@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pyArrow[${PYTHON_USEDEP}]"
+	~dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

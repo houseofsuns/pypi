@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyueye - Python bindings for uEye API. [topver 4.96.952]"
+DESCRIPTION="pyueye - Python bindings for uEye API. [topver 4.96.952, newver 4.96.952]"
 
 HOMEPAGE="http://www.ids-imaging.com"
 LICENSE="3-Clause BSD License"

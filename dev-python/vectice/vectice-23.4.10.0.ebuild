@@ -32,17 +32,17 @@ DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	autolog? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	autolog? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	autolog? ( dev-python/ipynbname[${PYTHON_USEDEP}] )
 	autolog? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	autolog? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	autolog? ( dev-python/pydrive2[${PYTHON_USEDEP}] )
+	autolog? ( dev-python/PyDrive2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
@@ -69,16 +69,16 @@ DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydrive2[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyDrive2[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	test? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
 	test? ( dev-python/testbook[${PYTHON_USEDEP}] )
 	test? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	test? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	test? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipynbname[${PYTHON_USEDEP}] )

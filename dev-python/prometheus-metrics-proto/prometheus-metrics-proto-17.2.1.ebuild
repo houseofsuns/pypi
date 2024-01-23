@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Prometheus binary format metrics data structures for Python client libraries [topver 18.1.2]"
+DESCRIPTION="Prometheus binary format metrics data structures for Python client libraries [topver 18.1.2, newver 18.1.2]"
 
 HOMEPAGE="https://github.com/claws/prometheus_metrics_proto"
 LICENSE="MIT"

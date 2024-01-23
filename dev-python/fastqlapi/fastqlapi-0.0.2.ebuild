@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="first [topver 0.3.8]"
+DESCRIPTION="first [topver 0.3.8, newver 0.3.8]"
 
 HOMEPAGE="https://github.com/happy-machine/FastQL"
 LICENSE="MIT"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/rdflib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jprops[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

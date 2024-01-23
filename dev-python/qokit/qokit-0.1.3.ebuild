@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
 	gpu? ( dev-python/qiskit-aer-gpu[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-58.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

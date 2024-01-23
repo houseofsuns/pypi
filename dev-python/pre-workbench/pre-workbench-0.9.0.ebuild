@@ -30,8 +30,8 @@ DEPENDENCIES=">=dev-python/PyQt5-5.11.3[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/bitstring-3.1.9[${PYTHON_USEDEP}]
-	dev-python/PyQtAds[${PYTHON_USEDEP}]
+	dev-python/pyqtads[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

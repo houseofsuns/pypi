@@ -31,13 +31,13 @@ DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/gcloud[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/firebase[${PYTHON_USEDEP}]
-	dev-python/pyrebase4[${PYTHON_USEDEP}]
+	dev-python/Pyrebase4[${PYTHON_USEDEP}]
 	dev-python/sseclient[${PYTHON_USEDEP}]
-	dev-python/PyCryptodome[${PYTHON_USEDEP}]
+	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.2.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )

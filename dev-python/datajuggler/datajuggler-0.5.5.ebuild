@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
 	requests? ( >=dev-python/requests-2.27.0[${PYTHON_USEDEP}] )
 	serializer? ( dev-python/bson[${PYTHON_USEDEP}] )
 	serializer? ( >=dev-python/dill-6.0[${PYTHON_USEDEP}] )
-	serializer? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	serializer? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	serializer? ( dev-python/phpserialize[${PYTHON_USEDEP}] )
 	serializer? ( >=dev-python/serpent-1.4.1[${PYTHON_USEDEP}] )
 	serializer? ( dev-python/toml[${PYTHON_USEDEP}] )
@@ -47,6 +47,6 @@ DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
 	serpent? ( >=dev-python/serpent-1.4.1[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	xml? ( >=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

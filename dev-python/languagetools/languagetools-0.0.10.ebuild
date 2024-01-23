@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	os? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	os? ( <dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}] )
-	os? ( dev-python/pyautogui[${PYTHON_USEDEP}] )
+	os? ( dev-python/PyAutoGUI[${PYTHON_USEDEP}] )
 	os? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	os? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
-	dev-python/cairosvg[${PYTHON_USEDEP}]"
+	dev-python/CairoSVG[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

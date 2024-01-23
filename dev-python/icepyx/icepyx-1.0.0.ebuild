@@ -39,11 +39,11 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
-	complete? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	complete? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	complete? ( dev-python/geoviews[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	viz? ( dev-python/geoviews[${PYTHON_USEDEP}] )
-	viz? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	viz? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	viz? ( dev-python/scipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

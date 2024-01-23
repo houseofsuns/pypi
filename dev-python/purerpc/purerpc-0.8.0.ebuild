@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev grpc grpc-pypy"
 DEPENDENCIES="<dev-python/h2-4.0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.0.0[${PYTHON_USEDEP}]
-	dev-python/async-generator[${PYTHON_USEDEP}]
+	dev-python/async_generator[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )

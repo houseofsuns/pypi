@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/stim[${PYTHON_USEDEP}]
-	dev-python/pymatching[${PYTHON_USEDEP}]
+	dev-python/PyMatching[${PYTHON_USEDEP}]
 	dev-python/ldpc[${PYTHON_USEDEP}]
 	dev-python/sinter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

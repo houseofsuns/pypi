@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
 	<=dev-python/klein-17.10.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	<dev-python/treq-20.4.1[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	<dev-python/twisted-21.0.0[${PYTHON_USEDEP}]
 	dev-python/vumi[${PYTHON_USEDEP}]
 	dev-python/confmodel[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="socks tests"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/distro-2.0[${PYTHON_USEDEP}]
 	>=dev-python/docker-5.0[${PYTHON_USEDEP}]
 	<dev-python/dockerpty-1.0[${PYTHON_USEDEP}]

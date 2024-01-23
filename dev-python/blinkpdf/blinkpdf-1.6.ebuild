@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyqt6[${PYTHON_USEDEP}]
-	dev-python/pyqt6-webengine[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/PyQt6[${PYTHON_USEDEP}]
+	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

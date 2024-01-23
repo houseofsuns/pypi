@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="books citation-api-import gitrepo-export languagetool mysql ojs payment-paddle phplist postgresql website"
 DEPENDENCIES="~dev-python/bleach-5.0.1[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	~dev-python/django-4.1.7[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
 	dev-python/django-avatar[${PYTHON_USEDEP}]
 	dev-python/django-js-error-hook[${PYTHON_USEDEP}]
 	dev-python/django-npm-mjs[${PYTHON_USEDEP}]
 	dev-python/django-loginas[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	~dev-python/tornado-6.2[${PYTHON_USEDEP}]

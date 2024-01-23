@@ -33,8 +33,8 @@ DEPENDENCIES=">=dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.8.2[${PYTHON_USEDEP}]
 	image? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )
-	image? ( dev-python/types-pillow[${PYTHON_USEDEP}] )
-	full? ( dev-python/types-pillow[${PYTHON_USEDEP}] )
+	image? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
+	full? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
 	mesh? ( >=dev-python/trimesh-3.17.1[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/trimesh-3.17.1[${PYTHON_USEDEP}] )
 	dev-python/typing-inspect[${PYTHON_USEDEP}]

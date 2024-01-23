@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/sgmllib3k[${PYTHON_USEDEP}]
 	>=dev-python/feedparser-6.0.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/pyrfc3339[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

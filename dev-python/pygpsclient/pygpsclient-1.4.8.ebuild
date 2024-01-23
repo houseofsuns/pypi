@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy test"
 DEPENDENCIES=">=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pygnssutils[${PYTHON_USEDEP}]
 	dev-python/pynmeagps[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

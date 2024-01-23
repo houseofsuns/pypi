@@ -62,7 +62,7 @@ DEPENDENCIES=">=dev-python/matplotlib-1.5[${PYTHON_USEDEP}]
 	optional? ( >=dev-python/h5py-3.8.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/jarvis-tools[${PYTHON_USEDEP}] )
 	optional? ( dev-python/matgl[${PYTHON_USEDEP}] )
-	optional? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/netcdf4-1.5.8[${PYTHON_USEDEP}] )
 	optional? ( dev-python/phonopy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/seekpath[${PYTHON_USEDEP}] )
 	optional? ( dev-python/BoltzTraP2[${PYTHON_USEDEP}] )

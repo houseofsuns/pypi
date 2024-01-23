@@ -27,7 +27,7 @@ IUSE="dev test"
 DEPENDENCIES=">=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.4.0[${PYTHON_USEDEP}]
-	dev-python/pydantic_settings[${PYTHON_USEDEP}]
+	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	<dev-python/redis-4.7.0[${PYTHON_USEDEP}]
 	~dev-python/structlog-22.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )

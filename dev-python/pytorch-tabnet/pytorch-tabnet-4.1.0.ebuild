@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.36[${PYTHON_USEDEP}]
-	dev-python/scikit_learn[${PYTHON_USEDEP}]
+	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>dev-python/scipy-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2022.4.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

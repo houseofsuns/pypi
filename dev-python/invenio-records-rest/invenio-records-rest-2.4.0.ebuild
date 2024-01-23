@@ -37,12 +37,12 @@ DEPENDENCIES=">=dev-python/bleach-2.1.3[${PYTHON_USEDEP}]
 	datacite? ( dev-python/datacite[${PYTHON_USEDEP}] )
 	dublincore? ( dev-python/dcxml[${PYTHON_USEDEP}] )
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
-	jsonld? ( dev-python/pyld[${PYTHON_USEDEP}] )
+	jsonld? ( dev-python/PyLD[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask-Login[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-login-0.3.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-config[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/bleach-2.1.3[${PYTHON_USEDEP}]
 	tests? ( dev-python/datacite[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dcxml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyld[${PYTHON_USEDEP}] )
+	tests? ( dev-python/PyLD[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mock-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

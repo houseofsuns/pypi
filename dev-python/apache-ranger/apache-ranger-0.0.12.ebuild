@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.24[${PYTHON_USEDEP}]
-	dev-python/strenum[${PYTHON_USEDEP}]"
+	dev-python/StrEnum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

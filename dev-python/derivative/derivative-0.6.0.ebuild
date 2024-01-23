@@ -30,8 +30,8 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.7.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/ipykernel-6.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jupyter-client-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

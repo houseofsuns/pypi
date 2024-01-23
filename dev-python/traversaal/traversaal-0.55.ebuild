@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A semantic search package for hotel data [topver 0.6982]"
+DESCRIPTION="A semantic search package for hotel data [topver 0.6982, newver 0.6982]"
 
 HOMEPAGE="https://github.com/hamzafarooq"
 LICENSE=""

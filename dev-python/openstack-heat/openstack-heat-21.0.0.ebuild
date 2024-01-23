@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Routes[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+	>=dev-python/pastedeploy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/routes-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.8.0[${PYTHON_USEDEP}]
 	dev-python/aodhclient[${PYTHON_USEDEP}]
 	>=dev-python/croniter-0.3.4[${PYTHON_USEDEP}]

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pytest-5.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/docker-5.0.3[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

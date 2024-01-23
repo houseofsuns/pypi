@@ -32,10 +32,10 @@ DEPENDENCIES="dev-python/biosimulators-utils[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tellurium[${PYTHON_USEDEP}]
 	all? ( dev-python/biosimulators-utils[${PYTHON_USEDEP}] )
-	all? ( dev-python/pypdf2[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyPDF2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/biosimulators-utils[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pypdf2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/PyPDF2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

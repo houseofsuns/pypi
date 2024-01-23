@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
-DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/unidecode-1.0[${PYTHON_USEDEP}]
+	~dev-python/Babel-2.0[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.0[${PYTHON_USEDEP}]
 	dev-python/nameparser[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]

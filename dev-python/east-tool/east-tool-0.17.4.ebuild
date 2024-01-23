@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/rich-12.5.1[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/pykwalify-1.8.0[${PYTHON_USEDEP}]
 	dev-python/ansi2txt[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )

@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
 	dev-python/django-datatables-view[${PYTHON_USEDEP}]
 	dev-python/django-eveuniverse[${PYTHON_USEDEP}]
 	dev-python/django-navhelper[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

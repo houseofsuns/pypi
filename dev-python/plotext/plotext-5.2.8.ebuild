@@ -30,6 +30,6 @@ DEPENDENCIES="completion? ( dev-python/shtab[${PYTHON_USEDEP}] )
 	video? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	video? ( dev-python/pafy[${PYTHON_USEDEP}] )
 	video? ( >=dev-python/pillow-8.4[${PYTHON_USEDEP}] )
-	video? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )"
+	video? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

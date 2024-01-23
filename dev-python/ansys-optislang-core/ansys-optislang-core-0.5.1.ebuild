@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build doc tests"
 DEPENDENCIES="<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
 	build? ( >=dev-python/build-0.8.0[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )

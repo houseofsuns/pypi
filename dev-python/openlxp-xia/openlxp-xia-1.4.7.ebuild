@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/bleach-6.1.0[${PYTHON_USEDEP}]
-	dev-python/confusable-homoglyphs[${PYTHON_USEDEP}]"
+	<dev-python/confusable_homoglyphs-3.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

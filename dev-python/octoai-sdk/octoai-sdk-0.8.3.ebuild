@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/chevron[${PYTHON_USEDEP}]
 	>=dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
-	dev-python/types-pyyaml[${PYTHON_USEDEP}]
+	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	video? ( dev-python/av[${PYTHON_USEDEP}] )

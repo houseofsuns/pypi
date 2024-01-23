@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/dnaio[${PYTHON_USEDEP}]
 	dev-python/xopen[${PYTHON_USEDEP}]
-	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

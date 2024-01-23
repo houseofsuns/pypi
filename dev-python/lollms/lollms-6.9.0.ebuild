@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/simple-websocket[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
@@ -45,9 +45,9 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/autopep8[${PYTHON_USEDEP}]
 	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask-socketio[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flask-SocketIO[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	dev? ( dev-python/simple-websocket[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wget[${PYTHON_USEDEP}] )

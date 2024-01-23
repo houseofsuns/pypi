@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/connection-pool[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pymysql-0.8.0[${PYTHON_USEDEP}]
+	dev-python/connection_pool[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

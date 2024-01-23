@@ -27,6 +27,6 @@ IUSE="fftw"
 DEPENDENCIES=">=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18.0[${PYTHON_USEDEP}]
-	fftw? ( dev-python/pyfftw[${PYTHON_USEDEP}] )"
+	fftw? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

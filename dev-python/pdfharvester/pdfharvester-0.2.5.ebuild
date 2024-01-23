@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pypdf2[${PYTHON_USEDEP}]
+	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/textract[${PYTHON_USEDEP}]
 	dev-python/yake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

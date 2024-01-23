@@ -27,6 +27,6 @@ IUSE="dev samples"
 DEPENDENCIES="dev-python/pyatlasclient[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	samples? ( dev-python/faker[${PYTHON_USEDEP}] )"
+	samples? ( dev-python/Faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

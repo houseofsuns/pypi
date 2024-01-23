@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/pystoi[${PYTHON_USEDEP}]
-	dev-python/mir-eval[${PYTHON_USEDEP}]
+	dev-python/mir_eval[${PYTHON_USEDEP}]
 	dev-python/pesq[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

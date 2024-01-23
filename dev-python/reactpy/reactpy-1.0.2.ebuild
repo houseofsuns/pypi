@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	flask? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask-sock[${PYTHON_USEDEP}] )
 	flask? ( <dev-python/markupsafe-2.1[${PYTHON_USEDEP}] )
-	sanic? ( dev-python/sanic-cors[${PYTHON_USEDEP}] )
+	sanic? ( dev-python/Sanic-Cors[${PYTHON_USEDEP}] )
 	sanic? ( dev-python/sanic[${PYTHON_USEDEP}] )
 	sanic? ( >=dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
 	starlette? ( >=dev-python/starlette-0.13.6[${PYTHON_USEDEP}] )

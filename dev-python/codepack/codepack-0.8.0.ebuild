@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/dill-0.3.4[${PYTHON_USEDEP}]
 	dev-python/pyreadline[${PYTHON_USEDEP}]
 	~dev-python/pymongo-3.12.1[${PYTHON_USEDEP}]
 	all? ( ~dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/boto3-1.19.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )

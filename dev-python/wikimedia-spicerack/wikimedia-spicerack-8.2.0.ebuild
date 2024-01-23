@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/conftool[${PYTHON_USEDEP}]
 	~dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/elasticsearch-7.15.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-curator[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.14[${PYTHON_USEDEP}]
 	>=dev-python/kafka-python-2.0.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/conftool[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-autodoc-typehints-1.9.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-PyMySQL[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )

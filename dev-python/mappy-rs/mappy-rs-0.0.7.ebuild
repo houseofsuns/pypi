@@ -27,7 +27,7 @@ IUSE="benchmark dev tests"
 DEPENDENCIES="tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mappy-rs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/mappy_rs[${PYTHON_USEDEP}] )
+	benchmark? ( dev-python/mappy-rs[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/mappy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

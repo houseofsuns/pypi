@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/construct-3.0.0[${PYTHON_USEDEP}]
-	dev-python/exifread[${PYTHON_USEDEP}]
+	dev-python/ExifRead[${PYTHON_USEDEP}]
 	~dev-python/piexif-1.1.3[${PYTHON_USEDEP}]
 	dev-python/gpxpy[${PYTHON_USEDEP}]
 	dev-python/pynmea2[${PYTHON_USEDEP}]

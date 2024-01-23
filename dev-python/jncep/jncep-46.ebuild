@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/ebooklib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/EbookLib[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
 	~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]

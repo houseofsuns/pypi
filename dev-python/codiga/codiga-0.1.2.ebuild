@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/unidiff-0.7.4[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

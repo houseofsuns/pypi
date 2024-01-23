@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ext"
-DEPENDENCIES="dev-python/datetime[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/datetime[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	ext? ( dev-python/lalsuite[${PYTHON_USEDEP}] )
 	ext? ( dev-python/ligo-common[${PYTHON_USEDEP}] )
-	ext? ( dev-python/pycbc[${PYTHON_USEDEP}] )"
+	ext? ( dev-python/PyCBC[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

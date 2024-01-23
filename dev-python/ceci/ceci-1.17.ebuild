@@ -32,7 +32,7 @@ DEPENDENCIES=">dev-python/pyyaml-3.0[${PYTHON_USEDEP}]
 	cwl? ( dev-python/cwl-utils[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/dask-2023.5.0[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask_mpi[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask-mpi[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
@@ -50,6 +50,6 @@ DEPENDENCIES=">dev-python/pyyaml-3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/mockmpi[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/dask-2023.5.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/dask_mpi[${PYTHON_USEDEP}] )"
+	all? ( dev-python/dask-mpi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

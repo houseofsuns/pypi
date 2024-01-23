@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A modular active learning framework for Python3 [topver 0.56.4691]"
+DESCRIPTION="A modular active learning framework for Python3 [topver 0.56.4700, newver 0.56.4700]"
 
 HOMEPAGE="https://modAL-python.github.io/"
 LICENSE="MIT"

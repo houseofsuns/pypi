@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build doc full gui style test"
-DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/netcdf4-1.6.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
 	doc? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
 	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )
-	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	gui? ( dev-python/sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

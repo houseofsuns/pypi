@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyGitHub[${PYTHON_USEDEP}]
+	~dev-python/PyGithub-1.54.0.1[${PYTHON_USEDEP}]
 	dev-python/joern2sarif[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]

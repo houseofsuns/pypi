@@ -27,7 +27,7 @@ IUSE="toml yaml"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/markdown-it-py[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/wikitextparser[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pylodstorage[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/pyLodStorage[${PYTHON_USEDEP}]
 	dev-python/py-3rdparty-mediawiki[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

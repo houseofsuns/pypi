@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2018.1.18[${PYTHON_USEDEP}]
 	tests? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

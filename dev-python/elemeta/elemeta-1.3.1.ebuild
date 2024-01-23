@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/vadersentiment[${PYTHON_USEDEP}]
+	dev-python/vaderSentiment[${PYTHON_USEDEP}]
 	<dev-python/emoji-3.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]

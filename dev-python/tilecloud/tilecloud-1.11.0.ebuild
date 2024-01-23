@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws azure prometheus redis wsgi"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev-python/bottle[${PYTHON_USEDEP}]
-	prometheus? ( dev-python/prometheus_client[${PYTHON_USEDEP}] )
-	all? ( dev-python/prometheus_client[${PYTHON_USEDEP}] )
+	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	all? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	wsgi? ( dev-python/pyramid[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyramid[${PYTHON_USEDEP}] )

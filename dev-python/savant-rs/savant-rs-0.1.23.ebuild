@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Savant rust optimization library [topver 0.2.6]"
+DESCRIPTION="Savant rust optimization library [topver 0.2.6, newver 0.2.6]"
 
 HOMEPAGE="https://github.com/insight-platform/savant-rs"
 LICENSE="Apache-2.0"

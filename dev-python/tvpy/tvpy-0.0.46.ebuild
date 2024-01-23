@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/parse-torrent-title[${PYTHON_USEDEP}]
 	dev-python/pyright[${PYTHON_USEDEP}]

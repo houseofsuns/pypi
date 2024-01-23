@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/py-trees[${PYTHON_USEDEP}]
 	dev-python/airtest[${PYTHON_USEDEP}]
-	dev-python/pyautogui[${PYTHON_USEDEP}]
+	dev-python/PyAutoGUI[${PYTHON_USEDEP}]
 	dev-python/files3[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/pydotplus[${PYTHON_USEDEP}]

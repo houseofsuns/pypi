@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyhcl[${PYTHON_USEDEP}]
-	dev-python/pyinquirer[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]"
+	dev-python/PyInquirer[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

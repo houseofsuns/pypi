@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.7[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	>=dev-python/six-1.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/ipython-7.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"

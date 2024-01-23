@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]
+	<dev-python/flask-cors-4.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
-	dev-python/pandas_market_calendars[${PYTHON_USEDEP}]
+	dev-python/pandas-market-calendars[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

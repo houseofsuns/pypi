@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chinese text analysis library, which can perform word frequency statistics, dictionary expansion, sentiment analysis, similarity, readability, co-occurrence analysis, social computing (attitude, prejudice, culture) on texts [topver 1.9.0]"
+DESCRIPTION="Chinese text analysis library, which can perform word frequency statistics, dictionary expansion, sentiment analysis, similarity, readability, co-occurrence analysis, social computing (attitude, prejudice, culture) on texts [topver 1.9.0, newver 1.9.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interactive stacktraces with variable state at each level. [topver 2.0.0]"
+DESCRIPTION="Interactive stacktraces with variable state at each level. [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/circleup/exception-reports"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

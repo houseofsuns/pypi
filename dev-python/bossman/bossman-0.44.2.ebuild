@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/edgegrid-python[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/parse-2.0[${PYTHON_USEDEP}]
 	<dev-python/rich-11.0[${PYTHON_USEDEP}]

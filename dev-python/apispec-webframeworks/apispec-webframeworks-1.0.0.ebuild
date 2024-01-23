@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/apispec-6.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/tornado-6.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/bottle-0.12.25[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

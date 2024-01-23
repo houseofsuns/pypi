@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="md"
 DEPENDENCIES=">=dev-python/nh3-0.2.14[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.13.1[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.5.1[${PYTHON_USEDEP}]
 	md? ( dev-python/cmarkgfm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="telethon"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	telethon? ( dev-python/telethon[${PYTHON_USEDEP}] )"
+	telethon? ( dev-python/Telethon[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

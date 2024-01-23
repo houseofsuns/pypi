@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/bluesky-live[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/suitcase-utils[${PYTHON_USEDEP}]
 	complete? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	complete? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	complete? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/bluesky[${PYTHON_USEDEP}] )
 	complete? ( dev-python/databroker[${PYTHON_USEDEP}] )
 	complete? ( dev-python/ipympl[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/bluesky-live[${PYTHON_USEDEP}]
 	complete? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	complete? ( dev-python/ophyd[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	complete? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	complete? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	complete? ( dev-python/suitcase-msgpack[${PYTHON_USEDEP}] )
 	examples? ( dev-python/bluesky[${PYTHON_USEDEP}] )
 	examples? ( dev-python/databroker[${PYTHON_USEDEP}] )
@@ -47,10 +47,10 @@ DEPENDENCIES="dev-python/bluesky-live[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

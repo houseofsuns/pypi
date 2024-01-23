@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/mysql-connector[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/logger-local[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]
 	dev-python/database-mysql-local[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

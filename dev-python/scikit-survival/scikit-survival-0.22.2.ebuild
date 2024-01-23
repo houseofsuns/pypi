@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/ecos[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	nbval? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	nbval? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )

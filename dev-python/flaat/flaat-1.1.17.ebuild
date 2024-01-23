@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiohttp fastapi flask test"
 DEPENDENCIES="dev-python/aarc-entitlement[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.0[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	~dev-python/ConfigArgParse-1.0[${PYTHON_USEDEP}]
 	~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	dev-python/liboidcagent[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/aarc-entitlement[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-37.0[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )

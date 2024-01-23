@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
-	dev-python/devind_helpers[${PYTHON_USEDEP}]
+	dev-python/devind-helpers[${PYTHON_USEDEP}]
 	dev-python/django-auditlog[${PYTHON_USEDEP}]
 	dev-python/django-channels-graphql-ws[${PYTHON_USEDEP}]
 	dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]

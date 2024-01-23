@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/pyautogui[${PYTHON_USEDEP}]
+	dev-python/PyAutoGUI[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pytesseract[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

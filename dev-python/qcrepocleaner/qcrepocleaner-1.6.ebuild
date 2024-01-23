@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/dryable[${PYTHON_USEDEP}]
 	dev-python/responses[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/python-consul[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

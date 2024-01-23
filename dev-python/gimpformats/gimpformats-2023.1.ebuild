@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/blendmodes[${PYTHON_USEDEP}]
 	dev-python/brackettree[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	<dev-python/pillow-11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

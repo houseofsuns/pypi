@@ -27,7 +27,7 @@ IUSE="dev docs"
 DEPENDENCIES="dev-python/incremental[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	>=dev-python/twisted-22.10.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )

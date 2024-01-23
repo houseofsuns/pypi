@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES=">=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-4.2.0[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]

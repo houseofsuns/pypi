@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ablog[${PYTHON_USEDEP}] )
 	array? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	array? ( dev-python/array_api_compat[${PYTHON_USEDEP}] )
+	array? ( dev-python/array-api-compat[${PYTHON_USEDEP}] )
 	array? ( dev-python/numba[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

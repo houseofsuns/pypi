@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	deep-analysis? ( <dev-python/regex-2020.0.0[${PYTHON_USEDEP}] )
 	multilingual? ( dev-python/polyglot[${PYTHON_USEDEP}] )
 	multilingual? ( dev-python/pycld2[${PYTHON_USEDEP}] )
-	multilingual? ( dev-python/PyICU[${PYTHON_USEDEP}] )
+	multilingual? ( <dev-python/pyicu-3.0[${PYTHON_USEDEP}] )
 	pymorphy2-ru? ( dev-python/pymorphy2-dicts-ru[${PYTHON_USEDEP}] )
 	pymorphy2-uk? ( dev-python/pymorphy2-dicts-uk[${PYTHON_USEDEP}] )
 	web? ( <dev-python/appdirs-2.0.0[${PYTHON_USEDEP}] )

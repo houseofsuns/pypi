@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/k3color[${PYTHON_USEDEP}]
 	dev-python/k3down2[${PYTHON_USEDEP}]
 	dev-python/k3fs[${PYTHON_USEDEP}]

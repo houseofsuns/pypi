@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.1.0[${PYTHON_USEDEP}]
 	dev-python/django-graphql-jwt[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-2.2.0[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-3.6.3[${PYTHON_USEDEP}] )

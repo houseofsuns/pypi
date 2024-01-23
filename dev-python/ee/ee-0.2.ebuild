@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper for dd [topver 0.4]"
+DESCRIPTION="A wrapper for dd [topver 0.4, newver 0.4]"
 
 HOMEPAGE="https://github.com/snarez/ee"
 LICENSE="Buy snare a beer"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/posix-ipc[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/system-config-tool[${PYTHON_USEDEP}]
 	dev-python/system-logger-tool[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

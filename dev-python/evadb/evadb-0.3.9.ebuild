@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
 	chromadb? ( dev-python/chromadb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pillow-8.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyDriller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev? ( dev-python/facenet-pytorch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/FLAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gpt4all[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/ipython-8.13.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )
@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-testmon[${PYTHON_USEDEP}] )
@@ -95,7 +95,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	document? ( dev-python/openai[${PYTHON_USEDEP}] )
 	document? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	document? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	document? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	document? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	document? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	document? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	document? ( dev-python/transformers[${PYTHON_USEDEP}] )
@@ -119,7 +119,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	vision? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	vision? ( >=dev-python/pillow-8.4.0[${PYTHON_USEDEP}] )
 	vision? ( dev-python/eva-decord[${PYTHON_USEDEP}] )
 	vision? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	vision? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
@@ -129,6 +129,6 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	vision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	vision? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	vision? ( dev-python/ultralytics[${PYTHON_USEDEP}] )
-	xgboost? ( dev-python/flaml[${PYTHON_USEDEP}] )"
+	xgboost? ( dev-python/FLAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

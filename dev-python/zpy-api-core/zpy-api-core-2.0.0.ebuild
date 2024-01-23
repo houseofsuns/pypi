@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
 	dev-python/marshmallow-objects[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
-	dev-python/tradingview_ta[${PYTHON_USEDEP}]
+	dev-python/tradingview-ta[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

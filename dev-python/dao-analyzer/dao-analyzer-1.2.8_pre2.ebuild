@@ -27,7 +27,7 @@ IUSE="dev docker"
 DEPENDENCIES="dev-python/dao-scripts[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.0.2[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/millify[${PYTHON_USEDEP}]

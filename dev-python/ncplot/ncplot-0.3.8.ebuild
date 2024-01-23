@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="complete"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/hvplot[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/metpy[${PYTHON_USEDEP}]
+	dev-python/MetPy[${PYTHON_USEDEP}]
 	dev-python/jupyter-bokeh[${PYTHON_USEDEP}]
 	dev-python/datashader[${PYTHON_USEDEP}]
 	complete? ( dev-python/geoviews[${PYTHON_USEDEP}] )"

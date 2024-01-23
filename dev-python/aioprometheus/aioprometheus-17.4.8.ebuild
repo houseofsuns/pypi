@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Prometheus Python client library for asyncio-based applications [topver 23.12.0]"
+DESCRIPTION="A Prometheus Python client library for asyncio-based applications [topver 23.12.0, newver 23.12.0]"
 
 HOMEPAGE="https://github.com/claws/aioprometheus"
 LICENSE="MIT"

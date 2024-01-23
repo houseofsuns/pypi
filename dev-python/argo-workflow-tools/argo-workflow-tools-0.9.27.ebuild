@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A suite of tools to ease ML pipeline development with Argo Workflows [topver 0.9.53]"
+DESCRIPTION="A suite of tools to ease ML pipeline development with Argo Workflows [topver 0.9.53, newver 0.9.53]"
 
 HOMEPAGE="https://github.com/DiagnosticRobotics/argo-workflow-tools"
 LICENSE="Apache-2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/contextvars[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]

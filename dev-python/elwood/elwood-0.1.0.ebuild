@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for common scientific model transforms [topver 0.1.4]"
+DESCRIPTION="A library for common scientific model transforms [topver 0.1.4, newver 0.1.4]"
 
 HOMEPAGE="https://github.com/jataware/elwood"
 LICENSE="MIT"

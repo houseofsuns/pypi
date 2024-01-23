@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="allure appium dev dev-all playwright pyotp requests selenium test"
-DEPENDENCIES="dev-python/PyHamcrest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyhamcrest-2.0.0[${PYTHON_USEDEP}]
 	dev-all? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
 	dev-all? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev-all? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/PyHamcrest[${PYTHON_USEDEP}]
 	dev-all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev-all? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	allure? ( dev-python/screenpy-adapter_allure[${PYTHON_USEDEP}] )
+	allure? ( dev-python/screenpy-adapter-allure[${PYTHON_USEDEP}] )
 	appium? ( dev-python/screenpy-appium[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/screenpy-playwright[${PYTHON_USEDEP}] )
 	pyotp? ( dev-python/screenpy-pyotp[${PYTHON_USEDEP}] )
@@ -50,6 +50,6 @@ DEPENDENCIES="dev-python/PyHamcrest[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev-all? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/responses-0.23.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/redislite[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/rq-1.14.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flask-2.3.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/colorlog-6.7.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/starlette-0.27.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )

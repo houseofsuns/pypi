@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc maintainer test"
 DEPENDENCIES="dev-python/logmatic-python[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	all? ( >=dev-python/flask-1.1.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-2.24.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flask-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/requests-2.24.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/testfixtures-6.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-1.8.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-3.25.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.7.9[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}] )

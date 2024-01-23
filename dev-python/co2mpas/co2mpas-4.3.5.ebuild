@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli dev dice io plot sync"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/schedula[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/syncing[${PYTHON_USEDEP}]
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/dill[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/click-log[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	all? ( dev-python/co2mpas-dice[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	all? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	all? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	all? ( dev-python/regex[${PYTHON_USEDEP}] )
 	all? ( dev-python/click[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click-log[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/click-log[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/co2mpas-dice[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	dev? ( dev-python/regex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
@@ -103,10 +103,10 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	plot? ( dev-python/flask[${PYTHON_USEDEP}] )
 	plot? ( dev-python/regex[${PYTHON_USEDEP}] )
 	plot? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	plot? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	plot? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	plot? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	plot? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	plot? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	plot? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	plot? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	sync? ( dev-python/syncing[${PYTHON_USEDEP}] )

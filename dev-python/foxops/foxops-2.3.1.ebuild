@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/aiopath[${PYTHON_USEDEP}]
 	<dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}]
 	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]

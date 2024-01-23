@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/flask-humanize[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/Flask-Humanize[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/asttokens[${PYTHON_USEDEP}]
 	>=dev-python/littleutils-0.2[${PYTHON_USEDEP}]

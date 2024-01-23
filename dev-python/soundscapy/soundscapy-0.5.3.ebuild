@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/acoustics[${PYTHON_USEDEP}]
 	dev-python/mosqito[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/scikit-maad[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/nbsphinx-0.9.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autoapi-2.1.1[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbmake[${PYTHON_USEDEP}] )

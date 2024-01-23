@@ -27,7 +27,7 @@ IUSE="aws azure gcs"
 DEPENDENCIES=">=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/thoth-storages[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]"

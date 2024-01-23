@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.9[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.15.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.14.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/theano[${PYTHON_USEDEP}]
+	dev-python/Theano[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -16,8 +16,8 @@ DESCRIPTION="GitHub API v2 library for Python."
 
 HOMEPAGE="http://github.com/ask/python-github2"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 
 SLOT="0"

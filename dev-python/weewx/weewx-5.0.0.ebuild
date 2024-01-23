@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/configobj-6.0[${PYTHON_USEDEP}]
 	dev-python/CT3[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-5.2[${PYTHON_USEDEP}]
 	dev-python/ephem[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	<dev-python/pymysql-2.0[${PYTHON_USEDEP}]
 	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	<dev-python/pyusb-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

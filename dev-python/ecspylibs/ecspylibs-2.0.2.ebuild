@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/autologging[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Autologging[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]

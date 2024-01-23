@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/better-abc[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	<dev-python/wcmatch-9.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
-	dev-python/pympler[${PYTHON_USEDEP}]"
+	dev-python/Pympler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

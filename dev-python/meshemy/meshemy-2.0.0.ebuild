@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="blender full open3d trimesh"
 DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	dev-python/pydantic-numpy[${PYTHON_USEDEP}]
+	dev-python/pydantic_numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	blender? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/open3d-cpu[${PYTHON_USEDEP}] )

@@ -38,9 +38,9 @@ DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.8.10[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-5.0.0[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/Paste[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.4.1[${PYTHON_USEDEP}]
+	dev-python/paste[${PYTHON_USEDEP}]
+	dev-python/pastedeploy[${PYTHON_USEDEP}]
 	dev-python/daiquiri[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/lz4-0.9.0[${PYTHON_USEDEP}]
@@ -51,19 +51,19 @@ DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
-	doc? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/reno-1.6.2[${PYTHON_USEDEP}] )
 	keystone? ( dev-python/keystonemiddleware[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/oslo-db[${PYTHON_USEDEP}] )
 	mysql? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	mysql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	mysql? ( >=dev-python/alembic-0.7.6[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/oslo-db[${PYTHON_USEDEP}] )
 	postgresql? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	postgresql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	postgresql? ( >=dev-python/alembic-0.7.6[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/protobuf[${PYTHON_USEDEP}] )
@@ -81,7 +81,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testresources-0.2.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testtools-0.9.38[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/keystonemiddleware[${PYTHON_USEDEP}] )
 	test? ( dev-python/wsgi-intercept[${PYTHON_USEDEP}] )
 	test? ( dev-python/xattr[${PYTHON_USEDEP}] )

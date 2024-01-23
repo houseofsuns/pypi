@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/ipython-7.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-47.1.1[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

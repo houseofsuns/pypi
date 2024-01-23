@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Download and upload pandas dataframes to the Google sheets [topver 0.2.5]"
+DESCRIPTION="Download and upload pandas dataframes to the Google sheets [topver 0.2.5, newver 0.2.5]"
 
 HOMEPAGE="https://github.com/iakov-kaiumov/gsheet-pandas"
 LICENSE="MIT"

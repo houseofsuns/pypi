@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python tools for PHREEQC. [topver 0.5.1]"
+DESCRIPTION="Python tools for PHREEQC. [topver 0.5.1, newver 0.5.1]"
 
 HOMEPAGE="http://www.phreeqpy.com/"
 LICENSE="BSD"

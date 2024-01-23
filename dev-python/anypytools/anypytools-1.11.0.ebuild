@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	full? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/pydoe[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyDOE[${PYTHON_USEDEP}] )
 	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest[${PYTHON_USEDEP}] )"

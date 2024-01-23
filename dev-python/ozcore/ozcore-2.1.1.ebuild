@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/typeguard-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/faker[${PYTHON_USEDEP}] )
+	all? ( <dev-python/Faker-20.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dynaconf[${PYTHON_USEDEP}] )
 	all? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="clang-format clang-tidy lizard test"
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/CLinters[${PYTHON_USEDEP}]
+	dev-python/clinters[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	>=dev-python/attrs-23.0[${PYTHON_USEDEP}]

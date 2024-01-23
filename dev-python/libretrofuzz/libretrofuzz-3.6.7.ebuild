@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
-	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	<dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/regex-2024.0.0[${PYTHON_USEDEP}]

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/flask-migrate-2.5.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-2.4.1[${PYTHON_USEDEP}]
 	>=dev-python/ldap3-2.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/qrcode-7.3.1[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	dev-python/requests-pkcs12[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

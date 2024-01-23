@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-10.3[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

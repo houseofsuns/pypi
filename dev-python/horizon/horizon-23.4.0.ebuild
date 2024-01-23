@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/Babel-2.6.0[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/django-4.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/XStatic-Angular-Bootstrap[${PYTHON_USEDEP}]
 	dev-python/XStatic-Angular-FileUpload[${PYTHON_USEDEP}]
 	dev-python/XStatic-Angular-Gettext[${PYTHON_USEDEP}]

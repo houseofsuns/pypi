@@ -27,7 +27,7 @@ IUSE="doc test"
 DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/qtpyinheritance[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	test? ( dev-python/ophyd[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	test? ( dev-python/line-profiler[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

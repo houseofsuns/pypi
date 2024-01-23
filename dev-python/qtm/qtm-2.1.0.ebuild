@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QTM Python SDK [topver 2.1.2]"
+DESCRIPTION="QTM Python SDK [topver 2.1.2, newver 2.1.2]"
 
 HOMEPAGE="https://github.com/qualisys/qualisys_python_sdk"
 LICENSE="MIT"

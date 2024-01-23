@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test test-noextras trio"
-DEPENDENCIES="dev-python/represent[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Represent[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/outcome[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )

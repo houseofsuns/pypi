@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/afdko[${PYTHON_USEDEP}]
 	>=dev-python/fonttools-4.47.2[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/cffsubr[${PYTHON_USEDEP}]
 	dev-python/dehinter[${PYTHON_USEDEP}]

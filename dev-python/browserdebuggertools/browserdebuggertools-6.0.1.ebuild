@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client which calls remote web browser debugger methods [topver 6.0.3]"
+DESCRIPTION="A client which calls remote web browser debugger methods [topver 6.0.3, newver 6.0.3]"
 
 HOMEPAGE="https://github.com/scivisum/browser-debugger-tools"
 LICENSE="GNU General Public License v3"

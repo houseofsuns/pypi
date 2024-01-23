@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/pygubu[${PYTHON_USEDEP}]
 	>=dev-python/isort-5.10.1[${PYTHON_USEDEP}]"

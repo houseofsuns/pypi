@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/Flask-Breadcrumbs[${PYTHON_USEDEP}]
 	>=dev-python/jsmin-3.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

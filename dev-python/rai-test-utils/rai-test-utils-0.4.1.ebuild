@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	object_detection? ( dev-python/requests[${PYTHON_USEDEP}] )
-	object_detection? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	object_detection? ( >=dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

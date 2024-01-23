@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/todoist-api-python[${PYTHON_USEDEP}]
 	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/markdown2-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/whatever-0.8[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]"
+	<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

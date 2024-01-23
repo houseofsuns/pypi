@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="psycopg2 psycopg2-binary"
-DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/colanderalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+	dev-python/ColanderAlchemy[${PYTHON_USEDEP}]
 	dev-python/deform[${PYTHON_USEDEP}]
-	dev-python/geoalchemy2[${PYTHON_USEDEP}]
+	dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lingua[${PYTHON_USEDEP}]
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg2-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/pyramid-beaker[${PYTHON_USEDEP}]
-	dev-python/pyramid-chameleon[${PYTHON_USEDEP}]
+	dev-python/pyramid_beaker[${PYTHON_USEDEP}]
+	dev-python/pyramid_chameleon[${PYTHON_USEDEP}]
 	dev-python/pyramid-jinja2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]

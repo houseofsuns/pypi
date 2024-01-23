@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aicspylibczi[${PYTHON_USEDEP}]
 	~dev-python/pyqtgraph-0.12.3[${PYTHON_USEDEP}]
-	dev-python/PyOpenGL[${PYTHON_USEDEP}]
-	dev-python/QtRangeSlider[${PYTHON_USEDEP}]
+	>=dev-python/pyopengl-3.1.5[${PYTHON_USEDEP}]
+	dev-python/qtrangeslider[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]

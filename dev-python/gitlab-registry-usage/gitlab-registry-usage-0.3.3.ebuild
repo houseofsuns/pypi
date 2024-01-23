@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/yacl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

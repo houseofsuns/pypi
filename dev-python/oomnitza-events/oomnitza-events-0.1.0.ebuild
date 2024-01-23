@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/analytics-python[${PYTHON_USEDEP}]
 	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/Cerberus[${PYTHON_USEDEP}]
+	dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

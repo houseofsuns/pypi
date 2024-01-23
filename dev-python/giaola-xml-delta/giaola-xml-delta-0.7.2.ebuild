@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to find differences between big xml files. [topver 2.0.0]"
+DESCRIPTION="Package to find differences between big xml files. [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://bitbucket.org/giaola/11888_delta"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sqlalchemy-1.1[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Paginator[${PYTHON_USEDEP}]
 	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	~dev-python/lxml-3.8.0[${PYTHON_USEDEP}]

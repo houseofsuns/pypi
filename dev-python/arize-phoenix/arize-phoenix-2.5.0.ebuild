@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev experimental llama-index"
 DEPENDENCIES="dev-python/ddsketch[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-proto[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]

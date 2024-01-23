@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/async_retriever[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/async-retriever[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/cftime[${PYTHON_USEDEP}]
 	dev-python/cltoolbox[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/async_retriever[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/siphon[${PYTHON_USEDEP}]
 	dev-python/suds-community[${PYTHON_USEDEP}]
-	dev-python/toolbox_utils[${PYTHON_USEDEP}]
+	dev-python/toolbox-utils[${PYTHON_USEDEP}]
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )

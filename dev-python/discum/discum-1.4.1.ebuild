@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ra"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/filetype[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-0.59.0[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	ra? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	ra? ( dev-python/pyqrcode[${PYTHON_USEDEP}] )
+	ra? ( dev-python/PyQRCode[${PYTHON_USEDEP}] )
 	ra? ( dev-python/pypng[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

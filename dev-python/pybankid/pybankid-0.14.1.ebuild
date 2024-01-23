@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="security signature-verification"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	security? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	security? ( >=dev-python/pyopenssl-0.13[${PYTHON_USEDEP}] )
 	security? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
 	security? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
-	signature-verification? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	signature-verification? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	signature-verification? ( dev-python/asn1crypto[${PYTHON_USEDEP}] )
 	signature-verification? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	signature-verification? ( dev-python/pytz[${PYTHON_USEDEP}] )"

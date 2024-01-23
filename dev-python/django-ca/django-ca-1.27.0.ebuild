@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="api celery mysql postgres psycopg3 redis yaml"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/acme[${PYTHON_USEDEP}]
 	>=dev-python/asn1crypto-1.5[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0[${PYTHON_USEDEP}]
@@ -39,9 +39,9 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	mysql? ( <dev-python/mysqlclient-2.2[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg3? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	psycopg3? ( dev-python/Django[${PYTHON_USEDEP}] )
+	psycopg3? ( >=dev-python/django-4.2[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/hiredis-2.0.0[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-4.3[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

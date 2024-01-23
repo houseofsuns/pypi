@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dcicutils[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
-	dev-python/Biopython[${PYTHON_USEDEP}]
+	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/GEOparse[${PYTHON_USEDEP}]
 	~dev-python/jupyterlab-3.2.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

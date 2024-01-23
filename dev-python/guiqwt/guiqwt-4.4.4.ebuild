@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="guiqwt is a set of tools for curve and image plotting (extension to PythonQwt) [topver 4.4.5]"
+DESCRIPTION="guiqwt is a set of tools for curve and image plotting (extension to PythonQwt) [topver 4.4.5, newver 4.4.5]"
 
 HOMEPAGE="https://github.com/PlotPyStack/guiqwt"
 LICENSE="CeCILL V2"
@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dicom doc"
-DEPENDENCIES="dev-python/NumPy[${PYTHON_USEDEP}]
-	dev-python/SciPy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.7[${PYTHON_USEDEP}]
 	dev-python/guidata[${PYTHON_USEDEP}]
 	dev-python/PythonQwt[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/QtPy-1.3[${PYTHON_USEDEP}]
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

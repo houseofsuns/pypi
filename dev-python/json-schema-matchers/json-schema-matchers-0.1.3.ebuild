@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
-	dev-python/PyHamcrest[${PYTHON_USEDEP}]"
+	>=dev-python/pyhamcrest-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

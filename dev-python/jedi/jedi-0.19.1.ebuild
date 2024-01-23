@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs qa testing"
 DEPENDENCIES="<dev-python/parso-0.9.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pygments-2.8.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
-	docs? ( dev-python/babel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/Babel-2.9.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/chardet-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/commonmark-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="<dev-python/parso-0.9.0[${PYTHON_USEDEP}]
 	qa? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	qa? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	qa? ( ~dev-python/types-setuptools-67.2.0.1[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Django[${PYTHON_USEDEP}] )
+	testing? ( dev-python/django[${PYTHON_USEDEP}] )
 	testing? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	testing? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	testing? ( dev-python/docopt[${PYTHON_USEDEP}] )

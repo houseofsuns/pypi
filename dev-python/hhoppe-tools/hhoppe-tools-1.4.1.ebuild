@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

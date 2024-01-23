@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/gdal[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/hpc-utils[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/gdal[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pip-23.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-3.6.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

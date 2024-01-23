@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-21.1[${PYTHON_USEDEP}]
 	dev-python/django-cache-memoize[${PYTHON_USEDEP}]
 	dev-python/django-user-agents[${PYTHON_USEDEP}]
@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
 	>=dev-python/stripe-2.61.0[${PYTHON_USEDEP}]
 	dev-python/python-twitter[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.3.6[${PYTHON_USEDEP}]
 	>=dev-python/elasticsearch-6.0.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Django[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/django-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/django-filter-21.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-cache-memoize[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-user-agents[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/stripe-2.61.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-twitter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Markdown[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/markdown-3.3.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/elasticsearch-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )

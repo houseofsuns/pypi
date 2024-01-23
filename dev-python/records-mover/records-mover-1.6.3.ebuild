@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="airflow aws bigquery cli db docs gcs gsheets itest literally_every_single_database_binary mysql pandas parquet postgres-binary postgres-source redshift-binary redshift-source typecheck unittest vertica"
 DEPENDENCIES="dev-python/timeout-decorator[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	dev-python/db-facts[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	gcs? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	gsheets? ( dev-python/google[${PYTHON_USEDEP}] )
 	gsheets? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
-	gsheets? ( dev-python/PyOpenSSL[${PYTHON_USEDEP}] )
+	gsheets? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	gsheets? ( >=dev-python/google-api-python-client-1.8.0[${PYTHON_USEDEP}] )
 	gsheets? ( >=dev-python/grpcio-1.29.0[${PYTHON_USEDEP}] )
 	itest? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
@@ -142,7 +142,7 @@ DEPENDENCIES="dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	unittest? ( dev-python/apache-airflow-providers-google[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/google[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
-	unittest? ( dev-python/PyOpenSSL[${PYTHON_USEDEP}] )
+	unittest? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	unittest? ( >=dev-python/google-api-python-client-1.8.0[${PYTHON_USEDEP}] )
 	unittest? ( >=dev-python/grpcio-1.29.0[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/sqlalchemy-vertica-python[${PYTHON_USEDEP}] )

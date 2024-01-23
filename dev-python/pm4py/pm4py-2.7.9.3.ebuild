@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/pydotplus[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/stringdist[${PYTHON_USEDEP}]
+	dev-python/StringDist[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/cvxopt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

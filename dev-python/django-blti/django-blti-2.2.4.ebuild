@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/django-2.1[${PYTHON_USEDEP}]
 	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/PyCrypto[${PYTHON_USEDEP}]
+	dev-python/pycrypto[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

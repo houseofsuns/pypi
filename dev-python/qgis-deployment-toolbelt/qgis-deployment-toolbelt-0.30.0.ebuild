@@ -44,11 +44,11 @@ DEPENDENCIES="<dev-python/dulwich-0.21.8[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-argparse-cli[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-copybutton-1.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	test? ( <dev-python/GitPython-3.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pillow-10.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/validators-0.23[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

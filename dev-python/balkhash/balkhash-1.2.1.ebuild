@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/followthemoney[${PYTHON_USEDEP}]
 	dev-python/banal[${PYTHON_USEDEP}]
 	leveldb? ( >=dev-python/plyvel-1.0.5[${PYTHON_USEDEP}] )
 	sql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	sql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )"
+	sql? ( >=dev-python/sqlalchemy-1.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

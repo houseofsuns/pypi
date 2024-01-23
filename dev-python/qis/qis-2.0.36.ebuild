@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	dev-python/easydev[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.11.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]

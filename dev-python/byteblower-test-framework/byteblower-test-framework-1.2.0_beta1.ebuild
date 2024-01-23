@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs-dev test"
 DEPENDENCIES="dev-python/byteblowerll[${PYTHON_USEDEP}]
 	dev-python/scapy[${PYTHON_USEDEP}]
-	dev-python/junit_xml[${PYTHON_USEDEP}]
+	>=dev-python/junit-xml-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/highcharts-excentis[${PYTHON_USEDEP}]
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	docs-dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs-dev? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs-dev? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs-dev? ( >=dev-python/sphinx-tabs-3.4[${PYTHON_USEDEP}] )
 	docs-dev? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )

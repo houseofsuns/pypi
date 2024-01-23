@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HTTP APIs Framework [topver 0.34.0]"
+DESCRIPTION="HTTP APIs Framework [topver 0.34.0, newver 0.34.0]"
 
 HOMEPAGE="https://github.com/kevin-leptons/clink"
 LICENSE=""
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pymongo-3.4.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

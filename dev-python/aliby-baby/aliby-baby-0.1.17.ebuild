@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.8.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
@@ -41,6 +41,6 @@ DEPENDENCIES="~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
 	dev-python/hpbandster[${PYTHON_USEDEP}]
-	dev-python/configspace[${PYTHON_USEDEP}]"
+	dev-python/ConfigSpace[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

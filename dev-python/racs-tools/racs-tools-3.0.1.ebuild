@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mpi"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/radio_beam[${PYTHON_USEDEP}]
+	dev-python/radio-beam[${PYTHON_USEDEP}]
 	dev-python/schwimmbad[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/spectral_cube[${PYTHON_USEDEP}]
+	dev-python/spectral-cube[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"

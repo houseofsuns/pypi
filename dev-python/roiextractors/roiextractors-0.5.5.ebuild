@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	full? ( >=dev-python/tifffile-2018.10.18[${PYTHON_USEDEP}] )
 	full? ( dev-python/scanimage-tiff-reader[${PYTHON_USEDEP}] )
 	full? ( dev-python/neuroconv[${PYTHON_USEDEP}] )

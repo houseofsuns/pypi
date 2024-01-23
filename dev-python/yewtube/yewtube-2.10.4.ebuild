@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.18.0[${PYTHON_USEDEP}] )
 	mpris? ( >=dev-python/dbus-python-1.2.18[${PYTHON_USEDEP}] )
-	mpris? ( dev-python/PyGObject[${PYTHON_USEDEP}] )"
+	mpris? ( >=dev-python/pygobject-3.42.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

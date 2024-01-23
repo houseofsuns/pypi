@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.13.3[${PYTHON_USEDEP}]
 	>=dev-python/pysrt-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
-	dev-python/pysimplegui[${PYTHON_USEDEP}]
+	dev-python/PySimpleGUI[${PYTHON_USEDEP}]
 	dev-python/streamlink[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

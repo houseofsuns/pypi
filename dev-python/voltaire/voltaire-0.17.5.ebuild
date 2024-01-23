@@ -45,6 +45,6 @@ DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-pikachu[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/xmldiff[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-markdown[${PYTHON_USEDEP}] )"
+	test? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/blackduck[${PYTHON_USEDEP}]
-	dev-python/pyGitHub[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/blackduck[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]

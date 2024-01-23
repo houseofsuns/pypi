@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pycooltext[${PYTHON_USEDEP}]
 	dev-python/streamlit-searchbox[${PYTHON_USEDEP}]
 	<dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	<dev-python/pycountry-24.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

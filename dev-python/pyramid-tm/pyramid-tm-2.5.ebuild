@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs testing"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	testing? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )"

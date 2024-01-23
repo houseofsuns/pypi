@@ -27,7 +27,7 @@ IUSE="jsonschema keyring"
 DEPENDENCIES=">=dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	jsonschema? ( >=dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}] )
 	keyring? ( >=dev-python/keyring-13.0.0[${PYTHON_USEDEP}] )"

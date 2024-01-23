@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Korean Noise Generator [topver 1.0.8.5]"
+DESCRIPTION="Korean Noise Generator [topver 1.0.8.5, newver 1.0.8.5]"
 
 HOMEPAGE="https://github.com/wisenut-research/konoise"
 LICENSE="MIT"

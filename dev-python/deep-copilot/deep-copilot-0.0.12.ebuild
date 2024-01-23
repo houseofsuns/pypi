@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/hanlp[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
 	~dev-python/elasticsearch-7.9.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
 	dev-python/scenedetect[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]

@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/pypeln[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.5[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.1.9[${PYTHON_USEDEP}]
 	>=dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/dictdiffer-0.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )

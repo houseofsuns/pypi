@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/thrift-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/testcontainers[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]"
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

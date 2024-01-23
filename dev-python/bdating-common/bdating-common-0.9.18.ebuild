@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}]
+	dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
 	dev-python/auth0-python[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]

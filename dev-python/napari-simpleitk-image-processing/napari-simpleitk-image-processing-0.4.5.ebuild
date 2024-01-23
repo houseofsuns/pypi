@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/simpleitk[${PYTHON_USEDEP}]
+	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/napari-tools-menu[${PYTHON_USEDEP}]
 	dev-python/napari-time-slicer[${PYTHON_USEDEP}]
 	dev-python/napari-skimage-regionprops[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pandas-ta[${PYTHON_USEDEP}]
 	>=dev-python/notebook-6.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/esgfpid[${PYTHON_USEDEP}]
-	dev-python/ESGConfigParser[${PYTHON_USEDEP}]
+	dev-python/esgconfigparser[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]

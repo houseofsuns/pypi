@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES=">=dev-python/docopt-0.4.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
+	>=dev-python/markdown-2.5.1[${PYTHON_USEDEP}]
 	>=dev-python/path-and-address-2.0.1[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-1.6[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.4.1[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.7[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/responses-0.5.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )"

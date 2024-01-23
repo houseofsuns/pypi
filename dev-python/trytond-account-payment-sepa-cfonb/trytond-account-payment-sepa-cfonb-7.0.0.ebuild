@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Genshi[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/genshi[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/trytond-account-payment[${PYTHON_USEDEP}]
 	dev-python/trytond-account-payment-sepa[${PYTHON_USEDEP}]

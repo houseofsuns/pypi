@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Routes[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pastedeploy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/routes-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.41[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.6.5[${PYTHON_USEDEP}]
 	>=dev-python/docker-2.4.2[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]

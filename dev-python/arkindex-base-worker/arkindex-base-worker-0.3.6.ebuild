@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/arkindex-client[${PYTHON_USEDEP}]
 	~dev-python/peewee-3.17.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	~dev-python/pymdown-extensions-10.5[${PYTHON_USEDEP}]
 	~dev-python/python-gnupg-0.5.2[${PYTHON_USEDEP}]
 	~dev-python/shapely-2.0.2[${PYTHON_USEDEP}]

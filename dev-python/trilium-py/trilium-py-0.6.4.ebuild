@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for ETAPI of Trilium Note. [topver 0.8.6]"
+DESCRIPTION="Python client for ETAPI of Trilium Note. [topver 0.8.6, newver 0.8.6]"
 
 HOMEPAGE="https://github.com/nriver/trilium-py"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]"

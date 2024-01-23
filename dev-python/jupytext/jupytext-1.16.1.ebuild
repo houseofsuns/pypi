@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/markdown-it-py-1.0[${PYTHON_USEDEP}]
 	test-external? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	test-external? ( dev-python/black[${PYTHON_USEDEP}] )
 	test-external? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test-external? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	test-external? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	test-external? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test-external? ( dev-python/jupyter-fs[${PYTHON_USEDEP}] )
 	test-external? ( dev-python/jupytext[${PYTHON_USEDEP}] )

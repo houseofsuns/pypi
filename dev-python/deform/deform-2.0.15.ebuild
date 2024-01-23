@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs functional lint testing"
-DEPENDENCIES="dev-python/Chameleon[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/chameleon-2.5.1[${PYTHON_USEDEP}]
 	dev-python/colander[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
 	dev-python/peppercorn[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/Chameleon[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyramid[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylons-sphinx-latesturl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/Chameleon[${PYTHON_USEDEP}]
 	dev? ( dev-python/waitress[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lingua[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/selenium-4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-latesturl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tk_8-6-0"
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
-	tk_8-6-0? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	dev-python/Babel[${PYTHON_USEDEP}]
+	tk_8-6-0? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apns wp"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	apns? ( dev-python/apns2[${PYTHON_USEDEP}] )
-	apns? ( dev-python/Django[${PYTHON_USEDEP}] )
+	apns? ( >=dev-python/django-2.2[${PYTHON_USEDEP}] )
 	wp? ( dev-python/pywebpush[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

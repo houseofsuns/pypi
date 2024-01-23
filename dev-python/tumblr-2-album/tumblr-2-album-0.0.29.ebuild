@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/telegram-util[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/tumdlr[${PYTHON_USEDEP}]
-	dev-python/pytumblr[${PYTHON_USEDEP}]
+	dev-python/PyTumblr[${PYTHON_USEDEP}]
 	dev-python/cached-url[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

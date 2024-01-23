@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ConfigUpdater[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/configupdater-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/cliff-3.9.0[${PYTHON_USEDEP}]
 	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	dev-python/nexus3-cli[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	dev-python/python-jenkins[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17.5[${PYTHON_USEDEP}]

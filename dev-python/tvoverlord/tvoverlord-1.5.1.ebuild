@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tvdb-api[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/tvdb_api[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/feedparser[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

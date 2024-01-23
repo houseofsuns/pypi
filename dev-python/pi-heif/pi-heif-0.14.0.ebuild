@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	tests-min? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests-min? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
 	tests-min? ( dev-python/packaging[${PYTHON_USEDEP}] )"

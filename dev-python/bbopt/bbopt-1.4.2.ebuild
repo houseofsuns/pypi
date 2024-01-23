@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev examples"
 DEPENDENCIES=">=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.2.5[${PYTHON_USEDEP}]
-	dev-python/pysot[${PYTHON_USEDEP}]
+	dev-python/pySOT[${PYTHON_USEDEP}]
 	>=dev-python/portalocker-2.2.1[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]

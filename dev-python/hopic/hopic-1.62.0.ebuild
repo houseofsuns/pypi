@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="interactive"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/commisery[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	<dev-python/typeguard-2.11[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]

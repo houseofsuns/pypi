@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="chart fodt"
-DEPENDENCIES="dev-python/Genshi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/genshi-0.5[${PYTHON_USEDEP}]
 	>=dev-python/lxml-2.0[${PYTHON_USEDEP}]
 	chart? ( dev-python/pycha[${PYTHON_USEDEP}] )
 	chart? ( dev-python/pyyaml[${PYTHON_USEDEP}] )

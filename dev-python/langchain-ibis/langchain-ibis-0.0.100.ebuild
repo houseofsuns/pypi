@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all llms"
 DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	all? ( dev-python/wikipedia[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	all? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )
@@ -62,8 +62,8 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	llms? ( dev-python/nlpcloud[${PYTHON_USEDEP}] )
 	all? ( dev-python/nlpcloud[${PYTHON_USEDEP}] )
 	all? ( dev-python/nomic[${PYTHON_USEDEP}] )
-	llms? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
-	all? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
+	llms? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
+	all? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-search-results[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]

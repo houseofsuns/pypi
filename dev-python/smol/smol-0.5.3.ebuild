@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	optional? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
 	optional? ( dev-python/gurobipy[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pyscipopt[${PYTHON_USEDEP}] )
+	optional? ( dev-python/PySCIPOpt[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -56,6 +56,6 @@ DEPENDENCIES=">=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	test? ( dev-python/polytope[${PYTHON_USEDEP}] )
 	test? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/gurobipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyscipopt[${PYTHON_USEDEP}] )"
+	test? ( dev-python/PySCIPOpt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

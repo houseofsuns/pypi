@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/WTForms[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/wtforms[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/is-disposable-email[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

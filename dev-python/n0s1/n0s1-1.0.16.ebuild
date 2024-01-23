@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/atlassian-python-api[${PYTHON_USEDEP}]
 	dev-python/asana[${PYTHON_USEDEP}]
 	dev-python/WrikePy[${PYTHON_USEDEP}]
-	dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
+	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

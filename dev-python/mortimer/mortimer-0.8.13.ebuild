@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/alfred3[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4[${PYTHON_USEDEP}]
 	>=dev-python/email-validator-1.1[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
-	dev-python/flask-bcrypt[${PYTHON_USEDEP}]
-	dev-python/flask-dropzone[${PYTHON_USEDEP}]
+	dev-python/Flask-Bcrypt[${PYTHON_USEDEP}]
+	dev-python/Flask-Dropzone[${PYTHON_USEDEP}]
 	>=dev-python/flask-login-0.5.0[${PYTHON_USEDEP}]
-	dev-python/flask-mail[${PYTHON_USEDEP}]
+	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	dev-python/flask-mongoengine[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 2018.12.21.1]"
+DESCRIPTION=" [topver 2018.12.21.1, newver 2018.12.21.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -38,13 +38,13 @@ DEPENDENCIES="~dev-python/aiohttp-1.0.5[${PYTHON_USEDEP}]
 	dev-python/emiz[${PYTHON_USEDEP}]
 	dev-python/everett[${PYTHON_USEDEP}]
 	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
-	dev-python/gtts[${PYTHON_USEDEP}]
-	dev-python/gtts-token[${PYTHON_USEDEP}]
+	dev-python/gTTS[${PYTHON_USEDEP}]
+	dev-python/gTTS-token[${PYTHON_USEDEP}]
 	~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/idna-2.6[${PYTHON_USEDEP}]
 	~dev-python/inflect-0.2.5[${PYTHON_USEDEP}]
 	dev-python/ipgetter[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.0[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-2.1.2[${PYTHON_USEDEP}]
 	dev-python/metar[${PYTHON_USEDEP}]

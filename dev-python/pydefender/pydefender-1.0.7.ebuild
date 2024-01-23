@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/discord-webhook[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/getmac[${PYTHON_USEDEP}]
-	dev-python/pyautogui[${PYTHON_USEDEP}]
+	dev-python/PyAutoGUI[${PYTHON_USEDEP}]
 	dev-python/winregistry[${PYTHON_USEDEP}]
 	dev-python/robloxpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

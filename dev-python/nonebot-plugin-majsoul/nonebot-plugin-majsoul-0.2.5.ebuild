@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
 	dev-python/ssttkkl-nonebot-utils[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
-	dev-python/monthdelta[${PYTHON_USEDEP}]
+	dev-python/MonthDelta[${PYTHON_USEDEP}]
 	dev-python/icmplib[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	dev-python/tensoul[${PYTHON_USEDEP}]"

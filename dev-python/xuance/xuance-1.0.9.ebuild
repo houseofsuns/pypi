@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all mindspore tensorflow torch"
 DEPENDENCIES=">=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/gym-notices[${PYTHON_USEDEP}]

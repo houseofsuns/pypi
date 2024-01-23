@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/prettytable-3.3.0[${PYTHON_USEDEP}]
-	dev-python/ptable[${PYTHON_USEDEP}]
+	dev-python/PTable[${PYTHON_USEDEP}]
 	~dev-python/wcwidth-0.2.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

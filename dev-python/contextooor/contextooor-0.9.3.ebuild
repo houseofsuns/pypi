@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/web3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
-	dev-python/uniswap_universal_router_decoder[${PYTHON_USEDEP}]"
+	dev-python/uniswap-universal-router-decoder[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

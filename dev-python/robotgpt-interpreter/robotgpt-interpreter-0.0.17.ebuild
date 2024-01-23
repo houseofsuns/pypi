@@ -36,7 +36,7 @@ DEPENDENCIES="os? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	os? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
-	os? ( dev-python/pyautogui[${PYTHON_USEDEP}] )
+	os? ( dev-python/PyAutoGUI[${PYTHON_USEDEP}] )
 	os? ( <dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}] )
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]

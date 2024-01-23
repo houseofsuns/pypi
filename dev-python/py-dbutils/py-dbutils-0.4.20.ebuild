@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="libraries to move data between different databases [topver 0.4.28]"
+DESCRIPTION="libraries to move data between different databases [topver 0.4.28, newver 0.4.28]"
 
 HOMEPAGE="https://github.com/hung135/py-dbutils/"
 LICENSE="MIT"

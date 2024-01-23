@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/debtcollector-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/osc-lib-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]

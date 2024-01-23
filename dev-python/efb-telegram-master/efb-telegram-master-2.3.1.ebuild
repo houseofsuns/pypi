@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/ehforwarderbot[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/telethon[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Telethon[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cryptg[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
@@ -52,6 +52,6 @@ DEPENDENCIES="dev-python/ehforwarderbot[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	tgs? ( dev-python/lottie[${PYTHON_USEDEP}] )
-	tgs? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
+	tgs? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

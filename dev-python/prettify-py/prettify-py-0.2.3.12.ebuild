@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/docformatter[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/amarium[${PYTHON_USEDEP}]"

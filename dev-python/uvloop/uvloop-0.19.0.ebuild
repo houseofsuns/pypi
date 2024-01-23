@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( ~dev-python/sphinx-4.1.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-asyncio-0.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pycodestyle-2.9.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
-	test? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	test? ( <dev-python/cython-0.30.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/conda-souschef[${PYTHON_USEDEP}] )

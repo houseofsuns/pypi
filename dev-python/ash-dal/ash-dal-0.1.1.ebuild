@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aiomysql[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]"

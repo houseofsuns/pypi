@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/mss[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pytesseract[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

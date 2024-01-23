@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/keyring-25.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/blake3-0.4.0[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]"
+	<dev-python/PyGithub-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

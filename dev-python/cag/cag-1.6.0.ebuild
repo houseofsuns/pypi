@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/spacy_arguing_lexicon[${PYTHON_USEDEP}]
+	dev-python/spacy-arguing-lexicon[${PYTHON_USEDEP}]
 	dev-python/empath[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.1.2[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.5[${PYTHON_USEDEP}]

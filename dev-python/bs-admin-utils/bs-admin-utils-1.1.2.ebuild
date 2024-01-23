@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Blacksheep admin backend utils classes and function. [topver 1.1.7]"
+DESCRIPTION="Blacksheep admin backend utils classes and function. [topver 1.1.7, newver 1.1.7]"
 
 HOMEPAGE=""
 LICENSE=""

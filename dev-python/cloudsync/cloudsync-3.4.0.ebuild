@@ -27,7 +27,7 @@ IUSE="all box boxcom dropbox gdrive onedrive"
 DEPENDENCIES="~dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
 	dev-python/pystrict[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
+	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
 	dev-python/python-daemon[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]

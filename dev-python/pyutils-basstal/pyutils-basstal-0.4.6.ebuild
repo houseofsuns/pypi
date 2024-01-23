@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/charade[${PYTHON_USEDEP}]
-	dev-python/semantic_version[${PYTHON_USEDEP}]
+	dev-python/semantic-version[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

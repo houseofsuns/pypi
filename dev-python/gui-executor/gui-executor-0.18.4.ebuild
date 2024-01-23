@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES=">=dev-python/rich-13.0[${PYTHON_USEDEP}]
 	dev-python/executor[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	>=dev-python/PyQt5-5.15[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/rich-13.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}]
 	~dev-python/jupyter-core-4.11.1[${PYTHON_USEDEP}]
 	~dev-python/qtconsole-5.4.3[${PYTHON_USEDEP}]
-	test? ( dev-python/faker[${PYTHON_USEDEP}] )
+	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/lorem-text[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

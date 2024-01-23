@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/markdown-3.2[${PYTHON_USEDEP}]
+	dev-python/markupsafe[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/typogrify[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"

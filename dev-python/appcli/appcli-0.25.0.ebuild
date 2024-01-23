@@ -28,18 +28,18 @@ DEPENDENCIES="dev-python/autoprop[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev-python/mako[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/nestedtext[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tidyexc[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autoclasstoc[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	tests? ( dev-python/parametrize_from_file[${PYTHON_USEDEP}] )
+	tests? ( dev-python/parametrize-from-file[${PYTHON_USEDEP}] )
 	tests? ( dev-python/voluptuous[${PYTHON_USEDEP}] )
 	tests? ( dev-python/re-assert[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

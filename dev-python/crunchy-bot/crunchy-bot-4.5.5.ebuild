@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/praw[${PYTHON_USEDEP}]
 	dev-python/prawcore[${PYTHON_USEDEP}]
 	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]"

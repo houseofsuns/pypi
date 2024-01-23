@@ -40,6 +40,6 @@ DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.0.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbsphinx-0.7.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/ipython-7.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

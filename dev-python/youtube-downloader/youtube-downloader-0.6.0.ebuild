@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="youtube-dl GUI simplify [topver 0.6.2]"
+DESCRIPTION="youtube-dl GUI simplify [topver 0.6.2, newver 0.6.2]"
 
 HOMEPAGE="https://www.github.com/blooser/youtube-downloader"
 LICENSE="GPL-3"
@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PySide2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside2[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/youtube-dl[${PYTHON_USEDEP}]"
+	dev-python/youtube_dl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-40.0.1[${PYTHON_USEDEP}]
-	dev-python/nsj_flask_auth[${PYTHON_USEDEP}]
-	dev-python/nsj_gcf_utils[${PYTHON_USEDEP}]
-	dev-python/nsj_rest_lib[${PYTHON_USEDEP}]
+	dev-python/nsj-flask-auth[${PYTHON_USEDEP}]
+	dev-python/nsj-gcf-utils[${PYTHON_USEDEP}]
+	dev-python/nsj-rest-lib[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

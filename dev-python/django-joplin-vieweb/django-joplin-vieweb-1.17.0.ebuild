@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.18.1[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	>=dev-python/pymdown-extensions-8.2[${PYTHON_USEDEP}]
 	dev-python/hyperlink-preview[${PYTHON_USEDEP}]

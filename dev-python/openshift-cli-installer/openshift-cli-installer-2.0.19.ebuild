@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-compute[${PYTHON_USEDEP}]
 	<dev-python/ipdb-0.14.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/openshift-cluster-management-python-wrapper[${PYTHON_USEDEP}]
 	dev-python/openshift-python-utilities[${PYTHON_USEDEP}]
 	dev-python/openshift-python-wrapper[${PYTHON_USEDEP}]

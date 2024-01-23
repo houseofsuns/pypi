@@ -27,7 +27,7 @@ IUSE="async cli docs opt test"
 DEPENDENCIES="dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
@@ -38,12 +38,12 @@ DEPENDENCIES="dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	opt? ( dev-python/filemagic[${PYTHON_USEDEP}] )
-	opt? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+	opt? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
 	opt? ( dev-python/requests-jwt[${PYTHON_USEDEP}] )
 	opt? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/docutils-0.12[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/markupsafe-0.23[${PYTHON_USEDEP}] )
 	test? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-timeout-1.3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-2.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/requires-io[${PYTHON_USEDEP}] )
 	test? ( dev-python/tenacity[${PYTHON_USEDEP}] )

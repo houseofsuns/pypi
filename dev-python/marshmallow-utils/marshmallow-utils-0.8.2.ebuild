@@ -44,6 +44,6 @@ DEPENDENCIES=">=dev-python/arrow-0.16.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/aiobtclientapi[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-66.1[${PYTHON_USEDEP}]
 	dev-python/torf[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

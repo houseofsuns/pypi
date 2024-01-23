@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
 	dev-python/sherpa-client[${PYTHON_USEDEP}]
 	dev-python/collections-extended[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/methodtools[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )

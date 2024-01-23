@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/django-statici18n[${PYTHON_USEDEP}]
 	dev-python/gdaps[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

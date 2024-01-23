@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colt5-attention[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/CoLT5-attention[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/local-attention[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"

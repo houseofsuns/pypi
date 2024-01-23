@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Custom Python Dash Components for Pfizer. [topver 0.3.0]"
+DESCRIPTION="Custom Python Dash Components for Pfizer. [topver 0.3.0, newver 0.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -38,6 +38,6 @@ DEPENDENCIES=">=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/classutils[${PYTHON_USEDEP}]
 	dev-python/timingsutil[${PYTHON_USEDEP}]
 	dev-python/simpil[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-5.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

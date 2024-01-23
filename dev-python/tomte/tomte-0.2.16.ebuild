@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bandit black cli darglint docs flake8 isort liccheck mypy pylint safety tests tox vulture"
-DEPENDENCIES="docs? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( ~dev-python/markdown-3.3.7[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	bandit? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
 	black? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/bs4[${PYTHON_USEDEP}] )

@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="v20200402-02"
+REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quantitative investment tools for KSIF [topver 20200402, badver v20200402-02]"
+DESCRIPTION="Quantitative investment tools for KSIF [newver v20200402-02]"
 
 HOMEPAGE="https://github.com/sangheumcho/ksif"
 LICENSE=""

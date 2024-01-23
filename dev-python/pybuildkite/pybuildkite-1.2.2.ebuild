@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for the Buildkite API [topver 1.2.3]"
+DESCRIPTION="Python wrapper for the Buildkite API [topver 1.2.3, newver 1.2.3]"
 
 HOMEPAGE="https://github.com/pyasi/pybuildkite"
 LICENSE=""

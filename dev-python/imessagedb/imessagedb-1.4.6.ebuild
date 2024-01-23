@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
-	dev-python/heic2png[${PYTHON_USEDEP}]
+	dev-python/HEIC2PNG[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/termcolor-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

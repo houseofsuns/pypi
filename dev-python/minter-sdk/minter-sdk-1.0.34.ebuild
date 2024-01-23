@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/rlp[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyqrcode[${PYTHON_USEDEP}]
+	dev-python/PyQRCode[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

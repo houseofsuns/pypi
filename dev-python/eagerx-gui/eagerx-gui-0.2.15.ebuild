@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/PyQt6-6.5.0[${PYTHON_USEDEP}]
 	dev-python/eagerx[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pyqt6-qt6[${PYTHON_USEDEP}]
+	dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
 	<dev-python/pyqtgraph-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

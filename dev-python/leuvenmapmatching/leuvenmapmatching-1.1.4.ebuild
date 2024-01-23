@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/smopy[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/rtree[${PYTHON_USEDEP}] )
+	all? ( dev-python/Rtree[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	all? ( dev-python/nvector[${PYTHON_USEDEP}] )
 	all? ( dev-python/gpxpy[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	all? ( dev-python/osmread[${PYTHON_USEDEP}] )
 	all? ( dev-python/osmnx[${PYTHON_USEDEP}] )
-	db? ( dev-python/rtree[${PYTHON_USEDEP}] )
+	db? ( dev-python/Rtree[${PYTHON_USEDEP}] )
 	db? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	vis? ( dev-python/smopy[${PYTHON_USEDEP}] )
 	vis? ( >=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}] )"

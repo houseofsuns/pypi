@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/zrb[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/langchain-community[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]
-	dev-python/duckduckgo_search[${PYTHON_USEDEP}]
+	dev-python/duckduckgo-search[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

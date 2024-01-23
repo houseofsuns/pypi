@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/werkzeug[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/furo[${PYTHON_USEDEP}]
-	dev-python/Routes[${PYTHON_USEDEP}]
+	dev-python/routes[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]

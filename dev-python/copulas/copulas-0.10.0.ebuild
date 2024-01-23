@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/plotly-6.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/watchdog-0.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )

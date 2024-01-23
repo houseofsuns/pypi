@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	dev-python/mmengine[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/yapf[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	all? ( dev-python/mmengine[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )

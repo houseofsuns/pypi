@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/unyt[${PYTHON_USEDEP}]
 	dev-python/yt[${PYTHON_USEDEP}]
 	full? ( dev-python/dask[${PYTHON_USEDEP}] )"

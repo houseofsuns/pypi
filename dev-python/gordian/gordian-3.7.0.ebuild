@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pygithub[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/jsonpatch[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]

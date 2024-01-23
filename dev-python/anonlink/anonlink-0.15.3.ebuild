@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/bitarray-2.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/mypy_extensions-0.4[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

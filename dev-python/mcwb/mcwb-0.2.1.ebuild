@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev include_package_data"
-DEPENDENCIES="include_package_data? ( dev-python/False[${PYTHON_USEDEP}] )
+DEPENDENCIES="include_package_data? ( dev-python/false[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme-github-versions[${PYTHON_USEDEP}] )

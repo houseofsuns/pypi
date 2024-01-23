@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/mako-1.1.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/webtest-1.3.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nose[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

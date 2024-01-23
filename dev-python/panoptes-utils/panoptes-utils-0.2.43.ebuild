@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	config? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	config? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	config? ( dev-python/flask[${PYTHON_USEDEP}] )
+	config? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	config? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	config? ( dev-python/requests[${PYTHON_USEDEP}] )
 	config? ( dev-python/scalpl[${PYTHON_USEDEP}] )

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs optional_io_formats optional_plotting tests tutorials"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/iam-units[${PYTHON_USEDEP}]
 	dev-python/ixmp4[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.0[${PYTHON_USEDEP}]

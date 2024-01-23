@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/rawpy[${PYTHON_USEDEP}]
-	dev-python/exifread[${PYTHON_USEDEP}]
+	dev-python/ExifRead[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/pytest-bdd-6.1.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyHamcrest[${PYTHON_USEDEP}]
+	dev-python/pyhamcrest[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/python-selenium-ctrl-package[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

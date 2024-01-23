@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/jedi-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	>=dev-python/mypy-0.761[${PYTHON_USEDEP}]
 	>=dev-python/asttokens-2.0[${PYTHON_USEDEP}]
-	dev-python/Send2Trash[${PYTHON_USEDEP}]
+	>=dev-python/send2trash-1.5[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

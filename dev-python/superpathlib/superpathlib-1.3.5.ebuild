@@ -31,13 +31,13 @@ DEPENDENCIES="dev-python/simple-classproperty[${PYTHON_USEDEP}]
 	full? ( dev-python/dirhash[${PYTHON_USEDEP}] )
 	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyYaml[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	full? ( dev-python/xattr[${PYTHON_USEDEP}] )
 	test? ( dev-python/dirhash[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYaml[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/xattr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

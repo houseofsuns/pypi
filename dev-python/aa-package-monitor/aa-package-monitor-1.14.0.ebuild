@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/allianceauth[${PYTHON_USEDEP}]
 	dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

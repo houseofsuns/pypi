@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/json5[${PYTHON_USEDEP}]
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/webtest-1.3.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

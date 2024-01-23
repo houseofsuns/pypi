@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/luigi[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-2.1.11[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-2.1.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/retry2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

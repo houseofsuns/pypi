@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs optional test"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.1.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/python-socks[${PYTHON_USEDEP}] )
 	optional? ( dev-python/wsaccel[${PYTHON_USEDEP}] )

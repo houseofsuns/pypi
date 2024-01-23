@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]
-	dev-python/pysdl2[${PYTHON_USEDEP}]"
+	dev-python/PySDL2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

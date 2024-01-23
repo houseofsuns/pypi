@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library implementing a number of Privacy Enhancing Technologies (PETs)"
+DESCRIPTION="A library implementing a number of Privacy Enhancing Technologies (PETs) [newver 0.0.44]"
 
 HOMEPAGE="https://pypi.python.org/pypi/petlib/"
 LICENSE="2-clause BSD"

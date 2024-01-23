@@ -33,13 +33,13 @@ DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	test? ( dev-python/atomman[${PYTHON_USEDEP}] )
 	test? ( dev-python/ovito[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst_nb[${PYTHON_USEDEP}] )
+	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nglview[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/atomman[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ovito[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cache-memory jwt matrix-synapse-ldap3 oidc opentracing postgres redis saml2 sentry systemd test url-preview user-search"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	cache-memory? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pympler[${PYTHON_USEDEP}] )
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	>=dev-python/twisted-18.9.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
-	oidc? ( dev-python/authlib[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/authlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/authlib[${PYTHON_USEDEP}] )
+	oidc? ( dev-python/Authlib[${PYTHON_USEDEP}] )
+	jwt? ( dev-python/Authlib[${PYTHON_USEDEP}] )
+	all? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	>=dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
 	>=dev-python/bleach-1.4.3[${PYTHON_USEDEP}]
 	<dev-python/canonicaljson-3.0.0[${PYTHON_USEDEP}]
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	all? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2cffi-compat[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2cffi-compat[${PYTHON_USEDEP}] )
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-16.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-0.1.9[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-modules-0.0.7[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	sentry? ( >=dev-python/sentry-sdk-0.7.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sentry-sdk-0.7.2[${PYTHON_USEDEP}] )
 	>=dev-python/service-identity-18.1.0[${PYTHON_USEDEP}]
-	dev-python/setuptools_rust[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-rust-1.3[${PYTHON_USEDEP}]
 	<dev-python/signedjson-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sortedcontainers-1.5.2[${PYTHON_USEDEP}]
 	systemd? ( dev-python/systemd-python[${PYTHON_USEDEP}] )

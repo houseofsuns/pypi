@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-basic-ng-1.0.0[${PYTHON_USEDEP}]
 	dev-python/base32-lib[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-oauthlib-2.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.3.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )

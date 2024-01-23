@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-mpl-0.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ghostscript[${PYTHON_USEDEP}] )
 	dev? ( dev-python/opencv-python[${PYTHON_USEDEP}] )

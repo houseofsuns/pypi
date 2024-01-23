@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Get school holiday dates for metropolitan France [topver 0.10.0]"
+DESCRIPTION="Get school holiday dates for metropolitan France [topver 0.10.0, newver 0.10.0]"
 
 HOMEPAGE="https://github.com/AntoineAugusti/vacances-scolaires-france"
 LICENSE="MIT"

@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/fs-2.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.9[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-autodoc-typehints-1.21[${PYTHON_USEDEP}] )
 	dev? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/setuptools-65.0[${PYTHON_USEDEP}] )

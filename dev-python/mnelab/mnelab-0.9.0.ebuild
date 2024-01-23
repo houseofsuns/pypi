@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev full"
 DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
+	>=dev-python/pyside6-6.6.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]

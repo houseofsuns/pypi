@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/betterdata[${PYTHON_USEDEP}]
 	dev-python/easyselect[${PYTHON_USEDEP}]
 	dev-python/gmanka-yml[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/pyrogram[${PYTHON_USEDEP}]
+	dev-python/Pyrogram[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tgcrypto[${PYTHON_USEDEP}]"
+	dev-python/TgCrypto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

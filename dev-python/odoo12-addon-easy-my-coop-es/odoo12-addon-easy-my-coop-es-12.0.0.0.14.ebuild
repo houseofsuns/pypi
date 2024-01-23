@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easy My Coop localization for Spain [topver 12.0.0.0.16.99]"
+DESCRIPTION="Easy My Coop localization for Spain [topver 12.0.0.0.16.99, newver 12.0.0.0.16.99.dev9]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

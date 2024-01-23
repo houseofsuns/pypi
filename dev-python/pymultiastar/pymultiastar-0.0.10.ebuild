@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	geo? ( >=dev-python/pyproj-3.0[${PYTHON_USEDEP}] )
 	geo? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyproj-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-autorefs-0.3.1[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymultiastar[${PYTHON_USEDEP}] )"

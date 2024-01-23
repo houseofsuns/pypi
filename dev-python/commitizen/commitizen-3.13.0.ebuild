@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/questionary[${PYTHON_USEDEP}]
 	<dev-python/termcolor-3.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.8[${PYTHON_USEDEP}]
 	<dev-python/argcomplete-3.2[${PYTHON_USEDEP}]
 	<dev-python/charset-normalizer-4.0[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
+	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

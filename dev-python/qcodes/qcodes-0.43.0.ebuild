@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/broadbean[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-azure[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
-	dev-python/pyvisa[${PYTHON_USEDEP}]
+	dev-python/PyVISA[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/broadbean[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.16.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyVisa-sim[${PYTHON_USEDEP}] )
+	docs? ( dev-python/PyVISA-sim[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-6.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/broadbean[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-mock-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-2.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyVisa-sim[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyVISA-sim[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )

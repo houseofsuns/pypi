@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
-	dev-python/pysocks[${PYTHON_USEDEP}]
+	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
 	<dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/pymediainfo-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.4.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

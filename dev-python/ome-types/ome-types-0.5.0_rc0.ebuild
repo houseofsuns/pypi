@@ -37,15 +37,15 @@ DEPENDENCIES="test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
 	lxml? ( >=dev-python/lxml-4.8.0[${PYTHON_USEDEP}] )
-	pint? ( dev-python/pint[${PYTHON_USEDEP}] )
+	pint? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pint[${PYTHON_USEDEP}] )
+	test? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-codspeed[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
 	test? ( <dev-python/xmlschema-2.5[${PYTHON_USEDEP}] )
 	test-qt? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test-qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )"
+	test-qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

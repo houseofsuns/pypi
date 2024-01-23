@@ -31,14 +31,14 @@ DEPENDENCIES="dev-python/basemap-data[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	doc? ( <dev-python/scipy-1.12[${PYTHON_USEDEP}] )
-	doc? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/netcdf4-1.7.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/cftime-1.7.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/furo-2023.9.11[${PYTHON_USEDEP}] )
 	lint? ( <dev-python/flake8-6.2[${PYTHON_USEDEP}] )
 	lint? ( <dev-python/astroid-3.1[${PYTHON_USEDEP}] )
 	lint? ( <dev-python/pylint-3.1[${PYTHON_USEDEP}] )
-	owslib? ( dev-python/OWSLib[${PYTHON_USEDEP}] )
+	owslib? ( <dev-python/owslib-0.30.0[${PYTHON_USEDEP}] )
 	pillow? ( <dev-python/pillow-10.2.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )

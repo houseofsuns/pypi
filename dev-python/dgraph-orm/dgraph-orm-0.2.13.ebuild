@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

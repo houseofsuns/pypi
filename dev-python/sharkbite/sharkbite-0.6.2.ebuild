@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Apache Accumulo and Apache HDFS Python Connector [topver 1.2.0.3]"
+DESCRIPTION="Apache Accumulo and Apache HDFS Python Connector [topver 1.2.0.3, newver 1.2.0.3]"
 
 HOMEPAGE="https://docs.sharkbite.io/"
 LICENSE=""

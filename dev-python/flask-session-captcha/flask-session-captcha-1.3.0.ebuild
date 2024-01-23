@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/captcha[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]"
+	dev-python/flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

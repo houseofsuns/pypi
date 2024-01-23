@@ -63,11 +63,11 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	testing? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	testing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	testing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/jaraco-test-5.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	viewer? ( >=dev-python/cherrypy-3.2.3[${PYTHON_USEDEP}] )
-	viewer? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
+	viewer? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

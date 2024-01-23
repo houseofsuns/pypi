@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="auto-captcha"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pysocks[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/stem[${PYTHON_USEDEP}]
 	dev-python/cloudscraper[${PYTHON_USEDEP}]
 	auto-captcha? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"

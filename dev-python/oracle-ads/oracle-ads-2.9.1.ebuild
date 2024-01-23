@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bds boosted data forecast geo huggingface llm notebook onnx opctl optuna pii spark tensorflow text torch viz"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/asteval-0.9.25[${PYTHON_USEDEP}]
 	>=dev-python/cerberus-1.3.4[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}]
 	<dev-python/fsspec-2023.9.1[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev-python/oci[${PYTHON_USEDEP}]
 	dev-python/ocifs[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
-	dev-python/python_jsonschema_objects[${PYTHON_USEDEP}]
+	dev-python/python-jsonschema-objects[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	forecast? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	forecast? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	geo? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	geo? ( dev-python/oracle_ads[${PYTHON_USEDEP}] )
+	geo? ( dev-python/oracle-ads[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	llm? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	llm? ( dev-python/evaluate[${PYTHON_USEDEP}] )
@@ -87,7 +87,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnxmltools[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	onnx? ( dev-python/oracle_ads[${PYTHON_USEDEP}] )
+	onnx? ( dev-python/oracle-ads[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/tf2onnx[${PYTHON_USEDEP}] )
@@ -101,23 +101,23 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	opctl? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
 	opctl? ( dev-python/rich[${PYTHON_USEDEP}] )
 	optuna? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	optuna? ( dev-python/oracle_ads[${PYTHON_USEDEP}] )
+	optuna? ( dev-python/oracle-ads[${PYTHON_USEDEP}] )
 	pii? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	pii? ( dev-python/datapane[${PYTHON_USEDEP}] )
-	pii? ( dev-python/gender_guesser[${PYTHON_USEDEP}] )
+	pii? ( dev-python/gender-guesser[${PYTHON_USEDEP}] )
 	pii? ( dev-python/nameparser[${PYTHON_USEDEP}] )
-	pii? ( dev-python/oracle_ads[${PYTHON_USEDEP}] )
+	pii? ( dev-python/oracle-ads[${PYTHON_USEDEP}] )
 	pii? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	pii? ( dev-python/scrubadub[${PYTHON_USEDEP}] )
-	pii? ( dev-python/scrubadub_spacy[${PYTHON_USEDEP}] )
+	pii? ( dev-python/scrubadub-spacy[${PYTHON_USEDEP}] )
 	pii? ( dev-python/spacy-transformers[${PYTHON_USEDEP}] )
 	pii? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/oracle_ads[${PYTHON_USEDEP}] )
+	tensorflow? ( dev-python/oracle-ads[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	text? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	text? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
-	torch? ( dev-python/oracle_ads[${PYTHON_USEDEP}] )
+	torch? ( dev-python/oracle-ads[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	viz? ( dev-python/bokeh[${PYTHON_USEDEP}] )

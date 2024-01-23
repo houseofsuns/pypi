@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/sphinx-6.0.0[${PYTHON_USEDEP}]
-	dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]"
+	<dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="celery dev django flask gevent gunicorn pg prometheus raven"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
 	<dev-python/statsd-4.0[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/logging-tree[${PYTHON_USEDEP}] )
+	dev? ( dev-python/logging_tree[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pygments-2.11[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/psutil-5.9[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/objgraph-3.5[${PYTHON_USEDEP}] )

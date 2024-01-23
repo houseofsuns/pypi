@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy_utils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-2.0.12[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.10.4[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/sentry-sdk-1.25.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

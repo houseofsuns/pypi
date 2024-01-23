@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	dev-python/pyjwt[${PYTHON_USEDEP}]
+	testing? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-freezegun[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

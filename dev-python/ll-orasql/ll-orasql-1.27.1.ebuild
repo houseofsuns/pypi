@@ -16,8 +16,8 @@ DESCRIPTION="Utilities for working with cx_Oracle"
 
 HOMEPAGE="http://www.livinglogic.de/Python/orasql/"
 LICENSE="PYTHON"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 
 SLOT="0"

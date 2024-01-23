@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/markdown-3.3.5[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/diffsync[${PYTHON_USEDEP}]
 	dev-python/nautobot[${PYTHON_USEDEP}]

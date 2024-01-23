@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/ietf-comments-engine[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )"

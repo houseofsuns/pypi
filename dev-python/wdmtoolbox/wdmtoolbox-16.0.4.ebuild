@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/cltoolbox[${PYTHON_USEDEP}]
-	dev-python/toolbox_utils[${PYTHON_USEDEP}]
+	dev-python/toolbox-utils[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]

@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-direct[${PYTHON_USEDEP}] )
 	h5py? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	h5py? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/esda[${PYTHON_USEDEP}]
 	dev-python/libpysal[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/esda[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	nb_conda? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	nb_conda? ( dev-python/matplotlib-scalebar[${PYTHON_USEDEP}] )
-	nb_conda? ( dev-python/pulp[${PYTHON_USEDEP}] )
+	nb_conda? ( dev-python/PuLP[${PYTHON_USEDEP}] )
 	nb_conda? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	nb_conda? ( dev-python/splot[${PYTHON_USEDEP}] )
 	nb_conda? ( dev-python/watermark[${PYTHON_USEDEP}] )

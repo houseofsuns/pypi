@@ -28,6 +28,6 @@ DEPENDENCIES="testing? ( >=dev-python/astroid-2.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

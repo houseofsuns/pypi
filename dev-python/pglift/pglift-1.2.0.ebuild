@@ -68,6 +68,6 @@ DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	typing? ( >=dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	typing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"
+	typing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

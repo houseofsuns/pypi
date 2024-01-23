@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )"

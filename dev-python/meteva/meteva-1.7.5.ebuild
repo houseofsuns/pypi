@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.4.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.10.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]

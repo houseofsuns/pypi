@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/catboost[${PYTHON_USEDEP}]
-	dev-python/Chaid[${PYTHON_USEDEP}]
+	dev-python/CHAID[${PYTHON_USEDEP}]
 	dev-python/combo[${PYTHON_USEDEP}]
 	dev-python/dask-ml[${PYTHON_USEDEP}]
 	dev-python/easyexplore[${PYTHON_USEDEP}]

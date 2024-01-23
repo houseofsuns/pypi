@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-3.2.23[${PYTHON_USEDEP}]
 	dev-python/django-tagging[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	~dev-python/python-debian-0.1.49[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]

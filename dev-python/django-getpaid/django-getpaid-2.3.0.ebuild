@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/django-model-utils[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-django-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
 	test? ( <dev-python/asgiref-4.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-0.6.0[${PYTHON_USEDEP}] )
 	graph? ( <dev-python/graphviz-0.17[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

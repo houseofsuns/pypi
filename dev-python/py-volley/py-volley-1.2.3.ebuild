@@ -34,7 +34,7 @@ DEPENDENCIES="all? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/PyRSMQ[${PYTHON_USEDEP}] )
 	rsmq? ( dev-python/PyRSMQ[${PYTHON_USEDEP}] )
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}] )
 	zmq? ( >=dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}] )
 	<dev-python/starlette-1.0[${PYTHON_USEDEP}]

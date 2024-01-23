@@ -27,7 +27,7 @@ IUSE="publish"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/fake-user-agent[${PYTHON_USEDEP}]
+	dev-python/fake_user_agent[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	publish? ( dev-python/flit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cdk powertools"
 DEPENDENCIES="cdk? ( dev-python/aws-cdk-core[${PYTHON_USEDEP}] )
-	cdk? ( dev-python/aws-cdk-aws_events[${PYTHON_USEDEP}] )
-	cdk? ( dev-python/aws-cdk-aws_events_targets[${PYTHON_USEDEP}] )
-	cdk? ( dev-python/aws-cdk-aws_lambda_python[${PYTHON_USEDEP}] )
-	cdk? ( dev-python/aws-cdk-aws_stepfunctions_tasks[${PYTHON_USEDEP}] )
+	cdk? ( dev-python/aws-cdk-aws-events[${PYTHON_USEDEP}] )
+	cdk? ( dev-python/aws-cdk-aws-events-targets[${PYTHON_USEDEP}] )
+	cdk? ( dev-python/aws-cdk-aws-lambda-python[${PYTHON_USEDEP}] )
+	cdk? ( dev-python/aws-cdk-aws-stepfunctions-tasks[${PYTHON_USEDEP}] )
 	powertools? ( dev-python/aws-lambda-powertools[${PYTHON_USEDEP}] )
 	powertools? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

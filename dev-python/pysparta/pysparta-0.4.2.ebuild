@@ -29,12 +29,12 @@ DEPENDENCIES="dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/chispa[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	>=dev-python/pytest-3.2.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.942[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docstr-coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

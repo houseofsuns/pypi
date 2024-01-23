@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	dev-python/biopandas[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/pyvtk[${PYTHON_USEDEP}]
+	dev-python/PyVTK[${PYTHON_USEDEP}]
 	dev-python/open3d[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
 	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

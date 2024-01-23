@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The ngrok Agent SDK for Python [topver 0.2.1]"
+DESCRIPTION="The ngrok Agent SDK for Python [topver 0.2.1, newver 0.2.1]"
 
 HOMEPAGE="https://ngrok.com"
 LICENSE="MIT OR Apache-2.0"

@@ -28,12 +28,12 @@ DEPENDENCIES=">=dev-python/arrow-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/bleach-3.1.0[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

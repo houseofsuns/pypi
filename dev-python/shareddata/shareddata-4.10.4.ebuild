@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shared Memory Database with S3 repository [topver 4.30.5]"
+DESCRIPTION="Shared Memory Database with S3 repository [topver 4.30.5, newver 4.30.5]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/ipykernel-6.23.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	~dev-python/xlsxwriter-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]

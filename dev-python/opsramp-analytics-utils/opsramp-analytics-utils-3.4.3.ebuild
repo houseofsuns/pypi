@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/boto3-1.17.51[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.0.1[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

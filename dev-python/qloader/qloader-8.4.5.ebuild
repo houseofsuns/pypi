@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/imagehash[${PYTHON_USEDEP}]"
+	dev-python/ImageHash[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

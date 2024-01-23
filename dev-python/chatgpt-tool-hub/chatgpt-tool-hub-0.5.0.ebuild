@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/pyqrcode[${PYTHON_USEDEP}]
+	dev-python/PyQRCode[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/wikipedia[${PYTHON_USEDEP}]
 	dev-python/wolframalpha[${PYTHON_USEDEP}]"

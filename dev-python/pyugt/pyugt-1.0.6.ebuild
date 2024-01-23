@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PILLOW[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-6.1.0[${PYTHON_USEDEP}]
 	dev-python/keyboard[${PYTHON_USEDEP}]
 	>=dev-python/mss-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytesseract-0.3.3[${PYTHON_USEDEP}]

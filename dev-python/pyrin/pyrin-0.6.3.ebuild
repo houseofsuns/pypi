@@ -27,14 +27,14 @@ IUSE="celery docs memcached redis sentry tests"
 DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/flask-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.20[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
 	~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	~dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.6.5[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
@@ -51,14 +51,14 @@ DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	tests? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flask-2.0.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pyjwt-2.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sqlalchemy-1.4.20[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/colorama-0.4.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/cryptography-3.4.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/babel[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/Babel-2.9.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/alembic-1.6.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fire[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}] )

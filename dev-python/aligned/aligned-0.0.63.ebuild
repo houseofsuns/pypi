@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
 	server? ( dev-python/asgi-correlation-id[${PYTHON_USEDEP}] )
 	pandera? ( dev-python/pandera[${PYTHON_USEDEP}] )
 	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]

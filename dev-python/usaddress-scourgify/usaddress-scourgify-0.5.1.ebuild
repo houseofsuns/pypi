@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Clean US addresses following USPS pub 28 and RESO guidelines [topver 0.6.0]"
+DESCRIPTION="Clean US addresses following USPS pub 28 and RESO guidelines [topver 0.6.0, newver 0.6.0]"
 
 HOMEPAGE="https://github.com/GreenBuildingRegistry/usaddress-scourgify"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Point One FusionEngine Library"
+DESCRIPTION="Point One FusionEngine Library [newver 1.22.7rc2]"
 
 HOMEPAGE="https://github.com/PointOneNav/fusion-engine-client"
 LICENSE="MIT"

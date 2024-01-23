@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
 	dev-python/misaka[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-1.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

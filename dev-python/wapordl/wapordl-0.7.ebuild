@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/gdal[${PYTHON_USEDEP}]
+	dev-python/GDAL[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

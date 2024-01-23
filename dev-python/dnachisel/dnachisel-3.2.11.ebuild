@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="reports tests"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Biopython[${PYTHON_USEDEP}]
+	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/proglog[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/flametree[${PYTHON_USEDEP}]

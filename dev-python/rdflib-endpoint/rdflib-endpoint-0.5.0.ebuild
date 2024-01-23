@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-click[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
 	web? ( dev-python/gunicorn[${PYTHON_USEDEP}] )

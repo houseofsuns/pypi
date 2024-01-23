@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/h5py-3.10.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22[${PYTHON_USEDEP}]
-	dev-python/opennmt-py[${PYTHON_USEDEP}]
+	dev-python/OpenNMT-py[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]"

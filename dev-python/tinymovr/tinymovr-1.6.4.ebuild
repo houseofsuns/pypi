@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/python-can[${PYTHON_USEDEP}]
 	dev-python/python-can-canine[${PYTHON_USEDEP}]
 	dev-python/python-can-slcan-disco[${PYTHON_USEDEP}]
-	dev-python/avlos[${PYTHON_USEDEP}]
+	dev-python/Avlos[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gui? ( >=dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

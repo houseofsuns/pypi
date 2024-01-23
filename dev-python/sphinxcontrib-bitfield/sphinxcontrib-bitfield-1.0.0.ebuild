@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="latex"
 DEPENDENCIES="dev-python/bit-field[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-0.6[${PYTHON_USEDEP}]
 	latex? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

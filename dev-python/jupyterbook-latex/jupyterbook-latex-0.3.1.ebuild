@@ -34,8 +34,8 @@ DEPENDENCIES="<dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	testing? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
+	testing? ( dev-python/sphinx_external_toc[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/sphinxcontrib-bibtex-2.3.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/texsoup[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/TexSoup[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

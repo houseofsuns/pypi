@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast, Extensible Progress Meter (tqdm) For Django [topver 1.3.1]"
+DESCRIPTION="Fast, Extensible Progress Meter (tqdm) For Django [topver 1.3.1, newver 1.3.1]"
 
 HOMEPAGE="https://github.com/desecho/django-tqdm"
 LICENSE="MIT"
@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/tqdm-4.11.2[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	>=dev-python/django-1.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command line utility for authenticating with public clouds. [topver 2.1.13]"
+DESCRIPTION="Command line utility for authenticating with public clouds. [topver 2.1.13, newver 2.1.13]"
 
 HOMEPAGE="https://bitbucket.org/atlassian/cloudtoken/"
 LICENSE="Apache-2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all awscli"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.12[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	>=dev-python/keyring-8.7[${PYTHON_USEDEP}]
 	>=dev-python/keyrings-alt-2.2[${PYTHON_USEDEP}]

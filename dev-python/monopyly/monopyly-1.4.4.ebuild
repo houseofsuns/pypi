@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/authanor[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fuisce[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]

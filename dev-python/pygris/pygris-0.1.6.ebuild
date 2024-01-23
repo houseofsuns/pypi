@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	explore? ( dev-python/mapclassify[${PYTHON_USEDEP}] )
 	explore? ( dev-python/ipyleaflet[${PYTHON_USEDEP}] )
 	explore? ( dev-python/folium[${PYTHON_USEDEP}] )"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/python-qpid-proton[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	docs? ( dev-python/python-qpid-proton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-qpid-proton[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
 	test? ( <dev-python/astroid-1.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-0.501[${PYTHON_USEDEP}] )

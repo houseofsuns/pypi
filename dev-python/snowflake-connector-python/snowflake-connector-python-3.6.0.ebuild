@@ -27,7 +27,7 @@ IUSE="development pandas secure-local-storage"
 DEPENDENCIES="<dev-python/asn1crypto-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	<dev-python/pyopenssl-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/asn1crypto-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
-	development? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	development? ( dev-python/cython[${PYTHON_USEDEP}] )
 	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	development? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
 	development? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )

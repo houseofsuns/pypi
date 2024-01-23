@@ -34,18 +34,18 @@ DEPENDENCIES="~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	app? ( dev-python/uiautomator2[${PYTHON_USEDEP}] )
 	app? ( dev-python/tidevice[${PYTHON_USEDEP}] )
 	app? ( dev-python/facebook-wda[${PYTHON_USEDEP}] )
 	app? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	app? ( dev-python/easyocr[${PYTHON_USEDEP}] )
-	app? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	app? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
 	app? ( ~dev-python/filelock-3.12.2[${PYTHON_USEDEP}] )
 	encrypt? ( ~dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}] )
 	excel? ( ~dev-python/pandas-1.3.4[${PYTHON_USEDEP}] )
 	excel? ( ~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
-	excel? ( dev-python/XlsxWriter[${PYTHON_USEDEP}] )
+	excel? ( ~dev-python/xlsxwriter-3.0.2[${PYTHON_USEDEP}] )
 	pc? ( dev-python/PyAutoGUI[${PYTHON_USEDEP}] )
 	pc? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	web? ( dev-python/playwright[${PYTHON_USEDEP}] )

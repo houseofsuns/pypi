@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/infinity[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-2.2.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pygments-1.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-2.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

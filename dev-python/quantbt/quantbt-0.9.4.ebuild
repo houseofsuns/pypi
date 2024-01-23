@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/python-binance[${PYTHON_USEDEP}]
-	dev-python/quantstats[${PYTHON_USEDEP}]
+	dev-python/QuantStats[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-tools? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
-	mkdocs? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
+	mkdocs? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
 	dev-tools? ( dev-python/pandas-ta[${PYTHON_USEDEP}] )
 	tools? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pytest-watcher[${PYTHON_USEDEP}] )

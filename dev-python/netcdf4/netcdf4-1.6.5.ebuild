@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	tests? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	tests? ( dev-python/cython[${PYTHON_USEDEP}] )
 	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

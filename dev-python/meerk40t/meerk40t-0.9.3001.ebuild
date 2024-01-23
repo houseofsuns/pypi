@@ -27,14 +27,14 @@ IUSE="all cam camhead dxf gui"
 DEPENDENCIES=">=dev-python/pyusb-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/wxPython[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/wxpython-4.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-7.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	all? ( dev-python/ezdxf[${PYTHON_USEDEP}] )
 	cam? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	camhead? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dxf? ( dev-python/ezdxf[${PYTHON_USEDEP}] )
-	gui? ( dev-python/wxPython[${PYTHON_USEDEP}] )
-	gui? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	gui? ( >=dev-python/wxpython-4.0.0[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pillow-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

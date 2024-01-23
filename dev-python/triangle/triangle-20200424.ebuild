@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python binding to the triangle library [topver 20230923]"
+DESCRIPTION="Python binding to the triangle library [topver 20230923, newver 20230923]"
 
 HOMEPAGE="https://rufat.be/triangle"
 LICENSE="LGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast simple 1D and 2D histograms [topver 0.12]"
+DESCRIPTION="Fast simple 1D and 2D histograms [topver 0.12, newver 0.12]"
 
 HOMEPAGE="https://github.com/astrofrog/fast-histogram"
 LICENSE="BSD"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sdd"
-DEPENDENCIES="dev-python/pysmt[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PySMT[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/pysmt[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
-	sdd? ( dev-python/pysdd[${PYTHON_USEDEP}] )"
+	sdd? ( dev-python/PySDD[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

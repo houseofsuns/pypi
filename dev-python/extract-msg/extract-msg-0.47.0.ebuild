@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/olefile-0.47[${PYTHON_USEDEP}]
 	all? ( dev-python/extract-msg[${PYTHON_USEDEP}] )
 	all? ( dev-python/extract-msg[${PYTHON_USEDEP}] )
 	encoding? ( <dev-python/chardet-6.0[${PYTHON_USEDEP}] )
-	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	image? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	mime? ( <dev-python/python-magic-0.5[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

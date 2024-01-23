@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/manim[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]

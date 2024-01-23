@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/toelis[${PYTHON_USEDEP}]
 	dev-python/libtfr[${PYTHON_USEDEP}]
 	dev-python/ewave[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/samplerate[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

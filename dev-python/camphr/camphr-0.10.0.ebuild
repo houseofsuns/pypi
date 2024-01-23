@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pytokenizations[${PYTHON_USEDEP}]
 	dev-python/dataclass-utils[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	sentencepiece? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	all? ( dev-python/mojimoji[${PYTHON_USEDEP}] )

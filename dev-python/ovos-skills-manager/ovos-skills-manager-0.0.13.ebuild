@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
 	dev-python/pako[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/click-default-group-1.2.2[${PYTHON_USEDEP}]"

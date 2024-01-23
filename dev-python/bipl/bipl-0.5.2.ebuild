@@ -38,8 +38,8 @@ DEPENDENCIES="dev-python/glow[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/typing-extensions-4.6[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/flake8-pie[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/flake8-pyi[${PYTHON_USEDEP}] )
-	dev-core? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
-	dev-core? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	dev-core? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
+	dev-core? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	dev-core? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev-core? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
@@ -48,6 +48,6 @@ DEPENDENCIES="dev-python/glow[${PYTHON_USEDEP}]
 	dev-core? ( ~dev-python/yapf-0.40.2[${PYTHON_USEDEP}] )
 	dev-wemake? ( dev-python/bipl[${PYTHON_USEDEP}] )
 	dev-wemake? ( dev-python/wemake-python-styleguide[${PYTHON_USEDEP}] )
-	gdal? ( dev-python/gdal[${PYTHON_USEDEP}] )"
+	gdal? ( dev-python/GDAL[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

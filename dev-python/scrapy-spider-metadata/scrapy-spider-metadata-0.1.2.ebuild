@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/packaging-14.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]"
+	dev-python/Scrapy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

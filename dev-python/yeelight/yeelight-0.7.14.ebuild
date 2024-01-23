@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

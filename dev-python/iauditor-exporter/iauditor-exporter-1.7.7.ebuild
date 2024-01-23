@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all_db mysql postgres sql"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.4[${PYTHON_USEDEP}]
 	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	all_db? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all_db? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	sql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	dev-python/python_dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.2[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	<dev-python/rich-5.0.0[${PYTHON_USEDEP}]

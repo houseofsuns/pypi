@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/solara[${PYTHON_USEDEP}]
 	all? ( dev-python/solara-enterprise[${PYTHON_USEDEP}] )
 	all? ( dev-python/solara-enterprise[${PYTHON_USEDEP}] )
 	all? ( dev-python/solara-enterprise[${PYTHON_USEDEP}] )
-	auth? ( dev-python/authlib[${PYTHON_USEDEP}] )
+	auth? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	auth? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	auth? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
 	cache? ( dev-python/diskcache[${PYTHON_USEDEP}] )

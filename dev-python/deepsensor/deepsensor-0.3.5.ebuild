@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/neuralprocesses[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/NeuralProcesses[${PYTHON_USEDEP}]
 	dev-python/backends-matrix[${PYTHON_USEDEP}]
 	dev-python/backends[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

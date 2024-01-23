@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/appdirs-1.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	dev-python/stringly[${PYTHON_USEDEP}]
 	dev-python/treelog[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	export_mpl? ( >=dev-python/matplotlib-1.3[${PYTHON_USEDEP}] )
 	export_mpl? ( >dev-python/pillow-2.6[${PYTHON_USEDEP}] )
 	import_gmsh? ( dev-python/meshio[${PYTHON_USEDEP}] )

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/cachetools-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/pika-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-24.0.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/sdnotify[${PYTHON_USEDEP}]
 	~dev-python/pymongo-3.7.2[${PYTHON_USEDEP}]
-	dev-python/uPnPClient[${PYTHON_USEDEP}]
+	dev-python/upnpclient[${PYTHON_USEDEP}]
 	~dev-python/pylint-2.1.1[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	~dev-python/redis-3.5.0[${PYTHON_USEDEP}]

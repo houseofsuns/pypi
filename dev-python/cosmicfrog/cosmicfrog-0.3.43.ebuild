@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-azure[${PYTHON_USEDEP}]
 	dev-python/optilogic[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

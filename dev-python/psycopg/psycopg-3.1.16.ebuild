@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PostgreSQL database adapter for Python [topver 3.1.17]"
+DESCRIPTION="PostgreSQL database adapter for Python [topver 3.1.17, newver 3.1.17]"
 
 HOMEPAGE="https://psycopg.org/psycopg3/"
 LICENSE="GNU Lesser General Public License v3 LGPLv3"
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/types-setuptools-57.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.37[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.12[${PYTHON_USEDEP}] )

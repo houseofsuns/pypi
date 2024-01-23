@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs fontval fontwerk googlefonts iso15008 notofonts shaping typenetwork ufo-sources"
 DEPENDENCIES="dev-python/babelfont[${PYTHON_USEDEP}]
-	dev-python/fontTools[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}]
 	>dev-python/freetype-py-2.4.0[${PYTHON_USEDEP}]
 	dev-python/opentypespec[${PYTHON_USEDEP}]
 	dev-python/opentype-sanitizer[${PYTHON_USEDEP}]
 	dev-python/munkres[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/cmarkgfm[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/babelfont[${PYTHON_USEDEP}]
 	all? ( >=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/vharfbuzz[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	all? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/collidoscope[${PYTHON_USEDEP}] )
 	all? ( dev-python/stringbrewer[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/babelfont[${PYTHON_USEDEP}]
 	all? ( dev-python/dehinter[${PYTHON_USEDEP}] )
 	all? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-1.4[${PYTHON_USEDEP}] )
-	all? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/shaperglot[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-1.4[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/babelfont[${PYTHON_USEDEP}]
 	fontwerk? ( >=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
 	fontwerk? ( dev-python/dehinter[${PYTHON_USEDEP}] )
 	fontwerk? ( dev-python/font-v[${PYTHON_USEDEP}] )
-	fontwerk? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	fontwerk? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	fontwerk? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	fontwerk? ( dev-python/vharfbuzz[${PYTHON_USEDEP}] )
 	fontwerk? ( dev-python/axisregistry[${PYTHON_USEDEP}] )
@@ -79,12 +79,12 @@ DEPENDENCIES="dev-python/babelfont[${PYTHON_USEDEP}]
 	fontwerk? ( dev-python/ufo2ft[${PYTHON_USEDEP}] )
 	fontwerk? ( dev-python/shaperglot[${PYTHON_USEDEP}] )
 	fontwerk? ( dev-python/defcon[${PYTHON_USEDEP}] )
-	fontwerk? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	fontwerk? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	fontwerk? ( dev-python/ufolint[${PYTHON_USEDEP}] )
 	googlefonts? ( >=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/dehinter[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/font-v[${PYTHON_USEDEP}] )
-	googlefonts? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	googlefonts? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/vharfbuzz[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/axisregistry[${PYTHON_USEDEP}] )
@@ -96,13 +96,13 @@ DEPENDENCIES="dev-python/babelfont[${PYTHON_USEDEP}]
 	googlefonts? ( dev-python/ufo2ft[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/shaperglot[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/defcon[${PYTHON_USEDEP}] )
-	googlefonts? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	googlefonts? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/ufolint[${PYTHON_USEDEP}] )
 	iso15008? ( dev-python/uharfbuzz[${PYTHON_USEDEP}] )
 	notofonts? ( >=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
 	notofonts? ( dev-python/dehinter[${PYTHON_USEDEP}] )
 	notofonts? ( dev-python/font-v[${PYTHON_USEDEP}] )
-	notofonts? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	notofonts? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	notofonts? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	notofonts? ( dev-python/vharfbuzz[${PYTHON_USEDEP}] )
 	notofonts? ( dev-python/axisregistry[${PYTHON_USEDEP}] )
@@ -114,7 +114,7 @@ DEPENDENCIES="dev-python/babelfont[${PYTHON_USEDEP}]
 	notofonts? ( dev-python/ufo2ft[${PYTHON_USEDEP}] )
 	notofonts? ( dev-python/shaperglot[${PYTHON_USEDEP}] )
 	notofonts? ( dev-python/defcon[${PYTHON_USEDEP}] )
-	notofonts? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	notofonts? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	notofonts? ( dev-python/ufolint[${PYTHON_USEDEP}] )
 	shaping? ( dev-python/collidoscope[${PYTHON_USEDEP}] )
 	shaping? ( dev-python/stringbrewer[${PYTHON_USEDEP}] )
@@ -127,7 +127,7 @@ DEPENDENCIES="dev-python/babelfont[${PYTHON_USEDEP}]
 	typenetwork? ( dev-python/uharfbuzz[${PYTHON_USEDEP}] )
 	typenetwork? ( dev-python/shaperglot[${PYTHON_USEDEP}] )
 	ufo-sources? ( dev-python/defcon[${PYTHON_USEDEP}] )
-	ufo-sources? ( dev-python/fontTools[${PYTHON_USEDEP}] )
+	ufo-sources? ( >=dev-python/fonttools-4.39.0[${PYTHON_USEDEP}] )
 	ufo-sources? ( dev-python/ufo2ft[${PYTHON_USEDEP}] )
 	ufo-sources? ( dev-python/ufolint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

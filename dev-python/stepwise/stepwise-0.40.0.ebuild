@@ -30,23 +30,23 @@ DEPENDENCIES="dev-python/byoc[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
 	dev-python/inform[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/reprfunc[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autoclasstoc[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-unordered[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest_tmp_files[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pytest-tmp-files[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	tests? ( dev-python/parametrize_from_file[${PYTHON_USEDEP}] )
+	tests? ( dev-python/parametrize-from-file[${PYTHON_USEDEP}] )
 	tests? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rtoml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/re_assert[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/re-assert[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

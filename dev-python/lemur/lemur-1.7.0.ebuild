@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}]
 	dev-python/click-repl[${PYTHON_USEDEP}]
 	dev-python/cloudflare[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	~dev-python/ConfigArgParse-1.7[${PYTHON_USEDEP}]
 	~dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
@@ -58,14 +58,14 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/dnspython3[${PYTHON_USEDEP}]
 	dev-python/dyn[${PYTHON_USEDEP}]
 	~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
-	dev-python/flask-bcrypt[${PYTHON_USEDEP}]
+	dev-python/Flask-Bcrypt[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-limiter[${PYTHON_USEDEP}]
-	dev-python/flask-mail[${PYTHON_USEDEP}]
+	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
+	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	~dev-python/flask-migrate-4.0.5[${PYTHON_USEDEP}]
-	dev-python/flask-principal[${PYTHON_USEDEP}]
+	dev-python/Flask-Principal[${PYTHON_USEDEP}]
 	dev-python/flask-replicated[${PYTHON_USEDEP}]
-	dev-python/flask-restful[${PYTHON_USEDEP}]
+	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}]
 	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/javaobj-py3[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/josepy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
@@ -123,7 +123,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-1.37.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/twofish[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
@@ -169,7 +169,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	dev? ( dev-python/configargparse[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ConfigArgParse-1.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
@@ -184,24 +184,24 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/Faker-22.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/fakeredis-2.20.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/filelock-3.12.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask-bcrypt[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flask-Bcrypt[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask-limiter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask-mail[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flask-Mail[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-migrate-4.0.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask-principal[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flask-Principal[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-replicated[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/freezegun-1.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/future-0.18.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hvac-2.0.0[${PYTHON_USEDEP}] )
@@ -216,7 +216,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -318,7 +318,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/smmap-5.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	dev? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sshpubkeys-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/stevedore-5.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sympy-1.12[${PYTHON_USEDEP}] )
@@ -326,13 +326,13 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twofish[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-deprecated[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyopenssl[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyrfc3339[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-pyOpenSSL[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-pyRFC3339[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/types-setuptools-69.0.0.0[${PYTHON_USEDEP}] )
@@ -364,7 +364,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/attrs-23.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/aws-sam-translator-1.78.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/aws-xray-sdk-2.12.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/babel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/Babel-2.13.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bandit-1.7.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/billiard[${PYTHON_USEDEP}] )
@@ -384,7 +384,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	docs? ( dev-python/configargparse[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ConfigArgParse-1.7[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
@@ -398,22 +398,22 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/faker[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/Faker-22.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/fakeredis-2.20.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flask-bcrypt[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Flask-Bcrypt[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flask-limiter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flask-mail[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Flask-Mail[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/flask-migrate-4.0.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flask-principal[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Flask-Principal[${PYTHON_USEDEP}] )
 	docs? ( dev-python/flask-replicated[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/freezegun-1.3.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/future-0.18.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}] )
-	docs? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	docs? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/hvac-2.0.0[${PYTHON_USEDEP}] )
@@ -425,7 +425,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -526,20 +526,20 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinxcontrib-qthelp-1.0.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.9[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	docs? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sshpubkeys-3.3.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/stevedore-5.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sympy-1.12[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/twofish[${PYTHON_USEDEP}] )
-	docs? ( dev-python/types-deprecated[${PYTHON_USEDEP}] )
+	docs? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
-	docs? ( dev-python/types-pyopenssl[${PYTHON_USEDEP}] )
-	docs? ( dev-python/types-pyrfc3339[${PYTHON_USEDEP}] )
+	docs? ( dev-python/types-pyOpenSSL[${PYTHON_USEDEP}] )
+	docs? ( dev-python/types-pyRFC3339[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	docs? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	docs? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/types-setuptools-69.0.0.0[${PYTHON_USEDEP}] )
@@ -588,7 +588,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	tests? ( dev-python/configargparse[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/ConfigArgParse-1.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
@@ -601,22 +601,22 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/faker[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/Faker-22.2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/fakeredis-2.20.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-bcrypt[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Flask-Bcrypt[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-limiter[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-mail[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Flask-Mail[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-migrate-4.0.5[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-principal[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Flask-Principal[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flask-replicated[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/freezegun-1.3.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/future-0.18.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}] )
-	tests? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}] )
 	tests? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	tests? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/hvac-2.0.0[${PYTHON_USEDEP}] )
@@ -627,7 +627,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -717,20 +717,20 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/smmap-5.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	tests? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sshpubkeys-3.3.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/stevedore-5.1.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sympy-1.12[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/twofish[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-deprecated[${PYTHON_USEDEP}] )
+	tests? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-pyopenssl[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-pyrfc3339[${PYTHON_USEDEP}] )
+	tests? ( dev-python/types-pyOpenSSL[${PYTHON_USEDEP}] )
+	tests? ( dev-python/types-pyRFC3339[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/types-setuptools-69.0.0.0[${PYTHON_USEDEP}] )

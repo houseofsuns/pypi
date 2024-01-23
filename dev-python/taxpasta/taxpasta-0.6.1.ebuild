@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
 	all? ( dev-python/rich[${PYTHON_USEDEP}] )
 	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	biom? ( dev-python/biom-format[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bash-kernel[${PYTHON_USEDEP}] )
+	dev? ( dev-python/bash_kernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-exclude[${PYTHON_USEDEP}] )

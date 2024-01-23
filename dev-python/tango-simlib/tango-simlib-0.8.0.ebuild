@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generic library for creating simulated TANGO devices. [topver 0.9.4]"
+DESCRIPTION="Generic library for creating simulated TANGO devices. [topver 0.9.4, newver 0.9.4]"
 
 HOMEPAGE="https://github.com/ska-sa/tango-simlib"
 LICENSE="BSD"
@@ -27,13 +27,13 @@ IUSE="docs"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/PyTango[${PYTHON_USEDEP}]
+	dev-python/pytango[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-pypi-upload[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Sphinx-PyPI-upload[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

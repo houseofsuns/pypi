@@ -34,9 +34,9 @@ DEPENDENCIES="dev-python/bigml-chronos[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	full? ( dev-python/bigml-sensenet[${PYTHON_USEDEP}] )
 	full? ( dev-python/cython[${PYTHON_USEDEP}] )
-	full? ( dev-python/pystemmer[${PYTHON_USEDEP}] )
+	full? ( dev-python/PyStemmer[${PYTHON_USEDEP}] )
 	images? ( dev-python/bigml-sensenet[${PYTHON_USEDEP}] )
 	topics? ( dev-python/cython[${PYTHON_USEDEP}] )
-	topics? ( dev-python/pystemmer[${PYTHON_USEDEP}] )"
+	topics? ( dev-python/PyStemmer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uncertainties[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )

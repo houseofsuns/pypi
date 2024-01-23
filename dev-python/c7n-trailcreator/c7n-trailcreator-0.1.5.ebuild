@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Custodian - Retroactive Tag Resource Creators from CloudTrail [topver 0.2.33]"
+DESCRIPTION="Cloud Custodian - Retroactive Tag Resource Creators from CloudTrail [topver 0.2.33, newver 0.2.33]"
 
 HOMEPAGE="https://github.com/capitalone/cloud-custodian"
 LICENSE="Apache-2.0"

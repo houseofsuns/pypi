@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/galaxy-tool-util[${PYTHON_USEDEP}]
 	dev-python/cwltest[${PYTHON_USEDEP}]
 	dev-python/gxformat2[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

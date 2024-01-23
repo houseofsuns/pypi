@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pandas-0.18.1[${PYTHON_USEDEP}]
 	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.0.3[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ped-parser[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ped_parser[${PYTHON_USEDEP}]
 	dev-python/pytabix[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
 	dev-python/interval-tree[${PYTHON_USEDEP}]

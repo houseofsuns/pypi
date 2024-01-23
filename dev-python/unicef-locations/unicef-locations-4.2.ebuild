@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/django-autocomplete-light[${PYTHON_USEDEP}]
 	test? ( dev-python/drf-api-checker[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	test? ( dev-python/faker[${PYTHON_USEDEP}] )
+	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

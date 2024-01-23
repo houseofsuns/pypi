@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wrapper package for OpenCV python bindings. [topver 5.0.0.20221015]"
+DESCRIPTION="Wrapper package for OpenCV python bindings. [topver 5.0.0.20221015, newver 4.8.0.20230804]"
 
 HOMEPAGE="https://github.com/opencv/opencv-python"
 LICENSE="MIT"

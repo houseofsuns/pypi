@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.7.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]

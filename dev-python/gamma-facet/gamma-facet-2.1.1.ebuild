@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/gamma-pytools[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sklearndf[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.19[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.17[${PYTHON_USEDEP}] )

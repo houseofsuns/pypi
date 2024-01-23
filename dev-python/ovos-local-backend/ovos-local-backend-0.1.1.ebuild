@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mock mycroft backend [topver 0.2.0]"
+DESCRIPTION="mock mycroft backend [topver 0.2.0, newver 0.2.0a20]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/OVOS-local-backend"
 LICENSE="Apache-2.0"

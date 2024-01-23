@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/urllib3-1.26.3[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.6.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]"
+	dev-python/Brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

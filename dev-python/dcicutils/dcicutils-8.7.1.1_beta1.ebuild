@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility package for interacting with the 4DN Data Portal and other 4DN resources"
+DESCRIPTION="Utility package for interacting with the 4DN Data Portal and other 4DN resources [newver 8.7.1.1b3]"
 
 HOMEPAGE="https://github.com/4dn-dcic/utils"
 LICENSE="MIT"
@@ -30,17 +30,17 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aws-requests-auth[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/docker-5.0.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonc-parser[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyopenssl-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2020.4[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/rfc3986-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/structlog-20.0.0[${PYTHON_USEDEP}]

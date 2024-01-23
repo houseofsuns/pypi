@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Daipe framework development environment initializer [topver 1.4.6]"
+DESCRIPTION="Daipe framework development environment initializer [topver 1.4.6, newver 1.4.6]"
 
 HOMEPAGE="https://github.com/daipe-ai/benvy"
 LICENSE="MIT"

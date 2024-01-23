@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/venusian[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
 	test? ( dev-python/feedparser[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pysocks[${PYTHON_USEDEP}] )
+	test? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	test? ( dev-python/twitter[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiocron[${PYTHON_USEDEP}] )
 	test? ( dev-python/redis[${PYTHON_USEDEP}] )

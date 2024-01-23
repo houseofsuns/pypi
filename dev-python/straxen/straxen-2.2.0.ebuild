@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs microstrax"
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/commentjson[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/immutabledict[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/multihist[${PYTHON_USEDEP}]

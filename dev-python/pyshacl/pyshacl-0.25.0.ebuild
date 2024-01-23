@@ -41,7 +41,7 @@ DEPENDENCIES="dev-lint? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	<dev-python/rdflib-8.0[${PYTHON_USEDEP}]
 	dev-lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	http? ( dev-python/sanic[${PYTHON_USEDEP}] )
-	http? ( dev-python/sanic-cors[${PYTHON_USEDEP}] )
+	http? ( dev-python/Sanic-Cors[${PYTHON_USEDEP}] )
 	http? ( dev-python/sanic-ext[${PYTHON_USEDEP}] )
 	dev-type-checking? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,15 +27,15 @@ IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/warepy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/turbo-flask[${PYTHON_USEDEP}]
+	dev-python/Turbo-Flask[${PYTHON_USEDEP}]
 	dev-python/flask-migrate[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/flask-session[${PYTHON_USEDEP}]
+	dev-python/Flask-Session[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

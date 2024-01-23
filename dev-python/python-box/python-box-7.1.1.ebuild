@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all msgpack pyyaml ruamel-yaml toml tomli yaml"
-DEPENDENCIES="pyyaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+DEPENDENCIES="pyyaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )

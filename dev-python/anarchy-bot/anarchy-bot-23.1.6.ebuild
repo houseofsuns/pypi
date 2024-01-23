@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gmanka-yml[${PYTHON_USEDEP}]
-	dev-python/pyrogram[${PYTHON_USEDEP}]
+	dev-python/Pyrogram[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tgcrypto[${PYTHON_USEDEP}]
+	dev-python/TgCrypto[${PYTHON_USEDEP}]
 	dev-python/uvloop[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

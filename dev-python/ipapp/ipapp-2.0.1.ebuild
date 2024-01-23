@@ -57,7 +57,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	testing? ( <dev-python/pytest-asyncio-0.15.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/docker-compose[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/types-docutils-0.19.1.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	testing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	testing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

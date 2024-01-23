@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.4[${PYTHON_USEDEP}]
 	dev-python/pybullet[${PYTHON_USEDEP}]
 	dev-python/pyrr[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.8.1[${PYTHON_USEDEP}]
 	~dev-python/setuptools-67.6[${PYTHON_USEDEP}]
-	dev-python/PyOpenGL[${PYTHON_USEDEP}]
+	~dev-python/pyopengl-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

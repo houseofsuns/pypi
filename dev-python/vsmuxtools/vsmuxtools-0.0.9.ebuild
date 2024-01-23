@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/vapoursynth[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/VapourSynth[${PYTHON_USEDEP}]
 	dev-python/vstools[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/muxtools[${PYTHON_USEDEP}]"

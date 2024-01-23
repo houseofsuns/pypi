@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Basic features used in all PSU Django apps"
+DESCRIPTION="Basic features used in all PSU Django apps [newver 6.3.3]"
 
 HOMEPAGE="https://github.com/PSU-OIT-ARC/django-psu-base"
 LICENSE="MIT"

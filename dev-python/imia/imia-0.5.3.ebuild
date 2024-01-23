@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiosqlite sqlalchemy"
-DEPENDENCIES="sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+DEPENDENCIES="sqlalchemy? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	aiosqlite? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

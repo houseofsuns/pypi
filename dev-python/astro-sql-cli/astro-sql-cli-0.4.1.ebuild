@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
 	dev-python/astro-sdk-python[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]"

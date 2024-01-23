@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/keyring-23.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )

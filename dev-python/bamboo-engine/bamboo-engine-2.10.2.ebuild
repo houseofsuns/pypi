@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
+	<dev-python/mako-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

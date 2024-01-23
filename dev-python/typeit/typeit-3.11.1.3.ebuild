@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyrsistent-0.19.3[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-4.9[${PYTHON_USEDEP}]
-	third_party? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	third_party? ( <dev-python/pyyaml-6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

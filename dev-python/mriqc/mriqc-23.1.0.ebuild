@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/mriqc[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nipype[${PYTHON_USEDEP}] )

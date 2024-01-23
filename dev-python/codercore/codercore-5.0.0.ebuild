@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2[${PYTHON_USEDEP}]
 	~dev-python/redis-4.3[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.10[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.11[${PYTHON_USEDEP}] )

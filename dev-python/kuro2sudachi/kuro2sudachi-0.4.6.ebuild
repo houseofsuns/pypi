@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]
 	dev-python/jaconv[${PYTHON_USEDEP}]
-	dev-python/sudachidict-core[${PYTHON_USEDEP}]
-	dev-python/sudachidict-full[${PYTHON_USEDEP}]
-	dev-python/sudachipy[${PYTHON_USEDEP}]"
+	dev-python/SudachiDict-core[${PYTHON_USEDEP}]
+	dev-python/SudachiDict-full[${PYTHON_USEDEP}]
+	dev-python/SudachiPy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

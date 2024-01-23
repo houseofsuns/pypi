@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/nendo[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/pyrubberband[${PYTHON_USEDEP}]
 	dev-python/BeatNet[${PYTHON_USEDEP}]
-	dev-python/PyAudio[${PYTHON_USEDEP}]"
+	<dev-python/pyaudio-0.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

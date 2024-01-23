@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="anntoolkit [topver 0.0.6]"
+DESCRIPTION="anntoolkit [topver 0.0.6, newver 0.0.6]"
 
 HOMEPAGE="https://github.com/podgorskiy/anntoolkit"
 LICENSE="MIT"

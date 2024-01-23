@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	dev-python/Flask-CacheBuster[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

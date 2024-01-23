@@ -55,8 +55,8 @@ DEPENDENCIES="dev-python/obonet[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	web? ( dev-python/flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/bootstrap-flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask-admin[${PYTHON_USEDEP}] )
+	web? ( dev-python/Bootstrap-Flask[${PYTHON_USEDEP}] )
+	web? ( dev-python/Flask-Admin[${PYTHON_USEDEP}] )
 	web? ( dev-python/flasgger[${PYTHON_USEDEP}] )
 	web? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

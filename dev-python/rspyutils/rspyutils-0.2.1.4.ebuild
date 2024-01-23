@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/pyhdfs[${PYTHON_USEDEP}]
-	dev-python/pyhive[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pymysql[${PYTHON_USEDEP}]
+	dev-python/PyHDFS[${PYTHON_USEDEP}]
+	dev-python/PyHive[${PYTHON_USEDEP}]
 	dev-python/pymssql[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
 	dev-python/yagmail[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

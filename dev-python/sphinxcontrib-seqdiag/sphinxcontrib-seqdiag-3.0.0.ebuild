@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/blockdiag[${PYTHON_USEDEP}]
 	dev-python/seqdiag[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]"
+	>=dev-python/sphinx-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

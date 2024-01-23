@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint marshmallow tests yaml"
 DEPENDENCIES=">=dev-python/packaging-21.3[${PYTHON_USEDEP}]
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/marshmallow-3.13.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/openapi-spec-validator-0.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -46,10 +46,10 @@ DEPENDENCIES=">=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	marshmallow? ( >=dev-python/marshmallow-3.18.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/marshmallow-3.13.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/openapi-spec-validator-0.7.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

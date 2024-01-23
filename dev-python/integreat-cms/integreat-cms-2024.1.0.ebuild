@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/cffi[${PYTHON_USEDEP}]
 	dev-python/deepl[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/django-cacheops[${PYTHON_USEDEP}]
 	dev-python/django-cors-headers[${PYTHON_USEDEP}]
 	dev-python/django-db-mutex[${PYTHON_USEDEP}]
 	dev-python/django-debug-toolbar[${PYTHON_USEDEP}]
 	dev-python/django-linkcheck[${PYTHON_USEDEP}]
-	dev-python/django-polymorphic[${PYTHON_USEDEP}]
+	dev-python/django_polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-redis[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
 	dev-python/django-webpack-loader[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pyotp[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -111,13 +111,13 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/cssselect2-0.7.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/decorator-5.1.1[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/deepl[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/Django[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/django-3.2.23[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/django-cacheops-7.0.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/django-cors-headers-4.3.1[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-db-mutex[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/django-debug-toolbar-4.2.0[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-linkcheck[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/django-polymorphic[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/django_polymorphic-3.1.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/django-redis-5.4.0[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-treebeard[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-webpack-loader[${PYTHON_USEDEP}] )
@@ -148,11 +148,11 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/pure-eval-0.2.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/pycparser-2.21[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/pydantic_core[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/pydantic-core-2.14.6[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/pygments-2.17.2[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/pyHanko[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/pyhanko-certvalidator[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/pyopenssl-23.3.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/PyPDF3[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/pypng-0.20220715.0[${PYTHON_USEDEP}] )
@@ -160,7 +160,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/referencing-0.32.1[${PYTHON_USEDEP}] )
@@ -176,7 +176,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/tinycss2-1.2.1[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/traitlets-5.14.1[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/typing_extensions[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/tzlocal-5.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/uritools-4.0.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}] )
@@ -219,7 +219,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-pinned? ( dev-python/lexid[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/looseversion-1.3.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/markupsafe-2.1.4[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/more-itertools-10.2.0[${PYTHON_USEDEP}] )
@@ -234,12 +234,12 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-pinned? ( ~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/pprintpp[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/pylint-per-file-ignores[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/pylint-plugin-utils[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/pyproject_hooks[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/pyproject-hooks-1.0.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/pytest-circleci-parallelized[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
@@ -255,10 +255,10 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-pinned? ( ~dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/rfc3986-2.0.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/rich-13.7.0[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/SecretStorage[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/secretstorage-3.3.3[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/shellcheck-py[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/sphinxcontrib-applehelp-1.0.8[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/sphinxcontrib-devhelp-1.0.6[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/sphinxcontrib-django[${PYTHON_USEDEP}] )
@@ -277,7 +277,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-pinned? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/virtualenv-20.25.0[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/werkzeug-3.0.1[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/zipp-3.17.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

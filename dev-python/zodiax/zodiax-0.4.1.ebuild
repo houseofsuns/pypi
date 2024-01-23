@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/equinox[${PYTHON_USEDEP}]
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/chainconsumer[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ChainConsumer[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpyro[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )

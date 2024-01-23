@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/curses-ex[${PYTHON_USEDEP}]
 	dev-python/pyjf3[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/kaadbg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

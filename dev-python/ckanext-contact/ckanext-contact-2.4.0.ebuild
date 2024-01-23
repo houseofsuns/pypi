@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/ckantools[${PYTHON_USEDEP}]
-	dev-python/pyisemail[${PYTHON_USEDEP}]
+	dev-python/pyIsEmail[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-4.6.5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )

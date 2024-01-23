@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multicamera video acquisition,online compression and automation [topver 0.7.1]"
+DESCRIPTION="Multicamera video acquisition,online compression and automation [topver 0.7.1, newver 0.7.1]"
 
 HOMEPAGE="https://bitbucket.org/jpcouto/labcams"
 LICENSE="GPL-3"
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/scikit-video[${PYTHON_USEDEP}]

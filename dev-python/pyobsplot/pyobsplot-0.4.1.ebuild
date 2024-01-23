@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/anywidget[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-8.1.0[${PYTHON_USEDEP}]
-	dev-python/jupyterlab_widgets[${PYTHON_USEDEP}]
+	dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
 	>=dev-python/jupyterlab-3.6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

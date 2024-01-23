@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}]
 	dev-python/aia[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
 	dev-python/teradataml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

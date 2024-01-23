@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
+	voice? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

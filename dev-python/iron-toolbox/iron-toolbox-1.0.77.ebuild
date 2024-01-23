@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

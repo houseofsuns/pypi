@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fixit[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/hypothesis-4.36.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesmith[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-rust-1.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/slotscheck[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyre-check[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

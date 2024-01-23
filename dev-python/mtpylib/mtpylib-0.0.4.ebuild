@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is the SDK for example. [topver 0.0.74]"
+DESCRIPTION="This is the SDK for example. [topver 0.0.74, newver 0.0.74]"
 
 HOMEPAGE="http://example.com"
 LICENSE=""

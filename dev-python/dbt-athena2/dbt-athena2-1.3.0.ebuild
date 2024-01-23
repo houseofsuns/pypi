@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.20.47[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
-	dev-python/pyathena[${PYTHON_USEDEP}]
+	dev-python/PyAthena[${PYTHON_USEDEP}]
 	~dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

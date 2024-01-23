@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
-	dev-python/Flask-Compress[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.12.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-cors-3.0.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-compress-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-4.3.0[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/colorcet[${PYTHON_USEDEP}]
 	dev-python/Flask-Sockets[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/flask-compress-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

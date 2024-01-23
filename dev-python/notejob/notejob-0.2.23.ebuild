@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/flask-migrate[${PYTHON_USEDEP}]
-	dev-python/flask-script[${PYTHON_USEDEP}]"
+	dev-python/Flask-Script[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

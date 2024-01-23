@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
-	menu? ( dev-python/nonebot-plugin-PicMenu[${PYTHON_USEDEP}] )"
+	menu? ( dev-python/nonebot-plugin-picmenu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/paramiko-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-1.6.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/agutil[${PYTHON_USEDEP}]
 	dev-python/hound[${PYTHON_USEDEP}]
 	dev-python/firecloud-dalmatian[${PYTHON_USEDEP}]

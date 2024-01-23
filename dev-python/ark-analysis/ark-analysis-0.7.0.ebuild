@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="colors lab_ext test"
 DEPENDENCIES="dev-python/alpineer[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	<dev-python/cython-1.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	dev-python/feather-format[${PYTHON_USEDEP}]
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/alpineer[${PYTHON_USEDEP}]
 	colors? ( dev-python/cmasher[${PYTHON_USEDEP}] )
 	colors? ( dev-python/cmocean[${PYTHON_USEDEP}] )
 	colors? ( dev-python/colorcet[${PYTHON_USEDEP}] )
-	colors? ( dev-python/scienceplots[${PYTHON_USEDEP}] )
+	colors? ( dev-python/SciencePlots[${PYTHON_USEDEP}] )
 	lab_ext? ( dev-python/jupyterlab-lsp[${PYTHON_USEDEP}] )
 	lab_ext? ( dev-python/python-lsp-server[${PYTHON_USEDEP}] )
 	lab_ext? ( dev-python/jupyterlab-git[${PYTHON_USEDEP}] )

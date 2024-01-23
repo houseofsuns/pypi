@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.4[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]"
+	>=dev-python/Babel-2.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

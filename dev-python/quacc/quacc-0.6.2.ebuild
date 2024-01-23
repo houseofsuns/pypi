@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	defects? ( dev-python/pymatgen-analysis-defects[${PYTHON_USEDEP}] )
 	defects? ( dev-python/shakenbreak[${PYTHON_USEDEP}] )
 	jobflow? ( dev-python/jobflow[${PYTHON_USEDEP}] )
-	jobflow? ( dev-python/fireworks[${PYTHON_USEDEP}] )
+	jobflow? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
 	mlp? ( dev-python/matgl[${PYTHON_USEDEP}] )
 	mlp? ( dev-python/chgnet[${PYTHON_USEDEP}] )
 	mlp? ( dev-python/mace-torch[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	prefect? ( dev-python/prefect-dask[${PYTHON_USEDEP}] )
 	prefect? ( dev-python/dask-jobqueue[${PYTHON_USEDEP}] )
 	redun? ( dev-python/redun[${PYTHON_USEDEP}] )
-	sella? ( dev-python/sella[${PYTHON_USEDEP}] )
+	sella? ( dev-python/Sella[${PYTHON_USEDEP}] )
 	tblite? ( dev-python/tblite[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov-cli[${PYTHON_USEDEP}] )
@@ -69,6 +69,6 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

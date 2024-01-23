@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/open_clip_torch[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/open-clip-torch[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

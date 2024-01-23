@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="2.0.0_alpha.4"
+REALVERSION="2.0.0_alpha.2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 4.1.3, badver 2.0.0_alpha.4]"
+DESCRIPTION=" [topver 4.1.3, newver 4.1.3, badver 2.0.0_alpha.2]"
 
 HOMEPAGE=""
 LICENSE=""

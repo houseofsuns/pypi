@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/kognic-auth[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	wasm? ( dev-python/wasmtime[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

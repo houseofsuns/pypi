@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for Hyperscan. [topver 0.6.0]"
+DESCRIPTION="Python bindings for Hyperscan. [topver 0.6.0, newver 0.6.0]"
 
 HOMEPAGE="https://github.com/darvid/python-hyperscan"
 LICENSE="MIT"

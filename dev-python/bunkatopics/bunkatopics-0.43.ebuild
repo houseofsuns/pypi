@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Advanced Topic Visualization [topver 0.45]"
+DESCRIPTION="Advanced Topic Visualization [topver 0.45, newver 0.45]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/umap-learn[${PYTHON_USEDEP}]
 	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/textacy[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
-	dev-python/instructorembedding[${PYTHON_USEDEP}]
+	dev-python/InstructorEmbedding[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	<dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}]

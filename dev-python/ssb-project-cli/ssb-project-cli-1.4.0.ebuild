@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cruft[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.27[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-6.25.2[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-client-8.3.1[${PYTHON_USEDEP}]
 	dev-python/kvakk-git-tools[${PYTHON_USEDEP}]
 	>=dev-python/poetry-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	>=dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]

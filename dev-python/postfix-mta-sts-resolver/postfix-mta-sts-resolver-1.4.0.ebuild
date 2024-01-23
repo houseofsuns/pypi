@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev postgres redis sqlite uvloop"
 DEPENDENCIES=">=dev-python/aiodns-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.4.4[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

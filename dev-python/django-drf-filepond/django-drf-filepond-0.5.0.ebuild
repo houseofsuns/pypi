@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.11.2[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	>=dev-python/django-2.2.25[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

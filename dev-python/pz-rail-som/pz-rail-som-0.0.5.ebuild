@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/pz-rail-base[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/minisom[${PYTHON_USEDEP}]
+	dev-python/MiniSom[${PYTHON_USEDEP}]
 	dev-python/somoclu[${PYTHON_USEDEP}]
 	dev? ( dev-python/qp-prob[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

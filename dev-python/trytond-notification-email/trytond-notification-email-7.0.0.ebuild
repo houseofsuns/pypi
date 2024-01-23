@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Genshi[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/genshi[${PYTHON_USEDEP}]
 	dev-python/python-sql[${PYTHON_USEDEP}]
 	dev-python/trytond[${PYTHON_USEDEP}]
 	test? ( dev-python/trytond-company[${PYTHON_USEDEP}] )

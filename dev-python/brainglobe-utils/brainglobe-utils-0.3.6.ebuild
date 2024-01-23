@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/slurmio[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
 	dev-python/imio[${PYTHON_USEDEP}]
 	dev-python/bg-atlasapi[${PYTHON_USEDEP}]
-	dev? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
@@ -47,11 +47,11 @@ DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/superqt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	napari? ( dev-python/napari[${PYTHON_USEDEP}] )
-	napari? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	napari? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	napari? ( dev-python/superqt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

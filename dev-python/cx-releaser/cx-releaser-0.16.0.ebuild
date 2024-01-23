@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.20.47[${PYTHON_USEDEP}]
 	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.0[${PYTHON_USEDEP}]
 	~dev-python/semantic-version-2.9.0[${PYTHON_USEDEP}]
 	dev-python/docker-compose[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

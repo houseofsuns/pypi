@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gigaserve[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}]

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/pulumi-command[${PYTHON_USEDEP}]
 	dev-python/google-cloud-batch[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

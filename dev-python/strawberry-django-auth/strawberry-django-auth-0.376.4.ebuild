@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="captcha"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/django-5.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	captcha? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	dev-python/django-stubs[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql-django[${PYTHON_USEDEP}]"

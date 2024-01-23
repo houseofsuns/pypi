@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/amqp-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Routes[${PYTHON_USEDEP}]
+	>=dev-python/routes-2.3.1[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	>=dev-python/greenlet-0.4.10[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]

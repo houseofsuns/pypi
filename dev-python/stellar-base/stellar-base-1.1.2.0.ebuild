@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SSEClient[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/sseclient[${PYTHON_USEDEP}]
 	dev-python/crc16[${PYTHON_USEDEP}]
 	dev-python/ed25519[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

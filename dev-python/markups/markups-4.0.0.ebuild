@@ -27,9 +27,9 @@ IUSE="asciidoc highlighting markdown restructuredtext textile"
 DEPENDENCIES="dev-python/python-markdown-math[${PYTHON_USEDEP}]
 	asciidoc? ( dev-python/asciidoc[${PYTHON_USEDEP}] )
 	asciidoc? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	highlighting? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	markdown? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	markdown? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	highlighting? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	markdown? ( >=dev-python/markdown-3.0[${PYTHON_USEDEP}] )
+	markdown? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	restructuredtext? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	textile? ( dev-python/textile[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

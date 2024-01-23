@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/cffi-1.14.6[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/paramiko-2.10.1[${PYTHON_USEDEP}]
 	dev-python/python-vagrant[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

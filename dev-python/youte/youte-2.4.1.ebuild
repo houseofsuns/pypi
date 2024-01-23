@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.7[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	>=dev-python/click-log-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

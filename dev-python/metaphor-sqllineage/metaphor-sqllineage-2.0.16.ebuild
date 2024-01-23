@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}]
 	cli? ( dev-python/flask[${PYTHON_USEDEP}] )
 	cli? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	cli? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

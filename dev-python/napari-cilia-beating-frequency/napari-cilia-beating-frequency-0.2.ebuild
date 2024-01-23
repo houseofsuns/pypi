@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

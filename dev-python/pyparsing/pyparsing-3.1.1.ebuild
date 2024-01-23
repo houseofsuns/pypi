@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="diagrams"
 DEPENDENCIES="diagrams? ( dev-python/railroad-diagrams[${PYTHON_USEDEP}] )
-	diagrams? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
+	diagrams? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

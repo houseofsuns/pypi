@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/bc-python-hcl2[${PYTHON_USEDEP}]
 	dev-python/cloudsplaining[${PYTHON_USEDEP}]
-	dev-python/deep-merge[${PYTHON_USEDEP}]
+	dev-python/deep_merge[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]

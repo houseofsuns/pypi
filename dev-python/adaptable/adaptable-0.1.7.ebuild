@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/black-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	<dev-python/sphinx-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

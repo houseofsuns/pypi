@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/filedate[${PYTHON_USEDEP}]
 	test? ( dev-python/uspec[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pyhamcrest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

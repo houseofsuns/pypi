@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/easydict[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/tritonclient[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

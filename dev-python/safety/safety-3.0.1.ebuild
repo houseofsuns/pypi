@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="github gitlab spdx"
 DEPENDENCIES=">=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.2[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	>=dev-python/dparse-0.6.4[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.15.0[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/safety-schemas[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
-	github? ( dev-python/pygithub[${PYTHON_USEDEP}] )
+	github? ( >=dev-python/PyGithub-1.43.3[${PYTHON_USEDEP}] )
 	gitlab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	spdx? ( >=dev-python/spdx-tools-0.8.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

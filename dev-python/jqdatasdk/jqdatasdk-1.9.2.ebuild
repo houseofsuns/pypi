@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.16.2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.8[${PYTHON_USEDEP}]
 	>=dev-python/thriftpy2-0.3.9[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.4.7[${PYTHON_USEDEP}]"

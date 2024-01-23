@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/gdal[${PYTHON_USEDEP}]
+	dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for dhall, a functional configuration language [topver 0.1.15]"
+DESCRIPTION="Python bindings for dhall, a functional configuration language [topver 0.1.15, newver 0.1.15]"
 
 HOMEPAGE="https://github.com/s-zeng/dhall-python"
 LICENSE="Apache-2.0"

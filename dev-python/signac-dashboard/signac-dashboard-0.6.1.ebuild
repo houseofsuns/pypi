@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/flask-2.1.0[${PYTHON_USEDEP}]
-	dev-python/flask-assets[${PYTHON_USEDEP}]
+	dev-python/Flask-Assets[${PYTHON_USEDEP}]
 	>=dev-python/flask-login-0.6.1[${PYTHON_USEDEP}]
-	dev-python/flask-turbolinks[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Flask-Turbolinks[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsmin[${PYTHON_USEDEP}]
 	dev-python/libsass[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.0.0[${PYTHON_USEDEP}]

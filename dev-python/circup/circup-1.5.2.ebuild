@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs package tests"
 DEPENDENCIES="~dev-python/semver-3.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/findimports-2.1.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/update_checker[${PYTHON_USEDEP}]
+	dev-python/update-checker[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

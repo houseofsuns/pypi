@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/imutils[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/ttkthemes[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/whatsmyip[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/playsound[${PYTHON_USEDEP}]
 	dev-python/event-scheduler[${PYTHON_USEDEP}]
 	dev-python/mouse[${PYTHON_USEDEP}]
-	dev-python/pyautogui[${PYTHON_USEDEP}]
+	dev-python/PyAutoGUI[${PYTHON_USEDEP}]
 	dev-python/mss[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

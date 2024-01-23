@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="demo requests"
 DEPENDENCIES="requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	demo? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
-	demo? ( dev-python/requests_toolbelt[${PYTHON_USEDEP}] )"
+	demo? ( <dev-python/requests-toolbelt-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

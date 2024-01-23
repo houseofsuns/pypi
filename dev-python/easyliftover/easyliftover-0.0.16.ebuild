@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bigwig"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
-	bigwig? ( dev-python/pybigwig[${PYTHON_USEDEP}] )
+	bigwig? ( dev-python/pyBigWig[${PYTHON_USEDEP}] )
 	bigwig? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

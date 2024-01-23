@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/jsonpatchext[${PYTHON_USEDEP}]
 	>=dev-python/deepmerge-0.1[${PYTHON_USEDEP}]"

@@ -31,11 +31,11 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	dev-python/netcdf4[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	<dev-python/owslib-0.29[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pymbolic[${PYTHON_USEDEP}]
 	dev-python/raven-hydro[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/birdhouse-birdy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/clisops[${PYTHON_USEDEP}] )
 	docs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/intake[${PYTHON_USEDEP}] )
@@ -77,14 +77,14 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-cache[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst_nb[${PYTHON_USEDEP}] )
+	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pymetalink[${PYTHON_USEDEP}] )
-	docs? ( dev-python/salib[${PYTHON_USEDEP}] )
+	docs? ( dev-python/SALib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
@@ -95,7 +95,7 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	gis? ( dev-python/affine[${PYTHON_USEDEP}] )
 	gis? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	gis? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	gis? ( dev-python/gdal[${PYTHON_USEDEP}] )
+	gis? ( dev-python/GDAL[${PYTHON_USEDEP}] )
 	gis? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	gis? ( dev-python/pyogrio[${PYTHON_USEDEP}] )
 	gis? ( >=dev-python/pyproj-3.0.0[${PYTHON_USEDEP}] )

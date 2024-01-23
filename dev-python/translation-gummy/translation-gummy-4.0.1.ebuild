@@ -34,10 +34,10 @@ DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pylatexenc-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev lint publish test"
-DEPENDENCIES="dev-python/mopidy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Mopidy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
 	dev-python/pygobject[${PYTHON_USEDEP}]

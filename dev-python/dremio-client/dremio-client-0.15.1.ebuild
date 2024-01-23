@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full noarrow"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/confuse[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]

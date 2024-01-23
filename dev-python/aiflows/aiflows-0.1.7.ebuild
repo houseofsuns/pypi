@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/mock-5.0.2[${PYTHON_USEDEP}]
 	~dev-python/rich-12.6.0[${PYTHON_USEDEP}]
 	dev-python/litellm[${PYTHON_USEDEP}]"

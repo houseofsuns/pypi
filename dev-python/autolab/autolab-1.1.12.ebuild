@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24[${PYTHON_USEDEP}]
-	dev-python/pyvisa[${PYTHON_USEDEP}]
+	dev-python/PyVISA[${PYTHON_USEDEP}]
 	dev-python/python-vxi11[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

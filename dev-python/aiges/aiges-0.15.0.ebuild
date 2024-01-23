@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-tools-1.50.0[${PYTHON_USEDEP}]
 	>=dev-python/plumbum-1.7.0[${PYTHON_USEDEP}]
-	dev-python/flask_restx[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/flask-restx[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	>=dev-python/jsonref-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/gradio[${PYTHON_USEDEP}]"

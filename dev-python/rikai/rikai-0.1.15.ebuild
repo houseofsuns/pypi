@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-6.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}]
 	all? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/scenedetect[${PYTHON_USEDEP}] )
 	all? ( dev-python/pafy[${PYTHON_USEDEP}] )
-	all? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )
+	all? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )
 	all? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/botocore[${PYTHON_USEDEP}] )
@@ -79,6 +79,6 @@ DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}]
 	video? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
 	video? ( dev-python/scenedetect[${PYTHON_USEDEP}] )
 	youtube? ( dev-python/pafy[${PYTHON_USEDEP}] )
-	youtube? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )"
+	youtube? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

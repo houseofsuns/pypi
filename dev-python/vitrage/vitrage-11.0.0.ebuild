@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="openstack test zabbix"
-DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pastedeploy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.5[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.4[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.14.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.9.8[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-2.0.1[${PYTHON_USEDEP}]
 	dev-python/cotyledon[${PYTHON_USEDEP}]
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
 	openstack? ( >=dev-python/python-openstackclient-3.12.0[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-troveclient[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-zaqarclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslotest-3.3.0[${PYTHON_USEDEP}] )

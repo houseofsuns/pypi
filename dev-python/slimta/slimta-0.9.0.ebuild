@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="optional"
 DEPENDENCIES="dev-python/python-slimta[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	optional? ( dev-python/python-slimta[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

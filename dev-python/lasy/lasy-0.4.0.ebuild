@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/axiprop[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpmd-api[${PYTHON_USEDEP}]
-	dev-python/openpmd-viewer[${PYTHON_USEDEP}]
+	dev-python/openPMD-api[${PYTHON_USEDEP}]
+	dev-python/openPMD-viewer[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	tests? ( dev-python/openpmd-viewer[${PYTHON_USEDEP}] )
+	tests? ( dev-python/openPMD-viewer[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

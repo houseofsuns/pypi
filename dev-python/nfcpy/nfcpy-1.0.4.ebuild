@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/libusb1[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/ndeflib[${PYTHON_USEDEP}]
-	dev-python/pydes[${PYTHON_USEDEP}]"
+	dev-python/pyDes[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

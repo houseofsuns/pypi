@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev matplotlib notebooks"
 DEPENDENCIES="dev-python/imglyb[${PYTHON_USEDEP}]
 	dev-python/jgo[${PYTHON_USEDEP}]
-	dev-python/jpype1[${PYTHON_USEDEP}]
+	dev-python/JPype1[${PYTHON_USEDEP}]
 	dev-python/labeling[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scyjava[${PYTHON_USEDEP}]

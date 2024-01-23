@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs inspect test"
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	>=dev-python/commonmark-0.9.1[${PYTHON_USEDEP}]
 	dev-python/monotable[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]
@@ -41,6 +41,6 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	inspect? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

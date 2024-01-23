@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/ruff-lsp[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-4.6.0[${PYTHON_USEDEP}] )
 	snappy? ( >=dev-python/python-snappy-0.6.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/Click[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/click-8.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )

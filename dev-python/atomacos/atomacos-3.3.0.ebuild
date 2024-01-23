@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-ApplicationServices[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CoreText[${PYTHON_USEDEP}]
-	dev-python/pygetwindow[${PYTHON_USEDEP}]
-	dev-python/pyscreeze[${PYTHON_USEDEP}]
-	dev-python/pyautogui[${PYTHON_USEDEP}]
+	dev-python/PyGetWindow[${PYTHON_USEDEP}]
+	dev-python/PyScreeze[${PYTHON_USEDEP}]
+	dev-python/PyAutoGUI[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

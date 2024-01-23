@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/async-lru-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]

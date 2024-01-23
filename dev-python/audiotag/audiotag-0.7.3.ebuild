@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="dev-python/pytaglib[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	testing? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/cython-0.29.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )

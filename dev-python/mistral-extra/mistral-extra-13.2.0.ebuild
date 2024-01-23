@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.7.7[${PYTHON_USEDEP}]
 	dev-python/aodhclient[${PYTHON_USEDEP}]
 	dev-python/gnocchiclient[${PYTHON_USEDEP}]

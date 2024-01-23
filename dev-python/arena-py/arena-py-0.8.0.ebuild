@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	~dev-python/webcolors-1.3[${PYTHON_USEDEP}]
 	~dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.22.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

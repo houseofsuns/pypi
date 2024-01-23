@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/molsystem[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/Pmw[${PYTHON_USEDEP}]
+	dev-python/pmw[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pymbar[${PYTHON_USEDEP}]
 	dev-python/seamm[${PYTHON_USEDEP}]

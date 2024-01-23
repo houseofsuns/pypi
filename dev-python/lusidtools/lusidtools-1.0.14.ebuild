@@ -30,12 +30,12 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
 	dev-python/detect-delimiter[${PYTHON_USEDEP}]
 	dev-python/flatten-json[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.52.0[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	~dev-python/xlrd-1.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.31.1[${PYTHON_USEDEP}]
 	dev-python/lusid-sdk-preview[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

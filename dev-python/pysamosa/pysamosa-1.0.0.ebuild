@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">dev-python/cython-0.29[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2023.1[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>dev-python/netcdf4-1.6.0[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	>dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	>dev-python/scipy-1.10[${PYTHON_USEDEP}]

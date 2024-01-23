@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymupdf[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	>=dev-python/commonmark-0.9[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

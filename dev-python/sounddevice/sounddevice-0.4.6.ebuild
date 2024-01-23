@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="numpy"
-DEPENDENCIES="dev-python/CFFI[${PYTHON_USEDEP}]
-	numpy? ( dev-python/NumPy[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/cffi-1.0[${PYTHON_USEDEP}]
+	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

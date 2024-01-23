@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
 	>=dev-python/openstacksdk-0.29.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]"

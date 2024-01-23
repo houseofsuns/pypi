@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="command_line database dev digitalocean entity gui irc microphone nlp process_manager process_name socket_io speechtotext summarization system xmpp youtube"
 DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/vexmessage[${PYTHON_USEDEP}]
-	dev-python/rx[${PYTHON_USEDEP}]
+	dev-python/Rx[${PYTHON_USEDEP}]
 	dev-python/tblib[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-2.0.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for https://github.com/omerbenamram/evtx [topver 0.8.3]"
+DESCRIPTION="Python bindings for https://github.com/omerbenamram/evtx [topver 0.8.3, newver 0.8.3]"
 
 HOMEPAGE=""
 LICENSE="MIT Apache-2.0"

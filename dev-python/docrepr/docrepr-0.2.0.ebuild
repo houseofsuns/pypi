@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="plot test visual_test"
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-1.1[${PYTHON_USEDEP}]
 	plot? ( >=dev-python/matplotlib-2.2.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )

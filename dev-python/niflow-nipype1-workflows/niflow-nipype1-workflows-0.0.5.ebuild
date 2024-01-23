@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/nipype[${PYTHON_USEDEP}]
 	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]"
+	dev-python/click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

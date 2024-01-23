@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiomysql asyncio asyncpg mysqlclient psycopg2 psycopg2-binary psycopg3 psycopg3-binary psycopg3-c pymysql"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	aiomysql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
+	aiomysql? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	asyncpg? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	asyncio? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	asyncpg? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	mysqlclient? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg2-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	psycopg3? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	psycopg3? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	psycopg3? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	psycopg3-binary? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	psycopg3-binary? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	psycopg3-binary? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	psycopg3-c? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	psycopg3-c? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	psycopg3-c? ( dev-python/psycopg[${PYTHON_USEDEP}] )
 	pymysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

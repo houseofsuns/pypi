@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	dev-python/pytconf[${PYTHON_USEDEP}]
 	dev-python/pylogconf[${PYTHON_USEDEP}]
 	dev-python/pyvardump[${PYTHON_USEDEP}]
-	dev-python/youtube-dl[${PYTHON_USEDEP}]
+	dev-python/youtube_dl[${PYTHON_USEDEP}]
 	dev-python/browsercookie[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

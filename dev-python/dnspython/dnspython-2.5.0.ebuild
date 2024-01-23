@@ -41,6 +41,6 @@ DEPENDENCIES="dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	doq? ( dev-python/aioquic[${PYTHON_USEDEP}] )
 	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )
 	trio? ( >=dev-python/trio-0.14[${PYTHON_USEDEP}] )
-	wmi? ( dev-python/wmi[${PYTHON_USEDEP}] )"
+	wmi? ( dev-python/WMI[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

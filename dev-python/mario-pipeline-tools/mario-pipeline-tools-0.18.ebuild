@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tableauhyperapi[${PYTHON_USEDEP}]
 	dev-python/pantab[${PYTHON_USEDEP}]
 	dev-python/tableau-builder[${PYTHON_USEDEP}]
-	dev-python/pypika[${PYTHON_USEDEP}]
+	dev-python/PyPika[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/beautifulsoup4-4.8[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/diot[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.42.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.0[${PYTHON_USEDEP}]

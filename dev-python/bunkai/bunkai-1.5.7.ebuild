@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lb train"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/janome[${PYTHON_USEDEP}]
+	dev-python/Janome[${PYTHON_USEDEP}]
 	train? ( dev-python/seqeval[${PYTHON_USEDEP}] )
-	dev-python/spans[${PYTHON_USEDEP}]
+	dev-python/Spans[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	lb? ( >=dev-python/numpy-1.16.0[${PYTHON_USEDEP}] )
 	lb? ( dev-python/torch[${PYTHON_USEDEP}] )
 	lb? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.6.0[${PYTHON_USEDEP}]
 	>=dev-python/emoji-2.0.0[${PYTHON_USEDEP}]
 	dev-python/emojis[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]

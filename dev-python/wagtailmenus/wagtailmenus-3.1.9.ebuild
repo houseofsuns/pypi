@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/django-cogwheels[${PYTHON_USEDEP}]
 	development? ( >=dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	development? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyenchant-2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-spelling-1.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/beautifulsoup4-4.10[${PYTHON_USEDEP}] )

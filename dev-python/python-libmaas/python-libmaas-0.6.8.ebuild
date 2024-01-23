@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-1.0[${PYTHON_USEDEP}]
 	>=dev-python/colorclass-1.2.0[${PYTHON_USEDEP}]

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	all? ( dev-python/awkward[${PYTHON_USEDEP}] )
 	all? ( dev-python/uproot[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pint[${PYTHON_USEDEP}] )
+	all? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all? ( dev-python/boost-histogram[${PYTHON_USEDEP}] )
 	all? ( dev-python/cpymad[${PYTHON_USEDEP}] )
 	all? ( dev-python/mergedeep[${PYTHON_USEDEP}] )
@@ -51,6 +51,6 @@ DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	uproot? ( dev-python/awkward[${PYTHON_USEDEP}] )
 	uproot? ( dev-python/uproot[${PYTHON_USEDEP}] )
 	uproot? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	uproot? ( dev-python/pint[${PYTHON_USEDEP}] )"
+	uproot? ( dev-python/Pint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

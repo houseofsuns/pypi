@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Steps for web testing using selenium and planterbox [topver 0.5.0]"
+DESCRIPTION="Steps for web testing using selenium and planterbox [topver 0.5.0, newver 0.5.0]"
 
 HOMEPAGE="https://github.com/npilon/planterbox-webdriver"
 LICENSE=""

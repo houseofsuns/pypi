@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES=">=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/pydata-sphinx-theme-0.10.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

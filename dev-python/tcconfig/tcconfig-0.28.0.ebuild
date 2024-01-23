@@ -36,9 +36,9 @@ DEPENDENCIES="dev-python/DataProperty[${PYTHON_USEDEP}]
 	dev-python/subprocrunner[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
 	<dev-python/voluptuous-1.0[${PYTHON_USEDEP}]
-	all? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	buildexe? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	color? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	color? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/allpairspy-2.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pingparsing[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )

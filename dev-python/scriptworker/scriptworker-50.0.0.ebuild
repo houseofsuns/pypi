@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 	>=dev-python/immutabledict-1.3.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/json-e[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/taskcluster[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

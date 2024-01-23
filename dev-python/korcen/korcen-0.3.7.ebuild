@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/better-profanity[${PYTHON_USEDEP}]
-	dev-python/OrderedDict[${PYTHON_USEDEP}]"
+	dev-python/ordereddict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

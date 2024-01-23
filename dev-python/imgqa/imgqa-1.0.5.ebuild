@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	>=dev-python/pytest-4.0.2[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-0.9.0[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

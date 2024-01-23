@@ -29,12 +29,12 @@ DEPENDENCIES="dev-python/codetiming[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
-	dev-python/Pyphen[${PYTHON_USEDEP}]
+	dev-python/pyphen[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/yake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

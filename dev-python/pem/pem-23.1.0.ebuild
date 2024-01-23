@@ -38,6 +38,6 @@ DEPENDENCIES="dev? ( dev-python/pem[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	types? ( dev-python/twisted[${PYTHON_USEDEP}] )
-	types? ( dev-python/types-pyopenssl[${PYTHON_USEDEP}] )"
+	types? ( dev-python/types-pyOpenSSL[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

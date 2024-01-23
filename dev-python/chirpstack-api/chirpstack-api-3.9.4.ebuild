@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chirpstack Python API [topver 4.6.0]"
+DESCRIPTION="Chirpstack Python API [topver 4.6.0, newver 4.6.0]"
 
 HOMEPAGE="https://github.com/brocaar/chirpstack-api"
 LICENSE="MIT"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/telethon[${PYTHON_USEDEP}]
-	dev-python/tgcrypto[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
+	dev-python/Telethon[${PYTHON_USEDEP}]
+	dev-python/TgCrypto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

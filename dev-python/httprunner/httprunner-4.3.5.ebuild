@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pydantic-1.9[${PYTHON_USEDEP}]
 	upload? ( <dev-python/requests-toolbelt-0.11.0[${PYTHON_USEDEP}] )
 	upload? ( <dev-python/filetype-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/Brotli[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	sql? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	sql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )

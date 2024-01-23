@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/flit_core[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flit-core-3.9.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib_github_alt[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinxcontrib-github-alt[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pygments-github-lexers[${PYTHON_USEDEP}] )
 	test? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )

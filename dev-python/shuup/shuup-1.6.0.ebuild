@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="E-Commerce Platform [topver 3.1.0]"
+DESCRIPTION="E-Commerce Platform [topver 3.1.0, newver 2.14.3]"
 
 HOMEPAGE="http://shuup.com/"
 LICENSE="proprietary"
@@ -27,7 +27,7 @@ IUSE="coding-style docs everything testing"
 DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	~dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
 	~dev-python/cryptography-1.7.1[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	<dev-python/django-1.10[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	dev-python/django-enumfields[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
 	dev-python/django-parler-rest[${PYTHON_USEDEP}]
-	dev-python/django-polymorphic[${PYTHON_USEDEP}]
+	<dev-python/django_polymorphic-0.10[${PYTHON_USEDEP}]
 	dev-python/django-registration-redux[${PYTHON_USEDEP}]
 	<dev-python/django-timezone-field-2.0[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-3.6[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
 	~dev-python/keyring-10.2[${PYTHON_USEDEP}]
 	~dev-python/keyrings-alt-2.0[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-3.0[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-2.3.5[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
 	dev-python/pytoml[${PYTHON_USEDEP}]
@@ -62,12 +62,12 @@ DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	coding-style? ( <dev-python/flake8-3.0[${PYTHON_USEDEP}] )
 	coding-style? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	coding-style? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	everything? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	everything? ( ~dev-python/beautifulsoup4-4.5.3[${PYTHON_USEDEP}] )
 	everything? ( <dev-python/flake8-3.0[${PYTHON_USEDEP}] )
 	everything? ( ~dev-python/pytest-django-3.1.2[${PYTHON_USEDEP}] )
-	everything? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	everything? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	everything? ( ~dev-python/html5lib-0.999999999[${PYTHON_USEDEP}] )
 	everything? ( ~dev-python/pytest-3.0.6[${PYTHON_USEDEP}] )
 	everything? ( ~dev-python/selenium-3.8.0[${PYTHON_USEDEP}] )

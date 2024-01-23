@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="azure_devops dev dev-build dev-docs dev-licenses dev-lint dev-security dev-test dev-types github"
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-lint? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	dev-lint? ( dev-python/flake8-eradicate[${PYTHON_USEDEP}] )
 	dev-lint? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev-lint? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev-lint? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev-lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev-lint? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	dev-lint? ( dev-python/flake8-unused-arguments[${PYTHON_USEDEP}] )

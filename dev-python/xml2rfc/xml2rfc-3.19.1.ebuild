@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pdf"
 DEPENDENCIES=">=dev-python/platformdirs-3.6.0[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	>=dev-python/ConfigArgParse-1.2.3[${PYTHON_USEDEP}]
 	>=dev-python/google-i18n-address-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/intervaltree-3.1.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]

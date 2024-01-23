@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="nose extends unittest to make testing easier - python3 version [topver 1.6.3]"
+DESCRIPTION="nose extends unittest to make testing easier - python3 version [topver 1.6.3, newver 1.6.3]"
 
 HOMEPAGE="https://github.com/atsb/nose-py3"
 LICENSE="GNU LGPL"

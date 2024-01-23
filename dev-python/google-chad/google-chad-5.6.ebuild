@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/nagooglesearch[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	>=dev-python/regex-2022.4.24[${PYTHON_USEDEP}]

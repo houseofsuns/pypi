@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/html5lib-1.0.1[${PYTHON_USEDEP}]
 	>dev-python/regex-1.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	imagesize? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	imagesize? ( >=dev-python/pillow-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

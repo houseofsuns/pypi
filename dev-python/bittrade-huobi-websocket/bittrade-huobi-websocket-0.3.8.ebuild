@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/reactivex[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
-	dev-python/expression[${PYTHON_USEDEP}]
+	dev-python/Expression[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/returns[${PYTHON_USEDEP}]
 	dev-python/ccxt[${PYTHON_USEDEP}]

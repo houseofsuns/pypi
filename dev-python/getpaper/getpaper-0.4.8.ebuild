@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/pycomfort[${PYTHON_USEDEP}]
 	dev-python/langchain-community[${PYTHON_USEDEP}]
 	dev-python/scidownl[${PYTHON_USEDEP}]
 	dev-python/semanticscholar[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/unpywall[${PYTHON_USEDEP}]
 	plumber? ( dev-python/pdfplumber[${PYTHON_USEDEP}] )
@@ -41,6 +41,6 @@ DEPENDENCIES="dev-python/pycomfort[${PYTHON_USEDEP}]
 	unstructured? ( dev-python/unstructured[${PYTHON_USEDEP}] )
 	unstructured? ( dev-python/unstructured-inference[${PYTHON_USEDEP}] )
 	unstructured? ( dev-python/unstructured[${PYTHON_USEDEP}] )
-	unstructured? ( dev-python/unstructured-PaddleOCR[${PYTHON_USEDEP}] )"
+	unstructured? ( dev-python/unstructured-paddleocr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

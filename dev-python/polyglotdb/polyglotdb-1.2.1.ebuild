@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/neo4j-driver[${PYTHON_USEDEP}]
 	dev-python/praatio[${PYTHON_USEDEP}]
-	dev-python/textgrid[${PYTHON_USEDEP}]
+	dev-python/TextGrid[${PYTHON_USEDEP}]
 	dev-python/conch-sounds[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]

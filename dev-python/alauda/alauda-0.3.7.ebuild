@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alauda CLI [topver 0.3.8]"
+DESCRIPTION="Alauda CLI [topver 0.3.8, newver 0.3.8]"
 
 HOMEPAGE="https://www.alauda.io"
 LICENSE=""
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/mock-1.0.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.4.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-0.4.2[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-1.15.2[${PYTHON_USEDEP}]"

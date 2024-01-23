@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface to Hip which is a package for manipulating [topver 0.8.2]"
+DESCRIPTION="A Python interface to Hip which is a package for manipulating [topver 0.8.2, newver 0.8.2]"
 
 HOMEPAGE="http://www.cerfacs.fr/avbp7x/hip.php"
 LICENSE="CeCILL-B Free Software License Agreement CECILL-B"
@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/nob[${PYTHON_USEDEP}]
 	dev-python/reportlab[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/arnica[${PYTHON_USEDEP}]
-	dev-python/opentea[${PYTHON_USEDEP}]"
+	dev-python/OpenTEA[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

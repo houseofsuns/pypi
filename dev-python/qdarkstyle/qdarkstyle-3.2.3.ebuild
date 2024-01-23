@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs example"
-DEPENDENCIES="dev-python/qtpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/QtPy-2.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/qtsass[${PYTHON_USEDEP}] )
 	develop? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	example? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	example? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	example? ( dev-python/pyside2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

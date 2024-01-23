@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quantum Chemical Softwares Input Generater & Output Parser [topver 2.0.0]"
+DESCRIPTION="Quantum Chemical Softwares Input Generater & Output Parser [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/atomse/chemio"
 LICENSE="MIT"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="darwin doc extra style test"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopengl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/fsleyes-props[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	extra? ( >=dev-python/jupyter-client-5.3.1[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nbclassic[${PYTHON_USEDEP}] )
 	extra? ( >=dev-python/pyzmq-17.0[${PYTHON_USEDEP}] )
-	extra? ( dev-python/rtree[${PYTHON_USEDEP}] )
+	extra? ( dev-python/Rtree[${PYTHON_USEDEP}] )
 	extra? ( >=dev-python/tornado-5.0[${PYTHON_USEDEP}] )
 	extra? ( >=dev-python/trimesh-2.37.29[${PYTHON_USEDEP}] )
 	extra? ( dev-python/wxnatpy[${PYTHON_USEDEP}] )

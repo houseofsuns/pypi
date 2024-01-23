@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]"
+	~dev-python/xlsxwriter-3.0.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

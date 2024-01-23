@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-datetime-widget2[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

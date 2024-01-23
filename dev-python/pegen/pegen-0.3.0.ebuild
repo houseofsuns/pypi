@@ -34,6 +34,6 @@ DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	web? ( dev-python/flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask-wtf[${PYTHON_USEDEP}] )"
+	web? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

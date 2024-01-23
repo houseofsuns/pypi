@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time-series machine learning at scale. [topver 0.9.4]"
+DESCRIPTION="Time-series machine learning at scale. [topver 0.9.4, newver 0.9.4]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ann cat dev doc lgb llm plot test xgb"
 DEPENDENCIES="dev-python/bottleneck[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/flaml[${PYTHON_USEDEP}]
+	dev-python/FLAML[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]

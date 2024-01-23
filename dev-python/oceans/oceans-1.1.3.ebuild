@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/cmcrameri[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/seawater[${PYTHON_USEDEP}]
-	extras? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	extras? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	extras? ( dev-python/iris[${PYTHON_USEDEP}] )
 	extras? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pandas[${PYTHON_USEDEP}] )

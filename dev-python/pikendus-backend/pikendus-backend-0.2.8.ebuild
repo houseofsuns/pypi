@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/rich-13.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

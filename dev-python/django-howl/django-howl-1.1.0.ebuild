@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.3[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/freezegun-1.0.0[${PYTHON_USEDEP}] )

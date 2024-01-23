@@ -34,19 +34,19 @@ DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
 	all? ( dev-python/moksha-hub[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cryptography-1.6[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyopenssl-16.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/click[${PYTHON_USEDEP}] )
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/M2Crypto[${PYTHON_USEDEP}] )
+	all? ( dev-python/m2crypto[${PYTHON_USEDEP}] )
 	commands? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	commands? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	commands? ( dev-python/click[${PYTHON_USEDEP}] )
 	consumers? ( dev-python/moksha-hub[${PYTHON_USEDEP}] )
 	consumers? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	consumers? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/M2Crypto[${PYTHON_USEDEP}] )
+	crypto? ( dev-python/m2crypto[${PYTHON_USEDEP}] )
 	crypto? ( dev-python/m2ext[${PYTHON_USEDEP}] )
 	crypto_ng? ( >=dev-python/cryptography-1.6[${PYTHON_USEDEP}] )
-	crypto_ng? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )"
+	crypto_ng? ( >=dev-python/pyopenssl-16.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

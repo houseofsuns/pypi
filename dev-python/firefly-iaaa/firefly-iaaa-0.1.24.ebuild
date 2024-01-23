@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
 	dev-python/firefly-framework[${PYTHON_USEDEP}]
 	dev-python/firefly-aws[${PYTHON_USEDEP}]
 	>=dev-python/oauthlib-3.1.1[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}]
 	aws_cognito_support? ( dev-python/firefly-aws[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

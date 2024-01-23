@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dependency Injection Container Library [topver 0.10.2]"
+DESCRIPTION="Dependency Injection Container Library [topver 0.10.2, newver 0.10.2]"
 
 HOMEPAGE="https://github.com/pyfony/injecta"
 LICENSE="MIT"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/python-box-4.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

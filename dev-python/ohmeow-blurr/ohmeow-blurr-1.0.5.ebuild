@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	<dev-python/xlrd-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gputil[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/GPUtil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

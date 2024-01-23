@@ -30,14 +30,14 @@ DEPENDENCIES=">=dev-python/cloudpickle-1.3.0[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES=">=dev-python/cloudpickle-1.3.0[${PYTHON_USEDEP}]
 	vistool? ( >=dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}] )
 	vistool? ( >=dev-python/numpy-1.19.5[${PYTHON_USEDEP}] )
 	vistool? ( >=dev-python/plotly-4.9.0[${PYTHON_USEDEP}] )
-	vistool? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	vistool? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	vistool? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
 	vistool? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	vistool? ( >=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}] )"

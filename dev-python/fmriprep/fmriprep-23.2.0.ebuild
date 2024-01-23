@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all container dev doc docs duecredit maint telemetry test tests"
-DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/codecarbon[${PYTHON_USEDEP}]
 	dev-python/looseversion[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
 	container? ( dev-python/datalad-osf[${PYTHON_USEDEP}] )
 	container? ( dev-python/fmriprep[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/pydot-1.2.3[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
 	docs? ( dev-python/fmriprep[${PYTHON_USEDEP}] )
 	duecredit? ( dev-python/duecredit[${PYTHON_USEDEP}] )
 	maint? ( dev-python/fuzzywuzzy[${PYTHON_USEDEP}] )
-	maint? ( dev-python/python-levenshtein[${PYTHON_USEDEP}] )
+	maint? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/migas[${PYTHON_USEDEP}] )
 	telemetry? ( >=dev-python/sentry-sdk-1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )

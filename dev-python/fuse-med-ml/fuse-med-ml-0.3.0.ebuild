@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	all? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	all? ( dev-python/medpy[${PYTHON_USEDEP}] )
+	all? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	all? ( dev-python/testbook[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mypy-0.950[${PYTHON_USEDEP}] )
@@ -72,13 +72,13 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pydicom[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	examples? ( dev-python/medpy[${PYTHON_USEDEP}] )
+	examples? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	examples? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	fuseimg? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	fuseimg? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	fuseimg? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	fuseimg? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	fuseimg? ( dev-python/medpy[${PYTHON_USEDEP}] )
+	fuseimg? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	fuseimg? ( dev-python/plotly[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

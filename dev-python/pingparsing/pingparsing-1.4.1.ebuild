@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/humanreadable[${PYTHON_USEDEP}]
 	dev-python/subprocrunner[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
 	cli? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-discord[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )"

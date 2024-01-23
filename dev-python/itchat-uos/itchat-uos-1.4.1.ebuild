@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="复活Itchat, 仅仅需要 pip install itchat-uos, good luck ! [topver 1.5.0]"
+DESCRIPTION="复活Itchat, 仅仅需要 pip install itchat-uos, good luck ! [topver 1.5.0, newver 1.5.0.dev0]"
 
 HOMEPAGE="https://github.com/why2lyj/ItChat-UOS"
 LICENSE="MIT"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyqrcode[${PYTHON_USEDEP}]
+	dev-python/PyQRCode[${PYTHON_USEDEP}]
 	dev-python/pypng[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

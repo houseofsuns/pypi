@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/wave[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Wave[${PYTHON_USEDEP}]
 	dev-python/des[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]

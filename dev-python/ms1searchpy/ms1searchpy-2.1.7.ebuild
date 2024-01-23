@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A proteomics search engine for LC-MS1 spectra. [topver 2.6.6]"
+DESCRIPTION="A proteomics search engine for LC-MS1 spectra. [topver 2.6.6, newver 2.6.6]"
 
 HOMEPAGE=""
 LICENSE="License :: OSI Approved :: Apache Software License"

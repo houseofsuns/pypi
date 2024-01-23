@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/azure-cli-core[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/vsts-cd-manager[${PYTHON_USEDEP}]
 	dev-python/azure-cli-command-modules-nspkg[${PYTHON_USEDEP}]"

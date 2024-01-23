@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QualiSystems CloudShell CLI support package [topver 5.0.2]"
+DESCRIPTION="QualiSystems CloudShell CLI support package [topver 5.0.2, newver 5.0.2]"
 
 HOMEPAGE="https://www.quali.com/"
 LICENSE=""

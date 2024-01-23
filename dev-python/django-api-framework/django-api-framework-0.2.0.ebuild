@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.1[${PYTHON_USEDEP}]
 	dev-python/django-ninja-extra[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre_commit[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocs-material-8.0.0[${PYTHON_USEDEP}] )
@@ -45,9 +45,9 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	test? ( dev-python/django_coverage_plugin[${PYTHON_USEDEP}] )
+	test? ( dev-python/django-coverage-plugin[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-ninja-extra[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-ninja-jwt[${PYTHON_USEDEP}] )
-	test? ( dev-python/Django[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/django-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

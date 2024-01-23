@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/gremlinpython[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-2.2.5[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

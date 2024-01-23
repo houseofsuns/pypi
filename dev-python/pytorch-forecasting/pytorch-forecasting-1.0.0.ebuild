@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	graph? ( <dev-python/networkx-4.0.0[${PYTHON_USEDEP}] )
 	mqf2? ( dev-python/cpflows[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pytorch-optimizer[${PYTHON_USEDEP}]"
+	dev-python/pytorch_optimizer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.10.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
 	>=dev-python/jwcrypto-1.4.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-3.0.5[${PYTHON_USEDEP}] )

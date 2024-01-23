@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs speed vbu voice"
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+	<dev-python/pynacl-1.5[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.0.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
@@ -42,9 +42,9 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	vbu? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/aiohttp-session[${PYTHON_USEDEP}] )
-	vbu? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	vbu? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
+	voice? ( <dev-python/pynacl-1.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

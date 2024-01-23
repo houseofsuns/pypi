@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nose-1.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.5[${PYTHON_USEDEP}] )

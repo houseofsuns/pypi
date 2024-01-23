@@ -47,7 +47,7 @@ DEPENDENCIES="<dev-python/sphinx-8.0[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/memray[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.6[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-programoutput-0.18[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

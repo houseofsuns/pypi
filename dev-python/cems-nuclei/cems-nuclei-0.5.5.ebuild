@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	client? ( >=dev-python/ipython-7.3.0[${PYTHON_USEDEP}] )
 	client? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	client? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.22.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/asteroid-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )

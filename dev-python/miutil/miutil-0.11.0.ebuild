@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Medical imaging utilities for the AMYPAD and NiftyPET projects [topver 0.12.0]"
+DESCRIPTION="Medical imaging utilities for the AMYPAD and NiftyPET projects [topver 0.12.0, newver 0.12.0]"
 
 HOMEPAGE="https://github.com/AMYPAD/miutil"
 LICENSE="Apache-2.0"

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/cylc-flow[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-5.2.1[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/rx[${PYTHON_USEDEP}]
+	dev-python/Rx[${PYTHON_USEDEP}]
 	all? ( dev-python/jupyterhub[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-5.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-broken-line[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/cylc-flow[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	all? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-type-checking[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/cylc-flow[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	tests? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-type-checking[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )

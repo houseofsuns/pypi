@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/Routes[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paste-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pastedeploy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/routes-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.5[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.4[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.9.7[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]

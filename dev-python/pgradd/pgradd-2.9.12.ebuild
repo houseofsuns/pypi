@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/pmutt[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.31.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

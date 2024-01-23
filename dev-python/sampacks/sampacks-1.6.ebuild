@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Functions[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/functions[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/win10toast[${PYTHON_USEDEP}]
-	dev-python/gTTs[${PYTHON_USEDEP}]
+	dev-python/gTTS[${PYTHON_USEDEP}]
 	dev-python/pyttsx3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Async ModBus python library [topver 0.2.1]"
+DESCRIPTION="Async ModBus python library [topver 0.2.1, newver 0.2.1]"
 
 HOMEPAGE="https://github.com/tiagocoutinho/async_modbus"
 LICENSE="GNU General Public License v3"

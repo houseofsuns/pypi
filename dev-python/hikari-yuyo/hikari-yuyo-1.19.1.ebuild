@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="asgi sake tanjun"
 DEPENDENCIES="dev-python/alluka[${PYTHON_USEDEP}]
 	dev-python/hikari[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
 	asgi? ( ~dev-python/asgiref-3.0[${PYTHON_USEDEP}] )
 	asgi? ( dev-python/hikari[${PYTHON_USEDEP}] )
 	sake? ( dev-python/hikari-sake[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/mock-4.0.3[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.10[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.16.54[${PYTHON_USEDEP}]
 	<dev-python/moto-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-3.3.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.11.1[${PYTHON_USEDEP}]
 	dev-python/intern[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]"

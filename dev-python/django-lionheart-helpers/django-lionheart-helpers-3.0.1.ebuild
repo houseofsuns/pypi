@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django decorators and some other utilities. [topver 3.0.4]"
+DESCRIPTION="Django decorators and some other utilities. [topver 3.0.4, newver 3.0.4]"
 
 HOMEPAGE="http://lionheartsw.com"
 LICENSE="Apache-2.0"

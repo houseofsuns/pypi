@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package to detect suspicious OpenStreetMap changesets [topver 0.9.0]"
+DESCRIPTION="Python package to detect suspicious OpenStreetMap changesets [topver 0.9.0, newver 0.9.0]"
 
 HOMEPAGE="https://github.com/willemarcel/osmcha"
 LICENSE="GPL-3+"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

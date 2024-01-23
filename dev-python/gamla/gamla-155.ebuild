@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/dataclasses_json[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/heapq_max[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/immutables[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface for the Daisi Platform [topver 0.3.4]"
+DESCRIPTION="A Python interface for the Daisi Platform [topver 0.3.4, newver 0.3.4b1]"
 
 HOMEPAGE="https://github.com/BelmontTechnology/PyDaisi"
 LICENSE="Apache-2.0"

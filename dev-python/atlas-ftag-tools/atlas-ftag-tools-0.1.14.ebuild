@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-notebook[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest_notebook[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipykernel-6.21.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

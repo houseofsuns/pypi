@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/nmoscommon[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-16.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/xarray-2024.0.0[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	coordinates? ( <dev-python/pyproj-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/rioxarray[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/backports-abc[${PYTHON_USEDEP}]
+	dev-python/backports_abc[${PYTHON_USEDEP}]
 	dev-python/praw[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

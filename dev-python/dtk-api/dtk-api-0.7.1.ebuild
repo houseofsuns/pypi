@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tbk_api[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/tbk-api[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]"

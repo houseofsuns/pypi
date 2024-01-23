@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/hiwenet[${PYTHON_USEDEP}]
-	dev-python/medpy[${PYTHON_USEDEP}]
+	dev-python/MedPy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

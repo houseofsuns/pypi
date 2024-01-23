@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/cryoet-data-portal[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/napari-ome-zarr[${PYTHON_USEDEP}]
 	dev-python/ndjson[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/superqt[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/cryoet-data-portal[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyqt5[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

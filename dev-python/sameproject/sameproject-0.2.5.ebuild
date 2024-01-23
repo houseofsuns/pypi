@@ -27,7 +27,7 @@ IUSE="azureml dev"
 DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
 	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Cerberus[${PYTHON_USEDEP}]
+	<dev-python/cerberus-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-box-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	azureml? ( dev-python/azure-mgmt-applicationinsights[${PYTHON_USEDEP}] )
 	azureml? ( dev-python/azure-mgmt-web[${PYTHON_USEDEP}] )
 	azureml? ( dev-python/azureml-pipeline[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )

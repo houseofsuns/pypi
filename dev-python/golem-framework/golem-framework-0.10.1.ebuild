@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-login[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.12.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-login-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/py-webdriver-manager[${PYTHON_USEDEP}]

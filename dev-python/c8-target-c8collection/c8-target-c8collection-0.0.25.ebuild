@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	dev-python/adjust-precision-for-schema[${PYTHON_USEDEP}]
-	dev-python/pyc8[${PYTHON_USEDEP}]
+	dev-python/pyC8[${PYTHON_USEDEP}]
 	dev-python/c8connector[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

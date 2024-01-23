@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hack the Box Team Support Services [topver 0.0.975]"
+DESCRIPTION="Hack the Box Team Support Services [topver 0.0.975, newver 0.0.975]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rel test"
-DEPENDENCIES="dev-python/flask-restful[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	rel? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

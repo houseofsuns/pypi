@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-4.0.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-gallery-0.7.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pillow-7.1.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-prompt-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )

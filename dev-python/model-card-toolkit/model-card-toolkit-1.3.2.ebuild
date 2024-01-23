@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Model Card Toolkit [topver 2.0.0]"
+DESCRIPTION="Model Card Toolkit [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/tensorflow/model-card-toolkit"
 LICENSE="Apache-2.0"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/absl-py-1.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	dev-python/ml-metadata[${PYTHON_USEDEP}]

@@ -29,15 +29,15 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/karma-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/karma_sphinx_theme[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/karma-sphinx-theme[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	readthedocs? ( dev-python/karma_sphinx_theme[${PYTHON_USEDEP}] )
+	readthedocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

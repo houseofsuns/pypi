@@ -16,8 +16,8 @@ DESCRIPTION="Connect colorbrewer2.org color maps to Python and matplotlib"
 
 HOMEPAGE="https://github.com/jiffyclub/brewer2mpl/wiki"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

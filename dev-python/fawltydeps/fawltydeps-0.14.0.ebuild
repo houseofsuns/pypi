@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/importlib_metadata[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-metadata-6.6.0[${PYTHON_USEDEP}]
 	<dev-python/isort-6.0[${PYTHON_USEDEP}]
 	dev-python/pip-requirements-parser[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]

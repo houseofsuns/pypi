@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pdfrw2[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pymupdf[${PYTHON_USEDEP}]"
+	dev-python/pillow[${PYTHON_USEDEP}]
+	dev-python/PyMuPDF[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

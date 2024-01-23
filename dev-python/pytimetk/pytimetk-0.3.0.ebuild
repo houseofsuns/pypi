@@ -36,6 +36,6 @@ DEPENDENCIES=">=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/adjusttext[${PYTHON_USEDEP}]"
+	dev-python/adjustText[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

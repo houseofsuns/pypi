@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/dicttoxml[${PYTHON_USEDEP}]
 	dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
 	dev-python/pyramid-debugtoolbar[${PYTHON_USEDEP}]
 	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/webtest-1.3.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

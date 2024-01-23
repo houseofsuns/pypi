@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ebooklib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/EbookLib[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pypdf-4.0.0[${PYTHON_USEDEP}]"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev dev_windows"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/plumbum[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

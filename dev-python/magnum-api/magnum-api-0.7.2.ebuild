@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ipyaggrid[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pymbse-commons[${PYTHON_USEDEP}]
 	dev-python/roxie-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

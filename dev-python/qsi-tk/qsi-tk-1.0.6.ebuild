@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data science toolkit (TK) from Quality-Safety research Institute (QSI). [topver 1.1.1]"
+DESCRIPTION="Data science toolkit (TK) from Quality-Safety research Institute (QSI). [topver 1.1.1, newver 1.1.1]"
 
 HOMEPAGE="http://pypi.python.org/pypi/qsi_tk/"
 LICENSE="LICENSE.txt"
@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/PyWavelets[${PYTHON_USEDEP}]
+	dev-python/pywavelets[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pyNNRW[${PYTHON_USEDEP}]
 	dev-python/cla[${PYTHON_USEDEP}]
-	dev-python/pyDRMetrics[${PYTHON_USEDEP}]
-	dev-python/wDRMetrics[${PYTHON_USEDEP}]
+	dev-python/pydrmetrics[${PYTHON_USEDEP}]
+	dev-python/wdrmetrics[${PYTHON_USEDEP}]
 	dev-python/cs1[${PYTHON_USEDEP}]
 	dev-python/ctgan[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]

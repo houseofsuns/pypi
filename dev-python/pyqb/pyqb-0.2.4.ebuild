@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quickbase API Python Wrapper [topver 0.2.5]"
+DESCRIPTION="Quickbase API Python Wrapper [topver 0.2.5, newver 0.2.5]"
 
 HOMEPAGE="http://github.com/sjmh/pyqb"
 LICENSE="EPL-1.0"

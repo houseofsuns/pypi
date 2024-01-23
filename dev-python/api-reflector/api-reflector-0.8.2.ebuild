@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/flask-sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Flask-Dance[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/wtforms-2.3.3[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	<dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/fasteners-0.19[${PYTHON_USEDEP}]
 	<dev-python/blinker-2.0[${PYTHON_USEDEP}]"

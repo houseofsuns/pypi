@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cvc4_solver docs testing"
 DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/pysmt[${PYTHON_USEDEP}]
+	dev-python/PySMT[${PYTHON_USEDEP}]
 	dev-python/z3-solver[${PYTHON_USEDEP}]
 	cvc4_solver? ( dev-python/cvc4-solver[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )

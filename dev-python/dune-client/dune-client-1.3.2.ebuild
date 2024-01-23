@@ -33,6 +33,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/ndjson[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	>=dev-python/deprecated-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

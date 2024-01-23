@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs"
 DEPENDENCIES="dev-python/travertino[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/coverage-7.3.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-freezer-0.4.8[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/travertino[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/tox-4.11.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-tabs-3.4.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )

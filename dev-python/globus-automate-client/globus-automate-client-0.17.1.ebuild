@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/globus-sdk[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.13[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"

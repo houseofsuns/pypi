@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CALFEM for Python [topver 3.6.5]"
+DESCRIPTION="CALFEM for Python [topver 3.6.5, newver 3.6.5]"
 
 HOMEPAGE="https://github.com/CALFEM/calfem-python"
 LICENSE="MIT"
@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/visvis[${PYTHON_USEDEP}]
-	dev-python/pyvtk[${PYTHON_USEDEP}]
+	dev-python/PyVTK[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/gmsh[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/vedo[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

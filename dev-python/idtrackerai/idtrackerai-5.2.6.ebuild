@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.8.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.4.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )

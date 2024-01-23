@@ -27,8 +27,8 @@ IUSE="docs mypy test"
 DEPENDENCIES=">=dev-python/python-dateutil-2.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.7[${PYTHON_USEDEP}]
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/markupsafe-2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )

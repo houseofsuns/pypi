@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-4.2.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

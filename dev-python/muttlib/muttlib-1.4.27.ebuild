@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bigquery forecast gdrive gsheets hive ibis mongo mysql oracle postgres pyarrow redshift snowflake sqlserver teradata test"
-DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.1[${PYTHON_USEDEP}]
 	hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyHive[${PYTHON_USEDEP}] )
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/bandit-2.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/bandit-2.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/betamax-0.9.0[${PYTHON_USEDEP}] )

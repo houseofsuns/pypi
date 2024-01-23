@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.4.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]

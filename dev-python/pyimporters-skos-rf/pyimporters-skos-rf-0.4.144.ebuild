@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyimporters_plugins[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyimporters-plugins[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

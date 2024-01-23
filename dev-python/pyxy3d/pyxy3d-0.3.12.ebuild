@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyqtgraph-0.14.0[${PYTHON_USEDEP}]
-	dev-python/PyOpenGL[${PYTHON_USEDEP}]
+	<dev-python/pyopengl-4.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/mediapipe[${PYTHON_USEDEP}]
 	<dev-python/pyside6-7.0.0[${PYTHON_USEDEP}]

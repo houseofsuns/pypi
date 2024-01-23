@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/async-generator[${PYTHON_USEDEP}]
+	dev-python/async_generator[${PYTHON_USEDEP}]
 	>=dev-python/click-6.0.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	test? ( >=dev-python/nose-1.0[${PYTHON_USEDEP}] )

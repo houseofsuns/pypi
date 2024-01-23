@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	develop? ( <dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	develop? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"

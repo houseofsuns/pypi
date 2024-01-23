@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/django-cors-headers-4.0.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-jsonapi[${PYTHON_USEDEP}]
-	dev-python/django_filter[${PYTHON_USEDEP}]
+	<dev-python/django-filter-22.0[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	dev-python/channels-redis[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	<dev-python/elasticsearch-8.0[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/yapian-haystack[${PYTHON_USEDEP}]
-	dev-python/Whoosh[${PYTHON_USEDEP}]
+	<dev-python/whoosh-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples"
-DEPENDENCIES="examples? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+DEPENDENCIES="examples? ( <dev-python/pillow-11.0.0[${PYTHON_USEDEP}] )
 	examples? ( <dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/customtkinter[${PYTHON_USEDEP}] )
 	<=dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"

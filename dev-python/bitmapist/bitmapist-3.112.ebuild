@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/redis-5.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]"
+	<dev-python/mako-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

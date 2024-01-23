@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/connect-openapi-client[${PYTHON_USEDEP}]
 	dev-python/logzio-python-handler[${PYTHON_USEDEP}]
 	dev-python/anvil-uplink[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

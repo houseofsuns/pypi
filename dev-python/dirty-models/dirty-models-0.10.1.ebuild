@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dirty models for python 3 [topver 0.12.4]"
+DESCRIPTION="Dirty models for python 3 [topver 0.12.4, newver 0.12.4]"
 
 HOMEPAGE="https://github.com/alfred82santa/dirty-models"
 LICENSE="BSD"

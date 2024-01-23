@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	oclgrind? ( dev-python/oclgrind-binary-distribution[${PYTHON_USEDEP}] )
 	pocl? ( dev-python/pocl-binary-distribution[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Mako[${PYTHON_USEDEP}] )"
+	test? ( dev-python/mako[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

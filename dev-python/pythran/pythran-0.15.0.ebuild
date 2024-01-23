@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/ply-3.4[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/guzzle-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/guzzle_sphinx_theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
 	test? ( dev-python/cython[${PYTHON_USEDEP}] )

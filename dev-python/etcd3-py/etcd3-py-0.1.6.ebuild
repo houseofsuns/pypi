@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/semantic-version-2.6.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]"

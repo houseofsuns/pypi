@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint test"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/django-1.11[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.7[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-0.13.2[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python and Django utilities for encrypted fields using pgcrypto. [topver 2.0.0]"
+DESCRIPTION="Python and Django utilities for encrypted fields using pgcrypto. [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/dcwatson/django-pgcrypto"
 LICENSE="BSD"

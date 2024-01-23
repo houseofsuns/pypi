@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs-ext[${PYTHON_USEDEP}] )
-	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/model-bakery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

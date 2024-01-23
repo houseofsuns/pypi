@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/doc8-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

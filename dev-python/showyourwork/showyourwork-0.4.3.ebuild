@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES=">=dev-python/graphviz-0.19.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]

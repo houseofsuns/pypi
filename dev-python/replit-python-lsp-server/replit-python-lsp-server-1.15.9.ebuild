@@ -55,7 +55,7 @@ DEPENDENCIES="<dev-python/jedi-0.19.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/numpy-1.23[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	websockets? ( >=dev-python/websockets-10.3[${PYTHON_USEDEP}] )
 	yapf? ( dev-python/yapf[${PYTHON_USEDEP}] )

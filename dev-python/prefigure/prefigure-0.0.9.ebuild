@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Run configuration management utils: combines configparser, argparse, and wandb.API [topver 0.0.10]"
+DESCRIPTION="Run configuration management utils: combines configparser, argparse, and wandb.API [topver 0.0.10, newver 0.0.10]"
 
 HOMEPAGE="https://github.com/drscotthawley/prefigure"
 LICENSE="MIT"

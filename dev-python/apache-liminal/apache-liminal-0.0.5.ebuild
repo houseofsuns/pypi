@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/docker-4.2.0[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.1[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.17.112[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.20.112[${PYTHON_USEDEP}]
@@ -45,15 +45,15 @@ DEPENDENCIES="~dev-python/docker-4.2.0[${PYTHON_USEDEP}]
 	<dev-python/statsd-4.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.15[${PYTHON_USEDEP}]
 	~dev-python/flatdict-3.4.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-cncf-kubernetes[${PYTHON_USEDEP}]
 	~dev-python/cfn-lint-0.53.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]"
+	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

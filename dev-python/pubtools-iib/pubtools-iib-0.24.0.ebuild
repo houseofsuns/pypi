@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/iiblib[${PYTHON_USEDEP}]
 	dev-python/pushcollector[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	rest? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	rest? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

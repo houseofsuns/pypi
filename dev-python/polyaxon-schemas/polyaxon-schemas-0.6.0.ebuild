@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Schema definitions and validation for Polyaxon. [topver 0.6.1]"
+DESCRIPTION="Schema definitions and validation for Polyaxon. [topver 0.6.1, newver 0.6.1]"
 
 HOMEPAGE="https://github.com/polyaxon/polyaxon-schemas"
 LICENSE="MIT"

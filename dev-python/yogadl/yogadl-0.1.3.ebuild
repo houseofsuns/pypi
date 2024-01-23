@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Yoga Data Layer, a flexible data layer for machine learning [topver 0.1.4]"
+DESCRIPTION="Yoga Data Layer, a flexible data layer for machine learning [topver 0.1.4, newver 0.1.4]"
 
 HOMEPAGE="https://www.github.com/determined-ai/yogadl/"
 LICENSE="Apache-2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tf"
-DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]

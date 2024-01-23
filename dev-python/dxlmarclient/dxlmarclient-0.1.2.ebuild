@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="McAfee Active Response (MAR) DXL client library [topver 0.2.1]"
+DESCRIPTION="McAfee Active Response (MAR) DXL client library [topver 0.2.1, newver 0.2.1]"
 
 HOMEPAGE="http://www.mcafee.com/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="JSON Matching Expressions [topver 1.1.3]"
+DESCRIPTION="JSON Matching Expressions [topver 1.1.3, newver 1.1.3]"
 
 HOMEPAGE="https://github.com/jmespath-community/jmespath.py"
 LICENSE="MIT"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	pipeline? ( dev-python/blockdiag[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	pipeline? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )

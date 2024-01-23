@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docstest pep8test test"
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	>=dev-python/logbook-0.12.3[${PYTHON_USEDEP}]
-	dev-python/represent[${PYTHON_USEDEP}]
+	dev-python/Represent[${PYTHON_USEDEP}]
 	dev-python/rush[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]

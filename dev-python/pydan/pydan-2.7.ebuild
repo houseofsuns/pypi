@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python3 Data Utils [topver 7.1]"
+DESCRIPTION="Python3 Data Utils [topver 7.1, newver 7.1]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -27,10 +27,10 @@ IUSE="geo results rpc"
 DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.9[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	geo? ( dev-python/Click[${PYTHON_USEDEP}] )
+	geo? ( >=dev-python/click-6.0[${PYTHON_USEDEP}] )
 	geo? ( dev-python/mercantile[${PYTHON_USEDEP}] )
 	geo? ( >=dev-python/pyproj-2.2[${PYTHON_USEDEP}] )
-	geo? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	geo? ( >=dev-python/shapely-1.6[${PYTHON_USEDEP}] )
 	geo? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	results? ( >=dev-python/cftime-1.0.1[${PYTHON_USEDEP}] )
 	rpc? ( dev-python/asyncio-rpc[${PYTHON_USEDEP}] )"

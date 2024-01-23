@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/mypy-0.992[${PYTHON_USEDEP}]
-	dev-python/pysnooper[${PYTHON_USEDEP}]
+	dev-python/PySnooper[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]"

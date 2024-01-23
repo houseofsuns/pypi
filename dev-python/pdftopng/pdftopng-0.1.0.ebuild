@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A PDF to PNG conversion library. (based on pdftoppm from poppler) [topver 0.2.3]"
+DESCRIPTION="A PDF to PNG conversion library. (based on pdftoppm from poppler) [topver 0.2.3, newver 0.2.3]"
 
 HOMEPAGE="https://github.com/vinayak-mehta/pdftopng"
 LICENSE="GPL-2"

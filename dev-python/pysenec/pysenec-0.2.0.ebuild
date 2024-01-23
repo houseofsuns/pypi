@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unofficial, local SENEC Battery Client [topver 0.3.0]"
+DESCRIPTION="Unofficial, local SENEC Battery Client [topver 0.3.0, newver 0.3.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

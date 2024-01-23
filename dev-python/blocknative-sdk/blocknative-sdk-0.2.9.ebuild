@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/h11-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.2[${PYTHON_USEDEP}]

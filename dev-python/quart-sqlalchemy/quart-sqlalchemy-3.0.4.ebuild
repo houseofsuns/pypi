@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/quart[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Quart[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-3.1.0[${PYTHON_USEDEP}]
 	<dev-python/blinker-1.7[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.1.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	<dev-python/anyio-4.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]

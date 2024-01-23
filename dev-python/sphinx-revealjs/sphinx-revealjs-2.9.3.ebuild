@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="demo doc screenshot test"
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	demo? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	demo? ( dev-python/sphinxcontrib-gtagjs[${PYTHON_USEDEP}] )
@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	demo? ( dev-python/sphinxcontrib-oembed[${PYTHON_USEDEP}] )
 	demo? ( dev-python/sphinxcontrib-sass[${PYTHON_USEDEP}] )
 	demo? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-rtd-theme-0.6[${PYTHON_USEDEP}] )
 	screenshot? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	test? ( dev-python/BeautifulSoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-magic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

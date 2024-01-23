@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/qcodes[${PYTHON_USEDEP}]
 	test? ( >=dev-python/mypy-0.940[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyvisa-sim[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyVISA-sim[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

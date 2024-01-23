@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy_utils[${PYTHON_USEDEP}] )
+	dev? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqllogformatter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/redis[${PYTHON_USEDEP}] )"

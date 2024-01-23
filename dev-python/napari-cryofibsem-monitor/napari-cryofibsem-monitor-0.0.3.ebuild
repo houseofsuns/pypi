@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/imreg-dft[${PYTHON_USEDEP}]
+	dev-python/imreg_dft[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

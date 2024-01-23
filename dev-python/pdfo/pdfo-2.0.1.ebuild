@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pydata-sphinx-theme-0.14.4[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-googleanalytics[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )"

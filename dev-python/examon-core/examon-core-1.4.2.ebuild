@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dataclasses-serialization[${PYTHON_USEDEP}]
 	<dev-python/radon-7.0.0[${PYTHON_USEDEP}]
-	dev-python/restrictedpython[${PYTHON_USEDEP}]"
+	dev-python/RestrictedPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

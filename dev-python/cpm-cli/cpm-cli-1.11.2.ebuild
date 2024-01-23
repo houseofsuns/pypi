@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Flask[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="image"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-help-colors-0.10.0[${PYTHON_USEDEP}]
 	dev-python/nbtlib[${PYTHON_USEDEP}]

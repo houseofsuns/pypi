@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/getkey[${PYTHON_USEDEP}]
 	<dev-python/watchfiles-0.19.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/eel[${PYTHON_USEDEP}]
+	dev-python/Eel[${PYTHON_USEDEP}]
 	dev-python/motpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/antlr4-tools[${PYTHON_USEDEP}]
 	>=dev-python/confuse-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	hdf5? ( ~dev-python/h5py-3.10.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/gputil[${PYTHON_USEDEP}] )"
+	test? ( dev-python/GPUtil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

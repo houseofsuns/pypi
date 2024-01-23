@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/distro-1.7.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	dev? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

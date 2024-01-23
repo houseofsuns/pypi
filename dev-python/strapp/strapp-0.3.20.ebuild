@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="click datadog dramatiq flask http sentry sqlalchemy"
-DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
 	click? ( dev-python/click[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/requests[${PYTHON_USEDEP}] )
 	sqlalchemy? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask_reverse_proxy[${PYTHON_USEDEP}] )
+	flask? ( dev-python/flask-reverse-proxy[${PYTHON_USEDEP}] )
 	http? ( dev-python/setuplog[${PYTHON_USEDEP}] )
 	http? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/configly[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.10[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

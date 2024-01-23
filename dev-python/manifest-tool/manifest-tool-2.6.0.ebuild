@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/asn1ate[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
 	<=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]

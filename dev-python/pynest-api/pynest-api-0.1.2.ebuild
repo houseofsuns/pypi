@@ -27,9 +27,9 @@ IUSE="mongo test"
 DEPENDENCIES="~dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.19[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.23.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/astor-0.8.1[${PYTHON_USEDEP}]
 	~dev-python/black-23.11.0[${PYTHON_USEDEP}]
 	mongo? ( ~dev-python/pymongo-3.12.0[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/connect-markdown-renderer[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23[${PYTHON_USEDEP}]
 	>=dev-python/inflect-4.1[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python module that parses KAMI into HTML [topver 0.6.1]"
+DESCRIPTION="A python module that parses KAMI into HTML [topver 0.6.1, newver 0.6.1]"
 
 HOMEPAGE="https://github.com/lilith-in-starlight/pykami"
 LICENSE="MIT"

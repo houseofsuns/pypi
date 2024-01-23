@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/cma[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	all? ( dev-python/box2d[${PYTHON_USEDEP}] )
+	all? ( dev-python/Box2D[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	all? ( dev-python/mlflow[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/cma[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/swig[${PYTHON_USEDEP}] )
-	dev? ( dev-python/box2d[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Box2D[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mlflow[${PYTHON_USEDEP}] )

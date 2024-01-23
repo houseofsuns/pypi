@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyInstaller[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyinstaller[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/nose2-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/nose2-0.6.5[${PYTHON_USEDEP}]
 	>=dev-python/pylint-2.3.1[${PYTHON_USEDEP}]

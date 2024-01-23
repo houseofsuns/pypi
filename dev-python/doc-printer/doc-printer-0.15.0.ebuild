@@ -27,7 +27,7 @@ IUSE="docs mypy test"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/tree-sitter-0.21[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-10.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-bootstrap-theme-0.9[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpver[${PYTHON_USEDEP}] )

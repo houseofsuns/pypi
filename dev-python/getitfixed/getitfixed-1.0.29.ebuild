@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/c2c-template[${PYTHON_USEDEP}]
 	dev-python/c2cgeoform[${PYTHON_USEDEP}]
-	dev-python/beaker-redis[${PYTHON_USEDEP}]
+	dev-python/beaker_redis[${PYTHON_USEDEP}]
 	dev-python/plaster-pastedeploy[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pyramid-tm[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
 	dev-python/deform[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+	>=dev-python/sqlalchemy-1.1.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

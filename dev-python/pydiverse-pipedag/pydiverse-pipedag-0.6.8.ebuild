@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dask filelock prefect zookeeper"
 DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	>=dev-python/python-box-6.1.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pydot-1.4.2[${PYTHON_USEDEP}]

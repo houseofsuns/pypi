@@ -28,9 +28,9 @@ DEPENDENCIES=">=dev-python/wrapt-1.11.2[${PYTHON_USEDEP}]
 	build? ( dev-python/oarepo-model-builder[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/oarepo[${PYTHON_USEDEP}] )
 	devel? ( dev-python/oarepo[${PYTHON_USEDEP}] )
-	devel? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	devel? ( <dev-python/werkzeug-2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/oarepo[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/werkzeug-2.0[${PYTHON_USEDEP}] )
 	tests-es7? ( dev-python/oarepo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

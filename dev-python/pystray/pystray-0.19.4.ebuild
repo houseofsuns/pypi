@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides systray integration [topver 0.19.5]"
+DESCRIPTION="Provides systray integration [topver 0.19.5, newver 0.19.5]"
 
 HOMEPAGE="https://github.com/moses-palmer/pystray"
 LICENSE="LGPL-3"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]
 	>=dev-python/python-xlib-0.17[${PYTHON_USEDEP}]"

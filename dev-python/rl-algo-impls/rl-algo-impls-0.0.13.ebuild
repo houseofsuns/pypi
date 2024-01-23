@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/rl-algo-impls[${PYTHON_USEDEP}] )
 	all? ( dev-python/rl-algo-impls[${PYTHON_USEDEP}] )

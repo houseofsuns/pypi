@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dashboard for ambition/edc [topver 0.1.47]"
+DESCRIPTION="Dashboard for ambition/edc [topver 0.1.47, newver 0.1.47]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-dashboard"
 LICENSE="GPL license, see LICENSE"

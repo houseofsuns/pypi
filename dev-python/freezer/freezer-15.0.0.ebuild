@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}]
+	>=dev-python/APScheduler-3.0.5[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.5[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]

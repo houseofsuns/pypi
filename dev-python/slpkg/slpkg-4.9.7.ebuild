@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="socks"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	>=dev-python/pythondialog-3.5.3[${PYTHON_USEDEP}]
 	>=dev-python/progress-1.6[${PYTHON_USEDEP}]
 	socks? ( >=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}] )"

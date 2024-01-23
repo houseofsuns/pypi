@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/xarray-0.14.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-srclinks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-pangeo-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

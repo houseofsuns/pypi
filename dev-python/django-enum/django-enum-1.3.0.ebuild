@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all djangorestframework filters properties"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/enum-properties[${PYTHON_USEDEP}] )
 	properties? ( dev-python/enum-properties[${PYTHON_USEDEP}] )
 	all? ( <dev-python/django-filter-24.0[${PYTHON_USEDEP}] )

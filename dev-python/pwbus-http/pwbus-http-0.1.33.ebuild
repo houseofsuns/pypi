@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pwbus[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]

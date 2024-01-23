@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/faker[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/Faker-12.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/lorem[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )

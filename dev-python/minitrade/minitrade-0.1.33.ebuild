@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas-ta[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	dev-python/pypika[${PYTHON_USEDEP}]
+	dev-python/PyPika[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/mailjet-rest[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -57,6 +57,6 @@ DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/twelvedata[${PYTHON_USEDEP}]
 	dev-python/alpaca-py[${PYTHON_USEDEP}]
 	dev-python/fredapi[${PYTHON_USEDEP}]
-	dev-python/quantstats[${PYTHON_USEDEP}]"
+	dev-python/QuantStats[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

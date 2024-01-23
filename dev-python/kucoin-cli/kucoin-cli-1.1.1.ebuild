@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/progress[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/timedelta[${PYTHON_USEDEP}]
-	dev-python/progress-bar[${PYTHON_USEDEP}]
+	dev-python/progress_bar[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Experiment tracking, ML developer tools [topver 0.9.0]"
+DESCRIPTION="Experiment tracking, ML developer tools [topver 0.9.0, newver 0.9.0]"
 
 HOMEPAGE="https://guild.ai"
 LICENSE="Apache-2.0"
@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-2.12[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.15[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/daemonize-2.4.7[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.0.12[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/pkginfo[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy dev docs notebooks tests"
 DEPENDENCIES="dev-python/openscm-units[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pyam-iamc[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

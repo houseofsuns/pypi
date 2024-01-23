@@ -29,12 +29,12 @@ DEPENDENCIES=">=dev-python/paramiko-2.4[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	all-formats? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
 	all-formats? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
-	all-formats? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all-formats? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
 	all_formats? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
 	all_formats? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
-	all_formats? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all_formats? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
 	lxml? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
 	xml? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

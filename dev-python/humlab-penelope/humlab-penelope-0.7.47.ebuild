@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/ipydatagrid[${PYTHON_USEDEP}]
 	dev-python/ipyfilechooser[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jupyter_bokeh[${PYTHON_USEDEP}]
+	dev-python/jupyter-bokeh[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-10.1.0[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	full? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	full? ( dev-python/textacy[${PYTHON_USEDEP}] )
 	full? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/click-8.1[${PYTHON_USEDEP}] )
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]

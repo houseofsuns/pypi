@@ -35,7 +35,7 @@ DEPENDENCIES="qa? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.16.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

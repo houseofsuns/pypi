@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sqlalchemy-1.2[${PYTHON_USEDEP}]
 	dev-python/bonobo[${PYTHON_USEDEP}]
 	dev? ( dev-python/bonobo[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-4.5[${PYTHON_USEDEP}] )

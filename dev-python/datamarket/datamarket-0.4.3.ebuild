@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/stem[${PYTHON_USEDEP}]
-	dev-python/pydrive2[${PYTHON_USEDEP}]
+	dev-python/PyDrive2[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

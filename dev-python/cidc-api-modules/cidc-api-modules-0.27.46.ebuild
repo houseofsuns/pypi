@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.10.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/cidc-schemas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

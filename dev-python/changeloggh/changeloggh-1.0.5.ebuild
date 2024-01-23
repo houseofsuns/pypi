@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

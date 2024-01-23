@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/InquirerPy[${PYTHON_USEDEP}]"
+	dev-python/inquirerpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

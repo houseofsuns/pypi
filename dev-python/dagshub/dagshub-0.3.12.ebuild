@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fuse jupyter"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/fusepy[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]

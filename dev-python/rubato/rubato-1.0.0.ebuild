@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="~dev-python/PySDL2-0.9[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	~dev-python/cython-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]
 	dev-python/pytiled-parser[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-2.12[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/PySDL2-0.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2022.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.16[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/PySDL2-0.9[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	docs? ( dev-python/enum-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

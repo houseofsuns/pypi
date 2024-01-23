@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pi3d[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.1.0[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]"

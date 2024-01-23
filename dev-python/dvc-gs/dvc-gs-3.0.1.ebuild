@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( dev-python/wget[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/filelock-3.3.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pygments-2.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/collective-checkdocs[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pylint-2.15.9[${PYTHON_USEDEP}] )

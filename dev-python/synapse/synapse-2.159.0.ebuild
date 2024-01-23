@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyopenssl-23.3.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	<dev-python/msgpack-1.1.0[${PYTHON_USEDEP}]
 	<dev-python/xxhash-3.5.0[${PYTHON_USEDEP}]
 	<dev-python/lmdb-1.5.0[${PYTHON_USEDEP}]
 	<dev-python/tornado-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/regex-2022.9.11[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-socks-0.9.0[${PYTHON_USEDEP}]
 	dev-python/aioimaplib[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/lark-1.1.9[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-2.18.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/fastjsonschema-2.20.0[${PYTHON_USEDEP}]
 	dev-python/stix2-validator[${PYTHON_USEDEP}]
@@ -70,6 +70,6 @@ DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-notfound-page-0.8.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

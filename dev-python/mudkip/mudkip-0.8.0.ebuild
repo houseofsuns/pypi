@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sphinx-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/furo-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-nbextensions-configurator[${PYTHON_USEDEP}]

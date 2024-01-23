@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/strictyaml[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.3.8[${PYTHON_USEDEP}]
 	>=dev-python/python-slugify-1.2.1[${PYTHON_USEDEP}]
 	dev-python/prettystack[${PYTHON_USEDEP}]

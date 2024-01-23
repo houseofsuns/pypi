@@ -31,8 +31,8 @@ DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-1.34.0[${PYTHON_USEDEP}]
 	dev-python/mutablerecords[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/sockjs-tornado[${PYTHON_USEDEP}]
 	<dev-python/tornado-5.0[${PYTHON_USEDEP}]
@@ -41,6 +41,6 @@ DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	serial_collection_plug? ( >=dev-python/pyserial-3.3.0[${PYTHON_USEDEP}] )
 	update_units? ( >=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}] )
 	usb_plugs? ( dev-python/libusb1[${PYTHON_USEDEP}] )
-	usb_plugs? ( dev-python/M2Crypto[${PYTHON_USEDEP}] )"
+	usb_plugs? ( >=dev-python/m2crypto-0.22.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

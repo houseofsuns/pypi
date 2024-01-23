@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/biomaj-cli[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/elasticsearch[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
-	dev-python/Yapsy[${PYTHON_USEDEP}]
+	~dev-python/yapsy-1.12.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for hosting and controlling tasks of the Yandex.Toloka service. [topver 0.0.20]"
+DESCRIPTION="Python library for hosting and controlling tasks of the Yandex.Toloka service. [topver 0.0.20, newver 0.0.20]"
 
 HOMEPAGE=""
 LICENSE=""

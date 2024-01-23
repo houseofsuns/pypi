@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/ghapi[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.37[${PYTHON_USEDEP}]
 	dev-python/immutabledict[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/click-log[${PYTHON_USEDEP}]
 	docs? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
 	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

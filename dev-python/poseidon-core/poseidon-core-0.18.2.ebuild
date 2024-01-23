@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/faucetconfrpc[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	~dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/pika-1.3.0[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.14.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	~dev-python/transitions-0.9.0[${PYTHON_USEDEP}]"

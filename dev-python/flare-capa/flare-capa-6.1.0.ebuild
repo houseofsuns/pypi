@@ -58,7 +58,7 @@ DEPENDENCIES="~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-no-implicit-concat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-todos[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	dev? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-use-pathlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-copyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/structlog-23.1.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23.2.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )

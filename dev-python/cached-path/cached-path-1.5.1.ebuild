@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/responses-0.21.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )

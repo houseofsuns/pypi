@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="my utils in django [topver 0.11.7]"
+DESCRIPTION="my utils in django [topver 0.11.7, newver 0.11.7]"
 
 HOMEPAGE="https://github.com/szuprefix/django_szuprefix"
 LICENSE="MIT"

@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="asyncpg pg8000 pymysql pytds"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}]
-	dev-python/Requests[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/google-auth[${PYTHON_USEDEP}]
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	pg8000? ( dev-python/pg8000[${PYTHON_USEDEP}] )
-	pymysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	pymysql? ( >=dev-python/pymysql-1.1.0[${PYTHON_USEDEP}] )
 	pytds? ( dev-python/python-tds[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

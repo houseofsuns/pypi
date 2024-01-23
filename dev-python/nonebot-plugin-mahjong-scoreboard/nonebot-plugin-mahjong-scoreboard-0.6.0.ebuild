@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="htmlrender"
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/nonebot_plugin_apscheduler[${PYTHON_USEDEP}]
+	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-gocqhttp-cross-machine-upload-file[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/nonebot-plugin-session[${PYTHON_USEDEP}]
+	dev-python/nonebot_plugin_session[${PYTHON_USEDEP}]
 	>=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]

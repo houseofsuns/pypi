@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/idna-2.8[${PYTHON_USEDEP}]
 	>=dev-python/exceptiongroup-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/anyio[${PYTHON_USEDEP}] )

@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/parsita[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	pandas? ( <dev-python/pyarrow-15.0[${PYTHON_USEDEP}] )
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

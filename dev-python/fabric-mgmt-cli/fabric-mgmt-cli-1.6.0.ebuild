@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.1.1[${PYTHON_USEDEP}]
-	dev-python/fabric-cf[${PYTHON_USEDEP}]
+	dev-python/fabric_cf[${PYTHON_USEDEP}]
 	dev-python/ansible[${PYTHON_USEDEP}]
 	dev-python/fabric-credmgr-client[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )

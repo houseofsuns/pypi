@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast interval tree-like implementation in C, wrapped for the Python ecosystem."
+DESCRIPTION="A fast interval tree-like implementation in C, wrapped for the Python ecosystem. [newver 0.0.39]"
 
 HOMEPAGE="http://github.com/pyranges/ncls"
 LICENSE="MIT"

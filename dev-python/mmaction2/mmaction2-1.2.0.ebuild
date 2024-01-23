@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/decord[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/decord[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/decord[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/av[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/decord[${PYTHON_USEDEP}]
 	all? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai-clip[${PYTHON_USEDEP}] )
 	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/pims[${PYTHON_USEDEP}] )
+	all? ( dev-python/PIMS[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyTurboJPEG[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/decord[${PYTHON_USEDEP}]
 	optional? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/openai-clip[${PYTHON_USEDEP}] )
 	optional? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pims[${PYTHON_USEDEP}] )
+	optional? ( dev-python/PIMS[${PYTHON_USEDEP}] )
 	optional? ( dev-python/PyTurboJPEG[${PYTHON_USEDEP}] )
 	optional? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	optional? ( dev-python/tensorboard[${PYTHON_USEDEP}] )

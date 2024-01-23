@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/tweepy[${PYTHON_USEDEP}]
-	dev-python/TurkishStemmer[${PYTHON_USEDEP}]
+	dev-python/turkishstemmer[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/price-parser[${PYTHON_USEDEP}]
 	dev-python/zemberek-grpc[${PYTHON_USEDEP}]

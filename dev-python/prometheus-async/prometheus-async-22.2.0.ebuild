@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp consul dev docs tests twisted"
-DEPENDENCIES="dev-python/prometheus_client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	aiohttp? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
 	consul? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )

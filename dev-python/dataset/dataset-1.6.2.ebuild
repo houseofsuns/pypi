@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

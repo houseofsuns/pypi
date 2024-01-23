@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django ORM task queue [topver 0.0.3]"
+DESCRIPTION="A Django ORM task queue [topver 0.0.3, newver 0.0.3]"
 
 HOMEPAGE="https://github.com/thuibr/django-queue"
 LICENSE=""

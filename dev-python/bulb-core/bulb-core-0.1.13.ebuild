@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neo4j integration for Django, and much more tools for deployment of consequent websites... [topver 0.1.22]"
+DESCRIPTION="Neo4j integration for Django, and much more tools for deployment of consequent websites... [topver 0.1.22, newver 0.1.22]"
 
 HOMEPAGE="https://github.com/LilianCruanes/bulb"
 LICENSE=""

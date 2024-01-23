@@ -27,9 +27,9 @@ IUSE="all asyncpg beanie bunnet databases django mongoengine motor orm ormar pic
 DEPENDENCIES=">=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	asyncpg? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.3.20[${PYTHON_USEDEP}] )
+	asyncpg? ( >=dev-python/sqlalchemy-1.3.20[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sqlalchemy-1.3.20[${PYTHON_USEDEP}] )
 	databases? ( dev-python/databases[${PYTHON_USEDEP}] )
 	orm? ( dev-python/databases[${PYTHON_USEDEP}] )
 	django? ( dev-python/databases[${PYTHON_USEDEP}] )

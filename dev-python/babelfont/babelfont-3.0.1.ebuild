@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/openstep-plist[${PYTHON_USEDEP}]
 	dev-python/glyphsLib[${PYTHON_USEDEP}]
 	dev-python/cu2qu[${PYTHON_USEDEP}]
-	dev-python/fontfeatures[${PYTHON_USEDEP}]"
+	dev-python/fontFeatures[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

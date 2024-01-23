@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/requests-2.27.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-61.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.1.1[${PYTHON_USEDEP}]
 	dev-python/prefect[${PYTHON_USEDEP}]
-	dev-python/shopifyAPI[${PYTHON_USEDEP}]
+	dev-python/ShopifyAPI[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.21.32[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.24.32[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

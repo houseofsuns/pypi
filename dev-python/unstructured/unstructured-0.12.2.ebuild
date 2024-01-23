@@ -85,7 +85,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/bs4[${PYTHON_USEDEP}] )
-	github? ( dev-python/pygithub[${PYTHON_USEDEP}] )
+	github? ( >dev-python/PyGithub-1.58.0[${PYTHON_USEDEP}] )
 	gitlab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	google-drive? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	hubspot? ( dev-python/hubspot-api-client[${PYTHON_USEDEP}] )

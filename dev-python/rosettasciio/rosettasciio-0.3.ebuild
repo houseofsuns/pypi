@@ -27,7 +27,7 @@ IUSE="all blockfile dev doc eds-stream hdf5 image mrcz scalebar_export speed tes
 DEPENDENCIES=">=dev-python/dask-2021.3.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	<dev-python/python-box-7.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	all? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )

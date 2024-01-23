@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.4[${PYTHON_USEDEP}]

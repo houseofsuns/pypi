@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jax[${PYTHON_USEDEP}] )
 	testing? ( dev-python/magicgui[${PYTHON_USEDEP}] )
-	testing? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	testing? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyside2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

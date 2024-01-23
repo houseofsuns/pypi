@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ctx docs google py-test"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
 	ctx? ( dev-python/connectorx[${PYTHON_USEDEP}] )

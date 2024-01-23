@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
 DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-3.3.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="consul dynamodb redis"
 DEPENDENCIES=">=dev-python/certifi-2018.4.16[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
-	dev-python/pyRFC3339[${PYTHON_USEDEP}]
+	>=dev-python/pyrfc3339-1.0[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.10.2[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	dev-python/launchdarkly-eventsource[${PYTHON_USEDEP}]

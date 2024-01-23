@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/bmt[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}]
 	dev-python/recommonmark[${PYTHON_USEDEP}]
-	dev-python/shexjsg[${PYTHON_USEDEP}]
+	dev-python/ShExJSG[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	<dev-python/terminaltables-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tox-4.0[${PYTHON_USEDEP}]

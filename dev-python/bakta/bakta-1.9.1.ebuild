@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/xopen[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/pyrodigal[${PYTHON_USEDEP}]
 	dev-python/pyhmmer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

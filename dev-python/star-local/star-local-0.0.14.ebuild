@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
 	dev-python/mysql-connector[${PYTHON_USEDEP}]
 	dev-python/logzio-python-handler[${PYTHON_USEDEP}]

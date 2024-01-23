@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/pysnooper[${PYTHON_USEDEP}]
+	dev-python/PySnooper[${PYTHON_USEDEP}]
 	dev-python/user-agent[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/uuid[${PYTHON_USEDEP}]
 	dev-python/PyExecJS[${PYTHON_USEDEP}]
 	dev-python/exchangelib[${PYTHON_USEDEP}]

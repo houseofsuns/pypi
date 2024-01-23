@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all alldev benchmarking deployment dev docs metrics modeling"
-DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyXB[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	dev-python/iopath[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	all? ( dev-python/medpy[${PYTHON_USEDEP}] )
+	all? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	all? ( dev-python/iocursor[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/monai[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
 	alldev? ( dev-python/monai[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	alldev? ( dev-python/medpy[${PYTHON_USEDEP}] )
+	alldev? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	alldev? ( <=dev-python/tifffile-2022.5.4[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
 	alldev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/lpips[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	benchmarking? ( dev-python/medpy[${PYTHON_USEDEP}] )
+	benchmarking? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/gdown[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/requests[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/iocursor[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/medpy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wrapt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gdown[${PYTHON_USEDEP}] )

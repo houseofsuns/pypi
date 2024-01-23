@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/python-dateutil-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.5[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.97[${PYTHON_USEDEP}]
 	~dev-python/progressbar2-3.55.0[${PYTHON_USEDEP}]

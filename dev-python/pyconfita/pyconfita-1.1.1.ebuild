@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/hvac-0.11.2[${PYTHON_USEDEP}]
 	dev-python/cacheout[${PYTHON_USEDEP}]
-	dev-python/pyYaml[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

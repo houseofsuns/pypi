@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Bcrypt[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
+	~dev-python/flask-login-0.6.3[${PYTHON_USEDEP}]
 	dev-python/Flask-Mail[${PYTHON_USEDEP}]
-	dev-python/Flask-Migrate[${PYTHON_USEDEP}]"
+	~dev-python/flask-migrate-4.0.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

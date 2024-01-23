@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/djangoldp[${PYTHON_USEDEP}]
 	dev-python/djangoldp-contact[${PYTHON_USEDEP}]
 	dev-python/djangoldp-joboffer[${PYTHON_USEDEP}]
 	dev-python/djangoldp-notification[${PYTHON_USEDEP}]
-	include_package_data? ( dev-python/True[${PYTHON_USEDEP}] )"
+	include_package_data? ( dev-python/true[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

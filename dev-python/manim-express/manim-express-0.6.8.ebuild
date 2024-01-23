@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/manimgl[${PYTHON_USEDEP}]
 	dev-python/sparrow-tool[${PYTHON_USEDEP}]
 	dev-python/fake-headers[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}]
+	dev-python/pyopengl_accelerate[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
 	dev? ( dev-python/manim-rubikscube[${PYTHON_USEDEP}] )
 	dev? ( dev-python/manim-physics[${PYTHON_USEDEP}] )

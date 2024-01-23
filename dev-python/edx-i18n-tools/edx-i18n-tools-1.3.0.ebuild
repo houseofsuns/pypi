@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/path[${PYTHON_USEDEP}]
 	dev-python/polib[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyYaml[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	dev-python/django[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

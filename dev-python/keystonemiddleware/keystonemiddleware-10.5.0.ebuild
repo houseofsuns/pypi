@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="audit_notifications test"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.12.0[${PYTHON_USEDEP}]
 	dev-python/oslo-cache[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
 	>=dev-python/python-keystoneclient-3.20.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
 	audit_notifications? ( dev-python/oslo-messaging[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-2.0.27[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/cryptography-3.0[${PYTHON_USEDEP}] )

@@ -27,8 +27,8 @@ IUSE="brotli cli cryptography full jinja jwt memcached opentelemetry picologging
 DEPENDENCIES="memcached? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	full? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	>=dev-python/anyio-3.0[${PYTHON_USEDEP}]
-	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
-	full? ( dev-python/brotli[${PYTHON_USEDEP}] )
+	brotli? ( dev-python/Brotli[${PYTHON_USEDEP}] )
+	full? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	standard? ( dev-python/click[${PYTHON_USEDEP}] )
 	full? ( dev-python/click[${PYTHON_USEDEP}] )
@@ -37,9 +37,9 @@ DEPENDENCIES="memcached? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	dev-python/fast-query-parsers[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.22[${PYTHON_USEDEP}]
-	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	standard? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	standard? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	standard? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	>=dev-python/mako-1.2.4[${PYTHON_USEDEP}]

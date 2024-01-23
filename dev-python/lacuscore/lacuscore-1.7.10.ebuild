@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev-python/playwrightcapture[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
+	dev-python/PlaywrightCapture[${PYTHON_USEDEP}]
 	dev-python/defang[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
 	<dev-python/redis-6.0.0[${PYTHON_USEDEP}]"

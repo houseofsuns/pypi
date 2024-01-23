@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dev"
 DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/eppy[${PYTHON_USEDEP}]
 	dev-python/geomeppy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/platypus-opt[${PYTHON_USEDEP}]
+	dev-python/Platypus-Opt[${PYTHON_USEDEP}]
 	dev-python/pyDOE2[${PYTHON_USEDEP}]
 	dev-python/pyehub[${PYTHON_USEDEP}]
 	dev-python/rbfopt[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	complete? ( dev-python/besos-examples[${PYTHON_USEDEP}] )
 	complete? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete? ( dev-python/ipysheet[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	complete? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	complete? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pvlib[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pyKriging[${PYTHON_USEDEP}] )
+	complete? ( dev-python/pykriging[${PYTHON_USEDEP}] )
 	complete? ( dev-python/SALib[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyKriging[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pykriging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-regtest[${PYTHON_USEDEP}] )

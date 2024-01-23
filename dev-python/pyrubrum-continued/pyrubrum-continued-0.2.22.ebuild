@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fast"
-DEPENDENCIES="dev-python/pyrogram[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pyrogram[${PYTHON_USEDEP}]
 	fast? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	fast? ( dev-python/tgcrypto[${PYTHON_USEDEP}] )"
+	fast? ( dev-python/TgCrypto[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

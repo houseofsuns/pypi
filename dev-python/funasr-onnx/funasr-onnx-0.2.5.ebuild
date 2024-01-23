@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	dev-python/kaldi-native-fbank[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

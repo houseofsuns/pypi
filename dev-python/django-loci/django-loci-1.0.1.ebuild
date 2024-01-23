@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/django-4.1.0[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	dev-python/django-leaflet[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/openwisp-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

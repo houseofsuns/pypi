@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pebble[${PYTHON_USEDEP}]
-	dev-python/tatsu[${PYTHON_USEDEP}]
+	dev-python/TatSu[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

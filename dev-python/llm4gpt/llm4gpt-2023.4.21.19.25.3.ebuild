@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/meutils[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/MeUtils[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

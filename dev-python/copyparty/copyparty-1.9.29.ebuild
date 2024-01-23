@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	ftps? ( dev-python/pyftpdlib[${PYTHON_USEDEP}] )
 	ftps? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	pwhash? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )
-	thumbnails? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	thumbnails? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	thumbnails2? ( dev-python/pyvips[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

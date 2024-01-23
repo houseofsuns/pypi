@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	all? ( dev-python/fury[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/matplotlib-1.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -52,6 +52,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	typing? ( dev-python/data-science-types[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	typing? ( dev-python/types-pillow[${PYTHON_USEDEP}] )"
+	typing? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

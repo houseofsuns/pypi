@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.4[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	dev-python/shapely[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.6.3[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.32.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

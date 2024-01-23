@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="markdown"
 DEPENDENCIES=">=dev-python/sphinx-1.2.0[${PYTHON_USEDEP}]
-	markdown? ( dev-python/CommonMark[${PYTHON_USEDEP}] )"
+	markdown? ( >=dev-python/commonmark-0.5.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

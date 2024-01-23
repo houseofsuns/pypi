@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+	dev-python/pynacl[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	dev-python/celerite2[${PYTHON_USEDEP}]
 	dev-python/cdspyreadme[${PYTHON_USEDEP}]
 	dev-python/dace-query[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

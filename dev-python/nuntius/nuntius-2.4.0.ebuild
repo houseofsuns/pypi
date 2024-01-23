@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="anymail mysql push"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
 	push? ( dev-python/apns[${PYTHON_USEDEP}] )
 	anymail? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	>=dev-python/dj-database-url-1.2.0[${PYTHON_USEDEP}]

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/APScheduler-3.7.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
 	<dev-python/django-3.0[${PYTHON_USEDEP}]
 	<=dev-python/django-cors-headers-3.7.0[${PYTHON_USEDEP}]
 	dev-python/django-apscheduler[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/scrapy-redis[${PYTHON_USEDEP}]
 	dev-python/scrapy-splash[${PYTHON_USEDEP}]
 	dev-python/python-scrapyd-api[${PYTHON_USEDEP}]

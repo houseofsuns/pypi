@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/colour-0.1[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

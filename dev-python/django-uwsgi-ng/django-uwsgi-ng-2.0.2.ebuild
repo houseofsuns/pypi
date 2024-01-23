@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="uwsgi"
-DEPENDENCIES="uwsgi? ( dev-python/uwsgi[${PYTHON_USEDEP}] )"
+DEPENDENCIES="uwsgi? ( dev-python/uWSGI[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

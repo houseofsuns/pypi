@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jdcal[${PYTHON_USEDEP}]
-	dev-python/et-xmlfile[${PYTHON_USEDEP}]"
+	dev-python/et_xmlfile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

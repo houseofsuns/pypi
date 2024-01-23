@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/keras-applications[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Keras-Applications[${PYTHON_USEDEP}]
 	dev-python/image-classifiers[${PYTHON_USEDEP}]
 	dev-python/efficientnet[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

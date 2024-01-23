@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="demo dev docs quality test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	demo? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	demo? ( dev-python/torchvision[${PYTHON_USEDEP}] )

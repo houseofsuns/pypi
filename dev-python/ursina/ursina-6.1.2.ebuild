@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
-DEPENDENCIES="dev-python/panda3d[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Panda3D[${PYTHON_USEDEP}]
 	dev-python/panda3d-gltf[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]

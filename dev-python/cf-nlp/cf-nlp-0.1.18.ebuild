@@ -30,9 +30,9 @@ DEPENDENCIES="~dev-python/pandas-0.20.1[${PYTHON_USEDEP}]
 	dev-python/marisa-trie[${PYTHON_USEDEP}]
 	dev-python/python-crfsuite[${PYTHON_USEDEP}]
 	dev-python/reldi[${PYTHON_USEDEP}]
-	dev-python/theano[${PYTHON_USEDEP}]
+	dev-python/Theano[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
-	dev-python/lemmagen[${PYTHON_USEDEP}]
+	dev-python/Lemmagen[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

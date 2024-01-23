@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-40.0.0[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/nr-functional[${PYTHON_USEDEP}]

@@ -30,9 +30,9 @@ DEPENDENCIES="~dev-python/pandas-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
-	dev-python/Excelacceslib[${PYTHON_USEDEP}]
-	dev-python/K2600acceslib[${PYTHON_USEDEP}]
-	dev-python/Commacceslib[${PYTHON_USEDEP}]
-	dev-python/Bconvertacceslib[${PYTHON_USEDEP}]"
+	dev-python/excelacceslib[${PYTHON_USEDEP}]
+	dev-python/k2600acceslib[${PYTHON_USEDEP}]
+	dev-python/commacceslib[${PYTHON_USEDEP}]
+	dev-python/bconvertacceslib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

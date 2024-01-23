@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	livy? ( dev-python/livy[${PYTHON_USEDEP}] )
 	minio? ( dev-python/minio[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/pg8000[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )

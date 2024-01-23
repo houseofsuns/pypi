@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]
 	dev-python/click-default-group[${PYTHON_USEDEP}]
 	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/pyYaml[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/aio-pika[${PYTHON_USEDEP}]
 	dev-python/aiomisc[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]
-	dev-python/quart[${PYTHON_USEDEP}]
+	dev-python/Quart[${PYTHON_USEDEP}]
 	dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

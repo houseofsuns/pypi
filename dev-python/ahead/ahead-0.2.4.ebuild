@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time series forecasting [topver 0.9.0]"
+DESCRIPTION="Time series forecasting [topver 0.9.0, newver 0.9.0]"
 
 HOMEPAGE=""
 LICENSE="BSD3 Clause Clear"
@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.0.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/keyring-23.0.1[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
 	~dev-python/packaging-20.9[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	~dev-python/pycodestyle-2.7.0[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.20[${PYTHON_USEDEP}]
 	~dev-python/pyflakes-2.3.1[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.8.1[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2021.1[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	dev-python/rpy2[${PYTHON_USEDEP}]
 	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	~dev-python/snowballstemmer-2.1.0[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	~dev-python/sphinx-3.5.3[${PYTHON_USEDEP}]
 	~dev-python/sphinxcontrib-applehelp-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/sphinxcontrib-htmlhelp-1.0.3[${PYTHON_USEDEP}]

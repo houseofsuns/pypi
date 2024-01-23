@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/argcomplete-3.1.1[${PYTHON_USEDEP}]
 	<dev-python/paramiko-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pkginfo-1.5.0.1[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-17.1.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

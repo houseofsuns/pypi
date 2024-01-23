@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/osrf-pycommon[${PYTHON_USEDEP}]
 	dev-python/catkin-pkg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

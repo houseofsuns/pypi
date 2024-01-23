@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	use? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	use? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
 	use? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
-	vision? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	vision? ( >=dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	vision? ( dev-python/accelerate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

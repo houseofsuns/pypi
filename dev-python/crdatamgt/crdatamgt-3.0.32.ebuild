@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/simplelogging[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/xlsxwriter-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/toolz-0.11.0[${PYTHON_USEDEP}]

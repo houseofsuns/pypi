@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The easiest way to do machine learning [topver 2.3.1]"
+DESCRIPTION="The easiest way to do machine learning [topver 2.3.1, newver 2.3.1]"
 
 HOMEPAGE="https://github.com/vivek3141/ml"
 LICENSE="MIT"

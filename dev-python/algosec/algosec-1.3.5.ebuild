@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/suds-jurko[${PYTHON_USEDEP}]
-	dev-python/suds-requests[${PYTHON_USEDEP}]
+	dev-python/suds_requests[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]"

@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.6[${PYTHON_USEDEP}]
 	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dkist-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	docs? ( dev-python/accessible-pygments[${PYTHON_USEDEP}] )

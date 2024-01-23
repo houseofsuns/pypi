@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python3 library for efficient chess draw-gen functions [topver 1.0.340699405]"
+DESCRIPTION="Python3 library for efficient chess draw-gen functions [topver 1.0.340699405, newver 1.0.340699405]"
 
 HOMEPAGE="https://github.com/Bonifatius94/ChessLib.Py"
 LICENSE=""

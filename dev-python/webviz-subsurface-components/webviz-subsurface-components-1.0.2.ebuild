@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/jsonpointer-2.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/orjson-3.8.2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pillow-6.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pylint-2.4[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/scipy-1.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/selenium-3.141[${PYTHON_USEDEP}] )

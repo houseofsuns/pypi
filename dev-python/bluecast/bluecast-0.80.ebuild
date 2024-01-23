@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/category_encoders[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some fast bloom filter implemented by Rust for Python and Rust! [topver 0.5.9]"
+DESCRIPTION="Some fast bloom filter implemented by Rust for Python and Rust! [topver 0.5.9, newver 0.5.9]"
 
 HOMEPAGE="https://github.com/yankun1992/fastbloom"
 LICENSE="Apache License"
@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="test? ( <=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/pybloom_live[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pybloom-live[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

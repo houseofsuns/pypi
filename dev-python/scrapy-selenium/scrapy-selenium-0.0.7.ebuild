@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scrapy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	>=dev-python/selenium-3.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

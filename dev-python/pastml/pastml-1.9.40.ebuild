@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ancestral character reconstruction and visualisation for rooted phylogenetic trees. [topver 1.9.42]"
+DESCRIPTION="Ancestral character reconstruction and visualisation for rooted phylogenetic trees. [topver 1.9.42, newver 1.9.42]"
 
 HOMEPAGE="https://github.com/evolbioinfo/pastml"
 LICENSE=""
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ete3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	dev-python/itolapi[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]"

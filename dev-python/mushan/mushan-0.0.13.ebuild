@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/phonemizer[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/p-tqdm[${PYTHON_USEDEP}]
 	dev-python/varname[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

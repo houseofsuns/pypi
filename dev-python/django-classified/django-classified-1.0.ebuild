@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/django-bootstrap-form[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/django-4.1[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.0[${PYTHON_USEDEP}]
 	dev-python/sorl-thumbnail[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	<dev-python/Babel-3.0[${PYTHON_USEDEP}]"

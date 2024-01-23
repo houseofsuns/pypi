@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ecpy[${PYTHON_USEDEP}]"
+	dev-python/ECPy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

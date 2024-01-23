@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/paddle2onnx[${PYTHON_USEDEP}]
-	dev-python/Flask-Babel[${PYTHON_USEDEP}]
+	dev-python/flask-babel[${PYTHON_USEDEP}]
 	dev-python/visualdl[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
 	dev-python/tool-helpers[${PYTHON_USEDEP}]
 	dev-python/aistudio-sdk[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	autonlp? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	autonlp? ( ~dev-python/pydantic-1.10.11[${PYTHON_USEDEP}] )
@@ -66,13 +66,13 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/h11-0.13[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Markdown[${PYTHON_USEDEP}] )
+	dev? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
@@ -86,13 +86,13 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/h11-0.13[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Markdown[${PYTHON_USEDEP}] )
+	docs? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	docs? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lizzy-client [topver 2.8.4]"
+DESCRIPTION="Lizzy-client [topver 2.8.4, newver 2.8.4]"
 
 HOMEPAGE="https://github.com/zalando/lizzy-client"
 LICENSE="Apache License Version 2.0"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="with_bandit with_everything with_mypy with_pyright with_pyroma with_vulture"
 DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	with_bandit? ( >=dev-python/bandit-1.5.1[${PYTHON_USEDEP}] )
 	with_everything? ( >=dev-python/bandit-1.5.1[${PYTHON_USEDEP}] )
 	dev-python/dodgy[${PYTHON_USEDEP}]

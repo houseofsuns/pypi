@@ -53,6 +53,6 @@ DEPENDENCIES="dev-python/apify-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/types-psutil-5.9.5.17[${PYTHON_USEDEP}] )
-	scrapy? ( dev-python/scrapy[${PYTHON_USEDEP}] )"
+	scrapy? ( dev-python/Scrapy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

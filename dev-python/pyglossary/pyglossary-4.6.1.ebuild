@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="full? ( dev-python/PyICU[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+DEPENDENCIES="full? ( dev-python/pyicu[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	full? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	full? ( dev-python/html5lib[${PYTHON_USEDEP}] )
 	full? ( dev-python/libzim[${PYTHON_USEDEP}] )

@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/cheroot-8.2.1[${PYTHON_USEDEP}]
 	json? ( dev-python/simplejson[${PYTHON_USEDEP}] )
 	memcached_session? ( >=dev-python/python-memcached-1.58[${PYTHON_USEDEP}] )
 	routes_dispatcher? ( >=dev-python/routes-2.3.1[${PYTHON_USEDEP}] )
-	ssl? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	ssl? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	testing? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/objgraph[${PYTHON_USEDEP}] )

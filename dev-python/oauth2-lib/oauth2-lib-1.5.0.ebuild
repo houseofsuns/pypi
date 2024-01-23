@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-2.19.0[${PYTHON_USEDEP}]
 	>=dev-python/structlog-20.2.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	dev-python/asyncstdlib[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/requests-2.19.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests_mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3_mock[${PYTHON_USEDEP}] )"
+	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	test? ( dev-python/urllib3-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

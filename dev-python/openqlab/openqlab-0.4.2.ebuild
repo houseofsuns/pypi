@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
 	<dev-python/wcwidth-0.3.0[${PYTHON_USEDEP}]
 	hdf? ( <dev-python/tables-4.0[${PYTHON_USEDEP}] )
-	visa? ( dev-python/pyvisa-py[${PYTHON_USEDEP}] )
+	visa? ( dev-python/PyVISA-py[${PYTHON_USEDEP}] )
 	visa? ( dev-python/PyVISA[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

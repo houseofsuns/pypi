@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
-	dev-python/pydrive2[${PYTHON_USEDEP}]
+	dev-python/PyDrive2[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dvc[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( dev-python/wget[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/filelock-3.3.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pygments-2.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/collective-checkdocs[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pylint-2.16.2[${PYTHON_USEDEP}] )

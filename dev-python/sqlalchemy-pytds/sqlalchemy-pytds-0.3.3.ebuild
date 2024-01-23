@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Microsoft SQL Server TDS connector for SQLAlchemy. [topver 1.0.0]"
+DESCRIPTION="A Microsoft SQL Server TDS connector for SQLAlchemy. [topver 1.0.0, newver 1.0.0]"
 
 HOMEPAGE="https://github.com/m32/sqlalchemy-tds"
 LICENSE="MIT"
@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-tds[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

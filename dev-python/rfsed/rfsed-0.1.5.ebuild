@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/OWSLib[${PYTHON_USEDEP}]
-	dev-python/cartopy[${PYTHON_USEDEP}]
+	dev-python/owslib[${PYTHON_USEDEP}]
+	dev-python/Cartopy[${PYTHON_USEDEP}]
 	dev-python/geographiclib[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

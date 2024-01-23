@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/huggingface_hub[${PYTHON_USEDEP}]
+	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/accelerate[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	all? ( <=dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/rouge_score[${PYTHON_USEDEP}] )
-	all? ( dev-python/rouge_score[${PYTHON_USEDEP}] )"
+	nlp? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
+	all? ( dev-python/rouge-score[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

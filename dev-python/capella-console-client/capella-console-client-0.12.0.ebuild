@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	wizard? ( dev-python/typer[${PYTHON_USEDEP}] )
 	wizard? ( dev-python/questionary[${PYTHON_USEDEP}] )
 	wizard? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )

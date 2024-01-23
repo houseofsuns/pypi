@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/wheel-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]"
+	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

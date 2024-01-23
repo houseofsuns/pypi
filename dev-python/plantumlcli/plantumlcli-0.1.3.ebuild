@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/where[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.12[${PYTHON_USEDEP}]
-	dev-python/urlobject[${PYTHON_USEDEP}]
+	dev-python/URLObject[${PYTHON_USEDEP}]
 	~dev-python/pyquery-1.4[${PYTHON_USEDEP}]
 	~dev-python/prettytable-1.0[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/where[${PYTHON_USEDEP}]
 	doc? ( dev-python/where[${PYTHON_USEDEP}] )
 	doc? ( dev-python/easydict[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	pdf? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
@@ -56,6 +56,6 @@ DEPENDENCIES="dev-python/where[${PYTHON_USEDEP}]
 	test? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	test? ( dev-python/pysyslimit[${PYTHON_USEDEP}] )
-	test? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
+	test? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

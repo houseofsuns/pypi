@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build_doc testing"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	build_doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	build_doc? ( >=dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
 	build_doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )

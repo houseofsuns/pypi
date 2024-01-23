@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/pycountry-20.7.3[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.12.1[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
 	~dev-python/deepdiff-5.6.0[${PYTHON_USEDEP}]
-	dev-python/Flask-Babel[${PYTHON_USEDEP}]
+	~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

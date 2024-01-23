@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all documentai textract"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/pypdf[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Whoosh[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/whoosh-3.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/devpi-server[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Whoosh[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.11[${PYTHON_USEDEP}]
 	>=dev-python/pygments-1.6[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/pyramid-chameleon[${PYTHON_USEDEP}]
+	dev-python/pyramid_chameleon[${PYTHON_USEDEP}]
 	>=dev-python/readme-renderer-23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

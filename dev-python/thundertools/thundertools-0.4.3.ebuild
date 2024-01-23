@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Different tools for working with jupuyter notebooks [topver 0.7.0]"
+DESCRIPTION="Different tools for working with jupuyter notebooks [topver 0.7.0, newver 0.7.0]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

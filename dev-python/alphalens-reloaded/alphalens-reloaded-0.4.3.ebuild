@@ -30,13 +30,13 @@ DEPENDENCIES=">=dev-python/matplotlib-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.6.1[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-3.2.3[${PYTHON_USEDEP}]
 	dev-python/empyrical-reloaded[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/cython[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )

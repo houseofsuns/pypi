@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	testing? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	testing? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/rich[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tiffile[${PYTHON_USEDEP}] )
 	testing? ( dev-python/typer[${PYTHON_USEDEP}] )

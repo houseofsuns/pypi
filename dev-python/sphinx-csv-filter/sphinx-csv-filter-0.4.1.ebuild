@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="development testing"
 DEPENDENCIES="<dev-python/docutils-0.19[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	dev-python/sphinx[${PYTHON_USEDEP}]
 	development? ( dev-python/build[${PYTHON_USEDEP}] )
 	development? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	development? ( dev-python/twine[${PYTHON_USEDEP}] )

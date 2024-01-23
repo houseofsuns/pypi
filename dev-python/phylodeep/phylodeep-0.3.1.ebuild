@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/ete3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Keras[${PYTHON_USEDEP}]
+	dev-python/keras[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
-	dev-python/phylodeep-data-BD-small[${PYTHON_USEDEP}]
-	dev-python/phylodeep-data-BD-large[${PYTHON_USEDEP}]
-	dev-python/phylodeep-data-BDEI-small[${PYTHON_USEDEP}]
-	dev-python/phylodeep-data-BDEI-large[${PYTHON_USEDEP}]
-	dev-python/phylodeep-data-BDSS-large[${PYTHON_USEDEP}]"
+	dev-python/phylodeep-data-bd-small[${PYTHON_USEDEP}]
+	dev-python/phylodeep-data-bd-large[${PYTHON_USEDEP}]
+	dev-python/phylodeep-data-bdei-small[${PYTHON_USEDEP}]
+	dev-python/phylodeep-data-bdei-large[${PYTHON_USEDEP}]
+	dev-python/phylodeep-data-bdss-large[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/myst_parser[${PYTHON_USEDEP}]"
+	>=dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

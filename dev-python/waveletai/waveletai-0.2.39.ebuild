@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/Minio[${PYTHON_USEDEP}]
+	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/bravado[${PYTHON_USEDEP}]

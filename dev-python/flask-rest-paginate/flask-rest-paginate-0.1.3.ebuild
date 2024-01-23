@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pagination extension for flask-restful and flask-restplus [topver 1.1.3]"
+DESCRIPTION="Pagination extension for flask-restful and flask-restplus [topver 1.1.3, newver 1.1.3]"
 
 HOMEPAGE="https://github.com/mtShaikh/flask-rest-paginate"
 LICENSE="MIT"

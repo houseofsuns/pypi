@@ -37,15 +37,15 @@ DEPENDENCIES="dev-python/tidevice[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
 	~dev-python/jmespath-0.9.5[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	api? ( ~dev-python/genson-1.2.2[${PYTHON_USEDEP}] )
 	api? ( ~dev-python/jsonschema-4.17.0[${PYTHON_USEDEP}] )
-	db? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	db? ( ~dev-python/pymysql-0.10.1[${PYTHON_USEDEP}] )
 	db? ( ~dev-python/pymongo-4.0.1[${PYTHON_USEDEP}] )
 	encrypt? ( ~dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}] )
 	excel? ( ~dev-python/pandas-1.3.4[${PYTHON_USEDEP}] )
 	excel? ( ~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
-	excel? ( dev-python/XlsxWriter[${PYTHON_USEDEP}] )
+	excel? ( ~dev-python/xlsxwriter-3.0.2[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )

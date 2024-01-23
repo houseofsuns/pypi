@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-console-scripts-1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tomli-2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipykernel-6.22[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.9[${PYTHON_USEDEP}] )

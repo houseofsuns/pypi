@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
-	dev-python/pymupdf[${PYTHON_USEDEP}]
+	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs pre-commit testing testing-core"
-DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )

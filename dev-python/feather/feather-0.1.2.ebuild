@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/flask-restful[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-5.0.2[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-8.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

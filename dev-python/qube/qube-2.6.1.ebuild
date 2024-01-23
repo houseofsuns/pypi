@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	~dev-python/PyGithub-1.53[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.9[${PYTHON_USEDEP}]
 	~dev-python/autopep8-1.5.4[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.14.3[${PYTHON_USEDEP}]

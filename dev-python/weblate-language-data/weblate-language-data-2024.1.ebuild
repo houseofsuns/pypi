@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django"
-DEPENDENCIES="django? ( dev-python/Django[${PYTHON_USEDEP}] )"
+DEPENDENCIES="django? ( dev-python/django[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

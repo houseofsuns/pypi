@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for running Tasks and from CLI and API for orchestation. Component-based Task builder/Runner for non-programmers. [topver 5.2.16]"
+DESCRIPTION="Framework for running Tasks and from CLI and API for orchestation. Component-based Task builder/Runner for non-programmers. [topver 5.2.16, newver 5.2.16]"
 
 HOMEPAGE="https://github.com/phenobarbital/flowtask"
 LICENSE="Apache-2.0"
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/PyDrive[${PYTHON_USEDEP}]
 	dev-python/borax[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
 	dev-python/hachiko[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/PyDrive[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8.5[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/office365-rest-python-client[${PYTHON_USEDEP}]
+	dev-python/Office365-REST-Python-Client[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.3.1[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.6[${PYTHON_USEDEP}]

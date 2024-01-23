@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/starlette-0.12.2[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]"
+	<dev-python/prometheus-client-0.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

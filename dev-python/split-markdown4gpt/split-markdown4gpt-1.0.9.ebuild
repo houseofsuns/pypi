@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	>=dev-python/mistletoe-1.1.0[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/regex-2023.6.3[${PYTHON_USEDEP}]
 	dev-python/syntok[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]

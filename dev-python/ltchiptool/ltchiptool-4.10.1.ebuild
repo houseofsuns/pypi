@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
 	dev-python/bk7231tools[${PYTHON_USEDEP}]
 	dev-python/xmodem[${PYTHON_USEDEP}]
-	gui? ( dev-python/wxPython[${PYTHON_USEDEP}] )
+	gui? ( <dev-python/wxpython-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/py-datastruct[${PYTHON_USEDEP}]
 	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hexdump[${PYTHON_USEDEP}]

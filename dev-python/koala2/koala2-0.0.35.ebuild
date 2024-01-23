@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/networkx-2.1[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-2.5.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.28.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.1.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

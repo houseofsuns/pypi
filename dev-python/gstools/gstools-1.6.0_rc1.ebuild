@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/emcee-3.0.0[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/meshzoo[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pykrige[${PYTHON_USEDEP}] )
+	doc? ( dev-python/PyKrige[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-gallery-0.8[${PYTHON_USEDEP}] )

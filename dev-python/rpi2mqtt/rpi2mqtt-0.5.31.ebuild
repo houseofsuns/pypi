@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dotmap[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/Adafruit_DHT[${PYTHON_USEDEP}]
+	dev-python/Adafruit-DHT[${PYTHON_USEDEP}]
 	dev-python/RPi-bme280[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/smbus2[${PYTHON_USEDEP}]

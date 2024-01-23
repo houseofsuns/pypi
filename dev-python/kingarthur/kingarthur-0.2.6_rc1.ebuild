@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/redis-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/rq-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cheroot-8.2.1[${PYTHON_USEDEP}]
-	dev-python/CherryPy[${PYTHON_USEDEP}]
+	>=dev-python/cherrypy-17.4.2[${PYTHON_USEDEP}]
 	dev-python/perceval[${PYTHON_USEDEP}]
 	dev-python/grimoirelab-toolkit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

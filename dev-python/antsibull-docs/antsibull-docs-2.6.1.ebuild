@@ -30,14 +30,14 @@ DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	dev-python/antsibull-docs-parser[${PYTHON_USEDEP}]
 	dev-python/asyncio-pool[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rstcheck[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/twiggy[${PYTHON_USEDEP}]
+	dev-python/Twiggy[${PYTHON_USEDEP}]
 	codeqa? ( dev-python/antsibull-changelog[${PYTHON_USEDEP}] )
 	codeqa? ( >=dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	codeqa? ( >=dev-python/pylint-2.17.2[${PYTHON_USEDEP}] )
@@ -61,6 +61,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	typing? ( dev-python/pyre-check[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
-	typing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"
+	typing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

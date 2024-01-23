@@ -30,7 +30,7 @@ DEPENDENCIES="dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/google-auth[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
-	oracle? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	oracle? ( >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

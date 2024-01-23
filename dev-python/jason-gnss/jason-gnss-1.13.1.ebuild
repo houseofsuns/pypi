@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-mocha[${PYTHON_USEDEP}]
 	dev-python/roktools[${PYTHON_USEDEP}]
-	dev-python/exifread[${PYTHON_USEDEP}]"
+	dev-python/ExifRead[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Few libriaries that we need to use in more than one of our project [topver 0.9.7]"
+DESCRIPTION="Few libriaries that we need to use in more than one of our project [topver 0.9.7, newver 0.9.7]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/blake3-0.3.3[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-sqs[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-ssm[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytz-2023.0[${PYTHON_USEDEP}]
 	dev-python/spookyhash[${PYTHON_USEDEP}]

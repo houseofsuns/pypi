@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs edgetest pg8000 psycopg2 qa snowflake tests"
 DEPENDENCIES="<=dev-python/boto3-1.33.10[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )

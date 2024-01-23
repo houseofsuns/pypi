@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="phonenumbers phonenumberslite"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	phonenumbers? ( >=dev-python/phonenumbers-7.0.2[${PYTHON_USEDEP}] )
 	phonenumberslite? ( dev-python/phonenumberslite[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

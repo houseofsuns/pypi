@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc format jax jupyter lint mypy numba phasespace phsp pwa scipy sty tensorflow test test-types tf viz"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	>=dev-python/iminuit-2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-1.9[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-comments[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphobjinv[${PYTHON_USEDEP}] )

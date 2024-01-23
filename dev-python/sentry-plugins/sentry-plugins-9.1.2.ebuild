@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
 	dev-python/mistune[${PYTHON_USEDEP}]
 	dev-python/phabricator[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-0.3.0[${PYTHON_USEDEP}]
 	>=dev-python/unidiff-0.5.4[${PYTHON_USEDEP}]
 	tests? ( dev-python/exam[${PYTHON_USEDEP}] )

@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/jiwer[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/rouge[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

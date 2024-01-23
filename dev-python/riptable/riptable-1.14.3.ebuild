@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/ansi2html-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/riptide_cpp[${PYTHON_USEDEP}]"
+	dev-python/riptide-cpp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

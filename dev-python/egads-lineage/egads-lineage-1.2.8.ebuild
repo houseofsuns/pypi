@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EGADS: EUFAR General Airborne Data-processing Software [topver 1.2.9]"
+DESCRIPTION="EGADS: EUFAR General Airborne Data-processing Software [topver 1.2.9, newver 1.2.9]"
 
 HOMEPAGE="https://github.com/EUFAR/egads/tree/Lineage"
 LICENSE="GNU General Public License v3 GPLv3"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.6.1[${PYTHON_USEDEP}]
 	>=dev-python/quantities-0.12.1[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]"

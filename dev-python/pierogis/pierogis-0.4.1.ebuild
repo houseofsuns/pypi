@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-8.0.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/imageio-ffmpeg-0.4.3[${PYTHON_USEDEP}]

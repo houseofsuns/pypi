@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11.0[${PYTHON_USEDEP}]
 	dev-python/django-admin-sortable2[${PYTHON_USEDEP}]
 	dev-python/django-editorial-staff[${PYTHON_USEDEP}]
 	~dev-python/django-filter-1.0.0[${PYTHON_USEDEP}]

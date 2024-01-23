@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs docstest pep8test test"
-DEPENDENCIES="dev-python/arpeggio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Arpeggio-1.7[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )

@@ -33,6 +33,6 @@ DEPENDENCIES="dev? ( dev-python/cftime-rs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx_book_theme[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

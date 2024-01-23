@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/simpledorff[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
@@ -45,6 +45,6 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	>=dev-python/threadpoolctl-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	>=dev-python/ujson-5.4.0[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/werkzeug-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES=">dev-python/click-7.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-3.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/numpydoc-2.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )

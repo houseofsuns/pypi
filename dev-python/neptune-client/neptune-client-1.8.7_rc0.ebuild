@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aws detectron2 dev e2e fastai kedro lightgbm optuna prophet pytorch-lightning sacred sklearn tensorflow-keras transformers xgboost"
 DEPENDENCIES="dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	>=dev-python/GitPython-2.0.8[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pillow-1.1.6[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev? ( dev-python/altair[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	>=dev-python/boto3-1.16.0[${PYTHON_USEDEP}]
@@ -75,7 +75,7 @@ DEPENDENCIES="dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/vega_datasets[${PYTHON_USEDEP}] )
+	dev? ( dev-python/vega-datasets[${PYTHON_USEDEP}] )
 	>=dev-python/websocket-client-0.35.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

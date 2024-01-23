@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]"
+	dev-python/twisted[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

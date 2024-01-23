@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	samples? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	samples? ( dev-python/netifaces[${PYTHON_USEDEP}] )
 	samples? ( dev-python/plyfile[${PYTHON_USEDEP}] )
-	samples? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	samples? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	samples? ( dev-python/uuid[${PYTHON_USEDEP}] )
 	samples? ( dev-python/vispy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

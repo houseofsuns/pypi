@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/tinygp[${PYTHON_USEDEP}]
-	dev-python/basil_core[${PYTHON_USEDEP}]
+	dev-python/basil-core[${PYTHON_USEDEP}]
 	dev-python/gaussian-process-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

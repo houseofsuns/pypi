@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/imagehash[${PYTHON_USEDEP}]
+	dev-python/ImageHash[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/openai-whisper[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,12 +12,12 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Connexions Nebu publishing utility [topver 9.13.1]"
+DESCRIPTION="Connexions Nebu publishing utility [topver 9.13.1, newver 9.13.1]"
 
 HOMEPAGE="https://github.com/connexions/nebuchadnezzar"
 LICENSE="AGPL, See also LICENSE.txt"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

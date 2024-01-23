@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.4.2]"
+DESCRIPTION=" [topver 0.4.2, newver 0.4.2a2]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/precise_lite_runner"
 LICENSE="Apache-2.0"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="auth buildtools notifications platform queues storage tasks test web"
 DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	auth? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )

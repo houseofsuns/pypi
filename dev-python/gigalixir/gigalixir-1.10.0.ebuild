@@ -27,18 +27,18 @@ IUSE="dev test"
 DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-38.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.13[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-22.1[${PYTHON_USEDEP}]
 	>=dev-python/qrcode-7.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/rollbar[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-69.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.16[${PYTHON_USEDEP}]
 	>=dev-python/stripe-4.1[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/HTTPretty[${PYTHON_USEDEP}] )
+	test? ( dev-python/httpretty[${PYTHON_USEDEP}] )
 	test? ( dev-python/sure[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

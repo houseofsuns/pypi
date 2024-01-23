@@ -27,7 +27,7 @@ IUSE="graphql saml"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4[${PYTHON_USEDEP}]
 	graphql? ( dev-python/graphene[${PYTHON_USEDEP}] )
 	saml? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
 	saml? ( dev-python/python-multipart[${PYTHON_USEDEP}] )"

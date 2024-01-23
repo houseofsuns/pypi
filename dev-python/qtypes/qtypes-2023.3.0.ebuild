@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyside2-5.12[${PYTHON_USEDEP}] )

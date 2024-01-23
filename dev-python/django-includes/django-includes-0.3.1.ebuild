@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/CacheControl[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cachecontrol-0.12[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-1.5[${PYTHON_USEDEP}]
 	<dev-python/django-4.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.18[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )

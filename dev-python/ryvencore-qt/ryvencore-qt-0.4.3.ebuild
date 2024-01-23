@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ryvencore[${PYTHON_USEDEP}]
-	dev-python/PySide2[${PYTHON_USEDEP}]
+	dev-python/pyside2[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/waiting[${PYTHON_USEDEP}]
 	dev-python/textdistance[${PYTHON_USEDEP}]"

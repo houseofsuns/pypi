@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all can debugger grpc instrument plugins pykitest serial testrail"
 DEPENDENCIES="dev-python/brainstem[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/unittest-xml-reporting[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	dev-python/pyreadline3[${PYTHON_USEDEP}]
 	<dev-python/hidapi-0.15[${PYTHON_USEDEP}]
 	testrail? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )

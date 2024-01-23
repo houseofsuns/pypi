@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
-	dev-python/kivy[${PYTHON_USEDEP}]"
+	dev-python/Kivy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

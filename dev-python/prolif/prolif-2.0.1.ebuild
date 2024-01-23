@@ -27,7 +27,7 @@ IUSE="build dev plots tests tutorials"
 DEPENDENCIES=">=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
-	dev-python/mdanalysis[${PYTHON_USEDEP}]
+	dev-python/MDAnalysis[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]

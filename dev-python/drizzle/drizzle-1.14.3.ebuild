@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for combining dithered images into a single image [topver 1.14.4]"
+DESCRIPTION="A package for combining dithered images into a single image [topver 1.14.4, newver 1.14.4]"
 
 HOMEPAGE="https://github.com/spacetelescope/drizzle"
 LICENSE=""

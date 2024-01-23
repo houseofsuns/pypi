@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Target discovery platform for exploring rankings of genes, disease models, and other entities. [topver 23.0.1]"
+DESCRIPTION="Target discovery platform for exploring rankings of genes, disease models, and other entities. [topver 23.0.1, newver 23.0.1]"
 
 HOMEPAGE="https://www.datavisyn.io"
 LICENSE="BSD"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/pymongo-3.11.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.3.20[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.14.1[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/flask-smorest[${PYTHON_USEDEP}]

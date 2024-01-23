@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]
+	~dev-python/wxpython-4.2.1[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.16.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

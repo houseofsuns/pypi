@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.4.1[${PYTHON_USEDEP}]
 	>=dev-python/dogpile-cache-0.6.5[${PYTHON_USEDEP}]

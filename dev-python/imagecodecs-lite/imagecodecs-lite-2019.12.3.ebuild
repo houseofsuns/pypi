@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Subset of image transformation, compression, and decompression codecs [topver 2022.9.26]"
+DESCRIPTION="Subset of image transformation, compression, and decompression codecs [topver 2022.9.26, newver 2022.9.26]"
 
 HOMEPAGE="https://www.lfd.uci.edu/~gohlke/"
 LICENSE="BSD"

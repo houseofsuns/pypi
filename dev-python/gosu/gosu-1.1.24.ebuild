@@ -39,11 +39,11 @@ DEPENDENCIES="dev-python/plumbum[${PYTHON_USEDEP}]
 	build? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	build? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	build? ( dev-python/flake8-cognitive-complexity[${PYTHON_USEDEP}] )
-	build? ( dev-python/pre_commit[${PYTHON_USEDEP}] )
+	build? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	build? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	build? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	build? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	build? ( dev-python/django_coverage_plugin[${PYTHON_USEDEP}] )
+	build? ( dev-python/django-coverage-plugin[${PYTHON_USEDEP}] )
 	build? ( dev-python/flit[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

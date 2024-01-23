@@ -29,11 +29,11 @@ DEPENDENCIES=">=dev-python/pydyf-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	>=dev-python/tinycss2-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cssselect2-0.1[${PYTHON_USEDEP}]
-	dev-python/Pyphen[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pyphen-0.9.1[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
 	>=dev-python/fonttools-4.0.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"

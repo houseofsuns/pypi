@@ -35,9 +35,9 @@ DEPENDENCIES="<dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	dev-python/zodburi[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/paramiko-ng[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2022.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

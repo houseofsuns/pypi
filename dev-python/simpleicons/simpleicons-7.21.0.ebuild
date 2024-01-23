@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="auto-update imaging"
 DEPENDENCIES="imaging? ( <dev-python/reportlab-4.0.0[${PYTHON_USEDEP}] )
-	imaging? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	imaging? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	imaging? ( <dev-python/svglib-2.0.0[${PYTHON_USEDEP}] )
 	auto-update? ( <dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}] )
 	auto-update? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )

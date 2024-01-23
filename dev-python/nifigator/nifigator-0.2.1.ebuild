@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/python-version[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	dev-python/python_version[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/rdflib-6.2.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	>=dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/codeallybasic[${PYTHON_USEDEP}]
 	dev-python/untanglepyut[${PYTHON_USEDEP}]
 	dev-python/oglio[${PYTHON_USEDEP}]
 	dev-python/pyumldiagrams[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]
+	~dev-python/wxpython-4.2.1[${PYTHON_USEDEP}]
 	~dev-python/antlr4-python3-runtime-4.13.1[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/orthogonal[${PYTHON_USEDEP}]"

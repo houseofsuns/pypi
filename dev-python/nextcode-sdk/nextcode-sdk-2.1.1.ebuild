@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter"
 DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hjson[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	jupyter? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

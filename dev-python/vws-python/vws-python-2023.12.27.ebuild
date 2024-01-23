@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/VWS-Auth-Tools[${PYTHON_USEDEP}]
+	dev-python/vws-auth-tools[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/doc8-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dodgy[${PYTHON_USEDEP}] )
@@ -37,16 +37,16 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip-check-reqs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydocstyle-6.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pygments-2.17.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyproject-fmt-1.5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-prompt-1.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sybil-6.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
-	dev? ( dev-python/VWS-Python-Mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/VWS-Test-Fixtures[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/vws-python-mock[${PYTHON_USEDEP}] )
+	dev? ( dev-python/vws-test-fixtures[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

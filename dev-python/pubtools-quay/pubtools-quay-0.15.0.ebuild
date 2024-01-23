@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/iiblib[${PYTHON_USEDEP}]
 	dev-python/pubtools-iib[${PYTHON_USEDEP}]
 	dev-python/kerberos[${PYTHON_USEDEP}]
-	rest? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	rest? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

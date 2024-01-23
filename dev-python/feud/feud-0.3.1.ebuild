@@ -27,7 +27,7 @@ IUSE="all extra-types rich"
 DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/Pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	rich? ( dev-python/rich-click[${PYTHON_USEDEP}] )
 	all? ( dev-python/rich-click[${PYTHON_USEDEP}] )
 	extra-types? ( dev-python/pydantic-extra-types[${PYTHON_USEDEP}] )

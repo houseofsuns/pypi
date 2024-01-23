@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2019.9.11[${PYTHON_USEDEP}]
 	>=dev-python/kaitaistruct-0.7[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-0.3.1[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-2.4.2[${PYTHON_USEDEP}]
-	dev-python/pysocks[${PYTHON_USEDEP}]
+	>=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/wsproto-0.14[${PYTHON_USEDEP}]
 	>=dev-python/zstandard-0.14.1[${PYTHON_USEDEP}]

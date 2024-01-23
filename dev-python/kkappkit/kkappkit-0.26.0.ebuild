@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/cx_freeze[${PYTHON_USEDEP}]
+	dev-python/cx-Freeze[${PYTHON_USEDEP}]
 	dev-python/kkbuild[${PYTHON_USEDEP}]
 	dev-python/kkpyui[${PYTHON_USEDEP}]
 	dev-python/kkpyutil[${PYTHON_USEDEP}]"

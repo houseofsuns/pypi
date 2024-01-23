@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fileformats[${PYTHON_USEDEP}]
-	dev-python/importlib_resources[${PYTHON_USEDEP}]
+	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	all? ( dev-python/pydra[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydra[${PYTHON_USEDEP}] )
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-versioning[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydra[${PYTHON_USEDEP}] )
@@ -50,12 +50,12 @@ DEPENDENCIES=">=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyld[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyLD[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/tornado[${PYTHON_USEDEP}] )
 	test? ( dev-python/boutiques[${PYTHON_USEDEP}] )
-	test? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	test? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pydra[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

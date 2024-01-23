@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Immunio agent library [topver 2.3.3]"
+DESCRIPTION="Immunio agent library [topver 2.3.3, newver 2.3.3]"
 
 HOMEPAGE="https://www.immun.io"
 LICENSE=""

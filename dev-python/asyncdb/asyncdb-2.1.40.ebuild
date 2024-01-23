@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for Asynchronous data source connections Collection of asyncio drivers. [topver 2.6.13]"
+DESCRIPTION="Library for Asynchronous data source connections Collection of asyncio drivers. [topver 2.6.13, newver 2.6.13]"
 
 HOMEPAGE="https://github.com/phenobarbital/asyncdb"
 LICENSE="BSD"
@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	>=dev-python/charset-normalizer-2.0.7[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	~dev-python/iso8601-1.1.0[${PYTHON_USEDEP}]
-	dev-python/pgpy[${PYTHON_USEDEP}]
+	dev-python/PGPy[${PYTHON_USEDEP}]
 	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/python-datamodel[${PYTHON_USEDEP}]

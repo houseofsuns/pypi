@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	<dev-python/numpydoc-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]
 	dev-python/wordsegment[${PYTHON_USEDEP}]
 	<dev-python/pylint-3.0[${PYTHON_USEDEP}]
@@ -43,10 +43,10 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/cachetools-5.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	<dev-python/ptyprocess-0.7.0[${PYTHON_USEDEP}]
-	dev-python/jupyter_client[${PYTHON_USEDEP}]
+	<dev-python/jupyter-client-7.0[${PYTHON_USEDEP}]
 	<dev-python/ipykernel-6.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/Send2Trash[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]"
+	<dev-python/send2trash-2.0[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

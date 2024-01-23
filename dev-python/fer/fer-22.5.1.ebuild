@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.1[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
 	dev-python/ffmpeg[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )

@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/taichi[${PYTHON_USEDEP}]
 	dev-python/polyscope[${PYTHON_USEDEP}]
 	all? ( dev-python/k3d[${PYTHON_USEDEP}] )
 	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	k3d? ( dev-python/k3d[${PYTHON_USEDEP}] )
-	pyfftw? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	pyfftw? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

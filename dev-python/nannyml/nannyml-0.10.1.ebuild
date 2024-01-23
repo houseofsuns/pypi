@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/FLAML[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/analytics-python[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
@@ -52,6 +52,6 @@ DEPENDENCIES="<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
-	dev-python/types-pyyaml[${PYTHON_USEDEP}]"
+	dev-python/types-PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

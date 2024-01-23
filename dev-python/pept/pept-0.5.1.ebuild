@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.29.16[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.3[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/cma[${PYTHON_USEDEP}]
 	>=dev-python/natsort-5.5.0[${PYTHON_USEDEP}]
 	dev-python/konigcell[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipython-5.5.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pydata-sphinx-theme-0.6.3[${PYTHON_USEDEP}] )

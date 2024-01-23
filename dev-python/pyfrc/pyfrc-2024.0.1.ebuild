@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pytest-3.9[${PYTHON_USEDEP}]
 	dev-python/pytest-reraise[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/wpilib[${PYTHON_USEDEP}]
 	dev-python/robotpy-cli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

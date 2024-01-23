@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/funcy[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-dataclasses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/coolname[${PYTHON_USEDEP}]
 	<dev-python/prettytable-0.8.0[${PYTHON_USEDEP}]
 	dev-python/requirements-parser[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pipreqs[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]"

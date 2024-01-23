@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
-	dev-python/mph[${PYTHON_USEDEP}]
+	dev-python/MPh[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/neuron[${PYTHON_USEDEP}]
+	dev-python/NEURON[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/ezdxf[${PYTHON_USEDEP}]

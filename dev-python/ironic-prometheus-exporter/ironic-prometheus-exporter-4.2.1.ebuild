@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.0.0[${PYTHON_USEDEP}]
 	dev-python/oslo-messaging[${PYTHON_USEDEP}]
 	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.6.0[${PYTHON_USEDEP}]

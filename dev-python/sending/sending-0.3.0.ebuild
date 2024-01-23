@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all jupyter redis websockets"
 DEPENDENCIES="redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	all? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/jupyter-client-8.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jupyter-client-8.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
 	websockets? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/black-23.3.0[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-6.2.1[${PYTHON_USEDEP}]
 	dev-python/doq[${PYTHON_USEDEP}]
 	dev-python/m2r2[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]

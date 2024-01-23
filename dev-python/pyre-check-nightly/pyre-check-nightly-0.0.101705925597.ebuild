@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyre-extensions[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/testslide[${PYTHON_USEDEP}]
+	dev-python/TestSlide[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

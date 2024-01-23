@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="breast-subtype-analysis 是一个用于乳腺癌症分子分型预测的Python包。 [topver 1.1.0]"
+DESCRIPTION="breast-subtype-analysis 是一个用于乳腺癌症分子分型预测的Python包。 [topver 1.1.0, newver 1.1.0]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/model-log[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
@@ -32,13 +32,13 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas-profiling[${PYTHON_USEDEP}]
 	dev-python/pandas-stubs[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/snfpy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchviz[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
 	dev-python/ydata-profiling[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

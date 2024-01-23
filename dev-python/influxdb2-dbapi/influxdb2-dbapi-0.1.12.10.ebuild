@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev sqlalchemy"
-DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	cli? ( dev-python/prompt_toolkit[${PYTHON_USEDEP}] )
+	cli? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
 	cli? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

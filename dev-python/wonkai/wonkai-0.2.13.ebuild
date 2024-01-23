@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
-	dev-python/pypdf2[${PYTHON_USEDEP}]
+	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/docx[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/azure-search-documents[${PYTHON_USEDEP}]"

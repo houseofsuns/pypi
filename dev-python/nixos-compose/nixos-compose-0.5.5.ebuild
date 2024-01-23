@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/halo[${PYTHON_USEDEP}]
 	<dev-python/pyinotify-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/pexpect-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/execo[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.12[${PYTHON_USEDEP}]"

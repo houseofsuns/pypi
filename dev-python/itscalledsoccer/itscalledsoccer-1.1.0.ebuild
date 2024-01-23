@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/CacheControl[${PYTHON_USEDEP}]
+	~dev-python/cachecontrol-0.13.1[${PYTHON_USEDEP}]
 	~dev-python/rapidfuzz-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )

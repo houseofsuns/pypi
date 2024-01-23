@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all atlas dev gremlin oidc rds"
 DEPENDENCIES="dev-python/neo4j[${PYTHON_USEDEP}]
 	dev-python/apache-atlas[${PYTHON_USEDEP}]
-	dev-python/beaker[${PYTHON_USEDEP}]
+	dev-python/Beaker[${PYTHON_USEDEP}]
 	~dev-python/overrides-2.5[${PYTHON_USEDEP}]
 	dev-python/amundsen-common[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.17.23[${PYTHON_USEDEP}]
 	~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/flasgger-0.9.5[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.0.2[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	<=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
@@ -50,14 +50,14 @@ DEPENDENCIES="dev-python/neo4j[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.38.1[${PYTHON_USEDEP}]
 	all? ( dev-python/neo4j[${PYTHON_USEDEP}] )
 	all? ( dev-python/apache-atlas[${PYTHON_USEDEP}] )
-	all? ( dev-python/beaker[${PYTHON_USEDEP}] )
+	all? ( dev-python/Beaker[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/overrides-2.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/amundsen-common[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/attrs-19.1.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/boto3-1.17.23[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/click-7.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/flasgger-0.9.5[${PYTHON_USEDEP}] )
-	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flask-1.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}] )

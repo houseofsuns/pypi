@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="VALVE Spreadsheet Validation [topver 0.2.1]"
+DESCRIPTION="VALVE Spreadsheet Validation [topver 0.2.1, newver 0.2.1]"
 
 HOMEPAGE=""
 LICENSE=""

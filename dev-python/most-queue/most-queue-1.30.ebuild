@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/tqdm-stubs[${PYTHON_USEDEP}]
 	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/qt-material[${PYTHON_USEDEP}]
-	dev-python/PySide2[${PYTHON_USEDEP}]
+	dev-python/pyside2[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]"

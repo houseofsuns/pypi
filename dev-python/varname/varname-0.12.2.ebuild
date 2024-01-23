@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="<dev-python/executing-3.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/asttokens-2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pure_eval[${PYTHON_USEDEP}] )"
+	all? ( ~dev-python/pure-eval-0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

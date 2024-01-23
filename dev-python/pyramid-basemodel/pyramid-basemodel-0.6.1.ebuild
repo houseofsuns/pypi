@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid-tm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
 	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/python-slugify[${PYTHON_USEDEP}]

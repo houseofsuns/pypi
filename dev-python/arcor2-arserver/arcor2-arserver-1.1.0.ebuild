@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	~dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]
 	dev-python/aiologger[${PYTHON_USEDEP}]
 	dev-python/aiorun[${PYTHON_USEDEP}]

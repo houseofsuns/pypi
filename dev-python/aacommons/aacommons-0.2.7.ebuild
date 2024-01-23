@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/hiredis[${PYTHON_USEDEP}]
 	dev-python/jstyleson[${PYTHON_USEDEP}]
 	dev-python/munch[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]"

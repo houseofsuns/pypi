@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop django"
-DEPENDENCIES="develop? ( dev-python/Django[${PYTHON_USEDEP}] )
+DEPENDENCIES="develop? ( dev-python/django[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )"
+	django? ( dev-python/django[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

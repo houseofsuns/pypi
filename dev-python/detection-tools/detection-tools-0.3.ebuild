@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/Matplotlib[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-1.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.1[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.28.1[${PYTHON_USEDEP}]
 	dev-python/tf-slim[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

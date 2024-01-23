@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python helper to request Sirene Api on api.insee.fr [topver 1.5]"
+DESCRIPTION="Python helper to request Sirene Api on api.insee.fr [topver 1.5, newver 1.5]"
 
 HOMEPAGE="https://github.com/sne3ks/api_insee"
 LICENSE="MIT"

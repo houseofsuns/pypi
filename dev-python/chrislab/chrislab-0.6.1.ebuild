@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/chrisbase[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/Korpora[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
 	dev-python/ipynbname[${PYTHON_USEDEP}]

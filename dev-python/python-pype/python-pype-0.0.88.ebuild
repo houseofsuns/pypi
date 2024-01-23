@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/parso[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]
 	dev-python/trio[${PYTHON_USEDEP}]
-	dev-python/async-generator[${PYTHON_USEDEP}]
+	dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/async-exit-stack[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"

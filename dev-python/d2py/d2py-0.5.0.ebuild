@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
 	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )

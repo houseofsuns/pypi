@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/alifedata-phyloinformatics-convert[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	>=dev-python/bitarray-2.6.2[${PYTHON_USEDEP}]
 	>=dev-python/bitstring-3.1.9[${PYTHON_USEDEP}]
-	dev-python/dendropy[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/DendroPy[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	dev-python/iterpop[${PYTHON_USEDEP}]
 	dev-python/interval-search[${PYTHON_USEDEP}]
 	dev-python/keyname[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/alifedata-phyloinformatics-convert[${PYTHON_USEDEP}]
 	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	jit? ( dev-python/numba[${PYTHON_USEDEP}] )
 	pinned_dependencies_py310? ( dev-python/alifedata-phyloinformatics-convert[${PYTHON_USEDEP}] )
@@ -61,8 +61,8 @@ DEPENDENCIES="dev-python/alifedata-phyloinformatics-convert[${PYTHON_USEDEP}]
 	pinned_dependencies_py310? ( dev-python/biopython[${PYTHON_USEDEP}] )
 	pinned_dependencies_py310? ( ~dev-python/bitarray-2.6.2[${PYTHON_USEDEP}] )
 	pinned_dependencies_py310? ( ~dev-python/bitstring-3.1.9[${PYTHON_USEDEP}] )
-	pinned_dependencies_py310? ( dev-python/dendropy[${PYTHON_USEDEP}] )
-	pinned_dependencies_py310? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
+	pinned_dependencies_py310? ( dev-python/DendroPy[${PYTHON_USEDEP}] )
+	pinned_dependencies_py310? ( ~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}] )
 	pinned_dependencies_py310? ( dev-python/iterpop[${PYTHON_USEDEP}] )
 	pinned_dependencies_py310? ( dev-python/interval-search[${PYTHON_USEDEP}] )
 	pinned_dependencies_py310? ( dev-python/keyname[${PYTHON_USEDEP}] )
@@ -89,8 +89,8 @@ DEPENDENCIES="dev-python/alifedata-phyloinformatics-convert[${PYTHON_USEDEP}]
 	pinned_dependencies_py38? ( dev-python/biopython[${PYTHON_USEDEP}] )
 	pinned_dependencies_py38? ( ~dev-python/bitarray-2.6.2[${PYTHON_USEDEP}] )
 	pinned_dependencies_py38? ( ~dev-python/bitstring-3.1.9[${PYTHON_USEDEP}] )
-	pinned_dependencies_py38? ( dev-python/dendropy[${PYTHON_USEDEP}] )
-	pinned_dependencies_py38? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
+	pinned_dependencies_py38? ( dev-python/DendroPy[${PYTHON_USEDEP}] )
+	pinned_dependencies_py38? ( ~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}] )
 	pinned_dependencies_py38? ( dev-python/iterpop[${PYTHON_USEDEP}] )
 	pinned_dependencies_py38? ( dev-python/interval-search[${PYTHON_USEDEP}] )
 	pinned_dependencies_py38? ( dev-python/keyname[${PYTHON_USEDEP}] )

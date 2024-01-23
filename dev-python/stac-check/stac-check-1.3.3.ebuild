@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.1.2[${PYTHON_USEDEP}]
 	dev-python/stac-validator[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Jupyter widget for annotating images with bounding boxes [topver 0.5.0]"
+DESCRIPTION="A Jupyter widget for annotating images with bounding boxes [topver 0.5.0, newver 0.5.0]"
 
 HOMEPAGE="https://github.com/gereleth/jupyter-bbox-widget"
 LICENSE="BSD"

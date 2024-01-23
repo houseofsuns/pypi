@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
 	dev-python/jsoncomment[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/pluck[${PYTHON_USEDEP}]
 	dev-python/urlpath[${PYTHON_USEDEP}]
 	dev-python/prettyprint[${PYTHON_USEDEP}]

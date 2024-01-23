@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IPTK is a library specialized in the analysis of HLA-peptidomes identified through an immunopeptidomics pipeline. [topver 0.6.24]"
+DESCRIPTION="IPTK is a library specialized in the analysis of HLA-peptidomes identified through an immunopeptidomics pipeline. [topver 0.6.24, newver 0.6.24]"
 
 HOMEPAGE="https://github.com/ikmb/iptoolkit"
 LICENSE=""

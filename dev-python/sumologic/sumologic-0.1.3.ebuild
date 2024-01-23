@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for working with the Sumo Logic api. [topver 0.1.4]"
+DESCRIPTION="Python library for working with the Sumo Logic api. [topver 0.1.4, newver 0.1.4]"
 
 HOMEPAGE="https://github.com/sijis/sumologic-python"
 LICENSE="UNKNOWN"

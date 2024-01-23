@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/wiliot-core[${PYTHON_USEDEP}]
 	dev-python/mplcursors[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.14.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

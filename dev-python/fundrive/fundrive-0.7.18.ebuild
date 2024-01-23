@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="fundrive [topver 0.12.21]"
+DESCRIPTION="fundrive [topver 0.12.21, newver 0.12.21]"
 
 HOMEPAGE="https://github.com/1007530194"
 LICENSE=""

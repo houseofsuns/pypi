@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package for the Simplified Zone Notation standard [topver 1.6.0]"
+DESCRIPTION="A Python package for the Simplified Zone Notation standard [topver 1.6.0, newver 1.6.0]"
 
 HOMEPAGE="https://pyszn.readthedocs.org/"
 LICENSE=""

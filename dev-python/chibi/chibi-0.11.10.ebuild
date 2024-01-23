@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/chibi-donkey[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

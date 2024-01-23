@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	http? ( dev-python/flask[${PYTHON_USEDEP}] )
 	http? ( dev-python/flask-compress[${PYTHON_USEDEP}] )
 	http? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
-	http? ( dev-python/flask-json[${PYTHON_USEDEP}] )
+	http? ( dev-python/Flask-JSON[${PYTHON_USEDEP}] )
 	http? ( dev-python/bert-serving-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

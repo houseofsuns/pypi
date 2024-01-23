@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev? ( dev-python/Click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-2.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

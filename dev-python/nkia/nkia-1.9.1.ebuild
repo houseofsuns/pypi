@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	dev-python/tensorflow-datasets[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.1.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]

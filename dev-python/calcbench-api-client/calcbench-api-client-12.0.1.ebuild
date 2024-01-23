@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	keyring? ( dev-python/keyring[${PYTHON_USEDEP}] )
 	listener? ( dev-python/azure-servicebus[${PYTHON_USEDEP}] )
 	listener? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/Pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	pyarrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

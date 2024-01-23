@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/musicbrainzngs-0.7.1[${PYTHON_USEDEP}]
 	~dev-python/jellyfish-0.9.0[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/youtube-dl[${PYTHON_USEDEP}]
+	dev-python/youtube_dl[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	~dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

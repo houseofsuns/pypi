@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="provider"
 DEPENDENCIES=">=dev-python/packaging-20.0[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/zyte-api[${PYTHON_USEDEP}]
 	provider? ( dev-python/andi[${PYTHON_USEDEP}] )
 	provider? ( dev-python/scrapy-poet[${PYTHON_USEDEP}] )

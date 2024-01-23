@@ -16,8 +16,8 @@ DESCRIPTION="PDF generator using HTML and CSS"
 
 HOMEPAGE="http://www.xhtml2pdf.com"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5e/f3/7a2db3d6e7c9d013835b19ea4d4a1f793a4595543b2ef0f8a86985966d07/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/00/be/1e641eb27dbcf6a061167aff23b4d628ce8d062de6aa1df871d8d8737f62/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

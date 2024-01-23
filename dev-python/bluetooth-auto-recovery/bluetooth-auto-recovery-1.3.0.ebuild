@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/PyRIC[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bluetooth-adapters[${PYTHON_USEDEP}]
 	dev-python/btsocket[${PYTHON_USEDEP}]

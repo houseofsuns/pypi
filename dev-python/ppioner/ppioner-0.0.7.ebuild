@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/silx[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/PyQt5-5.15.6[${PYTHON_USEDEP}] )
 	server? ( dev-python/uldaq[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

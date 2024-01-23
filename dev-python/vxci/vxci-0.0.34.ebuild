@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/click-6.6[${PYTHON_USEDEP}]
 	dev-python/vxbase[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

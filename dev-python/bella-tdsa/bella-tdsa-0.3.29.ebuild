@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/filelock-3.0.10[${PYTHON_USEDEP}]
-	dev-python/Keras[${PYTHON_USEDEP}]
+	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]

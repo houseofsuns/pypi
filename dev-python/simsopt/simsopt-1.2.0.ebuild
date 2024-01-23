@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.10[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/randomgen[${PYTHON_USEDEP}]
 	dev-python/pyevtk[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	spec? ( dev-python/py_spec[${PYTHON_USEDEP}] )
+	spec? ( dev-python/py-spec[${PYTHON_USEDEP}] )
 	spec? ( dev-python/pyoculus[${PYTHON_USEDEP}] )
 	spec? ( >=dev-python/h5py-3.1.0[${PYTHON_USEDEP}] )
 	mpi? ( >=dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )

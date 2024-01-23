@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast directory scanner. [topver 2.4.0]"
+DESCRIPTION="A fast directory scanner. [topver 2.4.0, newver 2.4.0]"
 
 HOMEPAGE="https://github.com/brmmm3/scandir-rs"
 LICENSE="MIT"

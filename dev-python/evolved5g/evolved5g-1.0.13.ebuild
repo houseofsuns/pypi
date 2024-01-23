@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	~dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	~dev-python/coverage-4.5.4[${PYTHON_USEDEP}]

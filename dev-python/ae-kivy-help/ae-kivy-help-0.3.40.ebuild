@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/kivy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Kivy[${PYTHON_USEDEP}]
 	dev-python/ae-core[${PYTHON_USEDEP}]
 	dev-python/ae-gui-help[${PYTHON_USEDEP}]
 	dev-python/ae-kivy-glsl[${PYTHON_USEDEP}]

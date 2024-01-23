@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/discord[${PYTHON_USEDEP}]
 	dev-python/disnake[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/colour[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

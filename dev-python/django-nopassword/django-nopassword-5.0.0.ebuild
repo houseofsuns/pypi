@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Authentication backend for django that uses a one time code instead of passwords"
+DESCRIPTION="Authentication backend for django that uses a one time code instead of passwords [newver 4.0.2]"
 
 HOMEPAGE="http://github.com/relekang/django-nopassword"
 LICENSE="MIT"

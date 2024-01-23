@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command line tool for missinglink.ai platform [topver 18.8.0]"
+DESCRIPTION="Command line tool for missinglink.ai platform [topver 18.8.0, newver 18.8.0]"
 
 HOMEPAGE="https://missinglink.ai"
 LICENSE="Apache-2.0"
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/click-6.7[${PYTHON_USEDEP}]
 	~dev-python/httplib2-0.10[${PYTHON_USEDEP}]
 	~dev-python/puremagic-1.3[${PYTHON_USEDEP}]
 	dev-python/missinglink-sdk[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-2.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.4[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.4[${PYTHON_USEDEP}]

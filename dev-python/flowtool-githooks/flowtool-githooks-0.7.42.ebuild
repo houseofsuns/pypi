@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automating tasks for git users. [topver 0.7.46]"
+DESCRIPTION="Automating tasks for git users. [topver 0.7.46, newver 0.7.46]"
 
 HOMEPAGE="https://github.com/isnok/py-flowlib"
 LICENSE="UNKNOWN"

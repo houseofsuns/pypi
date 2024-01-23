@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cleo-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/confuse-3.0[${PYTHON_USEDEP}]
-	socks? ( dev-python/pysocks[${PYTHON_USEDEP}] )
+	socks? ( <dev-python/PySocks-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/urlmatch[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]

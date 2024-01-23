@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/Image[${PYTHON_USEDEP}]
+	dev-python/image[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]"

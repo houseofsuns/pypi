@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev gsheets_report mlflow orbit pdf_report prophet report slack statsmodels test"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	<dev-python/cython-0.29.18[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/prefect[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/future-0.15.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
-	dev-python/pympl[${PYTHON_USEDEP}]
+	dev-python/PyMPL[${PYTHON_USEDEP}]
 	>=dev-python/pytest-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-2.2.1[${PYTHON_USEDEP}]
 	dev-python/coveralls[${PYTHON_USEDEP}]"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql postgres test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>dev-python/prettytable-3.4.0[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	>dev-python/alembic-1.2.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
@@ -36,13 +36,13 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>dev-python/oslo-log-3.44.2[${PYTHON_USEDEP}]
 	>dev-python/paramiko-2.9.0[${PYTHON_USEDEP}]
 	>dev-python/pbr-2.1.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/python-subunit[${PYTHON_USEDEP}]
 	>dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>dev-python/virtualenv-16.3.0[${PYTHON_USEDEP}]
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	test? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
 	test? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.8.2[${PYTHON_USEDEP}]
 	dev-python/bioformats-jar[${PYTHON_USEDEP}]
 	dev-python/bfio[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	all? ( dev-python/napari[${PYTHON_USEDEP}] )
 	all? ( dev-python/napari-plugin-engine[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	all? ( >=dev-python/fsspec-2022.8.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/bioformats-jar[${PYTHON_USEDEP}] )
 	all? ( dev-python/bfio[${PYTHON_USEDEP}] )
-	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all? ( <dev-python/docutils-0.16[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	all? ( >=dev-python/ipython-7.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-rtd-theme-0.1.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/quilt3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-0.1.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )

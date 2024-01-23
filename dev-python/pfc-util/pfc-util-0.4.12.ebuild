@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
-	dev-python/pyfftw[${PYTHON_USEDEP}]
+	dev-python/pyFFTW[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/torusgrid[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.4.0[${PYTHON_USEDEP}]"

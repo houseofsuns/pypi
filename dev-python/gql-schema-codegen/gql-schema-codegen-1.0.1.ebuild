@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/pytest-snapshot[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.1.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

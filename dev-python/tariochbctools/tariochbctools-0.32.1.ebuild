@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/beancount[${PYTHON_USEDEP}]
-	dev-python/bitstampclient[${PYTHON_USEDEP}]
+	dev-python/BitstampClient[${PYTHON_USEDEP}]
 	dev-python/mt_940[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/ibflex[${PYTHON_USEDEP}]

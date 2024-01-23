@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all babel basic_formats formats yaml"
 DEPENDENCIES=">=dev-python/pycountry-16.10.23[${PYTHON_USEDEP}]
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/tablib[${PYTHON_USEDEP}] )
 	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	basic_formats? ( dev-python/tablib[${PYTHON_USEDEP}] )
 	formats? ( dev-python/tablib[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

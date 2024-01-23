@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	dev-python/carto[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/semantic-version-3.0[${PYTHON_USEDEP}]

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/h2-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]"
+	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

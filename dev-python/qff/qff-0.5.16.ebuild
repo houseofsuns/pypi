@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	~dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/ddddocr[${PYTHON_USEDEP}]
 	~dev-python/setuptools-62.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

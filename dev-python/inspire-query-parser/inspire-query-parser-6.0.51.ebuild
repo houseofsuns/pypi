@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all tests"
 DEPENDENCIES="dev-python/inspire-schemas[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
-	dev-python/pypeg2[${PYTHON_USEDEP}]
+	dev-python/pyPEG2[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.0[${PYTHON_USEDEP}]
 	dev-python/datefinder[${PYTHON_USEDEP}]

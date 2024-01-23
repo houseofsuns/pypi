@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/import-string[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-3.0.8[${PYTHON_USEDEP}]
+	dev-python/import_string[${PYTHON_USEDEP}]
 	dev-python/google-cloud[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

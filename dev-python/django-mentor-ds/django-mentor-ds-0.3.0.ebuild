@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/django-libsass[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
 	dev-python/util-demian[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	>=dev-python/django-4.0.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

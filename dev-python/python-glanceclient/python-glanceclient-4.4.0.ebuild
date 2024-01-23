@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.6.2[${PYTHON_USEDEP}]
 	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
 	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
 	>=dev-python/warlock-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.7.0[${PYTHON_USEDEP}]"

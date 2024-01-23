@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/spacytextblob[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.2.5[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

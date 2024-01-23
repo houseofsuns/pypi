@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/lark[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-mock[${PYTHON_USEDEP}] )
-	develop? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"
+	develop? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

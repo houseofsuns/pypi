@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/alembic-0.7.7[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.8.2[${PYTHON_USEDEP}]
 	dev-python/tej-exchange-calendars[${PYTHON_USEDEP}]
 	dev-python/tejapi[${PYTHON_USEDEP}]
-	dev-python/Logbook[${PYTHON_USEDEP}]
+	>=dev-python/logbook-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
 	dev-python/tej-tool-api[${PYTHON_USEDEP}]
 	dev-python/alphalens-tej[${PYTHON_USEDEP}]
@@ -61,9 +61,9 @@ DEPENDENCIES=">=dev-python/alembic-0.7.7[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/cython[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )

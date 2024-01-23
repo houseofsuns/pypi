@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Storage and database adapters available in project Thoth [topver 0.74.2]"
+DESCRIPTION="Storage and database adapters available in project Thoth [topver 0.74.2, newver 0.74.2]"
 
 HOMEPAGE="https://github.com/thoth-station/storages"
 LICENSE="GPL-3+"
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/thoth-common[${PYTHON_USEDEP}]
 	dev-python/thoth-license-solver[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/pyqlikengine[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/qsapi[${PYTHON_USEDEP}]
+	dev-python/qsAPI[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-ntlm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

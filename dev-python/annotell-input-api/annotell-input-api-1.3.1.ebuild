@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/annotell-auth[${PYTHON_USEDEP}]
 	dev-python/annotell-openlabel[${PYTHON_USEDEP}]
 	dev-python/annotell-base-clients[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	dev-python/deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

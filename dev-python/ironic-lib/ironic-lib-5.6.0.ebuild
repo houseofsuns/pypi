@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-3.1.3[${PYTHON_USEDEP}]
 	>=dev-python/oslo-concurrency-3.26.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]

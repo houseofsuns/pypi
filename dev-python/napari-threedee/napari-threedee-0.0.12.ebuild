@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/npe2[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/morphosamplers[${PYTHON_USEDEP}]
 	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )

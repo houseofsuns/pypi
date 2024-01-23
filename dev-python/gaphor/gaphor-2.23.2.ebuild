@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/PyGObject[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pygobject-4.0[${PYTHON_USEDEP}]
+	<dev-python/Babel-3.0.0[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
 	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/furo-2024.0[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/PyGObject[${PYTHON_USEDEP}]
 	<dev-python/pycairo-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydot-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pygit2-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pyobjc-framework-cocoa[${PYTHON_USEDEP}]
+	dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )

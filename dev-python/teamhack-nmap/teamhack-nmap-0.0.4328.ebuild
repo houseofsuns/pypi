@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hack the Box Team Support Services [topver 0.0.4329]"
+DESCRIPTION="Hack the Box Team Support Services [topver 0.0.4329, newver 0.0.4329]"
 
 HOMEPAGE=""
 LICENSE=""

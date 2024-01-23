@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]

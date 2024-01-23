@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyecore[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-needs[${PYTHON_USEDEP}]
 	<dev-python/sphinxcontrib-plantuml-0.25[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"

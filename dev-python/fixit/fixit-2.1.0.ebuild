@@ -37,8 +37,8 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ufmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_mdinclude[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.0.1[${PYTHON_USEDEP}] )
 	pretty? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

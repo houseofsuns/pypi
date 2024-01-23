@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bundle docs test tls"
 DEPENDENCIES=">=dev-python/setuptools-8.0[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	<=dev-python/twisted-23.10.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/croniter-1.3.0[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/setuptools-8.0[${PYTHON_USEDEP}]
 	>=dev-python/txaio-2.2.2[${PYTHON_USEDEP}]
 	>=dev-python/autobahn-0.16.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/unidiff-0.7.5[${PYTHON_USEDEP}]
 	bundle? ( dev-python/buildbot-www[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/setuptools-8.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	test? ( dev-python/setuptools-trial[${PYTHON_USEDEP}] )
+	test? ( dev-python/setuptools_trial[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pylint-1.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
@@ -63,10 +63,10 @@ DEPENDENCIES=">=dev-python/setuptools-8.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pypugjs[${PYTHON_USEDEP}] )
 	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/Markdown[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/markdown-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	test? ( dev-python/lz4[${PYTHON_USEDEP}] )
-	tls? ( dev-python/Twisted[${PYTHON_USEDEP}] )
+	tls? ( <=dev-python/twisted-23.10.0[${PYTHON_USEDEP}] )
 	tls? ( >=dev-python/pyopenssl-16.0.0[${PYTHON_USEDEP}] )
 	tls? ( dev-python/service-identity[${PYTHON_USEDEP}] )
 	tls? ( >=dev-python/idna-0.6[${PYTHON_USEDEP}] )"

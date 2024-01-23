@@ -30,13 +30,13 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/syrupy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/shibuya[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	email? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
 	falcon? ( dev-python/falcon[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	quart? ( dev-python/quart[${PYTHON_USEDEP}] )
+	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	starlette? ( dev-python/starlette[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

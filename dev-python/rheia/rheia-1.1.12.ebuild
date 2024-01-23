@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/deap[${PYTHON_USEDEP}]
 	dev-python/pvlib[${PYTHON_USEDEP}]
 	dev-python/pyDOE[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
-	dev-python/sobolsequence[${PYTHON_USEDEP}]"
+	dev-python/SobolSequence[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

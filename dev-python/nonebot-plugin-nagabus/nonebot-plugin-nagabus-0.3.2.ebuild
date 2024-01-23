@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-datastore[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-majsoul[${PYTHON_USEDEP}]
 	dev-python/ssttkkl-nonebot-utils[${PYTHON_USEDEP}]
-	dev-python/nonebot-plugin-session[${PYTHON_USEDEP}]
+	dev-python/nonebot_plugin_session[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-session-orm[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.6.2[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/monthdelta[${PYTHON_USEDEP}]
+	dev-python/MonthDelta[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/starlette-0.14.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
-	dev-python/prompt_toolkit[${PYTHON_USEDEP}]"
+	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

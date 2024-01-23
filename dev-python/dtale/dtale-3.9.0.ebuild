@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arctic arcticdb dash-bio r redis streamlit swifter tests"
-DEPENDENCIES="dev-python/dash-colorscales[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dash_colorscales[${PYTHON_USEDEP}]
 	dev-python/dash-daq[${PYTHON_USEDEP}]
-	dev-python/Flask-Compress[${PYTHON_USEDEP}]
+	dev-python/flask-compress[${PYTHON_USEDEP}]
 	>=dev-python/future-0.14.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/missingno[${PYTHON_USEDEP}]
@@ -50,9 +50,9 @@ DEPENDENCIES="dev-python/dash-colorscales[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>dev-python/openpyxl-3.2.0[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/et-xmlfile[${PYTHON_USEDEP}]
+	dev-python/et_xmlfile[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-2.3[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/contourpy[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.8[${PYTHON_USEDEP}]
 	dev-python/meteor-ejson[${PYTHON_USEDEP}]
 	dev-python/psycogreen[${PYTHON_USEDEP}]
 	dev-python/pybars3[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/psycopg2cffi[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	develop? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/sphinx-1.3.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/Sphinx-PyPI-upload[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinxcontrib-dashbuilder[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/twine-1.6.4[${PYTHON_USEDEP}] )"

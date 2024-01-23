@@ -30,20 +30,20 @@ DEPENDENCIES="dev-python/appcli[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/freezerbox[${PYTHON_USEDEP}]
 	dev-python/inform[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.6[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
 	dev-python/stepwise[${PYTHON_USEDEP}]
 	dev-python/tidyexc[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autoclasstoc[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/parametrize_from_file[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests_testing[${PYTHON_USEDEP}] )
-	test? ( dev-python/re_assert[${PYTHON_USEDEP}] )
+	test? ( dev-python/parametrize-from-file[${PYTHON_USEDEP}] )
+	test? ( dev-python/requests-testing[${PYTHON_USEDEP}] )
+	test? ( dev-python/re-assert[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

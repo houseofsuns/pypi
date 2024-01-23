@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/logthing[${PYTHON_USEDEP}]
 	dev-python/screwdriver[${PYTHON_USEDEP}]
 	dev-python/waelstow[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/context-temp[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Django[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/django-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/logthing[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pudb-2023.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyflakes-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/screwdriver[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/waelstow[${PYTHON_USEDEP}] )"

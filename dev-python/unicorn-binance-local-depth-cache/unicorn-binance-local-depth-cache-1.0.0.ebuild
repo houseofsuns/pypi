@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/lucit-licensing-python[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/unicorn-binance-websocket-api[${PYTHON_USEDEP}]
 	dev-python/unicorn-binance-rest-api[${PYTHON_USEDEP}]"

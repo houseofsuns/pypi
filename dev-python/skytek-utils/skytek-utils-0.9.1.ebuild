@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/django-3.2.0[${PYTHON_USEDEP}]
 	dev-python/datadog[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.14[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

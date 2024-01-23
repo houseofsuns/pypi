@@ -27,7 +27,7 @@ IUSE="extras"
 DEPENDENCIES="dev-python/mapel-core[${PYTHON_USEDEP}]
 	extras? ( dev-python/cplex[${PYTHON_USEDEP}] )
 	extras? ( dev-python/abcvoting[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pulp[${PYTHON_USEDEP}] )
+	extras? ( dev-python/PuLP[${PYTHON_USEDEP}] )
 	extras? ( dev-python/permanent[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

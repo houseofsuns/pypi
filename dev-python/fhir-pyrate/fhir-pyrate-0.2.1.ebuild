@@ -36,7 +36,7 @@ DEPENDENCIES="downloader? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fhirpathpy[${PYTHON_USEDEP}]
 	<dev-python/requests-cache-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

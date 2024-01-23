@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
 	dev-python/syrupy[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

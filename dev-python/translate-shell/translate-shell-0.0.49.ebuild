@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	keyring? ( dev-python/keyring[${PYTHON_USEDEP}] )
 	langdetect? ( dev-python/langdetect[${PYTHON_USEDEP}] )
-	llama? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	llama? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	llama? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
 	lsp? ( dev-python/pygls[${PYTHON_USEDEP}] )
 	notification? ( dev-python/py-notifier[${PYTHON_USEDEP}] )
-	openai? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	openai? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	openai? ( dev-python/opneai[${PYTHON_USEDEP}] )
 	po? ( dev-python/polib[${PYTHON_USEDEP}] )
 	po? ( dev-python/tqdm[${PYTHON_USEDEP}] )
@@ -45,8 +45,8 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	repl? ( dev-python/repl-python-wakatime[${PYTHON_USEDEP}] )
 	repl? ( dev-python/rich[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
-	stardict? ( dev-python/PyStarDict[${PYTHON_USEDEP}] )
+	stardict? ( dev-python/pystardict[${PYTHON_USEDEP}] )
 	wakatime? ( dev-python/repl-python-wakatime[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

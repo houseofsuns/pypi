@@ -35,10 +35,10 @@ DEPENDENCIES="crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst_parser[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	full? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	full? ( >=dev-python/pillow-8.0.0[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/pillow-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

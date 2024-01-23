@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	backends? ( dev-python/pyhf[${PYTHON_USEDEP}] )
 	contrib? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
 	contrib? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
-	develop? ( dev-python/codemetapy[${PYTHON_USEDEP}] )
+	develop? ( dev-python/CodeMetaPy[${PYTHON_USEDEP}] )
 	develop? ( dev-python/nox[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyhf[${PYTHON_USEDEP}] )

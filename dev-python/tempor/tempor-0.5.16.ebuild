@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
-	dev-python/ansible_runner[${PYTHON_USEDEP}]
+	dev-python/ansible-runner[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.5.1[${PYTHON_USEDEP}]
 	dev-python/python-terraform[${PYTHON_USEDEP}]
 	~dev-python/rich-12.4.1[${PYTHON_USEDEP}]
 	dev-python/ssh-config[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.23.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-2.47.0[${PYTHON_USEDEP}]"

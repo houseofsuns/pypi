@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/et-xmlfile[${PYTHON_USEDEP}]
+	dev-python/et_xmlfile[${PYTHON_USEDEP}]
 	dev-python/inflect[${PYTHON_USEDEP}]
 	dev-python/jdcal[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

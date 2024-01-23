@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/sudachipy[${PYTHON_USEDEP}]
-	dev-python/sudachidict-core[${PYTHON_USEDEP}]
-	dev-python/sudachitra[${PYTHON_USEDEP}]
+	dev-python/SudachiPy[${PYTHON_USEDEP}]
+	dev-python/SudachiDict-core[${PYTHON_USEDEP}]
+	dev-python/SudachiTra[${PYTHON_USEDEP}]
 	dev-python/ginza-transformers[${PYTHON_USEDEP}]
 	dev-python/ginza[${PYTHON_USEDEP}]
 	dev-python/spacy-transformers[${PYTHON_USEDEP}]"

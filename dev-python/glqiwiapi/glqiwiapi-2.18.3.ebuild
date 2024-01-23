@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/tzdata-2023.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	fast? ( <dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	fast? ( <dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )

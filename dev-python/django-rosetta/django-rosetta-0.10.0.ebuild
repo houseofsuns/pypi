@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.30.0[${PYTHON_USEDEP}]
 	>=dev-python/polib-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

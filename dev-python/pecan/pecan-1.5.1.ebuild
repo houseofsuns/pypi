@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/webob-1.8[${PYTHON_USEDEP}]
+	>=dev-python/mako-0.4.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/logutils-0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

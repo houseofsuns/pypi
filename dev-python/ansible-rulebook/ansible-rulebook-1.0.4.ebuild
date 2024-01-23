@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/janus[${PYTHON_USEDEP}]
 	dev-python/ansible-runner[${PYTHON_USEDEP}]

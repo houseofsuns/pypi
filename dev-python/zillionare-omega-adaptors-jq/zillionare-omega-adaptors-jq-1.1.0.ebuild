@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/zillionare-core-types[${PYTHON_USEDEP}]
 	dev-python/cfg4py[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/jqdatasdk[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/jpype1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/JPype1[${PYTHON_USEDEP}]
 	dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/ome-types[${PYTHON_USEDEP}]
-	dev-python/pims[${PYTHON_USEDEP}]
+	dev-python/PIMS[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

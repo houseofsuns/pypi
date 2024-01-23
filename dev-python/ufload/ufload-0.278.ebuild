@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyopenssl-19.1.0[${PYTHON_USEDEP}]
 	dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	dev-python/easywebdav[${PYTHON_USEDEP}]
-	dev-python/oerplib[${PYTHON_USEDEP}]
+	dev-python/OERPLib[${PYTHON_USEDEP}]
 	dev-python/pybase64[${PYTHON_USEDEP}]
 	dev-python/Office365-REST-Python-Client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

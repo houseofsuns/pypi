@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/PyRuSH[${PYTHON_USEDEP}]
 	dev-python/pysbd[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/medspacy_quickumls[${PYTHON_USEDEP}]"
+	dev-python/medspacy-quickumls[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

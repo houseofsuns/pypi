@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Start managing your workflow! [topver 0.7.61]"
+DESCRIPTION="Start managing your workflow! [topver 0.7.61, newver 0.7.61]"
 
 HOMEPAGE="https://github.com/isnok/py-flowlib"
 LICENSE="UNKNOWN"

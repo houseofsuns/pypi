@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/speechrecognition[${PYTHON_USEDEP}]
+	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
 	dev-python/whosyouragent[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

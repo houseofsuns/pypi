@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A realtime messaging server using WebSockets and Redis. [topver 2.9.137]"
+DESCRIPTION="A realtime messaging server using WebSockets and Redis. [topver 2.9.137, newver 2.9.137]"
 
 HOMEPAGE="https://github.com/machinezone/cobra"
 LICENSE="BSD 3"
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/aioredis[${PYTHON_USEDEP}]
 	~dev-python/click-6.6[${PYTHON_USEDEP}]
 	~dev-python/hiredis-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.4.6[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]
 	~dev-python/ujson-1.35[${PYTHON_USEDEP}]
 	dev-python/byteformat[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.12.2[${PYTHON_USEDEP}]

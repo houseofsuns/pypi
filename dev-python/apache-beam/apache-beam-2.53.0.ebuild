@@ -58,7 +58,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	dask? ( >=dev-python/dask-2022.6[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dataframe? ( <dev-python/pandas-1.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )

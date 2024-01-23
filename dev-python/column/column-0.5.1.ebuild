@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
 	>dev-python/cryptography-2.0.1[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-restful[${PYTHON_USEDEP}]
+	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

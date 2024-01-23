@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.11[${PYTHON_USEDEP}]
 	>=dev-python/click-6.2[${PYTHON_USEDEP}]
 	>=dev-python/docker-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-1.0.1[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
-	dev-python/flask-mail[${PYTHON_USEDEP}]
+	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	>=dev-python/unidiff-0.5.2[${PYTHON_USEDEP}]
 	dev-python/optionaldict[${PYTHON_USEDEP}]
 	>=dev-python/flake8-3.0.0[${PYTHON_USEDEP}]

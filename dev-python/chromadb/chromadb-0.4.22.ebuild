@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/build-1.0.3[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
-	dev-python/pypika[${PYTHON_USEDEP}]
+	dev-python/PyPika[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	>=dev-python/overrides-7.3.1[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/build-1.0.3[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

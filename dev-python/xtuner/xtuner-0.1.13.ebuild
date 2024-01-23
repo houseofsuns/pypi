@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/bitsandbytes[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/peft[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/SentencePiece[${PYTHON_USEDEP}]
+	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/bitsandbytes[${PYTHON_USEDEP}]
 	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	all? ( dev-python/peft[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/SentencePiece[${PYTHON_USEDEP}] )
+	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/bitsandbytes[${PYTHON_USEDEP}]
 	deepspeed? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	deepspeed? ( dev-python/peft[${PYTHON_USEDEP}] )
 	deepspeed? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	deepspeed? ( dev-python/SentencePiece[${PYTHON_USEDEP}] )
+	deepspeed? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	deepspeed? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	deepspeed? ( dev-python/torch[${PYTHON_USEDEP}] )
 	deepspeed? ( dev-python/transformers[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/bitsandbytes[${PYTHON_USEDEP}]
 	modelscope? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	modelscope? ( dev-python/peft[${PYTHON_USEDEP}] )
 	modelscope? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/SentencePiece[${PYTHON_USEDEP}] )
+	modelscope? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	modelscope? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	modelscope? ( dev-python/torch[${PYTHON_USEDEP}] )
 	modelscope? ( dev-python/transformers[${PYTHON_USEDEP}] )

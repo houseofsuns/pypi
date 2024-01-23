@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev dist tests"
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/click-log-0.4[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-ntlm-2.0[${PYTHON_USEDEP}]

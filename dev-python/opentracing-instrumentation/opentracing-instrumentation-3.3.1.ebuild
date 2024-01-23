@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-tornado[${PYTHON_USEDEP}] )
 	tests? ( dev-python/basictracer[${PYTHON_USEDEP}] )
 	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	tests? ( dev-python/testfixtures[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

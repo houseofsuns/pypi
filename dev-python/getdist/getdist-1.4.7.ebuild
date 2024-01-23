@@ -27,11 +27,11 @@ IUSE="docs gui"
 DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	gui? ( dev-python/PySide6[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyside6-6.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

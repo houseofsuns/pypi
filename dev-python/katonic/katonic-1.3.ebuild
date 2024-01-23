@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for MLOps [topver 1.6.2]"
+DESCRIPTION="Python SDK for MLOps [topver 1.6.2, newver 1.6.2]"
 
 HOMEPAGE="https://www.katonic.ai/"
 LICENSE="MIT"
@@ -81,7 +81,7 @@ DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	all? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-1.4.32[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/starlette-0.14.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
@@ -116,7 +116,7 @@ DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	fs? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	fs? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
 	fs? ( dev-python/redis-py-cluster[${PYTHON_USEDEP}] )
-	fs? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	fs? ( <dev-python/sqlalchemy-1.4.32[${PYTHON_USEDEP}] )
 	fs? ( ~dev-python/starlette-0.14.2[${PYTHON_USEDEP}] )
 	ml? ( ~dev-python/boto3-1.19.12[${PYTHON_USEDEP}] )
 	ml? ( dev-python/catboost[${PYTHON_USEDEP}] )

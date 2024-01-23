@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework for building Singer taps"
+DESCRIPTION="A framework for building Singer taps [newver 0.35.0a3]"
 
 HOMEPAGE="https://sdk.meltano.com/en/latest/"
 LICENSE="Apache-2.0"
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs parquet s3 testing"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]

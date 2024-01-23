@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/gtts[${PYTHON_USEDEP}]
+	dev-python/gTTS[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
 	dev-python/playsound[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]

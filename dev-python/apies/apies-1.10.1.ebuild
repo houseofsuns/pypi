@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	<dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}]
 	dev-python/datapackage[${PYTHON_USEDEP}]
-	dev-python/flask-jsonpify[${PYTHON_USEDEP}]
+	dev-python/Flask-Jsonpify[${PYTHON_USEDEP}]
 	dev-python/demjson3[${PYTHON_USEDEP}]
 	dev-python/xlwt[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]

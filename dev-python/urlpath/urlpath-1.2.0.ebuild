@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="json test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	json? ( dev-python/jmespath[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebOb[${PYTHON_USEDEP}] )
+	test? ( dev-python/webob[${PYTHON_USEDEP}] )
 	test? ( dev-python/jmespath[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

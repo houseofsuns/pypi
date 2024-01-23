@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/pytest-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-selenium[${PYTHON_USEDEP}]
 	release? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	release? ( >=dev-python/recommonmark-0.4.0[${PYTHON_USEDEP}] )
-	release? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	release? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	release? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	release? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

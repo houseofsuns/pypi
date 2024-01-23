@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="processing"
 DEPENDENCIES="<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
-	dev-python/Biopython[${PYTHON_USEDEP}]
+	dev-python/biopython[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/biopandas[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	processing? ( dev-python/MDAnalysis[${PYTHON_USEDEP}] )
 	processing? ( dev-python/ablang[${PYTHON_USEDEP}] )
 	processing? ( dev-python/igfold[${PYTHON_USEDEP}] )
-	processing? ( dev-python/immunebuilder[${PYTHON_USEDEP}] )
+	processing? ( dev-python/ImmuneBuilder[${PYTHON_USEDEP}] )
 	processing? ( dev-python/blosum[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

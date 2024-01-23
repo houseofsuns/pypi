@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Minimal SAML2 client [topver 23.1]"
+DESCRIPTION="Minimal SAML2 client [topver 23.1, newver 23.1]"
 
 HOMEPAGE="https://github.com/HENNGE/minisaml"
 LICENSE="Apache-2.0"

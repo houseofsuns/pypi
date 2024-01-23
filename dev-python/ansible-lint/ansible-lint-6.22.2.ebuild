@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	lock? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/filelock-3.13.1[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/idna-3.6[${PYTHON_USEDEP}] )
-	lock? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	lock? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/jsonschema-specifications-2023.12.1[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	lock? ( ~dev-python/wcmatch-8.5[${PYTHON_USEDEP}] )
 	lock? ( dev-python/yamllint[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage-enable-subprocess[${PYTHON_USEDEP}] )
+	test? ( dev-python/coverage_enable_subprocess[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/jmespath[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/license-expression-30.1.1[${PYTHON_USEDEP}] )
@@ -91,6 +91,6 @@ DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	test? ( >=dev-python/ruamel-yaml-0.17.31[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-jsonschema[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"
+	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

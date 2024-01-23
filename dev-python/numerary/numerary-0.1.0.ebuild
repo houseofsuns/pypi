@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python hacks for type-checking numbers [topver 0.4.4]"
+DESCRIPTION="Python hacks for type-checking numbers [topver 0.4.4, newver 0.4.4]"
 
 HOMEPAGE="https://posita.github.io/numerary/0.1/"
 LICENSE="MIT"

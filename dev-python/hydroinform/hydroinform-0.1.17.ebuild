@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/pyshp[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pythonnet[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]"
+	dev-python/netcdf4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/setuptools-59.6.0[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-2.43.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-oauthlib-0.5.1[${PYTHON_USEDEP}]
-	dev-python/SecretStorage[${PYTHON_USEDEP}]"
+	~dev-python/secretstorage-3.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

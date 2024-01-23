@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="taurus-epics taurus-h5file taurus-qt taurus-qt-editor taurus-tango"
 DEPENDENCIES=">=dev-python/numpy-1.1[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	taurus-epics? ( dev-python/pyepics[${PYTHON_USEDEP}] )
@@ -34,6 +34,6 @@ DEPENDENCIES=">=dev-python/numpy-1.1[${PYTHON_USEDEP}]
 	taurus-qt? ( >=dev-python/lxml-2.1[${PYTHON_USEDEP}] )
 	taurus-qt? ( dev-python/guiqwt[${PYTHON_USEDEP}] )
 	taurus-qt-editor? ( >=dev-python/spyder-3.0[${PYTHON_USEDEP}] )
-	taurus-tango? ( dev-python/PyTango[${PYTHON_USEDEP}] )"
+	taurus-tango? ( dev-python/pytango[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

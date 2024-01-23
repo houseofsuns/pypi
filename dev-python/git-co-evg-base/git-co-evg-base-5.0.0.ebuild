@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/evergreen-py[${PYTHON_USEDEP}]
 	<dev-python/plumbum-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Inject[${PYTHON_USEDEP}]
+	dev-python/inject[${PYTHON_USEDEP}]
 	<dev-python/structlog-22.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]"

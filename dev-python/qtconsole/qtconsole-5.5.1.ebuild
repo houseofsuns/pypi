@@ -29,10 +29,10 @@ DEPENDENCIES=">dev-python/traitlets-5.2.1[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-client-4.1[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-4.1[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-17.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )"

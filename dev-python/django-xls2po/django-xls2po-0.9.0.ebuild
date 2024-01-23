@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/django-appconf[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-return[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	test? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-typing-imports[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-variables-names[${PYTHON_USEDEP}] )

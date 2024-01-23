@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	cli? ( dev-python/requests[${PYTHON_USEDEP}] )
 	cli? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	cli? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	cli? ( dev-python/Click[${PYTHON_USEDEP}] )"
+	cli? ( dev-python/click[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

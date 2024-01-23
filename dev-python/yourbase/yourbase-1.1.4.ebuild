@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Test acceleration usable in the YourBase CI [topver 7.1.3]"
+DESCRIPTION="Test acceleration usable in the YourBase CI [topver 7.1.3, newver 7.1.3]"
 
 HOMEPAGE="https://github.com/yourbase/yourbase-python"
 LICENSE=""

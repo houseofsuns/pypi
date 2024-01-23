@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pandoc qt web"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	dev-python/PySimpleGUI[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	pandoc? ( dev-python/catpandoc[${PYTHON_USEDEP}] )
 	web? ( dev-python/PySimpleGUIWeb[${PYTHON_USEDEP}] )
 	qt? ( dev-python/PySimpleGUIQt[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="mongodb pptx tests"
 DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.0[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.11.5[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
 	<dev-python/typeguard-3.0[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]

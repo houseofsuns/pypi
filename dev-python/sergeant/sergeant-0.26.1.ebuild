@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/hiredis-3.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

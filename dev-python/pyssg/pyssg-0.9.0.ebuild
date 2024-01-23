@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
 	dev-python/markdown-checklist[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	dev-python/yafg[${PYTHON_USEDEP}]
 	>=dev-python/pymdown-extensions-9.9.2[${PYTHON_USEDEP}]
 	dev-python/pymdvar[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/pypdf[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/streamlit-option-menu[${PYTHON_USEDEP}]
-	dev-python/opencc[${PYTHON_USEDEP}]"
+	dev-python/OpenCC[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

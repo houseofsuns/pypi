@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/map-async[${PYTHON_USEDEP}]
-	dev-python/jpype1-py3[${PYTHON_USEDEP}]"
+	dev-python/JPype1-py3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

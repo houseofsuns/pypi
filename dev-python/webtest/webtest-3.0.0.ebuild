@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/webob-1.2[${PYTHON_USEDEP}]
 	>=dev-python/waitress-0.8.5[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PasteDeploy[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pastedeploy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyquery[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/WSGIProxy2[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/wsgiproxy2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

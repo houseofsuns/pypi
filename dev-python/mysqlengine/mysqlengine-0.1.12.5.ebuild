@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/cryptography-41.0.1[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	~dev-python/cython-3.0.4[${PYTHON_USEDEP}]
 	dev-python/cytimes[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

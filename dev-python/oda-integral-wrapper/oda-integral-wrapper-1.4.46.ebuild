@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/pymosaic-fits[${PYTHON_USEDEP}]
 	dev-python/nlopt[${PYTHON_USEDEP}]
-	dev-python/autologging[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	dev-python/Autologging[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

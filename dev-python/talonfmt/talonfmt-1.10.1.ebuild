@@ -27,7 +27,7 @@ IUSE="mypy test"
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/doc-printer[${PYTHON_USEDEP}]
-	dev-python/editorconfig[${PYTHON_USEDEP}]
+	dev-python/EditorConfig[${PYTHON_USEDEP}]
 	dev-python/tree-sitter-talon[${PYTHON_USEDEP}]
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpver[${PYTHON_USEDEP}] )

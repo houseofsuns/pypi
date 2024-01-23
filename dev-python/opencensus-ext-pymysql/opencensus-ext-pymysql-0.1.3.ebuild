@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pymysql-1.0.0[${PYTHON_USEDEP}]
 	dev-python/opencensus[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-dbapi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

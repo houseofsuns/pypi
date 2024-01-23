@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/six-1.7.2[${PYTHON_USEDEP}]
 	>=dev-python/pyaml-15.3.1[${PYTHON_USEDEP}]
-	dev-python/validate-email[${PYTHON_USEDEP}]"
+	dev-python/validate_email[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/autoray[${PYTHON_USEDEP}]
 	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	tensor? ( >=dev-python/matplotlib-2.0[${PYTHON_USEDEP}] )
 	tensor? ( >=dev-python/networkx-2.3[${PYTHON_USEDEP}] )

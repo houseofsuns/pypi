@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/Biopython[${PYTHON_USEDEP}]
+	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/gffutils[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]"

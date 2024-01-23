@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="crystal python python-legacy"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.3[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-1.1[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-1.4[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-autorefs-0.3.1[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]

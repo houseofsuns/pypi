@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="hive managed_content mongodb pandas postgress s3 yaml"
 DEPENDENCIES="dev-python/aistac-foundation[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
-	hive? ( dev-python/pyhive[${PYTHON_USEDEP}] )
+	hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	managed_content? ( dev-python/tenacity[${PYTHON_USEDEP}] )
 	managed_content? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	managed_content? ( dev-python/requests[${PYTHON_USEDEP}] )

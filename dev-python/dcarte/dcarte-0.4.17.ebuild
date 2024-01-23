@@ -29,7 +29,7 @@ DEPENDENCIES="<=dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.5[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-6.0.0[${PYTHON_USEDEP}]"

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/ae-dynamicod[${PYTHON_USEDEP}]
 	dev-python/ae-literal[${PYTHON_USEDEP}]
 	dev-python/aedev-setup-project[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev? ( dev-python/aedev-tpl-project[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aedev-aedev[${PYTHON_USEDEP}] )
 	dev? ( dev-python/anybadge[${PYTHON_USEDEP}] )

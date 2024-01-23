@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test typing virtualenv"
 DEPENDENCIES=">=dev-python/packaging-19.0[${PYTHON_USEDEP}]
-	dev-python/pyproject_hooks[${PYTHON_USEDEP}]
+	dev-python/pyproject-hooks[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/furo-2023.8.17[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.0[${PYTHON_USEDEP}] )

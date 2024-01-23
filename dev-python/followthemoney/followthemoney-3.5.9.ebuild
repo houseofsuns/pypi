@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/Babel-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy2-stubs[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/normality[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/countrynames[${PYTHON_USEDEP}]

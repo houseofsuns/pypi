@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/cftime-1.5[${PYTHON_USEDEP}]
 	dev-python/openscm-units[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/pint-pandas[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
+	dev-python/Pint-Pandas[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/cftime-1.5[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	plots? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	plots? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	optional? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	optional? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	optional? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	optional? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	optional? ( dev-python/scipy[${PYTHON_USEDEP}] )

@@ -29,15 +29,15 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pulp[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
+	dev-python/PuLP[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/ripser[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
-	recommended? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	recommended? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )

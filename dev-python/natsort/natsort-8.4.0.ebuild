@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fast icu"
 DEPENDENCIES="fast? ( dev-python/fastnumbers[${PYTHON_USEDEP}] )
-	icu? ( dev-python/PyICU[${PYTHON_USEDEP}] )"
+	icu? ( >=dev-python/pyicu-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

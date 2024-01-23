@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/llama_index[${PYTHON_USEDEP}]"
+	dev-python/llama-index[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

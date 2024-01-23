@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/bootstrap-flask[${PYTHON_USEDEP}]
-	dev-python/flask-admin[${PYTHON_USEDEP}]
+	dev-python/Bootstrap-Flask[${PYTHON_USEDEP}]
+	dev-python/Flask-Admin[${PYTHON_USEDEP}]
 	<dev-python/flask-babel-4.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-caching[${PYTHON_USEDEP}]
+	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/flask-rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

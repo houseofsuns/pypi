@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/ecdsa-0.17[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fastecdsa[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mysqlclient-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cython-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/scrypt-0.8.18[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

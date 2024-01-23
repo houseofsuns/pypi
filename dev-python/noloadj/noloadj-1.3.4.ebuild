@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Matplotlib[${PYTHON_USEDEP}]
-	dev-python/Scipy[${PYTHON_USEDEP}]
-	dev-python/Jax[${PYTHON_USEDEP}]
-	dev-python/Jaxlib[${PYTHON_USEDEP}]
-	dev-python/Pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
+	dev-python/jax[${PYTHON_USEDEP}]
+	dev-python/jaxlib[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/tk[${PYTHON_USEDEP}]
-	dev-python/Openpyxl[${PYTHON_USEDEP}]"
+	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

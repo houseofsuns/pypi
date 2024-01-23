@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/backports-shutil-get-terminal-size[${PYTHON_USEDEP}]
-	dev-python/backports-shutil-which[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backports-shutil_get_terminal_size[${PYTHON_USEDEP}]
+	dev-python/backports-shutil_which[${PYTHON_USEDEP}]
 	dev-python/braceexpand[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pypdf-3.17.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/WeasyPrint[${PYTHON_USEDEP}]"
+	dev-python/weasyprint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

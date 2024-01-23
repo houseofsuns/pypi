@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-1.9[${PYTHON_USEDEP}]
 	>=dev-python/cssutils-1.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}]
 	dev-python/pynliner[${PYTHON_USEDEP}]

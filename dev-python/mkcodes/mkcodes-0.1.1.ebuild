@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="markdown"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	markdown? ( dev-python/Markdown[${PYTHON_USEDEP}] )"
+	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

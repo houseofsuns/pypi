@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use OpenAI/ChatGPT gpt-3.5-turbo on the command-line [topver 1.1.4]"
+DESCRIPTION="Use OpenAI/ChatGPT gpt-3.5-turbo on the command-line [topver 1.1.4, newver 1.1.4]"
 
 HOMEPAGE="https://github.com/lennardv2/hey"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A web interface to extract tabular data from PDFs. [topver 0.4.3]"
+DESCRIPTION="A web interface to extract tabular data from PDFs. [topver 0.4.3, newver 0.4.3]"
 
 HOMEPAGE="https://excalibur-py.readthedocs.io/"
 LICENSE="MIT"
@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev mysql"
 DEPENDENCIES="dev-python/camelot-py[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.12[${PYTHON_USEDEP}]
 	all? ( dev-python/camelot-py[${PYTHON_USEDEP}] )
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
-	all? ( dev-python/Click[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/configparser[${PYTHON_USEDEP}] )
-	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flask-1.0.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sqlalchemy-1.2.12[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mysqlclient-1.3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
 	mysql? ( >=dev-python/mysqlclient-1.3.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

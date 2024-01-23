@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/commonroad-io[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]

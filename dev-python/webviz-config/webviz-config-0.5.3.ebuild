@@ -29,9 +29,9 @@ DEPENDENCIES=">=dev-python/bleach-5.0[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-pivottable[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.0[${PYTHON_USEDEP}]
-	dev-python/flask-caching[${PYTHON_USEDEP}]
+	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	dev-python/flask-talisman[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.0[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.3[${PYTHON_USEDEP}]
@@ -58,8 +58,8 @@ DEPENDENCIES=">=dev-python/bleach-5.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
 	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-bleach[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-markdown[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	tests? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
+	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

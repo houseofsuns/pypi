@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sphinx extension to add a warning banner [topver 1.1.6]"
+DESCRIPTION="Sphinx extension to add a warning banner [topver 1.1.6, newver 1.1.6]"
 
 HOMEPAGE="https://github.com/grahamsh-llk/sphinx-version-warning"
 LICENSE=""

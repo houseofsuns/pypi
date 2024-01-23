@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for Virtualitics Explore [topver 1.19.0]"
+DESCRIPTION="Python API for Virtualitics Explore [topver 1.19.0, newver 1.19.0]"
 
 HOMEPAGE="https://api.virtualitics.com/"
 LICENSE="MIT LICENSE"
@@ -41,11 +41,11 @@ DEPENDENCIES="~dev-python/asttokens-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/parso-0.8.3[${PYTHON_USEDEP}]
 	~dev-python/pickleshare-0.7.5[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-3.0.38[${PYTHON_USEDEP}]
 	~dev-python/pure-eval-0.2.2[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.17[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.15.0[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.6[${PYTHON_USEDEP}]

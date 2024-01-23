@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/Flask-WebpackExt[${PYTHON_USEDEP}]
-	dev-python/Invenio-App-RDM[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Session-Captcha[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask-webpackext[${PYTHON_USEDEP}]
+	dev-python/invenio-app-rdm[${PYTHON_USEDEP}]
+	<dev-python/flask-2.3[${PYTHON_USEDEP}]
+	dev-python/flask-session-captcha[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )"

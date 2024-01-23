@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs example pygments tests"
 DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
-	pygments? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	example? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	pygments? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
+	example? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	example? ( dev-python/wagtail[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wagtail[${PYTHON_USEDEP}] )
 	docs? ( dev-python/wagtail[${PYTHON_USEDEP}] )

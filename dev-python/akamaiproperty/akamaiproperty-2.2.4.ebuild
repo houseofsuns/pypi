@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pip Package for Akamai Property [topver 2.7]"
+DESCRIPTION="A Pip Package for Akamai Property [topver 2.7, newver 2.7]"
 
 HOMEPAGE="https://github.com/Achuthananda/AkamaiPropertyManager"
 LICENSE=""

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-4.0.1[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.22[${PYTHON_USEDEP}]
 	dev-python/util-hj3415[${PYTHON_USEDEP}]
 	dev-python/dart-hj3415[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

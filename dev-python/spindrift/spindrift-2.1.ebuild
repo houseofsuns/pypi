@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="package python applications for AWS Lambda, AWS Elastic Beanstalk, AWS Batch (Docker) [topver 4.4]"
+DESCRIPTION="package python applications for AWS Lambda, AWS Elastic Beanstalk, AWS Batch (Docker) [topver 4.4, newver 4.4]"
 
 HOMEPAGE="https://github.com/f0rk/spindrift"
 LICENSE=""

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
-	dev-python/sql-metadata[${PYTHON_USEDEP}]
+	dev-python/sql_metadata[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	dev-python/oddrn-generator[${PYTHON_USEDEP}]
 	<dev-python/funcy-3.0[${PYTHON_USEDEP}]

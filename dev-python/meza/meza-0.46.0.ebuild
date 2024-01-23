@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/dbfread-2.0.4[${PYTHON_USEDEP}]
 	<dev-python/ijson-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pygogo[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

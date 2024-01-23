@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="with-social"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.13.0[${PYTHON_USEDEP}]
 	with-social? ( dev-python/django-allauth[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

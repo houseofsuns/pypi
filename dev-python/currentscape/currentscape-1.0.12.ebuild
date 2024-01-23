@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-bluebrain-theme[${PYTHON_USEDEP}] )
 	example? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	example? ( dev-python/bluepyopt[${PYTHON_USEDEP}] )
-	example? ( dev-python/emodelrunner[${PYTHON_USEDEP}] )"
+	example? ( dev-python/EModelRunner[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

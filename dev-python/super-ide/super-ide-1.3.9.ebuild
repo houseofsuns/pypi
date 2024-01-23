@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
 	~dev-python/bottle-0.12[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/boltons-24.0.0[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
-	dev-python/tomli_w[${PYTHON_USEDEP}]
+	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

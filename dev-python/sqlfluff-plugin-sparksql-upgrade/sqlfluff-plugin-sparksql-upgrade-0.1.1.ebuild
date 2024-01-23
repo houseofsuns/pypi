@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SQLFluff rules to help migrate your Spark SQL from 2.X to 3.X [topver 0.1.4]"
+DESCRIPTION="SQLFluff rules to help migrate your Spark SQL from 2.X to 3.X [topver 0.1.4, newver 0.1.4]"
 
 HOMEPAGE="https://github.com/holdenk/spark-upgrade"
 LICENSE="../LICENSE"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pillow-8.3.1[${PYTHON_USEDEP}]
 	dev-python/arcor2[${PYTHON_USEDEP}]
 	dev-python/dataclasses-jsonschema[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

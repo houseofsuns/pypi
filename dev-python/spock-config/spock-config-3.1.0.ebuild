@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/attrs-23.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1[${PYTHON_USEDEP}]
 	dev-python/pytomlpp[${PYTHON_USEDEP}]
-	dev-python/pyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-68.1[${PYTHON_USEDEP}]
 	s3? ( dev-python/hurry-filesize[${PYTHON_USEDEP}] )
 	s3? ( ~dev-python/boto3-1.28[${PYTHON_USEDEP}] )

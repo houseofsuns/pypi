@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/klayout[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	ci? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	ci? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	ci? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	ci? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/klayout[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylsp-mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-lsp-server[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-lsp-ruff[${PYTHON_USEDEP}] )
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/klayout[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-video[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	ipy? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	ipy? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	ipy? ( dev-python/ipytree[${PYTHON_USEDEP}] )

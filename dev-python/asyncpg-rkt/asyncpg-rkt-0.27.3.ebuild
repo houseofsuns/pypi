@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/cython-0.30.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-asyncio-0.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/uvloop-0.15.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.1.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-asyncio-0.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )

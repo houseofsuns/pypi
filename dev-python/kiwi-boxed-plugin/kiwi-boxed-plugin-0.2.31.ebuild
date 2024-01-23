@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/kiwi[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

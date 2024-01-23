@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/richerr[${PYTHON_USEDEP}]
 	dev-python/struct-model-python[${PYTHON_USEDEP}]
 	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	<dev-python/tornado-7.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-4.0[${PYTHON_USEDEP}] )
 	django? ( >=dev-python/djangorestframework-3.13[${PYTHON_USEDEP}] )
 	pydantic? ( >=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )
 	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]"

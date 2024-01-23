@@ -46,6 +46,6 @@ DEPENDENCIES="<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	tests? ( dev-python/wsgidav[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/WsgiDAV[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

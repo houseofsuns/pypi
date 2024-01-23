@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/typing_inspect[${PYTHON_USEDEP}]"
+	dev-python/typing-inspect[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

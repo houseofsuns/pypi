@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/asyncchain[${PYTHON_USEDEP}]
 	dev-python/wizwalker[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]"
+	<dev-python/sphinx-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

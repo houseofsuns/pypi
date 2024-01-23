@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Navigator Auth is an Authentication/Authorization Toolkit for aiohttp. [topver 0.11.4]"
+DESCRIPTION="Navigator Auth is an Authentication/Authorization Toolkit for aiohttp. [topver 0.11.4, newver 0.11.4]"
 
 HOMEPAGE="https://github.com/phenobarbital/navigator-auth"
 LICENSE="Apache 2.0 license"
@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}]
 	dev-python/rncryptor[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pyasn1-0.3.7[${PYTHON_USEDEP}]
-	dev-python/pyasn1_modules[${PYTHON_USEDEP}]"
+	>=dev-python/pyasn1-modules-0.1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

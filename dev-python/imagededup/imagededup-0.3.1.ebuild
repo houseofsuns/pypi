@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for image deduplication [topver 0.3.2]"
+DESCRIPTION="Package for image deduplication [topver 0.3.2, newver 0.3.2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs tests"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/PyWavelets[${PYTHON_USEDEP}]
+	dev-python/pywavelets[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

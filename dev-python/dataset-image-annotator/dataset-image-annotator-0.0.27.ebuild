@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="desktop testing web"
 DEPENDENCIES="dev-python/rawpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
 	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
 	desktop? ( dev-python/PySide6-Essentials[${PYTHON_USEDEP}] )
@@ -41,15 +41,15 @@ DEPENDENCIES="dev-python/rawpy[${PYTHON_USEDEP}]
 	web? ( ~dev-python/numpy-1.25.2[${PYTHON_USEDEP}] )
 	web? ( ~dev-python/orjson-3.9.4[${PYTHON_USEDEP}] )
 	web? ( ~dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )
-	web? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}] )
 	web? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	web? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	web? ( dev-python/python3-commons[${PYTHON_USEDEP}] )
-	web? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/sqlalchemy-2.0.19[${PYTHON_USEDEP}] )
 	web? ( ~dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )
 	web? ( ~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/rawpy[${PYTHON_USEDEP}] )
-	web? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	web? ( ~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}] )
 	web? ( ~dev-python/tzdata-2023.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/mmcif[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/rnapolis[${PYTHON_USEDEP}]"
+	dev-python/RNApolis[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

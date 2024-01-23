@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/aacRepair[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aacrepair[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )

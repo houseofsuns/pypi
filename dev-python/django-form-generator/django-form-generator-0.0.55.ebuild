@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/django-htmx[${PYTHON_USEDEP}]
 	>=dev-python/crispy-bootstrap5-0.6[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/permit-broadcaster[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	build? ( >=dev-python/django-debug-toolbar-3.8.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	build? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	build? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/werkzeug-2.2.0[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/coverage-7.2.0[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/django-debug-toolbar-3.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	test? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/werkzeug-2.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-7.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

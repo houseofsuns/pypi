@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="debug"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	debug? ( dev-python/py-mini-racer[${PYTHON_USEDEP}] )
 	debug? ( >=dev-python/libsass-0.22.0[${PYTHON_USEDEP}] )
 	debug? ( >=dev-python/requests-2.31.0[${PYTHON_USEDEP}] )

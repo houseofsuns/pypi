@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Compose and execute python objects [topver 0.4.10]"
+DESCRIPTION="Compose and execute python objects [topver 0.4.10, newver 0.4.10]"
 
 HOMEPAGE="https://github.com/chenrz925/geyser"
 LICENSE=""

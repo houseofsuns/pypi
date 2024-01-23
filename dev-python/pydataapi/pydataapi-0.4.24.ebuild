@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all ci docs setup test wheel"
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.9[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-8.5[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/isort-5.0.7[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	all? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	all? ( dev-python/docker-compose[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/requests-2.20.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-5.0.7[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	test? ( dev-python/docker-compose[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/requests-2.20.1[${PYTHON_USEDEP}] )
 	wheel? ( dev-python/wheel[${PYTHON_USEDEP}] )

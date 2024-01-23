@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	dev-python/django[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

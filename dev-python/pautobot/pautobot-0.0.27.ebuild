@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	>=dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.15[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.11.1[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"

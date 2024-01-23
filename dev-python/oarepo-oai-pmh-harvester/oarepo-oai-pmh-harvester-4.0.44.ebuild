@@ -27,7 +27,7 @@ IUSE="dev tests"
 DEPENDENCIES=">=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/oarepo-runtime[${PYTHON_USEDEP}]
 	dev-python/oarepo-ui[${PYTHON_USEDEP}]
-	dev-python/sickle[${PYTHON_USEDEP}]
+	dev-python/Sickle[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/oarepo-runtime[${PYTHON_USEDEP}]
 	dev? ( dev-python/oarepo-tools[${PYTHON_USEDEP}] )

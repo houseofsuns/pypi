@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-3.0.20[${PYTHON_USEDEP}]
 	~dev-python/pytesseract-0.3.9[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]

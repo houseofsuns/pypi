@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	all? ( dev-python/rsa[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
 	all? ( dev-python/UnityPy[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/bson[${PYTHON_USEDEP}] )
 	assets? ( dev-python/UnityPy[${PYTHON_USEDEP}] )
 	assets? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	assets? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	assets? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	assets? ( dev-python/bson[${PYTHON_USEDEP}] )
 	rsa? ( dev-python/rsa[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

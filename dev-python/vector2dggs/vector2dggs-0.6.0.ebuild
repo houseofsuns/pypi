@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/gdal[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/h3pandas[${PYTHON_USEDEP}]
 	dev-python/dask-geopandas[${PYTHON_USEDEP}]

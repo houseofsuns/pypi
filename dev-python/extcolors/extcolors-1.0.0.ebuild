@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-8.0.0[${PYTHON_USEDEP}]
 	dev-python/convcolors[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tox-3.16.0[${PYTHON_USEDEP}] )

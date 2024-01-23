@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dicompyler-core[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]
-	dev-python/pypubsub[${PYTHON_USEDEP}]
+	>=dev-python/wxpython-4.1.1[${PYTHON_USEDEP}]
+	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]

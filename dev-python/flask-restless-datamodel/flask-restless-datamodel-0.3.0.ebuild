@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cereal-lazer[${PYTHON_USEDEP}]
-	dev-python/flask-restless[${PYTHON_USEDEP}]
+	dev-python/Flask-Restless[${PYTHON_USEDEP}]
 	>=dev-python/pbr-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

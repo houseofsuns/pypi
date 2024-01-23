@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
 	lists? ( ~dev-python/numpy-1.26.3[${PYTHON_USEDEP}] )

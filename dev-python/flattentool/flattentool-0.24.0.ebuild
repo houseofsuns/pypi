@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/ijson[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/zc-zlibstorage[${PYTHON_USEDEP}]
-	dev-python/zodb[${PYTHON_USEDEP}]
+	dev-python/ZODB[${PYTHON_USEDEP}]
 	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
 	http? ( dev-python/requests[${PYTHON_USEDEP}] )
 	geo? ( dev-python/geojson[${PYTHON_USEDEP}] )

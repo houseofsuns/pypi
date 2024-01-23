@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="attrs beanie full msgspec odmantic pydantic sqlalchemy"
-DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
 	attrs? ( >=dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
 	beanie? ( dev-python/beanie[${PYTHON_USEDEP}] )

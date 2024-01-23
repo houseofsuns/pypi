@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev docs generator tests"
 DEPENDENCIES=">=dev-python/sympy-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinxcontrib-bibtex-0.3.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/nbsphinx-0.6.1[${PYTHON_USEDEP}] )
@@ -43,15 +43,15 @@ DEPENDENCIES=">=dev-python/sympy-1.6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-bibtex-0.3.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbsphinx-0.6.1[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mechanicalsoup[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/MechanicalSoup[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

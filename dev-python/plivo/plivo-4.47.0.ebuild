@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	<dev-python/decorator-5.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	dev-python/pyjwt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

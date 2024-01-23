@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/zope-interface[${PYTHON_USEDEP}]
 	dev-python/cffi[${PYTHON_USEDEP}]
 	test? ( dev-python/zope-testrunner[${PYTHON_USEDEP}] )
 	test? ( dev-python/manuel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Piece-wise interpolation and lazy evaluation in cython [topver 1.8.7]"
+DESCRIPTION="Piece-wise interpolation and lazy evaluation in cython [topver 1.8.7, newver 1.8.7]"
 
 HOMEPAGE="https://github.com/gesellkammer/bpf4"
 LICENSE="BSD 3-Clause License"

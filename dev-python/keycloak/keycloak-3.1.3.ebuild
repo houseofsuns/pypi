@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs extensions"
-DEPENDENCIES="extensions? ( dev-python/Django[${PYTHON_USEDEP}] )
-	extensions? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="extensions? ( <dev-python/django-4.0.0[${PYTHON_USEDEP}] )
+	extensions? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
 	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]

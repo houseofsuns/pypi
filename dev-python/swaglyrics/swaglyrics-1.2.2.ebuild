@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/SwSpotify[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/swspotify[${PYTHON_USEDEP}]
 	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.1.1[${PYTHON_USEDEP}]
@@ -34,8 +34,8 @@ DEPENDENCIES="dev-python/SwSpotify[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask-testing[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flask-Testing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

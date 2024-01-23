@@ -27,8 +27,8 @@ IUSE="docs grpc"
 DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.1[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	grpc? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev-python/hightime[${PYTHON_USEDEP}]"

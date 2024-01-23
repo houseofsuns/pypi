@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scrapy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

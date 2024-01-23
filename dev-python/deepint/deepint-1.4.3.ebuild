@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/numpy-1.22.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pandas-1.1.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )

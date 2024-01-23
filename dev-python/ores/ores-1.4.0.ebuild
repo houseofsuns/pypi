@@ -27,7 +27,7 @@ IUSE="redis"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/docopt-0.6.999[${PYTHON_USEDEP}]
 	<dev-python/flask-1.0.999[${PYTHON_USEDEP}]
-	dev-python/flask-jsonpify[${PYTHON_USEDEP}]
+	dev-python/Flask-Jsonpify[${PYTHON_USEDEP}]
 	dev-python/flask-swaggerui[${PYTHON_USEDEP}]
 	dev-python/flask-wikimediaui[${PYTHON_USEDEP}]
 	dev-python/mwapi[${PYTHON_USEDEP}]

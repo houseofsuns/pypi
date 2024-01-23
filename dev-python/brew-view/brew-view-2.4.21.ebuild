@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/apispec-0.38.0[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	~dev-python/APScheduler-3.5.1[${PYTHON_USEDEP}]
 	dev-python/bg-utils[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.3.1[${PYTHON_USEDEP}]
 	<dev-python/pymongo-4.0[${PYTHON_USEDEP}]

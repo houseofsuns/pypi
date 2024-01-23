@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/adafruit-circuitpython-neopixel[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-neopixel[${PYTHON_USEDEP}]
 	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/rpi-gpio[${PYTHON_USEDEP}]
-	dev-python/rpi-gpio[${PYTHON_USEDEP}]
+	dev-python/RPi-GPIO[${PYTHON_USEDEP}]
+	dev-python/RPi-GPIO[${PYTHON_USEDEP}]
 	dev-python/rpi-ws281x[${PYTHON_USEDEP}]
 	dev-python/rpi-ws281x[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

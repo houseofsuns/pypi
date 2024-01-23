@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]"
+	<dev-python/netcdf4-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

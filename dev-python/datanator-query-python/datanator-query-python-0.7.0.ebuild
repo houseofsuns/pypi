@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tests"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/aniso8601[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	all? ( dev-python/capturer[${PYTHON_USEDEP}] )
 	all? ( dev-python/mock[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx_fontawesome[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-addmetahtml[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxprettysearchresults[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_fontawesome[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-addmetahtml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )

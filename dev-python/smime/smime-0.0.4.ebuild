@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python S/MIME Toolkit [topver 0.0.5]"
+DESCRIPTION="Python S/MIME Toolkit [topver 0.0.5, newver 0.0.5]"
 
 HOMEPAGE="https://github.com/balena/python-smime"
 LICENSE="Apache-2.0"

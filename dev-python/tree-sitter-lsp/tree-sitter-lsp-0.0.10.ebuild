@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="colorize dev languages misc toml yaml"
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/pygls[${PYTHON_USEDEP}]
 	dev-python/tree-sitter[${PYTHON_USEDEP}]

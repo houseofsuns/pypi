@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/attrs-21.1.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2021.8.31[${PYTHON_USEDEP}] )
-	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rich[${PYTHON_USEDEP}] )

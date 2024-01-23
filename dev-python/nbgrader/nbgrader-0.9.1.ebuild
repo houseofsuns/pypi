@@ -27,7 +27,7 @@ IUSE="dev docs tests"
 DEPENDENCIES=">=dev-python/alembic-1.7[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.6[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-client-9.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-server-2.0[${PYTHON_USEDEP}]

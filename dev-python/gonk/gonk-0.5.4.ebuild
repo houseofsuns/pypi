@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="drf mercure persistance"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2.18[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
-	mercure? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+	mercure? ( <dev-python/pyjwt-3.0[${PYTHON_USEDEP}] )
 	mercure? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	drf? ( <dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}] )
 	persistance? ( dev-python/django-celery-beat[${PYTHON_USEDEP}] )"

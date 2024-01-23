@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/strenum[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/StrEnum[${PYTHON_USEDEP}]
 	dev-python/token-bucket[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

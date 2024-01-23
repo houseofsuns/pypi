@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/packaging-18.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-5.3[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc ray"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-7.1.2[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jax[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/nbsphinx-0.8.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-tabs-1.3.0[${PYTHON_USEDEP}] )

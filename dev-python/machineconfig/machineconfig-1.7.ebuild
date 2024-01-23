@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/pudb[${PYTHON_USEDEP}]
 	dev-python/pyfzf[${PYTHON_USEDEP}]
 	dev-python/clipboard[${PYTHON_USEDEP}]

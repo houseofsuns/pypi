@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	>=dev-python/notebook-5.3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-61.2.0[${PYTHON_USEDEP}]
-	dev-python/SoundFile[${PYTHON_USEDEP}]"
+	dev-python/soundfile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

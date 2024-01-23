@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/Xlsxwriter[${PYTHON_USEDEP}]
+	>=dev-python/xlsxwriter-3.0.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A command-line application framework (and CLI parser). Friendly for users, full-featured for developers."
+DESCRIPTION="A command-line application framework (and CLI parser). Friendly for users, full-featured for developers. [newver 20.1.1]"
 
 HOMEPAGE="https://github.com/mahmoud/face"
 LICENSE="BSD"

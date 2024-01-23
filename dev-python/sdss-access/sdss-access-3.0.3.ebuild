@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/six-1.11[${PYTHON_USEDEP}]
 	dev-python/sdss-tree[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-7.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/recommonmark-0.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/six-1.11[${PYTHON_USEDEP}]
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.33.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.1.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/recommonmark-0.6[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )

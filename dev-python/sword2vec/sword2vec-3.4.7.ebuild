@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cython-0.29.35[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]

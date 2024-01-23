@@ -27,7 +27,7 @@ IUSE="aleph-alpha all anthropic cleva dev google human-evaluation images metrics
 DEPENDENCIES="~dev-python/cattrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
+	~dev-python/mako-1.2.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	dev-python/pyhocon[${PYTHON_USEDEP}]
 	~dev-python/retrying-1.3.4[${PYTHON_USEDEP}]
@@ -65,7 +65,7 @@ DEPENDENCIES="~dev-python/cattrs-22.2.0[${PYTHON_USEDEP}]
 	cleva? ( ~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}] )
 	cleva? ( dev-python/pypinyin[${PYTHON_USEDEP}] )
 	cleva? ( dev-python/jieba[${PYTHON_USEDEP}] )
-	cleva? ( dev-python/opencc[${PYTHON_USEDEP}] )
+	cleva? ( dev-python/OpenCC[${PYTHON_USEDEP}] )
 	cleva? ( dev-python/langdetect[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="dns-srv fido2 gssapi opentelemetry"
 DEPENDENCIES="dns-srv? ( <=dev-python/dnspython-2.3.0[${PYTHON_USEDEP}] )
 	fido2? ( ~dev-python/fido2-1.1.2[${PYTHON_USEDEP}] )
 	gssapi? ( <=dev-python/gssapi-1.8.2[${PYTHON_USEDEP}] )
-	opentelemetry? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
+	opentelemetry? ( >=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}] )
 	opentelemetry? ( >=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}] )
 	opentelemetry? ( >=dev-python/zipp-0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

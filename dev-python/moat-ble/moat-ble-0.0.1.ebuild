@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.19[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

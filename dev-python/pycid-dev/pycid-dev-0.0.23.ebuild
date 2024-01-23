@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
-	dev-python/pyrebase4[${PYTHON_USEDEP}]
+	dev-python/Pyrebase4[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

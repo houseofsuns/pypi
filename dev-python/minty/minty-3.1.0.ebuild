@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
-	dev-python/amqpstorm[${PYTHON_USEDEP}]
+	dev-python/AMQPStorm[${PYTHON_USEDEP}]
 	dev-python/apacheconfig[${PYTHON_USEDEP}]
 	dev-python/file-magic[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]

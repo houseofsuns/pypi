@@ -54,6 +54,6 @@ DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pympler[${PYTHON_USEDEP}] )"
+	test? ( dev-python/Pympler[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

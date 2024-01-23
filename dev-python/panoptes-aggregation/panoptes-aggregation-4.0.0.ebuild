@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	<dev-python/packaging-21.4[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	<dev-python/progressbar2-4.1[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-6.2[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	online? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	online? ( <dev-python/sentry-sdk-1.10[${PYTHON_USEDEP}] )
 	online? ( dev-python/newrelic[${PYTHON_USEDEP}] )
-	online? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	online? ( <dev-python/GitPython-3.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/nose-1.4[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-6.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )

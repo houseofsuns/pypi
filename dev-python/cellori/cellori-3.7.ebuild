@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/simpleitk[${PYTHON_USEDEP}]
+	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/stitchwell[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
 	gui? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

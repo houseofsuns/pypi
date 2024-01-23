@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extensible library for interacting with datasets in data intensive projects [topver 0.1.9]"
+DESCRIPTION="Extensible library for interacting with datasets in data intensive projects [topver 0.1.9, newver 0.1.9]"
 
 HOMEPAGE=""
 LICENSE="MIT"

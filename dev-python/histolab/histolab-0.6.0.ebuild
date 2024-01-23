@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	dev-python/openslide-python[${PYTHON_USEDEP}]

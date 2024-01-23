@@ -28,9 +28,9 @@ DEPENDENCIES=">=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/trimesh-3.21.5[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	dev-python/pyembree[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]"
+	>=dev-python/netcdf4-1.6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

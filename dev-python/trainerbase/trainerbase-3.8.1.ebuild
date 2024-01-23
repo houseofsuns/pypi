@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymem[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pymem[${PYTHON_USEDEP}]
 	dev-python/dearpygui[${PYTHON_USEDEP}]
 	dev-python/keyboard[${PYTHON_USEDEP}]
 	dev-python/pyttsx3[${PYTHON_USEDEP}]

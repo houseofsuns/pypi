@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package performs morphological operations and can compute the Minkowski functionals and functions [topver 0.4.6]"
+DESCRIPTION="This package performs morphological operations and can compute the Minkowski functionals and functions [topver 0.4.6, newver 0.4.6]"
 
 HOMEPAGE="https://github.com/boeleman/quantimpy"
 LICENSE=""

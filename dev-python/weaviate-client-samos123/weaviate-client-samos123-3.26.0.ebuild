@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	<dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]"
+	dev-python/Authlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

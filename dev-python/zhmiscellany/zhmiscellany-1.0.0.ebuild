@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of useful/interesting python libraries made by zh. [topver 1.5.4]"
+DESCRIPTION="A collection of useful/interesting python libraries made by zh. [topver 1.5.4, newver 1.5.4]"
 
 HOMEPAGE="https://discord.gg/ThBBAuueVJ"
 LICENSE=""
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pycryptodome-0.0[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/discum[${PYTHON_USEDEP}]
-	dev-python/Requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytesseract-0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/pybullet[${PYTHON_USEDEP}]
-	dev-python/Tensorflow[${PYTHON_USEDEP}]
-	dev-python/TensorBoard[${PYTHON_USEDEP}]"
+	dev-python/tensorflow[${PYTHON_USEDEP}]
+	dev-python/tensorboard[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

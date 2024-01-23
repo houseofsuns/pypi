@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-5.2.2[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/simpleitk[${PYTHON_USEDEP}]
+	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/sidpy[${PYTHON_USEDEP}]
 	dev-python/pysptools[${PYTHON_USEDEP}]
 	>=dev-python/cvxopt-1.2.7[${PYTHON_USEDEP}]"

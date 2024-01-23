@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Another PEG Parsing Tool [topver 8.485.24016]"
+DESCRIPTION="Another PEG Parsing Tool [topver 8.485.24016, newver 8.485.24016]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-parsing"
 LICENSE="MIT"

@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/mypy_extensions-0.4[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.37[${PYTHON_USEDEP}]
 	dev-python/pyhdfe[${PYTHON_USEDEP}]
 	dev-python/formulaic[${PYTHON_USEDEP}]
 	<dev-python/setuptools-scm-9.0.0[${PYTHON_USEDEP}]"

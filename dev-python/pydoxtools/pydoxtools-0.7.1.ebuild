@@ -46,7 +46,7 @@ DEPENDENCIES="etl? ( dev-python/goose3[${PYTHON_USEDEP}] )
 	>=dev-python/pikepdf-2.10.0[${PYTHON_USEDEP}]
 	inference? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	etl? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	inference? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	etl? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	inference? ( dev-python/spacy[${PYTHON_USEDEP}] )

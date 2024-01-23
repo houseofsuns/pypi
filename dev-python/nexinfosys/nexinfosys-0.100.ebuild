@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Formal and executable MuSIASEM multi-system Nexus models for Sustainable Development Analysis [topver 0.102]"
+DESCRIPTION="Formal and executable MuSIASEM multi-system Nexus models for Sustainable Development Analysis [topver 0.102, newver 0.102]"
 
 HOMEPAGE="https://github.com/MAGIC-nexus/nis-backend"
 LICENSE="BSD"
@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.29.7[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.3[${PYTHON_USEDEP}]
 	dev-python/Flask-Session[${PYTHON_USEDEP}]
 	dev-python/NamedAtomicLock[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.3[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.15.5[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]

@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	<dev-python/python-json-logger-0.2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/gen3dictionary[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	dev-python/gen3Dictionary[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/dictionaryutils[${PYTHON_USEDEP}]
 	dev-python/gen3[${PYTHON_USEDEP}]"

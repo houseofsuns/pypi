@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/pip-23.3.2[${PYTHON_USEDEP}]
 	>=dev-python/attrs-23.2.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.20.0[${PYTHON_USEDEP}]
-	dev-python/parse-type[${PYTHON_USEDEP}]
+	>=dev-python/parse_type-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.6[${PYTHON_USEDEP}]
@@ -91,7 +91,7 @@ DEPENDENCIES=">=dev-python/pip-23.3.2[${PYTHON_USEDEP}]
 	pdfminer? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	pdfminer? ( ~dev-python/cffi-1.16.0[${PYTHON_USEDEP}] )
 	pdfminer? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
-	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	pillow? ( ~dev-python/pillow-10.2.0[${PYTHON_USEDEP}] )
 	psutil? ( ~dev-python/psutil-5.9.6[${PYTHON_USEDEP}] )
 	selenium-stealth? ( dev-python/selenium-stealth[${PYTHON_USEDEP}] )
 	selenium-wire? ( dev-python/selenium-wire[${PYTHON_USEDEP}] )

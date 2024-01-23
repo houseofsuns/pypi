@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/gridx-prescient[${PYTHON_USEDEP}]
-	dev-python/nrel-pysam[${PYTHON_USEDEP}]
+	dev-python/NREL-PySAM[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]
 	dev-python/dispatches-data-packages[${PYTHON_USEDEP}]
 	dev-python/dispatches-rts-gmlc-data[${PYTHON_USEDEP}]
 	dev-python/idaes-pse[${PYTHON_USEDEP}]
-	dev-python/pyomo[${PYTHON_USEDEP}]
+	dev-python/Pyomo[${PYTHON_USEDEP}]
 	surrogates? ( dev-python/tslearn[${PYTHON_USEDEP}] )
 	surrogates? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	surrogates? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

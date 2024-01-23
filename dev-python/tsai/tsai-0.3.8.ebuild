@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/fastai[${PYTHON_USEDEP}]
 	dev? ( >dev-python/ipykernel-6.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/sktime[${PYTHON_USEDEP}] )
 	extras? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
-	extras? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/pywavelets-1.1.1[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/nbformat-5.1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

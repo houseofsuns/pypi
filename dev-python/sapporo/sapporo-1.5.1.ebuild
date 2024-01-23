@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/cwl-inputs-parser[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rocrate[${PYTHON_USEDEP}]
-	dev-python/uwsgi[${PYTHON_USEDEP}]
+	dev-python/uWSGI[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )

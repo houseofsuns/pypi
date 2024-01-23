@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/mlflow[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/traceback-with-variables[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

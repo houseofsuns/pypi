@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Micro DNS [topver 1.0.3]"
+DESCRIPTION="Micro DNS [topver 1.0.3, newver 1.0.3]"
 
 HOMEPAGE="https://bitbucket.org/autestsuite/microdns"
 LICENSE="Apache-2.0"

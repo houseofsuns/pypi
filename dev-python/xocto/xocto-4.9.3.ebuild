@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/ddtrace[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

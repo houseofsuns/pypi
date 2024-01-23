@@ -37,11 +37,11 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/pytelegrambotapi[${PYTHON_USEDEP}]
+	dev-python/pyTelegramBotAPI[${PYTHON_USEDEP}]
 	dev-python/pymystem3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/cryptocode[${PYTHON_USEDEP}]
-	dev-python/yoomoney[${PYTHON_USEDEP}]
+	dev-python/YooMoney[${PYTHON_USEDEP}]
 	dev-python/ccxt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

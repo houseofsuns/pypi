@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dramatiq[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]"
+	dev-python/APScheduler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

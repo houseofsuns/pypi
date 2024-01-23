@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev gym"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/colr[${PYTHON_USEDEP}]
+	dev-python/Colr[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]
 	dev-python/mathy-core[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]

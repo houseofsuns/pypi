@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dataframe dbt ed22519 gssapi ibis kerberos rsa sqlalchemy"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/build[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dataframe? ( dev-python/ibis-singlestoredb[${PYTHON_USEDEP}] )
 	dbt? ( dev-python/dbt-singlestore[${PYTHON_USEDEP}] )
-	ed22519? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
+	ed22519? ( >=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}] )
 	gssapi? ( dev-python/gssapi[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/ibis-singlestoredb[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/gssapi[${PYTHON_USEDEP}] )

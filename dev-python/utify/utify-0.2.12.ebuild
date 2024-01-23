@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-3.0.0[${PYTHON_USEDEP}]
 	doc? ( <dev-python/recommonmark-0.7.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/nbsphinx-0.6.0[${PYTHON_USEDEP}] )
 	<dev-python/tables-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/humanize-4.1.0[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/rlane-libcli[${PYTHON_USEDEP}]
 	dev-python/rlane-libcurses[${PYTHON_USEDEP}]
 	dev-python/steam[${PYTHON_USEDEP}]

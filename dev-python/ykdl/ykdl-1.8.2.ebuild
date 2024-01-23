@@ -27,12 +27,12 @@ IUSE="all br js net proxy"
 DEPENDENCIES="dev-python/m3u8[${PYTHON_USEDEP}]
 	dev-python/jsengine[${PYTHON_USEDEP}]
 	all? ( dev-python/quickjs[${PYTHON_USEDEP}] )
-	all? ( dev-python/BrotliCFFI[${PYTHON_USEDEP}] )
-	all? ( dev-python/ExtProxy[${PYTHON_USEDEP}] )
-	br? ( dev-python/BrotliCFFI[${PYTHON_USEDEP}] )
+	all? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
+	all? ( dev-python/extproxy[${PYTHON_USEDEP}] )
+	br? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
 	js? ( dev-python/quickjs[${PYTHON_USEDEP}] )
-	net? ( dev-python/ExtProxy[${PYTHON_USEDEP}] )
-	net? ( dev-python/BrotliCFFI[${PYTHON_USEDEP}] )
-	proxy? ( dev-python/ExtProxy[${PYTHON_USEDEP}] )"
+	net? ( dev-python/extproxy[${PYTHON_USEDEP}] )
+	net? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
+	proxy? ( dev-python/extproxy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

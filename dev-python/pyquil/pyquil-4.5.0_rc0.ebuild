@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/types-retry[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	latex? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.10.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/recommonmark-0.8.0[${PYTHON_USEDEP}] )
@@ -45,6 +45,6 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-inline-0.2.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
-	dev-python/types-deprecated[${PYTHON_USEDEP}]"
+	dev-python/types-Deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

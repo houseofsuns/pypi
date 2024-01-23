@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/ddt-1.1.3[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-5.3.0[${PYTHON_USEDEP}]
 	dev-python/PyAutoIt[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]
 	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
 	dev-python/xh-dual-layer-app-engine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

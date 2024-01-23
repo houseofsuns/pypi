@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.4.2[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	dev-python/pyjwt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

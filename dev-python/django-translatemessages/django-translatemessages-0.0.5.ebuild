@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/polib[${PYTHON_USEDEP}]
 	dev-python/deep-translator[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.0[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/keyring-23.13.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	~dev-python/antlr4-python3-runtime-4.9.3[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]"

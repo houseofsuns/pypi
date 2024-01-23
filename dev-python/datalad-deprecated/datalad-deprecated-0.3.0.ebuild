@@ -27,11 +27,11 @@ IUSE="devel"
 DEPENDENCIES="dev-python/datalad[${PYTHON_USEDEP}]
 	dev-python/jsmin[${PYTHON_USEDEP}]
 	dev-python/whoosh[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
-	dev-python/exifread[${PYTHON_USEDEP}]
+	dev-python/ExifRead[${PYTHON_USEDEP}]
 	dev-python/python-xmp-toolkit[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	devel? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devel? ( dev-python/coverage[${PYTHON_USEDEP}] )"

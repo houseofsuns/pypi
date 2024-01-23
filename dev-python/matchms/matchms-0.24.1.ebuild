@@ -40,6 +40,6 @@ DEPENDENCIES="<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pubchempy[${PYTHON_USEDEP}]"
+	dev-python/PubChemPy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

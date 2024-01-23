@@ -27,7 +27,7 @@ IUSE="diffusers neuron neuronx quality sentence-transformers tests"
 DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/optimum[${PYTHON_USEDEP}]
-	dev-python/huggingface_hub[${PYTHON_USEDEP}]
+	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	neuronx? ( dev-python/transformers-neuronx[${PYTHON_USEDEP}] )
 	neuronx? ( dev-python/torch[${PYTHON_USEDEP}] )
 	neuronx? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	neuronx? ( dev-python/neuronx_distributed[${PYTHON_USEDEP}] )
+	neuronx? ( dev-python/neuronx-distributed[${PYTHON_USEDEP}] )
 	diffusers? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	sentence-transformers? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

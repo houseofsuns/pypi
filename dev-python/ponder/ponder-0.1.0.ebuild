@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library to allow scikit-learn to automatically handle Pandas DataFrames [topver 0.2.6]"
+DESCRIPTION="A library to allow scikit-learn to automatically handle Pandas DataFrames [topver 0.2.6, newver 0.2.6]"
 
 HOMEPAGE="https://github.com/claresloggett/ponder"
 LICENSE="BSD 3-clause"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/tenacity-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-hcl2[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]"
+	<dev-python/sphinx-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

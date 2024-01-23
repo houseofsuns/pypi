@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="email"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.19[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.9.6[${PYTHON_USEDEP}]
 	>=dev-python/autobahn-22.3.2[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]

@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/urllib3-1.24.3[${PYTHON_USEDEP}]
 	>=dev-python/ordered-set-4.0.2[${PYTHON_USEDEP}]
 	dev-python/wcmatch[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
 	dev-python/dohq-artifactory[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

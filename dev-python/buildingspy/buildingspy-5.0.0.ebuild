@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/cerberus-1.3.4[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.33[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/pyfunnel[${PYTHON_USEDEP}]

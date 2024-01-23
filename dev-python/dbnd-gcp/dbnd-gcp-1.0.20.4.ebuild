@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
 	<dev-python/google-auth-2.16.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-httplib2-0.0.1[${PYTHON_USEDEP}]
 	dev-python/google-cloud-container[${PYTHON_USEDEP}]
-	dev-python/PyOpenSSL[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/pandas-gbq[${PYTHON_USEDEP}]
 	tests? ( dev-python/dbnd-test-scenarios[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

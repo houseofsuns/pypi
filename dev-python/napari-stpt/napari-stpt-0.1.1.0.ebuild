@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	~dev-python/xarray-2023.4.2[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	dev-python/PySide2[${PYTHON_USEDEP}]
+	~dev-python/pyside2-5.13.2[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/napari-animation[${PYTHON_USEDEP}]
 	~dev-python/tifffile-2023.4.12[${PYTHON_USEDEP}]"

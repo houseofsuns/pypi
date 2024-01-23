@@ -54,6 +54,6 @@ DEPENDENCIES="dev-python/zarr[${PYTHON_USEDEP}]
 	docs? ( dev-python/nbclean[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbconvert-5.6.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

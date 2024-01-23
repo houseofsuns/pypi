@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/pastas[${PYTHON_USEDEP}]
 	arcticdb? ( dev-python/arcticdb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pastastore[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Ipython[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )

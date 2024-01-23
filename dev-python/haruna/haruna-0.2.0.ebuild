@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/pandas-ta[${PYTHON_USEDEP}]
-	dev-python/quantstats[${PYTHON_USEDEP}]
+	dev-python/QuantStats[${PYTHON_USEDEP}]
 	dev-python/cryptodataset[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]

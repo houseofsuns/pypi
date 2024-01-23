@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev? ( dev-python/absl-py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyink[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )

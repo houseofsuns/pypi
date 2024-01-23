@@ -29,7 +29,7 @@ DEPENDENCIES="<=dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.1[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
-	athena? ( dev-python/pyathena[${PYTHON_USEDEP}] )
+	athena? ( dev-python/PyAthena[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cybersource development kms"
 DEPENDENCIES=">=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-oscar[${PYTHON_USEDEP}]
 	dev-python/django-oscar-api[${PYTHON_USEDEP}]
 	dev-python/django-oscar-api-checkout[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
 	development? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/instrumented-soap[${PYTHON_USEDEP}] )
 	development? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	development? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/requests-mock-1.7.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )

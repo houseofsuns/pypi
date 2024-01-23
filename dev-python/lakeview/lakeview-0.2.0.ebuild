@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Bio[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/bio[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.5.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-6.20.1[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-8.0.3[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]

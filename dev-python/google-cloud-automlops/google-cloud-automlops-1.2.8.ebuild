@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	dev-python/pipreqs[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/yarg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

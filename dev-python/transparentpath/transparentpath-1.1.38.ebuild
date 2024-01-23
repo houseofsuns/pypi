@@ -27,7 +27,7 @@ IUSE="all dask excel hdf5 joblib json pandas parquet"
 DEPENDENCIES="dev-python/gcsfs[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2022.2.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )

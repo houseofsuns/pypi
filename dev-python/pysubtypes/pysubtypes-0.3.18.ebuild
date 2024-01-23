@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/case-conversion[${PYTHON_USEDEP}]
+	dev-python/case_conversion[${PYTHON_USEDEP}]
 	dev-python/colour[${PYTHON_USEDEP}]
 	dev-python/clipboard[${PYTHON_USEDEP}]
 	dev-python/html-text[${PYTHON_USEDEP}]

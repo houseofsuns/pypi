@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/ehforwarderbot[${PYTHON_USEDEP}]
 	dev-python/efb-wechat-slave[${PYTHON_USEDEP}]
 	dev-python/python-telegram-bot[${PYTHON_USEDEP}]
 	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

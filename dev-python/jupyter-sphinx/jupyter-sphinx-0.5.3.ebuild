@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/ipykernel-4.5.1[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-7.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/bash-kernel[${PYTHON_USEDEP}] )
+	test? ( dev-python/bash_kernel[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

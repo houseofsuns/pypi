@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
 DEPENDENCIES=">=dev-python/zope-interface-5.5.2[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pip-22.2.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx-testing[${PYTHON_USEDEP}] )

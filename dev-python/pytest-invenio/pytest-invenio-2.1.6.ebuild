@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="elasticsearch7 opensearch1 opensearch2 tests"
 DEPENDENCIES="dev-python/check-manifest[${PYTHON_USEDEP}]
 	<dev-python/coverage-6.0[${PYTHON_USEDEP}]
-	dev-python/docker-services-cli[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/Docker-Services-CLI[${PYTHON_USEDEP}]
+	<dev-python/flask-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-flask[${PYTHON_USEDEP}]
 	dev-python/pytest-isort[${PYTHON_USEDEP}]

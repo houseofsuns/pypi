@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	all? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
-	all? ( dev-python/assimulo[${PYTHON_USEDEP}] )
+	all? ( dev-python/Assimulo[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-libsbml[${PYTHON_USEDEP}] )
-	cvode? ( dev-python/assimulo[${PYTHON_USEDEP}] )
+	cvode? ( dev-python/Assimulo[${PYTHON_USEDEP}] )
 	parscan? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
 	sbml? ( dev-python/python-libsbml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

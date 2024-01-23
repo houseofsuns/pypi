@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/torchtyping[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/CLIP[${PYTHON_USEDEP}]
+	dev-python/clip[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/discord-typings[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	all? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	speedup? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	speedup? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	speedup? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
+	voice? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

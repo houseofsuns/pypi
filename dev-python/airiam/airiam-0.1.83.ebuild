@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/boto3-1.12.43[${PYTHON_USEDEP}]
 	dev-python/python-terraform[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Cerberus[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cerberus-1.3.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-5.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/moto-1.3.14[${PYTHON_USEDEP}] )

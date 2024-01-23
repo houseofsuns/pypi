@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-socks-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ujson-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/starlette-0.19.0[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	>=dev-python/APScheduler-3.7.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

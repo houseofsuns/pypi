@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.2[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.4.8[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.11.1[${PYTHON_USEDEP}]
 	>=dev-python/semantic-version-2.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

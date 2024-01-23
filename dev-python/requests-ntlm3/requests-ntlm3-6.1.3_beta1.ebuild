@@ -38,6 +38,6 @@ DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/faker[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/Faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

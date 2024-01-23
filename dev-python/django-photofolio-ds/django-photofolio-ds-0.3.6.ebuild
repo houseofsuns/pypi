@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.0.6[${PYTHON_USEDEP}]
 	dev-python/util-demian[${PYTHON_USEDEP}]
 	dev-python/django-demian-parts[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]

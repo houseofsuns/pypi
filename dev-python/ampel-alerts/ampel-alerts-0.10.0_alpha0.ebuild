@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alert support for the Ampel system"
+DESCRIPTION="Alert support for the Ampel system [newver 0.10.0a1]"
 
 HOMEPAGE="https://ampelproject.github.io"
 LICENSE="BSD"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-7.3.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}] )
 	dev-python/ampel-core[${PYTHON_USEDEP}]"

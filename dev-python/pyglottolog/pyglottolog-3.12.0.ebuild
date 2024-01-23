@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/attrs-19.2[${PYTHON_USEDEP}]
 	dev-python/cldfzenodo[${PYTHON_USEDEP}]
 	dev-python/clldutils[${PYTHON_USEDEP}]
 	dev-python/csvw[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/latexcodec[${PYTHON_USEDEP}]
 	dev-python/linglit[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
@@ -61,7 +61,7 @@ DEPENDENCIES=">=dev-python/attrs-19.2[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-levenshtein[${PYTHON_USEDEP}] )
+	test? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/shapely[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

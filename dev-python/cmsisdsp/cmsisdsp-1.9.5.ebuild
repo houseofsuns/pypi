@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CMSIS-DSP Python API [topver 1.9.7]"
+DESCRIPTION="CMSIS-DSP Python API [topver 1.9.7, newver 1.9.7]"
 
 HOMEPAGE="https://github.com/ARM-software/CMSIS-DSP"
 LICENSE="License :: OSI Approved :: Apache Software License"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.7.1[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

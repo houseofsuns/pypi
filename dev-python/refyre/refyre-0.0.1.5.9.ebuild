@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="git pandas web"
 DEPENDENCIES="web? ( >=dev-python/requests-2.29.0[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
-	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )"
+	git? ( >=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,6 +31,6 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	dev-python/deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

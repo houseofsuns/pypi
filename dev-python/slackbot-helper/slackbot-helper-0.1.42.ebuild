@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/baseblock[${PYTHON_USEDEP}]
-	dev-python/fast_sentence_tokenize[${PYTHON_USEDEP}]
+	dev-python/fast-sentence-tokenize[${PYTHON_USEDEP}]
 	dev-python/slack-bolt[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

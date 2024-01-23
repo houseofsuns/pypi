@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/prometheus-client-0.18[${PYTHON_USEDEP}] )
-	all? ( dev-python/pysocks[${PYTHON_USEDEP}] )
+	all? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-olm[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	all? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	e2be? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )
 	metrics? ( <dev-python/prometheus-client-0.18[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )
-	proxy? ( dev-python/pysocks[${PYTHON_USEDEP}] )
+	proxy? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	sqlite? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
 	weblogin? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

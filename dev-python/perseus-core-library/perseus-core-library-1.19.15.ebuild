@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/exifread[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ExifRead[${PYTHON_USEDEP}]
 	<dev-python/jsonpickle-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]

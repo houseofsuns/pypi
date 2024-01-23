@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EPIC Variability Extraction and Removal for Exoplanet Science Targets [topver 2.0.12]"
+DESCRIPTION="EPIC Variability Extraction and Removal for Exoplanet Science Targets [topver 2.0.12, newver 2.0.12]"
 
 HOMEPAGE="http://github.com/rodluger/everest"
 LICENSE="MIT"

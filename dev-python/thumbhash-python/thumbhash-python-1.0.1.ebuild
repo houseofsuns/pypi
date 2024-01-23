@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pillow[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

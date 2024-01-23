@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ABC analysis with automated limit detection [topver 0.1.22]"
+DESCRIPTION="ABC analysis with automated limit detection [topver 0.1.22, newver 0.1.22]"
 
 HOMEPAGE=""
 LICENSE="GNU General Public License v3 GPLv3"

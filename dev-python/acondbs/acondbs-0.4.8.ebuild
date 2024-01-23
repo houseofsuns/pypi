@@ -27,15 +27,15 @@ IUSE="dev tests"
 DEPENDENCIES=">=dev-python/a2wsgi-1.4[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-3.0[${PYTHON_USEDEP}]
-	dev-python/flask-graphql[${PYTHON_USEDEP}]
+	dev-python/Flask-GraphQL[${PYTHON_USEDEP}]
 	>=dev-python/flask-migrate-4.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-sqlalchemy-3.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.3[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
 	dev-python/graphene-sqlalchemy-filter[${PYTHON_USEDEP}]
 	dev-python/graphene-sqlalchemy[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

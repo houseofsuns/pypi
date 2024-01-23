@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
-	api? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	api? ( dev-python/flask[${PYTHON_USEDEP}] )
 	api? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	api? ( dev-python/cloudevents[${PYTHON_USEDEP}] )
 	api? ( dev-python/functions-framework[${PYTHON_USEDEP}] )

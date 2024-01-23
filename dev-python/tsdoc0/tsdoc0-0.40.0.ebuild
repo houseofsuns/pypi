@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
-	dev-python/textx[${PYTHON_USEDEP}]"
+	<dev-python/textX-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

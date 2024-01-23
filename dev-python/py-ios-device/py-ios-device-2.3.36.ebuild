@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/cffi-1.14.4[${PYTHON_USEDEP}]
 	~dev-python/construct-2.10.56[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]

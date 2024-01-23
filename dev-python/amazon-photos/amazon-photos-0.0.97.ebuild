@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	extras? ( dev-python/torch[${PYTHON_USEDEP}] )
 	extras? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	extras? ( dev-python/timm[${PYTHON_USEDEP}] )
-	extras? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	extras? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ryvencore-qt[${PYTHON_USEDEP}]
 	dev-python/ryvencore[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/textdistance[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

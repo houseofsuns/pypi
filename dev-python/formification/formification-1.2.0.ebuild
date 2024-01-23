@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/django-admin-ordering[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.8[${PYTHON_USEDEP}]
+	dev-python/django_admin_ordering[${PYTHON_USEDEP}]
 	dev-python/django-ckeditor[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.11.2[${PYTHON_USEDEP}]

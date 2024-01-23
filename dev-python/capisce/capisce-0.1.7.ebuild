@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/ratelimit[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

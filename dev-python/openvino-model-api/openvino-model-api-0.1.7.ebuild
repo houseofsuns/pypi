@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Model API: model wrappers and pipelines for inference with OpenVINO [topver 0.1.8]"
+DESCRIPTION="Model API: model wrappers and pipelines for inference with OpenVINO [topver 0.1.8, newver 0.1.8]"
 
 HOMEPAGE="https://github.com/openvinotoolkit/model_api"
 LICENSE="OSI Approved :: Apache Software License"

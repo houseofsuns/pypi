@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/dask-2022.1.1[${PYTHON_USEDEP}]
 	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.18[${PYTHON_USEDEP}]
-	viz? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	viz? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	viz? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	viz? ( <dev-python/cachetools-5.0.0[${PYTHON_USEDEP}] )

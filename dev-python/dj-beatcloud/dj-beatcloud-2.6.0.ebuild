@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/asyncpraw[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-58.1.0[${PYTHON_USEDEP}]
 	~dev-python/spotipy-2.21.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
-	dev-python/youtube-dl[${PYTHON_USEDEP}]
+	dev-python/youtube_dl[${PYTHON_USEDEP}]
 	levenshtein? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

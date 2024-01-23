@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev opt"
 DEPENDENCIES="~dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.14[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-18.1[${PYTHON_USEDEP}]
 	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.6[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.6[${PYTHON_USEDEP}]
 	dev-python/pylsl[${PYTHON_USEDEP}]
 	dev-python/python-osc[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.10[${PYTHON_USEDEP}]
@@ -50,6 +50,6 @@ DEPENDENCIES="~dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	opt? ( >=dev-python/graphviz-0.13[${PYTHON_USEDEP}] )
 	opt? ( dev-python/mne[${PYTHON_USEDEP}] )
-	opt? ( dev-python/pyedflib[${PYTHON_USEDEP}] )"
+	opt? ( dev-python/pyEDFlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

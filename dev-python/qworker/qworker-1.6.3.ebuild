@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QueueWorker is asynchronous Task Queue implementation built on to of Asyncio.Can you spawn distributed workers to run functions inside workers. [topver 1.10.0]"
+DESCRIPTION="QueueWorker is asynchronous Task Queue implementation built on to of Asyncio.Can you spawn distributed workers to run functions inside workers. [topver 1.10.0, newver 1.10.0]"
 
 HOMEPAGE="https://github.com/phenobarbital/qworker"
 LICENSE="MIT"

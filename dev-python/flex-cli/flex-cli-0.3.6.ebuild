@@ -27,7 +27,7 @@ IUSE="ansible"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/pinject[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-4.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]

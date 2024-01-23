@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/pandas-0.25.1[${PYTHON_USEDEP}]
 	>=dev-python/pickleshare-0.7.5[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-1.2.2[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+	>=dev-python/sqlalchemy-1.3.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

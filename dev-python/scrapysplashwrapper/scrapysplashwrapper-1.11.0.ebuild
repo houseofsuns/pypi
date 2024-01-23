@@ -27,6 +27,6 @@ IUSE="docs"
 DEPENDENCIES="dev-python/scrapy-splash[${PYTHON_USEDEP}]
 	dev-python/Scrapy[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

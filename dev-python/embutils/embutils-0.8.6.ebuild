@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	<dev-python/intelhex-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/cattrs-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

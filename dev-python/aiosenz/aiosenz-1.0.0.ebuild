@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]"
+	dev-python/Authlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

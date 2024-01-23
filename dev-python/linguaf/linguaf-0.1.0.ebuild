@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/natasha[${PYTHON_USEDEP}]
-	dev-python/Pyphen[${PYTHON_USEDEP}]
+	dev-python/pyphen[${PYTHON_USEDEP}]
 	dev-python/pymorphy2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

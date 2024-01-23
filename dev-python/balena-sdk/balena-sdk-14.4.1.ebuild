@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-18.0.0[${PYTHON_USEDEP}]
+	>=dev-python/twisted-18.7.0[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pine-client[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/ratelimit-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simplify meshes including vertex features. [topver 1.1.5]"
+DESCRIPTION="Simplify meshes including vertex features. [topver 1.1.5, newver 1.1.5]"
 
 HOMEPAGE="https://github.com/jannessm/quadric-mesh-simplification"
 LICENSE=""

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]"
+	dev-python/Pint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

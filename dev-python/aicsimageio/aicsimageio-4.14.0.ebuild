@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/dask-2021.4.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/ome-types[${PYTHON_USEDEP}]
 	dev-python/ome-zarr[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.12[${PYTHON_USEDEP}]
 	dev-python/resource-backed-dask-array[${PYTHON_USEDEP}]
 	<dev-python/tifffile-2023.3.15[${PYTHON_USEDEP}]
@@ -39,13 +39,13 @@ DEPENDENCIES=">=dev-python/dask-2021.4.1[${PYTHON_USEDEP}]
 	dev-python/xmlschema[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	all? ( <dev-python/imageio-2.28.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/nd2[${PYTHON_USEDEP}] )
 	all? ( dev-python/mrc[${PYTHON_USEDEP}] )
 	all? ( dev-python/bfio[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tifffile-2022.4.22[${PYTHON_USEDEP}] )
 	base-imageio? ( <dev-python/imageio-2.28.0[${PYTHON_USEDEP}] )
-	base-imageio? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	base-imageio? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/dask-2021.4.1[${PYTHON_USEDEP}] )
 	benchmark? ( <dev-python/docutils-0.16[${PYTHON_USEDEP}] )
@@ -67,13 +67,13 @@ DEPENDENCIES=">=dev-python/dask-2021.4.1[${PYTHON_USEDEP}]
 	benchmark? ( >=dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
 	benchmark? ( <dev-python/imageio-2.28.0[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/nd2[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/mrc[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/bfio[${PYTHON_USEDEP}] )
@@ -106,13 +106,13 @@ DEPENDENCIES=">=dev-python/dask-2021.4.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/imageio-2.28.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nd2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mrc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bfio[${PYTHON_USEDEP}] )

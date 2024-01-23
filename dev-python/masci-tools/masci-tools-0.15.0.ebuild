@@ -30,14 +30,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.8[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
 	dev-python/mendeleev[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	cmdline-extras? ( dev-python/pymatgen-io-fleur[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/sphinx-autodoc-typehints-1.19.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	pre-commit? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-click[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/types-pygments[${PYTHON_USEDEP}] )
+	pre-commit? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-mpl-0.12[${PYTHON_USEDEP}] )

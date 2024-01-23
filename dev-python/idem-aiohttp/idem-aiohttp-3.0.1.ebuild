@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/pop-config[${PYTHON_USEDEP}]
 	dev-python/rend[${PYTHON_USEDEP}]
 	dev-python/pop-loop[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

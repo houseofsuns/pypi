@@ -34,8 +34,8 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	test? ( dev-python/trufflehog[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/truffleHog[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

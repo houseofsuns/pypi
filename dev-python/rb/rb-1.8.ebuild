@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="rb, the redis blaster [topver 1.10.0]"
+DESCRIPTION="rb, the redis blaster [topver 1.10.0, newver 1.10.0]"
 
 HOMEPAGE="http://github.com/getsentry/rb"
 LICENSE=""

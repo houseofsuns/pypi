@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ishell"
-DEPENDENCIES="dev-python/backports-shutil-get-terminal-size[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backports-shutil_get_terminal_size[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

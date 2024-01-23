@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.33[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.20.33[${PYTHON_USEDEP}]
 	>=dev-python/click-1.2.2[${PYTHON_USEDEP}]

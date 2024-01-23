@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/django-timezone-field[${PYTHON_USEDEP}]
 	dev-python/fleming[${PYTHON_USEDEP}]
 	dev-python/django-manager-utils[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.21.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2015.6[${PYTHON_USEDEP}]

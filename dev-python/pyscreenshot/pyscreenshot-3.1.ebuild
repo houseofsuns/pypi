@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/EasyProcess[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/easyprocess[${PYTHON_USEDEP}]
 	dev-python/entrypoint2[${PYTHON_USEDEP}]
 	dev-python/mss[${PYTHON_USEDEP}]
 	dev-python/jeepney[${PYTHON_USEDEP}]"

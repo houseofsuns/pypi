@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/airbyte-protocol-models[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/pyrate-limiter-3.1.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	~dev-python/deprecated-1.2[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	~dev-python/wcmatch-8.4[${PYTHON_USEDEP}]
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/airbyte-protocol-models[${PYTHON_USEDEP}]
 	file-based? ( dev-python/unstructured-pytesseract[${PYTHON_USEDEP}] )
 	file-based? ( ~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	sphinx-docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	sphinx-docs? ( ~dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
 	sphinx-docs? ( ~dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	vector-db-based? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	vector-db-based? ( dev-python/openai[${PYTHON_USEDEP}] )

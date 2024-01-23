@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	units? ( dev-python/pint[${PYTHON_USEDEP}] )
+	units? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	units? ( dev-python/openscm-units[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

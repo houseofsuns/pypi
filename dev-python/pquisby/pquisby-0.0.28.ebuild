@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/appier[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/google-api[${PYTHON_USEDEP}]
+	dev-python/google_api[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-2.9.0[${PYTHON_USEDEP}]

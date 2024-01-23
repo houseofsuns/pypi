@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
 	dev-python/grai-client[${PYTHON_USEDEP}]
 	dev-python/posthog[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
-	dev-python/grai-schemas[${PYTHON_USEDEP}]
+	dev-python/grai_schemas[${PYTHON_USEDEP}]
 	dev-python/goodconf[${PYTHON_USEDEP}]
 	<dev-python/email-validator-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

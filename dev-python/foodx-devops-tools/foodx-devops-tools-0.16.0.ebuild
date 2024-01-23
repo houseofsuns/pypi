@@ -29,15 +29,15 @@ DEPENDENCIES="<dev-python/aiofiles-1.0[${PYTHON_USEDEP}]
 	dev-python/azure-devops[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/deepmerge-2.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/build_harness[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre_commit[${PYTHON_USEDEP}] )
+	dev? ( dev-python/build-harness[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyjson5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/asynctest[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )

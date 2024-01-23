@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/hnne[${PYTHON_USEDEP}]
 	dev-python/renumics-spotlight[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	>=dev-python/puremagic-1.15[${PYTHON_USEDEP}]
-	all? ( dev-python/flaml[${PYTHON_USEDEP}] )
+	all? ( dev-python/FLAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/shap[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/hnne[${PYTHON_USEDEP}]
 	all? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	all? ( dev-python/bing-image-downloader[${PYTHON_USEDEP}] )
-	automl? ( dev-python/flaml[${PYTHON_USEDEP}] )
+	automl? ( dev-python/FLAML[${PYTHON_USEDEP}] )
 	automl? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	automl? ( dev-python/shap[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-applehelp-1.0.7[${PYTHON_USEDEP}] )

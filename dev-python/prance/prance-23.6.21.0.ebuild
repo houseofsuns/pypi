@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/chardet-3.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-3.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/towncrier-19.2[${PYTHON_USEDEP}] )
 	flex? ( dev-python/flex[${PYTHON_USEDEP}] )
-	icu? ( dev-python/PyICU[${PYTHON_USEDEP}] )
+	icu? ( ~dev-python/pyicu-2.4[${PYTHON_USEDEP}] )
 	osv? ( ~dev-python/openapi-spec-validator-0.5.1[${PYTHON_USEDEP}] )
 	ssv? ( ~dev-python/swagger-spec-validator-2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

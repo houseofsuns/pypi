@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all avro extras parquet"
 DEPENDENCIES="<dev-python/pandas-2.0[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	parquet? ( <dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )
 	extras? ( <dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )

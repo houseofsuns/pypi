@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/Quamash[${PYTHON_USEDEP}]
 	dev-python/pluginmanager[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]

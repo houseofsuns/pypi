@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
 	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]
 	testing? ( dev-python/psycopg[${PYTHON_USEDEP}] )

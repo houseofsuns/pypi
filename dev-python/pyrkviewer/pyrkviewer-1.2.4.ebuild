@@ -36,6 +36,6 @@ DEPENDENCIES="<dev-python/commentjson-0.10.0[${PYTHON_USEDEP}]
 	simulation? ( dev-python/tellurium[${PYTHON_USEDEP}] )
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]"
+	<dev-python/wxpython-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

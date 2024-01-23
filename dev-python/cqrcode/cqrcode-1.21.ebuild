@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzbar-0.1.8[${PYTHON_USEDEP}]
 	>=dev-python/qrcode-6.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]

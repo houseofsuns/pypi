@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	dev-python/aiobreaker[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	<dev-python/Babel-2.12.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/starlette-context[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	all? ( dev-python/starlette-exporter[${PYTHON_USEDEP}] )
-	all? ( dev-python/starlette-opentracing[${PYTHON_USEDEP}] )
+	all? ( dev-python/Starlette-OpenTracing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev? ( dev-python/questionary[${PYTHON_USEDEP}] )
 	dev? ( dev-python/respx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/starlette-exporter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/starlette-opentracing[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Starlette-OpenTracing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/starlette[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-orjson[${PYTHON_USEDEP}] )

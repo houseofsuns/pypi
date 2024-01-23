@@ -33,6 +33,6 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/types-beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pyexecjs[${PYTHON_USEDEP}]"
+	dev-python/PyExecJS[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

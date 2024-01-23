@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bx_py_utils[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/bx-py-utils[${PYTHON_USEDEP}]
 	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/python-stdnum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

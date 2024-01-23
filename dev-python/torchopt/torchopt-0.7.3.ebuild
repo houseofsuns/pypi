@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-pyi[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	lint? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )

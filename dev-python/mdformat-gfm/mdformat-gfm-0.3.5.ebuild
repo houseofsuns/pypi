@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/markdown-it-py[${PYTHON_USEDEP}]
 	dev-python/mdformat[${PYTHON_USEDEP}]
-	dev-python/mdformat-tables[${PYTHON_USEDEP}]
+	dev-python/mdformat_tables[${PYTHON_USEDEP}]
 	<dev-python/mdit-py-plugins-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

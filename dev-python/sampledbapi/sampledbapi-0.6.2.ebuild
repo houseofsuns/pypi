@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API wrapper for SampleDB [topver 0.6.5]"
+DESCRIPTION="API wrapper for SampleDB [topver 0.6.5, newver 0.6.5]"
 
 HOMEPAGE="https://zivgitlab.uni-muenster.de/ag-salinga/sampledb-api-wrapper"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Assemblyline client library [topver 4.6.0]"
+DESCRIPTION="Assemblyline client library [topver 4.6.0, newver 4.6.0]"
 
 HOMEPAGE="https://bitbucket.org/cse-assemblyline/assemblyline_client"
 LICENSE="MIT"
@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/socketio-client[${PYTHON_USEDEP}]
+	dev-python/socketIO-client[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"

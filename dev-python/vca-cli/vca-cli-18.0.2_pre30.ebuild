@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prettytable-0.8[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
 	>=dev-python/click-6.7[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.3.3[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-0.9.1[${PYTHON_USEDEP}]

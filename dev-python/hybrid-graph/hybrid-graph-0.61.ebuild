@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]"

@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/hydra-zen[${PYTHON_USEDEP}]
 	dev-python/flytekit[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2023.9.2[${PYTHON_USEDEP}]
 	dev-python/hydra-joblib-launcher[${PYTHON_USEDEP}]
-	docs? ( dev-python/jupyter_contrib_nbextensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter_contrib_nbextensions[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jupyterlab-4.0.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )

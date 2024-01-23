@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/AMFM-decompy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mir-eval[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mir_eval[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/musiclib[${PYTHON_USEDEP}] )

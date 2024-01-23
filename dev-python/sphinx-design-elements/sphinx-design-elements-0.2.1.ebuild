@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs release test"
-DEPENDENCIES="dev-python/sphinx-design[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/sphinx_design[${PYTHON_USEDEP}]
 	develop? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/docutils-stubs[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )

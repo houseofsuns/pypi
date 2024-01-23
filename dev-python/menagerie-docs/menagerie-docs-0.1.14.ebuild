@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/json-schema-for-humans[${PYTHON_USEDEP}]
 	dev-python/xmlschema[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/markdown2[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	dev-python/ndicts[${PYTHON_USEDEP}]
-	dev-python/json-minify[${PYTHON_USEDEP}]
+	dev-python/JSON_minify[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/libsass[${PYTHON_USEDEP}]"

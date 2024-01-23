@@ -27,8 +27,8 @@ IUSE="bdist scripts testing"
 DEPENDENCIES="dev-python/bytesparse[${PYTHON_USEDEP}]
 	bdist? ( dev-python/cbuildwheel[${PYTHON_USEDEP}] )
 	bdist? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	scripts? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	scripts? ( dev-python/cython[${PYTHON_USEDEP}] )
+	testing? ( dev-python/cython[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

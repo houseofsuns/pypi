@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
 	dev-python/allianceauth[${PYTHON_USEDEP}]
-	dev-python/dhooks_lite[${PYTHON_USEDEP}]
+	dev-python/dhooks-lite[${PYTHON_USEDEP}]
 	dev-python/django-eveuniverse[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
 	dev-python/redis-simple-mq[${PYTHON_USEDEP}]

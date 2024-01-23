@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/eia-python[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/EIA-python[${PYTHON_USEDEP}]
 	dev-python/Scrapy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

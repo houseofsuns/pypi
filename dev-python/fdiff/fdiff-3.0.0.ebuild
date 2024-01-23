@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev maintain"
-DEPENDENCIES="dev-python/fontTools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fonttools-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]

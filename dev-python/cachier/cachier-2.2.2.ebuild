@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/watchdog[${PYTHON_USEDEP}]
 	test? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	test? ( dev-python/dnspython[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymongo-inmemory[${PYTHON_USEDEP}] )
+	test? ( dev-python/pymongo_inmemory[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/collective-checkdocs[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygments[${PYTHON_USEDEP}] )"

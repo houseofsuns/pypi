@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.14[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	cleverhans? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

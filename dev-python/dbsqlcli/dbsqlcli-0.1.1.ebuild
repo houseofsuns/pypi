@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
+	>=dev-python/pygments-1.6[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/configobj-5.0.5[${PYTHON_USEDEP}]
-	dev-python/cli_helpers[${PYTHON_USEDEP}]
+	>=dev-python/cli-helpers-1.1.0[${PYTHON_USEDEP}]
 	dev-python/databricks-sql-connector[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

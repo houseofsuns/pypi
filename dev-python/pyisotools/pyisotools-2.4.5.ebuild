@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple python library for extracting and rebuilding ISOs [topver 2.4.6]"
+DESCRIPTION="Simple python library for extracting and rebuilding ISOs [topver 2.4.6, newver 2.4.6]"
 
 HOMEPAGE="https://github.com/JoshuaMKW/pyisotools"
 LICENSE="GNU General Public License v3.0"

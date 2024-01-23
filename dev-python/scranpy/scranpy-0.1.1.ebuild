@@ -27,12 +27,12 @@ IUSE="testing"
 DEPENDENCIES="dev-python/mattress[${PYTHON_USEDEP}]
 	dev-python/assorthead[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/biocframe[${PYTHON_USEDEP}]
+	dev-python/BiocFrame[${PYTHON_USEDEP}]
 	dev-python/biocutils[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
-	dev-python/singlecellexperiment[${PYTHON_USEDEP}]
-	dev-python/summarizedexperiment[${PYTHON_USEDEP}]
-	dev-python/delayedarray[${PYTHON_USEDEP}]
+	dev-python/SingleCellExperiment[${PYTHON_USEDEP}]
+	dev-python/SummarizedExperiment[${PYTHON_USEDEP}]
+	dev-python/DelayedArray[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

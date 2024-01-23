@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	>dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]

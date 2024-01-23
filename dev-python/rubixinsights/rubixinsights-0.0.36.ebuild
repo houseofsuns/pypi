@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-httplib2-0.0.4[${PYTHON_USEDEP}]

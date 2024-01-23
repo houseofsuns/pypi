@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/credoai-connect[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-autodoc-typehints-1.12.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-exec-code[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx_fontawesome[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )

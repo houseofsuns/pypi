@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	>=dev-python/suds-community-0.8.5[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	development? ( >=dev-python/flake8-3.2.1[${PYTHON_USEDEP}] )

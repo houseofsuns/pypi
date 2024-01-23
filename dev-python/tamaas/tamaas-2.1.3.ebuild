@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast library for periodic elastic and elasto-plastic rough contact [topver 2.7.1]"
+DESCRIPTION="A fast library for periodic elastic and elasto-plastic rough contact [topver 2.7.1, newver 2.7.1]"
 
 HOMEPAGE="https://c4science.ch/project/view/2036/"
 LICENSE=""
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dumpers solvers"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dumpers? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	dumpers? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	dumpers? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	dumpers? ( dev-python/uvw[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/scipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

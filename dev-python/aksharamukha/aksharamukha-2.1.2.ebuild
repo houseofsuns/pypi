@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
 	dev-python/pykakasi[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]

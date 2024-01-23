@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs middleware"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/repoze-lru-0.3[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/webob[${PYTHON_USEDEP}] )
 	middleware? ( dev-python/webob[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

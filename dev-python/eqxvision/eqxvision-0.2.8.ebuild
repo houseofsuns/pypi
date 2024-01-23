@@ -27,15 +27,15 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/equinox[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/markdown-3.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/markupsafe-1.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-1.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-autorefs-0.3.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pymdown-extensions-6.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs_include_exclude_files[${PYTHON_USEDEP}] )
+	docs? ( dev-python/mkdocs-include-exclude-files[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-material-7.3.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-0.17.0[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/equinox[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pymdown-extensions-9.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytkdocs_tweaks[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pytkdocs-tweaks[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/bluepy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sampling profiler for Python programs [topver 0.4.0]"
+DESCRIPTION="Sampling profiler for Python programs [topver 0.4.0, newver 0.3.14]"
 
 HOMEPAGE="https://github.com/benfred/py-spy"
 LICENSE="MIT"

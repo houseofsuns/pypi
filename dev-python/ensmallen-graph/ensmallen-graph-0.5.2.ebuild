@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.6.0]"
+DESCRIPTION=" [topver 0.6.0, newver 0.6.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/downloaders[${PYTHON_USEDEP}]
-	dev-python/compress_json[${PYTHON_USEDEP}]"
+	dev-python/compress-json[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

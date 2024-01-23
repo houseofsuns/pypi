@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/cma[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	dev-python/deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

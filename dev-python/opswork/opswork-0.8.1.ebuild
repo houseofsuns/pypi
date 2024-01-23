@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/ansible-runner[${PYTHON_USEDEP}]
 	<=dev-python/prettytable-3.9.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	<=dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]"

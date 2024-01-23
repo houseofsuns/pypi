@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws dev mpi sql"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
-	dev-python/datetimerange[${PYTHON_USEDEP}]
+	dev-python/DateTimeRange[${PYTHON_USEDEP}]
 	<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/fsspec-2024.0.0[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	mpi? ( <dev-python/mpi4py-4.0.0[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlite3_0611[${PYTHON_USEDEP}] )"
+	sql? ( dev-python/SQLite3_0611[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

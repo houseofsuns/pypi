@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	>=dev-python/dask-2023.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

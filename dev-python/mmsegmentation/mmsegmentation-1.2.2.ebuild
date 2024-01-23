@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	all? ( dev-python/cityscapesscripts[${PYTHON_USEDEP}] )
+	all? ( dev-python/cityscapesScripts[${PYTHON_USEDEP}] )
 	all? ( dev-python/clip[${PYTHON_USEDEP}] )
 	all? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	all? ( dev-python/einops[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	mim? ( dev-python/mmengine[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/regex[${PYTHON_USEDEP}] )
-	optional? ( dev-python/cityscapesscripts[${PYTHON_USEDEP}] )
+	optional? ( dev-python/cityscapesScripts[${PYTHON_USEDEP}] )
 	optional? ( dev-python/clip[${PYTHON_USEDEP}] )
 	optional? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	optional? ( dev-python/einops[${PYTHON_USEDEP}] )

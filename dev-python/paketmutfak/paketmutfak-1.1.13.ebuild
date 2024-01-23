@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library of code for working with paket mutfak [topver 1.1.42]"
+DESCRIPTION="Library of code for working with paket mutfak [topver 1.1.42, newver 1.1.42]"
 
 HOMEPAGE="https://github.com/PaketMutfak/PaketMutfak-Lib-Test"
 LICENSE=""
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	~dev-python/beartype-0.10.4[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.24.3[${PYTHON_USEDEP}]
 	<dev-python/flake8-6.0.0[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cadquery"
 DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	cadquery? ( dev-python/cadquery[${PYTHON_USEDEP}] )
 	dev-python/cadquery-massembly[${PYTHON_USEDEP}]
 	cadquery? ( dev-python/casadi[${PYTHON_USEDEP}] )

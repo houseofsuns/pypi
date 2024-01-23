@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ez-icons[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/ez-qt[${PYTHON_USEDEP}]
 	dev-python/ez-settings[${PYTHON_USEDEP}]
 	dev-python/ez-utils[${PYTHON_USEDEP}]

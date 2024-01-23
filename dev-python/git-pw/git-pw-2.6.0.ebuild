@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	>=dev-python/arrow-0.10[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

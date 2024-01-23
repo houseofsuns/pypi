@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.13.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	>=dev-python/inflect-0.3.1[${PYTHON_USEDEP}]
-	dev-python/distance[${PYTHON_USEDEP}]"
+	dev-python/Distance[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

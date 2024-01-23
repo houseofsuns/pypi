@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter pyvista qt"
-DEPENDENCIES="qt? ( dev-python/PySide6[${PYTHON_USEDEP}] )
+DEPENDENCIES="qt? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )
 	dev-python/fluiddyn[${PYTHON_USEDEP}]
 	dev-python/fluidsim-core[${PYTHON_USEDEP}]
 	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	jupyter? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyterlab_myst[${PYTHON_USEDEP}] )
+	jupyter? ( dev-python/jupyterlab-myst[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	<dev-python/lark-2.0.0[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/mdformat-myst[${PYTHON_USEDEP}] )
+	jupyter? ( dev-python/mdformat_myst[${PYTHON_USEDEP}] )
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	pyvista? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]"

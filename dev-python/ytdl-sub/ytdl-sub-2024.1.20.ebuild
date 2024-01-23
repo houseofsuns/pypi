@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/yt-dlp[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
 	~dev-python/mediafile-0.12.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )

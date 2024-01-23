@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]
-	dev-python/lru-cache[${PYTHON_USEDEP}]
+	dev-python/lru_cache[${PYTHON_USEDEP}]
 	dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
 	~dev-python/pathlib2-2.3.7[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]

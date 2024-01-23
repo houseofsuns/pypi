@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.25.2[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

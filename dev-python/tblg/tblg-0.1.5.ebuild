@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.1[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]"
+	dev-python/DateTime[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/cachelib-0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-1.5.0[${PYTHON_USEDEP}]
 	<dev-python/requests-oauthlib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/WTForms-Alchemy[${PYTHON_USEDEP}]
-	dev-python/WTForms[${PYTHON_USEDEP}]
+	<dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )

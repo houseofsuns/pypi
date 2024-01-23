@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/supabase[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.6.2[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

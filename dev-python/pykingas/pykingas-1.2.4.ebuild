@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Revised Chapman-Enskog solutions of the Boltzmann Equations for diffusion, thermal diffusion and thermal conductivity. Implemented for Hard spheres and Mie-fluids. [topver 2.0.0]"
+DESCRIPTION="Revised Chapman-Enskog solutions of the Boltzmann Equations for diffusion, thermal diffusion and thermal conductivity. Implemented for Hard spheres and Mie-fluids. [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/vegardjervell/Kineticgas"
 LICENSE=""

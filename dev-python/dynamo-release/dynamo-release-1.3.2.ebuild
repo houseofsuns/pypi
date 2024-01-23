@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/PATSY[${PYTHON_USEDEP}]
+	>=dev-python/patsy-0.5.1[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]
@@ -67,7 +67,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numdifftools[${PYTHON_USEDEP}] )
 	docs? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PATSY[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/patsy-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numba[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )

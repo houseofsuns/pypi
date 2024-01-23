@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Useless bogus project honeypot [topver 1531939498.3]"
+DESCRIPTION="Useless bogus project honeypot [topver 1531939498.3, newver 1531939498.3]"
 
 HOMEPAGE="https://github.com/benjaoming/python-bogus-project-honeypot"
 LICENSE="MIT"

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.5[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.31.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )

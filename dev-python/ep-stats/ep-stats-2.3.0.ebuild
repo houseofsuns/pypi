@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	test? ( dev-python/brunette[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/bandit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

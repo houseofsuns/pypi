@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs pypi"
 DEPENDENCIES="~dev-python/cloudscraper-1.2.71[${PYTHON_USEDEP}]
-	dev-python/Js2Py[${PYTHON_USEDEP}]
+	~dev-python/js2py-0.74[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.6.3[${PYTHON_USEDEP}]
 	~dev-python/websockets-11.0.3[${PYTHON_USEDEP}]

@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc recipe test train"
 DEPENDENCIES=">=dev-python/setuptools-38.5.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	>=dev-python/ConfigArgParse-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/jamo[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/kaldiio[${PYTHON_USEDEP}]
@@ -70,19 +70,19 @@ DEPENDENCIES=">=dev-python/setuptools-38.5.1[${PYTHON_USEDEP}]
 	all? ( dev-python/gdown[${PYTHON_USEDEP}] )
 	all? ( dev-python/resampy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pysptk[${PYTHON_USEDEP}] )
-	all? ( dev-python/morfessor[${PYTHON_USEDEP}] )
-	all? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )
+	all? ( dev-python/Morfessor[${PYTHON_USEDEP}] )
+	all? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )
 	all? ( dev-python/nnmnkwii[${PYTHON_USEDEP}] )
 	all? ( dev-python/museval[${PYTHON_USEDEP}] )
 	all? ( dev-python/pystoi[${PYTHON_USEDEP}] )
-	all? ( dev-python/mir-eval[${PYTHON_USEDEP}] )
+	all? ( dev-python/mir_eval[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastdtw[${PYTHON_USEDEP}] )
 	all? ( dev-python/nara-wpe[${PYTHON_USEDEP}] )
 	all? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	all? ( dev-python/praatio[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/commonmark-0.8.1[${PYTHON_USEDEP}] )
@@ -93,12 +93,12 @@ DEPENDENCIES=">=dev-python/setuptools-38.5.1[${PYTHON_USEDEP}]
 	recipe? ( dev-python/gdown[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/resampy[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/pysptk[${PYTHON_USEDEP}] )
-	recipe? ( dev-python/morfessor[${PYTHON_USEDEP}] )
-	recipe? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )
+	recipe? ( dev-python/Morfessor[${PYTHON_USEDEP}] )
+	recipe? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/nnmnkwii[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/museval[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/pystoi[${PYTHON_USEDEP}] )
-	recipe? ( dev-python/mir-eval[${PYTHON_USEDEP}] )
+	recipe? ( dev-python/mir_eval[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/fastdtw[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/nara-wpe[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )

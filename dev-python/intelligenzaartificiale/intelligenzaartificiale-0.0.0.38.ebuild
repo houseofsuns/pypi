@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/pydataset[${PYTHON_USEDEP}]
 	dev-python/datatable[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]"
+	~dev-python/flask-2.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

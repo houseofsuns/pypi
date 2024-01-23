@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]"
+	>=dev-python/flask-2.2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

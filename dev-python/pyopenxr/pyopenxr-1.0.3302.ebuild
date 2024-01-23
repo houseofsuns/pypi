@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="generate test"
 DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/PyOpenGL[${PYTHON_USEDEP}]
+	dev-python/pyopengl[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	generate? ( dev-python/clang[${PYTHON_USEDEP}] )
 	generate? ( dev-python/setuptools[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.1[${PYTHON_USEDEP}]
 	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

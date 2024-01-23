@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/setuptools-38.5[${PYTHON_USEDEP}]
 	>=dev-python/packaging-17.1[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
-	dev-python/pysocks[${PYTHON_USEDEP}]
+	>=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
 	<=dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
 	>=dev-python/docker-2.5.1[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]"

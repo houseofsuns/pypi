@@ -27,7 +27,7 @@ IUSE="httpx redis"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	dev-python/pydantic_settings[${PYTHON_USEDEP}]
+	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	<dev-python/email-validator-3.0[${PYTHON_USEDEP}]
 	<dev-python/blinker-2.0[${PYTHON_USEDEP}]
 	httpx? ( <dev-python/httpx-0.24[${PYTHON_USEDEP}] )

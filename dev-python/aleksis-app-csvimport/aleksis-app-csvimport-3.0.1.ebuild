@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/phonenumbers-9.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/aleksis-core[${PYTHON_USEDEP}]
+	dev-python/AlekSIS-Core[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]"

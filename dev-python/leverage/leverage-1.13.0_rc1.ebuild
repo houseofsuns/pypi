@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binbash Leverage Command-Line tool."
+DESCRIPTION="Binbash Leverage Command-Line tool. [newver 1.13.0rc2]"
 
 HOMEPAGE="https://github.com/binbashar/leverage"
 LICENSE="MIT"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/yaenv[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.10[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	~dev-python/rich-10.4.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/docker-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/dockerpty-0.4.1[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]

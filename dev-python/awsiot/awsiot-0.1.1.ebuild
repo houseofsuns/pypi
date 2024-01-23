@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command Line utility to easily provision IoT things in AWS [topver 0.1.3]"
+DESCRIPTION="Command Line utility to easily provision IoT things in AWS [topver 0.1.3, newver 0.1.3]"
 
 HOMEPAGE="https://github.com/adamsondelacruz/awsiot"
 LICENSE="MIT"

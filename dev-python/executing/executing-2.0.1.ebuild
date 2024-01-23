@@ -28,7 +28,7 @@ DEPENDENCIES="tests? ( >=dev-python/asttokens-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage-enable-subprocess[${PYTHON_USEDEP}] )
+	tests? ( dev-python/coverage_enable_subprocess[${PYTHON_USEDEP}] )
 	tests? ( dev-python/littleutils[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rich[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

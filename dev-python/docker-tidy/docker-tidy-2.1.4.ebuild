@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/anyconfig[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
-	dev-python/websocket_client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

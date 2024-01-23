@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/codetiming[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

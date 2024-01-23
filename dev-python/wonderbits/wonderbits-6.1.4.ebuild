@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/wonderbits-ampy[${PYTHON_USEDEP}]
 	dev-python/esptool[${PYTHON_USEDEP}]
 	dev-python/wonderbitscloud[${PYTHON_USEDEP}]"

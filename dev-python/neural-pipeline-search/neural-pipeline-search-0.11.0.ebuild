@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ConfigSpace[${PYTHON_USEDEP}]
-	dev-python/grakel[${PYTHON_USEDEP}]
+	dev-python/GraKeL[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]

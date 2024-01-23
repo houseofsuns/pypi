@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymysql-0.10.0[${PYTHON_USEDEP}]
 	dev-python/mysql-replication[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.1[${PYTHON_USEDEP}]
 	>=dev-python/daemonize-2.4.7[${PYTHON_USEDEP}]
 	dev-python/rollbar[${PYTHON_USEDEP}]"

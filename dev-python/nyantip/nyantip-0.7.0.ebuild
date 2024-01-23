@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gpg lint"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/mysqlclient-2.2[${PYTHON_USEDEP}]
 	dev-python/praw[${PYTHON_USEDEP}]
 	dev-python/python-bitcoinrpc[${PYTHON_USEDEP}]

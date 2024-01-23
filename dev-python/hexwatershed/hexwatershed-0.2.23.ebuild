@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A mesh-independent flow direction model for hydrologic models [topver 0.2.24]"
+DESCRIPTION="A mesh-independent flow direction model for hydrologic models [topver 0.2.24, newver 0.2.24]"
 
 HOMEPAGE="https://github.com/changliao1025/pyhexwatershed"
 LICENSE="custom"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/gdal[${PYTHON_USEDEP}]
+	dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/pyflowline[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

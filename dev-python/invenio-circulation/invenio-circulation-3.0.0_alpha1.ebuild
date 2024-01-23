@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/Babel-2.8[${PYTHON_USEDEP}]
 	tests? ( dev-python/celery[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-jsonschemas[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/flask-2.3.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

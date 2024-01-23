@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli examples p_checks p_docs p_tests pyqt5 pyside2 s_pytest s_pytest_trio s_quart_trio s_towncrier testing"
-DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/outcome[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
 	p_checks? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	p_checks? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	p_checks? ( dev-python/quart-trio[${PYTHON_USEDEP}] )
-	p_checks? ( dev-python/quart[${PYTHON_USEDEP}] )
+	p_checks? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	p_checks? ( >=dev-python/towncrier-21.3.0[${PYTHON_USEDEP}] )
 	p_checks? ( ~dev-python/click-8.1[${PYTHON_USEDEP}] )
 	p_checks? ( ~dev-python/httpcore-0.16[${PYTHON_USEDEP}] )
@@ -66,15 +66,15 @@ DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
 	p_tests? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/pytest-xdist-2.2[${PYTHON_USEDEP}] )
 	p_tests? ( dev-python/quart-trio[${PYTHON_USEDEP}] )
-	p_tests? ( dev-python/quart[${PYTHON_USEDEP}] )
+	p_tests? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/pytest-xvfb-2.0[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/pyqt5-stubs[${PYTHON_USEDEP}] )
+	pyqt5? ( ~dev-python/PyQt5-5.15.1[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5-stubs[${PYTHON_USEDEP}] )
 	pyside2? ( ~dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
 	s_pytest? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	s_pytest_trio? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )
 	s_quart_trio? ( dev-python/quart-trio[${PYTHON_USEDEP}] )
-	s_quart_trio? ( dev-python/quart[${PYTHON_USEDEP}] )
+	s_quart_trio? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	s_towncrier? ( >=dev-python/towncrier-21.3.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

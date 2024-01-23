@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Markdown[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	dev? ( <dev-python/markdown-4.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/markdown-4.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )

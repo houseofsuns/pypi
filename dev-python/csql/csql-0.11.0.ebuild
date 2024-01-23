@@ -29,10 +29,10 @@ DEPENDENCIES="pandas? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	notebooks? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	notebooks? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_external_toc[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

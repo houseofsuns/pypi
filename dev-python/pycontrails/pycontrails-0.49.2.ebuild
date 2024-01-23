@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/dask-2022.3[${PYTHON_USEDEP}]
 	gfs? ( dev-python/eccodes[${PYTHON_USEDEP}] )
 	gfs? ( >=dev-python/platformdirs-3.0[${PYTHON_USEDEP}] )
 	gfs? ( >=dev-python/tqdm-4.61[${PYTHON_USEDEP}] )
-	goes? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	goes? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	goes? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	goes? ( dev-python/h5netcdf[${PYTHON_USEDEP}] )
 	goes? ( >=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}] )

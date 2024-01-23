@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/xcm-parser[${PYTHON_USEDEP}]
 	dev-python/mi-pyral[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]

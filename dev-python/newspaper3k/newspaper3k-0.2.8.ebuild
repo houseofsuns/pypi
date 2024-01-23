@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/tinysegmenter[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.4.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pillow-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
 	>=dev-python/cssselect-0.9.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-3.6.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]

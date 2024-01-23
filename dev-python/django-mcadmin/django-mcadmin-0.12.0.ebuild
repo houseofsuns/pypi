@@ -61,7 +61,7 @@ DEPENDENCIES="<dev-python/django-4.1[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-no-implicit-concat[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-return[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	test? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-typing-imports[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-variables-names[${PYTHON_USEDEP}] )

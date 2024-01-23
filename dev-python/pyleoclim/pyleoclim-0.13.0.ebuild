@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/LiPD[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.1.1[${PYTHON_USEDEP}]
 	dev-python/kneed[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
 	dev-python/nitime[${PYTHON_USEDEP}]

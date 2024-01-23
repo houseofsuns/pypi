@@ -36,12 +36,12 @@ DEPENDENCIES=">=dev-python/appdirs-1.0.0[${PYTHON_USEDEP}]
 	dev-python/mutablerecords[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	<dev-python/pyopenssl-18.0[${PYTHON_USEDEP}]
 	plugs-comport? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )
 	plugs-ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	plugs-visa? ( dev-python/pyvisa[${PYTHON_USEDEP}] )
+	plugs-visa? ( dev-python/PyVISA[${PYTHON_USEDEP}] )
 	server? ( <dev-python/tornado-5.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/sockjs-tornado[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

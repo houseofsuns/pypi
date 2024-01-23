@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
 	dev-python/ggame[${PYTHON_USEDEP}]"

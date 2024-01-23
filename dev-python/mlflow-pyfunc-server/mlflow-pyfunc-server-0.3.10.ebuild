@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/mlflow[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]"
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

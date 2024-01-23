@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

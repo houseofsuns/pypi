@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test vad_auditok vad_silero"
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/dtw-python[${PYTHON_USEDEP}]
 	dev-python/openai-whisper[${PYTHON_USEDEP}]
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

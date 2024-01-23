@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint snappy test test-asyncio test-trio"
-DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	<dev-python/trio-0.17[${PYTHON_USEDEP}]
 	dev-python/trio-typing[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-4.3.18[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.740[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/towncrier-20.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/towncrier-20.0[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )

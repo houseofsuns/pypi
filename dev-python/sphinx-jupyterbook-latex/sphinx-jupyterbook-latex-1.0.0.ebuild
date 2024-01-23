@@ -30,15 +30,15 @@ DEPENDENCIES=">=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
 	myst? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	rtd? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-jupyterbook-latex[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
+	testing? ( dev-python/sphinx_external_toc[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/sphinxcontrib-bibtex-2.6.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/texsoup[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/TexSoup[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

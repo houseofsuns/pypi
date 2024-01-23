@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/afmformats[${PYTHON_USEDEP}]
 	dev-python/nanite[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

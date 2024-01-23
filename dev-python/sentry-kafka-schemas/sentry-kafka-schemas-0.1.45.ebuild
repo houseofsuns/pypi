@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-rapidjson[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/fastjsonschema-2.16.2[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]"

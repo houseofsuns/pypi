@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tests"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/flask-0.11.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-cov-1.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )

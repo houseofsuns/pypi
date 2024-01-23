@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/ply-4.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	netcdf? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	netcdf? ( <dev-python/netcdf4-1.5.6[${PYTHON_USEDEP}] )
 	netcdf? ( ~dev-python/cftime-1.5.1.1[${PYTHON_USEDEP}] )
 	dev-python/packaging[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

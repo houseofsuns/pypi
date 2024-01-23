@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gsw manualqc oceansdb regional test"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.6[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/oceansdb[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	gsw? ( dev-python/gsw[${PYTHON_USEDEP}] )
 	oceansdb? ( dev-python/oceansdb[${PYTHON_USEDEP}] )
 	manualqc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	regional? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	regional? ( >=dev-python/shapely-1.6.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/hypothesis-6.29.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -41,11 +41,11 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	test? ( >=dev-python/tox-2.3.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/netcdf4-1.5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pandas-1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/supportdata[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/twine-1.8.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/xarray-2022.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

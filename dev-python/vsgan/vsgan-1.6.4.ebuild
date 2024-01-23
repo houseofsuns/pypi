@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs pytorch vs"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	vs? ( dev-python/VapourSynth[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dunamai[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2022.0.0[${PYTHON_USEDEP}] )

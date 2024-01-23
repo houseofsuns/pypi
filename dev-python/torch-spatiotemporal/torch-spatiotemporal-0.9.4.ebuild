@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	>dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	doc? ( dev-python/neptune-client[${PYTHON_USEDEP}] )
 	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )

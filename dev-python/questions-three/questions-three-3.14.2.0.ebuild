@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/expects-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/junit-xml-1.8[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.1.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/pyfakefs-3.4.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/twin-sister[${PYTHON_USEDEP}]

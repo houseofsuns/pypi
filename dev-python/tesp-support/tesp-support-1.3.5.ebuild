@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	dev-python/PYPOWER[${PYTHON_USEDEP}]
-	dev-python/pyutilib[${PYTHON_USEDEP}]
+	dev-python/PyUtilib[${PYTHON_USEDEP}]
 	dev-python/Pyomo[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,10 +27,10 @@ IUSE="all recaptcha"
 DEPENDENCIES="all? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	recaptcha? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	all? ( ~dev-python/starlette-0.26.1[${PYTHON_USEDEP}] )
 	recaptcha? ( ~dev-python/starlette-0.26.1[${PYTHON_USEDEP}] )
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

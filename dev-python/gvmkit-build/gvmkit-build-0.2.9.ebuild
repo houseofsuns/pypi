@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.3.18]"
+DESCRIPTION=" [topver 0.3.18, newver 0.3.18]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/docker-6.0[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]
 	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	dev-python/srvlookup[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

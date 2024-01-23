@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/async-timeout-4.0[${PYTHON_USEDEP}]
 	dev-python/np-vba[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev? ( dev-python/np_pipeline_qc[${PYTHON_USEDEP}] )
+	dev? ( dev-python/np-pipeline-qc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

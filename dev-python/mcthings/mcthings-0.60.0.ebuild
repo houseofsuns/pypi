@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/mcpi[${PYTHON_USEDEP}]
 	dev-python/minecraftstuff[${PYTHON_USEDEP}]
-	dev-python/nbt[${PYTHON_USEDEP}]"
+	dev-python/NBT[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

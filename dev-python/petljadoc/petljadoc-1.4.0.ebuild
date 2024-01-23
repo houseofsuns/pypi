@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}]
-	dev-python/paver[${PYTHON_USEDEP}]
+	dev-python/Paver[${PYTHON_USEDEP}]
 	dev-python/runestone-petljadoc[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/cyrtranslit[${PYTHON_USEDEP}]
@@ -36,6 +36,6 @@ DEPENDENCIES=">=dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	>=dev-python/livereload-2.6.3[${PYTHON_USEDEP}]
 	>=dev-python/nbconvert-6.1.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

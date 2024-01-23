@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/spatialnc[${PYTHON_USEDEP}]
 	<dev-python/setuptools-scm-4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

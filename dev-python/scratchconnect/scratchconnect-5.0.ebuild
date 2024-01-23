@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="terminal"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	terminal? ( dev-python/scScratchTerminal[${PYTHON_USEDEP}] )"
+	dev-python/pillow[${PYTHON_USEDEP}]
+	terminal? ( dev-python/scscratchterminal[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.9.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

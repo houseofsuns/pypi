@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-press-theme[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
+	voice? ( dev-python/pynacl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

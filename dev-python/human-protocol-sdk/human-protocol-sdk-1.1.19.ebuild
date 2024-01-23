@@ -27,7 +27,7 @@ IUSE="agreement"
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/pgpy[${PYTHON_USEDEP}]
+	dev-python/PGPy[${PYTHON_USEDEP}]
 	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	agreement? ( dev-python/numpy[${PYTHON_USEDEP}] )

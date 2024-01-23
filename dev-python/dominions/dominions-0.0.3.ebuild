@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	dev-python/confusables[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

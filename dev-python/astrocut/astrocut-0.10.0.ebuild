@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.8.2[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	docs? ( >dev-python/sphinx-4.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )

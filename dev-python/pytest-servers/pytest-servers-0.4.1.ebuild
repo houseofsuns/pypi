@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/pytest-6.2[${PYTHON_USEDEP}]
 	s3? ( >=dev-python/moto-4.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/botocore-1.31.17[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage-enable-subprocess[${PYTHON_USEDEP}] )
+	tests? ( dev-python/coverage_enable_subprocess[${PYTHON_USEDEP}] )
 	tests? ( >dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )

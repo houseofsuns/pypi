@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.3.3[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/WTForms[${PYTHON_USEDEP}]
+	~dev-python/wtforms-2.3.1[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/attrs-20.2.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.8.2[${PYTHON_USEDEP}]

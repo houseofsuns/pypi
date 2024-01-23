@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/internetarchive[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/mwclient[${PYTHON_USEDEP}]
-	dev-python/file_read_backwards[${PYTHON_USEDEP}]
+	dev-python/file-read-backwards[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

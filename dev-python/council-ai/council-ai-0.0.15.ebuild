@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/anthropic[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client-stubs[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-2.106.0[${PYTHON_USEDEP}]
-	dev-python/googlenews[${PYTHON_USEDEP}]
+	dev-python/GoogleNews[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-10.1.0[${PYTHON_USEDEP}]
 	~dev-python/nbconvert-7.11.0[${PYTHON_USEDEP}]
 	~dev-python/nbformat-5.9.2[${PYTHON_USEDEP}]
@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/anthropic[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/types-beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/types-pyyaml[${PYTHON_USEDEP}]"
+	dev-python/types-PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

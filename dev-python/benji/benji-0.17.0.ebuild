@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="b2 compression dev doc helpers rest-api s3"
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prettytable-1.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	<dev-python/setproctitle-2.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]

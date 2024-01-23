@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]

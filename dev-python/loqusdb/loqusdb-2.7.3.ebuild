@@ -36,6 +36,6 @@ DEPENDENCIES="~dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
 	~dev-python/pip-23.1.2[${PYTHON_USEDEP}]
 	~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/mongo-adapter[${PYTHON_USEDEP}]
-	dev-python/ped-parser[${PYTHON_USEDEP}]"
+	dev-python/ped_parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

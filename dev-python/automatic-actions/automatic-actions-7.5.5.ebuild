@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/varname[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
@@ -46,15 +46,15 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}]
 	dev-python/arel[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/async-asgi-testclient[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/distinctipy[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/numerize[${PYTHON_USEDEP}]
@@ -63,16 +63,16 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	apps? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
 	apps? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )
-	apps? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	apps? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/jsonpatch-2.0[${PYTHON_USEDEP}] )
-	apps? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}] )
 	apps? ( dev-python/arel[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	aug? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.15.3[${PYTHON_USEDEP}] )
@@ -88,8 +88,8 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	extras? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	extras? ( ~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}] )
 	plugins? ( <dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}] )
-	sdk-nn-plugins? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
-	sdk-nn-plugins? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	sdk-nn-plugins? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
+	sdk-nn-plugins? ( <dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}] )
 	sdk-no-usages? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
 	sdk-no-usages? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	sdk-no-usages? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )"

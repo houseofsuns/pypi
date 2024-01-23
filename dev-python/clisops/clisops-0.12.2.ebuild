@@ -30,14 +30,14 @@ DEPENDENCIES=">=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/dask-2.6[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
 	dev-python/pooch[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
-	dev-python/roocs_grids[${PYTHON_USEDEP}]
+	dev-python/roocs-grids[${PYTHON_USEDEP}]
 	dev-python/roocs-utils[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.9[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.21[${PYTHON_USEDEP}]
@@ -45,10 +45,10 @@ DEPENDENCIES=">=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump-my-version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

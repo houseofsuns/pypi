@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	dev-python/sshuttle[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

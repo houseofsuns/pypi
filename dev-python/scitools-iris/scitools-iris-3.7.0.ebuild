@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cartopy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Cartopy[${PYTHON_USEDEP}]
 	dev-python/cf-units[${PYTHON_USEDEP}]
 	>=dev-python/cftime-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/dask-2022.9.0[${PYTHON_USEDEP}]

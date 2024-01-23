@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/dlclibrary[${PYTHON_USEDEP}]
 	dev-python/tf-slim[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.1[${PYTHON_USEDEP}]
 	apple_mchips? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
 	apple_mchips? ( dev-python/tensorflow-metal[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )

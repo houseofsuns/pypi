@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.8[${PYTHON_USEDEP}]
 	>=dev-python/django-redis-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.5.4[${PYTHON_USEDEP}]"

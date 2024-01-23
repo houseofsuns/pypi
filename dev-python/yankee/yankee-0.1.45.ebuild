@@ -37,12 +37,12 @@ DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	>=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-notfound-page-0.8[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-apidoc-0.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
 	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

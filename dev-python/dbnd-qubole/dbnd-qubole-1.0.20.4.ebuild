@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
 	dev-python/dbnd-spark[${PYTHON_USEDEP}]
-	dev-python/qds-sdk[${PYTHON_USEDEP}]"
+	dev-python/qds_sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete docs"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]

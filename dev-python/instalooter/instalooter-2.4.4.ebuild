@@ -34,17 +34,17 @@ DEPENDENCIES="~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	~dev-python/tenacity-6.0[${PYTHON_USEDEP}]
 	~dev-python/verboselogs-1.7[${PYTHON_USEDEP}]
 	all? ( dev-python/piexif[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	dev? ( dev-python/contexter[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/parameterized-0.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/green[${PYTHON_USEDEP}] )
 	dev? ( dev-python/piexif[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
@@ -52,11 +52,11 @@ DEPENDENCIES="~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-bootstrap-theme-0.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/semantic-version-2.6[${PYTHON_USEDEP}] )
 	metadata? ( dev-python/piexif[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	metadata? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/contexter[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/parameterized-0.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/green[${PYTHON_USEDEP}] )
 	test? ( dev-python/piexif[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

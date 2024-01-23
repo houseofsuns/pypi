@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete"
 DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/hvplot[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

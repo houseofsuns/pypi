@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.0[${PYTHON_USEDEP}]

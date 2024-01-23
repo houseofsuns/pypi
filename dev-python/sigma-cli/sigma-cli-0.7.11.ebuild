@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
-	dev-python/pysigma[${PYTHON_USEDEP}]"
+	dev-python/pySigma[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

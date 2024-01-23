@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/rotary_embedding_torch[${PYTHON_USEDEP}]
+	dev-python/rotary-embedding-torch[${PYTHON_USEDEP}]
 	dev-python/inflect[${PYTHON_USEDEP}]
 	dev-python/progressbar[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]

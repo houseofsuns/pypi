@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/numpydoc[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/nptdms[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]"
+	dev-python/npTDMS[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

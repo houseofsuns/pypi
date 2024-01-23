@@ -27,7 +27,7 @@ IUSE="develop"
 DEPENDENCIES=">=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.37.0[${PYTHON_USEDEP}]
 	>=dev-python/click-3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	>=dev-python/portalocker-2.0.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )"

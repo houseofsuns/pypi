@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytz-2021.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.51[${PYTHON_USEDEP}]
+	<dev-python/cython-0.30.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

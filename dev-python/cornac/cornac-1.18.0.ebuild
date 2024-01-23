@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

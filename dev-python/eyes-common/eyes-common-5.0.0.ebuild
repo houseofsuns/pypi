@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Applitools Python SDK common package stub. Can be uninstalled safely. [topver 5.24.5]"
+DESCRIPTION="Applitools Python SDK common package stub. Can be uninstalled safely. [topver 5.24.5, newver 5.24.5]"
 
 HOMEPAGE="http://www.applitools.com"
 LICENSE=""

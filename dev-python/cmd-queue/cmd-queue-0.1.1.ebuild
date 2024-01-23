@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The cmd_queue module for a DAG of bash commands [topver 0.1.18]"
+DESCRIPTION="The cmd_queue module for a DAG of bash commands [topver 0.1.18, newver 0.1.18]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/cmd_queue"
 LICENSE="Apache-2.0"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	all? ( dev-python/ubelt[${PYTHON_USEDEP}] )
 	all? ( dev-python/rich[${PYTHON_USEDEP}] )
@@ -40,21 +40,21 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/pint[${PYTHON_USEDEP}] )
+	all-strict? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pint[${PYTHON_USEDEP}] )
+	all? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/ubelt-1.1.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/rich-12.5.1[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/pint[${PYTHON_USEDEP}] )
+	runtime-strict? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/xdoctest-1.0.1[${PYTHON_USEDEP}] )

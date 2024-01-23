@@ -28,6 +28,6 @@ DEPENDENCIES="black? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	isort? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Django[${PYTHON_USEDEP}] )"
+	test? ( dev-python/django[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

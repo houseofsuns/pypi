@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
 	<dev-python/types-setuptools-68.0.0.0[${PYTHON_USEDEP}]
 	dev-python/types-invoke[${PYTHON_USEDEP}]
 	>=dev-python/types-docutils-0.19.1.6[${PYTHON_USEDEP}]
-	dev-python/types-pygments[${PYTHON_USEDEP}]
+	dev-python/types-Pygments[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.5[${PYTHON_USEDEP}]
-	dev-python/pyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

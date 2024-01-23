@@ -36,13 +36,13 @@ DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	all? ( dev-python/idyntree[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-icdiff[${PYTHON_USEDEP}] )
-	all? ( dev-python/robot-descriptions[${PYTHON_USEDEP}] )
+	all? ( dev-python/robot_descriptions[${PYTHON_USEDEP}] )
 	pptree? ( dev-python/pptree[${PYTHON_USEDEP}] )
 	style? ( dev-python/black[${PYTHON_USEDEP}] )
 	style? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/idyntree[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-icdiff[${PYTHON_USEDEP}] )
-	test? ( dev-python/robot-descriptions[${PYTHON_USEDEP}] )"
+	test? ( dev-python/robot_descriptions[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

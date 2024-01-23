@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CLI and SDK for interacting with the Efemarai ML testing platform. [topver 0.4.2]"
+DESCRIPTION="A CLI and SDK for interacting with the Efemarai ML testing platform. [topver 0.4.2, newver 0.4.2]"
 
 HOMEPAGE="https://www.efemarai.com/"
 LICENSE="MIT"
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.20[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.4[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.4[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/python-slugify-6.1.2[${PYTHON_USEDEP}]
 	dev-python/bson[${PYTHON_USEDEP}]

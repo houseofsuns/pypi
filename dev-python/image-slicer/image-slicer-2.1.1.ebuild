@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev setup test"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/pillow-7.2.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/pillow-7.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/wheel-0.35.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	all? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )

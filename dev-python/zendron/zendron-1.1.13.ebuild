@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/hydra-core[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
 	>=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-6.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dandelion dev diversity doc rpack test"
-DEPENDENCIES="dev-python/adjusttext[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/airr[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/adjusttext[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/parasail[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.7.0[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

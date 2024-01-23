@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="McAfee Threat Intelligence Exchange (TIE) DXL client library [topver 0.3.0]"
+DESCRIPTION="McAfee Threat Intelligence Exchange (TIE) DXL client library [topver 0.3.0, newver 0.3.0]"
 
 HOMEPAGE="http://www.mcafee.com/"
 LICENSE="Apache-2.0"

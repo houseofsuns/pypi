@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/werkzeug-0.10.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

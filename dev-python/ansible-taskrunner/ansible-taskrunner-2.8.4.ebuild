@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/btconfig[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	<dev-python/coloredlogs-16.0.0[${PYTHON_USEDEP}]
 	dev-python/getversion[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql otel postgres"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-4.0[${PYTHON_USEDEP}]
 	<dev-python/alembic-1.9[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	<dev-python/bleach-6.0[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0[${PYTHON_USEDEP}]
 	mysql? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	otel? ( dev-python/opentelemetry-distro[${PYTHON_USEDEP}] )
 	otel? ( dev-python/opentelemetry-instrumentation-sqlalchemy[${PYTHON_USEDEP}] )

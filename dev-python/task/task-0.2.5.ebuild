@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/rich-10.0.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
 	<dev-python/click-help-colors-0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

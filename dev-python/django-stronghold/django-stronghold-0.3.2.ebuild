@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Get inside your stronghold and make all your Django views default login_required [topver 0.4.0]"
+DESCRIPTION="Get inside your stronghold and make all your Django views default login_required [topver 0.4.0, newver 0.4.0]"
 
 HOMEPAGE="https://github.com/mgrouchy/django-stronghold"
 LICENSE="MIT"

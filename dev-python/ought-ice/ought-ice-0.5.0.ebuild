@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev torch"
 DEPENDENCIES="dev-python/defopt[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fvalues[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]

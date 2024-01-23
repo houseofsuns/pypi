@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for curating doc file collections, with ability to sync with youtube and archive.org doc items. [topver 0.1.20]"
+DESCRIPTION="A package for curating doc file collections, with ability to sync with youtube and archive.org doc items. [topver 0.1.20, newver 0.1.20]"
 
 HOMEPAGE="https://github.com/sanskrit-coders/doc_curation"
 LICENSE="MIT"

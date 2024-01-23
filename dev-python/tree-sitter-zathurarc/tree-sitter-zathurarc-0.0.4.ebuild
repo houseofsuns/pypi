@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="colorize dev"
 DEPENDENCIES="dev-python/tree-sitter[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	colorize? ( dev-python/tree_sitter_lsp[${PYTHON_USEDEP}] )"
+	colorize? ( dev-python/tree-sitter-lsp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

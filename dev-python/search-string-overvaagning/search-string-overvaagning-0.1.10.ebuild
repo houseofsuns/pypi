@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SearchString is a custom implementation for searching strings [topver 0.3.11]"
+DESCRIPTION="SearchString is a custom implementation for searching strings [topver 0.3.11, newver 0.3.11]"
 
 HOMEPAGE="https://github.com/kaas-mulvad/search-string"
 LICENSE="EULA"

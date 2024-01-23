@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/aixplain[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/deepgram-sdk[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	<dev-python/sh-3.0.0[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/sox[${PYTHON_USEDEP}]
-	dev-python/speechrecognition[${PYTHON_USEDEP}]
+	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
 	dev-python/tf2onnx[${PYTHON_USEDEP}]

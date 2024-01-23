@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dagster dev devsim docs femwell gmsh klayout meow sax schematic tidy3d vlsir"
 DEPENDENCIES="dev-python/gdsfactory[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dagster? ( dev-python/dagster[${PYTHON_USEDEP}] )
 	dagster? ( dev-python/dagit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest_regressions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jsondiff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyswarms[${PYTHON_USEDEP}] )

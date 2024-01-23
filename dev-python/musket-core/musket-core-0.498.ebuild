@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/hyperopt[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
-	dev-python/Keras[${PYTHON_USEDEP}]
+	dev-python/keras[${PYTHON_USEDEP}]
 	<=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
 	<=dev-python/pandas-0.25.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<=dev-python/pillow-6.2.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<=dev-python/shapely-1.6.4[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/py4j[${PYTHON_USEDEP}]
@@ -44,6 +44,6 @@ DEPENDENCIES="dev-python/hyperopt[${PYTHON_USEDEP}]
 	<=dev-python/imageio-2.6.1[${PYTHON_USEDEP}]
 	<=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]"
+	<=dev-python/cython-0.29.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.10[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Paste[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+	>=dev-python/paste-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pastedeploy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.41[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/debtcollector-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/dnspython-2.2.1[${PYTHON_USEDEP}]

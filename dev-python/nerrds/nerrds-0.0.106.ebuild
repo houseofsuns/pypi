@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/ansurr[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/prody[${PYTHON_USEDEP}]
+	dev-python/ProDy[${PYTHON_USEDEP}]
 	dev-python/pdb-tools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

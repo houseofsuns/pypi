@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	~dev-python/multiprocess-0.70.15[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.7[${PYTHON_USEDEP}]
-	cv? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	cv? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dvcx[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )

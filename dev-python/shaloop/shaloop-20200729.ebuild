@@ -5,19 +5,19 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.2.1-alpha.7"
+REALVERSION="0.2.1-alpha.1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [badver 0.2.1-alpha.7]"
+DESCRIPTION=" [newver 0.2.1-alpha.11, badver 0.2.1-alpha.1]"
 
 HOMEPAGE="https://github.com/LaRiffle/shaloop"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/dc/9d/99dcb532c69a1033f390861c44620becea5e31215d4946e351941f45ef2e/${REALNAME}-0.2.1_alpha.7.tar.gz"
-SOURCEFILE="${REALNAME}-0.2.1_alpha.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/1f/35aec38a271b7c6e304aa1e70b617fc04b7d74ea423790e718dafb787ad3/${REALNAME}-0.2.1_alpha.1.tar.gz"
+SOURCEFILE="${REALNAME}-0.2.1_alpha.1.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/gbm-autosplit[${PYTHON_USEDEP}]
 	dev-python/sklearn-cv-pandas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

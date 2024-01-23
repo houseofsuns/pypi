@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style rtd testing"
 DEPENDENCIES="testing? ( >=dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/jupyter-cache[${PYTHON_USEDEP}]
 	dev-python/nbclient[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="testing? ( >=dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	rtd? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )

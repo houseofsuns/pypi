@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rinoh-typeface-texgyrecursor[${PYTHON_USEDEP}]
 	dev-python/rinoh-typeface-texgyreheros[${PYTHON_USEDEP}]
 	dev-python/rinoh-typeface-texgyrepagella[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]"
+	>=dev-python/sphinx-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

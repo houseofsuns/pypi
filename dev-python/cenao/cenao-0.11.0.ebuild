@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="redis"
 DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.14.1[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )

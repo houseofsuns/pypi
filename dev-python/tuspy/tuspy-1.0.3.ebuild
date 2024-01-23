@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/tox-2.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.7.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/responses-0.5.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/aioresponses-0.6.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )

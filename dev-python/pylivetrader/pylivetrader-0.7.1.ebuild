@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/alpaca-trade-api[${PYTHON_USEDEP}]
 	>=dev-python/astor-0.8.1[${PYTHON_USEDEP}]
 	>=dev-python/bottleneck-1.3[${PYTHON_USEDEP}]

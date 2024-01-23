@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/arrow-1.2.3[${PYTHON_USEDEP}]
-	dev-python/dbutils[${PYTHON_USEDEP}]
+	>=dev-python/DBUtils-3.0.2[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	>=dev-python/ujson-5.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

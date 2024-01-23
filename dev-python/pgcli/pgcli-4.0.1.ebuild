@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="keyring sshtunnel"
 DEPENDENCIES=">=dev-python/pgspecial-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/click-4.1[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.0[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.0.14[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5[${PYTHON_USEDEP}]

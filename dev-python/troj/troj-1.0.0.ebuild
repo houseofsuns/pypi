@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
 	cv? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	cv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	cv? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	cv? ( ~dev-python/pillow-8.4.0[${PYTHON_USEDEP}] )
 	cv? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}]
 	dev? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	dev? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pillow-8.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

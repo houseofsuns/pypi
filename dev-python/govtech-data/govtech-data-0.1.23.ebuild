@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/jsonref-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	openai? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	openai? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	dev-python/thefuzz[${PYTHON_USEDEP}]

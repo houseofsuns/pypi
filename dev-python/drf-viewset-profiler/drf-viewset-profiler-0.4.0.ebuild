@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/line_profiler[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/cython-4.0[${PYTHON_USEDEP}]
+	<dev-python/line-profiler-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

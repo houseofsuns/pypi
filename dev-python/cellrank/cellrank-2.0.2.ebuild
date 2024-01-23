@@ -45,10 +45,10 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tippy[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_tippy[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.10.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-bibtex-2.3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-spelling-7.6.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	test? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	test? ( dev-python/igraph[${PYTHON_USEDEP}] )
 	test? ( dev-python/leidenalg[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/jax[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

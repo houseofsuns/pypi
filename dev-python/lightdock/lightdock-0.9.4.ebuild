@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.17.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29.13[${PYTHON_USEDEP}]
-	dev-python/prody[${PYTHON_USEDEP}]
+	dev-python/ProDy[${PYTHON_USEDEP}]
 	dev-python/freesasa[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

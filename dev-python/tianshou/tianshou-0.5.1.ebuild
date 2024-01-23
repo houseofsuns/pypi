@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	atari? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev? ( dev-python/nni[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gym[${PYTHON_USEDEP}] )
-	dev? ( dev-python/shimmy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Shimmy[${PYTHON_USEDEP}] )
 	mujoco? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
 	pybullet? ( dev-python/pybullet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

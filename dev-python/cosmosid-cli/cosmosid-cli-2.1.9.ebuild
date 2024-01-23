@@ -27,7 +27,7 @@ IUSE="pycurl"
 DEPENDENCIES=">=dev-python/boto3-1.21.28[${PYTHON_USEDEP}]
 	>=dev-python/cliff-3.10.1[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
 	pycurl? ( <dev-python/pycurl-8.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	>=dev-python/s3transfer-0.5.2[${PYTHON_USEDEP}]"

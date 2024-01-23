@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/Cerberus[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cerberus-2.0[${PYTHON_USEDEP}]
+	>=dev-python/django-1.11[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-3.8.1[${PYTHON_USEDEP}] )

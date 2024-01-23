@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/fmpy[${PYTHON_USEDEP}]
+	dev-python/FMPy[${PYTHON_USEDEP}]
 	dev-python/pandapower[${PYTHON_USEDEP}]
 	dev-python/pypsa[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]

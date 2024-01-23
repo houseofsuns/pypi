@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aos provisioning tool [topver 1.1.2]"
+DESCRIPTION="Aos provisioning tool [topver 1.1.2, newver 1.1.2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]"
+	>=dev-python/pyopenssl-18.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

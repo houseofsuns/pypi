@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/streamz[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/thrift-sasl[${PYTHON_USEDEP}]
 	>=dev-python/hvac-0.9.6[${PYTHON_USEDEP}]
-	dev-python/pyhive[${PYTHON_USEDEP}]
+	dev-python/PyHive[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/streamz[${PYTHON_USEDEP}]
 	dev-python/hmsclient-hive_3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-monitoring[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pyathena[${PYTHON_USEDEP}]
+	dev-python/PyAthena[${PYTHON_USEDEP}]
 	dev-python/opensearch-py[${PYTHON_USEDEP}]
 	dev-python/requests-aws4auth[${PYTHON_USEDEP}]
 	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/streamz[${PYTHON_USEDEP}]
 	air? ( dev-python/mushroom-rl[${PYTHON_USEDEP}] )
 	air? ( dev-python/pytorch-widedeep[${PYTHON_USEDEP}] )
 	air? ( dev-python/RL-for-reco[${PYTHON_USEDEP}] )
-	air? ( dev-python/LightGBMwithBayesOpt[${PYTHON_USEDEP}] )
+	air? ( dev-python/lightgbmwithbayesopt[${PYTHON_USEDEP}] )
 	air? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	air? ( dev-python/torchsummary[${PYTHON_USEDEP}] )
 	air? ( dev-python/pycaret[${PYTHON_USEDEP}] )

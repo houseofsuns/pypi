@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Encoding and decoding arbitrary strings into strings that are safe to put into a URL query param. [topver 1.2.0]"
+DESCRIPTION="Encoding and decoding arbitrary strings into strings that are safe to put into a URL query param. [topver 1.2.0, newver 1.2.0]"
 
 HOMEPAGE="https://github.com/ClearcodeHQ/querystringsafe_base64"
 LICENSE="LGPL-3"

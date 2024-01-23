@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data structures for crystallography [topver 1.7.0]"
+DESCRIPTION="Data structures for crystallography [topver 1.7.0, newver 1.7.0a1]"
 
 HOMEPAGE="http://crystals.readthedocs.io"
 LICENSE="GPL-3"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
-	dev-python/pycifrw[${PYTHON_USEDEP}]
+	dev-python/PyCifRW[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

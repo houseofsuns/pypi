@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dep dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/rhino3dm[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	dev-python/shapely[${PYTHON_USEDEP}]
 	dep? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dep? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/numpy-1.21.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rhino3dm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/shapely-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )

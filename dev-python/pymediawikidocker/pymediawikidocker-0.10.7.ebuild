@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	dev-python/py-3rdparty-mediawiki[${PYTHON_USEDEP}]
-	dev-python/pylodstorage[${PYTHON_USEDEP}]
+	dev-python/pyLodStorage[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	test? ( dev-python/green[${PYTHON_USEDEP}] )"

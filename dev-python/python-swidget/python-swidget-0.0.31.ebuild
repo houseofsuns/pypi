@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-programoutput-1.0[${PYTHON_USEDEP}] )
 	dev-python/ssdp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

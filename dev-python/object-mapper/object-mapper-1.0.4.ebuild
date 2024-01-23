@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ObjectMapper is a class for automatic object mapping. It helps you to create objects between                project layers (data layer, service layer, view) in a simple, transparent way. [topver 1.1.0]"
+DESCRIPTION="ObjectMapper is a class for automatic object mapping. It helps you to create objects between                project layers (data layer, service layer, view) in a simple, transparent way. [topver 1.1.0, newver 1.1.0]"
 
 HOMEPAGE="https://github.com/marazt/object-mapper"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/datetime[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

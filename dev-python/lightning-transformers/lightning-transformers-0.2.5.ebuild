@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	extra? ( dev-python/lightning-bolts[${PYTHON_USEDEP}] )
 	extra? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
 	extra? ( dev-python/accelerate[${PYTHON_USEDEP}] )"

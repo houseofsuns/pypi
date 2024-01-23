@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="minimum-Redundancy-Maximum-Relevance algorithm for feature selection [topver 0.2.8]"
+DESCRIPTION="minimum-Redundancy-Maximum-Relevance algorithm for feature selection [topver 0.2.8, newver 0.2.8]"
 
 HOMEPAGE="https://github.com/smazzanti/mrmr"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]

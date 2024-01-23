@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="opensees"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/PyniteFEA[${PYTHON_USEDEP}]
+	dev-python/PyNiteFEA[${PYTHON_USEDEP}]
 	opensees? ( dev-python/openseespy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

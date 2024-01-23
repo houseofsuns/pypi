@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Builders for monitoring dashboards [topver 1.34.0]"
+DESCRIPTION="Builders for monitoring dashboards [topver 1.34.0, newver 1.34.0]"
 
 HOMEPAGE="http://github.com/daviddenton/balderdash/"
 LICENSE="Apache-2.0"

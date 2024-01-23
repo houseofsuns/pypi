@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/aigpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/BaiduPCS-Py[${PYTHON_USEDEP}]"
+	dev-python/cython[${PYTHON_USEDEP}]
+	dev-python/baidupcs-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

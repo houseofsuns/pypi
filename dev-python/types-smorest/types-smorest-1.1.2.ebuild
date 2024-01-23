@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/types-flask[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( dev-python/types-Flask[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/apispec-5.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-2.2.2[${PYTHON_USEDEP}] )

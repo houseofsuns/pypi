@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python compression lib [topver 4.0.1]"
+DESCRIPTION="python compression lib [topver 4.0.1, newver 4.0.1]"
 
 HOMEPAGE=""
 LICENSE=""

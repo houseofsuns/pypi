@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/mkdocs-1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all django flask tests"
 DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
-	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flask-1.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphene[${PYTHON_USEDEP}] )
-	all? ( dev-python/Flask-Graphql[${PYTHON_USEDEP}] )
+	all? ( dev-python/Flask-GraphQL[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphene-django[${PYTHON_USEDEP}] )
 	django? ( dev-python/graphene-django[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/flask-1.0.2[${PYTHON_USEDEP}] )
 	flask? ( dev-python/graphene[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask-Graphql[${PYTHON_USEDEP}] )
+	flask? ( dev-python/Flask-GraphQL[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

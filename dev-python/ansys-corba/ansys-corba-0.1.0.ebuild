@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ANSYS interface using partial files from omniORB and omniORBpy [topver 0.1.1]"
+DESCRIPTION="ANSYS interface using partial files from omniORB and omniORBpy [topver 0.1.1, newver 0.1.1]"
 
 HOMEPAGE=""
 LICENSE=""

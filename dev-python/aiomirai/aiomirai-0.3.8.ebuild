@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all report ws"
 DEPENDENCIES="~dev-python/httpx-0.13[${PYTHON_USEDEP}]
-	all? ( dev-python/quart[${PYTHON_USEDEP}] )
+	all? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/websockets-8.0[${PYTHON_USEDEP}] )
-	report? ( dev-python/quart[${PYTHON_USEDEP}] )
+	report? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	ws? ( ~dev-python/websockets-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

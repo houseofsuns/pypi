@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

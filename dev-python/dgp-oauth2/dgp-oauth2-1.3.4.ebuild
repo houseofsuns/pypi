@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/flask-jsonpify[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+	dev-python/Flask-Jsonpify[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]

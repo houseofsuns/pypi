@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="django flask"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )"
+	dev-python/werkzeug[${PYTHON_USEDEP}]
+	django? ( dev-python/django[${PYTHON_USEDEP}] )
+	flask? ( dev-python/flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

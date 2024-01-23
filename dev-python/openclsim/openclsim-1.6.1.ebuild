@@ -34,12 +34,12 @@ DEPENDENCIES=">=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	testing? ( dev-python/faker[${PYTHON_USEDEP}] )
+	testing? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/folium[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/ipywidgets-7.0[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/opentnsim[${PYTHON_USEDEP}] )
 	testing? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylama-pylint[${PYTHON_USEDEP}] )
+	testing? ( dev-python/pylama_pylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

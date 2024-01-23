@@ -43,6 +43,6 @@ DEPENDENCIES=">=dev-python/boto3-1.12.28[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
-	wx? ( dev-python/wxPython[${PYTHON_USEDEP}] )"
+	wx? ( ~dev-python/wxpython-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

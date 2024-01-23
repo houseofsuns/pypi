@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="schemas"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/fedora-messaging[${PYTHON_USEDEP}]

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-2.1[${PYTHON_USEDEP}]
 	dev-python/Flask-gzip[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
+	>=dev-python/flask-login-0.2.11[${PYTHON_USEDEP}]
 	dev-python/Flask-Session[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]

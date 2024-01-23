@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/rich-12.6[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

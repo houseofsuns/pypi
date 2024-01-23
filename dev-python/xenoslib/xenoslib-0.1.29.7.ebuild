@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mock"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/IMAPClient[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	>=dev-python/imapclient-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
 	mock? ( >=dev-python/requests-mock-1.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

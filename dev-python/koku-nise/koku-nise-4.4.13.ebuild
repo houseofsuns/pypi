@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Faker-3.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.11[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all expectations formatting https_debug security server synth test turtle_capture"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
@@ -32,25 +32,25 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/optimism[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-6.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/wavesynth[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask-cas[${PYTHON_USEDEP}] )
+	all? ( dev-python/Flask-CAS[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-talisman[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask-seasurf[${PYTHON_USEDEP}] )
+	all? ( dev-python/Flask-SeaSurf[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
 	expectations? ( dev-python/optimism[${PYTHON_USEDEP}] )
 	formatting? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
 	https_debug? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	security? ( dev-python/flask-talisman[${PYTHON_USEDEP}] )
-	security? ( dev-python/flask-seasurf[${PYTHON_USEDEP}] )
+	security? ( dev-python/Flask-SeaSurf[${PYTHON_USEDEP}] )
 	server? ( dev-python/flask[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask-cas[${PYTHON_USEDEP}] )
+	server? ( dev-python/Flask-CAS[${PYTHON_USEDEP}] )
 	server? ( dev-python/redis[${PYTHON_USEDEP}] )
 	synth? ( dev-python/wavesynth[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	turtle_capture? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	turtle_capture? ( >=dev-python/pillow-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

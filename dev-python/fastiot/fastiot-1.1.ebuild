@@ -27,7 +27,7 @@ IUSE="compile dash dev docs fastapi influxdb mariadb mongodb opcua postgredb red
 DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	compile? ( <dev-python/Nuitka-2.0[${PYTHON_USEDEP}] )
 	compile? ( dev-python/ordered-set[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash[${PYTHON_USEDEP}] )
@@ -60,11 +60,11 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb-client[${PYTHON_USEDEP}] )
-	mariadb? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mariadb? ( <dev-python/pymysql-2.0[${PYTHON_USEDEP}] )
 	mongodb? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	opcua? ( dev-python/opcua[${PYTHON_USEDEP}] )
 	opcua? ( dev-python/asyncua[${PYTHON_USEDEP}] )
 	postgredb? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	redis? ( dev-python/Redis[${PYTHON_USEDEP}] )"
+	redis? ( >dev-python/redis-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

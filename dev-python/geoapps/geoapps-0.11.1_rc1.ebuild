@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apps core"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	apps? ( dev-python/dash-daq[${PYTHON_USEDEP}] )
 	core? ( ~dev-python/dask-2022.10[${PYTHON_USEDEP}] )
 	core? ( dev-python/discretize[${PYTHON_USEDEP}] )
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	core? ( dev-python/empymod[${PYTHON_USEDEP}] )
 	core? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	core? ( ~dev-python/fsspec-2022.0[${PYTHON_USEDEP}] )
-	core? ( dev-python/gdal[${PYTHON_USEDEP}] )
+	core? ( dev-python/GDAL[${PYTHON_USEDEP}] )
 	core? ( dev-python/geoana[${PYTHON_USEDEP}] )
 	dev-python/geoh5py[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/las-geoh5[${PYTHON_USEDEP}]
 	core? ( <dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
 	dev-python/mira-omf[${PYTHON_USEDEP}]
-	core? ( dev-python/mira-simpeg[${PYTHON_USEDEP}] )
+	core? ( dev-python/Mira-SimPEG[${PYTHON_USEDEP}] )
 	core? ( dev-python/mkl[${PYTHON_USEDEP}] )
 	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	core? ( <dev-python/pandas-1.6.0[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	core? ( dev-python/pydiso[${PYTHON_USEDEP}] )
 	core? ( dev-python/pymatsolver[${PYTHON_USEDEP}] )
 	<dev-python/pypng-0.20220716[${PYTHON_USEDEP}]
-	apps? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/PyQtWebEngine-5.16[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/pyside2-5.16[${PYTHON_USEDEP}] )
 	core? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	core? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

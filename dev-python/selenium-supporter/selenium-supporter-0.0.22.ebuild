@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="~dev-python/selenium-4.3.0[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/python-supporter[${PYTHON_USEDEP}]
-	dev-python/pyautogui[${PYTHON_USEDEP}]"
+	dev-python/PyAutoGUI[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

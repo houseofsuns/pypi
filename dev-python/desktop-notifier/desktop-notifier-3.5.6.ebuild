@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/furo-2023.5.20[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autoapi-2.1.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx_mdinclude[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

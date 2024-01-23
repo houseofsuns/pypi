@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Set of tools for the DCS mission builder [topver 2018.9.16.4]"
+DESCRIPTION="Set of tools for the DCS mission builder [topver 2018.9.16.4, newver 2018.9.16.4]"
 
 HOMEPAGE="https://github.com/132nd-etcher/EMIZ"
 LICENSE="GPL-3"
@@ -31,8 +31,8 @@ DEPENDENCIES="~dev-python/certifi-2018.1.18[${PYTHON_USEDEP}]
 	dev-python/delegator-py[${PYTHON_USEDEP}]
 	dev-python/elib[${PYTHON_USEDEP}]
 	dev-python/everett[${PYTHON_USEDEP}]
-	dev-python/gtts[${PYTHON_USEDEP}]
-	dev-python/gtts-token[${PYTHON_USEDEP}]
+	dev-python/gTTS[${PYTHON_USEDEP}]
+	dev-python/gTTS-token[${PYTHON_USEDEP}]
 	~dev-python/idna-2.6[${PYTHON_USEDEP}]
 	dev-python/metar[${PYTHON_USEDEP}]
 	~dev-python/mpmath-1.0.0[${PYTHON_USEDEP}]

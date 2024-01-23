@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/attrs-20.2[${PYTHON_USEDEP}]
 	<dev-python/cattrs-22.2[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]

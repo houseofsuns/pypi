@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/xopen[${PYTHON_USEDEP}]
-	dev-python/pulp[${PYTHON_USEDEP}]
-	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	dev-python/PuLP[${PYTHON_USEDEP}]
+	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/cliff-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-1.4[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	test? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
-	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/sqlalchemy-1.4.41[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/gnocchi[${PYTHON_USEDEP}] )
 	test? ( dev-python/oslo-db[${PYTHON_USEDEP}] )

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/ray[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.8.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

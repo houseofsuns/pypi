@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/setuptools-59.8[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.5[${PYTHON_USEDEP}]
-	dev-python/flask-basicauth[${PYTHON_USEDEP}]"
+	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/strenum[${PYTHON_USEDEP}]"
+	dev-python/StrEnum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

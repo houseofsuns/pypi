@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/mne[${PYTHON_USEDEP}]
 	dev-python/mne-qt-browser[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/yasa[${PYTHON_USEDEP}]
 	dev-python/fooof[${PYTHON_USEDEP}]
 	dev-python/lspopt[${PYTHON_USEDEP}]

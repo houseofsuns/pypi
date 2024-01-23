@@ -25,47 +25,47 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all core dash jupyter streamlit"
 DEPENDENCIES="dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]
 	core? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	core? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/GitPython-3.0[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
-	core? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
 	dash? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	dash? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dash? ( >=dev-python/GitPython-3.0[${PYTHON_USEDEP}] )
 	dash? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	dash? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	dash? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
-	dash? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
+	dash? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	streamlit? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	streamlit? ( >=dev-python/GitPython-3.0[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
-	streamlit? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
-	streamlit? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	streamlit? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
+	streamlit? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/GitPython-3.0[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/GitPython-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
-	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )"

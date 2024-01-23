@@ -27,7 +27,7 @@ IUSE="docs liveview test"
 DEPENDENCIES="dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/munch[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]

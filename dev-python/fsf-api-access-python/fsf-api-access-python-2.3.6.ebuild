@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES=">=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.46.1[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.3.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]

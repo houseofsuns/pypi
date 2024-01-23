@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql postgresql test zaqar"
-DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pastedeploy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.2.3[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-1.1.6[${PYTHON_USEDEP}]
 	dev-python/cotyledon[${PYTHON_USEDEP}]
 	>=dev-python/croniter-0.3.4[${PYTHON_USEDEP}]
@@ -61,16 +61,16 @@ DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-3.2.1[${PYTHON_USEDEP}]
 	dev-python/tooz[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.8.10[${PYTHON_USEDEP}]
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-0.6.2[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/sqlalchemy-0.9.7[${PYTHON_USEDEP}] )
 	mysql? ( >=dev-python/alembic-0.7.2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/sqlalchemy-0.9.7[${PYTHON_USEDEP}] )
 	postgresql? ( >=dev-python/alembic-0.7.2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/fixtures-1.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/gabbi[${PYTHON_USEDEP}] )

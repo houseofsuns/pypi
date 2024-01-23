@@ -28,18 +28,18 @@ DEPENDENCIES="dev-python/azure-datalake-store[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
 	<dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	<dev-python/numexpr-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/xarray-0.17.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Inject[${PYTHON_USEDEP}]"
+	dev-python/inject[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

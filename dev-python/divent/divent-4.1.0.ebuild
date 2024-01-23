@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/disnake[${PYTHON_USEDEP}]
 	dev-python/ics[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
-	dev-python/quart[${PYTHON_USEDEP}]
+	dev-python/Quart[${PYTHON_USEDEP}]
 	<dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/tornado-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-17.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
 	tests? ( dev-python/vcrpy-unittest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

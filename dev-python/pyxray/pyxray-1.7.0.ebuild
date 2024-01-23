@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Definitions and properties of X-ray transitions [topver 1.8.0]"
+DESCRIPTION="Definitions and properties of X-ray transitions [topver 1.8.0, newver 1.8.0]"
 
 HOMEPAGE="https://github.com/openmicroanalysis/pyxray"
 LICENSE="MIT"

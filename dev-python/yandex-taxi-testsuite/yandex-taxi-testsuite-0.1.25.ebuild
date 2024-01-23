@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clickhouse mysql postgresql postgresql-binary rabbitmq redis"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.4.2[${PYTHON_USEDEP}]
 	>=dev-python/py-1.10[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.7.1[${PYTHON_USEDEP}]
 	>=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
 	clickhouse? ( dev-python/clickhouse-driver[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-0.9.2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/yandex-pgmigrate[${PYTHON_USEDEP}] )
 	postgresql-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

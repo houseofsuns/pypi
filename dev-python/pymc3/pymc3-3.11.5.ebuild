@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	>=dev-python/patsy-0.5.1[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
-	dev-python/theano-pymc[${PYTHON_USEDEP}]
+	dev-python/Theano-PyMC[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

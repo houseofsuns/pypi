@@ -27,7 +27,7 @@ IUSE="visual"
 DEPENDENCIES=">=dev-python/networkx-2.6.2[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	dev-python/cached-method[${PYTHON_USEDEP}]
+	dev-python/cached_method[${PYTHON_USEDEP}]
 	visual? ( dev-python/coloraide[${PYTHON_USEDEP}] )
 	visual? ( >=dev-python/pygraphviz-1.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

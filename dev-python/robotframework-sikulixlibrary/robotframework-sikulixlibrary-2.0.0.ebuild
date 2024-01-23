@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/jpype1[${PYTHON_USEDEP}]
+	dev-python/JPype1[${PYTHON_USEDEP}]
 	dev-python/py4j[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

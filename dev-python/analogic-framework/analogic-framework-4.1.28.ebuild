@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	dev-python/TM1py[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	~dev-python/xlsxwriter-1.3.7[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	dev-python/json-logging[${PYTHON_USEDEP}]
 	dev-python/flask-talisman[${PYTHON_USEDEP}]
 	dev-python/Flask-APScheduler[${PYTHON_USEDEP}]

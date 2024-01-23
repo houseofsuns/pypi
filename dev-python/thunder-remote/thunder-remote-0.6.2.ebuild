@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/inputs[${PYTHON_USEDEP}]
-	dev-python/events[${PYTHON_USEDEP}]
+	dev-python/Events[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ini sphinx yaml"
 DEPENDENCIES="ini? ( dev-python/configobj[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

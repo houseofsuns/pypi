@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/mwoauth[${PYTHON_USEDEP}]
 	dev-python/oauthlib[${PYTHON_USEDEP}]
 	dev-python/jsonasobj[${PYTHON_USEDEP}]
-	dev-python/pyshex[${PYTHON_USEDEP}]
+	dev-python/PyShEx[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/shexer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	<dev-python/deprecated-1.3[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"

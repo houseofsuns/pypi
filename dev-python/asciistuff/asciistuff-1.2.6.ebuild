@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/cowpy[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
-	dev-python/PyFiglet[${PYTHON_USEDEP}]
+	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/terminaltables[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

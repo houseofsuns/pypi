@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	hardware? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )
 	hardware? ( >=dev-python/pyyaml-5.3[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/pillow-8.0.0[${PYTHON_USEDEP}] )
 	image? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	image? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )

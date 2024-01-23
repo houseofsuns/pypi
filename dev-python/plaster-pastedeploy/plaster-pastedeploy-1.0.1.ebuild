@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pastedeploy-2.0[${PYTHON_USEDEP}]
 	dev-python/plaster[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

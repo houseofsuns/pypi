@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/automaton[${PYTHON_USEDEP}]
 	>=dev-python/pydot-1.2.4[${PYTHON_USEDEP}]
 	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-6.0.0[${PYTHON_USEDEP}]
-	database? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	database? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	database? ( >=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}] )
+	database? ( >=dev-python/sqlalchemy-1.0.10[${PYTHON_USEDEP}] )
 	database? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	database? ( >=dev-python/alembic-0.8.10[${PYTHON_USEDEP}] )
 	database? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

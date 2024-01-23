@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	>=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
 	>=dev-python/progressbar2-3.51.4[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]

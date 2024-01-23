@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/cadcdata[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
-	test? ( dev-python/xml-compare[${PYTHON_USEDEP}] )"
+	test? ( dev-python/xml_compare[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colr[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Colr[${PYTHON_USEDEP}]
 	dev-python/rpi-ws281x[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-neopixel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

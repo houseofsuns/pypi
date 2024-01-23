@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="arrow image ngrok"
 DEPENDENCIES="<dev-python/flask-3.1[${PYTHON_USEDEP}]
 	<dev-python/flask-cors-5.0[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-1.1[${PYTHON_USEDEP}]

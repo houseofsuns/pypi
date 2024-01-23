@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="generate glfw opengl pyqt5 pyside2 sdl2 wx"
 DEPENDENCIES="pyqt5? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	generate? ( dev-python/clang[${PYTHON_USEDEP}] )
 	glfw? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	glfw? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	glfw? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	glfw? ( dev-python/glfw[${PYTHON_USEDEP}] )
 	opengl? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	opengl? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	opengl? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	sdl2? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	sdl2? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	sdl2? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	sdl2? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
 	wx? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	wx? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
-	wx? ( dev-python/wxPython[${PYTHON_USEDEP}] )"
+	wx? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
+	wx? ( dev-python/wxpython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

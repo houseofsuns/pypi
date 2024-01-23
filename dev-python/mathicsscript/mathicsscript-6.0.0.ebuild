@@ -31,14 +31,14 @@ DEPENDENCIES="dev-python/Mathics-Scanner[${PYTHON_USEDEP}]
 	dev-python/columnize[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0.18[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.9.0[${PYTHON_USEDEP}]
 	dev-python/mathics-pygments[${PYTHON_USEDEP}]
 	dev-python/term-background[${PYTHON_USEDEP}]
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyQT5[${PYTHON_USEDEP}] )
-	full? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	full? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	full? ( dev-python/cson[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/chardet-5.1.0[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	dev-python/dedupe[${PYTHON_USEDEP}]
 	~dev-python/jellyfish-0.9.0[${PYTHON_USEDEP}]
-	dev-python/doublemetaphone[${PYTHON_USEDEP}]"
+	dev-python/DoubleMetaphone[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="atlasprod elasticsearch mysql oracle postgres rucio"
 DEPENDENCIES="dev-python/panda-common[${PYTHON_USEDEP}]
 	dev-python/panda-client-light[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/python-daemon[${PYTHON_USEDEP}]
-	dev-python/mod_wsgi[${PYTHON_USEDEP}]
+	dev-python/mod-wsgi[${PYTHON_USEDEP}]
 	dev-python/stomp-py[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
@@ -46,12 +46,12 @@ DEPENDENCIES="dev-python/panda-common[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]
-	oracle? ( dev-python/cx_Oracle[${PYTHON_USEDEP}] )
+	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	rucio? ( dev-python/rucio-clients[${PYTHON_USEDEP}] )
 	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	atlasprod? ( dev-python/cx_Oracle[${PYTHON_USEDEP}] )
+	atlasprod? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	atlasprod? ( dev-python/rucio-clients[${PYTHON_USEDEP}] )
 	atlasprod? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
 	atlasprod? ( dev-python/numpy[${PYTHON_USEDEP}] )

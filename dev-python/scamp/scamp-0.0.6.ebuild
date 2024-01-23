@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An algorithmic composition framework that manages the flow of musical time, plays back notes via fluidsynth or though osc, and quantizes and saves the result to music notation. [topver 0.9.2]"
+DESCRIPTION="An algorithmic composition framework that manages the flow of musical time, plays back notes via fluidsynth or though osc, and quantizes and saves the result to music notation. [topver 0.9.2, newver 0.9.2.post2]"
 
 HOMEPAGE="https://github.com/MarcTheSpark/scamp"
 LICENSE=""
@@ -27,7 +27,7 @@ IUSE="lilypond midistream"
 DEPENDENCIES="dev-python/pymusicxml[${PYTHON_USEDEP}]
 	dev-python/expenvelope[${PYTHON_USEDEP}]
 	dev-python/clockblocks[${PYTHON_USEDEP}]
-	dev-python/pyfluidsynth[${PYTHON_USEDEP}]
+	dev-python/pyFluidSynth[${PYTHON_USEDEP}]
 	dev-python/sf2utils[${PYTHON_USEDEP}]
 	dev-python/python-osc[${PYTHON_USEDEP}]
 	lilypond? ( dev-python/abjad[${PYTHON_USEDEP}] )

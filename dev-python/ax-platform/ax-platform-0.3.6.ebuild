@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mysql notebook tutorial unittest unittest_minimal"
 DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yappi[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	mysql? ( ~dev-python/sqlalchemy-1.4.17[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	tutorial? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	tutorial? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	tutorial? ( ~dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/yappi[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	tutorial? ( ~dev-python/sqlalchemy-1.4.17[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/torchvision[${PYTHON_USEDEP}] )
@@ -90,7 +90,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	unittest? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	unittest? ( ~dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/yappi[${PYTHON_USEDEP}] )
-	unittest? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	unittest? ( ~dev-python/sqlalchemy-1.4.17[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/torchvision[${PYTHON_USEDEP}] )

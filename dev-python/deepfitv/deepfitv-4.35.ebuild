@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 4.41]"
+DESCRIPTION=" [topver 4.41, newver 4.41]"
 
 HOMEPAGE="https://github.com/Virtusa-vLife/deepfit"
 LICENSE=""

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">dev-python/boto3-1.9[${PYTHON_USEDEP}]
 	dev-python/pspring[${PYTHON_USEDEP}]
 	dev-python/realtime-aws-secretsmngr[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/moto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

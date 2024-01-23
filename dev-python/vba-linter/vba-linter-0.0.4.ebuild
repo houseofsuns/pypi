@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
 	dev-python/antlr4-tools[${PYTHON_USEDEP}]
 	dev-python/antlr4-vba[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Facilitates a convenient use of configuration files [topver 0.4.1]"
+DESCRIPTION="Facilitates a convenient use of configuration files [topver 0.4.1, newver 0.4.1]"
 
 HOMEPAGE="https://github.com/ramonhagenaars/conf"
 LICENSE=""
@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="yaml"
-DEPENDENCIES="yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+DEPENDENCIES="yaml? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

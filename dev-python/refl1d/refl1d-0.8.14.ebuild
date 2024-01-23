@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="1-D reflectometry modeling [topver 0.8.16]"
+DESCRIPTION="1-D reflectometry modeling [topver 0.8.16, newver 0.8.16]"
 
 HOMEPAGE="http://github.com/reflectometry/refl1d"
 LICENSE=""

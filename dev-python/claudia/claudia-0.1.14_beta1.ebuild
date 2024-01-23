@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
-	dev-python/PyHamcrest[${PYTHON_USEDEP}]
+	~dev-python/pyhamcrest-2.0.4[${PYTHON_USEDEP}]
 	~dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]
 	dev-python/xrpl-py[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

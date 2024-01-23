@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python functions and decorators for various backoff/retry strategies [topver 1.0.1]"
+DESCRIPTION="Python functions and decorators for various backoff/retry strategies [topver 1.0.1, newver 1.0.1]"
 
 HOMEPAGE="https://github.com/insightindustry/backoff-utils"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Select tests of a given level or lower [topver 0.1.3]"
+DESCRIPTION="Select tests of a given level or lower [topver 0.1.3, newver 0.1.3]"
 
 HOMEPAGE="https://github.com/encukou/pytest-level"
 LICENSE="MIT"

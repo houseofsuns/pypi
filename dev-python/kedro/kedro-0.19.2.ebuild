@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2021.4[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	>=dev-python/jmespath-0.9.5[${PYTHON_USEDEP}]
 	>=dev-python/more-itertools-8.14.0[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-1.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit-hooks[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	<dev-python/rope-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	test? ( dev-python/semver[${PYTHON_USEDEP}] )
-	test? ( dev-python/trufflehog[${PYTHON_USEDEP}] )
+	test? ( dev-python/truffleHog[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-cachetools[${PYTHON_USEDEP}] )

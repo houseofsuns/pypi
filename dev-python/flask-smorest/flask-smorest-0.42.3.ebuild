@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/apispec-7.0[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-4.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/apispec-6.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/apispec-7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/webargs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/werkzeug-3.0.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/apispec-6.3.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-3.0.0[${PYTHON_USEDEP}] )

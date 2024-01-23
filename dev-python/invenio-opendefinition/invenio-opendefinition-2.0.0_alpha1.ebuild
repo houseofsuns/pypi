@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs elasticsearch7 opensearch1 opensearch2 tests"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.0.4[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	dev-python/invenio-indexer[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/jsonresolver[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	elasticsearch7? ( <dev-python/elasticsearch-7.14[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
@@ -44,6 +44,6 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/httpretty-1.0.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

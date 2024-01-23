@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="~dev-python/freetype-py-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	~dev-python/pygame-2.1.3[${PYTHON_USEDEP}]
-	dev-python/PyOpenGL[${PYTHON_USEDEP}]"
+	~dev-python/pyopengl-3.1.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

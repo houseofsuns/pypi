@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.1[${PYTHON_USEDEP}]
+	<dev-python/pillow-9.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

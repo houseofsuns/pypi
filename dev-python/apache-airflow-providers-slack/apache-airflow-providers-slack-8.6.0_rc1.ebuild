@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="common-sql"
 DEPENDENCIES="dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/slack_sdk[${PYTHON_USEDEP}]
+	dev-python/slack-sdk[${PYTHON_USEDEP}]
 	common-sql? ( dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
 	dev-python/ibm-watson-openscale[${PYTHON_USEDEP}]
 	dev-python/ibm-watson-machine-learning[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	dev-python/pyJWT[${PYTHON_USEDEP}]"
+	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

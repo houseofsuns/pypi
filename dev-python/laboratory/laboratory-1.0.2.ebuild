@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/sphinx-1.6.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

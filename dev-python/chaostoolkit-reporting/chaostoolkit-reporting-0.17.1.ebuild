@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cairosvg[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
 	dev-python/chaostoolkit-lib[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/maya[${PYTHON_USEDEP}]
 	dev-python/natural[${PYTHON_USEDEP}]

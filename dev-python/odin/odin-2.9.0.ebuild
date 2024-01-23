@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="arrow msgpack pint rich toml yaml"
 DEPENDENCIES="arrow? ( dev-python/arrow[${PYTHON_USEDEP}] )
 	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	pint? ( dev-python/pint[${PYTHON_USEDEP}] )
+	pint? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )"

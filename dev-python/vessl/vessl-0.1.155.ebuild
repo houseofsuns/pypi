@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/boto3-1.18.9[${PYTHON_USEDEP}]
 	<dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	<dev-python/paramiko-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
-	dev-python/py_cpuinfo[${PYTHON_USEDEP}]
+	<dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
@@ -56,6 +56,6 @@ DEPENDENCIES=">=dev-python/boto3-1.18.9[${PYTHON_USEDEP}]
 	media? ( <dev-python/pillow-11.0.0[${PYTHON_USEDEP}] )
 	media? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]"
+	dev-python/Brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

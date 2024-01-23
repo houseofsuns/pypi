@@ -41,6 +41,6 @@ DEPENDENCIES="<dev-python/xcffib-1.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TODO. [topver 0.0.23]"
+DESCRIPTION="TODO. [topver 0.0.23, newver 0.0.23]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/BrainLes-HD-BET[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/brainles-hd-bet[${PYTHON_USEDEP}]
 	dev-python/auxiliary[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]

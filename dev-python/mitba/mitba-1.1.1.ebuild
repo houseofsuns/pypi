@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc testing"
 DEPENDENCIES="dev-python/flux[${PYTHON_USEDEP}]
-	dev-python/Logbook[${PYTHON_USEDEP}]
+	>=dev-python/logbook-0.12.2[${PYTHON_USEDEP}]
 	doc? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	doc? ( dev-python/releases[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.7.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( >dev-python/pytest-4.0[${PYTHON_USEDEP}] )"

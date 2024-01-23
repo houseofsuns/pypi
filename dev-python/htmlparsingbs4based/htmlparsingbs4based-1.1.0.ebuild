@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/json-lines[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/scrapy-fake-useragent[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.50.2[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]

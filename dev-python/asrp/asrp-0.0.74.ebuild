@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/jiwer[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]

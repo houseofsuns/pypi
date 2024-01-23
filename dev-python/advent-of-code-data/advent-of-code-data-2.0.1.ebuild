@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/pebble[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/aocd-example-parser[${PYTHON_USEDEP}]
-	nb? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	nb? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	nb? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

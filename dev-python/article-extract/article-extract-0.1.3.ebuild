@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.13.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.15.89[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]"
+	dev-python/Scrapy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

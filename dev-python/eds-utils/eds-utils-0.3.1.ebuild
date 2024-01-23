@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ui"
-DEPENDENCIES="ui? ( dev-python/PyGObject[${PYTHON_USEDEP}] )"
+DEPENDENCIES="ui? ( dev-python/pygobject[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

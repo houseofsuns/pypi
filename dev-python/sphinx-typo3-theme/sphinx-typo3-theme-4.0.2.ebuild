@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sphinx TYPO3 theme for docs.typo3.org, starting 2015. [topver 4.9.0]"
+DESCRIPTION="Sphinx TYPO3 theme for docs.typo3.org, starting 2015. [topver 4.9.0, newver 4.9.0]"
 
 HOMEPAGE="https://github.com/TYPO3-Documentation/sphinx_typo3_theme"
 LICENSE="MIT"

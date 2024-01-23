@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="screenshot_raw test"
-DEPENDENCIES="screenshot_raw? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyVirtualDisplay[${PYTHON_USEDEP}] )"
+DEPENDENCIES="screenshot_raw? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyvirtualdisplay[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

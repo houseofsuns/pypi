@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	dev-python/argue[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-0.16[${PYTHON_USEDEP}]

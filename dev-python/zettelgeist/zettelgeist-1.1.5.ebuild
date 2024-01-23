@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	dev-python/tatsu[${PYTHON_USEDEP}]"
+	dev-python/TatSu[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

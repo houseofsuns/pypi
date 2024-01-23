@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
-	dev-python/flask-httpauth[${PYTHON_USEDEP}]"
+	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

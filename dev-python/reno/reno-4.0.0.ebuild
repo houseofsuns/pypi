@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sphinx test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/dulwich-0.15.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]

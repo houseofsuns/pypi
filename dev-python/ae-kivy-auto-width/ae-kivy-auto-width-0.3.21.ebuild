@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/kivy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Kivy[${PYTHON_USEDEP}]
 	dev? ( dev-python/aedev-tpl-project[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ae-ae[${PYTHON_USEDEP}] )
 	dev? ( dev-python/anybadge[${PYTHON_USEDEP}] )

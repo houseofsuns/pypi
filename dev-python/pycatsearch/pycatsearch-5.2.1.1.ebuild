@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]"
+	>=dev-python/QtPy-2.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

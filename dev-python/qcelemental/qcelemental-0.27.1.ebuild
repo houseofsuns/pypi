@@ -28,7 +28,7 @@ DEPENDENCIES="viz? ( <dev-python/ipykernel-6.0.0[${PYTHON_USEDEP}] )
 	align? ( <dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/nglview[${PYTHON_USEDEP}] )
 	>=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	align? ( >=dev-python/scipy-1.9.0[${PYTHON_USEDEP}] )"

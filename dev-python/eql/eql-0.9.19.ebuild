@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/lark-parser[${PYTHON_USEDEP}]
 	lint? ( dev-python/toml[${PYTHON_USEDEP}] )
 	lint? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
-	lint? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	lint? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	loaders? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	loaders? ( dev-python/toml[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
@@ -53,6 +53,6 @@ DEPENDENCIES="dev-python/lark-parser[${PYTHON_USEDEP}]
 	test? ( dev-python/toml[${PYTHON_USEDEP}] )
 	test? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/fsspec-2022.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webdav4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wsgidav[${PYTHON_USEDEP}] )
+	dev? ( dev-python/WsgiDAV[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cheroot[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hadoop-test-cluster[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )

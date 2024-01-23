@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.15.0[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.7[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )"

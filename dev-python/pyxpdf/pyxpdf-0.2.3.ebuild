@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev encoding imaging source"
 DEPENDENCIES="dev? ( dev-python/cython[${PYTHON_USEDEP}] )
 	encoding? ( dev-python/pyxpdf-data[${PYTHON_USEDEP}] )
-	imaging? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	source? ( dev-python/Cython[${PYTHON_USEDEP}] )"
+	imaging? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	source? ( >=dev-python/cython-0.29.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

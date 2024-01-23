@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

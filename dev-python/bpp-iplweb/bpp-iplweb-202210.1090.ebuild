@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 202312.1123]"
+DESCRIPTION=" [topver 202312.1123, newver 202312.1123]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/MOAI-iplweb[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.3[${PYTHON_USEDEP}]
+	dev-python/moai-iplweb[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.2.1[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
+	~dev-python/unidecode-0.4.20[${PYTHON_USEDEP}]
 	~dev-python/arrow-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/bleach-3.3.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]

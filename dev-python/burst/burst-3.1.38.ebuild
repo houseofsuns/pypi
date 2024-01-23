@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/events[${PYTHON_USEDEP}]
+	dev-python/Events[${PYTHON_USEDEP}]
 	dev-python/netkit[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

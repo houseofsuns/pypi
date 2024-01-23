@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	dev-python/commoncode[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/plugincode[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/typecode-libmagic[${PYTHON_USEDEP}] )

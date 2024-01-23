@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/pyams-utils[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/pyramid-mailer[${PYTHON_USEDEP}]
+	dev-python/pyramid_mailer[${PYTHON_USEDEP}]
 	dev-python/zope-componentvocabulary[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

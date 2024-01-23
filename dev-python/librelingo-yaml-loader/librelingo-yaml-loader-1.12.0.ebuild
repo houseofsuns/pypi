@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/pyfakefs-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/snapshottest-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/librelingo-types[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	dev-python/html2markdown[${PYTHON_USEDEP}]
 	<dev-python/bleach-7.0.0[${PYTHON_USEDEP}]
 	hunspell? ( dev-python/hunspell[${PYTHON_USEDEP}] )

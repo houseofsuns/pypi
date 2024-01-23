@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/pyarrow-2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/PyGithub-1.55[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2021.4.11[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-0.13.7[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/moto-2.0.5[${PYTHON_USEDEP}] )

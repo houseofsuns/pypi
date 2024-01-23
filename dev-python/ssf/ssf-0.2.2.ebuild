@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/ummalqura[${PYTHON_USEDEP}]
 	dev-python/convertdate[${PYTHON_USEDEP}]"

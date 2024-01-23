@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/attrs-23.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
-	tests? ( dev-python/nest_asyncio[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )

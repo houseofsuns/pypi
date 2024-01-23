@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="python3-saml"
 DEPENDENCIES="python3-saml? ( <dev-python/python3-saml-2.0.0[${PYTHON_USEDEP}] )
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/cachelib-0.5.0[${PYTHON_USEDEP}]
 	dev-python/onelogin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

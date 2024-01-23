@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.2.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

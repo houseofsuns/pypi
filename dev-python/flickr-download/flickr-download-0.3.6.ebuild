@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/flickr-api[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]
 	dev-python/interrogate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

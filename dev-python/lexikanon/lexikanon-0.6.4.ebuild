@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/ekonlpy[${PYTHON_USEDEP}]
+	dev-python/eKoNLPy[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/hyfi[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]

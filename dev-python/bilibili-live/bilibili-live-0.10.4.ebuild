@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/brotli[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	>=dev-python/qrcode-7.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/websockets-10.3[${PYTHON_USEDEP}]"

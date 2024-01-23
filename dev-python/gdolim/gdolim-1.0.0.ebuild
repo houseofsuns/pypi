@@ -28,6 +28,6 @@ DEPENDENCIES="~dev-python/google-api-python-client-2.60.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-oauthlib-0.5.2[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]"
+	~dev-python/xlsxwriter-3.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyWavelets[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pywavelets[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10[${PYTHON_USEDEP}]
 	dev-python/pooch[${PYTHON_USEDEP}]

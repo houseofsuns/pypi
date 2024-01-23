@@ -27,16 +27,16 @@ IUSE="all docs tests"
 DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/markdown[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pilkit[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	all? ( dev-python/boto[${PYTHON_USEDEP}] )
-	all? ( dev-python/brotli[${PYTHON_USEDEP}] )
+	all? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/feedgenerator[${PYTHON_USEDEP}] )
 	all? ( dev-python/zopfli[${PYTHON_USEDEP}] )
 	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

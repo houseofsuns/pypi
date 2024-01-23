@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev elf inventory test"
 DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/chromalog[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

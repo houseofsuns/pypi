@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	>dev-python/regex-2019.12.17[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

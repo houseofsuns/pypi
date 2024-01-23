@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	events? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	pyats? ( dev-python/pyats[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

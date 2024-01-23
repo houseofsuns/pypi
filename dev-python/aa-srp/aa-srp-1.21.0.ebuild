@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
 	tests-allianceauth-stable? ( dev-python/allianceauth-discordbot[${PYTHON_USEDEP}] )
 	tests-allianceauth-stable? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests-allianceauth-stable? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
-	tests-allianceauth-stable? ( dev-python/faker[${PYTHON_USEDEP}] )"
+	tests-allianceauth-stable? ( dev-python/Faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

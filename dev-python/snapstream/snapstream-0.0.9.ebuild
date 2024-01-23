@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/rocksdict[${PYTHON_USEDEP}]
-	dev-python/pypubsub[${PYTHON_USEDEP}]
+	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	dev-python/avro[${PYTHON_USEDEP}]
 	<dev-python/toolz-0.13.0[${PYTHON_USEDEP}]
 	dev-python/pyright[${PYTHON_USEDEP}]"

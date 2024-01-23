@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/quart[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flask-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sanic[${PYTHON_USEDEP}] )

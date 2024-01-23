@@ -32,7 +32,7 @@ DEPENDENCIES="notebooks? ( <dev-python/notebook-7.0.0[${PYTHON_USEDEP}] )
 	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/cftime-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openscm-units[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pint-xarray[${PYTHON_USEDEP}]
 	cfxarray? ( dev-python/cf-xarray[${PYTHON_USEDEP}] )
 	cfxarray? ( <dev-python/pooch-2.0.0[${PYTHON_USEDEP}] )

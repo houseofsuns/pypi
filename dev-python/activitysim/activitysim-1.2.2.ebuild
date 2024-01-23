@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
-	dev-python/openmatrix[${PYTHON_USEDEP}]
+	dev-python/OpenMatrix[${PYTHON_USEDEP}]
 	dev-python/orca[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-4.1[${PYTHON_USEDEP}]

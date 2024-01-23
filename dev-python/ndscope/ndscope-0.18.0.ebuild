@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/QtPy[${PYTHON_USEDEP}]
-	dev-python/cairosvg[${PYTHON_USEDEP}]
+	dev-python/CairoSVG[${PYTHON_USEDEP}]
 	dev-python/gpstime[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

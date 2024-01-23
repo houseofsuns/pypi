@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/attr[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]

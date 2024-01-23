@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
-	dev-python/githubkit[${PYTHON_USEDEP}]
+	dev-python/GitHubKit[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	>=dev-python/mistune-2.0.4[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]

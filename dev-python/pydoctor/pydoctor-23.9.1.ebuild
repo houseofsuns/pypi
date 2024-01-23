@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs rst test"
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/CacheControl[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	dev-python/cachecontrol[${PYTHON_USEDEP}]
+	dev-python/twisted[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/astor[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.17[${PYTHON_USEDEP}]
 	dev-python/lunr[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	test? ( dev-python/cython-test-exception-raiser[${PYTHON_USEDEP}] )
 	test? ( dev-python/bs4[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	test? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

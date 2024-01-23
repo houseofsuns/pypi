@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/distlib-1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/towncrier-23.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage-enable-subprocess[${PYTHON_USEDEP}] )
+	test? ( dev-python/coverage_enable_subprocess[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flaky-3.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/packaging-23.1[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/misaka[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.15[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}]
 	>=dev-python/watchfiles-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

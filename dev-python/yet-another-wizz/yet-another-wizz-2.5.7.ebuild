@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/treecorr[${PYTHON_USEDEP}]
+	dev-python/TreeCorr[${PYTHON_USEDEP}]
 	cli? ( dev-python/yet-another-wizz-cli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yet-another-wizz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yet-another-wizz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yet-another-wizz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/yet-another-wizz[${PYTHON_USEDEP}] )

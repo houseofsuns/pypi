@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/timeago[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
-	all? ( dev-python/Click[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/click-8.0.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/rich-10.3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/timeago[${PYTHON_USEDEP}] )

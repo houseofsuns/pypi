@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An engine for running component based ML pipelines [topver 2.6.0]"
+DESCRIPTION="An engine for running component based ML pipelines [topver 2.6.0, newver 2.6.0]"
 
 HOMEPAGE="https://github.com/datarobot/mlpiper"
 LICENSE="Apache-2.0"
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/termcolor[${PYTHON_USEDEP}]
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/sagemaker[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	uwsgi? ( dev-python/uwsgi[${PYTHON_USEDEP}] )
+	uwsgi? ( dev-python/uWSGI[${PYTHON_USEDEP}] )
 	wizard? ( dev-python/pypsi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

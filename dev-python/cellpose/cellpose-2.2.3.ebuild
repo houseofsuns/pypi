@@ -37,9 +37,9 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	dev-python/roifile[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
-	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
+	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	all? ( dev-python/superqt[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
@@ -53,9 +53,9 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	gui? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
-	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
+	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	gui? ( dev-python/superqt[${PYTHON_USEDEP}] )
 	gui? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

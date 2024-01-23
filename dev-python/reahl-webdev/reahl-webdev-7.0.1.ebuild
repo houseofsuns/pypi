@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/reahl-web[${PYTHON_USEDEP}]
 	dev-python/reahl-tofu[${PYTHON_USEDEP}]
 	<dev-python/selenium-4.7.9999[${PYTHON_USEDEP}]
 	<dev-python/watchdog-3.0.999[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+	<dev-python/webob-1.8.999[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
-	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-3.0.999[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-tofu[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-stubble[${PYTHON_USEDEP}] )

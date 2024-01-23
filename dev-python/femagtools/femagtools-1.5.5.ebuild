@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.6.5[${PYTHON_USEDEP}]
 	dxfsl? ( dev-python/dxfgrabber[${PYTHON_USEDEP}] )
 	dxfsl? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	meshio? ( dev-python/meshio[${PYTHON_USEDEP}] )

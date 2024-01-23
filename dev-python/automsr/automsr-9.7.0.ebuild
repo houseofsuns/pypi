@@ -27,12 +27,12 @@ IUSE=""
 DEPENDENCIES="<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	dev-python/types-pyyaml[${PYTHON_USEDEP}]
+	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-tqdm[${PYTHON_USEDEP}]
 	<dev-python/email-validator-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	<dev-python/Faker-20.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

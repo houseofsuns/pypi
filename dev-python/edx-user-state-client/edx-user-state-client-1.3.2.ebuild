@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/edx-opaque-keys[${PYTHON_USEDEP}]
-	dev-python/xblock[${PYTHON_USEDEP}]"
+	dev-python/XBlock[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

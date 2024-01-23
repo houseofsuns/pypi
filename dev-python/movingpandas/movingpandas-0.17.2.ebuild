@@ -27,12 +27,12 @@ IUSE="smoothing viz"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	smoothing? ( dev-python/stonesoup[${PYTHON_USEDEP}] )
 	viz? ( dev-python/hvplot[${PYTHON_USEDEP}] )
 	viz? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	viz? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	viz? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	viz? ( dev-python/geoviews[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

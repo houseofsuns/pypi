@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/dj_database_url[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	<dev-python/dj-database-url-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/django-3.2.14[${PYTHON_USEDEP}]
 	dev-python/scrapelib[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-21.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/textract[${PYTHON_USEDEP}]
 	<dev-python/chardet-4.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/spatula[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/us[${PYTHON_USEDEP}]
 	dev-python/influxdb-client[${PYTHON_USEDEP}]"

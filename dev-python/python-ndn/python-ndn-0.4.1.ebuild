@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

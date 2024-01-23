@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure gs s3"
-DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cloudpathlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/cloudpathlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/cloudpathlib[${PYTHON_USEDEP}] )

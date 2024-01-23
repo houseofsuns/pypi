@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/je-open-cv[${PYTHON_USEDEP}]
 	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
-	dev-python/python-Xlib[${PYTHON_USEDEP}]"
+	dev-python/python-xlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/llsd[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	tools? ( dev-python/ptpython[${PYTHON_USEDEP}] )
 	tools? ( dev-python/qasync[${PYTHON_USEDEP}] )
-	tools? ( dev-python/pyside6-essentials[${PYTHON_USEDEP}] )"
+	tools? ( dev-python/PySide6-Essentials[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

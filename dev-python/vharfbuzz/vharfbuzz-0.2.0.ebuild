@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/uharfbuzz[${PYTHON_USEDEP}]
-	dev-python/fontTools[${PYTHON_USEDEP}]"
+	dev-python/fonttools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	dev-python/emcee[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/platypus-opt[${PYTHON_USEDEP}]
+	dev-python/Platypus-Opt[${PYTHON_USEDEP}]
 	build? ( >=dev-python/setuptools-61.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )

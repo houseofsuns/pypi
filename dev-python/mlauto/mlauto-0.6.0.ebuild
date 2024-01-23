@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 3.0.37]"
+DESCRIPTION=" [topver 3.0.37, newver 3.0.37]"
 
 HOMEPAGE="https://github.com/ansariminhaj/mlauto_pip"
 LICENSE="MIT"

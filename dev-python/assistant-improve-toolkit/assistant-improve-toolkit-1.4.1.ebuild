@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/pandas-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	~dev-python/xlsxwriter-1.2.8[${PYTHON_USEDEP}]
 	dev-python/ibm-watson[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	~dev-python/requests-2.29.0[${PYTHON_USEDEP}]"

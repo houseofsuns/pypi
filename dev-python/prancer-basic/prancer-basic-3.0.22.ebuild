@@ -53,6 +53,6 @@ DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.13.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]"
+	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

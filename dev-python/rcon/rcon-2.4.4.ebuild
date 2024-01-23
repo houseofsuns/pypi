@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
 DEPENDENCIES="gui? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pygtk[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/PyGTK[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

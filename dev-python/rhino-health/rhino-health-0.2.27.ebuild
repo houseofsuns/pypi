@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Standard Development Kit for interacting with the Rhino Health Federated Learning Platform [topver 0.3.4]"
+DESCRIPTION="Standard Development Kit for interacting with the Rhino Health Federated Learning Platform [topver 0.3.4, newver 0.3.4]"
 
 HOMEPAGE="https://www.rhinohealth.com/"
 LICENSE=""
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-6.3.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/factory_boy[${PYTHON_USEDEP}] )
+	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-recording-0.13.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )"

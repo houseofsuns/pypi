@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="3d_plots_for_yosemite_demo simulation_on_neutral_landscape_models"
-DEPENDENCIES="3d_plots_for_yosemite_demo? ( dev-python/pykrige[${PYTHON_USEDEP}] )
+DEPENDENCIES="3d_plots_for_yosemite_demo? ( dev-python/PyKrige[${PYTHON_USEDEP}] )
 	simulation_on_neutral_landscape_models? ( dev-python/nlmpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

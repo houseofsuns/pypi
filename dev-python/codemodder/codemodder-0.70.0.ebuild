@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/isort-5.14[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	~dev-python/pylint-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/semgrep[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	~dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]
@@ -40,13 +40,13 @@ DEPENDENCIES="<dev-python/isort-5.14[${PYTHON_USEDEP}]
 	complexity? ( ~dev-python/radon-6.0[${PYTHON_USEDEP}] )
 	complexity? ( dev-python/xenon[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-7.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/GitPython-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/lxml-5.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pyjwt[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
@@ -55,6 +55,6 @@ DEPENDENCIES="<dev-python/isort-5.14[${PYTHON_USEDEP}]
 	test? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	test? ( <dev-python/django-6.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/flask-wtf[${PYTHON_USEDEP}] )"
+	test? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

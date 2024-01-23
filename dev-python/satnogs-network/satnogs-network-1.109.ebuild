@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-4.0.0[${PYTHON_USEDEP}]
 	dev-python/django-shortuuidfield[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
 	dev-python/tinytag[${PYTHON_USEDEP}]
 	dev-python/internetarchive[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.13.0[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.3.0[${PYTHON_USEDEP}]
 	~dev-python/django-filter-21.1[${PYTHON_USEDEP}]
 	dev-python/ephem[${PYTHON_USEDEP}]
 	~dev-python/objgraph-3.5.0[${PYTHON_USEDEP}]

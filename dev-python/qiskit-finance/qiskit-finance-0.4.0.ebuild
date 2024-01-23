@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/fastdtw[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/nasdaq-data-link[${PYTHON_USEDEP}]
+	dev-python/Nasdaq-Data-Link[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]"

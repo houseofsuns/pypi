@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/opentracing-instrumentation[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	vcr? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	vcr? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	vcr? ( dev-python/mock[${PYTHON_USEDEP}] )
 	vcr? ( dev-python/wrapt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

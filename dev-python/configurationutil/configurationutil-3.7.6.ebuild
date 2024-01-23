@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/fdutil[${PYTHON_USEDEP}]
 	dev-python/logging-helper[${PYTHON_USEDEP}]
 	dev-python/classutils[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/uiutil[${PYTHON_USEDEP}]
 	test? ( dev-python/uiutil[${PYTHON_USEDEP}] )
 	ui? ( dev-python/uiutil[${PYTHON_USEDEP}] )"

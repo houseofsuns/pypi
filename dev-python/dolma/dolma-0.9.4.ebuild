@@ -60,7 +60,7 @@ DEPENDENCIES=">=dev-python/anyascii-0.3.2[${PYTHON_USEDEP}]
 	code? ( >=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}] )
 	code? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	code? ( dev-python/regex[${PYTHON_USEDEP}] )
-	pii? ( dev-python/presidio_analyzer[${PYTHON_USEDEP}] )
+	pii? ( dev-python/presidio-analyzer[${PYTHON_USEDEP}] )
 	pii? ( dev-python/regex[${PYTHON_USEDEP}] )
 	all? ( dev-python/dolma[${PYTHON_USEDEP}] )
 	all? ( dev-python/dolma[${PYTHON_USEDEP}] )

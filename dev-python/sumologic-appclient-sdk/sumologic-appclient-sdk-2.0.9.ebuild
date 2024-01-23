@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws azure dev gcp"
 DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.6[${PYTHON_USEDEP}]

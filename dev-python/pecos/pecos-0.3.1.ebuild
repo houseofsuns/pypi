@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.10.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

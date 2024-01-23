@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/jams[${PYTHON_USEDEP}]
 	extras? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	extras? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	extras? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	extras? ( dev-python/ffmpy[${PYTHON_USEDEP}] )
 	extras? ( dev-python/scaper[${PYTHON_USEDEP}] )
 	extras? ( dev-python/tqdm[${PYTHON_USEDEP}] )

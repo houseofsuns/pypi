@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gateway client for GradientOne [topver 1.0.0]"
+DESCRIPTION="Gateway client for GradientOne [topver 1.0.0, newver 1.0.0]"
 
 HOMEPAGE="https://gitlab.com/gradientone/gateway-client"
 LICENSE="MIT"

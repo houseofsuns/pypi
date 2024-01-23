@@ -49,10 +49,10 @@ DEPENDENCIES="dev-python/papermill[${PYTHON_USEDEP}]
 	rdf? ( dev-python/oda-knowledge-base[${PYTHON_USEDEP}] )
 	service? ( dev-python/flask[${PYTHON_USEDEP}] )
 	service? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
-	service? ( dev-python/flask-caching[${PYTHON_USEDEP}] )
+	service? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
 	service? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	service? ( dev-python/flasgger[${PYTHON_USEDEP}] )
 	service? ( dev-python/python-consul[${PYTHON_USEDEP}] )
-	service? ( dev-python/apscheduler[${PYTHON_USEDEP}] )"
+	service? ( dev-python/APScheduler[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

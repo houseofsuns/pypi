@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/redis-5.0.1[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.7[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

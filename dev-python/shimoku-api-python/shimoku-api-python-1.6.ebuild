@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	~dev-python/json5-0.9.10[${PYTHON_USEDEP}]
 	~dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]
 	dev-python/shimoku-components-catalog[${PYTHON_USEDEP}]

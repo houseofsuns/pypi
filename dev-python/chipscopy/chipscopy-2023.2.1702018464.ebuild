@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="core-addons jupyter pytcf"
 DEPENDENCIES="<dev-python/more-itertools-11.0[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	~dev-python/antlr4-python3-runtime-4.10[${PYTHON_USEDEP}]
 	core-addons? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	core-addons? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	dev-python/fs[${PYTHON_USEDEP}]
-	dev-python/pyjoulescope_driver[${PYTHON_USEDEP}]
+	dev-python/pyjoulescope-driver[${PYTHON_USEDEP}]
 	dev-python/joulescope[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	dev-python/pyopengl[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.13.2[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
+	<dev-python/pyside6-7.0.0[${PYTHON_USEDEP}]
 	dev-python/PySide6-QtAds[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

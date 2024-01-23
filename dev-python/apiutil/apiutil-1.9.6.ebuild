@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/classutils[${PYTHON_USEDEP}]
 	dev-python/networkutil[${PYTHON_USEDEP}]
 	dev-python/cachingutil[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="tests? ( dev-python/noseofyeti[${PYTHON_USEDEP}] )
+DEPENDENCIES="tests? ( dev-python/noseOfYeti[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

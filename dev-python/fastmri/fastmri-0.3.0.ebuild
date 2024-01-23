@@ -31,14 +31,14 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/runstats[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
@@ -51,13 +51,13 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	tests? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/runstats[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

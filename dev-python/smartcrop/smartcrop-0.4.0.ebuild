@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pillow-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyGObject[${PYTHON_USEDEP}]
+	dev-python/pygobject[${PYTHON_USEDEP}]
 	dev-python/pytoolbox[${PYTHON_USEDEP}]
 	test? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )

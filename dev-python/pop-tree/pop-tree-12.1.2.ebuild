@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/dict-toolbox[${PYTHON_USEDEP}]
 	dev-python/rend[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	full? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	full? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	networkx? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	networkx? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/pyqt5[${PYTHON_USEDEP}] )"
+	networkx? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

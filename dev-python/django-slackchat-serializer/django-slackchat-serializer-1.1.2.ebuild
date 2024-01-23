@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/markslack[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]
 	dev-python/slacker[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"

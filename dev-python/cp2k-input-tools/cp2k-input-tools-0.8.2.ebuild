@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lsp yaml"
 DEPENDENCIES="<dev-python/transitions-0.8[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	yaml? ( <dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}] )
 	lsp? ( dev-python/pygls[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]

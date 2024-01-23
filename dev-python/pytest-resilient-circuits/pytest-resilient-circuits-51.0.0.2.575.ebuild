@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/resilient-circuits[${PYTHON_USEDEP}]
 	~dev-python/requests-mock-1.9[${PYTHON_USEDEP}]
-	dev-python/ConfigParser[${PYTHON_USEDEP}]
+	dev-python/configparser[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

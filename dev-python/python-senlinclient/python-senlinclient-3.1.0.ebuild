@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.11.0[${PYTHON_USEDEP}]
 	>=dev-python/openstacksdk-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/osc-lib-1.11.0[${PYTHON_USEDEP}]

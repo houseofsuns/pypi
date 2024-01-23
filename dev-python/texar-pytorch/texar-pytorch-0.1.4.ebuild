@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/regex-2018.1.10[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/asyml-utilities[${PYTHON_USEDEP}]
 	dist? ( dev-python/adaptdl[${PYTHON_USEDEP}] )
-	extras? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/pillow-3.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/six-1.15[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/filetype[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.3[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

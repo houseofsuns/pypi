@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev prometheus"
-DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.21.1[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.1.16[${PYTHON_USEDEP}]

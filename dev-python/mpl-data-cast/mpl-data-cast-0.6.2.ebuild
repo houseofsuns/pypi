@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.8.0[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
-	dev-python/pyqt6[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	~dev-python/tifffile-2022.3.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

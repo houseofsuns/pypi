@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for transportation modeling"
+DESCRIPTION="A package for transportation modeling [newver 1.0.0.dev0]"
 
 HOMEPAGE="https://github.com/AequilibraE/aequilibrae"
 LICENSE="See license.txt"
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
-	dev-python/openmatrix[${PYTHON_USEDEP}]"
+	dev-python/Rtree[${PYTHON_USEDEP}]
+	dev-python/OpenMatrix[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/whichcraft[${PYTHON_USEDEP}]
 	dev-python/wcmatch[${PYTHON_USEDEP}]
 	dev-python/resplendent[${PYTHON_USEDEP}]
 	dev-python/unanimous[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

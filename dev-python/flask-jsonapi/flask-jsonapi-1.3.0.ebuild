@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sqlalchemy"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-jsonapi[${PYTHON_USEDEP}]
 	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

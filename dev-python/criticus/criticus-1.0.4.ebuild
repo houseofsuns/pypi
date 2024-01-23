@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]
 	dev-python/markdown-del-ins[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/natsort-8.1.0[${PYTHON_USEDEP}]
-	dev-python/pysimplegui[${PYTHON_USEDEP}]
+	dev-python/PySimpleGUI[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

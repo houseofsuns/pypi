@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.13.0[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"

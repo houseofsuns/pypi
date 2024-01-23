@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
 	dev-python/PyAutoGUI[${PYTHON_USEDEP}]
-	dev-python/PyTweening[${PYTHON_USEDEP}]
+	dev-python/pytweening[${PYTHON_USEDEP}]
 	dev-python/python3-xlib[${PYTHON_USEDEP}]
 	dev-python/xlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

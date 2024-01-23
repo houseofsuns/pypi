@@ -27,7 +27,7 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/ansible-builder[${PYTHON_USEDEP}]
 	dev-python/ansible-runner[${PYTHON_USEDEP}]
 	dev-python/ansible-lint[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/onigurumacffi[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/ansible-builder[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-63.1.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-ansible-0.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/ansible-core[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage-enable-subprocess[${PYTHON_USEDEP}] )
+	test? ( dev-python/coverage_enable_subprocess[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )

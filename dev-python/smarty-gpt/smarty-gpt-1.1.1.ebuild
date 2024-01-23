@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library of prompts/contexts that allows to enhance GPT models responses without the involvement of the user [topver 2.0.0]"
+DESCRIPTION="A library of prompts/contexts that allows to enhance GPT models responses without the involvement of the user [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/citiususc/Smarty-GPT"
 LICENSE="Apache License Version 3.0"

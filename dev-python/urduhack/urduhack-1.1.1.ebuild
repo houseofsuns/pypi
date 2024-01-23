@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tf tf-gpu"
 DEPENDENCIES="dev-python/tf2crf[${PYTHON_USEDEP}]
 	dev-python/tensorflow-datasets[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	~dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf-gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )"

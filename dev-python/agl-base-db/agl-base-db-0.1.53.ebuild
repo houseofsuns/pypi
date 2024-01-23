@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
 	dev-python/agl-report-reader[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

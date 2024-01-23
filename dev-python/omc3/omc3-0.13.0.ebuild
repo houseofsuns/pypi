@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cern doc optional test"
 DEPENDENCIES=">=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
@@ -39,34 +39,34 @@ DEPENDENCIES=">=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
 	dev-python/optics-functions[${PYTHON_USEDEP}]
 	dev-python/turn-by-turn[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
-	all? ( dev-python/jpype1[${PYTHON_USEDEP}] )
+	all? ( dev-python/JPype1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytimber[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylogbook[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/kerberos-1.3.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
-	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/QtPy-2.3.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-timeout-1.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/hypothesis-5.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/GitPython-3.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	cern? ( dev-python/jpype1[${PYTHON_USEDEP}] )
+	cern? ( dev-python/JPype1[${PYTHON_USEDEP}] )
 	cern? ( dev-python/pytimber[${PYTHON_USEDEP}] )
 	cern? ( dev-python/pylogbook[${PYTHON_USEDEP}] )
 	cern? ( >=dev-python/kerberos-1.3.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
-	optional? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	optional? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/QtPy-2.3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-timeout-1.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/hypothesis-5.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/jpype1[${PYTHON_USEDEP}] )
+	test? ( dev-python/JPype1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/gitpython[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/GitPython-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

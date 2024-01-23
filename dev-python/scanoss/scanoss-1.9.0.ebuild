@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
 	>dev-python/grpcio-1.42.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pypac[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	dev-python/PyPAC[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/google-api-core[${PYTHON_USEDEP}]
 	fast_winnowing? ( dev-python/scanoss-winnowing[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dev docs test"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	dev-python/clumper[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocstrings-0.8.0[${PYTHON_USEDEP}] )

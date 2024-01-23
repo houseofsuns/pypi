@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/attrs-21.2[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.19[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-notfound-page-0.8[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-apidoc-0.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )

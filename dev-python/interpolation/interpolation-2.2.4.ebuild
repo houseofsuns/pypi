@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/tempita[${PYTHON_USEDEP}]"
+	dev-python/Tempita[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

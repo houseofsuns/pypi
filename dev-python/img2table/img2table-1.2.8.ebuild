@@ -27,7 +27,7 @@ IUSE="aws azure easyocr gcp paddle"
 DEPENDENCIES="dev-python/polars[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-7.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pymupdf[${PYTHON_USEDEP}]
+	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/couchdb[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/CouchDB[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	>=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]

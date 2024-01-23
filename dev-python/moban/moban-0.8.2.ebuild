@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lml[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/crayons[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	full? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	full? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
-	full? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	full? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	full? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
 	full? ( dev-python/breathe[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

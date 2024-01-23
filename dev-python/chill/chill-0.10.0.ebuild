@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli test"
-DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/flask-caching[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	>=dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/docopt-0.6.2[${PYTHON_USEDEP}] )
-	cli? ( dev-python/frozen-flask[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/Frozen-Flask-1.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

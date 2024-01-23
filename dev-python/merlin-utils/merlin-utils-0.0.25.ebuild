@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.7.3[${PYTHON_USEDEP}]
 	~dev-python/google-auth-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/Flask-api[${PYTHON_USEDEP}]
+	~dev-python/flask-api-1.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-datastore[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	dev-python/google-cloud-spanner[${PYTHON_USEDEP}]

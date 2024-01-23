@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pysigma[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pySigma[${PYTHON_USEDEP}]
 	dev-python/pysigma-pipeline-sysmon[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

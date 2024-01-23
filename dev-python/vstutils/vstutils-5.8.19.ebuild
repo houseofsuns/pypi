@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all boto3 doc ldap pil prod rpc sqs stubs test"
 DEPENDENCIES="~dev-python/django-4.2.7[${PYTHON_USEDEP}]
 	dev-python/configparserc[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.5.1[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/drf-yasg[${PYTHON_USEDEP}]
@@ -35,11 +35,11 @@ DEPENDENCIES="~dev-python/django-4.2.7[${PYTHON_USEDEP}]
 	dev-python/ormsgpack[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
-	dev-python/uwsgi[${PYTHON_USEDEP}]
+	dev-python/uWSGI[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/cent[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/jsmin-3.0.1[${PYTHON_USEDEP}]
 	dev-python/django-htmlmin[${PYTHON_USEDEP}]
 	~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
@@ -67,7 +67,7 @@ DEPENDENCIES="~dev-python/django-4.2.7[${PYTHON_USEDEP}]
 	all? ( ~dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	boto3? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="~dev-python/django-4.2.7[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	ldap? ( ~dev-python/python-ldap-3.4.0[${PYTHON_USEDEP}] )
-	pil? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	pil? ( ~dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
 	prod? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	rpc? ( dev-python/celery[${PYTHON_USEDEP}] )
 	rpc? ( dev-python/django-celery-beat[${PYTHON_USEDEP}] )

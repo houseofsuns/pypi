@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyAudio[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyaudio[${PYTHON_USEDEP}]
 	dev-python/faster-whisper[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]

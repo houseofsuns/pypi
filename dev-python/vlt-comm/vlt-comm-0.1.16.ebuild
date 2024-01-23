@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/minimalmodbus[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	~dev-python/pyqtgraph-0.12.3[${PYTHON_USEDEP}]
-	dev-python/PySide2[${PYTHON_USEDEP}]
+	~dev-python/pyside2-5.15.2.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

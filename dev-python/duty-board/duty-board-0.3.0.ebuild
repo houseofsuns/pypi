@@ -54,6 +54,6 @@ DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	doc? ( <dev-python/mkdocstrings-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/termynal[${PYTHON_USEDEP}] )
 	ldap? ( <dev-python/ldap3-3.0.0[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	ldap? ( <dev-python/pillow-11.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

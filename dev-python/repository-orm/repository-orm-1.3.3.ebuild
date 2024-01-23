@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/deepdiff-5.7.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
-	dev-python/pypika[${PYTHON_USEDEP}]
+	dev-python/PyPika[${PYTHON_USEDEP}]
 	dev-python/tinydb-serialization[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/yoyo-migrations[${PYTHON_USEDEP}]"

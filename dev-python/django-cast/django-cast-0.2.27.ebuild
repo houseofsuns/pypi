@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/coreapi[${PYTHON_USEDEP}]
 	dev-python/django-threadedcomments[${PYTHON_USEDEP}]
 	dev-python/django-vite[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/python-akismet[${PYTHON_USEDEP}]
 	dev-python/python-slugify[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/coreapi[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-environ[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django_extensions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/coreapi[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-python-slugify[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	test? ( dev-python/factory_boy[${PYTHON_USEDEP}] )
+	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	test? ( dev-python/feedparser[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )

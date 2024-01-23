@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cocos2d cython full glfw opengl pygame pyglet sdl2"
-DEPENDENCIES="cython? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	cocos2d? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+DEPENDENCIES="cython? ( <dev-python/cython-0.30[${PYTHON_USEDEP}] )
+	cocos2d? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	cocos2d? ( dev-python/cocos2d[${PYTHON_USEDEP}] )
 	cocos2d? ( >=dev-python/pyglet-1.5.6[${PYTHON_USEDEP}] )
 	full? ( dev-python/glfw[${PYTHON_USEDEP}] )
 	full? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	full? ( dev-python/cocos2d[${PYTHON_USEDEP}] )
 	full? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
-	full? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	full? ( <dev-python/cython-0.30[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyglet[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pyglet-1.5.6[${PYTHON_USEDEP}] )
-	glfw? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	glfw? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	glfw? ( dev-python/glfw[${PYTHON_USEDEP}] )
-	opengl? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
-	pygame? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	opengl? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
+	pygame? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pygame? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	pyglet? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	pyglet? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pyglet? ( dev-python/pyglet[${PYTHON_USEDEP}] )
 	pyglet? ( >=dev-python/pyglet-1.5.6[${PYTHON_USEDEP}] )
-	sdl2? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	sdl2? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	sdl2? ( dev-python/PySDL2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

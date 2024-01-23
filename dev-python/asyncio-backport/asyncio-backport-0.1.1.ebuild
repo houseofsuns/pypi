@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage_conditional_plugin[${PYTHON_USEDEP}] )
+	test? ( dev-python/coverage-conditional-plugin[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

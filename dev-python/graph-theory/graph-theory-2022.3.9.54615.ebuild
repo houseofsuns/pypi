@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A graph library [topver 2023.7.4]"
+DESCRIPTION="A graph library [topver 2023.7.4, newver 2023.7.4]"
 
 HOMEPAGE="https://github.com/root-11/graph-theory"
 LICENSE="MIT"

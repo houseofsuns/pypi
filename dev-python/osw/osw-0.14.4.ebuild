@@ -46,7 +46,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pybars3[${PYTHON_USEDEP}]
 	db? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	db? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	ui? ( dev-python/pysimplegui[${PYTHON_USEDEP}] )
+	ui? ( dev-python/PySimpleGUI[${PYTHON_USEDEP}] )
 	dataimport? ( dev-python/geopy[${PYTHON_USEDEP}] )
 	dataimport? ( dev-python/deepl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

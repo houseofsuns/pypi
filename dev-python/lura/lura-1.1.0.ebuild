@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]
 	>=dev-python/deepmerge-0.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyaml-20.4.0[${PYTHON_USEDEP}]

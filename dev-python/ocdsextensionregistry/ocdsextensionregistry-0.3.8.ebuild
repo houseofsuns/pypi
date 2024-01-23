@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/json-merge-patch[${PYTHON_USEDEP}]
 	>=dev-python/requests-cache-1.0[${PYTHON_USEDEP}]
 	>dev-python/cattrs-22.1.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/Babel[${PYTHON_USEDEP}] )
-	cli? ( dev-python/MyST-Parser[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/myst-parser-0.13.5[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ocds-babel[${PYTHON_USEDEP}] )
-	cli? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )

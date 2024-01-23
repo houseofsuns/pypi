@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/PyGObject[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pygobject-4.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/furo-2024.0[${PYTHON_USEDEP}] )
 	<dev-python/pycairo-2.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )"

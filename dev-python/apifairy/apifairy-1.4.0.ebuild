@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES=">=dev-python/flask-1.1.0[${PYTHON_USEDEP}]
 	dev-python/flask-marshmallow[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
-	dev-python/flask-httpauth[${PYTHON_USEDEP}]
+	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]
 	>=dev-python/apispec-4.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

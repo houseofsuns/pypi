@@ -28,15 +28,15 @@ DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.30.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-5.2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/mtcnn[${PYTHON_USEDEP}]
 	dev-python/retina-face[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

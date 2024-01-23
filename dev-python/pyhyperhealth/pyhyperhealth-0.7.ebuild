@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Hyperledger Iroha Healthcare Permissions Library [topver 1.6]"
+DESCRIPTION="Python Hyperledger Iroha Healthcare Permissions Library [topver 1.6, newver 1.6]"
 
 HOMEPAGE="https://github.com/Dcode99/Blockchain-Healthcare-Project/"
 LICENSE="Apache-2.0"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs export-polarion provision-beaker provision-virtual report-junit report-polarion test-convert"
 DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/fmf[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.16.6[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]

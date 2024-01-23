@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete tests visualization"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	dev-python/affine[${PYTHON_USEDEP}]
 	>=dev-python/blosc-1.10.6[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-3.1.1[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.6.3[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8.1[${PYTHON_USEDEP}]
-	dev-python/strenum[${PYTHON_USEDEP}]
+	dev-python/StrEnum[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.32.1[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]

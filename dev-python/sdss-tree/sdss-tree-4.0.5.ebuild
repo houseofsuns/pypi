@@ -27,13 +27,13 @@ IUSE="dev docs"
 DEPENDENCIES=">=dev-python/pygments-2.6[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/recommonmark-0.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/six-1.14[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/matplotlib-3.1.4[${PYTHON_USEDEP}] )
@@ -52,13 +52,13 @@ DEPENDENCIES=">=dev-python/pygments-2.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-3.1.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.33.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/recommonmark-0.6[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/six-1.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

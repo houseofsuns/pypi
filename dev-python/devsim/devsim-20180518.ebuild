@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DEVSIM TCAD Simulator [topver 2.7.1, badver 0.1dev]"
+DESCRIPTION="DEVSIM TCAD Simulator [topver 2.7.1, newver 2.7.1, badver 0.1dev]"
 
 HOMEPAGE="https://devsim.org"
 LICENSE="Apache-2.0"

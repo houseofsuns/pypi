@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scitrack[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kaleido[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	dev? ( dev-python/scriv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-video[${PYTHON_USEDEP}] )
@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	doc? ( dev-python/kaleido[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	doc? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-video[${PYTHON_USEDEP}] )

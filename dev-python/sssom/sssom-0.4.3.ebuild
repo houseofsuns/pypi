@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sparqlwrapper[${PYTHON_USEDEP}]
+	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	dev-python/sssom-schema[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

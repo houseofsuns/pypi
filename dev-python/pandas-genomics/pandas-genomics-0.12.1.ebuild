@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/cyvcf2[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/numpydoc-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )

@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/django-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.11.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema-to-openapi[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/drf_yasg[${PYTHON_USEDEP}]"
+	dev-python/drf-yasg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

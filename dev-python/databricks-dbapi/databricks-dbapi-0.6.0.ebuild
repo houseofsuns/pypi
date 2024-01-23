@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hive odbc sqlalchemy"
-DEPENDENCIES="hive? ( dev-python/pyhive[${PYTHON_USEDEP}] )
+DEPENDENCIES="hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	hive? ( <dev-python/thrift-0.16.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"

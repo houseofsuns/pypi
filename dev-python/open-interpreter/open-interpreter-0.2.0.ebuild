@@ -44,9 +44,9 @@ DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/posthog[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	os? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	os? ( dev-python/pyautogui[${PYTHON_USEDEP}] )
+	os? ( dev-python/PyAutoGUI[${PYTHON_USEDEP}] )
 	os? ( dev-python/plyer[${PYTHON_USEDEP}] )
-	os? ( dev-python/pywinctl[${PYTHON_USEDEP}] )
+	os? ( dev-python/PyWinCtl[${PYTHON_USEDEP}] )
 	safe? ( dev-python/semgrep[${PYTHON_USEDEP}] )
 	safe? ( dev-python/yaspin[${PYTHON_USEDEP}] )
 	os? ( <dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}] )"

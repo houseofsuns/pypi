@@ -31,14 +31,14 @@ DEPENDENCIES="dev-python/abagen[${PYTHON_USEDEP}]
 	dev-python/neurosynth[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
-	dev-python/nimare[${PYTHON_USEDEP}]
+	dev-python/NiMARE[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	dev-python/templateflow[${PYTHON_USEDEP}]
 	dev-python/trimesh[${PYTHON_USEDEP}]
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hcp-utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )

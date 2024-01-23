@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/lightning[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	optional? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	optional? ( dev-python/rich[${PYTHON_USEDEP}] )
 	optional? ( dev-python/thop[${PYTHON_USEDEP}] )

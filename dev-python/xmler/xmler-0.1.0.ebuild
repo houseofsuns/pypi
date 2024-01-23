@@ -12,12 +12,12 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Converts a Python dictionary into a XML string with namespace support. [topver 0.2.0]"
+DESCRIPTION="Converts a Python dictionary into a XML string with namespace support. [topver 0.2.0, newver 0.2.0]"
 
 HOMEPAGE="https://github.com/iDev0urer/xmler"
 LICENSE="LICENCE"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.linux-x86_64.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

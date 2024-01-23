@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/openmeteo-sdk[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-formatter-junit-xml[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	test? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint-junit[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pylint-3.0.1[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	analyzer? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	analyzer? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	analyzer? ( dev-python/shap[${PYTHON_USEDEP}] )
-	cli? ( dev-python/Click[${PYTHON_USEDEP}] )
+	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	cli? ( dev-python/docker[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pyhcl[${PYTHON_USEDEP}] )

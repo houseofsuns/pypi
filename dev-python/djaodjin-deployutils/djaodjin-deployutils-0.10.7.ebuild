@@ -27,15 +27,15 @@ IUSE="django flask"
 DEPENDENCIES=">=dev-python/boto3-1.12.31[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.2.2[${PYTHON_USEDEP}]
 	>=dev-python/pip-8.1.2[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	django? ( dev-python/django-assets[${PYTHON_USEDEP}] )
 	django? ( >=dev-python/djangorestframework-3.9.4[${PYTHON_USEDEP}] )
-	django? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	django? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	django? ( dev-python/monotonic[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )"
+	flask? ( >=dev-python/flask-0.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

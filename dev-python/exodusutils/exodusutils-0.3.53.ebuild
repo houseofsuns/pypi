@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]"
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

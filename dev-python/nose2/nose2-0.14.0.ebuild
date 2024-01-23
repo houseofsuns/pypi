@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage_plugin dev"
 DEPENDENCIES="coverage_plugin? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

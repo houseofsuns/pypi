@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/DBUtils-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]"
+	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

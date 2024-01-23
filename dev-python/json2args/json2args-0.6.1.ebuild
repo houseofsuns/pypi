@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	data? ( dev-python/polars[${PYTHON_USEDEP}] )
 	data? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	data? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	data? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	data? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	data? ( dev-python/dask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

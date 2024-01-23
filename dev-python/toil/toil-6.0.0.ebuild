@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2012.0[${PYTHON_USEDEP}]
 	dev-python/enlighten[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	<dev-python/ConfigArgParse-2.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.15[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml-string[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	all? ( <=dev-python/ruamel-yaml-0.18.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}] )
 	all? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/CacheControl[${PYTHON_USEDEP}] )
+	all? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pynacl-2.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/apache-libcloud-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	cwl? ( <=dev-python/ruamel-yaml-0.18.3[${PYTHON_USEDEP}] )
 	cwl? ( >=dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}] )
 	cwl? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
-	cwl? ( dev-python/CacheControl[${PYTHON_USEDEP}] )
+	cwl? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
 	encryption? ( <dev-python/pynacl-2.0[${PYTHON_USEDEP}] )
 	google? ( <dev-python/apache-libcloud-3.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

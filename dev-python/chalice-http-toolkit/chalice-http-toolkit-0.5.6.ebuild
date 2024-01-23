@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/chalice[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	layered? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	layered? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	layered? ( ~dev-python/pillow-8.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

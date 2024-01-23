@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Recycle for linux [topver 1.3.2]"
+DESCRIPTION="Recycle for linux [topver 1.3.2, newver 1.3.2]"
 
 HOMEPAGE="https://github.com/twfb/recycle"
 LICENSE="BSD"

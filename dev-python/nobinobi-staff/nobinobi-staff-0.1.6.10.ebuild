@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/datetimerange[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DateTimeRange[${PYTHON_USEDEP}]
 	dev-python/django-admin-rangefilter[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap-datepicker-plus[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]

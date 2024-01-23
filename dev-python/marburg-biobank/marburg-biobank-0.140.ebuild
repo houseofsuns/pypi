@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interface code to interact with data from the Ovara.net biobank. [topver 0.156]"
+DESCRIPTION="Interface code to interact with data from the Ovara.net biobank. [topver 0.156, newver 0.156]"
 
 HOMEPAGE="http://www.ovara.net"
 LICENSE="MIT"

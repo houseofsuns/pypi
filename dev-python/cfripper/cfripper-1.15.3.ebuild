@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
 	dev-python/pycfmodel[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
@@ -45,8 +45,8 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/importlib-metadata-4.11.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jsmin-3.0.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markdown-3.3.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-exclude[${PYTHON_USEDEP}] )
@@ -55,12 +55,12 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mkdocs-material-extensions-1.0.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-minify-plugin-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pygments-2.11.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pymdown-extensions-9.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pyparsing-3.0.7[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyyaml-env-tag[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pyyaml_env_tag-0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/watchdog-2.1.7[${PYTHON_USEDEP}] )

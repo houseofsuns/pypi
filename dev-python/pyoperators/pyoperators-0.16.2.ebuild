@@ -27,14 +27,14 @@ IUSE="dev fft mpi wavelets"
 DEPENDENCIES=">=dev-python/numexpr-2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.9[${PYTHON_USEDEP}]
-	dev? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pywavelets-0.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	fft? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	fft? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
 	wavelets? ( >=dev-python/pywavelets-0.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

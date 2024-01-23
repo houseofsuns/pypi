@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Classes to run producers (iterators) and consumers (coroutines) in a background thread/process. [topver 0.3.0]"
+DESCRIPTION="Classes to run producers (iterators) and consumers (coroutines) in a background thread/process. [topver 0.3.0, newver 0.3.0]"
 
 HOMEPAGE="https://github.com/jruere/concurrent-iterator"
 LICENSE="LGPL-3"

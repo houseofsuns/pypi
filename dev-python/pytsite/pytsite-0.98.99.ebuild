@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Simple Web Framework [topver 9.3.7]"
+DESCRIPTION="The Simple Web Framework [topver 9.3.7, newver 9.3.7]"
 
 HOMEPAGE="https://github.com/pytsite/pytsite"
 LICENSE="MIT"

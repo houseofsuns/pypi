@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	doc? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	doc? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	test? ( <dev-python/shellingham-2.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )

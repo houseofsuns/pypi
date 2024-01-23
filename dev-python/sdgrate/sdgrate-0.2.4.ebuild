@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/diffusers[${PYTHON_USEDEP}]
 	dev-python/compel[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"

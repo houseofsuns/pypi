@@ -30,7 +30,7 @@ DEPENDENCIES="test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyheavydb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyheavydb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

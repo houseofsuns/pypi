@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test twilio whatsapp whatsapp_sync"
 DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.17.5[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
@@ -39,18 +39,18 @@ DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
 	test? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
 	test? ( dev-python/ctparse[${PYTHON_USEDEP}] )
 	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/twilio[${PYTHON_USEDEP}] )
-	twilio? ( dev-python/quart[${PYTHON_USEDEP}] )
+	twilio? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	twilio? ( ~dev-python/hypercorn-0.13.2[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/redis[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	twilio? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	whatsapp? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	twilio? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	whatsapp? ( dev-python/flask[${PYTHON_USEDEP}] )
 	whatsapp? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	whatsapp? ( dev-python/heyoo[${PYTHON_USEDEP}] )
 	whatsapp? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	whatsapp? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	whatsapp? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	whatsapp_sync? ( ~dev-python/redis-3.4.1[${PYTHON_USEDEP}] )
 	whatsapp_sync? ( dev-python/heyoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

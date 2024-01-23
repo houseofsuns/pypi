@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pygments shell"
 DEPENDENCIES="dev-python/pulp-glue[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	pygments? ( dev-python/pygments[${PYTHON_USEDEP}] )

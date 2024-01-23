@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 1.1.3]"
+DESCRIPTION=" [topver 1.1.4, newver 1.1.4]"
 
 HOMEPAGE="https://github.com/pytgcalls/pytgcalls"
 LICENSE="LGPL-3"
@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyrogram[${PYTHON_USEDEP}]
+	dev-python/Pyrogram[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/tgcrypto[${PYTHON_USEDEP}]"
+	dev-python/TgCrypto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

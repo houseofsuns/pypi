@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pusher[${PYTHON_USEDEP}]
-	dev-python/pysher[${PYTHON_USEDEP}]
+	dev-python/Pysher[${PYTHON_USEDEP}]
 	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

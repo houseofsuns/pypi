@@ -32,7 +32,7 @@ DEPENDENCIES="debug? ( dev-python/PySnooper[${PYTHON_USEDEP}] )
 	http? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	<dev-python/inflect-6.0[${PYTHON_USEDEP}]
 	<dev-python/isort-6.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	validation? ( <dev-python/openapi-spec-validator-0.7.0[${PYTHON_USEDEP}] )
 	dev-python/packaging[${PYTHON_USEDEP}]
 	validation? ( dev-python/prance[${PYTHON_USEDEP}] )

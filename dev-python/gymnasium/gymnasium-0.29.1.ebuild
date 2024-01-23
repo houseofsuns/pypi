@@ -27,9 +27,9 @@ IUSE="accept-rom-license all atari box2d classic-control classic_control jax muj
 DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
-	dev-python/farama-notifications[${PYTHON_USEDEP}]
-	accept-rom-license? ( dev-python/autorom[${PYTHON_USEDEP}] )
-	all? ( dev-python/shimmy[${PYTHON_USEDEP}] )
+	dev-python/Farama-Notifications[${PYTHON_USEDEP}]
+	accept-rom-license? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
+	all? ( dev-python/Shimmy[${PYTHON_USEDEP}] )
 	all? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/swig[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	atari? ( dev-python/shimmy[${PYTHON_USEDEP}] )
+	atari? ( dev-python/Shimmy[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
 	box2d? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/swig[${PYTHON_USEDEP}] )

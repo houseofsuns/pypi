@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/etils[${PYTHON_USEDEP}]
 	dev-python/lark[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev? ( dev-python/tf-nightly[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-apitree[${PYTHON_USEDEP}] )
-	docs? ( dev-python/dataclass_array[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/dataclass-array[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

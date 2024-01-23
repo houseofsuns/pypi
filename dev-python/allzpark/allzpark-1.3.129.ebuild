@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bleeding-rez[${PYTHON_USEDEP}]
 	dev-python/allzparkdemo[${PYTHON_USEDEP}]
-	dev-python/PySide2[${PYTHON_USEDEP}]"
+	dev-python/pyside2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

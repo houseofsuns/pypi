@@ -54,7 +54,7 @@ DEPENDENCIES="<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	vision? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	vision? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	vision? ( >=dev-python/seaborn-0.1.0[${PYTHON_USEDEP}] )
-	vision? ( dev-python/imagehash[${PYTHON_USEDEP}] )
+	vision? ( dev-python/ImageHash[${PYTHON_USEDEP}] )
 	vision? ( >=dev-python/lxml-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev-python/dimod[${PYTHON_USEDEP}]
 	dev-python/dwave-neal[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

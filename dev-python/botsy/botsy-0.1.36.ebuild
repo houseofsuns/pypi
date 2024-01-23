@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	<dev-python/pygame-3.0.0[${PYTHON_USEDEP}]
-	dev-python/speechrecognition[${PYTHON_USEDEP}]
+	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
 	dev-python/jprint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

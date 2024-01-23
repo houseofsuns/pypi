@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/redis-4.5.0[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-6.2.1[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.10[${PYTHON_USEDEP}]
 	dev-python/py-frameless-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

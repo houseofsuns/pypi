@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pycodestyle-2.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.13.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyopenssl-20.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-freezegun-0.4.2[${PYTHON_USEDEP}] )

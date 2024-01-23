@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/click-5.0[${PYTHON_USEDEP}]
 	dev-python/httpie[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pygments-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

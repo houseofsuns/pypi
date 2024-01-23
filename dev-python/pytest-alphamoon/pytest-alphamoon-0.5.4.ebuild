@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Static code checks used at Alphamoon [topver 2021.12.30.1308]"
+DESCRIPTION="Static code checks used at Alphamoon [topver 2021.12.30.1308, newver 2021.12.30.1308]"
 
 HOMEPAGE="https://gitlab.com/alphamoon/internal_tools/pytest_alphamoon"
 LICENSE="MIT"

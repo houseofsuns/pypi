@@ -27,7 +27,7 @@ IUSE="all stylecheck test"
 DEPENDENCIES="<dev-python/numpy-1.29[${PYTHON_USEDEP}]
 	dev-python/fastrlock[${PYTHON_USEDEP}]
 	all? ( <dev-python/scipy-1.14[${PYTHON_USEDEP}] )
-	all? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	all? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	stylecheck? ( ~dev-python/autopep8-1.5.5[${PYTHON_USEDEP}] )
 	stylecheck? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )

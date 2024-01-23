@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 DEPENDENCIES=">=dev-python/redis-3.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/six[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

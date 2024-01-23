@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter_server[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-server-2.7.3[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev-python/google-cloud-jupyter-config[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

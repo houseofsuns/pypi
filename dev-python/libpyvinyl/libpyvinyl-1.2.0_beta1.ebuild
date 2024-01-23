@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
 	<=dev-python/dill-0.3.5.1[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zero Knowledge security for Python [topver 0.8.6]"
+DESCRIPTION="Zero Knowledge security for Python [topver 0.8.6, newver 0.8.6]"
 
 HOMEPAGE="https://www.krptn.dev/"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django flask mssql mysql postgresql"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/webauthn[${PYTHON_USEDEP}]
 	django? ( dev-python/django[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )

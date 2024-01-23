@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-apidoc-0.4.0[${PYTHON_USEDEP}] )

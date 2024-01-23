@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/igittigitt[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-0.21.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/faker[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/Faker-16.6.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/numpy-1.24.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )

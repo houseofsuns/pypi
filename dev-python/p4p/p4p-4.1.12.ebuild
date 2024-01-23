@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/epicscorelibs[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.8.2[${PYTHON_USEDEP}]
 	>=dev-python/nose2-0.8.0[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]
-	qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )"
+	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

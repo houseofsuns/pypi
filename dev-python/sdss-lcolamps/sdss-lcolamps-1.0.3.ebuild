@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click_default_group[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sdss-clu[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

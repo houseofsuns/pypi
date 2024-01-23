@@ -28,26 +28,26 @@ DEPENDENCIES="dev-python/moderngl[${PYTHON_USEDEP}]
 	~dev-python/pyglet-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/pyrr[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	pysdl2? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	pyside2? ( <dev-python/pyside2-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pywavefront[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyWavefront[${PYTHON_USEDEP}] )
 	dev? ( dev-python/trimesh[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	glfw? ( dev-python/glfw[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/ReportLab[${PYTHON_USEDEP}] )
+	pdf? ( >=dev-python/reportlab-1.2[${PYTHON_USEDEP}] )
 	pygame? ( >=dev-python/pygame-2.0.1[${PYTHON_USEDEP}] )
 	pygame-ce? ( dev-python/pygame-ce[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pywavefront? ( dev-python/pywavefront[${PYTHON_USEDEP}] )
+	pywavefront? ( dev-python/PyWavefront[${PYTHON_USEDEP}] )
 	tk? ( dev-python/pyopengltk[${PYTHON_USEDEP}] )
 	trimesh? ( <dev-python/trimesh-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

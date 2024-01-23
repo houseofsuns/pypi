@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="<dev-python/elasticsearch-3.0.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-API[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
+	dev-python/flask-api[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw-ext[${PYTHON_USEDEP}]"

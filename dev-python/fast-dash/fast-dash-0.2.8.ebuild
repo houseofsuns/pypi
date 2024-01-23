@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
 	dev-python/dash-iconify[${PYTHON_USEDEP}]

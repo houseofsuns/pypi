@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/futurist[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
 	dev-python/neutron-lib[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
 	>=dev-python/ovs-2.8.0[${PYTHON_USEDEP}]
 	dev-python/ovsdbapp[${PYTHON_USEDEP}]
 	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-5.0.2[${PYTHON_USEDEP}]

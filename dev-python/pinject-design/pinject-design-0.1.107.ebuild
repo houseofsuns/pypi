@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/returns[${PYTHON_USEDEP}]
-	dev-python/expression[${PYTHON_USEDEP}]
+	dev-python/Expression[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]

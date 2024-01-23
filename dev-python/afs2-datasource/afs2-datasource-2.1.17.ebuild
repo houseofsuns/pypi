@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="For AFS developer to access Datasource [topver 3.8.2]"
+DESCRIPTION="For AFS developer to access Datasource [topver 3.8.2, newver 3.8.2]"
 
 HOMEPAGE="https://github.com/stacy0416/afs2-datasource"
 LICENSE="Apache-2.0"

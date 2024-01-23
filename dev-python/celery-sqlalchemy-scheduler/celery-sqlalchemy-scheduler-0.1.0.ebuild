@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Scheduler Based SQLalchemy For Celery [topver 0.3.0]"
+DESCRIPTION="A Scheduler Based SQLalchemy For Celery [topver 0.3.0, newver 0.3.0]"
 
 HOMEPAGE="https://github.com/AngelLiang/celery-sqlalchemy-scheduler"
 LICENSE="MIT"

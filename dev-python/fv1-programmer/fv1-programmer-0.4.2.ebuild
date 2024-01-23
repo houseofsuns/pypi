@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/easymcp2221[${PYTHON_USEDEP}]
+	dev-python/EasyMCP2221[${PYTHON_USEDEP}]
 	<dev-python/intelhex-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

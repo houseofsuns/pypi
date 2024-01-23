@@ -32,9 +32,9 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.5[${PYTHON_USEDEP}]
 	app? ( >=dev-python/flask-0.10[${PYTHON_USEDEP}] )
 	app? ( >=dev-python/humanize-4.0[${PYTHON_USEDEP}] )
-	app? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	app? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	cli? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/reader[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

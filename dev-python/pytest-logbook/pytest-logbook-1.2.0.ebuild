@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Logbook[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/logbook-0.11.3[${PYTHON_USEDEP}]
 	>=dev-python/pytest-2.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

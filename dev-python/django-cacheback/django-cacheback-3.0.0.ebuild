@@ -27,6 +27,6 @@ IUSE="celery docs rq"
 DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	rq? ( dev-python/django-rq[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

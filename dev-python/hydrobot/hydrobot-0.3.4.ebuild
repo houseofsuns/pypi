@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/hilltop-py[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff-lsp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )

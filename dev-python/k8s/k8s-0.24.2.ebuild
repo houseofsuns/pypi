@@ -36,6 +36,6 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-helpers-namespace-2019.1.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-1.6.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/mdnsbridge[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	>dev-python/cryptography-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

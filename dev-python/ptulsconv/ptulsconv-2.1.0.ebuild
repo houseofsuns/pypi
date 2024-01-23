@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/reportlab[${PYTHON_USEDEP}]
 	dev-python/py-ptsl[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

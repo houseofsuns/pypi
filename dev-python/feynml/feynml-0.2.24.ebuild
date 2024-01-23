@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/cssselect[${PYTHON_USEDEP}]
 	interfaces? ( dev-python/pyhepmc[${PYTHON_USEDEP}] )
 	interfaces? ( dev-python/pylhe[${PYTHON_USEDEP}] )
 	interfaces? ( dev-python/pyqgraf[${PYTHON_USEDEP}] )
-	dev-python/smpl_doc[${PYTHON_USEDEP}]
-	dev-python/smpl_io[${PYTHON_USEDEP}]
-	dev-python/smpl_util[${PYTHON_USEDEP}]
+	dev-python/smpl-doc[${PYTHON_USEDEP}]
+	dev-python/smpl-io[${PYTHON_USEDEP}]
+	dev-python/smpl-util[${PYTHON_USEDEP}]
 	dev-python/xsdata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

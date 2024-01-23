@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/airtest[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/pyclipper[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="http pydantic sqlalchemy"
-DEPENDENCIES="sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+DEPENDENCIES="sqlalchemy? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	http? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
 	pydantic? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

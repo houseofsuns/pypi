@@ -28,14 +28,14 @@ DEPENDENCIES="<dev-python/Babel-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
 	dev-python/meza[${PYTHON_USEDEP}]
-	dev-python/Mezmorize[${PYTHON_USEDEP}]
+	dev-python/mezmorize[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pygogo[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	async? ( <dev-python/treq-22.0.0[${PYTHON_USEDEP}] )
-	async? ( dev-python/Twisted[${PYTHON_USEDEP}] )
+	async? ( <dev-python/twisted-22.0.0[${PYTHON_USEDEP}] )
 	develop? ( >dev-python/pip-20.0[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/wheel-0.29.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/black-22.0[${PYTHON_USEDEP}] )

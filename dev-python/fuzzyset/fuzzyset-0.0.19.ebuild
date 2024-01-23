@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple python fuzzyset implementation. [topver 0.1.2]"
+DESCRIPTION="A simple python fuzzyset implementation. [topver 0.1.2, newver 0.1.2]"
 
 HOMEPAGE="https://github.com/axiak/fuzzyset/"
 LICENSE="BSD"

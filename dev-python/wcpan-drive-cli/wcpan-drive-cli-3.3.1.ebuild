@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-11.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/wcpan-drive-core[${PYTHON_USEDEP}]
 	dev-python/wcpan-logging[${PYTHON_USEDEP}]
 	dev-python/wcpan-queue[${PYTHON_USEDEP}]"

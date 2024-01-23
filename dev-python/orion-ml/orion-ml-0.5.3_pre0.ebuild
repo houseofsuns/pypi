@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.3[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pydata-sphinx-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}] )

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aleksis-core[${PYTHON_USEDEP}]
-	dev-python/aleksis-app-alsijil[${PYTHON_USEDEP}]
-	dev-python/aleksis-app-chronos[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/AlekSIS-Core[${PYTHON_USEDEP}]
+	dev-python/AlekSIS-App-Alsijil[${PYTHON_USEDEP}]
+	dev-python/AlekSIS-App-Chronos[${PYTHON_USEDEP}]
 	dev-python/aleksis-app-csvimport[${PYTHON_USEDEP}]
 	dev-python/aleksis-app-dashboardfeeds[${PYTHON_USEDEP}]
 	dev-python/aleksis-app-hjelp[${PYTHON_USEDEP}]
 	dev-python/aleksis-app-ldap[${PYTHON_USEDEP}]
-	dev-python/aleksis-app-resint[${PYTHON_USEDEP}]
+	dev-python/AlekSIS-App-Resint[${PYTHON_USEDEP}]
 	dev-python/aleksis-app-untis[${PYTHON_USEDEP}]
 	dev-python/aleksis-app-matrix[${PYTHON_USEDEP}]
 	dev-python/aleksis-app-stoelindeling[${PYTHON_USEDEP}]"

@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-log-0.4.0[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/xlrd-2.0.0[${PYTHON_USEDEP}]
@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	dev-python/fpdf[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	<dev-python/pillow-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

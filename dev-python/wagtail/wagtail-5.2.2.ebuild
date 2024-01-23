@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.1[${PYTHON_USEDEP}]
 	dev-python/django-modelcluster[${PYTHON_USEDEP}]
 	dev-python/django-permissionedforms[${PYTHON_USEDEP}]
 	<dev-python/django-taggit-5.0[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
 	<dev-python/django-filter-24.0[${PYTHON_USEDEP}]
 	dev-python/draftjs-exporter[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
 	dev-python/Willow[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/telepath[${PYTHON_USEDEP}]
 	docs? ( <dev-python/pyenchant-4.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-spelling-6.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-wagtail-theme[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.63.1[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )

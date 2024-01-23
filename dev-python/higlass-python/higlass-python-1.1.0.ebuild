@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs fuse"
 DEPENDENCIES="dev-python/anywidget[${PYTHON_USEDEP}]
 	dev-python/higlass-schema[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-server-proxy-3.0[${PYTHON_USEDEP}]
 	dev-python/servir[${PYTHON_USEDEP}]
 	dev? ( dev-python/anywidget[${PYTHON_USEDEP}] )

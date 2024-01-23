@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.8.2[${PYTHON_USEDEP}]
 	>=dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

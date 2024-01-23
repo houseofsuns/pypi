@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/paramiko-2.11.0[${PYTHON_USEDEP}]
 	dev-python/databricks-api[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )

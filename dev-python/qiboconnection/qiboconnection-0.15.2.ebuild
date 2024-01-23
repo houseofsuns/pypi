@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
 	dev-python/qibo[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/websockets-10.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

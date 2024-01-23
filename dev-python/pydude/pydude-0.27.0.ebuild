@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bs4 lxml parsel selenium"
 DEPENDENCIES="dev-python/braveblock[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	bs4? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
 	lxml? ( <dev-python/cssselect-2.0.0[${PYTHON_USEDEP}] )
 	bs4? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )

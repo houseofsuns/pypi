@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	test? ( dev-python/tox-pytest-summary[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/sphinxcontrib-apidoc-0.4.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}] )

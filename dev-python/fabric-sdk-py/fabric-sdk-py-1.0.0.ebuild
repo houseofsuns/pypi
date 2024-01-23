@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/aiogrpc[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
-	dev-python/rx[${PYTHON_USEDEP}]
+	dev-python/Rx[${PYTHON_USEDEP}]
 	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/couchdb[${PYTHON_USEDEP}]"
+	dev-python/CouchDB[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

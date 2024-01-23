@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A volume modeler computation-oriented. Include rendering bindings. [topver 0.15.2]"
+DESCRIPTION="A volume modeler computation-oriented. Include rendering bindings. [topver 0.15.2, newver 0.15.2]"
 
 HOMEPAGE="https://github.com/Dessia-tech/volmdlr"
 LICENSE="Creative Commons Attribution-Share Alike license"

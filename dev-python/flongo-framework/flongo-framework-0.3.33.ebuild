@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Query-String-Manager[${PYTHON_USEDEP}]
 	dev-python/gmail-python-client[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.5.0[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]

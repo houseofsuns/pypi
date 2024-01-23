@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
-	dev-python/pympler[${PYTHON_USEDEP}]
+	dev-python/Pympler[${PYTHON_USEDEP}]
 	dev-python/pyreferrer[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

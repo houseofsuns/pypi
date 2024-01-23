@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ptable[${PYTHON_USEDEP}]"
+	dev-python/PTable[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

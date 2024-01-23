@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/stdlb[${PYTHON_USEDEP}]
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/reportlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyPDF2[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyPDF2[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/stdlb[${PYTHON_USEDEP}]
 	pd? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	pd? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/reportlab[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/pyPDF2[${PYTHON_USEDEP}] )
+	pdf? ( dev-python/PyPDF2[${PYTHON_USEDEP}] )
 	setup? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"

@@ -34,9 +34,9 @@ DEPENDENCIES="dev-python/dnslib[${PYTHON_USEDEP}]
 	dev-python/publicsuffix2[${PYTHON_USEDEP}]
 	dev-python/pycountry[${PYTHON_USEDEP}]
 	dev-python/pymispwarninglists[${PYTHON_USEDEP}]
-	dev-python/Requests[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/torf[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/werkzeug-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

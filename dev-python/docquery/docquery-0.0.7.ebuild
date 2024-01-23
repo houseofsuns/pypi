@@ -27,7 +27,7 @@ IUSE="all dev donut web"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/pdfplumber[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pytesseract[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

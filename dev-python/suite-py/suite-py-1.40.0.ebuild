@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/InquirerPy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/PyGithub-1.57[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.0.2[${PYTHON_USEDEP}]
 	dev-python/autoupgrade-prima[${PYTHON_USEDEP}]
 	<dev-python/black-23.0.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.84[${PYTHON_USEDEP}]

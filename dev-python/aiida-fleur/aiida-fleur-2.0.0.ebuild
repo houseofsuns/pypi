@@ -31,11 +31,11 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev-python/masci-tools[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pyhull[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}] )
 	graphs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

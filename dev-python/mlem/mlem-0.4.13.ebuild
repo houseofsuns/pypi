@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Version and deploy your models following GitOps principles [topver 0.4.14]"
+DESCRIPTION="Version and deploy your models following GitOps principles [topver 0.4.14, newver 0.4.14]"
 
 HOMEPAGE="https://mlem.ai"
 LICENSE="Apache-2.0"
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	dev-python/flatdict[${PYTHON_USEDEP}]
 	dev-python/iterative-telemetry[${PYTHON_USEDEP}]
@@ -106,7 +106,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	all? ( dev-python/pygit2[${PYTHON_USEDEP}] )
 	all? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/dvc[${PYTHON_USEDEP}] )
 	all? ( dev-python/dvc[${PYTHON_USEDEP}] )
 	all? ( dev-python/dvc[${PYTHON_USEDEP}] )
@@ -156,7 +156,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	onnxruntime? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	onnxruntime? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pil? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	pil? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	pil? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/prometheus-fastapi-instrumentator[${PYTHON_USEDEP}] )
 	rmq? ( dev-python/pika[${PYTHON_USEDEP}] )
@@ -235,7 +235,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	tests? ( dev-python/pygit2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"

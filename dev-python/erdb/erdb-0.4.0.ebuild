@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-9.2[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-6.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-versioning[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.19[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

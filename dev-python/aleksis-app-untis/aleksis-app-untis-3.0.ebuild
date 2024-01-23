@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
-	dev-python/aleksis-core[${PYTHON_USEDEP}]
-	dev-python/aleksis-app-chronos[${PYTHON_USEDEP}]"
+	dev-python/AlekSIS-Core[${PYTHON_USEDEP}]
+	dev-python/AlekSIS-App-Chronos[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
+	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/arnparse[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.14.2[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.17.63[${PYTHON_USEDEP}]

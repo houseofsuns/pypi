@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/fileformats[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )

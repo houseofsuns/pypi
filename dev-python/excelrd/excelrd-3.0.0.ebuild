@@ -28,7 +28,7 @@ DEPENDENCIES="dev? ( dev-python/releasecmd[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

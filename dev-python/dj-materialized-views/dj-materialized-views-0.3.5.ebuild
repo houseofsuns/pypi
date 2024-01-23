@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django Admin tool to create, drop and periodically refresh materialized views in Postgres [topver 0.4.1]"
+DESCRIPTION="Django Admin tool to create, drop and periodically refresh materialized views in Postgres [topver 0.4.1, newver 0.4.1]"
 
 HOMEPAGE=""
 LICENSE="BSD"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-celery-beat[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

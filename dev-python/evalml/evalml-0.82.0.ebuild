@@ -69,7 +69,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pydata-sphinx-theme-0.3.1[${PYTHON_USEDEP}] )
 	docs? ( <=dev-python/astroid-2.6.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbconvert-6.4.5[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
@@ -82,8 +82,8 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/nbval-0.9.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	test? ( <dev-python/ipython-8.12.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-6.4[${PYTHON_USEDEP}] )
 	updater? ( dev-python/alteryx-open-src-update-checker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

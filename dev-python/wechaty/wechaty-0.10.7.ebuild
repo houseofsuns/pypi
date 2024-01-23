@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/pyee[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/wechaty-puppet[${PYTHON_USEDEP}]
 	dev-python/wechaty-puppet-service[${PYTHON_USEDEP}]
-	dev-python/quart[${PYTHON_USEDEP}]
-	dev-python/opengraph-py3[${PYTHON_USEDEP}]
-	dev-python/Quart-CORS[${PYTHON_USEDEP}]
+	dev-python/Quart[${PYTHON_USEDEP}]
+	dev-python/opengraph_py3[${PYTHON_USEDEP}]
+	dev-python/quart-cors[${PYTHON_USEDEP}]
 	dev-python/APScheduler[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/PyGithub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

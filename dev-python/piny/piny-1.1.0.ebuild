@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="marshmallow pydantic trafaret"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	marshmallow? ( >=dev-python/marshmallow-3.0[${PYTHON_USEDEP}] )
 	pydantic? ( >=dev-python/pydantic-0.28[${PYTHON_USEDEP}] )
 	trafaret? ( dev-python/trafaret[${PYTHON_USEDEP}] )"

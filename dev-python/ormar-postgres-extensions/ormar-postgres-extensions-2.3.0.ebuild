@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/databases[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-githooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygithub[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	dev? ( dev-python/semver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )

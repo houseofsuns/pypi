@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/gcode-machine[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	~dev-python/pyopengl-3.1[${PYTHON_USEDEP}]
-	dev-python/pyqt6[${PYTHON_USEDEP}]"
+	~dev-python/PyQt6-6.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyfluidsynth[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyFluidSynth[${PYTHON_USEDEP}]
 	dev-python/asyncinotify[${PYTHON_USEDEP}]
 	<dev-python/pygame-3.0.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]

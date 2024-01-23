@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ascii-graph[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ascii_graph[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/mypy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]

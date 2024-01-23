@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ics[${PYTHON_USEDEP}]
-	dev-python/pypdf2[${PYTHON_USEDEP}]"
+	dev-python/PyPDF2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	ann? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pymor[${PYTHON_USEDEP}] )
-	docs-additional? ( dev-python/bash-kernel[${PYTHON_USEDEP}] )
+	docs-additional? ( dev-python/bash_kernel[${PYTHON_USEDEP}] )
 	docs-additional? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs-additional? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs-additional? ( dev-python/pybind11[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
 	tests? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-notebook[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pytest_notebook[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	vtk? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	vtk? ( >=dev-python/meshio-4.4[${PYTHON_USEDEP}] )

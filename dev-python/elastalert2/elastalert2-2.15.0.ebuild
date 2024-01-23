@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/APScheduler-4.0[${PYTHON_USEDEP}]
 	dev-python/aws-requests-auth[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.26.30[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/prison[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.15.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/py-zabbix-1.1.7[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]

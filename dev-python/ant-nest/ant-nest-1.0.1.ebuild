@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/httpx-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-4.8.0[${PYTHON_USEDEP}]
 	>=dev-python/ujson-1.3.4[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.3.1[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-3.6[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

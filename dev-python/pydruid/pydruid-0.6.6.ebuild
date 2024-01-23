@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	async? ( dev-python/tornado[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	cli? ( dev-python/prompt_toolkit[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/prompt-toolkit-2.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

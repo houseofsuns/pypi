@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/django-formtools[${PYTHON_USEDEP}]
 	dev-python/django-nine[${PYTHON_USEDEP}]
 	dev-python/django-nonefield[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-0.4.1[${PYTHON_USEDEP}]
 	dev-python/vishap[${PYTHON_USEDEP}]
 	>=dev-python/easy-thumbnails-2.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

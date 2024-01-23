@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs fireworks strict tests vis"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/maggma[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	fireworks? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
 	strict? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
-	strict? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	strict? ( dev-python/maggma[${PYTHON_USEDEP}] )
 	strict? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	strict? ( dev-python/monty[${PYTHON_USEDEP}] )

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/acapy-patched[${PYTHON_USEDEP}]
 	<dev-python/validators-0.21.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/python3-indy[${PYTHON_USEDEP}]
 	<dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	dev-python/py-multibase[${PYTHON_USEDEP}]

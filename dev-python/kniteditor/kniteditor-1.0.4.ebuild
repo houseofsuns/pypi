@@ -12,12 +12,12 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An editor for knitwork. [topver 1.0.5]"
+DESCRIPTION="An editor for knitwork. [topver 1.0.5, newver 1.0.5]"
 
 HOMEPAGE="https://github.com/fossasia/kniteditor"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/AYABInterface[${PYTHON_USEDEP}]
 	dev-python/crc8[${PYTHON_USEDEP}]
 	dev-python/knittingpattern[${PYTHON_USEDEP}]
-	dev-python/ObservableList[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/observablelist[${PYTHON_USEDEP}]
+	~dev-python/pillow-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.1.1[${PYTHON_USEDEP}]
 	~dev-python/webcolors-1.5[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.10.2[${PYTHON_USEDEP}]"

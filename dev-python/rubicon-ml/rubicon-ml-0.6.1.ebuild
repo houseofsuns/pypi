@@ -31,7 +31,7 @@ DEPENDENCIES="<=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
 	<=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/dash[${PYTHON_USEDEP}] )
 	all? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )

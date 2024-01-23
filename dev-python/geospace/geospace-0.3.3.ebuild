@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fancy_feature"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/gdal[${PYTHON_USEDEP}]
+	dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	fancy_feature? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	fancy_feature? ( dev-python/requests[${PYTHON_USEDEP}] )

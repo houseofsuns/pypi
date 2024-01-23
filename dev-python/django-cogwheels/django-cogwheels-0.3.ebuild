@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development docs testing"
-DEPENDENCIES="development? ( dev-python/Django[${PYTHON_USEDEP}] )
+DEPENDENCIES="development? ( <dev-python/django-2.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	development? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	development? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyenchant-2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-spelling-1.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"

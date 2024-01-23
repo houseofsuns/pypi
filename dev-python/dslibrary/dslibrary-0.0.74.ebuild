@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	all? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlite3[${PYTHON_USEDEP}] )
 	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

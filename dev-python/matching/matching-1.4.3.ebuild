@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/quartodoc[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/hypothesis-6.31.6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nbval-0.10.0[${PYTHON_USEDEP}] )

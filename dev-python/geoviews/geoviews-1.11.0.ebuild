@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all build doc examples_extra recommended tests tests_ci tests_core"
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/cartopy[${PYTHON_USEDEP}]
+	dev-python/Cartopy[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/xyzservices[${PYTHON_USEDEP}]
-	all? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	all? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all? ( dev-python/datashader[${PYTHON_USEDEP}] )
 	all? ( dev-python/fiona[${PYTHON_USEDEP}] )
@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	doc? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	doc? ( dev-python/geodatasets[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsite[${PYTHON_USEDEP}] )
-	doc? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	doc? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	doc? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	doc? ( dev-python/selenium[${PYTHON_USEDEP}] )

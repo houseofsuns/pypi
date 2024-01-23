@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Karnak Data Platform Community Libraries [topver 3.3.5]"
+DESCRIPTION="Karnak Data Platform Community Libraries [topver 3.3.5, newver 3.3.5]"
 
 HOMEPAGE="https://github.com/cogitaslabs/karnak-community"
 LICENSE=""
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/PyAthena[${PYTHON_USEDEP}]
-	dev-python/PyAthenaJDBC[${PYTHON_USEDEP}]
+	dev-python/pyathenajdbc[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]"

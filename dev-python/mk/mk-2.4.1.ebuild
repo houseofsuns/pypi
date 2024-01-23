@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/twine-3.4.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	docs? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/markdown-exec-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-gen-files-0.4.0[${PYTHON_USEDEP}] )

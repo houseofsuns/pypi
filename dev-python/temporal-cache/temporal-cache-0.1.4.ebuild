@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/frozendict[${PYTHON_USEDEP}]
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tzlocal-2.0.0[${PYTHON_USEDEP}] )"

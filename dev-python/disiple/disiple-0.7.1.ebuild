@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	dev-python/miniaudio[${PYTHON_USEDEP}]
-	dev-python/soundcard[${PYTHON_USEDEP}]"
+	dev-python/SoundCard[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

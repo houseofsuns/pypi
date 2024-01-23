@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
-	dev-python/qds-sdk[${PYTHON_USEDEP}]"
+	dev-python/qds_sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

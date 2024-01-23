@@ -27,8 +27,8 @@ IUSE="test"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/justpy[${PYTHON_USEDEP}]
 	dev-python/py-3rdparty-mediawiki[${PYTHON_USEDEP}]
-	dev-python/pyjustpywidgets[${PYTHON_USEDEP}]
-	dev-python/pymetamodel[${PYTHON_USEDEP}]
+	dev-python/pyJustpyWidgets[${PYTHON_USEDEP}]
+	dev-python/pyMetaModel[${PYTHON_USEDEP}]
 	dev-python/search-engine-parser[${PYTHON_USEDEP}]
 	test? ( dev-python/green[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

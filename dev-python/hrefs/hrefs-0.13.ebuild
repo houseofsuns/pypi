@@ -27,7 +27,7 @@ IUSE="doc test"
 DEPENDENCIES="test? ( >=dev-python/mypy-1.5[${PYTHON_USEDEP}] )
 	>=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tox-4.11[${PYTHON_USEDEP}] )

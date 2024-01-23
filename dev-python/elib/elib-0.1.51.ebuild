@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 2018.11.22.1]"
+DESCRIPTION=" [topver 2018.11.22.1, newver 2018.11.22.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -29,8 +29,8 @@ DEPENDENCIES="~dev-python/certifi-2018.1.18[${PYTHON_USEDEP}]
 	~dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
 	dev-python/delegator-py[${PYTHON_USEDEP}]
 	dev-python/everett[${PYTHON_USEDEP}]
-	dev-python/gtts[${PYTHON_USEDEP}]
-	dev-python/gtts-token[${PYTHON_USEDEP}]
+	dev-python/gTTS[${PYTHON_USEDEP}]
+	dev-python/gTTS-token[${PYTHON_USEDEP}]
 	~dev-python/idna-2.6[${PYTHON_USEDEP}]
 	~dev-python/pexpect-4.4.0[${PYTHON_USEDEP}]
 	~dev-python/ptyprocess-0.5.2[${PYTHON_USEDEP}]

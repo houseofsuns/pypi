@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="delta parquet"
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	delta? ( dev-python/deltalake[${PYTHON_USEDEP}] )
-	dev-python/faker[${PYTHON_USEDEP}]
+	<dev-python/Faker-19.0.0[${PYTHON_USEDEP}]
 	delta? ( <dev-python/pyarrow-14.1.0[${PYTHON_USEDEP}] )
 	parquet? ( <dev-python/pyarrow-14.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

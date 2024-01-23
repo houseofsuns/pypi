@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="distributed scrapy spider scheduling system [topver 0.7.5]"
+DESCRIPTION="distributed scrapy spider scheduling system [topver 0.7.5, newver 0.7.5]"
 
 HOMEPAGE="http://github.com/kevenli/scrapydd"
 LICENSE=""
@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
-	dev-python/Automat[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/automat-0.8.0[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/pysyncobj[${PYTHON_USEDEP}]
 	dev-python/subprocess32[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]

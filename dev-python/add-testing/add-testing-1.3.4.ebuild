@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2022.6.15[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

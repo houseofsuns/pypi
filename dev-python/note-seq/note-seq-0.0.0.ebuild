@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use machine learning to create art and music [topver 0.0.5]"
+DESCRIPTION="Use machine learning to create art and music [topver 0.0.5, newver 0.0.5]"
 
 HOMEPAGE="https://magenta.tensorflow.org/"
 LICENSE="Apache-2.0"
@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	>=dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18.1[${PYTHON_USEDEP}]
-	dev-python/pretty-midi[${PYTHON_USEDEP}]
+	dev-python/pretty_midi[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]"

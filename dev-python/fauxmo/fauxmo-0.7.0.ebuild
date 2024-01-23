@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )

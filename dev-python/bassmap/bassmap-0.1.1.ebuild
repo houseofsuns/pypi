@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/leafmap[${PYTHON_USEDEP}]
-	dev-python/pycrs[${PYTHON_USEDEP}]
+	dev-python/PyCRS[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]

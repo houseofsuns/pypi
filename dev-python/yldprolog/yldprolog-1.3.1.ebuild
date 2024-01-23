@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.9.1[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]"
+	dev-python/click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

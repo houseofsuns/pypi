@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="server"
 DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-0.5.0[${PYTHON_USEDEP}]

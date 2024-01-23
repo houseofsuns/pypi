@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for the Metal Cloud infrastructure [topver 3.3.18]"
+DESCRIPTION="SDK for the Metal Cloud infrastructure [topver 3.3.18, newver 3.3.18]"
 
 HOMEPAGE="https://gitlab.bigstep.com/generated-api-clients/metal-cloud-sdk-python2.x-private.git"
 LICENSE=""

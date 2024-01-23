@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/fonttools-5.0[${PYTHON_USEDEP}]
-	dev-python/imagehash[${PYTHON_USEDEP}]
+	dev-python/ImageHash[${PYTHON_USEDEP}]
 	dev-python/opentype-sanitizer[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/python-fsutil[${PYTHON_USEDEP}]"

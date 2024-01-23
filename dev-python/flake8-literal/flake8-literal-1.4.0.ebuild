@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/flake8-8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-literal[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-noqa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-polyfill[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-modern-annotations[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-requirements[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-typechecking-import[${PYTHON_USEDEP}] )

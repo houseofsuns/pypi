@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple lightweight python wrapper for the Microsoft Cognitive Services. [topver 0.4.0]"
+DESCRIPTION="A simple lightweight python wrapper for the Microsoft Cognitive Services. [topver 0.4.0, newver 0.4.0]"
 
 HOMEPAGE="https://github.com/tristantao/py-ms-cognitive"
 LICENSE="MIT"

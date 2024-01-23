@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cibw dev doc full"
 DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]

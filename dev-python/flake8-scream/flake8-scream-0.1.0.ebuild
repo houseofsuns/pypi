@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/flake8-3.7[${PYTHON_USEDEP}]
-	dev-python/flake8-simplify[${PYTHON_USEDEP}]
+	dev-python/flake8_simplify[${PYTHON_USEDEP}]
 	>=dev-python/astor-0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

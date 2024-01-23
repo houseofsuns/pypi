@@ -27,7 +27,7 @@ IUSE="gssapi"
 DEPENDENCIES=">=dev-python/precis-i18n-1.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/PyGObject[${PYTHON_USEDEP}]
+	>=dev-python/pygobject-3.42.0[${PYTHON_USEDEP}]
 	gssapi? ( dev-python/gssapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 	speedups? ( >=dev-python/orjson-3.9.1[${PYTHON_USEDEP}] )
 	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-programoutput-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pygeogrids[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/pynetcf[${PYTHON_USEDEP}]
 	dev-python/pyresample[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

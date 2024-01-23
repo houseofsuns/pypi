@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 5.0.1]"
+DESCRIPTION=" [topver 5.0.1, newver 5.0.1]"
 
 HOMEPAGE="https://virgilsecurity.com/"
 LICENSE="BSD"

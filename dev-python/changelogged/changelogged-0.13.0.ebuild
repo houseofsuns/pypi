@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/rich-13.3.2[${PYTHON_USEDEP}]

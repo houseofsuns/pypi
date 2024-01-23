@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 DEPENDENCIES="~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

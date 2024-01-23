@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="charts snapshots xls"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2.12[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.4.0[${PYTHON_USEDEP}]
 	charts? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
 	charts? ( <dev-python/seaborn-0.12[${PYTHON_USEDEP}] )

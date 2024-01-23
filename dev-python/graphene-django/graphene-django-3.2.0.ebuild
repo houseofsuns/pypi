@@ -27,7 +27,7 @@ IUSE="dev rest_framework test"
 DEPENDENCIES="dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/graphql-relay[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
 	dev-python/text-unidecode[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

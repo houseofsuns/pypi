@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="apt dev docs test types"
 DEPENDENCIES="dev-python/overrides[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]

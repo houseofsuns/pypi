@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	dev-python/gigachat[${PYTHON_USEDEP}]
 	dev-python/gigachain-community[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	llms? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/torch[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/openai[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/openai[${PYTHON_USEDEP}] )
 	llms? ( dev-python/nlpcloud[${PYTHON_USEDEP}] )
-	llms? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
+	llms? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	embeddings? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/arxiv[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/pypdf-4.0.0[${PYTHON_USEDEP}] )
@@ -72,12 +72,12 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	docarray? ( dev-python/docarray[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/rapidocr-onnxruntime[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/pypdfium2[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/gql[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/telethon[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/Telethon[${PYTHON_USEDEP}] )
 	text-helpers? ( <dev-python/chardet-6.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/chardet-6.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}] )
@@ -105,7 +105,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	dev-python/langsmith[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/rank-bm25[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/feedparser-7.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/newspaper3k[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/xata[${PYTHON_USEDEP}] )
@@ -119,7 +119,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/rspace_client[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/rspace-client[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/upstash-redis[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-ai-textanalytics[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/google-cloud-documentai[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is a Python API to interact with the Mint-Labs platform. [topver 0.2.588]"
+DESCRIPTION="This is a Python API to interact with the Mint-Labs platform. [topver 0.2.588, newver 0.2.588]"
 
 HOMEPAGE="http://www.mint-labs.com"
 LICENSE="MIT"

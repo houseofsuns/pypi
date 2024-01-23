@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/galaxy-data[${PYTHON_USEDEP}]
 	dev-python/galaxy-objectstore[${PYTHON_USEDEP}]
 	dev-python/galaxy-tool-util[${PYTHON_USEDEP}]
 	dev-python/galaxy-util[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+	dev-python/markupsafe[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

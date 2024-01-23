@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fileformats[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/docutils-0.10[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2022.2.14.1[${PYTHON_USEDEP}] )

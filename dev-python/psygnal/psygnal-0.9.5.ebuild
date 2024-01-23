@@ -34,12 +34,12 @@ DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wrapt[${PYTHON_USEDEP}] )
@@ -64,6 +64,6 @@ DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	test? ( dev-python/toolz[${PYTHON_USEDEP}] )
 	test? ( dev-python/wrapt[${PYTHON_USEDEP}] )
 	testqt? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	testqt? ( dev-python/qtpy[${PYTHON_USEDEP}] )"
+	testqt? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

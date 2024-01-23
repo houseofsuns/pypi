@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/bibtexparser-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/duckpy[${PYTHON_USEDEP}]
-	dev-python/Requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.30.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

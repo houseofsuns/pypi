@@ -33,13 +33,13 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/pystare[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	dev-python/pyhdf[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.8[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.23.10[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2022.6.0[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.4.41[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

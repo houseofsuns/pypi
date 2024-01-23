@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/nilspodlib[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
-	dev-python/fau-colors[${PYTHON_USEDEP}]"
+	dev-python/fau_colors[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

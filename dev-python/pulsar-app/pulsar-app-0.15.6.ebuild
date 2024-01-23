@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="amqp galaxy_extended_metadata web"
 DEPENDENCIES="dev-python/webob[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
+	dev-python/pastedeploy[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/galaxy-job-metrics[${PYTHON_USEDEP}]
 	dev-python/galaxy-objectstore[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/webob[${PYTHON_USEDEP}]
 	amqp? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	galaxy_extended_metadata? ( dev-python/galaxy-job-execution[${PYTHON_USEDEP}] )
 	galaxy_extended_metadata? ( dev-python/galaxy-util[${PYTHON_USEDEP}] )
-	web? ( dev-python/Paste[${PYTHON_USEDEP}] )
+	web? ( dev-python/paste[${PYTHON_USEDEP}] )
 	web? ( dev-python/PasteScript[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

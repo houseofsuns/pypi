@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="importing a module by physical file path [topver 0.9.1]"
+DESCRIPTION="importing a module by physical file path [topver 0.9.1, newver 0.9.1]"
 
 HOMEPAGE="https://github.com/podhmo/magicalimport"
 LICENSE=""

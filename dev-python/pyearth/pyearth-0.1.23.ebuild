@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="statistics"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/gdal[${PYTHON_USEDEP}]
+	dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/cartopy[${PYTHON_USEDEP}]
+	dev-python/Cartopy[${PYTHON_USEDEP}]
 	statistics? ( dev-python/requests[${PYTHON_USEDEP}] )
-	statistics? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	statistics? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	statistics? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	statistics? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	statistics? ( dev-python/statsmodels[${PYTHON_USEDEP}] )"

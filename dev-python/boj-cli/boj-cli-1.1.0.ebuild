@@ -35,14 +35,14 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/chromedriver-autoinstaller[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.14.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	~dev-python/rich-13.2.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/soupsieve-2.3.2[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.14[${PYTHON_USEDEP}]
 	~dev-python/websockets-10.4[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

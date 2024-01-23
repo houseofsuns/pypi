@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.12.5[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	<=dev-python/orjson-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]

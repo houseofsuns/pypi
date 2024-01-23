@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/python-libnmap[${PYTHON_USEDEP}]
 	dev-python/python-libnessus[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-views[${PYTHON_USEDEP}]
 	dev-python/docxtpl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

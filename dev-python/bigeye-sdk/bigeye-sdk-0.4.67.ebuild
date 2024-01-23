@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/lz4-5.0.0[${PYTHON_USEDEP}]
 	~dev-python/keyring-23.11.0[${PYTHON_USEDEP}]

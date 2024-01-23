@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/xlrd-0.9.2[${PYTHON_USEDEP}]
 	dev-python/mixbox[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/lxml-3.3.5[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-1.3.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.1.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )

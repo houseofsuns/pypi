@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/liac-arff[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	test? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
@@ -53,14 +53,14 @@ DEPENDENCIES="dev-python/liac-arff[${PYTHON_USEDEP}]
 	examples? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	examples? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	examples? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	examples? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
+	examples? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	examples? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	examples? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	examples? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	examples-unix? ( dev-python/fanova[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_bootstrap_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

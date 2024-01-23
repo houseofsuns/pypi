@@ -37,13 +37,13 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
-	assembler_html? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	assembler_ideogram? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	assembler_ideogram? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	assembler_html? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	assembler_ideogram? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	assembler_ideogram? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

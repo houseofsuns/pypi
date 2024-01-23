@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/h5netcdf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/s3fs[${PYTHON_USEDEP}] )

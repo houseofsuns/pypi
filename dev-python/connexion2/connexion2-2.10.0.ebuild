@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiohttp docs flask swagger-ui tests"
 DEPENDENCIES="dev-python/clickclick[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/inflection-0.6[${PYTHON_USEDEP}]
 	<dev-python/openapi-spec-validator-0.4[${PYTHON_USEDEP}]

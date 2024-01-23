@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python's forecast::auto.arima equivalent [topver 0.9.0]"
+DESCRIPTION="Python's forecast::auto.arima equivalent [topver 0.9.0, newver 0.9.0]"
 
 HOMEPAGE="https://github.com/tgsmith61591/pyramid"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.23[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.9[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]

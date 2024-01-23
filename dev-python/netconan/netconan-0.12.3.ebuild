@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/configargparse[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ConfigArgParse-1.0.0[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0.0[${PYTHON_USEDEP}]

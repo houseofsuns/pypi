@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/lxml-3.0.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-3.1.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-0.7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyOpenSSL[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-4.2.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )

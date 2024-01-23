@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-12.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	dev-python/types-Deprecated[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

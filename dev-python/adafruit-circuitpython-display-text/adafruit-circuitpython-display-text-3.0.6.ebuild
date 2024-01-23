@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Adafruit-Blinka-displayio[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/adafruit-blinka-displayio[${PYTHON_USEDEP}]
 	dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-bitmap-font[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolbox for working with the Python AST [topver 0.1.8]"
+DESCRIPTION="Toolbox for working with the Python AST [topver 0.1.8, newver 0.1.8]"
 
 HOMEPAGE="https://github.com/leonardt/ast_tools"
 LICENSE=""

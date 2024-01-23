@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
 	dev-python/sumo-wrapper-python[${PYTHON_USEDEP}]
 	dev-python/xtgeo[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/OpenVDS[${PYTHON_USEDEP}]
+	dev-python/openvds[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="transifex"
 DEPENDENCIES="dev-python/botok[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	~dev-python/diff-match-patch-20181111.0[${PYTHON_USEDEP}]
 	~dev-python/polib-1.1.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/antx[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.0[${PYTHON_USEDEP}]
 	dev-python/django-ranged-response[${PYTHON_USEDEP}]
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

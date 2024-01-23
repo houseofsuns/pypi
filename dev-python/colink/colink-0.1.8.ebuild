@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="colink python module [topver 0.3.5]"
+DESCRIPTION="colink python module [topver 0.3.5, newver 0.3.5]"
 
 HOMEPAGE=""
 LICENSE=""

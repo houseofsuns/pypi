@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/atbu-common-pkg[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
-	dev-python/Send2Trash[${PYTHON_USEDEP}]"
+	>=dev-python/send2trash-1.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

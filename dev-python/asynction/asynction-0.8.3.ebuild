@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli mock"
 DEPENDENCIES="dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/svarog[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	cli? ( <dev-python/Faker-14.0.0[${PYTHON_USEDEP}] )

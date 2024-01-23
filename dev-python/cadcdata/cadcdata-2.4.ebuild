@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/cadcutils[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flake8-3.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/funcsigs[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/xml-compare[${PYTHON_USEDEP}] )"
+	test? ( dev-python/xml_compare[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

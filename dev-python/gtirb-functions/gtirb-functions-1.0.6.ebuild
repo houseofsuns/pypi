@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for dealing with functions in GTIRB [topver 1.0.9]"
+DESCRIPTION="Utilities for dealing with functions in GTIRB [topver 1.0.9, newver 1.0.9]"
 
 HOMEPAGE="https://github.com/grammatech/gtirb-functions"
 LICENSE="MIT"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/backports-shutil-which[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/backports-shutil_which[${PYTHON_USEDEP}]
 	dev-python/opencc-python-reimplemented[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]

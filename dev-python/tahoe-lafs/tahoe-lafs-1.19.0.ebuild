@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build i2p test testenv tor"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
+	>=dev-python/twisted-22.8.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	>=dev-python/autobahn-22.4.3[${PYTHON_USEDEP}]
 	dev-python/cbor2[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	>=dev-python/magic-wormhole-0.10.2[${PYTHON_USEDEP}]
 	dev-python/netifaces[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	dev-python/pycddl[${PYTHON_USEDEP}]
 	dev-python/pyrsistent[${PYTHON_USEDEP}]
 	dev-python/pyutil[${PYTHON_USEDEP}]

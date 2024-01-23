@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/panflute[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]"
+	dev-python/pygments[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

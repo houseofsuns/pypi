@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/awswrangler[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/pyathena[${PYTHON_USEDEP}]
+	dev-python/PyAthena[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/ldap3-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/typeguard-4.0.0[${PYTHON_USEDEP}]"

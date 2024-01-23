@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/ansys-api-geometry[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipyvtklink[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/nbconvert-7.14.2[${PYTHON_USEDEP}] )

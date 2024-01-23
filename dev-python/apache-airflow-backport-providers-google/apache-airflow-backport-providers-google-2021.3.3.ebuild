@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="amazon apache-beam apache-cassandra cncf-kubernetes facebook microsoft-azure microsoft-mssql mysql oracle postgres presto salesforce sftp ssh"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/PyOpenSSL[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/google-ads[${PYTHON_USEDEP}]
 	<dev-python/google-api-core-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/google-api-python-client-2.0.0[${PYTHON_USEDEP}]

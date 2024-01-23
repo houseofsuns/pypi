@@ -34,6 +34,6 @@ DEPENDENCIES="<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	<dev-python/validators-0.21.0[${PYTHON_USEDEP}]
 	dev-python/art[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	dev-python/types-pyyaml[${PYTHON_USEDEP}]"
+	dev-python/types-PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

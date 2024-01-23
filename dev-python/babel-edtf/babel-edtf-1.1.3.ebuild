@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs tests"
 DEPENDENCIES=">=dev-python/Babel-2.8[${PYTHON_USEDEP}]
 	dev-python/edtf[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	all? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/Babel-2.8[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )

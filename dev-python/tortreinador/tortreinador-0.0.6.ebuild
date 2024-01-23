@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
-	dev-python/tensorboardx[${PYTHON_USEDEP}]
+	dev-python/tensorboardX[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

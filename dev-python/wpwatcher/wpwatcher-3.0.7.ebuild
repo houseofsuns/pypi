@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/wpscan-out-parse[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	syslog? ( dev-python/rfc5424-logging-handler[${PYTHON_USEDEP}] )
 	syslog? ( dev-python/cefevent[${PYTHON_USEDEP}] )"

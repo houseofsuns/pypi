@@ -27,10 +27,10 @@ IUSE="docs gui test"
 DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
-	dev-python/py-bobyqa[${PYTHON_USEDEP}]
-	dev-python/GetDist[${PYTHON_USEDEP}]
+	dev-python/Py-BOBYQA[${PYTHON_USEDEP}]
+	dev-python/getdist[${PYTHON_USEDEP}]
 	>=dev-python/fuzzywuzzy-0.17[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )"

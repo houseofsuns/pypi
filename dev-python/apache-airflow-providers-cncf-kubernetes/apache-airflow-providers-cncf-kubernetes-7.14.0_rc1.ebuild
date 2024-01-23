@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/aiofiles-23.2.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.0.0[${PYTHON_USEDEP}]
 	dev-python/google-re2[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/kubernetes_asyncio[${PYTHON_USEDEP}]"
+	dev-python/kubernetes-asyncio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

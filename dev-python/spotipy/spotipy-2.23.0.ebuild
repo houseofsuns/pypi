@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.5.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

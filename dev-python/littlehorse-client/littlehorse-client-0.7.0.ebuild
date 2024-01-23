@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev-python/jproperties[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]

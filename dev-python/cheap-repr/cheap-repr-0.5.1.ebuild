@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Django[${PYTHON_USEDEP}] )
+	tests? ( dev-python/django[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/numpy-1.16.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

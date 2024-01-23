@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asymmetric dev doc test"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	asymmetric? ( <dev-python/cryptography-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/cryptography-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )

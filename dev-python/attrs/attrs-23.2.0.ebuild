@@ -42,7 +42,7 @@ DEPENDENCIES="cov? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	tests-no-zope? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	tests-no-zope? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests-no-zope? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -39,6 +39,6 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	type? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	type? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"
+	type? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,18 +31,18 @@ DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/itemadapter[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pympler[${PYTHON_USEDEP}]
+	dev-python/Pympler[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/pytility[${PYTHON_USEDEP}]
 	dev-python/pytrie[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/scrapy-extensions[${PYTHON_USEDEP}]
 	dev-python/twisted[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]
 	cloud? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )"
+	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

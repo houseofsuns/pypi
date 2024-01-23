@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/astunparse-1.6.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
 	~dev-python/urwid-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/pyvirtualdisplay[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,12 +12,12 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A django based miniframework, inspired by Sinatra"
+DESCRIPTION="A django based miniframework, inspired by Sinatra [newver 0.5.0b1]"
 
 HOMEPAGE="https://github.com/amitu/importd"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.zip"
-SOURCEFILE="${REALNAME}-${REALVERSION}.zip"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.bz2"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.bz2"
 RESTRICT="test"
 
 SLOT="0"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/inspire-json-merger[${PYTHON_USEDEP}]
 	dev-python/invenio-search[${PYTHON_USEDEP}]
 	~dev-python/six-1.0[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	all? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )

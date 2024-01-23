@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

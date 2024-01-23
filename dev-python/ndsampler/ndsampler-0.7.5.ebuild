@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast sampling from large images [topver 0.7.7]"
+DESCRIPTION="Fast sampling from large images [topver 0.7.7, newver 0.7.7]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/ndsampler"
 LICENSE="Apache-2.0"
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	dev-python/atomicwrites[${PYTHON_USEDEP}]
-	dev-python/pyqtree[${PYTHON_USEDEP}]
+	dev-python/Pyqtree[${PYTHON_USEDEP}]
 	dev-python/kwimage[${PYTHON_USEDEP}]
 	dev-python/kwarray[${PYTHON_USEDEP}]
 	dev-python/kwcoco[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	all? ( dev-python/ubelt[${PYTHON_USEDEP}] )
 	all? ( dev-python/parse[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	all? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
 	all? ( dev-python/fasteners[${PYTHON_USEDEP}] )
 	all? ( dev-python/atomicwrites[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyqtree[${PYTHON_USEDEP}] )
+	all? ( dev-python/Pyqtree[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwimage[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwcoco[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/sortedcontainers-2.3.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/fasteners-0.14.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/atomicwrites-1.3.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/pyqtree[${PYTHON_USEDEP}] )
+	all-strict? ( dev-python/Pyqtree[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwimage[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwcoco[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -84,7 +84,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	graphics-strict? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
@@ -105,7 +105,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	runtime-strict? ( ~dev-python/sortedcontainers-2.3.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/fasteners-0.14.1[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/atomicwrites-1.3.0[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/pyqtree[${PYTHON_USEDEP}] )
+	runtime-strict? ( dev-python/Pyqtree[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/kwimage[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/kwcoco[${PYTHON_USEDEP}] )
@@ -114,7 +114,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	runtime-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

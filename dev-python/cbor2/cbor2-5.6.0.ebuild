@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="benchmarks doc test"
 DEPENDENCIES="benchmarks? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )

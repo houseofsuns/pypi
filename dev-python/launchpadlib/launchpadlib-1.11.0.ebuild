@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/httplib2[${PYTHON_USEDEP}]
 	dev-python/lazr-restfulclient[${PYTHON_USEDEP}]
 	dev-python/lazr-uri[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	keyring? ( dev-python/keyring[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="dfs"
 DEPENDENCIES=">=dev-python/progress-1.5[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/pyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]

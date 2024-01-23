@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pymsgbox[${PYTHON_USEDEP}]
+	dev-python/PyMsgBox[${PYTHON_USEDEP}]
 	dev-python/pypylon[${PYTHON_USEDEP}]
 	dev-python/pyntcloud[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.3[${PYTHON_USEDEP}]"

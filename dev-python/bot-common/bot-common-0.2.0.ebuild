@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python-rf[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]"

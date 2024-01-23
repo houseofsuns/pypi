@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cef gtk pyside2 pyside6 qt"
-DEPENDENCIES="dev-python/proxy-tools[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/proxy_tools[${PYTHON_USEDEP}]
 	dev-python/bottle[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-WebKit[${PYTHON_USEDEP}]
-	dev-python/pyobjc-framework-security[${PYTHON_USEDEP}]
+	dev-python/pyobjc-framework-Security[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]
 	cef? ( dev-python/cefpython3[${PYTHON_USEDEP}] )
-	gtk? ( dev-python/PyGObject[${PYTHON_USEDEP}] )
+	gtk? ( dev-python/pygobject[${PYTHON_USEDEP}] )
 	gtk? ( dev-python/PyGObject-stubs[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/PySide6[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qt? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )"
+	qt? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

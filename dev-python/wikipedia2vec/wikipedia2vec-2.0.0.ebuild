@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	icu? ( dev-python/PyICU[${PYTHON_USEDEP}] )
+	icu? ( dev-python/pyicu[${PYTHON_USEDEP}] )
 	mecab? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )
 	mecab? ( dev-python/unidic-lite[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

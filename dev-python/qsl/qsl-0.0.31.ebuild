@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Yet another data labeling tool [topver 0.2.37]"
+DESCRIPTION="Yet another data labeling tool [topver 0.2.37, newver 0.2.37]"
 
 HOMEPAGE="https://github.com/faustomorales/qsl"
 LICENSE="MIT"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/async-exit-stack[${PYTHON_USEDEP}]
 	dev-python/async_generator[${PYTHON_USEDEP}]

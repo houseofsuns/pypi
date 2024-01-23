@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parse AWS CloudFront and LoadBalancer logs into Python dataclasses [topver 2.3.0]"
+DESCRIPTION="Parse AWS CloudFront and LoadBalancer logs into Python dataclasses [topver 2.3.0, newver 2.3.0]"
 
 HOMEPAGE="https://github.com/dpetzold/aws-log-parser"
 LICENSE="Apache-2.0"

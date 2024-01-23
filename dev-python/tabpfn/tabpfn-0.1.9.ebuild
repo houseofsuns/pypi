@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	full? ( dev-python/auto-sklearn[${PYTHON_USEDEP}] )
 	full? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	full? ( dev-python/configspace[${PYTHON_USEDEP}] )
+	full? ( dev-python/ConfigSpace[${PYTHON_USEDEP}] )
 	full? ( dev-python/gpytorch[${PYTHON_USEDEP}] )
 	full? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	full? ( dev-python/openml[${PYTHON_USEDEP}] )

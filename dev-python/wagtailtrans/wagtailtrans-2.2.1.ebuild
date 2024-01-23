@@ -27,8 +27,8 @@ IUSE="doc sandbox test"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/Django[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/Wagtail[${PYTHON_USEDEP}] )
+	sandbox? ( >=dev-python/django-3.1[${PYTHON_USEDEP}] )
+	sandbox? ( dev-python/wagtail[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/flake8[${PYTHON_USEDEP}] )

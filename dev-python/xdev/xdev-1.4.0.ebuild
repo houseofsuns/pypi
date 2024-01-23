@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-strict optional optional-strict runtime-strict tests tests-strict"
-DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-7.16.2[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.19.0[${PYTHON_USEDEP}]
 	dev-python/progiter[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
-	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-7.16.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	all? ( dev-python/fire[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/parse-1.19.0[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	all? ( >=dev-python/xdoctest-0.14.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/xinspect[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/yapf-0.16.3[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/ipython-7.16.2[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/fire[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/parse-1.19.0[${PYTHON_USEDEP}] )
@@ -112,7 +112,7 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	optional? ( >=dev-python/Levenshtein-0.20.3[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/line-profiler-4.1.0[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/parso-0.8.3[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/ipython-7.16.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/parse-1.19.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/progiter[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/pyfiglet[${PYTHON_USEDEP}] )

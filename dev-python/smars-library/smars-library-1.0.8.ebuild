@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/adafruit-pca9685[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Adafruit-PCA9685[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

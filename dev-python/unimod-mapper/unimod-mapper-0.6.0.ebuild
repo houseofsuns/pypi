@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="unimod_mapper [topver 0.6.8]"
+DESCRIPTION="unimod_mapper [topver 0.6.8, newver 0.6.8]"
 
 HOMEPAGE="https://github.com/computational-ms/unimod-mapper"
 LICENSE="MIT"

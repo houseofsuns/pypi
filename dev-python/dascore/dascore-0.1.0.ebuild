@@ -35,14 +35,14 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.7[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/segyio[${PYTHON_USEDEP}]
 	all? ( dev-python/dascore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dascore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dascore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dascore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dascore[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	extras? ( dev-python/xarray[${PYTHON_USEDEP}] )

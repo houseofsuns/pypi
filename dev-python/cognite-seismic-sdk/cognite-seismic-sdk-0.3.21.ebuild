@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]"

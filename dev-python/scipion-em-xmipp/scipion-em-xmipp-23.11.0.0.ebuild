@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/scipion-pyworkflow[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/peppercorn[${PYTHON_USEDEP}]
 	dev-python/plotter[${PYTHON_USEDEP}]
-	dev-python/scons[${PYTHON_USEDEP}]
-	dev-python/PyWavelets[${PYTHON_USEDEP}]"
+	dev-python/SCons[${PYTHON_USEDEP}]
+	dev-python/pywavelets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

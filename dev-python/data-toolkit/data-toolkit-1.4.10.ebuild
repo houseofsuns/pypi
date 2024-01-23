@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/cement[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/gputil[${PYTHON_USEDEP}]
+	dev-python/GPUtil[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]"
+	dev-python/Faker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.0.1[${PYTHON_USEDEP}]
-	dev-python/guess-language-spirit[${PYTHON_USEDEP}]
+	dev-python/guess_language-spirit[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	dev-python/langid[${PYTHON_USEDEP}]

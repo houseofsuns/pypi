@@ -32,7 +32,7 @@ DEPENDENCIES="<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}]
 	~dev-python/argcomplete-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.12.1[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
@@ -41,21 +41,21 @@ DEPENDENCIES="<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.23.4[${PYTHON_USEDEP}]
 	~dev-python/redis-5.0.1[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/oic[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.19.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.29.5[${PYTHON_USEDEP}]
-	oracle? ( dev-python/cx_oracle[${PYTHON_USEDEP}] )
+	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	mongo? ( ~dev-python/pymongo-4.6.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( ~dev-python/pymysql-1.1.0[${PYTHON_USEDEP}] )
 	kerberos? ( ~dev-python/kerberos-1.3.1[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
 	kerberos? ( >=dev-python/requests-kerberos-0.14.0[${PYTHON_USEDEP}] )
-	globus? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	globus? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	globus? ( dev-python/globus-sdk[${PYTHON_USEDEP}] )
 	saml? ( ~dev-python/python3-saml-1.16.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyflakes-3.1.0[${PYTHON_USEDEP}] )

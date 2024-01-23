@@ -27,10 +27,10 @@ IUSE="doc tests"
 DEPENDENCIES=">=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
-	doc? ( dev-python/ansys_sphinx_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bovine-store[${PYTHON_USEDEP}]
 	dev-python/bovine-process[${PYTHON_USEDEP}]
-	dev-python/quart[${PYTHON_USEDEP}]"
+	dev-python/Quart[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

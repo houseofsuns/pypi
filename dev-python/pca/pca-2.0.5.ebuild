@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/datazets[${PYTHON_USEDEP}]
 	dev-python/colourmap[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scatterd[${PYTHON_USEDEP}]
-	dev-python/adjusttext[${PYTHON_USEDEP}]"
+	dev-python/adjustText[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

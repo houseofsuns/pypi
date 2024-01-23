@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-5.4[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.8.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]

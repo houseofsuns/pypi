@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Wrapper[${PYTHON_USEDEP}]
 	dev-python/poetry-setup[${PYTHON_USEDEP}]
 	dev-python/poetry2setup[${PYTHON_USEDEP}]"

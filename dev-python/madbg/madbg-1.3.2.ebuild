@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.17.0[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/hypno[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

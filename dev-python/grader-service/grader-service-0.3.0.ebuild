@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/alembic-1.6.4[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	>=dev-python/tornado-6.2[${PYTHON_USEDEP}]
 	>=dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/alembic-1.6.4[${PYTHON_USEDEP}]
 	>=dev-python/json5-0.9.6[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-core-4.7.1[${PYTHON_USEDEP}]

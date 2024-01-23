@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.15.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.0.2[${PYTHON_USEDEP}]
 	~dev-python/wcwidth-0.2.6[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
-	dev-python/InquirerPy[${PYTHON_USEDEP}]
+	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

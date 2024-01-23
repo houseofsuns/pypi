@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
 	dev-python/randomname[${PYTHON_USEDEP}]
-	dev-python/simple_slurm_command[${PYTHON_USEDEP}]"
+	dev-python/simple-slurm-command[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

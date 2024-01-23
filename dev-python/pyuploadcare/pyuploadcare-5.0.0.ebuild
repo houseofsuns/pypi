@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )"
+	django? ( >=dev-python/django-2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

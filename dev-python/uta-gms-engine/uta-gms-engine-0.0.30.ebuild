@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pulp[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PuLP[${PYTHON_USEDEP}]
 	dev-python/xmcda[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

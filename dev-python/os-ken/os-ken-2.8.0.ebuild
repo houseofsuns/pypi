@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Routes[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/routes-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.2[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
 	dev-python/ncclient[${PYTHON_USEDEP}]

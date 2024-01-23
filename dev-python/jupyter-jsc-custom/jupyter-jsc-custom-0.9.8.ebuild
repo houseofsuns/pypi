@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/datefinder[${PYTHON_USEDEP}]
 	dev-python/escapism[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonformatter[${PYTHON_USEDEP}]
 	dev-python/jupyterhub-outpostspawner[${PYTHON_USEDEP}]
 	dev-python/jupyterhub-unicorespawner[${PYTHON_USEDEP}]

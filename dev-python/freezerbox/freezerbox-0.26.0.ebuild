@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/byoc[${PYTHON_USEDEP}]
 	dev-python/inform[${PYTHON_USEDEP}]
 	dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.0[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -48,13 +48,13 @@ DEPENDENCIES="dev-python/byoc[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autoclasstoc[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/parametrize_from_file[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest_tmp_files[${PYTHON_USEDEP}] )
-	test? ( dev-python/re_assert[${PYTHON_USEDEP}] )"
+	test? ( dev-python/parametrize-from-file[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-tmp-files[${PYTHON_USEDEP}] )
+	test? ( dev-python/re-assert[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-subtests-0.11.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-unordered[${PYTHON_USEDEP}] )
-	test? ( dev-python/parametrize_from_file[${PYTHON_USEDEP}] )
+	test? ( dev-python/parametrize-from-file[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/hypothesis-6.79.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyrebase[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pyrebase[${PYTHON_USEDEP}]
 	dev-python/uuid[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
-	dev-python/SoundFile[${PYTHON_USEDEP}]
+	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/crowsetta[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
@@ -47,11 +47,11 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyprojroot[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )

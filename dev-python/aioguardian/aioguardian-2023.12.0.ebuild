@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
-	dev-python/asyncio_dgram[${PYTHON_USEDEP}]
+	dev-python/asyncio-dgram[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	<dev-python/frozenlist-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]

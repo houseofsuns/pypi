@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES=">=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.9[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )

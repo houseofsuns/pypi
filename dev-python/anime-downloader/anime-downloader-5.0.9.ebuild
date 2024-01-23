@@ -27,7 +27,7 @@ IUSE="dev gui selescrape unpacker"
 DEPENDENCIES="dev-python/pySmartDL[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
 	>=dev-python/fuzzywuzzy-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	dev-python/cfscrape[${PYTHON_USEDEP}]

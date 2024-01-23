@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+	<dev-python/sphinx-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]
 	dev-python/CProfileV[${PYTHON_USEDEP}]
 	~dev-python/PyGithub-1.54.1[${PYTHON_USEDEP}]

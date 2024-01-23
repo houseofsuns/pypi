@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/essentials[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	full? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
 	full? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/rich-12.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

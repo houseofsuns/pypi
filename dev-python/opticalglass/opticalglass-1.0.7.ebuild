@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	<dev-python/PyQt5-5.16[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

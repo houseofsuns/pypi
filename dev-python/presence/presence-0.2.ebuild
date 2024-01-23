@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Presence [topver 20.10.0]"
+DESCRIPTION="Presence [topver 20.10.0, newver 20.10.0]"
 
 HOMEPAGE="http://srcco.de/"
 LICENSE="Apache-2.0"

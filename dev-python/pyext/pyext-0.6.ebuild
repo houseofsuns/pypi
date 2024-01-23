@@ -16,8 +16,8 @@ DESCRIPTION="Simple Python extensions."
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/b0/be/9b6005ac644aaef022527ce49617263379e49dbdbd433d1d3dd66d71f570/${REALNAME}-0.7.tar.gz"
-SOURCEFILE="${REALNAME}-0.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

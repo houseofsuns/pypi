@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/ZODB[${PYTHON_USEDEP}]
 	dev-python/zodbpickle[${PYTHON_USEDEP}]
 	test? ( dev-python/persistent[${PYTHON_USEDEP}] )
 	test? ( dev-python/zope-interface[${PYTHON_USEDEP}] )
-	test? ( dev-python/relstorage[${PYTHON_USEDEP}] )"
+	test? ( dev-python/RelStorage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

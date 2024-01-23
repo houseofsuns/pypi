@@ -27,7 +27,7 @@ IUSE="env fabric md piptools tests yaml yml"
 DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	env? ( >=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
 	fabric? ( dev-python/fabric[${PYTHON_USEDEP}] )
-	fabric? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	fabric? ( >=dev-python/pyopenssl-23.3.0[${PYTHON_USEDEP}] )
 	fabric? ( >=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
 	md? ( dev-python/multidispatch[${PYTHON_USEDEP}] )
 	piptools? ( >=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
@@ -41,10 +41,10 @@ DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/HiYaPyCo[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	yml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	yml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	yml? ( dev-python/HiYaPyCo[${PYTHON_USEDEP}] )
 	yml? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

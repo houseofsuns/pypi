@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="brotli qh3 socks zstd"
 DEPENDENCIES="<dev-python/h11-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/h2-5.0.0[${PYTHON_USEDEP}]
-	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
+	brotli? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	brotli? ( >=dev-python/brotlicffi-0.8.0[${PYTHON_USEDEP}] )
 	qh3? ( dev-python/qh3[${PYTHON_USEDEP}] )
 	socks? ( <dev-python/python-socks-3.0[${PYTHON_USEDEP}] )

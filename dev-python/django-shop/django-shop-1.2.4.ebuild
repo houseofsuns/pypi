@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.1[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	dev-python/django-fsm[${PYTHON_USEDEP}]
@@ -32,10 +32,10 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-auth[${PYTHON_USEDEP}]
 	dev-python/django-angular[${PYTHON_USEDEP}]
-	dev-python/Django-Select2[${PYTHON_USEDEP}]
+	dev-python/django-select2[${PYTHON_USEDEP}]
 	dev-python/django-admin-sortable2[${PYTHON_USEDEP}]
 	dev-python/django-formtools[${PYTHON_USEDEP}]
-	dev-python/django-polymorphic[${PYTHON_USEDEP}]
+	dev-python/django_polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-post-office[${PYTHON_USEDEP}]
 	dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/djangocms-cascade[${PYTHON_USEDEP}]"

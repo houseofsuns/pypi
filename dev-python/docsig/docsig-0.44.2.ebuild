@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sphinx-8.0.0[${PYTHON_USEDEP}]
 	dev-python/arcon[${PYTHON_USEDEP}]
 	<dev-python/astroid-4.0.0[${PYTHON_USEDEP}]
 	dev-python/object-colors[${PYTHON_USEDEP}]

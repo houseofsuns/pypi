@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="chemical_composition [topver 1.0.6]"
+DESCRIPTION="chemical_composition [topver 1.0.6, newver 1.0.6]"
 
 HOMEPAGE="https://github.com/computational-ms/chemical-composition"
 LICENSE="MIT"

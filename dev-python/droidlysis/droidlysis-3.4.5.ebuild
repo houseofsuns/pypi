@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
 	~dev-python/python-magic-0.4.12[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/rarfile-3.0[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

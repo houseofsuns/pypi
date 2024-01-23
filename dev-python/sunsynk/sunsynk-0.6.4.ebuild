@@ -42,7 +42,7 @@ DEPENDENCIES=">dev-python/attrs-21.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	umodbus? ( dev-python/async-modbus[${PYTHON_USEDEP}] )
-	umodbus? ( dev-python/umodbus[${PYTHON_USEDEP}] )
+	umodbus? ( dev-python/uModbus[${PYTHON_USEDEP}] )
 	umodbus? ( dev-python/connio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

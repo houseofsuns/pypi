@@ -28,10 +28,10 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.7[${PYTHON_USEDEP}]
@@ -87,10 +87,10 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/ipykernel-6.25.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/ipython-8.15.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ipython-genutils[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/ipython_genutils-0.2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jedi-0.19.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonpointer-2.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonschema-specifications-2023.7.1[${PYTHON_USEDEP}] )
@@ -163,7 +163,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/types-setuptools-68.1.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-simplejson[${PYTHON_USEDEP}] )

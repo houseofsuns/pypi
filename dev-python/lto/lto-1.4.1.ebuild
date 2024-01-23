@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+	dev-python/pynacl[${PYTHON_USEDEP}]
 	dev-python/pyblake2[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	~dev-python/ecdsa-0.17.0[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/Faker-4.14.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.34[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/PyGithub-1.59.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.7.5[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
@@ -87,7 +87,7 @@ DEPENDENCIES="~dev-python/Faker-4.14.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/botocore-1.29.60[${PYTHON_USEDEP}] )
 	all? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	all? ( dev-python/clickhouse-connect[${PYTHON_USEDEP}] )
-	all? ( dev-python/confluent-avro[${PYTHON_USEDEP}] )
+	all? ( dev-python/confluent_avro[${PYTHON_USEDEP}] )
 	all? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
 	all? ( dev-python/dbt-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/dbt-clickhouse[${PYTHON_USEDEP}] )
@@ -178,7 +178,7 @@ DEPENDENCIES="~dev-python/Faker-4.14.0[${PYTHON_USEDEP}]
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	spark? ( ~dev-python/boto3-1.26.60[${PYTHON_USEDEP}] )
 	spark? ( ~dev-python/botocore-1.29.60[${PYTHON_USEDEP}] )
-	streaming? ( dev-python/confluent-avro[${PYTHON_USEDEP}] )
+	streaming? ( dev-python/confluent_avro[${PYTHON_USEDEP}] )
 	streaming? ( ~dev-python/elasticsearch-8.9.0[${PYTHON_USEDEP}] )
 	streaming? ( dev-python/influxdb-client[${PYTHON_USEDEP}] )
 	streaming? ( ~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )

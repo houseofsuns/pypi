@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/sql-metadata[${PYTHON_USEDEP}]
+	dev-python/sql_metadata[${PYTHON_USEDEP}]
 	dev-python/sqlvalidator[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/python-configuration[${PYTHON_USEDEP}]"

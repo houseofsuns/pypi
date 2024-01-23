@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parsing functionality for the metasub CAP [topver 2.16.1]"
+DESCRIPTION="Parsing functionality for the metasub CAP [topver 2.16.1, newver 2.16.1]"
 
 HOMEPAGE="https://github.com/dcdanko/capalyzer"
 LICENSE=""

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PaPie[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/papie[${PYTHON_USEDEP}]
 	dev-python/autodisambiguator[${PYTHON_USEDEP}]
 	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]

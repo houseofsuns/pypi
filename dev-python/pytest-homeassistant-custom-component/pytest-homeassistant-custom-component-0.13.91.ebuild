@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/syrupy[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/homeassistant[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

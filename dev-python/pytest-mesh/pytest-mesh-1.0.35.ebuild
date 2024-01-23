@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/autodoraemon[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.1.2[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+	~dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

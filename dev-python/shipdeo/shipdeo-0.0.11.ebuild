@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Wrapper Shipdeo Service - 3PL Indonesia Aggregator [topver 0.0.12]"
+DESCRIPTION="A Wrapper Shipdeo Service - 3PL Indonesia Aggregator [topver 0.0.12, newver 0.0.12]"
 
 HOMEPAGE="https://github.com/xhijack/shipdeo"
 LICENSE=""

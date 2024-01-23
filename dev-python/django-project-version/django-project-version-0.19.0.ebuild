@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="git rest test"
 DEPENDENCIES="<dev-python/django-5.1[${PYTHON_USEDEP}]
 	dev-python/django-appconf[${PYTHON_USEDEP}]
-	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	git? ( >=dev-python/GitPython-3.0.2[${PYTHON_USEDEP}] )
 	rest? ( >=dev-python/djangorestframework-3.10.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/attrs-23.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/autoflake[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="<dev-python/django-5.1[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-raise[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-return[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-self[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	test? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-spellcheck[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-super[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )

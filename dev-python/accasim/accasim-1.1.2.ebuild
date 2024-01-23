@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An HPC Workload Management Simulator [topver 1.1.3]"
+DESCRIPTION="An HPC Workload Management Simulator [topver 1.1.3, newver 1.1.3]"
 
 HOMEPAGE="http://accasim.readthedocs.io/en/latest/"
 LICENSE="MIT"

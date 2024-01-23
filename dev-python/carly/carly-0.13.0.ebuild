@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build test"
-DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/twisted-21.7[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )

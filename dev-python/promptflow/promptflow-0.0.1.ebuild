@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for building config-driven CLI workflows. [topver 1.4.0]"
+DESCRIPTION="Tool for building config-driven CLI workflows. [topver 1.4.1, newver 1.4.1]"
 
 HOMEPAGE="https://github.com/drewpearce/prompt-flow"
 LICENSE="BSD"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/jmespath-0.9.4[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

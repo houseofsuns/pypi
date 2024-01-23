@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Logbook[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/logbook[${PYTHON_USEDEP}]
 	dev-python/apipkg[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/msgpack-python[${PYTHON_USEDEP}]

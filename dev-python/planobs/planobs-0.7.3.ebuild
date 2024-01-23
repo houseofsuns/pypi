@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="slack"
 DEPENDENCIES="dev-python/astroplan[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	slack? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	slack? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/penquins[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.8.2[${PYTHON_USEDEP}]
 	slack? ( dev-python/slackeventsapi[${PYTHON_USEDEP}] )
 	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/ztfquery[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all gui test viz"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-vlc[${PYTHON_USEDEP}] )
 	all? ( dev-python/vispy[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	all? ( dev-python/fooof[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorpac[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

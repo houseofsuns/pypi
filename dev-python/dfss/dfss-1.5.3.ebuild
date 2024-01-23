@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/datetime[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/ping3[${PYTHON_USEDEP}]
 	dev-python/progressbar[${PYTHON_USEDEP}]"

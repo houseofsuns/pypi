@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/cached-url[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/readee[${PYTHON_USEDEP}]
-	dev-python/telethon[${PYTHON_USEDEP}]"
+	dev-python/Telethon[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

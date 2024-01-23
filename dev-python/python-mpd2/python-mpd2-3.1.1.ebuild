@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="twisted"
-DEPENDENCIES="twisted? ( dev-python/Twisted[${PYTHON_USEDEP}] )"
+DEPENDENCIES="twisted? ( dev-python/twisted[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

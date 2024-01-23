@@ -48,8 +48,8 @@ DEPENDENCIES="dev-python/easygui[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pywavelets-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.5.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	<=dev-python/numexpr-2.8.4[${PYTHON_USEDEP}]
-	dev-python/pyBAKS[${PYTHON_USEDEP}]"
+	dev-python/pybaks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

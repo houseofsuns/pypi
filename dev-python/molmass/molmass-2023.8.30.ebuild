@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all gui"
-DEPENDENCIES="all? ( dev-python/Flask[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( dev-python/flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	gui? ( dev-python/wxPython[${PYTHON_USEDEP}] )"
+	gui? ( >=dev-python/wxpython-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

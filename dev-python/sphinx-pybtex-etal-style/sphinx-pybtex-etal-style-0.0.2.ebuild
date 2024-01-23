@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pybtex[${PYTHON_USEDEP}]
 	format? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/sphinx-pybtex-etal-style[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	mypy? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	sty? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	sty? ( dev-python/sphinx-pybtex-etal-style[${PYTHON_USEDEP}] )

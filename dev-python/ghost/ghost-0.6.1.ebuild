@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
 	consul? ( >=dev-python/requests-2.11.1[${PYTHON_USEDEP}] )
 	elasticsearch? ( >=dev-python/elasticsearch-2.4.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( >=dev-python/sqlalchemy-1.0.15[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	sqlalchemy? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	vault? ( >=dev-python/hvac-0.2.16[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

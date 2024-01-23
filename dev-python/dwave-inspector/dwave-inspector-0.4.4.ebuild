@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/dimod[${PYTHON_USEDEP}]
 	dev-python/dwave-system[${PYTHON_USEDEP}]
 	dev-python/dwave-cloud-client[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"

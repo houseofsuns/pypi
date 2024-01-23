@@ -34,13 +34,13 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/slpp[${PYTHON_USEDEP}]
+	dev-python/SLPP[${PYTHON_USEDEP}]
 	dev-python/mobi[${PYTHON_USEDEP}]
 	dev-python/sentence-splitter[${PYTHON_USEDEP}]
 	dev-python/pymorphy2[${PYTHON_USEDEP}]
 	dev-python/pymorphy2-dicts[${PYTHON_USEDEP}]
 	dev-python/pymorphy2-dicts-ru[${PYTHON_USEDEP}]
 	dev-python/playsound[${PYTHON_USEDEP}]
-	dev-python/ebooklib[${PYTHON_USEDEP}]"
+	dev-python/EbookLib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

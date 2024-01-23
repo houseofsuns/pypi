@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="numpy-style"
-DEPENDENCIES="numpy-style? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )"
+DEPENDENCIES="numpy-style? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

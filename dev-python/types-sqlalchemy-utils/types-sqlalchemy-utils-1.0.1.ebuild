@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy2-stubs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipenv-setup[${PYTHON_USEDEP}] )

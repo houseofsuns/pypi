@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/aiodataloader[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>dev-python/setuptools-0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlalchemy_utils[${PYTHON_USEDEP}] )
+	test? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
 	test? ( <dev-python/aiosqlite-0.18[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/starlette_graphene3[${PYTHON_USEDEP}] )"
+	test? ( dev-python/starlette-graphene3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

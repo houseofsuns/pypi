@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyprind[${PYTHON_USEDEP}]
+	dev-python/PyPrind[${PYTHON_USEDEP}]
 	dev-python/munch[${PYTHON_USEDEP}]
 	dev-python/nbsphinx[${PYTHON_USEDEP}]
 	dev-python/hciplot[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyprind[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyPrind[${PYTHON_USEDEP}] )
 	dev? ( dev-python/munch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hciplot[${PYTHON_USEDEP}] )

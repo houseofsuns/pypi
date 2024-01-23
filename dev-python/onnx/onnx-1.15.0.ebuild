@@ -27,6 +27,6 @@ IUSE="reference"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	reference? ( dev-python/google-re2[${PYTHON_USEDEP}] )
-	reference? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	reference? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

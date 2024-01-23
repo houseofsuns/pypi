@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/PyBypass[${PYTHON_USEDEP}]
 	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
 	dev-python/pypdl[${PYTHON_USEDEP}]
-	dev-python/pyrogram[${PYTHON_USEDEP}]
+	dev-python/Pyrogram[${PYTHON_USEDEP}]
 	dev-python/gTTS[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]"

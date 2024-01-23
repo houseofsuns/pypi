@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/nbclient[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	doc? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-examples[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
@@ -52,6 +52,6 @@ DEPENDENCIES=">=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx_thebe[${PYTHON_USEDEP}] )"
+	test? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	png? ( <dev-python/selenium-5.0.0[${PYTHON_USEDEP}] )
 	html? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	png? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	pdf? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	pdf? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
 	pdf? ( <dev-python/tinycss2-2.0.0[${PYTHON_USEDEP}] )
 	pdf? ( <dev-python/cssselect2-0.8.0[${PYTHON_USEDEP}] )"

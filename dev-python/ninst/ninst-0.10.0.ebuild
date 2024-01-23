@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NiftyPET Installation tools [topver 0.12.0]"
+DESCRIPTION="NiftyPET Installation tools [topver 0.12.0, newver 0.12.0]"
 
 HOMEPAGE="https://github.com/NiftyPET/NInst"
 LICENSE="Apache-2.0"

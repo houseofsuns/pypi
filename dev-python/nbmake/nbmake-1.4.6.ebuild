@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-5.4.0[${PYTHON_USEDEP}]
 	<dev-python/nbclient-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/nbformat-6.0.0[${PYTHON_USEDEP}]

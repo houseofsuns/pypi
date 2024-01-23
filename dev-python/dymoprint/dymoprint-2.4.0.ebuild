@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
-	dev-python/pyqrcode[${PYTHON_USEDEP}]
-	dev-python/pyqt6[${PYTHON_USEDEP}]
+	dev-python/PyQRCode[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/python-barcode[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

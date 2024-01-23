@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	devtools? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	pre-commit? ( ~dev-python/yapf-0.33.0[${PYTHON_USEDEP}] )
 	pre-commit? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-mpl-0.10[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-timeout-1.3.3[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-regressions-1.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
-	widgets? ( dev-python/ase_notebook[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/markupsafe-2.2.0[${PYTHON_USEDEP}] )
+	widgets? ( dev-python/ase-notebook[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

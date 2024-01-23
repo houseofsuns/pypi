@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	bench? ( >=dev-python/numpy-1.19.5[${PYTHON_USEDEP}] )
 	bench? ( dev-python/torch[${PYTHON_USEDEP}] )
-	bench? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	bench? ( <=dev-python/pillow-8.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	hdfs? ( >=dev-python/pyarrow-6.0.0[${PYTHON_USEDEP}] )

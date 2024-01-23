@@ -32,7 +32,7 @@ DEPENDENCIES="<=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/fpdf2[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	<=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

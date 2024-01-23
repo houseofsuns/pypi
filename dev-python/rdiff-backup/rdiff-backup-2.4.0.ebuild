@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="meta"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	meta? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	meta? ( dev-python/pylibacl[${PYTHON_USEDEP}] )
 	meta? ( dev-python/pyxattr[${PYTHON_USEDEP}] )"

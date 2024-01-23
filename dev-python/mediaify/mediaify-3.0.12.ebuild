@@ -27,7 +27,7 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/python-ffmpeg[${PYTHON_USEDEP}]
 	dev-python/MediaInfo[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
-	dev-python/python_magic[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
 	docs? ( dev-python/libmagic[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )

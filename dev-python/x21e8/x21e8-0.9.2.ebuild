@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/TrezorCryptoTestRc[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/trezorcryptotestrc[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/bitcoin-utils[${PYTHON_USEDEP}]

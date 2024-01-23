@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/plotly-4.12.0[${PYTHON_USEDEP}]
-	dev-python/quantlib[${PYTHON_USEDEP}]
+	dev-python/QuantLib[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.1.3[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

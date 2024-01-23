@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all category_encoders feature_engine featuretools skits tsfresh"
 DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	>=dev-python/funcy-1.14[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sklearn-pandas[${PYTHON_USEDEP}]

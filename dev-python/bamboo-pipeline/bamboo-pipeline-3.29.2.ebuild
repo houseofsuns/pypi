@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	<dev-python/django-4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/django-celery-beat[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
+	<dev-python/mako-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	dev-python/bamboo-engine[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	dev-python/redis-py-cluster[${PYTHON_USEDEP}]
 	<dev-python/django-timezone-field-5.0[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]"

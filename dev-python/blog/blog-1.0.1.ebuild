@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.4[${PYTHON_USEDEP}]
 	>=dev-python/pymdown-extensions-6.0[${PYTHON_USEDEP}]
 	dev-python/pyembed-markdown[${PYTHON_USEDEP}]
 	>=dev-python/docopt-0.6[${PYTHON_USEDEP}]

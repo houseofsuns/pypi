@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/pyusb-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/PyQt5-5.15.4[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
 	>=dev-python/PyQt5-sip-12.10.1[${PYTHON_USEDEP}]
-	dev-python/wpcEXEbuild[${PYTHON_USEDEP}]"
+	dev-python/wpcexebuild[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

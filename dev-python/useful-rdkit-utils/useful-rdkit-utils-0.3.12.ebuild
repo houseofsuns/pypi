@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	viz? ( dev-python/py3dmol[${PYTHON_USEDEP}] )
+	viz? ( dev-python/py3Dmol[${PYTHON_USEDEP}] )
 	viz? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

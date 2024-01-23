@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/parse-type[${PYTHON_USEDEP}]
+	dev-python/parse_type[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.2.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

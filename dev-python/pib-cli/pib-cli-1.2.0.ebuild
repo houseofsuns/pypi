@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs docstrings pib_docs types"
 DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/bandit-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/commitizen[${PYTHON_USEDEP}]
 	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	<dev-python/pylint-3.0.0[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	pib_docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	pib_docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	pib_docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	pib_docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	pib_docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

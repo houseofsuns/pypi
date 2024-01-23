@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
-	dev-python/py-lru-cache[${PYTHON_USEDEP}]
+	dev-python/py_lru_cache[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/cogapp[${PYTHON_USEDEP}] )"

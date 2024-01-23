@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/markdown-3.2.2[${PYTHON_USEDEP}]
 	dev-python/MarkupPy[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.11.2[${PYTHON_USEDEP}]
 	~dev-python/django-filter-2.2.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-swagger[${PYTHON_USEDEP}]

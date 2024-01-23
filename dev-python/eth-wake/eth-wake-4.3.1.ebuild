@@ -47,8 +47,8 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-2.3.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	<dev-python/ipdb-0.14.0[${PYTHON_USEDEP}]
-	dev-python/abch_tree_sitter[${PYTHON_USEDEP}]
-	dev-python/abch_tree_sitter_solidity[${PYTHON_USEDEP}]
+	dev-python/abch-tree-sitter[${PYTHON_USEDEP}]
+	dev-python/abch-tree-sitter-solidity[${PYTHON_USEDEP}]
 	dev-python/lazy-import[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	<dev-python/sarif-om-2.0.0[${PYTHON_USEDEP}]
@@ -66,6 +66,6 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pip-18.1[${PYTHON_USEDEP}]
 	dev-python/classutils[${PYTHON_USEDEP}]
 	dev-python/configurationutil[${PYTHON_USEDEP}]
 	dev-python/fdutil[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/conversionutil[${PYTHON_USEDEP}]
 	dev-python/timingsutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

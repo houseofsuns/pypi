@@ -41,10 +41,10 @@ DEPENDENCIES="~dev-python/cython-0.29.34[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
-	full? ( dev-python/PySide6[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pyside6-6.5.0[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/redvox-native[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PySide6[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/pyside6-6.5.0[${PYTHON_USEDEP}] )
 	gui? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	native? ( dev-python/redvox-native[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

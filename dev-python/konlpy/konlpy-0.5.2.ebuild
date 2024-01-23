@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for Korean natural language processing. [topver 0.6.0]"
+DESCRIPTION="Python package for Korean natural language processing. [topver 0.6.0, newver 0.6.0rc1]"
 
 HOMEPAGE="http://konlpy.org"
 LICENSE="GPL v3"

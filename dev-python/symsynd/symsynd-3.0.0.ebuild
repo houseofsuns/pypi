@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helps symbolicating crash dumps. [topver 3.2.0]"
+DESCRIPTION="Helps symbolicating crash dumps. [topver 3.2.0, newver 3.2.0]"
 
 HOMEPAGE="http://github.com/getsentry/symsynd"
 LICENSE="BSD"

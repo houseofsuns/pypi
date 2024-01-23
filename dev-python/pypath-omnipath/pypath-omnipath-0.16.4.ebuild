@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graph metabo pathophenodb"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pycurl[${PYTHON_USEDEP}]
-	dev-python/pypath_common[${PYTHON_USEDEP}]
+	dev-python/pypath-common[${PYTHON_USEDEP}]
 	dev-python/pyreadr[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
 	graph? ( dev-python/python-igraph[${PYTHON_USEDEP}] )
@@ -48,14 +48,14 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	metabo? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
-	pathophenodb? ( dev-python/sparqlwrapper[${PYTHON_USEDEP}] )
+	pathophenodb? ( dev-python/SPARQLWrapper[${PYTHON_USEDEP}] )
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/timeloop[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/tornado-3.6.6[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

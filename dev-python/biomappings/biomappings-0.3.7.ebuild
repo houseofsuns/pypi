@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	web? ( dev-python/flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/bootstrap-flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask-wtf[${PYTHON_USEDEP}] )"
+	web? ( dev-python/Bootstrap-Flask[${PYTHON_USEDEP}] )
+	web? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

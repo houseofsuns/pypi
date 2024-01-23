@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
-	dev-python/pydantic_yaml[${PYTHON_USEDEP}]
+	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

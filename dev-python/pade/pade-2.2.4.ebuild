@@ -27,16 +27,16 @@ IUSE=""
 DEPENDENCIES="~dev-python/twisted-20.3.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/pagan[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.3.15[${PYTHON_USEDEP}]
 	dev-python/alchimia[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/Flask-Bootstrap[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
+	~dev-python/flask-login-0.5.0[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-2.4.1[${PYTHON_USEDEP}]
+	~dev-python/flask-migrate-2.5.3[${PYTHON_USEDEP}]
 	dev-python/Flask-Script[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

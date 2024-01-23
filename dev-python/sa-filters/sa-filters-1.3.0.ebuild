@@ -28,10 +28,10 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-5.0.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	dev? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/restructuredtext-lint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysql-connector-python-rf[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

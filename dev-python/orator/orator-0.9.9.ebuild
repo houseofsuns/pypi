@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/backpack[${PYTHON_USEDEP}]
 	<dev-python/pendulum-2.0[${PYTHON_USEDEP}]
 	<dev-python/pyaml-17.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	<dev-python/simplejson-4.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
 	pgsql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	mysql-python? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql-python? ( <dev-python/pymysql-0.8[${PYTHON_USEDEP}] )
 	mysql? ( <dev-python/mysqlclient-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

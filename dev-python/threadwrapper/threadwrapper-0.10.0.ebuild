@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gather results from multiple threads seamlessly. [topver 0.14.0]"
+DESCRIPTION="Gather results from multiple threads seamlessly. [topver 0.14.0, newver 0.14.0]"
 
 HOMEPAGE="https://github.com/foxe6/"
 LICENSE="AGPL-3"

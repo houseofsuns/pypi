@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Closure Linter [topver 2.3.19]"
+DESCRIPTION="Closure Linter [topver 2.3.19, newver 2.3.19]"
 
 HOMEPAGE="http://code.google.com/p/closure-linter"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reliably CLI [topver 0.25.2]"
+DESCRIPTION="Reliably CLI [topver 0.25.2, newver 0.25.2]"
 
 HOMEPAGE="https://reliably.com/"
 LICENSE="Apache-2.0"

@@ -47,7 +47,7 @@ DEPENDENCIES="<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-ntlm-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

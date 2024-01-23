@@ -27,14 +27,14 @@ IUSE="docs pyqt pyside"
 DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyside? ( dev-python/PySide2[${PYTHON_USEDEP}] )"
+	pyside? ( dev-python/pyside2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

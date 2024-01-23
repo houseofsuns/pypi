@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.20.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )

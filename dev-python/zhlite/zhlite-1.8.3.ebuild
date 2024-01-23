@@ -28,6 +28,6 @@ DEPENDENCIES="~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.3.4[${PYTHON_USEDEP}]
 	dev-python/PyExecJS[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

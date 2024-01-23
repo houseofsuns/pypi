@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/decorator-4.2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	all? ( dev-python/scrapy[${PYTHON_USEDEP}] )
+	all? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	all? ( dev-python/extruct[${PYTHON_USEDEP}] )
 	all? ( dev-python/pip[${PYTHON_USEDEP}] )
 	all? ( dev-python/soupsieve[${PYTHON_USEDEP}] )
@@ -68,7 +68,7 @@ DEPENDENCIES=">=dev-python/decorator-4.2.0[${PYTHON_USEDEP}]
 	parser? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	parser? ( dev-python/soupsieve[${PYTHON_USEDEP}] )
 	parser? ( dev-python/extruct[${PYTHON_USEDEP}] )
-	scrapy? ( dev-python/scrapy[${PYTHON_USEDEP}] )
+	scrapy? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/msgpack[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

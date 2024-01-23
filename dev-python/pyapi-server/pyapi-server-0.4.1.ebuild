@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="uvicorn"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/openapi-core-0.16.1[${PYTHON_USEDEP}]
 	>=dev-python/starlette-0.21.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]

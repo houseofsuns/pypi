@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple automated task to schedule files to open in specific days of the week or every day at startup or at specific time of the day. [topver 2.3.5]"
+DESCRIPTION="A simple automated task to schedule files to open in specific days of the week or every day at startup or at specific time of the day. [topver 2.3.5, newver 2.3.5]"
 
 HOMEPAGE="https://github.com/zaytiri/program-scheduler"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

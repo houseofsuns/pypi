@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/pystrich[${PYTHON_USEDEP}]
+	dev-python/pyStrich[${PYTHON_USEDEP}]
 	dev-python/python-barcode[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/weasyprint[${PYTHON_USEDEP}]"

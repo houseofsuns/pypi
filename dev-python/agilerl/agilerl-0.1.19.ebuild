@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/fastrand[${PYTHON_USEDEP}]
-	dev-python/flatten_dict[${PYTHON_USEDEP}]
+	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]

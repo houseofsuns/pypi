@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	dev-python/kiwisolver[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"

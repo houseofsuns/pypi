@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pip-22.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/setuptools-55.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/wheel-1.0[${PYTHON_USEDEP}] )

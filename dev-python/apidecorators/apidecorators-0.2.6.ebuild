@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyjwt-1.6.4[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.4.4[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]"

@@ -32,8 +32,8 @@ DEPENDENCIES="dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dynamo? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	firestore? ( dev-python/google[${PYTHON_USEDEP}] )
 	firestore? ( dev-python/firebase-admin[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask-API[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/flask-api-2.0[${PYTHON_USEDEP}] )
+	flask? ( ~dev-python/flask-2.0.0[${PYTHON_USEDEP}] )
 	flask? ( >=dev-python/simplejson-3.17[${PYTHON_USEDEP}] )
 	mongo? ( ~dev-python/pymongo-3.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

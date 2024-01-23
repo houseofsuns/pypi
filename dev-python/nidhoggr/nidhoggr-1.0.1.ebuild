@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1[${PYTHON_USEDEP}]
 	dev-python/nidhoggr-core[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.7[${PYTHON_USEDEP}]
-	dev-python/M2Crypto[${PYTHON_USEDEP}]"
+	>=dev-python/m2crypto-0.35[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

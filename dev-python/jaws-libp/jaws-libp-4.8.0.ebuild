@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-env-0.8.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}] )"

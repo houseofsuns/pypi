@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-1.10[${PYTHON_USEDEP}]
+	~dev-python/pillow-4.3.0[${PYTHON_USEDEP}]
 	dev-python/django-contrib-comments[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]

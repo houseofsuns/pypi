@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simulated Annealing in Python [topver 0.5.0]"
+DESCRIPTION="Simulated Annealing in Python [topver 0.5.0, newver 0.5.0]"
 
 HOMEPAGE="https://github.com/perrygeo/simanneal"
 LICENSE="BSD"

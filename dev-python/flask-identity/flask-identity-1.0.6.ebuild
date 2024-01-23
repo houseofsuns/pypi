@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	<dev-python/flask-babel-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

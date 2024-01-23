@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/arrow-pd-parser[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	dev-python/arrow_pd_parser[${PYTHON_USEDEP}]
 	dev-python/awswrangler[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/dataengineeringutils3[${PYTHON_USEDEP}]
-	dev-python/iam_builder[${PYTHON_USEDEP}]
+	dev-python/iam-builder[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/mojap-metadata[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]

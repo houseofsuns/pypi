@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	<dev-python/tblib-3.0[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	all? ( <dev-python/urllib3-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/sagemaker-feature-store-pyspark-3_3[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	feature-processor? ( dev-python/sagemaker-feature-store-pyspark-3_3[${PYTHON_USEDEP}] )
 	local? ( <dev-python/urllib3-3.0.0[${PYTHON_USEDEP}] )
 	local? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
-	local? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	local? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	scipy? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/tox-3.24.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	test? ( <dev-python/urllib3-3.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/sagemaker-feature-store-pyspark-3_3[${PYTHON_USEDEP}] )
 	test? ( dev-python/xgboost[${PYTHON_USEDEP}] )

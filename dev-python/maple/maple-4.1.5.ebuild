@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/events[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Events[${PYTHON_USEDEP}]
 	dev-python/netkit[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

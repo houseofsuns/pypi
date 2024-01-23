@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The James Webb Space Telescope Quicklook Project [topver 1.2.0]"
+DESCRIPTION="The James Webb Space Telescope Quicklook Project [topver 1.2.0, newver 1.2.0]"
 
 HOMEPAGE="https://github.com/spacetelescope/jwql.git"
 LICENSE="BSD"
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/flake8[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/jwedb[${PYTHON_USEDEP}]
 	dev-python/jwst[${PYTHON_USEDEP}]

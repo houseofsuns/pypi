@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="nds2 utilities for reading LIGO data quickly and easily [topver 0.1.12]"
+DESCRIPTION="nds2 utilities for reading LIGO data quickly and easily [topver 0.1.12, newver 0.1.12]"
 
 HOMEPAGE="https://git.ligo.org/craig-cahillane/nds2utils"
 LICENSE=""

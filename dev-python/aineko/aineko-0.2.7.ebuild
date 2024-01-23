@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi"
 DEPENDENCIES=">=dev-python/pydantic-2.5[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.2.0[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	fastapi? ( <dev-python/uvicorn-0.23[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/netkit[${PYTHON_USEDEP}]
 	dev-python/pyglet[${PYTHON_USEDEP}]
-	dev-python/events[${PYTHON_USEDEP}]"
+	dev-python/Events[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

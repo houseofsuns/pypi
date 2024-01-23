@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rtree[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Rtree[${PYTHON_USEDEP}]
 	dev-python/gecosistema-core[${PYTHON_USEDEP}]
-	dev-python/gdal[${PYTHON_USEDEP}]"
+	dev-python/GDAL[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

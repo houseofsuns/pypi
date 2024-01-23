@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/reproject[${PYTHON_USEDEP}]
 	dev-python/pyregion[${PYTHON_USEDEP}]
 	>=dev-python/pillow-4.3[${PYTHON_USEDEP}]
-	dev-python/pyavm[${PYTHON_USEDEP}]
+	dev-python/PyAVM[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.7[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )

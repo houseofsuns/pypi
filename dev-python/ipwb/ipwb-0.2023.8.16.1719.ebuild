@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/warcio[${PYTHON_USEDEP}]
 	dev-python/ipfshttpclient[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.4.11[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.6.3[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/dominate-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

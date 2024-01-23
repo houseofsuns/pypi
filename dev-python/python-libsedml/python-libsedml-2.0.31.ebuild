@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LibSedML Python API [topver 2.0.32]"
+DESCRIPTION="LibSedML Python API [topver 2.0.32, newver 2.0.32]"
 
 HOMEPAGE="https://github.com/fbergmann/libSEDML"
 LICENSE="BSD"

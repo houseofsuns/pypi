@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.0.2[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
+	>=dev-python/flask-login-0.5.0[${PYTHON_USEDEP}]
 	dev-python/flask-mailman[${PYTHON_USEDEP}]
-	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/flask-migrate-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/WTForms[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
 	dev-python/email-validator[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

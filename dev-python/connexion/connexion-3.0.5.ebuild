@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="flask swagger-ui uvicorn"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	flask? ( >=dev-python/a2wsgi-1.7[${PYTHON_USEDEP}] )
 	>=dev-python/asgiref-3.4[${PYTHON_USEDEP}]
 	flask? ( >=dev-python/flask-2.2[${PYTHON_USEDEP}] )

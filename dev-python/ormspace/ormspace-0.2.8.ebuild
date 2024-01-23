@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/deta[${PYTHON_USEDEP}]
 	<dev-python/anyio-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

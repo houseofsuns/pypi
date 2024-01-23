@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev publishing"
-DEPENDENCIES="dev-python/pyqt6[${PYTHON_USEDEP}]
-	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
-	dev-python/orange3[${PYTHON_USEDEP}]
-	dev-python/orange3-text[${PYTHON_USEDEP}]
-	dev-python/orange3-network[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/PyQt6-6.6.0[${PYTHON_USEDEP}]
+	>=dev-python/PyQtWebEngine-5.15.6[${PYTHON_USEDEP}]
+	dev-python/Orange3[${PYTHON_USEDEP}]
+	dev-python/Orange3-Text[${PYTHON_USEDEP}]
+	dev-python/Orange3-Network[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/dhtmlparser3[${PYTHON_USEDEP}]
+	dev-python/DHTMLParser3[${PYTHON_USEDEP}]
 	dev-python/textblob[${PYTHON_USEDEP}]
 	dev-python/textblob-nl[${PYTHON_USEDEP}]
 	>=dev-python/pydot-1.4.2[${PYTHON_USEDEP}]

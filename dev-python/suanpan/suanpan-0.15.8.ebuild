@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	dev-python/sasl[${PYTHON_USEDEP}]
 	dev-python/thrift-sasl[${PYTHON_USEDEP}]
 	>=dev-python/thrift-0.11.0[${PYTHON_USEDEP}]
-	dev-python/pyhive[${PYTHON_USEDEP}]
+	dev-python/PyHive[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-18.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

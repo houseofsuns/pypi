@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/absl-py-1.2.0[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -42,6 +42,6 @@ DEPENDENCIES=">=dev-python/absl-py-1.2.0[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]"
+	>=dev-python/flask-2.2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

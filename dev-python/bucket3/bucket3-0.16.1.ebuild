@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/py-gfm[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]

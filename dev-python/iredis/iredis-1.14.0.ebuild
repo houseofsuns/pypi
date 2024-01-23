@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prompt_toolkit[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prompt-toolkit-4.0[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	<dev-python/mistune-4.0[${PYTHON_USEDEP}]
 	<dev-python/configobj-6.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]

@@ -27,8 +27,8 @@ IUSE="dev integration"
 DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/ipython-genutils[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	>=dev-python/ipython_genutils-0.1.0[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/sqlglot-11.3.7[${PYTHON_USEDEP}]
 	dev-python/ploomber-core[${PYTHON_USEDEP}]
 	dev-python/jupysql-plugin[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	dev? ( dev-python/pkgmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
+	dev? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	integration? ( dev-python/pkgmt[${PYTHON_USEDEP}] )
 	integration? ( dev-python/twine[${PYTHON_USEDEP}] )
 	integration? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	integration? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
+	integration? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
 	integration? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	integration? ( ~dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}] )
 	integration? ( dev-python/black[${PYTHON_USEDEP}] )

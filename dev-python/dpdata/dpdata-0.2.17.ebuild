@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/wcmatch[${PYTHON_USEDEP}]
-	amber? ( dev-python/parmed[${PYTHON_USEDEP}] )
+	amber? ( dev-python/ParmEd[${PYTHON_USEDEP}] )
 	ase? ( dev-python/ase[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )

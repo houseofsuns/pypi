@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for send notifications. simple and powerful asyncio-based library for sending notifications. [topver 1.2.1]"
+DESCRIPTION="Library for send notifications. simple and powerful asyncio-based library for sending notifications. [topver 1.2.1, newver 1.2.1]"
 
 HOMEPAGE="https://github.com/phenobarbital/async-notify"
 LICENSE="APACHE"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.38.4[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.24.59[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/aioboto3[${PYTHON_USEDEP}]
-	dev-python/o365[${PYTHON_USEDEP}]
+	dev-python/O365[${PYTHON_USEDEP}]
 	dev-python/slack-bolt[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]"

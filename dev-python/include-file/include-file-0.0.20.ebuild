@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	~dev-python/flake8-3.9.2[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/mypy-0.910[${PYTHON_USEDEP}]
 	~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RECODE - resolution of the curse of dimensionality in single-cell data analysis [topver 0.2.5]"
+DESCRIPTION="RECODE - resolution of the curse of dimensionality in single-cell data analysis [topver 0.2.5, newver 0.2.5]"
 
 HOMEPAGE="https://github.com/yusuke-imoto-lab/RECODE"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/datetime[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]

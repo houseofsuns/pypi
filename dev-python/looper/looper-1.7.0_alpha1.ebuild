@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	dev-python/divvy[${PYTHON_USEDEP}]
 	dev-python/eido[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/logmuse[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	dev-python/pephubclient[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/edx-django-utils[${PYTHON_USEDEP}]
 	dev-python/edx-toggles[${PYTHON_USEDEP}]
 	dev-python/openedx-events[${PYTHON_USEDEP}]"

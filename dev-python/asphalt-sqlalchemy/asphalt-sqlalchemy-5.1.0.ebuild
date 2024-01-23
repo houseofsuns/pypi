@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
 DEPENDENCIES="dev-python/asphalt[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	doc? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}] )

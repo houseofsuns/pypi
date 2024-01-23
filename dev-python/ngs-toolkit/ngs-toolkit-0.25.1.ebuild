@@ -42,10 +42,10 @@ DEPENDENCIES=">=dev-python/setuptools-scm-3.3.3[${PYTHON_USEDEP}]
 	dev-python/divvy[${PYTHON_USEDEP}]
 	dev-python/attmap[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/natsort-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.12.5[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )

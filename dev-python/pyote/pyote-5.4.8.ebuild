@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyote is a simplified subset of R-OTE [topver 5.4.9]"
+DESCRIPTION="pyote is a simplified subset of R-OTE [topver 5.4.9, newver 5.4.9]"
 
 HOMEPAGE="https://github.com/bob-anderson-ok/py-ote"
 LICENSE="License :: OSI Approved :: MIT License"
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
-	dev-python/resource[${PYTHON_USEDEP}]
+	dev-python/Resource[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/Adv2[${PYTHON_USEDEP}]
+	dev-python/adv2[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]"

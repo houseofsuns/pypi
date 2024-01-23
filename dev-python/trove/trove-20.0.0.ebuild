@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Paste[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/Routes[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+	>=dev-python/paste-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pastedeploy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}]
+	>=dev-python/routes-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.0.10[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
 	dev-python/diskimage-builder[${PYTHON_USEDEP}]
 	>=dev-python/docker-4.2.0[${PYTHON_USEDEP}]

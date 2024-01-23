@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
 DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
-	dev-python/typeshed_client[${PYTHON_USEDEP}]
+	dev-python/typeshed-client[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )

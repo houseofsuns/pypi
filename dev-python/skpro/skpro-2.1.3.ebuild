@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	all_extras? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/distfit[${PYTHON_USEDEP}] )
-	all_extras? ( dev-python/mapie[${PYTHON_USEDEP}] )
+	all_extras? ( dev-python/MAPIE[${PYTHON_USEDEP}] )
 	all_extras? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/ngboost[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/polars[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-issues-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-gallery-0.16.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )

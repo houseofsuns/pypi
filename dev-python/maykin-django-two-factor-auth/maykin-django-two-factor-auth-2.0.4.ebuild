@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="call phonenumbers phonenumberslite sms yubikey"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/django-otp-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/qrcode-6.99[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]

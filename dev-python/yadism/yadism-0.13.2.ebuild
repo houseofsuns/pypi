@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="box mark"
-DEPENDENCIES="dev-python/LeProHQ[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/leprohq[${PYTHON_USEDEP}]
 	dev-python/adani[${PYTHON_USEDEP}]
 	mark? ( dev-python/banana-hep[${PYTHON_USEDEP}] )
 	dev-python/eko[${PYTHON_USEDEP}]

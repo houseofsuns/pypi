@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/networkx-2.6.1[${PYTHON_USEDEP}]
 	dev-python/CoolProp[${PYTHON_USEDEP}]
 	dev-python/energy-pandas[${PYTHON_USEDEP}]
 	dev-python/validator-collection[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

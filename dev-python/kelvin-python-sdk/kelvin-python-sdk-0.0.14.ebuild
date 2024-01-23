@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	format? ( dev-python/isort[${PYTHON_USEDEP}] )
 	format? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	lint? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	publisher? ( ~dev-python/click-8.0[${PYTHON_USEDEP}] )

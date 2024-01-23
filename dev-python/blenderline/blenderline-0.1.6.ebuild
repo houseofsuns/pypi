@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/blender-stubs[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/furo-2023.5.20[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/aiofiles-0.8[${PYTHON_USEDEP}]
 	>dev-python/click-log-0.3[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

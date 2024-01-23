@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/feedparser-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pif[${PYTHON_USEDEP}]
 	dev-python/transliterate[${PYTHON_USEDEP}]
 	dev-python/vishap[${PYTHON_USEDEP}]
 	dev-python/django-nine[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/django-autoslug[${PYTHON_USEDEP}]
 	dev-python/django-tinymce[${PYTHON_USEDEP}]
 	>=dev-python/easy-thumbnails-2.5.0[${PYTHON_USEDEP}]"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full"
 DEPENDENCIES="dev-python/colorcet[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

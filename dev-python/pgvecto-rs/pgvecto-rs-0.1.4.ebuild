@@ -28,8 +28,8 @@ DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	psycopg3? ( >=dev-python/psycopg-3.1.12[${PYTHON_USEDEP}] )
 	sdk? ( dev-python/openai[${PYTHON_USEDEP}] )
-	sdk? ( dev-python/pgvecto_rs[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/pgvecto_rs[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )"
+	sdk? ( dev-python/pgvecto-rs[${PYTHON_USEDEP}] )
+	sqlalchemy? ( dev-python/pgvecto-rs[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

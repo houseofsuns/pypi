@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev fake"
 DEPENDENCIES="dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.8[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )

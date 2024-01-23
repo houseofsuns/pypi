@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sparqlwrapper[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	dev-python/flair[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]"

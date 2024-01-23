@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/dynamicannotationdb[${PYTHON_USEDEP}]
+	dev-python/DynamicAnnotationDB[${PYTHON_USEDEP}]
 	dev-python/emannotationschemas[${PYTHON_USEDEP}]
 	dev-python/multiwrapper[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]"

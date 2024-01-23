@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/fabric_fim[${PYTHON_USEDEP}]
 	dev-python/pyjq[${PYTHON_USEDEP}]
-	dev-python/jsonpath_ng[${PYTHON_USEDEP}]
+	~dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/flit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc test"
 DEPENDENCIES=">=dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]
 	dev-python/husl[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipyparallel-8.4.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/ipyparallel-8.4.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mmf-setup[${PYTHON_USEDEP}] )

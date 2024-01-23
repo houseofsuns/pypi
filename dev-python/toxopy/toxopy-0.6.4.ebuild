@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/dirtyR[${PYTHON_USEDEP}]
+	dev-python/dirtyr[${PYTHON_USEDEP}]
 	dev-python/rdp[${PYTHON_USEDEP}]
 	dev-python/pca[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

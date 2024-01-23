@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dummy package for openmeeg. [topver 2.5.7]"
+DESCRIPTION="Dummy package for openmeeg. [topver 2.5.7, newver 2.5.7]"
 
 HOMEPAGE="https://github.com/openmeeg/openmeeg"
 LICENSE="The Unlicensed"

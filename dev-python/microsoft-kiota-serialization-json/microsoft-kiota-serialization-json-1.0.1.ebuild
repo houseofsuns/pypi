@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/microsoft-kiota_abstractions[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/microsoft-kiota-abstractions[${PYTHON_USEDEP}]
 	>=dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cdf"
 DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	cdf? ( dev-python/cognite-sdk[${PYTHON_USEDEP}] )
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]"

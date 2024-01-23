@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pre-commit pyqt5 testing"
-DEPENDENCIES="dev-python/qtpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/QtPy-2.3.0[${PYTHON_USEDEP}]
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
 	>=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.5[${PYTHON_USEDEP}]
 	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

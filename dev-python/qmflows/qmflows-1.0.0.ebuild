@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
 	lint? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/qmflows[${PYTHON_USEDEP}] )
 	test? ( dev-python/rdkit[${PYTHON_USEDEP}] )
-	test-no-optional? ( dev-python/assertionlib[${PYTHON_USEDEP}] )
+	test-no-optional? ( dev-python/AssertionLib[${PYTHON_USEDEP}] )
 	test-no-optional? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test-no-optional? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test-no-optional? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

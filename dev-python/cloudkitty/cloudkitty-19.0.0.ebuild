@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask-RESTful[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pastedeploy-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.20[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.4.3[${PYTHON_USEDEP}]
 	dev-python/cotyledon[${PYTHON_USEDEP}]
-	dev-python/datetimerange[${PYTHON_USEDEP}]
+	dev-python/DateTimeRange[${PYTHON_USEDEP}]
 	dev-python/futurist[${PYTHON_USEDEP}]
 	dev-python/gnocchiclient[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]

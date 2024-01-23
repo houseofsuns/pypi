@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/colander[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/lockfile[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	dev-python/mako[${PYTHON_USEDEP}]
+	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
@@ -37,19 +37,19 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
-	dev-python/WuttJamaican[${PYTHON_USEDEP}]
+	dev-python/wuttjamaican[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2013.0[${PYTHON_USEDEP}]
 	dev-python/pyinotify[${PYTHON_USEDEP}]
 	bouncer? ( dev-python/flufl-bounce[${PYTHON_USEDEP}] )
 	db? ( >=dev-python/alembic-0.7.0[${PYTHON_USEDEP}] )
-	db? ( dev-python/beaker[${PYTHON_USEDEP}] )
+	db? ( dev-python/Beaker[${PYTHON_USEDEP}] )
 	db? ( dev-python/passlib[${PYTHON_USEDEP}] )
-	db? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	db? ( <dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}] )
 	db? ( dev-python/SQLAlchemy-Continuum[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
 	supervisor? ( dev-python/supervisor[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-paramlinks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/audioread-2.1.9[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.0[${PYTHON_USEDEP}]
 	dev-python/soxr[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
-	dev-python/lazy-loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0[${PYTHON_USEDEP}]
 	display? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/audioread-2.1.9[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-multiversion-0.2.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-gallery-0.7[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mir-eval[${PYTHON_USEDEP}] )
+	docs? ( dev-python/mir_eval[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/presets[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A chat interface over up-to-date Python library documentation. [topver 1.1.9]"
+DESCRIPTION="A chat interface over up-to-date Python library documentation. [topver 1.1.9, newver 1.1.9]"
 
 HOMEPAGE="https://github.com/fleet-ai/context/tree/main"
 LICENSE=""

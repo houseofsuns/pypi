@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs mypy test"
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	~dev-python/tomlkit-0.10[${PYTHON_USEDEP}]
 	dev-python/dotty-dict[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )

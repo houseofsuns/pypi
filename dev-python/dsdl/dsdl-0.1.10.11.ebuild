@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.4[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
 	>=dev-python/prettytable-3.3.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/jsonmodels[${PYTHON_USEDEP}]

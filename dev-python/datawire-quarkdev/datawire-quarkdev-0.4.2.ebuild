@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quark: an IDL for high level (micro)service interfaces [topver 1.0.452]"
+DESCRIPTION="Quark: an IDL for high level (micro)service interfaces [topver 1.0.452, newver 1.0.452]"
 
 HOMEPAGE="http://datawire.github.io/quark/"
 LICENSE="Apache-2.0"

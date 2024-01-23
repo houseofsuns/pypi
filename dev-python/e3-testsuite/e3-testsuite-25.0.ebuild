@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="E3 testsuite [topver 26.0]"
+DESCRIPTION="E3 testsuite [topver 26.0, newver 26.0]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

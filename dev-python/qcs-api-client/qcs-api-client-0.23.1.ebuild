@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	<dev-python/retrying-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rfc3339[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

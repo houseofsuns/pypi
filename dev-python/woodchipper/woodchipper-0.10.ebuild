@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Woodchipper is a support library for plugging structured logging into a Python project. [topver 0.12.1]"
+DESCRIPTION="Woodchipper is a support library for plugging structured logging into a Python project. [topver 0.12.1, newver 0.12.1]"
 
 HOMEPAGE="https://github.com/tackle-io/woodchipper"
 LICENSE="MIT"

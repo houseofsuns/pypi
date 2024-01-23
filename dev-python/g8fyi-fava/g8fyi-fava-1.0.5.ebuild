@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="excel"
 DEPENDENCIES="<dev-python/Babel-3.0[${PYTHON_USEDEP}]
-	dev-python/Flask-Babel[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-babel-4.0[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
 	dev-python/g8fyi-beancount[${PYTHON_USEDEP}]
 	<dev-python/cheroot-10.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]

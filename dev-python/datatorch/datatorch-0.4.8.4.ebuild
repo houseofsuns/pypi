@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	~dev-python/websockets-10.4[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/aiodocker[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/aiostream-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]

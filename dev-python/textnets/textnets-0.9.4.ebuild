@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fca"
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/cairocffi-2.0.0[${PYTHON_USEDEP}]
 	fca? ( dev-python/concepts[${PYTHON_USEDEP}] )
 	dev-python/igraph[${PYTHON_USEDEP}]

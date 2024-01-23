@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/web3[${PYTHON_USEDEP}]
-	dev-python/eth_retry[${PYTHON_USEDEP}]"
+	dev-python/eth-retry[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

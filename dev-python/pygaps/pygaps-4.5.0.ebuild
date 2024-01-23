@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/gemmi[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
-	dev-python/coolprop[${PYTHON_USEDEP}]
+	dev-python/CoolProp[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.1[${PYTHON_USEDEP}]
 	>=dev-python/xlwt-1.3[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]"

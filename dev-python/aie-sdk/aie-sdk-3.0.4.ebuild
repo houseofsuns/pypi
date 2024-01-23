@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="data engine openapi"
 DEPENDENCIES="dev-python/aie-ipyleaflet[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [topver 1.9.8, newver 1.9.8]"
 
 HOMEPAGE="https://github.com/k2-fsa/sherpa-onnx"
 LICENSE="Apache licensed, as found in the LICENSE file"

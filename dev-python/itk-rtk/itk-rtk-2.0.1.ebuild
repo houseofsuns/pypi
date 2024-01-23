@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Reconstruction Toolkit (RTK) for fast circular cone-beam CT reconstruction. [topver 2.5.0]"
+DESCRIPTION="The Reconstruction Toolkit (RTK) for fast circular cone-beam CT reconstruction. [topver 2.5.0, newver 2.5.0]"
 
 HOMEPAGE="https://www.openrtk.org/"
 LICENSE="Apache-2.0"

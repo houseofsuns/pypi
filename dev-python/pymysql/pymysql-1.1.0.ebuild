@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ed25519 rsa"
-DEPENDENCIES="ed25519? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
+DEPENDENCIES="ed25519? ( >=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}] )
 	rsa? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/async-property[${PYTHON_USEDEP}]
 	development? ( >=dev-python/ldap3-2.9[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/ruamel-yaml-0.17.4[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/tox-3.23.0[${PYTHON_USEDEP}] )
-	development? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	development? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	development? ( <=dev-python/Faker-15.0.0[${PYTHON_USEDEP}] )
 	development? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/factory-boy[${PYTHON_USEDEP}] )

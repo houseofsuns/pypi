@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="一个简单易用的 Python 库，让写代码成为一件轻松、愉快的事情。 [topver 0.4.7]"
+DESCRIPTION="一个简单易用的 Python 库，让写代码成为一件轻松、愉快的事情。 [topver 0.4.7, newver 0.4.7]"
 
 HOMEPAGE="https://github.com/geekcampchina/happy-python"
 LICENSE="GPL-3"

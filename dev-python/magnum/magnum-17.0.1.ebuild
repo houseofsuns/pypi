@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="osprofiler test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.9[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.9.6[${PYTHON_USEDEP}]
 	>=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
@@ -72,8 +72,8 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	>=dev-python/stevedore-3.3.0[${PYTHON_USEDEP}]
 	dev-python/taskflow[${PYTHON_USEDEP}]
 	osprofiler? ( dev-python/osprofiler[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pygments-2.7.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-2.0.27[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bashate-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )

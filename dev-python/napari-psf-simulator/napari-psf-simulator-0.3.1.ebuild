@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/PyCustomFocus[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/pycustomfocus[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	testing? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	testing? ( dev-python/PyCustomFocus[${PYTHON_USEDEP}] )
+	testing? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	testing? ( dev-python/pycustomfocus[${PYTHON_USEDEP}] )
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	testing? ( dev-python/scipy[${PYTHON_USEDEP}] )"

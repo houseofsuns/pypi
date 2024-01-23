@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="command line jinja2 template (yet another j2cli) [topver 0.9.1]"
+DESCRIPTION="command line jinja2 template (yet another j2cli) [topver 0.9.1, newver 0.9.1]"
 
 HOMEPAGE="https://github.com/podhmo/kamidana"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/dictknife[${PYTHON_USEDEP}]
 	dev-python/magicalimport[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]

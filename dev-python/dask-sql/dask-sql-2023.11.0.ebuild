@@ -31,7 +31,7 @@ DEPENDENCIES="<=dev-python/dask-2023.11.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.13.4[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
-	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.8[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.7.1[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="pandas pg redshift"
 DEPENDENCIES="<dev-python/openpyxl-2.5.0[${PYTHON_USEDEP}]
 	dev-python/tablib[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	pandas? ( dev-python/tablib[${PYTHON_USEDEP}] )
 	pg? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )

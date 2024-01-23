@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/setuptools-40.9.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/py-mjpeg[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-3.1.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

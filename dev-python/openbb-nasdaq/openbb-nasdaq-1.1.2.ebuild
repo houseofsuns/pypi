@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/openbb-core[${PYTHON_USEDEP}]
 	dev-python/random-user-agent[${PYTHON_USEDEP}]
-	dev-python/nasdaq-data-link[${PYTHON_USEDEP}]"
+	dev-python/Nasdaq-Data-Link[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for pydantic factur-x bindings [topver 0.2.0]"
+DESCRIPTION="Python library for pydantic factur-x bindings [topver 0.2.0, newver 0.2.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

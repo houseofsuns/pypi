@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Napari integration of the nucleaizer algorithm. (https://nucleaizer.org) [topver 0.2.5]"
+DESCRIPTION="Napari integration of the nucleaizer algorithm. (https://nucleaizer.org) [topver 0.2.5, newver 0.2.5]"
 
 HOMEPAGE="https://github.com/etasnadi/napari_nucleaizer"
 LICENSE="BSD"

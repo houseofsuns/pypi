@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Secure and Powerful Python-Telethon Based and Python-Pyrogram Based Library For Your Userbot Module. [topver 0.0.9]"
+DESCRIPTION="A Secure and Powerful Python-Telethon Based and Python-Pyrogram Based Library For Your Userbot Module. [topver 0.0.9, newver 0.0.9]"
 
 HOMEPAGE="https://github.com/AyiinXd/AyiinXd"
 LICENSE="GNU General Public License v3.0 GPL-3.0"
@@ -27,16 +27,16 @@ IUSE=""
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/fipper[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/pymediainfo[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/py-Pyro[${PYTHON_USEDEP}]
+	dev-python/py-pyro[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/Pyyaml[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/telethon[${PYTHON_USEDEP}]
-	dev-python/tgcrypto[${PYTHON_USEDEP}]
+	dev-python/Telethon[${PYTHON_USEDEP}]
+	dev-python/TgCrypto[${PYTHON_USEDEP}]
 	dev-python/tracemoepy[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="django utils for VTB projects [topver 2.0.33]"
+DESCRIPTION="django utils for VTB projects [topver 2.0.33, newver 2.0.33]"
 
 HOMEPAGE="https://bitbucket.region.vtb.ru/projects/PUOS/repos/vtb-django-utils"
 LICENSE=""

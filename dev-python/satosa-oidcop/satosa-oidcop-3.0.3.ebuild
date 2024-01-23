@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/satosa[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/SATOSA[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0[${PYTHON_USEDEP}]
 	dev-python/idpyoidc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

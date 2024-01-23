@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/connexion[${PYTHON_USEDEP}]
-	dev-python/flask-jwt-extended[${PYTHON_USEDEP}]
+	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]

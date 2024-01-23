@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="couchdb mongodb"
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	mongodb? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
-	couchdb? ( dev-python/couchdb[${PYTHON_USEDEP}] )
+	couchdb? ( dev-python/CouchDB[${PYTHON_USEDEP}] )
 	dev-python/mojo-xmodules[${PYTHON_USEDEP}]
 	dev-python/mojo-config[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

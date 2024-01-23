@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/ansys-api-mapdl[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/grpcio-1.51.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imageio-ffmpeg-0.4.9[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imageio-2.31.5[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/jupyterlab-3.2.8[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/pid-3.0.3[${PYTHON_USEDEP}]
 	dev-python/python-logstash-async[${PYTHON_USEDEP}]
 	~dev-python/confuse-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-19.0.1[${PYTHON_USEDEP}]
-	dev-python/webhook-listener[${PYTHON_USEDEP}]
+	dev-python/Webhook-Listener[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

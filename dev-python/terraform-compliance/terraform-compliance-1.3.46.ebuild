@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="faster_parsing"
 DEPENDENCIES="dev-python/radish-bdd[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.0.5[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
 	>=dev-python/colorful-0.5.4[${PYTHON_USEDEP}]
 	>=dev-python/filetype-1.0.5[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/radish-bdd[${PYTHON_USEDEP}]
 	>=dev-python/emoji-0.5.4[${PYTHON_USEDEP}]
 	>=dev-python/mock-3.0.5[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.10.2[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	~dev-python/ipython-7.16.1[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.1.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.8.3[${PYTHON_USEDEP}]
 	faster_parsing? ( dev-python/orjson[${PYTHON_USEDEP}] )"

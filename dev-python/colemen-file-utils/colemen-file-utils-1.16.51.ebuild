@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/secure-delete[${PYTHON_USEDEP}]
 	dev-python/colemen-string-utils[${PYTHON_USEDEP}]
 	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/iptcinfo3[${PYTHON_USEDEP}]
+	dev-python/IPTCInfo3[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Codenize your data sources [topver 0.4.1]"
+DESCRIPTION="Codenize your data sources [topver 0.4.1, newver 0.4.1]"
 
 HOMEPAGE="https://github.com/ayemos/akagi"
 LICENSE="MIT"

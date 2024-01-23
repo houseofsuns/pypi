@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/cssselect[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	test? ( dev-python/repoze-xmliter[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebOb[${PYTHON_USEDEP}] )
+	test? ( dev-python/webob[${PYTHON_USEDEP}] )
 	test? ( dev-python/py[${PYTHON_USEDEP}] )
 	wsgi? ( dev-python/repoze-xmliter[${PYTHON_USEDEP}] )
-	wsgi? ( dev-python/WebOb[${PYTHON_USEDEP}] )"
+	wsgi? ( dev-python/webob[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

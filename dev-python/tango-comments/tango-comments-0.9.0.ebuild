@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple port of the old django.contrib.comments into Tango. [topver 0.10.0]"
+DESCRIPTION="A simple port of the old django.contrib.comments into Tango. [topver 0.10.0, newver 0.10.0]"
 
 HOMEPAGE="http://github.com/tBaxter/tango-comments"
 LICENSE="LICENSE"

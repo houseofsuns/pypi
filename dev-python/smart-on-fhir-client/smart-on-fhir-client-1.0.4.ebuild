@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiocache-0.12.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
 	dev-python/fhir-resources[${PYTHON_USEDEP}]

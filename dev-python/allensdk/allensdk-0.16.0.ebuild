@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="core libraries for the allensdk. [topver 2.16.2]"
+DESCRIPTION="core libraries for the allensdk. [topver 2.16.2, newver 2.16.2]"
 
 HOMEPAGE="https://github.com/AllenInstitute/AllenSDK/tree/v0.16.0"
 LICENSE=""

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="<=dev-python/deepdiff-6.2.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lightkube[${PYTHON_USEDEP}]
 	dev-python/ops[${PYTHON_USEDEP}]
 	dev-python/serialized-data-interface[${PYTHON_USEDEP}]

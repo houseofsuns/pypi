@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Database ORM and API builder. [topver 2016.1.50]"
+DESCRIPTION="Database ORM and API builder. [topver 2016.1.50, newver 2016.1.50]"
 
 HOMEPAGE="https://github.com/ProjexSoftware/orb"
 LICENSE="LGPL-3"

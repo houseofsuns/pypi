@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pdf rest"
-DEPENDENCIES="pdf? ( dev-python/ReportLab[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/RXP[${PYTHON_USEDEP}] )
+DEPENDENCIES="pdf? ( >=dev-python/reportlab-1.2[${PYTHON_USEDEP}] )
+	pdf? ( dev-python/rxp[${PYTHON_USEDEP}] )
 	rest? ( >=dev-python/docutils-0.3[${PYTHON_USEDEP}] )
 	rest? ( dev-python/pack[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

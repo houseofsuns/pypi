@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="broker"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-44.0[${PYTHON_USEDEP}]
 	broker? ( dev-python/pymsalruntime[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
-	dev-python/flask_swagger_ui[${PYTHON_USEDEP}]
+	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

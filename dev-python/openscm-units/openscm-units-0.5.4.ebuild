@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebooks"
-DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/globalwarmingpotentials[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	notebooks? ( <dev-python/notebook-8.0.0[${PYTHON_USEDEP}] )

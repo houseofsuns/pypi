@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests type-tests"
-DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/pytest-2.3.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/tox-1.6.0[${PYTHON_USEDEP}] )

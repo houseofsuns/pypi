@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/APScheduler-3.9.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/uwsgi[${PYTHON_USEDEP}]
+	dev-python/uWSGI[${PYTHON_USEDEP}]
 	dev-python/tzdata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

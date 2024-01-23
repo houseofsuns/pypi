@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scrapy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/itemadapter[${PYTHON_USEDEP}]
 	dev-python/itemloaders[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/pyexiftool[${PYTHON_USEDEP}]
+	~dev-python/twisted-22.10.0[${PYTHON_USEDEP}]
+	dev-python/PyExifTool[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

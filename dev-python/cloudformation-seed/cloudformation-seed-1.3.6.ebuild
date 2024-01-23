@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/boto3-1.9.64[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
 	dev-python/objectpath[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

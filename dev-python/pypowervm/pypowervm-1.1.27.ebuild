@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Taskflow[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/taskflow[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/lxml-3.4.1[${PYTHON_USEDEP}]
 	>=dev-python/oslo-concurrency-3.8.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-context-2.12.0[${PYTHON_USEDEP}]

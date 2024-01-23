@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/markdown-3.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.6.1[${PYTHON_USEDEP}]
 	dev-python/astpath[${PYTHON_USEDEP}]
 	>=dev-python/cssselect-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/flake8-3.5[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cms-3 cms-4 djangocms-icon static-ace"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
 	dev-python/easy-thumbnails[${PYTHON_USEDEP}]

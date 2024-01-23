@@ -37,8 +37,8 @@ DEPENDENCIES="<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	dev-python/HeapDict[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-cache-2.0.0[${PYTHON_USEDEP}]
-	dev-python/rwthcolors[${PYTHON_USEDEP}]"
+	dev-python/RWTHColors[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

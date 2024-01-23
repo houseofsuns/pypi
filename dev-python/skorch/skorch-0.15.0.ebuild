@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.14.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	testing? ( dev-python/accelerate[${PYTHON_USEDEP}] )

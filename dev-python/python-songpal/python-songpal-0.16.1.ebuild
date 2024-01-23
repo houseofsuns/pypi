@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async_upnp_client[${PYTHON_USEDEP}]
+	dev-python/async-upnp-client[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

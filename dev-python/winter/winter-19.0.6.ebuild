@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.0.0[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/injector[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	dev-python/openapi-schema-pydantic[${PYTHON_USEDEP}]

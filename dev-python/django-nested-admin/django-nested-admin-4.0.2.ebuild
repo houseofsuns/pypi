@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/python-monkey-business[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-selenosis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/python-monkey-business[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-selenosis[${PYTHON_USEDEP}] )
 	test? ( dev-python/selenium[${PYTHON_USEDEP}] )"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-cors-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/aserto[${PYTHON_USEDEP}]"

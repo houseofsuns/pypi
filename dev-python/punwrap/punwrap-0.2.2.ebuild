@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for runwrap [topver 0.2.4]"
+DESCRIPTION="Python bindings for runwrap [topver 0.2.4, newver 0.2.4]"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"

@@ -70,7 +70,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-executable[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-implicit-str-concat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pie[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	dev? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

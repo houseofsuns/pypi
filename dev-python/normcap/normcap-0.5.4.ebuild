@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
-	dev-python/pyside6-essentials[${PYTHON_USEDEP}]
+	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	~dev-python/shiboken6-6.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

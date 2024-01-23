@@ -27,7 +27,7 @@ IUSE="dev redis"
 DEPENDENCIES="dev-python/hooker[${PYTHON_USEDEP}]
 	dev-python/fastapi-websocket-pubsub[${PYTHON_USEDEP}]
 	~dev-python/zeroconf-0.47.4[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
 	~dev-python/termcolor-2.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/autopep8-2.0.2[${PYTHON_USEDEP}] )

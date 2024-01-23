@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.11[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.0.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]"

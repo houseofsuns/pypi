@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]"
+	~dev-python/shapely-1.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

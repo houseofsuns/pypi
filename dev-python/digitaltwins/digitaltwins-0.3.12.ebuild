@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/gen3[${PYTHON_USEDEP}]
 	dev-python/python-irodsclient[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/dictionaryutils[${PYTHON_USEDEP}]"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/fastprogress[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )

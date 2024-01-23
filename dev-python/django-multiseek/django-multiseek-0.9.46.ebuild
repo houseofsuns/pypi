@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build a form to seek records using multiple parameters [topver 0.9.47]"
+DESCRIPTION="Build a form to seek records using multiple parameters [topver 0.9.47, newver 0.9.47]"
 
 HOMEPAGE="http://TODO"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/django-autocomplete-light[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="flake8 tests"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	dev-python/pynliner[${PYTHON_USEDEP}]
 	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	flake8? ( ~dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )

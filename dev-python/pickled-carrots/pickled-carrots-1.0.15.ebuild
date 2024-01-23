@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/mplstereonet[${PYTHON_USEDEP}]
 	~dev-python/pyproj-3.4.1[${PYTHON_USEDEP}]
 	<dev-python/ipdb-0.14.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
 	dev-python/uquake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
 	~dev-python/idna-3.6[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/ratelimit-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]

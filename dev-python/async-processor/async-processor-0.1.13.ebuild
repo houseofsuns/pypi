@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}]
 	kafka? ( <dev-python/kafka-python-2.1.0[${PYTHON_USEDEP}] )
 	nats? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	<dev-python/orjson-3.10.0[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-2.32.0[${PYTHON_USEDEP}]
 	<dev-python/starlette-0.28.0[${PYTHON_USEDEP}]

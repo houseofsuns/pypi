@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
-	dev-python/AnyQt[${PYTHON_USEDEP}]
+	>=dev-python/anyqt-0.1.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/orange-canvas-core[${PYTHON_USEDEP}]
 	dev-python/appnope[${PYTHON_USEDEP}]"

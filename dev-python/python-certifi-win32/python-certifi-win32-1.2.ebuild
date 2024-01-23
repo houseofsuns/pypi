@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Add windows certificate store to certifi cacerts. [topver 1.6.1]"
+DESCRIPTION="Add windows certificate store to certifi cacerts. [topver 1.6.1, newver 1.6.1]"
 
 HOMEPAGE="https://gitlab.com/alelec/python-certifi-win32"
 LICENSE="BSD"

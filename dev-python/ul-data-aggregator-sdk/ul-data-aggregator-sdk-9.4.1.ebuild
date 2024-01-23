@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/unipipeline[${PYTHON_USEDEP}]
 	dev-python/ul-api-utils[${PYTHON_USEDEP}]
 	~dev-python/wtforms-3.0.1[${PYTHON_USEDEP}]
-	dev-python/wtforms-alchemy[${PYTHON_USEDEP}]"
+	dev-python/WTForms-Alchemy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

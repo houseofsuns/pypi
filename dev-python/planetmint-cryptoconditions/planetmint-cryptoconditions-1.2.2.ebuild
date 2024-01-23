@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]"

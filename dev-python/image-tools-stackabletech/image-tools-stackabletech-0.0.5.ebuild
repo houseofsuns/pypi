@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/mypy-1.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

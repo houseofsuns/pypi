@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	~dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
-	dev-python/fmpy[${PYTHON_USEDEP}]
+	dev-python/FMPy[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/more-itertools-8.0.2[${PYTHON_USEDEP}]

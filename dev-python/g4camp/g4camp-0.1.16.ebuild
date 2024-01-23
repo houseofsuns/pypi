@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/configargparse[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/geant4-pybind[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django-class-settings"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.1[${PYTHON_USEDEP}]
 	dev-python/envex[${PYTHON_USEDEP}]
 	django-class-settings? ( dev-python/django-class-settings[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

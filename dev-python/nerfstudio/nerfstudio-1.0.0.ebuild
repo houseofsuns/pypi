@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	dev-python/nerfacc[${PYTHON_USEDEP}]
 	dev-python/open3d[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.7.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyngrok[${PYTHON_USEDEP}]
@@ -93,7 +93,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-argparse-0.3.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	gen? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	gen? ( dev-python/transformers[${PYTHON_USEDEP}] )

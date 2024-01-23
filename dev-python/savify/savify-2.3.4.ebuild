@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/ffmpy[${PYTHON_USEDEP}]
 	>=dev-python/spotipy-2.16.1[${PYTHON_USEDEP}]
-	dev-python/youtube-dl[${PYTHON_USEDEP}]
+	dev-python/youtube_dl[${PYTHON_USEDEP}]
 	>=dev-python/tldextract-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.18.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

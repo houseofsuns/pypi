@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/arcane-core[${PYTHON_USEDEP}]
 	<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
-	dev-python/flask_log_request_id[${PYTHON_USEDEP}]
-	dev-python/firebase_admin[${PYTHON_USEDEP}]
+	dev-python/Flask-Log-Request-ID[${PYTHON_USEDEP}]
+	dev-python/firebase-admin[${PYTHON_USEDEP}]
 	dev-python/arcane-datastore[${PYTHON_USEDEP}]
 	dev-python/arcane-pubsub[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]

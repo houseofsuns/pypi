@@ -31,8 +31,8 @@ DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/chiabip158[${PYTHON_USEDEP}]
 	dev-python/chiapos[${PYTHON_USEDEP}]
 	dev-python/clvm[${PYTHON_USEDEP}]
-	dev-python/clvm_tools[${PYTHON_USEDEP}]
-	dev-python/chia_rs[${PYTHON_USEDEP}]
+	dev-python/clvm-tools[${PYTHON_USEDEP}]
+	dev-python/chia-rs[${PYTHON_USEDEP}]
 	dev-python/clvm-tools-rs[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	~dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.13.1[${PYTHON_USEDEP}]
 	~dev-python/keyring-24.3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/setproctitle-1.3.3[${PYTHON_USEDEP}]
 	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
@@ -71,11 +71,11 @@ DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp_cors[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-cryptography[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/types-setuptools-68.2.0.1[${PYTHON_USEDEP}] )
 	upnp? ( ~dev-python/miniupnpc-2.2.2[${PYTHON_USEDEP}] )
 	legacy-keyring? ( dev-python/keyrings-cryptfile[${PYTHON_USEDEP}] )"

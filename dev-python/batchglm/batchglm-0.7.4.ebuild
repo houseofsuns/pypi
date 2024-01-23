@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	optional? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	optional? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="(Resource) Constrained  Shortest Path algorithms in Python [topver 1.0.3]"
+DESCRIPTION="(Resource) Constrained  Shortest Path algorithms in Python [topver 1.0.3, newver 1.0.3]"
 
 HOMEPAGE="https://github.com/torressa/cspy"
 LICENSE=""

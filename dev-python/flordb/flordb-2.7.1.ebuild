@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast Low-Overhead Recovery [topver 2.8.0]"
+DESCRIPTION="Fast Low-Overhead Recovery [topver 2.8.0, newver 2.8.0]"
 
 HOMEPAGE="https://github.com/ucbrise/flor"
 LICENSE=""

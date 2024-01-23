@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Validate brazilian documents. [topver 1.10.0]"
+DESCRIPTION="Validate brazilian documents. [topver 1.10.0, newver 1.10.0]"
 
 HOMEPAGE="https://github.com/alvarofpp/validate-docbr"
 LICENSE=""

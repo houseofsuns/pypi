@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

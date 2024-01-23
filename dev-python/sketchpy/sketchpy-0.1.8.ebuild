@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/turtle[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/svg-path[${PYTHON_USEDEP}]
 	dev-python/svgpathtools[${PYTHON_USEDEP}]
 	dev-python/pyarmor[${PYTHON_USEDEP}]

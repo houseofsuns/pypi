@@ -28,9 +28,9 @@ DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/validate_email[${PYTHON_USEDEP}]
 	dev-python/mf2py[${PYTHON_USEDEP}]
-	dev-python/mastodon-py[${PYTHON_USEDEP}]"
+	dev-python/Mastodon-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

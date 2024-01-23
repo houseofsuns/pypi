@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/pytest-4.0.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/docutils-0.12[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pygments-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-asyncio-0.15.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/anyio[${PYTHON_USEDEP}] )"

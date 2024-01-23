@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.0.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow3-annotations[${PYTHON_USEDEP}]

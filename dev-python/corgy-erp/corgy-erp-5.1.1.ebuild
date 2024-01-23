@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.13.0[${PYTHON_USEDEP}]
 	~dev-python/python-memcached-1.59[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-0.14.4[${PYTHON_USEDEP}]
-	dev-python/uwsgi[${PYTHON_USEDEP}]
+	dev-python/uWSGI[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/wheel-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	all? ( <dev-python/loky-4.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyICU[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyicu-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/gensim[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/nbsphinx-1.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/notebook-6.5.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-67.6[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/nbsphinx-1.0[${PYTHON_USEDEP}] )
 	gensim? ( dev-python/gensim[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	textproc? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	textproc? ( <dev-python/loky-4.0[${PYTHON_USEDEP}] )
-	textproc_extra? ( dev-python/PyICU[${PYTHON_USEDEP}] )
+	textproc_extra? ( <dev-python/pyicu-3.0[${PYTHON_USEDEP}] )
 	textproc_extra? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	topic_modeling_eval_extra? ( dev-python/gmpy2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

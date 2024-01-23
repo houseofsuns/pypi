@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/uuid6[${PYTHON_USEDEP}]
 	dev-python/pluralizer[${PYTHON_USEDEP}]
@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/cattrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/pendulum-4.0.0[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]"
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

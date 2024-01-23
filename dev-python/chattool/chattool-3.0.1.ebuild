@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
 	>=dev-python/responses-0.23[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]

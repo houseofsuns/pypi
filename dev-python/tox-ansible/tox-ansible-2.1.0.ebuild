@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-ansible-0.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pipdeptree-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/ansible-core[${PYTHON_USEDEP}] )

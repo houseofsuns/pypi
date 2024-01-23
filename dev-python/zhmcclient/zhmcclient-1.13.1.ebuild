@@ -32,11 +32,11 @@ DEPENDENCIES=">=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pyrsistent-0.15.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.0.11[${PYTHON_USEDEP}]
 	<dev-python/stomp-py-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	testutils? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

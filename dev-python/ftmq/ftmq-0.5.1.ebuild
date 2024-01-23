@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/banal[${PYTHON_USEDEP}]
 	dev-python/followthemoney[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyICU[${PYTHON_USEDEP}]
+	<dev-python/pyicu-3.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]

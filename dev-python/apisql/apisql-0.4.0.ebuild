@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/flask-jsonpify[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	dev-python/Flask-Jsonpify[${PYTHON_USEDEP}]
+	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/backports-cached-property[${PYTHON_USEDEP}]
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )"

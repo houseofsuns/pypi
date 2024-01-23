@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all notebook vis"
-DEPENDENCIES="dev-python/pyposast[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyPosAST[${PYTHON_USEDEP}]
 	dev-python/apted[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	all? ( dev-python/pyposast[${PYTHON_USEDEP}] )
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	all? ( dev-python/PyPosAST[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyswip-alt[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/pyposast[${PYTHON_USEDEP}] )
+	notebook? ( dev-python/PyPosAST[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	vis? ( dev-python/pyposast[${PYTHON_USEDEP}] )
+	vis? ( dev-python/PyPosAST[${PYTHON_USEDEP}] )
 	vis? ( dev-python/flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

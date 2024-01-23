@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cassandra-driver[${PYTHON_USEDEP}]
-	dev-python/async-generator[${PYTHON_USEDEP}]"
+	dev-python/async_generator[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

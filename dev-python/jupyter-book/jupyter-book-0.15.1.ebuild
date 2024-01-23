@@ -36,12 +36,12 @@ DEPENDENCIES="sphinx? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	<dev-python/sphinx-6.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-comments[${PYTHON_USEDEP}]
 	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
-	dev-python/sphinx-external-toc[${PYTHON_USEDEP}]
+	dev-python/sphinx_external_toc[${PYTHON_USEDEP}]
 	dev-python/sphinx-jupyterbook-latex[${PYTHON_USEDEP}]
-	dev-python/sphinx-design[${PYTHON_USEDEP}]
+	dev-python/sphinx_design[${PYTHON_USEDEP}]
 	dev-python/sphinx-thebe[${PYTHON_USEDEP}]
 	dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
-	dev-python/sphinx_togglebutton[${PYTHON_USEDEP}]
+	dev-python/sphinx-togglebutton[${PYTHON_USEDEP}]
 	<=dev-python/sphinxcontrib-bibtex-2.5.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-multitoc-numbering[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="sphinx? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-examples[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx_inline_tabs[${PYTHON_USEDEP}] )
+	sphinx? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-proof[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sympy[${PYTHON_USEDEP}] )
@@ -73,8 +73,8 @@ DEPENDENCIES="sphinx? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx_click[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx_tabs[${PYTHON_USEDEP}] )
-	testing? ( dev-python/texsoup[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
+	testing? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	testing? ( dev-python/TexSoup[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

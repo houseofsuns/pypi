@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mbed-ls is a Python module that detects and lists mbed-enabled devices connected to the host computer [topver 1.8.15]"
+DESCRIPTION="mbed-ls is a Python module that detects and lists mbed-enabled devices connected to the host computer [topver 1.8.15, newver 1.8.15]"
 
 HOMEPAGE="https://github.com/ARMmbed/mbed-os-tools"
 LICENSE="Apache-2.0"

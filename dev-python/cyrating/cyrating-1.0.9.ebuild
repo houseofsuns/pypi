@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for https://www.cyrating.com. [topver 1.0.17]"
+DESCRIPTION="Python wrapper for https://www.cyrating.com. [topver 1.0.17, newver 1.0.17]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	>=dev-python/pyjwt-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

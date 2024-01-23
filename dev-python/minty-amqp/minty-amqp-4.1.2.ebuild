@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/minty[${PYTHON_USEDEP}]
-	dev-python/amqpstorm[${PYTHON_USEDEP}]"
+	dev-python/AMQPStorm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

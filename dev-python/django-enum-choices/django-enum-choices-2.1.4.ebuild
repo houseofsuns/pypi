@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev? ( dev-python/Django[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/django-2.2.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/djangorestframework-3.9.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )

@@ -32,10 +32,10 @@ DEPENDENCIES=">=dev-python/cython-0.20[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipython-3.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-1.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipython-3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-1.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )"

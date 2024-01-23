@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/dulwich[${PYTHON_USEDEP}]
 	dev-python/mirutil[${PYTHON_USEDEP}]
 	dev-python/mtok[${PYTHON_USEDEP}]
 	dev-python/purl[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]"
+	dev-python/PyGithub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

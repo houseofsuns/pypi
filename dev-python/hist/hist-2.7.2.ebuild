@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/boost-histogram[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/iminuit-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython-genutils[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mplhep[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-0.14[${PYTHON_USEDEP}] )

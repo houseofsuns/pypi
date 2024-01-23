@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/appdirs-1.5[${PYTHON_USEDEP}]
 	<dev-python/filetype-2.0[${PYTHON_USEDEP}]
 	dev-python/fpyutils[${PYTHON_USEDEP}]
 	<dev-python/lxml-4.10[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

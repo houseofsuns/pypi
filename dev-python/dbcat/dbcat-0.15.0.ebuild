@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="datahub"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/amundsen-databuilder[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-mixins[${PYTHON_USEDEP}]
 	dev-python/pyhocon[${PYTHON_USEDEP}]
-	dev-python/pyathena[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/PyAthena[${PYTHON_USEDEP}]
+	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	<dev-python/botocore-1.21.0[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.17.23[${PYTHON_USEDEP}]
@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	datahub? ( dev-python/great-expectations[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/greenlet-3.0.0[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]"
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

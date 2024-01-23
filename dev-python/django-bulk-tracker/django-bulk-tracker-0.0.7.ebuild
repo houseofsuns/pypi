@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/tox-4.4.5[${PYTHON_USEDEP}] )"

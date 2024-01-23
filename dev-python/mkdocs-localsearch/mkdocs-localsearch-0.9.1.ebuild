@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A MkDocs plugin to replace the native \"search\" plugin with a search plugin that also works locally (file:// protocol). Only works with the Material theme. [topver 0.9.2]"
+DESCRIPTION="A MkDocs plugin to replace the native \"search\" plugin with a search plugin that also works locally (file:// protocol). Only works with the Material theme. [topver 0.9.2, newver 0.9.2]"
 
 HOMEPAGE="https://github.com/wilhelmer/mkdocs-localsearch"
 LICENSE="MIT"

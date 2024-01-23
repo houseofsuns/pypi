@@ -33,12 +33,12 @@ DEPENDENCIES=">dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/cloud-sptheme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/cloud_sptheme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
-	full? ( dev-python/glymur[${PYTHON_USEDEP}] )
+	full? ( dev-python/pywavelets[${PYTHON_USEDEP}] )
+	full? ( dev-python/Glymur[${PYTHON_USEDEP}] )
 	full? ( dev-python/pycuda[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-cuda[${PYTHON_USEDEP}] )
 	full? ( dev-python/pycudwt[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cerberus[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cerberus-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.16[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

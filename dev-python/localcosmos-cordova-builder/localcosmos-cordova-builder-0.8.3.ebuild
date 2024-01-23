@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/peewee-3.9.6[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.3.4[${PYTHON_USEDEP}]
 	dev-python/tendo[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

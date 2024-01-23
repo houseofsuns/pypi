@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/brotlicffi[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]"
+	dev-python/Brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

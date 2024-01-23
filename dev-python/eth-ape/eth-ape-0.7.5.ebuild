@@ -37,10 +37,10 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.35[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-5.3.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
@@ -73,11 +73,11 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mdformat-frontmatter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mdformat-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mdformat_frontmatter[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mdformat_pyproject[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-plausible[${PYTHON_USEDEP}] )
@@ -90,7 +90,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-plausible[${PYTHON_USEDEP}] )
@@ -107,8 +107,8 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	lint? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mdformat-frontmatter[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mdformat-pyproject[${PYTHON_USEDEP}] )
+	lint? ( dev-python/mdformat_frontmatter[${PYTHON_USEDEP}] )
+	lint? ( dev-python/mdformat_pyproject[${PYTHON_USEDEP}] )
 	recommended-plugins? ( dev-python/ape-alchemy[${PYTHON_USEDEP}] )
 	recommended-plugins? ( dev-python/ape-ens[${PYTHON_USEDEP}] )
 	recommended-plugins? ( dev-python/ape-etherscan[${PYTHON_USEDEP}] )

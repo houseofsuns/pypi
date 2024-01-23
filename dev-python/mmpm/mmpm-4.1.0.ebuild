@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask-Cors[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.12.0[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
 	>=dev-python/pip-23.3.1[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0.43[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

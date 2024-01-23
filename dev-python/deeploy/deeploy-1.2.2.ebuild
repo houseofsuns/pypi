@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.23[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]

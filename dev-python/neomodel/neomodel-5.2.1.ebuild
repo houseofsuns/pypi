@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/neo4j[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/shapely-2.0.0[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

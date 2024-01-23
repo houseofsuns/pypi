@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-2.1.1[${PYTHON_USEDEP}]

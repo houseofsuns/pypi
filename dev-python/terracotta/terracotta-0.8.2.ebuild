@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/apispec-1.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask_cors[${PYTHON_USEDEP}]
+	dev-python/flask-cors[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/apispec-1.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pymysql-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_autodoc_typehints[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pymysql-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="argo gcp gitlab jupyter minio rollbar secure windows"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]

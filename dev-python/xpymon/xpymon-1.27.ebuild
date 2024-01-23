@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Xlib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/xlib[${PYTHON_USEDEP}]
 	dev-python/perlcompat[${PYTHON_USEDEP}]
 	dev-python/x11util[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

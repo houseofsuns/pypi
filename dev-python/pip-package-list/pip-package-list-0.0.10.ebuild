@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate a flat list of packages Pip would install. [topver 0.0.11]"
+DESCRIPTION="Generate a flat list of packages Pip would install. [topver 0.0.11, newver 0.0.11]"
 
 HOMEPAGE="https://github.com/Photonios/pip-package-list"
 LICENSE="MIT"

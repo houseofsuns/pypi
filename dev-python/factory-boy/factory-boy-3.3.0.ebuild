@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc"
 DEPENDENCIES=">=dev-python/Faker-0.7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Django[${PYTHON_USEDEP}] )
+	dev? ( dev-python/django[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mongoengine[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.32.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

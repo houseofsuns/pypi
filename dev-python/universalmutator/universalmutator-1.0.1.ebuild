@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Universal regexp-based mutation tool [topver 1.1.7]"
+DESCRIPTION="Universal regexp-based mutation tool [topver 1.1.7, newver 1.1.7]"
 
 HOMEPAGE="https://github.com/agroce/universalmutator"
 LICENSE="MIT"
@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-levenshtein[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/python-Levenshtein[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

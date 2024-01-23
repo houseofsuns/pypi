@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django test"
-DEPENDENCIES="dev-python/lnhub_rest[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/lnhub-rest[${PYTHON_USEDEP}]
 	dev-python/laminci[${PYTHON_USEDEP}]
 	dev-python/lnschema_core[${PYTHON_USEDEP}]
 	dev-python/lamin_logger[${PYTHON_USEDEP}]
-	dev-python/pytest_alembic[${PYTHON_USEDEP}]
+	dev-python/pytest-alembic[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
@@ -37,13 +37,13 @@ DEPENDENCIES="dev-python/lnhub_rest[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/universal_pathlib[${PYTHON_USEDEP}]
+	dev-python/universal-pathlib[${PYTHON_USEDEP}]
 	django? ( dev-python/django[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbproject-test[${PYTHON_USEDEP}] )
+	test? ( dev-python/nbproject_test[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbproject[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

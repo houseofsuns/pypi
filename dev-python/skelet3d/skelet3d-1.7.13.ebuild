@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [newver 1.4.11]"
 
 HOMEPAGE="https://github.com/mjirik/skelet3d"
 LICENSE="MIT"

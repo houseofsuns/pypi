@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
 	~dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}]
 	~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
 	~dev-python/lmdb-1.3.0[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
@@ -177,7 +177,7 @@ DEPENDENCIES="~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
 	benchmark? ( ~dev-python/smmap-5.0.0[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/stevedore-3.5.0[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/filelock-3.6.0[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/identify-2.4.12[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/platformdirs-2.5.2[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
@@ -235,7 +235,7 @@ DEPENDENCIES="~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/smmap-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/stevedore-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/filelock-3.6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/identify-2.4.12[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/platformdirs-2.5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )

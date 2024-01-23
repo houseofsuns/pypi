@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.5[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
 	proxy? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )
-	proxy? ( dev-python/pysocks[${PYTHON_USEDEP}] )"
+	proxy? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

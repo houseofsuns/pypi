@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.2.1[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
-	fft? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
-	fft? ( dev-python/pulp[${PYTHON_USEDEP}] )
+	dev-python/QtPy[${PYTHON_USEDEP}]
+	fft? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
+	fft? ( dev-python/PuLP[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
 	sht? ( dev-python/shtns[${PYTHON_USEDEP}] )
 	full? ( dev-python/fluiddyn[${PYTHON_USEDEP}] )

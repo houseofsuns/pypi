@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	<dev-python/ipython-9.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-core-4.11.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]

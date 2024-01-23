@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

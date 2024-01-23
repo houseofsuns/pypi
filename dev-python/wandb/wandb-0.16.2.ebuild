@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async aws azure gcp kubeflow launch media models perf sweeps"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sentry-sdk-1.0.0[${PYTHON_USEDEP}]
 	dev-python/docker-pycreds[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	launch? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	launch? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	launch? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	launch? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	launch? ( >=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}] )
 	media? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	media? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	media? ( dev-python/pillow[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/scancode-toolkit[${PYTHON_USEDEP}]
 	dev-python/typecode-libmagic[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/fontTools[${PYTHON_USEDEP}]
+	dev-python/fonttools[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple yet powerful tool to help you manage your mods in several ways. [topver 1.1.0]"
+DESCRIPTION="Simple yet powerful tool to help you manage your mods in several ways. [topver 1.1.0, newver 1.1.0]"
 
 HOMEPAGE="https://gitlab.com/modding-openmw/modhelpertool"
 LICENSE="MIT"
@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	~dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/QtAwesome[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/qtawesome-1.1.1[${PYTHON_USEDEP}]
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

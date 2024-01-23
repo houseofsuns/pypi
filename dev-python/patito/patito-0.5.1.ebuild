@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	caching? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )
 	duckdb? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )

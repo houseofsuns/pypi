@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/peewee-4.0[${PYTHON_USEDEP}]
 	aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	aiosqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
 	triopg? ( dev-python/triopg[${PYTHON_USEDEP}] )
-	trio-mysql? ( dev-python/trio_mysql[${PYTHON_USEDEP}] )"
+	trio-mysql? ( dev-python/trio-mysql[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

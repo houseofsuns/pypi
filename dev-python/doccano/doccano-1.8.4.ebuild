@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/auto-labeling-pipeline[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-drf-filepond[${PYTHON_USEDEP}]
 	<dev-python/django-filter-23.0[${PYTHON_USEDEP}]
 	dev-python/django-health-check[${PYTHON_USEDEP}]
-	dev-python/django-polymorphic[${PYTHON_USEDEP}]
+	<dev-python/django_polymorphic-4.0.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]

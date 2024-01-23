@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	~dev-python/twisted-23.10.0[${PYTHON_USEDEP}]
 	~dev-python/treq-23.11.0[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.1.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/service_identity[${PYTHON_USEDEP}]
+	~dev-python/service-identity-23.1.0[${PYTHON_USEDEP}]
 	~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	~dev-python/txredisapi-1.4.7[${PYTHON_USEDEP}]

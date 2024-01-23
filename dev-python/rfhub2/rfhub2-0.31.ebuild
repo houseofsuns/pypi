@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="postgresql"
 DEPENDENCIES=">=dev-python/alembic-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/progress-1.4[${PYTHON_USEDEP}]

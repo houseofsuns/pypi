@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
-	dev-python/keras-applications[${PYTHON_USEDEP}]
+	dev-python/Keras-Applications[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]

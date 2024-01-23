@@ -49,13 +49,13 @@ DEPENDENCIES="dev-python/in-n-out[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mkdocstrings-python-1.7.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}] )
-	qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	qt? ( dev-python/superqt[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test-qt? ( dev-python/fonticon-fontawesome6[${PYTHON_USEDEP}] )
 	test-qt? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test-qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	test-qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	test-qt? ( dev-python/superqt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

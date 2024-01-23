@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/gensim[${PYTHON_USEDEP}]
 	~dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
-	dev-python/Keras[${PYTHON_USEDEP}]
+	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/m2r[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.15.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.23.4[${PYTHON_USEDEP}]

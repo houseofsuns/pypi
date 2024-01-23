@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/swagger-schema[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
-	test? ( dev-python/babel[${PYTHON_USEDEP}] )
+	test? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )

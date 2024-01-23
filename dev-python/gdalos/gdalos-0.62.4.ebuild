@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a simple gdal translate/warp/addo python wrapper for raster batch processing [topver 0.64.1]"
+DESCRIPTION="a simple gdal translate/warp/addo python wrapper for raster batch processing [topver 0.64.1, newver 0.64.1]"
 
 HOMEPAGE="https://github.com/talos-gis/gdalos"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="qt"
-DEPENDENCIES="dev-python/gdal[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/gdal-utils[${PYTHON_USEDEP}]
 	>dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-3.1.0[${PYTHON_USEDEP}]

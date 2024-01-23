@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="faker faust pydantic"
 DEPENDENCIES="dev-python/fastavro[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	faker? ( dev-python/faker[${PYTHON_USEDEP}] )
-	dev-python/inflector[${PYTHON_USEDEP}]
+	faker? ( <dev-python/Faker-23.0.0[${PYTHON_USEDEP}] )
+	dev-python/Inflector[${PYTHON_USEDEP}]
 	faust? ( dev-python/faust-streaming[${PYTHON_USEDEP}] )
 	dev-python/casefy[${PYTHON_USEDEP}]
 	pydantic? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )"

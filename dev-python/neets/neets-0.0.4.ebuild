@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	~dev-python/idna-3.6[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.17.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	all? ( dev-python/ale-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/autorom[${PYTHON_USEDEP}] )
+	all? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
 	all? ( dev-python/gym-retro[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyvirtualdisplay-1.3.2[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyglet-1.4.0[${PYTHON_USEDEP}] )
 	atari? ( dev-python/ale-py[${PYTHON_USEDEP}] )
-	atari? ( dev-python/autorom[${PYTHON_USEDEP}] )
+	atari? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
 	box2d? ( >=dev-python/pyglet-1.4.0[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )

@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	>=dev-python/cachelib-0.1[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.0[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.7.2[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-testing[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Flask-Testing[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/werkzeug-3.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )

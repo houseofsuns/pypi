@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/boa-lib[${PYTHON_USEDEP}]
-	dev-python/levenshtein[${PYTHON_USEDEP}]
+	dev-python/Levenshtein[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/viper-lib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

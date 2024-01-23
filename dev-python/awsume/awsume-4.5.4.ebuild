@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	console? ( dev-python/awsume-console-plugin[${PYTHON_USEDEP}] )
-	fuzzy? ( dev-python/python-levenshtein[${PYTHON_USEDEP}] )
+	fuzzy? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
 	saml? ( dev-python/xmltodict[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

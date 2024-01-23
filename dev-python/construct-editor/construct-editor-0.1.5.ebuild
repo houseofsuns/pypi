@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/construct-2.10.68[${PYTHON_USEDEP}]
 	dev-python/construct-typing[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]
+	>=dev-python/wxpython-4.1.1[${PYTHON_USEDEP}]
 	>=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="awslibs"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/configargparse[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	awslibs? ( dev-python/botocore[${PYTHON_USEDEP}] )"

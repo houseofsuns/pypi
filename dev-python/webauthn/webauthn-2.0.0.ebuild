@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/cbor2-5.4.6[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]"
+	>=dev-python/pyopenssl-23.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

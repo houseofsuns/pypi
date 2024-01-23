@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full grib optimization"
 DEPENDENCIES="dev-python/pysofar[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

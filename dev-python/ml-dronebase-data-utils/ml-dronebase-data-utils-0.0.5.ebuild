@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/boto3-1.19.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/black-21.4[${PYTHON_USEDEP}]
 	>=dev-python/isort-5.10.1[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

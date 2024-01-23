@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	dev-python/bioutils[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/parsley[${PYTHON_USEDEP}]
+	dev-python/Parsley[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

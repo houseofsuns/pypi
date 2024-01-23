@@ -37,6 +37,6 @@ DEPENDENCIES="~dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
 	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"
+	~dev-python/sqlalchemy-2.0.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

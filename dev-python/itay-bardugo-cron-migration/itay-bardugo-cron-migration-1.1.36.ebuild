@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/mako-1.1.2[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	~dev-python/python-editor-1.0.4[${PYTHON_USEDEP}]
 	~dev-python/six-1.14.0[${PYTHON_USEDEP}]"

@@ -50,6 +50,6 @@ DEPENDENCIES="<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/keyring-25.0.0[${PYTHON_USEDEP}]
 	<dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}]
-	dev-python/python-levenshtein[${PYTHON_USEDEP}]"
+	dev-python/python-Levenshtein[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

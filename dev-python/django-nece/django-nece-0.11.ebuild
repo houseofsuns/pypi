@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="admin psycopg2 psycopg2_binary"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	admin? ( dev-python/django-admin-json-editor[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg2_binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"

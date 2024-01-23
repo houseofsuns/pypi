@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cairosvg"
-DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	cairosvg? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/sphinx-1.6.3[${PYTHON_USEDEP}]
+	cairosvg? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

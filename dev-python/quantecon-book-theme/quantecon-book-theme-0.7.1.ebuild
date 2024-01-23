@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	~dev-python/libsass-0.20.1[${PYTHON_USEDEP}]
-	dev-python/sphinx_book_theme[${PYTHON_USEDEP}]
+	dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	code-style? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	code-style? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -47,14 +47,14 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	doc? ( <=dev-python/sphinxcontrib-bibtex-2.5.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/myst_nb[${PYTHON_USEDEP}] )
+	test? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx_thebe[${PYTHON_USEDEP}] )
+	test? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-regressions-2.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx_togglebutton[${PYTHON_USEDEP}] )"
+	test? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	test? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

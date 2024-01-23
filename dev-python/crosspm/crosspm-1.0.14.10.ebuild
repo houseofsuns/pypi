@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/dohq-artifactory[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]

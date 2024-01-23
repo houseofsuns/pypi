@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/subprocess-tee-0.4.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.6.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/argparse-manpage[${PYTHON_USEDEP}] )

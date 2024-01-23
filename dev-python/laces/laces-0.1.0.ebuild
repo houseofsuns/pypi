@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci testing"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	ci? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )
 	ci? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	ci? ( dev-python/virtualenv-pyenv[${PYTHON_USEDEP}] )

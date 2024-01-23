@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	dev-python/blake256[${PYTHON_USEDEP}]
 	dev-python/cbor[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
-	dev-python/groestlcoin-hash2[${PYTHON_USEDEP}]"
+	dev-python/groestlcoin_hash2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

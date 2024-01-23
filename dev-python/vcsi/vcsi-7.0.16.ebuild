@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/texttable-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/parsedatetime-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

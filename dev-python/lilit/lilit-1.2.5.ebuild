@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package encoding a likelihood for LiteBIRD. [topver 1.2.9]"
+DESCRIPTION="A Python package encoding a likelihood for LiteBIRD. [topver 1.2.9, newver 1.2.9]"
 
 HOMEPAGE="https://github.com/ggalloni/LiLit"
 LICENSE="GNU General Public License v3.0"

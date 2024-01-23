@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/model-index[${PYTHON_USEDEP}]
 	dev-python/opendatalab[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	all? ( dev-python/Click[${PYTHON_USEDEP}] )
+	all? ( dev-python/click[${PYTHON_USEDEP}] )
 	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	all? ( dev-python/model-index[${PYTHON_USEDEP}] )
 	all? ( dev-python/opendatalab[${PYTHON_USEDEP}] )

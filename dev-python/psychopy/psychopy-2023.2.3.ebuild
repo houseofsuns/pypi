@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	~dev-python/pyglet-1.5.27[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/questplus[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
@@ -50,14 +50,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/arabic-reshaper[${PYTHON_USEDEP}]
 	dev-python/javascripthon[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]
+	>=dev-python/wxpython-4.1.1[${PYTHON_USEDEP}]
 	dev-python/markdown-it-py[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pypi-search[${PYTHON_USEDEP}]
 	<=dev-python/setuptools-66.1.1[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/javascripthon[${PYTHON_USEDEP}]
 	dev-python/astunparse[${PYTHON_USEDEP}]
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/xmlschema[${PYTHON_USEDEP}] )
-	building? ( dev-python/bdist-mpkg[${PYTHON_USEDEP}] )
+	building? ( dev-python/bdist_mpkg[${PYTHON_USEDEP}] )
 	building? ( dev-python/py2app[${PYTHON_USEDEP}] )
 	building? ( dev-python/dmgbuild[${PYTHON_USEDEP}] )
 	suggested? ( dev-python/pylsl[${PYTHON_USEDEP}] )
@@ -88,9 +88,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	suggested? ( dev-python/SpeechRecognition[${PYTHON_USEDEP}] )
 	suggested? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	suggested? ( dev-python/pygaze[${PYTHON_USEDEP}] )
-	suggested? ( dev-python/tobii_research[${PYTHON_USEDEP}] )
+	suggested? ( dev-python/tobii-research[${PYTHON_USEDEP}] )
 	suggested? ( dev-python/badapted[${PYTHON_USEDEP}] )
-	suggested? ( dev-python/egi-pynetstation[${PYTHON_USEDEP}] )
+	suggested? ( dev-python/egi_pynetstation[${PYTHON_USEDEP}] )
 	suggested? ( dev-python/pyxid2[${PYTHON_USEDEP}] )
 	suggested? ( dev-python/Phidget22[${PYTHON_USEDEP}] )
 	legacy? ( dev-python/pyo[${PYTHON_USEDEP}] )

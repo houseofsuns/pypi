@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/opentracing_instrumentation[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/opentracing-instrumentation[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	<dev-python/funcy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.12.2[${PYTHON_USEDEP}]
 	dev-python/grpcio-opentracing[${PYTHON_USEDEP}]
 	<dev-python/pytz-2020.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]

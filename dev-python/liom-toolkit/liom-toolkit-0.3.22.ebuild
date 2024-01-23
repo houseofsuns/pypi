@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/antspyx[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pynrrd[${PYTHON_USEDEP}]
-	dev-python/PyWavelets[${PYTHON_USEDEP}]
+	dev-python/pywavelets[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

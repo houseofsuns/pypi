@@ -42,10 +42,10 @@ DEPENDENCIES="~dev-python/deprecated-1.2.10[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/virtualenv-20.1.0[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Django[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/django-3.0.7[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/flask-1.0.4[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/python-dotenv-0.7.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/django-sslserver[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )"
+	examples? ( ~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

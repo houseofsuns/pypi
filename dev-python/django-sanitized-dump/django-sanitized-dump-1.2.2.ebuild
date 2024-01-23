@@ -27,6 +27,6 @@ IUSE="mysql"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/database-sanitizer[${PYTHON_USEDEP}]
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )"
+	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

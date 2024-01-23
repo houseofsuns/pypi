@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/utm[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-1.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
 	mfa? ( dev-python/ortools[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/utm[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/pymap3d[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.16.5[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

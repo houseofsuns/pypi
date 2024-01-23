@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/docstring-to-markdown[${PYTHON_USEDEP}]
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	websockets? ( >=dev-python/websockets-10.3[${PYTHON_USEDEP}] )
 	yapf? ( >=dev-python/yapf-0.33.0[${PYTHON_USEDEP}] )

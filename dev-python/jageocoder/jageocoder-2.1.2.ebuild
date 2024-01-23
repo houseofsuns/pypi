@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/marisa-trie[${PYTHON_USEDEP}]
 	dev-python/portabletab[${PYTHON_USEDEP}]
 	dev-python/pycapnp[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.0.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

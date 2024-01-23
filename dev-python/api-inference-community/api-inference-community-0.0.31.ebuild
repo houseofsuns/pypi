@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package with helper tools to build an API Inference docker app for Hugging Face API inference using huggingface_hub [topver 0.0.32]"
+DESCRIPTION="A package with helper tools to build an API Inference docker app for Hugging Face API inference using huggingface_hub [topver 0.0.32, newver 0.0.32]"
 
 HOMEPAGE="http://github.com/huggingface/api-inference-community"
 LICENSE="MIT"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="abf alphaomega audio axona behavior biocam blackrock brukertiff caiman cellexplorer cnmfe dandi deeplabcut docs ecephys edf excel extract full hdf5 icephys intan kilosort maxwell mcsraw mearec micromanagertiff miniscope neuralynx neuroscope openephys ophys phy plexon sbx scanimage sima sleap spike2 spikegadgets spikeglx spikeinterface suite2p tdt test text tiff video"
 DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.9.0[${PYTHON_USEDEP}]
 	dev-python/hdmf[${PYTHON_USEDEP}]
@@ -71,7 +71,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	deeplabcut? ( dev-python/dlc2nwb[${PYTHON_USEDEP}] )
 	deeplabcut? ( <dev-python/tables-3.9.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toggleprompt[${PYTHON_USEDEP}] )
@@ -86,13 +86,13 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	ecephys? ( dev-python/spikeextractors[${PYTHON_USEDEP}] )
 	ecephys? ( dev-python/hdf5storage[${PYTHON_USEDEP}] )
 	ecephys? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
-	ecephys? ( dev-python/pyedflib[${PYTHON_USEDEP}] )
+	ecephys? ( dev-python/pyEDFlib[${PYTHON_USEDEP}] )
 	ecephys? ( <=dev-python/h5py-3.9.0[${PYTHON_USEDEP}] )
 	ecephys? ( dev-python/pyintan[${PYTHON_USEDEP}] )
 	ecephys? ( <dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )
 	edf? ( dev-python/spikeinterface[${PYTHON_USEDEP}] )
 	edf? ( <dev-python/packaging-22.0[${PYTHON_USEDEP}] )
-	edf? ( dev-python/pyedflib[${PYTHON_USEDEP}] )
+	edf? ( dev-python/pyEDFlib[${PYTHON_USEDEP}] )
 	edf? ( <dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )
 	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	excel? ( dev-python/xlrd[${PYTHON_USEDEP}] )
@@ -113,7 +113,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	full? ( dev-python/spikeextractors[${PYTHON_USEDEP}] )
 	full? ( dev-python/hdf5storage[${PYTHON_USEDEP}] )
 	full? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyedflib[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyEDFlib[${PYTHON_USEDEP}] )
 	full? ( <=dev-python/h5py-3.9.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyintan[${PYTHON_USEDEP}] )
 	full? ( dev-python/neo[${PYTHON_USEDEP}] )

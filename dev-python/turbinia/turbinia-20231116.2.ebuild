@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gcp worker"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	worker? ( dev-python/dfDewey[${PYTHON_USEDEP}] )
+	worker? ( dev-python/dfdewey[${PYTHON_USEDEP}] )
 	worker? ( dev-python/dfimagetools[${PYTHON_USEDEP}] )
 	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/libcloudforensics[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	worker? ( dev-python/plaso[${PYTHON_USEDEP}] )
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
 	gcp? ( <dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/psq[${PYTHON_USEDEP}] )

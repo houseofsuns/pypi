@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/metDatamodel[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/metdatamodel[${PYTHON_USEDEP}]
 	dev-python/mass2chem[${PYTHON_USEDEP}]
 	dev-python/khipu-metabolomics[${PYTHON_USEDEP}]
 	dev-python/jms-metabolite-services[${PYTHON_USEDEP}]

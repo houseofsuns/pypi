@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="all? ( <dev-python/Faker-18.11.0[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.0.17[${PYTHON_USEDEP}] )
 	all? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	dev-python/asgi-lifespan[${PYTHON_USEDEP}]
 	all? ( <=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="all? ( <dev-python/Faker-18.11.0[${PYTHON_USEDEP}] )
 	<dev-python/mypy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/py_mini_racer[${PYTHON_USEDEP}]
+	dev-python/py-mini-racer[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/pylogbeat[${PYTHON_USEDEP}]

@@ -34,11 +34,11 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	demo? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	demo? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	demo? ( dev-python/bash-kernel[${PYTHON_USEDEP}] )
+	demo? ( dev-python/bash_kernel[${PYTHON_USEDEP}] )
 	demo? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	test? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	test? ( dev-python/bash-kernel[${PYTHON_USEDEP}] )
+	test? ( dev-python/bash_kernel[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygments[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

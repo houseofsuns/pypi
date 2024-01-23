@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	async? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	thredds? ( dev-python/thredds-crawler[${PYTHON_USEDEP}] )
+	thredds? ( dev-python/thredds_crawler[${PYTHON_USEDEP}] )
 	thredds? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

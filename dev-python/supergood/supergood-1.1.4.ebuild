@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-httpserver-1.0.8[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	test? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jsonpickle-3.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

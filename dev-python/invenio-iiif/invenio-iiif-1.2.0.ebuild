@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tests"
-DEPENDENCIES="dev-python/Flask-IIIF[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask-iiif[${PYTHON_USEDEP}]
 	dev-python/invenio-access[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-celery[${PYTHON_USEDEP}]
 	dev-python/invenio-files-rest[${PYTHON_USEDEP}]
 	dev-python/invenio-records-files[${PYTHON_USEDEP}]
-	dev-python/Wand[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/wand-0.4.4[${PYTHON_USEDEP}]
+	all? ( <dev-python/sphinx-3.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-3.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

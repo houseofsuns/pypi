@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PanCollection based on UDL (https://github.com/XiaoXiao-Woo/UDL) [topver 0.3.6]"
+DESCRIPTION="PanCollection based on UDL (https://github.com/XiaoXiao-Woo/UDL) [topver 0.3.6, newver 0.3.6]"
 
 HOMEPAGE="https://github.com/XiaoXiao-Woo/PanCollection"
 LICENSE="GPL-3"

@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/dcor[${PYTHON_USEDEP}]
 	dev-python/fdasrsf[${PYTHON_USEDEP}]
 	dev-python/findiff[${PYTHON_USEDEP}]
-	dev-python/lazy-loader[${PYTHON_USEDEP}]
+	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]

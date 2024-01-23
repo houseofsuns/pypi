@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyvoronoi[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/shapely-1.8.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinx-5.2.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/ddt-1.6.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )

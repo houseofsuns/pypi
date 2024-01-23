@@ -34,13 +34,13 @@ DEPENDENCIES="~dev-python/atomicwrites-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-2.0.9[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.0.2[${PYTHON_USEDEP}]
 	~dev-python/idna-3.3[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/pep517[${PYTHON_USEDEP}]
 	~dev-python/pika-1.2.0[${PYTHON_USEDEP}]
@@ -58,6 +58,6 @@ DEPENDENCIES="~dev-python/atomicwrites-1.4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

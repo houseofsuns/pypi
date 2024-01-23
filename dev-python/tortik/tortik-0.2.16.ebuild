@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="<=dev-python/tornado-5.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pycurl-7.19.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-2.2.8[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]"
+	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

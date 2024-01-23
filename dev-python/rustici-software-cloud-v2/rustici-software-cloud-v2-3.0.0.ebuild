@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.23[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

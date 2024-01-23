@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/frequenz-api-common[${PYTHON_USEDEP}]
 	dev? ( dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}] )
 	dev-flake8? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev-flake8? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev-flake8? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/pydoclint[${PYTHON_USEDEP}] )
 	dev-flake8? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
 	dev-formatting? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )

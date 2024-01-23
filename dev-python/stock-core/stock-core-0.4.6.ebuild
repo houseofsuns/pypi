@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scrapy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	>=dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-2.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
 	bqm? ( dev-python/dimod[${PYTHON_USEDEP}] )
 	bqm? ( >=dev-python/numpy-1.17.3[${PYTHON_USEDEP}] )

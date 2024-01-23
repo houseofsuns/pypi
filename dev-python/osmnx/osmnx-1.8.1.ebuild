@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	entropy? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
 	neighbors? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	neighbors? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
-	raster? ( dev-python/gdal[${PYTHON_USEDEP}] )
+	raster? ( dev-python/GDAL[${PYTHON_USEDEP}] )
 	raster? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	visualization? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

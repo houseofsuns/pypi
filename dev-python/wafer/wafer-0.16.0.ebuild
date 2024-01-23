@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/bleach-allowlist[${PYTHON_USEDEP}]
 	dev-python/crispy-bootstrap5[${PYTHON_USEDEP}]

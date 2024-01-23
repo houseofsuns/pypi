@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/coreapi[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	dev-python/openapi-codec[${PYTHON_USEDEP}]
 	>=dev-python/dulwich-0.21.3[${PYTHON_USEDEP}]
 	>=dev-python/pika-1.3.1[${PYTHON_USEDEP}]

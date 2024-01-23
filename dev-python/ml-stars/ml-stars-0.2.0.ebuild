@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/Keras[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/mlblocks[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/Keras[${PYTHON_USEDEP}]
 	dev? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.3[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pydata-sphinx-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )

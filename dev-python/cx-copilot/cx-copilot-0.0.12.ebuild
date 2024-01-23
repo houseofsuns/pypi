@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/python-helpscout-v2[${PYTHON_USEDEP}]
 	dev-python/envyaml[${PYTHON_USEDEP}]
 	dev-python/python-intercom[${PYTHON_USEDEP}]
-	dev-python/email_reply_parser[${PYTHON_USEDEP}]
+	dev-python/email-reply-parser[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/zenpy[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
@@ -42,11 +42,11 @@ DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-formatter_junit_xml[${PYTHON_USEDEP}] )
+	test? ( dev-python/flake8-formatter-junit-xml[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint_junit[${PYTHON_USEDEP}] )
+	test? ( dev-python/pylint-junit[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-mock-3.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate a petting gif from a static image (known as \"petpet\", \"Pet the X\", or \"PETTHE\"). [topver 1.0.2]"
+DESCRIPTION="Generate a petting gif from a static image (known as \"petpet\", \"Pet the X\", or \"PETTHE\"). [topver 1.0.2, newver 1.0.2]"
 
 HOMEPAGE="https://github.com/camprevail/pet-pet-gif"
 LICENSE="MIT"

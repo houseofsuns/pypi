@@ -31,19 +31,19 @@ DEPENDENCIES=">=dev-python/numpy-1.6[${PYTHON_USEDEP}]
 	dev-python/ipyparallel[${PYTHON_USEDEP}]
 	>=dev-python/pickleshare-0.7.3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Pebble[${PYTHON_USEDEP}]
+	>=dev-python/pebble-4.6.0[${PYTHON_USEDEP}]
 	dev-python/NEURON[${PYTHON_USEDEP}]
 	all? ( dev-python/scoop[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyneuroml[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )
 	all? ( dev-python/libNeuroML[${PYTHON_USEDEP}] )
 	all? ( dev-python/LFPy[${PYTHON_USEDEP}] )
 	all? ( dev-python/arbor[${PYTHON_USEDEP}] )
 	arbor? ( dev-python/arbor[${PYTHON_USEDEP}] )
 	lfpy? ( dev-python/LFPy[${PYTHON_USEDEP}] )
-	neuroml? ( dev-python/pyneuroml[${PYTHON_USEDEP}] )
+	neuroml? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )
 	neuroml? ( dev-python/libNeuroML[${PYTHON_USEDEP}] )
 	scoop? ( dev-python/scoop[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyneuroml[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/libNeuroML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/LFPy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/arbor[${PYTHON_USEDEP}] )"

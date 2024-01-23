@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	<dev-python/Faker-20.0.0[${PYTHON_USEDEP}]
 	google-sheets? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
 	google-ai? ( dev-python/google-generativeai[${PYTHON_USEDEP}] )
 	google-ai? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )

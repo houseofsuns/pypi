@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/ibonds[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/pyxirr[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]"

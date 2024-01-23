@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/hupper[${PYTHON_USEDEP}]
 	>=dev-python/webob-1.8.3[${PYTHON_USEDEP}]
 	>=dev-python/zope-deprecation-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/zope-interface-3.8.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-latesturl[${PYTHON_USEDEP}] )

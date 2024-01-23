@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	dev-python/invenio-pidstore[${PYTHON_USEDEP}]
 	dev-python/invenio-records[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.5.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-access[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-accounts[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-access[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-accounts[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )

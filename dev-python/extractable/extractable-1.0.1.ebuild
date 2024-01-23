@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="~dev-python/Faker-18.9.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	~dev-python/build-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/Faker-18.9.0[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.40.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/PyCryptodome[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pdm-2.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/texsoup[${PYTHON_USEDEP}] )
+	all? ( dev-python/TexSoup[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
-	testing? ( dev-python/texsoup[${PYTHON_USEDEP}] )
+	testing? ( dev-python/TexSoup[${PYTHON_USEDEP}] )
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

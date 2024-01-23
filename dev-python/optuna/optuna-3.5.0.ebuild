@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/alembic-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/asv[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/botorch[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/cma[${PYTHON_USEDEP}] )

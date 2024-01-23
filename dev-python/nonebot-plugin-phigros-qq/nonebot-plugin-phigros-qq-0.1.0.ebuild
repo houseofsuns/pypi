@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="一个简单的基于PhigrosLibrary的Phigros查分插件，适用于nonebot-adapter-qq [topver 0.1.3]"
+DESCRIPTION="一个简单的基于PhigrosLibrary的Phigros查分插件，适用于nonebot-adapter-qq [topver 0.1.3, newver 0.1.3]"
 
 HOMEPAGE="https://github.com/XTxiaoting14332/nonebot-plugin-phigros-qq"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-qq[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]

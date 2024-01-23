@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="base classes that are used together with the rest of MDO Lab tools. [topver 1.8.0]"
+DESCRIPTION="base classes that are used together with the rest of MDO Lab tools. [topver 1.8.0, newver 1.8.0]"
 
 HOMEPAGE="https://github.com/mdolab/baseclasses"
 LICENSE="Apache License Version 2.0"

@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/pyhmmer[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/CPAT[${PYTHON_USEDEP}]
+	dev-python/cpat[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )

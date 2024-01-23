@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev? ( dev-python/mysql-connector-python-rf[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.7.2[${PYTHON_USEDEP}] )

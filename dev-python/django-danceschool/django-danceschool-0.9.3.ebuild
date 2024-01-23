@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-3.4.2[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
 	dev-python/django-admin-rangefilter[${PYTHON_USEDEP}]
 	dev-python/django-admin-sortable2[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-ical[${PYTHON_USEDEP}]
 	dev-python/django-imagekit[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
-	dev-python/django-polymorphic[${PYTHON_USEDEP}]
+	>=dev-python/django_polymorphic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/django-sekizai[${PYTHON_USEDEP}]
 	dev-python/django-utils-six[${PYTHON_USEDEP}]
 	dev-python/djangocms-admin-style[${PYTHON_USEDEP}]

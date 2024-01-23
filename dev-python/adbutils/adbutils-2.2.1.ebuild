@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/whichcraft[${PYTHON_USEDEP}]
 	<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/apkutils2[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

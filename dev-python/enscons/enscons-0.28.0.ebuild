@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli doc"
 DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-python/scons[${PYTHON_USEDEP}]
+	dev-python/SCons[${PYTHON_USEDEP}]
 	dev-python/pytoml[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]

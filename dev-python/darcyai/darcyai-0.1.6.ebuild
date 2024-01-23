@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DarcyAI Package [topver 2.2.1]"
+DESCRIPTION="DarcyAI Package [topver 2.2.1, newver 2.2.1.dev20230905]"
 
 HOMEPAGE="https://github.com/Edgeworx/darcyai"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/imutils[${PYTHON_USEDEP}]

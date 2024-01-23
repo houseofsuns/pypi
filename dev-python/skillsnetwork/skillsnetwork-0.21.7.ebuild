@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs regular"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	regular? ( dev-python/ibm-cos-sdk[${PYTHON_USEDEP}] )
 	dev-python/ipython[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]

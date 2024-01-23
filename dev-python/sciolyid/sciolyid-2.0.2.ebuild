@@ -27,17 +27,17 @@ IUSE="web"
 DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/wikipedia[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/hiredis-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/filelock-3.7.0[${PYTHON_USEDEP}]
-	web? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	web? ( <dev-python/flask-2.1.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	web? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	web? ( dev-python/ImageHash[${PYTHON_USEDEP}] )
-	web? ( dev-python/Celery[${PYTHON_USEDEP}] )
+	web? ( dev-python/celery[${PYTHON_USEDEP}] )
 	web? ( <dev-python/blinker-1.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

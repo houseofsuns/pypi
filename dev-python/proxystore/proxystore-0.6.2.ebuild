@@ -60,7 +60,7 @@ DEPENDENCIES=">dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	endpoints? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/pystun3[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/python-daemon[${PYTHON_USEDEP}] )
-	endpoints? ( dev-python/quart[${PYTHON_USEDEP}] )
+	endpoints? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	endpoints? ( >=dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/tosholi[${PYTHON_USEDEP}] )
 	endpoints? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )

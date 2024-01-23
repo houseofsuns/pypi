@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/telethon[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Telethon[${PYTHON_USEDEP}]
 	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/cryptg[${PYTHON_USEDEP}]
 	dev-python/hachoir[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pysocks[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymupdf[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/python-pptx[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"

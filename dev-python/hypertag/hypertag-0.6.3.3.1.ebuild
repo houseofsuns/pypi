@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	<dev-python/rpyc-6.0.0[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pywebcopy[${PYTHON_USEDEP}]
 	dev-python/hnswlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

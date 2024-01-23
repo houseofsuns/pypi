@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/gspread[${PYTHON_USEDEP}]
 	dev-python/zeep[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/muvisdk[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]"

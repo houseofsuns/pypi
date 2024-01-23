@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="extra test"
 DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
-	dev-python/Cerberus[${PYTHON_USEDEP}]
+	dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]

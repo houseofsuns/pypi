@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.18[${PYTHON_USEDEP}]
 	all? ( dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}] )
 	all? ( dev-python/apache-airflow-providers-google[${PYTHON_USEDEP}] )
 	all? ( dev-python/apache-airflow-providers-ftp[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="ci dev sandbox"
 DEPENDENCIES=">=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.2.0[${PYTHON_USEDEP}]
-	dev-python/WeasyPrint[${PYTHON_USEDEP}]
+	>=dev-python/weasyprint-59.0[${PYTHON_USEDEP}]
 	ci? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/Django[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/django-4.2.5[${PYTHON_USEDEP}] )
 	sandbox? ( ~dev-python/django-configurations-2.4.1[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

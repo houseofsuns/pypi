@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-2.2.8[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.9.1[${PYTHON_USEDEP}]
 	~dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/pytz-2018.5[${PYTHON_USEDEP}]
 	dev-python/django-rest-hooks[${PYTHON_USEDEP}]
-	dev-python/go-http[${PYTHON_USEDEP}]
+	dev-python/go_http[${PYTHON_USEDEP}]
 	~dev-python/django-redis-4.10.0[${PYTHON_USEDEP}]
 	dev-python/seed-services-client[${PYTHON_USEDEP}]
 	dev-python/django-getenv[${PYTHON_USEDEP}]

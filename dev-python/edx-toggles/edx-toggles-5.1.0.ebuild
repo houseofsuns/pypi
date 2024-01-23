@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/code-annotations[${PYTHON_USEDEP}]
 	dev-python/django-crum[${PYTHON_USEDEP}]
 	dev-python/django-waffle[${PYTHON_USEDEP}]

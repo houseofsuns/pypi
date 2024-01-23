@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.4[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/django-anylink[${PYTHON_USEDEP}] )
 	docs? ( dev-python/django-filer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

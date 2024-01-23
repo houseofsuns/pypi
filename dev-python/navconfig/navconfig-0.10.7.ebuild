@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Configuration tool for all Navigator Services Tool for accessing Config info from different sources. [topver 1.6.1]"
+DESCRIPTION="Configuration tool for all Navigator Services Tool for accessing Config info from different sources. [topver 1.6.1, newver 1.6.1]"
 
 HOMEPAGE="https://github.com/phenobarbital/NavConfig"
 LICENSE="MIT"
@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/wheel-0.37.1[${PYTHON_USEDEP}]
 	default? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	default? ( dev-python/python-logstash-async[${PYTHON_USEDEP}] )
 	default? ( dev-python/aiologstash[${PYTHON_USEDEP}] )
-	default? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	gdrive? ( dev-python/PyDrive[${PYTHON_USEDEP}] )
 	logstash? ( dev-python/python-logstash-async[${PYTHON_USEDEP}] )
 	logstash? ( dev-python/aiologstash[${PYTHON_USEDEP}] )
@@ -51,6 +51,6 @@ DEPENDENCIES="~dev-python/wheel-0.37.1[${PYTHON_USEDEP}]
 	redis? ( ~dev-python/redis-4.3.4[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	toml? ( dev-python/pytomlpp[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

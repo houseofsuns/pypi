@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/stanza[${PYTHON_USEDEP}]
 	dev-python/bert-extractive-summarizer[${PYTHON_USEDEP}]
 	dev-python/sumbert[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
 	dev-python/natlog[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

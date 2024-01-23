@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/teradataml[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]

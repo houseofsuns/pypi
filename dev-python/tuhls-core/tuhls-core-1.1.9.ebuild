@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/djoser[${PYTHON_USEDEP}]
 	dev-python/django-templated-mail[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
-	dev-python/PyICU[${PYTHON_USEDEP}]
+	dev-python/pyicu[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/reportlab[${PYTHON_USEDEP}]
 	dev-python/svglib[${PYTHON_USEDEP}]
@@ -56,13 +56,13 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django_coverage_plugin[${PYTHON_USEDEP}] )
+	dev? ( dev-python/django-coverage-plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tblib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

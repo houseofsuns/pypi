@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	dev-python/pixelgreat[${PYTHON_USEDEP}]
 	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

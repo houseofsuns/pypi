@@ -27,7 +27,7 @@ IUSE="nn"
 DEPENDENCIES="dev-python/liblinear-multicore[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

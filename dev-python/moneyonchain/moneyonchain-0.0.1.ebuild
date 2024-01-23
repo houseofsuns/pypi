@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Interfaces on Moneyonchain Infraestructure [topver 2.1.22]"
+DESCRIPTION="Python Interfaces on Moneyonchain Infraestructure [topver 2.1.22, newver 0.0.55]"
 
 HOMEPAGE="https://github.com/moneyonchain/py_Moneyonchain/"
 LICENSE=""

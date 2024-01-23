@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Des of AutoMSLC [topver 3.9]"
+DESCRIPTION="A Des of AutoMSLC [topver 3.9, newver 3.9]"
 
 HOMEPAGE="https://github.com/vtandroid/dokr"
 LICENSE=""

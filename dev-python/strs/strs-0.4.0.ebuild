@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/emoji-1.7.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-8.13.0[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	<dev-python/unidecode-1.4.0[${PYTHON_USEDEP}]
 	dev-python/unpackable[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	accel? ( dev-python/flox[${PYTHON_USEDEP}] )
 	accel? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
 	complete? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	io? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	io? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	io? ( dev-python/h5netcdf[${PYTHON_USEDEP}] )
 	io? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	io? ( dev-python/zarr[${PYTHON_USEDEP}] )

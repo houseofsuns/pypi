@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/PyCifRW[${PYTHON_USEDEP}]
 	dev-python/nglview[${PYTHON_USEDEP}]
 	dev-python/optimade-client[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
-	dev-python/vapory[${PYTHON_USEDEP}]
+	dev-python/Vapory[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pgtest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/PyCifRW[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/selenium-4.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	smiles? ( dev-python/rdkit[${PYTHON_USEDEP}] )

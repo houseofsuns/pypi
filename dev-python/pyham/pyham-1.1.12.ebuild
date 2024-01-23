@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/ete3[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fabric[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fabric3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Fabric3[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

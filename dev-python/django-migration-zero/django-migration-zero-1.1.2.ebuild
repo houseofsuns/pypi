@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/freezegun-1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.7[${PYTHON_USEDEP}] )

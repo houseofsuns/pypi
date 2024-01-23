@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="first version of Mofid Normalizer [topver 1.0.83]"
+DESCRIPTION="first version of Mofid Normalizer [topver 1.0.83, newver 1.0.83]"
 
 HOMEPAGE=""
 LICENSE="MIT"

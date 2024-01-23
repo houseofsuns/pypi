@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/blackrenderer[${PYTHON_USEDEP}]
 	skia? ( dev-python/skia-python[${PYTHON_USEDEP}] )
 	unicode? ( dev-python/unicodedata2[${PYTHON_USEDEP}] )
 	viewer? ( dev-python/glfw[${PYTHON_USEDEP}] )
-	viewer? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
+	viewer? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	viewer? ( dev-python/skia-python[${PYTHON_USEDEP}] )
 	viewer? ( dev-python/skia-pathops[${PYTHON_USEDEP}] )
 	viewer? ( dev-python/ufo2ft[${PYTHON_USEDEP}] )

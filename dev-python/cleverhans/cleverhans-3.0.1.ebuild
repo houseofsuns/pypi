@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 4.0.0]"
+DESCRIPTION=" [topver 4.0.0, newver 4.0.0]"
 
 HOMEPAGE="https://github.com/tensorflow/cleverhans"
 LICENSE="MIT"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/torchaudio[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-6.2.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cython-0.29.21[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/packaging-20.9[${PYTHON_USEDEP}] )
@@ -62,11 +62,11 @@ DEPENDENCIES="dev-python/torchaudio[${PYTHON_USEDEP}]
 	all? ( dev-python/easydict[${PYTHON_USEDEP}] )
 	all? ( dev-python/catalyst[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	all? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
+	all? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	all? ( dev-python/mutagen[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	all? ( dev-python/sed_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/more_itertools[${PYTHON_USEDEP}] )
+	all? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/joblib-0.12.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/librosa[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pillow-6.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numba[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/cython-0.29.21[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/packaging-20.9[${PYTHON_USEDEP}] )
@@ -95,11 +95,11 @@ DEPENDENCIES="dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev? ( dev-python/easydict[${PYTHON_USEDEP}] )
 	dev? ( dev-python/catalyst[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	dev? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
+	dev? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mutagen[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sed_eval[${PYTHON_USEDEP}] )
-	dev? ( dev-python/more_itertools[${PYTHON_USEDEP}] )
+	dev? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -111,6 +111,6 @@ DEPENDENCIES="dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib_metadata[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

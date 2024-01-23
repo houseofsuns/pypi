@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop export reproject validate"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	export? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	export? ( dev-python/mapbox-earcut[${PYTHON_USEDEP}] )
+	export? ( dev-python/mapbox_earcut[${PYTHON_USEDEP}] )
 	export? ( dev-python/triangle[${PYTHON_USEDEP}] )
 	reproject? ( >=dev-python/pyproj-3.0.0[${PYTHON_USEDEP}] )
 	validate? ( dev-python/cjvalpy[${PYTHON_USEDEP}] )"

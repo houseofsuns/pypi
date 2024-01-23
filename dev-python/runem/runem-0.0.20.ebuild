@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	test? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/docformatter[${PYTHON_USEDEP}] )

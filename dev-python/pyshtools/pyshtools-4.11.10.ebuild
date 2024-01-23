@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	cartopy? ( dev-python/pyshp[${PYTHON_USEDEP}] )
 	cartopy? ( dev-python/six[${PYTHON_USEDEP}] )
 	cartopy? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	cartopy? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	cartopy? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	pygmt? ( dev-python/pygmt[${PYTHON_USEDEP}] )
 	palettable? ( dev-python/palettable[${PYTHON_USEDEP}] )
 	ducc? ( dev-python/ducc0[${PYTHON_USEDEP}] )"

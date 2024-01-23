@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/dbutils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymysql-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/DBUtils-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.9.8[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]"

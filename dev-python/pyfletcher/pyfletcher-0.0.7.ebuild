@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python wrapper for the Fletcher runtime library [topver 0.0.20]"
+DESCRIPTION="A Python wrapper for the Fletcher runtime library [topver 0.0.20, newver 0.0.20]"
 
 HOMEPAGE="https://github.com/johanpel/fletcher"
 LICENSE="Apache-2.0"

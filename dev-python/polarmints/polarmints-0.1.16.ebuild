@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/swarkn[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas_market_calendars[${PYTHON_USEDEP}]"
+	dev-python/pandas-market-calendars[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

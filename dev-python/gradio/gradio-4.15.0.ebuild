@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/aiofiles-24.0[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.0[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/aiofiles-24.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.14.0[${PYTHON_USEDEP}]
-	oauth? ( dev-python/authlib[${PYTHON_USEDEP}] )
+	oauth? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

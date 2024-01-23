@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ELFI - Engine for Likelihood-Free Inference [topver 0.8.7]"
+DESCRIPTION="ELFI - Engine for Likelihood-Free Inference [topver 0.8.7, newver 0.8.7]"
 
 HOMEPAGE="http://elfi.readthedocs.io"
 LICENSE="BSD"
@@ -28,11 +28,11 @@ DEPENDENCIES=">=dev-python/scipy-0.19[${PYTHON_USEDEP}]
 	dev-python/GPy[${PYTHON_USEDEP}]
 	>=dev-python/ipyparallel-6.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-1.1[${PYTHON_USEDEP}]
-	dev-python/networkX[${PYTHON_USEDEP}]
+	>=dev-python/networkx-1.11[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.8[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	graphviz? ( >=dev-python/graphviz-0.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

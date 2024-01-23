@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
+	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
 	dev-python/connexion[${PYTHON_USEDEP}]
 	dev-python/swagger-ui-bundle[${PYTHON_USEDEP}]
-	dev-python/python_dateutil[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/ldap3[${PYTHON_USEDEP}]
-	dev-python/prometheus_client[${PYTHON_USEDEP}]
+	dev-python/prometheus-client[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/fabric_fss_utils[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/flask_testing[${PYTHON_USEDEP}] )
+	test? ( dev-python/Flask-Testing[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pluggy-0.3.1[${PYTHON_USEDEP}] )

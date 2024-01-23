@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-5.9.0[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]

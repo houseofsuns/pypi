@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
-	dev-python/marshmallow_enum[${PYTHON_USEDEP}]
+	dev-python/marshmallow-enum[${PYTHON_USEDEP}]
 	dev-python/pynamodb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

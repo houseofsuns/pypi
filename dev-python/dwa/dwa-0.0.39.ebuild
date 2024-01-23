@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dynamic Web Application (DWA) framework written with Tornado. [topver 0.0.43]"
+DESCRIPTION="Dynamic Web Application (DWA) framework written with Tornado. [topver 0.0.43, newver 0.0.43]"
 
 HOMEPAGE="https://github.com/foxe6/"
 LICENSE="AGPL-3"

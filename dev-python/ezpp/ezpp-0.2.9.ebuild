@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/ezutils[${PYTHON_USEDEP}]
 	dev-python/aggdraw[${PYTHON_USEDEP}]
 	dev-python/imgcat[${PYTHON_USEDEP}]

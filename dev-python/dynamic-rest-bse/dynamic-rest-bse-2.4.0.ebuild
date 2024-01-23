@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-3.15[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

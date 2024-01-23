@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
+	dev-python/wxpython[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	~dev-python/pyopengl-3.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -34,10 +34,10 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyMCTranslate[${PYTHON_USEDEP}]
 	dev-python/minecraft-resource-pack[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-3.1[${PYTHON_USEDEP}]
-	dev-python/pyopengl-accelerate[${PYTHON_USEDEP}]
+	~dev-python/pyopengl_accelerate-3.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

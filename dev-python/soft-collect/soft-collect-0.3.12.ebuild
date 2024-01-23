@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	dev-python/cx_Oracle[${PYTHON_USEDEP}]
+	dev-python/cx-Oracle[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]

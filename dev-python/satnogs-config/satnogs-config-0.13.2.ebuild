@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	~dev-python/pythondialog-3.5.0[${PYTHON_USEDEP}]

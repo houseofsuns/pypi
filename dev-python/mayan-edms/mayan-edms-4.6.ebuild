@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Whoosh[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/whoosh-2.7.4[${PYTHON_USEDEP}]
 	~dev-python/bleach-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.33.7[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]

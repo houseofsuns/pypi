@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/gtts[${PYTHON_USEDEP}]"
+	dev-python/gTTS[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

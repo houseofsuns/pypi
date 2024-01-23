@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	full? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	full? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	full? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	full? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	full? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	full? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	full? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"

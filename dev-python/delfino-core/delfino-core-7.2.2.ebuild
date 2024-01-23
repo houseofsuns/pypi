@@ -58,14 +58,14 @@ DEPENDENCIES="dev-python/delfino[${PYTHON_USEDEP}]
 	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	verify? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	dependencies-update? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dependencies-update? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev-python/shellingham[${PYTHON_USEDEP}]
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	verify? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	lint? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	pre-commit? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

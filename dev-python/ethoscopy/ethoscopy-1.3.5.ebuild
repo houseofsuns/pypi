@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/colour-0.2.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/PyWavelets[${PYTHON_USEDEP}]
+	<dev-python/pywavelets-2.0.0[${PYTHON_USEDEP}]
 	dev-python/hmmlearn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

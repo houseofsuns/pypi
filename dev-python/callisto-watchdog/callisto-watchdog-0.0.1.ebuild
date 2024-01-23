@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="watchmedo"
-DEPENDENCIES="watchmedo? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+DEPENDENCIES="watchmedo? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

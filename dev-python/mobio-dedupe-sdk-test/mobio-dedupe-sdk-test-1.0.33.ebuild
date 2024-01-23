@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/m-singleton[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/zope-index[${PYTHON_USEDEP}]
 	~dev-python/zope-interface-6.0[${PYTHON_USEDEP}]
 	dev-python/cython-npm[${PYTHON_USEDEP}]"

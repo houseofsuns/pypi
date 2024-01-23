@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/aiostream[${PYTHON_USEDEP}]
 	dask-distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	diagnostics? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	diagnostics? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

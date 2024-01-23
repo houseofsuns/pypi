@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Script[${PYTHON_USEDEP}]
 	dev-python/blinker[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.4.58[${PYTHON_USEDEP}]
@@ -40,9 +40,9 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
 	>dev-python/pyasn1-0.4.4[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>dev-python/pyopenssl-16.2.0[${PYTHON_USEDEP}]
 	dev-python/guard[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/greenlet[${PYTHON_USEDEP}]

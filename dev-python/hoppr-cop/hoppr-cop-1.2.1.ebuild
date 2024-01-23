@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cvss[${PYTHON_USEDEP}]
 	dev-python/hoppr[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>dev-python/rich-12.5.1[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]

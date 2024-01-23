@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
-	dev-python/Requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.30.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

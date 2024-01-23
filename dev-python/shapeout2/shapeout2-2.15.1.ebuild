@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/fcswrite[${PYTHON_USEDEP}]
 	dev-python/dclab[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	~dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]"

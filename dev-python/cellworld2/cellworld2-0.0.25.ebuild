@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Maciver Lab computational biology research package [topver 0.0.167]"
+DESCRIPTION="Maciver Lab computational biology research package [topver 0.0.167, newver 0.0.128]"
 
 HOMEPAGE=""
 LICENSE="MIT"

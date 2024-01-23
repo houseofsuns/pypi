@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pyoperators[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/healpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/splunk-sdk[${PYTHON_USEDEP}]
 	bash? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	fully-loaded? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	fully-loaded? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/splunk-sdk[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/splunk-sdk[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )"

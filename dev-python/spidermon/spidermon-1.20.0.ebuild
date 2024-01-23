@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	monitoring? ( dev-python/requests[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/scrapinghub[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/scrapinghub-entrypoint-scrapy[${PYTHON_USEDEP}] )
-	monitoring? ( dev-python/scrapy[${PYTHON_USEDEP}] )
+	monitoring? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

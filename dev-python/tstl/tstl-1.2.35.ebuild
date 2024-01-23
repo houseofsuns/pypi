@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Template scripting testing language (TSTL) [topver 1.2.39]"
+DESCRIPTION="Template scripting testing language (TSTL) [topver 1.2.39, newver 1.2.39]"
 
 HOMEPAGE="https://github.com/agroce/tstl"
 LICENSE="MIT"

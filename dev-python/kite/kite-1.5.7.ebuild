@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	development? ( dev-python/black[${PYTHON_USEDEP}] )
 	development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	gdal? ( dev-python/gdal[${PYTHON_USEDEP}] )
+	gdal? ( dev-python/GDAL[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

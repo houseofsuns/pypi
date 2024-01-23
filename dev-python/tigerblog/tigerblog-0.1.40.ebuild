@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-7.0.0[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-9.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

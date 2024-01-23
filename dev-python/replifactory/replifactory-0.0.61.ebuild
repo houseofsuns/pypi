@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pyftdi[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	<dev-python/ipython-8.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]

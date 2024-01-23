@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/unidecode-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.0[${PYTHON_USEDEP}]
 	dev-python/mufidecode[${PYTHON_USEDEP}]

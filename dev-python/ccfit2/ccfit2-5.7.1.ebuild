@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.13.2[${PYTHON_USEDEP}]
 	>=dev-python/charset-normalizer-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]"

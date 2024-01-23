@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/linkheader[${PYTHON_USEDEP}]
+	dev-python/LinkHeader[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/backoff-2.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

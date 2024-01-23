@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ConfigObj[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/configobj[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyx[${PYTHON_USEDEP}]
 	dev-python/tk[${PYTHON_USEDEP}]"

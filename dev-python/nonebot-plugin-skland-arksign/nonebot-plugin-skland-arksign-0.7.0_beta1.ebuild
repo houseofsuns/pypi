@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-alconna[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-datastore[${PYTHON_USEDEP}]
-	dev-python/nonebot-plugin-session[${PYTHON_USEDEP}]
+	dev-python/nonebot_plugin_session[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-session-saa[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-orm[${PYTHON_USEDEP}]"

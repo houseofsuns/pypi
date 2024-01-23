@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyexecjs[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyExecJS[${PYTHON_USEDEP}]
 	dev-python/selectolax[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

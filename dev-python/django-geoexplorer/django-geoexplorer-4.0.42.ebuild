@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use GeoExplorer in your django projects [topver 4.0.43]"
+DESCRIPTION="Use GeoExplorer in your django projects [topver 4.0.43, newver 4.0.43]"
 
 HOMEPAGE="https://github.com/GeoNode/django-geoexplorer"
 LICENSE="LGPL, see LICENSE file."

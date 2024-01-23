@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/logsmal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

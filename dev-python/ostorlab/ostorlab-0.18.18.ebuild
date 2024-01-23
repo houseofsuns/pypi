@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/py-ubjson[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
-	agent? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	agent? ( ~dev-python/werkzeug-2.3.7[${PYTHON_USEDEP}] )
 	agent? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	agent? ( dev-python/flask[${PYTHON_USEDEP}] )
 	agent? ( >=dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}] )

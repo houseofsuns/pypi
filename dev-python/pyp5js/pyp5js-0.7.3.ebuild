@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Transcrypt[${PYTHON_USEDEP}]
 	dev-python/cprint[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/watchdog-2.1.9[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-6.1.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -30,9 +30,9 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/types-aiofiles[${PYTHON_USEDEP}]
 	dev-python/json-strong-typing[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.1[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.16[${PYTHON_USEDEP}]
 	dev-python/aiomysql[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

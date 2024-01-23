@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="compat docs graphviz plotnine pyam sdmx sparse tests"
 DEPENDENCIES=">=dev-python/dask-2.14[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.0[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.17[${PYTHON_USEDEP}]
 	compat? ( dev-python/genno[${PYTHON_USEDEP}] )
 	compat? ( dev-python/genno[${PYTHON_USEDEP}] )
 	compat? ( dev-python/genno[${PYTHON_USEDEP}] )
-	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	graphviz? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	plotnine? ( dev-python/plotnine[${PYTHON_USEDEP}] )

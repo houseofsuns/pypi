@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pymongo-3.0[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.2[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
+	>=dev-python/webob-0.9[${PYTHON_USEDEP}]
+	>=dev-python/mako-0.9[${PYTHON_USEDEP}]
 	>=dev-python/bottle-0.12.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

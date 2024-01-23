@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/InquirerPy[${PYTHON_USEDEP}]
+	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	~dev-python/mistune-3.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )

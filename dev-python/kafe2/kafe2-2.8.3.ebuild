@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/iminuit[${PYTHON_USEDEP}]
-	dev-python/NumPy[${PYTHON_USEDEP}]
-	dev-python/Numdifftools[${PYTHON_USEDEP}]
-	dev-python/Scipy[${PYTHON_USEDEP}]
+	dev-python/numpy[${PYTHON_USEDEP}]
+	dev-python/numdifftools[${PYTHON_USEDEP}]
+	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
-	dev-python/SymPy[${PYTHON_USEDEP}]
+	dev-python/sympy[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flake8-3.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )

@@ -37,10 +37,10 @@ DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
-	complete? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	complete? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	complete? ( dev-python/jq[${PYTHON_USEDEP}] )
 	complete? ( dev-python/mmh3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

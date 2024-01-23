@@ -27,6 +27,6 @@ IUSE="dev include_package_data"
 DEPENDENCIES="dev-python/djangoldp[${PYTHON_USEDEP}]
 	dev-python/djangoldp-account[${PYTHON_USEDEP}]
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	include_package_data? ( dev-python/True[${PYTHON_USEDEP}] )"
+	include_package_data? ( dev-python/true[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

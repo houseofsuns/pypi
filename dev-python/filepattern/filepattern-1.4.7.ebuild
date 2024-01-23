@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for parsing files in a directory based on a file name pattern. [topver 2.0.4]"
+DESCRIPTION="Utilities for parsing files in a directory based on a file name pattern. [topver 2.0.4, newver 2.0.4]"
 
 HOMEPAGE="https://github.com/LabShare/filepattern"
 LICENSE=""

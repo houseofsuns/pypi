@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/texttable-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	<dev-python/Faker-16.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]"

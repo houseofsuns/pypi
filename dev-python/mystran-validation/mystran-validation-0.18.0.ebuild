@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pynastran[${PYTHON_USEDEP}]
+	dev-python/pyNastran[${PYTHON_USEDEP}]
 	dev-python/femap-neutral-parser[${PYTHON_USEDEP}]
 	dev-python/junit2html[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

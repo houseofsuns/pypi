@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/bip-utils[${PYTHON_USEDEP}]
 	dev-python/case-converter[${PYTHON_USEDEP}]
 	dev-python/hdwallet[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonrpcclient[${PYTHON_USEDEP}]
 	dev-python/modelator[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]

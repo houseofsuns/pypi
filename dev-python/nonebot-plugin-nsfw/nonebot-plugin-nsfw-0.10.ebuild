@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="nsfw-model safety-checker"
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	safety-checker? ( dev-python/safety-checker[${PYTHON_USEDEP}] )
 	safety-checker? ( dev-python/numpy[${PYTHON_USEDEP}] )

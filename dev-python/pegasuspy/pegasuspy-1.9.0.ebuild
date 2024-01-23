@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all forceatlas louvain mkl rpy2 scanorama scvi torch tsne"
 DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/demuxEM[${PYTHON_USEDEP}]
+	dev-python/demuxem[${PYTHON_USEDEP}]
 	dev-python/hnswlib[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]

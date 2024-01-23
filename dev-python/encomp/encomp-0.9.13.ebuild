@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/symbolic-equation[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/coolprop[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
+	dev-python/CoolProp[${PYTHON_USEDEP}]
 	dev-python/uncertainties[${PYTHON_USEDEP}]
 	optional? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	optional? ( dev-python/seaborn[${PYTHON_USEDEP}] )

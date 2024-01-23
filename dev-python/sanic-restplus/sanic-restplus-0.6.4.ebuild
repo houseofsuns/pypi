@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/aniso8601-0.82[${PYTHON_USEDEP}]
 	dev-python/sanic-jinja2[${PYTHON_USEDEP}]
 	dev-python/sanic-plugin-toolkit[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/blinker[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )

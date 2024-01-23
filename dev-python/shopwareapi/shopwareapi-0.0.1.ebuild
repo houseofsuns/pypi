@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides a Python (object-based) API for Shopware [topver 0.1.26]"
+DESCRIPTION="Provides a Python (object-based) API for Shopware [topver 0.1.26, newver 0.1.26]"
 
 HOMEPAGE="https://github.com/Sachs-Media/ShopwareApi"
 LICENSE=""

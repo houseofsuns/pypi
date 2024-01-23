@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	docs? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	io? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )

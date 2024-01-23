@@ -27,7 +27,7 @@ IUSE="benchmark dev full graphgym modelhub test"
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -37,9 +37,9 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/torch_geometric[${PYTHON_USEDEP}] )
+	dev? ( dev-python/torch-geometric[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	full? ( dev-python/torch_geometric[${PYTHON_USEDEP}] )
+	full? ( dev-python/torch-geometric[${PYTHON_USEDEP}] )
 	full? ( dev-python/ase[${PYTHON_USEDEP}] )
 	full? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	full? ( dev-python/numba[${PYTHON_USEDEP}] )
@@ -57,14 +57,14 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	full? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytorch-memlab[${PYTHON_USEDEP}] )
 	full? ( dev-python/pgmpy[${PYTHON_USEDEP}] )
-	full? ( dev-python/opt_einsum[${PYTHON_USEDEP}] )
+	full? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
 	full? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	full? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	graphgym? ( dev-python/yacs[${PYTHON_USEDEP}] )
 	graphgym? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	graphgym? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	graphgym? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	modelhub? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
+	modelhub? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/onnx[${PYTHON_USEDEP}] )

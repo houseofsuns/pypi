@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Clarisse plugin for Conductor Cloud Rendering Platform. [topver 0.3.3]"
+DESCRIPTION="Clarisse plugin for Conductor Cloud Rendering Platform. [topver 0.3.3, newver 0.3.3rc6]"
 
 HOMEPAGE="https://github.com/AtomicConductor/conductor-clarisse"
 LICENSE=""

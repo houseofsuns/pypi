@@ -27,11 +27,11 @@ IUSE="testing"
 DEPENDENCIES="dev-python/colander[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/pyramid-mailer[${PYTHON_USEDEP}]
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	dev-python/pyramid_mailer[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/webtest-1.3.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

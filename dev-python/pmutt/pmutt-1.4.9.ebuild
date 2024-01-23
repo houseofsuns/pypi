@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ASE[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/ASE[${PYTHON_USEDEP}]
 	>=dev-python/pygal-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/more-itertools-8.14.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/logging-tree[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/logging_tree[${PYTHON_USEDEP}]
 	dev-python/pyfakeuse[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

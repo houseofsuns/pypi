@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-speech[${PYTHON_USEDEP}]
-	dev-python/PyAudio[${PYTHON_USEDEP}]
+	<dev-python/pyaudio-1.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/pvporcupine[${PYTHON_USEDEP}]

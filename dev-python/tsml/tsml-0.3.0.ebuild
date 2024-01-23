@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
-	all_extras? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	all_extras? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	all_extras? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/wildboar[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/scikit-fda[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-version-warning[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

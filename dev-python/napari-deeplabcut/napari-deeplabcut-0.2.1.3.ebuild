@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/dask-image[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-2.4[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )

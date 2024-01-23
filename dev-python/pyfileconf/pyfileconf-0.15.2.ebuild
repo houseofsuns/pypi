@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pd-utils[${PYTHON_USEDEP}]
 	dev-python/datacode[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

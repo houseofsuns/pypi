@@ -29,11 +29,11 @@ DEPENDENCIES=">=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pyxodr[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-61.0.0[${PYTHON_USEDEP}]
 	dev-python/scenariogeneration[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/gym[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dm-env[${PYTHON_USEDEP}] )
@@ -42,10 +42,10 @@ DEPENDENCIES=">=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	gym? ( dev-python/gym[${PYTHON_USEDEP}] )
 	hooks? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	hooks? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )

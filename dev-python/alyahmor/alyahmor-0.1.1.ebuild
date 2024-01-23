@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alyahmor Arabic Morphological Genrator for Python [topver 0.2]"
+DESCRIPTION="Alyahmor Arabic Morphological Genrator for Python [topver 0.2, newver 0.2]"
 
 HOMEPAGE="http://github.com/linuxscout/alyahmor/"
 LICENSE="GPL-3"
@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/libqutrub[${PYTHON_USEDEP}]
-	dev-python/pyarabic[${PYTHON_USEDEP}]"
+	dev-python/PyArabic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

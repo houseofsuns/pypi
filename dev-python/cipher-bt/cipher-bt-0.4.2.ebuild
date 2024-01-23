@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	finplot? ( dev-python/finplot[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	yfinance? ( dev-python/yfinance[${PYTHON_USEDEP}] )
 	<dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

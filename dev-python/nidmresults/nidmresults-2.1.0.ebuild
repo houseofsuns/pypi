@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/rdflib-4.2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyld[${PYTHON_USEDEP}]"
+	dev-python/PyLD[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

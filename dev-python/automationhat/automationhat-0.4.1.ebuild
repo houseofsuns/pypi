@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/RPi-GPIO[${PYTHON_USEDEP}]
-	dev-python/ST7735[${PYTHON_USEDEP}]
+	dev-python/st7735[${PYTHON_USEDEP}]
 	dev-python/ads1015[${PYTHON_USEDEP}]
 	dev-python/sn3218[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

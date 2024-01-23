@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-5.3.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	dev-python/responder[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-2.19.5[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.3.8[${PYTHON_USEDEP}]
 	~dev-python/six-1.12[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.12[${PYTHON_USEDEP}]
 	develop? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	develop? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-openapi[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-websupport-1.1.2[${PYTHON_USEDEP}] )"

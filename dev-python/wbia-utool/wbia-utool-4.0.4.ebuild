@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build runtime tests"
-DEPENDENCIES="dev-python/delorean[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Delorean[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/lockfile[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/delorean[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -45,8 +45,8 @@ DEPENDENCIES="dev-python/delorean[${PYTHON_USEDEP}]
 	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	all? ( dev-python/delorean[${PYTHON_USEDEP}] )
-	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	all? ( dev-python/Delorean[${PYTHON_USEDEP}] )
+	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	all? ( dev-python/lockfile[${PYTHON_USEDEP}] )
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/delorean[${PYTHON_USEDEP}]
 	all? ( dev-python/ordered-set[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/parse[${PYTHON_USEDEP}] )
-	all? ( dev-python/pint[${PYTHON_USEDEP}] )
+	all? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -72,8 +72,8 @@ DEPENDENCIES="dev-python/delorean[${PYTHON_USEDEP}]
 	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	build? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/delorean[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/Delorean[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/lockfile[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/delorean[${PYTHON_USEDEP}]
 	runtime? ( dev-python/ordered-set[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/parse[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/pint[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/requests[${PYTHON_USEDEP}] )

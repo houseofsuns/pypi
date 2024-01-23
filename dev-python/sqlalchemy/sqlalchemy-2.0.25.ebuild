@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Database Abstraction Library"
+DESCRIPTION="Database Abstraction Library [newver 1.4.51]"
 
 HOMEPAGE="https://www.sqlalchemy.org"
 LICENSE="MIT"
@@ -34,7 +34,7 @@ DEPENDENCIES=">dev-python/greenlet-0.4.17[${PYTHON_USEDEP}]
 	mysql? ( >=dev-python/mysqlclient-1.4.0[${PYTHON_USEDEP}] )
 	mysql-connector? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	mariadb-connector? ( dev-python/mariadb[${PYTHON_USEDEP}] )
-	oracle? ( dev-python/cx_oracle[${PYTHON_USEDEP}] )
+	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	oracle-oracledb? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql-pg8000? ( dev-python/pg8000[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES=">dev-python/greenlet-0.4.17[${PYTHON_USEDEP}]
 	asyncmy? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	aiosqlite? ( >dev-python/greenlet-0.4.17[${PYTHON_USEDEP}] )
 	aiosqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	aiosqlite? ( dev-python/typing_extensions[${PYTHON_USEDEP}] )
-	sqlcipher? ( dev-python/sqlcipher3_binary[${PYTHON_USEDEP}] )"
+	aiosqlite? ( >dev-python/typing-extensions-3.10.0.1[${PYTHON_USEDEP}] )
+	sqlcipher? ( dev-python/sqlcipher3-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

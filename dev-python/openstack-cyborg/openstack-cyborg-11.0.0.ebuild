@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-0.9.0[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.8.10[${PYTHON_USEDEP}]
 	dev-python/cursive[${PYTHON_USEDEP}]

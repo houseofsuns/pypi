@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ttkbootstrap[${PYTHON_USEDEP}]
 	dev-python/pdf2docx[${PYTHON_USEDEP}]
 	dev-python/docx2pdf[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	<dev-python/wheel-0.41.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

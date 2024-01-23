@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/texttable[${PYTHON_USEDEP}]
 	dev-python/pybcj[${PYTHON_USEDEP}]
 	dev-python/multivolumefile[${PYTHON_USEDEP}]
 	dev-python/inflate64[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	>=dev-python/brotlicffi-1.1.0.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	check? ( >=dev-python/mypy-0.940[${PYTHON_USEDEP}] )

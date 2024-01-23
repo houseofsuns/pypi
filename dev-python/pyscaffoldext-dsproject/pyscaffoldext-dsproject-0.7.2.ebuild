@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="testing? ( dev-python/configupdater[${PYTHON_USEDEP}] )
-	dev-python/pyscaffold[${PYTHON_USEDEP}]
+	dev-python/PyScaffold[${PYTHON_USEDEP}]
 	dev-python/pyscaffoldext-markdown[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

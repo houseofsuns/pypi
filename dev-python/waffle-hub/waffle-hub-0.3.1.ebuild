@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	>=dev-python/py-cpuinfo-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	<dev-python/fsspec-2023.10.0[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

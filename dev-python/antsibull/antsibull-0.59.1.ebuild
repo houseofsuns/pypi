@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/antsibull-core[${PYTHON_USEDEP}]
 	dev-python/asyncio-pool[${PYTHON_USEDEP}]
 	dev-python/build[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/twiggy[${PYTHON_USEDEP}]
+	dev-python/Twiggy[${PYTHON_USEDEP}]
 	codeqa? ( >=dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	codeqa? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	codeqa? ( dev-python/reuse[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	typing? ( dev-python/pyre-check[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
-	typing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	typing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

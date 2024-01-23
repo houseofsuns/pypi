@@ -36,6 +36,6 @@ DEPENDENCIES="dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyproject-flake8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

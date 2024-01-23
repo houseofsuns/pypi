@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python based toolkit for writing Command-Line Interface applications [topver 2023.5.1]"
+DESCRIPTION="Python based toolkit for writing Command-Line Interface applications [topver 2023.5.1, newver 2023.5.1]"
 
 HOMEPAGE="https://quo.rtfd.io"
 LICENSE="MIT"

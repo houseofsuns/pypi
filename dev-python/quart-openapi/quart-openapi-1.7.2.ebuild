@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 DEPENDENCIES=">=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]
-	dev-python/quart[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev-python/Quart[${PYTHON_USEDEP}]
+	doc? ( ~dev-python/sphinx-1.7.2[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.3.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/alabaster-0.7.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

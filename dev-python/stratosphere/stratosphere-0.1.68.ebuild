@@ -27,7 +27,7 @@ IUSE="complete dask pgsql"
 DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/foran[${PYTHON_USEDEP}]
 	>=dev-python/shellingham-1.5.4[${PYTHON_USEDEP}]
 	dev-python/taksonomia[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="api ble mongo pgsql powermon push systemd"
-DEPENDENCIES="powermon? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+DEPENDENCIES="powermon? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	ble? ( dev-python/bleak[${PYTHON_USEDEP}] )
 	ble? ( dev-python/bluepy[${PYTHON_USEDEP}] )
 	systemd? ( dev-python/cysystemd[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="powermon? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	>dev-python/pyserial-3.0[${PYTHON_USEDEP}]
 	push? ( >=dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	api? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
-	powermon? ( dev-python/strenum[${PYTHON_USEDEP}] )
+	powermon? ( dev-python/StrEnum[${PYTHON_USEDEP}] )
 	api? ( >=dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

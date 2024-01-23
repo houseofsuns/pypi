@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/django-el-pagination[${PYTHON_USEDEP}]
 	dev-python/django-social-share[${PYTHON_USEDEP}]

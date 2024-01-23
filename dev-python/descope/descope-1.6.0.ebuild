@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	<dev-python/email-validator-3.0[${PYTHON_USEDEP}]
 	dev-python/liccheck[${PYTHON_USEDEP}]
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )"
+	flask? ( >=dev-python/flask-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,12 +27,12 @@ IUSE="all docs jsonschema tests"
 DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.1.1[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.8.1[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/jsonschema-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	jsonschema? ( >=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/jsonschema-3.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/ansible-compat-2.2.0[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]
 	docs? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-ansible-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

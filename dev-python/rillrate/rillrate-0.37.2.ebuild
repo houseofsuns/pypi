@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="rillrate bindings for python [topver 0.40.0]"
+DESCRIPTION="rillrate bindings for python [topver 0.40.0, newver 0.40.0]"
 
 HOMEPAGE="https://github.com/rate-technology/rillrate-py"
 LICENSE="Apache-2.0"

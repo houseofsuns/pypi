@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all argcomplete coverage dev doc fsspec jsonnet jsonschema maintainer omegaconf reconplogger ruyaml signatures test test-no-urls urls"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	all? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-3.25.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.7.9[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.19.5[${PYTHON_USEDEP}] )

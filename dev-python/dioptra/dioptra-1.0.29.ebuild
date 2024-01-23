@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/mgzip[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/lz4-3.1.3[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/lightly[${PYTHON_USEDEP}]"

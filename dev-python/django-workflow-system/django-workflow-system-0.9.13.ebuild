@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-6.2.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.12.2[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

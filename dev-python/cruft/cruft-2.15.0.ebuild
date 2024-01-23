@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pyproject"
 DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.0[${PYTHON_USEDEP}]
 	pyproject? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]"

@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/setuptools-48.0.0[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/etuples[${PYTHON_USEDEP}]
 	dev-python/logical-unification[${PYTHON_USEDEP}]
-	dev-python/miniKanren[${PYTHON_USEDEP}]
+	dev-python/minikanren[${PYTHON_USEDEP}]
 	dev-python/cons[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	complete? ( dev-python/pytensor[${PYTHON_USEDEP}] )

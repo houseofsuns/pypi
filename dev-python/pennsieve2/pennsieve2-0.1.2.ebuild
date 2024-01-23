@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
-	dev-python/grpcio_tools[${PYTHON_USEDEP}]
+	<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]

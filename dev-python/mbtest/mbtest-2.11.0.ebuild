@@ -27,7 +27,7 @@ IUSE="coverage docs install test"
 DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	>=dev-python/pyhamcrest-2.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
 	dev-python/brunns-matchers[${PYTHON_USEDEP}]
 	dev-python/imurl[${PYTHON_USEDEP}]
 	coverage? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	install? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	install? ( dev-python/furl[${PYTHON_USEDEP}] )
 	install? ( >=dev-python/pyhamcrest-2.0[${PYTHON_USEDEP}] )
-	install? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
+	install? ( >=dev-python/deprecated-1.2[${PYTHON_USEDEP}] )
 	install? ( dev-python/brunns-matchers[${PYTHON_USEDEP}] )
 	install? ( dev-python/imurl[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )

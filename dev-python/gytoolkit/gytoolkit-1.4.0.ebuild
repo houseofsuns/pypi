@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/jqdatasdk[${PYTHON_USEDEP}]
-	dev-python/cx-oracle[${PYTHON_USEDEP}]
+	dev-python/cx-Oracle[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}]
 	dev-python/akshare[${PYTHON_USEDEP}]"

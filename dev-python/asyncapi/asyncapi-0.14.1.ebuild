@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/broadcaster[${PYTHON_USEDEP}]
 	dev-doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	dev-doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	docs? ( dev-python/apidaora[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	docs? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	gcloud-pubsub? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )

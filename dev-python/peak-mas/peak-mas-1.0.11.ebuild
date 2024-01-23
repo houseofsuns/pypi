@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python-based framework for heterogeneous agent communities [topver 1.0.13]"
+DESCRIPTION="Python-based framework for heterogeneous agent communities [topver 1.0.13, newver 1.0.13]"
 
 HOMEPAGE="https://www.gecad.isep.ipp.pt/peak"
 LICENSE=""
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/aiohttp-cors[${PYTHON_USEDEP}]
 	dev-python/aioxmpp[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/spade[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

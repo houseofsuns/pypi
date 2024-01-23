@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/open-aea[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-2.1.6[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2.1[${PYTHON_USEDEP}]

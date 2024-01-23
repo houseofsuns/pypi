@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/exifread[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ExifRead[${PYTHON_USEDEP}]
 	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
-	dev-python/iptcinfo3[${PYTHON_USEDEP}]
-	dev-python/kivy[${PYTHON_USEDEP}]
+	dev-python/IPTCInfo3[${PYTHON_USEDEP}]
+	dev-python/Kivy[${PYTHON_USEDEP}]
 	dev-python/paho-mqtt[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

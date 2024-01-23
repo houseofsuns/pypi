@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
 	async? ( dev-python/aiosonic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiosonic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/glom[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-bdd-6.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

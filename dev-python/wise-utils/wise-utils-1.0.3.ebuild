@@ -29,12 +29,12 @@ DEPENDENCIES="dev-python/yagmail[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
 	>=dev-python/selenium-4.1.0[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	dev-python/nacos-sdk-python[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
-	dev-python/PyVirtualDisplay[${PYTHON_USEDEP}]
-	dev-python/undetected_chromedriver[${PYTHON_USEDEP}]
-	dev-python/webdriver_manager[${PYTHON_USEDEP}]"
+	>=dev-python/pyvirtualdisplay-2.2[${PYTHON_USEDEP}]
+	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]
+	dev-python/webdriver-manager[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

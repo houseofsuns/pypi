@@ -16,8 +16,8 @@ DESCRIPTION="A database framework for exploring genetic variation"
 
 HOMEPAGE="http://gemini.readthedocs.org"
 LICENSE="UNKNOWN"
-SRC_URI="https://files.pythonhosted.org/packages/52/d9/df785c364d38f07760c9c700bbb162d8496735b589f9eeaf2c4600facc24/${REALNAME}-0.1.15.41.tar.gz"
-SOURCEFILE="${REALNAME}-0.1.15.41.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}0.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}0.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="huggingface"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	huggingface? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/datasets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

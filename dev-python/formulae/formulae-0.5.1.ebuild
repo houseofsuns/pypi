@@ -36,6 +36,6 @@ DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-2.10.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/sphinx-1.8.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

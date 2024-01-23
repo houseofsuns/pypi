@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API MRW carrier [topver 0.0.6]"
+DESCRIPTION="Python API MRW carrier [topver 0.0.6, newver 0.0.6]"
 
 HOMEPAGE="https://www.zikzakmedia.com"
 LICENSE="GPL-3"

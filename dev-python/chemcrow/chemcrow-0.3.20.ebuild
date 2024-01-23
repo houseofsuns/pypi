@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/rmrkl[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/rxn4chemistry[${PYTHON_USEDEP}]
+	dev-python/RXN4Chemistry[${PYTHON_USEDEP}]
 	dev-python/duckduckgo-search[${PYTHON_USEDEP}]
 	dev-python/wikipedia[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

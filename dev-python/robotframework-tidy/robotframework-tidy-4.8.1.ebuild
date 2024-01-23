@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	<dev-python/pathspec-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pyflakes-3.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylama[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/tomli-w-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	generate_config? ( ~dev-python/tomli-w-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/apispec-0.39[${PYTHON_USEDEP}]
-	dev-python/apscheduler[${PYTHON_USEDEP}]
+	<dev-python/APScheduler-4.0[${PYTHON_USEDEP}]
 	>=dev-python/python-box-3.3.0[${PYTHON_USEDEP}]
 	dev-python/brewtils[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-3.0[${PYTHON_USEDEP}]

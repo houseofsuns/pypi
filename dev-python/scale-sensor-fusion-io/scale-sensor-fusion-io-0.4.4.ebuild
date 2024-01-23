@@ -35,6 +35,6 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sk-video[${PYTHON_USEDEP}]
 	<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/pyturbojpeg[${PYTHON_USEDEP}]"
+	dev-python/PyTurboJPEG[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/cy-components[${PYTHON_USEDEP}]
 	dev-python/cy-widgets[${PYTHON_USEDEP}]
 	dev-python/cy-data-access[${PYTHON_USEDEP}]

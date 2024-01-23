@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/cairocffi[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/tzdata[${PYTHON_USEDEP}]
 	dev-python/django-appypod[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/weasyprint[${PYTHON_USEDEP}]
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	dev? ( dev-python/factory_boy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/django-debug-toolbar-3.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"

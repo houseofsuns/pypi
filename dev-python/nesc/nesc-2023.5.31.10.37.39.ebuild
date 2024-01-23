@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/meutils[${PYTHON_USEDEP}]
-	dev-python/lac[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/MeUtils[${PYTHON_USEDEP}]
+	dev-python/LAC[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

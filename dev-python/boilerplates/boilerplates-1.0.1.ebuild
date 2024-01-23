@@ -30,13 +30,13 @@ DEPENDENCIES="dev-python/version-query[${PYTHON_USEDEP}]
 	logging? ( ~dev-python/colorlog-6.7[${PYTHON_USEDEP}] )
 	packaging_tests? ( >=dev-python/build-0.10[${PYTHON_USEDEP}] )
 	packaging_tests? ( ~dev-python/docutils-0.20[${PYTHON_USEDEP}] )
-	packaging_tests? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	packaging_tests? ( ~dev-python/pygments-2.14[${PYTHON_USEDEP}] )
 	packaging_tests? ( >=dev-python/setuptools-67.4[${PYTHON_USEDEP}] )
 	packaging_tests? ( >=dev-python/pip-23.0[${PYTHON_USEDEP}] )
 	packaging_tests? ( >=dev-python/wheel-0.40[${PYTHON_USEDEP}] )
 	setup? ( >=dev-python/build-0.10[${PYTHON_USEDEP}] )
 	setup? ( ~dev-python/docutils-0.20[${PYTHON_USEDEP}] )
-	setup? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	setup? ( ~dev-python/pygments-2.14[${PYTHON_USEDEP}] )
 	setup? ( >=dev-python/setuptools-67.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

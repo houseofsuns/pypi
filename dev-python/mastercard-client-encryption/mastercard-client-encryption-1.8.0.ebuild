@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pycryptodome-3.8.1[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	<=dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-39.0.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-38.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

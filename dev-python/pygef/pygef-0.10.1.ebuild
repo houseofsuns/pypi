@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/polars[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	dev-python/gef-file-to-map[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipython-8.11.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/asteroid-sphinx-theme[${PYTHON_USEDEP}] )

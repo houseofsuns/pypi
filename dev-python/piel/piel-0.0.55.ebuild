@@ -27,7 +27,7 @@ IUSE="develop"
 DEPENDENCIES="dev-python/amaranth-yosys[${PYTHON_USEDEP}]
 	~dev-python/cython-0.29.21[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/cocotb[${PYTHON_USEDEP}]
 	dev-python/femwell[${PYTHON_USEDEP}]
 	dev-python/hdl21[${PYTHON_USEDEP}]

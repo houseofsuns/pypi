@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kernel SDK for streaming realtime metrics to https://missinglink.ai [topver 19.9.26893]"
+DESCRIPTION="Kernel SDK for streaming realtime metrics to https://missinglink.ai [topver 19.9.26893, newver 19.9.26893]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.1.9[${PYTHON_USEDEP}]
 	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]

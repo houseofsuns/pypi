@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
 	dev? ( dev-python/aind-data-schema[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aind-data-schema[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	linters? ( dev-python/codespell[${PYTHON_USEDEP}] )

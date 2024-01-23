@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	flake8? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-noqa[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	flake8? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	opencv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )

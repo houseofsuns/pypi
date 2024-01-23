@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
 	test? ( dev-python/nose2[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )

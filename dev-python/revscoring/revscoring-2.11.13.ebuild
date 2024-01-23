@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/deep-merge[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.28.5[${PYTHON_USEDEP}]
+	dev-python/deep_merge[${PYTHON_USEDEP}]
 	dev-python/deltas[${PYTHON_USEDEP}]
 	<dev-python/docopt-0.6.999[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]

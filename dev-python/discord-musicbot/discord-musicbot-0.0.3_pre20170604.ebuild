@@ -27,7 +27,7 @@ IUSE="docs fast qa"
 DEPENDENCIES=">=dev-python/aiohttp-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/selenium-3.4.3[${PYTHON_USEDEP}]
 	>=dev-python/spotipy-2.4.4[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
 	fast? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	fast? ( dev-python/cchardet[${PYTHON_USEDEP}] )

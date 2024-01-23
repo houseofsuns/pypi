@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	>=dev-python/structlog-20.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/asgi_lifespan[${PYTHON_USEDEP}] )
+	tests? ( dev-python/asgi-lifespan[${PYTHON_USEDEP}] )
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/Faker-15.0.0[${PYTHON_USEDEP}] )

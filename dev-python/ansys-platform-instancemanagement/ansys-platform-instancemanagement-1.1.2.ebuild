@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-api-platform-instancemanagement[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ansys-api-platform-instancemanagement[${PYTHON_USEDEP}] )
 	tests? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )

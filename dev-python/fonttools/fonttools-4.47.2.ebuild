@@ -35,7 +35,7 @@ DEPENDENCIES="all? ( <dev-python/fs-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/uharfbuzz[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/brotlicffi-0.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/brotli[${PYTHON_USEDEP}] )
+	all? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/munkres[${PYTHON_USEDEP}] )
 	all? ( dev-python/unicodedata2[${PYTHON_USEDEP}] )
 	all? ( dev-python/xattr[${PYTHON_USEDEP}] )
@@ -53,6 +53,6 @@ DEPENDENCIES="all? ( <dev-python/fs-3.0[${PYTHON_USEDEP}] )
 	unicode? ( dev-python/unicodedata2[${PYTHON_USEDEP}] )
 	woff? ( dev-python/zopfli[${PYTHON_USEDEP}] )
 	woff? ( >=dev-python/brotlicffi-0.8.0[${PYTHON_USEDEP}] )
-	woff? ( dev-python/brotli[${PYTHON_USEDEP}] )"
+	woff? ( dev-python/Brotli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="voice"
 DEPENDENCIES="dev-python/benepar[${PYTHON_USEDEP}]
 	dev-python/cvxopt[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -45,11 +45,11 @@ DEPENDENCIES="dev-python/benepar[${PYTHON_USEDEP}]
 	dev-python/pyngrok[${PYTHON_USEDEP}]
 	voice? ( dev-python/waveglowpkg[${PYTHON_USEDEP}] )
 	voice? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyAudio[${PYTHON_USEDEP}] )
+	voice? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
 	voice? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	voice? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	voice? ( dev-python/playsound[${PYTHON_USEDEP}] )
-	voice? ( dev-python/gtts[${PYTHON_USEDEP}] )
+	voice? ( dev-python/gTTS[${PYTHON_USEDEP}] )
 	voice? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	voice? ( dev-python/audiomentations[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High-level applications for FEL commissioning. [topver 2.0.0]"
+DESCRIPTION="High-level applications for FEL commissioning. [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/Archman/felapps"
 LICENSE="MIT"

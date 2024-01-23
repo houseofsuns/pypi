@@ -27,7 +27,7 @@ IUSE="docs testing"
 DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Django[${PYTHON_USEDEP}] )
+	testing? ( dev-python/django[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/django-configurations-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

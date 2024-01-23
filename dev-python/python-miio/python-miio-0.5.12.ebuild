@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/android_backup[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	<dev-python/netifaces-1.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-apidoc-1.0[${PYTHON_USEDEP}] )
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	<dev-python/zeroconf-1.0[${PYTHON_USEDEP}]"

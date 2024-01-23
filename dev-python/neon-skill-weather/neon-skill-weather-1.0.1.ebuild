@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/multi-key-dict[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/multi_key_dict[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/neon-api-proxy[${PYTHON_USEDEP}]

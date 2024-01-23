@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="flake8 for code in rst files and docstrings [topver 0.8.0]"
+DESCRIPTION="flake8 for code in rst files and docstrings [topver 0.8.0, newver 0.8.0]"
 
 HOMEPAGE="https://github.com/kataev/flake8-rst"
 LICENSE="MIT"

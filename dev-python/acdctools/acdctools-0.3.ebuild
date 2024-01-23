@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reciprocal Agglomerative Clustering, optimized for speed/ parallelization in C++. [topver 0.1.1]"
+DESCRIPTION="Reciprocal Agglomerative Clustering, optimized for speed/ parallelization in C++. [topver 0.1.1, newver 0.1.1]"
 
 HOMEPAGE="https://github.com/mediboard/racplusplus"
 LICENSE=""

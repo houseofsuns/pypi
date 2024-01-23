@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-copyright[${PYTHON_USEDEP}] )"

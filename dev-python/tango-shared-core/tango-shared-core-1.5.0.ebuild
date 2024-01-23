@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	>=dev-python/bleach-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-0.6[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.10[${PYTHON_USEDEP}]
 	>=dev-python/easy-thumbnails-1.3[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/markdown-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pillow-2.1.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/smartypants-1.6.0.3[${PYTHON_USEDEP}]
 	>=dev-python/typogrify-2.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/tango-voting[${PYTHON_USEDEP}]
 	>=dev-python/untangle-1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -32,13 +32,13 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.16.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
-	dev-python/Columnar[${PYTHON_USEDEP}]
+	dev-python/columnar[${PYTHON_USEDEP}]
 	dev-python/PyDrive[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/docker-6.0.0[${PYTHON_USEDEP}]
 	dev-python/slai[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

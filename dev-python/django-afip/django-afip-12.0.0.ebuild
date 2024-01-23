@@ -46,7 +46,7 @@ DEPENDENCIES="<dev-python/cryptography-40.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-pyOpenSSL[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-django[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )

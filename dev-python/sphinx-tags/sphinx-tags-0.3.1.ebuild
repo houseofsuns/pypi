@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/sphinx-5.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	sphinx? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

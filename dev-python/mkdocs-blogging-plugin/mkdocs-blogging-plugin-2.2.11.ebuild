@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/mkdocs-1.0[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

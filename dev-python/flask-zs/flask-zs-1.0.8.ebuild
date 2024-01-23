@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full http-client mixins"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	mixins? ( dev-python/zs-mixins[${PYTHON_USEDEP}] )
 	full? ( dev-python/zs-mixins[${PYTHON_USEDEP}] )

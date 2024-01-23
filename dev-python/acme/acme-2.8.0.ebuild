@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/cryptography-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/josepy-1.13.0[${PYTHON_USEDEP}]
-	dev-python/PyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]
 	dev-python/pyrfc3339[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

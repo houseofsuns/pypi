@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Control Hardware PWM on the Raspberry Pi [topver 0.2.1]"
+DESCRIPTION="Control Hardware PWM on the Raspberry Pi [topver 0.2.1, newver 0.2.1]"
 
 HOMEPAGE="https://github.com/Pioreactor/rpi_hardware_pwm"
 LICENSE="OSI Approved :: GNU General Public License v3 GPLv3"

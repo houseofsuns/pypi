@@ -27,9 +27,9 @@ IUSE="tests"
 DEPENDENCIES="dev-python/delfick-project[${PYTHON_USEDEP}]
 	~dev-python/docker-6.1.3[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/rainbow-logging-handler[${PYTHON_USEDEP}]
+	dev-python/rainbow_logging_handler[${PYTHON_USEDEP}]
 	dev-python/ruyaml[${PYTHON_USEDEP}]
-	tests? ( dev-python/noseofyeti[${PYTHON_USEDEP}] )
+	tests? ( dev-python/noseOfYeti[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/psutil-5.6.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/wsgidav[${PYTHON_USEDEP}] )
+	tests? ( dev-python/WsgiDAV[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/cheroot-8.6.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pylint-2.15.9[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )"

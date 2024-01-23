@@ -33,10 +33,10 @@ DEPENDENCIES="implementations? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	implementations? ( dev-python/rioxarray[${PYTHON_USEDEP}] )
 	implementations? ( dev-python/openeo-pg-parser-networkx[${PYTHON_USEDEP}] )
 	implementations? ( dev-python/odc-geo[${PYTHON_USEDEP}] )
-	implementations? ( dev-python/stac_validator[${PYTHON_USEDEP}] )
+	implementations? ( dev-python/stac-validator[${PYTHON_USEDEP}] )
 	implementations? ( dev-python/stackstac[${PYTHON_USEDEP}] )
-	implementations? ( dev-python/pystac_client[${PYTHON_USEDEP}] )
-	implementations? ( dev-python/planetary_computer[${PYTHON_USEDEP}] )
+	implementations? ( dev-python/pystac-client[${PYTHON_USEDEP}] )
+	implementations? ( dev-python/planetary-computer[${PYTHON_USEDEP}] )
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	implementations? ( dev-python/xvec[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

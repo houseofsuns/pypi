@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc test"
 DEPENDENCIES=">=dev-python/aniso8601-0.82[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.8[${PYTHON_USEDEP}]
 	>dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/aniso8601-0.82[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/blinker[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/Faker-2.0.0[${PYTHON_USEDEP}] )

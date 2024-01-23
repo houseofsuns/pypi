@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/warcio[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	<dev-python/redis-3.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/surt[${PYTHON_USEDEP}]
 	dev-python/brotlipy[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
-	dev-python/py3AMF[${PYTHON_USEDEP}]
-	i18n? ( dev-python/babel[${PYTHON_USEDEP}] )
+	dev-python/Py3AMF[${PYTHON_USEDEP}]
+	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	i18n? ( dev-python/translate-toolkit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

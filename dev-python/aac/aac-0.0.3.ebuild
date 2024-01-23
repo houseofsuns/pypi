@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.3.22]"
+DESCRIPTION=" [topver 0.3.22, newver 0.3.22]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/coverage-6.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.0.1[${PYTHON_USEDEP}]
 	~dev-python/pyrsistent-0.18.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	~dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.6[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.7[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.10[${PYTHON_USEDEP}]"

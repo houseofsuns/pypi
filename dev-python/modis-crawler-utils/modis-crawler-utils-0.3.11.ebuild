@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-7.1.2[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	~dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]
 	dev-python/python-logstash[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/scrapy-puppeteer-client[${PYTHON_USEDEP}]
 	dev-python/scrapy-splash[${PYTHON_USEDEP}]
 	dev-python/twisted[${PYTHON_USEDEP}]"

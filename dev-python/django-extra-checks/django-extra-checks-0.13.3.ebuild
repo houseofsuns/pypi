@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev? ( dev-python/Django[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( dev-python/django[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )

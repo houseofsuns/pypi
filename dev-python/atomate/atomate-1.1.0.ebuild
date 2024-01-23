@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/custodian[${PYTHON_USEDEP}]
 	complete? ( dev-python/phonopy[${PYTHON_USEDEP}] )
 	complete? ( dev-python/openbabel-wheel[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/boto3-1.28.15[${PYTHON_USEDEP}] )
-	complete? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/flask-2.3.2[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/moto-4.1.14[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )

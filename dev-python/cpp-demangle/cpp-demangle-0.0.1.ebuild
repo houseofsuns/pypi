@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for demangling C++ linker symbols [topver 0.1.2]"
+DESCRIPTION="A package for demangling C++ linker symbols [topver 0.1.2, newver 0.1.2]"
 
 HOMEPAGE="http://github.com/benfred/py-cpp-demangle/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This code is for the Pruna AI Engine which loads and runs models optimized with Pruna AI [topver 0.3.4]"
+DESCRIPTION="This code is for the Pruna AI Engine which loads and runs models optimized with Pruna AI [topver 0.3.4, newver 0.3.4]"
 
 HOMEPAGE=""
 LICENSE="All Rights Reserved"
@@ -76,14 +76,14 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.23.1[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.13.2[${PYTHON_USEDEP}]
-	dev-python/ipython-genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython_genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-8.0.6[${PYTHON_USEDEP}]
 	~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.2.3[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.18.2[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
 	dev-python/jina-hubble-sdk[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/jsonpointer-2.3[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
@@ -174,7 +174,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-25.1.0[${PYTHON_USEDEP}]
 	~dev-python/qtconsole-5.4.3[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	~dev-python/QtPy-2.3.1[${PYTHON_USEDEP}]
 	dev-python/ratelim[${PYTHON_USEDEP}]
 	~dev-python/readme-renderer-40.0[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.5.5[${PYTHON_USEDEP}]
@@ -199,7 +199,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	~dev-python/stack-data-0.6.2[${PYTHON_USEDEP}]
 	~dev-python/sympy-1.12[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	dev-python/tensorboardx[${PYTHON_USEDEP}]
+	dev-python/tensorboardX[${PYTHON_USEDEP}]
 	~dev-python/terminado-0.17.1[${PYTHON_USEDEP}]
 	~dev-python/texttable-1.6.7[${PYTHON_USEDEP}]
 	~dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]

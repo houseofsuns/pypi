@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	testing? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

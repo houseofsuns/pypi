@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]
 	dev-python/mdtraj[${PYTHON_USEDEP}]
 	dev-python/dpdata[${PYTHON_USEDEP}]
-	dev-python/parmed[${PYTHON_USEDEP}]
+	dev-python/ParmEd[${PYTHON_USEDEP}]
 	dev-python/dpdispatcher[${PYTHON_USEDEP}]
 	dev-python/lbg[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]"

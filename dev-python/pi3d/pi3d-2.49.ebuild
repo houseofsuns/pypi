@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pi3d OpenGLES2 3D graphics library [topver 2.51]"
+DESCRIPTION="pi3d OpenGLES2 3D graphics library [topver 2.51, newver 2.51]"
 
 HOMEPAGE="http://pi3d.github.com/html/index.html"
 LICENSE="MIT generally but see docstrings in specific files"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="acq all doc duecredit interfaces mat style test"
 DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	acq? ( dev-python/bioread[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )

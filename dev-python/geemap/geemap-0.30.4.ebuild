@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/bqplot[${PYTHON_USEDEP}]
 	extra? ( dev-python/oeel[${PYTHON_USEDEP}] )
 	extra? ( dev-python/owslib[${PYTHON_USEDEP}] )
 	extra? ( dev-python/palettable[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pycrs[${PYTHON_USEDEP}] )
+	extra? ( dev-python/PyCRS[${PYTHON_USEDEP}] )
 	extra? ( dev-python/sankee[${PYTHON_USEDEP}] )
 	extra? ( dev-python/whiteboxgui[${PYTHON_USEDEP}] )
 	extra? ( dev-python/xee[${PYTHON_USEDEP}] )

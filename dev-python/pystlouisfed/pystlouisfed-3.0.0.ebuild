@@ -28,7 +28,7 @@ DEPENDENCIES=">dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rush[${PYTHON_USEDEP}]
-	dev-python/sickle[${PYTHON_USEDEP}]
+	dev-python/Sickle[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )

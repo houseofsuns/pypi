@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-flask[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rsconnect[${PYTHON_USEDEP}]
-	dev-python/flask-restful[${PYTHON_USEDEP}]
+	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/data-ecosystem-services[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

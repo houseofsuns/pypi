@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
 	dev-python/zope-schema[${PYTHON_USEDEP}]
 	dev-python/zope-traversing[${PYTHON_USEDEP}]
-	test? ( dev-python/pyramid-zodbconn[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyramid_zodbconn[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyams-template[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

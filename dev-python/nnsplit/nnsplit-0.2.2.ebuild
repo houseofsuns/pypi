@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast, robust sentence splitting with bindings for Python, Rust and Javascript. [topver 0.5.9]"
+DESCRIPTION="Fast, robust sentence splitting with bindings for Python, Rust and Javascript. [topver 0.5.9, newver 0.5.9.post0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

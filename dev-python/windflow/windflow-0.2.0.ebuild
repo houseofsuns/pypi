@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="alembic dev uvloop"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-0.14.1[${PYTHON_USEDEP}]
 	dev-python/honcho[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.8.2[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.13.2[${PYTHON_USEDEP}]

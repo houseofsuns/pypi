@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/moftransformer[${PYTHON_USEDEP}]
 	dev-python/bitsandbytes[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/xformers[${PYTHON_USEDEP}]
-	dev-python/SentencePiece[${PYTHON_USEDEP}]
+	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/livereload[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"

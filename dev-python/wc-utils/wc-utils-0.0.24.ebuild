@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/objsize[${PYTHON_USEDEP}]
 	<=dev-python/openpyxl-3.0.1[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pronto[${PYTHON_USEDEP}]
 	dev-python/pyexcel[${PYTHON_USEDEP}]
 	dev-python/pyexcel-io[${PYTHON_USEDEP}]
@@ -46,17 +46,17 @@ DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/capturer[${PYTHON_USEDEP}] )
-	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	all? ( dev-python/logging2[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/openbabel[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygithub[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyjnius[${PYTHON_USEDEP}] )
 	all? ( dev-python/quilt3[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx_fontawesome[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-addmetahtml[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
@@ -65,15 +65,15 @@ DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinxprettysearchresults[${PYTHON_USEDEP}] )
 	chem? ( dev-python/openbabel[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_fontawesome[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-addmetahtml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-googleanalytics[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxprettysearchresults[${PYTHON_USEDEP}] )
-	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	git? ( dev-python/pygithub[${PYTHON_USEDEP}] )
+	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	git? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	logging? ( dev-python/logging2[${PYTHON_USEDEP}] )
 	protonation? ( dev-python/pyjnius[${PYTHON_USEDEP}] )
 	quilt? ( dev-python/boto3[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quick Command Line Tools for Model Deployment [topver 0.2.5]"
+DESCRIPTION="Quick Command Line Tools for Model Deployment [topver 0.2.5, newver 0.2.5]"
 
 HOMEPAGE="https://github.com/ZetangForward/ZipCode.git"
 LICENSE=""

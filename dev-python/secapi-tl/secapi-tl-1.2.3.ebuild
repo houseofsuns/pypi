@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/typing[${PYTHON_USEDEP}]
 	dev-python/ratelimiter[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/openDateRange[${PYTHON_USEDEP}]"
+	dev-python/opendaterange[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

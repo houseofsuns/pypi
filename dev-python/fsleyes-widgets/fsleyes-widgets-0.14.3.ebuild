@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
-	dev-python/wxPython[${PYTHON_USEDEP}]"
+	>=dev-python/wxpython-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

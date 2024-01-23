@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="youtube-dl yt-dlp"
-DEPENDENCIES="youtube-dl? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="youtube-dl? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}]
 	yt-dlp? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

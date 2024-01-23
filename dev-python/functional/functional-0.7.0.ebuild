@@ -16,8 +16,8 @@ DESCRIPTION="Tools for functional programming in python"
 
 HOMEPAGE="http://oakwinter.com/code/functional/"
 LICENSE="PSF License"
-SRC_URI="https://files.pythonhosted.org/packages/f5/5f/bb85f0ec7bc3d6b2e243ed223008d6d86b73c73e152358ab1fbc852b177d/${REALNAME}-Py-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-Py-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/30/74f9c23c1e726f55b0dd472374db5b2644bc5f74b143ca7afc3d188f4ef8/${REALNAME}-C-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-C-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/tuspy[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/tox-2.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.7.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-1.3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )

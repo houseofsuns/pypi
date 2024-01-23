@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="gilt - A GIT layering tool. [topver 1.2.3]"
+DESCRIPTION="gilt - A GIT layering tool. [topver 1.2.3, newver 1.2.3]"
 
 HOMEPAGE="https://github.com/metacloud/gilt"
 LICENSE=""
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	dev-python/git-url-parse[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/sh[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

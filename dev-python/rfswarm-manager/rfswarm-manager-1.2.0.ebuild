@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/HTTPServer[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/httpserver[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]

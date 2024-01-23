@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs qtplot slack test"
 DEPENDENCIES="dev-python/qcodes[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
-	dev-python/lazy-loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]

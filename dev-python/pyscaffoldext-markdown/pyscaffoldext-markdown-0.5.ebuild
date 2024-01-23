@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/pyscaffold[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyScaffold[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.31[${PYTHON_USEDEP}]
 	dev-python/myst-parser[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )

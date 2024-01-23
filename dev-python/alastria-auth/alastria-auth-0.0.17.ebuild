@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/alastria-identity[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	~dev-python/django-4.1.3[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/drf-yasg[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]

@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="speedup"
-DEPENDENCIES="speedup? ( dev-python/python-levenshtein[${PYTHON_USEDEP}] )"
+DEPENDENCIES="speedup? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

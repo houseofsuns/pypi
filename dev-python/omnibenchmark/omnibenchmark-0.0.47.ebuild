@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Omnibenchmark core utilities: Setup and running of continous benchmarking modules as part of omnibenchmark [topver 0.0.48]"
+DESCRIPTION="Omnibenchmark core utilities: Setup and running of continous benchmarking modules as part of omnibenchmark [topver 0.0.48, newver 0.0.48]"
 
 HOMEPAGE="https://omnibenchmark.pages.uzh.ch/omni_dash"
 LICENSE=""

@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/singleton-decorator[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.31[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.2.0[${PYTHON_USEDEP}]
 	dev-python/clickhouse-pool[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

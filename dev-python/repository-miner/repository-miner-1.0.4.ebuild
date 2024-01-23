@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ansiblemetrics[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
-	dev-python/pydriller[${PYTHON_USEDEP}]
+	dev-python/PyDriller[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/tosca-metrics[${PYTHON_USEDEP}]"

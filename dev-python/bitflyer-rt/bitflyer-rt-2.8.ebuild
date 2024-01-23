@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bitflyer Realtime and Rest API [topver 2.26]"
+DESCRIPTION="Bitflyer Realtime and Rest API [topver 2.26, newver 2.26]"
 
 HOMEPAGE=""
 LICENSE="MIT"

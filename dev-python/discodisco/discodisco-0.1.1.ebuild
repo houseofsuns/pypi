@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="No description has been added so far. [topver 0.1.2]"
+DESCRIPTION="No description has been added so far. [topver 0.1.2, newver 0.1.2]"
 
 HOMEPAGE="https://github.com/disco-org/disco"
 LICENSE="MIT"

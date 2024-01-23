@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-cache[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs tests"
 DEPENDENCIES=">=dev-python/sphinx-3.0[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	dev-python/more-itertools[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-3.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/parametrize_from_file[${PYTHON_USEDEP}] )
-	tests? ( dev-python/re_assert[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest_tmp_files[${PYTHON_USEDEP}] )
+	tests? ( dev-python/parametrize-from-file[${PYTHON_USEDEP}] )
+	tests? ( dev-python/re-assert[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pytest-tmp-files[${PYTHON_USEDEP}] )
 	tests? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

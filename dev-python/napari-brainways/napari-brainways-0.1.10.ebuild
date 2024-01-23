@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/brainways[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	~dev-python/QtPy-2.3.1[${PYTHON_USEDEP}]
 	all? ( dev-python/brainways-reg-model[${PYTHON_USEDEP}] )
 	testing? ( dev-python/py[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	testing? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/pytest-qt-4.1.0[${PYTHON_USEDEP}] )

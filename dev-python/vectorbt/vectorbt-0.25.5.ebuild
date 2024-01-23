@@ -52,6 +52,6 @@ DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	full? ( dev-python/pandas-ta[${PYTHON_USEDEP}] )
 	full? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
-	full? ( dev-python/quantstats[${PYTHON_USEDEP}] )"
+	full? ( dev-python/QuantStats[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aracnid-logger[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0[${PYTHON_USEDEP}]
-	dev-python/flask-oauthlib[${PYTHON_USEDEP}]
-	dev-python/flask-session[${PYTHON_USEDEP}]
+	dev-python/Flask-OAuthlib[${PYTHON_USEDEP}]
+	dev-python/Flask-Session[${PYTHON_USEDEP}]
 	dev-python/i-mongodb[${PYTHON_USEDEP}]
 	<dev-python/pytz-2023.0[${PYTHON_USEDEP}]
 	dev-python/xero-python[${PYTHON_USEDEP}]"

@@ -36,15 +36,15 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-migrate[${PYTHON_USEDEP}]
-	base_sql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	base_sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	base_sql? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	odbc? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	odbc? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

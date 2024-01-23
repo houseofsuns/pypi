@@ -30,12 +30,12 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/nc_py_api[${PYTHON_USEDEP}]
+	dev-python/nc-py-api[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.2[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
-	dev-python/drf_spectacular[${PYTHON_USEDEP}]
-	dev-python/keycloak_django[${PYTHON_USEDEP}]"
+	dev-python/drf-spectacular[${PYTHON_USEDEP}]
+	dev-python/keycloak-django[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

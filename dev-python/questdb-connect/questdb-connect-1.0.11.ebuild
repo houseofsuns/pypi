@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	test? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/apache-superset[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )

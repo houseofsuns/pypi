@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="git imaging recommended"
-DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/Babel-2.10[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.2[${PYTHON_USEDEP}]
 	~dev-python/mkdocs-material-extensions-1.3[${PYTHON_USEDEP}]
 	~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26[${PYTHON_USEDEP}]
 	git? ( dev-python/mkdocs-git-committers-plugin_2[${PYTHON_USEDEP}] )
 	git? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.2[${PYTHON_USEDEP}] )
-	imaging? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	imaging? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	imaging? ( ~dev-python/pillow-9.4[${PYTHON_USEDEP}] )
 	recommended? ( ~dev-python/mkdocs-minify-plugin-0.7[${PYTHON_USEDEP}] )
 	recommended? ( ~dev-python/mkdocs-redirects-1.2[${PYTHON_USEDEP}] )

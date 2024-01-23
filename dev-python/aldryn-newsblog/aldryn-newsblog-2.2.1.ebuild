@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/aldryn-apphooks-config[${PYTHON_USEDEP}]
 	dev-python/aldryn-boilerplates[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/aldryn-common[${PYTHON_USEDEP}]
 	dev-python/aldryn-people[${PYTHON_USEDEP}]
 	dev-python/aldryn-translation-tools[${PYTHON_USEDEP}]
-	dev-python/backport-collections[${PYTHON_USEDEP}]
+	dev-python/backport_collections[${PYTHON_USEDEP}]
 	dev-python/django-appdata[${PYTHON_USEDEP}]
 	dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/djangocms-text-ckeditor[${PYTHON_USEDEP}]

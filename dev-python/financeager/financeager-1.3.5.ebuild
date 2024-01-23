@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	develop? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	develop? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	develop? ( dev-python/gitlint-core[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

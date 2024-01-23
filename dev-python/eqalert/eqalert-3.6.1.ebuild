@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/playsound[${PYTHON_USEDEP}]
-	dev-python/gtts[${PYTHON_USEDEP}]"
+	dev-python/gTTS[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

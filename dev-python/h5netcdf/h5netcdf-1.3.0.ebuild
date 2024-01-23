@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	test? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	test? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.1.1[${PYTHON_USEDEP}]
 	fiona? ( dev-python/fiona[${PYTHON_USEDEP}] )
-	netcdf? ( dev-python/netCDF4[${PYTHON_USEDEP}] )"
+	netcdf? ( >=dev-python/netcdf4-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="extras jupyter"
 DEPENDENCIES=">=dev-python/autopep8-2.0[${PYTHON_USEDEP}]
-	dev-python/jpype1[${PYTHON_USEDEP}]
+	dev-python/JPype1[${PYTHON_USEDEP}]
 	>=dev-python/line-profiler-4.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.5[${PYTHON_USEDEP}]

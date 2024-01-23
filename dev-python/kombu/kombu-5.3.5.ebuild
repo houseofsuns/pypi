@@ -34,16 +34,16 @@ DEPENDENCIES="<dev-python/amqp-6.0.0[${PYTHON_USEDEP}]
 	librabbitmq? ( dev-python/librabbitmq[${PYTHON_USEDEP}] )
 	mongodb? ( >=dev-python/pymongo-4.1.1[${PYTHON_USEDEP}] )
 	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	pyro? ( dev-python/pyro4[${PYTHON_USEDEP}] )
+	pyro? ( dev-python/Pyro4[${PYTHON_USEDEP}] )
 	qpid? ( dev-python/qpid-python[${PYTHON_USEDEP}] )
 	qpid? ( dev-python/qpid-tools[${PYTHON_USEDEP}] )
 	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
-	slmq? ( dev-python/softlayer-messaging[${PYTHON_USEDEP}] )
+	slmq? ( dev-python/softlayer_messaging[${PYTHON_USEDEP}] )
 	sqlalchemy? ( <dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}] )
 	sqs? ( >=dev-python/boto3-1.26.143[${PYTHON_USEDEP}] )
 	sqs? ( >=dev-python/urllib3-1.26.16[${PYTHON_USEDEP}] )
 	sqs? ( >=dev-python/pycurl-7.43.0.5[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

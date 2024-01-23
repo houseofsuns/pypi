@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/XlsxWriter[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/html2text[${PYTHON_USEDEP}]
 	dev-python/striprtf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

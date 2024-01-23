@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/colander[${PYTHON_USEDEP}]
 	monitoring? ( dev-python/raven[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/statsd[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	postgresql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/zope-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

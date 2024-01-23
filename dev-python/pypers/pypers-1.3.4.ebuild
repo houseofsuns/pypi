@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/motor[${PYTHON_USEDEP}]
 	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.24[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/hachoir[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

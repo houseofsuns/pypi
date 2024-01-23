@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Serial package for trio [topver 0.4.0]"
+DESCRIPTION="Serial package for trio [topver 0.4.0, newver 0.4.0]"
 
 HOMEPAGE="https://github.com/joernheissler/trio-serial"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinxcontrib-trio-2.0[${PYTHON_USEDEP}] )
 	<dev-python/trio-1.0[${PYTHON_USEDEP}]"

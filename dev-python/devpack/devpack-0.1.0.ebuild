@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev setup tests"
-DEPENDENCIES="dev-python/apppath[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Apppath[${PYTHON_USEDEP}]
 	dev-python/sorcery[${PYTHON_USEDEP}]
-	dev-python/draugr[${PYTHON_USEDEP}]
+	dev-python/Draugr[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/warg[${PYTHON_USEDEP}]
+	dev-python/Warg[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
-	all? ( dev-python/apppath[${PYTHON_USEDEP}] )
+	all? ( dev-python/Apppath[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sorcery[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pip-19.0.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/black-18.9[${PYTHON_USEDEP}] )
-	all? ( dev-python/draugr[${PYTHON_USEDEP}] )
+	all? ( dev-python/Draugr[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
@@ -43,21 +43,21 @@ DEPENDENCIES="dev-python/apppath[${PYTHON_USEDEP}]
 	all? ( dev-python/mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/wheel-0.33.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/warg[${PYTHON_USEDEP}] )
+	all? ( dev-python/Warg[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/apppath[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Apppath[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sorcery[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-18.9[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pip-19.0.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/draugr[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Draugr[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.33.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/warg[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Warg[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	setup? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )

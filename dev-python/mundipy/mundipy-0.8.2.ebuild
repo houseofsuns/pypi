@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/Fiona[${PYTHON_USEDEP}]
+	dev-python/fiona[${PYTHON_USEDEP}]
 	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
 	<dev-python/psycopg-4.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg-binary[${PYTHON_USEDEP}]

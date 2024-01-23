@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="xls"
 DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
 	xls? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	xls? ( >=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}] )
 	xls? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"

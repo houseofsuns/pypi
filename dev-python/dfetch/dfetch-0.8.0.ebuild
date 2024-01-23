@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="casts development docs test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	~dev-python/pykwalify-1.8.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]

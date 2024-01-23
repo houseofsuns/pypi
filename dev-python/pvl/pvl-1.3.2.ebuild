@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="allopts dateutil multidict quantities"
 DEPENDENCIES="allopts? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	allopts? ( dev-python/multidict[${PYTHON_USEDEP}] )
-	allopts? ( dev-python/pint[${PYTHON_USEDEP}] )
+	allopts? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	allopts? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	dateutil? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	multidict? ( dev-python/multidict[${PYTHON_USEDEP}] )
 	quantities? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	quantities? ( dev-python/pint[${PYTHON_USEDEP}] )"
+	quantities? ( dev-python/Pint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

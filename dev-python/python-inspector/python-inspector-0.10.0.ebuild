@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/mock-3.0.5[${PYTHON_USEDEP}]
 	dev-python/packvers[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/doc8-0.11.2[${PYTHON_USEDEP}] )

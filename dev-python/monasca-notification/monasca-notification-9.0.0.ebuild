@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jira_plugin test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/debtcollector-1.2.0[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
@@ -38,8 +38,8 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.8.1[${PYTHON_USEDEP}]
 	jira_plugin? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/Babel-2.3.4[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sqlalchemy-1.0.10[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/docutils-0.11[${PYTHON_USEDEP}] )

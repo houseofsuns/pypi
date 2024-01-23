@@ -32,12 +32,12 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	develop? ( ~dev-python/cherrypy-3.2.4[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	develop? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
-	examples? ( dev-python/beaker[${PYTHON_USEDEP}] )
+	examples? ( dev-python/Beaker[${PYTHON_USEDEP}] )
 	ldap_authn? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	quality? ( dev-python/isort[${PYTHON_USEDEP}] )

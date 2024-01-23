@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="7z cli full lark mpl toml tqdm type vtk"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	cli? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	lark? ( <dev-python/lark-2.0.0[${PYTHON_USEDEP}] )

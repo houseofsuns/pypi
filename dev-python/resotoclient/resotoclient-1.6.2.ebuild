@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyjwt-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]

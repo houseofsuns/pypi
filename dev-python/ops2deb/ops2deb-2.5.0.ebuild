@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pyinstaller"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.1.9[${PYTHON_USEDEP}]
 	dev-python/dirsync[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.20.0[${PYTHON_USEDEP}]

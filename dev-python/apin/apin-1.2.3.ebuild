@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/rsa-4.7.2[${PYTHON_USEDEP}]
 	dev-python/jsonpath[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]"
+	~dev-python/Faker-8.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

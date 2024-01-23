@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Solidity parser for Python built on top of a robust ANTLR4 grammar [topver 0.1.1]"
+DESCRIPTION="A Solidity parser for Python built on top of a robust ANTLR4 grammar [topver 0.1.1, newver 0.1.1]"
 
 HOMEPAGE="https://github.com/consensys/python-solidity-parser/"
 LICENSE="MIT"

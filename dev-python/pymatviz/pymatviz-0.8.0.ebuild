@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	auto-text-pos? ( dev-python/adjustText[${PYTHON_USEDEP}] )
 	data-src? ( dev-python/matminer[${PYTHON_USEDEP}] )
-	df-pdf-export? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	df-pdf-export? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	df-pdf-export? ( dev-python/pdfCropMargins[${PYTHON_USEDEP}] )
 	df-pdf-export? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	export-figs? ( dev-python/kaleido[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	gh-pages? ( dev-python/lazydocs[${PYTHON_USEDEP}] )
 	gh-pages? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	test? ( dev-python/adjustText[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	test? ( dev-python/pdfCropMargins[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

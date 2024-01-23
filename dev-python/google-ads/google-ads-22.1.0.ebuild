@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.3.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	tests? ( <dev-python/nox-2022.6[${PYTHON_USEDEP}] )"

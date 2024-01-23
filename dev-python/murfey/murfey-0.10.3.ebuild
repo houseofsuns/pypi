@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	server? ( dev-python/ispyb[${PYTHON_USEDEP}] )
-	server? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	server? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	server? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	server? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	server? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )

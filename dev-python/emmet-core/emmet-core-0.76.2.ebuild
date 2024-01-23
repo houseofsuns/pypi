@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	docs? ( dev-python/livereload[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	ml? ( dev-python/chgnet[${PYTHON_USEDEP}] )
 	ml? ( dev-python/matgl[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

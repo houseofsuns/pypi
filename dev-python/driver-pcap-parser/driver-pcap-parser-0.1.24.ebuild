@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/scapy[${PYTHON_USEDEP}]
-	dev-python/logstash-formatter[${PYTHON_USEDEP}]"
+	dev-python/logstash_formatter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

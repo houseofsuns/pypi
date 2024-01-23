@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/gapandas[${PYTHON_USEDEP}]
 	>=dev-python/httplib2-0.15.0[${PYTHON_USEDEP}]
-	dev-python/lifetimes[${PYTHON_USEDEP}]
+	dev-python/Lifetimes[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pycausalimpact[${PYTHON_USEDEP}]

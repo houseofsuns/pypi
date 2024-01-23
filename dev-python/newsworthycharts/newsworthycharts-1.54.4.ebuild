@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/Babel-3.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.0[${PYTHON_USEDEP}]
 	dev-python/adjustText[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.26[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]

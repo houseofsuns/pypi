@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pillow-7.1.1[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.4.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]

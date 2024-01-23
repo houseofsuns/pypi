@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cubicweb[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	dev-python/pyramid-openapi3[${PYTHON_USEDEP}]
 	<dev-python/openapi-core-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

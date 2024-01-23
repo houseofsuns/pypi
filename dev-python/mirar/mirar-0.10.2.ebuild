@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/astroplan[${PYTHON_USEDEP}]
 	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/sphinx-mdinclude[${PYTHON_USEDEP}]
+	dev-python/sphinx_mdinclude[${PYTHON_USEDEP}]
 	<dev-python/black-24.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
@@ -64,6 +64,6 @@ DEPENDENCIES="dev-python/astroplan[${PYTHON_USEDEP}]
 	dev-python/astrosurveyutils[${PYTHON_USEDEP}]
 	dev-python/wintertoo[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]"
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

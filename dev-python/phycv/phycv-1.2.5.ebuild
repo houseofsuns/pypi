@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="physics-inspired computer vision algorithms [topver 1.2.6]"
+DESCRIPTION="physics-inspired computer vision algorithms [topver 1.2.6, newver 1.2.6]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

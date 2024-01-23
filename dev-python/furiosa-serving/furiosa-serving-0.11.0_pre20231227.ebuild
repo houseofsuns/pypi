@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="openvino test"
 DEPENDENCIES="dev-python/furiosa-server[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]

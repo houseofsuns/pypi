@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	all? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
-	all? ( dev-python/brotli[${PYTHON_USEDEP}] )
+	all? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/cryptg[${PYTHON_USEDEP}] )
 	all? ( <dev-python/phonenumbers-9.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	qr_login? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	qr_login? ( <dev-python/qrcode-8.0[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/brotli[${PYTHON_USEDEP}] )
+	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/cryptg[${PYTHON_USEDEP}] )
 	sqlite? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

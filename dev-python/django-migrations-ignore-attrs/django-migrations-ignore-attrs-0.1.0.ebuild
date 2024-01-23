@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pygments[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

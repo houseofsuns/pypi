@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PySide2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside2[${PYTHON_USEDEP}]
 	dev-python/pythontk[${PYTHON_USEDEP}]
 	dev-python/uitk[${PYTHON_USEDEP}]
 	dev-python/pymel[${PYTHON_USEDEP}]"

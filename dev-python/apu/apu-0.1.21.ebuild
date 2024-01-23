@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Antons Python Utilities [topver 0.1.22.0.0]"
+DESCRIPTION="Antons Python Utilities [topver 0.1.22.0.0, newver 0.1.22.0.0]"
 
 HOMEPAGE="https://github.com/afeldman/apu"
 LICENSE="MIT"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

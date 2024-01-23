@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Oireachtas debate data [topver 0.1.19]"
+DESCRIPTION="Oireachtas debate data [topver 0.1.19, newver 0.1.19]"
 
 HOMEPAGE="https://github.com/RobertLucey/oireachtas-data"
 LICENSE=""

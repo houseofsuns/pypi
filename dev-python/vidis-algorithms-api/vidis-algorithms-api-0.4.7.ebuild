@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/redis-4.5.4[${PYTHON_USEDEP}]
 	dev-python/nameko[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

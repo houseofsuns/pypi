@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pyg-base[${PYTHON_USEDEP}]
 	dev-python/pyg-encoders[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]"
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

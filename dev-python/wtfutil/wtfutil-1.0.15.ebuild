@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python utility. [topver 1.0.30]"
+DESCRIPTION="A Python utility. [topver 1.0.31, newver 1.0.31]"
 
 HOMEPAGE="https://github.com/vicrack"
 LICENSE=""
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/cacheout[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]

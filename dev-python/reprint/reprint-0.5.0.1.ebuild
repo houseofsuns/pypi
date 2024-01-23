@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple module for Python2/3 to print and refresh multi line output contents in terminal [topver 0.6.0]"
+DESCRIPTION="A simple module for Python2/3 to print and refresh multi line output contents in terminal [topver 0.6.0, newver 0.6.0]"
 
 HOMEPAGE="https://github.com/Yinzo/reprint"
 LICENSE="Apache-2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/backports-shutil-get-terminal-size[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backports-shutil_get_terminal_size[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

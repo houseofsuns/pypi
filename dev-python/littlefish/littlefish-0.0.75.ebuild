@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery pdfsigner redis"
-DEPENDENCIES="dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-sqlalchemy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/IPy-0.83[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyMarkovChain[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-3.5.0.0[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-3.7.0[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.1[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	pdfsigner? ( dev-python/endesive[${PYTHON_USEDEP}] )
-	pdfsigner? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	pdfsigner? ( >=dev-python/pyopenssl-19.0.0[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-3.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

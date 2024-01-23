@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fontTools[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/fonttools[${PYTHON_USEDEP}]
 	dev-python/ufoLib2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

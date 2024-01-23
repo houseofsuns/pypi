@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/open3d[${PYTHON_USEDEP}] )
 	all? ( dev-python/ouster-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyntcloud[${PYTHON_USEDEP}] )

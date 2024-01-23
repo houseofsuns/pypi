@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cmap dev docs font-fa5 font-fa6 font-mi6 font-mi7 iconify pyqt5 pyqt6 pyside2 pyside6 quantity test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.4.0[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	cmap? ( dev-python/cmap[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -37,25 +37,25 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pygments[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cmap[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pint[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	font-fa5? ( dev-python/fonticon-fontawesome5[${PYTHON_USEDEP}] )
 	font-fa6? ( dev-python/fonticon-fontawesome6[${PYTHON_USEDEP}] )
 	font-mi6? ( dev-python/fonticon-materialdesignicons6[${PYTHON_USEDEP}] )
 	font-mi7? ( dev-python/fonticon-materialdesignicons7[${PYTHON_USEDEP}] )
 	iconify? ( dev-python/pyconify[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( >dev-python/pyside6-6.5.0[${PYTHON_USEDEP}] )
-	quantity? ( dev-python/pint[${PYTHON_USEDEP}] )
+	quantity? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	test? ( dev-python/cmap[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pint[${PYTHON_USEDEP}] )
+	test? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyconify[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

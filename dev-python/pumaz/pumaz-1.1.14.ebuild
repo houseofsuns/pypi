@@ -44,6 +44,6 @@ DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/moosez[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/gputil[${PYTHON_USEDEP}]"
+	dev-python/GPUtil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

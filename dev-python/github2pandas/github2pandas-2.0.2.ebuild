@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pygit2-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	>=dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
 	dev-python/git2net[${PYTHON_USEDEP}]
 	dev-python/pysqlite3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]

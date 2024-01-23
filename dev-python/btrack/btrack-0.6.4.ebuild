@@ -45,6 +45,6 @@ DEPENDENCIES=">=dev-python/cvxopt-1.3.1[${PYTHON_USEDEP}]
 	napari? ( dev-python/magicgui[${PYTHON_USEDEP}] )
 	napari? ( dev-python/napari-plugin-engine[${PYTHON_USEDEP}] )
 	napari? ( dev-python/napari[${PYTHON_USEDEP}] )
-	napari? ( dev-python/qtpy[${PYTHON_USEDEP}] )"
+	napari? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

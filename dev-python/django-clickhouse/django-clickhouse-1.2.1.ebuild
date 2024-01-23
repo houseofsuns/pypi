@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-1.7[${PYTHON_USEDEP}]
 	dev-python/infi-clickhouse-orm[${PYTHON_USEDEP}]
 	dev-python/statsd[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

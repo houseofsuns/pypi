@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/wheel-0.36.2[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/mypy-0.800[${PYTHON_USEDEP}]
 	dev-python/schema-entry[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/wheel-0.36.2[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.5[${PYTHON_USEDEP}]
 	>=dev-python/pyaml-20.4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-3.5[${PYTHON_USEDEP}]
 	>=dev-python/coverage-5.5[${PYTHON_USEDEP}]
 	>=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}]

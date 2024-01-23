@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.2.4[${PYTHON_USEDEP}]
 	dev-python/supportdata[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/twine-1.8.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-1.5.1[${PYTHON_USEDEP}] )

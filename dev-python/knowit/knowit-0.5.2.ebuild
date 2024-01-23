@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/babelfish-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/enzyme-0.5.0[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	<dev-python/pymediainfo-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/trakit[${PYTHON_USEDEP}]"

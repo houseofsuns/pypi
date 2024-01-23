@@ -29,15 +29,15 @@ DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/nestedtext[${PYTHON_USEDEP}]
 	dev-python/tidyexc[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/more_itertools[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.10[${PYTHON_USEDEP}]
 	dev-python/decopatch[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autoclasstoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest_tmp_files[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-tmp-files[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

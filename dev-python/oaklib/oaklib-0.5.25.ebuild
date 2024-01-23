@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gilda llm"
 DEPENDENCIES="dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.32[${PYTHON_USEDEP}]
 	dev-python/airium[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/class-resolver[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/libsass[${PYTHON_USEDEP}]
 	test? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )

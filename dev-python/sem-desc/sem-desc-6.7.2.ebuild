@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/graph-wrapper[${PYTHON_USEDEP}]
 	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]

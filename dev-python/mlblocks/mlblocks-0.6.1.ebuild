@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/graphviz-1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/watchdog-0.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-6.5.0[${PYTHON_USEDEP}] )

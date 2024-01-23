@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
-	dev-python/pytorch_lightning[${PYTHON_USEDEP}]
+	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/huggingface_hub[${PYTHON_USEDEP}]
+	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/keybert[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

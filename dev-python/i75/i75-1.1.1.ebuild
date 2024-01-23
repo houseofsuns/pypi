@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}]
 	dev-python/adafruit-ampy[${PYTHON_USEDEP}]
 	~dev-python/twine-4.0.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
 	dev-python/types-Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

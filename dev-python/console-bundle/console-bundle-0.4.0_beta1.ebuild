@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Console Bundle for the Pyfony Framework [topver 0.5.1]"
+DESCRIPTION="Console Bundle for the Pyfony Framework [topver 0.5.1, newver 0.5.1]"
 
 HOMEPAGE="https://github.com/pyfony/console-bundle"
 LICENSE="MIT"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/blackrenderer[${PYTHON_USEDEP}]
-	dev-python/fontTools[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.37.3[${PYTHON_USEDEP}]
 	dev-python/freetype-py[${PYTHON_USEDEP}]
 	dev-python/gflanguages[${PYTHON_USEDEP}]
 	dev-python/glyphsets[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyahocorasick[${PYTHON_USEDEP}]

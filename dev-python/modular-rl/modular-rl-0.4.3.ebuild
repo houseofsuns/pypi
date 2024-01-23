@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/LogAssist[${PYTHON_USEDEP}]
+	dev-python/logassist[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/easycheck[${PYTHON_USEDEP}]
 	dev-python/memory-profiler[${PYTHON_USEDEP}]
-	dev-python/pympler[${PYTHON_USEDEP}]
+	dev-python/Pympler[${PYTHON_USEDEP}]
 	dev-python/rounder[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-1.8.1[${PYTHON_USEDEP}]

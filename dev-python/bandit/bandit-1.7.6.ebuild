@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test toml yaml"
 DEPENDENCIES=">=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
@@ -38,6 +38,6 @@ DEPENDENCIES=">=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pylint-1.9.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
 	toml? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

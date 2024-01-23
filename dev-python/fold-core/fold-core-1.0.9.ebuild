@@ -28,8 +28,8 @@ DEPENDENCIES=">=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
-	dev-python/iteration_utilities[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/iteration-utilities[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/deepmerge-1.0.0[${PYTHON_USEDEP}]
 	quality? ( <dev-python/black-22.13.0[${PYTHON_USEDEP}] )
 	quality? ( <dev-python/flake8-4.1.0[${PYTHON_USEDEP}] )
@@ -40,8 +40,8 @@ DEPENDENCIES=">=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	tests? ( dev-python/imbalanced-learn[${PYTHON_USEDEP}] )
 	tests? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	all? ( dev-python/holidays[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas_market_calendars[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas_market_calendars[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pandas-market-calendars[${PYTHON_USEDEP}] )
+	all? ( dev-python/pandas-market-calendars[${PYTHON_USEDEP}] )
 	tests? ( dev-python/krisi[${PYTHON_USEDEP}] )
 	all? ( dev-python/krisi[${PYTHON_USEDEP}] )
 	>=dev-python/mkdocs-1.2[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-glightbox[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
-	all? ( dev-python/p_tqdm[${PYTHON_USEDEP}] )
+	all? ( dev-python/p-tqdm[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
 	statsmodels? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )

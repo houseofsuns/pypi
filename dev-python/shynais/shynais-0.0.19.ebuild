@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/ShynaDatabase[${PYTHON_USEDEP}]
-	dev-python/ShynaWeather[${PYTHON_USEDEP}]
-	dev-python/ShynaGreetings[${PYTHON_USEDEP}]
-	dev-python/Shynatime[${PYTHON_USEDEP}]
+	dev-python/shynaweather[${PYTHON_USEDEP}]
+	dev-python/shynagreetings[${PYTHON_USEDEP}]
+	dev-python/shynatime[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

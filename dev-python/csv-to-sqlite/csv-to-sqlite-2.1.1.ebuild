@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A script that processes the input CSV files and copies them into a SQLite database. [topver 2.1.3]"
+DESCRIPTION="A script that processes the input CSV files and copies them into a SQLite database. [topver 2.1.3, newver 2.1.3]"
 
 HOMEPAGE="https://github.com/zblesk/csv-to-sqlite"
 LICENSE=""

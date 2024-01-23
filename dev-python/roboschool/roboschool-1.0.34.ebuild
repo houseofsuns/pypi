@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenAI Household Simulator: mobile manipulation using Bullet [topver 1.0.49]"
+DESCRIPTION="OpenAI Household Simulator: mobile manipulation using Bullet [topver 1.0.49, newver 1.0.49]"
 
 HOMEPAGE="https://github.com/openai/roboschool"
 LICENSE=""

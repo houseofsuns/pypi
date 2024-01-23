@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation of localized model fields using PostgreSQL HStore fields. [topver 6.7]"
+DESCRIPTION="Implementation of localized model fields using PostgreSQL HStore fields. [topver 6.7, newver 6.7]"
 
 HOMEPAGE="https://github.com/SectorLabs/django-localized-fields"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis docs test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/django-postgres-extra[${PYTHON_USEDEP}]
 	~dev-python/deprecation-2.0.7[${PYTHON_USEDEP}]
 	analysis? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	analysis? ( ~dev-python/autopep8-1.4.4[${PYTHON_USEDEP}] )
 	analysis? ( ~dev-python/isort-4.3.20[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/sl-docformatter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/tox-3.14.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )

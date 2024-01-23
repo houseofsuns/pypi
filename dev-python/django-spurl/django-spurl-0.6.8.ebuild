@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop test"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urlobject[${PYTHON_USEDEP}]
+	dev-python/URLObject[${PYTHON_USEDEP}]
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
 	develop? ( dev-python/django[${PYTHON_USEDEP}] )
 	develop? ( dev-python/nose[${PYTHON_USEDEP}] )

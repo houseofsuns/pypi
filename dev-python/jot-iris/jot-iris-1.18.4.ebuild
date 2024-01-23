@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Super simple test sequencer for production testing [topver 1.20.7]"
+DESCRIPTION="Super simple test sequencer for production testing [topver 1.20.7, newver 1.20.7]"
 
 HOMEPAGE="https://www.jotautomation.com"
 LICENSE="MIT"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/json2html[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/gaiaclient[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="protobuf"
-DEPENDENCIES="dev-python/pyJoules[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyjoules[${PYTHON_USEDEP}]
 	dev-python/os0[${PYTHON_USEDEP}]
 	dev-python/logging3[${PYTHON_USEDEP}]
 	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )"

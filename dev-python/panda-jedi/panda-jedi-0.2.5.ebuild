@@ -31,11 +31,11 @@ DEPENDENCIES="dev-python/panda-common[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	oracle? ( dev-python/cx_Oracle[${PYTHON_USEDEP}] )
+	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	rucio? ( dev-python/rucio-clients[${PYTHON_USEDEP}] )
-	atlasprod? ( dev-python/cx_Oracle[${PYTHON_USEDEP}] )
+	atlasprod? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	atlasprod? ( dev-python/rucio-clients[${PYTHON_USEDEP}] )
 	atlasprod? ( dev-python/idds-common[${PYTHON_USEDEP}] )
 	atlasprod? ( dev-python/idds-client[${PYTHON_USEDEP}] )"

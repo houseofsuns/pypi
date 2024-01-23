@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fourier General Robotics OS - Client Library (python) [topver 1.3.6]"
+DESCRIPTION="Fourier General Robotics OS - Client Library (python) [topver 1.3.6, newver 1.3.6]"
 
 HOMEPAGE="https://github.com/FFTAI/rocs_client_py"
 LICENSE="MIT"

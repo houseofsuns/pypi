@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.3[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pydata-sphinx-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )

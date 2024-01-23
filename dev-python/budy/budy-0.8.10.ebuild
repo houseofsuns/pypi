@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/appier[${PYTHON_USEDEP}]
 	dev-python/appier-extras[${PYTHON_USEDEP}]
-	dev-python/commons-py[${PYTHON_USEDEP}]"
+	dev-python/commons_py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

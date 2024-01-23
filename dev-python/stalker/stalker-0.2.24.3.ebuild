@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Production Asset Management (ProdAM) System [topver 0.2.28]"
+DESCRIPTION="A Production Asset Management (ProdAM) System [topver 0.2.28, newver 0.2.28]"
 
 HOMEPAGE="http://github.com/eoyilmaz/stalker"
 LICENSE="LGPL-3"

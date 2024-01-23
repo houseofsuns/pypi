@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/pytz-2018.3[${PYTHON_USEDEP}]
 	~dev-python/structlog-18.1.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	dev-python/deeputil[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

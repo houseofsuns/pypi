@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/rich-13.3.3[${PYTHON_USEDEP}]
 	>=dev-python/markdown-it-py-2.1.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	syntax? ( <dev-python/tree-sitter-0.21.0[${PYTHON_USEDEP}] )
-	syntax? ( dev-python/tree_sitter_languages[${PYTHON_USEDEP}] )"
+	syntax? ( dev-python/tree-sitter-languages[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

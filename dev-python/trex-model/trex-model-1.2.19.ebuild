@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/google-cloud-firestore[${PYTHON_USEDEP}]
-	dev-python/google_cloud_datastore[${PYTHON_USEDEP}]
+	dev-python/google-cloud-datastore[${PYTHON_USEDEP}]
 	dev-python/google-cloud-ndb[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/trex-lib[${PYTHON_USEDEP}]

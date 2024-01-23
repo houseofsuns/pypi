@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc testing"
-DEPENDENCIES="dev-python/api-object-schema[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/api_object_schema[${PYTHON_USEDEP}]
 	>=dev-python/arrow-0.6.0[${PYTHON_USEDEP}]
 	dev-python/capacity[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

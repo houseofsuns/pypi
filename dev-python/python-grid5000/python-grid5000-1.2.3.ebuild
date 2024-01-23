@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 1.2.4]"
+DESCRIPTION=" [topver 1.2.4, newver 1.2.4]"
 
 HOMEPAGE="https://gitlab.inria.fr/msimonin/python-grid5000"
 LICENSE=""

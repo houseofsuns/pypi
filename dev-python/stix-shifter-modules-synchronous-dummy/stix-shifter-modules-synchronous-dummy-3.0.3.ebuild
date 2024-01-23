@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools and interface to translate STIX formatted results and queries to different data source formats and to set up appropriate connection strings for invoking and triggering actions in openwhisk [topver 4.0.2]"
+DESCRIPTION="Tools and interface to translate STIX formatted results and queries to different data source formats and to set up appropriate connection strings for invoking and triggering actions in openwhisk [topver 4.0.2, newver 3.6.11]"
 
 HOMEPAGE="https://github.com/opencybersecurityalliance/stix-shifter"
 LICENSE=""

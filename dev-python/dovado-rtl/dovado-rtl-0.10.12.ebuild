@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]
-	dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pexpect-5.0.0[${PYTHON_USEDEP}]

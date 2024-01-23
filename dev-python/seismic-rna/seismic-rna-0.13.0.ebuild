@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/brotli[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/cutadapt[${PYTHON_USEDEP}]
 	dev-python/fastqsplitter[${PYTHON_USEDEP}]

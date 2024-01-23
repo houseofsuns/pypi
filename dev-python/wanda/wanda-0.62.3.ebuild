@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/cloudscraper-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
 	dev-python/colorthief[${PYTHON_USEDEP}]
 	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]

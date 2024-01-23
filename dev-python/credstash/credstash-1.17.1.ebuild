@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="yaml"
 DEPENDENCIES=">=dev-python/cryptography-2.1[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.1.1[${PYTHON_USEDEP}]
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

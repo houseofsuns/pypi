@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
-	dev-python/asyncio_throttle[${PYTHON_USEDEP}]
+	dev-python/asyncio-throttle[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docker mongo moto mysql postgres postgres-async postgres-binary redis redshift"
 DEPENDENCIES=">=dev-python/pytest-1.0[${PYTHON_USEDEP}]
 	>dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgres-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	postgres-async? ( dev-python/asyncpg[${PYTHON_USEDEP}] )

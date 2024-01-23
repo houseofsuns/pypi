@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/readimc[${PYTHON_USEDEP}]
 	dev-python/superqt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

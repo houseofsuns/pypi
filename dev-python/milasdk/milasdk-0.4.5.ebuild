@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/async-oauthlib[${PYTHON_USEDEP}]"
+	dev-python/Async-OAuthlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

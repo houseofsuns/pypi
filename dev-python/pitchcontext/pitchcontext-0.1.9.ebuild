@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/music21[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	<dev-python/ipython-8.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

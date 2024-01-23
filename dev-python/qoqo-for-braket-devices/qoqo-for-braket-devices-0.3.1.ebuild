@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/qoqo_calculator_pyo3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/qoqo-calculator-pyo3[${PYTHON_USEDEP}]
 	dev-python/qoqo[${PYTHON_USEDEP}]
 	dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]
 	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/qoqo_calculator_pyo3[${PYTHON_USEDEP}]
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst_parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

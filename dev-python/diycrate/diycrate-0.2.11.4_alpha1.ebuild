@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-16.0.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
-	dev-python/Send2Trash[${PYTHON_USEDEP}]
+	~dev-python/send2trash-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	ci? ( dev-python/python-digitalocean[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="doc test"
 DEPENDENCIES=">=dev-python/setuptools-63.2.0[${PYTHON_USEDEP}]
 	dev-python/pkg-about[${PYTHON_USEDEP}]
 	doc? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinxcontrib-spelling-7.6.0[${PYTHON_USEDEP}] )

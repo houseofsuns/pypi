@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/aws-cdk-lib[${PYTHON_USEDEP}]
 	dev-python/constructs[${PYTHON_USEDEP}]
 	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
 	~dev-python/paramiko-2.11.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

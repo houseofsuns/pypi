@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/django-simple-history[${PYTHON_USEDEP}]
 	dev-python/edx-celeryutils[${PYTHON_USEDEP}]
 	dev-python/edx-toggles[${PYTHON_USEDEP}]
 	dev-python/django-config-models[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/edx-drf-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

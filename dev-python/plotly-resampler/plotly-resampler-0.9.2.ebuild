@@ -31,7 +31,7 @@ DEPENDENCIES="inline-persistent? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
 	>=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
-	inline-persistent? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
+	inline-persistent? ( <dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}] )
 	inline-persistent? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	dev-python/tsdownsample[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

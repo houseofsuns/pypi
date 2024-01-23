@@ -31,9 +31,9 @@ DEPENDENCIES="<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	dev-python/macos-tags[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/Send2Trash[${PYTHON_USEDEP}]
+	<dev-python/send2trash-2.0.0[${PYTHON_USEDEP}]
 	dev-python/simplematch[${PYTHON_USEDEP}]
 	textract? ( dev-python/textract[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )

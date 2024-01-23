@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	dev-python/oslo-db[${PYTHON_USEDEP}]
 	dev-python/python-subunit[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.0.10[${PYTHON_USEDEP}]
 	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
 	graph? ( >=dev-python/pandas-0.20.1[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testtools-0.9.34[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyMySql[${PYTHON_USEDEP}] )
+	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslo-concurrency-3.5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/reno-0.1.1[${PYTHON_USEDEP}] )

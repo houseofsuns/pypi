@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/dask-2023.2.0[${PYTHON_USEDEP}]
 	>=dev-python/dask-2023.2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19.1[${PYTHON_USEDEP}]
-	dev-python/pims[${PYTHON_USEDEP}]
+	dev-python/PIMS[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2018.10.18[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/veracode-api-signing[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]"
+	>=dev-python/pygments-2.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

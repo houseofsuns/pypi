@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xblock[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/XBlock[${PYTHON_USEDEP}]
 	dev-python/web-fragments[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

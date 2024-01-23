@@ -1,4 +1,4 @@
-BDEPEND=dev-python/PyYAML[python_targets_python3_10(-)?] dev-python/py-find-1st[python_targets_python3_10(-)?] ~dev-python/h5py-2.10[python_targets_python3_10(-)?] ~dev-python/numpy-1.21.6[python_targets_python3_10(-)?] ~dev-python/pandas-1.3.3[python_targets_python3_10(-)?] dev-python/opencv-python[python_targets_python3_10(-)?] >=dev-python/scipy-1.7.3[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?]
+BDEPEND=<dev-python/pyyaml-7.0[python_targets_python3_10(-)?] dev-python/py-find-1st[python_targets_python3_10(-)?] ~dev-python/h5py-2.10[python_targets_python3_10(-)?] ~dev-python/numpy-1.21.6[python_targets_python3_10(-)?] ~dev-python/pandas-1.3.3[python_targets_python3_10(-)?] dev-python/opencv-python[python_targets_python3_10(-)?] >=dev-python/scipy-1.7.3[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?]
 DEFINED_PHASES=compile configure install prepare test unpack
 DESCRIPTION=A gathering of shared utilities for the Swain Lab image processing pipeline.
 EAPI=8
@@ -6,10 +6,10 @@ INHERIT=python-r1 gs-pypi
 IUSE=python_targets_python3_10
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=dev-python/PyYAML[python_targets_python3_10(-)?] dev-python/py-find-1st[python_targets_python3_10(-)?] ~dev-python/h5py-2.10[python_targets_python3_10(-)?] ~dev-python/numpy-1.21.6[python_targets_python3_10(-)?] ~dev-python/pandas-1.3.3[python_targets_python3_10(-)?] dev-python/opencv-python[python_targets_python3_10(-)?] >=dev-python/scipy-1.7.3[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 )
+RDEPEND=<dev-python/pyyaml-7.0[python_targets_python3_10(-)?] dev-python/py-find-1st[python_targets_python3_10(-)?] ~dev-python/h5py-2.10[python_targets_python3_10(-)?] ~dev-python/numpy-1.21.6[python_targets_python3_10(-)?] ~dev-python/pandas-1.3.3[python_targets_python3_10(-)?] dev-python/opencv-python[python_targets_python3_10(-)?] >=dev-python/scipy-1.7.3[python_targets_python3_10(-)?] python_targets_python3_10? ( dev-lang/python:3.10 )
 REQUIRED_USE=|| ( python_targets_python3_10 )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/source/a/aliby-agora/aliby-agora-0.2.33.tar.gz
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	gs-distutils-r1	0525f05c7488bc59390b270bd3d76555	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	03294e7b17bf3965e7664025c100ef4e
-_md5_=ba479968f3e306bde947cfc70576a151
+_md5_=34f1c8c20950027a4019421a9d9d9815

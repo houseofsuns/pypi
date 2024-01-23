@@ -37,7 +37,7 @@ DEPENDENCIES="web? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev-python/gilda[${PYTHON_USEDEP}]
 	dev-python/gpt4[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
-	huggingface? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
+	huggingface? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	>=dev-python/inflect-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
@@ -65,6 +65,6 @@ DEPENDENCIES="web? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	web? ( >=dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}] )
 	dev-python/wikipedia[${PYTHON_USEDEP}]
-	dev-python/wikipedia-api[${PYTHON_USEDEP}]"
+	dev-python/Wikipedia-API[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

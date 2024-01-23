@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	~dev-python/cython-3.0.6[${PYTHON_USEDEP}]
 	dev-python/everest-pipeline[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/lightkurve[${PYTHON_USEDEP}]

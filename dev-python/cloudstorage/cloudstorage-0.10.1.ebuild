@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unified cloud storage API for storage services. [topver 0.11.0]"
+DESCRIPTION="Unified cloud storage API for storage services. [topver 0.11.0, newver 0.11.0]"
 
 HOMEPAGE="https://github.com/scottwernervt/cloudstorage/"
 LICENSE="MIT"
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	google? ( >=dev-python/requests-2.19.1[${PYTHON_USEDEP}] )
 	local? ( >=dev-python/filelock-3.0.0[${PYTHON_USEDEP}] )

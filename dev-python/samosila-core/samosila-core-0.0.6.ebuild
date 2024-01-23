@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/requests-file[${PYTHON_USEDEP}]
 	dev-python/requests-html[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	full? ( dev-python/voyageai[${PYTHON_USEDEP}] )
 	full? ( dev-python/gptcache[${PYTHON_USEDEP}] )
 	full? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyAudio[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
 	full? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	full? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	full? ( dev-python/timm[${PYTHON_USEDEP}] )
@@ -85,7 +85,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	local? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
 	local? ( dev-python/gptcache[${PYTHON_USEDEP}] )
 	local? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	local? ( dev-python/PyAudio[${PYTHON_USEDEP}] )
+	local? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
 	local? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	local? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	local? ( dev-python/timm[${PYTHON_USEDEP}] )

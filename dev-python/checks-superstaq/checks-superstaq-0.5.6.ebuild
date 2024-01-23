@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/black-23.1.0[${PYTHON_USEDEP}]
 	>=dev-python/flake8-6.0.0[${PYTHON_USEDEP}]
 	dev-python/flake8-modern-annotations[${PYTHON_USEDEP}]
-	dev-python/flake8-pyproject[${PYTHON_USEDEP}]
+	dev-python/Flake8-pyproject[${PYTHON_USEDEP}]
 	dev-python/flake8-type-checking[${PYTHON_USEDEP}]
 	>=dev-python/isort-5.10.1[${PYTHON_USEDEP}]
 	>=dev-python/mypy-1.7.0[${PYTHON_USEDEP}]

@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/setuptools-38.5.1[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/aiodns-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.1.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-1.7.0[${PYTHON_USEDEP}] )
 	qa? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

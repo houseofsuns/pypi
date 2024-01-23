@@ -29,7 +29,7 @@ DEPENDENCIES=">dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/executor[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>dev-python/pyyaml-3.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aci all ansible aristacv grafana ipfabric meraki nautobot panorama"
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	ansible? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+DEPENDENCIES=">dev-python/markdown-3.3.5[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	ansible? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	<dev-python/aiodns-2.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]

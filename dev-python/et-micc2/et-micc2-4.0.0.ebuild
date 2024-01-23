@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/walkdir[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.8.0[${PYTHON_USEDEP}]
-	dev-python/semantic_version[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pypi-simple[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

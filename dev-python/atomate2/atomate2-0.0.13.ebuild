@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="amset cclib defects dev docs forcefields lobster mp phonons strict tests"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/custodian[${PYTHON_USEDEP}]
 	dev-python/emmet-core[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	forcefields? ( dev-python/ase[${PYTHON_USEDEP}] )
 	forcefields? ( dev-python/chgnet[${PYTHON_USEDEP}] )
 	forcefields? ( dev-python/mace-torch[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	mp? ( dev-python/mp-api[${PYTHON_USEDEP}] )
 	phonons? ( dev-python/phonopy[${PYTHON_USEDEP}] )
 	phonons? ( dev-python/seekpath[${PYTHON_USEDEP}] )
-	strict? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	strict? ( dev-python/ase[${PYTHON_USEDEP}] )
 	strict? ( dev-python/cclib[${PYTHON_USEDEP}] )
 	strict? ( dev-python/chgnet[${PYTHON_USEDEP}] )

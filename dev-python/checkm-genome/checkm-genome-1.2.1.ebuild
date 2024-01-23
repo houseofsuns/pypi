@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Assess the quality of putative genome bins. [topver 1.2.2]"
+DESCRIPTION="Assess the quality of putative genome bins. [topver 1.2.2, newver 1.2.2]"
 
 HOMEPAGE="http://pypi.python.org/pypi/checkm-genome/"
 LICENSE="GPL-3"
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
-	dev-python/dendropy[${PYTHON_USEDEP}]
+	dev-python/DendroPy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

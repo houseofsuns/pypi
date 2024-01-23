@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 DEPENDENCIES=">=dev-python/typing-extensions-4.7.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )

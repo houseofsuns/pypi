@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	<dev-python/sphinxcontrib-bibtex-3.0.0[${PYTHON_USEDEP}]

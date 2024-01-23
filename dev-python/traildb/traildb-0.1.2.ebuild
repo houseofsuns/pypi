@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/mlflow[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/pyrebase4[${PYTHON_USEDEP}]"
+	dev-python/Pyrebase4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

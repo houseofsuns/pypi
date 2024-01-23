@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style linkify rtd sphinx testing testing-docutils"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0[${PYTHON_USEDEP}]
 	~dev-python/mdit-py-plugins-0.4[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	rtd? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx-pyscript[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx-tippy[${PYTHON_USEDEP}] )
+	rtd? ( dev-python/sphinx_pyscript[${PYTHON_USEDEP}] )
+	rtd? ( dev-python/sphinx_tippy[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-autodoc2[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	sphinx? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )

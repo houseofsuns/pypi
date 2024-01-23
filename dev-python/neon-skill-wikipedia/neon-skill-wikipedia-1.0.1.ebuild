@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/wikipedia-for-humans[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
-	dev-python/wikipedia-api[${PYTHON_USEDEP}]"
+	dev-python/Wikipedia-API[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/mapbox-earcut[${PYTHON_USEDEP}] )
+	all? ( dev-python/mapbox_earcut[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/meshkernel[${PYTHON_USEDEP}] )
 	all? ( dev-python/netcdf4[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/synthtiger[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/random-address[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

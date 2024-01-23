@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/factory-boy[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.32.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

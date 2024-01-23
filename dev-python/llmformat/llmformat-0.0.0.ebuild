@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="llmformat [topver 0.0.2.1]"
+DESCRIPTION="llmformat [topver 0.0.2.1, newver 0.0.2.1]"
 
 HOMEPAGE=""
 LICENSE=""

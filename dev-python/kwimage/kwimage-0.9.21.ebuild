@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The kwimage module [topver 0.9.23]"
+DESCRIPTION="The kwimage module [topver 0.9.23, newver 0.9.23]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/kwimage"
 LICENSE="Apache-2.0"
@@ -32,13 +32,13 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8.2[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8.5[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
@@ -77,7 +77,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/scipy-1.7.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/shapely-1.8.2[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -86,21 +86,21 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/shapely-1.8.5[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/itk-io[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/cython-0.29.25[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/cffi-1.15.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.7.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/shapely-1.8.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -109,14 +109,14 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	all? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/shapely-1.8.5[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/itk-io[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cython-0.29.25[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cffi-1.15.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/ninja[${PYTHON_USEDEP}] )
@@ -154,13 +154,13 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	runtime-strict? ( ~dev-python/scipy-1.7.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/shapely-1.8.2[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/shapely-1.8.5[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )

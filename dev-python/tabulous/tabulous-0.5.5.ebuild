@@ -32,16 +32,16 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
 	dev-python/qt-command-palette[${PYTHON_USEDEP}]
 	dev-python/qtconsole[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.7[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
+	pyqt6? ( >=dev-python/PyQt6-6.3.1[${PYTHON_USEDEP}] )
 	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )"

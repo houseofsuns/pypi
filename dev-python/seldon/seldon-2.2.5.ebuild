@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/MySQL-python[${PYTHON_USEDEP}]
 	dev-python/annoy[${PYTHON_USEDEP}]
 	dev-python/boto[${PYTHON_USEDEP}]

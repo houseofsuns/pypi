@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.15.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/aiostream-0.4.5[${PYTHON_USEDEP}]

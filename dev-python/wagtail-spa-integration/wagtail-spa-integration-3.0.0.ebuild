@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2.0[${PYTHON_USEDEP}]
 	dev-python/wagtail-headless-preview[${PYTHON_USEDEP}]
 	<dev-python/django-filter-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

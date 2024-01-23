@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/clint[${PYTHON_USEDEP}]
 	dev-python/cprint[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/wad[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

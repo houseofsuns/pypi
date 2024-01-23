@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/spacy-transformers[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	style? ( >=dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	style? ( dev-python/ruff[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build test"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-8.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	>=dev-python/attrs-15.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]

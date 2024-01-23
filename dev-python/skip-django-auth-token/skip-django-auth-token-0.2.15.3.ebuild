@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mssso"
 DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
-	dev-python/import-string[${PYTHON_USEDEP}]
+	dev-python/import_string[${PYTHON_USEDEP}]
 	dev-python/skip-django-chamber[${PYTHON_USEDEP}]
 	dev-python/skip-django-generic-m2m-field[${PYTHON_USEDEP}]
 	dev-python/skip-django-choice-enumfields[${PYTHON_USEDEP}]

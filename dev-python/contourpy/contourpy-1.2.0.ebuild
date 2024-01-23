@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	mypy? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/contourpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test-no-images? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test-no-images? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test-no-images? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

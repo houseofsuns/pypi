@@ -27,11 +27,11 @@ IUSE="all plots"
 DEPENDENCIES="dev-python/mylogging[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
-	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plots? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	plots? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	plots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plots? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	plots? ( dev-python/plotly[${PYTHON_USEDEP}] )"

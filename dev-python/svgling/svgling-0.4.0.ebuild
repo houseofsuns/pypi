@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="conversion"
 DEPENDENCIES="dev-python/svgwrite[${PYTHON_USEDEP}]
-	conversion? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
+	conversion? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

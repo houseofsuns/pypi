@@ -28,9 +28,9 @@ DEPENDENCIES="dev? ( ~dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

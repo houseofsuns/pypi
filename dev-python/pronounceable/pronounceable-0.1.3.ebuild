@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis tests"
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/metaphone[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
+	dev-python/Metaphone[${PYTHON_USEDEP}]
 	analysis? ( dev-python/memorable-password[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/randomsentence[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

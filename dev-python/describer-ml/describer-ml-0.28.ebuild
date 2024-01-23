@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/mlxtend[${PYTHON_USEDEP}]
-	dev-python/ThinkBayes2[${PYTHON_USEDEP}]"
+	dev-python/thinkbayes2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

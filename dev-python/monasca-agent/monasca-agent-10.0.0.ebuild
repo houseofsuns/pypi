@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cert_file_check influxdb influxdb_relay kafka_plugin libvirt ovs prometheus swift_handoffs test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	>=dev-python/httplib2-0.9.1[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.3.0[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/emd-signal[${PYTHON_USEDEP}]
+	dev-python/EMD-signal[${PYTHON_USEDEP}]
 	dev-python/fitter[${PYTHON_USEDEP}]
 	dev-python/kucoin-python[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]

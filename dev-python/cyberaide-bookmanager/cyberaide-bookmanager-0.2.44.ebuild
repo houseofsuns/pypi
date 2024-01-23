@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/oyaml[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.0[${PYTHON_USEDEP}]
 	dev-python/cloudmesh-common[${PYTHON_USEDEP}]
 	dev-python/cloudmesh-git[${PYTHON_USEDEP}]
-	dev-python/ebooklib[${PYTHON_USEDEP}]"
+	dev-python/EbookLib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

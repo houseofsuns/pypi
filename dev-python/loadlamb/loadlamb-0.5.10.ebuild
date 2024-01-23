@@ -30,13 +30,13 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/chalice[${PYTHON_USEDEP}]
 	dev-python/docb[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-4.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/sammy[${PYTHON_USEDEP}]
-	dev-python/unipath[${PYTHON_USEDEP}]
+	dev-python/Unipath[${PYTHON_USEDEP}]
 	dev-python/warrant-lite[${PYTHON_USEDEP}]
-	dev-python/aiohttp_xmlrpc[${PYTHON_USEDEP}]"
+	dev-python/aiohttp-xmlrpc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

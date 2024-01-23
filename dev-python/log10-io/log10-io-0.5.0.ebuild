@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/anthropic[${PYTHON_USEDEP}]
 	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	<dev-python/Faker-20.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-search-results[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]

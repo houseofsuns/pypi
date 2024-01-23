@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-ApplicationServices[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CoreText[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-libdispatch[${PYTHON_USEDEP}]
-	dev-python/pyobjc-framework-datadetection[${PYTHON_USEDEP}]
+	dev-python/pyobjc-framework-DataDetection[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	dev-python/macimg[${PYTHON_USEDEP}]"

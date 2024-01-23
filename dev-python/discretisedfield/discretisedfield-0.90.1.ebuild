@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/k3d[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]

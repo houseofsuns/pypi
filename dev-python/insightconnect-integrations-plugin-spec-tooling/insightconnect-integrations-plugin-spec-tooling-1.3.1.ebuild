@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plugin spec parser tooling for InsightConnect integrations [topver 1.3.2]"
+DESCRIPTION="Plugin spec parser tooling for InsightConnect integrations [topver 1.3.2, newver 1.3.2]"
 
 HOMEPAGE="https://github.com/rapid7/icon-integrations-plugin-spec"
 LICENSE="MIT"
@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

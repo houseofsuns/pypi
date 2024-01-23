@@ -49,13 +49,13 @@ DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	detect-secrets? ( dev-python/detect-secrets[${PYTHON_USEDEP}] )
 	manifest? ( dev-python/manifest-ml[${PYTHON_USEDEP}] )
 	toxic-language? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	pii? ( dev-python/presidio_analyzer[${PYTHON_USEDEP}] )
-	pii? ( dev-python/presidio_anonymizer[${PYTHON_USEDEP}] )
+	pii? ( dev-python/presidio-analyzer[${PYTHON_USEDEP}] )
+	pii? ( dev-python/presidio-anonymizer[${PYTHON_USEDEP}] )
 	competitor-check? ( dev-python/spacy-transformers[${PYTHON_USEDEP}] )
 	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	toxic-language? ( dev-python/torch[${PYTHON_USEDEP}] )
 	high-quality-translation? ( dev-python/guardrails-ai-unbabel-comet[${PYTHON_USEDEP}] )
-	high-quality-translation? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
+	high-quality-translation? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	dev-python/pydash[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

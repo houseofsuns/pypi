@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	docs? ( dev-python/nibabies[${PYTHON_USEDEP}] )
 	duecredit? ( dev-python/duecredit[${PYTHON_USEDEP}] )
 	maint? ( dev-python/fuzzywuzzy[${PYTHON_USEDEP}] )
-	maint? ( dev-python/python-levenshtein[${PYTHON_USEDEP}] )
+	maint? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/migas[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

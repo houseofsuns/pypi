@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bilix[${PYTHON_USEDEP}]
 	dev-python/internetarchive[${PYTHON_USEDEP}]
-	dev-python/danmakuc[${PYTHON_USEDEP}]
+	dev-python/danmakuC[${PYTHON_USEDEP}]
 	<dev-python/browser-cookie3-0.20.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]"

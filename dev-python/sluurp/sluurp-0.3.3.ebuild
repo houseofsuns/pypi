@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="doc? ( >=dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )

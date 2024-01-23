@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="macos"
 DEPENDENCIES="dev-python/rns[${PYTHON_USEDEP}]
 	dev-python/lxmf[${PYTHON_USEDEP}]
-	dev-python/kivy[${PYTHON_USEDEP}]
+	dev-python/Kivy[${PYTHON_USEDEP}]
 	dev-python/plyer[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]

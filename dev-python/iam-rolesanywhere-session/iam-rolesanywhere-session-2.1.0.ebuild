@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.24.55[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.27.55[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-37.0.4[${PYTHON_USEDEP}]

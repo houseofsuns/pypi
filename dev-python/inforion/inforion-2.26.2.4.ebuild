@@ -39,10 +39,10 @@ DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]
 	~dev-python/validators-0.16.0[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	~dev-python/xlsxwriter-1.2.9[${PYTHON_USEDEP}]
 	~dev-python/setuptools-49.2.0[${PYTHON_USEDEP}]
 	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

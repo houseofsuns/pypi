@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/reahl-web[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
 	<dev-python/plotly-5.16.99999[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bounded_pool_executor[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/bounded-pool-executor[${PYTHON_USEDEP}]
 	>=dev-python/dask-2022.11.0[${PYTHON_USEDEP}]
 	dev-python/dask-sql[${PYTHON_USEDEP}]
 	dev-python/db-dtypes[${PYTHON_USEDEP}]

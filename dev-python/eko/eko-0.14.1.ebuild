@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="box mark"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	mark? ( dev-python/banana-hep[${PYTHON_USEDEP}] )
 	box? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	<dev-python/lz4-5.0.0[${PYTHON_USEDEP}]

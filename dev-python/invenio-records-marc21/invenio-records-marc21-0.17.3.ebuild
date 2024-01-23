@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-bandit[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-autodoc-typehints-1.10.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

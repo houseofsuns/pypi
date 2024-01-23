@@ -57,7 +57,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	ipy? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	ipy? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	ipy? ( dev-python/ipython-genutils[${PYTHON_USEDEP}] )
+	ipy? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
 	ipy? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	ipy? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

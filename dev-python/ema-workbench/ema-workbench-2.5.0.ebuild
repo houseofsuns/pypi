@@ -27,8 +27,8 @@ IUSE="all cov dev docs graph jupyter netlogo parallel pysd recommended simio"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/salib[${PYTHON_USEDEP}]
-	dev-python/platypus-opt[${PYTHON_USEDEP}]
+	dev-python/SALib[${PYTHON_USEDEP}]
+	dev-python/Platypus-Opt[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyscaffold[${PYTHON_USEDEP}] )
+	docs? ( dev-python/PyScaffold[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	graph? ( dev-python/altair[${PYTHON_USEDEP}] )
 	graph? ( dev-python/pydot[${PYTHON_USEDEP}] )

@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/contextily[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/irv_autopkg_client[${PYTHON_USEDEP}] )
+	tutorials? ( dev-python/irv-autopkg-client[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/seaborn[${PYTHON_USEDEP}] )

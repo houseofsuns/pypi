@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/adjusttext[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/bioservices[${PYTHON_USEDEP}]
 	dev-python/brokenaxes[${PYTHON_USEDEP}]
 	dev-python/bx-python[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/adjusttext[${PYTHON_USEDEP}]
 	dev-python/snakemake[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/upsetplot[${PYTHON_USEDEP}]
+	dev-python/UpSetPlot[${PYTHON_USEDEP}]
 	dev-python/vcfpy[${PYTHON_USEDEP}]
 	<dev-python/xlrd-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

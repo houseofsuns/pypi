@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.0[${PYTHON_USEDEP}]
 	>=dev-python/nose-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-15.0[${PYTHON_USEDEP}]

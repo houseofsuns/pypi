@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
-	dev-python/metpy[${PYTHON_USEDEP}]
+	dev-python/MetPy[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.16.2[${PYTHON_USEDEP}]

@@ -29,7 +29,7 @@ DEPENDENCIES="dev? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
 	dev-python/django-admin-display[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql-django[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
+	<dev-python/django-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

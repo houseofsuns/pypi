@@ -73,8 +73,8 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	server? ( dev-python/passlib[${PYTHON_USEDEP}] )
 	server? ( dev-python/json-merge-patch[${PYTHON_USEDEP}] )
 	server? ( dev-python/jsonpath-ng[${PYTHON_USEDEP}] )
-	server? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	server? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	server? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
-	server? ( dev-python/faker[${PYTHON_USEDEP}] )"
+	server? ( dev-python/Faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

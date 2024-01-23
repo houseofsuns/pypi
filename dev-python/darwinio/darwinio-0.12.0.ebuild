@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pygame-ce[${PYTHON_USEDEP}]
 	dev-python/pygame-gui[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

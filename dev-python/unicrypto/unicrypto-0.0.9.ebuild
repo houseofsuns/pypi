@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unified interface for cryptographic libraries [topver 0.0.10]"
+DESCRIPTION="Unified interface for cryptographic libraries [topver 0.0.10, newver 0.0.10]"
 
 HOMEPAGE="https://github.com/skelsec/unicrypto"
 LICENSE=""

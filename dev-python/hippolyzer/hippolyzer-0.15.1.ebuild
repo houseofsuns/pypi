@@ -36,11 +36,11 @@ DEPENDENCIES="dev-python/llsd[${PYTHON_USEDEP}]
 	dev-python/Glymur[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/outleap[${PYTHON_USEDEP}]
-	dev-python/arpeggio[${PYTHON_USEDEP}]
+	dev-python/Arpeggio[${PYTHON_USEDEP}]
 	dev-python/mitmproxy[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
 	dev-python/ptpython[${PYTHON_USEDEP}]
-	dev-python/pyside6-essentials[${PYTHON_USEDEP}]
+	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	dev-python/qasync[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

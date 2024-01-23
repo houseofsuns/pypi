@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/googledrivedownloader[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

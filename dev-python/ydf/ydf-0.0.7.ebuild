@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="YDF (short for Yggdrasil Decision Forests) is a library for training, serving, evaluating and analyzing decision forest models such as Random Forest and Gradient Boosted Trees. [topver 0.0.8]"
+DESCRIPTION="YDF (short for Yggdrasil Decision Forests) is a library for training, serving, evaluating and analyzing decision forest models such as Random Forest and Gradient Boosted Trees. [topver 0.0.8, newver 0.0.8]"
 
 HOMEPAGE="https://github.com/google/yggdrasil-decision-forests"
 LICENSE="Apache-2.0"

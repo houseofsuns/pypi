@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easy dict-based script configuration with CLI support [topver 0.7.10]"
+DESCRIPTION="Easy dict-based script configuration with CLI support [topver 0.7.10, newver 0.7.10]"
 
 HOMEPAGE="https://gitlab.kitware.com/utils/scriptconfig/"
 LICENSE="Apache-2.0"

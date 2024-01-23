@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/pop[${PYTHON_USEDEP}]
 	dev-python/dict-toolbox[${PYTHON_USEDEP}]
 	async? ( dev-python/aiologger[${PYTHON_USEDEP}] )
 	async? ( >=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyPiWin32[${PYTHON_USEDEP}] )
+	full? ( dev-python/pypiwin32[${PYTHON_USEDEP}] )
 	full? ( dev-python/aiologger[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}] )
-	nt? ( dev-python/PyPiWin32[${PYTHON_USEDEP}] )"
+	nt? ( dev-python/pypiwin32[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

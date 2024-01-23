@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dask gui numba visualization"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/progressbar2-3.39[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]
 	dev-python/pytest-runner[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/hypothesis[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/flask[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/dash[${PYTHON_USEDEP}] )

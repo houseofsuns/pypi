@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/resilient[${PYTHON_USEDEP}]
 	~dev-python/genson-1.2[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

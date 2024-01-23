@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/customtkinter[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

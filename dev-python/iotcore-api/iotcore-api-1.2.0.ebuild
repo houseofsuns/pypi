@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IoT core connection methods and utilities in Python [topver 1.2.1]"
+DESCRIPTION="IoT core connection methods and utilities in Python [topver 1.2.1, newver 1.2.1]"
 
 HOMEPAGE=""
 LICENSE=""

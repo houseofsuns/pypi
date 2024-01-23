@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple Django Url Shortener. [topver 0.5]"
+DESCRIPTION="A simple Django Url Shortener. [topver 0.5, newver 0.5]"
 
 HOMEPAGE="https://github.com/ronaldgrn/django-link-shortener"
 LICENSE="MIT"

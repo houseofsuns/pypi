@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
 	<dev-python/passlib-2.0[${PYTHON_USEDEP}]
 	dev-python/flask-buzz[${PYTHON_USEDEP}]
-	dev-python/flask-mail[${PYTHON_USEDEP}]
+	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

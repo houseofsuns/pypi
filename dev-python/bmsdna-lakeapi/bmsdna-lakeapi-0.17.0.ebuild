@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	auth? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
-	dev-python/pypika[${PYTHON_USEDEP}]
+	dev-python/PyPika[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	useradd? ( <dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}] )
 	polars? ( dev-python/xlsx2csv[${PYTHON_USEDEP}] )

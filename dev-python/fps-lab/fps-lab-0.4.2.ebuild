@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/json5[${PYTHON_USEDEP}]
 	dev-python/jupyverse-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides dynamic versioning of python packages by providing additional options to the standard distutils commands. [topver 1.1.0]"
+DESCRIPTION="Provides dynamic versioning of python packages by providing additional options to the standard distutils commands. [topver 1.1.0, newver 1.1.0]"
 
 HOMEPAGE="https://github.com/timepieces141/dynamic-versioning"
 LICENSE="MIT"

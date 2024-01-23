@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/IMDbPy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/IMDbPY[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/requests-ntlm[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

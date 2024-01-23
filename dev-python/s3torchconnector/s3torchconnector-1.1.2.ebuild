@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/torchdata[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	e2e? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	e2e? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"

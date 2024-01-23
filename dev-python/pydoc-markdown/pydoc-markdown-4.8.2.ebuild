@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/databind-core[${PYTHON_USEDEP}]
 	dev-python/databind-json[${PYTHON_USEDEP}]
 	dev-python/docspec[${PYTHON_USEDEP}]
 	dev-python/docspec-python[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/nr-util[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
-	dev-python/tomli_w[${PYTHON_USEDEP}]
+	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	>=dev-python/yapf-0.30.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

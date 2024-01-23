@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pixelmatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-notebook[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest_notebook[${PYTHON_USEDEP}] )
 	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	examples? ( dev-python/flask[${PYTHON_USEDEP}] )

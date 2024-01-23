@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.0[${PYTHON_USEDEP}]
 	dev-python/sweetrpg-db[${PYTHON_USEDEP}]
 	dev-python/sweetrpg-model-core[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]

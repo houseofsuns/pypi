@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	~dev-python/paramiko-2.8.1[${PYTHON_USEDEP}]
-	dev-python/InquirerPy[${PYTHON_USEDEP}]
+	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/networkscan[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
@@ -39,6 +39,6 @@ DEPENDENCIES="~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/coveralls[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
-	dev-python/ProjectAlice[${PYTHON_USEDEP}]"
+	dev-python/projectalice[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

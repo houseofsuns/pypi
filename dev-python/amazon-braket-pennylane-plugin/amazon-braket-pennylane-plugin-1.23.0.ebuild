@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]
-	dev-python/pennylane[${PYTHON_USEDEP}]
+	dev-python/PennyLane[${PYTHON_USEDEP}]
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

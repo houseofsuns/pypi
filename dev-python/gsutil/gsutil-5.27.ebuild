@@ -32,8 +32,8 @@ DEPENDENCIES=">=dev-python/argcomplete-1.9.4[${PYTHON_USEDEP}]
 	~dev-python/httplib2-0.20.4[${PYTHON_USEDEP}]
 	dev-python/google-reauth[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/retry_decorator[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-0.13[${PYTHON_USEDEP}]
+	>=dev-python/retry-decorator-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-2.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

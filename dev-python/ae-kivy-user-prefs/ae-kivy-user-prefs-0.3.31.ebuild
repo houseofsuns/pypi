@@ -27,7 +27,7 @@ IUSE="dev tests"
 DEPENDENCIES="dev-python/ae-files[${PYTHON_USEDEP}]
 	dev-python/ae-i18n[${PYTHON_USEDEP}]
 	dev-python/ae-core[${PYTHON_USEDEP}]
-	dev-python/kivy[${PYTHON_USEDEP}]
+	dev-python/Kivy[${PYTHON_USEDEP}]
 	dev-python/ae-gui-app[${PYTHON_USEDEP}]
 	dev-python/ae-kivy[${PYTHON_USEDEP}]
 	dev-python/ae-kivy-iterable-displayer[${PYTHON_USEDEP}]

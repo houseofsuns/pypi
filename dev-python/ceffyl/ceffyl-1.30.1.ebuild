@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Software to rapidly and flexibly analyse Pulsar Timing Array data via factorised likelihood methods (Lamb et al. 2023) [topver 1.30.3]"
+DESCRIPTION="Software to rapidly and flexibly analyse Pulsar Timing Array data via factorised likelihood methods (Lamb et al. 2023) [topver 1.30.3, newver 1.30.3]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gp"
 DEPENDENCIES="dev-python/encor[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/enterprise_extensions[${PYTHON_USEDEP}]
-	dev-python/enterprise_pulsar[${PYTHON_USEDEP}]
+	<dev-python/cython-1.0.0[${PYTHON_USEDEP}]
+	dev-python/enterprise-extensions[${PYTHON_USEDEP}]
+	dev-python/enterprise-pulsar[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/kalepy[${PYTHON_USEDEP}]
 	dev-python/KDEpy[${PYTHON_USEDEP}]
-	dev-python/la_forge[${PYTHON_USEDEP}]
+	dev-python/la-forge[${PYTHON_USEDEP}]
 	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PTMCMCSampler[${PYTHON_USEDEP}]
+	dev-python/ptmcmcsampler[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	gp? ( dev-python/holodeck-gw[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -29,10 +29,10 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.34.0[${PYTHON_USEDEP}]
 	>dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pint-xarray[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -51,12 +51,12 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	complete? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	complete? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	complete? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	complete? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	complete? ( dev-python/simplejson[${PYTHON_USEDEP}] )
 	complete? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
@@ -73,12 +73,12 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/simplejson[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )

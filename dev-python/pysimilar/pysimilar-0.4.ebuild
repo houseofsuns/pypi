@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A very light python libary for comparing similarity between text/strings [topver 0.5]"
+DESCRIPTION="A very light python libary for comparing similarity between text/strings [topver 0.5, newver 0.5]"
 
 HOMEPAGE="https://github.com/Kalebu/pysimilar"
 LICENSE="MIT"

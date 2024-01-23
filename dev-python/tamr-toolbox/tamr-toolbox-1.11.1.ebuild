@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="address-validation all gcs pandas s3 slack ssh testing translation"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
 	dev-python/tamr-unify-client[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]

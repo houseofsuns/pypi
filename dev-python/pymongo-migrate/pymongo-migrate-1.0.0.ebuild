@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pymongo-3.7.2[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]"
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pydub[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
 	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
@@ -44,8 +44,8 @@ DEPENDENCIES="dev-python/pydub[${PYTHON_USEDEP}]
 	all? ( dev-python/elevenlabs[${PYTHON_USEDEP}] )
 	synthesizers? ( dev-python/google-cloud-texttospeech[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-texttospeech[${PYTHON_USEDEP}] )
-	synthesizers? ( dev-python/gtts[${PYTHON_USEDEP}] )
-	all? ( dev-python/gtts[${PYTHON_USEDEP}] )
+	synthesizers? ( dev-python/gTTS[${PYTHON_USEDEP}] )
+	all? ( dev-python/gTTS[${PYTHON_USEDEP}] )
 	transcribers? ( dev-python/google-cloud-speech[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-speech[${PYTHON_USEDEP}] )
 	telephony? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/pydub[${PYTHON_USEDEP}]
 	all? ( dev-python/vonage[${PYTHON_USEDEP}] )
 	actions? ( dev-python/nylas[${PYTHON_USEDEP}] )
 	all? ( dev-python/nylas[${PYTHON_USEDEP}] )
-	dev-python/speechrecognition[${PYTHON_USEDEP}]
+	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	agents? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )

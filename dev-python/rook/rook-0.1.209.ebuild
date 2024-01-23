@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/six-1.13[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	ssl_backport? ( dev-python/backports-ssl[${PYTHON_USEDEP}] )
-	ssl_backport? ( dev-python/backports-ssl-match-hostname[${PYTHON_USEDEP}] )
-	ssl_backport? ( dev-python/PyOpenSSL[${PYTHON_USEDEP}] )"
+	ssl_backport? ( dev-python/backports-ssl_match_hostname[${PYTHON_USEDEP}] )
+	ssl_backport? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

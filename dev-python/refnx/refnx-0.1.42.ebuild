@@ -27,7 +27,7 @@ IUSE="all test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/orsopy[${PYTHON_USEDEP}]
-	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	all? ( dev-python/traitlets[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
 	all? ( dev-python/periodictable[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
-	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	all? ( dev-python/corner[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymc[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytensor[${PYTHON_USEDEP}] )

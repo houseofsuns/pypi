@@ -28,11 +28,11 @@ DEPENDENCIES=">=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.5.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.12.2[${PYTHON_USEDEP}]
 	dev-python/idutils[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/responses-0.10.6[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/responses-0.10.6[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )"

@@ -47,7 +47,7 @@ DEPENDENCIES="<dev-python/anyio-3.3.0[${PYTHON_USEDEP}]
 	web? ( <dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/httptools[${PYTHON_USEDEP}] )
 	web? ( <dev-python/python-multipart-0.1.0[${PYTHON_USEDEP}] )
-	web? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+	web? ( <dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}] )
 	database? ( <dev-python/pydantic-1.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

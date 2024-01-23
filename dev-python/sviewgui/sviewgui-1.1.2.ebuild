@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pathlib2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pathlib2-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/PyQt5-5.7.0[${PYTHON_USEDEP}]
 	dev-python/cmocean[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]

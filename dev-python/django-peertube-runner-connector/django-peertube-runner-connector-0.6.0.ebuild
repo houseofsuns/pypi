@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pycodestyle-2.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyopenssl-20.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.7.0[${PYTHON_USEDEP}] )

@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/pytest-notebook[${PYTHON_USEDEP}] )"
+	ipython? ( dev-python/pytest_notebook[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

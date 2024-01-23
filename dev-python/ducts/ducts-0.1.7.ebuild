@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/iflb[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-5.0[${PYTHON_USEDEP}]
 	<dev-python/python-daemon-3.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
-	dev-python/wave[${PYTHON_USEDEP}]"
+	dev-python/Wave[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

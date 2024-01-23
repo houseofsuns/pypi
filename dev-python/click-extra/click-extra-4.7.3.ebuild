@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pallets-Sphinx-Themes[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pallets-sphinx-themes-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/boltons-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]

@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/graph-scheduler[${PYTHON_USEDEP}]
 	neuroml? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )
 	neuroml? ( dev-python/neuromllite[${PYTHON_USEDEP}] )
 	neuroml? ( dev-python/PyNN[${PYTHON_USEDEP}] )
-	optional? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	optional? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	optional? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs"
 DEPENDENCIES="~dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/amulet-nbt[${PYTHON_USEDEP}]
-	dev-python/pymctranslate[${PYTHON_USEDEP}]
+	dev-python/PyMCTranslate[${PYTHON_USEDEP}]
 	~dev-python/portalocker-2.4[${PYTHON_USEDEP}]
 	dev-python/amulet-leveldb[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-3.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

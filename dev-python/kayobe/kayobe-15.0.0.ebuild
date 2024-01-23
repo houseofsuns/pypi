@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.10.0[${PYTHON_USEDEP}]
 	dev-python/ansible-cached-lookup[${PYTHON_USEDEP}]
 	dev-python/ansible-core[${PYTHON_USEDEP}]
 	dev-python/ansible[${PYTHON_USEDEP}]

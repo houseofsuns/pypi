@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/strict-rfc3339-0.7[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYaml[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mock-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-readme[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )"

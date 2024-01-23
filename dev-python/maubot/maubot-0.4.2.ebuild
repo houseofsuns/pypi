@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all encryption"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/aiosqlite-0.19[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
 	<dev-python/commonmark-1.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/mautrix[${PYTHON_USEDEP}]
 	>=dev-python/packaging-10.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]

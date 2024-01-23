@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beaker[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Beaker[${PYTHON_USEDEP}]
 	dev-python/bottle[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The official command line interface for Ansible AWX [topver 23.6.0]"
+DESCRIPTION="The official command line interface for Ansible AWX [topver 23.6.0, newver 23.6.0]"
 
 HOMEPAGE="https://github.com/ansible/awx"
 LICENSE="Apache-2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto formatting websockets"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	formatting? ( dev-python/jq[${PYTHON_USEDEP}] )

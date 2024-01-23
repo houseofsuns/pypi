@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/gin-config[${PYTHON_USEDEP}]
 	>=dev-python/google-api-python-client-1.6.7[${PYTHON_USEDEP}]
 	dev-python/immutabledict[${PYTHON_USEDEP}]

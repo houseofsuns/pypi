@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="extra"
 DEPENDENCIES=">=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
-	extra? ( dev-python/Django[${PYTHON_USEDEP}] )
-	extra? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/django-4.2.7[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
 	extra? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	extra? ( dev-python/django-types[${PYTHON_USEDEP}] )
 	extra? ( dev-python/fastapi[${PYTHON_USEDEP}] )

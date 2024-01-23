@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Original, standard and customisable versions of the Jaro-Winkler functions. [topver 2.0.3]"
+DESCRIPTION="Original, standard and customisable versions of the Jaro-Winkler functions. [topver 2.0.3, newver 2.0.3]"
 
 HOMEPAGE="https://github.com/richmilne/JaroWinkler.git"
 LICENSE="GNU General Public License v3 GPLv3"

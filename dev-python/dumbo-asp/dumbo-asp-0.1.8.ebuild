@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dateutils[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	<dev-python/cairocffi-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/dumbo-utils[${PYTHON_USEDEP}]
 	dev-python/clingo[${PYTHON_USEDEP}]
 	<dev-python/distlib-0.4.0[${PYTHON_USEDEP}]

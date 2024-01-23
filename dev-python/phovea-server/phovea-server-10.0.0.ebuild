@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-1.1.4[${PYTHON_USEDEP}]
 	dev-python/flask-restplus[${PYTHON_USEDEP}]
 	dev-python/Flask-Sockets[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	dev-python/json-cfg[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]"

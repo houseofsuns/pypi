@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/XBlock[${PYTHON_USEDEP}]
 	dev-python/lazy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.0.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
-	dev-python/scons[${PYTHON_USEDEP}]"
+	dev-python/SCons[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

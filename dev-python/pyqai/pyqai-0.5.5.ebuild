@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pipreqs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

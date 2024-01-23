@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/grpc_requests[${PYTHON_USEDEP}]
+	dev-python/grpc-requests[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/vcrpy-5.0.0[${PYTHON_USEDEP}]

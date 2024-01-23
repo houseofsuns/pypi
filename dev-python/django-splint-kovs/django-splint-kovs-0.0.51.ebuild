@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/boto3-1.13[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-2.2.0[${PYTHON_USEDEP}]
 	dev-python/aws-lambda-powertools[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

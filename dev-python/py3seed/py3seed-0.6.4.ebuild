@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.8[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]"
+	>=dev-python/flask-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

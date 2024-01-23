@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/six-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

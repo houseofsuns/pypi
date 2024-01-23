@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all image-support local-support"
-DEPENDENCIES="all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	image-support? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
+	image-support? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/jupyter-kernel-gateway[${PYTHON_USEDEP}] )
 	local-support? ( dev-python/jupyter-kernel-gateway[${PYTHON_USEDEP}] )

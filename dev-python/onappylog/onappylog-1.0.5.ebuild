@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="onap python logging library [topver 1.0.9]"
+DESCRIPTION="onap python logging library [topver 1.0.9, newver 1.0.9]"
 
 HOMEPAGE=""
 LICENSE="MIT Licence"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,8 +35,8 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	feature-store? ( dev-python/feast[${PYTHON_USEDEP}] )
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dash? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	dash? ( ~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-cytoscape[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]

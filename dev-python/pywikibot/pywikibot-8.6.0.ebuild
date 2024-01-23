@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/mwparserfromhell[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	google? ( dev-python/google[${PYTHON_USEDEP}] )
 	graphviz? ( >=dev-python/pydot-1.4.1[${PYTHON_USEDEP}] )
-	tkinter? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	tkinter? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	tkinter? ( >=dev-python/pillow-8.1.2[${PYTHON_USEDEP}] )
+	tkinter? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	create_isbn_edition-py? ( dev-python/isbnlib[${PYTHON_USEDEP}] )
 	create_isbn_edition-py? ( dev-python/unidecode[${PYTHON_USEDEP}] )
 	eventstreams? ( dev-python/sseclient[${PYTHON_USEDEP}] )
@@ -52,13 +52,13 @@ DEPENDENCIES="dev-python/mwparserfromhell[${PYTHON_USEDEP}]
 	html? ( >=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
 	http? ( dev-python/fake-useragent[${PYTHON_USEDEP}] )
 	isbn? ( >=dev-python/python-stdnum-1.18[${PYTHON_USEDEP}] )
-	memento? ( dev-python/memento-client[${PYTHON_USEDEP}] )
+	memento? ( dev-python/memento_client[${PYTHON_USEDEP}] )
 	mwoauth? ( dev-python/mwoauth[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
 	scripts? ( dev-python/isbnlib[${PYTHON_USEDEP}] )
 	scripts? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	scripts? ( dev-python/memento-client[${PYTHON_USEDEP}] )
-	weblinkchecker-py? ( dev-python/memento-client[${PYTHON_USEDEP}] )
+	scripts? ( dev-python/memento_client[${PYTHON_USEDEP}] )
+	weblinkchecker-py? ( dev-python/memento_client[${PYTHON_USEDEP}] )
 	wikitextparser? ( dev-python/wikitextparser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

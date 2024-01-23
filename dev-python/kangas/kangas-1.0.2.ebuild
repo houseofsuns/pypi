@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for exploring columnar data, including multimedia [topver 2.4.6]"
+DESCRIPTION="Tool for exploring columnar data, including multimedia [topver 2.4.6, newver 2.4.6]"
 
 HOMEPAGE="https://github.com/comet-ml/datagrid"
 LICENSE="MIT"
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/nodejs-bin[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

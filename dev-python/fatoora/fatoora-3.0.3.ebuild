@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.1.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/qrcode-7.3.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]

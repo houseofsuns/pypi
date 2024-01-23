@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="keep lambdas warm and monitor cold starts with a simple decorator [topver 0.6.0]"
+DESCRIPTION="keep lambdas warm and monitor cold starts with a simple decorator [topver 0.6.0, newver 0.6.0]"
 
 HOMEPAGE="https://github.com/robhowley/lambda-warmer-py"
 LICENSE=""

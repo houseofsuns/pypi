@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/telethon[${PYTHON_USEDEP}]
+	dev-python/Telethon[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]

@@ -28,17 +28,17 @@ DEPENDENCIES="dev-python/docstring-inheritance[${PYTHON_USEDEP}]
 	<=dev-python/fastjsonschema-2.19.0[${PYTHON_USEDEP}]
 	~dev-python/genson-1.2.2[${PYTHON_USEDEP}]
 	<=dev-python/h5py-3.10.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	<=dev-python/networkx-3.2.1[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	<=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
-	dev-python/pyxdsm[${PYTHON_USEDEP}]
+	dev-python/pyXDSM[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.6[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	<=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
-	dev-python/strenum[${PYTHON_USEDEP}]
+	dev-python/StrEnum[${PYTHON_USEDEP}]
 	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/xdsmjs[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/docstring-inheritance[${PYTHON_USEDEP}]
 	all? ( dev-python/nlopt[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/openturns[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydoe2[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyDOE2[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/sympy-1.12[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )

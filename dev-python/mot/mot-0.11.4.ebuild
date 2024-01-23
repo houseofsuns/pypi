@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopencl-2015.2[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tatsu[${PYTHON_USEDEP}]"
+	dev-python/TatSu[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

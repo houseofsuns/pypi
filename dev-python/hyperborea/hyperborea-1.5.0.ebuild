@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/asphodel[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

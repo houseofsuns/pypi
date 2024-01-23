@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pysdl2[${PYTHON_USEDEP}]
+	dev-python/PySDL2[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]
 	all? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	all? ( dev-python/markdown[${PYTHON_USEDEP}] )

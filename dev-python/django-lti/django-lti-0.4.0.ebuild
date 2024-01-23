@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
-	dev-python/pylti1p3[${PYTHON_USEDEP}]"
+	dev-python/PyLTI1p3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

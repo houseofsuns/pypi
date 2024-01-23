@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/kombu-5.1.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/django-celery-results[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

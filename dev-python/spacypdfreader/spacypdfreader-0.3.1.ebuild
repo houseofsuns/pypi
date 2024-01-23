@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	pytesseract? ( <dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}] )
 	pytesseract? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	pytesseract? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	pytesseract? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

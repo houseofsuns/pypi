@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	~dev-python/flask-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	~dev-python/pyxdg-0.27[${PYTHON_USEDEP}]
 	dev-python/coqpit[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.1[${PYTHON_USEDEP}]
 	dev-python/webrtcvad[${PYTHON_USEDEP}]
 	dev-python/stt[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]

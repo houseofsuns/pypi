@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/easy-thumbnails[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]
 	dev-python/html2text[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

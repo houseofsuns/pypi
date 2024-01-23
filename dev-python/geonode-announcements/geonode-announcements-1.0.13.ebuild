@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fork of pinax/django-announcements. Announcements for your Django powered website. [topver 2.0.2]"
+DESCRIPTION="Fork of pinax/django-announcements. Announcements for your Django powered website. [topver 2.0.2, newver 2.0.2]"
 
 HOMEPAGE="https://github.com/GeoNode/django-announcements"
 LICENSE="MIT"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/backports-tempfile[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/cython[${PYTHON_USEDEP}]

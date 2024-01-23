@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	~dev-python/autopep8-1.5.4[${PYTHON_USEDEP}]
 	dev-python/curlify[${PYTHON_USEDEP}]
 	dev-python/cvapianalyser[${PYTHON_USEDEP}]
 	dev-python/dictor[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/nested-lookup[${PYTHON_USEDEP}]
 	dev-python/openapispecdiff[${PYTHON_USEDEP}]
 	dev-python/pytest-cases[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	~dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.46.1[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/validators-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

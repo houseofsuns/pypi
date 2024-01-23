@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/aiosqlite[${PYTHON_USEDEP}]
 	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/pytest-lsp[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/types-pygments[${PYTHON_USEDEP}] )"
+	typecheck? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

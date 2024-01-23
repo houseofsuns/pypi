@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/lxml-3.3.5[${PYTHON_USEDEP}]
-	dev-python/pyxb[${PYTHON_USEDEP}]
+	dev-python/PyXB[${PYTHON_USEDEP}]
 	~dev-python/requests-2.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

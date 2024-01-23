@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sphinx-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/black-24.0[${PYTHON_USEDEP}]
 	dev-python/constcheck[${PYTHON_USEDEP}]
 	<dev-python/coverage-8.0[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
 	dev-python/docsig[${PYTHON_USEDEP}]
 	<dev-python/environs-11.0[${PYTHON_USEDEP}]
 	dev-python/flynt[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/mypy-1.9[${PYTHON_USEDEP}]
 	dev-python/pyaud[${PYTHON_USEDEP}]

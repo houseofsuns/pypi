@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/allure-python-commons[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.10.3[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )

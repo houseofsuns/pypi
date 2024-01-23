@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Driver and generator for ZPL2 lables. [topver 0.1.11]"
+DESCRIPTION="Driver and generator for ZPL2 lables. [topver 0.1.11, newver 0.1.11]"
 
 HOMEPAGE="https://github.com/cod3monk/zpl"
 LICENSE="AGPL-3"

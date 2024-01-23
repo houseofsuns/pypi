@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/Faker-15.2.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	dev-python/rootpath[${PYTHON_USEDEP}]
 	>=dev-python/environs-9.5.0[${PYTHON_USEDEP}]"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/blend_modes[${PYTHON_USEDEP}]
+	dev-python/blend-modes[${PYTHON_USEDEP}]
 	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
 	dev-python/etatime[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

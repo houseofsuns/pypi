@@ -27,7 +27,7 @@ IUSE="mysql postgres pyodbc"
 DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-3.6.0[${PYTHON_USEDEP}]
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	pyodbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

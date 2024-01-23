@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ta.py is a Python package for dealing with financial technical analysis [topver 1.6.0]"
+DESCRIPTION="ta.py is a Python package for dealing with financial technical analysis [topver 1.6.0, newver 1.6.0]"
 
 HOMEPAGE="https://github.com/Bitvested/ta.py"
 LICENSE=""

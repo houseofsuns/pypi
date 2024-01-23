@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/pyxtal[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.9.0[${PYTHON_USEDEP}]
 	openbabel? ( dev-python/openbabel[${PYTHON_USEDEP}] )"

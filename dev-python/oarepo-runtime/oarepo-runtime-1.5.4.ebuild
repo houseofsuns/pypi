@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/invenio-records[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/flask-babelex[${PYTHON_USEDEP}]
+	dev-python/Flask-BabelEx[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

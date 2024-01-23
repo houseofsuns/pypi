@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/ansible-runner[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	develop? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	develop? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	develop? ( dev-python/black[${PYTHON_USEDEP}] )
 	develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )

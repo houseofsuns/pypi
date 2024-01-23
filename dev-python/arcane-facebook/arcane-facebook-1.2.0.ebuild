@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
-	dev-python/facebook_business[${PYTHON_USEDEP}]
+	dev-python/facebook-business[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]
 	dev-python/arcane-pubsub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

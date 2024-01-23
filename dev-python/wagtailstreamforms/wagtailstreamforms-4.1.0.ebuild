@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
-	dev-python/Unidecode[${PYTHON_USEDEP}]
+	<dev-python/unidecode-2.0[${PYTHON_USEDEP}]
 	dev-python/wagtail-generic-chooser[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinxcontrib-spelling-2.3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/karma-sphinx-theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/karma_sphinx_theme[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-4.0.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-django-4.7.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/adafruit-blinka[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-pca9685[${PYTHON_USEDEP}]
 	dev-python/pigpio[${PYTHON_USEDEP}]
 	dev-python/python-singleton[${PYTHON_USEDEP}]"

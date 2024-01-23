@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test yaml"
-DEPENDENCIES="all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
@@ -35,12 +35,12 @@ DEPENDENCIES="all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-1.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocstrings-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/mktestdocs[${PYTHON_USEDEP}] )
 	test? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

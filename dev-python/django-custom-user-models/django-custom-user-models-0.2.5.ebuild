@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/jdatetime[${PYTHON_USEDEP}]
 	dev-python/phonenumbers[${PYTHON_USEDEP}]
 	dev-python/kavenegar[${PYTHON_USEDEP}]
 	dev-python/django-cryptography[${PYTHON_USEDEP}]
-	dev-python/pyJWT[${PYTHON_USEDEP}]"
+	dev-python/pyjwt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

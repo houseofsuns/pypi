@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Upload files to bisque/ViQi in parallel [topver 0.8.13.4]"
+DESCRIPTION="Upload files to bisque/ViQi in parallel [topver 0.8.13.4, newver 0.8.13.4]"
 
 HOMEPAGE="https://www.viqi.org"
 LICENSE="BSD"

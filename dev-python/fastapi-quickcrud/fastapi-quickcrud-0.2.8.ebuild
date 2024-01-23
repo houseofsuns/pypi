@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.30[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	~dev-python/starlette-0.14.2[${PYTHON_USEDEP}]
 	~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]

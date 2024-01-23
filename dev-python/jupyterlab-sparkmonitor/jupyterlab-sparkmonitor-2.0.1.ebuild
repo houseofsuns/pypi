@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Spark Monitor Extension for Jupyter Lab [topver 4.1.0]"
+DESCRIPTION="Spark Monitor Extension for Jupyter Lab [topver 4.1.0, newver 4.1.0]"
 
 HOMEPAGE="https://github.com/itsjafer/jupyterlab-sparkmonitor"
 LICENSE=""

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/difpy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/difPy[${PYTHON_USEDEP}]
 	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
-	dev-python/pymupdf[${PYTHON_USEDEP}]
+	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/xonsh[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

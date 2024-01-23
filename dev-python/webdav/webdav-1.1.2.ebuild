@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WebDAV client library [topver 1.1.7]"
+DESCRIPTION="WebDAV client library [topver 1.1.7, newver 1.1.7]"
 
 HOMEPAGE="https://github.com/kamikaze/webdav"
 LICENSE="GPL-3"

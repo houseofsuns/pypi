@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pclick[${PYTHON_USEDEP}]
-	dev-python/agxBrick[${PYTHON_USEDEP}]"
+	dev-python/agxbrick[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

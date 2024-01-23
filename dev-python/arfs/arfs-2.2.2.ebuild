@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/lightgbm[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython-genutils[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxawesome-theme[${PYTHON_USEDEP}] )

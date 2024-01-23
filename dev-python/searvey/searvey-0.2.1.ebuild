@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.3.11]"
+DESCRIPTION=" [topver 0.3.11, newver 0.3.11]"
 
 HOMEPAGE="https://github.com/oceanmodeling/searvey.git"
 LICENSE="GPL-3+"
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/erddapy[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/typepigeon[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
+	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/limits[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]

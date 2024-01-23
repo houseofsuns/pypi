@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for the Sarus Gateway"
+DESCRIPTION="Python client for the Sarus Gateway [newver 0.9.3rc1]"
 
 HOMEPAGE="https://sarus.tech"
 LICENSE="Apache-2.0"

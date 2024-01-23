@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/charset-normalizer[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dbutils[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/DBUtils-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	dev? ( dev-python/redis[${PYTHON_USEDEP}] )

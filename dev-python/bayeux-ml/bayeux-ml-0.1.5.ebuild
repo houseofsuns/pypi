@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/pymdown-extensions-9.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-0.17.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytkdocs_tweaks[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pytkdocs-tweaks[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbformat-5.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pygments-2.14.0[${PYTHON_USEDEP}] )"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="django"
 DEPENDENCIES=">=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2021.5[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )
 	django? ( >=dev-python/djangorestframework-3.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-tuple[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-2.2.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-autodoc-typehints-1.9.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

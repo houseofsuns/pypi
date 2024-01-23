@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/dominate-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-7.0.0[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/griffe-0.25.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

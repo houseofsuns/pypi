@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	>=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

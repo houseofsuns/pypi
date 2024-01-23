@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/tldextract-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/texttable-1.6.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/unidecode-1.3.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
@@ -107,7 +107,7 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/tldextract-3.1.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/texttable-1.6.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/unidecode-1.3.4[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

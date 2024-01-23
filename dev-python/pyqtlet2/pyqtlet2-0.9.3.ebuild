@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/QtPy-2.0.1[${PYTHON_USEDEP}]
 	pyqt5? ( >=dev-python/PyQtWebEngine-5.15.5[${PYTHON_USEDEP}] )
 	pyqt6? ( >=dev-python/PyQt6-6.2.0[${PYTHON_USEDEP}] )
 	pyqt6? ( >=dev-python/PyQt6-WebEngine-6.2.0[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/PySide6[${PYTHON_USEDEP}] )"
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

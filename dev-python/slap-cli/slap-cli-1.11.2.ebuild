@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/build-0.11.0[${PYTHON_USEDEP}]
 	>=dev-python/cleo-1.0.0[${PYTHON_USEDEP}]
 	dev-python/databind[${PYTHON_USEDEP}]
 	<dev-python/flit-4.0.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/nr-python-environment[${PYTHON_USEDEP}]
 	dev-python/nr-util[${PYTHON_USEDEP}]
 	<dev-python/poetry-core-1.8[${PYTHON_USEDEP}]

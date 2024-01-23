@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	lock? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
-	lock? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	lock? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/jsonschema-specifications-2023.12.1[${PYTHON_USEDEP}] )
 	lock? ( ~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}] )

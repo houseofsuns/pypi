@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for Mentalab biosignal aquisition devices [topver 2.0.0]"
+DESCRIPTION="Python API for Mentalab biosignal aquisition devices [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/Mentalab-hub/explorepy"
 LICENSE="MIT"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pyedflib[${PYTHON_USEDEP}]
+	dev-python/pyEDFlib[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-1.19.1[${PYTHON_USEDEP}]

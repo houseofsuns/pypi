@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/cassandra-driver[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.4.7[${PYTHON_USEDEP}]
 	dev-python/ffwd[${PYTHON_USEDEP}]
 	>=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]
 	<=dev-python/cryptography-35.0[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.9.9[${PYTHON_USEDEP}]
 	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]

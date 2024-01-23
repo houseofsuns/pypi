@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-4.0[${PYTHON_USEDEP}]
 	dev-python/craftr-dsl[${PYTHON_USEDEP}]
 	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	dev-python/nr-util[${PYTHON_USEDEP}]

@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/pyvss[${PYTHON_USEDEP}]
 	~dev-python/click-threading-0.5.0[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpath-ng-2.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.13.0[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/pyvss[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/minio[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-confluencebuilder[${PYTHON_USEDEP}] )

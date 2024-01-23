@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/meson[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/furo-2021.8.31[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

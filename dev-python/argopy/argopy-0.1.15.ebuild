@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/xarray-0.18[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.8.2[${PYTHON_USEDEP}]
 	dev-python/erddapy[${PYTHON_USEDEP}]
 	<=dev-python/fsspec-2023.10.0[${PYTHON_USEDEP}]

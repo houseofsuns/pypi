@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/boto3-1.23.0[${PYTHON_USEDEP}]
 	~dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

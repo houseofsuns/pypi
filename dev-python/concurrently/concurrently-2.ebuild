@@ -32,7 +32,7 @@ DEPENDENCIES="develop? ( ~dev-python/wheel-0.41[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/mypy-1.5[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/tox-4.11[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/coverage-7.3[${PYTHON_USEDEP}] )
-	develop? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

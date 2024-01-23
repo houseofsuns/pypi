@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-6.2.1[${PYTHON_USEDEP}]
 	<=dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.5.0[${PYTHON_USEDEP}]"

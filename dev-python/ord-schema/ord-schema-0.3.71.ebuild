@@ -27,20 +27,20 @@ IUSE="docs examples tests"
 DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
+	>=dev-python/PyGithub-1.51[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-1.10.0[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-tabs-3.4.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/glob2[${PYTHON_USEDEP}] )

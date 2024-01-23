@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Small library to work with Collection+JSON documents. [topver 0.1.1]"
+DESCRIPTION="Small library to work with Collection+JSON documents. [topver 0.1.1, newver 0.1.1]"
 
 HOMEPAGE="http://pypi.python.org/pypi/collection-json"
 LICENSE="BSD"

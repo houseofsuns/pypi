@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]

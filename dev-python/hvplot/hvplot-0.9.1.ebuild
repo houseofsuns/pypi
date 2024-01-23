@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
 	dev-python/param[${PYTHON_USEDEP}]
-	all? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	all? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/dask-2021.3.0[${PYTHON_USEDEP}] )
@@ -94,7 +94,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/dask-2021.3.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/notebook-5.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	doc? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	doc? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	doc? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/scipy-1.5.3[${PYTHON_USEDEP}] )
@@ -127,7 +127,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	examples? ( >=dev-python/dask-2021.3.0[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/notebook-5.4[${PYTHON_USEDEP}] )
 	examples? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	examples? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	examples? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	examples? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/scipy-1.5.3[${PYTHON_USEDEP}] )
@@ -159,7 +159,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	examples_tests? ( >=dev-python/dask-2021.3.0[${PYTHON_USEDEP}] )
 	examples_tests? ( >=dev-python/notebook-5.4[${PYTHON_USEDEP}] )
 	examples_tests? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	examples_tests? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	examples_tests? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	examples_tests? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	examples_tests? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	examples_tests? ( >=dev-python/scipy-1.5.3[${PYTHON_USEDEP}] )

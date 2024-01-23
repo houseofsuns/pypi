@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/PySDL2[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]
 	dev-python/ppb-vector[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]"
+	~dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

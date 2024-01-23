@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="atari brax envpool mujoco"
 DEPENDENCIES="atari? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	atari? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	brax? ( dev-python/brax[${PYTHON_USEDEP}] )
 	envpool? ( dev-python/envpool[${PYTHON_USEDEP}] )

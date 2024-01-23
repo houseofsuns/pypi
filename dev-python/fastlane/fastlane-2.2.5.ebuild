@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
-	dev-python/Flask-Redis-Sentinel[${PYTHON_USEDEP}]
+	dev-python/flask-redis-sentinel[${PYTHON_USEDEP}]
 	dev-python/Redis-Sentinel-Url[${PYTHON_USEDEP}]
 	<dev-python/click-7.0[${PYTHON_USEDEP}]
 	<dev-python/croniter-0.4.0[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
 	<dev-python/flask-cors-4.0[${PYTHON_USEDEP}]
 	dev-python/flask-mongoengine[${PYTHON_USEDEP}]
 	dev-python/flask-redis[${PYTHON_USEDEP}]
-	dev-python/flask-sockets[${PYTHON_USEDEP}]
+	dev-python/Flask-Sockets[${PYTHON_USEDEP}]
 	dev-python/gevent-websocke[${PYTHON_USEDEP}]
 	dev-python/pybreaker[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]

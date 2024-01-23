@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/InquirerPy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/terminaltables[${PYTHON_USEDEP}]"

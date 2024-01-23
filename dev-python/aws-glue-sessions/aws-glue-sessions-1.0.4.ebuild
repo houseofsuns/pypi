@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/hdijupyterutils[${PYTHON_USEDEP}]
 	>=dev-python/tornado-4.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.21.31[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.24.24[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.11.3[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	<dev-python/django-2.3.0[${PYTHON_USEDEP}]
 	dev-python/django-tools[${PYTHON_USEDEP}]
 	dev-python/iterfilesystem[${PYTHON_USEDEP}]
-	dev-python/pathlib_revised[${PYTHON_USEDEP}]
+	dev-python/pathlib-revised[${PYTHON_USEDEP}]
 	dev-python/python-creole[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

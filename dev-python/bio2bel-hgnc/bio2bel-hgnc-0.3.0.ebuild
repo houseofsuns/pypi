@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/pybel[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pyhgnc[${PYTHON_USEDEP}]
 	docs? ( dev-python/flask[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flask-admin[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Flask-Admin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	web? ( dev-python/flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask-admin[${PYTHON_USEDEP}] )"
+	web? ( dev-python/Flask-Admin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

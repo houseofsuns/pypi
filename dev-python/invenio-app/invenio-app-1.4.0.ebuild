@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/flask-limiter[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Flask-Limiter[${PYTHON_USEDEP}]
 	dev-python/flask-shell-ipython[${PYTHON_USEDEP}]
 	dev-python/flask-talisman[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.26.118[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	dev-python/camel-converter[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]"
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

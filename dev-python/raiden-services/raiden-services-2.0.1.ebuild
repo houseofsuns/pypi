@@ -51,9 +51,9 @@ DEPENDENCIES="dev? ( >=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}] )
 	~dev-python/prometheus-client-0.14.1[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	dev-python/jaeger-client[${PYTHON_USEDEP}]
-	dev-python/dbapi-opentracing[${PYTHON_USEDEP}]
-	dev-python/Flask-Opentracing[${PYTHON_USEDEP}]
-	dev-python/requests-opentracing[${PYTHON_USEDEP}]
+	dev-python/DBAPI-OpenTracing[${PYTHON_USEDEP}]
+	dev-python/Flask-OpenTracing[${PYTHON_USEDEP}]
+	dev-python/Requests-OpenTracing[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

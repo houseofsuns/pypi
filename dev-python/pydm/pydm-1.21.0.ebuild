@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/entrypoints[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
 	dev-python/pyepics[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.12.0[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.12.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	pyside? ( dev-python/PySide[${PYTHON_USEDEP}] )

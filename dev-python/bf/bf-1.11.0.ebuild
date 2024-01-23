@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bl[${PYTHON_USEDEP}]
-	dev-python/unum[${PYTHON_USEDEP}]
+	dev-python/Unum[${PYTHON_USEDEP}]
 	dev-python/cssselect[${PYTHON_USEDEP}]
 	dev-python/cssutils[${PYTHON_USEDEP}]
 	dev-python/libsass[${PYTHON_USEDEP}]"

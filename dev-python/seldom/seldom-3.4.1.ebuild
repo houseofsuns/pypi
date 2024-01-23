@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Seldom automation testing framework based on unittest. [topver 3.5.0]"
+DESCRIPTION="Seldom automation testing framework based on unittest. [topver 3.5.0, newver 3.5.0]"
 
 HOMEPAGE="https://github.com/seldomQA/seldom/"
 LICENSE="Apache-2.0"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
-	dev-python/XTestRunner[${PYTHON_USEDEP}]
+	dev-python/xtestrunner[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]

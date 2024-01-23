@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/pexpect[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	security? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	security? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	security? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
 	security? ( dev-python/pyasn1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

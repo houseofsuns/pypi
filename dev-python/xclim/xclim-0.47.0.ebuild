@@ -28,14 +28,14 @@ DEPENDENCIES=">=dev-python/boltons-20.1[${PYTHON_USEDEP}]
 	>=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	dev-python/cf-xarray[${PYTHON_USEDEP}]
 	>=dev-python/cftime-1.4.1[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1[${PYTHON_USEDEP}]
 	>=dev-python/dask-2.6[${PYTHON_USEDEP}]
 	dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/lmoments3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/boltons-20.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbqa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	dev? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/netcdf4-1.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/platformdirs-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pybtex[${PYTHON_USEDEP}] )

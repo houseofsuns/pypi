@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-material[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )

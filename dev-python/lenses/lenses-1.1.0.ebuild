@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lens library for python [topver 1.2.0]"
+DESCRIPTION="A lens library for python [topver 1.2.0, newver 1.2.0]"
 
 HOMEPAGE="https://github.com/ingolemo/python-lenses"
 LICENSE="GPL-3+"

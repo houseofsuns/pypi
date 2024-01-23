@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lightweight morton coder with lat/long support. [topver 1.0.5]"
+DESCRIPTION="A lightweight morton coder with lat/long support. [topver 1.0.5, newver 1.0.5]"
 
 HOMEPAGE="https://github.com/trevorprater/pymorton"
 LICENSE="MIT"

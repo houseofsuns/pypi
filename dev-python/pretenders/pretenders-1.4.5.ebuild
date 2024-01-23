@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ui"
 DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	ui? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
+	ui? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

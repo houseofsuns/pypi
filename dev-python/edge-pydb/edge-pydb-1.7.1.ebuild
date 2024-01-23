@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/uncertainties[${PYTHON_USEDEP}]
-	do_califa? ( dev-python/pyFIT3D[${PYTHON_USEDEP}] )
+	do_califa? ( dev-python/pyfit3d[${PYTHON_USEDEP}] )
 	do_califa? ( dev-python/reproject[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

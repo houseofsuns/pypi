@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jax_cpu"
-DEPENDENCIES="dev-python/PyWavelets[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pywavelets[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

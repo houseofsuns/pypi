@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dbt-bigquery gcs redash s3"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	s3? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	redash? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	redash? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	redash? ( >=dev-python/sqlalchemy-1.4.31[${PYTHON_USEDEP}] )
 	dbt-bigquery? ( dev-python/dbt-core[${PYTHON_USEDEP}] )
 	dbt-bigquery? ( dev-python/dbt-bigquery[${PYTHON_USEDEP}] )
 	dbt-bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )

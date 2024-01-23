@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/symgroupy[${PYTHON_USEDEP}]
 	dev-python/wfnsympy[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/huckelpy[${PYTHON_USEDEP}]
 	dev-python/pointgroup[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -57,6 +57,6 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	tests? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torch[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	units? ( dev-python/pint[${PYTHON_USEDEP}] )"
+	units? ( dev-python/Pint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

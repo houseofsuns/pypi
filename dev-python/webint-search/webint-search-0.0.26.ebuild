@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/webint[${PYTHON_USEDEP}]
 	dev-python/eng-to-ipa[${PYTHON_USEDEP}]
 	dev-python/pronouncing[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/restrictedpython[${PYTHON_USEDEP}]
+	dev-python/RestrictedPython[${PYTHON_USEDEP}]
 	dev-python/webint-owner[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]"
+	dev-python/Pint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

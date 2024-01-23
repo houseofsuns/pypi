@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10[${PYTHON_USEDEP}]
-	dev-python/psychrolib[${PYTHON_USEDEP}]
+	dev-python/PsychroLib[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

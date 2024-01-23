@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Software development kit for US EPA's Benchmark dose modeling software (BMDS) [topver 23.4]"
+DESCRIPTION="Software development kit for US EPA's Benchmark dose modeling software (BMDS) [topver 23.4, newver 23.4]"
 
 HOMEPAGE="https://github.com/shapiromatron/bmds"
 LICENSE="MIT"

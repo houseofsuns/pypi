@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-4.0[${PYTHON_USEDEP}]
 	dev-python/matrix-nio[${PYTHON_USEDEP}]
 	ui? ( <dev-python/dbus-python-1.3[${PYTHON_USEDEP}] )
-	ui? ( dev-python/PyGObject[${PYTHON_USEDEP}] )
+	ui? ( <dev-python/pygobject-3.39[${PYTHON_USEDEP}] )
 	ui? ( <dev-python/pydbus-0.7[${PYTHON_USEDEP}] )
 	ui? ( <dev-python/notify2-0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

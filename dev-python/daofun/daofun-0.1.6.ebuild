@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/aplpy[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	~dev-python/ipython-7.34.0[${PYTHON_USEDEP}]
 	dev-python/PySimpleGUI[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

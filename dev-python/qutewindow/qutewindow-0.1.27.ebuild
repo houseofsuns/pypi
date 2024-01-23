@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

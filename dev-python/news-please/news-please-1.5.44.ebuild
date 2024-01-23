@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-0.7.9[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/hjson[${PYTHON_USEDEP}]
 	>=dev-python/elasticsearch-2.4[${PYTHON_USEDEP}]

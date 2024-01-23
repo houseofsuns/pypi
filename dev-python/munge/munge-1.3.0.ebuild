@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="toml tomlkit yaml"
-DEPENDENCIES="yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+DEPENDENCIES="yaml? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	>=dev-python/click-5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.6[${PYTHON_USEDEP}]
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )

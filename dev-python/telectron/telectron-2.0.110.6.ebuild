@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
-	dev-python/pysocks[${PYTHON_USEDEP}]"
+	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

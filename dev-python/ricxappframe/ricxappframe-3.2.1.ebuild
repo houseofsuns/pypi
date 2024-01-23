@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Xapp and RMR framework for Python [topver 3.2.2]"
+DESCRIPTION="Xapp and RMR framework for Python [topver 3.2.2, newver 3.2.2]"
 
 HOMEPAGE="https://gerrit.o-ran-sc.org/r/admin/repos/ric-plt/xapp-frame-py"
 LICENSE="Apache-2.0"

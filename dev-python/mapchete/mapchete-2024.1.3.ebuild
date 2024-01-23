@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	complete? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pystac[${PYTHON_USEDEP}] )
 	complete? ( dev-python/requests[${PYTHON_USEDEP}] )
-	complete? ( dev-python/rtree[${PYTHON_USEDEP}] )
+	complete? ( dev-python/Rtree[${PYTHON_USEDEP}] )
 	complete? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tilebench[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/werkzeug-0.15[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	serve? ( dev-python/flask-rangerequest[${PYTHON_USEDEP}] )
 	serve? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
 	serve? ( >=dev-python/werkzeug-0.15[${PYTHON_USEDEP}] )
-	spatial-index? ( dev-python/rtree[${PYTHON_USEDEP}] )
+	spatial-index? ( dev-python/Rtree[${PYTHON_USEDEP}] )
 	stac? ( dev-python/pystac-client[${PYTHON_USEDEP}] )
 	stac? ( dev-python/pystac[${PYTHON_USEDEP}] )
 	vrt? ( dev-python/lxml[${PYTHON_USEDEP}] )"

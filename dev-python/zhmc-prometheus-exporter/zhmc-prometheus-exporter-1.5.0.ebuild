@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/zhmcclient[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.18[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pyrsistent-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

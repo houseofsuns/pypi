@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python 3.5+ library for integration testing and data validation through configurable and optional runtime type hint enforcement. [topver 0.3.4]"
+DESCRIPTION="Python 3.5+ library for integration testing and data validation through configurable and optional runtime type hint enforcement. [topver 0.3.4, newver 0.3.4]"
 
 HOMEPAGE="https://github.com/RussBaz/enforce"
 LICENSE="MIT"

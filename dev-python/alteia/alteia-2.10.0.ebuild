@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]
 	documentation? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/sphinx_autodoc_typehints[${PYTHON_USEDEP}] )
+	documentation? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	documentation? ( <dev-python/recommonmark-0.8.0[${PYTHON_USEDEP}] )
 	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]"

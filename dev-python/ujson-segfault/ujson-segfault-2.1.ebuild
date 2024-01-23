@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ultra fast JSON encoder and decoder for Python. Continuing development. [topver 2.1.57]"
+DESCRIPTION="Ultra fast JSON encoder and decoder for Python. Continuing development. [topver 2.1.57, newver 2.1.57]"
 
 HOMEPAGE="https://github.com/segfault/ultrajson"
 LICENSE="BSD"

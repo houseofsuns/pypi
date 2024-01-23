@@ -27,7 +27,7 @@ IUSE="vis"
 DEPENDENCIES="<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/grai-client[${PYTHON_USEDEP}]
-	dev-python/grai-schemas[${PYTHON_USEDEP}]
+	dev-python/grai_schemas[${PYTHON_USEDEP}]
 	vis? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	vis? ( <dev-python/pydot-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

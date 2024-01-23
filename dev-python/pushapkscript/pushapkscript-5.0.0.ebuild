@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	dev-python/mozapkpublisher[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/scriptworker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

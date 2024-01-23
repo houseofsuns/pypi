@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/ad-ci-tools[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/adcm-version[${PYTHON_USEDEP}]
 	setup? ( dev-python/ad-ci-tools[${PYTHON_USEDEP}] )
 	setup? ( dev-python/pytz[${PYTHON_USEDEP}] )

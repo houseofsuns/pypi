@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TCIP error definitions. [topver 1.0.52]"
+DESCRIPTION="TCIP error definitions. [topver 1.0.52, newver 1.0.52]"
 
 HOMEPAGE=""
 LICENSE="MIT"

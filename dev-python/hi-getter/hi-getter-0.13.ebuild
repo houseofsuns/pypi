@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
-DEPENDENCIES="dev-python/PySide6_Essentials[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	all? ( dev-python/py7zr[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )

@@ -27,8 +27,8 @@ IUSE="test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/ZEO[${PYTHON_USEDEP}]
 	dev-python/ZODB[${PYTHON_USEDEP}]
-	dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/beaker[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
+	dev-python/Beaker[${PYTHON_USEDEP}]
 	dev-python/chameleon[${PYTHON_USEDEP}]
 	dev-python/colander[${PYTHON_USEDEP}]
 	dev-python/cornice-swagger[${PYTHON_USEDEP}]
@@ -40,8 +40,8 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/persistent[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/pyramid-rpc[${PYTHON_USEDEP}]
-	dev-python/pyramid-zodbconn[${PYTHON_USEDEP}]
+	dev-python/pyramid_rpc[${PYTHON_USEDEP}]
+	dev-python/pyramid_zodbconn[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
 	dev-python/venusian[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/zope-location[${PYTHON_USEDEP}]
 	dev-python/zope-schema[${PYTHON_USEDEP}]
 	dev-python/zope-traversing[${PYTHON_USEDEP}]
-	test? ( dev-python/pyramid-chameleon[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyramid_chameleon[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyramid-zcml[${PYTHON_USEDEP}] )
 	test? ( dev-python/zope-site[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

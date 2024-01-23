@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Image[${PYTHON_USEDEP}]
+	dev-python/image[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/imagesize[${PYTHON_USEDEP}]
 	dev-python/urlparser[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/mecord-cli[${PYTHON_USEDEP}]
 	dev-python/p-template-res[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

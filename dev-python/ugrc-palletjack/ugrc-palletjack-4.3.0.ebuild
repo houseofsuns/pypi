@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/arcgis[${PYTHON_USEDEP}]
 	dev-python/pygsheets[${PYTHON_USEDEP}]
 	dev-python/pyogrio[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pdoc3-0.10[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-quotes[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pylint-3.1[${PYTHON_USEDEP}] )

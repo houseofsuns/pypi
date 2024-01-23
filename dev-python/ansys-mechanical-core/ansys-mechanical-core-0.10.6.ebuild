@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc tests"
-DEPENDENCIES="dev-python/ansys_api_mechanical[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ansys-api-mechanical[${PYTHON_USEDEP}]
 	dev-python/ansys-mechanical-env[${PYTHON_USEDEP}]
 	dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}]
 	dev-python/ansys-pythonnet[${PYTHON_USEDEP}]
@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/ansys_api_mechanical[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imageio-ffmpeg-0.4.9[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imageio-2.33.1[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/jupyterlab-3.2.8[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpy-1.26.3[${PYTHON_USEDEP}] )

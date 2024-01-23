@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/neo[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
 	extras? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
-	extras? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	extras? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	opencl? ( >=dev-python/pyopencl-2020.2.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nixio[${PYTHON_USEDEP}] )

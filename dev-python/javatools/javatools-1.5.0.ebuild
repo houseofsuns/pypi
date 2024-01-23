@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for finding meaningful deltas in Java class files and JARs [topver 1.6.0]"
+DESCRIPTION="Tools for finding meaningful deltas in Java class files and JARs [topver 1.6.0, newver 1.6.0]"
 
 HOMEPAGE="https://github.com/obriencj/python-javatools"
 LICENSE="GNU Lesser General Public License v.3"
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cheetah3[${PYTHON_USEDEP}]
-	dev-python/M2Crypto[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cheetah3[${PYTHON_USEDEP}]
+	>=dev-python/m2crypto-0.26.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

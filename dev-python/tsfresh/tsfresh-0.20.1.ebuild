@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/stumpy[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/b2luigi[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.28.1[${PYTHON_USEDEP}]

@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
 	extras? ( dev-python/yamlloader[${PYTHON_USEDEP}] )
 	pypi? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	pypi? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	pypi? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	pypi? ( dev-python/twine[${PYTHON_USEDEP}] )
 	pypi? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

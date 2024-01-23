@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for terminology management with TermBase eXchange (TBX) [topver 0.1.13]"
+DESCRIPTION="Package for terminology management with TermBase eXchange (TBX) [topver 0.1.13, newver 0.1.13]"
 
 HOMEPAGE="https://github.com/DeNederlandscheBank/termate"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]
 	dev-python/iribaker[${PYTHON_USEDEP}]

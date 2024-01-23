@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Produces RPMs for FLP packages out of aliBuild ouput [topver 2.7.0]"
+DESCRIPTION="Produces RPMs for FLP packages out of aliBuild ouput [topver 2.7.0, newver 2.7.0]"
 
 HOMEPAGE="https://gitlab.cern.ch/AliceO2Group/flp-to-rpm"
 LICENSE="GPL-3"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/s3cmd[${PYTHON_USEDEP}]
 	dev-python/alibuild[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pillow-8.2.0[${PYTHON_USEDEP}]
 	~dev-python/fasteners-0.16.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]

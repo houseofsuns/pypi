@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/django-4.1[${PYTHON_USEDEP}]
-	dev-python/jnt_django_toolbox[${PYTHON_USEDEP}]
-	dev-python/graphene_django[${PYTHON_USEDEP}]
+	dev-python/jnt-django-toolbox[${PYTHON_USEDEP}]
+	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/graphene-file-upload[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]"

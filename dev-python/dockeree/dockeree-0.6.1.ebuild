@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/docker-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/pygit2-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/pytest-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

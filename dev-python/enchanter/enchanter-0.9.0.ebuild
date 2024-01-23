@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	netron? ( dev-python/netron[${PYTHON_USEDEP}] )
-	comet? ( dev-python/comet_ml[${PYTHON_USEDEP}] )"
+	comet? ( dev-python/comet-ml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

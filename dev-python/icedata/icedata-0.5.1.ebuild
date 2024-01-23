@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/icevision[${PYTHON_USEDEP}]
 	dev? ( <dev-python/mkdocs-material-6.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pymdown-extensions-9.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

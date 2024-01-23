@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs flask generators proxy test web workers"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
@@ -38,11 +38,11 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-3.0.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/boto3-1.11[${PYTHON_USEDEP}] )
 	docs? ( dev-python/celery[${PYTHON_USEDEP}] )
-	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	flask? ( >dev-python/flask-2.0[${PYTHON_USEDEP}] )
+	flask? ( >dev-python/markupsafe-2.0[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask-smorest[${PYTHON_USEDEP}] )
 	generators? ( >=dev-python/boto3-1.11[${PYTHON_USEDEP}] )
-	proxy? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
+	proxy? ( <dev-python/pyjwt-3.0[${PYTHON_USEDEP}] )
 	proxy? ( <dev-python/cryptography-4.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )

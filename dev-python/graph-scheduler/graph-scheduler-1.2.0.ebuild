@@ -27,7 +27,7 @@ IUSE="dev docs"
 DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydot[${PYTHON_USEDEP}] )

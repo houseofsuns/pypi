@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graphene"
-DEPENDENCIES="dev-python/bareASGI[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/bareasgi[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	graphene? ( dev-python/graphene[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

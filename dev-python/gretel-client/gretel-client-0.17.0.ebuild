@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/backports-cached-property[${PYTHON_USEDEP}]
 	azure? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-kms[${PYTHON_USEDEP}] )
-	test? ( dev-python/faker[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/Faker-20.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.14.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )

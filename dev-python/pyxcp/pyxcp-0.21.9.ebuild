@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc"
-DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/mako-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
 	<dev-python/construct-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]

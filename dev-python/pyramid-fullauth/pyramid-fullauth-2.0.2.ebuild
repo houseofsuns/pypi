@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid-basemodel[${PYTHON_USEDEP}]
 	dev-python/pyramid-mako[${PYTHON_USEDEP}]
 	dev-python/pyramid-localize[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/velruse[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

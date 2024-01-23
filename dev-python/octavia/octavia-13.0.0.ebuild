@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="redis test zookeeper"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.10[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.19[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.14.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.9.6[${PYTHON_USEDEP}]
 	dev-python/castellan[${PYTHON_USEDEP}]
 	dev-python/cotyledon[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pecan-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.1[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-19.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-0.1.8[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-modules-0.0.6[${PYTHON_USEDEP}]
 	dev-python/python-barbicanclient[${PYTHON_USEDEP}]
@@ -75,7 +75,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-5.0.4[${PYTHON_USEDEP}]
 	>=dev-python/pyroute2-0.5.14[${PYTHON_USEDEP}]
 	redis? ( >=dev-python/redis-2.10.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-2.0.26[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bashate-0.5.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )

@@ -31,8 +31,8 @@ DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.5[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lazy-loader[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/lazy_loader-0.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/mne[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	doc? ( dev-python/neo[${PYTHON_USEDEP}] )
 	doc? ( >dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mne-bids[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyxdf[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	doc? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	full? ( dev-python/mne[${PYTHON_USEDEP}] )
-	full? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	full? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	full? ( >dev-python/PyQt6-6.6.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyQt6-Qt6[${PYTHON_USEDEP}] )
 	full? ( dev-python/sip[${PYTHON_USEDEP}] )

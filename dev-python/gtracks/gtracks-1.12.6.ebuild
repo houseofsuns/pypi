@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deeptools[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/deepTools[${PYTHON_USEDEP}]
 	dev-python/pyGenomeTracks[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/pybedtools[${PYTHON_USEDEP}]

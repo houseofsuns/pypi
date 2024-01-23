@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cov dev doc i18n test"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
 	cov? ( <dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	doc? ( <dev-python/mkdocs-static-i18n-0.57.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocstrings-0.25.0[${PYTHON_USEDEP}] )
-	i18n? ( dev-python/babel[${PYTHON_USEDEP}] )
+	i18n? ( >=dev-python/Babel-2.13.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	test? ( <dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/arrow-1.4.0[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-7.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/sqlalchemy-file[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
+	test? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	test? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
 	test? ( dev-python/tinydb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

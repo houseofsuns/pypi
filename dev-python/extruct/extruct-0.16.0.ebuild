@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
 DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyrdfa3[${PYTHON_USEDEP}]
+	dev-python/pyRdfa3[${PYTHON_USEDEP}]
 	dev-python/mf2py[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]
 	dev-python/html-text[${PYTHON_USEDEP}]

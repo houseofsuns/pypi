@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ffmpy[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
-	dev-python/janome[${PYTHON_USEDEP}]
+	dev-python/Janome[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]

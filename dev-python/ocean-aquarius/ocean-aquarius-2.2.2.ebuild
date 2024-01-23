@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.9[${PYTHON_USEDEP}]
 	dev-python/flask-swagger[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev-python/oceandb-driver-interface[${PYTHON_USEDEP}]
 	dev-python/oceandb-mongodb-driver[${PYTHON_USEDEP}]
 	dev-python/oceandb-elasticsearch-driver[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2020.4[${PYTHON_USEDEP}]
 	dev-python/plecos[${PYTHON_USEDEP}]
 	dev-python/ocean-lib[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/watchdog-0.10.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plecos[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/plecos[${PYTHON_USEDEP}] )
-	test? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )

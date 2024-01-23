@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark dev legacy socks"
-DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyside6-6.5.0[${PYTHON_USEDEP}]
 	dev-python/gpg-lite[${PYTHON_USEDEP}]
 	dev-python/libbiomedit[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.12.0[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	legacy? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	legacy? ( >=dev-python/pyside2-5.15.2.1[${PYTHON_USEDEP}] )
 	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

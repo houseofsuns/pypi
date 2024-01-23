@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Backend for the napari_nucleaizer plugin [topver 0.2.6]"
+DESCRIPTION="Backend for the napari_nucleaizer plugin [topver 0.2.6, newver 0.2.6]"
 
 HOMEPAGE="https://github.com/etasnadi/nucleaizer_backend"
 LICENSE="MIT"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/tensorflow-gpu[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.9.0[${PYTHON_USEDEP}]

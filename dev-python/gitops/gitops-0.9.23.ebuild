@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
 	server? ( <dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}] )
 	server? ( <dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}] )
 	server? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/kubernetes_asyncio[${PYTHON_USEDEP}] )"
+	server? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

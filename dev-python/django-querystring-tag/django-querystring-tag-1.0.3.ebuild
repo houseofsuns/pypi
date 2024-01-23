@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.1[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )

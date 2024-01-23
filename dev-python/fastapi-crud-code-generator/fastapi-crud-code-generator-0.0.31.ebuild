@@ -31,7 +31,7 @@ DEPENDENCIES="<=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	<=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-1.4.42[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	<=dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

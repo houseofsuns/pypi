@@ -33,9 +33,9 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncua-fork-for-eta-utility[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/pymodbustcp[${PYTHON_USEDEP}]
+	dev-python/pyModbusTCP[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
-	dev-python/fmpy[${PYTHON_USEDEP}]
+	dev-python/FMPy[${PYTHON_USEDEP}]
 	develop? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	eta-x? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	develop? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -44,8 +44,8 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	eta-x? ( dev-python/stable-baselines3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	eta-x? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyomo[${PYTHON_USEDEP}] )
-	eta-x? ( dev-python/pyomo[${PYTHON_USEDEP}] )
+	develop? ( dev-python/Pyomo[${PYTHON_USEDEP}] )
+	eta-x? ( dev-python/Pyomo[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
 	examples? ( <dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/keyboard[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	develop? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/black-23.8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/blacken_docs[${PYTHON_USEDEP}] )
+	develop? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/isort-5.13[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/pyupgrade-3.11[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/mypy-1.6[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	develop? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/pyflakes-3.2[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/pycodestyle-2.12.0[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	develop? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-eradicate[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )

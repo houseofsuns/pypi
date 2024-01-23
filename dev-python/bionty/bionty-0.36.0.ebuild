@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/pronto[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/laminci[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbproject-test[${PYTHON_USEDEP}] )
+	dev? ( dev-python/nbproject_test[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bioregistry[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )

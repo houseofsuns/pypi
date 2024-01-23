@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/stem[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]"
+	dev-python/Brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

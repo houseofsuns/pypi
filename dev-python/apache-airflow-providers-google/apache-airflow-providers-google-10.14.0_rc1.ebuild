@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="amazon apache-beam apache-cassandra cncf-kubernetes common-sql facebook leveldb microsoft-azure microsoft-mssql mysql openlineage oracle postgres presto salesforce sftp ssh trino"
-DEPENDENCIES="dev-python/PyOpenSSL[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	>=dev-python/asgiref-3.5.2[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/semantic-version-2.8.5[${PYTHON_USEDEP}]
 	>=dev-python/confuse-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]"

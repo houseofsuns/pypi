@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.9[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-1.0[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

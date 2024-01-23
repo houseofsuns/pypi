@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/hmsclient[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.5[${PYTHON_USEDEP}]
-	dev-python/pyhive[${PYTHON_USEDEP}]
+	dev-python/PyHive[${PYTHON_USEDEP}]
 	>=dev-python/thrift-0.9.2[${PYTHON_USEDEP}]
 	amazon? ( dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}] )
 	common-sql? ( dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}] )

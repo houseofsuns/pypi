@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
-	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.2.0[${PYTHON_USEDEP}]
+	<dev-python/GitPython-3.2.0[${PYTHON_USEDEP}]
 	dev-python/semgrep[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.6.0[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/ast_comments[${PYTHON_USEDEP}]"
+	dev-python/ast-comments[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

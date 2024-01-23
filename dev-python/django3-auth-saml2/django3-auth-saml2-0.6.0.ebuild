@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django3 auth SAML2 integration [topver 0.6.1]"
+DESCRIPTION="Django3 auth SAML2 integration [topver 0.6.1, newver 0.6.1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

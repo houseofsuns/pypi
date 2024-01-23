@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Streamline release for Conductor client tools and others [topver 3.0.0]"
+DESCRIPTION="Streamline release for Conductor client tools and others [topver 3.0.0, newver 3.0.0]"
 
 HOMEPAGE="https://github.com/ConductorTechnologies/skulk"
 LICENSE=""

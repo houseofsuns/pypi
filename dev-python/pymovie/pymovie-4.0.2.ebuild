@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pymovie is a lightcurve extractor for astronomical videos [topver 4.0.5]"
+DESCRIPTION="pymovie is a lightcurve extractor for astronomical videos [topver 4.0.5, newver 4.0.5]"
 
 HOMEPAGE="https://github.com/bob-anderson-ok/pymovie"
 LICENSE="License :: OSI Approved :: MIT License"
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}]
 	dev-python/ravf[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
-	dev-python/resource[${PYTHON_USEDEP}]
+	dev-python/Resource[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/Adv2[${PYTHON_USEDEP}]
+	dev-python/adv2[${PYTHON_USEDEP}]
 	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

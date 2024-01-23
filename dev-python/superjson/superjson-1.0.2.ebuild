@@ -31,7 +31,7 @@ DEPENDENCIES="docs? ( ~dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pygments-2.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"

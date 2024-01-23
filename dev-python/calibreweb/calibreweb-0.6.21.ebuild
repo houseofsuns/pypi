@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="comics gdrive gmail goodreads kobo ldap metadata oauth"
-DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/APScheduler-3.11.0[${PYTHON_USEDEP}]
 	<dev-python/Babel-3.0[${PYTHON_USEDEP}]
-	dev-python/Flask-Babel[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
+	<dev-python/flask-babel-3.2.0[${PYTHON_USEDEP}]
+	<dev-python/flask-login-0.6.3[${PYTHON_USEDEP}]
 	dev-python/Flask-Principal[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	<dev-python/flask-2.4.0[${PYTHON_USEDEP}]
 	dev-python/iso_639[${PYTHON_USEDEP}]
-	dev-python/PyPDF[${PYTHON_USEDEP}]
+	<dev-python/pypdf-3.16.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2016.10[${PYTHON_USEDEP}]
 	<dev-python/requests-2.32.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tornado-6.4[${PYTHON_USEDEP}]
-	dev-python/Wand[${PYTHON_USEDEP}]
+	<dev-python/wand-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/unidecode-1.4.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	<dev-python/chardet-4.1.0[${PYTHON_USEDEP}]
 	dev-python/advocate[${PYTHON_USEDEP}]
 	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
@@ -55,11 +55,11 @@ DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
 	gdrive? ( <dev-python/pyasn1-modules-0.4.0[${PYTHON_USEDEP}] )
 	gdrive? ( <dev-python/pyasn1-0.6.0[${PYTHON_USEDEP}] )
 	gdrive? ( dev-python/PyDrive2[${PYTHON_USEDEP}] )
-	gdrive? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	gdrive? ( <dev-python/pyyaml-6.1[${PYTHON_USEDEP}] )
 	gdrive? ( <dev-python/rsa-4.10.0[${PYTHON_USEDEP}] )
 	gmail? ( <dev-python/google-auth-oauthlib-1.1.0[${PYTHON_USEDEP}] )
 	gmail? ( <dev-python/google-api-python-client-2.98.0[${PYTHON_USEDEP}] )
-	goodreads? ( dev-python/goodreads[${PYTHON_USEDEP}] )
+	goodreads? ( dev-python/Goodreads[${PYTHON_USEDEP}] )
 	goodreads? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
 	kobo? ( <dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}] )
 	ldap? ( <dev-python/python-ldap-3.5.0[${PYTHON_USEDEP}] )

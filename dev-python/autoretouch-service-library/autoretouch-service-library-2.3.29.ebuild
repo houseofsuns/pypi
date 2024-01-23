@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/fakeredis-1.6.1[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-stackdriver[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/requests_mock[${PYTHON_USEDEP}]
+	<dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.41.0[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	all? ( dev-python/fusepy[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
 	mount? ( dev-python/fusepy[${PYTHON_USEDEP}] )
-	report? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	report? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	report? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	shell? ( dev-python/ipython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

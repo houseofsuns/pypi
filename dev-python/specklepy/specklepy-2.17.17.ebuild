@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]"

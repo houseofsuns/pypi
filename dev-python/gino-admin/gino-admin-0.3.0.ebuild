@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Sanic-Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/sanic-jinja2[${PYTHON_USEDEP}]
 	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/gino[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/sanic-jwt[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/dsnparse[${PYTHON_USEDEP}]
 	dev-python/expiring-dict[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy_utils[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

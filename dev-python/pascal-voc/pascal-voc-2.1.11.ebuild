@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-8.1.0[${PYTHON_USEDEP}]
 	dev-python/transliterate[${PYTHON_USEDEP}]
 	dev-python/xmlobj[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]"

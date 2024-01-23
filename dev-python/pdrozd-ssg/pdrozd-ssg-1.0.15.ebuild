@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Poetry[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/poetry-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/black-23.0.0[${PYTHON_USEDEP}]
 	<dev-python/flake8-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

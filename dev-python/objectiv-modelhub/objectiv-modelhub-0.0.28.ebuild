@@ -41,6 +41,6 @@ DEPENDENCIES="<=dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/filelock-3.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyathena[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/PyAthena[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

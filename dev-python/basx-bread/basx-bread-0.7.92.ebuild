@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all document_templates pdf testing"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/htmlgenerator[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]
@@ -38,21 +38,21 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/djangoql[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-celery-results[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/celery-haystack-ng[${PYTHON_USEDEP}]
 	dev-python/whoosh[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	all? ( dev-python/docxtpl[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	all? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-dynamic-fixture[${PYTHON_USEDEP}] )
 	all? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
 	document_templates? ( dev-python/docxtpl[${PYTHON_USEDEP}] )
 	document_templates? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	pdf? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	testing? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	testing? ( dev-python/django-dynamic-fixture[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.8[${PYTHON_USEDEP}]
 	dev-python/django-bulk-update[${PYTHON_USEDEP}]
 	>=dev-python/Faker-0.8.13[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]

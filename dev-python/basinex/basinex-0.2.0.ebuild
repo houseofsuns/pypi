@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 DEPENDENCIES=">=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/gdal[${PYTHON_USEDEP}]
+	dev-python/GDAL[${PYTHON_USEDEP}]
 	<dev-python/netcdf4-1.6[${PYTHON_USEDEP}]
 	doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )

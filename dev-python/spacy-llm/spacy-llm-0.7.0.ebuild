@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="langchain transformers"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/confection[${PYTHON_USEDEP}]
 	langchain? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/torch[${PYTHON_USEDEP}] )

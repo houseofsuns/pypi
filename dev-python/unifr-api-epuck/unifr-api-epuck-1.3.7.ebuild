@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask-Cors[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/simple-websocket[${PYTHON_USEDEP}]
 	dev-python/smbus2[${PYTHON_USEDEP}]"

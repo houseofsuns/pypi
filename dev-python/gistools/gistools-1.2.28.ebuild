@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/pycrs[${PYTHON_USEDEP}]
+	dev-python/PyCRS[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/overpass[${PYTHON_USEDEP}]
 	dev-python/osm2geojson[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]"
+	dev-python/Rtree[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

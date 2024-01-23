@@ -34,14 +34,14 @@ DEPENDENCIES=">=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	dev-python/ansible[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/shade[${PYTHON_USEDEP}]
-	dev-python/naked[${PYTHON_USEDEP}]
-	dev-python/Cerberus[${PYTHON_USEDEP}]
+	dev-python/Naked[${PYTHON_USEDEP}]
+	>=dev-python/cerberus-1.2[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	<dev-python/urllib3-1.26[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-0.1.9[${PYTHON_USEDEP}]
 	<dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]
@@ -99,7 +99,7 @@ DEPENDENCIES=">=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	krbv? ( dev-python/python-krbV[${PYTHON_USEDEP}] )
+	krbv? ( dev-python/python-krbv[${PYTHON_USEDEP}] )
 	libvirt? ( >=dev-python/libvirt-python-3.0.0[${PYTHON_USEDEP}] )
 	libvirt? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	openshift? ( dev-python/openshift[${PYTHON_USEDEP}] )
@@ -113,6 +113,6 @@ DEPENDENCIES=">=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/molecule[${PYTHON_USEDEP}] )
 	tests? ( dev-python/molecule[${PYTHON_USEDEP}] )
 	tests? ( dev-python/radon[${PYTHON_USEDEP}] )
-	vmware? ( dev-python/PyVmomi[${PYTHON_USEDEP}] )"
+	vmware? ( dev-python/pyvmomi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

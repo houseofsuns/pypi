@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	>=dev-python/pypng-0.0.20[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.9.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pymongo-3.12.3[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/docker-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyopenssl-20.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/numpy-1.15.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	orchestrate? ( >=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}] )
 	orchestrate? ( <dev-python/docker-5.0.0[${PYTHON_USEDEP}] )
 	orchestrate? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	orchestrate? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	orchestrate? ( >=dev-python/pyopenssl-20.0.0[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	xgboost? ( >=dev-python/numpy-1.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

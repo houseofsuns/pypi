@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenVoiceOS's multilingual text parsing and formatting library [topver 0.4.8]"
+DESCRIPTION="OpenVoiceOS's multilingual text parsing and formatting library [topver 0.4.8, newver 0.4.8a7]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/lingua_plus"
 LICENSE="Apache-2.0"

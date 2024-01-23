@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Awesome GAN toolkits based on PaddlePaddle [topver 2.1.0]"
+DESCRIPTION="Awesome GAN toolkits based on PaddlePaddle [topver 2.1.0, newver 2.1.0]"
 
 HOMEPAGE="https://github.com/PaddlePaddle/PaddleGAN"
 LICENSE="Apache-2.0"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

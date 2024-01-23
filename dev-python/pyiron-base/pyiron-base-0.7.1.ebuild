@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<=dev-python/GitPython-3.1.41[${PYTHON_USEDEP}]
 	dev-python/h5io-browser[${PYTHON_USEDEP}]
 	<=dev-python/h5py-3.10.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	<=dev-python/psutil-5.9.8[${PYTHON_USEDEP}]
 	dev-python/pyfileindex[${PYTHON_USEDEP}]
 	dev-python/pysqa[${PYTHON_USEDEP}]

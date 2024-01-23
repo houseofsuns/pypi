@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev docker docker_ssh hub opensearch web_extra"
 DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]
 	<dev-python/elasticsearch-8.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.6.1[${PYTHON_USEDEP}]
 	~dev-python/tornado-6.2.0[${PYTHON_USEDEP}]
 	cli? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
@@ -43,8 +43,8 @@ DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/multiprocessing-on-dill[${PYTHON_USEDEP}] )
+	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/multiprocessing_on_dill[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prettytable[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sockjs-tornado[${PYTHON_USEDEP}] )
@@ -73,8 +73,8 @@ DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	hub? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
 	hub? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	hub? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
-	hub? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	hub? ( dev-python/multiprocessing-on-dill[${PYTHON_USEDEP}] )
+	hub? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	hub? ( dev-python/multiprocessing_on_dill[${PYTHON_USEDEP}] )
 	hub? ( dev-python/dill[${PYTHON_USEDEP}] )
 	hub? ( dev-python/prettytable[${PYTHON_USEDEP}] )
 	hub? ( dev-python/sockjs-tornado[${PYTHON_USEDEP}] )

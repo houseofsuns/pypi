@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="toml"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	toml? ( dev-python/tomli-w[${PYTHON_USEDEP}] )"

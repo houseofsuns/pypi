@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/lightning-cloud[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.7.4[${PYTHON_USEDEP}]
 	dev-python/dateutils[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
@@ -83,7 +83,7 @@ DEPENDENCIES="dev-python/lightning-cloud[${PYTHON_USEDEP}]
 	dev? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/trio-0.22.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )
@@ -106,7 +106,7 @@ DEPENDENCIES="dev-python/lightning-cloud[${PYTHON_USEDEP}]
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/trio-0.22.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	test? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	test? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )

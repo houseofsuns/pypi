@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Pandas[${PYTHON_USEDEP}]
-	dev-python/Skyfield[${PYTHON_USEDEP}]
-	dev-python/Numpy[${PYTHON_USEDEP}]"
+DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+	dev-python/skyfield[${PYTHON_USEDEP}]
+	dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dataprocessor docs gnmi napalm netbox netconf netmiko prodmaxmaster prodmaxminion prodminmaster prodminminion pyats restconf scrapli"
 DEPENDENCIES="dev-python/nornir[${PYTHON_USEDEP}]
 	<=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
-	dev-python/nornir_salt[${PYTHON_USEDEP}]
+	dev-python/nornir-salt[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	prodmaxminion? ( ~dev-python/cerberus-1.3.5[${PYTHON_USEDEP}] )
 	dataprocessor? ( ~dev-python/cerberus-1.3.5[${PYTHON_USEDEP}] )
@@ -90,11 +90,11 @@ DEPENDENCIES="dev-python/nornir[${PYTHON_USEDEP}]
 	dataprocessor? ( <dev-python/lxml-5.1.0[${PYTHON_USEDEP}] )
 	prodminminion? ( dev-python/textfsm[${PYTHON_USEDEP}] )
 	prodmaxminion? ( dev-python/textfsm[${PYTHON_USEDEP}] )
-	prodminminion? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	prodmaxminion? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	prodminminion? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	prodmaxminion? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	prodminmaster? ( ~dev-python/rich-13.7.0[${PYTHON_USEDEP}] )
 	prodmaxmaster? ( ~dev-python/rich-13.7.0[${PYTHON_USEDEP}] )
-	prodmaxmaster? ( dev-python/N2G[${PYTHON_USEDEP}] )
+	prodmaxmaster? ( dev-python/n2g[${PYTHON_USEDEP}] )
 	prodmaxmaster? ( dev-python/robotframework[${PYTHON_USEDEP}] )
 	prodmaxminion? ( ~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}] )
 	prodmaxmaster? ( ~dev-python/diskcache-5.6.3[${PYTHON_USEDEP}] )
@@ -103,8 +103,8 @@ DEPENDENCIES="dev-python/nornir[${PYTHON_USEDEP}]
 	prodmaxminion? ( dev-python/pythonping[${PYTHON_USEDEP}] )
 	prodmaxmaster? ( dev-python/picle[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-applehelp-1.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-devhelp-1.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}] )

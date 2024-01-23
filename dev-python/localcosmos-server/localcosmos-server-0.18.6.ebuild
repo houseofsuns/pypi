@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/django-4.1[${PYTHON_USEDEP}]
 	dev-python/django-octicons[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	~dev-python/django-cors-headers-3.13.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	~dev-python/django-taggit-3.1.0[${PYTHON_USEDEP}]
 	dev-python/django-road[${PYTHON_USEDEP}]"

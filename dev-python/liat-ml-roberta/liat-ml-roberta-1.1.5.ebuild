@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/janome[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Janome[${PYTHON_USEDEP}]
 	dev-python/subword-nmt[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]"

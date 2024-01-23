@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small python utilities addon [topver 1.2.1]"
+DESCRIPTION="A small python utilities addon [topver 1.2.1, newver 1.2.1]"
 
 HOMEPAGE="https://github.com/MisterL2/python-util"
 LICENSE=""

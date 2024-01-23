@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	typing? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	typing? ( dev-python/typing_extensions[${PYTHON_USEDEP}] )
+	typing? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	typing? ( dev-python/tomli-w[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

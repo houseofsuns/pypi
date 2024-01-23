@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/tzlocal[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/traitlets-5.0.0[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
 	test-pandas? ( ~dev-python/openpyxl-2.6.4[${PYTHON_USEDEP}] )
 	test-pandas? ( <dev-python/numpy-1.23[${PYTHON_USEDEP}] )

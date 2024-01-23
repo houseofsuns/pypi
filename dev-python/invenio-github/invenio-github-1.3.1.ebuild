@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="elasticsearch7 opensearch1 opensearch2 tests"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-2.3.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Menu[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/email-validator-1.0.5[${PYTHON_USEDEP}]
 	<dev-python/github3-py-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/humanize-0.5.1[${PYTHON_USEDEP}]

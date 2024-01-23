@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Add direct uploads to S3 functionality with a progress bar to file input fields."
+DESCRIPTION="Add direct uploads to S3 functionality with a progress bar to file input fields. [newver 2.0.2]"
 
 HOMEPAGE="https://github.com/bradleyg/django-s3direct#readme"
 LICENSE=""

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/tornado-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.2.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
 	~dev-python/pika-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.7.0[${PYTHON_USEDEP}]"

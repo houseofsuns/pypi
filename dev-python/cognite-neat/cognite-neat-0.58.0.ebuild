@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs google graphql oxi"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/backports-strenum[${PYTHON_USEDEP}]
 	dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	google? ( dev-python/gspread[${PYTHON_USEDEP}] )
 	all? ( dev-python/gspread[${PYTHON_USEDEP}] )
-	graphql? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	graphql? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-autorefs-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-authors-plugin[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

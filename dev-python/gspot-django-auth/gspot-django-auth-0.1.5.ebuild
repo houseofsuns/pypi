@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/asgiref-3.7.2[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	~dev-python/django-4.2.2[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	~dev-python/redis-4.6.0[${PYTHON_USEDEP}]
 	~dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}]

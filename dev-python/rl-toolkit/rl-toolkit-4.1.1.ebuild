@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all reverb tf"
 DEPENDENCIES="dev-python/gym[${PYTHON_USEDEP}]
-	dev-python/box2d[${PYTHON_USEDEP}]
+	dev-python/Box2D[${PYTHON_USEDEP}]
 	dev-python/pybullet[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]

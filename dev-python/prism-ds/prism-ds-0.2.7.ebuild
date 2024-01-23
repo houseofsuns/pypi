@@ -31,14 +31,14 @@ DEPENDENCIES=">=dev-python/astor-0.7[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.0[${PYTHON_USEDEP}]
 	dev-python/coolname[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	bigquery? ( >=dev-python/google-api-python-client-2.0[${PYTHON_USEDEP}] )
 	bigquery? ( >=dev-python/google-auth-2.0[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )

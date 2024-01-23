@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/command-runner[${PYTHON_USEDEP}]
 	dev-python/ofunctions-file-utils[${PYTHON_USEDEP}]
 	dev-python/ofunctions-network[${PYTHON_USEDEP}]
-	dev-python/wmi[${PYTHON_USEDEP}]
+	dev-python/WMI[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.0[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]

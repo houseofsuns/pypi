@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Self-describing content-addressed identifiers for distributed systems [topver 0.4.4]"
+DESCRIPTION="Self-describing content-addressed identifiers for distributed systems [topver 0.4.4, newver 0.4.4]"
 
 HOMEPAGE="https://github.com/pinnaculum/py-multiformats-cid"
 LICENSE="MIT"

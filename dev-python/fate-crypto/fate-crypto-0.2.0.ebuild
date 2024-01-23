@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="crypto implemented or wrapped using rust [topver 0.3.0]"
+DESCRIPTION="crypto implemented or wrapped using rust [topver 0.3.0, newver 0.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

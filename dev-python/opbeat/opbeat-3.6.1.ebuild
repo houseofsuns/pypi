@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/blinker-1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/celery[${PYTHON_USEDEP}] )
 	tests? ( dev-python/django-celery[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-0.8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/logbook[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pep8[${PYTHON_USEDEP}] )
@@ -43,10 +43,10 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/urllib3-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Twisted[${PYTHON_USEDEP}] )
+	tests? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	tests? ( dev-python/apipkg[${PYTHON_USEDEP}] )
 	tests? ( dev-python/execnet[${PYTHON_USEDEP}] )
 	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	tests? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	tests? ( dev-python/zerorpc[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python-memcached[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Django[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/django-1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

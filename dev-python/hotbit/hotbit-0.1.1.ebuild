@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/2captcha-python[${PYTHON_USEDEP}]
 	dev-python/anticaptchaofficial[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requestsWS[${PYTHON_USEDEP}]
-	dev-python/twocaptcha[${PYTHON_USEDEP}]
+	dev-python/requestsws[${PYTHON_USEDEP}]
+	dev-python/TwoCaptcha[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pyecharts[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.9.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
-	dev-python/pysocks[${PYTHON_USEDEP}]"
+	dev-python/PySocks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

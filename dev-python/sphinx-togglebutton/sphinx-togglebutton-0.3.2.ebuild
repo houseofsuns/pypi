@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	sphinx? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	sphinx? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-examples[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

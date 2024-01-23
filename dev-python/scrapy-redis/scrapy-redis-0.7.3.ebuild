@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scrapy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]

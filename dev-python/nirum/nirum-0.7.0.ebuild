@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs tests"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )

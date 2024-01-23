@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs drf graphql view-layer"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2.28[${PYTHON_USEDEP}]
 	<dev-python/bleach-6.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
 	>=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]

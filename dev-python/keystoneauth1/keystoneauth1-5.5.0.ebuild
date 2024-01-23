@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
 	kerberos? ( >=dev-python/requests-kerberos-0.8.0[${PYTHON_USEDEP}] )
 	oauth1? ( >=dev-python/oauthlib-0.6.2[${PYTHON_USEDEP}] )
 	saml2? ( >=dev-python/lxml-4.2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/bandit-1.7.6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/betamax-0.7.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )

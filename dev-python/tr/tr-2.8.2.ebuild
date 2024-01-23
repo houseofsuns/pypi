@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="tr [topver 2.8.6]"
+DESCRIPTION="tr [topver 2.8.6, newver 2.8.5]"
 
 HOMEPAGE="https://pypi.org/project/tr/"
 LICENSE=""

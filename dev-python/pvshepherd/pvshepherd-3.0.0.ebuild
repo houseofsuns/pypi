@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
 	>=dev-python/bitstring-3.1.7[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-8.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

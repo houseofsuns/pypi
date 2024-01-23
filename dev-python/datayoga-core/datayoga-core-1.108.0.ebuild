@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="azure cassandra db2 http mysql oracle parquet pg redis sqlserver test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	mysql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	oracle? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	pg? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	sqlserver? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	mysql? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	oracle? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	pg? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	sqlserver? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	http? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-eventhub[${PYTHON_USEDEP}] )
@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	parquet? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
-	db2? ( dev-python/ibm_db_sa[${PYTHON_USEDEP}] )
-	test? ( dev-python/ibm_db_sa[${PYTHON_USEDEP}] )
+	db2? ( dev-python/ibm-db-sa[${PYTHON_USEDEP}] )
+	test? ( dev-python/ibm-db-sa[${PYTHON_USEDEP}] )
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/mock-5.0.0[${PYTHON_USEDEP}] )

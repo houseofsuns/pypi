@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/grpcio-1.49[${PYTHON_USEDEP}]
 	>=dev-python/tblib-1.7.0[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	build? ( >=dev-python/virtualenv-20.4[${PYTHON_USEDEP}] )
-	build? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
+	build? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

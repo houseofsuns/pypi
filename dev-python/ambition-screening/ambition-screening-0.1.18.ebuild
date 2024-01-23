@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Determine a subject's eligibility for ambition/edc. [topver 0.1.40]"
+DESCRIPTION="Determine a subject's eligibility for ambition/edc. [topver 0.1.40, newver 0.1.40]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-screening"
 LICENSE="GPL license, see LICENSE"

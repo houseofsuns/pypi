@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/asv-runner[${PYTHON_USEDEP}]
 	dev-python/json5[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pympler[${PYTHON_USEDEP}]
+	dev-python/Pympler[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

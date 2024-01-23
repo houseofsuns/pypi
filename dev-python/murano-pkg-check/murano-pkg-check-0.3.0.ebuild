@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.10.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-i18n-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-1.8[${PYTHON_USEDEP}]
 	>=dev-python/semantic-version-2.3.1[${PYTHON_USEDEP}]

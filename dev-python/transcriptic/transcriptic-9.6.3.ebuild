@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis docs jupyter test"
-DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/httpsig[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.9.6[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	analysis? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	analysis? ( <dev-python/pillow-9.0[${PYTHON_USEDEP}] )
 	analysis? ( <dev-python/plotly-2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mock-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/releases[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )

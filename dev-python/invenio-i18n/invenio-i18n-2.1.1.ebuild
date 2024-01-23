@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES=">=dev-python/Babel-2.8[${PYTHON_USEDEP}]
-	dev-python/Flask-Babel[${PYTHON_USEDEP}]
+	>=dev-python/flask-babel-3.0.0[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-assets[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Flask-Login[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-login-0.6.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )"

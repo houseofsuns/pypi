@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	web? ( dev-python/flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask-admin[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask-bootstrap[${PYTHON_USEDEP}] )"
+	web? ( dev-python/Flask-Admin[${PYTHON_USEDEP}] )
+	web? ( dev-python/Flask-Bootstrap[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pypdf[${PYTHON_USEDEP}]
 	dev-python/jsbeautifier[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pythonaes[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	>=dev-python/prettytable-3.9.0[${PYTHON_USEDEP}]"

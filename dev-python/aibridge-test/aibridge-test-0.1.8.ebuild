@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.19[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.6.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-4.4.1[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.18.4[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/google-generativeai[${PYTHON_USEDEP}]
 	dev-python/cohere[${PYTHON_USEDEP}]
 	dev-python/ai21[${PYTHON_USEDEP}]

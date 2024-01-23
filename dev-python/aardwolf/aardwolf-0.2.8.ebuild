@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/unicrypto[${PYTHON_USEDEP}]
 	dev-python/asn1tools[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	dev-python/arc4[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/elasticsearch-7.17.0[${PYTHON_USEDEP}]
 	~dev-python/inflect-6.0.0[${PYTHON_USEDEP}]
-	dev-python/levenshtein[${PYTHON_USEDEP}]
+	~dev-python/Levenshtein-0.21.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]

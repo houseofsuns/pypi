@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs sampleapp testing"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	>=dev-python/ldap3-2.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
 	sampleapp? ( dev-python/waitress[${PYTHON_USEDEP}] )
-	sampleapp? ( dev-python/pyramid-chameleon[${PYTHON_USEDEP}] )
+	sampleapp? ( dev-python/pyramid_chameleon[${PYTHON_USEDEP}] )
 	sampleapp? ( dev-python/pyramid-debugtoolbar[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

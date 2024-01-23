@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="<dev-python/ipython-9.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ipython-genutils[${PYTHON_USEDEP}]
+	dev-python/ipython_genutils[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	<dev-python/traitlets-6.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )

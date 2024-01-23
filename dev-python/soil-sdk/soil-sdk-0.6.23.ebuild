@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.1.14[${PYTHON_USEDEP}]

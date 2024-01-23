@@ -27,7 +27,7 @@ IUSE="docs test"
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
 	dev-python/lmfit[${PYTHON_USEDEP}]

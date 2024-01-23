@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.11.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-4.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )

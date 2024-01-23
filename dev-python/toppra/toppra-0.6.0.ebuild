@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">dev-python/scipy-0.18[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/msgpack-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cython[${PYTHON_USEDEP}] )

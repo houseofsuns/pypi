@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/pillow-9.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/mkdocs-material-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

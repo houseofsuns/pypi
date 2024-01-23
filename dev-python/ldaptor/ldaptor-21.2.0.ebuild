@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]
+	>=dev-python/twisted-15.5.0[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	>=dev-python/six-1.7[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
-	dev-python/pretty-midi[${PYTHON_USEDEP}]
+	dev-python/pretty_midi[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-1.5[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )"

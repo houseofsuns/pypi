@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a crf layer for tensorflow 2 keras [topver 0.1.33]"
+DESCRIPTION="a crf layer for tensorflow 2 keras [topver 0.1.33, newver 0.1.33]"
 
 HOMEPAGE="https://github.com/xuxingya/tf2crf"
 LICENSE="MIT"

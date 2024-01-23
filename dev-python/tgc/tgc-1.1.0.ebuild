@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/pyrogram[${PYTHON_USEDEP}]
-	dev-python/tgcrypto[${PYTHON_USEDEP}]
+	dev-python/Pyrogram[${PYTHON_USEDEP}]
+	dev-python/TgCrypto[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/hypy-utils[${PYTHON_USEDEP}]

@@ -33,12 +33,12 @@ DEPENDENCIES=">=dev-python/ansible-compat-4.1.8[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-9.5.1[${PYTHON_USEDEP}]
 	>=dev-python/wcmatch-8.1.2[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-ansible-0.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pipdeptree-2.4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/linkchecker[${PYTHON_USEDEP}] )
+	docs? ( dev-python/LinkChecker[${PYTHON_USEDEP}] )
 	test? ( dev-python/ansible-lint[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-7.0.3[${PYTHON_USEDEP}] )

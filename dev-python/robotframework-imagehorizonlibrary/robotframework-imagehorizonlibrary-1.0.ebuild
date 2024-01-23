@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/pyautogui[${PYTHON_USEDEP}]"
+	dev-python/PyAutoGUI[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

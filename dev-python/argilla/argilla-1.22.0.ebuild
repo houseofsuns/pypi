@@ -36,7 +36,7 @@ DEPENDENCIES="<=dev-python/httpx-0.25[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
 	>dev-python/rich-13.1.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	integrations? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	integrations? ( <dev-python/pyyaml-6.1.0[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/cleanlab[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
@@ -74,12 +74,12 @@ DEPENDENCIES="<=dev-python/httpx-0.25[${PYTHON_USEDEP}]
 	server? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	server? ( dev-python/brotli-asgi[${PYTHON_USEDEP}] )
 	server? ( ~dev-python/alembic-1.9.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/greenlet-2.0.0[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	server? ( <dev-python/aiofiles-22.2[${PYTHON_USEDEP}] )
-	server? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	server? ( <dev-python/pyyaml-6.1.0[${PYTHON_USEDEP}] )
 	server? ( ~dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )
 	server? ( <dev-python/python-jose-3.4[${PYTHON_USEDEP}] )
 	server? ( ~dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )

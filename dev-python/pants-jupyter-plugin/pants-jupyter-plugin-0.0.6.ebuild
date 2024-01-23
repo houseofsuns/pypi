@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/filelock-3.0[${PYTHON_USEDEP}]
 	<dev-python/ipython-8.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
-	dev-python/nest_asyncio[${PYTHON_USEDEP}]
+	~dev-python/nest-asyncio-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/twitter-common-contextutil[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]"

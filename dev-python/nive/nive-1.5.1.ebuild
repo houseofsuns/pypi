@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/Chameleon[${PYTHON_USEDEP}]
+	dev-python/chameleon[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
-	dev-python/pyramid-chameleon[${PYTHON_USEDEP}]
+	dev-python/pyramid_chameleon[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/translationstring[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	testing? ( dev-python/pyramid[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Chameleon[${PYTHON_USEDEP}] )
+	testing? ( dev-python/chameleon[${PYTHON_USEDEP}] )
 	testing? ( dev-python/zope-interface[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyramid-chameleon[${PYTHON_USEDEP}] )
+	testing? ( dev-python/pyramid_chameleon[${PYTHON_USEDEP}] )
 	testing? ( dev-python/iso8601[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	testing? ( dev-python/translationstring[${PYTHON_USEDEP}] )

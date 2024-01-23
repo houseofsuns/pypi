@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="osprofiler test"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.12.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.9.8[${PYTHON_USEDEP}]
 	dev-python/cotyledon[${PYTHON_USEDEP}]
 	>=dev-python/docker-4.3.0[${PYTHON_USEDEP}]
@@ -73,9 +73,9 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	>=dev-python/websockify-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pyroute2-0.5.7[${PYTHON_USEDEP}]
 	osprofiler? ( dev-python/osprofiler[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pygments-2.7.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/webtest-2.0.26[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )

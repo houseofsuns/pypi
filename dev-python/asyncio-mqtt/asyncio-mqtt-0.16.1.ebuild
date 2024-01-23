@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Idiomatic asyncio wrapper around paho-mqtt [topver 0.16.2]"
+DESCRIPTION="Idiomatic asyncio wrapper around paho-mqtt [topver 0.16.2, newver 0.16.2]"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"

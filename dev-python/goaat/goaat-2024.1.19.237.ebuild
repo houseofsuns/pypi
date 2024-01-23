@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/click-8.0.4[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/click-man[${PYTHON_USEDEP}]
-	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
 	dev-python/goatocitools[${PYTHON_USEDEP}]
 	dev-python/goataztools[${PYTHON_USEDEP}]
 	dev-python/goatovhaitools[${PYTHON_USEDEP}]

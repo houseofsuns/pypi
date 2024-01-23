@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/grequests[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
-	dev-python/pyexecjs[${PYTHON_USEDEP}]
+	dev-python/PyExecJS[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/xlrd-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]"

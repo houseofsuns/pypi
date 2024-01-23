@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	dev-python/sgqlc[${PYTHON_USEDEP}]"

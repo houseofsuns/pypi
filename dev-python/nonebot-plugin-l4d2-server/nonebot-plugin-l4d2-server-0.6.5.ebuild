@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}]
-	dev-python/nonebot_plugin_txt2img[${PYTHON_USEDEP}]
+	dev-python/nonebot-plugin-txt2img[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/srctools[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/amis-python[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.27[${PYTHON_USEDEP}]
 	>=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

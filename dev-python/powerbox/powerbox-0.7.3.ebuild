@@ -37,7 +37,7 @@ DEPENDENCIES=">dev-python/numpy-1.6.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/hmf[${PYTHON_USEDEP}] )
-	fftw? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	fftw? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

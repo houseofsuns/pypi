@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/grpcio-1.51.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/coverage-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

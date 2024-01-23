@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cache test"
 DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
 	dev-python/tuspy[${PYTHON_USEDEP}]
 	cache? ( >=dev-python/requests-cache-0.9.7[${PYTHON_USEDEP}] )

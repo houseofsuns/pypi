@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/cryptography-39.0[${PYTHON_USEDEP}]
 	gssapi? ( >=dev-python/gssapi-1.2.0[${PYTHON_USEDEP}] )
 	libnacl? ( >=dev-python/libnacl-1.4.2[${PYTHON_USEDEP}] )
 	pkcs11? ( dev-python/python-pkcs11[${PYTHON_USEDEP}] )
-	pyopenssl? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	pyopenssl? ( >=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}] )
 	pywin32? ( dev-python/pywin32[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sphinx_bootstrap_theme[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sphinx-bootstrap-theme-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
 	<dev-python/pika-0.14.0[${PYTHON_USEDEP}]
 	dev-python/json2html[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
-	dev-python/et-xmlfile[${PYTHON_USEDEP}]
+	>=dev-python/et_xmlfile-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]

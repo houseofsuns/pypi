@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A synthesis framework using csound [topver 2.5.3]"
+DESCRIPTION="A synthesis framework using csound [topver 2.5.3, newver 2.5.3]"
 
 HOMEPAGE="https://github.com/gesellkammer/csoundengine"
 LICENSE="BSD"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/JACK-client[${PYTHON_USEDEP}]
+	dev-python/jack-client[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/sf2utils[${PYTHON_USEDEP}]

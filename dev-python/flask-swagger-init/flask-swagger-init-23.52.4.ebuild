@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]"

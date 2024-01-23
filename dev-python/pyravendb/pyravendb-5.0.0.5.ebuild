@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/requests-pkcs12[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.2.0[${PYTHON_USEDEP}]
 	~dev-python/ijson-2.3[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.46.0[${PYTHON_USEDEP}]
 	>=dev-python/inflect-1.0.0[${PYTHON_USEDEP}]"

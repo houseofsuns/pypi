@@ -28,6 +28,6 @@ DEPENDENCIES="uvloop? ( <dev-python/uvloop-0.19[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_autodoc_typehints[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

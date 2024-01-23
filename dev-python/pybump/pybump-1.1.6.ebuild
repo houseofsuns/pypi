@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python version bumper [topver 1.11.6]"
+DESCRIPTION="Python version bumper [topver 1.11.6, newver 1.11.6]"
 
 HOMEPAGE="https://github.com/ArieLevs/PyBump"
 LICENSE="Apache-2.0"

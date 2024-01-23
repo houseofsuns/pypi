@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	test? ( <dev-python/black-22.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	~dev-python/click-8.0.1[${PYTHON_USEDEP}]

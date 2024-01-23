@@ -27,7 +27,7 @@ IUSE="dev docs"
 DEPENDENCIES="dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/junitparser[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/IntelHex[${PYTHON_USEDEP}]
+	dev-python/intelhex[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]

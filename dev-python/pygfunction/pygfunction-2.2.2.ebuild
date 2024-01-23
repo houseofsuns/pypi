@@ -27,7 +27,7 @@ IUSE="doc testing"
 DEPENDENCIES=">=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
-	dev-python/secondarycoolantprops[${PYTHON_USEDEP}]
+	dev-python/SecondaryCoolantProps[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/numpydoc-1.2.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )

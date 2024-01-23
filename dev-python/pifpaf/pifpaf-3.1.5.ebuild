@@ -27,11 +27,11 @@ IUSE="gnocchi test"
 DEPENDENCIES="dev-python/daiquiri[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/fixtures[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/xattr[${PYTHON_USEDEP}]
-	gnocchi? ( dev-python/uwsgi[${PYTHON_USEDEP}] )
+	gnocchi? ( dev-python/uWSGI[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/testrepository[${PYTHON_USEDEP}] )
 	test? ( dev-python/testtools[${PYTHON_USEDEP}] )

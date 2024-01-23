@@ -30,13 +30,13 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.1.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/ipython-IDV[${PYTHON_USEDEP}]
+	dev-python/ipython-idv[${PYTHON_USEDEP}]
 	dev-python/ramadda-publish[${PYTHON_USEDEP}]
 	dev-python/idv-teleport[${PYTHON_USEDEP}]
 	addons? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	addons? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	addons? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	addons? ( dev-python/metpy[${PYTHON_USEDEP}] )
+	addons? ( dev-python/MetPy[${PYTHON_USEDEP}] )
 	visual? ( dev-python/pyviz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

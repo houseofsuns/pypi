@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/setuptools-36.2[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	>=dev-python/phonenumbers-8.10.22[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]"
+	<dev-python/django-4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

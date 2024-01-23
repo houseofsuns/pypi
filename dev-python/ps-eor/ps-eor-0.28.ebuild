@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/tables-4.0[${PYTHON_USEDEP}]
-	dev-python/pyfftw[${PYTHON_USEDEP}]
+	dev-python/pyFFTW[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]

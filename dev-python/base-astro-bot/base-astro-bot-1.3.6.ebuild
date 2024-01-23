@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/pafy[${PYTHON_USEDEP}]
 	~dev-python/pymongo-3.7.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20.1[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.2.14[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]
-	dev-python/youtube-dl[${PYTHON_USEDEP}]
+	dev-python/youtube_dl[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-0.44.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

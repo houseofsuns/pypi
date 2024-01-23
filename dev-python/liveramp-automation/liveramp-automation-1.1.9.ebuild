@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/allure-pytest-bdd[${PYTHON_USEDEP}]
 	dev-python/pytest-json-report[${PYTHON_USEDEP}]
 	dev-python/pytest-playwright[${PYTHON_USEDEP}]
 	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/retrying[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]"

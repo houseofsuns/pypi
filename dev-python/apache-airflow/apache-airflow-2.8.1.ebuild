@@ -37,18 +37,18 @@ DEPENDENCIES="<dev-python/alembic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-0.9.3[${PYTHON_USEDEP}]
 	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.2.2[${PYTHON_USEDEP}]
-	dev-python/flask-appbuilder[${PYTHON_USEDEP}]
-	dev-python/flask-caching[${PYTHON_USEDEP}]
+	dev-python/Flask-AppBuilder[${PYTHON_USEDEP}]
+	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	>=dev-python/flask-login-0.6.2[${PYTHON_USEDEP}]
-	dev-python/flask-session[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/Flask-Session[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	<dev-python/flask-2.3[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2023.10.0[${PYTHON_USEDEP}]
 	dev-python/google-re2[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-2.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
 	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
 	>=dev-python/linkify-it-py-2.0.0[${PYTHON_USEDEP}]
@@ -76,7 +76,7 @@ DEPENDENCIES="<dev-python/alembic-2.0[${PYTHON_USEDEP}]
 	dev-python/rich-argparse[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.4.4[${PYTHON_USEDEP}]
 	>=dev-python/setproctitle-1.1.8[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-jsonfield[${PYTHON_USEDEP}]
+	dev-python/SQLAlchemy-JSONField[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.7.5[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-6.2.0[${PYTHON_USEDEP}]
@@ -296,10 +296,10 @@ DEPENDENCIES="<dev-python/alembic-2.0[${PYTHON_USEDEP}]
 	gcp-api? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
 	github? ( dev-python/apache-airflow-providers-github[${PYTHON_USEDEP}] )
 	github-enterprise? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
-	github-enterprise? ( dev-python/authlib[${PYTHON_USEDEP}] )
+	github-enterprise? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	google? ( dev-python/apache-airflow-providers-google[${PYTHON_USEDEP}] )
 	google-auth? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
-	google-auth? ( dev-python/authlib[${PYTHON_USEDEP}] )
+	google-auth? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	graphviz? ( >=dev-python/graphviz-0.12[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/apache-airflow-providers-grpc[${PYTHON_USEDEP}] )
 	hashicorp? ( dev-python/apache-airflow-providers-hashicorp[${PYTHON_USEDEP}] )
@@ -337,7 +337,7 @@ DEPENDENCIES="<dev-python/alembic-2.0[${PYTHON_USEDEP}]
 	pandas? ( >=dev-python/pandas-1.2.5[${PYTHON_USEDEP}] )
 	papermill? ( dev-python/apache-airflow-providers-papermill[${PYTHON_USEDEP}] )
 	password? ( >=dev-python/bcrypt-2.0.0[${PYTHON_USEDEP}] )
-	password? ( dev-python/flask-bcrypt[${PYTHON_USEDEP}] )
+	password? ( dev-python/Flask-Bcrypt[${PYTHON_USEDEP}] )
 	pgvector? ( dev-python/apache-airflow-providers-pgvector[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/apache-airflow-providers-pinecone[${PYTHON_USEDEP}] )
 	pinot? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )

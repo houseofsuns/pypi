@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	interactive? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/jupyter_nbextensions_configurator[${PYTHON_USEDEP}] )
+	interactive? ( dev-python/jupyter-nbextensions-configurator[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/nodejs[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/plopp[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/pythreejs[${PYTHON_USEDEP}] )"

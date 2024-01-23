@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/email-validator-1.1.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.20[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
 	~dev-python/websockets-9.1[${PYTHON_USEDEP}]

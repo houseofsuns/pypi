@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cad dev docs full maintainer"
 DEPENDENCIES="dev-python/flatdict[${PYTHON_USEDEP}]
 	dev-python/gdstk[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
@@ -66,11 +66,11 @@ DEPENDENCIES="dev-python/flatdict[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylsp-mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest_regressions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-cachetools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
 	docs? ( dev-python/plotly[${PYTHON_USEDEP}] )

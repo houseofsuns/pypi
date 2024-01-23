@@ -36,6 +36,6 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	speed? ( ~dev-python/orjson-3.6[${PYTHON_USEDEP}] )
 	speed? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	speed? ( dev-python/Brotli[${PYTHON_USEDEP}] )
-	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
+	voice? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

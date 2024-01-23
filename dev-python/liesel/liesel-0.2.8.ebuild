@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-deprecated[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rtds-action[${PYTHON_USEDEP}] )
 	pymc? ( dev-python/pymc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

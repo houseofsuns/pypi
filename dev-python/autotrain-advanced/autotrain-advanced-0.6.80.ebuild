@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	dev? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -121,7 +121,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	docs? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -167,7 +167,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	quality? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
 	quality? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	quality? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	quality? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	quality? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	quality? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

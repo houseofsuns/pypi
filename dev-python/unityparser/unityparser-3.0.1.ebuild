@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	development? ( dev-python/pip-compile-multi[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

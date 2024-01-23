@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	docs? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lightning[${PYTHON_USEDEP}] )
 	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

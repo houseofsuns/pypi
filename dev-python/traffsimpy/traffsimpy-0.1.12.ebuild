@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/pygame-2.1.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/webcolors-1.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/domain2idna[${PYTHON_USEDEP}]
-	dev-python/pyfunceble[${PYTHON_USEDEP}]
+	dev-python/PyFunceble[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ultimate-hosts-blacklist-helpers[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]"

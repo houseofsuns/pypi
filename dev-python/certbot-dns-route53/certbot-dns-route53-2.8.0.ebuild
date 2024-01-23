@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/boto3-1.15.15[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
 	dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

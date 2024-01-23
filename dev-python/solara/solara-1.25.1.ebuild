@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/ipyvue[${PYTHON_USEDEP}]
 	dev-python/ipyvuetify[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-client-7.0.0[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
@@ -64,8 +64,8 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-markdown[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vaex-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vaex-hdf5[${PYTHON_USEDEP}] )

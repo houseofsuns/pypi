@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all test-tox test-tox-coverage"
 DEPENDENCIES=">=dev-python/setuptools-38.2.0[${PYTHON_USEDEP}]
-	dev-python/Numpy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/SciPy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-5.3.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.2.3[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.15.24[${PYTHON_USEDEP}]
 	>=dev-python/beartype-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.5.2[${PYTHON_USEDEP}]
 	all? ( >=dev-python/distro-1.0.4[${PYTHON_USEDEP}] )
-	all? ( dev-python/pympler[${PYTHON_USEDEP}] )
+	all? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	all? ( dev-python/ptpython[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/networkx-1.8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pydot-1.0.28[${PYTHON_USEDEP}] )

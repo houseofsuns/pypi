@@ -31,10 +31,10 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/fsspec-2023.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	<dev-python/myst-parser-0.19.0[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-fulltoc[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]"
+	<dev-python/sphinx-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

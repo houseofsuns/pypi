@@ -27,7 +27,7 @@ IUSE="all docs recommended test test_all"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/pyerfa[${PYTHON_USEDEP}]
 	dev-python/astropy-iers-data[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	all? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	all? ( dev-python/certifi[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-changelog[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	recommended? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )

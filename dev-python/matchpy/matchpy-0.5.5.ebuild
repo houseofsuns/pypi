@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop docs graphs tests"
 DEPENDENCIES="dev-python/multiset[${PYTHON_USEDEP}]
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	develop? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/hypothesis-5.0[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/multiset[${PYTHON_USEDEP}]
 	develop? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	graphs? ( <dev-python/graphviz-0.6[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/hypothesis-5.0[${PYTHON_USEDEP}] )

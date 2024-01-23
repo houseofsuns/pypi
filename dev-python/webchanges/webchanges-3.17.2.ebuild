@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/cssselect[${PYTHON_USEDEP}]
 	jq? ( dev-python/jq[${PYTHON_USEDEP}] )
 	matrix? ( dev-python/matrix-client[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
-	ocr? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	ocr? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	pdf2text? ( dev-python/pdftotext[${PYTHON_USEDEP}] )
 	pushbullet? ( dev-python/pushbullet-py[${PYTHON_USEDEP}] )
 	pushover? ( dev-python/chump[${PYTHON_USEDEP}] )

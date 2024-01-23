@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask-socketio[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/simple-websocket[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]

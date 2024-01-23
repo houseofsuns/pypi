@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aci all aristacv device42 infoblox ipfabric nautobot-device-lifecycle-mgmt pysnow servicenow"
 DEPENDENCIES="all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	servicenow? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev-python/Markdown[${PYTHON_USEDEP}]
-	aci? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	servicenow? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	>dev-python/markdown-3.3.5[${PYTHON_USEDEP}]
+	aci? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	servicenow? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cloudvision[${PYTHON_USEDEP}] )
 	aristacv? ( dev-python/cloudvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/cvprac[${PYTHON_USEDEP}] )

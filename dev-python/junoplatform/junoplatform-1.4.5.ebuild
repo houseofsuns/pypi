@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flit_core[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flit-core-3.9.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pulsar-client[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

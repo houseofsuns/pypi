@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all hdf5 imc testing zarr"
 DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	all? ( dev-python/readimc[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	testing? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/dask[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/zarr[${PYTHON_USEDEP}] )"

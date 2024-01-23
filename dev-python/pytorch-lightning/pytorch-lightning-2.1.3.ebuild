@@ -27,7 +27,7 @@ IUSE="all deepspeed dev examples extra strategies test"
 DEPENDENCIES=">=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.57.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]

@@ -27,8 +27,8 @@ IUSE="aiohttp django"
 DEPENDENCIES="dev-python/connexion[${PYTHON_USEDEP}]
 	dev-python/Faker[${PYTHON_USEDEP}]
 	aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp_jinja2[${PYTHON_USEDEP}] )
-	django? ( dev-python/Django[${PYTHON_USEDEP}] )
+	aiohttp? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
+	django? ( <dev-python/django-5.0.0[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-connexion[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

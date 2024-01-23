@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for Intel Embree 2.17.7 [topver 0.2.11]"
+DESCRIPTION="Python wrapper for Intel Embree 2.17.7 [topver 0.2.11, newver 0.2.11]"
 
 HOMEPAGE=""
 LICENSE="BSD 2-Clause Simplified"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Cython[${PYTHON_USEDEP}]
+	<dev-python/cython-0.30.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-61.0.0[${PYTHON_USEDEP}]
 	<dev-python/wheel-0.38.0[${PYTHON_USEDEP}]
 	<dev-python/trimesh-4.0.0[${PYTHON_USEDEP}]

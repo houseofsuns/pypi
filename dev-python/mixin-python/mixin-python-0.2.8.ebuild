@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mixin Binding Project [topver 0.2.10]"
+DESCRIPTION="Mixin Binding Project [topver 0.2.10, newver 0.2.10]"
 
 HOMEPAGE="https://github.com/learnforpractice/mixin-python"
 LICENSE="GPL-3"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-9.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]

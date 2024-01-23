@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/google-cloud-firestore[${PYTHON_USEDEP}]
-	dev-python/pyrebase4[${PYTHON_USEDEP}]
+	dev-python/Pyrebase4[${PYTHON_USEDEP}]
 	full? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	full? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	full? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyrebase4[${PYTHON_USEDEP}] )
+	full? ( dev-python/Pyrebase4[${PYTHON_USEDEP}] )
 	full? ( <dev-python/google-auth-oauthlib-0.5[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	full? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	full? ( dev-python/cython[${PYTHON_USEDEP}] )
 	full? ( dev-python/gspread[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	full? ( dev-python/descriptastorus[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	full? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	full? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	full? ( dev-python/pubchempy[${PYTHON_USEDEP}] )
+	full? ( dev-python/PubChemPy[${PYTHON_USEDEP}] )
 	full? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	full? ( dev-python/mordred[${PYTHON_USEDEP}] )
 	full? ( dev-python/selfies[${PYTHON_USEDEP}] )

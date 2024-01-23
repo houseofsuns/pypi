@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jinja2 pyyaml"
-DEPENDENCIES="jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+DEPENDENCIES="jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	pyyaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

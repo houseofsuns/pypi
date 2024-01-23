@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Config handling for data science projects [topver 0.8.2]"
+DESCRIPTION="Config handling for data science projects [topver 0.8.2, newver 0.8.2]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/colorama-0.4[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.13[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
-	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	pydantic? ( >=dev-python/pydantic-1.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

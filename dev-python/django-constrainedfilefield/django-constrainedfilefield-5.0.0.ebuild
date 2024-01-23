@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage filetype image"
 DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
-	coverage? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	coverage? ( >=dev-python/pillow-4.0.0[${PYTHON_USEDEP}] )
 	coverage? ( >=dev-python/python-magic-0.4.2[${PYTHON_USEDEP}] )
 	filetype? ( >=dev-python/python-magic-0.4.2[${PYTHON_USEDEP}] )
-	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	image? ( >=dev-python/pillow-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

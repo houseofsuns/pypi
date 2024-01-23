@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to use AWS Textract services."
+DESCRIPTION="A package to use AWS Textract services. [newver 1.5.1]"
 
 HOMEPAGE="https://github.com/aws-samples/amazon-textract-textractor"
 LICENSE="Apache-2.0"
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs pandas pdf torch"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-3.1[${PYTHON_USEDEP}]
 	dev-python/amazon-textract-caller[${PYTHON_USEDEP}]
 	dev-python/amazon-textract-response-parser[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-rtd-theme-1.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.9[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/numpy-1.22[${PYTHON_USEDEP}] )

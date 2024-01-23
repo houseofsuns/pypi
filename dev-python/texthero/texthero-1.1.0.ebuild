@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )"

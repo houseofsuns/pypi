@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	sql? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	duckdb? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/openai[${PYTHON_USEDEP}]
-	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
 	duckduckgo? ( dev-python/duckduckgo-search[${PYTHON_USEDEP}] )
 	dev-python/usearch[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="deploy dev docs notebooks tests"
 DEPENDENCIES="deploy? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
 	dev-python/pandas-datapackage-reader[${PYTHON_USEDEP}]
 	dev-python/f90nml[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scmdata[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/versioneer[${PYTHON_USEDEP}]

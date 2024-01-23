@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API client for Auger Hub API [topver 0.7.4]"
+DESCRIPTION="API client for Auger Hub API [topver 0.7.4, newver 0.7.4]"
 
 HOMEPAGE="https://github.com/deeplearninc/"
 LICENSE="MIT"

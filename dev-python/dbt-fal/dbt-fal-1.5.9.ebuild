@@ -27,8 +27,8 @@ IUSE="bigquery duckdb redshift snowflake teleport trino"
 DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/posthog[${PYTHON_USEDEP}]
-	dev-python/backports-functools_lru_cache[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/agate-sql-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/astor-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
 	trino? ( dev-python/trino[${PYTHON_USEDEP}] )
 	teleport? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]

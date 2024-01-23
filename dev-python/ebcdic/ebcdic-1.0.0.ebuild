@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Additional EBCDIC codecs [topver 1.1.1]"
+DESCRIPTION="Additional EBCDIC codecs [topver 1.1.1, newver 1.1.1]"
 
 HOMEPAGE="https://pypi.python.org/pypi/ebcdic"
 LICENSE="BSD"

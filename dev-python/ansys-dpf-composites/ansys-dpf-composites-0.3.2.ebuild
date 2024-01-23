@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build docs pre-commit test"
-DEPENDENCIES="all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	dev-python/ansys-dpf-core[${PYTHON_USEDEP}]
 	all? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
@@ -60,10 +60,10 @@ DEPENDENCIES="all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autodoc-typehints-1.20.2[${PYTHON_USEDEP}] )
 	all? ( <dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx_gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_gallery[${PYTHON_USEDEP}] )
+	all? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-gallery-0.12.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-gallery-0.12.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
 	build? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

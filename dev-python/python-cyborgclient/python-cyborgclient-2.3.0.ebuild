@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]
 	>=dev-python/decorator-3.4.0[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.3.0[${PYTHON_USEDEP}]

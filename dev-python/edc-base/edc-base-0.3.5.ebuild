@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Base mixins and utilities for clinicedc/edc projects. [topver 0.3.12]"
+DESCRIPTION="Base mixins and utilities for clinicedc/edc projects. [topver 0.3.12, newver 0.3.12]"
 
 HOMEPAGE="http://github.com/clinicedc/edc-base"
 LICENSE="GPL license, see LICENSE"

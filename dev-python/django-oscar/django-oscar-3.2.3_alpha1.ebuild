@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
 	<dev-python/django-tables2-2.4[${PYTHON_USEDEP}]
 	dev-python/django-widget-tweaks[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-spelling-7.5.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	docs? ( <dev-python/easy-thumbnails-2.8.6[${PYTHON_USEDEP}] )
 	easy-thumbnails? ( <dev-python/easy-thumbnails-2.8.6[${PYTHON_USEDEP}] )
 	sorl-thumbnail? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
-	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/webtest-2.1[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-5.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

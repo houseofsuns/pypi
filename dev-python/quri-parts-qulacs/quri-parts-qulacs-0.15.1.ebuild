@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Qulacs[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/qulacs[${PYTHON_USEDEP}]
 	dev-python/quri-parts-circuit[${PYTHON_USEDEP}]
 	dev-python/quri-parts-core[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"

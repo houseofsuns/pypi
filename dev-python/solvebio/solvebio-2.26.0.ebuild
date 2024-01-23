@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="recipes"
-DEPENDENCIES="dev-python/pyprind[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyPrind[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	recipes? ( ~dev-python/click-7.1.2[${PYTHON_USEDEP}] )

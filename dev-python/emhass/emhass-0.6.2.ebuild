@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
-	dev-python/pulp[${PYTHON_USEDEP}]
+	dev-python/PuLP[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	<=dev-python/tables-3.9.1[${PYTHON_USEDEP}]
 	dev-python/skforecast[${PYTHON_USEDEP}]"

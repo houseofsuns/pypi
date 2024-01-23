@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/logilab-common[${PYTHON_USEDEP}]
-	dev-python/yapps2-logilab[${PYTHON_USEDEP}]
+	dev-python/Yapps2-logilab[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

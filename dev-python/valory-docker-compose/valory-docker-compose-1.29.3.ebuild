@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="socks tests"
 DEPENDENCIES="<dev-python/docopt-1.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/texttable-2.0[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-1.0[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/cryptg[${PYTHON_USEDEP}]
 	dev-python/hachoir[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/telethon[${PYTHON_USEDEP}]
+	dev-python/Telethon[${PYTHON_USEDEP}]
 	dev-python/twitchio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

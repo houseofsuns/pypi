@@ -27,7 +27,7 @@ IUSE="extras full"
 DEPENDENCIES=">=dev-python/asteval-0.9.22[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.7[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	>=dev-python/odfpy-1.4.1[${PYTHON_USEDEP}]

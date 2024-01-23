@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="dev-python/aacrepair[${PYTHON_USEDEP}]
 	dev-python/ghettorecorder[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.3.2[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]

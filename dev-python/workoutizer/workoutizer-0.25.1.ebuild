@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/sportgems[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyudev-0.24.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

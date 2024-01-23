@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/import-expression[${PYTHON_USEDEP}]
 	discordpy? ( dev-python/discord-py[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	procinfo? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
 	profiling? ( >=dev-python/line-profiler-3.5.1[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pure Python parser for mangled itanium symbols [topver 1.1]"
+DESCRIPTION="Pure Python parser for mangled itanium symbols [topver 1.1, newver 1.1]"
 
 HOMEPAGE="https://github.com/whitequark/python-itanium_demangler"
 LICENSE=""

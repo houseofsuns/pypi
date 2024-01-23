@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/dict2xml[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev? ( dev-python/Shapely[${PYTHON_USEDEP}] )
+	dev? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	dev? ( dev-python/semantics[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )

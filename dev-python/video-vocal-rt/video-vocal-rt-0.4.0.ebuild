@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/moviepy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
-	dev-python/pysimplegui[${PYTHON_USEDEP}]
+	dev-python/PySimpleGUI[${PYTHON_USEDEP}]
 	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/ffpyplayer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

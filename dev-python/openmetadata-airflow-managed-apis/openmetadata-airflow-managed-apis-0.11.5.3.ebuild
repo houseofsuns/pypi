@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/openmetadata-ingestion[${PYTHON_USEDEP}]
 	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/packaging-21.2[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.4[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]
 	~dev-python/setuptools-58.3.0[${PYTHON_USEDEP}]
 	base? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
 	base? ( dev-python/openmetadata-ingestion[${PYTHON_USEDEP}] )
 	base? ( ~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}] )
 	base? ( ~dev-python/packaging-21.2[${PYTHON_USEDEP}] )
-	base? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	base? ( ~dev-python/flask-1.1.4[${PYTHON_USEDEP}] )
 	base? ( dev-python/Flask-Admin[${PYTHON_USEDEP}] )
 	base? ( ~dev-python/setuptools-58.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

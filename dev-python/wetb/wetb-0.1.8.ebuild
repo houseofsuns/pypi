@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all prepost"
-DEPENDENCIES="prepost? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	all? ( dev-python/Cython[${PYTHON_USEDEP}] )
+DEPENDENCIES="prepost? ( <dev-python/cython-0.30.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/cython-0.30.0[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]

@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/python-box[${PYTHON_USEDEP}]
 	dev-python/gremlinpython[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]"
+	dev-python/GitPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

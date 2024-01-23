@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="exchange test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/py-moneyed[${PYTHON_USEDEP}]
 	exchange? ( dev-python/certifi[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )

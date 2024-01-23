@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
-	dev-python/PyYaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/tornado-6.1[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]"

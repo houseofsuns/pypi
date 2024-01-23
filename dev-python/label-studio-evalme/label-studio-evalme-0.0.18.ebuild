@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Shapely[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/textdistance-4.1.5[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]

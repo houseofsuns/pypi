@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	ports-all? ( dev-python/mido[${PYTHON_USEDEP}] )
 	ports-all? ( dev-python/mido[${PYTHON_USEDEP}] )
 	ports-all? ( dev-python/mido[${PYTHON_USEDEP}] )
-	ports-pygame? ( dev-python/PyGame[${PYTHON_USEDEP}] )
+	ports-pygame? ( ~dev-python/pygame-2.5[${PYTHON_USEDEP}] )
 	ports-rtmidi? ( ~dev-python/python-rtmidi-1.5.4[${PYTHON_USEDEP}] )
 	ports-rtmidi-python? ( dev-python/rtmidi-python[${PYTHON_USEDEP}] )
 	release? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )

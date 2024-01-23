@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/attrs-20.3[${PYTHON_USEDEP}]
 	dev-python/convclasses[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	random? ( dev-python/faker[${PYTHON_USEDEP}] )
+	random? ( ~dev-python/Faker-4.14.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/testfixtures[${PYTHON_USEDEP}] )

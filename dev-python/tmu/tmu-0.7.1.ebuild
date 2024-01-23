@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implements the Tsetlin Machine, Coalesced Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, drop clause, Type III Feedback, focused negative sampling, multi-task classifier, autoencoder, literal budget, incremental clause evaluation, and one-vs-one multi-class classifier. TMU is written in Python with wrappers for C and CUDA-based clause evaluation and updating. [topver 0.8.2]"
+DESCRIPTION="Implements the Tsetlin Machine, Coalesced Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, drop clause, Type III Feedback, focused negative sampling, multi-task classifier, autoencoder, literal budget, incremental clause evaluation, and one-vs-one multi-class classifier. TMU is written in Python with wrappers for C and CUDA-based clause evaluation and updating. [topver 0.8.2, newver 0.8.2]"
 
 HOMEPAGE="https://github.com/cair/tmu/"
 LICENSE="MIT"

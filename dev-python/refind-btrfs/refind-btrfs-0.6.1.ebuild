@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
 	dev-python/transitions[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
-	custom_icon? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	custom_icon? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

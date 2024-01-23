@@ -55,6 +55,6 @@ DEPENDENCIES=">=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/numpy-1.20[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
-	test? ( dev-python/faker[${PYTHON_USEDEP}] )"
+	test? ( dev-python/Faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

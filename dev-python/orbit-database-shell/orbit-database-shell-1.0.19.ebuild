@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-snappy-0.7.0[${PYTHON_USEDEP}]

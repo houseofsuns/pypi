@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/ipython-genutils[${PYTHON_USEDEP}]"
+	dev-python/ipython_genutils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/config42[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
 	dev-python/instaloader[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.11[${PYTHON_USEDEP}]
 	dev-python/python-telegram-handler[${PYTHON_USEDEP}]"

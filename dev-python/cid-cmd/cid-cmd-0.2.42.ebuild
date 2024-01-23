@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.29.5[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-4.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15[${PYTHON_USEDEP}]

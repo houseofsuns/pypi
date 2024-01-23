@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="auth socks"
-DEPENDENCIES="dev-python/PyYaml[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/email-validator[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]

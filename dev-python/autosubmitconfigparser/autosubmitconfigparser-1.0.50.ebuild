@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An utility library that allows to read an Autosubmit 4 experiment configuration. [topver 1.0.52]"
+DESCRIPTION="An utility library that allows to read an Autosubmit 4 experiment configuration. [topver 1.0.52, newver 1.0.52]"
 
 HOMEPAGE="https://earth.bsc.es/gitlab/ces/autosubmit4-config-parser.git"
 LICENSE=""
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]"
+	>=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

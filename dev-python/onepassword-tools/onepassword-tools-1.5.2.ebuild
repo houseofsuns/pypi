@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is a collection of 1Password related CLI tools and helpers [topver 1.6.0]"
+DESCRIPTION="This is a collection of 1Password related CLI tools and helpers [topver 1.6.0, newver 1.6.0]"
 
 HOMEPAGE="https://github.com/mickaelperrin/onepassword-tools"
 LICENSE="GPL-3"
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/onepassword-local-search[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	~dev-python/click-log-0.3.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	~dev-python/plumbum-1.7.2[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]"

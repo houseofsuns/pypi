@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/numpy-1.13[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.19[${PYTHON_USEDEP}]
 	>=dev-python/uncertainties-3.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.14[${PYTHON_USEDEP}]
-	dev-python/kgen[${PYTHON_USEDEP}]"
+	dev-python/Kgen[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

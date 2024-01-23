@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/kabaret[${PYTHON_USEDEP}]
 	dev-python/timeago[${PYTHON_USEDEP}]
 	dev-python/blender-asset-tracer[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/fileseq[${PYTHON_USEDEP}]
+	dev-python/Fileseq[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

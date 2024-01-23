@@ -27,7 +27,7 @@ IUSE="repl"
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
-	dev-python/pyld[${PYTHON_USEDEP}]
+	dev-python/PyLD[${PYTHON_USEDEP}]
 	<dev-python/asyncstdlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/based58[${PYTHON_USEDEP}]

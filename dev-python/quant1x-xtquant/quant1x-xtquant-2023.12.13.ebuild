@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/setuptools-69.0.2[${PYTHON_USEDEP}]
 	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/quant1x-base[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

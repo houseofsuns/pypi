@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev guide pipelines technote"
 DEPENDENCIES=">=dev-python/docutils-0.20[${PYTHON_USEDEP}]
-	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-7.0[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/docutils-0.20[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )
-	guide? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	guide? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	guide? ( <dev-python/pydata-sphinx-theme-0.13.0[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES=">=dev-python/docutils-0.20[${PYTHON_USEDEP}]
 	guide? ( dev-python/sphinxcontrib-redoc[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
-	pipelines? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	pipelines? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	pipelines? ( <dev-python/pydata-sphinx-theme-0.13.0[${PYTHON_USEDEP}] )
 	pipelines? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	pipelines? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )

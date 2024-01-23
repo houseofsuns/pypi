@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/kivy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Kivy[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/angles[${PYTHON_USEDEP}]

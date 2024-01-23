@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyodbc sqlalchemy"
-DEPENDENCIES="sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+DEPENDENCIES="sqlalchemy? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	pyodbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

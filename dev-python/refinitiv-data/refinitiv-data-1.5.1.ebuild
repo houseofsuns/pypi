@@ -28,7 +28,7 @@ DEPENDENCIES="<=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
 	<=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	<=dev-python/httpcore-0.17.2[${PYTHON_USEDEP}]
-	dev-python/PyMySQL[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	<=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="<=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	<=dev-python/watchdog-2.1.9[${PYTHON_USEDEP}]
 	<=dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

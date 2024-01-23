@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/colorama-0.0[${PYTHON_USEDEP}]
 	dev-python/derpconf[${PYTHON_USEDEP}]
 	dev-python/libthumbor[${PYTHON_USEDEP}]
 	~dev-python/piexif-1.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.0[${PYTHON_USEDEP}]
 	~dev-python/statsd-4.0[${PYTHON_USEDEP}]
 	~dev-python/tornado-6.0[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/colorama-0.0[${PYTHON_USEDEP}]
 	dev-python/JpegIPTC[${PYTHON_USEDEP}]
 	all? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpy-1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	all? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pycurl-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow-avif-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/colorama-0.0[${PYTHON_USEDEP}]
 	opencv? ( ~dev-python/numpy-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/numpy-1.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
+	tests? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pycurl-7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pillow-avif-plugin[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )

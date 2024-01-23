@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask-AppBuilder[${PYTHON_USEDEP}]
-	dev-python/Flask-OIDC[${PYTHON_USEDEP}]
+	dev-python/flask-oidc[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

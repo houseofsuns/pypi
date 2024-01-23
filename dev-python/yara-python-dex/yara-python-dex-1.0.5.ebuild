@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface for YARA [topver 1.0.6]"
+DESCRIPTION="Python interface for YARA [topver 1.0.6, newver 1.0.6]"
 
 HOMEPAGE="https://github.com/MobSF/yara-python-dex"
 LICENSE="Apache-2.0"

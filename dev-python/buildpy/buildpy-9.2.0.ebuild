@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Make in Python [topver 9.4.0]"
+DESCRIPTION="Make in Python [topver 9.4.0, newver 9.4.0]"
 
 HOMEPAGE="https://github.com/kshramt/buildpy"
 LICENSE=""

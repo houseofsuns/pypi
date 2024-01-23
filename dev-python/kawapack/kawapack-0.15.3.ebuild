@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/UnityPy[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	dev-python/fsb5[${PYTHON_USEDEP}]"

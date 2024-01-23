@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/office365-rest-python-client[${PYTHON_USEDEP}]
+	dev-python/Office365-REST-Python-Client[${PYTHON_USEDEP}]
 	test? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
 	test? ( dev-python/drf-api-checker[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )

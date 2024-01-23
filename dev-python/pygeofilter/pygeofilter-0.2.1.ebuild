@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/dateparser[${PYTHON_USEDEP}]
 	backend-elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
 	backend-elasticsearch? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
 	backend-native? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	backend-sqlalchemy? ( dev-python/geoalchemy2[${PYTHON_USEDEP}] )
+	backend-sqlalchemy? ( dev-python/GeoAlchemy2[${PYTHON_USEDEP}] )
 	backend-sqlalchemy? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	fes? ( dev-python/pygml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

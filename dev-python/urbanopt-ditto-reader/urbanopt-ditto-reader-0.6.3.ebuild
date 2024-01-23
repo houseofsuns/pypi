@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/ditto-py[${PYTHON_USEDEP}]
-	dev-python/opendssdirect-py[${PYTHON_USEDEP}]
+	dev-python/OpenDSSDirect-py[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"

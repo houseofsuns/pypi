@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/WebOb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.2.12[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.4[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/distro-1.3.0[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]

@@ -33,7 +33,7 @@ DEPENDENCIES="dev? ( ~dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/freezegun-1.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

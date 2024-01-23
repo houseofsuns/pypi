@@ -27,6 +27,6 @@ IUSE="gui"
 DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]
 	dev-python/enlighten[${PYTHON_USEDEP}]
-	gui? ( dev-python/kivy[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/Kivy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

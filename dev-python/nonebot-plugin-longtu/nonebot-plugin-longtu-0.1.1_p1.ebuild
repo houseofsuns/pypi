@@ -27,6 +27,6 @@ IUSE="menu"
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.21.1[${PYTHON_USEDEP}]
-	menu? ( dev-python/nonebot-plugin-PicMenu[${PYTHON_USEDEP}] )"
+	menu? ( dev-python/nonebot-plugin-picmenu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

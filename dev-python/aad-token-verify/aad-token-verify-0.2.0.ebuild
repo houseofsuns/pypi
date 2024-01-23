@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

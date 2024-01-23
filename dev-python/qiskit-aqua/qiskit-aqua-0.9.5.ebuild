@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/qiskit-terra-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]
 	<dev-python/h5py-3.3.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/quandl[${PYTHON_USEDEP}]
+	dev-python/Quandl[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]
 	dev-python/retworkx[${PYTHON_USEDEP}]
 	cvx? ( dev-python/cvxpy[${PYTHON_USEDEP}] )

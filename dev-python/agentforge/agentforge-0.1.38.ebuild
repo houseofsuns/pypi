@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
@@ -40,9 +40,9 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/browse[${PYTHON_USEDEP}]
-	dev-python/kivy[${PYTHON_USEDEP}]
+	dev-python/Kivy[${PYTHON_USEDEP}]
 	~dev-python/flask-2.3.2[${PYTHON_USEDEP}]
-	other? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	other? ( ~dev-python/flask-2.3.1[${PYTHON_USEDEP}] )
 	other? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	other? ( ~dev-python/numpy-1.24.3[${PYTHON_USEDEP}] )
 	other? ( dev-python/torch[${PYTHON_USEDEP}] )

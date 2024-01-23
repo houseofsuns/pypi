@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

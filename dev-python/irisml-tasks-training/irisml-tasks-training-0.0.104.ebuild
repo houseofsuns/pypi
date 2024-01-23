@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azureml"
 DEPENDENCIES="dev-python/irisml[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]

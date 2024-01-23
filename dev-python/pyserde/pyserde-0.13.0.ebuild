@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all msgpack numpy orjson toml yaml"
-DEPENDENCIES="dev-python/typing_inspect[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/typing-inspect[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
 	dev-python/casefy[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )

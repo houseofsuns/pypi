@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/curlify2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/rich-12.2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

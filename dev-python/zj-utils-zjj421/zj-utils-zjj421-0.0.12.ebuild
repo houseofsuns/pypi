@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A personal kit [topver 0.0.22]"
+DESCRIPTION="A personal kit [topver 0.0.22, newver 0.0.22]"
 
 HOMEPAGE="https://github.com/zjj421/zj_utils"
 LICENSE=""

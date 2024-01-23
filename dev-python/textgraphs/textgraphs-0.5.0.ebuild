@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.2[${PYTHON_USEDEP}]
 	dev-python/open-nre[${PYTHON_USEDEP}]
-	dev-python/pulp[${PYTHON_USEDEP}]
+	dev-python/PuLP[${PYTHON_USEDEP}]
 	dev-python/pyinstrument[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
 	dev-python/qwikidata[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
 	demo? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	demo? ( dev-python/watermark[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/build-1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flask-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-git-revision-date-plugin[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-material-9.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )

@@ -37,8 +37,8 @@ DEPENDENCIES="<dev-python/starlette-1.0.0[${PYTHON_USEDEP}]
 	full? ( <dev-python/apispec-7.0[${PYTHON_USEDEP}] )
 	typesystem? ( dev-python/typesystem[${PYTHON_USEDEP}] )
 	full? ( dev-python/typesystem[${PYTHON_USEDEP}] )
-	database? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	full? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	database? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	client? ( <dev-python/httpx-0.25[${PYTHON_USEDEP}] )
 	full? ( <dev-python/httpx-0.25[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

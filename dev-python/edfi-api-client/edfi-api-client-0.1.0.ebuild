@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ed-Fi API client and tools [topver 0.2.0]"
+DESCRIPTION="Ed-Fi API client and tools [topver 0.2.0, newver 0.2.0]"
 
 HOMEPAGE="https://github.com/edanalytics/edfi_api_client"
 LICENSE=""

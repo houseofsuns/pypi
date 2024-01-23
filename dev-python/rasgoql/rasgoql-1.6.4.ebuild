@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bigquery mysql postgres redshift snowflake"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -34,11 +34,11 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
-	redshift? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	redshift? ( ~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )"

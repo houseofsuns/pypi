@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all test"
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.45[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
 	all? ( >=dev-python/h5py-3.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/black-19.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-5.1[${PYTHON_USEDEP}] )

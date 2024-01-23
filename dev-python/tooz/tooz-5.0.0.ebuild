@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/fasteners-0.7[${PYTHON_USEDEP}]
 	etcd3gw? ( dev-python/etcd3gw[${PYTHON_USEDEP}] )
 	ipc? ( dev-python/sysv-ipc[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-0.6.2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-3.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )

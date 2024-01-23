@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="What-If Tool jupyter widget [topver 1.8.1]"
+DESCRIPTION="What-If Tool jupyter widget [topver 1.8.1, newver 1.8.1]"
 
 HOMEPAGE="https://github.com/tensorflow/tensorboard/tree/master/tensorboard/plugins/interactive_inference"
 LICENSE="Apache-2.0"

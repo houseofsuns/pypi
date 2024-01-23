@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Graph AWS resources in Neptune [topver 6.4.25]"
+DESCRIPTION="Graph AWS resources in Neptune [topver 6.4.25, newver 6.4.25]"
 
 HOMEPAGE="https://github.com/tableau/altimeter"
 LICENSE=""

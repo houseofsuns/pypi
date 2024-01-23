@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Translate your translation files [topver 1.3.1]"
+DESCRIPTION="Translate your translation files [topver 1.3.1, newver 1.3.1]"
 
 HOMEPAGE="https://github.com/faissaloux/geranslator"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/termspark[${PYTHON_USEDEP}]
 	~dev-python/selenium-4.8.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django simple_settings"
-DEPENDENCIES="django? ( dev-python/Django[${PYTHON_USEDEP}] )
+DEPENDENCIES="django? ( >=dev-python/django-1.8[${PYTHON_USEDEP}] )
 	simple_settings? ( dev-python/simple-settings[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

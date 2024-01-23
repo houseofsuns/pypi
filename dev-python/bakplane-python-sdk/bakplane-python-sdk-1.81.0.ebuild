@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/farmhashpy[${PYTHON_USEDEP}]

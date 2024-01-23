@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli test"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/dogpile-cache-0.8.0[${PYTHON_USEDEP}]

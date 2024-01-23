@@ -39,6 +39,6 @@ DEPENDENCIES=">=dev-python/attrs-20.3[${PYTHON_USEDEP}]
 	test? ( dev-python/lipsum[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/tatsu[${PYTHON_USEDEP}] )"
+	test? ( dev-python/TatSu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/tutor[${PYTHON_USEDEP}]
-	dev-python/click_repl[${PYTHON_USEDEP}]
+	dev-python/click-repl[${PYTHON_USEDEP}]
 	dev? ( dev-python/tutor[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

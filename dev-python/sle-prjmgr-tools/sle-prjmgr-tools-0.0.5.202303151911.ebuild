@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs lint test"
 DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/osc[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]

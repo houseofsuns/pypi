@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pulp[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PuLP[${PYTHON_USEDEP}]
 	dev-python/pyschedule[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]

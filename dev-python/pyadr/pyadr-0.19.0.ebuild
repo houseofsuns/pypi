@@ -30,8 +30,8 @@ DEPENDENCIES="test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
 	bdd? ( dev-python/behave4git[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
-	bdd? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyhamcrest-3.0[${PYTHON_USEDEP}] )
+	bdd? ( <dev-python/pyhamcrest-3.0[${PYTHON_USEDEP}] )
 	lint? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( <dev-python/pydocstyle-7.0[${PYTHON_USEDEP}] )
@@ -44,12 +44,12 @@ DEPENDENCIES="test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	repl? ( <dev-python/bpython-1.0[${PYTHON_USEDEP}] )
 	<dev-python/cleo-1.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-7.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]"
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

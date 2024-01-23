@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES="dev-python/ZODB[${PYTHON_USEDEP}]
-	dev-python/ZConfig[${PYTHON_USEDEP}]
+	dev-python/zconfig[${PYTHON_USEDEP}]
 	dev-python/ZEO[${PYTHON_USEDEP}]
 	docs? ( dev-python/ZODB[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ZConfig[${PYTHON_USEDEP}] )
+	docs? ( dev-python/zconfig[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ZEO[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ZODB[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ZConfig[${PYTHON_USEDEP}] )
+	testing? ( dev-python/zconfig[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ZEO[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nose[${PYTHON_USEDEP}] )

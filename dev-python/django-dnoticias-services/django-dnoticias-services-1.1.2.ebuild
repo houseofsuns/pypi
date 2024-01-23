@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/django-dnoticias-services[${PYTHON_USEDEP}]
 	dev-python/django-redis-sessions[${PYTHON_USEDEP}]
 	~dev-python/hiredis-2.2.2[${PYTHON_USEDEP}]
-	dev-python/mozilla_django_oidc[${PYTHON_USEDEP}]
+	dev-python/mozilla-django-oidc[${PYTHON_USEDEP}]
 	dev-python/python-keycloak[${PYTHON_USEDEP}]
 	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"

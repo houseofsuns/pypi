@@ -28,8 +28,8 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/botocore-2.0[${PYTHON_USEDEP}]
 	<dev-python/humanize-0.6[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]"
+	dev-python/twisted[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

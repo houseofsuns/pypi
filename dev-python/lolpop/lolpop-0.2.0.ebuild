@@ -32,8 +32,8 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
 	yellowbrick? ( <dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
-	scikit-learn? ( dev-python/scikit_learn[${PYTHON_USEDEP}] )
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	google? ( ~dev-python/google-auth-2.16.1[${PYTHON_USEDEP}] )
 	google? ( <dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	prefect? ( dev-python/prefect[${PYTHON_USEDEP}] )
 	prefect? ( dev-python/prefect-docker[${PYTHON_USEDEP}] )
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	dbt-core? ( dev-python/dbt-core[${PYTHON_USEDEP}] )
 	dbt-core? ( dev-python/dbt-snowflake[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter panel streamlit"
 DEPENDENCIES="dev-python/ipyvizzu[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/IPython[${PYTHON_USEDEP}] )
+	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	panel? ( dev-python/panel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

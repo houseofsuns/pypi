@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs testing"
 DEPENDENCIES=">=dev-python/chardet-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.2[${PYTHON_USEDEP}]
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.3.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all core dev test"
-DEPENDENCIES="dev-python/qtpy[${PYTHON_USEDEP}]
-	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev-python/QtPy[${PYTHON_USEDEP}]
+	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	core? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	core? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

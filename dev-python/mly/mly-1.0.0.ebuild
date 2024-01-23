@@ -29,11 +29,11 @@ DEPENDENCIES="~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/gwpy[${PYTHON_USEDEP}]
 	dev-python/gwdatafind[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
-	dev-python/pycondor[${PYTHON_USEDEP}]
+	dev-python/PyCondor[${PYTHON_USEDEP}]
 	dev-python/dqsegdb2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/pycbc[${PYTHON_USEDEP}]
+	dev-python/PyCBC[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
 	dev-python/ligo-skymap[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

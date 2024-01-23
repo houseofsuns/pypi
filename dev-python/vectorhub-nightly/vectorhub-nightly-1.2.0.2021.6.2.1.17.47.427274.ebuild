@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all appdirs audio-encoder bert-for-tf2 clip clip-by-openai core encoders-audio-pytorch encoders-audio-tfhub encoders-code-transformers encoders-image encoders-image-cv2 encoders-image-fastai encoders-image-tf-face-detection encoders-image-tfhub encoders-text-sentence-transformers encoders-text-tf-transformers encoders-text-tfhub encoders-text-tfhub-windows encoders-text-torch-transformers encoders-video fairseq fastai_2-1-8 imageio librosa moviepy mtcnn numpy opencv-python pillow pytest pyyaml requests scikit-image sentence-transformers soundfile sphinx-rtd-theme_0-5-0 tensorflow tensorflow_hub tensorflow_text test tf-models-official torch_1-6-0 transformers vectorai"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/vectorai[${PYTHON_USEDEP}]
-	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	pyyaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	pillow? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	pyyaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/appdirs[${PYTHON_USEDEP}] )
 	all? ( dev-python/mtcnn[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/tf-models-official[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
 	all? ( dev-python/vectorai[${PYTHON_USEDEP}] )
@@ -62,10 +62,10 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	clip? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	clip? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	clip? ( dev-python/clip-by-openai[${PYTHON_USEDEP}] )
-	clip? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	clip? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	clip? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	clip-by-openai? ( dev-python/clip-by-openai[${PYTHON_USEDEP}] )
-	core? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	core? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	core? ( dev-python/requests[${PYTHON_USEDEP}] )
 	core? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	core? ( dev-python/vectorai[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	encoders-image-tf-face-detection? ( dev-python/mtcnn[${PYTHON_USEDEP}] )
 	encoders-image-tf-face-detection? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	encoders-image-tf-face-detection? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	encoders-image-tf-face-detection? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	encoders-image-tf-face-detection? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	encoders-image-tfhub? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	encoders-image-tfhub? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	encoders-image-tfhub? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

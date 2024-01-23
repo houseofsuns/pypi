@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bingo API for using with Elasticsearch [topver 1.18.0]"
+DESCRIPTION="Bingo API for using with Elasticsearch [topver 1.18.0, newver 1.18.0rc4]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/schematics[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.1[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

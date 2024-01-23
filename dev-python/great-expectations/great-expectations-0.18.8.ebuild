@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow athena aws_secrets azure azure_secrets bigquery clickhouse cloud databricks dremio excel gcp hive mssql mysql pagerduty postgresql redshift s3 snowflake spark teradata test trino vertica"
 DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
-	dev-python/Ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.16.3[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonpatch-1.22[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	<dev-python/makefun-2.0[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	arrow? ( dev-python/feather-format[${PYTHON_USEDEP}] )
 	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	athena? ( dev-python/pyathena[${PYTHON_USEDEP}] )
+	athena? ( dev-python/PyAthena[${PYTHON_USEDEP}] )
 	athena? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	aws_secrets? ( >=dev-python/boto3-1.17.106[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
@@ -96,7 +96,7 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	hive? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	mssql? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/pymysql-0.10[${PYTHON_USEDEP}] )
 	mysql? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	pagerduty? ( dev-python/pypd[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

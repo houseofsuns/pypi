@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="runner"
 DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
-	dev-python/quart[${PYTHON_USEDEP}]
+	dev-python/Quart[${PYTHON_USEDEP}]
 	dev-python/bovine[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	runner? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )

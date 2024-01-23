@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/Qt-py[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/PySide2[${PYTHON_USEDEP}]"
+	dev-python/pyside2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

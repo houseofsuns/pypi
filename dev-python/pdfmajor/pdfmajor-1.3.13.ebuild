@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="~dev-python/pycryptodome-3.8.2[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/tqdm-4.32.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-1.0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

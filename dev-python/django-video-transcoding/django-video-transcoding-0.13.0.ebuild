@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
-	dev-python/Celery[${PYTHON_USEDEP}]
+	dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/kombu-5.3.0[${PYTHON_USEDEP}]
 	dev-python/billiard[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]

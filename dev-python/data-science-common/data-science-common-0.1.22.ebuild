@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build dev"
 DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/types-tabulate[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]

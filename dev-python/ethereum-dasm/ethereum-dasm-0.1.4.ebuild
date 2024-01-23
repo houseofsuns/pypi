@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An ethereum bytecode disassembler with static and dynamic analysis features [topver 0.1.5]"
+DESCRIPTION="An ethereum bytecode disassembler with static and dynamic analysis features [topver 0.1.5, newver 0.1.5]"
 
 HOMEPAGE="https://github.com/tintinweb/ethereum-dasm"
 LICENSE="GPL-2"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/evmdasm[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	abidecoder? ( dev-python/ethereum-input-decoder[${PYTHON_USEDEP}] )
+	abidecoder? ( dev-python/ethereum_input_decoder[${PYTHON_USEDEP}] )
 	abidecoder? ( dev-python/pyetherchain[${PYTHON_USEDEP}] )
 	mythril? ( dev-python/mythril[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

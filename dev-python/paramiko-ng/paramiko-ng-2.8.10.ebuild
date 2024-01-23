@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ed25519 gssapi"
 DEPENDENCIES=">=dev-python/bcrypt-3.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.6[${PYTHON_USEDEP}]
-	ed25519? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
+	ed25519? ( dev-python/pynacl[${PYTHON_USEDEP}] )
 	gssapi? ( dev-python/gssapi[${PYTHON_USEDEP}] )
 	gssapi? ( dev-python/pyasn1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

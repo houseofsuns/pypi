@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	~dev-python/pygame-2.0.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/pymunk[${PYTHON_USEDEP}]
 	dev-python/python-ev3dev2[${PYTHON_USEDEP}]
 	dev-python/opensimplex[${PYTHON_USEDEP}]

@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/boto3-1.16[${PYTHON_USEDEP}]
 	dev-python/ibis-framework[${PYTHON_USEDEP}]
 	dev-python/ibis-framework[${PYTHON_USEDEP}]
 	dev-python/ibis-framework[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	apis? ( dev-python/openai[${PYTHON_USEDEP}] )
@@ -66,11 +66,11 @@ DEPENDENCIES=">=dev-python/boto3-1.16[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
-	quality? ( dev-python/types-pillow[${PYTHON_USEDEP}] )
+	quality? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
 	quality? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	quality? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	quality? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
-	quality? ( dev-python/monkeytype[${PYTHON_USEDEP}] )
+	quality? ( dev-python/MonkeyType[${PYTHON_USEDEP}] )
 	quality? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/black-23.3[${PYTHON_USEDEP}] )
 	quality? ( dev-python/interrogate[${PYTHON_USEDEP}] )

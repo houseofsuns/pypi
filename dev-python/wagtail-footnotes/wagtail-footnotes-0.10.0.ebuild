@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/Wagtail[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )

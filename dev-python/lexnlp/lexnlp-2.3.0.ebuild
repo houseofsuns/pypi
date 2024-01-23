@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/us[${PYTHON_USEDEP}]
 	dev-python/zahlwort2num[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-2.8.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytz-2015.7[${PYTHON_USEDEP}] )
-	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )

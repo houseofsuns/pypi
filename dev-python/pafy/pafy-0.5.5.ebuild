@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="youtube-dl-backend"
-DEPENDENCIES="youtube-dl-backend? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )"
+DEPENDENCIES="youtube-dl-backend? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

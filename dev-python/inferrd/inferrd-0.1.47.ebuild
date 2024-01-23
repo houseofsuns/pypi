@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/easysettings[${PYTHON_USEDEP}]
+	dev-python/EasySettings[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

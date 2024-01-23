@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pytest plugin accessing NHSDigital's APIM proxies [topver 3.3.11]"
+DESCRIPTION="Pytest plugin accessing NHSDigital's APIM proxies [topver 3.3.11, newver 3.3.11]"
 
 HOMEPAGE="https://github.com/NHSDigital/pytest-nhsd-apim"
 LICENSE="MIT"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.13.0[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/pyotp-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]

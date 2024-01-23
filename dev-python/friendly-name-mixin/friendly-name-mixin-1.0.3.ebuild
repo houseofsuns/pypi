@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mixin class for extracting friendly names from classes [topver 2.0.0]"
+DESCRIPTION="Mixin class for extracting friendly names from classes [topver 2.0.0, newver 2.0.0]"
 
 HOMEPAGE="https://github.com/petarmaric/friendly_name_mixin"
 LICENSE="BSD"

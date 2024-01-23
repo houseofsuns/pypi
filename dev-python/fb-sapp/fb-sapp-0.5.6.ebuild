@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/click-log-0.4.0[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/Flask-Cors[${PYTHON_USEDEP}]
+	~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	dev-python/Flask-GraphQL[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/graphene-sqlalchemy[${PYTHON_USEDEP}]
 	<dev-python/ipython-8.4.0[${PYTHON_USEDEP}]
 	~dev-python/munch-2.5.0[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-3.0.29[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.12.0[${PYTHON_USEDEP}]
 	dev-python/pyre-extensions[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.50[${PYTHON_USEDEP}]
 	~dev-python/traitlets-5.2.2[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/xxhash-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/zstandard-0.17.0[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-2.3.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

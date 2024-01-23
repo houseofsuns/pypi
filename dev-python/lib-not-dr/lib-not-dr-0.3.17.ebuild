@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev nuitka"
 DEPENDENCIES="dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	nuitka? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
-	nuitka? ( dev-python/nuitka[${PYTHON_USEDEP}] )"
+	nuitka? ( dev-python/Nuitka[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/uvloop[${PYTHON_USEDEP}]
-	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	pillow? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	aiofiles? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -95,7 +95,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-asyncio-0.23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentelemetry-instrumentation-grpc[${PYTHON_USEDEP}] )
-	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
@@ -250,7 +250,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-custom-exit-code[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-asyncio-0.23.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )

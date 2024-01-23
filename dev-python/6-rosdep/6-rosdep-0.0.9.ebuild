@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="we need rosdep [topver 0.1.0]"
+DESCRIPTION="we need rosdep [topver 0.1.0, newver 0.1.0]"
 
 HOMEPAGE="https://github.com/6-robot/6-rosdep"
 LICENSE="BSD"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.1[${PYTHON_USEDEP}]
 	dev-python/catkin-pkg[${PYTHON_USEDEP}]
 	dev-python/rosdistro[${PYTHON_USEDEP}]
 	dev-python/rospkg[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="diagram filters report"
-DEPENDENCIES="dev-python/quart[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Quart[${PYTHON_USEDEP}]
 	dev-python/pipen-args[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-2.0[${PYTHON_USEDEP}]
 	dev-python/pipen-log2file[${PYTHON_USEDEP}]

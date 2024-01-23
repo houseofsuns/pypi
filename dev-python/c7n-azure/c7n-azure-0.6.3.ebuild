@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Custodian - Azure Support [topver 0.7.33]"
+DESCRIPTION="Cloud Custodian - Azure Support [topver 0.7.33, newver 0.7.33]"
 
 HOMEPAGE="https://github.com/cloud-custodian/cloud-custodian"
 LICENSE="Apache-2.0"

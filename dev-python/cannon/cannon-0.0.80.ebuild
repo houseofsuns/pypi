@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/exscript[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Exscript[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
 	dev-python/traits[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]

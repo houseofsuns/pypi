@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
 	evaluate? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	evaluate? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	huggingface-hub? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
+	huggingface-hub? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )

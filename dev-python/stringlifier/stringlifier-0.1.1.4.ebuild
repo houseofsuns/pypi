@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/ipdb-0.13.4[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.50.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-0.3.6[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
 	dev-python/nagra-panorama-api[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-0.2.5[${PYTHON_USEDEP}]

@@ -27,12 +27,12 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-16.8[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	<dev-python/pyopenssl-20.0.0[${PYTHON_USEDEP}]
 	dev-python/py3dns[${PYTHON_USEDEP}]
 	<dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
 	>=dev-python/asn1crypto-0.24.0[${PYTHON_USEDEP}]
 	dev-python/acme[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-literal[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-modern-annotations[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-noqa[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-requirements[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-typechecking-import[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )

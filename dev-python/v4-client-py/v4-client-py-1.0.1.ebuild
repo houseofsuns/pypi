@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cython-0.30.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
-	dev-python/bip_utils[${PYTHON_USEDEP}]
-	dev-python/brownie[${PYTHON_USEDEP}]
+	dev-python/bip-utils[${PYTHON_USEDEP}]
+	dev-python/Brownie[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	<dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
-	dev-python/eth_keys[${PYTHON_USEDEP}]
+	dev-python/eth-keys[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]
 	<dev-python/mpmath-2.0.0[${PYTHON_USEDEP}]
@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	<dev-python/sympy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
-	dev-python/websocket_client[${PYTHON_USEDEP}]"
+	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

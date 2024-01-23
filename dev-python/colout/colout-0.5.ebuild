@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Color Up Arbitrary Command Output. [topver 0.12.1]"
+DESCRIPTION="Color Up Arbitrary Command Output. [topver 0.12.1, newver 0.12.0]"
 
 HOMEPAGE="http://nojhan.github.com/colout/"
 LICENSE="GNU GENERAL PUBLIC LICENSE"

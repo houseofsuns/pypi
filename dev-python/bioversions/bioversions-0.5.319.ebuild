@@ -44,6 +44,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	twitter? ( dev-python/tweepy[${PYTHON_USEDEP}] )
 	web? ( dev-python/flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/bootstrap-flask[${PYTHON_USEDEP}] )"
+	web? ( dev-python/Bootstrap-Flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -16,8 +16,8 @@ DESCRIPTION="Google OAuth 2.0 for Server to Server applications implementation. 
 
 HOMEPAGE="https://github.com/miedzinski/google-oauth2-service"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/f9/4d/bbf432c241095672133a4f22363c0e3937520e480f9e7bd6a3e330526c0f/${REALNAME}-1.0.1.tar.gz"
-SOURCEFILE="${REALNAME}-1.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

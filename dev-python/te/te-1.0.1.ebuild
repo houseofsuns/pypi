@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/certifi-2019.11.28[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]
+	~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/idna-2.8[${PYTHON_USEDEP}]
 	~dev-python/pendulum-2.0.5[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]

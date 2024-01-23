@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/beautifultable[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.800[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyhamcrest-2.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/behave[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )

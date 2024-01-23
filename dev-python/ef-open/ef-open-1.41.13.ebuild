@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES=">=dev-python/boto3-1.17.112[${PYTHON_USEDEP}]
 	<=dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/cfn-lint[${PYTHON_USEDEP}]
 	~dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.25.1[${PYTHON_USEDEP}]

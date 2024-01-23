@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
 	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

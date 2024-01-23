@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/py-cord[${PYTHON_USEDEP}]
 	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
-	dev-python/wave[${PYTHON_USEDEP}]
+	dev-python/Wave[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/demoji[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]

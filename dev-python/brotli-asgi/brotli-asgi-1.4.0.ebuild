@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test_brotli test_brotlipy"
 DEPENDENCIES=">=dev-python/starlette-0.25.0[${PYTHON_USEDEP}]
-	dev-python/brotli[${PYTHON_USEDEP}]
+	dev-python/Brotli[${PYTHON_USEDEP}]
 	test_brotli? ( >=dev-python/requests-2.23.0[${PYTHON_USEDEP}] )
 	test_brotli? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
 	test_brotlipy? ( >=dev-python/requests-2.23.0[${PYTHON_USEDEP}] )

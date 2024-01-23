@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="keystone kmip_keymaster kms_keymaster test"
-DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
-	dev-python/PyECLib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pastedeploy-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyeclib-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.0.2[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	>=dev-python/greenlet-0.3.2[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/xattr[${PYTHON_USEDEP}]
 	keystone? ( dev-python/keystonemiddleware[${PYTHON_USEDEP}] )
-	kmip_keymaster? ( dev-python/pykmip[${PYTHON_USEDEP}] )
+	kmip_keymaster? ( dev-python/PyKMIP[${PYTHON_USEDEP}] )
 	kms_keymaster? ( dev-python/castellan[${PYTHON_USEDEP}] )
 	kms_keymaster? ( >=dev-python/oslo-config-4.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )

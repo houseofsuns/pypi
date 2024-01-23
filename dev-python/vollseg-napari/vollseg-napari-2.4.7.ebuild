@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/vollseg[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
-	dev-python/pyqt6[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]

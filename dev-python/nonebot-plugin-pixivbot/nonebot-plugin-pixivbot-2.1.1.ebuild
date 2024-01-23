@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/nonebot_plugin_apscheduler[${PYTHON_USEDEP}]
+	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-access-control[${PYTHON_USEDEP}]
-	dev-python/nonebot-plugin-session[${PYTHON_USEDEP}]
+	dev-python/nonebot_plugin_session[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-session-orm[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-session-saa[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
 	dev-python/PixivPy-Async[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	dev-python/lazy[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/ssttkkl-nonebot-utils[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

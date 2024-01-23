@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	>=dev-python/more-itertools-8.2.0[${PYTHON_USEDEP}]
-	dev-python/tatsu[${PYTHON_USEDEP}]"
+	dev-python/TatSu[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cobra[${PYTHON_USEDEP}]
-	dev-python/Meneco[${PYTHON_USEDEP}]
+	dev-python/meneco[${PYTHON_USEDEP}]
 	dev-python/modelbase[${PYTHON_USEDEP}]
 	<dev-python/pipdeptree-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/python-libsbml[${PYTHON_USEDEP}]
 	dev-python/cycparser[${PYTHON_USEDEP}]
 	dev-python/gitchangelog[${PYTHON_USEDEP}]"

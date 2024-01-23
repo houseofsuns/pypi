@@ -29,19 +29,19 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyfftw[${PYTHON_USEDEP}]
+	dev-python/pyFFTW[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_fontawesome[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jonga[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipython-6.3.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/py2jn[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/cupy[${PYTHON_USEDEP}] )
-	gpu? ( dev-python/gputil[${PYTHON_USEDEP}] )
+	gpu? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/wurlitzer[${PYTHON_USEDEP}] )
 	optional? ( dev-python/numexpr[${PYTHON_USEDEP}] )
 	optional? ( dev-python/mpldatacursor[${PYTHON_USEDEP}] )

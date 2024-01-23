@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	<dev-python/boto3-1.7[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	<=dev-python/kombu-4.2[${PYTHON_USEDEP}]

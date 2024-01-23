@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/types-pyyaml[${PYTHON_USEDEP}]
+	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev-python/get-annotations[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]

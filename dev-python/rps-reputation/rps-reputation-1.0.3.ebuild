@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An implementation of the Roaring Penguin IP reputation reporting system. [topver 1.0.7]"
+DESCRIPTION="An implementation of the Roaring Penguin IP reputation reporting system. [topver 1.0.7, newver 1.0.7]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="GPL-3"

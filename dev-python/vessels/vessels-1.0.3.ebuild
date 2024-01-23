@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/shares[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask_cors[${PYTHON_USEDEP}]
-	dev-python/flask_limiter[${PYTHON_USEDEP}]
-	dev-python/flask_socketio[${PYTHON_USEDEP}]
+	dev-python/flask-cors[${PYTHON_USEDEP}]
+	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

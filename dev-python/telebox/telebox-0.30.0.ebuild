@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dataclass-factory[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/xcept[${PYTHON_USEDEP}]
-	codegen? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	codegen? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	server? ( <dev-python/cherrypy-19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

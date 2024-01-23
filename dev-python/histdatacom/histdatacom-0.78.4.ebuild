@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rx[${PYTHON_USEDEP}]
+	dev-python/Rx[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-beautifulsoup4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wemake-python-styleguide[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
+	dev? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pie[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-use-pathlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-no-implicit-concat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pytest-style[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Flake8-AAA[${PYTHON_USEDEP}] )
+	dev? ( dev-python/flake8-aaa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-spellcheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstring-checker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-cognitive-complexity[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-annotations-complexity[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cohesion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Darglint[${PYTHON_USEDEP}] )
+	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tryceratops[${PYTHON_USEDEP}] )
 	dev? ( dev-python/radon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )

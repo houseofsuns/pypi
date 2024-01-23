@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="coverage docs io test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
-	coverage? ( dev-python/Cython[${PYTHON_USEDEP}] )
+	coverage? ( dev-python/cython[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

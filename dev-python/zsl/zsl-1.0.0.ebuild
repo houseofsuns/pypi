@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alembic celery cli documentation gearman redis sentry"
-DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	dev-python/injector[${PYTHON_USEDEP}]
 	dev-python/python3-gearman[${PYTHON_USEDEP}]

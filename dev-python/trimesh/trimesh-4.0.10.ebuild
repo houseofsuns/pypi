@@ -27,7 +27,7 @@ IUSE="all easy recommend test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/trimesh[${PYTHON_USEDEP}] )
 	easy? ( dev-python/colorlog[${PYTHON_USEDEP}] )
-	easy? ( dev-python/mapbox-earcut[${PYTHON_USEDEP}] )
+	easy? ( dev-python/mapbox_earcut[${PYTHON_USEDEP}] )
 	easy? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	easy? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	easy? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	easy? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	easy? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	easy? ( dev-python/xxhash[${PYTHON_USEDEP}] )
-	easy? ( dev-python/rtree[${PYTHON_USEDEP}] )
+	easy? ( dev-python/Rtree[${PYTHON_USEDEP}] )
 	easy? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	easy? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	easy? ( dev-python/embreex[${PYTHON_USEDEP}] )

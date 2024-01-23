@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pymupdf[${PYTHON_USEDEP}]"
+	dev-python/PyMuPDF[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

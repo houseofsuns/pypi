@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/networktools[${PYTHON_USEDEP}]
-	dev-python/basic_logtools[${PYTHON_USEDEP}]
+	dev-python/basic-logtools[${PYTHON_USEDEP}]
 	<dev-python/validators-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.1[${PYTHON_USEDEP}]
-	dev-python/geoalchemy2[${PYTHON_USEDEP}]
+	dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-cache2[${PYTHON_USEDEP}]

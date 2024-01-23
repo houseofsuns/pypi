@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/supervisely[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.15.3[${PYTHON_USEDEP}] )

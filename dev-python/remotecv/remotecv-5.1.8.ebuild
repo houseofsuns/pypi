@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	dev-python/pyres[${PYTHON_USEDEP}]
 	~dev-python/redis-5.0[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
 	dev? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyres[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}] )

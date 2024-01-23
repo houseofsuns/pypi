@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python ETL library [topver 0.0.38]"
+DESCRIPTION="Python ETL library [topver 0.0.38, newver 0.0.38]"
 
 HOMEPAGE="https://github.com/Datawheel/bamboo-lib"
 LICENSE="All Rights Reserved"

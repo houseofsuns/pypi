@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/azure-mgmt-keyvault[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault[${PYTHON_USEDEP}]
 	dev-python/azure-graphrbac[${PYTHON_USEDEP}]
 	dev-python/azure-cli-core[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/azure-cli-command-modules-nspkg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/poetry-version[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
-	sqla? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	sqla? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	sqla? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
 	db? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
 	db? ( dev-python/databases[${PYTHON_USEDEP}] )

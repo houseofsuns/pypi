@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}]
 	dev-python/walkdir[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.6.0[${PYTHON_USEDEP}]
-	dev-python/semantic_version[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pypi-simple[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

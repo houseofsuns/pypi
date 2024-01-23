@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	dev-python/Flask-Cache[${PYTHON_USEDEP}]
 	dev-python/Flask-Principal[${PYTHON_USEDEP}]
 	dev-python/Flask-Testing[${PYTHON_USEDEP}]

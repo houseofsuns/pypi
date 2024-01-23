@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/superqt[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/microscope[${PYTHON_USEDEP}]
 	dev-python/pymmcore-plus[${PYTHON_USEDEP}]
 	dev-python/pymmcore-widgets[${PYTHON_USEDEP}]"

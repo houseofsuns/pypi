@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyYaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]

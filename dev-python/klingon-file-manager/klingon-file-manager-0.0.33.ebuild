@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/boto3-1.18[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.2[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.19[${PYTHON_USEDEP}]
-	dev-python/datetime[${PYTHON_USEDEP}]
+	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/uuid[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

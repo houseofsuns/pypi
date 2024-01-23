@@ -27,7 +27,7 @@ IUSE="airflow cli full"
 DEPENDENCIES="~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.4.2[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	airflow? ( dev-python/apache-airflow-providers-docker[${PYTHON_USEDEP}] )
 	cli? ( ~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}] )
 	cli? ( ~dev-python/cryptography-39.0.1[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/pyopenssl-23.1.1[${PYTHON_USEDEP}] )
 	cli? ( ~dev-python/PyGithub-1.55[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
 	cli? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	full? ( ~dev-python/bottle-0.12.25[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/cryptography-39.0.1[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pyopenssl-23.1.1[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/PyGithub-1.55[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/kubernetes[${PYTHON_USEDEP}] )

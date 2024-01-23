@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/Mako[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/markdown-3.0.0[${PYTHON_USEDEP}]
+	>dev-python/mako-1.2.2[${PYTHON_USEDEP}]
 	dev-python/hug[${PYTHON_USEDEP}]
-	dev-python/docstring_parser[${PYTHON_USEDEP}]"
+	dev-python/docstring-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

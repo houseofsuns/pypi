@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	>=dev-python/more-itertools-8.6[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/ouster-mapping[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylsp-mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-lsp-server[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.17.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )

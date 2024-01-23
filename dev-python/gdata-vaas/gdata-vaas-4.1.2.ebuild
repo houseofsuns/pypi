@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/websockets-10.4[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
-	dev-python/authlib[${PYTHON_USEDEP}]
+	dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

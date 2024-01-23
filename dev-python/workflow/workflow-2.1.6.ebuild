@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/autosemver[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
-	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.4.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mock-1.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/autosemver[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-cov-1.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mock-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )

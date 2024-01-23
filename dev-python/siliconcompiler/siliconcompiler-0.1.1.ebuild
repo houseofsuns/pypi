@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A compiler framework that automates translation from source code to silicon. [topver 0.19.0]"
+DESCRIPTION="A compiler framework that automates translation from source code to silicon. [topver 0.19.0, newver 0.19.0]"
 
 HOMEPAGE="https://siliconcompiler.com"
 LICENSE="Apache-2.0"
@@ -27,7 +27,7 @@ IUSE="build docs test"
 DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	build? ( >=dev-python/scikit-build-0.12[${PYTHON_USEDEP}] )
 	build? ( dev-python/cython[${PYTHON_USEDEP}] )
 	build? ( dev-python/cmake[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )

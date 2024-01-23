@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/pytest-base-url[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/selenium-4.10.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-6.0.0[${PYTHON_USEDEP}]
-	appium? ( dev-python/appium-python-client[${PYTHON_USEDEP}] )
+	appium? ( dev-python/Appium-Python-Client[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

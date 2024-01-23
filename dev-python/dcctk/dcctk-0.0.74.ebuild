@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/cqls[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/hanziPhon[${PYTHON_USEDEP}]
+	dev-python/hanziphon[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	all? ( dev-python/holoviews[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/colorcet[${PYTHON_USEDEP}] )
-	all? ( dev-python/opencc[${PYTHON_USEDEP}] )
+	all? ( dev-python/OpenCC[${PYTHON_USEDEP}] )
 	all? ( dev-python/yellowbrick[${PYTHON_USEDEP}] )
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	colab? ( dev-python/datashader[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	colab? ( dev-python/colorcet[${PYTHON_USEDEP}] )
 	sense? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	sense? ( dev-python/torch[${PYTHON_USEDEP}] )
-	sense? ( dev-python/opencc[${PYTHON_USEDEP}] )
+	sense? ( dev-python/OpenCC[${PYTHON_USEDEP}] )
 	sense? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	sense? ( dev-python/yellowbrick[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

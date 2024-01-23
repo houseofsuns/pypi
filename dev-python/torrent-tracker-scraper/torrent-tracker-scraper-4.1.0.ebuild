@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A UDP torrent tracker scraper written in Python 3"
+DESCRIPTION="A UDP torrent tracker scraper written in Python 3 [newver 4.0.0]"
 
 HOMEPAGE="https://github.com/49e94b8f256530dc0d41f740dfe8a4c1/torrent-tracker-scraper"
 LICENSE=""

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/arcaflow-lib-kubernetes[${PYTHON_USEDEP}]
 	dev-python/base64io[${PYTHON_USEDEP}]
 	dev-python/kubeconfig[${PYTHON_USEDEP}]

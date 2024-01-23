@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/heptapod[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]
 	dev-python/hg-loggingmod[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/importlib_resources[${PYTHON_USEDEP}]
+	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/spdx-lookup[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

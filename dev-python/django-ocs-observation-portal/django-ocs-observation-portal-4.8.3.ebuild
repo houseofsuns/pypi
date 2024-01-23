@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/APScheduler-3.8[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/cerberus-2.0[${PYTHON_USEDEP}]
 	<dev-python/django-5.0[${PYTHON_USEDEP}]
@@ -49,8 +49,8 @@ DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	<dev-python/redis-4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/time_intervals[${PYTHON_USEDEP}]
+	dev-python/time-intervals[${PYTHON_USEDEP}]
 	<dev-python/uritemplate-5.0.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

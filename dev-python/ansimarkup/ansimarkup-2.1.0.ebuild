@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="benchmark test"
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/colr[${PYTHON_USEDEP}] )
+	benchmark? ( dev-python/Colr[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pastel[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/plumbum[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/rich[${PYTHON_USEDEP}] )

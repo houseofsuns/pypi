@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES="~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
 	~dev-python/pid-3.0.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/setuptools-scm-8.0.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )

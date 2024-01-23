@@ -44,9 +44,9 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-4.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -65,7 +65,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	aws? ( <dev-python/fsspec-2023.10.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	azure? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	azure? ( >=dev-python/sqlalchemy-1.4.19[${PYTHON_USEDEP}] )
 	azure? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	azure? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	bytewax? ( dev-python/bytewax[${PYTHON_USEDEP}] )
@@ -96,13 +96,13 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	ci? ( ~dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
 	ci? ( ~dev-python/pytest-ordering-0.6.0[${PYTHON_USEDEP}] )
 	ci? ( ~dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
-	ci? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
 	ci? ( dev-python/firebase-admin[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	ci? ( dev-python/assertpy[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pybindgen[${PYTHON_USEDEP}] )
+	ci? ( dev-python/PyBindGen[${PYTHON_USEDEP}] )
 	ci? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	ci? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	ci? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
@@ -138,7 +138,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	ci? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	ci? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	ci? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	ci? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/sqlalchemy-1.4.19[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	ci? ( dev-python/rockset[${PYTHON_USEDEP}] )
@@ -169,13 +169,13 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-ordering-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/firebase-admin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/assertpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pybindgen[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyBindGen[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
@@ -211,7 +211,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sqlalchemy-1.4.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rockset[${PYTHON_USEDEP}] )
@@ -240,13 +240,13 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pytest-ordering-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
 	docs? ( dev-python/firebase-admin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/assertpy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pybindgen[${PYTHON_USEDEP}] )
+	docs? ( dev-python/PyBindGen[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
@@ -279,7 +279,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	docs? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	docs? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	docs? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sqlalchemy-1.4.19[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rockset[${PYTHON_USEDEP}] )

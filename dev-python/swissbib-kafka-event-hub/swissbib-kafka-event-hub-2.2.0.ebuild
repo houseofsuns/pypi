@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/kafka-python[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/Sickle[${PYTHON_USEDEP}]
-	dev-python/PyMongo[${PYTHON_USEDEP}]
+	dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/simple-elastic[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]"

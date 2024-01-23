@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A plugin for babel to work with angular-gettext templates [topver 0.3]"
+DESCRIPTION="A plugin for babel to work with angular-gettext templates [topver 0.3, newver 0.3]"
 
 HOMEPAGE="https://github.com/neillc/angular-gettext-babel"
 LICENSE="Apache-2.0"

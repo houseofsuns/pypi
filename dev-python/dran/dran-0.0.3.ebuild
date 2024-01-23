@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data reduction and analysis of HartRAO 26m telescope drift scans [topver 0.1.1]"
+DESCRIPTION="Data reduction and analysis of HartRAO 26m telescope drift scans [topver 0.1.1, newver 0.0.44]"
 
 HOMEPAGE="https://github.com/Pfesi/dran"
 LICENSE=""

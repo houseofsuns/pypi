@@ -16,8 +16,8 @@ DESCRIPTION="A reusable app that provides better app integration with AngularJS.
 
 HOMEPAGE="http://github.com/appliedsec/djangular"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/5f/42/ef4567e4a95ec7f1f302f874f3f91175d4849515c364dbeff6176b660b4f/${REALNAME}-0.3.0b1.tar.gz"
-SOURCEFILE="${REALNAME}-0.3.0b1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

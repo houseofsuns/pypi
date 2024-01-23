@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
-	dev-python/sphinx-design[${PYTHON_USEDEP}]
+	dev-python/sphinx_design[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.58.0[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]

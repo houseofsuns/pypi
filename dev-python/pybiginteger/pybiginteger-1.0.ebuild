@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="C++ port of the C# BigInteger class [topver 1.3.3]"
+DESCRIPTION="C++ port of the C# BigInteger class [topver 1.3.3, newver 1.3.3]"
 
 HOMEPAGE="https://github.com/CityOfZion/pybiginteger"
 LICENSE=""

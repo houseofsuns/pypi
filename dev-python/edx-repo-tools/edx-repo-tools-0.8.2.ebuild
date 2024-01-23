@@ -38,10 +38,10 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	dev-python/itemloaders[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-9.1.0[${PYTHON_USEDEP}]
-	dev-python/protego[${PYTHON_USEDEP}]
+	dev-python/Protego[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
-	dev-python/urlobject[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/URLObject[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	~dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
 	~dev-python/py-1.11.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
@@ -63,7 +63,7 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
-	dev-python/pydispatcher[${PYTHON_USEDEP}]
+	dev-python/PyDispatcher[${PYTHON_USEDEP}]
 	~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/service-identity-23.1.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.7[${PYTHON_USEDEP}]
@@ -91,7 +91,7 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/exceptiongroup-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/tox-3.28.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}]
 	dev-python/statistics[${PYTHON_USEDEP}]
 	~dev-python/requests-file-1.5.1[${PYTHON_USEDEP}]
@@ -169,7 +169,7 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ghapi[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/github3-py-4.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
@@ -180,7 +180,7 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/itemadapter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/itemloaders[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jira[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/kiwisolver-1.4.4[${PYTHON_USEDEP}] )
@@ -211,12 +211,12 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/platformdirs-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pluggy-1.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protego[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Protego[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyasn1-modules-0.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycparser-2.21[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydispatcher[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyDispatcher[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyee[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pygments-2.15.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}] )
@@ -245,7 +245,7 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/rich-13.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ruamel-yaml-clib-0.2.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scrapy[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/service-identity-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/smmap-5.0.0[${PYTHON_USEDEP}] )
@@ -260,12 +260,12 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/tox-3.28.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twisted-22.10.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/typing-extensions-4.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tzdata-2023.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/urllib3-2.0.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urlobject[${PYTHON_USEDEP}] )
+	dev? ( dev-python/URLObject[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/virtualenv-20.23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/volatile[${PYTHON_USEDEP}] )
 	dev? ( dev-python/w3lib[${PYTHON_USEDEP}] )

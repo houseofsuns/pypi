@@ -27,7 +27,7 @@ IUSE="all beaker datasets dev examples fairscale flax gs torch transformers wand
 DEPENDENCIES="dev-python/cached-path[${PYTHON_USEDEP}]
 	dev-python/rjsonnet[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/cached-path[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )

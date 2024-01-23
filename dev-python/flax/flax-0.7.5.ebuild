@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/tensorstore[${PYTHON_USEDEP}]
 	>=dev-python/rich-11.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

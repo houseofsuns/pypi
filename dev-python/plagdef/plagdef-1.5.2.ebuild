@@ -43,6 +43,6 @@ DEPENDENCIES="<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/urlextract[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	dev-python/Werkzeug[${PYTHON_USEDEP}]"
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

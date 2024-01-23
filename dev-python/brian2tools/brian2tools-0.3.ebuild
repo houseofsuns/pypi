@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/matplotlib-1.3.1[${PYTHON_USEDEP}]
-	dev-python/brian2[${PYTHON_USEDEP}]
+	dev-python/Brian2[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/pylems[${PYTHON_USEDEP}]
+	dev-python/PyLEMS[${PYTHON_USEDEP}]
 	dev-python/libNeuroML[${PYTHON_USEDEP}]
 	dev-python/markdown-strings[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.7[${PYTHON_USEDEP}] )

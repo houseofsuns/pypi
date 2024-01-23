@@ -27,8 +27,8 @@ IUSE="development documentation plotting testing"
 DEPENDENCIES="dev-python/adcircpy[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	plotting? ( dev-python/cartopy[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/cartopy[${PYTHON_USEDEP}] )
+	plotting? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
+	documentation? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	dev-python/chaospy[${PYTHON_USEDEP}]
 	plotting? ( dev-python/cmocean[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/cmocean[${PYTHON_USEDEP}] )
@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/adcircpy[${PYTHON_USEDEP}]
 	documentation? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/pint-pandas[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
+	dev-python/Pint-Pandas[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-2.6[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/typepigeon[${PYTHON_USEDEP}]

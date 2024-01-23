@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/dclab[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.9.0[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.10.3[${PYTHON_USEDEP}]
-	dev-python/nptdms[${PYTHON_USEDEP}]
+	dev-python/npTDMS[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

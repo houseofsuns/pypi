@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Additional Qt Widgets for Enaml [topver 0.6.3]"
+DESCRIPTION="Additional Qt Widgets for Enaml [topver 0.6.3, newver 0.6.3]"
 
 HOMEPAGE="https://github.com/frmdstryr/enamlx"
 LICENSE=""

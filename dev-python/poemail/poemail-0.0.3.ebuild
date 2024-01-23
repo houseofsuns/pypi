@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyEmail[${PYTHON_USEDEP}]
-	dev-python/Deprecated[${PYTHON_USEDEP}]
+	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/pofile[${PYTHON_USEDEP}]
 	dev-python/pocode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

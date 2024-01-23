@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/colour-0.2.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/qasync[${PYTHON_USEDEP}]
 	dev-python/sunpy[${PYTHON_USEDEP}]
-	dev-python/QtAwesome[${PYTHON_USEDEP}]
+	<dev-python/qtawesome-2.0.0[${PYTHON_USEDEP}]
 	dev-python/qfitswidget[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

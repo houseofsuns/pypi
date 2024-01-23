@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scalable library for exploring and analyzing genomic data. [topver 0.2.127]"
+DESCRIPTION="Scalable library for exploring and analyzing genomic data. [topver 0.2.127, newver 0.2.127]"
 
 HOMEPAGE="https://hail.is"
 LICENSE=""
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/aiohttp-3.7[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-0.26[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-0.1.11[${PYTHON_USEDEP}]
 	<dev-python/requests-2.21.1[${PYTHON_USEDEP}]

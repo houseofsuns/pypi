@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/anyconfig[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	test? ( dev-python/trufflehog[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/truffleHog[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/wheel-0.32.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/lmfit-0.9.2[${PYTHON_USEDEP}]
 	GUI? ( >=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}] )
 	GUI? ( >=dev-python/sympy-1.1.1[${PYTHON_USEDEP}] )
 	GUI? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	GUI? ( dev-python/wxPython[${PYTHON_USEDEP}] )"
+	GUI? ( >=dev-python/wxpython-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

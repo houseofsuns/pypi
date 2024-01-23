@@ -56,7 +56,7 @@ DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-3.1.1[${PYTHON_USEDEP}]
 	~dev-python/deepdiff-4.0.6[${PYTHON_USEDEP}]
-	dev-python/pypika[${PYTHON_USEDEP}]
+	dev-python/PyPika[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.10.1[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
 	dev-python/singleton-decorator[${PYTHON_USEDEP}]
@@ -93,7 +93,7 @@ DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/ordered-set-3.1.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/deepdiff-4.0.6[${PYTHON_USEDEP}] )
-	all? ( dev-python/pypika[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyPika[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/statsmodels-0.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/glom[${PYTHON_USEDEP}] )
 	all? ( dev-python/singleton-decorator[${PYTHON_USEDEP}] )

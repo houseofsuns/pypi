@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs numpy tests"
-DEPENDENCIES="all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-rtd-theme-0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.2[${PYTHON_USEDEP}] )
 	numpy? ( >=dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

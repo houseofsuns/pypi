@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilize several market-data APIs in production-ready format for real-time and simulated market analysis. [topver 1.11]"
+DESCRIPTION="Utilize several market-data APIs in production-ready format for real-time and simulated market analysis. [topver 1.11, newver 1.11]"
 
 HOMEPAGE="https://github.com/your-username/your-package-repo"
 LICENSE=""

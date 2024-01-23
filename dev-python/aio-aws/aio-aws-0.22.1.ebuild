@@ -27,7 +27,7 @@ IUSE="aioredis all databases docs redis"
 DEPENDENCIES="dev-python/s3fs[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-23.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	all? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/s3fs[${PYTHON_USEDEP}]
 	aioredis? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/databases[${PYTHON_USEDEP}] )
 	databases? ( dev-python/databases[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autoapi-3.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )

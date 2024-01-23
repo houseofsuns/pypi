@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="proxy"
-DEPENDENCIES="proxy? ( dev-python/pysocks[${PYTHON_USEDEP}] )"
+DEPENDENCIES="proxy? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

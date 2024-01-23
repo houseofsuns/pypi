@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	<dev-python/django-3.3.0[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-knox[${PYTHON_USEDEP}]
 	dev-python/django-rest-passwordreset[${PYTHON_USEDEP}]
@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2022.7[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	dev-python/channels-redis[${PYTHON_USEDEP}]
-	dev-python/Twisted[${PYTHON_USEDEP}]"
+	~dev-python/twisted-22.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

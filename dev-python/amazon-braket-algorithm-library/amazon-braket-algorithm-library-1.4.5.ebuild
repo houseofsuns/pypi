@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
-	dev-python/pennylane[${PYTHON_USEDEP}]
+	dev-python/PennyLane[${PYTHON_USEDEP}]
 	dev-python/openfermion[${PYTHON_USEDEP}]
 	test? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	test? ( <=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )

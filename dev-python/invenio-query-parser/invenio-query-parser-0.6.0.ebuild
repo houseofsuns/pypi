@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs elasticsearch tests"
-DEPENDENCIES="dev-python/pypeg2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyPEG2[${PYTHON_USEDEP}]
 	dev-python/ordereddict[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )

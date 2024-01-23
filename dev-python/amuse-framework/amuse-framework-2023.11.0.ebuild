@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mpi"
 DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]
+	dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	>=dev-python/pip-19.0.0[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.32[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.6[${PYTHON_USEDEP}]

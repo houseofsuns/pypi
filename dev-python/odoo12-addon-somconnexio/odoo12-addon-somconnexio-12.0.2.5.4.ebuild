@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/correos-preregistro[${PYTHON_USEDEP}]
 	dev-python/correos-seguimiento[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
-	dev-python/faker[${PYTHON_USEDEP}]
+	~dev-python/Faker-9.3.1[${PYTHON_USEDEP}]
 	dev-python/hashids[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-account-asset-management[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-account-banking-sepa-credit-transfer[${PYTHON_USEDEP}]

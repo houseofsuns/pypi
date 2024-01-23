@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/netCDF4[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.6.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	dev-python/ussa1976[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2022.12.0[${PYTHON_USEDEP}]"

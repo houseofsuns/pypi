@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	all? ( dev-python/mockito[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyhamcrest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/mockito[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pyhamcrest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

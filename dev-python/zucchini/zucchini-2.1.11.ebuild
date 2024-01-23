@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/smmap2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.42[${PYTHON_USEDEP}]

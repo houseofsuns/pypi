@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="dragonffi static python bindings [topver 0.9.3]"
+DESCRIPTION="dragonffi static python bindings [topver 0.9.3, newver 0.9.3]"
 
 HOMEPAGE="https://github.com/aguinet/dragonffi"
 LICENSE="Apache-2.0"

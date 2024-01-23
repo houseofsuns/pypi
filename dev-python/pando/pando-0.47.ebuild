@@ -27,8 +27,8 @@ IUSE="fcgi"
 DEPENDENCIES=">=dev-python/python-mimeparse-0.1.4[${PYTHON_USEDEP}]
 	dev-python/first[${PYTHON_USEDEP}]
 	dev-python/state-chain[${PYTHON_USEDEP}]
-	dev-python/filesystem-tree[${PYTHON_USEDEP}]
-	dev-python/dependency-injection[${PYTHON_USEDEP}]
+	dev-python/filesystem_tree[${PYTHON_USEDEP}]
+	dev-python/dependency_injection[${PYTHON_USEDEP}]
 	dev-python/aspen[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	fcgi? ( dev-python/flup[${PYTHON_USEDEP}] )"

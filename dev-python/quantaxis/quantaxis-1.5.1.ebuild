@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QUANTAXIS:Quantitative Financial Strategy Framework [topver 2.0.0]"
+DESCRIPTION="QUANTAXIS:Quantitative Financial Strategy Framework [topver 2.0.0, newver 2.0.0.dev33]"
 
 HOMEPAGE="https://github.com/quantaxis/quantaxis"
 LICENSE="MIT"
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	dev-python/tushare[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.8.1[${PYTHON_USEDEP}]
 	dev-python/pyconvert[${PYTHON_USEDEP}]

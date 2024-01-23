@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/alex-ber-utils[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-assume[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-mock-3.3.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/packaging-20.4[${PYTHON_USEDEP}] )

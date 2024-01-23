@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the Delta Chat Core library using CFFI against the Rust-implemented libdeltachat [topver 1.133.1]"
+DESCRIPTION="Python bindings for the Delta Chat Core library using CFFI against the Rust-implemented libdeltachat [topver 1.133.1, newver 1.133.1]"
 
 HOMEPAGE=""
 LICENSE=""

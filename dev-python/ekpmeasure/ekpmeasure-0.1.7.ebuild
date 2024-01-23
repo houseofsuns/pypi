@@ -28,8 +28,8 @@ DEPENDENCIES=">=dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
-	dev-python/pyvisa[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
+	dev-python/PyVISA[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.22.0[${PYTHON_USEDEP}]
 	dev-python/igor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

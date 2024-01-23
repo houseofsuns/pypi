@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/simple-slurm[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]
 	dev-python/python-igraph[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]"

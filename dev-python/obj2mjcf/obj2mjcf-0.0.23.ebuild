@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev testing"
 DEPENDENCIES=">=dev-python/trimesh-3.15.5[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	dev-python/mujoco[${PYTHON_USEDEP}]
 	dev-python/tyro[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

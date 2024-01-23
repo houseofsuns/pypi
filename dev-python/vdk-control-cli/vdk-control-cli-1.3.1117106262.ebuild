@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/vdk-control-service-api[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/vdk-control-api-auth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

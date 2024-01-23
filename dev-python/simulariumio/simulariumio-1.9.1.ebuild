@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="benchmark cellpack dev docs lint mcell md physicell test tutorial"
 DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]
+	dev-python/Pint[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/awscli[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/quilt3[${PYTHON_USEDEP}] )
 	cellpack? ( dev-python/cellpack[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2022.4.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

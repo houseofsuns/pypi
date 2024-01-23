@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs examples"
-DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
@@ -34,13 +34,13 @@ DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
 	examples? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	examples? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	examples? ( dev-python/qtpy[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	examples? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	examples? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	examples? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	examples? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	examples? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	examples? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	examples? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )

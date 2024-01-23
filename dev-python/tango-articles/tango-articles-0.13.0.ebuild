@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/twitter[${PYTHON_USEDEP}]
 	dev-python/tango-voting[${PYTHON_USEDEP}]
 	dev-python/tango-photos[${PYTHON_USEDEP}]
 	>=dev-python/typogrify-2.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]"
+	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

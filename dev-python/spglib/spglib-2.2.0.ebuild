@@ -27,7 +27,7 @@ IUSE="dev doc docs test test-benchmark test-cov testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-bibtex-2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )

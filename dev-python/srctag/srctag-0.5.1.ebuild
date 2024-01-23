@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="embedding"
 DEPENDENCIES="dev-python/chromadb[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0[${PYTHON_USEDEP}]

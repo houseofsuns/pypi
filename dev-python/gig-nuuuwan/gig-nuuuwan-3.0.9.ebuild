@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/RapidFuzz[${PYTHON_USEDEP}]
+	dev-python/rapidfuzz[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/utils-nuuuwan[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

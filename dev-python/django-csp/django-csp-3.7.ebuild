@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jinja2 tests"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/django-1.8[${PYTHON_USEDEP}]
+	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flakes[${PYTHON_USEDEP}] )
@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	tests? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mock-1.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/six-1.12.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

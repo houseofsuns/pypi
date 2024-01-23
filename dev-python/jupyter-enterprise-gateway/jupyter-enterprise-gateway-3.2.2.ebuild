@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="lint test"
 DEPENDENCIES=">=dev-python/docker-3.5.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/jupyter-client-7.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-core-4.7.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-2.0[${PYTHON_USEDEP}]

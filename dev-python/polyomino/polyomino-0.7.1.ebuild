@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/exact-cover[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/exact_cover[${PYTHON_USEDEP}]
 	dev-python/pretty-poly[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

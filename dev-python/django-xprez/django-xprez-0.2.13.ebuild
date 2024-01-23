@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/html5lib-1.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.5.3[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/sorl-thumbnail[${PYTHON_USEDEP}]
 	>=dev-python/django-3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/bilby-cython[${PYTHON_USEDEP}]
 	all? ( dev-python/lalsuite[${PYTHON_USEDEP}] )
 	all? ( dev-python/gwpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/tables[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/nflows[${PYTHON_USEDEP}] )
 	all? ( dev-python/celerite[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/bilby-cython[${PYTHON_USEDEP}]
 	gw? ( dev-python/lalsuite[${PYTHON_USEDEP}] )
 	gw? ( dev-python/gwpy[${PYTHON_USEDEP}] )
 	gw? ( dev-python/tables[${PYTHON_USEDEP}] )
-	gw? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
+	gw? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	gw? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	mcmc? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	mcmc? ( dev-python/nflows[${PYTHON_USEDEP}] )"

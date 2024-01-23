@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

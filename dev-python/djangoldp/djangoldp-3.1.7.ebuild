@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="crypto dev"
 DEPENDENCIES="~dev-python/django-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
-	dev-python/pyld[${PYTHON_USEDEP}]
+	dev-python/PyLD[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]

@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/sigtools[${PYTHON_USEDEP}]
 	datetime? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/repeated-test[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pygments[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pygments[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

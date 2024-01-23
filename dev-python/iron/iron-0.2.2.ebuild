@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="iron: the powerful but simple build tool using flows. [topver 0.3.0]"
+DESCRIPTION="iron: the powerful but simple build tool using flows. [topver 0.3.0, newver 0.3.0]"
 
 HOMEPAGE="https://github.com/nvie/iron"
 LICENSE="BSD"
@@ -27,11 +27,11 @@ IUSE="all html jinja2 watch"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	all? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	html? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	watch? ( dev-python/watch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	docs? ( dev-python/AutoMacDoc[${PYTHON_USEDEP}] )
+	docs? ( dev-python/automacdoc[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/livereload-2.6.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )

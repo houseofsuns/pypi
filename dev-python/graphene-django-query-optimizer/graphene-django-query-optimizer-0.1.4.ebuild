@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="filter"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	filter? ( >=dev-python/django-filter-21.1[${PYTHON_USEDEP}] )
 	dev-python/django-settings-holder[${PYTHON_USEDEP}]"

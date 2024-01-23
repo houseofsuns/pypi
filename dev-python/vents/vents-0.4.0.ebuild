@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/clipped[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.7[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp cli docs flask swagger-ui tests"
 DEPENDENCIES="<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/inflection-0.6[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
+	aiohttp? ( >=dev-python/markupsafe-0.23[${PYTHON_USEDEP}] )
 	cli? ( dev-python/clickclick[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autoapi-1.8.1[${PYTHON_USEDEP}] )
 	flask? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )

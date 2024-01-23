@@ -29,9 +29,9 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.7[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/qtpy[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.10.0[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-1.9[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyside2? ( >=dev-python/pyside2-5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )

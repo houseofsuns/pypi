@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/iWAN[${PYTHON_USEDEP}]
-	dev-python/iWAN-Request[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/iwan[${PYTHON_USEDEP}]
+	dev-python/iwan-request[${PYTHON_USEDEP}]
 	dev-python/pubkey2address[${PYTHON_USEDEP}]
 	dev-python/substrate-interface[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-0.58.0[${PYTHON_USEDEP}]

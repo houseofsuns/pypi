@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
+	~dev-python/pyside6-6.6[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
 	dev-python/django-eventtools[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap5[${PYTHON_USEDEP}]
-	dev-python/Django[${PYTHON_USEDEP}]
+	<dev-python/django-5.1[${PYTHON_USEDEP}]
 	dev-python/geocoder[${PYTHON_USEDEP}]
 	~dev-python/icalendar-5.0[${PYTHON_USEDEP}]
 	dev-python/wagtail[${PYTHON_USEDEP}]

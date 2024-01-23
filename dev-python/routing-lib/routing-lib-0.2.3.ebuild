@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/Shapely[${PYTHON_USEDEP}]
-	dev-python/Fiona[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.8.5[${PYTHON_USEDEP}]
+	dev-python/fiona[${PYTHON_USEDEP}]
+	dev-python/Rtree[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/pygeos[${PYTHON_USEDEP}]
 	dev-python/scikit-mobility[${PYTHON_USEDEP}]

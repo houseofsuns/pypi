@@ -31,11 +31,11 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/pyomo[${PYTHON_USEDEP}]
+	dev-python/Pyomo[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/myst-parser-0.14.0[${PYTHON_USEDEP}] )

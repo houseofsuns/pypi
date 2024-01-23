@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Minimal XML signature and verification, intended for use with SAML2 [topver 23.3]"
+DESCRIPTION="Minimal XML signature and verification, intended for use with SAML2 [topver 23.3, newver 23.3]"
 
 HOMEPAGE="https://github.com/HENNGE/minisignxml"
 LICENSE="Apache-2.0"

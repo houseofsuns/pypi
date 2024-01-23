@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/dcnum[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/click-8.0[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

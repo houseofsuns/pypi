@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.0[${PYTHON_USEDEP}]
 	~dev-python/django-tables2-2.4[${PYTHON_USEDEP}]
 	dev-python/django-dynamic-preferences[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

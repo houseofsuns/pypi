@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs web"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/bmt[${PYTHON_USEDEP}]
 	<dev-python/dictdiffer-0.10.0[${PYTHON_USEDEP}]
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )

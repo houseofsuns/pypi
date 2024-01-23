@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	<dev-python/cerberus-2.0[${PYTHON_USEDEP}]
-	dev-python/ninja-syntax[${PYTHON_USEDEP}]
+	dev-python/ninja_syntax[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
 	dev-python/ninja_syntax[${PYTHON_USEDEP}]"

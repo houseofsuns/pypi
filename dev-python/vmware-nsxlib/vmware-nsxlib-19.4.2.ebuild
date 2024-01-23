@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/oslo-service[${PYTHON_USEDEP}]
 	>=dev-python/oslo-utils-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pbr-4.0.0[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-20.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

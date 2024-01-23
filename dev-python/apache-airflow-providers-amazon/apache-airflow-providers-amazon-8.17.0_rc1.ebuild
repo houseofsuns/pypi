@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/PyAthena[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.33.0[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.33.0[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
-	dev-python/jsonpath_ng[${PYTHON_USEDEP}]
-	dev-python/redshift_connector[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy_redshift[${PYTHON_USEDEP}]
+	>=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
+	dev-python/redshift-connector[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}]
 	dev-python/watchtower[${PYTHON_USEDEP}]
 	aiobotocore? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	apache-hive? ( dev-python/apache-airflow-providers-apache-hive[${PYTHON_USEDEP}] )

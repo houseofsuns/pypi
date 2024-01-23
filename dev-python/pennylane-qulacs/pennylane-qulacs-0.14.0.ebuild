@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PennyLane plugin for Qulacs. [topver 0.32.0]"
+DESCRIPTION="PennyLane plugin for Qulacs. [topver 0.32.0, newver 0.32.0]"
 
 HOMEPAGE="http://xanadu.ai"
 LICENSE="Apache-2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cpu gpu"
-DEPENDENCIES="dev-python/pennylane[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PennyLane[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	cpu? ( dev-python/qulacs[${PYTHON_USEDEP}] )

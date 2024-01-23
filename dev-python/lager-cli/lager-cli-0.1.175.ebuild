@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lager Command Line Interface [topver 0.1.203]"
+DESCRIPTION="Lager Command Line Interface [topver 0.1.203, newver 0.1.203]"
 
 HOMEPAGE="https://github.com/lagerdata/lager-cli"
 LICENSE="MIT"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/bson[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
 	~dev-python/outcome-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pigpio[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]

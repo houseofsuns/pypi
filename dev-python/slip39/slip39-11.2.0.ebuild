@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	>=dev-python/qrcode-7.3[${PYTHON_USEDEP}]
 	dev-python/shamir-mnemonic[${PYTHON_USEDEP}]
-	all? ( dev-python/pysimplegui[${PYTHON_USEDEP}] )
+	all? ( dev-python/PySimpleGUI[${PYTHON_USEDEP}] )
 	all? ( dev-python/eth-account[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyserial-3.5[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pysimplegui[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PySimpleGUI[${PYTHON_USEDEP}] )
 	serial? ( >=dev-python/pyserial-3.5[${PYTHON_USEDEP}] )
 	wallet? ( dev-python/eth-account[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

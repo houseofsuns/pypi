@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/tabulate-0.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-3.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.35[${PYTHON_USEDEP}] )
-	nn? ( dev-python/Keras[${PYTHON_USEDEP}] )
+	nn? ( dev-python/keras[${PYTHON_USEDEP}] )
 	nn? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

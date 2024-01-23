@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Read and Write Dataframes and Data to a chipmunkdb [topver 2.0.19]"
+DESCRIPTION="Read and Write Dataframes and Data to a chipmunkdb [topver 2.0.19, newver 2.0.19]"
 
 HOMEPAGE="https://gitlab.com/coindeck/chipmunkdb-python-client"
 LICENSE="MIT"

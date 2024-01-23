@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a phenotyping pipeline for python [topver 4.1.0]"
+DESCRIPTION="a phenotyping pipeline for python [topver 4.1.0, newver 4.1.0]"
 
 HOMEPAGE="https://github.com/mluerig/phenopype"
 LICENSE="LGPL-3"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]

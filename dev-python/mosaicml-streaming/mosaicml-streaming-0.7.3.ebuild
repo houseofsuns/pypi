@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	all? ( ~dev-python/GitPython-3.1.40[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/altair[${PYTHON_USEDEP}] )
 	all? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
@@ -107,7 +107,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	simulator? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/altair[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	simulator? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
+	simulator? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	simulator? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	simulator? ( <dev-python/humanize-5.0[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/atomicwrites[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-mate[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-inline-tabs-2021.8.17[${PYTHON_USEDEP}] )

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/PyNaCl[${PYTHON_USEDEP}]"
+	~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

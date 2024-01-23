@@ -33,11 +33,11 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-6.3.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst_parser[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-0.13[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	devwork? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	devwork? ( dev-python/seaborn[${PYTHON_USEDEP}] )"

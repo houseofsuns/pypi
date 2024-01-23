@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/brotli[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/crc32c[${PYTHON_USEDEP}]
 	dev-python/deflate[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/isolyzer[${PYTHON_USEDEP}]
 	dev-python/pypiwin32[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wmi[${PYTHON_USEDEP}]"
+	dev-python/WMI[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

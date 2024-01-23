@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/requests-2.8.1[${PYTHON_USEDEP}]
 	dev-python/cachez[${PYTHON_USEDEP}]
 	dev-python/bitmath[${PYTHON_USEDEP}]
 	dev-python/persist-queue[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

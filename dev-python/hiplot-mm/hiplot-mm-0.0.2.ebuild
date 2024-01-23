@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/ipython-7.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-5.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/guzzle-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/guzzle_sphinx_theme-0.7.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

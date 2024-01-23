@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`ortoolpy\` is a package for Operations Research. [topver 0.6.4]"
+DESCRIPTION="\`ortoolpy\` is a package for Operations Research. [topver 0.6.4, newver 0.6.4]"
 
 HOMEPAGE="https://github.com/SaitoTsutomu/ortoolpy"
 LICENSE=""
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pulp[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PuLP[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

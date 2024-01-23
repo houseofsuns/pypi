@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/pyYaml[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/mdx-wikilink-plus[${PYTHON_USEDEP}]
 	dev-python/pymdown-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

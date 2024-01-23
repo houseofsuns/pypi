@@ -36,7 +36,7 @@ DEPENDENCIES="notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
+	notebook? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupysql[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

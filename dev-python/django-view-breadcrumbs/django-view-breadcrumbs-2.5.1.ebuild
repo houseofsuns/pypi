@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy development docs test"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	deploy? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/git-changelog[${PYTHON_USEDEP}] )
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	development? ( dev-python/django-tables2[${PYTHON_USEDEP}] )
 	development? ( dev-python/django-bootstrap5[${PYTHON_USEDEP}] )
 	development? ( dev-python/django-filter[${PYTHON_USEDEP}] )
-	development? ( dev-python/Django[${PYTHON_USEDEP}] )
+	development? ( dev-python/django[${PYTHON_USEDEP}] )
 	development? ( dev-python/tox[${PYTHON_USEDEP}] )
 	development? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -41,8 +41,8 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	development? ( >=dev-python/pluggy-0.7[${PYTHON_USEDEP}] )
 	development? ( dev-python/mock[${PYTHON_USEDEP}] )
 	development? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	development? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	development? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )

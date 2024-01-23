@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs extended_test test watcher webservice"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
 	dev-python/img2pdf[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
@@ -48,6 +48,6 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	watcher? ( >=dev-python/watchdog-1.0.2[${PYTHON_USEDEP}] )
 	watcher? ( dev-python/typer[${PYTHON_USEDEP}] )
 	watcher? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	webservice? ( dev-python/Flask[${PYTHON_USEDEP}] )"
+	webservice? ( >=dev-python/flask-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

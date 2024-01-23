@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/empy[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/catkin-pkg[${PYTHON_USEDEP}]
 	dev-python/rosdistro[${PYTHON_USEDEP}]
 	dev-python/vcstool[${PYTHON_USEDEP}]"

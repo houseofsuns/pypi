@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.11.1[${PYTHON_USEDEP}]
-	dev-python/XlsxWriter[${PYTHON_USEDEP}]
+	>=dev-python/xlsxwriter-1.3.7[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/bayesian-optimization[${PYTHON_USEDEP}]

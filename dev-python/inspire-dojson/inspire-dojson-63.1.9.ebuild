@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="INSPIRE-specific rules to transform from MARCXML to JSON and back. [topver 63.2.22]"
+DESCRIPTION="INSPIRE-specific rules to transform from MARCXML to JSON and back. [topver 63.2.22, newver 63.2.22]"
 
 HOMEPAGE="https://github.com/inspirehep/inspire-dojson"
 LICENSE="GPL-3"
@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/IDUtils[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
+	dev-python/idutils[${PYTHON_USEDEP}]
 	dev-python/dojson[${PYTHON_USEDEP}]
 	dev-python/inspire-schemas[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
 	dev-python/isbnid-fork[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	~dev-python/pycountry-17.0[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.25.0[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )

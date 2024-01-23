@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/pyams-utils[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/pyramid-chameleon[${PYTHON_USEDEP}]
+	dev-python/pyramid_chameleon[${PYTHON_USEDEP}]
 	dev-python/venusian[${PYTHON_USEDEP}]
 	dev-python/zope-component[${PYTHON_USEDEP}]
 	dev-python/zope-configuration[${PYTHON_USEDEP}]

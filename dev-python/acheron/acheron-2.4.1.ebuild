@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/asphodel[${PYTHON_USEDEP}]
 	dev-python/pymodbus[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

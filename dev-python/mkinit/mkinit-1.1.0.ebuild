@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-strict docs docs-strict optional optional-strict runtime runtime-strict tests tests-strict"
 DEPENDENCIES=">=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}]
-	all? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/xdoctest-1.1.2[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/ubelt-1.3.4[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/xdoctest-1.1.2[${PYTHON_USEDEP}] )
@@ -37,13 +37,13 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/lazy-loader[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/lazy_loader-0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/lazy-loader[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lazy_loader-0.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pygments-2.9.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autoapi-1.8.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-4.3.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs-strict? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	docs-strict? ( ~dev-python/pygments-2.9.0[${PYTHON_USEDEP}] )
 	docs-strict? ( ~dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
 	docs-strict? ( ~dev-python/sphinx-autoapi-1.8.4[${PYTHON_USEDEP}] )
 	docs-strict? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
@@ -59,8 +59,8 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}]
 	docs-strict? ( ~dev-python/sphinx-4.3.2[${PYTHON_USEDEP}] )
 	docs-strict? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs-strict? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	optional? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	optional-strict? ( dev-python/Pygments[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
+	optional-strict? ( ~dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/black[${PYTHON_USEDEP}] )
 	optional? ( dev-python/black[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}] )
@@ -72,10 +72,10 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}]
 	tests-strict? ( ~dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests-strict? ( dev-python/lazy-loader[${PYTHON_USEDEP}] )
+	tests-strict? ( ~dev-python/lazy_loader-0.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/lazy-loader[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/lazy_loader-0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

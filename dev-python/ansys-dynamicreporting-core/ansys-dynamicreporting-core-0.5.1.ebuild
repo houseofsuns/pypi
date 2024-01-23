@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/build-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	>=dev-python/twine-4.0.1[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/whatsonpypi[${PYTHON_USEDEP}] )
@@ -48,14 +48,14 @@ DEPENDENCIES=">=dev-python/build-0.8.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/docker-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-gallery-0.14.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pillow-10.0.1[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/docker-6.1.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-gallery-0.14.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/docker-6.1.0[${PYTHON_USEDEP}] )

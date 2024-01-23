@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	dev-python/figurestream[${PYTHON_USEDEP}]
 	dev-python/gcpds[${PYTHON_USEDEP}]
 	dev-python/openbci-stream[${PYTHON_USEDEP}]
-	dev-python/PySide6[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/radiant[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

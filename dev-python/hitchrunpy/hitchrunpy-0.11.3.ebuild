@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/prettystack[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]
 	dev-python/icommandlib[${PYTHON_USEDEP}]

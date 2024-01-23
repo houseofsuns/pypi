@@ -34,11 +34,11 @@ DEPENDENCIES="all? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	>=dev-python/django-2.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.24[${PYTHON_USEDEP}]
 	dev-python/sqlparams[${PYTHON_USEDEP}]
-	all? ( dev-python/Django[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/django-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/JPype1[${PYTHON_USEDEP}] )
-	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/sqlalchemy-1.4.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

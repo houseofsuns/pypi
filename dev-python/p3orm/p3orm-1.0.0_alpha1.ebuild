@@ -27,6 +27,6 @@ IUSE="postgres sqlite"
 DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	sqlite? ( <dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}] )
-	dev-python/pypika[${PYTHON_USEDEP}]"
+	dev-python/PyPika[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

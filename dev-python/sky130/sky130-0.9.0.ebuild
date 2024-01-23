@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/gdsfactory[${PYTHON_USEDEP}]
 	dev-python/PySpice[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest_regressions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )"

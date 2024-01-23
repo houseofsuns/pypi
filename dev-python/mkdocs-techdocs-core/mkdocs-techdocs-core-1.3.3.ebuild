@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/mkdocs-1.5[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-3.4[${PYTHON_USEDEP}]
 	~dev-python/mkdocs-material-9.4.14[${PYTHON_USEDEP}]
 	dev-python/markdown-inline-graphviz-extension[${PYTHON_USEDEP}]
 	~dev-python/mkdocs-monorepo-plugin-1.0.5[${PYTHON_USEDEP}]

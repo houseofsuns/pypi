@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/sqloxide[${PYTHON_USEDEP}]
 	<dev-python/cbor2-6.0.0[${PYTHON_USEDEP}]
-	dev-python/decentriq_dcr_compiler[${PYTHON_USEDEP}]"
+	dev-python/decentriq-dcr-compiler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

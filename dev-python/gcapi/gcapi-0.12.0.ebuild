@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
-	dev-python/Click[${PYTHON_USEDEP}]"
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

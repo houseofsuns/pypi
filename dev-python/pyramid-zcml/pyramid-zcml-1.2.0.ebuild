@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	>=dev-python/zope-configuration-3.8.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3.1[${PYTHON_USEDEP}] )
+	testing? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nose[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyramid-mako[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

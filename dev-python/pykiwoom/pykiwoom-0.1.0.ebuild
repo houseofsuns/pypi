@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python wrapper for Kiwoom Open API+ (Korea Stock Market) [topver 0.1.6]"
+DESCRIPTION="python wrapper for Kiwoom Open API+ (Korea Stock Market) [topver 0.1.6, newver 0.1.6]"
 
 HOMEPAGE="https://github.com/sharebook-kr/pykiwoom"
 LICENSE="MIT"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

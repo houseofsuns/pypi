@@ -28,14 +28,14 @@ DEPENDENCIES="~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	dev-python/chromadb[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.17.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-3.0.39[${PYTHON_USEDEP}]
-	dev-python/Pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.15.1[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}]
 	~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev? ( dev-python/aiomultiprocess[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )

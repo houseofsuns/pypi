@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dorianUtilsModulaire[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dorianutilsmodulaire[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Linear-chain conditional random fields for natural language processing [topver 3.12.1]"
+DESCRIPTION="Linear-chain conditional random fields for natural language processing [topver 3.12.1, newver 3.12.1]"
 
 HOMEPAGE=""
 LICENSE=""

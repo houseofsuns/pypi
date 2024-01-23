@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask-Babel[${PYTHON_USEDEP}]
-	dev-python/Flask-Login[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/flask-babel[${PYTHON_USEDEP}]
+	dev-python/flask-login[${PYTHON_USEDEP}]
 	dev-python/blinker[${PYTHON_USEDEP}]
 	dev-python/cachelib[${PYTHON_USEDEP}]
 	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/flask-wtf[${PYTHON_USEDEP}]
+	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	<dev-python/flask-2.0[${PYTHON_USEDEP}]
 	dev-python/m9s-trytond[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]

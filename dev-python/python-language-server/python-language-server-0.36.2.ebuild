@@ -55,7 +55,7 @@ DEPENDENCIES="<dev-python/jedi-0.18.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	yapf? ( dev-python/yapf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

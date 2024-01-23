@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pyre-check[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
-	typing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
+	typing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

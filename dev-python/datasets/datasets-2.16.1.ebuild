@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/typing-extensions-4.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pillow-6.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/s3fs[${PYTHON_USEDEP}] )
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	metrics-tests? ( >=dev-python/requests-file-1.5.1[${PYTHON_USEDEP}] )
 	metrics-tests? ( >=dev-python/tldextract-3.1.0[${PYTHON_USEDEP}] )
 	metrics-tests? ( >=dev-python/texttable-1.6.3[${PYTHON_USEDEP}] )
-	metrics-tests? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
+	metrics-tests? ( >=dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}] )
 	metrics-tests? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
@@ -129,13 +129,13 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	tests? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/typing-extensions-4.6.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pillow-6.2.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jax[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	vision? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
+	vision? ( >=dev-python/pillow-6.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

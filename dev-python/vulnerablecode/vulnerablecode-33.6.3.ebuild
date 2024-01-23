@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.12.4[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-2.4.0[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.4[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	dev-python/Markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.3.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/cvss[${PYTHON_USEDEP}]
 	dev-python/cwe2[${PYTHON_USEDEP}]
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/doc8-0.11.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-django2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )

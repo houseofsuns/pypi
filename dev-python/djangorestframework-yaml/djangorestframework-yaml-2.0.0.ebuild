@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mkdocs-0.11.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Django[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/django-1.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/djangorestframework-2.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-0.11.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Django[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/django-1.6[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/djangorestframework-2.4.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

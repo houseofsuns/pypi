@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.7.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pypdf-3.16.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-16.0[${PYTHON_USEDEP}]
@@ -61,7 +61,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/griffe-0.25.0[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	hf? ( >=dev-python/networkx-2.7.1[${PYTHON_USEDEP}] )
 	hf? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	hf? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
-	hf? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	hf? ( >=dev-python/pypdf-3.16.0[${PYTHON_USEDEP}] )
 	hf? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	hf? ( >=dev-python/pyzmq-16.0[${PYTHON_USEDEP}] )
@@ -89,7 +89,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	hf? ( dev-python/fasttext[${PYTHON_USEDEP}] )
 	hf? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
 	hf? ( dev-python/apted[${PYTHON_USEDEP}] )
-	hf? ( dev-python/distance[${PYTHON_USEDEP}] )
+	hf? ( dev-python/Distance[${PYTHON_USEDEP}] )
 	hf? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
 	pt? ( dev-python/catalogue[${PYTHON_USEDEP}] )
 	pt? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
@@ -99,7 +99,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	pt? ( >=dev-python/networkx-2.7.1[${PYTHON_USEDEP}] )
 	pt? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	pt? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
-	pt? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	pt? ( >=dev-python/pypdf-3.16.0[${PYTHON_USEDEP}] )
 	pt? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	pt? ( >=dev-python/pyzmq-16.0[${PYTHON_USEDEP}] )
@@ -115,7 +115,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	pt? ( dev-python/fasttext[${PYTHON_USEDEP}] )
 	pt? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
 	pt? ( dev-python/apted[${PYTHON_USEDEP}] )
-	pt? ( dev-python/distance[${PYTHON_USEDEP}] )
+	pt? ( dev-python/Distance[${PYTHON_USEDEP}] )
 	pt? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -127,7 +127,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	tf? ( >=dev-python/networkx-2.7.1[${PYTHON_USEDEP}] )
 	tf? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	tf? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
-	tf? ( dev-python/Pillow[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	tf? ( >=dev-python/pypdf-3.16.0[${PYTHON_USEDEP}] )
 	tf? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	tf? ( >=dev-python/pyzmq-16.0[${PYTHON_USEDEP}] )
@@ -145,7 +145,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	tf? ( dev-python/fasttext[${PYTHON_USEDEP}] )
 	tf? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
 	tf? ( dev-python/apted[${PYTHON_USEDEP}] )
-	tf? ( dev-python/distance[${PYTHON_USEDEP}] )
+	tf? ( dev-python/Distance[${PYTHON_USEDEP}] )
 	tf? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
-	dev-python/pyexiftool[${PYTHON_USEDEP}]
+	dev-python/PyExifTool[${PYTHON_USEDEP}]
 	dev-python/pyexiv2[${PYTHON_USEDEP}]
 	dev-python/rawpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

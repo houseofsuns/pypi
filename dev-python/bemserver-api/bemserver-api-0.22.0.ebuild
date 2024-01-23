@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/apispec-7.0[${PYTHON_USEDEP}]
 	dev-python/bemserver-core[${PYTHON_USEDEP}]
-	dev-python/flask-httpauth[${PYTHON_USEDEP}]
+	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/flask-smorest[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]

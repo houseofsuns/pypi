@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools to download and convert ground projected UAVSAR images. [topver 0.7.1]"
+DESCRIPTION="Tools to download and convert ground projected UAVSAR images. [topver 0.7.1, newver 0.7.1]"
 
 HOMEPAGE="https://github.com/SnowEx/uavsar_pytools"
 LICENSE="MIT"

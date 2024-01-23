@@ -27,7 +27,7 @@ IUSE="pipelines pyspark"
 DEPENDENCIES="dev-python/databricks-sql-connector[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/databricks-sql-connector[${PYTHON_USEDEP}]
 	pipelines? ( dev-python/delta-sharing[${PYTHON_USEDEP}] )
 	pipelines? ( <dev-python/xarray-2023.8.0[${PYTHON_USEDEP}] )
 	pipelines? ( dev-python/ecmwf-api-client[${PYTHON_USEDEP}] )
-	pipelines? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	pipelines? ( ~dev-python/netcdf4-1.6.4[${PYTHON_USEDEP}] )
 	pipelines? ( ~dev-python/joblib-1.3.2[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/delta-spark[${PYTHON_USEDEP}] )"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async"
-DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	async? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	async? ( dev-python/asyncio[${PYTHON_USEDEP}] )
 	dev-python/msgspec[${PYTHON_USEDEP}]

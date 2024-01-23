@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ZConfig[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/zconfig[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
 	dev-python/netifaces[${PYTHON_USEDEP}]

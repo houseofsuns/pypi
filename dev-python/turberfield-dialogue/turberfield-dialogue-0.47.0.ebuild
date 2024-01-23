@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
 	dev-python/turberfield-utils[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	docbuild? ( dev-python/babel[${PYTHON_USEDEP}] )
+	docbuild? ( >=dev-python/Babel-2.4.0[${PYTHON_USEDEP}] )
 	docbuild? ( >=dev-python/sphinx-1.6.1[${PYTHON_USEDEP}] )
 	docbuild? ( >=dev-python/sphinx-argparse-0.2.0[${PYTHON_USEDEP}] )
 	docbuild? ( dev-python/sphinxcontrib-seqdiag[${PYTHON_USEDEP}] )

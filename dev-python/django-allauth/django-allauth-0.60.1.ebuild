@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mfa saml"
-DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/python3-openid[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-0.3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]

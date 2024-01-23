@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	tools? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tools? ( dev-python/python-semantic-release[${PYTHON_USEDEP}] )
 	tools? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	tools? ( dev-python/types-jinja2[${PYTHON_USEDEP}] )"
+	tools? ( dev-python/types-Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

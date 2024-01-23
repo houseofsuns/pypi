@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	dev-python/pyjwt[${PYTHON_USEDEP}]
 	cloudfs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	cloudfs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

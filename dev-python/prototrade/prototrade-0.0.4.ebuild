@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parallelised Python framework for rapid prototyping of autotrading strategies [topver 0.0.20]"
+DESCRIPTION="Parallelised Python framework for rapid prototyping of autotrading strategies [topver 0.0.20, newver 0.0.20]"
 
 HOMEPAGE=""
 LICENSE=""

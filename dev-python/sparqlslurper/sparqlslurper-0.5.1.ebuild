@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/rdflib-shim[${PYTHON_USEDEP}]
 	>=dev-python/rdflib-5.0.0[${PYTHON_USEDEP}]
-	dev-python/sparqlwrapper[${PYTHON_USEDEP}]"
+	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

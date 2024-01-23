@@ -31,7 +31,7 @@ DEPENDENCIES="<=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
 	dev-python/ghapi[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbdev-numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev-stdlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/argschema[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
 	n5tozarr? ( dev-python/dask[${PYTHON_USEDEP}] )
 	n5tozarr? ( dev-python/distributed[${PYTHON_USEDEP}] )

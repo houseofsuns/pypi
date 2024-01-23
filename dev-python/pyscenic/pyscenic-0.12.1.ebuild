@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ctxcore[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
-	dev-python/multiprocessing-on-dill[${PYTHON_USEDEP}]
+	dev-python/multiprocessing_on_dill[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]

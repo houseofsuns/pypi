@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all ann api openai pdf rag streamlit"
-DEPENDENCIES="dev-python/meutils[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/MeUtils[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/meutils[${PYTHON_USEDEP}]
 	all? ( dev-python/sse-starlette[${PYTHON_USEDEP}] )
 	all? ( dev-python/streamlit-chat[${PYTHON_USEDEP}] )
 	all? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/meutils[${PYTHON_USEDEP}]
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	openai? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	openai? ( dev-python/sse-starlette[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	pdf? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/streamlit-chat[${PYTHON_USEDEP}] )
 	rag? ( dev-python/redis[${PYTHON_USEDEP}] )

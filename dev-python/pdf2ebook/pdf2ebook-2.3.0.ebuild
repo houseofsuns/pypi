@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/isbnlib[${PYTHON_USEDEP}]
 	dev-python/pdf2text[${PYTHON_USEDEP}]
-	dev-python/ebooklib[${PYTHON_USEDEP}]
+	dev-python/EbookLib[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]

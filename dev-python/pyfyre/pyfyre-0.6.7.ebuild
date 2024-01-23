@@ -28,6 +28,6 @@ DEPENDENCIES="~dev-python/brython-3.10.7[${PYTHON_USEDEP}]
 	~dev-python/livereload-2.6.3[${PYTHON_USEDEP}]
 	dev-python/python-minifier[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]
-	dev-python/Flask[${PYTHON_USEDEP}]"
+	~dev-python/flask-2.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

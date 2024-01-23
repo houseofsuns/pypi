@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
-	dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/lxml-4.2.5[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.7.2[${PYTHON_USEDEP}]
-	dev-python/pyOpenSSL[${PYTHON_USEDEP}]"
+	>=dev-python/pyopenssl-18.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

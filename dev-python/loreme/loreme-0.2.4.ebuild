@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/gputil[${PYTHON_USEDEP}]
+	dev-python/GPUtil[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/nvsmi[${PYTHON_USEDEP}]
 	dev-python/pod5[${PYTHON_USEDEP}]"

@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/meiga[${PYTHON_USEDEP}]
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	sqlalchemy? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
+	sqlalchemy? ( ~dev-python/pymysql-1.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

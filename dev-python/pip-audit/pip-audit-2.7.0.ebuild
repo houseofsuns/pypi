@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint test"
-DEPENDENCIES="dev-python/CacheControl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cachecontrol-0.13.0[${PYTHON_USEDEP}]
 	dev-python/cyclonedx-python-lib[${PYTHON_USEDEP}]
 	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0.0[${PYTHON_USEDEP}]

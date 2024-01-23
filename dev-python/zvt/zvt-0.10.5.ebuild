@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.20.1[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.20[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
 	~dev-python/arrow-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]

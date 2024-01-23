@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pypdf2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/reportlab[${PYTHON_USEDEP}]
 	dev-python/download[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]"

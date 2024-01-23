@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for handling Cacophony Project Thermal Video (CPTV) files [topver 1.5.4]"
+DESCRIPTION="Python library for handling Cacophony Project Thermal Video (CPTV) files [topver 1.5.4, newver 1.5.4]"
 
 HOMEPAGE="https://github.com/TheCacophonyProject/python-cptv"
 LICENSE="Apache-2.0"

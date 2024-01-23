@@ -27,7 +27,7 @@ IUSE="accelerators all callbacks comet horovod neptune tensorboard tests"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.5.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-2.3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	accelerators? ( dev-python/horovod[${PYTHON_USEDEP}] )
 	all? ( dev-python/horovod[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )

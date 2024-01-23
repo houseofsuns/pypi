@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	netcdf4? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
+	netcdf4? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	petitradtrans? ( dev-python/petitRADTRANS[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

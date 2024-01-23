@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli extended-testing"
 DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/PyYAML[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/openapi-pydantic[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/openai[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/arxiv[${PYTHON_USEDEP}] )
@@ -51,12 +51,12 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( <dev-python/jq-2.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/rapidocr-onnxruntime[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/pypdfium2[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/gql[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/telethon[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/Telethon[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/chardet-6.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( >dev-python/jsonschema-1.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/rank-bm25[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/feedparser-7.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/newspaper3k[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/xata[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/rspace_client[${PYTHON_USEDEP}] )
+	extended-testing? ( dev-python/rspace-client[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/upstash-redis[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/google-cloud-documentai[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/fireworks-ai[${PYTHON_USEDEP}] )

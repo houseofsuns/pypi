@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/atlas[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
-	dev-python/rtree[${PYTHON_USEDEP}]"
+	dev-python/Rtree[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
-	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/mplcursors[${PYTHON_USEDEP}]
 	<=dev-python/numexpr-2.8.4[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Linkhub Auth Library [topver 1.6.0]"
+DESCRIPTION="Linkhub Auth Library [topver 1.6.0, newver 1.6.0]"
 
 HOMEPAGE="https://github.com/linkhub-sdk/Linkhub.py"
 LICENSE="MIT"

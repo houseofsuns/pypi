@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="with-transformers"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scrapy[${PYTHON_USEDEP}]
+	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/shub-workflow[${PYTHON_USEDEP}]
 	with-transformers? ( dev-python/datasets[${PYTHON_USEDEP}] )

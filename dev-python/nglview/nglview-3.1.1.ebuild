@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ase htmd mdanalysis mdtraj parmed pytraj qcelemental rdkit simpletraj"
 DEPENDENCIES=">=dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	>=dev-python/notebook-7.0[${PYTHON_USEDEP}]
-	dev-python/jupyterlab_widgets[${PYTHON_USEDEP}]
+	dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	simpletraj? ( dev-python/simpletraj[${PYTHON_USEDEP}] )
 	mdtraj? ( dev-python/mdtraj[${PYTHON_USEDEP}] )
 	pytraj? ( dev-python/pytraj[${PYTHON_USEDEP}] )
 	mdanalysis? ( dev-python/MDAnalysis[${PYTHON_USEDEP}] )
-	parmed? ( dev-python/parmed[${PYTHON_USEDEP}] )
+	parmed? ( dev-python/ParmEd[${PYTHON_USEDEP}] )
 	rdkit? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	ase? ( dev-python/ase[${PYTHON_USEDEP}] )
 	htmd? ( dev-python/htmd[${PYTHON_USEDEP}] )

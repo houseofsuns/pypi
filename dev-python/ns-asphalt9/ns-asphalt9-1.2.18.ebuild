@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	dev-python/customtkinter[${PYTHON_USEDEP}]
 	dev-python/nxbt[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}]
-	dev-python/Requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

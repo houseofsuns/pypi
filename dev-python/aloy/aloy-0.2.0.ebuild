@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	~dev-python/pyside6-6.5.2[${PYTHON_USEDEP}]
-	dev-python/pyside6-addons[${PYTHON_USEDEP}]
-	dev-python/pyside6-essentials[${PYTHON_USEDEP}]
+	dev-python/PySide6-Addons[${PYTHON_USEDEP}]
+	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
@@ -37,9 +37,9 @@ DEPENDENCIES="~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
-	dev-python/scikit_learn[${PYTHON_USEDEP}]
+	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
-	dev-python/typing_extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

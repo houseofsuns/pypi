@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
-	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
+	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

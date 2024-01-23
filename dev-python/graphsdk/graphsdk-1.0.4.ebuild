@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
 	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	>=dev-python/pycparser-2.21[${PYTHON_USEDEP}]
-	dev-python/PyJWT[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

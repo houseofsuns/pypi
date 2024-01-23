@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/docker-7.0[${PYTHON_USEDEP}] )
 	<dev-python/gitdb-5.0.0[${PYTHON_USEDEP}]
-	dev-python/gitpython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	gojsonnet? ( dev-python/gojsonnet[${PYTHON_USEDEP}] )
 	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/hvac-1.2.1[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonnet[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/kadet[${PYTHON_USEDEP}]

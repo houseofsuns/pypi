@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/multipart[${PYTHON_USEDEP}]
 	dev-python/proper-cli[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]

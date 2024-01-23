@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
-	dev-python/MarkupSafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/flask-socketio[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-2.0[${PYTHON_USEDEP}]
+	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	~dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/flask-jwt-extended[${PYTHON_USEDEP}]
+	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.0[${PYTHON_USEDEP}]

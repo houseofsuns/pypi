@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/slack-sdk[${PYTHON_USEDEP}]
 	dev-python/mixpanel[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast and customizable framework for automatic ML model creation (AutoML)"
+DESCRIPTION="Fast and customizable framework for automatic ML model creation (AutoML) [topver 0.3.8.1, newver 0.3.8.1]"
 
 HOMEPAGE="https://lightautoml.readthedocs.io/en/latest/"
 LICENSE="Apache-2.0"
@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	<dev-python/joblib-1.3.0[${PYTHON_USEDEP}]
 	dev-python/autowoe[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
+	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/json2html[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	nlp? ( dev-python/gensim[${PYTHON_USEDEP}] )
@@ -55,8 +55,8 @@ DEPENDENCIES="<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/efficientnet-pytorch[${PYTHON_USEDEP}] )
 	cv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	cv? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
+	cv? ( dev-python/pywavelets[${PYTHON_USEDEP}] )
+	all? ( dev-python/pywavelets[${PYTHON_USEDEP}] )
 	cv? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	afg? ( dev-python/featuretools[${PYTHON_USEDEP}] )

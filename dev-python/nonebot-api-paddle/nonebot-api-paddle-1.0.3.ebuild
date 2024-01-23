@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/ffmpeg[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

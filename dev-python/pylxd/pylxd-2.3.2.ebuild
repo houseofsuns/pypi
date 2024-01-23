@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/ws4py[${PYTHON_USEDEP}]
 	check? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	format? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	format? ( >=dev-python/flake8-2.5.0[${PYTHON_USEDEP}] )
 	format? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )

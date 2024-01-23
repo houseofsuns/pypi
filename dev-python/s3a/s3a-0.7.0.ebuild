@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.13.1[${PYTHON_USEDEP}]
-	dev-python/Pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/qdarkstyle[${PYTHON_USEDEP}]
 	dev-python/qtextras[${PYTHON_USEDEP}]
 	full? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	full? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	full? ( dev-python/PySide6[${PYTHON_USEDEP}] )"
+	full? ( ~dev-python/pyside6-6.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

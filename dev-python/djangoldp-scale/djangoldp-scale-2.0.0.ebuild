@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="include_package_data"
 DEPENDENCIES="dev-python/djangoldp[${PYTHON_USEDEP}]
-	include_package_data? ( dev-python/True[${PYTHON_USEDEP}] )"
+	include_package_data? ( dev-python/true[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

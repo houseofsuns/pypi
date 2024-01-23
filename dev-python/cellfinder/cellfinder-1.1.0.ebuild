@@ -52,6 +52,6 @@ DEPENDENCIES="dev-python/brainglobe-utils[${PYTHON_USEDEP}]
 	napari? ( dev-python/napari-plugin-engine[${PYTHON_USEDEP}] )
 	napari? ( dev-python/napari[${PYTHON_USEDEP}] )
 	napari? ( >=dev-python/pooch-1.0[${PYTHON_USEDEP}] )
-	napari? ( dev-python/qtpy[${PYTHON_USEDEP}] )"
+	napari? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

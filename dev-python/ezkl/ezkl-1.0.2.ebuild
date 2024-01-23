@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easy zero-knowledge learning in Python [topver 7.1.12]"
+DESCRIPTION="Easy zero-knowledge learning in Python [topver 7.1.12, newver 7.1.12]"
 
 HOMEPAGE="https://github.com/zkonduit/pyezkl"
 LICENSE="Apache-2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ezkl_lib[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ezkl-lib[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"

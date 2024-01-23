@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/docstring-inheritance[${PYTHON_USEDEP}]
 	dev-python/module-utilities[${PYTHON_USEDEP}]
-	dev-python/lazy-loader[${PYTHON_USEDEP}]
+	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	dev? ( dev-python/cmomy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cmomy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cmomy[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ALeRCE database plugins. [newver 6.1.1a111]"
+DESCRIPTION="ALeRCE database plugins. [newver 6.1.1a113]"
 
 HOMEPAGE=""
 LICENSE=""

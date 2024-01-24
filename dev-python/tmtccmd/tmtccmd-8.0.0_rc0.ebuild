@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TMTC Commander Core"
+DESCRIPTION="TMTC Commander Core [newver 8.0.0rc1]"
 
 HOMEPAGE="https://github.com/robamu-org/tmtccmd"
 LICENSE="Apache-2.0 or MIT"

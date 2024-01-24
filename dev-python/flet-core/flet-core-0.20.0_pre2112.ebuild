@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flet core library [newver 0.20.0.dev2138]"
+DESCRIPTION="Flet core library [newver 0.20.0.dev2160]"
 
 HOMEPAGE="https://flet.dev"
 LICENSE="Apache-2.0"

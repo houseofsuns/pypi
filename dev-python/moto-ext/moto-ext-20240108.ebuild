@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [badver 5.0.0a1_p1]"
+DESCRIPTION=" [newver 5.0.0a3.post2, badver 5.0.0a1_p1]"
 
 HOMEPAGE="https://github.com/localstack/moto"
 LICENSE="Apache-2.0"

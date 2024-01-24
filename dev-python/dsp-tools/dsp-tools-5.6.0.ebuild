@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DSP-TOOLS is a Python package with a command line interface that helps you interact with a DaSCH service platform (DSP) server. [newver 5.6.0.post55]"
+DESCRIPTION="DSP-TOOLS is a Python package with a command line interface that helps you interact with a DaSCH service platform (DSP) server. [newver 5.6.0.post60]"
 
 HOMEPAGE="https://www.dasch.swiss/"
 LICENSE="GPL-3"

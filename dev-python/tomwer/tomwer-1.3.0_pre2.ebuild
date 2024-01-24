@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"tomography workflow tools\" [newver 1.3.0a7]"
+DESCRIPTION="\"tomography workflow tools\" [newver 1.2.10]"
 
 HOMEPAGE="https://gitlab.esrf.fr/tomotools/tomwer"
 LICENSE="MIT"

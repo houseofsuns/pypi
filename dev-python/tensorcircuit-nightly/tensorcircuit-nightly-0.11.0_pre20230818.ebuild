@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="nightly release for tensorcircuit [newver 0.11.0.dev20240123]"
+DESCRIPTION="nightly release for tensorcircuit [newver 0.11.0.dev20240124]"
 
 HOMEPAGE="https://github.com/refraction-ray/tensorcircuit-dev"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OPNFV reference testing framework"
+DESCRIPTION="OPNFV reference testing framework [newver 0.90.1.dev38]"
 
 HOMEPAGE="https://wiki.opnfv.org/display/functest"
 LICENSE=""

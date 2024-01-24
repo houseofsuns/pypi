@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cashfree Payment Gateway APIs"
+DESCRIPTION="Cashfree Payment Gateway APIs [newver 3.2.6]"
 
 HOMEPAGE="https://cashfree.com"
 LICENSE="Apache-2.0"

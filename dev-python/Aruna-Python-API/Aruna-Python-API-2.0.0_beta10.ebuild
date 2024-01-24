@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aruna Object Storage Python API builds"
+DESCRIPTION="Aruna Object Storage Python API builds [newver 2.0.0b11]"
 
 HOMEPAGE="https://github.com/ArunaStorage/python-api"
 LICENSE="Apache-2.0"

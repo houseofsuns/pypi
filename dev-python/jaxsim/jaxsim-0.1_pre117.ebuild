@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A physics engine in reduced coordinates implemented with JAX. [newver 0.1.dev389]"
+DESCRIPTION="A physics engine in reduced coordinates implemented with JAX. [newver 0.1rc0]"
 
 HOMEPAGE="https://github.com/ami-iit/jaxsim"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Analyzing priming effects in a few shot setting environment [topver 0.3.352, newver 0.3.352]"
+DESCRIPTION="Analyzing priming effects in a few shot setting environment [topver 0.3.357, newver 0.3.357]"
 
 HOMEPAGE="https://gitlab.uni-hannover.de/y.ajjour/few-shot-priming"
 LICENSE=""

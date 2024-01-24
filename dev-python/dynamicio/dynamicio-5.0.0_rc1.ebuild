@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Panda's wrapper for IO operations [newver 4.5.1rc1]"
+DESCRIPTION="Panda's wrapper for IO operations [newver 4.5.1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

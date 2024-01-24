@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"utilitary to access tomography data at esrf\" [newver 2.0.0a13]"
+DESCRIPTION="\"utilitary to access tomography data at esrf\" [newver 2.0.0a14]"
 
 HOMEPAGE="https://gitlab.esrf.fr/tomotools/tomoscan"
 LICENSE="MIT"

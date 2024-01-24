@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NoneBot2 plugin for query the train time table"
+DESCRIPTION="NoneBot2 plugin for query the train time table [newver 0.1.7.post1]"
 
 HOMEPAGE="https://github.com/lgc-NB2Dev/nonebot-plugin-cnrail"
 LICENSE="MIT"

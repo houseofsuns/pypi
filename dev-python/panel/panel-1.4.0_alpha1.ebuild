@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The powerful data exploration & web app framework for Python. [newver 1.3.8rc1]"
+DESCRIPTION="The powerful data exploration & web app framework for Python. [newver 1.3.8]"
 
 HOMEPAGE="http://panel.holoviz.org"
 LICENSE="BSD"

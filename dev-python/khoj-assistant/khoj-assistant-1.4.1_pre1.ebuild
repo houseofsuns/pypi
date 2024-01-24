@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An AI copilot for your Second Brain [newver 1.4.1.dev2]"
+DESCRIPTION="An AI copilot for your Second Brain [newver 1.4.1.dev3]"
 
 HOMEPAGE="https://github.com/khoj-ai/khoj#readme"
 LICENSE=""

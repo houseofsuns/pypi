@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of widgets to process images from start to finish--focused on neural development."
+DESCRIPTION="A collection of widgets to process images from start to finish--focused on neural development. [newver 0.5.3a0]"
 
 HOMEPAGE="https://github.com/TimMonko/napari-ndev.github"
 LICENSE="BSD"

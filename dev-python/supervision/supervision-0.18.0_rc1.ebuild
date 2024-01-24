@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A set of easy-to-use utils that will come in handy in any Computer Vision project [newver 0.18.0rc3]"
+DESCRIPTION="A set of easy-to-use utils that will come in handy in any Computer Vision project [newver 0.18.0rc4]"
 
 HOMEPAGE="https://github.com/roboflow/supervision"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A native Pulumi package for creating and managing Azure resources."
+DESCRIPTION="A native Pulumi package for creating and managing Azure resources. [newver 2.26.1a1706111751]"
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"

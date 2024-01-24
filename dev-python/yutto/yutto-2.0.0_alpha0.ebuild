@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="yutto 一个任性的 B 站视频下载器 [newver 2.0.0b33]"
+DESCRIPTION="yutto 一个任性的 B 站视频下载器 [newver 2.0.0b34]"
 
 HOMEPAGE="https://github.com/SigureMo/yutto"
 LICENSE="MIT"

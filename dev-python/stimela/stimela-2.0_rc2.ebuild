@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for system agnostic pipelines for radio interferometry arrays [newver 1.7.9]"
+DESCRIPTION="Framework for system agnostic pipelines for radio interferometry arrays [newver 2.0rc8]"
 
 HOMEPAGE=""
 LICENSE="GNU GPL v2"

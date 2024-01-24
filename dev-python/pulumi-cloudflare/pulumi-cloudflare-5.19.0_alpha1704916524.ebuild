@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Cloudflare cloud resources. [newver 5.19.0a1705988565]"
+DESCRIPTION="A Pulumi package for creating and managing Cloudflare cloud resources. [newver 5.19.0a1706118797]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

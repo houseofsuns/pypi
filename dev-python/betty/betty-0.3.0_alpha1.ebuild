@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Betty helps you visualize and publish your family history by building interactive genealogy websites out of your Gramps and GECOM family trees [newver 0.3.0b10]"
+DESCRIPTION="Betty helps you visualize and publish your family history by building interactive genealogy websites out of your Gramps and GECOM family trees [newver 0.3.0b11]"
 
 HOMEPAGE="https://github.com/bartfeenstra/betty"
 LICENSE="GPL-3"

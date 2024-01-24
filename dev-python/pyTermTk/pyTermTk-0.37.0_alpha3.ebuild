@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Terminal Toolkit [newver 0.37.0a36]"
+DESCRIPTION="Python Terminal Toolkit [newver 0.37.0a40]"
 
 HOMEPAGE="https://github.com/ceccopierangiolieugenio/pyTermTk"
 LICENSE=""

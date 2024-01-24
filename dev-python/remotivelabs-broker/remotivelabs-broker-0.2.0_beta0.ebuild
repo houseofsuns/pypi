@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RemotiveLabs Broker gRPC API [newver 0.1.14]"
+DESCRIPTION="RemotiveLabs Broker gRPC API [newver 0.1.16]"
 
 HOMEPAGE="https://remotivelabs.com/"
 LICENSE=""

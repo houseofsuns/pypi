@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="frameworks, templates and patches for the OpenVoiceOS universe [newver 0.0.16a9]"
+DESCRIPTION="frameworks, templates and patches for the OpenVoiceOS universe [newver 0.0.16a11]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/OVOS-workshop"
 LICENSE="apache-2.0"

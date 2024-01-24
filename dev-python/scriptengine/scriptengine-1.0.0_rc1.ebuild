@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lightweight and extensible framework for executing scripts written in YAML"
+DESCRIPTION="A lightweight and extensible framework for executing scripts written in YAML [newver 1.0.0rc2]"
 
 HOMEPAGE="https://github.com/uwefladrich/scriptengine"
 LICENSE=""

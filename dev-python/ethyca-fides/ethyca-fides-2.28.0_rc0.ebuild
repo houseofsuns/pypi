@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open-source ecosystem for data privacy as code. [newver 2.28.0rc2]"
+DESCRIPTION="Open-source ecosystem for data privacy as code. [newver 2.28.0rc5]"
 
 HOMEPAGE="https://github.com/ethyca/fides"
 LICENSE="Apache-2.0"

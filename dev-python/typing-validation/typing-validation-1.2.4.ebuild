@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple library for runtime type-checking."
+DESCRIPTION="A simple library for runtime type-checking. [newver 1.2.4.post6]"
 
 HOMEPAGE="https://github.com/hashberg-io/typing-validation"
 LICENSE=""

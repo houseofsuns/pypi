@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unified multi-module DataFrames client for the Iguazio Data Science Platform [newver 0.10.11]"
+DESCRIPTION="Unified multi-module DataFrames client for the Iguazio Data Science Platform [newver 0.10.12]"
 
 HOMEPAGE="https://github.com/v3io/frames"
 LICENSE="MIT"

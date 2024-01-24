@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LLM Chain for answering questions from docs"
+DESCRIPTION="LLM Chain for answering questions from docs [newver 4.0.0rc2]"
 
 HOMEPAGE="https://github.com/whitead/paper-qa"
 LICENSE="Apache-2.0"

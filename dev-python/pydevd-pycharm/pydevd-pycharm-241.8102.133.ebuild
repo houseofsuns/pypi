@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyCharm Debugger (used in PyCharm and PyDev)"
+DESCRIPTION="PyCharm Debugger (used in PyCharm and PyDev) [newver 233.13763.9]"
 
 HOMEPAGE="https://github.com/JetBrains/intellij-community"
 LICENSE="Apache-2.0"

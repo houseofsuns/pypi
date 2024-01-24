@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tecton Python SDK [newver 0.8.4]"
+DESCRIPTION="Tecton Python SDK [newver 0.9.0b9]"
 
 HOMEPAGE="https://tecton.ai"
 LICENSE="Tecton Proprietary"

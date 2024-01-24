@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Your spider tool based on selenium and an even general platform based on Python. [topver 2.14.20240116172843.476, newver 2.14.20240116172843.476]"
+DESCRIPTION="Your spider tool based on selenium and an even general platform based on Python. [topver 2.20.20240124095026.548, newver 2.20.20240124095026.548]"
 
 HOMEPAGE="https://github.com/an-Underpriviliged-ZJUer/Kaleidoscope_public"
 LICENSE=""

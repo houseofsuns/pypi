@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for administration of Neon DIANA [newver 1.0.1a20]"
+DESCRIPTION="Utilities for administration of Neon DIANA [newver 1.0.1a22]"
 
 HOMEPAGE="https://github.com/NeonGeckoCom/neon-diana-backend"
 LICENSE="BSD"

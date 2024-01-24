@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyPop: Python for Population Genomics"
+DESCRIPTION="PyPop: Python for Population Genomics [newver 1.0.1rc2]"
 
 HOMEPAGE="http://www.pypop.org/"
 LICENSE="GNU GPL"

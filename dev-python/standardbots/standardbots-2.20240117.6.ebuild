@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Standard Bots RO1 Robotics API [newver 2.20231218.17]"
+DESCRIPTION="Standard Bots RO1 Robotics API [newver 2.20231204.61]"
 
 HOMEPAGE=""
 LICENSE=""

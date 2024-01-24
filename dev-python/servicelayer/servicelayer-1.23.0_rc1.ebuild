@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Basic remote service functions for alephdata components"
+DESCRIPTION="Basic remote service functions for alephdata components [newver 1.23.0rc2]"
 
 HOMEPAGE="http://github.com/alephdata/servicelayer"
 LICENSE="MIT"

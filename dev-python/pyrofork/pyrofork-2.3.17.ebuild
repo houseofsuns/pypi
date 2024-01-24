@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fork of pyrogram. Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots"
+DESCRIPTION="Fork of pyrogram. Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots [newver 2.3.17.post1]"
 
 HOMEPAGE=""
 LICENSE=""

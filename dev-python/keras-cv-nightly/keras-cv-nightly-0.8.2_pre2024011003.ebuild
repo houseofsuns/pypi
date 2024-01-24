@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Industry-strength computer Vision extensions for Keras. [newver 0.8.2.dev2024012303]"
+DESCRIPTION="Industry-strength computer Vision extensions for Keras. [newver 0.8.2.dev2024012403]"
 
 HOMEPAGE="https://github.com/keras-team/keras-cv"
 LICENSE="Apache-2.0"

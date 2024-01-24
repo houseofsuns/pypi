@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Boost security in your dev lifecycle via SAST, SCA, Secrets & IaC scanning. [newver 1.7.2.dev6]"
+DESCRIPTION="Boost security in your dev lifecycle via SAST, SCA, Secrets & IaC scanning. [newver 1.7.2.dev7]"
 
 HOMEPAGE="https://github.com/cycodehq/cycode-cli"
 LICENSE="MIT"

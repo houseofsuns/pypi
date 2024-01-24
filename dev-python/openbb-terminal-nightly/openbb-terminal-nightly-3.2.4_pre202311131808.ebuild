@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Investment Research for Everyone, Anywhere. [newver 3.2.4.dev202401230009]"
+DESCRIPTION="Investment Research for Everyone, Anywhere. [newver 3.2.4.dev202401240010]"
 
 HOMEPAGE="https://openbb.co"
 LICENSE="MIT"

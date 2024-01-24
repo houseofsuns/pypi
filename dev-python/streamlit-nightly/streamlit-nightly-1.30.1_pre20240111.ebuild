@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A faster way to build and share data apps [newver 1.30.1.dev20240122]"
+DESCRIPTION="A faster way to build and share data apps [newver 1.30.1.dev20240123]"
 
 HOMEPAGE="https://streamlit.io"
 LICENSE="Apache-2.0"

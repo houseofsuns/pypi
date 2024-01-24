@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="siibra - Software interfaces for interacting with brain atlases [newver 1.0a4]"
+DESCRIPTION="siibra - Software interfaces for interacting with brain atlases [newver 1.0a5]"
 
 HOMEPAGE="https://github.com/FZJ-INM1-BDA/siibra-python"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lora beYond Conventional methods, Other Rank adaptation Implementations for Stable diffusion [newver 2.1.0.dev4]"
+DESCRIPTION="Lora beYond Conventional methods, Other Rank adaptation Implementations for Stable diffusion [newver 2.1.0.dev6]"
 
 HOMEPAGE="https://github.com/KohakuBlueleaf/LyCORIS"
 LICENSE=""

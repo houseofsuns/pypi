@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Fiddler Service [newver 2.4.0]"
+DESCRIPTION="Python client for Fiddler Service [newver 2.5.0.dev2]"
 
 HOMEPAGE="https://fiddler.ai"
 LICENSE=""

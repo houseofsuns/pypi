@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implements a cirq.Sampler backed by stim. [newver 1.13.dev1702511128]"
+DESCRIPTION="Implements a cirq.Sampler backed by stim. [newver 1.13.dev1706081724]"
 
 HOMEPAGE="https://github.com/quantumlib/stim"
 LICENSE="Apache-2.0"

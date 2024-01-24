@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Covalent Workflow Tool [newver 0.232.0]"
+DESCRIPTION="Covalent Workflow Tool [newver 0.232.0.post1]"
 
 HOMEPAGE="https://github.com/AgnostiqHQ/covalent"
 LICENSE="Apache-2.0"

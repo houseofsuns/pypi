@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Translates a simple metric definition into reusable SQL and executes it against the SQL engine of your choice."
+DESCRIPTION="Translates a simple metric definition into reusable SQL and executes it against the SQL engine of your choice. [newver 0.204.1.dev1]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module for the CognitiveScale Cortex Cognitive Platform [newver 6.3.2]"
+DESCRIPTION="Python module for the CognitiveScale Cortex Cognitive Platform [newver 6.4.0a2]"
 
 HOMEPAGE="https://github.com/CognitiveScale/cortex-python"
 LICENSE="Apache-2.0"

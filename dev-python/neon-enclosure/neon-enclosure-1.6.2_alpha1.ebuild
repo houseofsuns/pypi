@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neon Enclosure Module"
+DESCRIPTION="Neon Enclosure Module [newver 1.6.2a2]"
 
 HOMEPAGE="https://github.com/NeonGeckoCom/neon-enclosure"
 LICENSE="BSD"

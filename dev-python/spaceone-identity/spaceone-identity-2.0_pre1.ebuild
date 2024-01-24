@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SpaceONE identity service [newver 2.0.dev108]"
+DESCRIPTION="SpaceONE identity service [newver 2.0.dev109]"
 
 HOMEPAGE="https://www.spaceone.dev/"
 LICENSE="Apache-2.0"

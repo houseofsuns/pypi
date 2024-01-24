@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Write interactive documentation with Markdown and Python. [newver 0.1.5a3]"
+DESCRIPTION="Write interactive documentation with Markdown and Python. [newver 0.1.5a6]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fully-featured and blazing-fast Python API client to interact with Algolia. [newver 4.0.0b2]"
+DESCRIPTION="A fully-featured and blazing-fast Python API client to interact with Algolia. [newver 4.0.0b3]"
 
 HOMEPAGE="https://www.algolia.com"
 LICENSE="MIT"

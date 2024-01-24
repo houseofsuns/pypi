@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenBB"
+DESCRIPTION="OpenBB [newver 4.1.3.dev202401240010]"
 
 HOMEPAGE=""
 LICENSE=""

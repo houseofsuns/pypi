@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client for OpenMeter: Real-Time and Scalable Usage Metering [newver 1.0.0b38]"
+DESCRIPTION="Client for OpenMeter: Real-Time and Scalable Usage Metering [newver 1.0.0b39]"
 
 HOMEPAGE="https://openmeter.io"
 LICENSE="Apache-2.0"

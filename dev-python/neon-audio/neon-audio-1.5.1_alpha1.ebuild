@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neon Audio Module"
+DESCRIPTION="Neon Audio Module [newver 1.5.1a2]"
 
 HOMEPAGE="https://github.com/NeonGeckoCom/neon_audio"
 LICENSE="BSD"

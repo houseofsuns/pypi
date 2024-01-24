@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Miscellaneous MCMC samplers written in Aesara [newver 0.0.8.dev20240123]"
+DESCRIPTION="Miscellaneous MCMC samplers written in Aesara [newver 0.0.8.dev20240124]"
 
 HOMEPAGE="http://github.com/aesara-devs/aemcmc"
 LICENSE=""

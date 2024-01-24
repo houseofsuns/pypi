@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AMF support for Python [topver 0.8.11, newver 0.8.11]"
+DESCRIPTION="AMF support for Python [topver 0.8.12, newver 0.8.12]"
 
 HOMEPAGE="https://github.com/StdCarrot/Py3AMF"
 LICENSE="MIT"

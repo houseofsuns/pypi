@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multi-backend Keras. [newver 3.0.4.dev2024012303]"
+DESCRIPTION="Multi-backend Keras. [newver 3.0.4.dev2024012403]"
 
 HOMEPAGE="https://github.com/keras-team/keras"
 LICENSE="Apache-2.0"

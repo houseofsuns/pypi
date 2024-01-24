@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to programmatically access a RIME deployment [newver 2.6.0rc2]"
+DESCRIPTION="Package to programmatically access a RIME deployment [newver 2.5.2rc0]"
 
 HOMEPAGE=""
 LICENSE="OSI Approved :: Apache Software License"

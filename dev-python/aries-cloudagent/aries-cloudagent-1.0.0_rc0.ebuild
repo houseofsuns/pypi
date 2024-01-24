@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 0.11.0]"
+DESCRIPTION=" [newver 0.12.0rc0]"
 
 HOMEPAGE="https://github.com/hyperledger/aries-cloudagent-python"
 LICENSE=""

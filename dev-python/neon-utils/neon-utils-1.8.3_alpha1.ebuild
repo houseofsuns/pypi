@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for NeonAI [newver 1.8.3a2]"
+DESCRIPTION="Utilities for NeonAI [newver 1.8.3a3]"
 
 HOMEPAGE="https://github.com/neongeckocom/neon-skill-utils"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manticore is a symbolic execution tool for analysis of binaries and smart contracts. [newver 0.3.8.dev240122]"
+DESCRIPTION="Manticore is a symbolic execution tool for analysis of binaries and smart contracts. [newver 0.3.8.dev240123]"
 
 HOMEPAGE="https://github.com/trailofbits/manticore"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="recon_lw [newver 2.0.0.dev7476063585]"
+DESCRIPTION="recon_lw [newver 2.0.0.dev7636648400]"
 
 HOMEPAGE="https://github.com/th2-net/recon-lw"
 LICENSE="Apache-2.0"

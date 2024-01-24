@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ovos-core configuration module [newver 0.0.13a2]"
+DESCRIPTION="ovos-core configuration module [newver 0.0.13a6]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-config"
 LICENSE="Apache-2.0"

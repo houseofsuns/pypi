@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Thermal Engineering Systems in Python (TESPy)"
+DESCRIPTION="Thermal Engineering Systems in Python (TESPy) [newver 0.7.2.post2]"
 
 HOMEPAGE="https://github.com/oemof/tespy"
 LICENSE=""

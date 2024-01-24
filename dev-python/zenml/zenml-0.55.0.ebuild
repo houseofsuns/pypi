@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ZenML: Write production-ready ML code."
+DESCRIPTION="ZenML: Write production-ready ML code. [newver 0.43.1]"
 
 HOMEPAGE="https://zenml.io"
 LICENSE="Apache-2.0"

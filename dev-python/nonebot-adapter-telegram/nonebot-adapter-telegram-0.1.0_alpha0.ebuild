@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="telegram adapter for nonebot2 [newver 0.1.0b14]"
+DESCRIPTION="telegram adapter for nonebot2 [newver 0.1.0b15]"
 
 HOMEPAGE="https://v2.nonebot.dev/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alice in Modular Provenance-Enabled Land [newver 0.8.9a0]"
+DESCRIPTION="Alice in Modular Provenance-Enabled Land [newver 0.10.0a4]"
 
 HOMEPAGE="https://ampelproject.github.io"
 LICENSE="BSD"

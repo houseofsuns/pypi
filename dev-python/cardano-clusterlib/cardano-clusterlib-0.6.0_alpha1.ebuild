@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for cardano-cli for working with cardano cluster [newver 0.6.0a11]"
+DESCRIPTION="Python wrapper for cardano-cli for working with cardano cluster [newver 0.6.0a12]"
 
 HOMEPAGE="https://github.com/input-output-hk/cardano-clusterlib-py"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Schema resources for the National Microbiome Data Collaborative (NMDC) [newver 9.3.2]"
+DESCRIPTION="Schema resources for the National Microbiome Data Collaborative (NMDC) [newver 10.0.0]"
 
 HOMEPAGE="https://microbiomedata.github.io/nmdc-schema/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Airless is a package that aims to build a serverless and lightweight orchestration platform, creating workflows of multiple tasks being executed on FaaS platform [newver 0.0.53.dev12]"
+DESCRIPTION="Airless is a package that aims to build a serverless and lightweight orchestration platform, creating workflows of multiple tasks being executed on FaaS platform [newver 0.0.53.dev14]"
 
 HOMEPAGE="https://github.com/astercapital/airless"
 LICENSE=""

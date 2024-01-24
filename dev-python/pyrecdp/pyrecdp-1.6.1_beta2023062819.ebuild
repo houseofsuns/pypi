@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A data processing bundle for spark based recommender system operations [newver 1.2.0b2024011710]"
+DESCRIPTION="A data processing bundle for spark based recommender system operations [newver 1.2.1b2024012411]"
 
 HOMEPAGE="https://github.com/intel/e2eAIOK/"
 LICENSE=""

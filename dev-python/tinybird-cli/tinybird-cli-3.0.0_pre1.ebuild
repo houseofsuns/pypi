@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tinybird Command Line Tool [newver 3.0.0.dev5]"
+DESCRIPTION="Tinybird Command Line Tool [newver 3.0.0.dev6]"
 
 HOMEPAGE="https://docs.tinybird.co/cli.html"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Samples stim circuits and decodes them using pymatching. [newver 1.13.dev1702511128]"
+DESCRIPTION="Samples stim circuits and decodes them using pymatching. [newver 1.13.dev1706081724]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

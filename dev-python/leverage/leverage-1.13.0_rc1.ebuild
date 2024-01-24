@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binbash Leverage Command-Line tool. [newver 1.13.0rc2]"
+DESCRIPTION="Binbash Leverage Command-Line tool. [newver 1.13.0rc3]"
 
 HOMEPAGE="https://github.com/binbashar/leverage"
 LICENSE="MIT"

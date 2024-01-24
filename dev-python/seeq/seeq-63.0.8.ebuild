@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Seeq SDK for Python"
+DESCRIPTION="The Seeq SDK for Python [newver 60.4.2]"
 
 HOMEPAGE="https://www.seeq.com"
 LICENSE=""

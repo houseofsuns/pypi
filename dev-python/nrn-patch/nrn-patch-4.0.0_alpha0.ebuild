@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pythonic, object-oriented, monkey patch for NEURON [newver 4.0.0b4]"
+DESCRIPTION="A Pythonic, object-oriented, monkey patch for NEURON [newver 4.0.0b5]"
 
 HOMEPAGE="https://github.com/helveg/patch"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pipeline for running RapidPE and RIFT parameter estimation codes [newver 0.6.6.dev20240123]"
+DESCRIPTION="Pipeline for running RapidPE and RIFT parameter estimation codes [newver 0.6.6.dev20240124]"
 
 HOMEPAGE=""
 LICENSE="GPL-2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pure Python SDK for the Britive API"
+DESCRIPTION="A pure Python SDK for the Britive API [newver 2.24.0rc2]"
 
 HOMEPAGE="https://www.britive.com"
 LICENSE=""

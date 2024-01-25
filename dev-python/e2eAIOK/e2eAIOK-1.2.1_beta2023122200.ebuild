@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Intel® End-to-End AI Optimization Kit [newver 1.2.1b2024011800]"
+DESCRIPTION="Intel® End-to-End AI Optimization Kit [newver 1.2.1b2024012500]"
 
 HOMEPAGE="https://github.com/intel/e2eAIOK"
 LICENSE="Apache License"

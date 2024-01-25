@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MITOS: de novo annotation of metazoan mitochondrial genomes"
+DESCRIPTION="MITOS: de novo annotation of metazoan mitochondrial genomes [newver 1.1.5]"
 
 HOMEPAGE="http://mitos.bioinf.uni-leipzig.de"
 LICENSE=""

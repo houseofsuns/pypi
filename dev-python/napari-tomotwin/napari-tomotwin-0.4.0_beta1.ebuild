@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Several tools for the work with TomoTwin"
+DESCRIPTION="Several tools for the work with TomoTwin [newver 0.4.0b3]"
 
 HOMEPAGE="https://github.com/MPI-Dortmund/napari-tomotwin"
 LICENSE="MPL-2.0"

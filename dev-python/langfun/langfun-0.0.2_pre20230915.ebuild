@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Langfun: Language as Functions. [newver 0.0.2.dev20240124]"
+DESCRIPTION="Langfun: Language as Functions. [newver 0.0.2.dev20240125]"
 
 HOMEPAGE="https://github.com/google/langfun"
 LICENSE="Apache-2.0"

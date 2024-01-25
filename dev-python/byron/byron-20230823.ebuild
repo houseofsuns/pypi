@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multi-purpose extensible self-adaptive optimizer and fuzzer [newver 0.8a1.dev42, badver 0.8a1_pre10]"
+DESCRIPTION="Multi-purpose extensible self-adaptive optimizer and fuzzer [newver 0.8a1.dev45, badver 0.8a1_pre10]"
 
 HOMEPAGE="https://github.com/cad-polito-it/byron"
 LICENSE="Apache-2.0"

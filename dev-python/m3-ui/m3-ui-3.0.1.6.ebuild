@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UI ExtJS [newver 2.3.0.1]"
+DESCRIPTION="UI ExtJS [newver 2.3.0.2]"
 
 HOMEPAGE=""
 LICENSE=""

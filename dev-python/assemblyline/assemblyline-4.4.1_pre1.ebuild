@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Assemblyline 4 - Automated malware analysis framework [newver 4.4.1.dev375]"
+DESCRIPTION="Assemblyline 4 - Automated malware analysis framework [newver 4.4.1.dev378]"
 
 HOMEPAGE="https://github.com/CybercentreCanada/assemblyline-base"
 LICENSE="MIT"

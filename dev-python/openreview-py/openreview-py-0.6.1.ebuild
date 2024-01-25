@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenReview client library [topver 1.35.0, newver 1.35.0]"
+DESCRIPTION="OpenReview client library [topver 1.35.1, newver 1.35.1]"
 
 HOMEPAGE="https://github.com/iesl/openreview-py"
 LICENSE="MIT"

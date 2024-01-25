@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automatically store/load data in a tidy, efficient way. Includes functions for data visualization and analysis. [newver 2.2b3]"
+DESCRIPTION="Automatically store/load data in a tidy, efficient way. Includes functions for data visualization and analysis. [newver 2.2b4]"
 
 HOMEPAGE="https://github.com/medinajorge/PhD-utils"
 LICENSE=""

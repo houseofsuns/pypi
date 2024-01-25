@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Machine readable FITS specifications for DKIST data."
+DESCRIPTION="Machine readable FITS specifications for DKIST data. [newver 4.1.0rc2]"
 
 HOMEPAGE="https://bitbucket.org/dkistdc/dkist-fits-specifications/src/main/"
 LICENSE="BSD 3-Clause"

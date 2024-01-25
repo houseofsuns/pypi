@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HOPSWORKS: An environment independent client to interact with the Hopsworks API [newver 3.5.0rc1]"
+DESCRIPTION="HOPSWORKS: An environment independent client to interact with the Hopsworks API [newver 3.4.4]"
 
 HOMEPAGE="https://github.com/logicalclocks/hopsworks-api"
 LICENSE="Apache-2.0"

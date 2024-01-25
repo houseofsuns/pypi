@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for track and field athletics [topver 0.7.8, newver 0.7.8]"
+DESCRIPTION="Utilities for track and field athletics [topver 0.7.9, newver 0.7.9]"
 
 HOMEPAGE="https://github.com/openath/athlib"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Delphix DCT API [newver 13.0.0rc2]"
+DESCRIPTION="Delphix DCT API [newver 13.0.0rc3]"
 
 HOMEPAGE=""
 LICENSE=""

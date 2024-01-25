@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Commons utilities [newver 0.0.14rc6]"
+DESCRIPTION="Commons utilities [newver 0.0.14rc9]"
 
 HOMEPAGE="https://github.com/ACED-IDP/gen3_util"
 LICENSE=""

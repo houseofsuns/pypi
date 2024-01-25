@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django-Access - the application introducing dynamic evaluation-based instance-level (row-level) access rights control for Django"
+DESCRIPTION="Django-Access - the application introducing dynamic evaluation-based instance-level (row-level) access rights control for Django [newver 0.1.2b2]"
 
 HOMEPAGE="https://github.com/nnseva/django-access"
 LICENSE="LGPL-3"

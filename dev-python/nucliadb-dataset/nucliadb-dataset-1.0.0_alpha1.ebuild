@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NucliaDB Train Python client [topver 2.41.0, newver 2.41.0.post144]"
+DESCRIPTION="NucliaDB Train Python client [topver 2.41.1, newver 2.41.1.post148]"
 
 HOMEPAGE="https://github.com/nuclia/nucliadb"
 LICENSE="MIT"

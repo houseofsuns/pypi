@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HSML: An environment independent client to interact with the Hopsworks Model Registry"
+DESCRIPTION="HSML: An environment independent client to interact with the Hopsworks Model Registry [newver 3.4.6]"
 
 HOMEPAGE="https://github.com/logicalclocks/machine-learning-api"
 LICENSE="Apache-2.0"

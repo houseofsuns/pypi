@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to connect to and interact with Lake Shore instruments. [topver 1.8.0, newver 1.8.0]"
+DESCRIPTION="A package to connect to and interact with Lake Shore instruments. [topver 1.8.1, newver 1.8.1]"
 
 HOMEPAGE="https://github.com/lakeshorecryotronics/python-driver"
 LICENSE="MIT"

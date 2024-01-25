@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="collection of simple utilities for use across the mycroft ecosystem"
+DESCRIPTION="collection of simple utilities for use across the mycroft ecosystem [newver 0.1.0a12]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos_utils"
 LICENSE="Apache-2.0"

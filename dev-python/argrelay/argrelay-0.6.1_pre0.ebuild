@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tab-completion & data search server = total recall for Bash shell [newver 0.6.1.dev7]"
+DESCRIPTION="Tab-completion & data search server = total recall for Bash shell [newver 0.6.1.dev9]"
 
 HOMEPAGE="https://github.com/argrelay/argrelay"
 LICENSE=""

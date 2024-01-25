@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Twilio API client and TwiML generator [newver 8.11.1]"
+DESCRIPTION="Twilio API client and TwiML generator [newver 8.12.0]"
 
 HOMEPAGE="https://github.com/twilio/twilio-python/"
 LICENSE=""

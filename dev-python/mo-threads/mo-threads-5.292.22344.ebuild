@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Threads! Simpler and faster threading. [topver 6.492.24021, newver 6.492.24021]"
+DESCRIPTION="More Threads! Simpler and faster threading. [topver 6.506.24025, newver 6.506.24025]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-threads"
 LICENSE="MPL 2.0"

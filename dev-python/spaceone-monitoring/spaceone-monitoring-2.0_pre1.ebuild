@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SpaceONE monitoring service [newver 2.0.dev48]"
+DESCRIPTION="SpaceONE monitoring service [newver 2.0.dev49]"
 
 HOMEPAGE="https://www.spaceone.dev/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for DeltaFi plugins and actions [newver 1.2rc1705552671009]"
+DESCRIPTION="SDK for DeltaFi plugins and actions [newver 1.2rc1706123962917]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

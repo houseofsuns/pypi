@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bauplan CLI [newver 0.0.3a50]"
+DESCRIPTION="Bauplan CLI [newver 0.0.3a53]"
 
 HOMEPAGE=""
 LICENSE=""

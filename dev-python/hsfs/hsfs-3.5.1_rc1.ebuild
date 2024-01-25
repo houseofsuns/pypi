@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HSFS: An environment independent client to interact with the Hopsworks Featurestore [newver 3.5.0rc6]"
+DESCRIPTION="HSFS: An environment independent client to interact with the Hopsworks Featurestore [newver 3.4.7]"
 
 HOMEPAGE="https://github.com/logicalclocks/feature-store-api"
 LICENSE="Apache-2.0"

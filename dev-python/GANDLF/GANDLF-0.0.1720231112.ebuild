@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyTorch-based framework that handles segmentation/regression/classification using various DL architectures for medical imaging. [newver 0.0.18.dev20240124]"
+DESCRIPTION="PyTorch-based framework that handles segmentation/regression/classification using various DL architectures for medical imaging. [newver 0.0.18.dev20240125]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

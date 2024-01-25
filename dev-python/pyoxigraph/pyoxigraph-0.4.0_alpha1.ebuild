@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings of Oxigraph, a SPARQL database and RDF toolkit [newver 0.4.0a2]"
+DESCRIPTION="Python bindings of Oxigraph, a SPARQL database and RDF toolkit [newver 0.4.0a3]"
 
 HOMEPAGE="https://pyoxigraph.readthedocs.io/"
 LICENSE="MIT OR Apache-2.0"

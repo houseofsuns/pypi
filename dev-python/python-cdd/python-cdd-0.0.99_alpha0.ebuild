@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open API to/fro routes, models, and tests. Convert between docstrings, classes, methods, argparse, pydantic, and SQLalchemy. [newver 0.0.99rc20]"
+DESCRIPTION="Open API to/fro routes, models, and tests. Convert between docstrings, classes, methods, argparse, pydantic, and SQLalchemy. [newver 0.0.99rc21]"
 
 HOMEPAGE="https://github.com/offscale/cdd-python"
 LICENSE=""

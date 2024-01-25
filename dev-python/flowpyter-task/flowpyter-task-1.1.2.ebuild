@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 1.1.2.post0.dev2]"
+DESCRIPTION=" [newver 1.1.2.post0.dev14]"
 
 HOMEPAGE="https://github.com/Flowminder/flowpyter-task"
 LICENSE=""

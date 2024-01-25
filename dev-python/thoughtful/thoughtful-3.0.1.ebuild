@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Thoughtful is a python package by Thoughtful for helping manage automations with helpful packages like supervisor [newver 2.3.2]"
+DESCRIPTION="Thoughtful is a python package by Thoughtful for helping manage automations with helpful packages like supervisor [newver 2.4.0]"
 
 HOMEPAGE="https://thoughtful.ai"
 LICENSE="Apache-2.0"

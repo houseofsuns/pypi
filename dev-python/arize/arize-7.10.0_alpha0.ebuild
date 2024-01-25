@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A helper library to interact with Arize AI APIs [newver 7.10.0a1]"
+DESCRIPTION="A helper library to interact with Arize AI APIs [newver 7.10.0a3]"
 
 HOMEPAGE=""
 LICENSE="BSD"

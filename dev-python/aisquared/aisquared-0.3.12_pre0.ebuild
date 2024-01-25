@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for interacting with the AI Squared Technology Stack"
+DESCRIPTION="Utilities for interacting with the AI Squared Technology Stack [newver 0.3.12.dev1]"
 
 HOMEPAGE="https://github.com/AISquaredInc/aisquared"
 LICENSE="Apache-2.0"

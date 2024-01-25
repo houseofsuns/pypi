@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pulp 3 API [newver 3.39.7]"
+DESCRIPTION="Pulp 3 API [newver 3.28.21]"
 
 HOMEPAGE=""
 LICENSE="GPL-2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="rosdep package manager abstraction tool for ROS"
+DESCRIPTION="rosdep package manager abstraction tool for ROS [topver 1.1.0, newver 1.1.0]"
 
 HOMEPAGE="https://fishros.com"
 LICENSE="BSD"

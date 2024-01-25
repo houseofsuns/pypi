@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command Line Interface (CLI) and client to interact with Polyaxon API. [newver 2.1.0rc12]"
+DESCRIPTION="Command Line Interface (CLI) and client to interact with Polyaxon API. [newver 2.1.0rc15]"
 
 HOMEPAGE="https://github.com/polyaxon/polyaxon"
 LICENSE="Apache-2.0"

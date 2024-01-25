@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lightweight library to help with training neural networks in PyTorch. [newver 0.5.0.dev20240124]"
+DESCRIPTION="A lightweight library to help with training neural networks in PyTorch. [newver 0.5.0.dev20240125]"
 
 HOMEPAGE="https://github.com/pytorch/ignite"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python native Weaviate client [newver 3.26.2]"
+DESCRIPTION="A python native Weaviate client [newver 4.4b9]"
 
 HOMEPAGE="https://github.com/weaviate/weaviate-python-client"
 LICENSE="BSD 3-clause"

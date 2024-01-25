@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sindri Python SDK"
+DESCRIPTION="Sindri Python SDK [newver 0.1.0a12]"
 
 HOMEPAGE="https://sindri.app"
 LICENSE="MIT"

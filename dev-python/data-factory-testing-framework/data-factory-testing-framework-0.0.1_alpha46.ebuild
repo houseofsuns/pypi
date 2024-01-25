@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A unit test framework that allows you to write unit and functional tests for Data Factory pipelines against the git integrated json resource files. [newver 0.0.1a72]"
+DESCRIPTION="A unit test framework that allows you to write unit and functional tests for Data Factory pipelines against the git integrated json resource files. [newver 0.0.1a75]"
 
 HOMEPAGE=""
 LICENSE="MIT"

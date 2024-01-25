@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CGAL bindings, allowing to use some of the CGAL library in Python. [newver 5.6.post202312191118]"
+DESCRIPTION="CGAL bindings, allowing to use some of the CGAL library in Python. [newver 5.6.post202401251120]"
 
 HOMEPAGE="https://github.com/CGAL/cgal-swig-bindings"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Storage support for 4DN Data Portals. [newver 11.9.0.1b4]"
+DESCRIPTION="Storage support for 4DN Data Portals. [newver 11.9.0.1b5]"
 
 HOMEPAGE="https://github.com/4dn-dcic/snovault"
 LICENSE="MIT"

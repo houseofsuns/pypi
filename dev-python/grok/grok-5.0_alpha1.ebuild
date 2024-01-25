@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Grok: Now even cavemen can use Zope 3!"
+DESCRIPTION="Grok: Now even cavemen can use Zope 3! [newver 5.0a2]"
 
 HOMEPAGE="https://github.com/zopefoundation/grok"
 LICENSE="ZPL"

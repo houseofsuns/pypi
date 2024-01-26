@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Clojure-like lisp written for Python [newver 0.1.0b0]"
+DESCRIPTION="A Clojure-like lisp written for Python [newver 0.1.0b1]"
 
 HOMEPAGE="https://github.com/basilisp-lang/basilisp"
 LICENSE="Eclipse Public License 1.0 EPL-1.0"

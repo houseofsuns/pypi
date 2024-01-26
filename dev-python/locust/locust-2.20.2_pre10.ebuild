@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Developer friendly load testing framework [newver 2.20.2.dev102]"
+DESCRIPTION="Developer friendly load testing framework [newver 2.20.2.dev104]"
 
 HOMEPAGE="https://locust.io/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="itkwasm: Python interface to itk-wasm WebAssembly modules. [newver 1.0b165]"
+DESCRIPTION="itkwasm: Python interface to itk-wasm WebAssembly modules. [newver 1.0b167]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="JupyterLab/JupyterLite extension for Skills Network Authoring [newver 0.6.5rc2]"
+DESCRIPTION="JupyterLab/JupyterLite extension for Skills Network Authoring [newver 0.6.5rc3]"
 
 HOMEPAGE="https://github.com/ibm-skills-network/skillsnetwork-authoring-extension"
 LICENSE="BSD"

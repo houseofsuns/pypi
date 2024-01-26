@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-salesforce for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-salesforce for Apache Airflow [newver 5.6.2rc1]"
 
 HOMEPAGE=""
 LICENSE=""

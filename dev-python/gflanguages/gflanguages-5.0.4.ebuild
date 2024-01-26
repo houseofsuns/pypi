@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python API for evaluating language support in the Google Fonts collection. [newver 0.5.15]"
+DESCRIPTION="A python API for evaluating language support in the Google Fonts collection. [newver 0.5.16]"
 
 HOMEPAGE="https://github.com/googlefonts/lang/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 4.2.14.dev24]"
+DESCRIPTION=" [newver 4.2.14.dev26]"
 
 HOMEPAGE="https://github.com/getmoto/moto"
 LICENSE="Apache-2.0"

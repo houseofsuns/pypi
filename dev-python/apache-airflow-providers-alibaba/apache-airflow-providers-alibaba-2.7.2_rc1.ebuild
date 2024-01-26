@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-alibaba for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-alibaba for Apache Airflow [newver 2.7.2rc2]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wizata Data Science Toolkit [newver 0.3.77]"
+DESCRIPTION="Wizata Data Science Toolkit [newver 0.3.78]"
 
 HOMEPAGE=""
 LICENSE=""

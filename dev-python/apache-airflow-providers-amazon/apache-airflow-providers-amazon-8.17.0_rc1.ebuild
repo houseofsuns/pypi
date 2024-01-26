@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-amazon for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-amazon for Apache Airflow [newver 8.17.0rc2]"
 
 HOMEPAGE=""
 LICENSE=""

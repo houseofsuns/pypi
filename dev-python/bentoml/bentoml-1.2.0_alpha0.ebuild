@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BentoML: Build Production-Grade AI Applications [newver 1.2.0a5]"
+DESCRIPTION="BentoML: Build Production-Grade AI Applications [newver 1.2.0a6]"
 
 HOMEPAGE="https://bentoml.com"
 LICENSE="Apache-2.0"

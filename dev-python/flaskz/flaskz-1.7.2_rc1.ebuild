@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flask and SQLAlchemy extensions for web applications"
+DESCRIPTION="Flask and SQLAlchemy extensions for web applications [newver 1.7.2rc2]"
 
 HOMEPAGE="https://github.com/taozh1982/flaskz"
 LICENSE=""

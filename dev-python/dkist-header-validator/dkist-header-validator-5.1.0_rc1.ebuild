@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DKIST data validator"
+DESCRIPTION="DKIST data validator [newver 5.1.0rc2]"
 
 HOMEPAGE="https://bitbucket.org/dkistdc/dkist-header-validator/src/main/"
 LICENSE="MIT"

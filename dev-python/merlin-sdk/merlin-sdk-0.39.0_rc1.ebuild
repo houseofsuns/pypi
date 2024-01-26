@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for Merlin [newver 0.39.0rc4]"
+DESCRIPTION="Python SDK for Merlin [newver 0.39.0rc5]"
 
 HOMEPAGE="https://github.com/caraml-dev/merlin"
 LICENSE=""

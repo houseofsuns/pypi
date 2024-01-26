@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Seaplane Python SDK [newver 0.6a20]"
+DESCRIPTION="Seaplane Python SDK [newver 0.6a21]"
 
 HOMEPAGE="https://github.com/seaplane-io/seaplane/tree/main/seaplane-sdk/python"
 LICENSE="Apache License"

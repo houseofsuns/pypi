@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TFLite Model Maker: a model customization library for on-device applications. [newver 0.4.4.dev202401240608]"
+DESCRIPTION="TFLite Model Maker: a model customization library for on-device applications. [newver 0.4.4.dev202401260607]"
 
 HOMEPAGE="http://github.com/tensorflow/examples"
 LICENSE="Apache-2.0"

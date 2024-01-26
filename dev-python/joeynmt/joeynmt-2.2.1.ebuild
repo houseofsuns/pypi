@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Minimalist NMT for educational purposes"
+DESCRIPTION="Minimalist NMT for educational purposes [topver 2.3.0, newver 2.3.0]"
 
 HOMEPAGE="https://github.com/joeynmt/joeynmt"
 LICENSE="Apache License"

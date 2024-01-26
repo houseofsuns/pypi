@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bots Library for Switch [topver 1.4.25, newver 1.4.20b0]"
+DESCRIPTION="Bots Library for Switch [topver 1.4.26, newver 1.4.26]"
 
 HOMEPAGE="https://github.com/switchcollab/Switch-Bots-Python-Library"
 LICENSE="LGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Functions and classes to access online astronomical data resources [newver 0.4.7.dev9064]"
+DESCRIPTION="Functions and classes to access online astronomical data resources [newver 0.4.7.dev9069]"
 
 HOMEPAGE="http://astropy.org/astroquery"
 LICENSE="BSD"

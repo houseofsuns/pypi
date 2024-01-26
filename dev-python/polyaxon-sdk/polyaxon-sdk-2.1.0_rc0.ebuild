@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Polyaxon SDKs and REST API specification. [newver 2.1.0rc15]"
+DESCRIPTION="Polyaxon SDKs and REST API specification. [newver 2.1.0rc16]"
 
 HOMEPAGE=""
 LICENSE=""

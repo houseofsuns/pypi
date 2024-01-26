@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for muvinai developers [newver 0.2.63.dev2]"
+DESCRIPTION="Utilities for muvinai developers [newver 0.2.63.dev3]"
 
 HOMEPAGE=""
 LICENSE=""

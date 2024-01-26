@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OSS Implementation of a DataJunction Query Service [newver 0.0.1a40]"
+DESCRIPTION="OSS Implementation of a DataJunction Query Service [newver 0.0.1a41]"
 
 HOMEPAGE=""
 LICENSE="MIT"

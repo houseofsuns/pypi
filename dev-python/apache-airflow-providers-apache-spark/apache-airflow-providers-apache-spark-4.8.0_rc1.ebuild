@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-apache-spark for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-apache-spark for Apache Airflow [newver 4.7.1rc1]"
 
 HOMEPAGE=""
 LICENSE=""

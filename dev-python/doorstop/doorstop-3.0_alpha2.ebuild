@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Requirements management using version control. [newver 3.0b11]"
+DESCRIPTION="Requirements management using version control. [newver 3.0b12]"
 
 HOMEPAGE="https://pypi.org/project/Doorstop"
 LICENSE="LGPL-3"

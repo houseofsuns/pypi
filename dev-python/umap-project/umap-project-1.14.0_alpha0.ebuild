@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create maps with OpenStreetMap layers in a minute and embed them in your site. [newver 1.14.0a4]"
+DESCRIPTION="Create maps with OpenStreetMap layers in a minute and embed them in your site. [newver 1.13.2]"
 
 HOMEPAGE=""
 LICENSE=""

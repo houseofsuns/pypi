@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The core library and runtime of LocalStack [newver 3.1.1.dev20240125131143]"
+DESCRIPTION="The core library and runtime of LocalStack [newver 3.1.1.dev20240126115731]"
 
 HOMEPAGE="https://github.com/localstack/localstack"
 LICENSE="Apache-2.0"

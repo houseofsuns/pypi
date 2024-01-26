@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyGMTSAR (Python GMTSAR) - Easy and Fast Satellite Interferometry For Everyone [newver 2024.1.21.post3]"
+DESCRIPTION="PyGMTSAR (Python GMTSAR) - Easy and Fast Satellite Interferometry For Everyone [newver 2024.1.21.post5]"
 
 HOMEPAGE="https://github.com/mobigroup/gmtsar"
 LICENSE="BSD"

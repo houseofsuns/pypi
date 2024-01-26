@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pluggable execution of workflow graphs from Rubin pipelines."
+DESCRIPTION="Pluggable execution of workflow graphs from Rubin pipelines. [newver 26.0.1rc2]"
 
 HOMEPAGE="https://github.com/lsst/ctrl_bps"
 LICENSE="BSD 3-Clause License"

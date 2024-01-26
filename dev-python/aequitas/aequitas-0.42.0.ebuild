@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The bias and fairness audit toolkit."
+DESCRIPTION="The bias and fairness audit toolkit. [topver 1.0.0, newver 1.0.0.dev0]"
 
 HOMEPAGE="https://github.com/dssg/aequitas"
 LICENSE="https://github.com/dssg/aequitas/blob/master/LICENSE"

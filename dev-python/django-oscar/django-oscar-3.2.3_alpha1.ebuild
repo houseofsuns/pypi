@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A domain-driven e-commerce framework for Django"
+DESCRIPTION="A domain-driven e-commerce framework for Django [newver 3.2.3rc3]"
 
 HOMEPAGE="https://github.com/django-oscar/django-oscar"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A spherical geometry library."
+DESCRIPTION="A spherical geometry library. [newver 26.0.1rc2]"
 
 HOMEPAGE="https://github.com/lsst/sphgeom"
 LICENSE="BSD 3-Clause License"

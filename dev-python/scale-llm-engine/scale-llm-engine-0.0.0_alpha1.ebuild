@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scale LLM Engine Python client [newver 0.0.0b21]"
+DESCRIPTION="Scale LLM Engine Python client [newver 0.0.0b22]"
 
 HOMEPAGE="https://scaleapi.github.io/llm-engine/"
 LICENSE="Apache-2.0"

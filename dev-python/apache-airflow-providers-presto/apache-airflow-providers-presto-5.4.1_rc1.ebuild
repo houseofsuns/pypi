@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-presto for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-presto for Apache Airflow [newver 5.4.1rc2]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package used to run tests using Appsurify [newver 0.1.12.dev43]"
+DESCRIPTION="Package used to run tests using Appsurify [newver 0.1.12.dev44]"
 
 HOMEPAGE="https://appsurify.com"
 LICENSE="MIT"

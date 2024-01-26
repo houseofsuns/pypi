@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="3D model loader for Glass-Engine"
+DESCRIPTION="3D model loader for Glass-Engine [topver 5.3.1.3, newver 5.3.1.3]"
 
 HOMEPAGE="https://github.com/Time-Coder/Glass-Engine"
 LICENSE=""

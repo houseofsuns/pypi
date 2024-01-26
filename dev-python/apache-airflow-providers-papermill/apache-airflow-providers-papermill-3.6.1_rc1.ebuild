@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-papermill for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-papermill for Apache Airflow [newver 3.6.1rc2]"
 
 HOMEPAGE=""
 LICENSE=""

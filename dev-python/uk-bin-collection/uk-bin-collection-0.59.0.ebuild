@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Lib to collect UK Bin Data"
+DESCRIPTION="Python Lib to collect UK Bin Data [topver 0.59.1, newver 0.59.1]"
 
 HOMEPAGE=""
 LICENSE=""

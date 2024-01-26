@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Microsoft Azure Cosmos DB Management Client Library for Python [newver 9.4.0]"
+DESCRIPTION="Microsoft Azure Cosmos DB Management Client Library for Python [newver 10.0.0b2]"
 
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python"
 LICENSE="MIT"

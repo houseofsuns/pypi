@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Legacy registered functions for spaCy backwards compatibility"
+DESCRIPTION="Legacy registered functions for spaCy backwards compatibility [newver 4.0.0.dev1]"
 
 HOMEPAGE="https://spacy.io"
 LICENSE="MIT"

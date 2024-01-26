@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool to download specified image data from the Human Protein Atlas website using CSV file [newver 0.1.0a17]"
+DESCRIPTION="A tool to download specified image data from the Human Protein Atlas website using CSV file [newver 0.1.0a18]"
 
 HOMEPAGE="https://github.com/idekerlab/cellmaps_imagedownloader"
 LICENSE="MIT"

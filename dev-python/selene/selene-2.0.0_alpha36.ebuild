@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="User-oriented browser tests in Python (Selenide port) [newver 2.0.0rc5]"
+DESCRIPTION="User-oriented browser tests in Python (Selenide port) [newver 2.0.0rc7]"
 
 HOMEPAGE="http://github.com/yashaka/selene/"
 LICENSE="MIT"

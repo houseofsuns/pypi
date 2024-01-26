@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DataJunction server library for running to a DataJunction server [newver 0.0.1a40.dev0]"
+DESCRIPTION="DataJunction server library for running to a DataJunction server [newver 0.0.1a41]"
 
 HOMEPAGE="https://github.com/DataJunction/dj"
 LICENSE="MIT"

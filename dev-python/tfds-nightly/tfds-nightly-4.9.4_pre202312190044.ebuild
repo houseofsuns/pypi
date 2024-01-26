@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="tensorflow/datasets is a library of datasets ready to use with TensorFlow. [newver 4.9.4.dev202401250044]"
+DESCRIPTION="tensorflow/datasets is a library of datasets ready to use with TensorFlow. [newver 4.9.4.dev202401260044]"
 
 HOMEPAGE="https://github.com/tensorflow/datasets"
 LICENSE="Apache-2.0"

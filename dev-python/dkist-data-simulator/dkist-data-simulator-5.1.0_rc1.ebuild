@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A header generator and FITS file creator for DKIST data."
+DESCRIPTION="A header generator and FITS file creator for DKIST data. [newver 5.1.0rc2]"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause"

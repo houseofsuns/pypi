@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-exasol for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-exasol for Apache Airflow [newver 4.4.2rc2]"
 
 HOMEPAGE=""
 LICENSE=""

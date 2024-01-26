@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Industry-strength Natural Language Processing extensions for Keras. [newver 0.7.0.dev2024012003]"
+DESCRIPTION="Industry-strength Natural Language Processing extensions for Keras. [newver 0.7.0.dev2024012603]"
 
 HOMEPAGE="https://github.com/keras-team/keras-nlp"
 LICENSE="Apache-2.0"

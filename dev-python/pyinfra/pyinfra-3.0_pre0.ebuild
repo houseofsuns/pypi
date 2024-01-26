@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyinfra automates/provisions/manages/deploys infrastructure. [newver 2.9]"
+DESCRIPTION="pyinfra automates/provisions/manages/deploys infrastructure. [newver 3.0b0]"
 
 HOMEPAGE="https://pyinfra.com"
 LICENSE="MIT"

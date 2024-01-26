@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lineage metadata API, artifacts streams, sandbox, ML-API, and spaces for Polyaxon. [newver 2.1.0rc15]"
+DESCRIPTION="Lineage metadata API, artifacts streams, sandbox, ML-API, and spaces for Polyaxon. [newver 2.1.0rc16]"
 
 HOMEPAGE="https://github.com/polyaxon/haupt"
 LICENSE="AGPL-3"

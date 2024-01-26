@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Development Kit for Terraform [newver 0.21.0.dev31]"
+DESCRIPTION="Cloud Development Kit for Terraform [newver 0.21.0.dev35]"
 
 HOMEPAGE="https://github.com/hashicorp/terraform-cdk"
 LICENSE="MPL-2.0"

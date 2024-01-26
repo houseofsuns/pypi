@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An abstract system for operating on SQL and in-memory tables with relational algebra."
+DESCRIPTION="An abstract system for operating on SQL and in-memory tables with relational algebra. [newver 26.0.1rc2]"
 
 HOMEPAGE="https://github.com/lsst/daf_relation"
 LICENSE="GPLv3+ License"

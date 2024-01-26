@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Slingshot Python SDK"
+DESCRIPTION="Slingshot Python SDK [newver 0.0.29rc11]"
 
 HOMEPAGE=""
 LICENSE=""

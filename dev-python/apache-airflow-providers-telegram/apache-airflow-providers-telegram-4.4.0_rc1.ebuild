@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-telegram for Apache Airflow [newver 4.3.1rc1]"
+DESCRIPTION="Provider package apache-airflow-providers-telegram for Apache Airflow [newver 4.3.1]"
 
 HOMEPAGE=""
 LICENSE=""

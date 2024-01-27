@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [newver 0.68.2.dev33]"
 
 HOMEPAGE="https://github.com/TobikoData/sqlmesh"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PEP 561 type stubs for CircuitPython [newver 9.0.0a6]"
+DESCRIPTION="PEP 561 type stubs for CircuitPython [newver 9.0.0b0]"
 
 HOMEPAGE="https://github.com/adafruit/circuitpython"
 LICENSE="MIT"

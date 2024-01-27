@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="n-dimensional array viewer in Python [newver 0.4.19rc5]"
+DESCRIPTION="n-dimensional array viewer in Python [newver 0.4.19rc6]"
 
 HOMEPAGE="https://napari.org"
 LICENSE="BSD 3-Clause"

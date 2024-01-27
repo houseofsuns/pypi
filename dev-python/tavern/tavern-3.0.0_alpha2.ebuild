@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple testing of RESTful APIs [newver 2.9.0]"
+DESCRIPTION="Simple testing of RESTful APIs [newver 3.0.0a4]"
 
 HOMEPAGE=""
 LICENSE=""

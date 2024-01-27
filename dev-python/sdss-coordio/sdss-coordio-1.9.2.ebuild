@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Coordinate conversion for SDSS-V"
+DESCRIPTION="Coordinate conversion for SDSS-V [topver 1.9.3, newver 1.9.3]"
 
 HOMEPAGE="https://github.com/sdss/coordio"
 LICENSE="BSD 3-Clause License"

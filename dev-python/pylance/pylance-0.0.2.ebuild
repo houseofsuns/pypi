@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python extension for lance [topver 0.9.9, newver 0.9.9]"
+DESCRIPTION="Python extension for lance [topver 0.9.10, newver 0.9.10]"
 
 HOMEPAGE=""
 LICENSE=""

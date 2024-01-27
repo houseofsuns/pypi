@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python sdk for Instill AI products [newver 0.7.0rc4]"
+DESCRIPTION="python sdk for Instill AI products [newver 0.7.0rc5]"
 
 HOMEPAGE="https://pypi.org/project/instill-sdk"
 LICENSE="MIT"

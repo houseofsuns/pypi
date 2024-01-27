@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-apache-hive for Apache Airflow [newver 6.4.2rc1]"
+DESCRIPTION="Provider package apache-airflow-providers-apache-hive for Apache Airflow [newver 6.4.2]"
 
 HOMEPAGE=""
 LICENSE=""

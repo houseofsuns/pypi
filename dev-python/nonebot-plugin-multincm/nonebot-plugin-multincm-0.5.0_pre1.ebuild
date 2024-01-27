@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NCM Song Searcher [newver 0.5.0.dev5]"
+DESCRIPTION="NCM Song Searcher [newver 0.5.0.dev6]"
 
 HOMEPAGE="https://github.com/lgc-NB2Dev/nonebot-plugin-multincm"
 LICENSE="MIT"

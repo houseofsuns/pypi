@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-elasticsearch for Apache Airflow [newver 5.3.2rc1]"
+DESCRIPTION="Provider package apache-airflow-providers-elasticsearch for Apache Airflow [newver 5.3.2]"
 
 HOMEPAGE=""
 LICENSE=""

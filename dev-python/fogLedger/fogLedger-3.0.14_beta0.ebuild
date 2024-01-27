@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plugin to build DLTs in Fogbed."
+DESCRIPTION="Plugin to build DLTs in Fogbed. [newver 2.1.0]"
 
 HOMEPAGE="https://github.com/larsid/FogLedger/tree/v2.0.0"
 LICENSE=""

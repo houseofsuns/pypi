@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="example-deps tools"
 DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.18.1[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/smqtk-classifier[${PYTHON_USEDEP}]
 	dev-python/smqtk-core[${PYTHON_USEDEP}]

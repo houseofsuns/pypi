@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility functions from Rubin Observatory Data Management for the Legacy Survey of Space and Time (LSST). [newver 26.0.1rc2]"
+DESCRIPTION="Utility functions from Rubin Observatory Data Management for the Legacy Survey of Space and Time (LSST). [newver 25.0.3rc2]"
 
 HOMEPAGE="https://github.com/lsst/utils"
 LICENSE="BSD 3-Clause License"

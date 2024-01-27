@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pulumi Amazon Web Services (AWS) EKS Components."
+DESCRIPTION="Pulumi Amazon Web Services (AWS) EKS Components. [newver 2.2.0a1706319172]"
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"

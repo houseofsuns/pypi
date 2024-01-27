@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all excel image memory web"
 DEPENDENCIES="all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-image-0.19.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/webcolors-1.12[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.22.3[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/webcolors-1.12[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/scikit-image-0.19.2[${PYTHON_USEDEP}] )
 	image? ( >=dev-python/numpy-1.18.5[${PYTHON_USEDEP}] )
 	memory? ( dev-python/Pymem[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )

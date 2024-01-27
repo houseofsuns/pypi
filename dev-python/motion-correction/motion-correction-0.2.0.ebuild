@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	~dev-python/scikit-image-0.21[${PYTHON_USEDEP}]
 	dev-python/sparse[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66[${PYTHON_USEDEP}]"

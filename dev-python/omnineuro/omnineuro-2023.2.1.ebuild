@@ -27,7 +27,7 @@ IUSE="doc extra test"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/memori[${PYTHON_USEDEP}]

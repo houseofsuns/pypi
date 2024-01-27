@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/transforms3d[${PYTHON_USEDEP}]
 	>=dev-python/indexed-gzip-1.7.0[${PYTHON_USEDEP}]

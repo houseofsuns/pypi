@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/magicgui[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	>=dev-python/QtPy-1.9.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

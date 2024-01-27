@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Kubernetes resources. [newver 4.8.0a1706210408]"
+DESCRIPTION="A Pulumi package for creating and managing Kubernetes resources. [newver 4.8.0a1706326157]"
 
 HOMEPAGE="https://pulumi.com"
 LICENSE="Apache-2.0"

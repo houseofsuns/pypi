@@ -42,8 +42,8 @@ DEPENDENCIES="<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/csaps[${PYTHON_USEDEP}] )
 	stats? ( <dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}] )
-	scikit? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	scikit? ( <dev-python/scikit-image-0.22.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scikit-image-0.22.0[${PYTHON_USEDEP}] )
 	scikit? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

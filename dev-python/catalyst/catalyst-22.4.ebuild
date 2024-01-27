@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
 	all? ( >=dev-python/imageio-2.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pillow-6.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	comet? ( dev-python/comet-ml[${PYTHON_USEDEP}] )
 	cv? ( >=dev-python/imageio-2.5.0[${PYTHON_USEDEP}] )
 	cv? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	cv? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	cv? ( <dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}] )
 	cv? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	cv? ( >=dev-python/pillow-6.1[${PYTHON_USEDEP}] )
 	cv? ( dev-python/requests[${PYTHON_USEDEP}] )

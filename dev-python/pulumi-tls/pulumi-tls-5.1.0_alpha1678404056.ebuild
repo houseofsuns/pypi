@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package to create TLS resources in Pulumi programs. [newver 5.1.0a1705992264]"
+DESCRIPTION="A Pulumi package to create TLS resources in Pulumi programs. [newver 5.1.0a1706311389]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

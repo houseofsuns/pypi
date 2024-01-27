@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bridge for the Java Native Interface. [newver 1.0.0b21]"
+DESCRIPTION="Python bridge for the Java Native Interface. [newver 1.0.0b22]"
 
 HOMEPAGE="https://pypi.org/project/jni/"
 LICENSE="Creative Commons BY-NC-ND 4.0 License ; https://creativecommons.org/licenses/by-nc-nd/4.0; Copyright c 2004-2020 Adam Karpierz, All Rights Reserved, Licensed under proprietary License"

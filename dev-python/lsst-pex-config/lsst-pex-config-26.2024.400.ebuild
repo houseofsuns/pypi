@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A flexible configuration system using Python files. [newver 26.0.1rc2]"
+DESCRIPTION="A flexible configuration system using Python files. [newver 25.0.3rc2]"
 
 HOMEPAGE="https://github.com/lsst/pex_config"
 LICENSE="BSD 3-Clause License, GPLv3+"

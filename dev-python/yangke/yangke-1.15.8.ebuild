@@ -121,7 +121,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	ugly? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/pyWinhook[${PYTHON_USEDEP}] )
-	ugly? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	ugly? ( >=dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )
 	ugly? ( >=dev-python/lmdb-1.3.0[${PYTHON_USEDEP}] )
 	ugly? ( >dev-python/orjson-3.7.3[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )

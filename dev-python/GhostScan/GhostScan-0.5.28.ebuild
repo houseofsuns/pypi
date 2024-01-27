@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.11[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	>=dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.1[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.18.1[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

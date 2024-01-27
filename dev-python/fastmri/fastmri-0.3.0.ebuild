@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
 DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/runstats[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/runstats[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torch[${PYTHON_USEDEP}] )

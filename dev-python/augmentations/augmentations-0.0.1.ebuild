@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.1[${PYTHON_USEDEP}]

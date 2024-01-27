@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/boto3-1.12.28[${PYTHON_USEDEP}]
 	dev-python/python-bioformats[${PYTHON_USEDEP}]
 	dev-python/python-javabridge[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-22.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	~dev-python/scikit-image-0.18.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/click-7.1.2[${PYTHON_USEDEP}] )

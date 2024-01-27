@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Azure Active Directory (Azure AD) cloud resources. [newver 5.48.0a1705988092]"
+DESCRIPTION="A Pulumi package for creating and managing Azure Active Directory (Azure AD) cloud resources. [newver 5.48.0a1706307142]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

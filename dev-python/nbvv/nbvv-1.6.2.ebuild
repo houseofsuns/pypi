@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/ipydatawidgets[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyterlab-3.5.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

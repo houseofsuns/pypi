@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/PyGLM[${PYTHON_USEDEP}]
 	dev-python/pyglm-typing[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

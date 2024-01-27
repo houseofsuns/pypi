@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	>dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]
 	>dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	>dev-python/PyQt5-5.14.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for managing Slack workspaces. [newver 0.4.4a1705991601]"
+DESCRIPTION="A Pulumi package for managing Slack workspaces. [newver 0.4.4a1706309775]"
 
 HOMEPAGE="https://www.pulumi.com"
 LICENSE="Apache-2.0"

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/fabio[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

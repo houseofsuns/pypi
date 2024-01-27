@@ -37,6 +37,6 @@ DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/tsfresh[${PYTHON_USEDEP}]
 	~dev-python/trimesh-3.23.5[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]"
+	~dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

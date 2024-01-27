@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LLM vulnerability scanner"
+DESCRIPTION="LLM vulnerability scanner [newver 0.9.0.11.post1]"
 
 HOMEPAGE="https://github.com/leondz/garak"
 LICENSE=""

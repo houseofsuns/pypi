@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/dask-2021.3.1[${PYTHON_USEDEP}]
 	all? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )
 	all? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )
 	all? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )
-	blockfile? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	blockfile? ( >=dev-python/scikit-image-0.18[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )

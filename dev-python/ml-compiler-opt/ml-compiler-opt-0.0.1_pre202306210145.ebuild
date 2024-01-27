@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tooling for ML in LLVM [newver 0.0.1.dev202401260007]"
+DESCRIPTION="Tooling for ML in LLVM [newver 0.0.1.dev202401270006]"
 
 HOMEPAGE=""
 LICENSE=""

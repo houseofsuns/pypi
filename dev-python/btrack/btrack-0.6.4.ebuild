@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/cvxopt-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

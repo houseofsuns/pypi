@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	image? ( >=dev-python/pillow-8.0.0[${PYTHON_USEDEP}] )
 	image? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	image? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
-	image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/scikit-image-0.18.0[${PYTHON_USEDEP}] )
 	main? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	main? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	main? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )"

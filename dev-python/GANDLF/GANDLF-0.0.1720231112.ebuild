@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyTorch-based framework that handles segmentation/regression/classification using various DL architectures for medical imaging. [newver 0.0.18.dev20240126]"
+DESCRIPTION="PyTorch-based framework that handles segmentation/regression/classification using various DL architectures for medical imaging. [newver 0.0.18.dev20240127]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchio[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19.1[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

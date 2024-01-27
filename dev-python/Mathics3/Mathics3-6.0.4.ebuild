@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cython dev full"
 DEPENDENCIES="dev-python/Mathics-Scanner[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.17[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.8[${PYTHON_USEDEP}]

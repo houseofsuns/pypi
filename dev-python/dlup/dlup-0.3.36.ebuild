@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19[${PYTHON_USEDEP}]
 	dev-python/tifftools[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2023.8.12[${PYTHON_USEDEP}]
 	dev-python/pyvips[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing ElasticCloud resources. [newver 0.7.2a1705989270]"
+DESCRIPTION="A Pulumi package for creating and managing ElasticCloud resources. [newver 0.7.2a1706307534]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

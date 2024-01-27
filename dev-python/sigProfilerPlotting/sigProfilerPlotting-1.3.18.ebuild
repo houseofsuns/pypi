@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/numpy-1.21.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

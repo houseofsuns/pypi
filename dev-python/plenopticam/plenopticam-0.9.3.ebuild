@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/depthy[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/tifffile-2022.4.8[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

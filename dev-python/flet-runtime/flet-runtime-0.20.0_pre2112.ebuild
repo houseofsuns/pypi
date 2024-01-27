@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flet Runtime - a base package for Flet desktop and Flet mobile. [newver 0.20.0.dev2160]"
+DESCRIPTION="Flet Runtime - a base package for Flet desktop and Flet mobile. [newver 0.20.0.dev2183]"
 
 HOMEPAGE="https://flet.dev"
 LICENSE="Apache-2.0"

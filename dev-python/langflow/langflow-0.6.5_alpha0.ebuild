@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package with a built-in web application [newver 0.6.5a9]"
+DESCRIPTION="A Python package with a built-in web application [newver 0.6.5a12]"
 
 HOMEPAGE="https://github.com/logspace-ai/langflow"
 LICENSE="MIT"

@@ -44,6 +44,6 @@ DEPENDENCIES="~dev-python/requests-2.30.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.31.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]"
+	~dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

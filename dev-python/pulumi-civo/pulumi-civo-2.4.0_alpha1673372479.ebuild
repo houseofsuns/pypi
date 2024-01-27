@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Civo cloud resources. [newver 2.4.0a1705988336]"
+DESCRIPTION="A Pulumi package for creating and managing Civo cloud resources. [newver 2.4.0a1706306762]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

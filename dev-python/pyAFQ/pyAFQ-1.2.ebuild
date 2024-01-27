@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="afqbrowser all dev fsl fury plot trx"
-DEPENDENCIES="dev-python/scikit-image[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scikit-image-0.14.2[${PYTHON_USEDEP}]
 	dev-python/dipy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]

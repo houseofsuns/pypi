@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Konfuzio Software Development Kit [newver 0.2.43.dev20240122094229]"
+DESCRIPTION="Konfuzio Software Development Kit [newver 0.2.43.dev20240126181641]"
 
 HOMEPAGE="https://github.com/konfuzio-ai/konfuzio-sdk/"
 LICENSE=""

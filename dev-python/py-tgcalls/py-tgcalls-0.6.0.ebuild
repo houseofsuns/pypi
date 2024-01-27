@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 1.1.5, newver 1.1.5]"
+DESCRIPTION=" [topver 1.1.6, newver 1.1.6]"
 
 HOMEPAGE="https://github.com/pytgcalls/pytgcalls"
 LICENSE="LGPL-3"

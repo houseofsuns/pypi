@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Document management service [newver 3.0.0b5]"
+DESCRIPTION="Document management service [newver 3.0.0b6]"
 
 HOMEPAGE="https://github.com/projectcaluma/alexandria"
 LICENSE="GPL-3+"

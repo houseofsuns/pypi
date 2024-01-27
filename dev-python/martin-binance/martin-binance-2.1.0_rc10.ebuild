@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Free trading system for Binance SPOT API [newver 2.1.0rc19]"
+DESCRIPTION="Free trading system for Binance SPOT API [newver 2.1.0rc21]"
 
 HOMEPAGE=""
 LICENSE=""

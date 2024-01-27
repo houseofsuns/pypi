@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.15.0[${PYTHON_USEDEP}]
 	dev-python/aicsimageio[${PYTHON_USEDEP}]
 	dev-python/quilt3[${PYTHON_USEDEP}]
 	dev-python/bumpversion[${PYTHON_USEDEP}]

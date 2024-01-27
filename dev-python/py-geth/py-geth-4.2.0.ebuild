@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="py-geth: Run Go-Ethereum as a subprocess"
+DESCRIPTION="py-geth: Run Go-Ethereum as a subprocess [newver 3.14.0]"
 
 HOMEPAGE="https://github.com/ethereum/py-geth"
 LICENSE="MIT"

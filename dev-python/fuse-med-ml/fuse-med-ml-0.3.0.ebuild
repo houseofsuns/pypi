@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/lifelines[${PYTHON_USEDEP}]
 	dev-python/clearml[${PYTHON_USEDEP}]
 	dev-python/x-transformers[${PYTHON_USEDEP}]
-	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydicom[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	examples? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	examples? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	examples? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	fuseimg? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	fuseimg? ( >=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}] )
 	fuseimg? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	fuseimg? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	fuseimg? ( dev-python/pydicom[${PYTHON_USEDEP}] )

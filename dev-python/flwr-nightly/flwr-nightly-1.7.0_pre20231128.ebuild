@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flower: A Friendly Federated Learning Framework [newver 1.7.0.dev20240125]"
+DESCRIPTION="Flower: A Friendly Federated Learning Framework [newver 1.7.0.dev20240126]"
 
 HOMEPAGE="https://flower.dev"
 LICENSE="Apache-2.0"

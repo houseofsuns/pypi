@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build doc test"
 DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/resampy[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6[${PYTHON_USEDEP}]

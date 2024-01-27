@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cdk-secret-manager-wrapper-layer"
+DESCRIPTION="cdk-secret-manager-wrapper-layer [newver 1.0.523]"
 
 HOMEPAGE="https://github.com/neilkuan/cdk-secret-manager-wrapper-layer.git"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package to safely use randomness in Pulumi programs. [newver 4.16.0a1705991523]"
+DESCRIPTION="A Pulumi package to safely use randomness in Pulumi programs. [newver 4.16.0a1706309088]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

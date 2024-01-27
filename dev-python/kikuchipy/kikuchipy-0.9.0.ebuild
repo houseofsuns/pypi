@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/dask-2021.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.3.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-0.5.2[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	all? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )

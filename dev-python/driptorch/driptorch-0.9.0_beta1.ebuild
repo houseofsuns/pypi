@@ -33,6 +33,6 @@ DEPENDENCIES="~dev-python/shapely-1.8.2[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]"
+	~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

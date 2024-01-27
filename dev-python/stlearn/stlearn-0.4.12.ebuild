@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19.2[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

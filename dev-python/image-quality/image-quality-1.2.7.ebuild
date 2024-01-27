@@ -27,7 +27,7 @@ IUSE="dataset dev"
 DEPENDENCIES=">=dev-python/pillow-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.15.0[${PYTHON_USEDEP}]
 	dev-python/libsvm[${PYTHON_USEDEP}]
 	dataset? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )

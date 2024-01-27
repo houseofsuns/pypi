@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pygame. Made easier. [newver 2.0.0b48]"
+DESCRIPTION="Pygame. Made easier. [newver 2.0.0b49]"
 
 HOMEPAGE=""
 LICENSE=""

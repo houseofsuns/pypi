@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/nutsflow[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-3.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-image-0.12.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -59,6 +59,6 @@ DEPENDENCIES="dev-python/ofpp[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/Rtree[${PYTHON_USEDEP}]
 	<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]"
+	<dev-python/scikit-image-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

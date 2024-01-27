@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing keycloak cloud resources. [newver 5.4.0a1705989707]"
+DESCRIPTION="A Pulumi package for creating and managing keycloak cloud resources. [newver 5.4.0a1706307401]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

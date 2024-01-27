@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	datasets? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/radiant-mlhub[${PYTHON_USEDEP}] )
 	datasets? ( >=dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
-	datasets? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	datasets? ( >=dev-python/scikit-image-0.18[${PYTHON_USEDEP}] )
 	datasets? ( >=dev-python/scipy-1.6.2[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/zipfile-deflate64[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipywidgets-7.0[${PYTHON_USEDEP}] )

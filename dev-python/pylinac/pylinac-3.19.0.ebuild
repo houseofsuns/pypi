@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	dev-python/py-linq[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	>=dev-python/reportlab-3.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.17.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-3.8[${PYTHON_USEDEP}]"

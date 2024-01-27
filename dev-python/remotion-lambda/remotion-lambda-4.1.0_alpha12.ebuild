@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Remotion Lambda client [newver 4.0.98]"
+DESCRIPTION="Remotion Lambda client [newver 4.0.100]"
 
 HOMEPAGE="https://github.com/remotion-dev/remotion/tree/main/packages/lambda-python"
 LICENSE=""

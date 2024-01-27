@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	extras? ( <dev-python/docker-6.0.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/imagecorruptions[${PYTHON_USEDEP}] )
-	extras? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	extras? ( <dev-python/scikit-image-1.0.0[${PYTHON_USEDEP}] )
 	extras? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pascal-voc-writer[${PYTHON_USEDEP}] )
 	extras? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )

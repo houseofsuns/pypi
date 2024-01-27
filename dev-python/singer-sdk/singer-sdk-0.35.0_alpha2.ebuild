@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework for building Singer taps [newver 0.35.0a3]"
+DESCRIPTION="A framework for building Singer taps [newver 0.35.0a4]"
 
 HOMEPAGE="https://sdk.meltano.com/en/latest/"
 LICENSE="Apache-2.0"

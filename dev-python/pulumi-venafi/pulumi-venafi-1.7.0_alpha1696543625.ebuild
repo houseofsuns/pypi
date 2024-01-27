@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing venafi cloud resources. [newver 1.7.0a1705992131]"
+DESCRIPTION="A Pulumi package for creating and managing venafi cloud resources. [newver 1.7.0a1706311532]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

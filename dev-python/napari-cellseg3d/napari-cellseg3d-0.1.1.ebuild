@@ -27,7 +27,7 @@ IUSE="dev docs onnx-cpu onnx-gpu test wandb"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2022.2.9[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]

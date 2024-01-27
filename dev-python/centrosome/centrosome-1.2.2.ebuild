@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.11[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

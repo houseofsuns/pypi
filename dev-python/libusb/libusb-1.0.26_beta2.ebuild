@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python binding for the libusb C library. [newver 1.0.26rc2]"
+DESCRIPTION="Python binding for the libusb C library. [newver 1.0.26rc4]"
 
 HOMEPAGE="https://pypi.org/project/libusb/"
 LICENSE="zlib/libpng License ; https://opensource.org/licenses/Zlib"

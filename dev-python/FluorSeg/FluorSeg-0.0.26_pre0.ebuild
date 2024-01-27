@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/javabridge[${PYTHON_USEDEP}]
 	dev-python/read-roi[${PYTHON_USEDEP}]
 	>=dev-python/pillow-5.3.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-image-0.14.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

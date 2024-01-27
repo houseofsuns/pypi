@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep learning models for drug discovery,         quantum chemistry, and the life sciences. [newver 2.7.2.dev20240124195407]"
+DESCRIPTION="Deep learning models for drug discovery,         quantum chemistry, and the life sciences. [newver 2.7.2.dev20240126202636]"
 
 HOMEPAGE="https://github.com/deepchem/deepchem"
 LICENSE="MIT"

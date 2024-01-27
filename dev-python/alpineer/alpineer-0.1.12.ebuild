@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/charset-normalizer-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	~dev-python/scikit-image-0.0[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]"

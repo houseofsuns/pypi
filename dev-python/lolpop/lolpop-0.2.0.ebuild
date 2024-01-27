@@ -92,6 +92,6 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	alibi? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
-	alibi? ( dev-python/scikit-image[${PYTHON_USEDEP}] )"
+	alibi? ( <dev-python/scikit-image-0.21[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

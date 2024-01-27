@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/pyvista[${PYTHON_USEDEP}]
 	dev-python/geomdl[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.9[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.16.1[${PYTHON_USEDEP}]
 	~dev-python/meshio-5.3.4[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

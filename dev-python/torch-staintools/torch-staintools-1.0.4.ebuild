@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-65.6.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

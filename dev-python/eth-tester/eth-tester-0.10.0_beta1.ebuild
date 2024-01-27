@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="eth-tester: Tools for testing Ethereum applications."
+DESCRIPTION="eth-tester: Tools for testing Ethereum applications. [newver 0.10.0b2]"
 
 HOMEPAGE="https://github.com/ethereum/eth-tester"
 LICENSE="MIT"

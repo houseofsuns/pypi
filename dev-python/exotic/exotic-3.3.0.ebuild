@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/astroalign[${PYTHON_USEDEP}]
 	dev-python/rebound[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	~dev-python/scikit-image-0.21[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	~dev-python/tenacity-8.2[${PYTHON_USEDEP}]
 	dev-python/ultranest[${PYTHON_USEDEP}]"

@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.18.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	~dev-python/scikit-image-0.22.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

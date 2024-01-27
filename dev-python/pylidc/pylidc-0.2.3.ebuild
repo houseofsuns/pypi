@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.1.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-image-0.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

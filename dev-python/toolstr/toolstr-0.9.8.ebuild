@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full performance styling"
 DEPENDENCIES="dev-python/tooltime[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
-	full? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scikit-image-0.19.2[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/rich-12.1.0[${PYTHON_USEDEP}] )
-	performance? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	performance? ( >=dev-python/scikit-image-0.19.2[${PYTHON_USEDEP}] )
 	styling? ( >=dev-python/rich-12.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

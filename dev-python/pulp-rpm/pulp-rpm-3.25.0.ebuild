@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RPM plugin for the Pulp Project"
+DESCRIPTION="RPM plugin for the Pulp Project [newver 3.23.2]"
 
 HOMEPAGE="http://www.pulpproject.org"
 LICENSE="GPL-2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for generating predeployed marionette smart contract [newver 2.0.0a126]"
+DESCRIPTION="A tool for generating predeployed marionette smart contract [newver 2.0.0a127]"
 
 HOMEPAGE="https://github.com/skalenetwork/marionette"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for interacting with the filesystem [newver 0.7.9]"
+DESCRIPTION="A library for interacting with the filesystem [newver 0.7.10]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"

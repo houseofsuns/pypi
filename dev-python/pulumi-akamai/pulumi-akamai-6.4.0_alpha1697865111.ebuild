@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing akamai cloud resources. [newver 6.4.0a1705986683]"
+DESCRIPTION="A Pulumi package for creating and managing akamai cloud resources. [newver 6.4.0a1706306707]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

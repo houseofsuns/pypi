@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	dev-python/pytorch-metric-learning[${PYTHON_USEDEP}]
 	dev-python/torch-points-kernels[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	<dev-python/scikit-image-0.17.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/plyfile[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QQ聊天、频道机器人插件 | 米游社工具-每日米游币任务、游戏签到、商品兑换、免抓包登录、原神崩铁便笺提醒"
+DESCRIPTION="QQ聊天、频道机器人插件 | 米游社工具-每日米游币任务、游戏签到、商品兑换、免抓包登录、原神崩铁便笺提醒 [newver 2.0.0]"
 
 HOMEPAGE="https://github.com/Ljzd-PRO/nonebot-plugin-mystool"
 LICENSE="MIT"

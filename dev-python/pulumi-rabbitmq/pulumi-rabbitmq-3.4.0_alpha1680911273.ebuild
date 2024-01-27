@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing RabbitMQ resources. [newver 3.4.0a1705991347]"
+DESCRIPTION="A Pulumi package for creating and managing RabbitMQ resources. [newver 3.4.0a1706308447]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

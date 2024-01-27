@@ -30,7 +30,7 @@ DEPENDENCIES="<=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/mrcfile[${PYTHON_USEDEP}]
 	dev-python/emfile[${PYTHON_USEDEP}]
 	dev-python/emtable[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	<=dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]
 	dev-python/morphsnakes[${PYTHON_USEDEP}]
 	<=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

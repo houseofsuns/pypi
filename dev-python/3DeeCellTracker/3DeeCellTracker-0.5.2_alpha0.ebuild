@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]
 	dev-python/stardist[${PYTHON_USEDEP}]
 	~dev-python/notebook-6.4.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

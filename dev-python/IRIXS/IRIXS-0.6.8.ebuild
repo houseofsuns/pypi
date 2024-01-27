@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.16[${PYTHON_USEDEP}]
 	>=dev-python/PyQt5-5.9[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

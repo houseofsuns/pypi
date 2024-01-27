@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing okta resources. [newver 4.7.0a1705990903]"
+DESCRIPTION="A Pulumi package for creating and managing okta resources. [newver 4.6.3]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

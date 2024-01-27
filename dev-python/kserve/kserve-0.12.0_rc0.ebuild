@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KServe Python SDK"
+DESCRIPTION="KServe Python SDK [newver 0.12.0rc1]"
 
 HOMEPAGE="https://github.com/kserve/kserve/tree/master/python/kserve"
 LICENSE="Apache-2.0"

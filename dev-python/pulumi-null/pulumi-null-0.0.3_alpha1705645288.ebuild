@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Null cloud resources. [newver 0.0.3a1705990802]"
+DESCRIPTION="A Pulumi package for creating and managing Null cloud resources. [newver 0.0.3a1706307777]"
 
 HOMEPAGE="https://www.pulumi.com/"
 LICENSE="Apache-2.0"

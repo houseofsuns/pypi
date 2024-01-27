@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RIFT parameter estimation pipeline. Note branch used is temp-RIT-Tides-port_python3_restructure_package (which will become master shortly)! [newver 0.0.15.10rc3]"
+DESCRIPTION="RIFT parameter estimation pipeline. Note branch used is temp-RIT-Tides-port_python3_restructure_package (which will become master shortly)! [newver 0.0.15.10rc5]"
 
 HOMEPAGE="https://git.ligo.org/rapidpe-rift/rift"
 LICENSE=""

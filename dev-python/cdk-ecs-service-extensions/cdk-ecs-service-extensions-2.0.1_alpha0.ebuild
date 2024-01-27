@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The CDK Construct Library that helps you build ECS services using simple extensions [newver 2.0.1a269]"
+DESCRIPTION="The CDK Construct Library that helps you build ECS services using simple extensions [newver 2.0.1a270]"
 
 HOMEPAGE="https://github.com/cdklabs/cdk-ecs-service-extensions.git"
 LICENSE="Apache-2.0"

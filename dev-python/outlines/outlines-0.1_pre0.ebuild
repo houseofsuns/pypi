@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Probabilistic Generative Model Programming [newver 0.0.24]"
+DESCRIPTION="Probabilistic Generative Model Programming [newver 0.0.25]"
 
 HOMEPAGE=""
 LICENSE=""

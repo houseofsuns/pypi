@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface for the QCS Rust SDK"
+DESCRIPTION="Python interface for the QCS Rust SDK [newver 0.16.4rc1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

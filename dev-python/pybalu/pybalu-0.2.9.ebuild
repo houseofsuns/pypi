@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.29.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

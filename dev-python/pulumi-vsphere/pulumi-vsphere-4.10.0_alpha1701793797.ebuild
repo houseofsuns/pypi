@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating vsphere resources [newver 4.10.0a1705992322]"
+DESCRIPTION="A Pulumi package for creating vsphere resources [newver 4.10.0a1706311615]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

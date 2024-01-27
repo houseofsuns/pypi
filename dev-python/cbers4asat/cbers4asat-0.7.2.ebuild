@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	tools? ( dev-python/geomet[${PYTHON_USEDEP}] )
 	tools? ( >=dev-python/numpy-1.24.2[${PYTHON_USEDEP}] )
 	tools? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	tools? ( dev-python/scikit-image[${PYTHON_USEDEP}] )"
+	tools? ( >=dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.21[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.4.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.12[${PYTHON_USEDEP}]
 	dev-python/spectral-cube[${PYTHON_USEDEP}]
 	all? ( dev-python/astrodendro[${PYTHON_USEDEP}] )
 	all? ( dev-python/emcee[${PYTHON_USEDEP}] )

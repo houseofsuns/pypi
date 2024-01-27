@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
 	fenics? ( dev-python/mshr[${PYTHON_USEDEP}] )
 	generic? ( >=dev-python/boto3-1.28.25[${PYTHON_USEDEP}] )
 	generic? ( >=dev-python/moto-4.1.14[${PYTHON_USEDEP}] )
-	image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}] )
 	tinybase? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	tinybase? ( dev-python/pympipool[${PYTHON_USEDEP}] )
 	workflow? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )

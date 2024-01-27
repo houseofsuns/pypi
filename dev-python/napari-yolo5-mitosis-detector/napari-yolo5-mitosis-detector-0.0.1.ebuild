@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	~dev-python/QtPy-2.4.1[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	~dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/ultralytics[${PYTHON_USEDEP}]

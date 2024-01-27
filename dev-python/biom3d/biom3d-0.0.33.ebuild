@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs gui"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.14[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]

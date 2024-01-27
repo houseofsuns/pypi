@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for interacting with Docker in Pulumi programs [newver 4.6.0a2]"
+DESCRIPTION="A Pulumi package for interacting with Docker in Pulumi programs [newver 4.6.0a1706307670]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

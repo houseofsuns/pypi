@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	dev-python/openslide-python[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	<dev-python/scikit-image-0.19.4[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.8.2[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-prompt-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )

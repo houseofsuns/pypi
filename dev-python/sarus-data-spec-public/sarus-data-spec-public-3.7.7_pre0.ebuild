@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library to manage Sarus datasets"
+DESCRIPTION="A library to manage Sarus datasets [newver 3.7.7.dev1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

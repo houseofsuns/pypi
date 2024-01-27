@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing GitLab resources. [newver 6.8.1]"
+DESCRIPTION="A Pulumi package for creating and managing GitLab resources. [newver 6.9.0a1706307289]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

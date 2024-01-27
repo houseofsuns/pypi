@@ -40,14 +40,14 @@ DEPENDENCIES="all? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.6[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	<dev-python/scikit-image-0.19[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	all? ( ~dev-python/lark-1.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/numpy-1.22[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/psutil-5.6[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scikit-image-0.19[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scipy-1.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )

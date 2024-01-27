@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/dask-2023.1.0[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	fractal-tasks? ( >=dev-python/pillow-9.1.1[${PYTHON_USEDEP}] )
 	fractal-tasks? ( <dev-python/imageio-ffmpeg-0.5.0[${PYTHON_USEDEP}] )
-	fractal-tasks? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	fractal-tasks? ( >=dev-python/scikit-image-0.19[${PYTHON_USEDEP}] )
 	fractal-tasks? ( dev-python/napari-segment-blobs-and-things-with-membranes[${PYTHON_USEDEP}] )
 	fractal-tasks? ( dev-python/napari-workflows[${PYTHON_USEDEP}] )
 	fractal-tasks? ( dev-python/napari-skimage-regionprops[${PYTHON_USEDEP}] )

@@ -33,13 +33,13 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8.5[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/shapely-1.8.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/itk-io[${PYTHON_USEDEP}] )
@@ -87,7 +87,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/shapely-1.8.5[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -101,7 +101,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	all? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/shapely-1.8.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/itk-io[${PYTHON_USEDEP}] )
@@ -110,7 +110,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	all? ( >=dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/shapely-1.8.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -155,13 +155,13 @@ DEPENDENCIES=">=dev-python/ubelt-1.2.3[${PYTHON_USEDEP}]
 	runtime-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/shapely-1.8.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/shapely-1.8.5[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-5.3.1[${PYTHON_USEDEP}] )

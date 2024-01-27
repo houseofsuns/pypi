@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	all? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	all? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-image-0.14.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
@@ -92,7 +92,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	pynvml? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
 	pyyaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	scipy? ( >=dev-python/scipy-1.7.1[${PYTHON_USEDEP}] )
-	skimage? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	skimage? ( >=dev-python/scikit-image-0.14.2[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	tensorboardx? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	tifffile? ( dev-python/tifffile[${PYTHON_USEDEP}] )

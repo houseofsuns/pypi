@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/matplotlib-3.4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

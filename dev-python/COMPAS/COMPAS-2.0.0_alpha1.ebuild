@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The COMPAS framework [newver 1.17.10]"
+DESCRIPTION="The COMPAS framework [newver 2.0.0b4]"
 
 HOMEPAGE="http://compas.dev"
 LICENSE="MIT"

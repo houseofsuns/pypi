@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AlekSIS (School Information System) — Core [newver 4.0.0.dev2]"
+DESCRIPTION="AlekSIS (School Information System) — Core [newver 4.0.0.dev3]"
 
 HOMEPAGE="https://aleksis.org"
 LICENSE="EUPL-1.2-or-later"

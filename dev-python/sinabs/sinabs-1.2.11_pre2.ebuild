@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SynSense Spiking Neural Network simulator for deep neural networks (DNNs)."
+DESCRIPTION="SynSense Spiking Neural Network simulator for deep neural networks (DNNs). [newver 1.2.11.dev4]"
 
 HOMEPAGE=""
 LICENSE="GNU AGPLv3"

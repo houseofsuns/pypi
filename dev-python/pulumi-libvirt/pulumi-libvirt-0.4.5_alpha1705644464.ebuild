@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing libvirt cloud resources. [newver 0.4.5a1705989884]"
+DESCRIPTION="A Pulumi package for creating and managing libvirt cloud resources. [newver 0.4.5a1706307536]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing splunk cloud resources. [newver 1.3.0a1705991647]"
+DESCRIPTION="A Pulumi package for creating and managing splunk cloud resources. [newver 1.3.0a1706310270]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

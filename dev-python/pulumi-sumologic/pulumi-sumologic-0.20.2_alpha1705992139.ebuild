@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing sumologic cloud resources."
+DESCRIPTION="A Pulumi package for creating and managing sumologic cloud resources. [newver 0.20.2a1706310543]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

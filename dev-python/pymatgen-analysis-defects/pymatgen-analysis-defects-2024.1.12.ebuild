@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs finder optional strict tests"
 DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
 	optional? ( dev-python/numba[${PYTHON_USEDEP}] )
 	strict? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
 	strict? ( dev-python/dscribe[${PYTHON_USEDEP}] )
-	strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nbmake[${PYTHON_USEDEP}] )"

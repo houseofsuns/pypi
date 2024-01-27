@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client library to connect to the LangSmith LLM Tracing and Evaluation Platform. [newver 0.0.84rc4]"
+DESCRIPTION="Client library to connect to the LangSmith LLM Tracing and Evaluation Platform. [newver 0.0.84rc5]"
 
 HOMEPAGE="https://smith.langchain.com/"
 LICENSE="MIT"

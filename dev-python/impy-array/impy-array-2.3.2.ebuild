@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/dask-2021.6.0[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	all? ( dev-python/mrcfile[${PYTHON_USEDEP}] )
 	all? ( dev-python/zarr[${PYTHON_USEDEP}] )

@@ -56,7 +56,7 @@ DEPENDENCIES="<dev-python/numpy-1.27.0[${PYTHON_USEDEP}]
 	full? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/minio[${PYTHON_USEDEP}] )
 	full? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	full? ( <dev-python/scikit-image-1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/ncempy[${PYTHON_USEDEP}] )
 	full? ( <dev-python/h5py-4.0[${PYTHON_USEDEP}] )
 	mappings? ( dev-python/tripper[${PYTHON_USEDEP}] )

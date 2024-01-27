@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.18[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.5[${PYTHON_USEDEP}]
 	dev-python/guidata[${PYTHON_USEDEP}]
 	dev-python/guiqwt[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Software analysis toolkit. Define checks in high-level language and leverage library to perform analysis of common Cloud applications. [newver 1.16.2.post5]"
+DESCRIPTION="Software analysis toolkit. Define checks in high-level language and leverage library to perform analysis of common Cloud applications. [newver 1.16.2.post6]"
 
 HOMEPAGE=""
 LICENSE=""

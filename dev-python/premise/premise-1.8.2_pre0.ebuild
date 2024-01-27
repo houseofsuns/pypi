@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Coupling IAM output to ecoinvent LCA database ecoinvent for prospective LCA [newver 1.8.2.dev6]"
+DESCRIPTION="Coupling IAM output to ecoinvent LCA database ecoinvent for prospective LCA [newver 1.8.2.dev7]"
 
 HOMEPAGE="https://github.com/polca/premise"
 LICENSE=""

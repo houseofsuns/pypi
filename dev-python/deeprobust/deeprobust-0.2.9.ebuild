@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.0[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-3.0[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]"

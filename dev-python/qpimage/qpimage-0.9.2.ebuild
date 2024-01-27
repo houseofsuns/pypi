@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/h5py-2.7.0[${PYTHON_USEDEP}]
 	dev-python/nrefocus[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/qpretrieve[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

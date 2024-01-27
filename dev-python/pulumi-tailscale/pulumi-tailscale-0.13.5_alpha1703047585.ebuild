@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Tailscale cloud resources. [newver 0.13.5a1705992018]"
+DESCRIPTION="A Pulumi package for creating and managing Tailscale cloud resources. [newver 0.13.5a1706311226]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

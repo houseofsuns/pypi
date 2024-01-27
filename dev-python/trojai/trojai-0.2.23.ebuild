@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.1.2[${PYTHON_USEDEP}]

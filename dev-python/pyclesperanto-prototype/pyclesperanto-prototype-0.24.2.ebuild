@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/pyopencl[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.18.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/transforms3d[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

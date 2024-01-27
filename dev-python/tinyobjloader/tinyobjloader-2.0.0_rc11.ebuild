@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tiny but powerful Wavefront OBJ loader"
+DESCRIPTION="Tiny but powerful Wavefront OBJ loader [newver 2.0.0rc13]"
 
 HOMEPAGE="https://github.com/tinyobjloader/tinyobjloader"
 LICENSE=""

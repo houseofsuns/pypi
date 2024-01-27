@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing OpenStack cloud resources. [newver 3.15.0a1705991205]"
+DESCRIPTION="A Pulumi package for creating and managing OpenStack cloud resources. [newver 3.15.0a1706308609]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

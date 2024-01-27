@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	<=dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	<=dev-python/scikit-image-0.22.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/autoconf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

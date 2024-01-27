@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/cython-3.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.19[${PYTHON_USEDEP}]
 	dev-python/alpineer[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2023.0[${PYTHON_USEDEP}]
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )

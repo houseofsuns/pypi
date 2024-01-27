@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests visualize"
 DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.15[${PYTHON_USEDEP}]
 	>=dev-python/pillow-4.1.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
 	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]

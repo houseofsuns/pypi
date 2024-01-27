@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.17.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

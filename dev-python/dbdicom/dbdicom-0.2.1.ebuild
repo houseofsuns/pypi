@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
 	wrappers? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	wrappers? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
+	wrappers? ( <=dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}] )
 	wrappers? ( dev-python/SimpleITK-SimpleElastix[${PYTHON_USEDEP}] )
 	wrappers? ( dev-python/dipy[${PYTHON_USEDEP}] )
 	wrappers? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"

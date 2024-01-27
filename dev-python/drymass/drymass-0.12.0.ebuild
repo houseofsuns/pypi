@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/qpimage[${PYTHON_USEDEP}]
 	dev-python/qpretrieve[${PYTHON_USEDEP}]
 	dev-python/qpsphere[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.16.1[${PYTHON_USEDEP}]
 	~dev-python/tifffile-2020.5.25[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

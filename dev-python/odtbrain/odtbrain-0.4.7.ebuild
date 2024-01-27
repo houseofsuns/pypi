@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numexpr[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.7.0[${PYTHON_USEDEP}]
 	dev-python/pyFFTW[${PYTHON_USEDEP}]
-	dev-python/scikit-image[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.11.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

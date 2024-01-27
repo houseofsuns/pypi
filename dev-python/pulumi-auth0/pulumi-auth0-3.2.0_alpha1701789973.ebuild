@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing auth0 cloud resources. [newver 3.2.0a1705986900]"
+DESCRIPTION="A Pulumi package for creating and managing auth0 cloud resources. [newver 3.2.0a1706307024]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

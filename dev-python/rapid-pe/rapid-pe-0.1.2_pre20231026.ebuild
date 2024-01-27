@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RapidPE: The original low-latency gravitational wave parameter estimation code. [newver 0.1.2.dev20240126]"
+DESCRIPTION="RapidPE: The original low-latency gravitational wave parameter estimation code. [newver 0.1.2.dev20240127]"
 
 HOMEPAGE="https://git.ligo.org/rapidpe-rift/rapidpe/"
 LICENSE="GPL-2+"

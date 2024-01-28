@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyGlove: A library for manipulating Python objects. [newver 0.4.5.dev20240127]"
+DESCRIPTION="PyGlove: A library for manipulating Python objects. [newver 0.4.5.dev20240128]"
 
 HOMEPAGE="https://github.com/google/pyglove"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common code used by all DiracX packages [newver 0.0.1a8]"
+DESCRIPTION="Common code used by all DiracX packages [newver 0.0.1a9]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

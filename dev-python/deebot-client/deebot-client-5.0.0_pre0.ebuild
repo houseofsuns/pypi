@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deebot client library in python 3"
+DESCRIPTION="Deebot client library in python 3 [newver 5.0.0.dev1]"
 
 HOMEPAGE="https://deebot.readthedocs.io/"
 LICENSE="GPL-3"

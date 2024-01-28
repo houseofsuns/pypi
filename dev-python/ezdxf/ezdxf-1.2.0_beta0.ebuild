@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package to create/manipulate DXF drawings."
+DESCRIPTION="A Python package to create/manipulate DXF drawings. [newver 1.2.0b1]"
 
 HOMEPAGE="https://ezdxf.mozman.at"
 LICENSE="MIT"

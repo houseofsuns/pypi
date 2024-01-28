@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Teaching LLMs memory management for unbounded context [newver 0.3.0.dev20240127103912]"
+DESCRIPTION="Teaching LLMs memory management for unbounded context [newver 0.3.0.dev20240128103855]"
 
 HOMEPAGE=""
 LICENSE="Apache License"

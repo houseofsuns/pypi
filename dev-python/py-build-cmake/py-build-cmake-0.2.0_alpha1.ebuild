@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modern, PEP 517 compliant build backend for creating Python packages with [newver 0.2.0a9]"
+DESCRIPTION="Modern, PEP 517 compliant build backend for creating Python packages with [newver 0.2.0a10]"
 
 HOMEPAGE=""
 LICENSE=""

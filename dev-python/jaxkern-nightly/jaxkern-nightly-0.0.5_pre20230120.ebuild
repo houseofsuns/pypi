@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kernels in Jax. [newver 0.0.5.dev20240127]"
+DESCRIPTION="Kernels in Jax. [newver 0.0.5.dev20240128]"
 
 HOMEPAGE=""
 LICENSE="LICENSE"

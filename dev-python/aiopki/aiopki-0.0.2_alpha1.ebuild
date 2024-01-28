@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Enter a description for this Unimatrix package [newver 0.0.2a16]"
+DESCRIPTION="Enter a description for this Unimatrix package [newver 0.0.2a17]"
 
 HOMEPAGE="https://gitlab.com/unimatrixone"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Diagnostic Tool for Deep Neural Networks"
+DESCRIPTION="Diagnostic Tool for Deep Neural Networks [topver 0.7.4.3, newver 0.7.4.3]"
 
 HOMEPAGE="https://calculationconsulting.com/"
 LICENSE="Apache-2.0"

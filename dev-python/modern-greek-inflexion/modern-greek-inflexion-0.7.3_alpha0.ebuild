@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python 3 library for creating inflected forms given basic forms of Modern Greek words"
+DESCRIPTION="Python 3 library for creating inflected forms given basic forms of Modern Greek words [newver 0.7.3b0]"
 
 HOMEPAGE="https://github.com/PicusZeus/modern-greek-inflexion"
 LICENSE="MIT"

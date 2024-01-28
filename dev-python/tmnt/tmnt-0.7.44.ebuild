@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Topic modeling neural toolkit [newver 0.7.44b20240126]"
+DESCRIPTION="Topic modeling neural toolkit [newver 0.7.44b20240127]"
 
 HOMEPAGE="https://github.com/mitre/tmnt.git"
 LICENSE="Apache-2.0"

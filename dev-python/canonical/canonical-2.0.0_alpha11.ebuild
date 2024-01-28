@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common models and types for business applications [newver 2.0.0a50]"
+DESCRIPTION="Common models and types for business applications [newver 2.0.0a53]"
 
 HOMEPAGE="https://gitlab.com/unimatrixone"
 LICENSE=""

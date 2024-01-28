@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PPL tools for Aesara [newver 0.1.5.dev20240127]"
+DESCRIPTION="PPL tools for Aesara [newver 0.1.5.dev20240128]"
 
 HOMEPAGE="https://github.com/aesara-devs/aeppl"
 LICENSE=""

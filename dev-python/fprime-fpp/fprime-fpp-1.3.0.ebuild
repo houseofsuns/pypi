@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FPP distribution package [topver 2.1.0, newver 2.1.0a2]"
+DESCRIPTION="FPP distribution package [topver 2.1.0, newver 2.1.0a3]"
 
 HOMEPAGE="https://github.com/nasa/fprime"
 LICENSE="Apache 2.0 License"

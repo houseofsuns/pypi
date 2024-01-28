@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation library for OAuth 2.x/OpenID Connect 1.0 clients and servers. [newver 0.0.2a52]"
+DESCRIPTION="Implementation library for OAuth 2.x/OpenID Connect 1.0 clients and servers. [newver 0.0.2a53]"
 
 HOMEPAGE="https://gitlab.com/unimatrixone"
 LICENSE=""

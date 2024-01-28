@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple access manager [newver 2.0.0a49]"
+DESCRIPTION="A simple access manager [newver 2.0.0a57]"
 
 HOMEPAGE="https://github.com/d20services/security_layer_python_arangodb"
 LICENSE=""

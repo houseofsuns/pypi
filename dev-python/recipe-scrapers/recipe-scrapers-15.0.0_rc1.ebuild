@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package, scraping recipes from all over the internet [newver 14.53.0]"
+DESCRIPTION="Python package, scraping recipes from all over the internet [newver 14.54.0]"
 
 HOMEPAGE="https://github.com/hhursev/recipe-scrapers/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Asyncer, async and await, focused on developer experience."
+DESCRIPTION="Asyncer, async and await, focused on developer experience. [newver 0]"
 
 HOMEPAGE="https://github.com/tiangolo/asyncer"
 LICENSE="MIT"

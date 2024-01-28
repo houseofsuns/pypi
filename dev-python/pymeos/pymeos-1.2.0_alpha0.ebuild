@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for the MEOS C Library. [newver 1.1.3b3]"
+DESCRIPTION="Python wrapper for the MEOS C Library. [newver 1.1.3b5]"
 
 HOMEPAGE="https://github.com/MobilityDB/PyMEOS"
 LICENSE="PostgreSQL"

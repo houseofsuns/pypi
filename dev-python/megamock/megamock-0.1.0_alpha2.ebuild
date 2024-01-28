@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mega mocking capabilities [newver 0.1.0b10]"
+DESCRIPTION="Mega mocking capabilities [newver 0.1.0b11]"
 
 HOMEPAGE="https://github.com/JamesHutchison/megamock"
 LICENSE="MIT"

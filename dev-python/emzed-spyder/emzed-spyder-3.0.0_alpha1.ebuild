@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="emzed IDE, see also https://emzed.ethz.ch [newver 3.0.0a14]"
+DESCRIPTION="emzed IDE, see also https://emzed.ethz.ch [newver 3.0.0a15]"
 
 HOMEPAGE="https://emzed.ethz.ch"
 LICENSE="MIT"

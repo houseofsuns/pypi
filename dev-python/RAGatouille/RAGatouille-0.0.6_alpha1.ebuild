@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to facilitate the use of state-of-the-art retrieval models in common RAG contexts."
+DESCRIPTION="Library to facilitate the use of state-of-the-art retrieval models in common RAG contexts. [newver 0.0.6a2]"
 
 HOMEPAGE="https://github.com/bclavie/ragatouille"
 LICENSE=""

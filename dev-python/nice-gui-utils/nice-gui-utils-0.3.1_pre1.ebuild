@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utils to use with NiceGUI."
+DESCRIPTION="Utils to use with NiceGUI. [newver 0.3.1.dev2]"
 
 HOMEPAGE="https://gitlab.com/harter-kern-public/nice-gui-utils"
 LICENSE=""

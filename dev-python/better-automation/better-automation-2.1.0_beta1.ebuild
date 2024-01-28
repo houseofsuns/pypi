@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unofficial Twitter and Discord API [newver 2.1.0b19]"
+DESCRIPTION="Unofficial Twitter and Discord API [newver 2.1.0b21]"
 
 HOMEPAGE=""
 LICENSE=""

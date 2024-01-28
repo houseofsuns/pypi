@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Imports! - Delayed importing [topver 7.502.24024, newver 7.502.24024]"
+DESCRIPTION="More Imports! - Delayed importing [topver 7.507.24028, newver 7.507.24028]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-imports"
 LICENSE="MPL 2.0"

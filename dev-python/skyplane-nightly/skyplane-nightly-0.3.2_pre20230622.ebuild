@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Skyplane efficiently transports data between cloud regions and providers. [newver 0.3.2.dev20240127]"
+DESCRIPTION="Skyplane efficiently transports data between cloud regions and providers. [newver 0.3.2.dev20240128]"
 
 HOMEPAGE="https://skyplane.org/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="🎈 Automated README file generator, powered by large language model APIs [newver 0.5.0b1]"
+DESCRIPTION="🎈 Automated README file generator, powered by large language model APIs [newver 0.5.0b2]"
 
 HOMEPAGE="https://github.com/eli64s/readme-ai"
 LICENSE="MIT"

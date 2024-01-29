@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The package *upathlib*"
+DESCRIPTION="The package *upathlib* [newver 0.9.3b3]"
 
 HOMEPAGE=""
 LICENSE=""

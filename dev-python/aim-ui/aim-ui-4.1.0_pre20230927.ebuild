@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aim UI [newver 3.18.0.dev20240127]"
+DESCRIPTION="Aim UI [newver 3.18.0.dev20240128]"
 
 HOMEPAGE=""
 LICENSE=""

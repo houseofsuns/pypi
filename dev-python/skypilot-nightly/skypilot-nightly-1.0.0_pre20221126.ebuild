@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SkyPilot: An intercloud broker for the clouds [newver 1.0.0.dev20240128]"
+DESCRIPTION="SkyPilot: An intercloud broker for the clouds [newver 1.0.0.dev20240129]"
 
 HOMEPAGE="https://github.com/skypilot-org/skypilot"
 LICENSE="Apache-2.0"

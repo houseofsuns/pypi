@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OVOS Messagebus Client [newver 0.0.9a9]"
+DESCRIPTION="OVOS Messagebus Client [newver 0.0.9a10]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-bus-client"
 LICENSE="Apache-2.0"

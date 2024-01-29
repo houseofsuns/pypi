@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Intelligent data search & enrichment for Machine Learning [newver 1.1.244a21]"
+DESCRIPTION="Intelligent data search & enrichment for Machine Learning [newver 1.1.244a24]"
 
 HOMEPAGE="https://upgini.com/"
 LICENSE="BSD 3-Clause License"

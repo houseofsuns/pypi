@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenGeodeWeb-Back is an open source framework that proposes handy python functions and wrappers for the OpenGeode ecosystem [newver 3.3.0rc18]"
+DESCRIPTION="OpenGeodeWeb-Back is an open source framework that proposes handy python functions and wrappers for the OpenGeode ecosystem [newver 3.3.0rc19]"
 
 HOMEPAGE="https://github.com/Geode-solutions/OpenGeodeWeb-Back"
 LICENSE=""

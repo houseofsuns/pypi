@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common AWS CDK librarys."
+DESCRIPTION="Common AWS CDK librarys. [newver 1.0.745]"
 
 HOMEPAGE="https://github.com/neilkuan/cdk-common.git"
 LICENSE="Apache-2.0"

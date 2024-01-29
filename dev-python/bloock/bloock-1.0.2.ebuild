@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bloock SDK for Python3 [topver 2.7.3, newver 2.7.3]"
+DESCRIPTION="Bloock SDK for Python3 [topver 2.8.0, newver 2.8.0b1]"
 
 HOMEPAGE="https://github.com/enchainte/bloock-sdk-py"
 LICENSE=""

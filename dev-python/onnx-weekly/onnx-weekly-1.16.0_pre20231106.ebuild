@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open Neural Network Exchange [newver 1.16.0.dev20240122]"
+DESCRIPTION="Open Neural Network Exchange [newver 1.16.0.dev20240129]"
 
 HOMEPAGE="https://onnx.ai/"
 LICENSE="Apache License v2.0"

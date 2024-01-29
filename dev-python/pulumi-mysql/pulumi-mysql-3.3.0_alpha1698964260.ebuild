@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing mysql cloud resources. [newver 3.3.0a1706422161]"
+DESCRIPTION="A Pulumi package for creating and managing mysql cloud resources. [newver 3.3.0a1706508631]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

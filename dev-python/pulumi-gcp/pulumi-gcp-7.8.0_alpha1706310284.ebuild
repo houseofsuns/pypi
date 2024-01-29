@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Google Cloud Platform resources. [newver 7.8.0a1706362051]"
+DESCRIPTION="A Pulumi package for creating and managing Google Cloud Platform resources. [newver 7.8.0a1706527724]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

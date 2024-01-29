@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="document QA package using langchain and chromadb"
+DESCRIPTION="document QA package using langchain and chromadb [topver 0.8.10, newver 0.8.10]"
 
 HOMEPAGE="https://github.com/iii-org/akasha"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Datahub Airflow plugin to capture executions and send to Datahub"
+DESCRIPTION="Datahub Airflow plugin to capture executions and send to Datahub [newver 0.12.1.5rc2]"
 
 HOMEPAGE="https://datahubproject.io/"
 LICENSE="Apache-2.0"

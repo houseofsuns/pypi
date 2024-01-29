@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of utilities by Prompt Engineers [newver 0.0.8rc1]"
+DESCRIPTION="A collection of utilities by Prompt Engineers [newver 0.0.8rc2]"
 
 HOMEPAGE="https://github.com/promptengineers-ai/core"
 LICENSE=""

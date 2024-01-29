@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Async http client/server framework (asyncio) [newver 3.9.1]"
+DESCRIPTION="Async http client/server framework (asyncio) [newver 3.9.2]"
 
 HOMEPAGE="https://github.com/aio-libs/aiohttp"
 LICENSE="Apache-2.0"

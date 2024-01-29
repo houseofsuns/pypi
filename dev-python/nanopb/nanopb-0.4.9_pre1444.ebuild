@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nanopb is a small code-size Protocol Buffers implementation in ansi C. It is especially suitable for use in microcontrollers, but fits any memory restricted system. [newver 0.4.9.dev1452]"
+DESCRIPTION="Nanopb is a small code-size Protocol Buffers implementation in ansi C. It is especially suitable for use in microcontrollers, but fits any memory restricted system. [newver 0.4.9.dev1453]"
 
 HOMEPAGE="https://jpa.kapsi.fi/nanopb/"
 LICENSE="Zlib"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Basepair's API [newver 2.0.12a2]"
+DESCRIPTION="Python client for Basepair's API [newver 2.0.12a3]"
 
 HOMEPAGE="https://bitbucket.org/basepair/basepair"
 LICENSE=""

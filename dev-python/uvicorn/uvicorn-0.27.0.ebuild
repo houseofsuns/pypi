@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The lightning-fast ASGI server."
+DESCRIPTION="The lightning-fast ASGI server. [newver 0.27.0.post1]"
 
 HOMEPAGE="https://www.uvicorn.org/"
 LICENSE=""

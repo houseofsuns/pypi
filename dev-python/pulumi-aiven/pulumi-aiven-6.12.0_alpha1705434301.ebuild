@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Aiven cloud resources. [newver 6.12.0a1706307416]"
+DESCRIPTION="A Pulumi package for creating and managing Aiven cloud resources. [newver 6.11.2]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Server component of the Fractal analytics platform [newver 1.4.3a1]"
+DESCRIPTION="Server component of the Fractal analytics platform [newver 1.4.3a2]"
 
 HOMEPAGE="https://github.com/fractal-analytics-platform/fractal-server"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SQLite based queryable python indexes for dicts and lists [newver 0.0.2.dev42]"
+DESCRIPTION="SQLite based queryable python indexes for dicts and lists [newver 0.0.2.dev44]"
 
 HOMEPAGE="https://github.com/notAI-tech/liteindex"
 LICENSE="MIT"

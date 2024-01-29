@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing CloudAMQP resources. [newver 3.18.0a1706307074]"
+DESCRIPTION="A Pulumi package for creating and managing CloudAMQP resources. [newver 3.17.3]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

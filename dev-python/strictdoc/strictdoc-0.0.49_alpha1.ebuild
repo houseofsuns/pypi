@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="StrictDoc is open-source software for technical documentation and requirements management."
+DESCRIPTION="StrictDoc is open-source software for technical documentation and requirements management. [newver 0.0.49a2]"
 
 HOMEPAGE="https://strictdoc.readthedocs.io/en/stable/"
 LICENSE=""

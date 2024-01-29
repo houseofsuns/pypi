@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python modules to work with large, multiresolution images."
+DESCRIPTION="Python modules to work with large, multiresolution images. [newver 1.27.2.dev4]"
 
 HOMEPAGE="https://github.com/girder/large_image"
 LICENSE="Apache Software License 2.0"

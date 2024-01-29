@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="E2B SDK that give agents cloud environments [newver 0.13.17]"
+DESCRIPTION="E2B SDK that give agents cloud environments [newver 0.13.18]"
 
 HOMEPAGE="https://e2b.dev/"
 LICENSE="MIT"

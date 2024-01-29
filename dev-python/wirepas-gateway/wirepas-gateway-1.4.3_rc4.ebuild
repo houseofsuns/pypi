@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wirepas gateway transport service that connects the local dbus to a remote MQTT broker. [newver 1.4.3rc5]"
+DESCRIPTION="Wirepas gateway transport service that connects the local dbus to a remote MQTT broker. [newver 1.4.3rc6]"
 
 HOMEPAGE="https://github.com/wirepas/gateway"
 LICENSE="Apache-2.0"

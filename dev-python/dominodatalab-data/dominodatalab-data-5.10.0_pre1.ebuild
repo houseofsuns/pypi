@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Domino Data API for interacting with Domino Data features [newver 5.9.1]"
+DESCRIPTION="Domino Data API for interacting with Domino Data features [newver 5.10.0.dev3]"
 
 HOMEPAGE="https://github.com/dominodatalab/domino-data"
 LICENSE="Apache Software License 2.0"

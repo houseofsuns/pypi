@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="th2_grpc_check1 [newver 4.4.0.dev7653233233]"
+DESCRIPTION="th2_grpc_check1 [newver 4.4.0.dev7697109339]"
 
 HOMEPAGE="https://github.com/th2-net/th2-grpc-check1"
 LICENSE="Apache-2.0"

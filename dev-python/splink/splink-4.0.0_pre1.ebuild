@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast probabilistic data linkage at scale"
+DESCRIPTION="Fast probabilistic data linkage at scale [newver 4.0.0.dev2]"
 
 HOMEPAGE="https://github.com/moj-analytical-services/splink"
 LICENSE="MIT"

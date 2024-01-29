@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for Scale EGP API [newver 0.0.0b30]"
+DESCRIPTION="SDK for Scale EGP API [newver 0.0.0b31]"
 
 HOMEPAGE="https://scaleapi.github.io/egp-py/"
 LICENSE="Apache 2.0 modified with Commons Clause"

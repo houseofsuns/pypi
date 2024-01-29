@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 0.4.4]"
+DESCRIPTION=" [newver 0.4.5]"
 
 HOMEPAGE="https://github.com/Jaseci-Labs/jaseci2"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloudforet Console API v2 Service [newver 2.0.dev66]"
+DESCRIPTION="Cloudforet Console API v2 Service [newver 2.0.dev67]"
 
 HOMEPAGE="https://cloudforet.io/"
 LICENSE="Apache-2.0"

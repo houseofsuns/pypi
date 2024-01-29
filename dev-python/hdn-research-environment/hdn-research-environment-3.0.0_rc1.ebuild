@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django app for supporting cloud-native research environments [newver 3.0.0rc2]"
+DESCRIPTION="A Django app for supporting cloud-native research environments [newver 3.0.0rc3]"
 
 HOMEPAGE="https://www.healthdatanexus.ai/"
 LICENSE="BSD-3-Clause  # Example license"

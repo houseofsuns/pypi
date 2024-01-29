@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python scripting API for MASTA."
+DESCRIPTION="Python scripting API for MASTA. [newver 13.0.1.post1]"
 
 HOMEPAGE="https://www.smartmt.com/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A health check and RCA tool for kubernetes [newver 0.9.0]"
+DESCRIPTION="A health check and RCA tool for kubernetes [newver 0.9.0.dev0]"
 
 HOMEPAGE="https://unskript.com/"
 LICENSE=""

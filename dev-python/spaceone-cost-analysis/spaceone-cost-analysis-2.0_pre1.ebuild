@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SpaceONE cost analysis service [newver 2.0.dev78]"
+DESCRIPTION="SpaceONE cost analysis service [newver 2.0.dev81]"
 
 HOMEPAGE="https://www.spaceone.dev/"
 LICENSE="Apache-2.0"

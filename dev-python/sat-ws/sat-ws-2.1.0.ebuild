@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API to connect with SAT ws [topver 3.23.2, newver 1.1.4]"
+DESCRIPTION="API to connect with SAT ws [topver 3.25.0, newver 3.25.0]"
 
 HOMEPAGE="https://gitlab.com/HomebrewSoft/sat_ws_api"
 LICENSE=""

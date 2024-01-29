@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 1.3.11.dev5]"
+DESCRIPTION=" [newver 1.3.11.dev8]"
 
 HOMEPAGE="https://coiled.io"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Music Assistant [newver 2.0.0b89]"
+DESCRIPTION="Music Assistant [newver 2.0.0b90]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

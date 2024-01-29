@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EmbedOps Command Line Tools [newver 0.3.47rc2]"
+DESCRIPTION="EmbedOps Command Line Tools [newver 0.3.47rc3]"
 
 HOMEPAGE="https://embedops.io"
 LICENSE=""

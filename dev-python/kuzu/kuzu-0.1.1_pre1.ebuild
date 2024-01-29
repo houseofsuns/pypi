@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An in-process property graph database management system built for query speed and scalability. [newver 0.1.1.dev36]"
+DESCRIPTION="An in-process property graph database management system built for query speed and scalability. [newver 0.1.1.dev38]"
 
 HOMEPAGE="https://github.com/kuzudb/kuzu"
 LICENSE="MIT"

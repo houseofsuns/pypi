@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django powered cms [newver 6.0.0b11]"
+DESCRIPTION="Django powered cms [newver 6.0.0b12]"
 
 HOMEPAGE="https://github.com/lotrekagency/camomilla"
 LICENSE="MIT"

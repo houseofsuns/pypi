@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scikit-decide is an AI framework for Reinforcement Learning, Automated Planning and Scheduling. [topver 0.9.7, newver 0.9.7]"
+DESCRIPTION="Scikit-decide is an AI framework for Reinforcement Learning, Automated Planning and Scheduling. [topver 0.9.8, newver 0.9.8]"
 
 HOMEPAGE="https://github.com/airbus/scikit-decide"
 LICENSE="MIT"

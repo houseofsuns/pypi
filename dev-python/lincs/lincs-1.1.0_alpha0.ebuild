@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Learn and Infer Non Compensatory Sortings [newver 1.1.0a3]"
+DESCRIPTION="Learn and Infer Non Compensatory Sortings [newver 1.1.0a4]"
 
 HOMEPAGE="https://github.com/MICS-Lab/lincs"
 LICENSE="LGPL-3"

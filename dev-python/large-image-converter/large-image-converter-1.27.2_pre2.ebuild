@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Converter for Large Image."
+DESCRIPTION="Converter for Large Image. [newver 1.27.2.dev4]"
 
 HOMEPAGE=""
 LICENSE="Apache Software License 2.0"

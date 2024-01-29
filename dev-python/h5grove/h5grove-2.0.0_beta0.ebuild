@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core utilities to serve HDF5 file contents [newver 2.0.0b1]"
+DESCRIPTION="Core utilities to serve HDF5 file contents [newver 2.0.0b2]"
 
 HOMEPAGE="https://github.com/silx-kit/h5grove"
 LICENSE="MIT"

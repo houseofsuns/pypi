@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pyunit-address[${PYTHON_USEDEP}]
 	dev-python/pyunit-calendar[${PYTHON_USEDEP}]
 	dev-python/pyunit-color[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/pyunit-address[${PYTHON_USEDEP}]
 	dev-python/pyunit-string[${PYTHON_USEDEP}]
 	dev-python/pyunit-time[${PYTHON_USEDEP}]
 	dev-python/pyunit-tool[${PYTHON_USEDEP}]
-	dev-python/pyunit-weather[${PYTHON_USEDEP}]"
+	dev-python/pyunit-weather[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

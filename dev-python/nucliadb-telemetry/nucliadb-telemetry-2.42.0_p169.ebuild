@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all fastapi grpc nats otel tikv"
+IUSE="all fastapi grpc nats otel tikv"
 DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.6.7[${PYTHON_USEDEP}]
@@ -95,6 +95,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	tikv? ( dev-python/opentelemetry-propagator-b3[${PYTHON_USEDEP}] )
 	tikv? ( dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}] )
 	tikv? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )
-	tikv? ( dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}] )"
+	tikv? ( dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

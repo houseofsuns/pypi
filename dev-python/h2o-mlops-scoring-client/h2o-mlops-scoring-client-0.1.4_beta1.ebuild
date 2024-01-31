@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-1.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

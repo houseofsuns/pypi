@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/trimesh[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.13.4[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES=">=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
 	dev-python/fastcounter[${PYTHON_USEDEP}]
-	dev-python/Pympler[${PYTHON_USEDEP}]"
+	dev-python/Pympler[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

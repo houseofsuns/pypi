@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel other test"
+IUSE="other test"
 DEPENDENCIES=">=dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
 	other? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

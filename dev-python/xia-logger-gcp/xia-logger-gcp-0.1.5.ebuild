@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/google-cloud-logging[${PYTHON_USEDEP}]
-	dev-python/xia-logger[${PYTHON_USEDEP}]"
+	dev-python/xia-logger[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

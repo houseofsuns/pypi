@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/grpcio-1.27.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.27.2[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
-	>=dev-python/redis-4.5.4[${PYTHON_USEDEP}]"
+	>=dev-python/redis-4.5.4[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

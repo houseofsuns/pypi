@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel broadcast testing upgrade"
+IUSE="broadcast testing upgrade"
 DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev-python/c2c-template[${PYTHON_USEDEP}]
 	dev-python/papyrus[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	broadcast? ( dev-python/c2cwsgiutils[${PYTHON_USEDEP}] )
 	testing? ( dev-python/transaction[${PYTHON_USEDEP}] )
 	upgrade? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	upgrade? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
+	upgrade? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

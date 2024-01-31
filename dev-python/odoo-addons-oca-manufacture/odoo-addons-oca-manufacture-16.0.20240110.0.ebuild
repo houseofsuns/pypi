@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-account-move-line-mrp-info[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mrp-bom-component-menu[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mrp-bom-hierarchy[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="dev-python/odoo-addon-account-move-line-mrp-info[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mrp-warehouse-calendar[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mrp-workorder-lot-display[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mrp-workorder-sequence[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-quality-control-oca[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-quality-control-oca[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

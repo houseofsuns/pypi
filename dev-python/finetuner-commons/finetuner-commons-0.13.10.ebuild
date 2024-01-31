@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/docarray[${PYTHON_USEDEP}]
 	dev-python/jina-hubble-sdk[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/docarray[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.4.4[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/transformers[${PYTHON_USEDEP}]"
+	dev-python/transformers[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

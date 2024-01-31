@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/StrawberryFields[${PYTHON_USEDEP}]
-	dev-python/PennyLane[${PYTHON_USEDEP}]"
+	dev-python/PennyLane[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

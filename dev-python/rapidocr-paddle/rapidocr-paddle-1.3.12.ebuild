@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cpu gpu"
+IUSE="cpu gpu"
 DEPENDENCIES=">=dev-python/pyclipper-1.2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/pyclipper-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	<=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	cpu? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
-	gpu? ( dev-python/paddlepaddle-gpu[${PYTHON_USEDEP}] )"
+	gpu? ( dev-python/paddlepaddle-gpu[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

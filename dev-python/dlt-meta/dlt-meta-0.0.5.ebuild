@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev it"
+IUSE="dev it"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/databricks-sdk[${PYTHON_USEDEP}]
 	it? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/delta-spark[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/delta-spark[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

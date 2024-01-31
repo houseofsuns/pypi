@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/drizzutojr-vapi[${PYTHON_USEDEP}]
 	>=dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
-	>=dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]"
+	>=dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

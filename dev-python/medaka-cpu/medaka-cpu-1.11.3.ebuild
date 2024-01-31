@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
 	dev-python/edlib[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="~dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/pyspoa[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/wurlitzer[${PYTHON_USEDEP}]"
+	dev-python/wurlitzer[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

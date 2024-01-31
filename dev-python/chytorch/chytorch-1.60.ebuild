@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel lmdb postgres rdkit zstd"
+IUSE="lmdb postgres rdkit zstd"
 DEPENDENCIES="dev-python/chython[${PYTHON_USEDEP}]
 	lmdb? ( <dev-python/lmdb-2.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/chython[${PYTHON_USEDEP}]
 	rdkit? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/torchtyping[${PYTHON_USEDEP}]"
+	dev-python/torchtyping[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

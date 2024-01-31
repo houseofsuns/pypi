@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs rest template"
+IUSE="docs rest template"
 DEPENDENCIES="docs? ( ~dev-python/commonmark-0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pydata-sphinx-theme-0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	rest? ( dev-python/docent[${PYTHON_USEDEP}] )
 	template? ( dev-python/docent[${PYTHON_USEDEP}] )
-	template? ( dev-python/docent[${PYTHON_USEDEP}] )"
+	template? ( dev-python/docent[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

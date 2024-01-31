@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel gevent"
+IUSE="gevent"
 DEPENDENCIES="~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
-	gevent? ( dev-python/gevent_inotifyx[${PYTHON_USEDEP}] )"
+	gevent? ( dev-python/gevent_inotifyx[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

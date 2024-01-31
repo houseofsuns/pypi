@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
-	dev-python/openvino-telemetry[${PYTHON_USEDEP}]"
+	dev-python/openvino-telemetry[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

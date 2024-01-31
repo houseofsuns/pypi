@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/paramiko-2.7.1[${PYTHON_USEDEP}]
-	~dev-python/sshtunnel-0.1.5[${PYTHON_USEDEP}]"
+	~dev-python/sshtunnel-0.1.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-base-maintenance[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-base-maintenance-group[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-maintenance-equipment-contract[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/odoo-addon-base-maintenance[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-maintenance-request-stage-transition[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-maintenance-security[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-maintenance-team-hierarchy[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-maintenance-timesheet[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-maintenance-timesheet[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

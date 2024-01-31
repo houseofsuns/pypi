@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.17[${PYTHON_USEDEP}]
 	>=dev-python/pyaml-20.0[${PYTHON_USEDEP}]
-	dev-python/setuptools-git-versioning[${PYTHON_USEDEP}]"
+	dev-python/setuptools-git-versioning[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

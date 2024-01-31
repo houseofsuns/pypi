@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/geopy[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
 	dev-python/ImageHash[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/geopy[${PYTHON_USEDEP}]
 	~dev-python/humanize-4.4.0[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/jsonpickle-2.2.0[${PYTHON_USEDEP}]
-	~dev-python/packaging-23.0[${PYTHON_USEDEP}]"
+	~dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

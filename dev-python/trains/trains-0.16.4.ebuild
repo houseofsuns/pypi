@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure gs s3"
+IUSE="azure gs s3"
 DEPENDENCIES=">=dev-python/attrs-18.0[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES=">=dev-python/attrs-18.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	gs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	s3? ( >=dev-python/boto3-1.9[${PYTHON_USEDEP}] )"
+	s3? ( >=dev-python/boto3-1.9[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

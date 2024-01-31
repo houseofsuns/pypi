@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/simplejson-3.18[${PYTHON_USEDEP}]
 	~dev-python/decorator-4.4[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66[${PYTHON_USEDEP}]
 	~dev-python/argcomplete-3.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

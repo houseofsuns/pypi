@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all graphviz mpl"
+IUSE="all graphviz mpl"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	~dev-python/rustworkx-0.14.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pillow-5.4[${PYTHON_USEDEP}] )
 	graphviz? ( >=dev-python/pillow-5.4[${PYTHON_USEDEP}] )
-	mpl? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )"
+	mpl? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

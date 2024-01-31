@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docker"
+IUSE="docker"
 DEPENDENCIES=">=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.7[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	docker? ( >=dev-python/docker-5.0[${PYTHON_USEDEP}] )"
+	docker? ( >=dev-python/docker-5.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

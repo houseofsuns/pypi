@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dev docs test"
+IUSE="all dev docs test"
 DEPENDENCIES="~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	~dev-python/pyrsistent-0.19.3[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
@@ -123,6 +123,7 @@ DEPENDENCIES="~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-eradicate[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-assertive[${PYTHON_USEDEP}] )
 	test? ( <dev-python/eradicate-3.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

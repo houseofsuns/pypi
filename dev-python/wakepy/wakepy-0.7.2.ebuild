@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc"
+IUSE="dev doc"
 DEPENDENCIES=">=dev-python/jeepney-0.7.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -37,6 +37,7 @@ DEPENDENCIES=">=dev-python/jeepney-0.7.1[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/furo[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

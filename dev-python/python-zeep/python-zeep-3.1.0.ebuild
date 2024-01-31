@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel async docs test tornado xmlsec"
+IUSE="async docs test tornado xmlsec"
 DEPENDENCIES=">=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
 	>=dev-python/cached-property-1.3.0[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-imports[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/aioresponses-0.4.1[${PYTHON_USEDEP}] )
 	tornado? ( <dev-python/tornado-5.0[${PYTHON_USEDEP}] )
-	xmlsec? ( >=dev-python/xmlsec-0.6.1[${PYTHON_USEDEP}] )"
+	xmlsec? ( >=dev-python/xmlsec-0.6.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/ismrmrd[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/tensorflow-graphics[${PYTHON_USEDEP}]
 	dev-python/tensorflow-io[${PYTHON_USEDEP}]
 	dev-python/tensorflow-nufft[${PYTHON_USEDEP}]
-	dev-python/tensorflow-probability[${PYTHON_USEDEP}]"
+	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

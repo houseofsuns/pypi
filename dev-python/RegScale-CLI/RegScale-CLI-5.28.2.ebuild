@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel airflow airflow-azure airflow-sqlserver all ansible dev server"
+IUSE="airflow airflow-azure airflow-sqlserver all ansible dev server"
 DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
@@ -452,6 +452,7 @@ DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	server? ( dev-python/tools[${PYTHON_USEDEP}] )
 	server? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	server? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	server? ( dev-python/xmltodict[${PYTHON_USEDEP}] )"
+	server? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

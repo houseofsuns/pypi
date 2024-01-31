@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/alibabacloud-tea-util[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-tea-openapi[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-openapi-util[${PYTHON_USEDEP}]
-	dev-python/alibabacloud-endpoint-util[${PYTHON_USEDEP}]"
+	dev-python/alibabacloud-endpoint-util[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

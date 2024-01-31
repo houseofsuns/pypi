@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/BenBotAsync[${PYTHON_USEDEP}]
 	dev-python/FortniteAPIAsync[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/crayons[${PYTHON_USEDEP}]
 	dev-python/fortnitepy[${PYTHON_USEDEP}]
-	dev-python/sanic[${PYTHON_USEDEP}]"
+	dev-python/sanic[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

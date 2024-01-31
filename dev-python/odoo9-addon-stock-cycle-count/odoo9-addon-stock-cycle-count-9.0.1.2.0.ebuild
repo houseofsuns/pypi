@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
 	dev-python/odoo9-addon-stock-inventory-discrepancy[${PYTHON_USEDEP}]
-	dev-python/odoo9-addon-stock-inventory-exclude-sublocation[${PYTHON_USEDEP}]"
+	dev-python/odoo9-addon-stock-inventory-exclude-sublocation[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

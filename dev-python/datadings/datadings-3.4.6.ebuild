@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel geo"
+IUSE="geo"
 DEPENDENCIES="dev-python/gdown[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/simplejpeg[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-18.1.1[${PYTHON_USEDEP}]
-	geo? ( dev-python/GDAL[${PYTHON_USEDEP}] )"
+	geo? ( dev-python/GDAL[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

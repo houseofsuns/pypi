@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel filecache flask toml yaml"
+IUSE="filecache flask toml yaml"
 DEPENDENCIES="dev-python/BTrees[${PYTHON_USEDEP}]
 	~dev-python/cachecontrol-0.12.14[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
@@ -156,6 +156,7 @@ DEPENDENCIES="dev-python/BTrees[${PYTHON_USEDEP}]
 	dev-python/zodbpickle[${PYTHON_USEDEP}]
 	~dev-python/zope-interface-6.1[${PYTHON_USEDEP}]
 	~dev-python/zope-testing-5.0.1[${PYTHON_USEDEP}]
-	~dev-python/zstandard-0.22.0[${PYTHON_USEDEP}]"
+	~dev-python/zstandard-0.22.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

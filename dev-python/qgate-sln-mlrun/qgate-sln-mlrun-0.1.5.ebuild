@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/mlrun[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.17.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/mlrun[${PYTHON_USEDEP}]
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

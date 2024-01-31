@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/custatevec-cu11[${PYTHON_USEDEP}]
-	dev-python/cutensornet-cu11[${PYTHON_USEDEP}]"
+	dev-python/cutensornet-cu11[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

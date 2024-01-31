@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all eeg jpg json nifti png"
+IUSE="all eeg jpg json nifti png"
 DEPENDENCIES="dev-python/dicom-validator[${PYTHON_USEDEP}]
 	all? ( dev-python/dotty-dict[${PYTHON_USEDEP}] )
 	json? ( dev-python/dotty-dict[${PYTHON_USEDEP}] )
@@ -52,6 +52,7 @@ DEPENDENCIES="dev-python/dicom-validator[${PYTHON_USEDEP}]
 	all? ( dev-python/pybv[${PYTHON_USEDEP}] )
 	eeg? ( dev-python/pybv[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pypng-1.0[${PYTHON_USEDEP}] )
-	png? ( <dev-python/pypng-1.0[${PYTHON_USEDEP}] )"
+	png? ( <dev-python/pypng-1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

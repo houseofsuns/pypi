@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pep8test test"
+IUSE="pep8test test"
 DEPENDENCIES=">=dev-python/cffi-1.12[${PYTHON_USEDEP}]
 	pep8test? ( dev-python/black[${PYTHON_USEDEP}] )
 	pep8test? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -33,6 +33,7 @@ DEPENDENCIES=">=dev-python/cffi-1.12[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

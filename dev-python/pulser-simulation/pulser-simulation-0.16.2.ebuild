@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/qutip[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.12[${PYTHON_USEDEP}]
-	dev-python/pulser-core[${PYTHON_USEDEP}]"
+	dev-python/pulser-core[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

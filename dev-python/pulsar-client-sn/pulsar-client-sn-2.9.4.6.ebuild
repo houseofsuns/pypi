@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all avro functions"
+IUSE="all avro functions"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	all? ( dev-python/apache-bookkeeper-client[${PYTHON_USEDEP}] )
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	functions? ( <dev-python/grpcio-1.28[${PYTHON_USEDEP}] )
 	functions? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	functions? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	functions? ( dev-python/ratelimit[${PYTHON_USEDEP}] )"
+	functions? ( dev-python/ratelimit[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel image model"
+IUSE="image model"
 DEPENDENCIES="~dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="~dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.16.10[${PYTHON_USEDEP}]
 	dev-python/azureml-core[${PYTHON_USEDEP}]
 	image? ( ~dev-python/pillow-9.0.1[${PYTHON_USEDEP}] )
-	model? ( ~dev-python/cloudpickle-1.2.2[${PYTHON_USEDEP}] )"
+	model? ( ~dev-python/cloudpickle-1.2.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

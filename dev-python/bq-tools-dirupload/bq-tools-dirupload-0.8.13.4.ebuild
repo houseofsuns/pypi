@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel exif"
+IUSE="exif"
 DEPENDENCIES="dev-python/bisque-api[${PYTHON_USEDEP}]
 	dev-python/viqi-api[${PYTHON_USEDEP}]
 	dev-python/bisque-metadoc[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/bisque-api[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	>=dev-python/regex-2020.11.13[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
-	exif? ( dev-python/exif[${PYTHON_USEDEP}] )"
+	exif? ( dev-python/exif[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

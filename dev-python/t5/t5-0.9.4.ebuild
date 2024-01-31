@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cache-tasks gcp test"
+IUSE="cache-tasks gcp test"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
@@ -49,6 +49,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/torch[${PYTHON_USEDEP}] )"
+	test? ( dev-python/torch[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

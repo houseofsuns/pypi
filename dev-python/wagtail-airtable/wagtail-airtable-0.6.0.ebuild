@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/airtable-python-wrapper[${PYTHON_USEDEP}]
 	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.11.0[${PYTHON_USEDEP}]
-	dev-python/wagtail[${PYTHON_USEDEP}]"
+	dev-python/wagtail[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

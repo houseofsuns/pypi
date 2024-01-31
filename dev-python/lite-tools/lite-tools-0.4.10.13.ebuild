@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all"
+IUSE="all"
 DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/DBUtils[${PYTHON_USEDEP}]
 	dev-python/func-timeout[${PYTHON_USEDEP}]
 	all? ( dev-python/reportlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )"
+	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

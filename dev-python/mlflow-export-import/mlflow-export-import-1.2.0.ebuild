@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/mlflow[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
-	dev-python/shortuuid[${PYTHON_USEDEP}]"
+	dev-python/shortuuid[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/etna-api[${PYTHON_USEDEP}]
 	dev-python/etna-panza[${PYTHON_USEDEP}]
 	dev-python/etna-pika-utils[${PYTHON_USEDEP}]
 	dev-python/etna-quixote[${PYTHON_USEDEP}]
 	dev-python/nectarine[${PYTHON_USEDEP}]
 	~dev-python/pika-1.1.0[${PYTHON_USEDEP}]
-	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

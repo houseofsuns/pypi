@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs"
+IUSE="dev docs"
 DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
@@ -58,6 +58,7 @@ DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-tabs-3.4.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
 	~dev-python/django-3.2.23[${PYTHON_USEDEP}]
@@ -166,6 +166,7 @@ DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}]
 	dev-python/xmljson[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.13.1[${PYTHON_USEDEP}]
-	dev-python/zipstream-new[${PYTHON_USEDEP}]"
+	dev-python/zipstream-new[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

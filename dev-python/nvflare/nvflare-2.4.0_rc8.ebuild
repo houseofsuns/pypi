@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all all_mac app_opt app_opt_mac config core_opt dev dev_mac doc he psi pt sklearn test test_mac test_support tracking"
+IUSE="all all_mac app_opt app_opt_mac config core_opt dev dev_mac doc he psi pt sklearn test test_mac test_support tracking"
 DEPENDENCIES=">=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}]
@@ -145,6 +145,7 @@ DEPENDENCIES=">=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
 	test_support? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
 	test_support? ( ~dev-python/pytest-xdist-3.0.2[${PYTHON_USEDEP}] )
 	test_support? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	test_support? ( >=dev-python/pandas-1.5.1[${PYTHON_USEDEP}] )"
+	test_support? ( >=dev-python/pandas-1.5.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

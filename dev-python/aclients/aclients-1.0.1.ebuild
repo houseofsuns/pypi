@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/sanic[${PYTHON_USEDEP}]
 	dev-python/aelog[${PYTHON_USEDEP}]
 	dev-python/aredis[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/sanic[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0.0_rc3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
-	>=dev-python/pymongo-3.8.0[${PYTHON_USEDEP}]"
+	>=dev-python/pymongo-3.8.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full ipython xmljson"
+IUSE="full ipython xmljson"
 DEPENDENCIES="full? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	full? ( dev-python/xmljson[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	xmljson? ( dev-python/xmljson[${PYTHON_USEDEP}] )"
+	xmljson? ( dev-python/xmljson[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/erpbrasil-assinatura[${PYTHON_USEDEP}]
 	dev-python/erpbrasil-base[${PYTHON_USEDEP}]
 	dev-python/erpbrasil-edoc-pdf[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/erpbrasil-assinatura[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-br-fiscal-dfe[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-br-nfe-spec[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-spec-driven-model[${PYTHON_USEDEP}]
-	dev-python/odoo[${PYTHON_USEDEP}]"
+	dev-python/odoo[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

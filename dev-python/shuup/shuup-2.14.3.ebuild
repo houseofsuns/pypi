@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
 	~dev-python/bleach-3.1.5[${PYTHON_USEDEP}]
 	<dev-python/django-2.3[${PYTHON_USEDEP}]
@@ -54,6 +54,7 @@ DEPENDENCIES="~dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
-	>=dev-python/xlrd-1.0[${PYTHON_USEDEP}]"
+	>=dev-python/xlrd-1.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

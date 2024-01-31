@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	>=dev-python/arrow-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/asgiref-3.5.0[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/sentry-sdk-1.5.5[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.4.1[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

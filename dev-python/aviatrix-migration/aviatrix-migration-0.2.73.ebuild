@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.24.22[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.27.22[${PYTHON_USEDEP}]
 	~dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]
@@ -126,6 +126,7 @@ DEPENDENCIES="~dev-python/boto3-1.24.22[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/azure-storage-common[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file[${PYTHON_USEDEP}]
-	dev-python/azure-storage-queue[${PYTHON_USEDEP}]"
+	dev-python/azure-storage-queue[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

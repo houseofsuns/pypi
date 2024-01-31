@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/ruamel-yaml-0.16.10[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES=">=dev-python/ruamel-yaml-0.16.10[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.13[${PYTHON_USEDEP}]
 	>=dev-python/isoduration-20.11.0[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
-	>=dev-python/semver-3.0.2[${PYTHON_USEDEP}]"
+	>=dev-python/semver-3.0.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

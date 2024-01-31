@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-website-cookiebot[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-cookiefirst[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-crm-privacy-policy[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/odoo-addon-website-cookiebot[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-legal-page[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-odoo-debranding[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-require-login[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-website-whatsapp[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-website-whatsapp[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all atari checkpointing dm_control gym_continuous marl rendering tests utils"
+IUSE="all atari checkpointing dm_control gym_continuous marl rendering tests utils"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -72,6 +72,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	utils? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	utils? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	utils? ( dev-python/hydra-submitit-launcher[${PYTHON_USEDEP}] )
-	utils? ( dev-python/git[${PYTHON_USEDEP}] )"
+	utils? ( dev-python/git[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

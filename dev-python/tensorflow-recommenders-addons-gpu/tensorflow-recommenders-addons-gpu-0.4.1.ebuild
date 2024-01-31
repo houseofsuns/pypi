@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tensorflow tensorflow-cpu tensorflow-gpu"
+IUSE="tensorflow tensorflow-cpu tensorflow-gpu"
 DEPENDENCIES="dev-python/tensorflow-gpu[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow-cpu? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )
-	tensorflow-gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )"
+	tensorflow-gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

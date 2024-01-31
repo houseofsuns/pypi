@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
 	>=dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	dev-python/bson[${PYTHON_USEDEP}]
-	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

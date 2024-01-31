@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all format"
+IUSE="all format"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
-	format? ( ~dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )"
+	format? ( ~dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

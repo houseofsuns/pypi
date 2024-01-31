@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-base-iso3166[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-partner-contact-birthdate[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-pms[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-queue-job[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]"
+	dev-python/pycountry[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

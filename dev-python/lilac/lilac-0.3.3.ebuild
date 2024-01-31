@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all cohere embeddings github gmail gte lang-detection langsmith llms openai pii sbert signals sources text-stats"
+IUSE="all cohere embeddings github gmail gte lang-detection langsmith llms openai pii sbert signals sources text-stats"
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
@@ -97,6 +97,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	github? ( dev-python/llama-hub[${PYTHON_USEDEP}] )
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
-	signals? ( dev-python/hdbscan[${PYTHON_USEDEP}] )"
+	signals? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

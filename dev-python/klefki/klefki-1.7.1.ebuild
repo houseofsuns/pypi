@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pyasn1-0.3.7[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/asn1ate[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]
-	~dev-python/flatbuffers-1.12[${PYTHON_USEDEP}]"
+	~dev-python/flatbuffers-1.12[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

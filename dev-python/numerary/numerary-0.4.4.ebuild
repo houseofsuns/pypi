@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="~dev-python/beartype-0.15[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/numpy-1.25[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sympy-1.9[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tox-4.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/versioningit-2.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/versioningit-2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

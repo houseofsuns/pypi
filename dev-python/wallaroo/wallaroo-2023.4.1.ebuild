@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
-	~dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]"
+	~dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

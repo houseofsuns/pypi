@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.17.2[${PYTHON_USEDEP}]
-	>=dev-python/googleapis-common-protos-1.52[${PYTHON_USEDEP}]"
+	>=dev-python/googleapis-common-protos-1.52[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all ansi cli dev echo env full log pickle pretty pth repo requests"
+IUSE="all ansi cli dev echo env full log pickle pretty pth repo requests"
 DEPENDENCIES="all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
 	all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
 	all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
@@ -79,6 +79,7 @@ DEPENDENCIES="all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
 	pth? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
 	repo? ( <dev-python/GitPython-4.0[${PYTHON_USEDEP}] )
 	requests? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
-	requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )"
+	requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

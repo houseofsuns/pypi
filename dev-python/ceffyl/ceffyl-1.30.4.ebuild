@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel gp"
+IUSE="gp"
 DEPENDENCIES="dev-python/encor[${PYTHON_USEDEP}]
 	<dev-python/cython-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/encor[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ptmcmcsampler[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
-	gp? ( dev-python/holodeck-gw[${PYTHON_USEDEP}] )"
+	gp? ( dev-python/holodeck-gw[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

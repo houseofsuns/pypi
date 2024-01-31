@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/asyncqt[${PYTHON_USEDEP}]
 	dev-python/moteus[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/asyncqt[${PYTHON_USEDEP}]
 	>=dev-python/qtconsole-0.5.2[${PYTHON_USEDEP}]
 	>=dev-python/QtPy-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyside6-6.2[${PYTHON_USEDEP}]
-	dev-python/pyside2[${PYTHON_USEDEP}]"
+	dev-python/pyside2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

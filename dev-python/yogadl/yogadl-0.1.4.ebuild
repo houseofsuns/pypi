@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tf"
+IUSE="tf"
 DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/lmdb[${PYTHON_USEDEP}]
 	dev-python/lomond[${PYTHON_USEDEP}]
 	>=dev-python/websockets-8.0[${PYTHON_USEDEP}]
-	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
+	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

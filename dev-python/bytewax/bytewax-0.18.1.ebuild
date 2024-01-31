@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cbfmt dev docs kafka test"
+IUSE="cbfmt dev docs kafka test"
 DEPENDENCIES=">=dev-python/jsonpickle-3.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	cbfmt? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -36,6 +36,7 @@ DEPENDENCIES=">=dev-python/jsonpickle-3.0[${PYTHON_USEDEP}]
 	kafka? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	test? ( dev-python/myst-docutils[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

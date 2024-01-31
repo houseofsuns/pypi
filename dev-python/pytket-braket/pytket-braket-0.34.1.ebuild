@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pytket[${PYTHON_USEDEP}]
 	dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]
 	dev-python/amazon-braket-schemas[${PYTHON_USEDEP}]
 	dev-python/amazon-braket-default-simulator[${PYTHON_USEDEP}]
-	dev-python/boto3-stubs[${PYTHON_USEDEP}]"
+	dev-python/boto3-stubs[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

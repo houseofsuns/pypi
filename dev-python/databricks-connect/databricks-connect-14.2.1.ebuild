@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel connect ml mllib pandas_on_spark sql"
+IUSE="connect ml mllib pandas_on_spark sql"
 DEPENDENCIES="dev-python/py4j[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="dev-python/py4j[${PYTHON_USEDEP}]
 	pandas_on_spark? ( >=dev-python/numpy-1.15[${PYTHON_USEDEP}] )
 	sql? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
 	sql? ( >=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}] )
-	sql? ( >=dev-python/numpy-1.15[${PYTHON_USEDEP}] )"
+	sql? ( >=dev-python/numpy-1.15[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/black-22.3[${PYTHON_USEDEP}]
 	~dev-python/flake8-3.9.0[${PYTHON_USEDEP}]
 	dev-python/Flake8-pyproject[${PYTHON_USEDEP}]
 	~dev-python/isort-5.9.0[${PYTHON_USEDEP}]
 	~dev-python/mypy-0.910[${PYTHON_USEDEP}]
 	~dev-python/pytest-6.2[${PYTHON_USEDEP}]
-	>=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}]"
+	>=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

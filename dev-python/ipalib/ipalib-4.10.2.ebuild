@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel install"
+IUSE="install"
 DEPENDENCIES="dev-python/ipaplatform[${PYTHON_USEDEP}]
 	dev-python/ipapython[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
 	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	install? ( dev-python/dbus-python[${PYTHON_USEDEP}] )"
+	install? ( dev-python/dbus-python[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

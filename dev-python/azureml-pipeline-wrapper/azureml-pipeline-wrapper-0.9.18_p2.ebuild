@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel notebooks"
+IUSE="notebooks"
 DEPENDENCIES="dev-python/azure-ml-component[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/azure-ml-component[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	notebooks? ( <dev-python/nbconvert-6.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/nteract-scrapbook[${PYTHON_USEDEP}] )"
+	notebooks? ( dev-python/nteract-scrapbook[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

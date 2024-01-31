@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/screeninfo[${PYTHON_USEDEP}]
 	~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/screeninfo[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.4.1[${PYTHON_USEDEP}]
 	<dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]
-	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]"
+	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

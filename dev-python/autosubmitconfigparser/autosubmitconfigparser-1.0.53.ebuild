@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	>dev-python/packaging-19.0[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]"
+	dev-python/pygments[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

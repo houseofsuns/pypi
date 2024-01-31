@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/azureml-train-core[${PYTHON_USEDEP}]
 	dev-python/azureml-train-automl-client[${PYTHON_USEDEP}]
-	dev-python/azureml-pipeline-core[${PYTHON_USEDEP}]"
+	dev-python/azureml-pipeline-core[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
 	dev-python/fastmat[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/julia[${PYTHON_USEDEP}]"
+	dev-python/julia[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

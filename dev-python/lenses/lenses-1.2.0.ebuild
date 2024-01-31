@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs lints optional tests"
+IUSE="docs lints optional tests"
 DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	lints? ( dev-python/pyrsistent[${PYTHON_USEDEP}] )
 	lints? ( dev-python/ufmt[${PYTHON_USEDEP}] )
@@ -35,6 +35,7 @@ DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

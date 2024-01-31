@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/nucliadb-protos[${PYTHON_USEDEP}]
 	dev-python/nucliadb-models[${PYTHON_USEDEP}]
 	dev-python/nucliadb-telemetry[${PYTHON_USEDEP}]
-	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

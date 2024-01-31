@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aiohttp all httpx requests torequests web webparsers"
+IUSE="aiohttp all httpx requests torequests web webparsers"
 DEPENDENCIES="dev-python/frequency-controller[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
@@ -54,6 +54,7 @@ DEPENDENCIES="dev-python/frequency-controller[${PYTHON_USEDEP}]
 	webparsers? ( dev-python/toml[${PYTHON_USEDEP}] )
 	webparsers? ( >=dev-python/pyyaml-5.3[${PYTHON_USEDEP}] )
 	webparsers? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	webparsers? ( dev-python/jmespath[${PYTHON_USEDEP}] )"
+	webparsers? ( dev-python/jmespath[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

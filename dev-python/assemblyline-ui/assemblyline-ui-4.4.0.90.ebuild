@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel socketio test"
+IUSE="socketio test"
 DEPENDENCIES="dev-python/assemblyline[${PYTHON_USEDEP}]
 	dev-python/assemblyline-core[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/assemblyline[${PYTHON_USEDEP}]
 	socketio? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/cart[${PYTHON_USEDEP}] )"
+	test? ( dev-python/cart[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

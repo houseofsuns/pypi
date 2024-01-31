@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all server"
+IUSE="all server"
 DEPENDENCIES="~dev-python/makefun-1.9.5[${PYTHON_USEDEP}]
 	dev-python/easyschedule[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
@@ -49,6 +49,7 @@ DEPENDENCIES="~dev-python/makefun-1.9.5[${PYTHON_USEDEP}]
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi-mail[${PYTHON_USEDEP}] )
 	server? ( ~dev-python/email-validator-1.1.3[${PYTHON_USEDEP}] )
-	server? ( ~dev-python/google-api-python-client-2.31.0[${PYTHON_USEDEP}] )"
+	server? ( ~dev-python/google-api-python-client-2.31.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel locale memcache"
+IUSE="locale memcache"
 DEPENDENCIES="~dev-python/cython-3.0.6[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES="~dev-python/cython-3.0.6[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	locale? ( ~dev-python/Babel-2.9.1[${PYTHON_USEDEP}] )
-	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )"
+	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

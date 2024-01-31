@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel keras onnx pypmml r scikit-learn torch uwsgi xgboost"
+IUSE="keras onnx pypmml r scikit-learn torch uwsgi xgboost"
 DEPENDENCIES="~dev-python/argcomplete-1.11.1[${PYTHON_USEDEP}]
 	dev-python/datarobot[${PYTHON_USEDEP}]
 	dev-python/trafaret[${PYTHON_USEDEP}]
@@ -65,6 +65,7 @@ DEPENDENCIES="~dev-python/argcomplete-1.11.1[${PYTHON_USEDEP}]
 	uwsgi? ( dev-python/uWSGI[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
+	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cache cli"
+IUSE="cache cli"
 DEPENDENCIES="dev-python/coincurve[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	cache? ( dev-python/lmdb[${PYTHON_USEDEP}] )
 	cli? ( dev-python/appdirs[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	cli? ( dev-python/privy[${PYTHON_USEDEP}] )
-	cli? ( dev-python/tinydb[${PYTHON_USEDEP}] )"
+	cli? ( dev-python/tinydb[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

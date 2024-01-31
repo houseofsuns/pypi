@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES="dev-python/mo-dots[${PYTHON_USEDEP}]
 	dev-python/mo-future[${PYTHON_USEDEP}]
 	dev-python/mo-logs[${PYTHON_USEDEP}]
 	dev-python/mo-math[${PYTHON_USEDEP}]
-	tests? ( dev-python/mo-testing[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/mo-testing[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

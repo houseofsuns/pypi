@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-hr-course[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-hr-employee-age[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-hr-employee-birth-name[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/odoo-addon-hr-course[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-hr-employee-relative[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-hr-employee-ssn[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-hr-holidays-settings[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-hr-personal-equipment-request[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-hr-personal-equipment-request[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

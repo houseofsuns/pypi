@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel encryption image-processing"
+IUSE="encryption image-processing"
 DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	encryption? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/rsa[${PYTHON_USEDEP}] )
 	image-processing? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	image-processing? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+	image-processing? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel api database-psql queue-aqs queue-sqs queues requester storage types"
+IUSE="api database-psql queue-aqs queue-sqs queues requester storage types"
 DEPENDENCIES="~dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.1[${PYTHON_USEDEP}]
 	api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -36,6 +36,7 @@ DEPENDENCIES="~dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]
 	requester? ( ~dev-python/httpx-0.23.3[${PYTHON_USEDEP}] )
 	storage? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-aiobotocore[${PYTHON_USEDEP}] )
-	types? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )"
+	types? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

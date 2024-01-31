@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel linux-kerberos oidc"
+IUSE="linux-kerberos oidc"
 DEPENDENCIES="oidc? ( <dev-python/keyring-25.0[${PYTHON_USEDEP}] )
 	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	linux-kerberos? ( <dev-python/requests-kerberos-0.14[${PYTHON_USEDEP}] )
 	<dev-python/requests-ntlm-2.0.0[${PYTHON_USEDEP}]
-	oidc? ( dev-python/requests-auth[${PYTHON_USEDEP}] )"
+	oidc? ( dev-python/requests-auth[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

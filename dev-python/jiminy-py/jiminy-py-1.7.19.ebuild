@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev meshcat plot"
+IUSE="dev meshcat plot"
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -59,6 +59,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	meshcat? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
 	meshcat? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	meshcat? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	plot? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )"
+	plot? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

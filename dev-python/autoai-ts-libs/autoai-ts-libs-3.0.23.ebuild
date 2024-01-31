@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel code-check dev test"
+IUSE="code-check dev test"
 DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	dev-python/alchemy-logging[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
@@ -66,6 +66,7 @@ DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

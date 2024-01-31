@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev dist docs"
+IUSE="dev dist docs"
 DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dist? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dist? ( dev-python/twine[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

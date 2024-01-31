@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/c7n[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	~dev-python/retrying-1.3.4[${PYTHON_USEDEP}]
@@ -53,6 +53,7 @@ DEPENDENCIES="dev-python/c7n[${PYTHON_USEDEP}]
 	~dev-python/rpds-py-0.17.1[${PYTHON_USEDEP}]
 	~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
-	~dev-python/idna-3.6[${PYTHON_USEDEP}]"
+	~dev-python/idna-3.6[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

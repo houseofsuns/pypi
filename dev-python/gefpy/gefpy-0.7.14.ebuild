@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs test"
+IUSE="docs test"
 DEPENDENCIES=">=dev-python/h5py-3.8.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES=">=dev-python/h5py-3.8.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-3.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-4.4[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-nunit[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-nunit[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

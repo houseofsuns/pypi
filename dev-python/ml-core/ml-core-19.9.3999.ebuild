@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/requests-2.18[${PYTHON_USEDEP}]
 	~dev-python/retrying-1.3[${PYTHON_USEDEP}]
 	~dev-python/six-1.11[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-1.5[${PYTHON_USEDEP}]
-	dev-python/avro-python3[${PYTHON_USEDEP}]"
+	dev-python/avro-python3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

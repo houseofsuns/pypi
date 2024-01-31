@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.2.5[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.22.0[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
 	test? ( dev-python/unittest[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

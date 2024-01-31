@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/hat-json[${PYTHON_USEDEP}]
 	dev-python/hat-peg[${PYTHON_USEDEP}]
 	dev-python/hat-util[${PYTHON_USEDEP}]
 	dev? ( dev-python/hat-doit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/peru[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/peru[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

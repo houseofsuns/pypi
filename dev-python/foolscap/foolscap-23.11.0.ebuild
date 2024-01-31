@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev i2p tor"
+IUSE="dev i2p tor"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/twisted-16.0.0[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/txtorcon-19.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/txi2p-tahoe[${PYTHON_USEDEP}] )
 	i2p? ( dev-python/txi2p-tahoe[${PYTHON_USEDEP}] )
-	tor? ( >=dev-python/txtorcon-19.0.0[${PYTHON_USEDEP}] )"
+	tor? ( >=dev-python/txtorcon-19.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

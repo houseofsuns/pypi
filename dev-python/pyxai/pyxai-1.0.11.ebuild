@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel gui"
+IUSE="gui"
 DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/docplex[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

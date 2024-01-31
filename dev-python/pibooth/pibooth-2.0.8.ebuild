@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel doc dslr printer"
+IUSE="doc dslr printer"
 DEPENDENCIES="~dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pygame-1.9.6[${PYTHON_USEDEP}]
 	dev-python/pygame-menu[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="~dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	dslr? ( dev-python/gphoto2[${PYTHON_USEDEP}] )
 	printer? ( >=dev-python/pycups-1.9.73[${PYTHON_USEDEP}] )
-	printer? ( dev-python/pycups-notify[${PYTHON_USEDEP}] )"
+	printer? ( dev-python/pycups-notify[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

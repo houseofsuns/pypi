@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/build-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/twine-3.4.2[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.38.4[${PYTHON_USEDEP}]
 	dev-python/pyc-wheel[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]"
+	dev-python/toml[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

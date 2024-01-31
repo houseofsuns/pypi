@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev? ( ~dev-python/black-20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	~dev-python/deprecation-2.0[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev? ( ~dev-python/black-20.0[${PYTHON_USEDEP}] )
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-rtd-theme-0.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-rtd-theme-0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

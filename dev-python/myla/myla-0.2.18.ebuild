@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all chatglm faiss-cpu faiss-gpu lancedb"
+IUSE="all chatglm faiss-cpu faiss-gpu lancedb"
 DEPENDENCIES="dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="dev-python/uvicorn[${PYTHON_USEDEP}]
 	faiss-gpu? ( dev-python/faiss-gpu[${PYTHON_USEDEP}] )
 	faiss-gpu? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	lancedb? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	lancedb? ( dev-python/lancedb[${PYTHON_USEDEP}] )"
+	lancedb? ( dev-python/lancedb[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

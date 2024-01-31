@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel color test timezone"
+IUSE="color test timezone"
 DEPENDENCIES=">=dev-python/wtforms-1.0.4[${PYTHON_USEDEP}]
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/email-validator-1.0.0[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES=">=dev-python/wtforms-1.0.4[${PYTHON_USEDEP}]
 	test? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/colour-0.0.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	timezone? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"
+	timezone? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ci examples"
+IUSE="ci examples"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	ci? ( dev-python/tox[${PYTHON_USEDEP}] )
-	examples? ( dev-python/jupyter[${PYTHON_USEDEP}] )"
+	examples? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

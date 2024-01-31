@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel date geometry"
+IUSE="date geometry"
 DEPENDENCIES="date? ( dev-python/isodate[${PYTHON_USEDEP}] )
-	geometry? ( dev-python/mathutils[${PYTHON_USEDEP}] )"
+	geometry? ( dev-python/mathutils[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel benchmarks tests torch"
+IUSE="benchmarks tests torch"
 DEPENDENCIES=">=dev-python/pyarrow-12.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	tests? ( dev-python/datasets[${PYTHON_USEDEP}] )
@@ -36,6 +36,7 @@ DEPENDENCIES=">=dev-python/pyarrow-12.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel accel pycairo renderpm"
+IUSE="accel pycairo renderpm"
 DEPENDENCIES=">=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	accel? ( dev-python/rl-accel[${PYTHON_USEDEP}] )
 	pycairo? ( dev-python/rlPyCairo[${PYTHON_USEDEP}] )
 	pycairo? ( <dev-python/freetype-py-2.4[${PYTHON_USEDEP}] )
-	renderpm? ( dev-python/rl-renderPM[${PYTHON_USEDEP}] )"
+	renderpm? ( dev-python/rl-renderPM[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

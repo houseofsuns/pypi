@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/backports-tempfile[${PYTHON_USEDEP}]
 	<dev-python/pathspec-1.0.0[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/adal[${PYTHON_USEDEP}]
 	<dev-python/pyopenssl-24.0.0[${PYTHON_USEDEP}]
-	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]"
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

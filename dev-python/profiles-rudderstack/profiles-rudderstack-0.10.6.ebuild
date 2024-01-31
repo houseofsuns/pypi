@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel snowpark"
+IUSE="snowpark"
 DEPENDENCIES=">=dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	dev-python/redshift-connector[${PYTHON_USEDEP}]
 	dev-python/profiles-rudderstack-bin[${PYTHON_USEDEP}]
-	snowpark? ( dev-python/snowflake-snowpark-python[${PYTHON_USEDEP}] )"
+	snowpark? ( dev-python/snowflake-snowpark-python[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

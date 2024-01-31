@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel lint test"
+IUSE="lint test"
 DEPENDENCIES=">=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES=">=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/respx[${PYTHON_USEDEP}] )"
+	test? ( dev-python/respx[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

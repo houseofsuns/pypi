@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo10-addon-base-continent[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-base-country-state-translatable[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-base-location[${PYTHON_USEDEP}]
@@ -88,6 +88,7 @@ DEPENDENCIES="dev-python/odoo10-addon-base-continent[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-partner-stock-risk[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-partner-street-number[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-partner-vat-unique[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-portal-partner-select-all[${PYTHON_USEDEP}]"
+	dev-python/odoo10-addon-portal-partner-select-all[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ambition-sites[${PYTHON_USEDEP}]
 	dev-python/django-crypto-fields[${PYTHON_USEDEP}]
 	dev-python/django-collect-offline[${PYTHON_USEDEP}]
 	dev-python/django-collect-offline-files[${PYTHON_USEDEP}]
 	dev-python/edc-model-admin[${PYTHON_USEDEP}]
 	dev-python/edc-registration[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	dev-python/tqdm[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

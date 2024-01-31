@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/PyExecJS[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.4.1[${PYTHON_USEDEP}]
-	dev-python/pathos[${PYTHON_USEDEP}]"
+	dev-python/pathos[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

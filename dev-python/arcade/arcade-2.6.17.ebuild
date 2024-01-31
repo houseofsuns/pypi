@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs"
+IUSE="dev docs"
 DEPENDENCIES="~dev-python/pyglet-2.0_pre23[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	dev-python/pymunk[${PYTHON_USEDEP}]
@@ -58,6 +58,7 @@ DEPENDENCIES="~dev-python/pyglet-2.0_pre23[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dirsync[${PYTHON_USEDEP}] )
-	docs? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

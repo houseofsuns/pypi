@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/PyBoolector[${PYTHON_USEDEP}]
 	dev-python/pyucis[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]"
+	dev-python/toposort[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	~dev-python/pymongo-3.5.1[${PYTHON_USEDEP}]
@@ -59,6 +59,7 @@ DEPENDENCIES="dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/setuptools-rust[${PYTHON_USEDEP}]
 	dev-python/fabric2[${PYTHON_USEDEP}]
 	dev-python/nats-python[${PYTHON_USEDEP}]
-	dev-python/nb-filelock[${PYTHON_USEDEP}]"
+	dev-python/nb-filelock[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

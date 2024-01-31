@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/xlsxwriter-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.160[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="~dev-python/xlsxwriter-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-5.0.1[${PYTHON_USEDEP}]
-	~dev-python/websockets-12.0[${PYTHON_USEDEP}]"
+	~dev-python/websockets-12.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

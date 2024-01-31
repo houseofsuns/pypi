@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cpu gpu"
+IUSE="cpu gpu"
 DEPENDENCIES=">=dev-python/grpcio-1.0[${PYTHON_USEDEP}]
 	dev-python/azureml-core[${PYTHON_USEDEP}]
 	cpu? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )"
+	gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel air all client cpp data default observability rllib serve serve-grpc train tune"
+IUSE="air all client cpp data default observability rllib serve serve-grpc train tune"
 DEPENDENCIES="air? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
@@ -170,6 +170,7 @@ DEPENDENCIES="air? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
 	tune? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	tune? ( dev-python/requests[${PYTHON_USEDEP}] )
 	tune? ( >=dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}] )
-	tune? ( dev-python/fsspec[${PYTHON_USEDEP}] )"
+	tune? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

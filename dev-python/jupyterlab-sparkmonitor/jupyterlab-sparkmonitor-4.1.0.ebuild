@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pyspark"
+IUSE="pyspark"
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-packaging-0.9[${PYTHON_USEDEP}]
-	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
+	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

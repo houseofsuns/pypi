@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/model-log[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchviz[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
-	~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

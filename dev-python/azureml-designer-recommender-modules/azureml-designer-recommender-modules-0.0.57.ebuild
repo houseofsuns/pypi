@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	~dev-python/cryptography-40.0.2[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.3.0[${PYTHON_USEDEP}]
 	dev-python/azureml-designer-internal[${PYTHON_USEDEP}]
 	dev-python/azureml-designer-core[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	dev-python/protobuf[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

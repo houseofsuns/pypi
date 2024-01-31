@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel han lime"
+IUSE="han lime"
 DEPENDENCIES="dev-python/azureml-interpret[${PYTHON_USEDEP}]
 	han? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	han? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	han? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	lime? ( dev-python/lime[${PYTHON_USEDEP}] )"
+	lime? ( dev-python/lime[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

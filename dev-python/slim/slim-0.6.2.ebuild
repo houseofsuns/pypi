@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel asyncpg dev full peewee"
+IUSE="asyncpg dev full peewee"
 DEPENDENCIES="dev-python/schematics[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.6.5[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES="dev-python/schematics[${PYTHON_USEDEP}]
 	full? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	full? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	peewee? ( dev-python/peewee[${PYTHON_USEDEP}] )
-	peewee? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
+	peewee? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

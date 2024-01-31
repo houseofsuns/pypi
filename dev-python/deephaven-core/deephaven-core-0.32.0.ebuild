@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel autocomplete"
+IUSE="autocomplete"
 DEPENDENCIES="dev-python/jpy[${PYTHON_USEDEP}]
 	dev-python/deephaven-plugin[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	autocomplete? ( ~dev-python/jedi-0.18.2[${PYTHON_USEDEP}] )"
+	autocomplete? ( ~dev-python/jedi-0.18.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

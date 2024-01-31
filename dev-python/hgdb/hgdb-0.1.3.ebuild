@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all client toml"
+IUSE="all client toml"
 DEPENDENCIES="all? ( dev-python/websockets[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	client? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	toml? ( dev-python/toml[${PYTHON_USEDEP}] )"
+	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

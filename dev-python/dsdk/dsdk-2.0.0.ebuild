@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev psycopg2 pymssql"
+IUSE="dev psycopg2 pymssql"
 DEPENDENCIES="~dev-python/blosc-1.10.6[${PYTHON_USEDEP}]
 	dev-python/cfgenvy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="~dev-python/blosc-1.10.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	pymssql? ( >=dev-python/cython-0.29.21[${PYTHON_USEDEP}] )
-	pymssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )"
+	pymssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

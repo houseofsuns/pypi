@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc"
+IUSE="dev doc"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-rtd-theme-1.3.0_rc1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/quokka-project[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/quokka-project[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

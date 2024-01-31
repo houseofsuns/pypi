@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES="~dev-python/boto3-1.33.8[${PYTHON_USEDEP}]
 	~dev-python/cfn-lint-0.83.4[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="~dev-python/boto3-1.33.8[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/twine[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

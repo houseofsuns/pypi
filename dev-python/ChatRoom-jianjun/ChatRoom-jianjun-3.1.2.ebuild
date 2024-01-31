@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/cprint-jianjun[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/cprint-jianjun[${PYTHON_USEDEP}]
 	dev-python/yagmail[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	dev-python/celldict[${PYTHON_USEDEP}]
-	>=dev-python/ntplib-0.4.0[${PYTHON_USEDEP}]"
+	>=dev-python/ntplib-0.4.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

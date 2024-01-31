@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/isort-5.12.0[${PYTHON_USEDEP}]
 	~dev-python/astor-0.8.1[${PYTHON_USEDEP}]
 	~dev-python/black-23.9.1[${PYTHON_USEDEP}]
 	dev-python/amsdal_utils[${PYTHON_USEDEP}]
-	dev-python/amsdal_data[${PYTHON_USEDEP}]"
+	dev-python/amsdal_data[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

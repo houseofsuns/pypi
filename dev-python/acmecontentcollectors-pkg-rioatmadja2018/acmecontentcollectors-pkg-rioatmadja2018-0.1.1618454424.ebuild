@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/google-api-core-1.26.3[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-1.28.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-oauthlib-0.4.4[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES="~dev-python/google-api-core-1.26.3[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/pdfreader[${PYTHON_USEDEP}]
 	dev-python/phantomjs[${PYTHON_USEDEP}]
-	dev-python/textblob[${PYTHON_USEDEP}]"
+	dev-python/textblob[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

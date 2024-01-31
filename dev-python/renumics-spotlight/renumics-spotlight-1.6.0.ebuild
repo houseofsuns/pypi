@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all descriptors"
+IUSE="all descriptors"
 DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
@@ -73,6 +73,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	dev-python/websockets[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

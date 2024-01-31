@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/docker-3.6[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="~dev-python/docker-3.6[${PYTHON_USEDEP}]
 	~dev-python/netifaces-0.10.9[${PYTHON_USEDEP}]
 	dev-python/ml-legit[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20[${PYTHON_USEDEP}]
-	dev-python/google-cloud-logging[${PYTHON_USEDEP}]"
+	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

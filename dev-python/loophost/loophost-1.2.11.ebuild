@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/command-runner[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/lastversion[${PYTHON_USEDEP}]
 	<dev-python/paramiko-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyuac[${PYTHON_USEDEP}]
-	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]"
+	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

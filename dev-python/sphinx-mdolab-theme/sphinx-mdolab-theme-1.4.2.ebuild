@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/sphinx-3.0[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES=">=dev-python/sphinx-3.0[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}]
 	dev-python/sphinx-tabs[${PYTHON_USEDEP}]
 	dev-python/redbaron[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	dev-python/numpy[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tensorflow_cpu tests"
+IUSE="tensorflow_cpu tests"
 DEPENDENCIES="dev-python/tensorflow-hub[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
 	tensorflow_cpu? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )
 	tests? ( dev-python/absl-py[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

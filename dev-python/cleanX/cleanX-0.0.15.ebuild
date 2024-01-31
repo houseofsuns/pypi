@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cli dev pydicom simpleitk"
+IUSE="cli dev pydicom simpleitk"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydicom[${PYTHON_USEDEP}] )
 	dev? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	pydicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	simpleitk? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )"
+	simpleitk? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

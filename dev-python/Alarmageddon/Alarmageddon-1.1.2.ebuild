@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/fabric[${PYTHON_USEDEP}]
 	~dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	~dev-python/pika-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-4.6.6[${PYTHON_USEDEP}]
-	~dev-python/pytest-localserver-0.5.0[${PYTHON_USEDEP}]"
+	~dev-python/pytest-localserver-0.5.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

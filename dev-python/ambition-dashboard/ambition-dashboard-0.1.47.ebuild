@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ambition-ae[${PYTHON_USEDEP}]
 	dev-python/ambition-lists[${PYTHON_USEDEP}]
 	dev-python/ambition-permissions[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/ambition-ae[${PYTHON_USEDEP}]
 	dev-python/edc-model-wrapper[${PYTHON_USEDEP}]
 	dev-python/edc-navbar[${PYTHON_USEDEP}]
 	dev-python/edc-subject-dashboard[${PYTHON_USEDEP}]
-	dev-python/edc-review-dashboard[${PYTHON_USEDEP}]"
+	dev-python/edc-review-dashboard[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

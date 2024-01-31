@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aws azure dev gcp"
+IUSE="aws azure dev gcp"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mlflow-skinny[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
@@ -65,6 +65,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-clarity[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/poetry-1.2.0[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"
+	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel native opt test"
+IUSE="native opt test"
 DEPENDENCIES="dev-python/awsiotsdk[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.16.46[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="dev-python/awsiotsdk[${PYTHON_USEDEP}]
 	test? ( dev-python/tox-pyenv[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
+	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

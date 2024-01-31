@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}]
-	>=dev-python/pycurl-7.43.0.6[${PYTHON_USEDEP}]"
+	>=dev-python/pycurl-7.43.0.6[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

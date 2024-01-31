@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel jsonfield"
-DEPENDENCIES="jsonfield? ( dev-python/django-jsonfield-backport[${PYTHON_USEDEP}] )"
+IUSE="jsonfield"
+DEPENDENCIES="jsonfield? ( dev-python/django-jsonfield-backport[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel doc"
+IUSE="doc"
 DEPENDENCIES="<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.9[${PYTHON_USEDEP}]
 	<=dev-python/pandas-1.9[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
-	doc? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	~dev-python/html5lib-0.9999999[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.6.8[${PYTHON_USEDEP}]
 	~dev-python/bleach-1.5.0[${PYTHON_USEDEP}]
-	>=dev-python/wheel-0.26[${PYTHON_USEDEP}]"
+	>=dev-python/wheel-0.26[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

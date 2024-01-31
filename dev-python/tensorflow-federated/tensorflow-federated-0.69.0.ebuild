@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/absl-py-1.0[${PYTHON_USEDEP}]
 	~dev-python/attrs-23.1[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.3[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES="~dev-python/absl-py-1.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
-	~dev-python/googleapis-common-protos-1.61.0[${PYTHON_USEDEP}]"
+	~dev-python/googleapis-common-protos-1.61.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

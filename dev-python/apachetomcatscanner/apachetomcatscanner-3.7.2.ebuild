@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build twine"
+IUSE="build twine"
 DEPENDENCIES="dev-python/sectools[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
 	~dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	twine? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	twine? ( dev-python/twine[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/astor-0.8[${PYTHON_USEDEP}]
 	<=dev-python/black-22.12[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES=">=dev-python/astor-0.8[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-mock-3.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/setuptools-64.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/wheel-0.37[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/wheel-0.37[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

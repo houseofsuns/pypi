@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel analysis test"
+IUSE="analysis test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	analysis? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	analysis? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	analysis? ( ~dev-python/isort-4.3.20[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

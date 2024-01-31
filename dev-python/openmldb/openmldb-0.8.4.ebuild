@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="<dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
 	<=dev-python/sqlalchemy-1.4.50[${PYTHON_USEDEP}]
 	<=dev-python/ipython-7.30.1[${PYTHON_USEDEP}]
 	<=dev-python/prettytable-3.1.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

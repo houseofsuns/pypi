@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure azure_cosmos_mongo_vcore azureml-core cognitive_search data_generation document_parsing faiss hugging_face langchain local_tests milvus pinecone remote_tests validate_deployments"
+IUSE="azure azure_cosmos_mongo_vcore azureml-core cognitive_search data_generation document_parsing faiss hugging_face langchain local_tests milvus pinecone remote_tests validate_deployments"
 DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	dev-python/azureml-fsspec[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2023.3[${PYTHON_USEDEP}]
@@ -67,6 +67,7 @@ DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	remote_tests? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	remote_tests? ( dev-python/azure-mgmt-core[${PYTHON_USEDEP}] )
 	remote_tests? ( dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}] )
-	validate_deployments? ( dev-python/azure-mgmt-cognitiveservices[${PYTHON_USEDEP}] )"
+	validate_deployments? ( dev-python/azure-mgmt-cognitiveservices[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

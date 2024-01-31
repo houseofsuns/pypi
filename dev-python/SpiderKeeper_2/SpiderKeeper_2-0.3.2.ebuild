@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/APScheduler-3.5.3[${PYTHON_USEDEP}]
 	~dev-python/flask-1.0.2[${PYTHON_USEDEP}]
 	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="~dev-python/APScheduler-3.5.3[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.3.2[${PYTHON_USEDEP}]
 	dev-python/demjson[${PYTHON_USEDEP}]
 	~dev-python/requests-2.19.1[${PYTHON_USEDEP}]
-	dev-python/scrapyd[${PYTHON_USEDEP}]"
+	dev-python/scrapyd[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

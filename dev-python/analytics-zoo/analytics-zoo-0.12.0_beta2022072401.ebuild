@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel automl ray"
+IUSE="automl ray"
 DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/bigdl[${PYTHON_USEDEP}]
 	dev-python/conda-pack[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
 	ray? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	ray? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	ray? ( ~dev-python/hiredis-1.1.0[${PYTHON_USEDEP}] )
-	ray? ( ~dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}] )"
+	ray? ( ~dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

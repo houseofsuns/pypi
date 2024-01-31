@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/attrs-21.0[${PYTHON_USEDEP}]
 	~dev-python/cbor2-5.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="~dev-python/attrs-21.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	dev-python/diffusion-core[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
-	~dev-python/aiohttp-3.0[${PYTHON_USEDEP}]"
+	~dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/arborize[${PYTHON_USEDEP}]
 	dev-python/nrn-glia[${PYTHON_USEDEP}]
 	dev-python/dbbs-mod-collection[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/arborize[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/plotly-4.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
-	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-attachment-delete-restrict[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-attachment-queue[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-attachment-synchronize[${PYTHON_USEDEP}]
@@ -97,6 +97,7 @@ DEPENDENCIES="dev-python/odoo14-addon-attachment-delete-restrict[${PYTHON_USEDEP
 	dev-python/odoo14-addon-test-base-time-window[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-tracking-manager[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-upgrade-analysis[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-url-attachment-search-fuzzy[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-url-attachment-search-fuzzy[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

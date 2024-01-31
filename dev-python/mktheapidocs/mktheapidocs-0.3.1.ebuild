@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel plugin"
+IUSE="plugin"
 DEPENDENCIES="dev-python/numpydoc[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	plugin? ( >=dev-python/mkdocs-1.2[${PYTHON_USEDEP}] )"
+	plugin? ( >=dev-python/mkdocs-1.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

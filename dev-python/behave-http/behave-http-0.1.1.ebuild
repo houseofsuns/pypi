@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jpath[${PYTHON_USEDEP}]
 	dev-python/ensure[${PYTHON_USEDEP}]
 	dev-python/purl[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

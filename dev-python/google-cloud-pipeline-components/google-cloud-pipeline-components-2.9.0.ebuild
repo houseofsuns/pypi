@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs tests"
+IUSE="docs tests"
 DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/kfp[${PYTHON_USEDEP}]
 	dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-notfound-page-0.8.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mock-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

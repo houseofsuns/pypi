@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all ci dev doc gridfs qa s3 swift test"
+IUSE="all ci dev doc gridfs qa s3 swift test"
 DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
@@ -90,6 +90,7 @@ DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-faker[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel classifiers detectors"
+IUSE="classifiers detectors"
 DEPENDENCIES="detectors? ( dev-python/efficientnet-pytorch[${PYTHON_USEDEP}] )
 	classifiers? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="detectors? ( dev-python/efficientnet-pytorch[${PYTHON_USEDEP}] )
 	detectors? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	detectors? ( dev-python/timm[${PYTHON_USEDEP}] )
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	dev-python/validators[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

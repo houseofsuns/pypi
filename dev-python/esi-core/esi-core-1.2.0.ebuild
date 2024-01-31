@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build dev test"
+IUSE="build dev test"
 DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
@@ -36,6 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-console-scripts-1.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/vcrpy-4.1[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/vcrpy-4.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

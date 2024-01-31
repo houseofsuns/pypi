@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all tests"
+IUSE="all tests"
 DEPENDENCIES="~dev-python/munkres-1.0.12[${PYTHON_USEDEP}]
 	dev-python/inspire-schemas[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="~dev-python/munkres-1.0.12[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytest-3.0[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

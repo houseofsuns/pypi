@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/gin-config[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/tensorflow-text-nightly[${PYTHON_USEDEP}]
 	dev-python/tf-keras[${PYTHON_USEDEP}]
 	dev-python/tf-nightly[${PYTHON_USEDEP}]
-	dev-python/tf-slim[${PYTHON_USEDEP}]"
+	dev-python/tf-slim[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

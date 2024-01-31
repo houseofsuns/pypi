@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all pixel"
+IUSE="all pixel"
 DEPENDENCIES="<dev-python/fs-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="<dev-python/fs-3.0.0[${PYTHON_USEDEP}]
 	dev-python/flywheel-metadata-toolkit[${PYTHON_USEDEP}]
 	<dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/deid[${PYTHON_USEDEP}] )
-	pixel? ( dev-python/deid[${PYTHON_USEDEP}] )"
+	pixel? ( dev-python/deid[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

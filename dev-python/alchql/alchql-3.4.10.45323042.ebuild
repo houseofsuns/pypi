@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/graphene[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
 	test? ( <dev-python/aiosqlite-0.18[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/starlette-graphene3[${PYTHON_USEDEP}] )"
+	test? ( dev-python/starlette-graphene3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

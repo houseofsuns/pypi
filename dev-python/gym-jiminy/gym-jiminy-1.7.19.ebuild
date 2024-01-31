@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all rllib toolbox zoo"
+IUSE="all rllib toolbox zoo"
 DEPENDENCIES="dev-python/jiminy-py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/jiminy-py[${PYTHON_USEDEP}]
 	all? ( dev-python/gym-jiminy-rllib[${PYTHON_USEDEP}] )
 	rllib? ( dev-python/gym-jiminy-rllib[${PYTHON_USEDEP}] )
 	toolbox? ( dev-python/gym-jiminy-toolbox[${PYTHON_USEDEP}] )
-	zoo? ( dev-python/gym-jiminy-zoo[${PYTHON_USEDEP}] )"
+	zoo? ( dev-python/gym-jiminy-zoo[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

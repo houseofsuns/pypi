@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full mathicsscript_full pymathics_full"
+IUSE="full mathicsscript_full pymathics_full"
 DEPENDENCIES="dev-python/Mathics3[${PYTHON_USEDEP}]
 	dev-python/mathicsscript[${PYTHON_USEDEP}]
 	dev-python/Mathics-Django[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/Mathics3[${PYTHON_USEDEP}]
 	mathicsscript_full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	mathicsscript_full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pymathics_full? ( dev-python/pymathics-graph[${PYTHON_USEDEP}] )
-	pymathics_full? ( dev-python/pymathics-natlang[${PYTHON_USEDEP}] )"
+	pymathics_full? ( dev-python/pymathics-natlang[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dbapi test"
+IUSE="dbapi test"
 DEPENDENCIES="dev-python/adbc-driver-manager[${PYTHON_USEDEP}]
 	dbapi? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dbapi? ( >=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

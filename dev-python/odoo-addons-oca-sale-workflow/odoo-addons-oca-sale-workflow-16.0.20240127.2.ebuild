@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-partner-contact-sale-info-propagation[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-partner-sale-pivot[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-portal-sale-personal-data-only[${PYTHON_USEDEP}]
@@ -108,6 +108,7 @@ DEPENDENCIES="dev-python/odoo-addon-partner-contact-sale-info-propagation[${PYTH
 	dev-python/odoo-addon-sale-triple-discount[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sale-wishlist[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sales-team-security[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-sell-only-by-packaging[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-sell-only-by-packaging[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-l10n-it-fatturapa[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-it-fatturapa-in[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-it-fatturapa-out[${PYTHON_USEDEP}]
-	dev-python/odoo[${PYTHON_USEDEP}]"
+	dev-python/odoo[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

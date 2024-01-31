@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pillow-8.3.1[${PYTHON_USEDEP}]
 	dev-python/robotframework-interpreter[${PYTHON_USEDEP}]
 	dev-python/robotframework-lsp[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-robotmode[${PYTHON_USEDEP}]
-	dev-python/xeus-python[${PYTHON_USEDEP}]"
+	dev-python/xeus-python[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
 	dev-python/bgen-reader[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
-	dev-python/numdifftools[${PYTHON_USEDEP}]"
+	dev-python/numdifftools[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

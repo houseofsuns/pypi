@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pandas spark"
+IUSE="pandas spark"
 DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
 	pandas? ( >=dev-python/pandas-0.23.1[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pyarrow-0.10[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
+	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

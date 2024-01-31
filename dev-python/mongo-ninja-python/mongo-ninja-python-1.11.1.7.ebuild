@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/mongo-tooling-metrics[${PYTHON_USEDEP}]
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/mongo-tooling-metrics[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-virtualenv-1.7.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/virtualenv-15.0.3[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/virtualenv-15.0.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

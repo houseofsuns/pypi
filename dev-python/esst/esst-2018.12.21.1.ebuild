@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel callgraph"
+IUSE="callgraph"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/argh[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/elib-config[${PYTHON_USEDEP}]
 	dev-python/elib-wx[${PYTHON_USEDEP}]
 	dev-python/gTTS[${PYTHON_USEDEP}]
-	callgraph? ( dev-python/pycallgraph[${PYTHON_USEDEP}] )"
+	callgraph? ( dev-python/pycallgraph[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

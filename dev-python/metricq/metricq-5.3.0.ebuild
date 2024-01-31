@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs examples lint pandas test typing"
+IUSE="dev docs examples lint pandas test typing"
 DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
@@ -87,6 +87,7 @@ DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
 	typing? ( dev-python/click-log[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	typing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	typing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/httpie[${PYTHON_USEDEP}]
 	dev-python/edgegrid-python[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
-	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

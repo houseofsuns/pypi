@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.24.22[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.27.22[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.3.1[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="~dev-python/boto3-1.24.22[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.4[${PYTHON_USEDEP}]
 	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
-	~dev-python/paramiko-3.3.1[${PYTHON_USEDEP}]"
+	~dev-python/paramiko-3.3.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

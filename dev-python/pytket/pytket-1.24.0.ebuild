@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel zx"
+IUSE="zx"
 DEPENDENCIES="~dev-python/sympy-1.6[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="~dev-python/sympy-1.6[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.2[${PYTHON_USEDEP}]
 	dev-python/qwasm[${PYTHON_USEDEP}]
 	zx? ( dev-python/quimb[${PYTHON_USEDEP}] )
-	zx? ( dev-python/autoray[${PYTHON_USEDEP}] )"
+	zx? ( dev-python/autoray[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

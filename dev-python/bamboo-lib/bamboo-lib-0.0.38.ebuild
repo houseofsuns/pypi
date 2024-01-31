@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.2.10[${PYTHON_USEDEP}]
 	dev-python/data-catapult[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="~dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	~dev-python/cryptography-2.3[${PYTHON_USEDEP}]
 	dev-python/progressbar[${PYTHON_USEDEP}]
-	~dev-python/boto3-1.12.43[${PYTHON_USEDEP}]"
+	~dev-python/boto3-1.12.43[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

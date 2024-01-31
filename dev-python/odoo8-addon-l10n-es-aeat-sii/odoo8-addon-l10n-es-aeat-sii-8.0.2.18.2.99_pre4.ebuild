@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo8-addon-account-invoice-currency[${PYTHON_USEDEP}]
 	dev-python/odoo8-addon-account-refund-original[${PYTHON_USEDEP}]
 	dev-python/odoo8-addon-connector[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/odoo8-addon-account-invoice-currency[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-0.15[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]"
+	dev-python/zeep[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

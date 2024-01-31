@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/progressbar2-4.0.0[${PYTHON_USEDEP}]
-	~dev-python/redis-4.5.4[${PYTHON_USEDEP}]"
+	~dev-python/redis-4.5.4[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

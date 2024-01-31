@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo13-addon-base-cron-exclusion[${PYTHON_USEDEP}]
 	dev-python/odoo13-addon-mrp-bom-location[${PYTHON_USEDEP}]
 	dev-python/odoo13-addon-mrp-multi-level[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/odoo13-addon-base-cron-exclusion[${PYTHON_USEDEP}]
 	dev-python/odoo13-addon-stock-helper[${PYTHON_USEDEP}]
 	dev-python/odoo13-addon-stock-warehouse-calendar[${PYTHON_USEDEP}]
 	dev-python/odoo13-addon-web-widget-bokeh-chart[${PYTHON_USEDEP}]
-	dev-python/odoo[${PYTHON_USEDEP}]"
+	dev-python/odoo[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

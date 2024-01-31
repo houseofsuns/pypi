@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure gcp"
+IUSE="azure gcp"
 DEPENDENCIES="gcp? ( dev-python/c7n-gcp[${PYTHON_USEDEP}] )
 	azure? ( dev-python/c7n-azure[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -194,6 +194,7 @@ DEPENDENCIES="gcp? ( dev-python/c7n-gcp[${PYTHON_USEDEP}] )
 	azure? ( ~dev-python/pycparser-2.21[${PYTHON_USEDEP}] )
 	azure? ( ~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}] )
 	azure? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
-	azure? ( ~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}] )"
+	azure? ( ~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

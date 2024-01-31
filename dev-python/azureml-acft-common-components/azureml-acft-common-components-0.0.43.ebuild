@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel image"
+IUSE="image"
 DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-automl-core[${PYTHON_USEDEP}]
 	dev-python/azure-ai-ml[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	image? ( dev-python/simplification[${PYTHON_USEDEP}] )
 	image? ( dev-python/recordclass[${PYTHON_USEDEP}] )
 	image? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	image? ( ~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )"
+	image? ( ~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

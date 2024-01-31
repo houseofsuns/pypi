@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel spdx"
+IUSE="spdx"
 DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
-	spdx? ( dev-python/spdx-tools[${PYTHON_USEDEP}] )"
+	spdx? ( dev-python/spdx-tools[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all couchdb-async couchdb-sync file-disk minio-async minio-sync rethinkdb-async rethinkdb-sync unqlite"
+IUSE="all couchdb-async couchdb-sync file-disk minio-async minio-sync rethinkdb-async rethinkdb-sync unqlite"
 DEPENDENCIES="~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	dev-python/lazy[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES="~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	minio-sync? ( dev-python/minio[${PYTHON_USEDEP}] )
 	rethinkdb-async? ( dev-python/async-repool[${PYTHON_USEDEP}] )
 	rethinkdb-sync? ( dev-python/repool-forked[${PYTHON_USEDEP}] )
-	unqlite? ( dev-python/unqlite[${PYTHON_USEDEP}] )"
+	unqlite? ( dev-python/unqlite[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

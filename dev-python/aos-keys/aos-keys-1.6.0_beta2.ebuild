@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/rich-12.3.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES=">=dev-python/rich-12.3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/wemake-python-styleguide[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/daipe-core[${PYTHON_USEDEP}]
 	dev-python/pyfony-bundles[${PYTHON_USEDEP}]
-	dev-python/databricks-bundle[${PYTHON_USEDEP}]"
+	dev-python/databricks-bundle[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

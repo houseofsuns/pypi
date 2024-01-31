@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	~dev-python/asttokens-2.2.1[${PYTHON_USEDEP}]
 	dev-python/backcall[${PYTHON_USEDEP}]
@@ -67,6 +67,7 @@ DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.0.4[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-2.0.4[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

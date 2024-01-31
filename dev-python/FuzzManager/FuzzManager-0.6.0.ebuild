@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES=">=dev-python/fasteners-0.14.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

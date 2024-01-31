@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/skl2onnx[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
-	~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]"
+	~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

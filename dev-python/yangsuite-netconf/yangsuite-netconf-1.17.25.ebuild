@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/yangsuite[${PYTHON_USEDEP}]
 	dev-python/yangsuite-devices[${PYTHON_USEDEP}]
 	dev-python/yangsuite-filemanager[${PYTHON_USEDEP}]
 	dev-python/yangsuite-yangtree[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
-	dev-python/ncclient[${PYTHON_USEDEP}]"
+	dev-python/ncclient[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

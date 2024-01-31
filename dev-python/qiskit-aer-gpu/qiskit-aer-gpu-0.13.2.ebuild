@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dask"
+IUSE="dask"
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/nvidia-cusparse-cu12[${PYTHON_USEDEP}]
 	dev-python/cuquantum-cu12[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )"
+	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

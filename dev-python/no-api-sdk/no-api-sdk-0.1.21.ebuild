@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

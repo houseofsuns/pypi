@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/cffi-1.14.5[${PYTHON_USEDEP}]
-	>=dev-python/pycparser-2.20[${PYTHON_USEDEP}]"
+	>=dev-python/pycparser-2.20[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

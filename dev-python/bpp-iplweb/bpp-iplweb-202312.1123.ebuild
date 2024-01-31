@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ldap office365"
+IUSE="ldap office365"
 DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	dev-python/moai-iplweb[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.2.1[${PYTHON_USEDEP}]
@@ -115,6 +115,7 @@ DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	dev-python/wosclient[${PYTHON_USEDEP}]
 	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/zope-component-4.6.2[${PYTHON_USEDEP}]
-	~dev-python/zope-interface-5.1.0[${PYTHON_USEDEP}]"
+	~dev-python/zope-interface-5.1.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

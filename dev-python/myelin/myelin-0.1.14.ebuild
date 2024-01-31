@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.10.1[${PYTHON_USEDEP}]
-	dev-python/mlflow[${PYTHON_USEDEP}]"
+	dev-python/mlflow[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

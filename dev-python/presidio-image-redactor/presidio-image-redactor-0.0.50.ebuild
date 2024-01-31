@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pillow-9.0[${PYTHON_USEDEP}]
 	<dev-python/pytesseract-0.4[${PYTHON_USEDEP}]
 	dev-python/presidio-analyzer[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/pillow-9.0[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	>=dev-python/pypng-0.20220715.0[${PYTHON_USEDEP}]
 	dev-python/azure-ai-formrecognizer[${PYTHON_USEDEP}]
-	dev-python/opencv-python[${PYTHON_USEDEP}]"
+	dev-python/opencv-python[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/absl-py-1.2[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23[${PYTHON_USEDEP}]
-	~dev-python/six-1.14[${PYTHON_USEDEP}]"
+	~dev-python/six-1.14[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs tests"
+IUSE="docs tests"
 DEPENDENCIES="~dev-python/bleach-3.0[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-2.0[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="~dev-python/bleach-3.0[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/idutils[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/idutils[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

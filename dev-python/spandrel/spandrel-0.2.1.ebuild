@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build docs lint test typecheck"
+IUSE="build docs lint test typecheck"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/syrupy[${PYTHON_USEDEP}] )
 	test? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/pyright[${PYTHON_USEDEP}] )"
+	typecheck? ( dev-python/pyright[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

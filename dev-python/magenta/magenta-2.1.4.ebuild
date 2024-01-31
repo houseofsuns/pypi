@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel beam onsets_frames_realtime test"
+IUSE="beam onsets_frames_realtime test"
 DEPENDENCIES="~dev-python/absl-py-1.2.0[${PYTHON_USEDEP}]
 	dev-python/dm-sonnet[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.20.0[${PYTHON_USEDEP}]
@@ -53,6 +53,7 @@ DEPENDENCIES="~dev-python/absl-py-1.2.0[${PYTHON_USEDEP}]
 	onsets_frames_realtime? ( ~dev-python/colorama-0.4.5[${PYTHON_USEDEP}] )
 	onsets_frames_realtime? ( dev-python/tflite[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.14.5[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

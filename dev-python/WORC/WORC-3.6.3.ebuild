@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/drmaa[${PYTHON_USEDEP}]
 	dev-python/fastr[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.7.1[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
-	dev-python/xnat[${PYTHON_USEDEP}]"
+	dev-python/xnat[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

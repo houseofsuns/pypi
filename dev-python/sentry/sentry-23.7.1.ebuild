@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel rabbitmq"
+IUSE="rabbitmq"
 DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/amqp-2.6.1[${PYTHON_USEDEP}]
@@ -165,6 +165,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.8.2[${PYTHON_USEDEP}]
 	~dev-python/zstandard-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-56.0.0[${PYTHON_USEDEP}]
-	rabbitmq? ( ~dev-python/amqp-2.6.1[${PYTHON_USEDEP}] )"
+	rabbitmq? ( ~dev-python/amqp-2.6.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

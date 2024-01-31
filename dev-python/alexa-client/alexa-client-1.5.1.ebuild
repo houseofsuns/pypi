@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel demo test"
+IUSE="demo test"
 DEPENDENCIES="dev-python/hyper[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/hyper[${PYTHON_USEDEP}]
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( <dev-python/twine-2.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/wheel-1.0.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/setuptools-39.0.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/setuptools-39.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

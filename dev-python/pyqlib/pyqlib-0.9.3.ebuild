@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev rl"
+IUSE="dev rl"
 DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
@@ -80,6 +80,7 @@ DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev? ( dev-python/tianshou[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gym[${PYTHON_USEDEP}] )
 	rl? ( dev-python/tianshou[${PYTHON_USEDEP}] )
-	rl? ( dev-python/torch[${PYTHON_USEDEP}] )"
+	rl? ( dev-python/torch[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

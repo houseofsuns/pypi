@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel accelerated daemon quic sshtunnel"
+IUSE="accelerated daemon quic sshtunnel"
 DEPENDENCIES="accelerated? ( >=dev-python/pycryptodome-3.7.2[${PYTHON_USEDEP}] )
 	accelerated? ( >=dev-python/uvloop-0.13.0[${PYTHON_USEDEP}] )
 	daemon? ( >=dev-python/python-daemon-2.2.3[${PYTHON_USEDEP}] )
 	quic? ( dev-python/aioquic[${PYTHON_USEDEP}] )
-	sshtunnel? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"
+	sshtunnel? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

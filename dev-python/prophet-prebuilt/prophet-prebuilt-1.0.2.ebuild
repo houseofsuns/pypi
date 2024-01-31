@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/cython-0.22[${PYTHON_USEDEP}]
 	dev-python/cmdstanpy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES=">=dev-python/cython-0.22[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-git-1.2[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
-	>=dev-python/wheel-0.37.0[${PYTHON_USEDEP}]"
+	>=dev-python/wheel-0.37.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

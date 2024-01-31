@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pytz"
-DEPENDENCIES="pytz? ( >=dev-python/pytz-2023.3[${PYTHON_USEDEP}] )"
+IUSE="pytz"
+DEPENDENCIES="pytz? ( >=dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

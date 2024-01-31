@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pyglet-1.5.15[${PYTHON_USEDEP}]
 	dev-python/synthizer[${PYTHON_USEDEP}]
 	dev-python/cytolk[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES=">=dev-python/pyglet-1.5.15[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4.4[${PYTHON_USEDEP}]
-	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]"
+	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel flink spark"
+IUSE="flink spark"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/ply-3.11[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.1.0[${PYTHON_USEDEP}]
 	flink? ( dev-python/apache-flink[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
+	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

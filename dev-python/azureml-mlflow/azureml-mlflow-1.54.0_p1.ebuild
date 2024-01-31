@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deployments"
+IUSE="deployments"
 DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/mlflow-skinny[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	deployments? ( dev-python/flask[${PYTHON_USEDEP}] )
 	deployments? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	deployments? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	deployments? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

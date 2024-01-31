@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	dev-python/LivePopularTimes[${PYTHON_USEDEP}]
 	dev-python/hubspot-api-client[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES="~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	dev-python/async-notify[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
-	dev-python/navigator-session[${PYTHON_USEDEP}]"
+	dev-python/navigator-session[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

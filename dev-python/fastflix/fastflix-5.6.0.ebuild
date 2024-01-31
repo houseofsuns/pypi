@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel develop"
+IUSE="develop"
 DEPENDENCIES="~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	<dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	develop? ( >=dev-python/pytest-7.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/types-setuptools-65.7[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
+	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

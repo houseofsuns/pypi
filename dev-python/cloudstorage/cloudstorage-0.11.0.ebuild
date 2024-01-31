@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel amazon dev digitalocean docs google lint local microsoft minio rackspace tests"
+IUSE="amazon dev digitalocean docs google lint local microsoft minio rackspace tests"
 DEPENDENCIES=">=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/python-magic-0.4.15[${PYTHON_USEDEP}]
@@ -61,6 +61,7 @@ DEPENDENCIES=">=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/prettyconf[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/requests-2.19.1[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/requests-2.19.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

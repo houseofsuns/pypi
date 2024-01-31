@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel speed"
+IUSE="speed"
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.4.1[${PYTHON_USEDEP}]
 	speed? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	speed? ( dev-python/based58[${PYTHON_USEDEP}] )"
+	speed? ( dev-python/based58[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

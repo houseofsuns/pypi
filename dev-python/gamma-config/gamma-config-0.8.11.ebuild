@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel jinja2 pydantic"
+IUSE="jinja2 pydantic"
 DEPENDENCIES=">=dev-python/colorama-0.4[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.13[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
 	dev-python/plum-dispatch[${PYTHON_USEDEP}]
 	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	pydantic? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )"
+	pydantic? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel complete examples gui notebook plot webapp"
+IUSE="complete examples gui notebook plot webapp"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lark[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	notebook? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plot? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	webapp? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )"
+	webapp? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

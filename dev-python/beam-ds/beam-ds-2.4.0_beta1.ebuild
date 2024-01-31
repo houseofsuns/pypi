@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all ds llm serve"
+IUSE="all ds llm serve"
 DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -57,6 +57,7 @@ DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	serve? ( dev-python/requests[${PYTHON_USEDEP}] )
 	serve? ( dev-python/waitress[${PYTHON_USEDEP}] )
 	serve? ( dev-python/flask[${PYTHON_USEDEP}] )
-	serve? ( dev-python/celery[${PYTHON_USEDEP}] )"
+	serve? ( dev-python/celery[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

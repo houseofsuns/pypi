@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/chardet-0.0.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-0.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pillow-0.0.1[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES=">=dev-python/chardet-0.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyftpdlib-0.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-0.0.1[${PYTHON_USEDEP}]
 	dev-python/threadwrapper[${PYTHON_USEDEP}]
-	>=dev-python/munch-0.0.1[${PYTHON_USEDEP}]"
+	>=dev-python/munch-0.0.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dask dev koalas"
+IUSE="dask dev koalas"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -58,6 +58,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
 	koalas? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	koalas? ( dev-python/koalas[${PYTHON_USEDEP}] )"
+	koalas? ( dev-python/koalas[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

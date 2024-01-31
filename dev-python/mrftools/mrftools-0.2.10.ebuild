@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/cxxheaderparser[${PYTHON_USEDEP}]
 	dev-python/fbpca[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/ptwt[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

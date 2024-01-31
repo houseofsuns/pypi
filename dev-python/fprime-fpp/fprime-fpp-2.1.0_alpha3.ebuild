@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/fprime-fpp-to-xml[${PYTHON_USEDEP}]
 	dev-python/fprime-fpp-to-json[${PYTHON_USEDEP}]
 	dev-python/fprime-fpp-syntax[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/fprime-fpp-to-xml[${PYTHON_USEDEP}]
 	dev-python/fprime-fpp-filenames[${PYTHON_USEDEP}]
 	dev-python/fprime-fpp-from-xml[${PYTHON_USEDEP}]
 	dev-python/fprime-fpp-check[${PYTHON_USEDEP}]
-	dev-python/fprime-fpp-locate-defs[${PYTHON_USEDEP}]"
+	dev-python/fprime-fpp-locate-defs[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

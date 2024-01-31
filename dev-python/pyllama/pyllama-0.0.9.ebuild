@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full quant"
+IUSE="full quant"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/fairscale[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	full? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	quant? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	quant? ( dev-python/gptq[${PYTHON_USEDEP}] )
-	quant? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )"
+	quant? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

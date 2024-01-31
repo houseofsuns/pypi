@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/invoice2data[${PYTHON_USEDEP}]
 	dev-python/readchequeutility[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/google-cloud-documentai[${PYTHON_USEDEP}]
 	dev-python/striprtf[${PYTHON_USEDEP}]
 	dev-python/docx2txt[${PYTHON_USEDEP}]
-	dev-python/tiktoken[${PYTHON_USEDEP}]"
+	dev-python/tiktoken[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

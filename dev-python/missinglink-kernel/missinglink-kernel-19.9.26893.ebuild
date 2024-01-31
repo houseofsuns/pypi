@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	<dev-python/GitPython-2.2[${PYTHON_USEDEP}]
 	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
-	>=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]"
+	>=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

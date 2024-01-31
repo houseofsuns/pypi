@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/absl-py-1.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.4[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="~dev-python/absl-py-1.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-estimator[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/tf-models-official[${PYTHON_USEDEP}]"
+	dev-python/tf-models-official[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

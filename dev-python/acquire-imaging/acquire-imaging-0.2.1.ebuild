@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel testing"
+IUSE="testing"
 DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	testing? ( dev-python/tifffile[${PYTHON_USEDEP}] )
 	testing? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dask[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ome-zarr[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/ome-zarr[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

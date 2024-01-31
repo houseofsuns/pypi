@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pyzmq-20.0.0[${PYTHON_USEDEP}]
 	dev-python/msgpack-python[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="~dev-python/pyzmq-20.0.0[${PYTHON_USEDEP}]
 	~dev-python/zeroconf-0.28.8[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	~dev-python/paho-mqtt-1.5.1[${PYTHON_USEDEP}]"
+	~dev-python/paho-mqtt-1.5.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

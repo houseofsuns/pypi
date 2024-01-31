@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.63[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.4[${PYTHON_USEDEP}]
 	>=dev-python/redis-3.5[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/dtlpymetrics[${PYTHON_USEDEP}]"
+	dev-python/dtlpymetrics[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

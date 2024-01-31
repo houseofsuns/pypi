@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/hivemind-bus-client[${PYTHON_USEDEP}]
 	dev-python/ovos-audio[${PYTHON_USEDEP}]
 	dev-python/ovos-dinkum-listener[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/hivemind-bus-client[${PYTHON_USEDEP}]
 	dev-python/ovos-stt-plugin-server[${PYTHON_USEDEP}]
 	dev-python/ovos-tts-plugin-server[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/hivemind-ggwave[${PYTHON_USEDEP}]"
+	dev-python/hivemind-ggwave[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/emoji-1.2.0[${PYTHON_USEDEP}]
 	dev-python/clean-text[${PYTHON_USEDEP}]
-	~dev-python/elasticsearch-7.10.1[${PYTHON_USEDEP}]"
+	~dev-python/elasticsearch-7.10.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

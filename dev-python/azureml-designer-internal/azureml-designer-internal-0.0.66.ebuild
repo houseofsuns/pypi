@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	dev-python/azureml-designer-core[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="~dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	dev-python/azureml-defaults[${PYTHON_USEDEP}]
 	dev-python/azureml-telemetry[${PYTHON_USEDEP}]
 	dev-python/azureml-pipeline-core[${PYTHON_USEDEP}]
-	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]"
+	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

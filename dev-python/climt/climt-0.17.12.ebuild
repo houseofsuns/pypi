@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.8.0[${PYTHON_USEDEP}]
 	dev-python/sympl[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.25[${PYTHON_USEDEP}]
-	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

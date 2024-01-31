@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/pdftopng[${PYTHON_USEDEP}]
 	dev-python/iribaker[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
-	dev-python/PyMuPDF[${PYTHON_USEDEP}]"
+	dev-python/PyMuPDF[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

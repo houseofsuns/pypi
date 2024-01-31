@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	~dev-python/boto-2.43.0[${PYTHON_USEDEP}]
 	dev-python/coscmd[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/qcloud-cos-v3[${PYTHON_USEDEP}]
 	dev-python/qcloud_cos_v4[${PYTHON_USEDEP}]
 	dev-python/qiniu[${PYTHON_USEDEP}]
-	~dev-python/requests-2.12.4[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.12.4[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

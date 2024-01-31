@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/huaweicloudsdkcore[${PYTHON_USEDEP}]
 	dev-python/huaweicloudsdkaad[${PYTHON_USEDEP}]
 	dev-python/huaweicloudsdkantiddos[${PYTHON_USEDEP}]
@@ -182,6 +182,7 @@ DEPENDENCIES="dev-python/huaweicloudsdkcore[${PYTHON_USEDEP}]
 	dev-python/huaweicloudsdkvpn[${PYTHON_USEDEP}]
 	dev-python/huaweicloudsdkwaf[${PYTHON_USEDEP}]
 	dev-python/huaweicloudsdkworkspace[${PYTHON_USEDEP}]
-	dev-python/huaweicloudsdkworkspaceapp[${PYTHON_USEDEP}]"
+	dev-python/huaweicloudsdkworkspaceapp[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

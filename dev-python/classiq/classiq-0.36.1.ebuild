@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel analyzer-sdk qml"
+IUSE="analyzer-sdk qml"
 DEPENDENCIES="<dev-python/ConfigArgParse-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Pyomo[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="<dev-python/ConfigArgParse-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/sympy-1.11.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
 	qml? ( dev-python/torch[${PYTHON_USEDEP}] )
-	qml? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
+	qml? ( dev-python/torchvision[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

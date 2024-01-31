@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel abidecoder mythril"
+IUSE="abidecoder mythril"
 DEPENDENCIES="dev-python/evmdasm[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	abidecoder? ( dev-python/ethereum_input_decoder[${PYTHON_USEDEP}] )
 	abidecoder? ( dev-python/pyetherchain[${PYTHON_USEDEP}] )
-	mythril? ( dev-python/mythril[${PYTHON_USEDEP}] )"
+	mythril? ( dev-python/mythril[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

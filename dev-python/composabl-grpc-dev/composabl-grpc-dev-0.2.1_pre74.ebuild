@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/dapr[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.49.1[${PYTHON_USEDEP}]
 	~dev-python/grpcio-tools-1.49.1[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}]
-	dev-python/gymnasium[${PYTHON_USEDEP}]"
+	dev-python/gymnasium[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
@@ -125,6 +125,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.0.4[${PYTHON_USEDEP}]
 	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.16.2[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

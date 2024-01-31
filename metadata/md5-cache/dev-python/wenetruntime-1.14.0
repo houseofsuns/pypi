@@ -1,16 +1,16 @@
-BDEPEND=dev-python/torch[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/librosa[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/tqdm[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
+BDEPEND=dev-python/torch[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/librosa[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/tqdm[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] virtual/allow-pypi-wheels python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
 DEFINED_PHASES=compile configure install prepare test unpack
 DESCRIPTION=[wheel]
 EAPI=8
 HOMEPAGE=https://github.com/wenet-e2e/wenet
 INHERIT=python-r1 gs-pypi
-IUSE=+bin-wheel python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache licensed, as found in the LICENSE file
-RDEPEND=dev-python/torch[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/librosa[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/tqdm[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+RDEPEND=dev-python/torch[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/librosa[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/tqdm[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] virtual/allow-pypi-wheels python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/d4/df/93b21d038b4f42ce4fc875fe9256581a924a6d4721a5d2f5df4e80b2f68a/wenetruntime-1.14.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	b2b07efa51009704f88173b2c7feab47	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	gs-distutils-r1	8d3844b6b903f08bc4e83bd198f8a72f	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	1ce6ce880db2f1f1e7842a13bd058366
-_md5_=7ca9d146b4e0a227270e04ae0b0b78b5
+_md5_=1edf26e6d8dd3d7ea5d965ae3c4d5c2c

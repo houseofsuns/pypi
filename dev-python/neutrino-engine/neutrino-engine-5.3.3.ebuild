@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/tensorly[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="~dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/deeplite-profiler[${PYTHON_USEDEP}]
 	dev-python/deeplite-tools[${PYTHON_USEDEP}]
 	<dev-python/setuptools-65.6.0[${PYTHON_USEDEP}]
-	~dev-python/numpy-1.19.5[${PYTHON_USEDEP}]"
+	~dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

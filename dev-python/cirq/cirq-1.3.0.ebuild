@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev_env"
+IUSE="dev_env"
 DEPENDENCIES="dev-python/cirq-aqt[${PYTHON_USEDEP}]
 	dev-python/cirq-core[${PYTHON_USEDEP}]
 	dev-python/cirq-ft[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES="dev-python/cirq-aqt[${PYTHON_USEDEP}]
 	dev_env? ( dev-python/asv[${PYTHON_USEDEP}] )
 	dev_env? ( ~dev-python/qiskit-aer-0.12.2[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/codeowners[${PYTHON_USEDEP}] )"
+	dev_env? ( dev-python/codeowners[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

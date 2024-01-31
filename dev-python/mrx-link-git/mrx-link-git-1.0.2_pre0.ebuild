@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/cython-3.0[${PYTHON_USEDEP}]
 	>=dev-python/jsondiff-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jupyterlab-3.3[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES=">=dev-python/cython-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/setuptools-64.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/wheel-0.37[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/wheel-0.37[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

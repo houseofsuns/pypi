@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deploy dev llm mlflow openblueprints spark"
+IUSE="deploy dev llm mlflow openblueprints spark"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
@@ -113,6 +113,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	llm? ( dev-python/torch[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	openblueprints? ( dev-python/black[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
+	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

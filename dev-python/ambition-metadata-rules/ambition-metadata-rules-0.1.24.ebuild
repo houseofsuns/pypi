@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ambition-ae[${PYTHON_USEDEP}]
 	dev-python/ambition-labs[${PYTHON_USEDEP}]
 	dev-python/ambition-lists[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/ambition-ae[${PYTHON_USEDEP}]
 	dev-python/edc-metadata-rules[${PYTHON_USEDEP}]
 	dev-python/edc-offstudy[${PYTHON_USEDEP}]
 	dev-python/edc-constants[${PYTHON_USEDEP}]
-	dev-python/edc-reportable[${PYTHON_USEDEP}]"
+	dev-python/edc-reportable[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

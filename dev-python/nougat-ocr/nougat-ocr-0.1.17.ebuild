@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel api dataset"
+IUSE="api dataset"
 DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
@@ -48,6 +48,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dataset? ( dev-python/fuzzysearch[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/unidecode[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
-	dataset? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )"
+	dataset? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

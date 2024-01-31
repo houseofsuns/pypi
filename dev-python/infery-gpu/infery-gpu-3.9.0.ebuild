@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all onnx openvino openvino_21 openvino_22 tensorflow tensorrt tensorrt_8-0 tensorrt_8-2 tensorrt_8-4 torch"
+IUSE="all onnx openvino openvino_21 openvino_22 tensorflow tensorrt tensorrt_8-0 tensorrt_8-2 tensorrt_8-4 torch"
 DEPENDENCIES="~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
@@ -54,6 +54,7 @@ DEPENDENCIES="~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	tensorrt_8-2? ( dev-python/torch[${PYTHON_USEDEP}] )
 	tensorrt_8-4? ( dev-python/nvidia-tensorrt[${PYTHON_USEDEP}] )
 	tensorrt_8-4? ( dev-python/torch[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

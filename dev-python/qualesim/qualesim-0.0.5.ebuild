@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel plugins"
+IUSE="plugins"
 DEPENDENCIES="dev-python/cbor[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
 	plugins? ( dev-python/qualesim-quantumsim[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/qualesim-qcis[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/qualesim-quiets[${PYTHON_USEDEP}] )"
+	plugins? ( dev-python/qualesim-quiets[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

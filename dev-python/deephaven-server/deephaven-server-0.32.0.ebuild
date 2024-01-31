@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/jpy[${PYTHON_USEDEP}]
 	dev-python/java-utilities[${PYTHON_USEDEP}]
-	dev-python/deephaven-core[${PYTHON_USEDEP}]"
+	dev-python/deephaven-core[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

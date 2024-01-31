@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/sretoolbox[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
@@ -74,6 +74,7 @@ DEPENDENCIES="dev-python/sretoolbox[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.3[${PYTHON_USEDEP}]
 	dev-python/dt[${PYTHON_USEDEP}]
 	~dev-python/jsonpatch-1.33[${PYTHON_USEDEP}]
-	~dev-python/jsonpointer-2.4[${PYTHON_USEDEP}]"
+	~dev-python/jsonpointer-2.4[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

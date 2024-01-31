@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests_development"
+IUSE="tests_development"
 DEPENDENCIES="~dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}]
 	dev-python/py-money[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="~dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}]
 	tests_development? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	tests_development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests_development? ( ~dev-python/pytest-6.2.3[${PYTHON_USEDEP}] )
-	tests_development? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	tests_development? ( dev-python/twine[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

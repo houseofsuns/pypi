@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel app"
+IUSE="app"
 DEPENDENCIES=">=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/filetype[${PYTHON_USEDEP}]
 	app? ( dev-python/Eel[${PYTHON_USEDEP}] )
-	app? ( dev-python/click[${PYTHON_USEDEP}] )"
+	app? ( dev-python/click[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

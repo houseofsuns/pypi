@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/cython-3.0.0_beta3[${PYTHON_USEDEP}]
 	dev-python/gremlinpython[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.49[${PYTHON_USEDEP}]
@@ -71,6 +71,7 @@ DEPENDENCIES=">=dev-python/cython-3.0.0_beta3[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/setuptools-65.7.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/setuptools-65.7.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

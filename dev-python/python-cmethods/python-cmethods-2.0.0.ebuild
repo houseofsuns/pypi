@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev examples jupyter"
+IUSE="dev examples jupyter"
 DEPENDENCIES=">=dev-python/xarray-2022.11.0[${PYTHON_USEDEP}]
 	>=dev-python/netcdf4-1.6.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES=">=dev-python/xarray-2022.11.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	examples? ( dev-python/click[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/venv-kernel[${PYTHON_USEDEP}] )"
+	jupyter? ( dev-python/venv-kernel[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

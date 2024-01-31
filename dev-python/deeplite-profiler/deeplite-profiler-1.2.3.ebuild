@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all all-gpu tf tf-gpu torch"
+IUSE="all all-gpu tf tf-gpu torch"
 DEPENDENCIES="<dev-python/setuptools-65.6.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -35,6 +35,7 @@ DEPENDENCIES="<dev-python/setuptools-65.6.0[${PYTHON_USEDEP}]
 	tf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	tf-gpu? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	torch? ( dev-python/ptflops[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/ptflops[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

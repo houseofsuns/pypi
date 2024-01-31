@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tensorflow"
+IUSE="tensorflow"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/dm-reverb[${PYTHON_USEDEP}] )"
+	tensorflow? ( dev-python/dm-reverb[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel unparse"
+IUSE="unparse"
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	unparse? ( dev-python/astor[${PYTHON_USEDEP}] )"
+	unparse? ( dev-python/astor[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

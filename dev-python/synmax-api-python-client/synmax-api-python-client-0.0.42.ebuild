@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/wheel-0.40.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/wheel-0.40.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/aioretry[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-1.10.9[${PYTHON_USEDEP}]"
+	>=dev-python/pydantic-1.10.9[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

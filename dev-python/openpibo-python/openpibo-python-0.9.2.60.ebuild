@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	dev-python/dlib[${PYTHON_USEDEP}]
 	>=dev-python/pyzbar-0.1.8[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	dev-python/openpibo-models[${PYTHON_USEDEP}]
 	dev-python/openpibo-face-models[${PYTHON_USEDEP}]
 	dev-python/openpibo-detect-models[${PYTHON_USEDEP}]
-	dev-python/openpibo-dlib-models[${PYTHON_USEDEP}]"
+	dev-python/openpibo-dlib-models[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

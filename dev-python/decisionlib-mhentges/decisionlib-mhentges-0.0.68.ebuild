@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/arrow-0.13.1[${PYTHON_USEDEP}]
 	~dev-python/GitPython-2.1.11[${PYTHON_USEDEP}]
 	dev-python/json-e[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
-	dev-python/taskcluster[${PYTHON_USEDEP}]"
+	dev-python/taskcluster[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

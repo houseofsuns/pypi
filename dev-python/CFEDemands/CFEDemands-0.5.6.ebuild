@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/consumerdemands[${PYTHON_USEDEP}]
 	dev-python/dvc[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/consumerdemands[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
-	>=dev-python/xarray-0.20.1[${PYTHON_USEDEP}]"
+	>=dev-python/xarray-0.20.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

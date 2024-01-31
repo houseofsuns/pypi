@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel mypy test"
+IUSE="mypy test"
 DEPENDENCIES="mypy? ( >=dev-python/types-setuptools-45.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

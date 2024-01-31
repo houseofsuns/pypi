@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	~dev-python/starlette-0.19.1[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.18.2[${PYTHON_USEDEP}]
 	~dev-python/websockets-10.1[${PYTHON_USEDEP}]
-	dev-python/zhon[${PYTHON_USEDEP}]"
+	dev-python/zhon[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	dev-python/archive-pmakeup-plugin[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	dev-python/pmakeup[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
-	>=dev-python/semantic-version-2.8.5[${PYTHON_USEDEP}]"
+	>=dev-python/semantic-version-2.8.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

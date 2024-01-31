@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/doit-0.36.0[${PYTHON_USEDEP}]
 	>=dev-python/flake8-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/furo-2023.9.10[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES=">=dev-python/doit-0.36.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-timeout-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]"
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

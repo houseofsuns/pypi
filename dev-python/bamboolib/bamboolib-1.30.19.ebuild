@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.6.1[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES=">=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-1.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	>=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]"
+	>=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test utils"
+IUSE="test utils"
 DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	utils? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	utils? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	utils? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	utils? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
 	utils? ( dev-python/numba[${PYTHON_USEDEP}] )
-	utils? ( dev-python/sympy[${PYTHON_USEDEP}] )"
+	utils? ( dev-python/sympy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

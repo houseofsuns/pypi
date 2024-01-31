@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel audio full gpu image serve test text viz"
+IUSE="audio full gpu image serve test text viz"
 DEPENDENCIES=">=dev-python/cython-0.25[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.6[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES=">=dev-python/cython-0.25[${PYTHON_USEDEP}]
 	text? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	text? ( dev-python/bert-tensorflow[${PYTHON_USEDEP}] )
 	viz? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
-	viz? ( >=dev-python/seaborn-0.7[${PYTHON_USEDEP}] )"
+	viz? ( >=dev-python/seaborn-0.7[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

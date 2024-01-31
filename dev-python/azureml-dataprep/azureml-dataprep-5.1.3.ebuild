@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel fuse pandas parquet pyarrow pyspark scipy"
+IUSE="fuse pandas parquet pyarrow pyspark scipy"
 DEPENDENCIES="dev-python/azureml-dataprep-native[${PYTHON_USEDEP}]
 	dev-python/azureml-dataprep-rslex[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/azureml-dataprep-native[${PYTHON_USEDEP}]
 	parquet? ( >=dev-python/pyarrow-0.17.0[${PYTHON_USEDEP}] )
 	pyarrow? ( >=dev-python/pyarrow-0.17.0[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	scipy? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )"
+	scipy? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deploy dev test"
+IUSE="deploy dev test"
 DEPENDENCIES=">=dev-python/boto3-1.28.51[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-s3[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-cognito-idp[${PYTHON_USEDEP}]
@@ -53,6 +53,7 @@ DEPENDENCIES=">=dev-python/boto3-1.28.51[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-dateparser[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

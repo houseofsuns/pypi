@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev sphinx test"
+IUSE="dev sphinx test"
 DEPENDENCIES=">=dev-python/nbformat-5.0.4[${PYTHON_USEDEP}]
 	>=dev-python/nbclient-0.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -64,6 +64,7 @@ DEPENDENCIES=">=dev-python/nbformat-5.0.4[${PYTHON_USEDEP}]
 	test? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )"
+	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

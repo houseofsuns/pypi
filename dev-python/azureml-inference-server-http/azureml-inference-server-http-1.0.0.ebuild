@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="<dev-python/flask-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.1[${PYTHON_USEDEP}]
 	dev-python/inference-schema[${PYTHON_USEDEP}]
@@ -48,6 +48,7 @@ DEPENDENCIES="<dev-python/flask-2.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pillow-9.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/towncrier-21.9.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

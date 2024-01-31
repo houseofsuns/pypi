@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
 	dev-python/sigauth[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/setuptools-39.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( <dev-python/wheel-1.0.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/wheel-1.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

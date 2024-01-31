@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev journald test"
+IUSE="dev journald test"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
 	>=dev-python/pyrsistent-0.11.8[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	test? ( >=dev-python/hypothesis-1.14.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

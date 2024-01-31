@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.14.1[${PYTHON_USEDEP}]
 	>=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

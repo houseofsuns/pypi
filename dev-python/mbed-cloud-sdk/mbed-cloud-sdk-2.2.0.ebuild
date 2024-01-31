@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/certifi-2017.0[${PYTHON_USEDEP}]
 	>=dev-python/future-0.16[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/certifi-2017.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.15[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

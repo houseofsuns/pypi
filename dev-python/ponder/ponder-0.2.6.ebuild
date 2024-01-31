@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all bigquery duckdb mssql polars postgres redshift snowflake"
+IUSE="all bigquery duckdb mssql polars postgres redshift snowflake"
 DEPENDENCIES="~dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/modin[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="~dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	postgres? ( >=dev-python/psycopg-3.1[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )"
+	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

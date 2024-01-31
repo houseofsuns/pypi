@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel contrib dev_env"
+IUSE="contrib dev_env"
 DEPENDENCIES="<dev-python/google-api-core-2.0.0_pre0[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.4[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES="<dev-python/google-api-core-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev_env? ( ~dev-python/pylatex-1.3.0[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/quimb[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/autoray[${PYTHON_USEDEP}] )"
+	dev_env? ( dev-python/autoray[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

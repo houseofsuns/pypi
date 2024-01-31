@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/nose-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	<dev-python/selenium-4.0[${PYTHON_USEDEP}]"
+	<dev-python/selenium-4.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel extra"
+IUSE="extra"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -62,6 +62,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	extra? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	extra? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
 	extra? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	extra? ( dev-python/challenger-pydocker[${PYTHON_USEDEP}] )"
+	extra? ( dev-python/challenger-pydocker[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

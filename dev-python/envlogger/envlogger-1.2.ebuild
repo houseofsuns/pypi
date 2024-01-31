@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tfds"
+IUSE="tfds"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/dm-env[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>dev-python/setuptools-50.0.0[${PYTHON_USEDEP}]
 	tfds? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tfds? ( dev-python/tfds-nightly[${PYTHON_USEDEP}] )"
+	tfds? ( dev-python/tfds-nightly[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

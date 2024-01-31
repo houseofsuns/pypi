@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel connector_azure connector_bigquery connector_duckdb connector_mysql connector_postgres connector_redshift connector_saphana connector_snowflake connectors drift fe filemanager fs ml pipeline testing"
+IUSE="connector_azure connector_bigquery connector_duckdb connector_mysql connector_postgres connector_redshift connector_saphana connector_snowflake connectors drift fe filemanager fs ml pipeline testing"
 DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	dev-python/LunarCalendar[${PYTHON_USEDEP}]
 	<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
@@ -124,6 +124,7 @@ DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

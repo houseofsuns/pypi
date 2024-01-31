@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}]
 	dev-python/navigator-session[${PYTHON_USEDEP}]
 	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
-	dev-python/psycopg2-binary[${PYTHON_USEDEP}]"
+	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

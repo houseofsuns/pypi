@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/cerberus-1.4.0[${PYTHON_USEDEP}]
 	<dev-python/click-7.1.0[${PYTHON_USEDEP}]
 	dev-python/click-config-file[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="<dev-python/cerberus-1.4.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-4.16.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
-	dev-python/yamale[${PYTHON_USEDEP}]"
+	dev-python/yamale[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

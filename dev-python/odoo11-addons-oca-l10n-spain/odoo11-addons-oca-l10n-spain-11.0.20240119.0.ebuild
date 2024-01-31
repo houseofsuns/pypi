@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo11-addon-account-check-printing-caixabank[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-account-invoice-import-facturae[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-l10n-es-account-asset[${PYTHON_USEDEP}]
@@ -74,6 +74,7 @@ DEPENDENCIES="dev-python/odoo11-addon-account-check-printing-caixabank[${PYTHON_
 	dev-python/odoo11-addon-l10n-es-vat-book[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-l10n-es-vat-book-extra-data[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-l10n-es-vat-book-oss[${PYTHON_USEDEP}]
-	dev-python/odoo11-addon-payment-redsys[${PYTHON_USEDEP}]"
+	dev-python/odoo11-addon-payment-redsys[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

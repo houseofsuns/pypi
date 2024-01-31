@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/c7n[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-authorization[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-advisor[${PYTHON_USEDEP}]
@@ -147,6 +147,7 @@ DEPENDENCIES="dev-python/c7n[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
 	~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}]
-	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]"
+	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

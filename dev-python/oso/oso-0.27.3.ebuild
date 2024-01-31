@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel flask jwt"
+IUSE="flask jwt"
 DEPENDENCIES="~dev-python/cffi-1.15[${PYTHON_USEDEP}]
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	flask? ( dev-python/Authlib[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/Authlib[${PYTHON_USEDEP}] )"
+	jwt? ( dev-python/Authlib[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

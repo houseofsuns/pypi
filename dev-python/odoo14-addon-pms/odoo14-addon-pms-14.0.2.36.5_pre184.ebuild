@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-account-reconciliation-widget[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-multi-pms-properties[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-partner-contact-birthdate[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/odoo14-addon-account-reconciliation-widget[${PYTHON_USE
 	dev-python/odoo14-addon-partner-second-lastname[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-queue-job[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-web-timeline[${PYTHON_USEDEP}]
-	dev-python/odoo[${PYTHON_USEDEP}]"
+	dev-python/odoo[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

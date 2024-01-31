@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure-ai-ml"
+IUSE="azure-ai-ml"
 DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	>dev-python/cryptography-1.9[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	azure-ai-ml? ( dev-python/azure-ai-ml[${PYTHON_USEDEP}] )"
+	azure-ai-ml? ( dev-python/azure-ai-ml[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

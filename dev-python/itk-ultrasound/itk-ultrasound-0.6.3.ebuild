@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/itk[${PYTHON_USEDEP}]
 	dev-python/itk-meshtopolydata[${PYTHON_USEDEP}]
 	dev-python/itk-bsplinegradient[${PYTHON_USEDEP}]
 	dev-python/itk-higherorderaccurategradient[${PYTHON_USEDEP}]
 	dev-python/itk-splitcomponents[${PYTHON_USEDEP}]
-	dev-python/itk-strain[${PYTHON_USEDEP}]"
+	dev-python/itk-strain[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

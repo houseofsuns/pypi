@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc"
+IUSE="dev doc"
 DEPENDENCIES="doc? ( dev-python/pybind11[${PYTHON_USEDEP}] )
 	doc? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pylint-2.14.0[${PYTHON_USEDEP}] )
@@ -45,6 +45,7 @@ DEPENDENCIES="doc? ( dev-python/pybind11[${PYTHON_USEDEP}] )
 	dev-python/flax[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	dev-python/tqdm[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

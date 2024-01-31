@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/c2cgeoform[${PYTHON_USEDEP}]
 	dev-python/c2cwsgiutils[${PYTHON_USEDEP}]
 	dev-python/colander[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/c2cgeoform[${PYTHON_USEDEP}]
 	dev-python/pyramid-tm[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/translationstring[${PYTHON_USEDEP}]
-	dev-python/zope-event[${PYTHON_USEDEP}]"
+	dev-python/zope-event[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

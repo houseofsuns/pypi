@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dev docs ray"
+IUSE="all dev docs ray"
 DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]
@@ -88,6 +88,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	ray? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	ray? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	ray? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

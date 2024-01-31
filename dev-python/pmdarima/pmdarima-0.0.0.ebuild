@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/joblib-0.11[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES=">=dev-python/joblib-0.11[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}]
-	>=dev-python/packaging-17.1[${PYTHON_USEDEP}]"
+	>=dev-python/packaging-17.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

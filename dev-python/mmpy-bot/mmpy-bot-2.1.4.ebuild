@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/mattermostautodriver[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytype[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/snapshottest-0.6.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/snapshottest-0.6.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

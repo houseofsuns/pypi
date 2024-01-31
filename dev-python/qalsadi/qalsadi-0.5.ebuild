@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/Arabic-Stopwords[${PYTHON_USEDEP}]
 	dev-python/alyahmor[${PYTHON_USEDEP}]
 	dev-python/arramooz-pysqlite[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/Arabic-Stopwords[${PYTHON_USEDEP}]
 	dev-python/Naftawayh[${PYTHON_USEDEP}]
 	dev-python/pickleDB[${PYTHON_USEDEP}]
 	dev-python/PyArabic[${PYTHON_USEDEP}]
-	dev-python/Tashaphyne[${PYTHON_USEDEP}]"
+	dev-python/Tashaphyne[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel mypy"
-DEPENDENCIES="mypy? ( ~dev-python/mypy-0.600[${PYTHON_USEDEP}] )"
+IUSE="mypy"
+DEPENDENCIES="mypy? ( ~dev-python/mypy-0.600[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

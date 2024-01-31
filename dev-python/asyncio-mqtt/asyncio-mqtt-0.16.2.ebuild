@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel format lint tests"
+IUSE="format lint tests"
 DEPENDENCIES=">=dev-python/paho-mqtt-1.6.0[${PYTHON_USEDEP}]
 	format? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/mypy-0.991[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/paho-mqtt-1.6.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/types-paho-mqtt[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/anyio-3.6.2[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/anyio-3.6.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

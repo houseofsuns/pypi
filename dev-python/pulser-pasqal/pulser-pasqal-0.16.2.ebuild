@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pasqal-cloud[${PYTHON_USEDEP}]
 	~dev-python/backoff-2.2[${PYTHON_USEDEP}]
-	dev-python/pulser-core[${PYTHON_USEDEP}]"
+	dev-python/pulser-core[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

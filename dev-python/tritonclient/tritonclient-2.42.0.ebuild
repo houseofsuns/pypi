@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all cuda grpc http"
+IUSE="all cuda grpc http"
 DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	http? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	http? ( dev-python/geventhttpclient[${PYTHON_USEDEP}] )
 	http? ( >=dev-python/numpy-1.19.1[${PYTHON_USEDEP}] )
-	http? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )"
+	http? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

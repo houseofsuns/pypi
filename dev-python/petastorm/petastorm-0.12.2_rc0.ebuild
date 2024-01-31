@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs opencv s3fs test tf tf_gpu torch"
+IUSE="docs opencv s3fs test tf tf_gpu torch"
 DEPENDENCIES=">=dev-python/dill-0.2.1[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/future-0.10.2[${PYTHON_USEDEP}]
@@ -61,6 +61,7 @@ DEPENDENCIES=">=dev-python/dill-0.2.1[${PYTHON_USEDEP}]
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf_gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	~dev-python/qtawesome-1.1.1[${PYTHON_USEDEP}]
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

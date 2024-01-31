@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pymodbus[${PYTHON_USEDEP}]
 	dev-python/ethernetip[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	dev-python/rich[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

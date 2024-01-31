@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES=">=dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.15.0[${PYTHON_USEDEP}]
 	dev-python/dash-bio[${PYTHON_USEDEP}]
 	dev-python/pyCirclize[${PYTHON_USEDEP}]
-	>=dev-python/networkx-3.1[${PYTHON_USEDEP}]"
+	>=dev-python/networkx-3.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

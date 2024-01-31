@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build docs test"
+IUSE="build docs test"
 DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	build? ( dev-python/maturin[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
@@ -42,6 +42,7 @@ DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pprint"
-DEPENDENCIES="pprint? ( dev-python/prettyprinter[${PYTHON_USEDEP}] )"
+IUSE="pprint"
+DEPENDENCIES="pprint? ( dev-python/prettyprinter[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

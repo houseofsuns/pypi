@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel jupyterlab widgets"
+IUSE="jupyterlab widgets"
 DEPENDENCIES="jupyterlab? ( dev-python/qsharp-jupyterlab[${PYTHON_USEDEP}] )
-	widgets? ( dev-python/qsharp-widgets[${PYTHON_USEDEP}] )"
+	widgets? ( dev-python/qsharp-widgets[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

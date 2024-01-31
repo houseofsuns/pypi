@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]
 	dev-python/pyjwkest[${PYTHON_USEDEP}]
-	~dev-python/pyotp-2.6.0[${PYTHON_USEDEP}]"
+	~dev-python/pyotp-2.6.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

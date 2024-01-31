@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/clean-text[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	>=dev-python/elasticsearch-7.10.1[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/clean-text[${PYTHON_USEDEP}]
 	dev-python/spacy-legacy[${PYTHON_USEDEP}]
 	dev-python/stanza[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	>=dev-python/tqdm-4.50.2[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.50.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

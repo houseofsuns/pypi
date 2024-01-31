@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc test"
+IUSE="dev doc test"
 DEPENDENCIES="dev-python/enum34[${PYTHON_USEDEP}]
 	>=dev-python/future-0.15.2[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/enum34[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mock-1.0.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

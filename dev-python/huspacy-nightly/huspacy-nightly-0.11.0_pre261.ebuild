@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel np trf"
+IUSE="np trf"
 DEPENDENCIES="np? ( dev-python/benepar[${PYTHON_USEDEP}] )
 	<dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	trf? ( dev-python/spacy-alignments[${PYTHON_USEDEP}] )
 	trf? ( dev-python/torch[${PYTHON_USEDEP}] )
-	trf? ( dev-python/transformers[${PYTHON_USEDEP}] )"
+	trf? ( dev-python/transformers[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

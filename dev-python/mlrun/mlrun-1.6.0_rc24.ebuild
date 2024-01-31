@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all api azure-blob-storage azure-key-vault bokeh complete complete-api dask databricks-sdk google-cloud google-cloud-bigquery google-cloud-storage graphviz kafka mlflow plotly redis s3 sqlalchemy"
+IUSE="all api azure-blob-storage azure-key-vault bokeh complete complete-api dask databricks-sdk google-cloud google-cloud-bigquery google-cloud-storage graphviz kafka mlflow plotly redis s3 sqlalchemy"
 DEPENDENCIES="complete? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
 	complete? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
@@ -169,6 +169,7 @@ DEPENDENCIES="complete? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
 	complete? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	complete? ( dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}] )
 	complete? ( <dev-python/boto3-1.29.0[${PYTHON_USEDEP}] )
-	complete? ( ~dev-python/dask-2023.9.0[${PYTHON_USEDEP}] )"
+	complete? ( ~dev-python/dask-2023.9.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

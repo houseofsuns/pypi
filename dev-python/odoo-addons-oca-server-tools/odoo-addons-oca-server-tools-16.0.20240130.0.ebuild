@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-attachment-queue[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-attachment-synchronize[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-attachment-unindex-content[${PYTHON_USEDEP}]
@@ -61,6 +61,7 @@ DEPENDENCIES="dev-python/odoo-addon-attachment-queue[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sentry[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-session-db[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-tracking-manager[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-upgrade-analysis[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-upgrade-analysis[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

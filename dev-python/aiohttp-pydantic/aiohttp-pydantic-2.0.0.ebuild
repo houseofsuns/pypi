@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ci test"
+IUSE="ci test"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/swagger-ui-bundle[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-aiohttp-1.0.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/readme-renderer-37.3[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/build-1.0.3[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

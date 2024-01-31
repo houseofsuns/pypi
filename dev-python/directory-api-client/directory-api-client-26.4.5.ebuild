@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="<=dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/directory-client-core[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="<=dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	test? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
-	test? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

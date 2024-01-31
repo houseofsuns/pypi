@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
-	tests? ( dev-python/fasttext[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/fasttext[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

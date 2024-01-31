@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev test"
+IUSE="dev test"
 DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/click-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-rust[${PYTHON_USEDEP}] )
@@ -51,6 +51,7 @@ DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

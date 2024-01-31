@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dicom fw-file nipype numpy sdk"
+IUSE="all dicom fw-file nipype numpy sdk"
 DEPENDENCIES="dev-python/dotty-dict[${PYTHON_USEDEP}]
 	dev-python/flywheel-gears[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/dotty-dict[${PYTHON_USEDEP}]
 	all? ( dev-python/nipype[${PYTHON_USEDEP}] )
 	nipype? ( dev-python/nipype[${PYTHON_USEDEP}] )
 	all? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
-	numpy? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )"
+	numpy? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

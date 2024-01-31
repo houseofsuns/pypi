@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ldap netifaces"
+IUSE="ldap netifaces"
 DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.6[${PYTHON_USEDEP}]
 	>=dev-python/dnspython-1.15[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
-	netifaces? ( dev-python/netifaces[${PYTHON_USEDEP}] )"
+	netifaces? ( dev-python/netifaces[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/hikaru-core[${PYTHON_USEDEP}]
 	>=dev-python/autopep8-1.5.5[${PYTHON_USEDEP}]
-	<=dev-python/black-23.1.0[${PYTHON_USEDEP}]"
+	<=dev-python/black-23.1.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

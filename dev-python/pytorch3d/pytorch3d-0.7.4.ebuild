@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dev implicitron"
+IUSE="all dev implicitron"
 DEPENDENCIES="dev-python/fvcore[${PYTHON_USEDEP}]
 	dev-python/iopath[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/fvcore[${PYTHON_USEDEP}]
 	implicitron? ( >dev-python/tqdm-4.29.0[${PYTHON_USEDEP}] )
 	implicitron? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	implicitron? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	implicitron? ( >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )"
+	implicitron? ( >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.34.21[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.21.0[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="~dev-python/boto3-1.34.21[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-specifications-2023.12.1[${PYTHON_USEDEP}]
 	~dev-python/rpds-py-0.17.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]"
+	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

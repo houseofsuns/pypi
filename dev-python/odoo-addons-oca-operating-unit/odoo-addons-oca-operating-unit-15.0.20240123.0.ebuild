@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-account-asset-operating-unit[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-asset-transfer-operating-unit[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-financial-report-operating-unit[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="dev-python/odoo-addon-account-asset-operating-unit[${PYTHON_USEDEP
 	dev-python/odoo-addon-sales-team-operating-unit[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-account-operating-unit[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-operating-unit[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-stock-operating-unit-access-all[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-stock-operating-unit-access-all[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

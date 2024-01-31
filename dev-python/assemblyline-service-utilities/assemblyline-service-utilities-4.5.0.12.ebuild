@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/assemblyline[${PYTHON_USEDEP}]
 	dev-python/assemblyline-v4-service[${PYTHON_USEDEP}]
 	dev-python/cart[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/assemblyline[${PYTHON_USEDEP}]
 	dev-python/pefile[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/multidecoder[${PYTHON_USEDEP}]"
+	dev-python/multidecoder[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

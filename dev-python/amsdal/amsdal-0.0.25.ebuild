@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cli redis-lock server"
+IUSE="cli redis-lock server"
 DEPENDENCIES="~dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="~dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
 	dev-python/amsdal_models[${PYTHON_USEDEP}]
 	cli? ( dev-python/amsdal_cli[${PYTHON_USEDEP}] )
 	redis-lock? ( dev-python/amsdal_data[${PYTHON_USEDEP}] )
-	server? ( dev-python/amsdal_server[${PYTHON_USEDEP}] )"
+	server? ( dev-python/amsdal_server[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

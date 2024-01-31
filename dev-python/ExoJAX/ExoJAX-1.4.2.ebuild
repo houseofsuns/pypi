@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/numpyro[${PYTHON_USEDEP}]
 	dev-python/jaxopt[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/numpyro[${PYTHON_USEDEP}]
 	dev-python/radis[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.15[${PYTHON_USEDEP}]
-	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all automl distributed inference pytorch tensorflow"
+IUSE="all automl distributed inference pytorch tensorflow"
 DEPENDENCIES="<=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/bigdl-nano[${PYTHON_USEDEP}]
@@ -79,6 +79,7 @@ DEPENDENCIES="<=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/bigdl-nano[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/intel-tensorflow[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tf2onnx[${PYTHON_USEDEP}] )"
+	tensorflow? ( dev-python/tf2onnx[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

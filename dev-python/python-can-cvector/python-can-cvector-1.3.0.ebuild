@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/python-can[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipx[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/tox-4.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

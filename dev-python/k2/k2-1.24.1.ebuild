@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev? ( dev-python/clang-format[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/yapf-0.27.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/yapf-0.27.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel zeroconf"
-DEPENDENCIES="zeroconf? ( ~dev-python/zeroconf-0.88.0[${PYTHON_USEDEP}] )"
+IUSE="zeroconf"
+DEPENDENCIES="zeroconf? ( ~dev-python/zeroconf-0.88.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

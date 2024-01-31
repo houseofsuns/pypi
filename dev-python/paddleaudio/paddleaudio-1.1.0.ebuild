@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel develop"
+IUSE="develop"
 DEPENDENCIES="dev-python/kaldiio[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/kaldiio[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	develop? ( dev-python/sox[${PYTHON_USEDEP}] )
 	develop? ( dev-python/soxbindings[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
+	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

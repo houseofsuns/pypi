@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/threadwrapper[${PYTHON_USEDEP}]
 	dev-python/encryptedsocket[${PYTHON_USEDEP}]
 	dev-python/unencryptedsocket[${PYTHON_USEDEP}]
 	dev-python/easyrsa[${PYTHON_USEDEP}]
 	dev-python/aescipher[${PYTHON_USEDEP}]
-	dev-python/omnitools[${PYTHON_USEDEP}]"
+	dev-python/omnitools[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

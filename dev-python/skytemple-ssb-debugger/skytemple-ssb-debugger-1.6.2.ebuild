@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ndspy[${PYTHON_USEDEP}]
 	dev-python/skytemple-files[${PYTHON_USEDEP}]
 	dev-python/pmdsky-debug-py[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/ndspy[${PYTHON_USEDEP}]
 	dev-python/skytemple-ssb-emulator[${PYTHON_USEDEP}]
 	dev-python/explorerscript[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.4.1[${PYTHON_USEDEP}]
-	dev-python/pygtkspellcheck[${PYTHON_USEDEP}]"
+	dev-python/pygtkspellcheck[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

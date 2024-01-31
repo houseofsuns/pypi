@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-project-task-add-very-high[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-project-task-code[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-project-task-default-stage[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES="dev-python/odoo-addon-project-task-add-very-high[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-project-stage-extra-info[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-project-stock[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-project-stock-analytic-tag[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-project-stock-product-set[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-project-stock-product-set[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

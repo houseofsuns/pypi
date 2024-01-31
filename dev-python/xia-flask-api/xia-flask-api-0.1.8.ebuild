@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/xia-meta-auth[${PYTHON_USEDEP}]
 	dev-python/xia-meta-task[${PYTHON_USEDEP}]
 	dev-python/xia-authenticator[${PYTHON_USEDEP}]
-	dev-python/xia-mail-sender[${PYTHON_USEDEP}]"
+	dev-python/xia-mail-sender[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

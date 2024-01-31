@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pyxlsb[${PYTHON_USEDEP}]
 	~dev-python/odfpy-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.0.6[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/pyxlsb[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	~dev-python/pywavelets-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/plotly-4.8.0[${PYTHON_USEDEP}]
-	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]"
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

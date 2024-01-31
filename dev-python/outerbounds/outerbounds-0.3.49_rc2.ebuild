@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure"
+IUSE="azure"
 DEPENDENCIES="dev-python/ob-metaflow-extensions[${PYTHON_USEDEP}]
 	dev-python/ob-metaflow[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/ob-metaflow-extensions[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )"
+	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

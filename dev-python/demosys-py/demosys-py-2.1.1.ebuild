@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel glfw pyglet pysdl2 python-vlc"
+IUSE="glfw pyglet pysdl2 python-vlc"
 DEPENDENCIES="dev-python/moderngl[${PYTHON_USEDEP}]
 	dev-python/pyrr[${PYTHON_USEDEP}]
 	>=dev-python/pillow-5.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/moderngl[${PYTHON_USEDEP}]
 	pysdl2? ( ~dev-python/PySDL2-0.9.6[${PYTHON_USEDEP}] )
 	glfw? ( dev-python/glfw[${PYTHON_USEDEP}] )
 	pyglet? ( ~dev-python/pyglet-1.3.2[${PYTHON_USEDEP}] )
-	python-vlc? ( ~dev-python/python-vlc-3.0.102[${PYTHON_USEDEP}] )"
+	python-vlc? ( ~dev-python/python-vlc-3.0.102[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

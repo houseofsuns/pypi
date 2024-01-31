@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel accelerate agents all audio codecarbon deepspeed deepspeed-testing dev dev-tensorflow dev-torch docs docs_specific fairscale flax flax-speech ftfy integrations ja modelcreation natten onnx onnxruntime optuna quality ray retrieval sagemaker sentencepiece serving sigopt sklearn speech testing tf tf-cpu tf-speech timm tokenizers torch torch-speech torch-vision torchhub video vision"
+IUSE="accelerate agents all audio codecarbon deepspeed deepspeed-testing dev dev-tensorflow dev-torch docs docs_specific fairscale flax flax-speech ftfy integrations ja modelcreation natten onnx onnxruntime optuna quality ray retrieval sagemaker sentencepiece serving sigopt sklearn speech testing tf tf-cpu tf-speech timm tokenizers torch torch-speech torch-vision torchhub video vision"
 DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
@@ -396,6 +396,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	torchhub? ( >=dev-python/tqdm-4.27[${PYTHON_USEDEP}] )
 	video? ( dev-python/decord[${PYTHON_USEDEP}] )
 	video? ( dev-python/av[${PYTHON_USEDEP}] )
-	vision? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )"
+	vision? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel qa"
+IUSE="qa"
 DEPENDENCIES="qa? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	qa? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	qa? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	qa? ( dev-python/tox[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

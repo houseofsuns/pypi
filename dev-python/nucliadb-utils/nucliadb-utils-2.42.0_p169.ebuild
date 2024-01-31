@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cache fastapi postgres storages"
+IUSE="cache fastapi postgres storages"
 DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-3.9.2[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
@@ -48,6 +48,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	storages? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	storages? ( >=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}] )
 	storages? ( >=dev-python/backoff-1.11.1[${PYTHON_USEDEP}] )
-	storages? ( >=dev-python/google-auth-2.4.1[${PYTHON_USEDEP}] )"
+	storages? ( >=dev-python/google-auth-2.4.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.10.2[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.5.1[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	<=dev-python/pywavelets-1.0.0[${PYTHON_USEDEP}]
-	<=dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]"
+	<=dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

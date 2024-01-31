@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel web"
+IUSE="web"
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/torequests[${PYTHON_USEDEP}]
 	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )"
+	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

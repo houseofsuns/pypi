@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs notebook optimization"
+IUSE="docs notebook optimization"
 DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	notebook? ( >=dev-python/ipywidgets-4.0.3[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/ipykernel-4.1.0[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/notebook-4.0.5[${PYTHON_USEDEP}] )
-	optimization? ( dev-python/climin[${PYTHON_USEDEP}] )"
+	optimization? ( dev-python/climin[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

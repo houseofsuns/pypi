@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel colorized_logs"
+IUSE="colorized_logs"
 DEPENDENCIES="dev-python/mbed-os-tools[${PYTHON_USEDEP}]
 	<dev-python/prettytable-3.0[${PYTHON_USEDEP}]
-	colorized_logs? ( dev-python/colorlog[${PYTHON_USEDEP}] )"
+	colorized_logs? ( dev-python/colorlog[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

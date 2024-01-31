@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc log"
+IUSE="dev doc log"
 DEPENDENCIES="dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	~dev-python/pyparted-3.13.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	log? ( dev-python/systemd-python[${PYTHON_USEDEP}] )"
+	log? ( dev-python/systemd-python[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

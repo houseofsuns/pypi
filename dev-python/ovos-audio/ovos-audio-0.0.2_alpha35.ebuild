@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel extras"
+IUSE="extras"
 DEPENDENCIES="dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
 	dev-python/ovos-plugin-manager[${PYTHON_USEDEP}]
-	extras? ( dev-python/ovos-tts-plugin-server[${PYTHON_USEDEP}] )"
+	extras? ( dev-python/ovos-tts-plugin-server[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

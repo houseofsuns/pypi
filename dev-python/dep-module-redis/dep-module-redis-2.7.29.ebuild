@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/dep-spec[${PYTHON_USEDEP}]
 	~dev-python/poetry-1.1.15[${PYTHON_USEDEP}]
-	dev-python/aioredis[${PYTHON_USEDEP}]"
+	dev-python/aioredis[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

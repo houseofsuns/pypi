@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
 	>=dev-python/python-magic-0.4.11[${PYTHON_USEDEP}]
-	dev-python/rel[${PYTHON_USEDEP}]"
+	dev-python/rel[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

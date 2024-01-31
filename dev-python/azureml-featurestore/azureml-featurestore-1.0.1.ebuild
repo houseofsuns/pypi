@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel online"
+IUSE="online"
 DEPENDENCIES="dev-python/azure-ai-ml[${PYTHON_USEDEP}]
 	dev-python/mltable[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="dev-python/azure-ai-ml[${PYTHON_USEDEP}]
 	online? ( dev-python/azure-mgmt-redis[${PYTHON_USEDEP}] )
 	online? ( >=dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}] )
 	online? ( >=dev-python/redis-4.5.1[${PYTHON_USEDEP}] )
-	online? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )"
+	online? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

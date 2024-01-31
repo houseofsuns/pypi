@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/python-socketio[${PYTHON_USEDEP}]
 	~dev-python/APScheduler-3.9.1[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}]
-	dev-python/mangum[${PYTHON_USEDEP}]"
+	dev-python/mangum[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-workshop[${PYTHON_USEDEP}]
-	dev-python/ovos-plugin-manager[${PYTHON_USEDEP}]"
+	dev-python/ovos-plugin-manager[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

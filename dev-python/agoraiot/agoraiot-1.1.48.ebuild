@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/agora-logging[${PYTHON_USEDEP}]
 	dev-python/agora-busclient[${PYTHON_USEDEP}]
 	dev-python/agora-config[${PYTHON_USEDEP}]
 	dev-python/agora-redis-client[${PYTHON_USEDEP}]
-	dev-python/agora-utils[${PYTHON_USEDEP}]"
+	dev-python/agora-utils[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

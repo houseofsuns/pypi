@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.7[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	>=dev-python/prettytable-3.6.0[${PYTHON_USEDEP}]
-	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]"
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	>=dev-python/pillow-4.1.1[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/g2p-en[${PYTHON_USEDEP}]
 	dev-python/whoosh[${PYTHON_USEDEP}]
 	dev-python/marisa-trie[${PYTHON_USEDEP}]
-	dev-python/kss[${PYTHON_USEDEP}]"
+	dev-python/kss[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

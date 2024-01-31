@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aws azure gcp toml yaml"
+IUSE="aws azure gcp toml yaml"
 DEPENDENCIES="azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-keyvault[${PYTHON_USEDEP}] )
 	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
-	toml? ( dev-python/toml[${PYTHON_USEDEP}] )"
+	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

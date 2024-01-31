@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all ansible aws blackduck cdk cfn_nag clang common conan containers cpp cppcheck data docker file git go golang gpg orchestration patch perl pipenv pytest python s3 security service setuptools shell snyk source tar tests yaml"
+IUSE="all ansible aws blackduck cdk cfn_nag clang common conan containers cpp cppcheck data docker file git go golang gpg orchestration patch perl pipenv pytest python s3 security service setuptools shell snyk source tar tests yaml"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
@@ -111,6 +111,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	source? ( dev-python/octo-pipeline-backend-git-python[${PYTHON_USEDEP}] )
 	tar? ( dev-python/octo-pipeline-backend-tar-python[${PYTHON_USEDEP}] )
 	tests? ( dev-python/octo-pipeline-backend-pytest-python[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/octo-pipeline-backend-yaml-python[${PYTHON_USEDEP}] )"
+	yaml? ( dev-python/octo-pipeline-backend-yaml-python[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

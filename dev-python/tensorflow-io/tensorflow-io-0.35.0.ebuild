@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tensorflow tensorflow-aarch64 tensorflow-cpu tensorflow-gpu tensorflow-rocm"
+IUSE="tensorflow tensorflow-aarch64 tensorflow-cpu tensorflow-gpu tensorflow-rocm"
 DEPENDENCIES="dev-python/tensorflow-io-gcs-filesystem[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow-aarch64? ( dev-python/tensorflow-aarch64[${PYTHON_USEDEP}] )
 	tensorflow-cpu? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )
 	tensorflow-gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	tensorflow-rocm? ( dev-python/tensorflow-rocm[${PYTHON_USEDEP}] )"
+	tensorflow-rocm? ( dev-python/tensorflow-rocm[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

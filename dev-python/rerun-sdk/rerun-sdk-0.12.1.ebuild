@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES=">=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-14.0.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
-	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/neutrino-engine[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/deeplite-profiler[${PYTHON_USEDEP}]
 	dev-python/deeplite-model-converter[${PYTHON_USEDEP}]
-	dev-python/Augmentor[${PYTHON_USEDEP}]"
+	dev-python/Augmentor[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

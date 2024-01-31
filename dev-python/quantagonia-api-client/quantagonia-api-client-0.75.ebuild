@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	dev-python/pyqubo[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/dwave-ocean-sdk[${PYTHON_USEDEP}]
 	dev-python/concurrencytest[${PYTHON_USEDEP}]
 	dev-python/parameterized[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	dev-python/typer[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

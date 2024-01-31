@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/dez[${PYTHON_USEDEP}]
 	dev-python/rel[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.0.12[${PYTHON_USEDEP}]
-	dev-python/yagmail[${PYTHON_USEDEP}]"
+	dev-python/yagmail[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

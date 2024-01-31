@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel base dev full media tuio"
+IUSE="base dev full media tuio"
 DEPENDENCIES="dev-python/Kivy-Garden[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES="dev-python/Kivy-Garden[${PYTHON_USEDEP}]
 	full? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	full? ( dev-python/ffpyplayer[${PYTHON_USEDEP}] )
 	media? ( dev-python/ffpyplayer[${PYTHON_USEDEP}] )
-	tuio? ( dev-python/oscpy[${PYTHON_USEDEP}] )"
+	tuio? ( dev-python/oscpy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

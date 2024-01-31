@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
 	>=dev-python/python-xlib-0.21[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pywin32[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-xlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyWinCtl[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/PyWinCtl[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

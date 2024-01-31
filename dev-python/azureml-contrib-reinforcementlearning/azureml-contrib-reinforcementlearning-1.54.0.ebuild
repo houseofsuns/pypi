@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
 	dev-python/msrestazure[${PYTHON_USEDEP}]
 	dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-train-core[${PYTHON_USEDEP}]
-	>=dev-python/portalocker-1.5.2[${PYTHON_USEDEP}]"
+	>=dev-python/portalocker-1.5.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-auth-api-key[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-base-jsonify[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-sale-discount-display-amount[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
 	dev-python/openupgradelib[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]"
+	dev-python/unidecode[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

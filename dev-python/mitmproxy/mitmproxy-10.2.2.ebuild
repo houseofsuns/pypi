@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/aioquic[${PYTHON_USEDEP}]
 	<dev-python/asgiref-3.8[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
@@ -62,6 +62,7 @@ DEPENDENCIES="dev-python/aioquic[${PYTHON_USEDEP}]
 	dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/wheel-0.43[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

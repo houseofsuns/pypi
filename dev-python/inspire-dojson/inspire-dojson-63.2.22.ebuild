@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all tests"
+IUSE="all tests"
 DEPENDENCIES="dev-python/bump2version[${PYTHON_USEDEP}]
 	>=dev-python/flask-0.12.3[${PYTHON_USEDEP}]
 	dev-python/idutils[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/bump2version[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-4.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

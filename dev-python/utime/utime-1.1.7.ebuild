@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	dev-python/psg-utils[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
-	dev-python/yamlhparams[${PYTHON_USEDEP}]"
+	dev-python/yamlhparams[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

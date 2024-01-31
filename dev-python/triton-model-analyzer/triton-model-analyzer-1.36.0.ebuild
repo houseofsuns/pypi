@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
 	>=dev-python/distro-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/docker-4.3.1[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES=">=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/tritonclient[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

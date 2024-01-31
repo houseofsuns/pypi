@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel package"
+IUSE="package"
 DEPENDENCIES="dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]
 	package? ( dev-python/twine[${PYTHON_USEDEP}] )
-	package? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	package? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

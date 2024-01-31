@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-document-page-environment-manual[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-document-page-environmental-aspect[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-document-page-health-safety-manual[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES="dev-python/odoo-addon-document-page-environment-manual[${PYTHON_US
 	dev-python/odoo-addon-mgmtsystem-partner[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mgmtsystem-quality[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mgmtsystem-review[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-mgmtsystem-survey[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-mgmtsystem-survey[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

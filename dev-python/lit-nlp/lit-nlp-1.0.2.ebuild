@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel examples test"
+IUSE="examples test"
 DEPENDENCIES="~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
 	dev-python/annoy[${PYTHON_USEDEP}]
 	~dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/torch[${PYTHON_USEDEP}] )
 	examples? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	test? ( dev-python/lime[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

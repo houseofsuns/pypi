@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel command-line tests torch"
+IUSE="command-line tests torch"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	command-line? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	command-line? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch-dct[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/torch-dct[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

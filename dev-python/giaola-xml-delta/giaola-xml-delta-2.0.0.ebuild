@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/sqlalchemy-1.1[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Paginator[${PYTHON_USEDEP}]
 	~dev-python/alembic-0.9.6[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="~dev-python/sqlalchemy-1.1[${PYTHON_USEDEP}]
 	dev-python/giaola-xml-utils[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.18[${PYTHON_USEDEP}]
-	~dev-python/watchdog-0.8[${PYTHON_USEDEP}]"
+	~dev-python/watchdog-0.8[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

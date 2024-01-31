@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel analysis"
+IUSE="analysis"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.12.1[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
-	analysis? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	analysis? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

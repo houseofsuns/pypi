@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/cffi-1.13.1[${PYTHON_USEDEP}]
 	dev-python/imm[${PYTHON_USEDEP}]
-	>=dev-python/pytest-5.2.1[${PYTHON_USEDEP}]"
+	>=dev-python/pytest-5.2.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/yapsy-1.12.2[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-1.11.2[${PYTHON_USEDEP}]"
+	>=dev-python/QtPy-1.11.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

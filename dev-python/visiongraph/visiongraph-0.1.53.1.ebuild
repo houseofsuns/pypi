@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all depthai faiss fbs media mediapipe numba onnx onnx-directml onnx-gpu openvino realsense"
+IUSE="all depthai faiss fbs media mediapipe numba onnx onnx-directml onnx-gpu openvino realsense"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -59,6 +59,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	onnx-gpu? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	openvino? ( dev-python/openvino[${PYTHON_USEDEP}] )
 	realsense? ( dev-python/pyrealsense2[${PYTHON_USEDEP}] )
-	realsense? ( dev-python/pyrealsense2-macosx[${PYTHON_USEDEP}] )"
+	realsense? ( dev-python/pyrealsense2-macosx[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

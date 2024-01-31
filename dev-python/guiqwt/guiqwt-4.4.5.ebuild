@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dicom doc"
+IUSE="dicom doc"
 DEPENDENCIES=">=dev-python/numpy-1.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.7[${PYTHON_USEDEP}]
 	dev-python/guidata[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.3[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/QtPy-1.3[${PYTHON_USEDEP}]
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/sphinx-1.1[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-1.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

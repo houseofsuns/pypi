@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="<=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/cattrs-1.1.1[${PYTHON_USEDEP}]
@@ -74,6 +74,7 @@ DEPENDENCIES="<=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jedi-0.17.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

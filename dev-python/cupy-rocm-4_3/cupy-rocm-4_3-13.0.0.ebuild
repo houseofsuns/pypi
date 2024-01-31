@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all stylecheck test"
+IUSE="all stylecheck test"
 DEPENDENCIES="<dev-python/numpy-1.29[${PYTHON_USEDEP}]
 	dev-python/fastrlock[${PYTHON_USEDEP}]
 	all? ( <dev-python/scipy-1.14[${PYTHON_USEDEP}] )
@@ -36,6 +36,7 @@ DEPENDENCIES="<dev-python/numpy-1.29[${PYTHON_USEDEP}]
 	stylecheck? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	stylecheck? ( ~dev-python/types-setuptools-57.4.14[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
-	test? ( <dev-python/hypothesis-6.55.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/hypothesis-6.55.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

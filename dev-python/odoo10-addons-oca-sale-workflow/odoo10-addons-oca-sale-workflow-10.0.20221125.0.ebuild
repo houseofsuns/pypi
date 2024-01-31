@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo10-addon-portal-sale-personal-data-only[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-product-margin-classification[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-product-price-category[${PYTHON_USEDEP}]
@@ -89,6 +89,7 @@ DEPENDENCIES="dev-python/odoo10-addon-portal-sale-personal-data-only[${PYTHON_US
 	dev-python/odoo10-addon-sale-stock-picking-blocking-sale-manual-delivery[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-sale-stock-picking-note[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-sale-triple-discount[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-validity[${PYTHON_USEDEP}]"
+	dev-python/odoo10-addon-sale-validity[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

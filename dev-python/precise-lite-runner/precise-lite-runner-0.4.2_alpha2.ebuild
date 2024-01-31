@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full tflite"
+IUSE="full tflite"
 DEPENDENCIES="dev-python/sonopy[${PYTHON_USEDEP}]
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tflite? ( dev-python/tflite-runtime[${PYTHON_USEDEP}] )"
+	tflite? ( dev-python/tflite-runtime[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

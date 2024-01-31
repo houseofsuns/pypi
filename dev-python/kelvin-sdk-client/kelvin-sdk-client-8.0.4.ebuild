@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build development docs format lint security tests wheel"
+IUSE="build development docs format lint security tests wheel"
 DEPENDENCIES="~dev-python/pyjwt-2.8[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -75,6 +75,7 @@ DEPENDENCIES="~dev-python/pyjwt-2.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-virtualenv-1.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/requests-mock-1.9[${PYTHON_USEDEP}] )
 	wheel? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

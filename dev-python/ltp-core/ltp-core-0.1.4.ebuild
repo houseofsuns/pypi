@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel train"
+IUSE="train"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	train? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	train? ( dev-python/rich[${PYTHON_USEDEP}] )
 	train? ( dev-python/pyrootutils[${PYTHON_USEDEP}] )
 	train? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
-	train? ( dev-python/hydra-colorlog[${PYTHON_USEDEP}] )"
+	train? ( dev-python/hydra-colorlog[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

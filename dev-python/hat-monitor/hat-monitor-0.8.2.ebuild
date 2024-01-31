@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/hat-aio[${PYTHON_USEDEP}]
 	dev-python/hat-drivers[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/hat-util[${PYTHON_USEDEP}]
 	dev? ( dev-python/hat-doit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

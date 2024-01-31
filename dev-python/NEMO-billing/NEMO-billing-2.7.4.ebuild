@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel nemo nemo-ce"
+IUSE="nemo nemo-ce"
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	~dev-python/reportlab-4.0.9[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/drf-excel[${PYTHON_USEDEP}]
 	nemo? ( dev-python/NEMO[${PYTHON_USEDEP}] )
-	nemo-ce? ( dev-python/NEMO-CE[${PYTHON_USEDEP}] )"
+	nemo-ce? ( dev-python/NEMO-CE[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

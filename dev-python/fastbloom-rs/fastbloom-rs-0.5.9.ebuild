@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="test? ( <=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/pybloom-live[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pybloom-live[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

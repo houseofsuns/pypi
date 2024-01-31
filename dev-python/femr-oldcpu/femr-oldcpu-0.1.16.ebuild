@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build models"
+IUSE="build models"
 DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	build? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	models? ( dev-python/optax[${PYTHON_USEDEP}] )
 	models? ( dev-python/dm-haiku[${PYTHON_USEDEP}] )
-	models? ( dev-python/jax[${PYTHON_USEDEP}] )"
+	models? ( dev-python/jax[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

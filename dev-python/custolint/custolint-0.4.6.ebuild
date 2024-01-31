@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deploy_to_pip dev"
+IUSE="deploy_to_pip dev"
 DEPENDENCIES="dev-python/bash[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/colorlog-6.7.0[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/bash[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-5.2.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

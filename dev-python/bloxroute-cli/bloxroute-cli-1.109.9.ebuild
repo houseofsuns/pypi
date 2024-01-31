@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	~dev-python/websockets-8.1[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.4.6[${PYTHON_USEDEP}]
-	dev-python/dataclasses[${PYTHON_USEDEP}]"
+	dev-python/dataclasses[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/sretoolbox[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES="dev-python/sretoolbox[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-s3[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/dateparser[${PYTHON_USEDEP}]"
+	dev-python/dateparser[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

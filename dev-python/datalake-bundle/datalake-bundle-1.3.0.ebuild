@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/simpleeval-1.0.0[${PYTHON_USEDEP}]
 	dev-python/injecta[${PYTHON_USEDEP}]
 	dev-python/pyfony-bundles[${PYTHON_USEDEP}]
 	dev-python/console-bundle[${PYTHON_USEDEP}]
 	dev-python/daipe-core[${PYTHON_USEDEP}]
 	dev-python/pyspark-bundle[${PYTHON_USEDEP}]
-	<dev-python/deepdiff-6.0[${PYTHON_USEDEP}]"
+	<dev-python/deepdiff-6.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel extras"
+IUSE="extras"
 DEPENDENCIES="dev-python/cirq-core[${PYTHON_USEDEP}]
 	dev-python/cirq-google[${PYTHON_USEDEP}]
 	~dev-python/sympy-1.8[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/cirq-core[${PYTHON_USEDEP}]
 	~dev-python/google-api-core-1.21.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-1.18.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	extras? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
+	extras? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

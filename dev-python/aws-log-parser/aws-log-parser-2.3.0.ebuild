@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cli dev"
+IUSE="cli dev"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	cli? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -50,6 +50,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	dev? ( dev-python/user-agents[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geoip2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-whois[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/python-whois[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

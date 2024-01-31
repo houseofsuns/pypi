@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/apispec-4.0.0[${PYTHON_USEDEP}]
 	dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-component[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
 	dev-python/parse-accept-language[${PYTHON_USEDEP}]
-	dev-python/pyquerystring[${PYTHON_USEDEP}]"
+	dev-python/pyquerystring[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/yaxil[${PYTHON_USEDEP}]
 	dev-python/selfie[${PYTHON_USEDEP}]
 	dev-python/executors[${PYTHON_USEDEP}]
 	dev-python/morphometry[${PYTHON_USEDEP}]
-	dev-python/vnav[${PYTHON_USEDEP}]"
+	dev-python/vnav[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

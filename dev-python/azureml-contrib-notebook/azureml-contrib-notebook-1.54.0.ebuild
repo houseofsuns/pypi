@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full"
+IUSE="full"
 DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-pipeline-core[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
 	<dev-python/jupyter-client-8.0[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
-	full? ( dev-python/nteract-scrapbook[${PYTHON_USEDEP}] )"
+	full? ( dev-python/nteract-scrapbook[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

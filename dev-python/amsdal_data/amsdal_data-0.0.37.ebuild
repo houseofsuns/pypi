@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel iceberg-lakehouse postgres redis-lock"
+IUSE="iceberg-lakehouse postgres redis-lock"
 DEPENDENCIES="~dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	dev-python/amsdal_utils[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	iceberg-lakehouse? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	redis-lock? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )"
+	redis-lock? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

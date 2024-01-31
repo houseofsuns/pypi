@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-product-abc-classification[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-product-abc-classification-sale-stock[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-product-assortment[${PYTHON_USEDEP}]
@@ -83,6 +83,7 @@ DEPENDENCIES="dev-python/odoo-addon-product-abc-classification[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-product-variant-attribute-name-manager[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sale-product-template-tags[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-production-lot-expired-date[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-uom-category-active[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-uom-category-active[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

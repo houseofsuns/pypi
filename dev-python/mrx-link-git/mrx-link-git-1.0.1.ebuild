@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/jsondiff-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jupyterlab-3.3[${PYTHON_USEDEP}]
 	<=dev-python/jupyter-server-1.17.0[${PYTHON_USEDEP}]
 	<dev-python/nbdime-3.2[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.7[${PYTHON_USEDEP}]
-	>=dev-python/pyzmq-17.0[${PYTHON_USEDEP}]"
+	>=dev-python/pyzmq-17.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

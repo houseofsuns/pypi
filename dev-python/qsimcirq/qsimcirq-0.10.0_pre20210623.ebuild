@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Schrödinger and Schrödinger-Feynman simulators for quantum circuits. [top-max 0.19.0]"
+DESCRIPTION="Schrödinger and Schrödinger-Feynman simulators for quantum circuits. [top-max 0.20.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

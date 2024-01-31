@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pyocd"
+IUSE="pyocd"
 DEPENDENCIES="<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/intelhex-3.0[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	<dev-python/prettytable-3.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	pyocd? ( dev-python/pyocd[${PYTHON_USEDEP}] )"
+	pyocd? ( dev-python/pyocd[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

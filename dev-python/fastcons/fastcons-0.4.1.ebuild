@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build dev test"
+IUSE="build dev test"
 DEPENDENCIES="build? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

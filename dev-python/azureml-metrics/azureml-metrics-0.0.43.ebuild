@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ada-similarity all bert-score chat-completion classification code-generation evaluate fill-mask forecasting generative-ai image multimodal prompt-flow qa rag-evaluation rai regression summarization tabular text text-generation text-ner translation video"
+IUSE="ada-similarity all bert-score chat-completion classification code-generation evaluate fill-mask forecasting generative-ai image multimodal prompt-flow qa rag-evaluation rai regression summarization tabular text text-generation text-ner translation video"
 DEPENDENCIES="<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
@@ -174,6 +174,7 @@ DEPENDENCIES="<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	video? ( dev-python/mmcv-full[${PYTHON_USEDEP}] )
 	video? ( dev-python/mmdet[${PYTHON_USEDEP}] )
 	video? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	video? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
+	video? ( dev-python/torchvision[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

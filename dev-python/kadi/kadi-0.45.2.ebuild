@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="~dev-python/alembic-1.13.1[${PYTHON_USEDEP}]
 	dev-python/anonip[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
@@ -94,6 +94,7 @@ DEPENDENCIES="~dev-python/alembic-1.13.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinxcontrib-httpdomain-1.8.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tox-4.12.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

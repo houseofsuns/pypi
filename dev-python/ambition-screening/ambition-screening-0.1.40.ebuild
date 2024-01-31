@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ambition-form-validators[${PYTHON_USEDEP}]
 	dev-python/ambition-visit-schedule[${PYTHON_USEDEP}]
 	dev-python/django-collect-offline[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/ambition-form-validators[${PYTHON_USEDEP}]
 	dev-python/edc-model-admin[${PYTHON_USEDEP}]
 	dev-python/edc-reportable[${PYTHON_USEDEP}]
 	dev-python/edc-screening[${PYTHON_USEDEP}]
-	dev-python/edc-search[${PYTHON_USEDEP}]"
+	dev-python/edc-search[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

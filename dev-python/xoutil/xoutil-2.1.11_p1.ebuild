@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel recommended"
+IUSE="recommended"
 DEPENDENCIES="~dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
-	recommended? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"
+	recommended? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

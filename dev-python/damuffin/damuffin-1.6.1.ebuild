@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}]
 	dev-python/pylzma[${PYTHON_USEDEP}]
 	~dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
 	dev-python/WMI[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
-	dev-python/pywin32[${PYTHON_USEDEP}]"
+	dev-python/pywin32[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-delivery-procurement-group-carrier[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-delivery-total-weight-from-packaging[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-purchase-stock-picking-invoice-link[${PYTHON_USEDEP}]
@@ -82,6 +82,7 @@ DEPENDENCIES="dev-python/odoo-addon-delivery-procurement-group-carrier[${PYTHON_
 	dev-python/odoo-addon-stock-receipt-lot-info[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-restrict-lot[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-split-picking[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-stock-valuation-layer-usage[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-stock-valuation-layer-usage[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

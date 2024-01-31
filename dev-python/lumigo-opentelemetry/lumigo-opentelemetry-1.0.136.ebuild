@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/asgiref-3.0[${PYTHON_USEDEP}]
 	dev-python/autowrapt[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.11.0[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="~dev-python/asgiref-3.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-pymysql[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-requests[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-redis[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-instrumentation-django[${PYTHON_USEDEP}]"
+	dev-python/opentelemetry-instrumentation-django[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

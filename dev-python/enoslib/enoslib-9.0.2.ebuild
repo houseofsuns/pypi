@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all analysis chameleon dev distem iotlab silecs vagrant"
+IUSE="all analysis chameleon dev distem iotlab silecs vagrant"
 DEPENDENCIES="dev-python/enoslib-ansible[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
@@ -76,6 +76,7 @@ DEPENDENCIES="dev-python/enoslib-ansible[${PYTHON_USEDEP}]
 	iotlab? ( dev-python/iotlabsshcli[${PYTHON_USEDEP}] )
 	silecs? ( dev-python/iotlabcli[${PYTHON_USEDEP}] )
 	silecs? ( dev-python/iotlabsshcli[${PYTHON_USEDEP}] )
-	vagrant? ( dev-python/python-vagrant[${PYTHON_USEDEP}] )"
+	vagrant? ( dev-python/python-vagrant[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

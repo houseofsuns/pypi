@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev lint monitoring prod test"
+IUSE="dev lint monitoring prod test"
 DEPENDENCIES="~dev-python/Babel-2.14.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
@@ -84,6 +84,7 @@ DEPENDENCIES="~dev-python/Babel-2.14.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/fakeredis-2.20.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/mixer[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

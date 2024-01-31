@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel audioread plotting stretching"
+IUSE="audioread plotting stretching"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	audioread? ( dev-python/audioread[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	stretching? ( dev-python/librosa[${PYTHON_USEDEP}] )"
+	stretching? ( dev-python/librosa[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

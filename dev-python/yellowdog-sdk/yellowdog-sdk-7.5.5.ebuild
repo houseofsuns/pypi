@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deploy docs tests"
+IUSE="deploy docs tests"
 DEPENDENCIES="dev-python/jsons[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/jsons[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-httpserver-1.0.8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/typing-compat[${PYTHON_USEDEP}] )
-	tests? ( dev-python/busypie[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/busypie[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

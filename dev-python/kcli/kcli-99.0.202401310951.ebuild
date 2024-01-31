@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all aws azure gcp ibm kubevirt openstack ovirt packet proxmox vsphere"
+IUSE="all aws azure gcp ibm kubevirt openstack ovirt packet proxmox vsphere"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -103,6 +103,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	packet? ( dev-python/packet-python[${PYTHON_USEDEP}] )
 	proxmox? ( dev-python/proxmoxer[${PYTHON_USEDEP}] )
 	vsphere? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	vsphere? ( dev-python/pyvmomi[${PYTHON_USEDEP}] )"
+	vsphere? ( dev-python/pyvmomi[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

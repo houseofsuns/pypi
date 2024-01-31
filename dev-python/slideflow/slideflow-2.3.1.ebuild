@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all cellpose cucim dev tf torch"
+IUSE="all cellpose cucim dev tf torch"
 DEPENDENCIES=">=dev-python/gast-0.3.3[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -89,6 +89,7 @@ DEPENDENCIES=">=dev-python/gast-0.3.3[${PYTHON_USEDEP}]
 	torch? ( dev-python/fastai[${PYTHON_USEDEP}] )
 	torch? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	torch? ( dev-python/timm[${PYTHON_USEDEP}] )
-	torch? ( dev-python/segmentation-models-pytorch[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/segmentation-models-pytorch[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

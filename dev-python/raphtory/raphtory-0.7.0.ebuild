@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel export"
+IUSE="export"
 DEPENDENCIES="dev-python/pyvis[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/pyvis[${PYTHON_USEDEP}]
 	export? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	export? ( >=dev-python/networkx-2.6.3[${PYTHON_USEDEP}] )
 	export? ( >=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
-	export? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )"
+	export? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

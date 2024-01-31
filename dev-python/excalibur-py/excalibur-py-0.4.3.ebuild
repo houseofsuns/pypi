@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dev mysql"
+IUSE="all dev mysql"
 DEPENDENCIES="dev-python/camelot-py[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES="dev-python/camelot-py[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
-	mysql? ( >=dev-python/mysqlclient-1.3.6[${PYTHON_USEDEP}] )"
+	mysql? ( >=dev-python/mysqlclient-1.3.6[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

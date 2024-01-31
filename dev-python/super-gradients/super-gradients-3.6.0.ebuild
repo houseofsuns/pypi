@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pro"
+IUSE="pro"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.57.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.15[${PYTHON_USEDEP}]
@@ -61,6 +61,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/onnxsim[${PYTHON_USEDEP}]
 	dev-python/data-gradients[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
-	pro? ( dev-python/deci-platform-client[${PYTHON_USEDEP}] )"
+	pro? ( dev-python/deci-platform-client[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

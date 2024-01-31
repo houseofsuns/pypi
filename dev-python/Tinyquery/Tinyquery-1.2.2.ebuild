@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/arrow-0.12.1[${PYTHON_USEDEP}]
 	>=dev-python/ply-3.10[${PYTHON_USEDEP}]
-	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

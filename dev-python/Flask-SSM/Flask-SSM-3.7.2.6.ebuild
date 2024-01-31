@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/flask-2.0.1[${PYTHON_USEDEP}]
 	dev-python/Flask-APScheduler[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="~dev-python/flask-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.18[${PYTHON_USEDEP}]
 	~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}]
-	~dev-python/werkzeug-2.1.2[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-2.1.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel opt-einsum optree"
+IUSE="opt-einsum optree"
 DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/nvidia-nvtx-cu12[${PYTHON_USEDEP}]
 	dev-python/triton[${PYTHON_USEDEP}]
 	opt-einsum? ( >=dev-python/opt-einsum-3.3[${PYTHON_USEDEP}] )
-	optree? ( dev-python/optree[${PYTHON_USEDEP}] )"
+	optree? ( dev-python/optree[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

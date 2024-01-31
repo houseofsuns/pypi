@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cpu gpu"
+IUSE="cpu gpu"
 DEPENDENCIES="dev-python/PennyLane[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	cpu? ( dev-python/qulacs[${PYTHON_USEDEP}] )
-	gpu? ( dev-python/qulacs-gpu[${PYTHON_USEDEP}] )"
+	gpu? ( dev-python/qulacs-gpu[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all all-strict graphics graphics-strict headless headless-strict optional optional-strict runtime-strict tests tests-strict"
+IUSE="all all-strict graphics graphics-strict headless headless-strict optional optional-strict runtime-strict tests tests-strict"
 DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/ubelt-1.2.4[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.12.0[${PYTHON_USEDEP}]
@@ -179,6 +179,7 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	tests-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

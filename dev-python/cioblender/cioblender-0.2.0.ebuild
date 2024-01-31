@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ciocore[${PYTHON_USEDEP}]
 	dev-python/ciopath[${PYTHON_USEDEP}]
 	dev-python/cioseq[${PYTHON_USEDEP}]
 	dev-python/json-stream[${PYTHON_USEDEP}]
-	<dev-python/pyside6-6.5.0[${PYTHON_USEDEP}]"
+	<dev-python/pyside6-6.5.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

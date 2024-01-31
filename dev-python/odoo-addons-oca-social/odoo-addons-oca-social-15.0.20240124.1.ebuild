@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-base-search-mail-content[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-base-user-signature[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-email-template-qweb[${PYTHON_USEDEP}]
@@ -62,6 +62,7 @@ DEPENDENCIES="dev-python/odoo-addon-base-search-mail-content[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mass-mailing-list-dynamic[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mass-mailing-partner[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-mass-mailing-resend[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-microsoft-outlook-single-tenant[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-microsoft-outlook-single-tenant[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel diazo tests"
+IUSE="diazo tests"
 DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.12[${PYTHON_USEDEP}]
 	diazo? ( dev-python/diazo[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/diazo[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/lxml-3.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

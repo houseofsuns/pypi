@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deep mimic sample"
+IUSE="deep mimic sample"
 DEPENDENCIES="dev-python/azureml-interpret[${PYTHON_USEDEP}]
 	deep? ( dev-python/azureml-interpret[${PYTHON_USEDEP}] )
 	mimic? ( dev-python/azureml-interpret[${PYTHON_USEDEP}] )
-	sample? ( dev-python/azureml-interpret[${PYTHON_USEDEP}] )"
+	sample? ( dev-python/azureml-interpret[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

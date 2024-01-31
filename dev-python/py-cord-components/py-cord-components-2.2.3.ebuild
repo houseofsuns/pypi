@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev lint readthedocs"
+IUSE="dev lint readthedocs"
 DEPENDENCIES="dev-python/py-cord[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/py-cord[${PYTHON_USEDEP}]
 	lint? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	lint? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

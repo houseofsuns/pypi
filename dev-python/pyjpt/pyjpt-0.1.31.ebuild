@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel mlflow"
+IUSE="mlflow"
 DEPENDENCIES="dev-python/dnutils[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/dnutils[${PYTHON_USEDEP}]
 	dev-python/fglib[${PYTHON_USEDEP}]
 	dev-python/factorgraph[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
-	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )"
+	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

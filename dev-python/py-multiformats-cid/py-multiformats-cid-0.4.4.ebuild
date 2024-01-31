@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/py-multibase[${PYTHON_USEDEP}]
 	dev-python/py-multicodec[${PYTHON_USEDEP}]
 	dev-python/morphys[${PYTHON_USEDEP}]
-	dev-python/py-multihash[${PYTHON_USEDEP}]"
+	dev-python/py-multihash[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

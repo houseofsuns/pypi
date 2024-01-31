@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/flatbuffers[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
-	>=dev-python/setuptools-41.4.0[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-41.4.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

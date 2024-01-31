@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/sqlglot[${PYTHON_USEDEP}]
 	dev-python/findspark[${PYTHON_USEDEP}]
 	dev-python/acryl-datahub[${PYTHON_USEDEP}]
-	<=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]"
+	<=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

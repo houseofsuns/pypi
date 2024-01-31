@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/pyclipper-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/intervaltree-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES=">=dev-python/pyclipper-1.2.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/rope-0.18.0[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/rope-0.18.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

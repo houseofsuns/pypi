@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel fuse pandas pyspark scipy"
+IUSE="fuse pandas pyspark scipy"
 DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-0.17.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	pandas? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	pandas? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	scipy? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )"
+	scipy? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

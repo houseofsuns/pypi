@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all bigquery boto3 cassandra couchdb dataframe default elasticsearch hazelcast influxdb jdbc mariadb memcache mongodb msqlserver mysql odbc oracle postgres postgresql pyspark redis rethinkdb scylla sqlalchemy sqlite"
+IUSE="all bigquery boto3 cassandra couchdb dataframe default elasticsearch hazelcast influxdb jdbc mariadb memcache mongodb msqlserver mysql odbc oracle postgres postgresql pyspark redis rethinkdb scylla sqlalchemy sqlite"
 DEPENDENCIES="~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
@@ -147,6 +147,7 @@ DEPENDENCIES="~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	scylla? ( dev-python/scylla-driver[${PYTHON_USEDEP}] )
 	scylla? ( dev-python/cqlsh[${PYTHON_USEDEP}] )
 	sqlalchemy? ( ~dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}] )
-	sqlite? ( >=dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )"
+	sqlite? ( >=dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/django-3.1.5[${PYTHON_USEDEP}]
 	dev-python/huey[${PYTHON_USEDEP}]
-	dev-python/premailer[${PYTHON_USEDEP}]"
+	dev-python/premailer[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

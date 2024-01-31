@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/APScheduler-3.6.3[${PYTHON_USEDEP}]
 	~dev-python/automat-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES="~dev-python/APScheduler-3.6.3[${PYTHON_USEDEP}]
 	~dev-python/pymysql-0.10.0[${PYTHON_USEDEP}]
 	dev-python/namegenerator[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.31.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.31.0[${PYTHON_USEDEP}]"
+	~dev-python/grpcio-tools-1.31.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

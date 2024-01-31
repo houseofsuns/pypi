@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-product-supplier-code-purchase[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-product-supplierinfo-qty-multiplier[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-purchase-advance-payment[${PYTHON_USEDEP}]
@@ -77,6 +77,7 @@ DEPENDENCIES="dev-python/odoo-addon-product-supplier-code-purchase[${PYTHON_USED
 	dev-python/odoo-addon-purchase-triple-discount[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-purchase-warn-message[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sale-purchase-force-vendor[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-supplier-calendar[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-supplier-calendar[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

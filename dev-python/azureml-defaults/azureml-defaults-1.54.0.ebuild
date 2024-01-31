@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel async"
+IUSE="async"
 DEPENDENCIES="dev-python/azureml-inference-server-http[${PYTHON_USEDEP}]
 	dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-dataset-runtime[${PYTHON_USEDEP}]
 	async? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	async? ( ~dev-python/uvicorn-0.12.3[${PYTHON_USEDEP}] )
 	async? ( ~dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )
-	async? ( dev-python/httptools[${PYTHON_USEDEP}] )"
+	async? ( dev-python/httptools[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

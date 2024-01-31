@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aws azure directquery-bigquery directquery-clickhouse directquery-databricks directquery-mssql directquery-redshift directquery-snowflake directquery-synapse gcp jupyterlab jupyterlab3 kafka observability sql"
+IUSE="aws azure directquery-bigquery directquery-clickhouse directquery-databricks directquery-mssql directquery-redshift directquery-snowflake directquery-synapse gcp jupyterlab jupyterlab3 kafka observability sql"
 DEPENDENCIES="aws? ( dev-python/atoti-aws[${PYTHON_USEDEP}] )
 	azure? ( dev-python/atoti-azure[${PYTHON_USEDEP}] )
 	dev-python/atoti-core[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES="aws? ( dev-python/atoti-aws[${PYTHON_USEDEP}] )
 	dev-python/py4j[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

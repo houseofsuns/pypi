@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel sentry"
+IUSE="sentry"
 DEPENDENCIES=">=dev-python/structlog-21.5.0[${PYTHON_USEDEP}]
-	sentry? ( dev-python/structlog-sentry[${PYTHON_USEDEP}] )"
+	sentry? ( dev-python/structlog-sentry[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

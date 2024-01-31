@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/python-ntlm3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.18.0[${PYTHON_USEDEP}]
-	>=dev-python/diff-match-patch-20230430.0[${PYTHON_USEDEP}]"
+	>=dev-python/diff-match-patch-20230430.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

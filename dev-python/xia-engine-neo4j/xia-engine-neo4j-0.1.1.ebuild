@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/neo4j[${PYTHON_USEDEP}]
 	dev-python/xia-fields[${PYTHON_USEDEP}]
 	dev-python/xia-engine[${PYTHON_USEDEP}]
-	dev-python/xia-engine-cypher[${PYTHON_USEDEP}]"
+	dev-python/xia-engine-cypher[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pyModbusTCP[${PYTHON_USEDEP}]
 	dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
 	~dev-python/textX-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-23.2.0[${PYTHON_USEDEP}]
-	dev-python/win-inet-pton[${PYTHON_USEDEP}]"
+	dev-python/win-inet-pton[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

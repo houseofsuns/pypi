@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/sparkmagic[${PYTHON_USEDEP}]
 	dev-python/hdijupyterutils[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-synapse[${PYTHON_USEDEP}]
-	dev-python/azure-identity[${PYTHON_USEDEP}]"
+	dev-python/azure-identity[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/AYABInterface[${PYTHON_USEDEP}]
 	dev-python/observablelist[${PYTHON_USEDEP}]
 	~dev-python/pillow-3.2.0[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/AYABInterface[${PYTHON_USEDEP}]
 	dev-python/knittingpattern[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.1.1[${PYTHON_USEDEP}]
 	~dev-python/webcolors-1.5[${PYTHON_USEDEP}]
-	~dev-python/xmltodict-0.10.2[${PYTHON_USEDEP}]"
+	~dev-python/xmltodict-0.10.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

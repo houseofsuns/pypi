@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel builtin-yosys remote-build"
+IUSE="builtin-yosys remote-build"
 DEPENDENCIES="dev-python/pyvcd[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	builtin-yosys? ( dev-python/amaranth-yosys[${PYTHON_USEDEP}] )
-	remote-build? ( ~dev-python/paramiko-2.7[${PYTHON_USEDEP}] )"
+	remote-build? ( ~dev-python/paramiko-2.7[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/hikaru-model_25[${PYTHON_USEDEP}]
 	dev-python/hikaru-model_26[${PYTHON_USEDEP}]
 	dev-python/hikaru-model_27[${PYTHON_USEDEP}]
 	dev-python/hikaru-model_28[${PYTHON_USEDEP}]
-	dev-python/hikaru-codegen[${PYTHON_USEDEP}]"
+	dev-python/hikaru-codegen[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

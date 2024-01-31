@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.13[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/grpcio-tools-1.34[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/grpcio-tools-1.34[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

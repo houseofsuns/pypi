@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/KratosMultiphysics[${PYTHON_USEDEP}]
 	dev-python/KratosContactStructuralMechanicsApplication[${PYTHON_USEDEP}]
 	dev-python/KratosConvectionDiffusionApplication[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/KratosMultiphysics[${PYTHON_USEDEP}]
 	dev-python/KratosPoromechanicsApplication[${PYTHON_USEDEP}]
 	dev-python/KratosShallowWaterApplication[${PYTHON_USEDEP}]
 	dev-python/KratosStructuralMechanicsApplication[${PYTHON_USEDEP}]
-	dev-python/KratosGeoMechanicsApplication[${PYTHON_USEDEP}]"
+	dev-python/KratosGeoMechanicsApplication[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

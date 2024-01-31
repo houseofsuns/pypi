@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/cryptography-41.0[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.0[${PYTHON_USEDEP}]
 	dev-python/pycose[${PYTHON_USEDEP}]
-	dev-python/string-color[${PYTHON_USEDEP}]"
+	dev-python/string-color[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

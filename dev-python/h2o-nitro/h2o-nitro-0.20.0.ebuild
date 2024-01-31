@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel web"
+IUSE="web"
 DEPENDENCIES="web? ( >=dev-python/msgpack-1.0[${PYTHON_USEDEP}] )
-	web? ( dev-python/h2o-nitro-web[${PYTHON_USEDEP}] )"
+	web? ( dev-python/h2o-nitro-web[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

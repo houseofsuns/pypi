@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/c7n[${PYTHON_USEDEP}]
 	~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.17.2[${PYTHON_USEDEP}]
@@ -72,6 +72,7 @@ DEPENDENCIES="dev-python/c7n[${PYTHON_USEDEP}]
 	~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
 	~dev-python/idna-3.6[${PYTHON_USEDEP}]
-	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]"
+	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

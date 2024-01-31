@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel datalad doc"
+IUSE="datalad doc"
 DEPENDENCIES=">=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pickle5[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.2[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-1.5.3[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/numpydoc-0.8.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

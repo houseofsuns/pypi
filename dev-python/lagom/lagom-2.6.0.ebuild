@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel env"
-DEPENDENCIES="env? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )"
+IUSE="env"
+DEPENDENCIES="env? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

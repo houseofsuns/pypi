@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/pyhtcc[${PYTHON_USEDEP}]
 	dev-python/axju-jokes[${PYTHON_USEDEP}]
 	dev-python/googlehomepush[${PYTHON_USEDEP}]
@@ -79,6 +79,7 @@ DEPENDENCIES="dev-python/pyhtcc[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

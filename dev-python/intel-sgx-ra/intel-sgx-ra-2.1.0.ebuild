@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

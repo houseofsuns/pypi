@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.7.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
@@ -48,6 +48,7 @@ DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	<=dev-python/jupyter-client-7.4.9[${PYTHON_USEDEP}]
 	dev-python/optbinning[${PYTHON_USEDEP}]
-	dev-python/momentchi2[${PYTHON_USEDEP}]"
+	dev-python/momentchi2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

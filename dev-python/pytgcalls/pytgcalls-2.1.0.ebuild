@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pyrogram telethon"
+IUSE="pyrogram telethon"
 DEPENDENCIES="dev-python/tgcalls[${PYTHON_USEDEP}]
 	pyrogram? ( dev-python/Pyrogram[${PYTHON_USEDEP}] )
-	telethon? ( dev-python/Telethon[${PYTHON_USEDEP}] )"
+	telethon? ( dev-python/Telethon[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

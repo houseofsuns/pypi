@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel credssp kerberos"
+IUSE="credssp kerberos"
 DEPENDENCIES="dev-python/pywinrm[${PYTHON_USEDEP}]
 	credssp? ( >=dev-python/requests-credssp-1.0.0[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )"
+	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

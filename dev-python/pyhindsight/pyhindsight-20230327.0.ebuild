@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/bottle-0.12.18[${PYTHON_USEDEP}]
 	>=dev-python/keyring-21.2.1[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
 	>=dev-python/xlsxwriter-3.0.1[${PYTHON_USEDEP}]
-	>=dev-python/puremagic-1.11[${PYTHON_USEDEP}]"
+	>=dev-python/puremagic-1.11[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

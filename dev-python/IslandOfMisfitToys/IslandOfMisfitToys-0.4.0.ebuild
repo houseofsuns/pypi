@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/black-23.9.1[${PYTHON_USEDEP}]
 	dev-python/deepwave[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES=">=dev-python/black-23.9.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/torchaudio[${PYTHON_USEDEP}]"
+	dev-python/torchaudio[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

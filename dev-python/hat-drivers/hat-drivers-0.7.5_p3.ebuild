@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
 	dev-python/hat-aio[${PYTHON_USEDEP}]
 	dev-python/hat-asn1[${PYTHON_USEDEP}]
 	dev-python/hat-json[${PYTHON_USEDEP}]
 	dev-python/hat-util[${PYTHON_USEDEP}]
-	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]"
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

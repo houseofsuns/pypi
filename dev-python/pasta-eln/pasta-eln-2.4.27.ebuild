@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel devel"
+IUSE="devel"
 DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/qtawesome[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
@@ -48,6 +48,7 @@ DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	devel? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
 	devel? ( dev-python/scalene[${PYTHON_USEDEP}] )
 	devel? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	devel? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	devel? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

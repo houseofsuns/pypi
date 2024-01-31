@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dev docs graphical randomfields"
+IUSE="all dev docs graphical randomfields"
 DEPENDENCIES=">=dev-python/wheel-0.22[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	<=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES=">=dev-python/wheel-0.22[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	graphical? ( >=dev-python/PyQt5-5.14.2[${PYTHON_USEDEP}] )
 	graphical? ( dev-python/qimage2ndarray[${PYTHON_USEDEP}] )
-	randomfields? ( dev-python/rpy2[${PYTHON_USEDEP}] )"
+	randomfields? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

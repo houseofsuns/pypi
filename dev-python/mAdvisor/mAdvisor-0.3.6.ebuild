@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/cryptography-2.8[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
 	~dev-python/future-0.17.1[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES="~dev-python/cryptography-2.8[${PYTHON_USEDEP}]
 	~dev-python/pyenchant-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.17[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	~dev-python/pydantic-1.7.3[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.7.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/azureml-train-restclients-hyperdrive[${PYTHON_USEDEP}]
 	dev-python/azureml-core[${PYTHON_USEDEP}]
-	dev-python/azureml-telemetry[${PYTHON_USEDEP}]"
+	dev-python/azureml-telemetry[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

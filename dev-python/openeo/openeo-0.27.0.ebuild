@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs jupyter localprocessing oschmod tests"
+IUSE="dev docs jupyter localprocessing oschmod tests"
 DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.6.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/time-machine[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pyproj-3.2.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/netcdf4[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

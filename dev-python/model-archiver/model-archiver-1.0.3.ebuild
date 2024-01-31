@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel mxnet mxnet-cu90mkl mxnet-cu92mkl mxnet-mkl onnx"
+IUSE="mxnet mxnet-cu90mkl mxnet-cu92mkl mxnet-mkl onnx"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/enum-compat[${PYTHON_USEDEP}]
 	mxnet? ( dev-python/mxnet[${PYTHON_USEDEP}] )
 	mxnet-cu90mkl? ( dev-python/mxnet-cu90mkl[${PYTHON_USEDEP}] )
 	mxnet-cu92mkl? ( dev-python/mxnet-cu92mkl[${PYTHON_USEDEP}] )
 	mxnet-mkl? ( dev-python/mxnet-mkl[${PYTHON_USEDEP}] )
-	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )"
+	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

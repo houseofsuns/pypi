@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.3.0[${PYTHON_USEDEP}]
 	dev-python/dicomweb-client[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES="~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
 	~dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
 	dev-python/timeloop[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.21.1[${PYTHON_USEDEP}]
-	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]"
+	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

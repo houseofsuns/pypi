@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.27[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-37.0[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.6[${PYTHON_USEDEP}]
 	>=dev-python/ntplib-0.4[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-delivery-dhl-parcel[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-delivery-gls-asm[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-delivery-mrw[${PYTHON_USEDEP}]
@@ -79,6 +79,7 @@ DEPENDENCIES="dev-python/odoo14-addon-delivery-dhl-parcel[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-es-vat-book[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-es-vat-book-oss[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-es-vat-prorate[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-payment-redsys[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-payment-redsys[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

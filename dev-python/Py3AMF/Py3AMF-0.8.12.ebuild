@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel django elixir lxml six sqlalchemy twisted"
+IUSE="django elixir lxml six sqlalchemy twisted"
 DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
 	django? ( >=dev-python/django-0.96[${PYTHON_USEDEP}] )
 	elixir? ( dev-python/Elixir[${PYTHON_USEDEP}] )
 	lxml? ( >=dev-python/lxml-4.4.0[${PYTHON_USEDEP}] )
 	six? ( >=dev-python/six-1.10.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( >=dev-python/sqlalchemy-0.4[${PYTHON_USEDEP}] )
-	twisted? ( >=dev-python/twisted-16.0.0[${PYTHON_USEDEP}] )"
+	twisted? ( >=dev-python/twisted-16.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

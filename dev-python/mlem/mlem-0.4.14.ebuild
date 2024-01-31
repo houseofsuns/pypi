@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all azure catboost docker dvc dvc-azure dvc-gdrive dvc-gs dvc-hdfs dvc-oss dvc-s3 dvc-ssh dvc-ssh_gssapi dvc-webdav dvc-webhdfs dvc-webhdfs_kerberos fastapi flyio git gs hdfs heroku kubernetes lightgbm numpy onnx onnxruntime pandas pil prometheus rmq s3 sagemaker scipy sklearn ssh streamlit tensorflow tests torch torchvision xgboost"
+IUSE="all azure catboost docker dvc dvc-azure dvc-gdrive dvc-gs dvc-hdfs dvc-oss dvc-s3 dvc-ssh dvc-ssh_gssapi dvc-webdav dvc-webhdfs dvc-webhdfs_kerberos fastapi flyio git gs hdfs heroku kubernetes lightgbm numpy onnx onnxruntime pandas pil prometheus rmq s3 sagemaker scipy sklearn ssh streamlit tensorflow tests torch torchvision xgboost"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -238,6 +238,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	tests? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
+	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

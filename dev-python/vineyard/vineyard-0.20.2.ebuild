@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev extra kubernetes"
+IUSE="dev extra kubernetes"
 DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/etcd-distro[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	extra? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	extra? ( dev-python/polars[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )"
+	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

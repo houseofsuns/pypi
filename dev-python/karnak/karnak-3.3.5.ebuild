@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aws full"
+IUSE="aws full"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	full? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	full? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyAthena[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyathenajdbc[${PYTHON_USEDEP}] )"
+	full? ( dev-python/pyathenajdbc[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

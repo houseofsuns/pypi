@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel setup"
+IUSE="setup"
 DEPENDENCIES="dev-python/discord[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/discord[${PYTHON_USEDEP}]
 	dev-python/python-twitter[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]
 	setup? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	setup? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	setup? ( dev-python/twine[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

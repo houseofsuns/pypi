@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel celery couchbase couchdb firestore flasgger flask flink gcloud graphql jsonrpc kafka leancloud pony rest_api statefun"
+IUSE="celery couchbase couchdb firestore flasgger flask flink gcloud graphql jsonrpc kafka leancloud pony rest_api statefun"
 DEPENDENCIES=">=dev-python/flask-0.10[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES=">=dev-python/flask-0.10[${PYTHON_USEDEP}]
 	leancloud? ( dev-python/leancloud[${PYTHON_USEDEP}] )
 	pony? ( dev-python/pony[${PYTHON_USEDEP}] )
 	rest_api? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	statefun? ( dev-python/apache-flink-statefun[${PYTHON_USEDEP}] )"
+	statefun? ( dev-python/apache-flink-statefun[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

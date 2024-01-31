@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tensorflow"
+IUSE="tensorflow"
 DEPENDENCIES="dev-python/dm-tree[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]
-	tensorflow? ( dev-python/tf-nightly[${PYTHON_USEDEP}] )"
+	tensorflow? ( dev-python/tf-nightly[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

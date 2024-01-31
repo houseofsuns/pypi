@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/damv1time7[${PYTHON_USEDEP}]
 	dev-python/damv1airtableprojectk8salert[${PYTHON_USEDEP}]
 	dev-python/damv1xsandboxk8salertreleasev2[${PYTHON_USEDEP}]
-	dev-python/stringcase[${PYTHON_USEDEP}]"
+	dev-python/stringcase[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

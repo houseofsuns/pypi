@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel beam dev"
+IUSE="beam dev"
 DEPENDENCIES="dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev-python/nrn-glia[${PYTHON_USEDEP}]
 	dev-python/nrn-patch[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev-python/errr[${PYTHON_USEDEP}]
 	beam? ( dev-python/ndsb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pesticide[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pesticide[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

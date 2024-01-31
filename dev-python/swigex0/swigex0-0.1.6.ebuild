@@ -16,14 +16,15 @@ DESCRIPTION="C++ library and SWIG wrappers (R & Python) [wheel]"
 
 HOMEPAGE="https://github.com/fabien-ors/swigex0"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-macosx_11_0_universal2.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-macosx_11_0_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]"
+IUSE=""
+DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ssh tls"
+IUSE="ssh tls"
 DEPENDENCIES=">=dev-python/websocket-client-0.32.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
 	ssh? ( >=dev-python/paramiko-2.4.3[${PYTHON_USEDEP}] )
 	tls? ( >=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}] )
 	tls? ( >=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}] )
-	tls? ( >=dev-python/idna-2.0.0[${PYTHON_USEDEP}] )"
+	tls? ( >=dev-python/idna-2.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

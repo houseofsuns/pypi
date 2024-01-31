@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel poster3"
+IUSE="poster3"
 DEPENDENCIES="poster3? ( dev-python/buildutils[${PYTHON_USEDEP}] )
-	poster3? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	poster3? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

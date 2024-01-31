@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	<dev-python/markdown2-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
 	dev-python/refract[${PYTHON_USEDEP}]
-	>=dev-python/semantic-version-1.0.0[${PYTHON_USEDEP}]"
+	>=dev-python/semantic-version-1.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel doc test test27"
+IUSE="doc test test27"
 DEPENDENCIES="<dev-python/tinycss2-2.0[${PYTHON_USEDEP}]
 	<dev-python/inflection-1.0[${PYTHON_USEDEP}]
 	doc? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
@@ -34,6 +34,7 @@ DEPENDENCIES="<dev-python/tinycss2-2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-catchlog[${PYTHON_USEDEP}] )
 	test27? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	test27? ( <dev-python/pytest-mock-3.0[${PYTHON_USEDEP}] )
-	test27? ( dev-python/pytest-catchlog[${PYTHON_USEDEP}] )"
+	test27? ( dev-python/pytest-catchlog[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

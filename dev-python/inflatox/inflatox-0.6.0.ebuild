@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	>dev-python/sympy-1.0[${PYTHON_USEDEP}]
 	>dev-python/joblib-1.0[${PYTHON_USEDEP}]
 	dev-python/einsteinpy[${PYTHON_USEDEP}]
-	dev-python/ziglang[${PYTHON_USEDEP}]"
+	dev-python/ziglang[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

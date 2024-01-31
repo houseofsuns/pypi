@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/django-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES=">=dev-python/django-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
-	>=dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]"
+	>=dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

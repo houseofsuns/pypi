@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build test"
+IUSE="build test"
 DEPENDENCIES="build? ( >=dev-python/scikit-build-0.14.1[${PYTHON_USEDEP}] )
 	build? ( dev-python/cython[${PYTHON_USEDEP}] )
 	build? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

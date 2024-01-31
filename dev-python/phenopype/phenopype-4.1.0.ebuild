@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test_pks"
+IUSE="test_pks"
 DEPENDENCIES="dev-python/colour[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/colour[${PYTHON_USEDEP}]
 	test_pks? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test_pks? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
 	test_pks? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test_pks? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	test_pks? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

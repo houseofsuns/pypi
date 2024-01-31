@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel doc graphviz"
+IUSE="doc graphviz"
 DEPENDENCIES=">=dev-python/dask-2.30.0[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES=">=dev-python/dask-2.30.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	graphviz? ( >=dev-python/graphviz-0.7.1[${PYTHON_USEDEP}] )"
+	graphviz? ( >=dev-python/graphviz-0.7.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/dnspython-2.2.1[${PYTHON_USEDEP}]
 	dev-python/MonthDelta[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES="~dev-python/dnspython-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.24.79[${PYTHON_USEDEP}]
-	~dev-python/botocore-1.27.79[${PYTHON_USEDEP}]"
+	~dev-python/botocore-1.27.79[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

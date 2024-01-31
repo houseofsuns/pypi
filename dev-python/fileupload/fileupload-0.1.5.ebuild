@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/ipywidgets-5.1[${PYTHON_USEDEP}]
 	>=dev-python/notebook-4.2[${PYTHON_USEDEP}]
-	>=dev-python/traitlets-4.2[${PYTHON_USEDEP}]"
+	>=dev-python/traitlets-4.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

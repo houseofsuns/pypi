@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aicore-content all"
+IUSE="aicore-content all"
 DEPENDENCIES="dev-python/ai-api-client-sdk[${PYTHON_USEDEP}]
 	aicore-content? ( dev-python/sap-ai-core-metaflow[${PYTHON_USEDEP}] )
 	aicore-content? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/ai-api-client-sdk[${PYTHON_USEDEP}]
 	all? ( dev-python/sap-ai-core-metaflow[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )"
+	all? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/azureml-defaults[${PYTHON_USEDEP}]
 	dev-python/azureml-designer-core[${PYTHON_USEDEP}]
-	dev-python/azureml-contrib-services[${PYTHON_USEDEP}]"
+	dev-python/azureml-contrib-services[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel with_social"
+IUSE="with_social"
 DEPENDENCIES=">=dev-python/django-4.0.2[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
-	with_social? ( dev-python/django-allauth[${PYTHON_USEDEP}] )"
+	with_social? ( dev-python/django-allauth[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

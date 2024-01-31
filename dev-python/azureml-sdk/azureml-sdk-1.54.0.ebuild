@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel accel-models automl automl_databricks contrib explain interpret notebooks responsibleai services tensorboard"
+IUSE="accel-models automl automl_databricks contrib explain interpret notebooks responsibleai services tensorboard"
 DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-dataset-runtime[${PYTHON_USEDEP}]
 	dev-python/azureml-train-core[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/azureml-contrib-notebook[${PYTHON_USEDEP}] )
 	responsibleai? ( dev-python/azureml-responsibleai[${PYTHON_USEDEP}] )
 	services? ( dev-python/azureml-contrib-services[${PYTHON_USEDEP}] )
-	tensorboard? ( dev-python/azureml-tensorboard[${PYTHON_USEDEP}] )"
+	tensorboard? ( dev-python/azureml-tensorboard[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

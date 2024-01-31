@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/selenium-3.0.0[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/nimbus-utils[${PYTHON_USEDEP}]
 	>=dev-python/pillow-5.0.0[${PYTHON_USEDEP}]
 	dev-python/crochet[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	dev-python/six[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

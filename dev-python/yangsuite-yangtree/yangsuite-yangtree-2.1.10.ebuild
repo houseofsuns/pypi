@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/yangsuite[${PYTHON_USEDEP}]
 	dev-python/yangsuite-devices[${PYTHON_USEDEP}]
 	dev-python/yangsuite-filemanager[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pyang[${PYTHON_USEDEP}]
 	dev-python/xeger[${PYTHON_USEDEP}]
-	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]"
+	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

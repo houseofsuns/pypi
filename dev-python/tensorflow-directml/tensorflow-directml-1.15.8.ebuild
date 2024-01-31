@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/absl-py-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/astor-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/gast-0.2.2[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES=">=dev-python/absl-py-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.11.1[${PYTHON_USEDEP}]
 	<=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.8.6[${PYTHON_USEDEP}]
-	>=dev-python/wheel-0.26[${PYTHON_USEDEP}]"
+	>=dev-python/wheel-0.26[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

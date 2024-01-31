@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure hugging_face"
+IUSE="azure hugging_face"
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-ai-ml[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azureml-rag[${PYTHON_USEDEP}] )
 	azure? ( dev-python/opencensus-ext-azure[${PYTHON_USEDEP}] )
-	hugging_face? ( dev-python/azureml-rag[${PYTHON_USEDEP}] )"
+	hugging_face? ( dev-python/azureml-rag[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

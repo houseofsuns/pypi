@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc test"
+IUSE="dev doc test"
 DEPENDENCIES="dev-python/jijmodeling[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27.0[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
@@ -59,6 +59,7 @@ DEPENDENCIES="dev-python/jijmodeling[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cython[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-annotate[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-clarity[${PYTHON_USEDEP}] )
-	test? ( dev-python/mip[${PYTHON_USEDEP}] )"
+	test? ( dev-python/mip[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

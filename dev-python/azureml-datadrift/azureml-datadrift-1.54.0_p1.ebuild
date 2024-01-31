@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel databricks"
+IUSE="databricks"
 DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-dataset-runtime[${PYTHON_USEDEP}]
 	dev-python/azureml-telemetry[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	databricks? ( <=dev-python/numpy-1.16.2[${PYTHON_USEDEP}] )
 	databricks? ( <=dev-python/pandas-0.23.4[${PYTHON_USEDEP}] )
 	databricks? ( <=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
-	databricks? ( ~dev-python/tornado-5.1.1[${PYTHON_USEDEP}] )"
+	databricks? ( ~dev-python/tornado-5.1.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

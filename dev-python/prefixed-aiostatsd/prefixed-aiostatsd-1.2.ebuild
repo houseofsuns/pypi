@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/aiostatsd[${PYTHON_USEDEP}]
 	dev? ( dev-python/aiostatsd[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mamba-runner[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy-1.1[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mypy-1.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/fairseq2n[${PYTHON_USEDEP}]
 	dev-python/jiwer[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/fairseq2n[${PYTHON_USEDEP}]
 	dev-python/sacrebleu[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torcheval[${PYTHON_USEDEP}]
-	~dev-python/tqdm-4.62[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.62[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

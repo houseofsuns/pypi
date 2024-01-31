@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/reportlab-4.0.4[${PYTHON_USEDEP}]
 	dev-python/img2pdf[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES=">=dev-python/reportlab-4.0.4[${PYTHON_USEDEP}]
 	dev-python/pytimedinput[${PYTHON_USEDEP}]
 	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	dev-python/chromedriver-autoinstaller[${PYTHON_USEDEP}]
-	dev-python/Brotli[${PYTHON_USEDEP}]"
+	dev-python/Brotli[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

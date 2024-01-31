@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel rel test"
+IUSE="rel test"
 DEPENDENCIES="test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/dnslib[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-line-profiler[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all"
+IUSE="all"
 DEPENDENCIES=">=dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	dev-python/async-asgi-testclient[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
@@ -53,6 +53,7 @@ DEPENDENCIES=">=dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/create-dara-app[${PYTHON_USEDEP}]
 	all? ( dev-python/dara-components[${PYTHON_USEDEP}] )
-	<dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}]"
+	<dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

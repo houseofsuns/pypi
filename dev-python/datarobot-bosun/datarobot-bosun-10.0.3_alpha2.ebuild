@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azureml docker kubernetes s3 sagemaker snowflake"
+IUSE="azureml docker kubernetes s3 sagemaker snowflake"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/boto3-1.11.4[${PYTHON_USEDEP}] )
 	sagemaker? ( >=dev-python/boto3-1.28.61[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )"
+	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

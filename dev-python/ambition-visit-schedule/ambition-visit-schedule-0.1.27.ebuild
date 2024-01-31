@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ambition-labs[${PYTHON_USEDEP}]
 	dev-python/ambition-sites[${PYTHON_USEDEP}]
-	dev-python/edc-visit-schedule[${PYTHON_USEDEP}]"
+	dev-python/edc-visit-schedule[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

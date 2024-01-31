@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.17.3[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10[${PYTHON_USEDEP}]
 	dev-python/adal[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/requests-2.17.3[${PYTHON_USEDEP}]
 	dev-python/liac-arff[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.20.2[${PYTHON_USEDEP}]
-	>=dev-python/dill-0.2.7.1[${PYTHON_USEDEP}]"
+	>=dev-python/dill-0.2.7.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

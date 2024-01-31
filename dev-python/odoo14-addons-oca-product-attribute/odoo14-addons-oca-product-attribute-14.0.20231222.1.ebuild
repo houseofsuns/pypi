@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-base-product-mass-addition[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-packaging-uom[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-pos-product-cost-security[${PYTHON_USEDEP}]
@@ -101,6 +101,7 @@ DEPENDENCIES="dev-python/odoo14-addon-base-product-mass-addition[${PYTHON_USEDEP
 	dev-python/odoo14-addon-purchase-product-template-tags[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-sale-product-template-tags[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-stock-product-template-tags[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-uom-extra-data[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-uom-extra-data[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

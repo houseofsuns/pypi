@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/black-23.9.1[${PYTHON_USEDEP}]
 	dev-python/black-nb[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES=">=dev-python/black-23.9.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
-	dev-python/torch[${PYTHON_USEDEP}]"
+	dev-python/torch[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

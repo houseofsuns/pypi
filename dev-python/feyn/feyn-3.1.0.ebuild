@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel extras tests"
+IUSE="extras tests"
 DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/pynacl[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ipykernel[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

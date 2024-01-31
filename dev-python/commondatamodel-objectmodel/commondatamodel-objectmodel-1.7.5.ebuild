@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/nest-asyncio-2.0[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
 	>=dev-python/regex-2020.11.13[${PYTHON_USEDEP}]
-	dev-python/commondatamodel-objectmodel-cdmstandards[${PYTHON_USEDEP}]"
+	dev-python/commondatamodel-objectmodel-cdmstandards[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

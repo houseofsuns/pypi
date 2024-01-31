@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all api db demo"
+IUSE="all api db demo"
 DEPENDENCIES="db? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	all? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	dev-python/CoolProp[${PYTHON_USEDEP}]
@@ -67,6 +67,7 @@ DEPENDENCIES="db? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	dev-python/trio[${PYTHON_USEDEP}]
 	api? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev-python/yamlloader[${PYTHON_USEDEP}]"
+	dev-python/yamlloader[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

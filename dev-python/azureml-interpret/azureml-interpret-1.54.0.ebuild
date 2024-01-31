@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deep mimic sample"
+IUSE="deep mimic sample"
 DEPENDENCIES="dev-python/interpret-community[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/azureml-core[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	deep? ( dev-python/interpret-community[${PYTHON_USEDEP}] )
 	mimic? ( dev-python/interpret-community[${PYTHON_USEDEP}] )
-	sample? ( dev-python/interpret-community[${PYTHON_USEDEP}] )"
+	sample? ( dev-python/interpret-community[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

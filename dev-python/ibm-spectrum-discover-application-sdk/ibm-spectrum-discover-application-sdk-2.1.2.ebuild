@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.2[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/paramiko-2.10.1[${PYTHON_USEDEP}]
 	~dev-python/setuptools-rust-1.6.0[${PYTHON_USEDEP}]
-	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]"
+	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

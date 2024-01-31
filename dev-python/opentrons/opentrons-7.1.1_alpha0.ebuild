@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel flex-hardware ot2-hardware"
+IUSE="flex-hardware ot2-hardware"
 DEPENDENCIES="dev-python/opentrons-shared-data[${PYTHON_USEDEP}]
 	dev-python/aionotify[${PYTHON_USEDEP}]
 	~dev-python/anyio-3.3.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/opentrons-shared-data[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	flex-hardware? ( dev-python/opentrons-hardware[${PYTHON_USEDEP}] )
-	ot2-hardware? ( dev-python/opentrons-hardware[${PYTHON_USEDEP}] )"
+	ot2-hardware? ( dev-python/opentrons-hardware[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

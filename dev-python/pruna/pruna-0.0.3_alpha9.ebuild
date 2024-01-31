@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel diffusers gpu tests"
+IUSE="diffusers gpu tests"
 DEPENDENCIES="dev-python/pruna-engine[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -79,6 +79,7 @@ DEPENDENCIES="dev-python/pruna-engine[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/timm[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ultralytics[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/ultralytics[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

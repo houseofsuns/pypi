@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
 	dev-python/wtdojo[${PYTHON_USEDEP}]
 	dev-python/wtforms[${PYTHON_USEDEP}]
-	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]"
+	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

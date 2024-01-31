@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dev docs gui tests wrappers"
+IUSE="all dev docs gui tests wrappers"
 DEPENDENCIES="dev-python/devpack[${PYTHON_USEDEP}]
 	dev-python/flatbuffers[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
@@ -59,6 +59,7 @@ DEPENDENCIES="dev-python/devpack[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
 	gui? ( dev-python/Kivy[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
-	wrappers? ( dev-python/gym[${PYTHON_USEDEP}] )"
+	wrappers? ( dev-python/gym[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

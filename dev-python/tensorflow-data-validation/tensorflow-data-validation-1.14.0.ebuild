@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all mutual-information visualization"
+IUSE="all mutual-information visualization"
 DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/apache-beam[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
 	mutual-information? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	mutual-information? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
-	visualization? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )"
+	visualization? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

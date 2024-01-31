@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-account-account-constraint-code[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-asset-batch-compute[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-asset-compute-batch[${PYTHON_USEDEP}]
@@ -75,6 +75,7 @@ DEPENDENCIES="dev-python/odoo14-addon-account-account-constraint-code[${PYTHON_U
 	dev-python/odoo14-addon-account-template-active[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-base-vat-optional-vies[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-product-category-tax[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-stock-account-prepare-anglo-saxon-out-lines-hook[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-stock-account-prepare-anglo-saxon-out-lines-hook[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

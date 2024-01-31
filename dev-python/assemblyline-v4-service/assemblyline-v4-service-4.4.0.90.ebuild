@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel updater"
+IUSE="updater"
 DEPENDENCIES="dev-python/assemblyline[${PYTHON_USEDEP}]
 	dev-python/assemblyline-core[${PYTHON_USEDEP}]
 	dev-python/cart[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/assemblyline[${PYTHON_USEDEP}]
 	updater? ( dev-python/flask[${PYTHON_USEDEP}] )
 	updater? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	updater? ( dev-python/git-remote-codecommit[${PYTHON_USEDEP}] )
-	updater? ( dev-python/psutil[${PYTHON_USEDEP}] )"
+	updater? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

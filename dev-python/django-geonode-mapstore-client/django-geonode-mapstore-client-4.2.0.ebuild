@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/markdown-2.6.11[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	<dev-python/django-4.0[${PYTHON_USEDEP}]
 	<=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	<dev-python/idna-2.11[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.25[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-1.25[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

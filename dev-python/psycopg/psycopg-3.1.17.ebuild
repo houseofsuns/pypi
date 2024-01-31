@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel binary c dev docs pool test"
+IUSE="binary c dev docs pool test"
 DEPENDENCIES=">=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
 	binary? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
 	c? ( dev-python/psycopg-c[${PYTHON_USEDEP}] )
@@ -44,6 +44,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
 	test? ( dev-python/pproxy[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

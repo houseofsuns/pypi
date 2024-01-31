@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/chromedriver-py[${PYTHON_USEDEP}]
-	dev-python/psycopg2[${PYTHON_USEDEP}]"
+	dev-python/psycopg2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cpu cuda cuda11 cuda12 tpu"
+IUSE="cpu cuda cuda11 cuda12 tpu"
 DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	cuda11? ( dev-python/brainpylib-cu11x[${PYTHON_USEDEP}] )
 	cuda12? ( dev-python/jax[${PYTHON_USEDEP}] )
 	cuda12? ( dev-python/brainpylib-cu12x[${PYTHON_USEDEP}] )
-	tpu? ( dev-python/jax[${PYTHON_USEDEP}] )"
+	tpu? ( dev-python/jax[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

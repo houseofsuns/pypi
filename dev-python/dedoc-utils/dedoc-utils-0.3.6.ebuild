@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev lint torch"
+IUSE="dev lint torch"
 DEPENDENCIES="<=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/pyclipper-1.3.0_p4[${PYTHON_USEDEP}]
@@ -48,6 +48,7 @@ DEPENDENCIES="<=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/pycodestyle-2.9.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

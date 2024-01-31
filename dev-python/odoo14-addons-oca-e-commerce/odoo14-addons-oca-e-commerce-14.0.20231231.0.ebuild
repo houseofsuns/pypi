@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-product-template-multi-link[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-product-template-multi-link-date-span[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-product-variant-multi-link[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES="dev-python/odoo14-addon-product-template-multi-link[${PYTHON_USEDE
 	dev-python/odoo14-addon-website-sale-stock-provisioning-date[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-website-sale-suggest-create-account[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-website-sale-tax-toggle[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-website-sale-wishlist-keep[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-website-sale-wishlist-keep[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

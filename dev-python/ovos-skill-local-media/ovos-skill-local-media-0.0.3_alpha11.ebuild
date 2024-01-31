@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel notify"
+IUSE="notify"
 DEPENDENCIES="dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-workshop[${PYTHON_USEDEP}]
-	notify? ( dev-python/pyudev[${PYTHON_USEDEP}] )"
+	notify? ( dev-python/pyudev[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

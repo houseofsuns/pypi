@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all audio dnn nlp notebook"
+IUSE="all audio dnn nlp notebook"
 DEPENDENCIES="dev-python/kdmt[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/py-dateinfer[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES="dev-python/kdmt[${PYTHON_USEDEP}]
 	nlp? ( dev-python/eml-parser[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/pyLDAvis[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/wordcloud[${PYTHON_USEDEP}] )"
+	notebook? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

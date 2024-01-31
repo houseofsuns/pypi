@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cuda dev mbeautify nii plot web"
+IUSE="cuda dev mbeautify nii plot web"
 DEPENDENCIES=">=dev-python/tqdm-4.40.0[${PYTHON_USEDEP}]
 	cuda? ( dev-python/argopt[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/pynvml[${PYTHON_USEDEP}] )
@@ -39,6 +39,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.40.0[${PYTHON_USEDEP}]
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plot? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	plot? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	web? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	web? ( dev-python/requests[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

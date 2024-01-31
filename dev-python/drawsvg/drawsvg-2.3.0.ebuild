@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all color raster"
+IUSE="all color raster"
 DEPENDENCIES="all? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpy-1.16[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/imageio-2.5[${PYTHON_USEDEP}] )
@@ -34,6 +34,7 @@ DEPENDENCIES="all? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	raster? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	raster? ( ~dev-python/numpy-1.16[${PYTHON_USEDEP}] )
 	raster? ( ~dev-python/imageio-2.5[${PYTHON_USEDEP}] )
-	raster? ( ~dev-python/imageio-ffmpeg-0.4[${PYTHON_USEDEP}] )"
+	raster? ( ~dev-python/imageio-ffmpeg-0.4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

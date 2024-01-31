@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel lalinference lalpulsar test"
+IUSE="lalinference lalpulsar test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/ligo-segments[${PYTHON_USEDEP}]
 	dev-python/lscsoft-glue[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	lalinference? ( dev-python/gwdatafind[${PYTHON_USEDEP}] )
 	lalinference? ( dev-python/gwpy[${PYTHON_USEDEP}] )
 	lalpulsar? ( dev-python/solar-system-ephemerides[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

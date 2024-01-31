@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel xgboost-wrapper"
+IUSE="xgboost-wrapper"
 DEPENDENCIES="<dev-python/pandas-1.6[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="<dev-python/pandas-1.6[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	xgboost-wrapper? ( dev-python/lale[${PYTHON_USEDEP}] )
 	xgboost-wrapper? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	xgboost-wrapper? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	xgboost-wrapper? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

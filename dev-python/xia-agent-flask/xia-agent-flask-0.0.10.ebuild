@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/xia-engine[${PYTHON_USEDEP}]
 	dev-python/xia-models[${PYTHON_USEDEP}]
 	dev-python/xia-logger[${PYTHON_USEDEP}]
-	dev-python/xia-agent[${PYTHON_USEDEP}]"
+	dev-python/xia-agent[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

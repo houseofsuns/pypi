@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
-DEPENDENCIES="dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )"
+IUSE="dev"
+DEPENDENCIES="dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

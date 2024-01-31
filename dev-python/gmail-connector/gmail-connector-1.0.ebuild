@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="~dev-python/idna-3.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.0[${PYTHON_USEDEP}]
 	~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.4[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

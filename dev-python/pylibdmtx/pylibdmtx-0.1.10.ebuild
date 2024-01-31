@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel scripts"
-DEPENDENCIES="scripts? ( >=dev-python/pillow-3.2.0[${PYTHON_USEDEP}] )"
+IUSE="scripts"
+DEPENDENCIES="scripts? ( >=dev-python/pillow-3.2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

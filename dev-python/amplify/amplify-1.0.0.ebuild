@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel extra"
+IUSE="extra"
 DEPENDENCIES=">dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	extra? ( dev-python/dwave-system[${PYTHON_USEDEP}] )"
+	extra? ( dev-python/dwave-system[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

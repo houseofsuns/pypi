@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-crm-claim[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-crm-claim-code[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-crm-claim-type[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="dev-python/odoo-addon-crm-claim[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-crm-salesperson-planner[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-crm-salesperson-planner-sale[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-crm-security-group[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-crm-stage-probability[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-crm-stage-probability[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

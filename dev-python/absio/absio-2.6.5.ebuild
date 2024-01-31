@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/arrow-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/asn1crypto-0.22.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES=">=dev-python/arrow-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/tenacity-6.2.0[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-4.3.2[${PYTHON_USEDEP}]
-	>=dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]"
+	>=dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

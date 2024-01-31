@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs"
+IUSE="dev docs"
 DEPENDENCIES=">=dev-python/appdirs-1.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
 	>=dev-python/colorlog-4.1.0[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-5.1.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-2.4[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-rtd-theme-0.4[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

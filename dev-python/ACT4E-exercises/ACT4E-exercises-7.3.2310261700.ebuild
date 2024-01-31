@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/zuper-commons-z7[${PYTHON_USEDEP}]
 	dev-python/zuper-html-plus-z7[${PYTHON_USEDEP}]
 	dev-python/zuper-html-z7[${PYTHON_USEDEP}]
 	dev-python/zuper-testint-z7[${PYTHON_USEDEP}]
-	dev-python/zuper-typing-z7[${PYTHON_USEDEP}]"
+	dev-python/zuper-typing-z7[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

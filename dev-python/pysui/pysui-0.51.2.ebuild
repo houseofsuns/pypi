@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.2[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.28[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	<dev-python/deprecated-1.3.0[${PYTHON_USEDEP}]
 	dev-python/pysui-fastcrypto[${PYTHON_USEDEP}]
-	dev-python/gql[${PYTHON_USEDEP}]"
+	dev-python/gql[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/django-3.0[${PYTHON_USEDEP}]
 	<dev-python/idna-2.11[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="<dev-python/django-3.0[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.8.2[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.25[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-1.25[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

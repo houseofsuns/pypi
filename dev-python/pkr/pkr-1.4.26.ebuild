@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/docker-4.4.4[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="~dev-python/docker-4.4.4[${PYTHON_USEDEP}]
 	dev-python/jinja2-ansible-filters[${PYTHON_USEDEP}]
 	dev-python/pybase64[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.19.0[${PYTHON_USEDEP}]
-	dev-python/python-on-whales[${PYTHON_USEDEP}]"
+	dev-python/python-on-whales[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

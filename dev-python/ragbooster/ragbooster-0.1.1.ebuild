@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="~dev-python/tldextract-3.4.0[${PYTHON_USEDEP}]
 	dev-python/manifest-ml[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="~dev-python/tldextract-3.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/maturin[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

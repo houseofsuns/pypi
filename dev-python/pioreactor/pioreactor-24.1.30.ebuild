@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel leader leader_worker worker"
+IUSE="leader leader_worker worker"
 DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
@@ -55,6 +55,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	worker? ( dev-python/DAC43608[${PYTHON_USEDEP}] )
 	worker? ( dev-python/tmp1075[${PYTHON_USEDEP}] )
 	worker? ( dev-python/rpi-hardware-pwm[${PYTHON_USEDEP}] )
-	worker? ( dev-python/plotext[${PYTHON_USEDEP}] )"
+	worker? ( dev-python/plotext[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

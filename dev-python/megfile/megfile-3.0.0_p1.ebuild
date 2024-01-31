@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel hdfs"
+IUSE="hdfs"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.13.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	hdfs? ( dev-python/hdfs[${PYTHON_USEDEP}] )"
+	hdfs? ( dev-python/hdfs[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

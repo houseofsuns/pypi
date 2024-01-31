@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/PyXB[${PYTHON_USEDEP}]
 	dev-python/asn1crypto[${PYTHON_USEDEP}]
 	dev-python/odoo8-addon-l10n-it-account[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/PyXB[${PYTHON_USEDEP}]
 	dev-python/odoo8-addon-l10n-it-rea[${PYTHON_USEDEP}]
 	dev-python/odoo8-addon-l10n-it-split-payment[${PYTHON_USEDEP}]
 	dev-python/odoo8-addon-partner-firstname[${PYTHON_USEDEP}]
-	dev-python/odoo[${PYTHON_USEDEP}]"
+	dev-python/odoo[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

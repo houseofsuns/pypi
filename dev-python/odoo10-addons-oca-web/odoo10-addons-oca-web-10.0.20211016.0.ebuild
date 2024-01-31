@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo10-addon-help-online[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-support-branding[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-web-access-rule-buttons[${PYTHON_USEDEP}]
@@ -83,6 +83,7 @@ DEPENDENCIES="dev-python/odoo10-addon-help-online[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-web-widget-text-markdown[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-web-widget-timepicker[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-web-widget-x2many-2d-matrix[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-x2many-delete-all[${PYTHON_USEDEP}]"
+	dev-python/odoo10-addon-web-x2many-delete-all[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

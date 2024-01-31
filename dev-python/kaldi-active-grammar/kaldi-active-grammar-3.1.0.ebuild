@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel g2p_en online"
+IUSE="g2p_en online"
 DEPENDENCIES="~dev-python/cffi-1.12[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/ush[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	g2p_en? ( dev-python/g2p-en[${PYTHON_USEDEP}] )
-	online? ( ~dev-python/requests-2.18[${PYTHON_USEDEP}] )"
+	online? ( ~dev-python/requests-2.18[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

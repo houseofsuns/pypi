@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/composabl-core-dev[${PYTHON_USEDEP}]
 	dev-python/composabl-train-dev[${PYTHON_USEDEP}]
-	dev-python/composabl-cli-dev[${PYTHON_USEDEP}]"
+	dev-python/composabl-cli-dev[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

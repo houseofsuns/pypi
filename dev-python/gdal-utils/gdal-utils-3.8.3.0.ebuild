@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel numpy"
+IUSE="numpy"
 DEPENDENCIES="dev-python/GDAL[${PYTHON_USEDEP}]
-	numpy? ( >dev-python/numpy-1.0.0[${PYTHON_USEDEP}] )"
+	numpy? ( >dev-python/numpy-1.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel quality test"
+IUSE="quality test"
 DEPENDENCIES=">=dev-python/starlette-0.14.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES=">=dev-python/starlette-0.14.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/httpx-0.18[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pillow-8.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

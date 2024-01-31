@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/pulumi[${PYTHON_USEDEP}]
 	dev-python/pulumi-aws[${PYTHON_USEDEP}]
 	dev-python/pulumi-awsx[${PYTHON_USEDEP}]
-	dev-python/pulumi-random[${PYTHON_USEDEP}]"
+	dev-python/pulumi-random[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

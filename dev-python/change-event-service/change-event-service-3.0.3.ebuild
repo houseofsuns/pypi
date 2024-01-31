@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}]
 	~dev-python/flask-2.0.2[${PYTHON_USEDEP}]
 	dev-python/flask-smorest[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}]
 	dev-python/Flask-APScheduler[${PYTHON_USEDEP}]
 	~dev-python/pika-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-5.0.2[${PYTHON_USEDEP}]
-	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

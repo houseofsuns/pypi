@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/google-auth-1.14.1[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.5[${PYTHON_USEDEP}]
-	dev-python/tensorflow[${PYTHON_USEDEP}]"
+	dev-python/tensorflow[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

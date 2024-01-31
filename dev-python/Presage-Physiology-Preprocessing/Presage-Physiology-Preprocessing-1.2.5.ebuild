@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/mediapipe[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
-	dev-python/opencv-python[${PYTHON_USEDEP}]"
+	dev-python/opencv-python[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

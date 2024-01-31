@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/dask-2023.3.1[${PYTHON_USEDEP}]
 	dev-python/einsum[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-graphics[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	dev-python/visu3d[${PYTHON_USEDEP}]
-	dev-python/dacite[${PYTHON_USEDEP}]"
+	dev-python/dacite[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

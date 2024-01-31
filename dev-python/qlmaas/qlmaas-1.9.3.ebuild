@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/qat-lang[${PYTHON_USEDEP}]
 	dev-python/qlmaas[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.5.1[${PYTHON_USEDEP}]
-	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]"
+	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

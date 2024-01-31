@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.4[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev-python/ahttp[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	~dev-python/nest-asyncio-1.5.1[${PYTHON_USEDEP}]
-	dev-python/JayDeBeApi[${PYTHON_USEDEP}]"
+	dev-python/JayDeBeApi[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

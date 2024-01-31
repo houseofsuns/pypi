@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/SpeechRecognition[${PYTHON_USEDEP}]
 	~dev-python/pyaudio-0.2[${PYTHON_USEDEP}]
 	dev-python/ovos-vad-plugin-webrtcvad[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/SpeechRecognition[${PYTHON_USEDEP}]
 	dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	dev-python/ovos-plugin-manager[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
-	dev-python/ovos-backend-client[${PYTHON_USEDEP}]"
+	dev-python/ovos-backend-client[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

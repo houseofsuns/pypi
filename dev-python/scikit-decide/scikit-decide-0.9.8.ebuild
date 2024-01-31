@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all domains solvers"
+IUSE="all domains solvers"
 DEPENDENCIES="domains? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	all? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	domains? ( dev-python/discrete-optimization[${PYTHON_USEDEP}] )
@@ -64,6 +64,7 @@ DEPENDENCIES="domains? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/up-pyperplan[${PYTHON_USEDEP}] )
 	all? ( dev-python/up-pyperplan[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/up-tamer[${PYTHON_USEDEP}] )
-	all? ( dev-python/up-tamer[${PYTHON_USEDEP}] )"
+	all? ( dev-python/up-tamer[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

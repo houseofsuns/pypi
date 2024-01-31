@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs pyinstaller test"
+IUSE="dev docs pyinstaller test"
 DEPENDENCIES="<dev-python/paramiko-3.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="<dev-python/paramiko-3.0[${PYTHON_USEDEP}]
 	pyinstaller? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

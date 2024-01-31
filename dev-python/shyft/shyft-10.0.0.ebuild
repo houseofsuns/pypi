@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dashboard energy_market_ui notebooks repositories viz"
+IUSE="dashboard energy_market_ui notebooks repositories viz"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dashboard? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/Pint[${PYTHON_USEDEP}] )
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	repositories? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	repositories? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	repositories? ( dev-python/pyproj[${PYTHON_USEDEP}] )
-	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

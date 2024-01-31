@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/scvelo[${PYTHON_USEDEP}]
-	>=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}]"
+	>=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

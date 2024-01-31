@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs"
+IUSE="dev docs"
 DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	>=dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/django-cors-headers-3.2[${PYTHON_USEDEP}]
@@ -51,6 +51,7 @@ DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

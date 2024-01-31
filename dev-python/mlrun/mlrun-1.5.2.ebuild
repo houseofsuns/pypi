@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all api azure-blob-storage azure-key-vault bokeh complete complete-api databricks-sdk google-cloud google-cloud-bigquery google-cloud-storage graphviz kafka plotly redis s3 sqlalchemy"
+IUSE="all api azure-blob-storage azure-key-vault bokeh complete complete-api databricks-sdk google-cloud google-cloud-bigquery google-cloud-storage graphviz kafka plotly redis s3 sqlalchemy"
 DEPENDENCIES="<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	<dev-python/chardet-4.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1[${PYTHON_USEDEP}]
@@ -164,6 +164,7 @@ DEPENDENCIES="<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	s3? ( <dev-python/boto3-1.27[${PYTHON_USEDEP}] )
 	s3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	sqlalchemy? ( ~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( ~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES=">=dev-python/boto3-1.9.47[${PYTHON_USEDEP}]
 	dev-python/cloudaux[${PYTHON_USEDEP}]
 	>=dev-python/click-6.7[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES=">=dev-python/boto3-1.9.47[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/moto-1.3.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/tox-3.4.0[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/tox-3.4.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

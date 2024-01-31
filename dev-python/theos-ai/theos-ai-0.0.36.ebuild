@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ocr sdk"
+IUSE="ocr sdk"
 DEPENDENCIES="~dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
@@ -53,6 +53,7 @@ DEPENDENCIES="~dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	ocr? ( ~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}] )
 	sdk? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
 	sdk? ( dev-python/celery[${PYTHON_USEDEP}] )
-	sdk? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )"
+	sdk? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

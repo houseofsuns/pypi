@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	~dev-python/mypy-1.5.1[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.36[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.140[${PYTHON_USEDEP}]
 	~dev-python/deepdiff-6.4.1[${PYTHON_USEDEP}]
-	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

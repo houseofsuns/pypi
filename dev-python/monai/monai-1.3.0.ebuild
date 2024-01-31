@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all clearml cucim einops fire gdown h5py ignite imagecodecs itk jsonschema lmdb lpips matplotlib mlflow nibabel ninja nni onnx openslide optuna pandas pillow psutil pydicom pynrrd pynvml pyyaml scipy skimage tensorboard tensorboardx tifffile torchvision tqdm transformers zarr"
+IUSE="all clearml cucim einops fire gdown h5py ignite imagecodecs itk jsonschema lmdb lpips matplotlib mlflow nibabel ninja nni onnx openslide optuna pandas pillow psutil pydicom pynrrd pynvml pyyaml scipy skimage tensorboard tensorboardx tifffile torchvision tqdm transformers zarr"
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/clearml[${PYTHON_USEDEP}] )
@@ -99,6 +99,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	tqdm? ( >=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	zarr? ( dev-python/zarr[${PYTHON_USEDEP}] )"
+	zarr? ( dev-python/zarr[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

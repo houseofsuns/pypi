@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all debug doc lint pyarrow test"
+IUSE="all debug doc lint pyarrow test"
 DEPENDENCIES=">=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -104,6 +104,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-order-1.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-timeout-2.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-monitor[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-monitor[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

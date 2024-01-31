@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/azureml-telemetry[${PYTHON_USEDEP}]
 	dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-dataset-runtime[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/azureml-telemetry[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<=dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-0.16.0[${PYTHON_USEDEP}]
-	dev-python/pyspark[${PYTHON_USEDEP}]"
+	dev-python/pyspark[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

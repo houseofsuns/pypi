@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel django monitor"
+IUSE="django monitor"
 DEPENDENCIES=">=dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/curlify[${PYTHON_USEDEP}]
 	django? ( dev-python/bkoauth[${PYTHON_USEDEP}] )
 	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
 	django? ( >=dev-python/prometheus-client-0.9.0[${PYTHON_USEDEP}] )
 	monitor? ( >=dev-python/prometheus-client-0.9.0[${PYTHON_USEDEP}] )
-	dev-python/six[${PYTHON_USEDEP}]"
+	dev-python/six[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/executing-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/asttokens-2.2.1[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

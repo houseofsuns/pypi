@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel config pyqtgraph"
+IUSE="config pyqtgraph"
 DEPENDENCIES="config? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	pyqtgraph? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
-	config? ( dev-python/omegaconf[${PYTHON_USEDEP}] )"
+	config? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

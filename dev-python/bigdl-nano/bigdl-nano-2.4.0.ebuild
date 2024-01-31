@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel diffusion_113 inference pytorch pytorch_110 pytorch_111 pytorch_112 pytorch_113 pytorch_113_xpu pytorch_20 pytorch_20_xpu pytorch_nightly"
+IUSE="diffusion_113 inference pytorch pytorch_110 pytorch_111 pytorch_112 pytorch_113 pytorch_113_xpu pytorch_20 pytorch_20_xpu pytorch_nightly"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
@@ -122,6 +122,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	pytorch_nightly? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	pytorch_nightly? ( dev-python/PyTurboJPEG[${PYTHON_USEDEP}] )
 	pytorch_nightly? ( dev-python/opencv-transforms[${PYTHON_USEDEP}] )
-	pytorch_nightly? ( ~dev-python/cryptography-41.0.3[${PYTHON_USEDEP}] )"
+	pytorch_nightly? ( ~dev-python/cryptography-41.0.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

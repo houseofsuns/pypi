@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/dicmer[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/semaver[${PYTHON_USEDEP}]
 	dev-python/uWSGI[${PYTHON_USEDEP}]
 	<=dev-python/werkzeug-0.99999.99999[${PYTHON_USEDEP}]
-	<=dev-python/xxhash-1.99999.99999[${PYTHON_USEDEP}]"
+	<=dev-python/xxhash-1.99999.99999[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

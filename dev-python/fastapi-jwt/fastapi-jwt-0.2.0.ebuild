@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs test"
+IUSE="docs test"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
@@ -43,6 +43,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	test? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-python-jose[${PYTHON_USEDEP}] )"
+	test? ( dev-python/types-python-jose[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

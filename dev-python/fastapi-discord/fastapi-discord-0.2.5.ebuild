@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/aiocache-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
-	dev-python/fastapi[${PYTHON_USEDEP}]"
+	dev-python/fastapi[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

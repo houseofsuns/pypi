@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all extras test"
+IUSE="all extras test"
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/gspread[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	extras? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	extras? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
 	extras? ( dev-python/google[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

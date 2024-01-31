@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs"
+IUSE="dev docs"
 DEPENDENCIES="~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
@@ -35,6 +35,7 @@ DEPENDENCIES="~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-material-9.0.15[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/pymdown-extensions-9.9.2[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/pymdown-extensions-9.9.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel bash fully-loaded jinja thirdparty xml"
+IUSE="bash fully-loaded jinja thirdparty xml"
 DEPENDENCIES="dev-python/splunk-sdk[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-1.2.0[${PYTHON_USEDEP}]
 	bash? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/splunk-sdk[${PYTHON_USEDEP}]
 	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/splunk-sdk[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

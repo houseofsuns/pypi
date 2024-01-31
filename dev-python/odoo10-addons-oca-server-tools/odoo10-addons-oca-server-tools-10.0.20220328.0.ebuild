@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo10-addon-attachment-base-synchronize[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-auditlog[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-auth-admin-passkey[${PYTHON_USEDEP}]
@@ -113,6 +113,7 @@ DEPENDENCIES="dev-python/odoo10-addon-attachment-base-synchronize[${PYTHON_USEDE
 	dev-python/odoo10-addon-users-ldap-groups[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-users-ldap-mail[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-users-ldap-populate[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-webhook[${PYTHON_USEDEP}]"
+	dev-python/odoo10-addon-webhook[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

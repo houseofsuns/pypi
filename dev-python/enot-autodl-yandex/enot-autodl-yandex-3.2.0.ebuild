@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/tblib[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torch-optimizer[${PYTHON_USEDEP}]
@@ -51,6 +51,7 @@ DEPENDENCIES="dev-python/tblib[${PYTHON_USEDEP}]
 	dev-python/onnx2torch[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
-	>=dev-python/google-api-core-1.21.0[${PYTHON_USEDEP}]"
+	>=dev-python/google-api-core-1.21.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

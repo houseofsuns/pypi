@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0.5[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.4[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
-	>=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]"
+	>=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/absl-py-0.4[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.48.2[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES=">=dev-python/absl-py-0.4[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	>dev-python/six-1.9[${PYTHON_USEDEP}]
 	dev-python/tensorboard-data-server[${PYTHON_USEDEP}]
-	>=dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]"
+	>=dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

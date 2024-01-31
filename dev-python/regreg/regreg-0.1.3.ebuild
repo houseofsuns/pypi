@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel doc test"
+IUSE="doc test"
 DEPENDENCIES=">=dev-python/cython-0.18[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/nose-0.10.1[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/nose-0.10.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

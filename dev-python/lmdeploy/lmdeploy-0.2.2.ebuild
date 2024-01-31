@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all lite serve"
+IUSE="all lite serve"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
@@ -79,6 +79,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	serve? ( dev-python/tritonclient[${PYTHON_USEDEP}] )
 	serve? ( dev-python/nvidia-nccl-cu11[${PYTHON_USEDEP}] )
 	serve? ( dev-python/nvidia-cuda-runtime-cu11[${PYTHON_USEDEP}] )
-	serve? ( dev-python/nvidia-cublas-cu11[${PYTHON_USEDEP}] )"
+	serve? ( dev-python/nvidia-cublas-cu11[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dolfin hmc suitesparse"
+IUSE="dolfin hmc suitesparse"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/orthpol-light[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dolfin? ( dev-python/dolfin-adjoint[${PYTHON_USEDEP}] )
 	dolfin? ( dev-python/petsc4py[${PYTHON_USEDEP}] )
 	hmc? ( dev-python/pyhmc[${PYTHON_USEDEP}] )
-	suitesparse? ( dev-python/scikit-sparse[${PYTHON_USEDEP}] )"
+	suitesparse? ( dev-python/scikit-sparse[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

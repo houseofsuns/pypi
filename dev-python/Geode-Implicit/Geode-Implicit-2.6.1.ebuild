@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/Geode-Background[${PYTHON_USEDEP}]
 	dev-python/Geode-Common[${PYTHON_USEDEP}]
 	dev-python/Geode-Conversion[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/Geode-Background[${PYTHON_USEDEP}]
 	dev-python/OpenGeode-Geosciences[${PYTHON_USEDEP}]
 	dev-python/OpenGeode-GeosciencesIO[${PYTHON_USEDEP}]
 	dev-python/OpenGeode-Inspector[${PYTHON_USEDEP}]
-	dev-python/OpenGeode-IO[${PYTHON_USEDEP}]"
+	dev-python/OpenGeode-IO[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

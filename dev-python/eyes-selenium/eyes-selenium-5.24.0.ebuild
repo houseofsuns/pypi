@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/eyes-common[${PYTHON_USEDEP}]
 	<dev-python/selenium-5.0[${PYTHON_USEDEP}]
-	dev-python/Appium-Python-Client[${PYTHON_USEDEP}]"
+	dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

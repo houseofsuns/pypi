@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel testing"
+IUSE="testing"
 DEPENDENCIES="dev-python/sentencepiece[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/kaldi-io[${PYTHON_USEDEP}] )
 	testing? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nemo-toolkit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/torchaudio[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

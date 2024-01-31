@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/adal[${PYTHON_USEDEP}]
 	dev-python/azure-cli-core[${PYTHON_USEDEP}]
 	dev-python/azure-graphrbac[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/adal[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.1[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
-	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

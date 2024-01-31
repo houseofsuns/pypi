@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel optional"
+IUSE="optional"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	optional? ( ~dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	optional? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

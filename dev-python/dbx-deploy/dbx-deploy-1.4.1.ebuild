@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/dbx-notebook-exporter[${PYTHON_USEDEP}]
 	<dev-python/nbconvert-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pygit2-2.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/dbx-notebook-exporter[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
 	dev-python/daipe-core[${PYTHON_USEDEP}]
-	<dev-python/markupsafe-2.1[${PYTHON_USEDEP}]"
+	<dev-python/markupsafe-2.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azureml cpu directml docker gpu inc lora openvino optimum qlora qlora-ort tf torch-tensorrt"
+IUSE="azureml cpu directml docker gpu inc lora openvino optimum qlora qlora-ort tf torch-tensorrt"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	qlora-ort? ( dev-python/peft[${PYTHON_USEDEP}] )
 	qlora-ort? ( dev-python/torch-ort[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	torch-tensorrt? ( dev-python/torch-tensorrt[${PYTHON_USEDEP}] )"
+	torch-tensorrt? ( dev-python/torch-tensorrt[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pytz-2019.2[${PYTHON_USEDEP}]
 	~dev-python/mpmath-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.8[${PYTHON_USEDEP}]
 	~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	dev-python/azureml-designer-internal[${PYTHON_USEDEP}]"
+	dev-python/azureml-designer-internal[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

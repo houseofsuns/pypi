@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc test"
+IUSE="dev doc test"
 DEPENDENCIES="dev-python/gamsapi[${PYTHON_USEDEP}]
 	dev-python/gamspy-base[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES="dev-python/gamsapi[${PYTHON_USEDEP}]
 	test? ( >=dev-python/cerberus-1.3.5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel att dev netgear"
+IUSE="att dev netgear"
 DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	att? ( ~dev-python/pandas-2.1.3[${PYTHON_USEDEP}] )
 	att? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitverse[${PYTHON_USEDEP}] )
-	netgear? ( dev-python/pynetgear[${PYTHON_USEDEP}] )"
+	netgear? ( dev-python/pynetgear[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs test"
+IUSE="docs test"
 DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]
@@ -55,6 +55,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbmake[${PYTHON_USEDEP}] )"
+	test? ( dev-python/nbmake[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

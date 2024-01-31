@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="<=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="<=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pympler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/qgate-graph[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/qgate-graph[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

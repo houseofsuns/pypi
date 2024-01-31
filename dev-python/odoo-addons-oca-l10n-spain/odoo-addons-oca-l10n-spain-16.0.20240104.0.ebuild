@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-l10n-es-account-asset[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-l10n-es-account-banking-sepa-fsdd[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-l10n-es-account-statement-import-n43[${PYTHON_USEDEP}]
@@ -67,6 +67,7 @@ DEPENDENCIES="dev-python/odoo-addon-l10n-es-account-asset[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-l10n-es-vat-book[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-l10n-es-vat-book-igic[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-l10n-es-vat-prorate[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-payment-redsys[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-payment-redsys[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

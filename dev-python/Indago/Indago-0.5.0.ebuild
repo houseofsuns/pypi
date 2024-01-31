@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]
-	>=dev-python/rich-12.5[${PYTHON_USEDEP}]"
+	>=dev-python/rich-12.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

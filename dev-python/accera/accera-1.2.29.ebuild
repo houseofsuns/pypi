@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
 	dev-python/varname[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/termcolor[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.11.5[${PYTHON_USEDEP}]
 	dev-python/accera-compilers[${PYTHON_USEDEP}]
 	dev-python/accera-gpu[${PYTHON_USEDEP}]
-	dev-python/accera-llvm[${PYTHON_USEDEP}]"
+	dev-python/accera-llvm[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

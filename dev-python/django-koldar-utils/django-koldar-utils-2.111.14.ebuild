@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs test"
+IUSE="docs test"
 DEPENDENCIES=">=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	>=dev-python/aniso8601-8.1.1[${PYTHON_USEDEP}]
 	>=dev-python/arrow-1.1.0[${PYTHON_USEDEP}]
@@ -94,6 +94,7 @@ DEPENDENCIES=">=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

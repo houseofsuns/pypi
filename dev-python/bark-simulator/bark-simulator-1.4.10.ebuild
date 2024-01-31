@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.4.2[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
 	>=dev-python/notebook-6.0.3[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
-	>=dev-python/ipython-7.13.0[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-7.13.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

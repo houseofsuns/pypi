@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel testing"
+IUSE="testing"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
@@ -62,6 +62,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	testing? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	testing? ( dev-python/click[${PYTHON_USEDEP}] )
 	testing? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pycox[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/pycox[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

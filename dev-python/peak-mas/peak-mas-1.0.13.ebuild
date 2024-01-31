@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build dev"
+IUSE="build dev"
 DEPENDENCIES="dev-python/aiohttp-cors[${PYTHON_USEDEP}]
 	dev-python/aioxmpp[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/aiohttp-cors[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipreqs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

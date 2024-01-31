@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all argoverse camera_obs dev diagnostic doc envision extras gif_recorder gymnasium opendrive ray rllib ros sumo test test_notebook torch train visdom waymo"
+IUSE="all argoverse camera_obs dev diagnostic doc envision extras gif_recorder gymnasium opendrive ray rllib ros sumo test test_notebook torch train visdom waymo"
 DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
@@ -134,6 +134,7 @@ DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	visdom? ( dev-python/visdom[${PYTHON_USEDEP}] )
 	waymo? ( >=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}] )
 	waymo? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	waymo? ( dev-python/Rtree[${PYTHON_USEDEP}] )"
+	waymo? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

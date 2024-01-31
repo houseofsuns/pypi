@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full json pydantic_v1 pydantic_v2 toml"
+IUSE="full json pydantic_v1 pydantic_v2 toml"
 DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	pydantic_v1? ( <=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	pydantic_v2? ( <=dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
 	pydantic_v2? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
-	toml? ( >=dev-python/tomlkit-0.12.1[${PYTHON_USEDEP}] )"
+	toml? ( >=dev-python/tomlkit-0.12.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

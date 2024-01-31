@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel development documentation testing"
+IUSE="development documentation testing"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -65,6 +65,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-json-report[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	testing? ( dev-python/PyMieScatt[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/PyMieScatt[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

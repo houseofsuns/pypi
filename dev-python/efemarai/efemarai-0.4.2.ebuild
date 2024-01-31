@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full"
+IUSE="full"
 DEPENDENCIES=">=dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES=">=dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
 	full? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	full? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	full? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	full? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )"
+	full? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

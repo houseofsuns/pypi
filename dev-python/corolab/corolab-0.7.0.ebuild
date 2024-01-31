@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	dev-python/transforms3d[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.11.0[${PYTHON_USEDEP}]
 	dev-python/simplejpeg[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
-	dev-python/vesper-api[${PYTHON_USEDEP}]"
+	dev-python/vesper-api[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

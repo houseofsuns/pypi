@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/vcfpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="dev-python/vcfpy[${PYTHON_USEDEP}]
 	dev-python/mhcnuggets[${PYTHON_USEDEP}]
 	dev-python/mhcflurry[${PYTHON_USEDEP}]
 	dev-python/testfixtures[${PYTHON_USEDEP}]
-	dev-python/polars[${PYTHON_USEDEP}]"
+	dev-python/polars[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

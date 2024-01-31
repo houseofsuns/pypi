@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-4.6.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-5.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

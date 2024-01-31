@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/yangsuite[${PYTHON_USEDEP}]
 	dev-python/yangsuite-devices[${PYTHON_USEDEP}]
 	dev-python/yangsuite-yangtree[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	<dev-python/paramiko-3.0[${PYTHON_USEDEP}]
-	dev-python/scp[${PYTHON_USEDEP}]"
+	dev-python/scp[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

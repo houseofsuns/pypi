@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel api assets-az assets-gcs assets-s3 cli dev lint tensorflow"
+IUSE="api assets-az assets-gcs assets-s3 cli dev lint tensorflow"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/asgiref[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
@@ -81,6 +81,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow-serving-api[${PYTHON_USEDEP}] )"
+	tensorflow? ( dev-python/tensorflow-serving-api[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

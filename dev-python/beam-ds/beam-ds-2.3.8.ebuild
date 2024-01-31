@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all ds llm"
+IUSE="all ds llm"
 DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -45,6 +45,7 @@ DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	ds? ( dev-python/ray[${PYTHON_USEDEP}] )
 	llm? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	llm? ( dev-python/openai[${PYTHON_USEDEP}] )
-	llm? ( dev-python/tiktoken[${PYTHON_USEDEP}] )"
+	llm? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

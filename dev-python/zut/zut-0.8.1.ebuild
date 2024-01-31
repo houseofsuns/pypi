@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all"
+IUSE="all"
 DEPENDENCIES="all? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
 	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
@@ -34,6 +34,7 @@ DEPENDENCIES="all? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
 	all? ( dev-python/django[${PYTHON_USEDEP}] )
 	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	all? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/smbprotocol[${PYTHON_USEDEP}] )"
+	all? ( dev-python/smbprotocol[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

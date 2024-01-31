@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all audio image text video"
+IUSE="all audio image text video"
 DEPENDENCIES="dev-python/iopath[${PYTHON_USEDEP}]
 	>=dev-python/python-magic-0.4.22[${PYTHON_USEDEP}]
 	>=dev-python/regex-2021.4.4[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="dev-python/iopath[${PYTHON_USEDEP}]
 	video? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	video? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	video? ( dev-python/torch[${PYTHON_USEDEP}] )
-	video? ( dev-python/torchaudio[${PYTHON_USEDEP}] )"
+	video? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

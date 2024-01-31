@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel kerberos"
+IUSE="kerberos"
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	~dev-python/flask-compress-1.0[${PYTHON_USEDEP}]
 	~dev-python/flask-gravatar-0.0[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.3[${PYTHON_USEDEP}]
 	~dev-python/keyring-24.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-69.0[${PYTHON_USEDEP}]
-	kerberos? ( ~dev-python/gssapi-1.8[${PYTHON_USEDEP}] )"
+	kerberos? ( ~dev-python/gssapi-1.8[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aks aliyun all aws azure eks gcp gke huaweicloud kubernetes"
+IUSE="aks aliyun all aws azure eks gcp gke huaweicloud kubernetes"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
@@ -136,6 +136,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	huaweicloud? ( dev-python/esdk-obs-python[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/kopf[${PYTHON_USEDEP}] )"
+	kubernetes? ( dev-python/kopf[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

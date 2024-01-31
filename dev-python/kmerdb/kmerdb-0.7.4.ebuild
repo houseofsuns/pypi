@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29.26[${PYTHON_USEDEP}]
 	>=dev-python/distlib-0.3.4[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autodoc[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

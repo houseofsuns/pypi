@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/requests-2.20[${PYTHON_USEDEP}]
 	~dev-python/puremagic-1.3[${PYTHON_USEDEP}]
 	~dev-python/ply-3.11[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="~dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/msrestazure[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-storage[${PYTHON_USEDEP}]
-	~dev-python/msgpack-0.6[${PYTHON_USEDEP}]"
+	~dev-python/msgpack-0.6[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

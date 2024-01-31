@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests vis_utils"
+IUSE="tests vis_utils"
 DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	vis_utils? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	vis_utils? ( dev-python/imageio[${PYTHON_USEDEP}] )"
+	vis_utils? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

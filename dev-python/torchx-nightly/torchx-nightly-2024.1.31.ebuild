@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aws_batch dev gcp_batch kfp kubernetes ray"
+IUSE="aws_batch dev gcp_batch kfp kubernetes ray"
 DEPENDENCIES="dev-python/pyre-extensions[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
@@ -70,6 +70,7 @@ DEPENDENCIES="dev-python/pyre-extensions[${PYTHON_USEDEP}]
 	gcp_batch? ( dev-python/google-cloud-runtimeconfig[${PYTHON_USEDEP}] )
 	kfp? ( dev-python/kfp[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	ray? ( dev-python/ray[${PYTHON_USEDEP}] )"
+	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

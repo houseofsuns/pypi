@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel reverb tests"
+IUSE="reverb tests"
 DEPENDENCIES=">=dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	dev-python/gin-config[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES=">=dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pybullet[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

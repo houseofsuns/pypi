@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel RANSAC qrandom"
+IUSE="RANSAC qrandom"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	RANSAC? ( dev-python/sklearn[${PYTHON_USEDEP}] )
-	qrandom? ( dev-python/quantumrandom[${PYTHON_USEDEP}] )"
+	qrandom? ( dev-python/quantumrandom[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

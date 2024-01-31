@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/qcad[${PYTHON_USEDEP}]
 	dev-python/whikoperator[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/qneuroworker[${PYTHON_USEDEP}]
-	dev-python/qodex-recognition[${PYTHON_USEDEP}]"
+	dev-python/qodex-recognition[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

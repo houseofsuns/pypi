@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ann cat dev doc lgb llm plot test xgb"
+IUSE="ann cat dev doc lgb llm plot test xgb"
 DEPENDENCIES="dev-python/bottleneck[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/FLAML[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES="dev-python/bottleneck[${PYTHON_USEDEP}]
 	test? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	test? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
 	xgb? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	xgb? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
+	xgb? ( dev-python/xgboost[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

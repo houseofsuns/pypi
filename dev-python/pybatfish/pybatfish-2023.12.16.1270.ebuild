@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel capirca dev"
+IUSE="capirca dev"
 DEPENDENCIES=">=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
@@ -65,6 +65,7 @@ DEPENDENCIES=">=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-simplejson[${PYTHON_USEDEP}] )
 	dev? ( dev-python/capirca[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/absl-py-0.8.0[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/absl-py-0.8.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

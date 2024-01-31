@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	~dev-python/chameleon-3.10.2[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid_chameleon[${PYTHON_USEDEP}]
 	~dev-python/whoosh-2.7.4[${PYTHON_USEDEP}]
-	~dev-python/wtforms-3.0.1[${PYTHON_USEDEP}]"
+	~dev-python/wtforms-3.0.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

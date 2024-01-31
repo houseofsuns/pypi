@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel fonts images pure shell textures video"
+IUSE="fonts images pure shell textures video"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	shell? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	textures? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	video? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	video? ( dev-python/opencv-python[${PYTHON_USEDEP}] )"
+	video? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

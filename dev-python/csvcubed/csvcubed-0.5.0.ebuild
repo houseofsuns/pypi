@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/csvcubed-models[${PYTHON_USEDEP}]
 	<=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-cache-0.10.0[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
 	<dev-python/uritemplate-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

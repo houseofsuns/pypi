@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel airflow all docker-image examples flax kfp test tf-ranking tfdf tfjs tflite-support"
+IUSE="airflow all docker-image examples flax kfp test tf-ranking tfdf tfjs tflite-support"
 DEPENDENCIES="dev-python/ml-pipelines-sdk[${PYTHON_USEDEP}]
 	<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ml-metadata[${PYTHON_USEDEP}]
@@ -101,6 +101,7 @@ DEPENDENCIES="dev-python/ml-pipelines-sdk[${PYTHON_USEDEP}]
 	tfdf? ( dev-python/tensorflow-decision-forests[${PYTHON_USEDEP}] )
 	tfjs? ( dev-python/tensorflowjs[${PYTHON_USEDEP}] )
 	tflite-support? ( >=dev-python/flatbuffers-1.12[${PYTHON_USEDEP}] )
-	tflite-support? ( dev-python/tflite-support[${PYTHON_USEDEP}] )"
+	tflite-support? ( dev-python/tflite-support[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

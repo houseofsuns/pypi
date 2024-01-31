@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/cryptography-3.2.1[${PYTHON_USEDEP}]
 	dev-python/bitmath[${PYTHON_USEDEP}]
 	>=dev-python/docker-2.7.0[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/cryptography-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-20.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
-	dev-python/sonicprobe[${PYTHON_USEDEP}]"
+	dev-python/sonicprobe[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

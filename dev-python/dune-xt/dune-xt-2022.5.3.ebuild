@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all infrastructure parallel visualisation"
+IUSE="all infrastructure parallel visualisation"
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -70,6 +70,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	visualisation? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	visualisation? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	visualisation? ( dev-python/xmljson[${PYTHON_USEDEP}] )
-	visualisation? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	visualisation? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/click-8.1.1[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-4.0[${PYTHON_USEDEP}]
 	>=dev-python/click-default-group-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/peewee-3.15.2[${PYTHON_USEDEP}]
-	>=dev-python/platformdirs-2.6.0[${PYTHON_USEDEP}]"
+	>=dev-python/platformdirs-2.6.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full"
+IUSE="full"
 DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/waveforms[${PYTHON_USEDEP}]
 	dev-python/PyVISA[${PYTHON_USEDEP}]
 	dev-python/quarkstudio[${PYTHON_USEDEP}]
-	full? ( dev-python/quarkstudio[${PYTHON_USEDEP}] )"
+	full? ( dev-python/quarkstudio[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

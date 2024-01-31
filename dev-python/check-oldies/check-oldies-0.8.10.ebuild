@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel toml"
-DEPENDENCIES="toml? ( dev-python/toml[${PYTHON_USEDEP}] )"
+IUSE="toml"
+DEPENDENCIES="toml? ( dev-python/toml[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

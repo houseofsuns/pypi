@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full"
+IUSE="full"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	full? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	full? ( dev-python/pysndfx[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyroomacoustics[${PYTHON_USEDEP}] )"
+	full? ( dev-python/pyroomacoustics[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

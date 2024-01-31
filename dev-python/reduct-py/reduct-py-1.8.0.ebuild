@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs format lint test"
+IUSE="docs format lint test"
 DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.4[${PYTHON_USEDEP}]
 	~dev-python/deprecation-2.1[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.11[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/requests-2.31[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/requests-2.31[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

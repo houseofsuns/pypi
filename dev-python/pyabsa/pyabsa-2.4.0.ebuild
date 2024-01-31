@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deploy dev docs optional tensorflow test"
+IUSE="deploy dev docs optional tensorflow test"
 DEPENDENCIES="dev-python/findfile[${PYTHON_USEDEP}]
 	dev-python/autocuda[${PYTHON_USEDEP}]
 	dev-python/metric-visualizer[${PYTHON_USEDEP}]
@@ -85,6 +85,7 @@ DEPENDENCIES="dev-python/findfile[${PYTHON_USEDEP}]
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

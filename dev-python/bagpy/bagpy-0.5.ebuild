@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/bitstring[${PYTHON_USEDEP}]
@@ -51,6 +51,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
 	dev-python/httpie[${PYTHON_USEDEP}]
 	test? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

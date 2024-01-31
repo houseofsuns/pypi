@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test_full test_minimal"
+IUSE="test_full test_minimal"
 DEPENDENCIES="dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/vtk[${PYTHON_USEDEP}]
 	test_full? ( dev-python/namegenerator[${PYTHON_USEDEP}] )
 	test_full? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test_minimal? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test_minimal? ( dev-python/pytest-order[${PYTHON_USEDEP}] )"
+	test_minimal? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

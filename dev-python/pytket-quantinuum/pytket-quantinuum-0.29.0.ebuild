@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pecos"
+IUSE="pecos"
 DEPENDENCIES="dev-python/pytket[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.2[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/pytket[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.2[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.4[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
-	pecos? ( dev-python/pytket_pecos[${PYTHON_USEDEP}] )"
+	pecos? ( dev-python/pytket_pecos[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

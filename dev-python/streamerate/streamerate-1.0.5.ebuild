@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	>=dev-python/tblib-1.7.0[${PYTHON_USEDEP}]
 	dev-python/throttlex[${PYTHON_USEDEP}]
-	>=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

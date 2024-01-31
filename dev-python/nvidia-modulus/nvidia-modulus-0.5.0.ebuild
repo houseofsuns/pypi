@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dev launch"
+IUSE="all dev launch"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2023.1.0[${PYTHON_USEDEP}]
@@ -62,6 +62,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	launch? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	launch? ( >=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )
 	launch? ( >=dev-python/imageio-2.28.1[${PYTHON_USEDEP}] )
-	launch? ( dev-python/moviepy[${PYTHON_USEDEP}] )"
+	launch? ( dev-python/moviepy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

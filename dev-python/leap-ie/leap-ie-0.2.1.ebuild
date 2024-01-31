@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel with-tensorflow with-torch"
+IUSE="with-tensorflow with-torch"
 DEPENDENCIES=">=dev-python/ipython-7.23.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.42.1[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES=">=dev-python/ipython-7.23.1[${PYTHON_USEDEP}]
 	with-tensorflow? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
 	with-torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	with-torch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	with-torch? ( dev-python/timm[${PYTHON_USEDEP}] )"
+	with-torch? ( dev-python/timm[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

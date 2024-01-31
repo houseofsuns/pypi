@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all docs keras tao_encryption test"
+IUSE="all docs keras tao_encryption test"
 DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/pyarmor[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	keras? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
 	tao_encryption? ( dev-python/nvidia-eff-tao-encryption[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

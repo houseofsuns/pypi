@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev kaplan-meier lint test"
+IUSE="dev kaplan-meier lint test"
 DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	<dev-python/backoff-2.3[${PYTHON_USEDEP}]
 	<dev-python/funcy-3.0[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
 	test? ( <dev-python/responses-0.25[${PYTHON_USEDEP}] )
-	test? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

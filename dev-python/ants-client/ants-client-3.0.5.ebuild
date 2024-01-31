@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
 	~dev-python/ldap3-2.8.1[${PYTHON_USEDEP}]
 	dev-python/python-logstash[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
-	~dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]"
+	~dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

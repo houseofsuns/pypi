@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/uri-template[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/uri-template[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-annotations[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-type-annotations[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

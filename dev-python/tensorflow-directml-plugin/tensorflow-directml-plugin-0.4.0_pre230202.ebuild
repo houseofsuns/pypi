@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/tensorflow-cpu[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.8.6[${PYTHON_USEDEP}]
-	>=dev-python/wheel-0.26[${PYTHON_USEDEP}]"
+	>=dev-python/wheel-0.26[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

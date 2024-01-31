@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ipex onnx"
+IUSE="ipex onnx"
 DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	ipex? ( dev-python/intel-extension-for-pytorch[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	onnx? ( dev-python/onnx-runtime[${PYTHON_USEDEP}] )"
+	onnx? ( dev-python/onnx-runtime[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

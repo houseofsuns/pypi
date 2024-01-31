@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ambition-auth[${PYTHON_USEDEP}]
 	dev-python/ambition-rando[${PYTHON_USEDEP}]
 	dev-python/ambition-prn[${PYTHON_USEDEP}]
@@ -49,6 +49,7 @@ DEPENDENCIES="dev-python/ambition-auth[${PYTHON_USEDEP}]
 	dev-python/edc-notification[${PYTHON_USEDEP}]
 	dev-python/edc-offstudy[${PYTHON_USEDEP}]
 	dev-python/edc-reportable[${PYTHON_USEDEP}]
-	dev-python/edc-subject-dashboard[${PYTHON_USEDEP}]"
+	dev-python/edc-subject-dashboard[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cuda11_pip cuda12_pip"
+IUSE="cuda11_pip cuda12_pip"
 DEPENDENCIES=">=dev-python/scipy-1.9[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/ml-dtypes[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES=">=dev-python/scipy-1.9[${PYTHON_USEDEP}]
 	cuda12_pip? ( dev-python/nvidia-cudnn-cu12[${PYTHON_USEDEP}] )
 	cuda12_pip? ( dev-python/nvidia-cufft-cu12[${PYTHON_USEDEP}] )
 	cuda12_pip? ( dev-python/nvidia-cusolver-cu12[${PYTHON_USEDEP}] )
-	cuda12_pip? ( dev-python/nvidia-cusparse-cu12[${PYTHON_USEDEP}] )"
+	cuda12_pip? ( dev-python/nvidia-cusparse-cu12[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

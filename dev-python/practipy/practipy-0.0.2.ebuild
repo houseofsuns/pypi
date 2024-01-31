@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all cache dev gcloud math tensorflow"
+IUSE="all cache dev gcloud math tensorflow"
 DEPENDENCIES="all? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
@@ -49,6 +49,7 @@ DEPENDENCIES="all? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcloud? ( >=dev-python/tqdm-4.61[${PYTHON_USEDEP}] )
 	math? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/absl-py[${PYTHON_USEDEP}] )"
+	tensorflow? ( dev-python/absl-py[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

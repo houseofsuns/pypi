@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all cucim"
+IUSE="all cucim"
 DEPENDENCIES=">=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/holoscan[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
 	>=dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cucim[${PYTHON_USEDEP}] )
-	cucim? ( dev-python/cucim[${PYTHON_USEDEP}] )"
+	cucim? ( dev-python/cucim[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

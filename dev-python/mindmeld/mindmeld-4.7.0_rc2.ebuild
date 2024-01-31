@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel active_learning augment bert bot dvc elasticsearch examples language_annotator tensorflow transformers"
+IUSE="active_learning augment bert bot dvc elasticsearch examples language_annotator tensorflow transformers"
 DEPENDENCIES="~dev-python/click-7.1[${PYTHON_USEDEP}]
 	~dev-python/click-log-0.1.8[${PYTHON_USEDEP}]
 	~dev-python/distro-1.3[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES="~dev-python/click-7.1[${PYTHON_USEDEP}]
 	examples? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	language_annotator? ( dev-python/google-cloud-translate[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )"
+	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

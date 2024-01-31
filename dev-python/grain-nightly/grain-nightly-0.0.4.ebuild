@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel testing"
+IUSE="testing"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/array-record[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	testing? ( dev-python/jax[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

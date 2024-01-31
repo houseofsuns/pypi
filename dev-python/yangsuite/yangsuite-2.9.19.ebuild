@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/yangsuite-netconf[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/yangsuite-yangtree[${PYTHON_USEDEP}]
-	dev-python/celery[${PYTHON_USEDEP}]"
+	dev-python/celery[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

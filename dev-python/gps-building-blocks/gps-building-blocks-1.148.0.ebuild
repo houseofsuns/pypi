@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-google[${PYTHON_USEDEP}]
@@ -55,6 +55,7 @@ DEPENDENCIES="~dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-hub[${PYTHON_USEDEP}]
-	dev-python/tensorflow-probability[${PYTHON_USEDEP}]"
+	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

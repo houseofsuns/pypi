@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cpu gpu"
+IUSE="cpu gpu"
 DEPENDENCIES="cpu? ( dev-python/math-lyf-lib[${PYTHON_USEDEP}] )
-	gpu? ( dev-python/math-lyf-lib[${PYTHON_USEDEP}] )"
+	gpu? ( dev-python/math-lyf-lib[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

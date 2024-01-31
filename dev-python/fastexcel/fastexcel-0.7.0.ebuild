@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pandas polars"
+IUSE="pandas polars"
 DEPENDENCIES=">=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
 	pandas? ( >=dev-python/pandas-1.4.4[${PYTHON_USEDEP}] )
-	polars? ( dev-python/polars[${PYTHON_USEDEP}] )"
+	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-base-comment-template[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-bi-sql-editor[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-bi-view-editor[${PYTHON_USEDEP}]
@@ -48,6 +48,7 @@ DEPENDENCIES="dev-python/odoo-addon-base-comment-template[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sql-export[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sql-export-excel[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sql-export-mail[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-sql-request-abstract[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-sql-request-abstract[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

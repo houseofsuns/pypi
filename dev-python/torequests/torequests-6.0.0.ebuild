@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all security socks speedups"
+IUSE="all security socks speedups"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}] )
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	socks? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )
 	speedups? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )"
+	speedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

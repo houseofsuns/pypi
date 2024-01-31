@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs format test"
+IUSE="dev docs format test"
 DEPENDENCIES=">=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
@@ -69,6 +69,7 @@ DEPENDENCIES=">=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )"
+	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
 	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	dev-python/cnx-common[${PYTHON_USEDEP}]
@@ -58,6 +58,7 @@ DEPENDENCIES="~dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
 	~dev-python/waitress-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/webob-1.8.7[${PYTHON_USEDEP}]
 	~dev-python/zope-deprecation-4.4.0[${PYTHON_USEDEP}]
-	~dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]"
+	~dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

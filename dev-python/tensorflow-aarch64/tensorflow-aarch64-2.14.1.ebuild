@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel and-cuda"
+IUSE="and-cuda"
 DEPENDENCIES=">=dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/astunparse-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/flatbuffers-23.5.26[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES=">=dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
 	and-cuda? ( dev-python/nvidia-nccl-cu11[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-cuda-cupti-cu11[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-cuda-nvcc-cu11[${PYTHON_USEDEP}] )
-	and-cuda? ( dev-python/tensorrt[${PYTHON_USEDEP}] )"
+	and-cuda? ( dev-python/tensorrt[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/Arabic-Stopwords[${PYTHON_USEDEP}]
 	dev-python/arramooz-pysqlite[${PYTHON_USEDEP}]
 	dev-python/libqutrub[${PYTHON_USEDEP}]
-	dev-python/PyArabic[${PYTHON_USEDEP}]"
+	dev-python/PyArabic[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

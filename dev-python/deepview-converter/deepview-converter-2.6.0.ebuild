@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel modelserver"
+IUSE="modelserver"
 DEPENDENCIES="~dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.1.0[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="~dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	modelserver? ( ~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}] )
 	modelserver? ( ~dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
 	modelserver? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
-	modelserver? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )"
+	modelserver? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

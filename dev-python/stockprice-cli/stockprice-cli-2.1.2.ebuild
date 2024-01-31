@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.14[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
-	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]"
+	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel clip deepsparse deepsparse-ent dev docs onnxruntime openpifpaf tf_keras tf_v1 tf_v1_gpu torch torch_all torchvision transformers ultralytics yolov5"
+IUSE="clip deepsparse deepsparse-ent dev docs onnxruntime openpifpaf tf_keras tf_v1 tf_v1_gpu torch torch_all torchvision transformers ultralytics yolov5"
 DEPENDENCIES="dev-python/sparsezoo[${PYTHON_USEDEP}]
 	<=dev-python/setuptools-59.5.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
@@ -105,6 +105,7 @@ DEPENDENCIES="dev-python/sparsezoo[${PYTHON_USEDEP}]
 	yolov5? ( dev-python/gputils[${PYTHON_USEDEP}] )
 	yolov5? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	yolov5? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	yolov5? ( dev-python/nm-yolov5[${PYTHON_USEDEP}] )"
+	yolov5? ( dev-python/nm-yolov5[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

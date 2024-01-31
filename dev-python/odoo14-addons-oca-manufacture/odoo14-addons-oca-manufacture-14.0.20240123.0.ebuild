@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-account-move-line-mrp-info[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-base-repair[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-mrp-account-analytic[${PYTHON_USEDEP}]
@@ -87,6 +87,7 @@ DEPENDENCIES="dev-python/odoo14-addon-account-move-line-mrp-info[${PYTHON_USEDEP
 	dev-python/odoo14-addon-repair-stock-move[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-repair-type[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-stock-picking-product-kit-helper[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-stock-whole-kit-constraint[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-stock-whole-kit-constraint[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

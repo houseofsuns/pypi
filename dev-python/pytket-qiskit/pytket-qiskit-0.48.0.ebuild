@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pytket[${PYTHON_USEDEP}]
 	dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/qiskit-algorithms[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-runtime[${PYTHON_USEDEP}]
 	~dev-python/qiskit-aer-0.13.0[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	dev-python/numpy[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

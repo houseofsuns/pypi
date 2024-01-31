@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ambition-lists[${PYTHON_USEDEP}]
 	dev-python/ambition-permissions[${PYTHON_USEDEP}]
 	dev-python/ambition-prn[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/ambition-lists[${PYTHON_USEDEP}]
 	dev-python/edc-model[${PYTHON_USEDEP}]
 	dev-python/edc-notification[${PYTHON_USEDEP}]
 	dev-python/edc-sites[${PYTHON_USEDEP}]
-	dev-python/edc-utils[${PYTHON_USEDEP}]"
+	dev-python/edc-utils[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

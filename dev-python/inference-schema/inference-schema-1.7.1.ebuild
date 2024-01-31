@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel numpy-support pandas-support pyspark-support"
+IUSE="numpy-support pandas-support pyspark-support"
 DEPENDENCIES=">=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2017.2[${PYTHON_USEDEP}]
 	<=dev-python/wrapt-1.16.0[${PYTHON_USEDEP}]
 	numpy-support? ( >=dev-python/numpy-1.13.0[${PYTHON_USEDEP}] )
 	pandas-support? ( >=dev-python/pandas-0.20.2[${PYTHON_USEDEP}] )
-	pyspark-support? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
+	pyspark-support? ( dev-python/pyspark[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

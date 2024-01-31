@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-l10n-br-account[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-br-account-due-list[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-br-account-nfe[${PYTHON_USEDEP}]
@@ -79,6 +79,7 @@ DEPENDENCIES="dev-python/odoo14-addon-l10n-br-account[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-br-zip[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-payment-bacen-pix[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-payment-pagseguro[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-spec-driven-model[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-spec-driven-model[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

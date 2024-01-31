@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel mxnet mxnet-cu90mkl mxnet-mkl"
+IUSE="mxnet mxnet-cu90mkl mxnet-mkl"
 DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/model-archiver[${PYTHON_USEDEP}]
 	mxnet? ( dev-python/mxnet[${PYTHON_USEDEP}] )
 	mxnet-cu90mkl? ( dev-python/mxnet-cu90mkl[${PYTHON_USEDEP}] )
-	mxnet-mkl? ( dev-python/mxnet-mkl[${PYTHON_USEDEP}] )"
+	mxnet-mkl? ( dev-python/mxnet-mkl[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

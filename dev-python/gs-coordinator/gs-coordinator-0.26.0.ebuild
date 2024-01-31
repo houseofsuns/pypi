@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/etcd-distro[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.49[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-tools-1.49[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/etcd-distro[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/setuptools-65.7.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/setuptools-65.7.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

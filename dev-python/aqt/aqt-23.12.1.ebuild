@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel qt5 qt6"
+IUSE="qt5 qt6"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	qt5? ( >=dev-python/PyQt5-5.14[${PYTHON_USEDEP}] )
 	qt5? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
 	qt6? ( >=dev-python/PyQt6-6.2[${PYTHON_USEDEP}] )
-	qt6? ( >=dev-python/PyQt6-WebEngine-6.2[${PYTHON_USEDEP}] )"
+	qt6? ( >=dev-python/PyQt6-WebEngine-6.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

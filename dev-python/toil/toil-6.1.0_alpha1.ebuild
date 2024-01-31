@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all aws cwl encryption google htcondor kubernetes mesos server wdl"
+IUSE="all aws cwl encryption google htcondor kubernetes mesos server wdl"
 DEPENDENCIES="dev-python/PyPubSub[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
 	<dev-python/ConfigArgParse-2.0[${PYTHON_USEDEP}]
@@ -103,6 +103,7 @@ DEPENDENCIES="dev-python/PyPubSub[${PYTHON_USEDEP}]
 	server? ( <dev-python/werkzeug-3.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/wes-service[${PYTHON_USEDEP}] )
 	wdl? ( dev-python/miniwdl[${PYTHON_USEDEP}] )
-	wdl? ( dev-python/wdlparse[${PYTHON_USEDEP}] )"
+	wdl? ( dev-python/wdlparse[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

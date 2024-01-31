@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
@@ -63,6 +63,7 @@ DEPENDENCIES="~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.3.2[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.8.0[${PYTHON_USEDEP}]"
+	~dev-python/zipp-3.8.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

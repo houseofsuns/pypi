@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cpu cu102 cu110 cu111 cu112 cu11x"
+IUSE="cpu cu102 cu110 cu111 cu112 cu11x"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/kara-storage[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	cu110? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
 	cu111? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
 	cu112? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
-	cu11x? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )"
+	cu11x? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel interactive"
+IUSE="interactive"
 DEPENDENCIES="dev-python/numpy-groupies[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/numpy-groupies[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	interactive? ( >=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/jupyter[${PYTHON_USEDEP}] )"
+	interactive? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

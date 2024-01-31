@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
-DEPENDENCIES=">dev-python/regex-2016.0[${PYTHON_USEDEP}]"
+IUSE=""
+DEPENDENCIES=">dev-python/regex-2016.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

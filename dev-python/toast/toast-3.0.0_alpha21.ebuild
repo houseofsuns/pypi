@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel interactive mpi totalconvolve"
+IUSE="interactive mpi totalconvolve"
 DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-5.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
 	interactive? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/plotly-resampler[${PYTHON_USEDEP}] )
 	mpi? ( >=dev-python/mpi4py-3.0[${PYTHON_USEDEP}] )
-	totalconvolve? ( dev-python/ducc0[${PYTHON_USEDEP}] )"
+	totalconvolve? ( dev-python/ducc0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel export finn_integration_ge_pt150 finn_integration_lt_pt150 hadamard notebook ort_integration stt test tts vision"
+IUSE="export finn_integration_ge_pt150 finn_integration_lt_pt150 hadamard notebook ort_integration stt test tts vision"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -77,6 +77,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	tts? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	tts? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	tts? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	vision? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
+	vision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

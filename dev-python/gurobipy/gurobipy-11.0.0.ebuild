@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel matrixapi"
+IUSE="matrixapi"
 DEPENDENCIES="matrixapi? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	matrixapi? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	matrixapi? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

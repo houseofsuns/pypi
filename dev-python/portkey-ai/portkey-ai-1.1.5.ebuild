@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	<dev-python/mypy-2.0[${PYTHON_USEDEP}]
 	~dev-python/black-23.7.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pydantic-1.10.12[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

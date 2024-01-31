@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs nb"
+IUSE="dev docs nb"
 DEPENDENCIES=">=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}]
@@ -54,6 +54,7 @@ DEPENDENCIES=">=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-multiversion-0.2.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	nb? ( >=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}] )
-	nb? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )"
+	nb? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

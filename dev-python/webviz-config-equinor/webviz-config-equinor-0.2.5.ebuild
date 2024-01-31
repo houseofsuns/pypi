@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES=">=dev-python/plotly-5.0[${PYTHON_USEDEP}]
 	dev-python/webviz-config[${PYTHON_USEDEP}]
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

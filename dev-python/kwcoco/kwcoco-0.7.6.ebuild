@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all all-strict graphics graphics-strict headless headless-strict optional optional-strict postgresql postgresql-strict runtime-strict tests tests-strict"
+IUSE="all all-strict graphics graphics-strict headless headless-strict optional optional-strict postgresql postgresql-strict runtime-strict tests tests-strict"
 DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/kwarray[${PYTHON_USEDEP}]
@@ -227,6 +227,7 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	tests-strict? ( dev-python/timerit[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

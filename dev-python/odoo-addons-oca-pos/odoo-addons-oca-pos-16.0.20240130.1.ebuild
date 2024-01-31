@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-pos-access-right[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-pos-customer-comment[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-pos-default-partner[${PYTHON_USEDEP}]
@@ -60,6 +60,7 @@ DEPENDENCIES="dev-python/odoo-addon-pos-access-right[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-pos-sale-order-print[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-pos-sale-product-config-no-variant[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-pos-stock-available-online[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-pos-to-weight-by-product-uom[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-pos-to-weight-by-product-uom[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

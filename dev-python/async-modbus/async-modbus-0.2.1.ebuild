@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel numpy tests"
+IUSE="numpy tests"
 DEPENDENCIES="dev-python/connio[${PYTHON_USEDEP}]
 	dev-python/uModbus[${PYTHON_USEDEP}]
 	numpy? ( >=dev-python/numpy-1.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

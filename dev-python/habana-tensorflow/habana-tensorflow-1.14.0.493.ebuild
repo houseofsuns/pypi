@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel media"
+IUSE="media"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	media? ( dev-python/habana-media-loader[${PYTHON_USEDEP}] )"
+	media? ( dev-python/habana-media-loader[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

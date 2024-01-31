@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python tools to run cisTEM programs and code [top-max 0.3.5]"
+DESCRIPTION="Python tools to run cisTEM programs and code [top-max 0.4.1]"
 
 HOMEPAGE=""
 LICENSE="Apache License"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel discord eventserver"
+IUSE="discord eventserver"
 DEPENDENCIES="dev-python/ndspy[${PYTHON_USEDEP}]
 	dev-python/skytemple-files[${PYTHON_USEDEP}]
 	dev-python/pmdsky-debug-py[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="dev-python/ndspy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	discord? ( >=dev-python/pypresence-4.2.1[${PYTHON_USEDEP}] )
-	eventserver? ( dev-python/skytemple-eventserver[${PYTHON_USEDEP}] )"
+	eventserver? ( dev-python/skytemple-eventserver[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel install ldap otptoken_yubikey"
+IUSE="install ldap otptoken_yubikey"
 DEPENDENCIES=">=dev-python/cryptography-1.6[${PYTHON_USEDEP}]
 	dev-python/ipalib[${PYTHON_USEDEP}]
 	dev-python/ipapython[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/cryptography-1.6[${PYTHON_USEDEP}]
 	install? ( dev-python/ipaplatform[${PYTHON_USEDEP}] )
 	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
 	otptoken_yubikey? ( dev-python/python-yubico[${PYTHON_USEDEP}] )
-	otptoken_yubikey? ( dev-python/pyusb[${PYTHON_USEDEP}] )"
+	otptoken_yubikey? ( dev-python/pyusb[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

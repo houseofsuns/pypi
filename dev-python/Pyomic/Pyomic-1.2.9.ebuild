@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	dev-python/hnswlib[${PYTHON_USEDEP}]
 	dev-python/ERgene[${PYTHON_USEDEP}]
@@ -55,6 +55,7 @@ DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	dev-python/graphtools[${PYTHON_USEDEP}]
 	dev-python/datashader[${PYTHON_USEDEP}]
 	dev-python/phate[${PYTHON_USEDEP}]
-	dev-python/wget[${PYTHON_USEDEP}]"
+	dev-python/wget[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ui_renderer"
+IUSE="ui_renderer"
 DEPENDENCIES="dev-python/dm-env[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	ui_renderer? ( dev-python/pygame[${PYTHON_USEDEP}] )"
+	ui_renderer? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

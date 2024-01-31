@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel jupyter lint test typehinting"
+IUSE="jupyter lint test typehinting"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/parso[${PYTHON_USEDEP}]
 	>=dev-python/pytest-3.0[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	typehinting? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	typehinting? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
+	typehinting? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

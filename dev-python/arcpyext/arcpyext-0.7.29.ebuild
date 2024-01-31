@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	<dev-python/pathlib2-3.0[${PYTHON_USEDEP}]
 	<dev-python/xlsxwriter-3.0[${PYTHON_USEDEP}]
 	<dev-python/pythonnet-4.0[${PYTHON_USEDEP}]
-	<dev-python/sqlparse-0.5[${PYTHON_USEDEP}]"
+	<dev-python/sqlparse-0.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

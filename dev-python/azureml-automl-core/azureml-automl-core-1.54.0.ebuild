@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/azureml-dataset-runtime[${PYTHON_USEDEP}]
 	dev-python/azureml-telemetry[${PYTHON_USEDEP}]
 	test? ( >=dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/azureml-dataset-runtime[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/ddt[${PYTHON_USEDEP}] )"
+	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

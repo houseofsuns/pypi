@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pyqt pyqt5 pyside pyside2 pyside6 qt"
+IUSE="pyqt pyqt5 pyside pyside2 pyside6 qt"
 DEPENDENCIES="pyqt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	qt? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
+	qt? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

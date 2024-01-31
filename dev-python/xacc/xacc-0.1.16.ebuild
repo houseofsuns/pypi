@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all"
+IUSE="all"
 DEPENDENCIES="dev-python/iPOPO[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	all? ( dev-python/xacc-rigetti[${PYTHON_USEDEP}] )
 	all? ( dev-python/xacc-ibm[${PYTHON_USEDEP}] )
 	all? ( dev-python/tnqvm[${PYTHON_USEDEP}] )
 	all? ( dev-python/xacc-vqe[${PYTHON_USEDEP}] )
-	all? ( dev-python/xacc-dwave[${PYTHON_USEDEP}] )"
+	all? ( dev-python/xacc-dwave[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

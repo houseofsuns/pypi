@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pulser-core[${PYTHON_USEDEP}]
 	dev-python/pulser-simulation[${PYTHON_USEDEP}]
-	dev-python/pulser-pasqal[${PYTHON_USEDEP}]"
+	dev-python/pulser-pasqal[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

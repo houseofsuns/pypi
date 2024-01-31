@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}]
 	dev-python/python-box[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-3.3[${PYTHON_USEDEP}]
-	dev-python/injecta[${PYTHON_USEDEP}]"
+	dev-python/injecta[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

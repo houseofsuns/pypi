@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cli_args numba numpy pandas sparql sqlalchemy"
+IUSE="cli_args numba numpy pandas sparql sqlalchemy"
 DEPENDENCIES=">=dev-python/pebble-4.6.3[${PYTHON_USEDEP}]
 	>=dev-python/decorator-5.1.0[${PYTHON_USEDEP}]
 	dev-python/aioitertools[${PYTHON_USEDEP}]
@@ -60,6 +60,7 @@ DEPENDENCIES=">=dev-python/pebble-4.6.3[${PYTHON_USEDEP}]
 	sqlalchemy? ( dev-python/sqlalchemy-mixins[${PYTHON_USEDEP}] )
 	sqlalchemy? ( >=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	sqlalchemy? ( >=dev-python/networkx-2.8.5[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( >=dev-python/networkx-2.8.5[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

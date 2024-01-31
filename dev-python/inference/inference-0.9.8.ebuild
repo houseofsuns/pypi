@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel clip gaze hosted http sam waf"
+IUSE="clip gaze hosted http sam waf"
 DEPENDENCIES="<=dev-python/APScheduler-3.10.1[${PYTHON_USEDEP}]
 	<=dev-python/cython-3.0.0[${PYTHON_USEDEP}]
 	<=dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
@@ -63,6 +63,7 @@ DEPENDENCIES="<=dev-python/APScheduler-3.10.1[${PYTHON_USEDEP}]
 	sam? ( dev-python/torch[${PYTHON_USEDEP}] )
 	sam? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	sam? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	waf? ( dev-python/metlo[${PYTHON_USEDEP}] )"
+	waf? ( dev-python/metlo[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

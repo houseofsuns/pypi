@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo12-addon-web-action-conditionable[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-web-advanced-filter[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-web-advanced-search[${PYTHON_USEDEP}]
@@ -103,6 +103,7 @@ DEPENDENCIES="dev-python/odoo12-addon-web-action-conditionable[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-web-widget-url-advanced[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-web-widget-url-translatable[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-web-widget-x2many-2d-matrix[${PYTHON_USEDEP}]
-	dev-python/odoo12-addon-web-widget-x2many-2d-matrix-example[${PYTHON_USEDEP}]"
+	dev-python/odoo12-addon-web-widget-x2many-2d-matrix-example[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

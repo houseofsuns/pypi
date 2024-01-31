@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all api gui highlight train"
+IUSE="all api gui highlight train"
 DEPENDENCIES=">=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
 	>=dev-python/munch-2.5.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
 	highlight? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	train? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
 	train? ( dev-python/torchtext[${PYTHON_USEDEP}] )
-	train? ( >=dev-python/imagesize-1.2.0[${PYTHON_USEDEP}] )"
+	train? ( >=dev-python/imagesize-1.2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

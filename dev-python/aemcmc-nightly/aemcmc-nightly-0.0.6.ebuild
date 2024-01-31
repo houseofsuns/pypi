@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/aesara-2.8.3[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	dev-python/cons[${PYTHON_USEDEP}]
 	dev-python/logical-unification[${PYTHON_USEDEP}]
 	dev-python/etuples[${PYTHON_USEDEP}]
-	dev-python/minikanren[${PYTHON_USEDEP}]"
+	dev-python/minikanren[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs testing"
+IUSE="docs testing"
 DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	testing? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/torch[${PYTHON_USEDEP}] )
-	testing? ( dev-python/transformers[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/transformers[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

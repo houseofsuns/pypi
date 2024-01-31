@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel nlp rnn truera_qii viz"
+IUSE="nlp rnn truera_qii viz"
 DEPENDENCIES=">=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-1.2.2[${PYTHON_USEDEP}]
@@ -84,6 +84,7 @@ DEPENDENCIES=">=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	rnn? ( >=dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}] )
 	rnn? ( dev-python/trulens[${PYTHON_USEDEP}] )
 	truera_qii? ( dev-python/truera-qii[${PYTHON_USEDEP}] )
-	viz? ( >=dev-python/plotly-5.11.0[${PYTHON_USEDEP}] )"
+	viz? ( >=dev-python/plotly-5.11.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

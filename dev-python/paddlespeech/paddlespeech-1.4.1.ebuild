@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel develop doc test"
+IUSE="develop doc test"
 DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
 	dev-python/g2p-en[${PYTHON_USEDEP}]
@@ -83,6 +83,7 @@ DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/torchaudio[${PYTHON_USEDEP}] )"
+	test? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

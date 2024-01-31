@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all goggle testing"
+IUSE="all goggle testing"
 DEPENDENCIES="<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -104,6 +104,7 @@ DEPENDENCIES="<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/py[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	testing? ( dev-python/click[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/click[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

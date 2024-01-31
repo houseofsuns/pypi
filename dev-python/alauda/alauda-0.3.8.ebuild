@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/mock-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.4.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-0.4.2[${PYTHON_USEDEP}]
-	>=dev-python/paramiko-1.15.2[${PYTHON_USEDEP}]"
+	>=dev-python/paramiko-1.15.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

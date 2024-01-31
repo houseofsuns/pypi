@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-barcode-action[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-base-archive-security[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-base-binary-url-import[${PYTHON_USEDEP}]
@@ -51,6 +51,7 @@ DEPENDENCIES="dev-python/odoo-addon-barcode-action[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sequence-reset-period[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-server-action-mass-edit[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-test-base-binary-url-import[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-user-all-groups[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-user-all-groups[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pyodbc vertica-python"
+IUSE="pyodbc vertica-python"
 DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.1.11[${PYTHON_USEDEP}]
 	pyodbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	vertica-python? ( dev-python/vertica-python[${PYTHON_USEDEP}] )"
+	vertica-python? ( dev-python/vertica-python[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

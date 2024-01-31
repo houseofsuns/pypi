@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ext"
+IUSE="ext"
 DEPENDENCIES=">=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
 	ext? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	ext? ( dev-python/sklearn-json[${PYTHON_USEDEP}] )
-	ext? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
+	ext? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

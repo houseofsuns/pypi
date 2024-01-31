@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tpu"
+IUSE="tpu"
 DEPENDENCIES=">=dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
 	dev-python/cloud-tpu-client[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	tpu? ( dev-python/libtpu-nightly[${PYTHON_USEDEP}] )"
+	tpu? ( dev-python/libtpu-nightly[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

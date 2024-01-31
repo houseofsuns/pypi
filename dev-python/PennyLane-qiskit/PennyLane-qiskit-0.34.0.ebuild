@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/qiskit-aer[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-runtime[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}]
 	dev-python/PennyLane[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]"
+	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc test"
+IUSE="dev doc test"
 DEPENDENCIES="~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-23.0[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES="~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	test? ( >=dev-python/tox-3.23.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/psutil-5.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/py-spy[${PYTHON_USEDEP}] )"
+	test? ( dev-python/py-spy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

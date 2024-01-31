@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/markdown-2.7[${PYTHON_USEDEP}]
 	<dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/django-import-export[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="<dev-python/markdown-2.7[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-2.4.9[${PYTHON_USEDEP}]
 	<dev-python/requests-2.19[${PYTHON_USEDEP}]
-	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

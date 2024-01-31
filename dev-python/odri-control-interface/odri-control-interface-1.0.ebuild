@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build"
+IUSE="build"
 DEPENDENCIES="dev-python/cmeel[${PYTHON_USEDEP}]
 	dev-python/master-board[${PYTHON_USEDEP}]
 	dev-python/cmeel-yaml-cpp[${PYTHON_USEDEP}]
 	dev-python/eigenpy[${PYTHON_USEDEP}]
 	build? ( dev-python/master-board[${PYTHON_USEDEP}] )
-	build? ( dev-python/eigenpy[${PYTHON_USEDEP}] )"
+	build? ( dev-python/eigenpy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

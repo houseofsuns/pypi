@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pdf rest"
+IUSE="pdf rest"
 DEPENDENCIES="pdf? ( >=dev-python/reportlab-1.2[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/rxp[${PYTHON_USEDEP}] )
 	rest? ( >=dev-python/docutils-0.3[${PYTHON_USEDEP}] )
-	rest? ( dev-python/pack[${PYTHON_USEDEP}] )"
+	rest? ( dev-python/pack[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pipeline promptflow"
+IUSE="pipeline promptflow"
 DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	pipeline? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
 	promptflow? ( dev-python/promptflow[${PYTHON_USEDEP}] )
-	promptflow? ( dev-python/promptflow-tools[${PYTHON_USEDEP}] )"
+	promptflow? ( dev-python/promptflow-tools[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

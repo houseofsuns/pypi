@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pillow-8.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

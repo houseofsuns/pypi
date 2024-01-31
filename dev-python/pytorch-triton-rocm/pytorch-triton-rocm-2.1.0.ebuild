@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests tutorials"
+IUSE="tests tutorials"
 DEPENDENCIES="dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/cmake[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/scipy-1.7.1[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
+	tutorials? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

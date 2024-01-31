@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build docker docs test"
+IUSE="build docker docs test"
 DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
@@ -58,6 +58,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyvirtualdisplay[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/tclint[${PYTHON_USEDEP}] )"
+	test? ( dev-python/tclint[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

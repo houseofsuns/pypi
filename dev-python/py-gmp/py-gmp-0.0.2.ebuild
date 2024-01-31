@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel daemons"
+IUSE="daemons"
 DEPENDENCIES="daemons? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	daemons? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	daemons? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

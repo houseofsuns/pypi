@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel plotting"
-DEPENDENCIES="plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+IUSE="plotting"
+DEPENDENCIES="plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

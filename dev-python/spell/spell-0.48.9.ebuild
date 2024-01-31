@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cluster-aws cluster-azure cluster-gcp dev serving test"
+IUSE="cluster-aws cluster-azure cluster-gcp dev serving test"
 DEPENDENCIES=">=dev-python/GitPython-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/future-0.14.0[${PYTHON_USEDEP}]
@@ -78,6 +78,7 @@ DEPENDENCIES=">=dev-python/GitPython-3.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/sh[${PYTHON_USEDEP}] )"
+	test? ( dev-python/sh[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

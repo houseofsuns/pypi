@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	tests? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )
 	tests? ( dev-python/openai[${PYTHON_USEDEP}] )
 	tests? ( dev-python/litellm[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tiktoken[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel paster test tracker"
+IUSE="paster test tracker"
 DEPENDENCIES=">=dev-python/Babel-0.9.4[${PYTHON_USEDEP}]
 	dev-python/biryani[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES=">=dev-python/Babel-0.9.4[${PYTHON_USEDEP}]
 	paster? ( dev-python/PasteScript[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	tracker? ( dev-python/openfisca-tracker[${PYTHON_USEDEP}] )"
+	tracker? ( dev-python/openfisca-tracker[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/certifi-2019.11.28[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.25.11[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-1.25.11[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

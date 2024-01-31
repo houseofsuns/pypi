@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel h2"
+IUSE="h2"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	h2? ( dev-python/hyper[${PYTHON_USEDEP}] )"
+	h2? ( dev-python/hyper[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

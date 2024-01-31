@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/django-1.7.7[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.3.1[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-xml[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/django-1.7.7[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-django[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-0.9.3[${PYTHON_USEDEP}]
 	dev-python/xlutils[${PYTHON_USEDEP}]
-	>=dev-python/xlwt-0.7.5[${PYTHON_USEDEP}]"
+	>=dev-python/xlwt-0.7.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

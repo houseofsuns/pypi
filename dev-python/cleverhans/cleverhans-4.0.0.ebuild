@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel jax pytorch tf"
+IUSE="jax pytorch tf"
 DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
 	dev-python/pycodestyle[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
 	pytorch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
-	tf? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )"
+	tf? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

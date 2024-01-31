@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/gym3[${PYTHON_USEDEP}]
 	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel asyncio-subscribe bond esg fund news proxy subscribe"
+IUSE="asyncio-subscribe bond esg fund news proxy subscribe"
 DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.5.2[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	news? ( dev-python/rqdatac-news[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/python-socks[${PYTHON_USEDEP}] )
-	subscribe? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"
+	subscribe? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

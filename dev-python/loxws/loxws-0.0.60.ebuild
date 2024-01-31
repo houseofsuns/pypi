@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]"
+	>=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

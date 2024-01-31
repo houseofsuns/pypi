@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel plotting"
+IUSE="plotting"
 DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	plotting? ( >=dev-python/matplotlib-3.2[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	plotting? ( <dev-python/imageio-2.28.1[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )"
+	plotting? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

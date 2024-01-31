@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev test"
+IUSE="dev test"
 DEPENDENCIES="dev-python/dxlbootstrap[${PYTHON_USEDEP}]
 	dev-python/dxlclient[${PYTHON_USEDEP}]
 	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/dxlbootstrap[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( <dev-python/astroid-2.3.0[${PYTHON_USEDEP}] )
-	test? ( <=dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )"
+	test? ( <=dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

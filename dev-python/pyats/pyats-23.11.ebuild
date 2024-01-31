@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full library robot template"
+IUSE="full library robot template"
 DEPENDENCIES=">=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/pyats-aereport[${PYTHON_USEDEP}]
 	dev-python/pyats-aetest[${PYTHON_USEDEP}]
@@ -48,6 +48,7 @@ DEPENDENCIES=">=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	library? ( dev-python/genie[${PYTHON_USEDEP}] )
 	robot? ( dev-python/pyats-robot[${PYTHON_USEDEP}] )
 	robot? ( dev-python/genie-libs-robot[${PYTHON_USEDEP}] )
-	template? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )"
+	template? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

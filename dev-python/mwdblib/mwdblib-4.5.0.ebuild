@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cli"
+IUSE="cli"
 DEPENDENCIES=">=dev-python/keyring-18.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	cli? ( dev-python/beautifultable[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click-default-group[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
-	cli? ( >=dev-python/humanize-0.5.1[${PYTHON_USEDEP}] )"
+	cli? ( >=dev-python/humanize-0.5.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

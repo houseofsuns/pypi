@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel capirca"
+IUSE="capirca"
 DEPENDENCIES="<dev-python/cryptography-4.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-1.44[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.2[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="<dev-python/cryptography-4.0[${PYTHON_USEDEP}]
 	dev-python/pybatfish[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	capirca? ( dev-python/pybatfish[${PYTHON_USEDEP}] )"
+	capirca? ( dev-python/pybatfish[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

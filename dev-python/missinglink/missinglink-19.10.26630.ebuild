@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20[${PYTHON_USEDEP}]
 	~dev-python/terminaltables-3.1[${PYTHON_USEDEP}]
@@ -61,6 +61,7 @@ DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
-	dev-python/google-cloud-kms[${PYTHON_USEDEP}]"
+	dev-python/google-cloud-kms[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

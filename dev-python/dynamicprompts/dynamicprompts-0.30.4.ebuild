@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev feelinglucky magicprompt"
+IUSE="dev feelinglucky magicprompt"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-lazy-fixture-0.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	feelinglucky? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )
-	magicprompt? ( dev-python/transformers[${PYTHON_USEDEP}] )"
+	magicprompt? ( dev-python/transformers[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

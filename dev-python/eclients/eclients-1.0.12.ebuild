@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/aelog[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/aelog[${PYTHON_USEDEP}]
 	>=dev-python/redis-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-0.9.2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
-	>=dev-python/boltons-18.0.1[${PYTHON_USEDEP}]"
+	>=dev-python/boltons-18.0.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

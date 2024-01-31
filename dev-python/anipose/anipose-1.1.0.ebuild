@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel viz"
+IUSE="viz"
 DEPENDENCIES="dev-python/deeplabcut[${PYTHON_USEDEP}]
 	dev-python/aniposelib[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/deeplabcut[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-compress[${PYTHON_USEDEP}]
 	dev-python/flask-ipban[${PYTHON_USEDEP}]
-	viz? ( dev-python/mayavi[${PYTHON_USEDEP}] )"
+	viz? ( dev-python/mayavi[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

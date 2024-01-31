@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel doc tests"
+IUSE="doc tests"
 DEPENDENCIES="dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

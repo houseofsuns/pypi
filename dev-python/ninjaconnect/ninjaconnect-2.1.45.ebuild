@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/keyring-23.5.0[${PYTHON_USEDEP}]
 	dev-python/readchar[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/rich-13.6.0[${PYTHON_USEDEP}]
-	~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]"
+	~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

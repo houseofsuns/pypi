@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.21.2[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]"
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

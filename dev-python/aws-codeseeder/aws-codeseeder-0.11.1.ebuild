@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel modules"
+IUSE="modules"
 DEPENDENCIES=">=dev-python/boto3-1.24.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.0[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/boto3-1.24.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	modules? ( dev-python/awscli[${PYTHON_USEDEP}] )
 	modules? ( >=dev-python/wheel-0.38.1[${PYTHON_USEDEP}] )
-	modules? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )"
+	modules? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

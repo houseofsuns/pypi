@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/bigdl-orca[${PYTHON_USEDEP}]
 	dev-python/bigdl-nano[${PYTHON_USEDEP}]
 	dev-python/bigdl-chronos[${PYTHON_USEDEP}]
 	dev-python/bigdl-friesian[${PYTHON_USEDEP}]
-	dev-python/bigdl-serving[${PYTHON_USEDEP}]"
+	dev-python/bigdl-serving[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

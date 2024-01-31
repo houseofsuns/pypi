@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel client"
-DEPENDENCIES="client? ( dev-python/pymilvus[${PYTHON_USEDEP}] )"
+IUSE="client"
+DEPENDENCIES="client? ( dev-python/pymilvus[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
 	dev-python/elementpath[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-it-fatturapa[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-it-fiscal-document-type[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-it-withholding-tax-reason[${PYTHON_USEDEP}]
-	dev-python/odoo[${PYTHON_USEDEP}]"
+	dev-python/odoo[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
-	dev-python/tracardi-dot-notation[${PYTHON_USEDEP}]"
+	dev-python/tracardi-dot-notation[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

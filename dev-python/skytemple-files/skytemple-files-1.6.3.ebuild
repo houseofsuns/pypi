@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel spritecollab"
+IUSE="spritecollab"
 DEPENDENCIES="dev-python/pmdsky-debug-py[${PYTHON_USEDEP}]
 	dev-python/ndspy[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/pmdsky-debug-py[${PYTHON_USEDEP}]
 	spritecollab? ( dev-python/gql[${PYTHON_USEDEP}] )
 	spritecollab? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	spritecollab? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	spritecollab? ( dev-python/lru-dict[${PYTHON_USEDEP}] )"
+	spritecollab? ( dev-python/lru-dict[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

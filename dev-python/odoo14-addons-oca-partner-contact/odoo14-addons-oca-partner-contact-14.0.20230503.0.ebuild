@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-animal[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-animal-owner[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-base-country-state-translatable[${PYTHON_USEDEP}]
@@ -92,6 +92,7 @@ DEPENDENCIES="dev-python/odoo14-addon-animal[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-partner-tz[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-partner-vat-unique[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-portal-partner-select-all[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-sale-customer-rank[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-sale-customer-rank[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

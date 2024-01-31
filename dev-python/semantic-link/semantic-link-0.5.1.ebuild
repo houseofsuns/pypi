@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/semantic-link-sempy[${PYTHON_USEDEP}]
 	dev-python/semantic-link-functions-geopandas[${PYTHON_USEDEP}]
 	dev-python/semantic-link-functions-holidays[${PYTHON_USEDEP}]
 	dev-python/semantic-link-functions-meteostat[${PYTHON_USEDEP}]
 	dev-python/semantic-link-functions-phonenumbers[${PYTHON_USEDEP}]
-	dev-python/semantic-link-functions-validators[${PYTHON_USEDEP}]"
+	dev-python/semantic-link-functions-validators[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

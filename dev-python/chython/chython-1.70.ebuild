@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel mapping"
+IUSE="mapping"
 DEPENDENCIES="dev-python/CachedMethods[${PYTHON_USEDEP}]
 	mapping? ( dev-python/chytorch-rxnmap[${PYTHON_USEDEP}] )
 	<dev-python/lazy-object-proxy-2.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/py-mini-racer[${PYTHON_USEDEP}]"
+	dev-python/py-mini-racer[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

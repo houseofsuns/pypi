@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs format test"
+IUSE="docs format test"
 DEPENDENCIES=">=dev-python/grpcio-1.46.3[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-tools-1.46.3[${PYTHON_USEDEP}]
 	dev-python/mypy-protobuf[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.46.3[${PYTHON_USEDEP}]
 	format? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	format? ( >=dev-python/pylint-2.13.8[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

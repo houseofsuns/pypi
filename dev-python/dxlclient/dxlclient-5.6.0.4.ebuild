@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev test"
+IUSE="dev test"
 DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
 	<dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
 	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	test? ( <=dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/astroid-2.3.3[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/astroid-2.3.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

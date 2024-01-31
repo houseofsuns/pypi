@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/attrs-23.0[${PYTHON_USEDEP}]
 	dev-python/core-universal[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	<=dev-python/websocket-client-0.59[${PYTHON_USEDEP}]"
+	<=dev-python/websocket-client-0.59[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

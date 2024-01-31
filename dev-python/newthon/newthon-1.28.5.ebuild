@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cryptg"
+IUSE="cryptg"
 DEPENDENCIES="dev-python/pyaes[${PYTHON_USEDEP}]
 	dev-python/rsa[${PYTHON_USEDEP}]
-	cryptg? ( dev-python/cryptg[${PYTHON_USEDEP}] )"
+	cryptg? ( dev-python/cryptg[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

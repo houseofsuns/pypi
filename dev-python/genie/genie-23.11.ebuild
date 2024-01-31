@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev full robot"
+IUSE="dev full robot"
 DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	full? ( dev-python/genie-telemetry[${PYTHON_USEDEP}] )
 	full? ( dev-python/genie-trafficgen[${PYTHON_USEDEP}] )
 	robot? ( dev-python/pyats-robot[${PYTHON_USEDEP}] )
-	robot? ( dev-python/genie-libs-robot[${PYTHON_USEDEP}] )"
+	robot? ( dev-python/genie-libs-robot[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

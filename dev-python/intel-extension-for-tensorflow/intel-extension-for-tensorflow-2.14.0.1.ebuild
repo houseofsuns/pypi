@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cpu gpu xpu"
+IUSE="cpu gpu xpu"
 DEPENDENCIES=">=dev-python/grpcio-1.8.6[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.8.6[${PYTHON_USEDEP}]
 	~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
 	cpu? ( dev-python/intel-extension-for-tensorflow-lib[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/intel-extension-for-tensorflow-lib[${PYTHON_USEDEP}] )
-	xpu? ( dev-python/intel-extension-for-tensorflow-lib[${PYTHON_USEDEP}] )"
+	xpu? ( dev-python/intel-extension-for-tensorflow-lib[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.17.1[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/flatbuffers-23.5.6[${PYTHON_USEDEP}]
 	dev-python/pynng[${PYTHON_USEDEP}]
 	dev-python/akshare[${PYTHON_USEDEP}]
-	dev-python/pyecharts[${PYTHON_USEDEP}]"
+	dev-python/pyecharts[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

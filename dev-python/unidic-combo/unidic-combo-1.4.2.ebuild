@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/absl-py-0.9.0[${PYTHON_USEDEP}]
 	dev-python/allennlp[${PYTHON_USEDEP}]
 	dev-python/cached-path[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES=">=dev-python/absl-py-0.9.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/unidic-lite[${PYTHON_USEDEP}]
-	dev-python/unidic2ud[${PYTHON_USEDEP}]"
+	dev-python/unidic2ud[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

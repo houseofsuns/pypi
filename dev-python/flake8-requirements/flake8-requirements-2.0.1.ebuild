@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/flake8-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-10.0.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.2.1[${PYTHON_USEDEP}]"
+	>=dev-python/tomli-1.2.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

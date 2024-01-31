@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo11-addon-account-banking-mandate[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-account-payment-partner[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-base-iso3166[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/odoo11-addon-account-banking-mandate[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-report-xml[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/xmlsig[${PYTHON_USEDEP}]"
+	dev-python/xmlsig[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

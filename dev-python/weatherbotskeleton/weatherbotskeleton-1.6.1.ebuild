@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/botskeleton[${PYTHON_USEDEP}]
 	>=dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cryptography demo django kubernetes"
+IUSE="cryptography demo django kubernetes"
 DEPENDENCIES=">=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES=">=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
 	cryptography? ( >=dev-python/cryptography-3.1.1[${PYTHON_USEDEP}] )
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	demo? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )"
+	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/cnx-common[${PYTHON_USEDEP}]
 	dev-python/cnx-transforms[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/cnx-common[${PYTHON_USEDEP}]
 	test? ( dev-python/pyramid[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/mock-1.0.1[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mock-1.0.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

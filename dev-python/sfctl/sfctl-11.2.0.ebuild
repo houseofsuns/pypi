@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/knack[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.0[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/knack[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pylint-2.7.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/contextlib2[${PYTHON_USEDEP}] )"
+	test? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

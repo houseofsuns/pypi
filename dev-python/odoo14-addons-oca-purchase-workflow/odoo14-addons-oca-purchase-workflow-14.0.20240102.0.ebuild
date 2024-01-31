@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-partner-supplierinfo-smartbutton[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-procurement-batch-generator[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-procurement-purchase-no-grouping[${PYTHON_USEDEP}]
@@ -123,6 +123,7 @@ DEPENDENCIES="dev-python/odoo14-addon-partner-supplierinfo-smartbutton[${PYTHON_
 	dev-python/odoo14-addon-sale-purchase-force-vendor[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-subcontracted-service[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-supplier-calendar[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-vendor-transport-lead-time[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-vendor-transport-lead-time[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

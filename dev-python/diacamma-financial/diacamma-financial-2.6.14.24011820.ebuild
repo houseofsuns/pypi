@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/lucterios[${PYTHON_USEDEP}]
 	dev-python/lucterios-contacts[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	~dev-python/requests-oauthlib-1.3[${PYTHON_USEDEP}]"
+	~dev-python/requests-oauthlib-1.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

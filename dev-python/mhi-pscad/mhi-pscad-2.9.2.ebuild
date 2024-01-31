@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all cosim psout xml"
+IUSE="all cosim psout xml"
 DEPENDENCIES="dev-python/mhi-common[${PYTHON_USEDEP}]
 	all? ( dev-python/mhi-cosim[${PYTHON_USEDEP}] )
 	all? ( dev-python/mhi-psout[${PYTHON_USEDEP}] )
 	all? ( dev-python/mhi-xml[${PYTHON_USEDEP}] )
 	cosim? ( dev-python/mhi-cosim[${PYTHON_USEDEP}] )
 	psout? ( dev-python/mhi-psout[${PYTHON_USEDEP}] )
-	xml? ( dev-python/mhi-xml[${PYTHON_USEDEP}] )"
+	xml? ( dev-python/mhi-xml[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

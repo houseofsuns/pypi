@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs x_setup"
+IUSE="dev docs x_setup"
 DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/clang-format[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
@@ -80,6 +80,7 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/breathe[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/breathe[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all plot"
+IUSE="all plot"
 DEPENDENCIES="dev-python/x21[${PYTHON_USEDEP}]
 	dev-python/fjson[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/x21[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	all? ( dev-python/vtk[${PYTHON_USEDEP}] )
-	plot? ( dev-python/vtk[${PYTHON_USEDEP}] )"
+	plot? ( dev-python/vtk[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

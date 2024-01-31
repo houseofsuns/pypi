@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/hat-aio[${PYTHON_USEDEP}]
 	dev-python/hat-json[${PYTHON_USEDEP}]
-	dev-python/hat-sbs[${PYTHON_USEDEP}]"
+	dev-python/hat-sbs[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

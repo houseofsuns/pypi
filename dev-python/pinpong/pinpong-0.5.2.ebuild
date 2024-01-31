@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	~dev-python/freetype-py-2.1.0[${PYTHON_USEDEP}]
-	dev-python/modbus-tk[${PYTHON_USEDEP}]"
+	dev-python/modbus-tk[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

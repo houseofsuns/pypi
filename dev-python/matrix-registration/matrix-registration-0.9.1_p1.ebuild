@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel postgres testing"
+IUSE="postgres testing"
 DEPENDENCIES=">=dev-python/alembic-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	~dev-python/flask-1.1[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES=">=dev-python/alembic-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/wtforms-2.1[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/parameterized-0.7.0[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

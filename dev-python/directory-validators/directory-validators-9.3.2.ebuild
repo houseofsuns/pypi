@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="<=dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	<dev-python/olefile-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
@@ -63,6 +63,7 @@ DEPENDENCIES="<=dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	test? ( ~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}] )
-	test? ( dev-python/codecov[${PYTHON_USEDEP}] )"
+	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

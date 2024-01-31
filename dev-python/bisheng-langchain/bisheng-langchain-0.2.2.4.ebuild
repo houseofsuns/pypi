@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/zhipuai[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	~dev-python/shapely-2.0.2[${PYTHON_USEDEP}]
-	~dev-python/filetype-1.2.0[${PYTHON_USEDEP}]"
+	~dev-python/filetype-1.2.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

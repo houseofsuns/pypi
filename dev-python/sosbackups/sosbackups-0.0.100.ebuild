@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/croniter[${PYTHON_USEDEP}]
 	dev-python/dwho[${PYTHON_USEDEP}]
 	dev-python/httpdis[${PYTHON_USEDEP}]
 	dev-python/shellescape[${PYTHON_USEDEP}]
 	dev-python/sonicprobe[${PYTHON_USEDEP}]
-	dev-python/subprocess32[${PYTHON_USEDEP}]"
+	dev-python/subprocess32[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

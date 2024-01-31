@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/py-spy[${PYTHON_USEDEP}]
 	~dev-python/debugpy-1.6.3[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.0[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/py-spy[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
 	~dev-python/py-cpuinfo-5.0.0[${PYTHON_USEDEP}]
-	dev-python/torch-tb-profiler[${PYTHON_USEDEP}]"
+	dev-python/torch-tb-profiler[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

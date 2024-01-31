@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/itk[${PYTHON_USEDEP}]
-	dev-python/itk-cudacommon-cuda116[${PYTHON_USEDEP}]"
+	dev-python/itk-cudacommon-cuda116[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs format lint security tests wheel"
+IUSE="docs format lint security tests wheel"
 DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10[${PYTHON_USEDEP}]
 	~dev-python/docker-6.1[${PYTHON_USEDEP}]
@@ -84,6 +84,7 @@ DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-xdist-2.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/requests-mock-1.9[${PYTHON_USEDEP}] )
 	wheel? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

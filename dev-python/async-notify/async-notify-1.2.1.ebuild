@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all azure boto3 default google push telegram"
+IUSE="all azure boto3 default google push telegram"
 DEPENDENCIES="~dev-python/cython-3.0.6[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.42.0[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES="~dev-python/cython-3.0.6[${PYTHON_USEDEP}]
 	google? ( >=dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}] )
 	push? ( dev-python/onesignal-sdk[${PYTHON_USEDEP}] )
 	telegram? ( dev-python/aiogram[${PYTHON_USEDEP}] )
-	telegram? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )"
+	telegram? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

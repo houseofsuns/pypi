@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-product-template-multi-link[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-sale-attribute-filter-form-submit[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-sale-attribute-filter-multiselect[${PYTHON_USEDEP}]
@@ -51,6 +51,7 @@ DEPENDENCIES="dev-python/odoo-addon-product-template-multi-link[${PYTHON_USEDEP}
 	dev-python/odoo-addon-website-sale-vat-required[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-sale-wishlist-hide-price[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-website-sale-wishlist-keep[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-website-snippet-product-category[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-website-snippet-product-category[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

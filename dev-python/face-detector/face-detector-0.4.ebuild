@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/absl-py-0.7.1[${PYTHON_USEDEP}]
 	~dev-python/astor-0.7.1[${PYTHON_USEDEP}]
 	dev-python/dlib[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="~dev-python/absl-py-0.7.1[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-estimator[${PYTHON_USEDEP}]
 	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
-	~dev-python/werkzeug-0.15.2[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-0.15.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

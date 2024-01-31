@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all all-strict optional optional-strict runtime-strict tests tests-strict"
+IUSE="all all-strict optional optional-strict runtime-strict tests tests-strict"
 DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/scriptconfig[${PYTHON_USEDEP}]
@@ -87,6 +87,7 @@ DEPENDENCIES="dev-python/ubelt[${PYTHON_USEDEP}]
 	tests-strict? ( ~dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

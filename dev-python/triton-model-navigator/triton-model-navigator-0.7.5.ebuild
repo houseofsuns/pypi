@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc jax tensorflow test"
+IUSE="dev doc jax tensorflow test"
 DEPENDENCIES=">=dev-python/coloredlogs-15.0.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
@@ -72,6 +72,7 @@ DEPENDENCIES=">=dev-python/coloredlogs-15.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-unordered[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tox-3.23.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

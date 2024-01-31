@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/dicompyler-core[${PYTHON_USEDEP}]
 	dev-python/fitz[${PYTHON_USEDEP}]
 	dev-python/fredtools[${PYTHON_USEDEP}]
@@ -49,6 +49,7 @@ DEPENDENCIES="dev-python/dicompyler-core[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0.2[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
-	dev-python/uproot[${PYTHON_USEDEP}]"
+	dev-python/uproot[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel coap eltakotool serial"
+IUSE="coap eltakotool serial"
 DEPENDENCIES="coap? ( dev-python/aiocoap[${PYTHON_USEDEP}] )
 	eltakotool? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	eltakotool? ( dev-python/pyxdg[${PYTHON_USEDEP}] )
 	serial? ( dev-python/pyserial-asyncio[${PYTHON_USEDEP}] )
-	serial? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )"
+	serial? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

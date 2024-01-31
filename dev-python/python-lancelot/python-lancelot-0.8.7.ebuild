@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/pefile[${PYTHON_USEDEP}]
 	dev? ( dev-python/maturin[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/pefile[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pycodestyle-2.9.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

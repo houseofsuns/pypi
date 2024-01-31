@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-account-move-line-product[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-move-line-stock-info[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-procurement-auto-create-group[${PYTHON_USEDEP}]
@@ -60,6 +60,7 @@ DEPENDENCIES="dev-python/odoo-addon-account-move-line-product[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-route-mto[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-search-supplierinfo-code[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-storage-category-capacity-name[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-stock-warehouse-calendar[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-stock-warehouse-calendar[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

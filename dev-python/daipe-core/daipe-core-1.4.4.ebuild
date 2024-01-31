@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pyfony-bundles[${PYTHON_USEDEP}]
 	dev-python/injecta[${PYTHON_USEDEP}]
 	dev-python/logger-bundle[${PYTHON_USEDEP}]
 	dev-python/console-bundle[${PYTHON_USEDEP}]
-	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

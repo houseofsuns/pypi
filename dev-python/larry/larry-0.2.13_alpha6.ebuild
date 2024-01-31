@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel boto image jinja pdf"
+IUSE="boto image jinja pdf"
 DEPENDENCIES="boto? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )"
+	pdf? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

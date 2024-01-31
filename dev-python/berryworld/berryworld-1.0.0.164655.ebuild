@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES=">=dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-61.2.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.4.32[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
-	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]"
+	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

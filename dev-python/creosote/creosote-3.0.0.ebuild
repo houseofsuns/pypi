@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev lint test types"
+IUSE="dev lint test types"
 DEPENDENCIES="dev-python/dotty-dict[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8[${PYTHON_USEDEP}]
 	dev-python/pip-requirements-parser[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/dotty-dict[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	types? ( dev-python/loguru-mypy[${PYTHON_USEDEP}] )
 	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	types? ( dev-python/types-toml[${PYTHON_USEDEP}] )"
+	types? ( dev-python/types-toml[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

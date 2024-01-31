@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/clint-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/u-msgpack-python-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/eyeD3-1.0.0[${PYTHON_USEDEP}]
-	dev-python/bottilities[${PYTHON_USEDEP}]"
+	dev-python/bottilities[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

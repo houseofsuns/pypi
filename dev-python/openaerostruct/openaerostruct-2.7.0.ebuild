@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all docs ffd mphys test"
+IUSE="all docs ffd mphys test"
 DEPENDENCIES="dev-python/openmdao[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/openmdao[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-mdolab-theme[${PYTHON_USEDEP}] )
 	ffd? ( dev-python/pygeo[${PYTHON_USEDEP}] )
 	mphys? ( dev-python/mphys[${PYTHON_USEDEP}] )
-	test? ( dev-python/testflo[${PYTHON_USEDEP}] )"
+	test? ( dev-python/testflo[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

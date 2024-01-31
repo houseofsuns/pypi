@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests visualize"
+IUSE="tests visualize"
 DEPENDENCIES=">=dev-python/numpy-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.14[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.9.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	visualize? ( >=dev-python/pydot-1.2.4[${PYTHON_USEDEP}] )"
+	visualize? ( >=dev-python/pydot-1.2.4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

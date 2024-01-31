@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/six-1.11[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.56.0[${PYTHON_USEDEP}]
 	>=dev-python/pystache-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	dev-python/antlr4-python2-runtime[${PYTHON_USEDEP}]
-	dev-python/futures[${PYTHON_USEDEP}]"
+	dev-python/futures[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

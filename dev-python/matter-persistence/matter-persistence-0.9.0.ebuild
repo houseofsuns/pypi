@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cache cache-memcached database database-migrations database-postgresql"
+IUSE="cache cache-memcached database database-migrations database-postgresql"
 DEPENDENCIES="dev-python/matter-exceptions[${PYTHON_USEDEP}]
 	cache? ( ~dev-python/aiocache-0.12.2[${PYTHON_USEDEP}] )
 	cache-memcached? ( ~dev-python/aiocache-0.12.2[${PYTHON_USEDEP}] )
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/matter-exceptions[${PYTHON_USEDEP}]
 	database-migrations? ( dev-python/typer[${PYTHON_USEDEP}] )
 	database-postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	database-postgresql? ( dev-python/matter-persistence[${PYTHON_USEDEP}] )
-	database-postgresql? ( ~dev-python/sqlalchemy-2.0.25[${PYTHON_USEDEP}] )"
+	database-postgresql? ( ~dev-python/sqlalchemy-2.0.25[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

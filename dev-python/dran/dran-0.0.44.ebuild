@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	~dev-python/contourpy-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/cycler-0.12.1[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	~dev-python/threadpoolctl-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

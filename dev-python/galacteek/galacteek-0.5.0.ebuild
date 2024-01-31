@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs markdown-extensions ui-pyqt-5-13 ui-pyqt-5-15"
+IUSE="docs markdown-extensions ui-pyqt-5-13 ui-pyqt-5-15"
 DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
@@ -93,6 +93,7 @@ DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	ui-pyqt-5-13? ( ~dev-python/PyQtWebEngine-5.13.2[${PYTHON_USEDEP}] )
 	ui-pyqt-5-15? ( >=dev-python/PyQt5-5.15.2[${PYTHON_USEDEP}] )
 	ui-pyqt-5-15? ( dev-python/PyQtChart[${PYTHON_USEDEP}] )
-	ui-pyqt-5-15? ( >=dev-python/PyQtWebEngine-5.15.2[${PYTHON_USEDEP}] )"
+	ui-pyqt-5-15? ( >=dev-python/PyQtWebEngine-5.15.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

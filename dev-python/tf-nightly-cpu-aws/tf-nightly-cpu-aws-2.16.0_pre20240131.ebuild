@@ -16,14 +16,14 @@ DESCRIPTION="TensorFlow is an open source machine learning framework for everyon
 
 HOMEPAGE="https://www.tensorflow.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel and-cuda"
+IUSE="and-cuda"
 DEPENDENCIES=">=dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/astunparse-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/flatbuffers-23.5.26[${PYTHON_USEDEP}]
@@ -58,6 +58,7 @@ DEPENDENCIES=">=dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
 	and-cuda? ( dev-python/nvidia-cusolver-cu12[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-cusparse-cu12[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-nccl-cu12[${PYTHON_USEDEP}] )
-	and-cuda? ( dev-python/nvidia-nvjitlink-cu12[${PYTHON_USEDEP}] )"
+	and-cuda? ( dev-python/nvidia-nvjitlink-cu12[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

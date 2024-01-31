@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/cachetools-3.1.1[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="~dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-model-optimization[${PYTHON_USEDEP}]
 	dev-python/tensorflow-privacy[${PYTHON_USEDEP}]
 	dev-python/tf-nightly[${PYTHON_USEDEP}]
-	~dev-python/tqdm-4.28.1[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.28.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

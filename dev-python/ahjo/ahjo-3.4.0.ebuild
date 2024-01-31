@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure mssql"
+IUSE="azure mssql"
 DEPENDENCIES="<dev-python/alembic-1.11[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-3.2[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	<dev-python/lark-1.2[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
+	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

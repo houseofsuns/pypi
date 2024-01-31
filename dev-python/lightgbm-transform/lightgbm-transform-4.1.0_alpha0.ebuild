@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dask"
+IUSE="dask"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
-	dask? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	dask? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/udata[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	~dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/udata[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.25.11[${PYTHON_USEDEP}]
-	~dev-python/werkzeug-0.16.1[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-0.16.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

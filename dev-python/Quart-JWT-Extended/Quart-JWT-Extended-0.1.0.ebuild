@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel asymmetric_crypto"
+IUSE="asymmetric_crypto"
 DEPENDENCIES=">=dev-python/werkzeug-2.2.0[${PYTHON_USEDEP}]
 	dev-python/Quart[${PYTHON_USEDEP}]
 	>dev-python/pyjwt-2.2.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	asymmetric_crypto? ( >=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}] )"
+	asymmetric_crypto? ( >=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

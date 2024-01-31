@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all frames gh gh_url grading pkg"
+IUSE="all frames gh gh_url grading pkg"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	all? ( dev-python/ephfile[${PYTHON_USEDEP}] )
 	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
@@ -46,6 +46,7 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	gh_url? ( dev-python/waybackpy[${PYTHON_USEDEP}] )
 	grading? ( dev-python/ephfile[${PYTHON_USEDEP}] )
 	grading? ( dev-python/pybryt[${PYTHON_USEDEP}] )
-	pkg? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	pkg? ( dev-python/requests[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

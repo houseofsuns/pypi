@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel sa"
-DEPENDENCIES="sa? ( >=dev-python/sqlalchemy-0.9[${PYTHON_USEDEP}] )"
+IUSE="sa"
+DEPENDENCIES="sa? ( >=dev-python/sqlalchemy-0.9[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

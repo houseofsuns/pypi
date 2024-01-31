@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/cryptography-39.0[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-invoice-refund-link[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-es-aeat[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-queue-job[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]"
+	dev-python/zeep[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

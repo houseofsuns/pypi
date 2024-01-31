@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/requests-2.22[${PYTHON_USEDEP}]
 	~dev-python/semver-2.13[${PYTHON_USEDEP}]
-	~dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]"
+	~dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

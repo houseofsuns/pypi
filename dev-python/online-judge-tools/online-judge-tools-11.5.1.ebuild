@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev selenium"
+IUSE="dev selenium"
 DEPENDENCIES="dev-python/online-judge-api-client[${PYTHON_USEDEP}]
 	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/online-judge-api-client[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-2.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/yapf-0.30.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
-	selenium? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )"
+	selenium? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

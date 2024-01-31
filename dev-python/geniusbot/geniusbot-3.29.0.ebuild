@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
 	dev-python/genius-chatbot[${PYTHON_USEDEP}]
-	dev-python/systems-manager[${PYTHON_USEDEP}]"
+	dev-python/systems-manager[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

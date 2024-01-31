@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel matplotlib mplfinance pandas plotly testing websocket"
+IUSE="matplotlib mplfinance pandas plotly testing websocket"
 DEPENDENCIES="<dev-python/pytimeparse-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	matplotlib? ( >=dev-python/matplotlib-2.2[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="<dev-python/pytimeparse-2.0[${PYTHON_USEDEP}]
 	plotly? ( >=dev-python/plotly-4.2.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	websocket? ( >=dev-python/websocket-client-1.2.1[${PYTHON_USEDEP}] )"
+	websocket? ( >=dev-python/websocket-client-1.2.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

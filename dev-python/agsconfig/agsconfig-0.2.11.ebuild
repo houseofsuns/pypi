@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpath-ng-2.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/html2text-2019.8.11[${PYTHON_USEDEP}]
-	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]"
+	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

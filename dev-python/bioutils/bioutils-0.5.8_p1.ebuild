@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs test"
+IUSE="dev docs test"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-optional-tests[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/tox-3.25[${PYTHON_USEDEP}] )
-	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"
+	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

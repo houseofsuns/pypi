@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel development docs format lint security tests wheel"
+IUSE="development docs format lint security tests wheel"
 DEPENDENCIES="dev-python/asyncio-mqtt[${PYTHON_USEDEP}]
 	dev-python/kelvin-sdk-datatype[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.14[${PYTHON_USEDEP}]
@@ -63,6 +63,7 @@ DEPENDENCIES="dev-python/asyncio-mqtt[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-virtualenv-1.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/requests-mock-1.9[${PYTHON_USEDEP}] )
 	wheel? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

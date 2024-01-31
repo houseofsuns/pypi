@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs ipfs linter tester"
+IUSE="dev docs ipfs linter tester"
 DEPENDENCIES=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
@@ -75,6 +75,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	linter? ( >=dev-python/types-setuptools-57.4.4[${PYTHON_USEDEP}] )
 	linter? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	linter? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
-	tester? ( dev-python/py-bub[${PYTHON_USEDEP}] )"
+	tester? ( dev-python/py-bub[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

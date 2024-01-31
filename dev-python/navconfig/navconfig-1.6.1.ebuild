@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all default gdrive hvac logstash memcache redis toml yaml"
+IUSE="all default gdrive hvac logstash memcache redis toml yaml"
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
@@ -59,6 +59,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	redis? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	toml? ( dev-python/pytomlpp[${PYTHON_USEDEP}] )
-	yaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

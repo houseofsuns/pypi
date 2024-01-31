@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel h5py-test"
+IUSE="h5py-test"
 DEPENDENCIES="dev-python/blosc2[${PYTHON_USEDEP}]
-	h5py-test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	h5py-test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

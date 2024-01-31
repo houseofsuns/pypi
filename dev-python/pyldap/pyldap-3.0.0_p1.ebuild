@@ -23,7 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
-DEPENDENCIES=">=dev-python/python-ldap-3.0.0_beta1[${PYTHON_USEDEP}]"
+IUSE=""
+DEPENDENCIES=">=dev-python/python-ldap-3.0.0_beta1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

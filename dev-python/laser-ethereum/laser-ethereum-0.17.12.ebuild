@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
 	dev-python/py-flags[${PYTHON_USEDEP}]
-	dev-python/z3-solver[${PYTHON_USEDEP}]"
+	dev-python/z3-solver[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

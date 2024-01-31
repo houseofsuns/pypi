@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/bg-helper[${PYTHON_USEDEP}]
 	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/dt-helper[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/bg-helper[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	dev-python/settings-helper[${PYTHON_USEDEP}]
-	~dev-python/ujson-5.4.0[${PYTHON_USEDEP}]"
+	~dev-python/ujson-5.4.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

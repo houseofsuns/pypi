@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pygments"
+IUSE="pygments"
 DEPENDENCIES="dev-python/igraph[${PYTHON_USEDEP}]
 	~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}]
-	pygments? ( >=dev-python/pygments-2.6.1[${PYTHON_USEDEP}] )"
+	pygments? ( >=dev-python/pygments-2.6.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

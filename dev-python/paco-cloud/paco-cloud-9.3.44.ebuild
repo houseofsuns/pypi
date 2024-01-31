@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs"
+IUSE="docs"
 DEPENDENCIES="dev-python/paco-models[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.16.48[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/paco-models[${PYTHON_USEDEP}]
 	dev-python/parliament[${PYTHON_USEDEP}]
 	dev-python/chameleon[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.3.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

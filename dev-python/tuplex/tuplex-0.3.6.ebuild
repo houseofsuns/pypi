@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="<dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-2.2.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES="<dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-2.1.0[${PYTHON_USEDEP}]
-	>=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]"
+	>=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

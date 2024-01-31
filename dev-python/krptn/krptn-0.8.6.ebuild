@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel django flask mssql mysql postgresql tests"
+IUSE="django flask mssql mysql postgresql tests"
 DEPENDENCIES=">=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/webauthn[${PYTHON_USEDEP}]
 	django? ( dev-python/django[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/django[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/django[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

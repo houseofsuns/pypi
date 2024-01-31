@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-account-billing[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-global-discount[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-invoice-alternate-payer[${PYTHON_USEDEP}]
@@ -94,6 +94,7 @@ DEPENDENCIES="dev-python/odoo14-addon-account-billing[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-sale-order-invoicing-queued[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-sale-timesheet-invoice-description[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-stock-picking-invoicing[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-stock-picking-invoicing-incoterm[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-stock-picking-invoicing-incoterm[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev generate"
+IUSE="dev generate"
 DEPENDENCIES="~dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="~dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-shell-utilities[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	generate? ( dev-python/easyfs[${PYTHON_USEDEP}] )"
+	generate? ( dev-python/easyfs[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

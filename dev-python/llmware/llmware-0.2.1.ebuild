@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel lancedb neo4j pinecone qdrant redis"
+IUSE="lancedb neo4j pinecone qdrant redis"
 DEPENDENCIES="dev-python/ai21[${PYTHON_USEDEP}]
 	dev-python/anthropic[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
@@ -55,6 +55,7 @@ DEPENDENCIES="dev-python/ai21[${PYTHON_USEDEP}]
 	neo4j? ( dev-python/neo4j[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
-	redis? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )"
+	redis? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

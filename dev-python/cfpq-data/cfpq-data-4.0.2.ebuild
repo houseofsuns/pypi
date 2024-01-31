@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel developer docs tests"
+IUSE="developer docs tests"
 DEPENDENCIES="~dev-python/networkx-2.6.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/pyformlang[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="~dev-python/networkx-2.6.2[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all serving xpu xpu-2-0 xpu-2-1"
+IUSE="all serving xpu xpu-2-0 xpu-2-1"
 DEPENDENCIES="all? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.22[${PYTHON_USEDEP}] )
@@ -75,6 +75,7 @@ DEPENDENCIES="all? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
 	xpu-2-1? ( dev-python/intel-openmp[${PYTHON_USEDEP}] )
 	xpu-2-1? ( dev-python/bigdl-core-xe-esimd_21[${PYTHON_USEDEP}] )
 	xpu? ( dev-python/intel-openmp[${PYTHON_USEDEP}] )
-	xpu? ( dev-python/bigdl-core-xe-esimd_21[${PYTHON_USEDEP}] )"
+	xpu? ( dev-python/bigdl-core-xe-esimd_21[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/capstone-gt[${PYTHON_USEDEP}]
 	dev-python/gtirb-capstone[${PYTHON_USEDEP}]
 	dev-python/gtirb-functions[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/capstone-gt[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
-	dev-python/leb128[${PYTHON_USEDEP}]"
+	dev-python/leb128[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

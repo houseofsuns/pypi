@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.19.2[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.5.0[${PYTHON_USEDEP}]
 	dev-python/gitignore-parser[${PYTHON_USEDEP}]
-	dev? ( dev-python/verser[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/verser[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

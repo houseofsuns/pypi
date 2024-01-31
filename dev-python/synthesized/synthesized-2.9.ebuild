@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev dp gcloud test tune"
+IUSE="dev dp gcloud test tune"
 DEPENDENCIES=">=dev-python/Faker-8.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES=">=dev-python/Faker-8.0[${PYTHON_USEDEP}]
 	tune? ( dev-python/ray[${PYTHON_USEDEP}] )
 	tune? ( dev-python/ax-platform[${PYTHON_USEDEP}] )
 	tune? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	tune? ( dev-python/jupyter[${PYTHON_USEDEP}] )"
+	tune? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

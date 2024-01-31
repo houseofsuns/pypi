@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel fast"
+IUSE="fast"
 DEPENDENCIES="~dev-python/pygments-2.0[${PYTHON_USEDEP}]
 	fast? ( ~dev-python/lxml-3.0[${PYTHON_USEDEP}] )
-	fast? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )"
+	fast? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

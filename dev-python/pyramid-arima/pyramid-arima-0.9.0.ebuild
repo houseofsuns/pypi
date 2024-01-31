@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/cython-0.23[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.9[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.19[${PYTHON_USEDEP}]
-	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]"
+	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

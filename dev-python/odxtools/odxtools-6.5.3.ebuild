@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all browse-tool examples test"
+IUSE="all browse-tool examples test"
 DEPENDENCIES="dev-python/bitstruct[${PYTHON_USEDEP}]
 	>=dev-python/argparse-addons-0.12[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/bitstruct[${PYTHON_USEDEP}]
 	test? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/coverage-7.3[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-7.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

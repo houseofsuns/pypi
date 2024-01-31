@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/libcst[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

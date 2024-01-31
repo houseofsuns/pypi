@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev simu"
+IUSE="dev simu"
 DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
@@ -49,6 +49,7 @@ DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mypy-0.900[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	simu? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )"
+	simu? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

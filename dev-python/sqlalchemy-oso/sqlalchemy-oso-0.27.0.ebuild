@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel flask"
+IUSE="flask"
 DEPENDENCIES="<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	flask? ( <dev-python/flask-sqlalchemy-3.0[${PYTHON_USEDEP}] )"
+	flask? ( <dev-python/flask-sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

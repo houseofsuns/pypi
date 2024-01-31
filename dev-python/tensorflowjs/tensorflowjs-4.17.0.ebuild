@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel PyInquirer all wizard"
+IUSE="PyInquirer all wizard"
 DEPENDENCIES="dev-python/flax[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/flax[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	PyInquirer? ( dev-python/PyInquirer[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyInquirer[${PYTHON_USEDEP}] )
-	wizard? ( dev-python/PyInquirer[${PYTHON_USEDEP}] )"
+	wizard? ( dev-python/PyInquirer[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

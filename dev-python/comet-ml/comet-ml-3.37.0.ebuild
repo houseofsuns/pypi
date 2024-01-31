@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.3[${PYTHON_USEDEP}]
 	<dev-python/python-box-7.0.0[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES=">=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	dev-python/everett[${PYTHON_USEDEP}]
 	>=dev-python/dulwich-0.20.6[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	>=dev-python/rich-13.3.2[${PYTHON_USEDEP}]"
+	>=dev-python/rich-13.3.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aiohttp quart starlette"
+IUSE="aiohttp quart starlette"
 DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/quantile-python[${PYTHON_USEDEP}]
 	aiohttp? ( >=dev-python/aiohttp-3.3.2[${PYTHON_USEDEP}] )
 	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
-	starlette? ( >=dev-python/starlette-0.14.2[${PYTHON_USEDEP}] )"
+	starlette? ( >=dev-python/starlette-0.14.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

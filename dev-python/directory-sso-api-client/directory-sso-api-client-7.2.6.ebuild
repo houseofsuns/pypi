@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/directory-client-core[${PYTHON_USEDEP}]
 	test? ( <=dev-python/django-4.2.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/directory-client-core[${PYTHON_USEDEP}]
 	test? ( ~dev-python/requests-mock-1.7.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/setuptools-50.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/wheel-1.0.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/wheel-1.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

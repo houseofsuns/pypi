@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	~dev-python/django-3.2.23[${PYTHON_USEDEP}]
 	dev-python/django-auditlog[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	dev-python/pymodbus[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
-	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

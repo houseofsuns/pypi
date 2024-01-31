@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}]
 	dev-python/jupyter-server-proxy[${PYTHON_USEDEP}]
 	dev-python/matlab-proxy[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyter-kernel-test[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

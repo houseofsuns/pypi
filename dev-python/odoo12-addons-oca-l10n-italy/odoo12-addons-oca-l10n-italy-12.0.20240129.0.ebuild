@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo12-addon-account-invoice-report-ddt-group[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-account-vat-period-end-statement[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-assets-management[${PYTHON_USEDEP}]
@@ -109,6 +109,7 @@ DEPENDENCIES="dev-python/odoo12-addon-account-invoice-report-ddt-group[${PYTHON_
 	dev-python/odoo12-addon-l10n-it-website-sale-fiscalcode[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-l10n-it-withholding-tax[${PYTHON_USEDEP}]
 	dev-python/odoo12-addon-l10n-it-withholding-tax-causali[${PYTHON_USEDEP}]
-	dev-python/odoo12-addon-l10n-it-withholding-tax-payment[${PYTHON_USEDEP}]"
+	dev-python/odoo12-addon-l10n-it-withholding-tax-payment[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

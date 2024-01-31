@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs"
+IUSE="docs"
 DEPENDENCIES="docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2023.0.0[${PYTHON_USEDEP}] )
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	dev-python/minisignxml[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	>=dev-python/yarl-1.4.2[${PYTHON_USEDEP}]"
+	>=dev-python/yarl-1.4.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

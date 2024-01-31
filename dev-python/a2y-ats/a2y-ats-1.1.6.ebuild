@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/a2y-atsui[${PYTHON_USEDEP}]
 	dev-python/a2y-wxtools[${PYTHON_USEDEP}]
 	dev-python/a2y-testparameters[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/a2y-atsui[${PYTHON_USEDEP}]
 	dev-python/a2y-handy[${PYTHON_USEDEP}]
 	dev-python/a2y-matplot[${PYTHON_USEDEP}]
 	dev-python/a2y-touch[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]"
+	dev-python/openpyxl[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

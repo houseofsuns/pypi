@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel extras test"
+IUSE="extras test"
 DEPENDENCIES="dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
 	dev-python/roman[${PYTHON_USEDEP}]
 	extras? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	extras? ( dev-python/aksharamukha[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

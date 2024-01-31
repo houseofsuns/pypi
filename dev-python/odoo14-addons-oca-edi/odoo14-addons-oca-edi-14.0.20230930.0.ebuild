@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-account-einvoice-generate[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-invoice-download[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-invoice-download-ovh[${PYTHON_USEDEP}]
@@ -79,6 +79,7 @@ DEPENDENCIES="dev-python/odoo14-addon-account-einvoice-generate[${PYTHON_USEDEP}
 	dev-python/odoo14-addon-sale-order-import-ubl-customer-free-ref[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-sale-order-import-ubl-line-customer-ref[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-sale-order-packaging-import[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-sale-order-ubl[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-sale-order-ubl[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

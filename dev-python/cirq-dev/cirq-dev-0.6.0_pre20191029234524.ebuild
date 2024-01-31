@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel contrib dev_env"
+IUSE="contrib dev_env"
 DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.6[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev_env? ( ~dev-python/astroid-2.1.0[${PYTHON_USEDEP}] )
 	dev_env? ( >=dev-python/ply-3.4[${PYTHON_USEDEP}] )
 	dev_env? ( ~dev-python/pylatex-1.3.0[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
+	dev_env? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

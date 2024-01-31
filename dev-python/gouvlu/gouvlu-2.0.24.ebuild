@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/udata[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/feedparser[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/udata[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-mock-1.10.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/requests-mock-1.7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/feedgen[${PYTHON_USEDEP}] )"
+	test? ( dev-python/feedgen[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

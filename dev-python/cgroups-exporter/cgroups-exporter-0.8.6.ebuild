@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/argclass[${PYTHON_USEDEP}]
 	dev-python/aiochannel[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
-	dev-python/aiomisc[${PYTHON_USEDEP}]"
+	dev-python/aiomisc[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

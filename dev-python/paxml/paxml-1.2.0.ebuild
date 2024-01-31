@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel gpu"
+IUSE="gpu"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/clu[${PYTHON_USEDEP}]
 	dev-python/etils[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/tfds-nightly[${PYTHON_USEDEP}]
 	gpu? ( dev-python/jsonlines[${PYTHON_USEDEP}] )
 	gpu? ( ~dev-python/pysimdjson-5.0.2[${PYTHON_USEDEP}] )
-	gpu? ( ~dev-python/zstandard-0.18.0[${PYTHON_USEDEP}] )"
+	gpu? ( ~dev-python/zstandard-0.18.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

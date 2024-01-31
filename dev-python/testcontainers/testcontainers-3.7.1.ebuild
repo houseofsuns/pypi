@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel arangodb azurite clickhouse docker-compose google-cloud-pubsub kafka keycloak mongo mssqlserver mysql neo4j oracle postgresql rabbitmq redis selenium"
+IUSE="arangodb azurite clickhouse docker-compose google-cloud-pubsub kafka keycloak mongo mssqlserver mysql neo4j oracle postgresql rabbitmq redis selenium"
 DEPENDENCIES=">=dev-python/docker-4.0.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES=">=dev-python/docker-4.0.0[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

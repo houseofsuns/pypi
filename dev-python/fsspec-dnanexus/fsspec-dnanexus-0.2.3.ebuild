@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/dxpy[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2023.9.2[${PYTHON_USEDEP}]
-	<dev-python/botocore-1.32.0[${PYTHON_USEDEP}]"
+	<dev-python/botocore-1.32.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

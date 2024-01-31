@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/yangsuite[${PYTHON_USEDEP}]
 	dev-python/yangsuite-yangtree[${PYTHON_USEDEP}]
 	dev-python/yangsuite-filemanager[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/yangsuite[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	~dev-python/deepdiff-4.0.7[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	dev-python/regex[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

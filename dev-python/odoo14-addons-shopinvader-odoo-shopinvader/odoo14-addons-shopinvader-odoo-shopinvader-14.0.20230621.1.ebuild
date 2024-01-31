@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-base-url[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-shopinvader[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-shopinvader-algolia[${PYTHON_USEDEP}]
@@ -111,6 +111,7 @@ DEPENDENCIES="dev-python/odoo14-addon-base-url[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-shopinvader-search-engine[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-shopinvader-validation-token[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-shopinvader-validation-token-guest[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-shopinvader-wishlist[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-shopinvader-wishlist[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/imageio-3.0.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/gym-retro[${PYTHON_USEDEP}] )
 	test? ( dev-python/gym[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

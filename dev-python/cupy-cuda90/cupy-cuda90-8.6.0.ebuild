@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel jenkins setup stylecheck test"
+IUSE="jenkins setup stylecheck test"
 DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/fastrlock[${PYTHON_USEDEP}]
 	jenkins? ( <dev-python/pytest-4.2.0[${PYTHON_USEDEP}] )
@@ -40,6 +40,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	stylecheck? ( ~dev-python/pbr-5.5.1[${PYTHON_USEDEP}] )
 	stylecheck? ( ~dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-4.2.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

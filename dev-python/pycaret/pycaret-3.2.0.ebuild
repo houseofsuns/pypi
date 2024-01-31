@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel analysis full mlops models parallel test tuners"
+IUSE="analysis full mlops models parallel test tuners"
 DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
@@ -125,6 +125,7 @@ DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	tuners? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	tuners? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
 	tuners? ( dev-python/ray[${PYTHON_USEDEP}] )
-	tuners? ( dev-python/tune-sklearn[${PYTHON_USEDEP}] )"
+	tuners? ( dev-python/tune-sklearn[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

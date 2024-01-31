@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel integration_tests unit_tests"
+IUSE="integration_tests unit_tests"
 DEPENDENCIES="dev-python/opentracing[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	integration_tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	integration_tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	integration_tests? ( dev-python/docker[${PYTHON_USEDEP}] )
 	unit_tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	unit_tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	unit_tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

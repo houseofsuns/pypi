@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/PyScreeze[${PYTHON_USEDEP}]
 	~dev-python/selenium-4.4.3[${PYTHON_USEDEP}]
-	dev-python/pyobjc[${PYTHON_USEDEP}]"
+	dev-python/pyobjc[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all-prod dev ethosu importer-caffe importer-caffe2 importer-coreml importer-darknet importer-keras importer-onnx importer-paddle importer-pytorch importer-tensorflow importer-tflite tvmc vitis-ai xgboost"
+IUSE="all-prod dev ethosu importer-caffe importer-caffe2 importer-coreml importer-darknet importer-keras importer-onnx importer-paddle importer-pytorch importer-tensorflow importer-tflite tvmc vitis-ai xgboost"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
@@ -117,6 +117,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	vitis-ai? ( dev-python/progressbar[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/future[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/torch[${PYTHON_USEDEP}] )
-	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
+	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

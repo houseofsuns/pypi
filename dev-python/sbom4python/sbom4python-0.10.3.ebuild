@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/lib4package[${PYTHON_USEDEP}]
 	dev-python/lib4sbom[${PYTHON_USEDEP}]
 	dev-python/sbom2dot[${PYTHON_USEDEP}]
-	dev-python/sbom4files[${PYTHON_USEDEP}]"
+	dev-python/sbom4files[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

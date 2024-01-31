@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/erpbrasil-base[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-due-list-payment-mode[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-account-payment-order[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-br-account-due-list[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-l10n-br-base[${PYTHON_USEDEP}]
-	dev-python/odoo[${PYTHON_USEDEP}]"
+	dev-python/odoo[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel rest"
+IUSE="rest"
 DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
-	rest? ( >=dev-python/djangorestframework-3.1.3[${PYTHON_USEDEP}] )"
+	rest? ( >=dev-python/djangorestframework-3.1.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

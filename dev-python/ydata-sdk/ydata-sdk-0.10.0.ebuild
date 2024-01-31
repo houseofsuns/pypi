@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev doc test"
+IUSE="dev doc test"
 DEPENDENCIES="~dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	dev-python/ydata-core[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
@@ -49,6 +49,7 @@ DEPENDENCIES="~dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-bdd-4.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-xdist-2.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mccabe[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-mccabe[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel bioinformatics ci doc"
+IUSE="bioinformatics ci doc"
 DEPENDENCIES="dev-python/janis-pipelines-core[${PYTHON_USEDEP}]
 	dev-python/janis-pipelines-runner[${PYTHON_USEDEP}]
 	dev-python/janis-pipelines-unix[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/janis-pipelines-core[${PYTHON_USEDEP}]
 	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

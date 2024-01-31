@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel bin-builder chaostoolkit"
+IUSE="bin-builder chaostoolkit"
 DEPENDENCIES=">=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES=">=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	chaostoolkit? ( dev-python/chaostoolkit-grafana[${PYTHON_USEDEP}] )
 	chaostoolkit? ( dev-python/chaostoolkit-slack[${PYTHON_USEDEP}] )
 	chaostoolkit? ( dev-python/chaostoolkit-datadog[${PYTHON_USEDEP}] )
-	chaostoolkit? ( dev-python/jsonpath2[${PYTHON_USEDEP}] )"
+	chaostoolkit? ( dev-python/jsonpath2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all build pinned postgres problematic runtime tests"
+IUSE="all build pinned postgres problematic runtime tests"
 DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/autopep8-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.5[${PYTHON_USEDEP}]
@@ -337,6 +337,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/xdoctest-1.0.2[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/xdoctest-1.0.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

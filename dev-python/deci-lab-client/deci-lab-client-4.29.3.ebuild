@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64[${PYTHON_USEDEP}]
 	dev-python/deci-common[${PYTHON_USEDEP}]
-	>=dev-python/arrow-1.2.3[${PYTHON_USEDEP}]"
+	>=dev-python/arrow-1.2.3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all lightgbm llm mlflow shap tensorflow torch transformers"
+IUSE="all lightgbm llm mlflow shap tensorflow torch transformers"
 DEPENDENCIES="<dev-python/absl-py-2.0[${PYTHON_USEDEP}]
 	<dev-python/anyio-4.0[${PYTHON_USEDEP}]
 	<dev-python/cachetools-5.0[${PYTHON_USEDEP}]
@@ -62,6 +62,7 @@ DEPENDENCIES="<dev-python/absl-py-2.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/torchdata[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )"
+	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

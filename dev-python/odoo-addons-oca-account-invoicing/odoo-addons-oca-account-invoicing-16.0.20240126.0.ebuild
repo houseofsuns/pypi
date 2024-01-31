@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-account-invoice-blocking[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-invoice-change-currency[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-invoice-check-total[${PYTHON_USEDEP}]
@@ -72,6 +72,7 @@ DEPENDENCIES="dev-python/odoo-addon-account-invoice-blocking[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sale-order-invoicing-qty-percentage[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sale-timesheet-invoice-description[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-picking-invoicing[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-stock-picking-return-refund-option[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-stock-picking-return-refund-option[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs"
+IUSE="docs"
 DEPENDENCIES="<dev-python/django-5.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/channels[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

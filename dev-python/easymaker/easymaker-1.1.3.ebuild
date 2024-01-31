@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pytest-7.1.1[${PYTHON_USEDEP}]
 	~dev-python/setuptools-57.0.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.11.3[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
-	~dev-python/pytz-2022.2.1[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2022.2.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

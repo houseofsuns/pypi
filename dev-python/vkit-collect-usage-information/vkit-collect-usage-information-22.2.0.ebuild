@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev? ( >=dev-python/build-0.2.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-parallel[${PYTHON_USEDEP}] )
@@ -35,6 +35,7 @@ DEPENDENCIES="dev? ( >=dev-python/build-0.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/rope-0.18.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fireball[${PYTHON_USEDEP}] )
-	dev? ( dev-python/iolite[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/iolite[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

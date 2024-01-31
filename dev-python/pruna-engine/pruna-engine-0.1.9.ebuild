@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This code is for the Pruna AI Engine which loads and runs models optimized with Pruna AI [top-max 0.5.1]"
+DESCRIPTION="This code is for the Pruna AI Engine which loads and runs models optimized with Pruna AI [top-max 0.5.2]"
 
 HOMEPAGE=""
 LICENSE="All Rights Reserved"

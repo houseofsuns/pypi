@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full server studio"
+IUSE="full server studio"
 DEPENDENCIES="dev-python/srpc[${PYTHON_USEDEP}]
 	dev-python/zee[${PYTHON_USEDEP}]
 	full? ( dev-python/anyon[${PYTHON_USEDEP}] )
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/srpc[${PYTHON_USEDEP}]
 	studio? ( >=dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}] )
 	studio? ( >=dev-python/matplotlib-3.6.3[${PYTHON_USEDEP}] )
 	studio? ( dev-python/vispy[${PYTHON_USEDEP}] )
-	studio? ( >=dev-python/qtconsole-0.12.0[${PYTHON_USEDEP}] )"
+	studio? ( >=dev-python/qtconsole-0.12.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

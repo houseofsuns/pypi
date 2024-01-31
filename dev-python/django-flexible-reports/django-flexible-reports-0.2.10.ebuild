@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	>=dev-python/bleach-2.1.1[${PYTHON_USEDEP}]
 	dev-python/django-dsl[${PYTHON_USEDEP}]
 	>=dev-python/django-tables2-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-3.8.0[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
-	dev-python/tablib[${PYTHON_USEDEP}]"
+	dev-python/tablib[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev test"
+IUSE="dev test"
 DEPENDENCIES=">=dev-python/numpy-0.14.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-0.14.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/wheel-0.29[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.4[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pylint-1.8.1[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pylint-1.8.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

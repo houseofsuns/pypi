@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.69[${PYTHON_USEDEP}]
@@ -54,6 +54,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	test? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flit-3.8.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel hdf"
+IUSE="hdf"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
@@ -40,6 +40,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/Platypus-Opt[${PYTHON_USEDEP}]
 	dev-python/supy-driver[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	hdf? ( dev-python/tables[${PYTHON_USEDEP}] )"
+	hdf? ( dev-python/tables[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

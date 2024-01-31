@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all coreml onnx openvino openvino_21 openvino_22 tensorflow torch"
+IUSE="all coreml onnx openvino openvino_21 openvino_22 tensorflow torch"
 DEPENDENCIES="~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
@@ -44,6 +44,7 @@ DEPENDENCIES="~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	openvino_21? ( dev-python/openvino[${PYTHON_USEDEP}] )
 	openvino_22? ( dev-python/openvino[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
+	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

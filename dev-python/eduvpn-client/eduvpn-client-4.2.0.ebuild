@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel gui mypy test"
+IUSE="gui mypy test"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/eduvpn-common[${PYTHON_USEDEP}]
 	gui? ( dev-python/pygobject[${PYTHON_USEDEP}] )
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	mypy? ( dev-python/PyGObject-stubs[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

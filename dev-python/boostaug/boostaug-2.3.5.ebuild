@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full"
+IUSE="full"
 DEPENDENCIES="dev-python/pyabsa[${PYTHON_USEDEP}]
 	full? ( dev-python/textattack[${PYTHON_USEDEP}] )
 	full? ( dev-python/nlpaug[${PYTHON_USEDEP}] )
-	full? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )"
+	full? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

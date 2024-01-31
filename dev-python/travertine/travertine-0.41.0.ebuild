@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel doc test"
+IUSE="doc test"
 DEPENDENCIES="dev-python/xotless[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]
 	dev-python/immutables[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/xotless[${PYTHON_USEDEP}]
 	dev-python/xotl-tools[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-5.0.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/hypothesis-6.50.1[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/hypothesis-6.50.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

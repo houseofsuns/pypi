@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docs tutorials"
+IUSE="dev docs tutorials"
 DEPENDENCIES="dev-python/pyro-ppl[${PYTHON_USEDEP}]
 	dev-python/scvi-tools[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="dev-python/pyro-ppl[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/leidenalg[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/python-igraph[${PYTHON_USEDEP}] )"
+	tutorials? ( dev-python/python-igraph[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

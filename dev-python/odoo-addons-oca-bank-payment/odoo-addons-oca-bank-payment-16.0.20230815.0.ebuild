@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-account-banking-mandate[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-banking-mandate-sale[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-banking-pain-base[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/odoo-addon-account-banking-mandate[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-payment-partner[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-payment-purchase[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-payment-purchase-stock[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-account-payment-sale[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-account-payment-sale[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel appveyor docs doctest jenkins setup stylecheck test travis"
+IUSE="appveyor docs doctest jenkins setup stylecheck test travis"
 DEPENDENCIES=">=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	dev-python/fastrlock[${PYTHON_USEDEP}]
@@ -53,6 +53,7 @@ DEPENDENCIES=">=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	travis? ( ~dev-python/pbr-4.0.4[${PYTHON_USEDEP}] )
 	travis? ( ~dev-python/pycodestyle-2.5.0[${PYTHON_USEDEP}] )
 	travis? ( ~dev-python/sphinx-3.0.4[${PYTHON_USEDEP}] )
-	travis? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	travis? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

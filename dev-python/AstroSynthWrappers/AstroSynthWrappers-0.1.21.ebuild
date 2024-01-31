@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
-	>=dev-python/tqdm-4.19.4[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.19.4[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

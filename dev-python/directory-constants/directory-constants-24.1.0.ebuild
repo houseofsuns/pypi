@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="<=dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-3.6.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
@@ -32,6 +32,7 @@ DEPENDENCIES="<=dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	test? ( <=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/wheel-1.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/freezegun-0.3.8[${PYTHON_USEDEP}] )
-	test? ( <dev-python/setuptools-39.0.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/setuptools-39.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

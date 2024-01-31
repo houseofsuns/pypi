@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel pyspark sagemaker uwsgi wizard"
+IUSE="pyspark sagemaker uwsgi wizard"
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	sagemaker? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/sagemaker[${PYTHON_USEDEP}] )
 	uwsgi? ( dev-python/uWSGI[${PYTHON_USEDEP}] )
-	wizard? ( dev-python/pypsi[${PYTHON_USEDEP}] )"
+	wizard? ( dev-python/pypsi[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

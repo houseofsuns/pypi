@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all apiserver db dev graphs ondemand workflow"
+IUSE="all apiserver db dev graphs ondemand workflow"
 DEPENDENCIES="dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/adiscstudies[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
@@ -88,6 +88,7 @@ DEPENDENCIES="dev-python/psycopg2[${PYTHON_USEDEP}]
 	workflow? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	workflow? ( ~dev-python/tabulate-0.8.10[${PYTHON_USEDEP}] )
 	workflow? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
-	workflow? ( ~dev-python/tables-3.9.1[${PYTHON_USEDEP}] )"
+	workflow? ( ~dev-python/tables-3.9.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

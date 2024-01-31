@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel codegen cryptography dev docs full jsonschema test xmlschema"
+IUSE="codegen cryptography dev docs full jsonschema test xmlschema"
 DEPENDENCIES=">=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-tools-1.44.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.4.0[${PYTHON_USEDEP}]
@@ -56,6 +56,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	jsonschema? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	xmlschema? ( dev-python/xmlschema[${PYTHON_USEDEP}] )"
+	xmlschema? ( dev-python/xmlschema[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

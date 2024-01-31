@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/engineering-notation[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/intervaltree[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES="dev-python/engineering-notation[${PYTHON_USEDEP}]
 	dev-python/zhinst-core[${PYTHON_USEDEP}]
 	dev-python/zhinst-toolkit[${PYTHON_USEDEP}]
 	dev-python/zhinst-utils[${PYTHON_USEDEP}]
-	dev-python/unsync[${PYTHON_USEDEP}]"
+	dev-python/unsync[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

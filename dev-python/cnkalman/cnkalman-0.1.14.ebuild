@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/symengine[${PYTHON_USEDEP}]
-	dev-python/cmake[${PYTHON_USEDEP}]"
+	dev-python/cmake[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

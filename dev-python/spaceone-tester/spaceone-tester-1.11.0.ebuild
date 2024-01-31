@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/spaceone-core[${PYTHON_USEDEP}]
 	dev-python/spaceone-api[${PYTHON_USEDEP}]
-	dev-python/python-consul[${PYTHON_USEDEP}]"
+	dev-python/python-consul[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

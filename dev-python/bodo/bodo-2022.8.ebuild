@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel hdf5 parquet"
+IUSE="hdf5 parquet"
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.5[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2021.9[${PYTHON_USEDEP}]
 	dev-python/mpi4py-mpich[${PYTHON_USEDEP}]
 	hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all cluster gcp modin nlp pii scatter time"
+IUSE="all cluster gcp modin nlp pii scatter time"
 DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
@@ -53,6 +53,7 @@ DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	nlp? ( >=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}] )
 	pii? ( dev-python/presidio-analyzer[${PYTHON_USEDEP}] )
 	scatter? ( dev-python/pyscagnostics[${PYTHON_USEDEP}] )
-	time? ( >=dev-python/statsmodels-0.10[${PYTHON_USEDEP}] )"
+	time? ( >=dev-python/statsmodels-0.10[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel analysis docs test"
+IUSE="analysis docs test"
 DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/django-postgres-extra[${PYTHON_USEDEP}]
 	~dev-python/deprecation-2.0.7[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-autoslug[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-bleach[${PYTHON_USEDEP}] )
-	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
+	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

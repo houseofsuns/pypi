@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all az gs s3"
+IUSE="all az gs s3"
 DEPENDENCIES="dev-python/fw-utils[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/fw-utils[${PYTHON_USEDEP}]
 	all? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	gs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"
+	gs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

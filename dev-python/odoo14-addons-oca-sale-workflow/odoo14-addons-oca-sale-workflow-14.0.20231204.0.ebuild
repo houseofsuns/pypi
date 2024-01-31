@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-portal-sale-personal-data-only[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-pricelist-cache[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-pricelist-cache-rest[${PYTHON_USEDEP}]
@@ -159,6 +159,7 @@ DEPENDENCIES="dev-python/odoo14-addon-portal-sale-personal-data-only[${PYTHON_US
 	dev-python/odoo14-addon-sale-wishlist[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-sales-team-security[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-sales-team-security-crm[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-sales-team-security-sale[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-sales-team-security-sale[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel redis"
+IUSE="redis"
 DEPENDENCIES="<dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-argparse[${PYTHON_USEDEP}]
 	dev-python/nucliadb-node-binding[${PYTHON_USEDEP}]
@@ -80,6 +80,7 @@ DEPENDENCIES="<dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
 	dev-python/types-cachetools[${PYTHON_USEDEP}]
 	dev-python/kubernetes-asyncio[${PYTHON_USEDEP}]
-	redis? ( >=dev-python/redis-4.3.4[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-4.3.4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

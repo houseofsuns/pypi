@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-2.10.6[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.2.8[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.17.2[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

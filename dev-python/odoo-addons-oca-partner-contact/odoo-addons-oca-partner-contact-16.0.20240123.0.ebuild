@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-account-partner-company-group[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-base-country-state-translatable[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-base-location[${PYTHON_USEDEP}]
@@ -85,6 +85,7 @@ DEPENDENCIES="dev-python/odoo-addon-account-partner-company-group[${PYTHON_USEDE
 	dev-python/odoo-addon-partner-vat-unique[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-purchase-supplier-rank[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-sale-customer-rank[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-sale-partner-company-group[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-sale-partner-company-group[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

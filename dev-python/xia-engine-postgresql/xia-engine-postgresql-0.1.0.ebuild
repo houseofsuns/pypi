@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/xia-fields[${PYTHON_USEDEP}]
 	dev-python/xia-engine[${PYTHON_USEDEP}]
-	dev-python/xia-engine-sql[${PYTHON_USEDEP}]"
+	dev-python/xia-engine-sql[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

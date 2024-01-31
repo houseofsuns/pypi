@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-pos-product-display-default-code[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-pos-product-multi-barcode[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-pos-product-sort[${PYTHON_USEDEP}]
@@ -71,6 +71,7 @@ DEPENDENCIES="dev-python/odoo14-addon-pos-product-display-default-code[${PYTHON_
 	dev-python/odoo14-addon-pos-payment-change[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-pos-payment-method-cashdro[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-pos-payment-terminal[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-pos-pricelist-show-discount[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-pos-pricelist-show-discount[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

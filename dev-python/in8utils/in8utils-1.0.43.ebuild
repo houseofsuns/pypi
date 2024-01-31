@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.4.2[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.13[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
 	~dev-python/twine-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.25.6[${PYTHON_USEDEP}]
-	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]"
+	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev test"
+IUSE="dev test"
 DEPENDENCIES="dev-python/json-composite-encoder[${PYTHON_USEDEP}]
 	dev-python/streamerate[${PYTHON_USEDEP}]
 	dev-python/throttlex[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="dev-python/json-composite-encoder[${PYTHON_USEDEP}]
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	test? ( dev-python/tsx[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

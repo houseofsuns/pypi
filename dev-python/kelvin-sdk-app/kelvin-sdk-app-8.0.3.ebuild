@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel data development docs format lint security tests wheel"
+IUSE="data development docs format lint security tests wheel"
 DEPENDENCIES="dev-python/click-shell[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4[${PYTHON_USEDEP}]
@@ -74,6 +74,7 @@ DEPENDENCIES="dev-python/click-shell[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/requests-mock-1.9[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyrobuf[${PYTHON_USEDEP}] )
 	wheel? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

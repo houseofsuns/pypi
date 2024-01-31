@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all infrastructure parallel visualisation"
+IUSE="all infrastructure parallel visualisation"
 DEPENDENCIES="dev-python/dune-xt[${PYTHON_USEDEP}]
 	all? ( dev-python/dune-xt[${PYTHON_USEDEP}] )
 	all? ( dev-python/dune-xt[${PYTHON_USEDEP}] )
 	all? ( dev-python/dune-xt[${PYTHON_USEDEP}] )
 	infrastructure? ( dev-python/dune-xt[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/dune-xt[${PYTHON_USEDEP}] )
-	visualisation? ( dev-python/dune-xt[${PYTHON_USEDEP}] )"
+	visualisation? ( dev-python/dune-xt[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

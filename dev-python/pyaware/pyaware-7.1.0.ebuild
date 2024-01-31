@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	dev-python/aiomodbus[${PYTHON_USEDEP}]
 	~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
@@ -72,6 +72,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	dev-python/verlib[${PYTHON_USEDEP}]
 	~dev-python/websockets-9.1[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.15.0[${PYTHON_USEDEP}]"
+	~dev-python/zipp-3.15.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

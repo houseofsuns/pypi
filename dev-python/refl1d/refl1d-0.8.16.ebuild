@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full"
+IUSE="full"
 DEPENDENCIES="dev-python/bumps[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/bumps[${PYTHON_USEDEP}]
 	dev-python/periodictable[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	full? ( dev-python/wxpython[${PYTHON_USEDEP}] )
-	full? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	full? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

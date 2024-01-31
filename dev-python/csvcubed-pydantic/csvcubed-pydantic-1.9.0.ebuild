@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dotenv email"
+IUSE="dotenv email"
 DEPENDENCIES=">=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dotenv? ( >=dev-python/python-dotenv-0.10.4[${PYTHON_USEDEP}] )
-	email? ( >=dev-python/email-validator-1.0.3[${PYTHON_USEDEP}] )"
+	email? ( >=dev-python/email-validator-1.0.3[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

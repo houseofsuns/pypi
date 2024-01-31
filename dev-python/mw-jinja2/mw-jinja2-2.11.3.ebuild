@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel i18n"
+IUSE="i18n"
 DEPENDENCIES=">=dev-python/markupsafe-0.23[${PYTHON_USEDEP}]
-	i18n? ( >=dev-python/Babel-0.8[${PYTHON_USEDEP}] )"
+	i18n? ( >=dev-python/Babel-0.8[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

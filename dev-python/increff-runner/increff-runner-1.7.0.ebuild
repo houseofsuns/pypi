@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	~dev-python/PyGithub-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.6.1[${PYTHON_USEDEP}]
 	dev-python/azure-eventgrid[${PYTHON_USEDEP}]
-	dev-python/logging-increff[${PYTHON_USEDEP}]"
+	dev-python/logging-increff[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

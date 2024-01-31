@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel baichuan2-experiment dev"
+IUSE="baichuan2-experiment dev"
 DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	>=dev-python/cattrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/fireball[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

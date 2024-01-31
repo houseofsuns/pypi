@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/gs-coordinator[${PYTHON_USEDEP}]
 	dev-python/gs-engine[${PYTHON_USEDEP}]
 	dev-python/gs-include[${PYTHON_USEDEP}]
-	dev-python/gs-apps[${PYTHON_USEDEP}]"
+	dev-python/gs-apps[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

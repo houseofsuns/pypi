@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel openpyxl xlwings"
+IUSE="openpyxl xlwings"
 DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	openpyxl? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	xlwings? ( dev-python/xlwings[${PYTHON_USEDEP}] )"
+	xlwings? ( dev-python/xlwings[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

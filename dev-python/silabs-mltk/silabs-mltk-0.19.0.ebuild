@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full"
+IUSE="full"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-dependency[${PYTHON_USEDEP}]
@@ -53,6 +53,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	full? ( dev-python/netron[${PYTHON_USEDEP}] )
 	full? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	full? ( dev-python/tensorboard-plugin-profile[${PYTHON_USEDEP}] )"
+	full? ( dev-python/tensorboard-plugin-profile[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

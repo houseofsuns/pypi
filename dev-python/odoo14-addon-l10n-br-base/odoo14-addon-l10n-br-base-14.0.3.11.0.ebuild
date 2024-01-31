@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/email-validator[${PYTHON_USEDEP}]
 	dev-python/erpbrasil-base[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]"
+	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

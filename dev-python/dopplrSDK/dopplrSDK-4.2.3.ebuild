@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.153[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.1[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	~dev-python/botocore-1.29.153[${PYTHON_USEDEP}]"
+	~dev-python/botocore-1.29.153[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES=">=dev-python/six-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pip-10.0.0[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES=">=dev-python/six-1.14.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/setuptools-scm-3.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-Flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-six[${PYTHON_USEDEP}] )"
+	test? ( dev-python/types-six[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

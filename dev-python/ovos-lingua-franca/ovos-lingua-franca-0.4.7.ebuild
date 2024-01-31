@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/python-dateutil-2.6[${PYTHON_USEDEP}]
 	dev-python/rapidfuzz[${PYTHON_USEDEP}]
 	~dev-python/colour-0.1[${PYTHON_USEDEP}]
 	dev-python/webcolors[${PYTHON_USEDEP}]
-	dev-python/quebra-frases[${PYTHON_USEDEP}]"
+	dev-python/quebra-frases[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

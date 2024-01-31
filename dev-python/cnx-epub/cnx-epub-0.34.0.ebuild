@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.4.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	~dev-python/pyicu-2.10.1[${PYTHON_USEDEP}]"
+	~dev-python/pyicu-2.10.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

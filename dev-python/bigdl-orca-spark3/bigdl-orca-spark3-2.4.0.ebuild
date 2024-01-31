@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel automl ray"
+IUSE="automl ray"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/bigdl-tf[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	ray? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	ray? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	ray? ( ~dev-python/prometheus-client-0.11.0[${PYTHON_USEDEP}] )
-	ray? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	ray? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

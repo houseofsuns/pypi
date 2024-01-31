@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all html jinja2 watch"
+IUSE="all html jinja2 watch"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	html? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	watch? ( dev-python/watch[${PYTHON_USEDEP}] )"
+	watch? ( dev-python/watch[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

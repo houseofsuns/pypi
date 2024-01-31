@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/django-collect-offline[${PYTHON_USEDEP}]
 	dev-python/django-collect-offline-files[${PYTHON_USEDEP}]
 	dev-python/edc-action-item[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/django-collect-offline[${PYTHON_USEDEP}]
 	dev-python/ambition-ae[${PYTHON_USEDEP}]
 	dev-python/ambition-lists[${PYTHON_USEDEP}]
 	dev-python/edc-notification[${PYTHON_USEDEP}]
-	dev-python/ambition-subject[${PYTHON_USEDEP}]"
+	dev-python/ambition-subject[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

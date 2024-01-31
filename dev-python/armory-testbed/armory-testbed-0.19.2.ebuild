@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all datasets datasets-builder deepspeech developer engine jupyter math pytorch tensorflow yolo"
+IUSE="all datasets datasets-builder deepspeech developer engine jupyter math pytorch tensorflow yolo"
 DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
@@ -90,6 +90,7 @@ DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
 	yolo? ( dev-python/armory-testbed[${PYTHON_USEDEP}] )
 	yolo? ( dev-python/armory-testbed[${PYTHON_USEDEP}] )
 	yolo? ( ~dev-python/numpy-1.23.4[${PYTHON_USEDEP}] )
-	yolo? ( dev-python/pytorchyolo[${PYTHON_USEDEP}] )"
+	yolo? ( dev-python/pytorchyolo[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

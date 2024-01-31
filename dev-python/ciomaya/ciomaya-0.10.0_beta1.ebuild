@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pymel[${PYTHON_USEDEP}]
 	dev-python/ciopath[${PYTHON_USEDEP}]
 	dev-python/cioseq[${PYTHON_USEDEP}]
-	dev-python/ciotemplate[${PYTHON_USEDEP}]"
+	dev-python/ciotemplate[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

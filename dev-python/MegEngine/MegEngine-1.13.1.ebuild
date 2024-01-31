@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ci dev"
+IUSE="ci dev"
 DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	<=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
@@ -55,6 +55,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev? ( dev-python/redislite[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
 	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

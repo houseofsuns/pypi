@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all"
+IUSE="all"
 DEPENDENCIES="dev-python/Arpeggio[${PYTHON_USEDEP}]
 	dev-python/clockblocks[${PYTHON_USEDEP}]
 	dev-python/expenvelope[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/Arpeggio[${PYTHON_USEDEP}]
 	dev-python/python-osc[${PYTHON_USEDEP}]
 	all? ( dev-python/abjad[${PYTHON_USEDEP}] )
 	all? ( dev-python/pynput[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-rtmidi[${PYTHON_USEDEP}] )"
+	all? ( dev-python/python-rtmidi[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

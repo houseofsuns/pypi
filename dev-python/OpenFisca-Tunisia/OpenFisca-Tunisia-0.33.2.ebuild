@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel notebook survey tests"
+IUSE="notebook survey tests"
 DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.12[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	notebook? ( >=dev-python/nbformat-4.4[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/pandas-0.22.0[${PYTHON_USEDEP}] )
 	survey? ( dev-python/OpenFisca-Survey-Manager[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

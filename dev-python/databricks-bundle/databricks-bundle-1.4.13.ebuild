@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/console-bundle[${PYTHON_USEDEP}]
 	dev-python/pyfony-core[${PYTHON_USEDEP}]
 	dev-python/pyfony-bundles[${PYTHON_USEDEP}]
 	dev-python/injecta[${PYTHON_USEDEP}]
 	dev-python/logger-bundle[${PYTHON_USEDEP}]
 	dev-python/pyspark-bundle[${PYTHON_USEDEP}]
-	dev-python/daipe-core[${PYTHON_USEDEP}]"
+	dev-python/daipe-core[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

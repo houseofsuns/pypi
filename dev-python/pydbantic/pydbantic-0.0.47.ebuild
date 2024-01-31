@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all mysql postgres sqlite"
+IUSE="all mysql postgres sqlite"
 DEPENDENCIES="~dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}]
 	dev-python/databases[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.2.0[${PYTHON_USEDEP}]
@@ -49,6 +49,7 @@ DEPENDENCIES="~dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}]
 	mysql? ( ~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	sqlite? ( ~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )"
+	sqlite? ( ~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

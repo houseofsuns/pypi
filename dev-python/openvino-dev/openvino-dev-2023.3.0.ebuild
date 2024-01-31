@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel caffe kaldi mxnet onnx paddle pytorch tensorflow tensorflow2"
+IUSE="caffe kaldi mxnet onnx paddle pytorch tensorflow tensorflow2"
 DEPENDENCIES="pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/yacs[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/onnx[${PYTHON_USEDEP}] )
@@ -82,6 +82,7 @@ DEPENDENCIES="pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	onnx? ( >=dev-python/requests-2.25.1[${PYTHON_USEDEP}] )
 	onnx? ( <=dev-python/networkx-3.1.0[${PYTHON_USEDEP}] )
 	paddle? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
-	pytorch? ( >=dev-python/scipy-1.5.4[${PYTHON_USEDEP}] )"
+	pytorch? ( >=dev-python/scipy-1.5.4[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

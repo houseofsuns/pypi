@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel qt rf"
+IUSE="qt rf"
 DEPENDENCIES="dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/gdal-utils[${PYTHON_USEDEP}]
 	>dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	qt? ( dev-python/fidget[${PYTHON_USEDEP}] )
 	rf? ( >=dev-python/pyproj-3.1.0[${PYTHON_USEDEP}] )
-	rf? ( dev-python/rfmodel[${PYTHON_USEDEP}] )"
+	rf? ( dev-python/rfmodel[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel contrib"
+IUSE="contrib"
 DEPENDENCIES="dev-python/duet[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/duet[${PYTHON_USEDEP}]
 	contrib? ( dev-python/quimb[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/autoray[${PYTHON_USEDEP}] )
-	contrib? ( dev-python/numba[${PYTHON_USEDEP}] )"
+	contrib? ( dev-python/numba[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

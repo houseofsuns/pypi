@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure azureml-serving executable pfs"
+IUSE="azure azureml-serving executable pfs"
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
@@ -64,6 +64,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	executable? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	executable? ( dev-python/streamlit-quill[${PYTHON_USEDEP}] )
 	executable? ( dev-python/bs4[${PYTHON_USEDEP}] )
-	pfs? ( dev-python/flask-restx[${PYTHON_USEDEP}] )"
+	pfs? ( dev-python/flask-restx[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlglot-17.8.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
-	dev-python/polars[${PYTHON_USEDEP}]"
+	dev-python/polars[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]
@@ -54,6 +54,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/bandit[${PYTHON_USEDEP}]
 	dev-python/elib-config[${PYTHON_USEDEP}]
 	dev-python/elib-run[${PYTHON_USEDEP}]
-	dev-python/pystache[${PYTHON_USEDEP}]"
+	dev-python/pystache[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

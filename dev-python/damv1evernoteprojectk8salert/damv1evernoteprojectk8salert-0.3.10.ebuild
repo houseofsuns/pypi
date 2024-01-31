@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/damv1env[${PYTHON_USEDEP}]
 	dev-python/damv1time7[${PYTHON_USEDEP}]
-	dev-python/evernote3[${PYTHON_USEDEP}]"
+	dev-python/evernote3[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

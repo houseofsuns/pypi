@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel protobuf"
+IUSE="protobuf"
 DEPENDENCIES=">=dev-python/six-1.5.2[${PYTHON_USEDEP}]
-	protobuf? ( >=dev-python/grpcio-tools-1.44.0[${PYTHON_USEDEP}] )"
+	protobuf? ( >=dev-python/grpcio-tools-1.44.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

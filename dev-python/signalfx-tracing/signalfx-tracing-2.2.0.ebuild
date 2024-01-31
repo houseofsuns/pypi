@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel celery dbapi django elasticsearch flask instrumentation_tests jaeger psycopg2 pymongo pymysql redis requests tornado unit_tests"
+IUSE="celery dbapi django elasticsearch flask instrumentation_tests jaeger psycopg2 pymongo pymysql redis requests tornado unit_tests"
 DEPENDENCIES="dev-python/opentracing[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
@@ -69,6 +69,7 @@ DEPENDENCIES="dev-python/opentracing[${PYTHON_USEDEP}]
 	unit_tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	unit_tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	unit_tests? ( dev-python/six[${PYTHON_USEDEP}] )
-	unit_tests? ( dev-python/sfx-jaeger-client[${PYTHON_USEDEP}] )"
+	unit_tests? ( dev-python/sfx-jaeger-client[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-base-m2m-custom-field[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-stock-putaway-hook[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-stock-quant-package-dimension[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-web-domain-field[${PYTHON_USEDEP}]
-	dev-python/odoo[${PYTHON_USEDEP}]"
+	dev-python/odoo[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

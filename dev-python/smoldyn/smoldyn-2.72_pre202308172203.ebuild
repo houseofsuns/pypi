@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel biosimulators biosimulators-dev biosimulators-tests dev"
+IUSE="biosimulators biosimulators-dev biosimulators-tests dev"
 DEPENDENCIES="biosimulators? ( dev-python/biosimulators-utils[${PYTHON_USEDEP}] )
 	biosimulators? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	biosimulators? ( dev-python/pandas[${PYTHON_USEDEP}] )
@@ -34,6 +34,7 @@ DEPENDENCIES="biosimulators? ( dev-python/biosimulators-utils[${PYTHON_USEDEP}] 
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

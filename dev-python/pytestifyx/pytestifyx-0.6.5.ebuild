@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/pytest-playwright[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ DEPENDENCIES=">=dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
 	>=dev-python/prettytable-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-6.3.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.29.0[${PYTHON_USEDEP}]
-	~dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]"
+	~dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

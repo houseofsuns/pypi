@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all"
+IUSE="all"
 DEPENDENCIES=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/ntplib-0.3.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}] )
 	all? ( <dev-python/chardet-5.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarmor[${PYTHON_USEDEP}] )"
+	all? ( dev-python/pyarmor[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

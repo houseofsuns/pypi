@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel develop"
+IUSE="develop"
 DEPENDENCIES="dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	~dev-python/pymongo-3.11.1[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
 	develop? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
-	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )"
+	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

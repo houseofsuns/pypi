@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aio all doc image test"
+IUSE="aio all doc image test"
 DEPENDENCIES="~dev-python/ruamel-yaml-0.14[${PYTHON_USEDEP}]
 	<dev-python/future-1.0[${PYTHON_USEDEP}]
 	dev-python/maya[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="~dev-python/ruamel-yaml-0.14[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	image? ( ~dev-python/pillow-3.4.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

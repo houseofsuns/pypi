@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/grpclib[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/grpclib[${PYTHON_USEDEP}]
 	~dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-tools-1.51.1[${PYTHON_USEDEP}]"
+	>=dev-python/grpcio-tools-1.51.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

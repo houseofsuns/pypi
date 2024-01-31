@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all nlp tf yaml"
+IUSE="all nlp tf yaml"
 DEPENDENCIES="dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}]
 	dev-python/myst-parser[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-4.0.2[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES="dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}]
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/hashfile[${PYTHON_USEDEP}] )"
+	yaml? ( dev-python/hashfile[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

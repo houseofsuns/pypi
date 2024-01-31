@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/comtypes[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -57,6 +57,7 @@ DEPENDENCIES="dev-python/comtypes[${PYTHON_USEDEP}]
 	dev-python/finance-datareader[${PYTHON_USEDEP}]
 	dev-python/pyupbit[${PYTHON_USEDEP}]
 	dev-python/python-binance[${PYTHON_USEDEP}]
-	dev-python/parmap[${PYTHON_USEDEP}]"
+	dev-python/parmap[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

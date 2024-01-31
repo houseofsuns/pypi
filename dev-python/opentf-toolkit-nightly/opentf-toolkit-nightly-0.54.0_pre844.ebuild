@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.7[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES=">=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.17[${PYTHON_USEDEP}]
 	>=dev-python/toposort-1.10[${PYTHON_USEDEP}]
 	>=dev-python/waitress-2.1.2[${PYTHON_USEDEP}]
-	>=dev-python/paste-3.5.2[${PYTHON_USEDEP}]"
+	>=dev-python/paste-3.5.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

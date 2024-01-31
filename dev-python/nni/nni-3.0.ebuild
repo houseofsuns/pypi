@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all anneal bohb dngo ppotuner smac"
+IUSE="all anneal bohb dngo ppotuner smac"
 DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
@@ -59,6 +59,7 @@ DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	all? ( dev-python/ConfigSpace[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/gym[${PYTHON_USEDEP}] )
-	all? ( dev-python/pybnn[${PYTHON_USEDEP}] )"
+	all? ( dev-python/pybnn[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

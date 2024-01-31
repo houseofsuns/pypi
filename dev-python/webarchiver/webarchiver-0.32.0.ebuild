@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	>=dev-python/piexif-1.1.3[${PYTHON_USEDEP}]
 	>=dev-python/selenium-4.7.2[${PYTHON_USEDEP}]
-	dev-python/webdriver-manager[${PYTHON_USEDEP}]"
+	dev-python/webdriver-manager[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-account-account-tag-code[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-asset-batch-compute[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-asset-management[${PYTHON_USEDEP}]
@@ -54,6 +54,7 @@ DEPENDENCIES="dev-python/odoo-addon-account-account-tag-code[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-partner-required[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-template-active[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-account-usability[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-base-vat-optional-vies[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-base-vat-optional-vies[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

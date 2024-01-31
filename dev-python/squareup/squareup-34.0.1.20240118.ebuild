@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel testutils"
+IUSE="testutils"
 DEPENDENCIES="dev-python/apimatic-core[${PYTHON_USEDEP}]
 	dev-python/apimatic-core-interfaces[${PYTHON_USEDEP}]
 	dev-python/apimatic-requests-client-adapter[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	~dev-python/deprecation-2.1[${PYTHON_USEDEP}]
-	testutils? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )"
+	testutils? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

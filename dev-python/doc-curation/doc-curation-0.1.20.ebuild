@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all extras test"
+IUSE="all extras test"
 DEPENDENCIES="dev-python/curation-utils[${PYTHON_USEDEP}]
 	dev-python/indic-transliteration[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]
@@ -83,6 +83,7 @@ DEPENDENCIES="dev-python/curation-utils[${PYTHON_USEDEP}]
 	extras? ( dev-python/img2pdf[${PYTHON_USEDEP}] )
 	extras? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	extras? ( dev-python/aksharamukha[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

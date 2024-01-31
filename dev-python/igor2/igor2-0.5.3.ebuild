@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel cli"
+IUSE="cli"
 DEPENDENCIES=">=dev-python/numpy-1.25.1[${PYTHON_USEDEP}]
-	cli? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	cli? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

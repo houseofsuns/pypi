@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/pymongo-3.11.2[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
@@ -66,6 +66,7 @@ DEPENDENCIES="~dev-python/pymongo-3.11.2[${PYTHON_USEDEP}]
 	dev-python/clickhouse-cityhash[${PYTHON_USEDEP}]
 	dev-python/alphalens[${PYTHON_USEDEP}]
 	dev-python/qanotify[${PYTHON_USEDEP}]
-	>=dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]"
+	>=dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

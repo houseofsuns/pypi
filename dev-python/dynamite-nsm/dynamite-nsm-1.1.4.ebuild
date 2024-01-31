@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]
 	dev-python/progressbar[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/python-daemon-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.7[${PYTHON_USEDEP}]
-	~dev-python/unidecode-1.2.0[${PYTHON_USEDEP}]"
+	~dev-python/unidecode-1.2.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

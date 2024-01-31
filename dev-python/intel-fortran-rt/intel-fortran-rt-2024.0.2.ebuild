@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/intel-openmp[${PYTHON_USEDEP}]
 	dev-python/intel-cmplr-lic-rt[${PYTHON_USEDEP}]
-	dev-python/intel-cmplr-lib-rt[${PYTHON_USEDEP}]"
+	dev-python/intel-cmplr-lib-rt[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

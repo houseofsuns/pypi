@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	<dev-python/graphviz-1.0[${PYTHON_USEDEP}]
 	<dev-python/colour-1.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
-	<dev-python/svg-path-7.0[${PYTHON_USEDEP}]"
+	<dev-python/svg-path-7.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/django-3.0.6[${PYTHON_USEDEP}]
 	dev-python/django-address[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/python-memcached-1.59[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-0.14.4[${PYTHON_USEDEP}]
 	dev-python/uWSGI[${PYTHON_USEDEP}]
-	dev-python/psycopg2[${PYTHON_USEDEP}]"
+	dev-python/psycopg2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

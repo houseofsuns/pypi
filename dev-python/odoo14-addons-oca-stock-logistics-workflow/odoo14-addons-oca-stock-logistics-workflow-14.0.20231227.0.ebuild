@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo14-addon-delivery-package-default-shipping-weight[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-delivery-procurement-group-carrier[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-delivery-total-weight-from-packaging[${PYTHON_USEDEP}]
@@ -105,6 +105,7 @@ DEPENDENCIES="dev-python/odoo14-addon-delivery-package-default-shipping-weight[$
 	dev-python/odoo14-addon-stock-split-picking[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-stock-valuation-layer-by-category[${PYTHON_USEDEP}]
 	dev-python/odoo14-addon-stock-valuation-layer-usage[${PYTHON_USEDEP}]
-	dev-python/odoo14-addon-stock-valuation-no-developer-mode[${PYTHON_USEDEP}]"
+	dev-python/odoo14-addon-stock-valuation-no-developer-mode[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

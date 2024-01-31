@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all cpu cuda"
+IUSE="all cpu cuda"
 DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	cpu? ( dev-python/brainpylib[${PYTHON_USEDEP}] )
 	cpu? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/brainpylib[${PYTHON_USEDEP}] )
-	cuda? ( dev-python/jaxlib[${PYTHON_USEDEP}] )"
+	cuda? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

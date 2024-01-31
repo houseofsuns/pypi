@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/PySimpleGUI[${PYTHON_USEDEP}]
 	dev-python/abstract-gui[${PYTHON_USEDEP}]
 	dev-python/abstract-modules[${PYTHON_USEDEP}]
 	dev-python/abstract-utilities[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
-	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]"
+	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev? ( ~dev-python/cython-0.29.24[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
@@ -34,6 +34,7 @@ DEPENDENCIES="dev? ( ~dev-python/cython-0.29.24[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,8 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/tf-nightly-macos[${PYTHON_USEDEP}]
-	dev-python/tf-nightly-cpu-aws[${PYTHON_USEDEP}]"
+	dev-python/tf-nightly-cpu-aws[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

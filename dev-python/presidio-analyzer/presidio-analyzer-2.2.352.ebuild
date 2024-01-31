@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel azure-ai-language stanza transformers"
+IUSE="azure-ai-language stanza transformers"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/tldextract[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	azure-ai-language? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	stanza? ( dev-python/stanza[${PYTHON_USEDEP}] )
 	stanza? ( dev-python/spacy-stanza[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/spacy-huggingface-pipelines[${PYTHON_USEDEP}] )"
+	transformers? ( dev-python/spacy-huggingface-pipelines[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

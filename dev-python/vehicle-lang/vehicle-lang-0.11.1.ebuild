@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel mypy pygments test"
+IUSE="mypy pygments test"
 DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	mypy? ( >=dev-python/types-setuptools-45.0[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )
 	pygments? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/packaging-23.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

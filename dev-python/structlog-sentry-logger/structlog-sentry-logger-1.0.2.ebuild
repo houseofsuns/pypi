@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel sentry"
+IUSE="sentry"
 DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.19[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	sentry? ( >dev-python/sentry-sdk-0.17.0[${PYTHON_USEDEP}] )
-	<dev-python/structlog-24.0[${PYTHON_USEDEP}]"
+	<dev-python/structlog-24.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

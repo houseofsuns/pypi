@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel gui"
+IUSE="gui"
 DEPENDENCIES="dev-python/bleak[${PYTHON_USEDEP}]
 	<dev-python/construct-3.0[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
@@ -37,6 +37,7 @@ DEPENDENCIES="dev-python/bleak[${PYTHON_USEDEP}]
 	gui? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	gui? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	dev-python/tzlocal[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/polling[${PYTHON_USEDEP}]
 	~dev-python/six-1.13.0[${PYTHON_USEDEP}]
@@ -34,6 +34,7 @@ DEPENDENCIES="~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/python-libpython-debian-bin[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	dev-python/iocextract[${PYTHON_USEDEP}]
-	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]"
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel example jax lint numpy test"
+IUSE="example jax lint numpy test"
 DEPENDENCIES="example? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	example? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	example? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -42,6 +42,7 @@ DEPENDENCIES="example? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cases[${PYTHON_USEDEP}] )
 	test? ( dev-python/jax[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

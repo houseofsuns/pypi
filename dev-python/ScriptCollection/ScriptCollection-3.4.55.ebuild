@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/build-1.0.3[${PYTHON_USEDEP}]
 	>=dev-python/coverage-7.3.2[${PYTHON_USEDEP}]
 	dev-python/cyclonedx-bom[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES=">=dev-python/build-1.0.3[${PYTHON_USEDEP}]
 	>=dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
 	>=dev-python/send2trash-1.8.2[${PYTHON_USEDEP}]
 	>=dev-python/twine-4.0.2[${PYTHON_USEDEP}]
-	>=dev-python/xmlschema-2.5.0[${PYTHON_USEDEP}]"
+	>=dev-python/xmlschema-2.5.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/damv1env[${PYTHON_USEDEP}]
 	dev-python/damv1time7[${PYTHON_USEDEP}]
 	dev-python/damv1kubectl[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/damv1env[${PYTHON_USEDEP}]
 	dev-python/damv1templateprojectk8salert[${PYTHON_USEDEP}]
 	dev-python/damv1evernoteprojectk8salert[${PYTHON_USEDEP}]
 	dev-python/damv1telegramprojectk8salert[${PYTHON_USEDEP}]
-	dev-python/damv1airtableprojectk8salert[${PYTHON_USEDEP}]"
+	dev-python/damv1airtableprojectk8salert[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

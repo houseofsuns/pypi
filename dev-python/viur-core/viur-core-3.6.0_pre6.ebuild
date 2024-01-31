@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	~dev-python/pypng-0.20220715.0[${PYTHON_USEDEP}]
@@ -78,6 +78,7 @@ DEPENDENCIES="~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
 	~dev-python/referencing-0.32.0[${PYTHON_USEDEP}]
 	~dev-python/rpds-py-0.16.2[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
-	~dev-python/tzlocal-5.2[${PYTHON_USEDEP}]"
+	~dev-python/tzlocal-5.2[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

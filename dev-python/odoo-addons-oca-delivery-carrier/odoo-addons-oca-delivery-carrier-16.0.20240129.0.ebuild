@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/odoo-addon-base-delivery-carrier-label[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-carrier-account-environment[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-delivery-auto-refresh[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES="dev-python/odoo-addon-base-delivery-carrier-label[${PYTHON_USEDEP}
 	dev-python/odoo-addon-delivery-state[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-partner-delivery-zone[${PYTHON_USEDEP}]
 	dev-python/odoo-addon-stock-picking-delivery-link[${PYTHON_USEDEP}]
-	dev-python/odoo-addon-stock-picking-report-delivery-cost[${PYTHON_USEDEP}]"
+	dev-python/odoo-addon-stock-picking-report-delivery-cost[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

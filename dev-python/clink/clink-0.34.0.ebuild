@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs redis tests types tzdata"
+IUSE="docs redis tests types tzdata"
 DEPENDENCIES=">=dev-python/kombu-5.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
@@ -46,6 +46,7 @@ DEPENDENCIES=">=dev-python/kombu-5.0[${PYTHON_USEDEP}]
 	types? ( dev-python/types-freezegun[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	types? ( ~dev-python/types-setuptools-57.4.18[${PYTHON_USEDEP}] )
-	tzdata? ( dev-python/tzdata[${PYTHON_USEDEP}] )"
+	tzdata? ( dev-python/tzdata[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

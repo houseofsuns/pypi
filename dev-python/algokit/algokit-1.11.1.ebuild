@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/aiohttp-3.9.2[${PYTHON_USEDEP}]
 	dev-python/algokit-client-generator[${PYTHON_USEDEP}]
 	dev-python/algokit-utils[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.2[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]"
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

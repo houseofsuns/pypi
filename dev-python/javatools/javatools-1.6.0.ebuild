@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel crypto"
+IUSE="crypto"
 DEPENDENCIES="dev-python/CT3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	crypto? ( >=dev-python/m2crypto-0.26.0[${PYTHON_USEDEP}] )"
+	crypto? ( >=dev-python/m2crypto-0.26.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

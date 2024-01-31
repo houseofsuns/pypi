@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel aggregator aws azure google kafka rabbitmq"
+IUSE="aggregator aws azure google kafka rabbitmq"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.20[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	google? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	rabbitmq? ( >=dev-python/pika-1.0[${PYTHON_USEDEP}] )"
+	rabbitmq? ( >=dev-python/pika-1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

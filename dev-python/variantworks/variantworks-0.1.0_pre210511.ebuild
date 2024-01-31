@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/bgzip[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	~dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/bgzip[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	~dev-python/pytest-4.4.1[${PYTHON_USEDEP}]
-	dev-python/pytest-depends[${PYTHON_USEDEP}]"
+	dev-python/pytest-depends[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

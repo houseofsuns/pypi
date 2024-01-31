@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel sqlalchemy"
+IUSE="sqlalchemy"
 DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/keyring-4.0[${PYTHON_USEDEP}]
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/oedialect[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/postgresql[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( dev-python/postgresql[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

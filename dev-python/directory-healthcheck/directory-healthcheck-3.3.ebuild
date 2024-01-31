@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/django-health-check[${PYTHON_USEDEP}]
 	<=dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-3.10.0[${PYTHON_USEDEP}] )
@@ -39,6 +39,7 @@ DEPENDENCIES="dev-python/django-health-check[${PYTHON_USEDEP}]
 	test? ( dev-python/directory-api-client[${PYTHON_USEDEP}] )
 	test? ( dev-python/directory-forms-api-client[${PYTHON_USEDEP}] )
 	test? ( dev-python/directory-cms-client[${PYTHON_USEDEP}] )
-	test? ( dev-python/directory-client-core[${PYTHON_USEDEP}] )"
+	test? ( dev-python/directory-client-core[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

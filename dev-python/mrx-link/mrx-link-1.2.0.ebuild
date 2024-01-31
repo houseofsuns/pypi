@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="<=dev-python/black-22.12[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/cython-3.0[${PYTHON_USEDEP}]
@@ -52,6 +52,7 @@ DEPENDENCIES="<=dev-python/black-22.12[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-mock-3.6[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/websockets-9.1[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/websockets-9.1[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

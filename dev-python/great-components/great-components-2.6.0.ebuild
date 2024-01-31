@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel demo janitor test"
+IUSE="demo janitor test"
 DEPENDENCIES="<dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/directory-constants[${PYTHON_USEDEP}]
@@ -68,6 +68,7 @@ DEPENDENCIES="<dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	test? ( ~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}] )
-	test? ( dev-python/codecov[${PYTHON_USEDEP}] )"
+	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

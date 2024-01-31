@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev docker docs test"
+IUSE="dev docker docs test"
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
@@ -58,6 +58,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/docker-6.1.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-timeout-2.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-aiohttp-1.0.5[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

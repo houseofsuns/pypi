@@ -23,9 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.5.0[${PYTHON_USEDEP}]
-	test? ( <dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

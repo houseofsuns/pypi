@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES=">=dev-python/pandas-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
@@ -47,6 +47,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-3.4.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

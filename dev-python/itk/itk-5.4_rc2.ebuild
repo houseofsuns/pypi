@@ -23,13 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/itk-core[${PYTHON_USEDEP}]
 	dev-python/itk-numerics[${PYTHON_USEDEP}]
 	dev-python/itk-io[${PYTHON_USEDEP}]
 	dev-python/itk-filtering[${PYTHON_USEDEP}]
 	dev-python/itk-registration[${PYTHON_USEDEP}]
 	dev-python/itk-segmentation[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	dev-python/numpy[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

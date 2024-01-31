@@ -23,12 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	~dev-python/munch-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}]
 	dev-python/ascii-magic[${PYTHON_USEDEP}]
-	dev-python/graphqlclient[${PYTHON_USEDEP}]"
+	dev-python/graphqlclient[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

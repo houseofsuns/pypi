@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel jwt selenium shortcuts xlsx"
+IUSE="jwt selenium shortcuts xlsx"
 DEPENDENCIES="dev-python/pip-system-certs[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/pip-system-certs[${PYTHON_USEDEP}]
 	shortcuts? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	shortcuts? ( dev-python/icnsutil[${PYTHON_USEDEP}] )
 	xlsx? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	xlsx? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	xlsx? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel tests"
+IUSE="tests"
 DEPENDENCIES="dev-python/hjson[${PYTHON_USEDEP}]
 	dev-python/mo-dots[${PYTHON_USEDEP}]
 	dev-python/mo-files[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="dev-python/hjson[${PYTHON_USEDEP}]
 	tests? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/moto[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/moto-4.2.14[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/moto-4.2.14[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

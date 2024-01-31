@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel ceq dev notebook survey"
+IUSE="ceq dev notebook survey"
 DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	ceq? ( dev-python/openfisca-ceq[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/autopep8-1.5.5[${PYTHON_USEDEP}] )
@@ -42,6 +42,7 @@ DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	notebook? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/xlwt[${PYTHON_USEDEP}] )
 	survey? ( dev-python/OpenFisca-Survey-Manager[${PYTHON_USEDEP}] )
-	survey? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	survey? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel full jax keops zoo"
+IUSE="full jax keops zoo"
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.3[${PYTHON_USEDEP}]
@@ -38,6 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	keops? ( dev-python/pykeops[${PYTHON_USEDEP}] )
 	zoo? ( >=dev-python/tqdm-4.0[${PYTHON_USEDEP}] )
 	zoo? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
-	zoo? ( dev-python/jax[${PYTHON_USEDEP}] )"
+	zoo? ( dev-python/jax[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

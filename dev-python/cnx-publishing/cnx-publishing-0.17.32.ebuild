@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel test"
+IUSE="test"
 DEPENDENCIES="~dev-python/amqp-2.6.1[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/Beaker[${PYTHON_USEDEP}]
@@ -91,6 +91,7 @@ DEPENDENCIES="~dev-python/amqp-2.6.1[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	test? ( dev-python/vcrpy-unittest[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/webtest-2.0.35[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/webtest-2.0.35[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

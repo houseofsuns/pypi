@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
 	dev-python/suds-py3[${PYTHON_USEDEP}]
-	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]"
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

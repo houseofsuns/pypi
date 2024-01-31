@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel viz"
+IUSE="viz"
 DEPENDENCIES="~dev-python/DBUtils-1.1[${PYTHON_USEDEP}]
 	~dev-python/pymysql-0.6.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
@@ -45,6 +45,7 @@ DEPENDENCIES="~dev-python/DBUtils-1.1[${PYTHON_USEDEP}]
 	dev-python/pycapnp[${PYTHON_USEDEP}]
 	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	viz? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	viz? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )"
+	viz? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

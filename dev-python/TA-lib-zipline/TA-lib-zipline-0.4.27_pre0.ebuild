@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel all dev test"
+IUSE="all dev test"
 DEPENDENCIES="<dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	all? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -47,6 +47,7 @@ DEPENDENCIES="<dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/numpy-1.23[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/polars[${PYTHON_USEDEP}] )"
+	test? ( dev-python/polars[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel and-cuda"
+IUSE="and-cuda"
 DEPENDENCIES="and-cuda? ( dev-python/nvidia-cublas-cu12[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-cuda-cupti-cu12[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-cuda-nvcc-cu12[${PYTHON_USEDEP}] )
@@ -35,6 +35,7 @@ DEPENDENCIES="and-cuda? ( dev-python/nvidia-cublas-cu12[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-cusolver-cu12[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-cusparse-cu12[${PYTHON_USEDEP}] )
 	and-cuda? ( dev-python/nvidia-nccl-cu12[${PYTHON_USEDEP}] )
-	and-cuda? ( dev-python/nvidia-nvjitlink-cu12[${PYTHON_USEDEP}] )"
+	and-cuda? ( dev-python/nvidia-nvjitlink-cu12[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

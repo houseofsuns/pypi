@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel deprecated lgpl mycroft skills-essential"
+IUSE="deprecated lgpl mycroft skills-essential"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-3.0[${PYTHON_USEDEP}]
@@ -72,6 +72,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	skills-essential? ( dev-python/ovos-skill-personal[${PYTHON_USEDEP}] )
 	skills-essential? ( dev-python/ovos-skill-naptime[${PYTHON_USEDEP}] )
 	skills-essential? ( dev-python/ovos-skill-date-time[${PYTHON_USEDEP}] )
-	skills-essential? ( dev-python/ovos-skill-hello-world[${PYTHON_USEDEP}] )"
+	skills-essential? ( dev-python/ovos-skill-hello-world[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

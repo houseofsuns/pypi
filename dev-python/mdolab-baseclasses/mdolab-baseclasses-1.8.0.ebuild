@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel docs testing"
+IUSE="docs testing"
 DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-mdolab-theme[${PYTHON_USEDEP}] )
 	testing? ( dev-python/testflo[${PYTHON_USEDEP}] )
-	testing? ( dev-python/parameterized[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

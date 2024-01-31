@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel az full notebooks"
+IUSE="az full notebooks"
 DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-telemetry[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
@@ -43,6 +43,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	notebooks? ( <dev-python/nbconvert-6.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/nteract-scrapbook[${PYTHON_USEDEP}] )
-	notebooks? ( ~dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}] )"
+	notebooks? ( ~dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

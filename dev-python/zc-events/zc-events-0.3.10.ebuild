@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES=">=dev-python/boto3-1.4.7[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/inflection-0.4[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES=">=dev-python/boto3-1.4.7[${PYTHON_USEDEP}]
 	<dev-python/ujson-1.36[${PYTHON_USEDEP}]
 	dev-python/zc-common[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

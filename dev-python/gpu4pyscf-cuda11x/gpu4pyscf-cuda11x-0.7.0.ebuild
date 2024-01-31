@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/pyscf[${PYTHON_USEDEP}]
 	dev-python/cupy-cuda11x[${PYTHON_USEDEP}]
 	dev-python/geometric[${PYTHON_USEDEP}]
-	dev-python/gpu4pyscf-libxc-cuda11x[${PYTHON_USEDEP}]"
+	dev-python/gpu4pyscf-libxc-cuda11x[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

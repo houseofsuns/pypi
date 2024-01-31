@@ -23,10 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel build"
+IUSE="build"
 DEPENDENCIES="dev-python/cmeel[${PYTHON_USEDEP}]
 	dev-python/eiquadprog[${PYTHON_USEDEP}]
 	dev-python/pin[${PYTHON_USEDEP}]
-	build? ( dev-python/pin[${PYTHON_USEDEP}] )"
+	build? ( dev-python/pin[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

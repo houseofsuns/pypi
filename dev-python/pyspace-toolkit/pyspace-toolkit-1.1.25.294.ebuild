@@ -23,11 +23,12 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	>=dev-python/jellyfish-0.8.2[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/JPype1[${PYTHON_USEDEP}]
-	dev-python/MiniSom[${PYTHON_USEDEP}]"
+	dev-python/MiniSom[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel dev"
+IUSE="dev"
 DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/online-judge-tools[${PYTHON_USEDEP}]
@@ -33,6 +33,7 @@ DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/yapf-0.30.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/yapf-0.30.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

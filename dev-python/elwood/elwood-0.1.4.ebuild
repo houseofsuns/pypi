@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="+bin-wheel"
+IUSE=""
 DEPENDENCIES="dev-python/bump2version[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	~dev-python/coverage-4.5.4[${PYTHON_USEDEP}]
@@ -50,6 +50,7 @@ DEPENDENCIES="dev-python/bump2version[${PYTHON_USEDEP}]
 	~dev-python/watchdog-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.33.6[${PYTHON_USEDEP}]
 	~dev-python/xarray-0.16.1[${PYTHON_USEDEP}]
-	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]"
+	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

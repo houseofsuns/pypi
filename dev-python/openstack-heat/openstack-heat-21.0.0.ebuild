@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Orchestration [newver 19.0.2]"
+DESCRIPTION="OpenStack Orchestration"
 
 HOMEPAGE="https://docs.openstack.org/heat/latest/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Transform coordinates among GPS (WGS-84), Baidu (BD-02) and Mars in China (GCJ-02). [topver 1.0.0]"
+DESCRIPTION="Transform coordinates among GPS (WGS-84), Baidu (BD-02) and Mars in China (GCJ-02)."
 
 HOMEPAGE="https://github.com/googollee/eviltransform"
 LICENSE=""

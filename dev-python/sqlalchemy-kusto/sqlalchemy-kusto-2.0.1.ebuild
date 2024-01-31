@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/azure-kusto-data[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )

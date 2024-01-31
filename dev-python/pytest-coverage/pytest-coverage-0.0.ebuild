@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pytest plugin for measuring coverage. Forked from \`pytest-cov\`. [topver 0.0.1]"
+DESCRIPTION="Pytest plugin for measuring coverage. Forked from \`pytest-cov\`."
 
 HOMEPAGE="https://pypi.python.org/pypi/pytest-cover/"
 LICENSE="UNKNOWN"

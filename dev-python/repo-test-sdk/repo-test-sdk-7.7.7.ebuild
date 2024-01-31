@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="this porfile is made to test New repositories [newver 2.3.363]"
+DESCRIPTION="this porfile is made to test New repositories"
 
 HOMEPAGE=""
 LICENSE=""

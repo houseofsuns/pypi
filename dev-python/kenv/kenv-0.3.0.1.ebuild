@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kapchinscky ENVelope (KENV) -  solver of the Kapchinsky-Vladimirsky envelope equation [topver 0.3.0.3, newver 0.3.0.3]"
+DESCRIPTION="Kapchinscky ENVelope (KENV) -  solver of the Kapchinsky-Vladimirsky envelope equation [top-max 0.3.0.3]"
 
 HOMEPAGE="https://github.com/fuodorov/kenv"
 LICENSE=""

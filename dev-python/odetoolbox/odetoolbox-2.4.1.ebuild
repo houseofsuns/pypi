@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ODE-toolbox: Automatic selection and generation of integration schemes for systems of ordinary differential equations [topver 2.5.5, newver 2.5.5]"
+DESCRIPTION="ODE-toolbox: Automatic selection and generation of integration schemes for systems of ordinary differential equations [top-max 2.5.5]"
 
 HOMEPAGE="https://github.com/nest/ode-toolbox"
 LICENSE="GNU General Public License v2 GPLv2"

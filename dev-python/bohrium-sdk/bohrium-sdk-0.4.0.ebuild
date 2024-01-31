@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="bohrium openapi python sdk [newver 0.2.4]"
+DESCRIPTION="bohrium openapi python sdk"
 
 HOMEPAGE="https://github.com/dingzhaohan/bohrium-openapi-python-sdk"
 LICENSE=""

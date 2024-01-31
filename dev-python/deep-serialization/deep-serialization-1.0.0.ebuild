@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automatic python objects JSON serialization [newver 0.1.12]"
+DESCRIPTION="Automatic python objects JSON serialization"
 
 HOMEPAGE=""
 LICENSE=""

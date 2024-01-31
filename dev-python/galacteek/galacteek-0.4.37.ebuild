@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Browser for the distributed web [topver 0.5.0, newver 0.5.0]"
+DESCRIPTION="Browser for the distributed web [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/pinnaculum/galacteek"
 LICENSE="GPL-3"

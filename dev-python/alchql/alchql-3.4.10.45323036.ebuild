@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Graphene SQLAlchemy core integration [topver 3.4.10.45323042]"
+DESCRIPTION="Graphene SQLAlchemy core integration [top-max 3.4.10.45323042]"
 
 HOMEPAGE="https://github.com/startupmillio/alchql"
 LICENSE="MIT"
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/graphene[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/aiodataloader[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	>dev-python/setuptools-0.0[${PYTHON_USEDEP}]
+	>dev-python/setuptools-62.1.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/starlette[${PYTHON_USEDEP}] )

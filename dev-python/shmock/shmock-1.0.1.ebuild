@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SHell command MOCKer for integration testing [newver 1.0.0.post183]"
+DESCRIPTION="SHell command MOCKer for integration testing"
 
 HOMEPAGE="https://github.com/ImmobilienScout24/shmock"
 LICENSE="Apache-2.0"

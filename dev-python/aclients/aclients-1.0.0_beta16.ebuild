@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="基础封装库 [topver 1.0.1, newver 1.0.1]"
+DESCRIPTION="基础封装库 [top-max 1.0.1]"
 
 HOMEPAGE="https://github.com/tinybees/aclients"
 LICENSE="MIT"

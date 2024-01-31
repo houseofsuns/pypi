@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ROMP [ICCV21], BEV [CVPR22], TRACE [CVPR23] [topver 2.0.2, newver 2.0.2]"
+DESCRIPTION="ROMP [ICCV21], BEV [CVPR22], TRACE [CVPR23] [top-max 2.0.2]"
 
 HOMEPAGE="https://github.com/Arthur151/ROMP"
 LICENSE=""

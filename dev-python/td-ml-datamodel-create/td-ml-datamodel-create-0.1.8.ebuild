@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Auto Build TI ElasticCube datamodel via API [newver 0.0.1]"
+DESCRIPTION="Auto Build TI ElasticCube datamodel via API"
 
 HOMEPAGE="https://github.com/treasure-data-ps/td_ml_datamodel_create"
 LICENSE="Copyright  2022 Treasure Data, Inc. or its affiliates. All rights reserved"

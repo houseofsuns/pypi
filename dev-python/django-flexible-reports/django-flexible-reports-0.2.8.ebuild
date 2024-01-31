@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework for report generation in Django [topver 0.2.10, newver 0.2.10]"
+DESCRIPTION="A framework for report generation in Django [top-max 0.2.10]"
 
 HOMEPAGE="https://github.com/mpasternak/django-flexible-reports"
 LICENSE="MIT"

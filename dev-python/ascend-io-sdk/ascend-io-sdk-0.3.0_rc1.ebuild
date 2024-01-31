@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Ascend SDK for Python [newver 0.2.62]"
+DESCRIPTION="The Ascend SDK for Python"
 
 HOMEPAGE=""
 LICENSE=""

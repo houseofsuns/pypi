@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Code Editor-style reprs for Earth Engine data in a Jupyter notebook. [newver 0.0.3]"
+DESCRIPTION="Code Editor-style reprs for Earth Engine data in a Jupyter notebook."
 
 HOMEPAGE="https://github.com/aazuspan/eerepr"
 LICENSE="MIT"

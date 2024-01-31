@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A realtime messaging server using WebSockets and Redis. [topver 2.9.137, newver 2.9.137]"
+DESCRIPTION="A realtime messaging server using WebSockets and Redis. [top-max 2.9.137]"
 
 HOMEPAGE="https://github.com/machinezone/cobra"
 LICENSE="BSD 3"

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/salt[${PYTHON_USEDEP}]
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
-	changelog? ( ~dev-python/towncrier-21.9.0[${PYTHON_USEDEP}] )
+	changelog? ( ~dev-python/towncrier-21.9.0_rc1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
 	docsauto? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytest-salt-factories-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-salt-factories-1.0.0_rc21[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

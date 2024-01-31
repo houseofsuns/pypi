@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zope application server / web framework [newver 2.13.30]"
+DESCRIPTION="Zope application server / web framework"
 
 HOMEPAGE="https://zope.readthedocs.io/en/latest/"
 LICENSE="ZPL 2.1"

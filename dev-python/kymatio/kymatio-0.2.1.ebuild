@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wavelet scattering transforms in Python with GPU acceleration [topver 0.3.0, newver 0.3.0]"
+DESCRIPTION="Wavelet scattering transforms in Python with GPU acceleration [top-max 0.3.0]"
 
 HOMEPAGE="https://www.kymat.io"
 LICENSE="BSD"

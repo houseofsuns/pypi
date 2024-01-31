@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/docutils-0.21[${PYTHON_USEDEP}]
 	linkify? ( ~dev-python/linkify-it-py-2.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	rtd? ( ~dev-python/pydata-sphinx-theme-0.0[${PYTHON_USEDEP}] )
+	rtd? ( ~dev-python/pydata-sphinx-theme-0.13.0_rc4[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-design2[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )

@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.0.c10"
+REALVERSION="1.0.c11"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AIRi software package [newver 1.0.c11, badver 1.0.c10]"
+DESCRIPTION="AIRi software package [badver 1.0.c11]"
 
 HOMEPAGE="https://github.com/manuelnaranjo/AIRi"
 LICENSE="Apache V2"

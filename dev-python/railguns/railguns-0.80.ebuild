@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="~dev-python/django-5.0[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-5.0_alpha1[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]

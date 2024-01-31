@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client for performing precommit analysis with Teamscale. [topver 9.1.2, newver 9.1.2]"
+DESCRIPTION="Client for performing precommit analysis with Teamscale. [top-max 9.1.2]"
 
 HOMEPAGE="https://github.com/cqse/teamscale-cli"
 LICENSE="Apache-2.0"

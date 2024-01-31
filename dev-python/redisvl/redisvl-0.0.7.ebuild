@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	all? ( dev-python/cohere[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/mqtt-hass-base[${PYTHON_USEDEP}]
 	dev-python/Hydro-Quebec-API-Wrapper[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
-	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	dev-python/homeassistant[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

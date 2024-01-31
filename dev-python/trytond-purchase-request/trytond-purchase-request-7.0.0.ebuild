@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module for purchase requests [newver 5.0.9]"
+DESCRIPTION="Tryton module for purchase requests"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation of localized model fields using PostgreSQL HStore fields. [topver 6.8, newver 6.8b2]"
+DESCRIPTION="Implementation of localized model fields using PostgreSQL HStore fields. [top-max 6.8_beta2]"
 
 HOMEPAGE="https://github.com/SectorLabs/django-localized-fields"
 LICENSE="MIT"
@@ -27,7 +27,7 @@ IUSE="analysis docs test"
 DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/django-postgres-extra[${PYTHON_USEDEP}]
 	~dev-python/deprecation-2.0.7[${PYTHON_USEDEP}]
-	analysis? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	analysis? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	analysis? ( ~dev-python/autopep8-1.4.4[${PYTHON_USEDEP}] )

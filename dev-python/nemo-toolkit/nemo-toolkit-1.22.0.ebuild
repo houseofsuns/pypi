@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/triton[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	all? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
 	all? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )

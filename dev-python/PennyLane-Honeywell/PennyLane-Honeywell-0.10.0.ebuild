@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PennyLane plugin to access the Honeywell Quantum Solutions cloud service. [topver 0.34.0, newver 0.34.0]"
+DESCRIPTION="PennyLane plugin to access the Honeywell Quantum Solutions cloud service. [top-max 0.34.0]"
 
 HOMEPAGE="http://xanadu.ai"
 LICENSE="Apache-2.0"

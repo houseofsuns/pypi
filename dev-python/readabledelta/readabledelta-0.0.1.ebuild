@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Human readable modification of timedelta [topver 0.0.2, newver 0.0.2]"
+DESCRIPTION="Human readable modification of timedelta [top-max 0.0.2]"
 
 HOMEPAGE="https://github.com/wimglenn/readabledelta"
 LICENSE="UNKNOWN"

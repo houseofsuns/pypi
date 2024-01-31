@@ -64,7 +64,7 @@ DEPENDENCIES="<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/virtualenv-20.24.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sh-2.0.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

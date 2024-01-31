@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="docs? ( ~dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/furo-2021.6.18[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-inline-tabs-2021.3.28[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2021.6.18_beta36[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2021.3.28_beta7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )

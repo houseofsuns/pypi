@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.7c1"
+REALVERSION="0.7c3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for ITT's IDL [newver 0.7c3, badver 0.7c1]"
+DESCRIPTION="Python bindings for ITT's IDL [badver 0.7c3]"
 
 HOMEPAGE="http://www.cacr.caltech.edu/~mmckerns/software.html"
 LICENSE="modified BSD"

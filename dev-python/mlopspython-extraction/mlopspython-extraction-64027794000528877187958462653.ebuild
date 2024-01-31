@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extraction package for MLOpsPython project [newver 8761634318759538533639]"
+DESCRIPTION="Extraction package for MLOpsPython project"
 
 HOMEPAGE="https://github.com/guillaume-chervet/MLOpsPython"
 LICENSE=""

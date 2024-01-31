@@ -76,7 +76,7 @@ DEPENDENCIES=">=dev-python/dask-2022.3[${PYTHON_USEDEP}]
 	goes? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	goes? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	goes? ( dev-python/h5netcdf[${PYTHON_USEDEP}] )
-	goes? ( >=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}] )
+	goes? ( >=dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/ipywidgets-7.6[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/jupyterlab-2.2[${PYTHON_USEDEP}] )
 	open3d? ( dev-python/open3d[${PYTHON_USEDEP}] )

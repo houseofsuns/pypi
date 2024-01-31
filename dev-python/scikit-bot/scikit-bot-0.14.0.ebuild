@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	ignition? ( ~dev-python/lxml-4.6.5[${PYTHON_USEDEP}] )
 	ignition? ( ~dev-python/cachetools-5.0.0[${PYTHON_USEDEP}] )
 	linting? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
-	linting? ( ~dev-python/black-21.12[${PYTHON_USEDEP}] )
+	linting? ( ~dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

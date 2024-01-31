@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/gameanalysis[${PYTHON_USEDEP}]
 	dev-python/egtaonlineapi[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipython-7.19[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-asyncio-0.14[${PYTHON_USEDEP}] )

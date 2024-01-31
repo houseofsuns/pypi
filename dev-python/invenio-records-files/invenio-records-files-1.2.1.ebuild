@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Invenio modules that integrates records and files. [newver 1.0.0a11.post1]"
+DESCRIPTION="Invenio modules that integrates records and files."
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-records-files"
 LICENSE="MIT"

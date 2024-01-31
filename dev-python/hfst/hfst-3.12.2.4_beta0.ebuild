@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface for HFST [topver 3.16.0.1, newver 3.16.0.1]"
+DESCRIPTION="Python interface for HFST [top-max 3.16.0.1]"
 
 HOMEPAGE="http://hfst.github.io/"
 LICENSE="GNU GPL3"

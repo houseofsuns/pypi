@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="deepdriver experiments [newver 1.0.1.dev0]"
+DESCRIPTION="deepdriver experiments"
 
 HOMEPAGE="https://bokchi.com"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command-line Client for Deis, the open PaaS [newver 1.9.post1]"
+DESCRIPTION="Command-line Client for Deis, the open PaaS"
 
 HOMEPAGE="https://github.com/deis/deis"
 LICENSE="Copyright 2013, 2014 Engine Yard, Inc."

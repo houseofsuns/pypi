@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core components of PySAL - A library of spatial analysis functions [newver 4.8.1]"
+DESCRIPTION="Core components of PySAL - A library of spatial analysis functions"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause"

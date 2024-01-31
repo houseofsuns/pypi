@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library to control a SQLSprinkler system [topver 0.0.13, newver 0.0.13]"
+DESCRIPTION="A python library to control a SQLSprinkler system [top-max 0.0.13]"
 
 HOMEPAGE="https://github.com/GT3CH1/sqlsprinkler_python"
 LICENSE=""

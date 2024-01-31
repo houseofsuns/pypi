@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="prometheus exporter for cgroups v1 [topver 0.8.6, newver 0.8.6]"
+DESCRIPTION="prometheus exporter for cgroups v1 [top-max 0.8.6]"
 
 HOMEPAGE="https://github.com/mosquito/cgroups-exporter"
 LICENSE="Apache-2.0"

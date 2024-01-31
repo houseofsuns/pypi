@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/conftool[${PYTHON_USEDEP}]
 	<=dev-python/redis-4.1.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/wmflib[${PYTHON_USEDEP}]
-	format? ( <=dev-python/black-21.12[${PYTHON_USEDEP}] )
+	format? ( <=dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	format? ( dev-python/isort[${PYTHON_USEDEP}] )
 	prospector? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	prospector? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )

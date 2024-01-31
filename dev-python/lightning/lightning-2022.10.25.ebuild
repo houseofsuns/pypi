@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use Lightning Apps to build everything from production-ready, multi-cloud ML systems to simple research demos. [newver 2.1.3]"
+DESCRIPTION="Use Lightning Apps to build everything from production-ready, multi-cloud ML systems to simple research demos."
 
 HOMEPAGE="https://github.com/Lightning-AI/lightning"
 LICENSE="Apache-2.0"

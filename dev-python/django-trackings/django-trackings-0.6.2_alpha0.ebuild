@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs test"
 DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/cython-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cython-3.0.0_beta2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )

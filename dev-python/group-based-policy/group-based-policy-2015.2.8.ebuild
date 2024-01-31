@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Openstack Group Based Policy [newver 17.0.0]"
+DESCRIPTION="Openstack Group Based Policy"
 
 HOMEPAGE="http://www.openstack.org/"
 LICENSE=""

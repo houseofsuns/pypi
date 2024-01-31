@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for sending data to Honeycomb [newver 2.3.0.dev0]"
+DESCRIPTION="Python library for sending data to Honeycomb"
 
 HOMEPAGE="https://github.com/honeycombio/libhoney-py"
 LICENSE="Apache-2.0"

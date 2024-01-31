@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs tests"
 DEPENDENCIES=">=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	all? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/black-21.9[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	all? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/black-21.9[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )

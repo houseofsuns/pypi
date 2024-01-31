@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Relativictic Difference Scheme Particle-in-Cell code (REDPIC) [newver 0.9.5]"
+DESCRIPTION="Relativictic Difference Scheme Particle-in-Cell code (REDPIC)"
 
 HOMEPAGE="https://github.com/fuodorov/redpic"
 LICENSE=""

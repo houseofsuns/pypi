@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/cfg-load[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )

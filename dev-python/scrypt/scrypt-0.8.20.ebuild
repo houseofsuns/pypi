@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bindings for the scrypt key derivation function library [topver 0.8.21, newver 0.8.21]"
+DESCRIPTION="Bindings for the scrypt key derivation function library [top-max 0.8.21]"
 
 HOMEPAGE="https://github.com/holgern/py-scrypt"
 LICENSE="2-clause BSD"

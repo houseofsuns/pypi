@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Skitai App Engine [topver 0.56.18, newver 0.56.18]"
+DESCRIPTION="Skitai App Engine [top-max 0.56.18]"
 
 HOMEPAGE="https://gitlab.com/hansroh/skitai"
 LICENSE="MIT"

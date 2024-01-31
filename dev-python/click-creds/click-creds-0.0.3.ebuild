@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/tinynetrc[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tinynetrc[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )

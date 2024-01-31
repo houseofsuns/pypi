@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client library and toolkit for Neo4j [newver 5.0b5]"
+DESCRIPTION="Python client library and toolkit for Neo4j"
 
 HOMEPAGE="https://py2neo.org/"
 LICENSE="Apache-2.0"

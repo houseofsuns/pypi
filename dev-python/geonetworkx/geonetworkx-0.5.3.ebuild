@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pyproj-2.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.2.18[${PYTHON_USEDEP}]
-	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.0_rc2[${PYTHON_USEDEP}]
 	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

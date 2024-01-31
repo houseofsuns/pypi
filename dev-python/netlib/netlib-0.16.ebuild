@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of network utilities used by pathod and mitmproxy. [topver 0.17, newver 0.17]"
+DESCRIPTION="A collection of network utilities used by pathod and mitmproxy. [top-max 0.17]"
 
 HOMEPAGE="http://github.com/mitmproxy/netlib"
 LICENSE="MIT"

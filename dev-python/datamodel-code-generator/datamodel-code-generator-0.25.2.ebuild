@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="debug graphql http validation"
 DEPENDENCIES="debug? ( dev-python/PySnooper[${PYTHON_USEDEP}] )
 	<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
-	>=dev-python/black-19.10[${PYTHON_USEDEP}]
+	>=dev-python/black-19.10_beta0[${PYTHON_USEDEP}]
 	<dev-python/genson-2.0[${PYTHON_USEDEP}]
 	graphql? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	http? ( dev-python/httpx[${PYTHON_USEDEP}] )

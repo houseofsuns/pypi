@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flask extension to build REST APIs based on SQLAlchemy models [newver 0.14.1]"
+DESCRIPTION="Flask extension to build REST APIs based on SQLAlchemy models"
 
 HOMEPAGE="https://github.com/ESSS/flask-restalchemy"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Project intend to implement PEP 517, 518, 621, 631 and so on. [topver 0.0.11, newver 0.0.11]"
+DESCRIPTION="Project intend to implement PEP 517, 518, 621, 631 and so on. [top-max 0.0.11]"
 
 HOMEPAGE="https://github.com/pyproject-toml/pyproject-toml"
 LICENSE="MIT"

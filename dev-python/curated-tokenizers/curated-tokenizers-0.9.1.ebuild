@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight piece tokenization library [newver 0.0.9]"
+DESCRIPTION="Lightweight piece tokenization library"
 
 HOMEPAGE="https://github.com/explosion/curated-tokenizers"
 LICENSE="MIT"

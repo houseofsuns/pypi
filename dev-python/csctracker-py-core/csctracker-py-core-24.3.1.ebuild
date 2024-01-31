@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.7[${PYTHON_USEDEP}]
 	dev-python/prometheus-flask-exporter[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-init[${PYTHON_USEDEP}]
-	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

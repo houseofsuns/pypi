@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for controlling a Blueye Pioneer [newver 2.0.1]"
+DESCRIPTION="SDK for controlling a Blueye Pioneer"
 
 HOMEPAGE="https://www.blueyerobotics.com"
 LICENSE=""

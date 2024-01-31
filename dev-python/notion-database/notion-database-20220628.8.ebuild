@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Notion API Database Python Implementation [newver 1.1.0]"
+DESCRIPTION="Notion API Database Python Implementation"
 
 HOMEPAGE="https://github.com/minwook-shin/notion-database"
 LICENSE=""

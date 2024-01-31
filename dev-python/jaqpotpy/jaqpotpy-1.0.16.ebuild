@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Jaqpot [topver 1.0.104, newver 1.0.104]"
+DESCRIPTION="Python client for Jaqpot [top-max 1.0.104]"
 
 HOMEPAGE="https://github.com/KinkyDesign/jaqpotpy"
 LICENSE="GNU General Public License v3.0"

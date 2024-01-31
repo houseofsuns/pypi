@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK implementing a Client of the Alvin API [newver 1.4.1]"
+DESCRIPTION="Python SDK implementing a Client of the Alvin API"
 
 HOMEPAGE="https://github.com/alvindotai/alvin/tree/master/alvin_api_client"
 LICENSE="AGPL-3"

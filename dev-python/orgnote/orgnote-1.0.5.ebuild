@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.7.4[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.4.1[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]

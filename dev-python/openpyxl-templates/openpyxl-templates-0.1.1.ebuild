@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper around openpyxl to simplify reading and writing of tables. [topver 0.2.5, newver 0.2.5]"
+DESCRIPTION="A wrapper around openpyxl to simplify reading and writing of tables. [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/SverkerSbrg/openpyxl-templates"
 LICENSE="MIT"

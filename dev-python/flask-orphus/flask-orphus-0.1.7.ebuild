@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package that extends the flask webframework in a very opinionated way. [newver 0.1.7rc1]"
+DESCRIPTION="A package that extends the flask webframework in a very opinionated way."
 
 HOMEPAGE="https://github.com/JarriqTheTechie/flask_orphus"
 LICENSE=""

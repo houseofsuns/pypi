@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DICOM Processing Library for AI Apps [newver 0.0.43.2]"
+DESCRIPTION="DICOM Processing Library for AI Apps"
 
 HOMEPAGE="https://www.deepnoid.com"
 LICENSE="MIT"

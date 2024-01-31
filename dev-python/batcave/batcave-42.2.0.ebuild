@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BatCave Utilities module. [newver 42.2.0rc0]"
+DESCRIPTION="BatCave Utilities module."
 
 HOMEPAGE=""
 LICENSE=""

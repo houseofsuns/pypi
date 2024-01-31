@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="新一代跨平台开源 TRPG 骰娘框架 [newver 3.5.1rc1]"
+DESCRIPTION="新一代跨平台开源 TRPG 骰娘框架"
 
 HOMEPAGE="https://gitee.com/unvisitor/dicer"
 LICENSE="Apache-2.0"

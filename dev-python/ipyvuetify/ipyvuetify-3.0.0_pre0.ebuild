@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Jupyter widgets based on vuetify UI components [newver 3.0.0a2]"
+DESCRIPTION="Jupyter widgets based on vuetify UI components"
 
 HOMEPAGE=""
 LICENSE="MIT"

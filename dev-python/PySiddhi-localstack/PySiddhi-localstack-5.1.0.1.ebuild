@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for \`Siddhi 5.x.x\`. [newver 5.1.0.post2]"
+DESCRIPTION="Python wrapper for \`Siddhi 5.x.x\`."
 
 HOMEPAGE="https://github.com/localstack/PySiddhi"
 LICENSE="Apache-2.0"

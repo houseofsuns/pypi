@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

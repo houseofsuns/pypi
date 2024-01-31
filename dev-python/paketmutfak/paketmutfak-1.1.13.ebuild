@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library of code for working with paket mutfak [topver 1.1.42, newver 1.1.42]"
+DESCRIPTION="Library of code for working with paket mutfak [top-max 1.1.42]"
 
 HOMEPAGE="https://github.com/PaketMutfak/PaketMutfak-Lib-Test"
 LICENSE=""

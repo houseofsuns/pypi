@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="9.2.0.post11.dev5"
+REALVERSION="9.2.0.post12.dev5"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fake package to warn the user they are not installing the correct package. [newver 9.2.0.post12.dev5, badver 9.2.0.post11_pre5]"
+DESCRIPTION="A fake package to warn the user they are not installing the correct package. [badver 9.2.0.post12.dev5]"
 
 HOMEPAGE="https://github.com/NVIDIA"
 LICENSE="Apache-2.0"

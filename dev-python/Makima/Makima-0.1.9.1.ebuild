@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A cross-platform desktop automated testing framework. [topver 0.1.9.4, newver 0.1.9.4]"
+DESCRIPTION="A cross-platform desktop automated testing framework. [top-max 0.1.9.4]"
 
 HOMEPAGE="https://github.com/letmeNo1/Makima"
 LICENSE=""

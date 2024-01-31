@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The beerxml python package is a powerful tool designed to streamline the process of working with BeerXML files, ensuring that specific beer recipes adhere to the BeerXML standard. BeerXML is a widely adopted XML-based standard for representing brewing recipes, allowing brewers to share and exchange their recipes seamlessly. [newver 0.0.4]"
+DESCRIPTION="The beerxml python package is a powerful tool designed to streamline the process of working with BeerXML files, ensuring that specific beer recipes adhere to the BeerXML standard. BeerXML is a widely adopted XML-based standard for representing brewing recipes, allowing brewers to share and exchange their recipes seamlessly."
 
 HOMEPAGE="https://yourownbeer.de"
 LICENSE="MIT"

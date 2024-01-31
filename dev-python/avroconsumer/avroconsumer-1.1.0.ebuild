@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Base consumer class for working with Avro datums [topver 1.2.0, newver 1.2.0]"
+DESCRIPTION="Base consumer class for working with Avro datums [top-max 1.2.0]"
 
 HOMEPAGE="https://github.com/gmr/avroconsumer"
 LICENSE="BSDv3"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	dev-python/astral[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]

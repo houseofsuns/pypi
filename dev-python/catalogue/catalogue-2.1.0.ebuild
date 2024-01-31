@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight function registries for your library [newver 2.0.10]"
+DESCRIPTION="Lightweight function registries for your library"
 
 HOMEPAGE="https://github.com/explosion/catalogue"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A comprehensive package for the analysis of kinetic data. [topver 7.4.0, newver 7.4.0]"
+DESCRIPTION="A comprehensive package for the analysis of kinetic data. [top-max 7.4.0]"
 
 HOMEPAGE="https://www.chemphys.lu.se/research/projects/kimopack/"
 LICENSE=""

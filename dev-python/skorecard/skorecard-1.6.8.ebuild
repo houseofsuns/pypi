@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
 	dashboard? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )

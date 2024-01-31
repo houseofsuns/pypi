@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="kSpider sequence clustering software. [topver 2.3.2, newver 2.3.2]"
+DESCRIPTION="kSpider sequence clustering software. [top-max 2.3.2]"
 
 HOMEPAGE="https://github.com/mr-eyes/kSpider"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for pagerduty Dagster framework components. [newver 0.22.1]"
+DESCRIPTION="Package for pagerduty Dagster framework components."
 
 HOMEPAGE="https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-pagerduty"
 LICENSE="Apache-2.0"

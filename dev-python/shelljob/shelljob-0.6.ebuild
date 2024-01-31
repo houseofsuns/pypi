@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Run multiple subprocesses asynchronous/in parallel with streamed output/non-blocking reading. Also various tools to replace shell scripts. [topver 0.6.3, newver 0.6.3]"
+DESCRIPTION="Run multiple subprocesses asynchronous/in parallel with streamed output/non-blocking reading. Also various tools to replace shell scripts. [top-max 0.6.3]"
 
 HOMEPAGE="https://pypi.python.org/pypi/shelljob"
 LICENSE="GPL-3"

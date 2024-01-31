@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	dev-python/cloudpathlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pydata-sphinx-theme-0.4.3[${PYTHON_USEDEP}] )

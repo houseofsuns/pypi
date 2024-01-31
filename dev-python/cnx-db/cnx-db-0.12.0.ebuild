@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Connexions Database Library [topver 3.5.3, newver 3.5.3]"
+DESCRIPTION="Connexions Database Library [top-max 3.5.3]"
 
 HOMEPAGE="https://github.com/connexions/cnx-db"
 LICENSE="LGPL, See also LICENSE.txt"

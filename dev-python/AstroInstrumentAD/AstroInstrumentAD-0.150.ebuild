@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package to characterise the impact of atmospheric dispersion on a spectrographs throughput [topver 0.153, newver 0.153]"
+DESCRIPTION="A Python package to characterise the impact of atmospheric dispersion on a spectrographs throughput [top-max 0.153]"
 
 HOMEPAGE="https://github.com/JamianStephan/AstroInstrumentAD"
 LICENSE="MIT"

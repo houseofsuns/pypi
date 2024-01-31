@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An easy implementation of genetic-algorithm (GA) to solve continuous and combinatorial optimization problems with real, integer, and mixed variables in Python [topver 1.0.2, newver 1.0.2]"
+DESCRIPTION="An easy implementation of genetic-algorithm (GA) to solve continuous and combinatorial optimization problems with real, integer, and mixed variables in Python [top-max 1.0.2]"
 
 HOMEPAGE="https://github.com/rmsolgi/geneticalgorithm"
 LICENSE=""

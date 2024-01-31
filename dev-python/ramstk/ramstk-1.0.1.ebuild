@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The RAMS ToolKit (RAMSTK) is a suite of tools for performing and documenting reliability, availability, maintainability, and safety (RAMS) analyses [newver 0.19.0]"
+DESCRIPTION="The RAMS ToolKit (RAMSTK) is a suite of tools for performing and documenting reliability, availability, maintainability, and safety (RAMS) analyses"
 
 HOMEPAGE="https://github.com/weibullguy/ramstk"
 LICENSE="BSD"

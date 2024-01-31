@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Code Karigar - Web Framework [topver 0.10.8, newver 0.10.8]"
+DESCRIPTION="Python Code Karigar - Web Framework [top-max 0.10.8]"
 
 HOMEPAGE="http://pyck.compulife.com.pk"
 LICENSE="UNKNOWN"

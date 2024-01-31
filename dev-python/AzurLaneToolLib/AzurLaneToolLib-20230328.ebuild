@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.7.0a1.dev1"
+REALVERSION="0.7.0a1.dev2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools lib for Azur Lane which game powered by ManJiu Shanghai [newver 0.6.4, badver 0.7.0a1_pre1]"
+DESCRIPTION="Tools lib for Azur Lane which game powered by ManJiu Shanghai [badver 0.7.0a1.dev2]"
 
 HOMEPAGE="https://github.com/thedayofthedoctor/altl"
 LICENSE="GPL-3.0 LICENSE"

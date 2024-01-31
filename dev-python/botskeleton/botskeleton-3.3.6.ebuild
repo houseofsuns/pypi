@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A skeleton for content bots. [topver 3.3.9, newver 3.3.9]"
+DESCRIPTION="A skeleton for content bots. [top-max 3.3.9]"
 
 HOMEPAGE="https://github.com/alixnovosi/bot_skeleton"
 LICENSE="BSD"

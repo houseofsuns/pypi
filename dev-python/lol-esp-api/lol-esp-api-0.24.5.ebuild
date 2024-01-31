@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 0.3]"
+DESCRIPTION=""
 
 HOMEPAGE="https://github.com/xMadKing/lol-esports-api"
 LICENSE="MIT"

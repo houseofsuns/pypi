@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="JSON Schema for CubicWeb [newver 0.1.8]"
+DESCRIPTION="JSON Schema for CubicWeb"
 
 HOMEPAGE="http://www.cubicweb.org/project/cubicweb-jsonschema"
 LICENSE="LGPL-3"

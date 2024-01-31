@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Standardize and Automate processes utilized by the DAMs at Nike in CA [newver 0.0.33]"
+DESCRIPTION="Standardize and Automate processes utilized by the DAMs at Nike in CA"
 
 HOMEPAGE=""
 LICENSE=""

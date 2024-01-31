@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A utility to install OpenStack [newver 21.0.1]"
+DESCRIPTION="A utility to install OpenStack"
 
 HOMEPAGE="http://www.rdoproject.org/"
 LICENSE=""

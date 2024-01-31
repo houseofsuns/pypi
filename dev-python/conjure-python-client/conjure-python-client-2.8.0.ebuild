@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Conjure Python Library [newver 1.10.8]"
+DESCRIPTION="Conjure Python Library"
 
 HOMEPAGE="https://github.com/palantir/conjure-python-client"
 LICENSE=""

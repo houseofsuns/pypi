@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python wrapper for interacting with the DAC43608 [topver 0.2.7, newver 0.2.7]"
+DESCRIPTION="A python wrapper for interacting with the DAC43608 [top-max 0.2.7]"
 
 HOMEPAGE="https://github.com/Pioreactor/DAC43608"
 LICENSE="MIT"

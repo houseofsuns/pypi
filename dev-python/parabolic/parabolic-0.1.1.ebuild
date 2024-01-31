@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time-steppers for parabolic PDEs [topver 0.1.2, newver 0.1.2]"
+DESCRIPTION="Time-steppers for parabolic PDEs [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/nschloe/parabolic"
 LICENSE="License :: OSI Approved :: MIT License"

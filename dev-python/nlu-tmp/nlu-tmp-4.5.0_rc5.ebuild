@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="John Snow Labs NLU provides state of the art algorithms for NLP&NLU with 5000+ of pretrained models in 200+ languages. It enables swift and simple development and research with its powerful Pythonic and Keras inspired API. It is powerd by John Snow Labs powerful Spark NLP library. [newver 4.2.1]"
+DESCRIPTION="John Snow Labs NLU provides state of the art algorithms for NLP&NLU with 5000+ of pretrained models in 200+ languages. It enables swift and simple development and research with its powerful Pythonic and Keras inspired API. It is powerd by John Snow Labs powerful Spark NLP library."
 
 HOMEPAGE="http://nlu.johnsnowlabs.com"
 LICENSE=""

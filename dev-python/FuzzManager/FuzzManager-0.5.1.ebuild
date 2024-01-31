@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fuzzing management tools collection [topver 0.6.0, newver 0.6.0]"
+DESCRIPTION="A fuzzing management tools collection [top-max 0.6.0]"
 
 HOMEPAGE="https://github.com/MozillaSecurity/FuzzManager"
 LICENSE="MPL 2.0"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/django-appconf[${PYTHON_USEDEP}]
 	>=dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/attrs-21.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/bandit-1.7.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-21.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-21.10_beta0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/bpython-0.22.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )

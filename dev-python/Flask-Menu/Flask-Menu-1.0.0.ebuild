@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"Flask-Menu is a Flask extension that adds support for generating menus.\" [newver 0.7.3]"
+DESCRIPTION="\"Flask-Menu is a Flask extension that adds support for generating menus.\""
 
 HOMEPAGE="https://github.com/inveniosoftware/flask-menu"
 LICENSE="BSD"

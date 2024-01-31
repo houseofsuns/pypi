@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage flask project simply [topver 1.0.5, newver 1.0.5]"
+DESCRIPTION="Manage flask project simply [top-max 1.0.5]"
 
 HOMEPAGE="https://github.com/ksg97031/flaskapp"
 LICENSE=""

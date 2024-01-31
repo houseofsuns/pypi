@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="decentralising the Ai Industry, just some language model api's... [newver 0.0.2.6]"
+DESCRIPTION="decentralising the Ai Industry, just some language model api's..."
 
 HOMEPAGE="https://github.com/rzashakeri/gpt4free-python-package"
 LICENSE="GNU General Public License v3"

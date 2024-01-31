@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Docker. [newver 1.10.6a1]"
+DESCRIPTION="Python client for Docker."
 
 HOMEPAGE="https://github.com/docker/docker-py/"
 LICENSE="UNKNOWN"

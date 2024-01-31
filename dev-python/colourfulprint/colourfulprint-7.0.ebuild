@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Colourfulprint wfor Rainbow print without extra newline character( [newver 1.5]"
+DESCRIPTION="Colourfulprint wfor Rainbow print without extra newline character("
 
 HOMEPAGE="https://github.com/Nishant2009/colourfulprint"
 LICENSE=""

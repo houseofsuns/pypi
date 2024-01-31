@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An abstraction layer for reading and writing astronomical data to datastores. [newver 26.0.1rc2]"
+DESCRIPTION="An abstraction layer for reading and writing astronomical data to datastores."
 
 HOMEPAGE="https://github.com/lsst/daf_butler"
 LICENSE="BSD 3-Clause License"

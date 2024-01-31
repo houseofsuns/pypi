@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/roboflow[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command Line Interface app to download ebooks [topver 1.3.7, newver 1.3.7]"
+DESCRIPTION="Command Line Interface app to download ebooks [top-max 1.3.7]"
 
 HOMEPAGE="https://github.com/costis94/bookcut"
 LICENSE=""

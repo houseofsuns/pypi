@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/google-api-core-1.31.5[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.56.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/pylint-2.16.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.16.0_beta1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/autopep8-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )

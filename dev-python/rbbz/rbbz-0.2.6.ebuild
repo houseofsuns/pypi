@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Review Board extension for Bugzilla support [topver 0.2.8, newver 0.2.8]"
+DESCRIPTION="Review Board extension for Bugzilla support"
 
 HOMEPAGE="https://github.com/mozilla/rbbz"
 LICENSE="MPL 2.0"

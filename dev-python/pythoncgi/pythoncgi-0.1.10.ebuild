@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extremely simple Python CGI framework for Apache 2. [topver 0.17.0, newver 0.17.0]"
+DESCRIPTION="Extremely simple Python CGI framework for Apache 2. [top-max 0.17.0]"
 
 HOMEPAGE="https://github.com/foxe6/"
 LICENSE="AGPL-3"

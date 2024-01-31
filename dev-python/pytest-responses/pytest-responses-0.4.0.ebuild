@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="py.test integration for responses [topver 0.5.1, newver 0.5.1]"
+DESCRIPTION="py.test integration for responses [top-max 0.5.1]"
 
 HOMEPAGE="https://github.com/getsentry/pytest-responses"
 LICENSE="Apache-2.0"

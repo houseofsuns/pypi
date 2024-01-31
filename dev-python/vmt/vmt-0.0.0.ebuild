@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Video Media Tracker. Local, and simple method for watching and tracking a video media library. [newver 0.0.0b10]"
+DESCRIPTION="Video Media Tracker. Local, and simple method for watching and tracking a video media library."
 
 HOMEPAGE=""
 LICENSE="GNU General Public License v3 GPLv3"

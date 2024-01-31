@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface for the tqdist C library [topver 1.1, newver 1.1]"
+DESCRIPTION="Python interface for the tqdist C library [top-max 1.1]"
 
 HOMEPAGE=""
 LICENSE=""

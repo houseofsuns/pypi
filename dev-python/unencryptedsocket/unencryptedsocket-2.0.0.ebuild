@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple socket server-client for interprocess communications without security [topver 2.2.0, newver 2.2.0]"
+DESCRIPTION="Simple socket server-client for interprocess communications without security [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/foxe6/"
 LICENSE="AGPL-3"

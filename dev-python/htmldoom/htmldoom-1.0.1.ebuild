@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.710[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/lxml-4.3.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-3.12.1[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	testing? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mypy-0.710[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/lxml-4.3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

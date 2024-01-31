@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Machine Learning high level package. [newver 0.0.7rc10]"
+DESCRIPTION="Machine Learning high level package."
 
 HOMEPAGE="https://github.com/aitec-mp/krakatoa"
 LICENSE="MIT"

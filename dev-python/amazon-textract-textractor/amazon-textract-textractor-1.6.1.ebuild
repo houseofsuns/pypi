@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to use AWS Textract services. [newver 1.5.1]"
+DESCRIPTION="A package to use AWS Textract services."
 
 HOMEPAGE="https://github.com/aws-samples/amazon-textract-textractor"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Interface to the LinkedIn API V2 [topver 0.9.5, newver 0.9.5]"
+DESCRIPTION="Python Interface to the LinkedIn API V2 [top-max 0.9.5]"
 
 HOMEPAGE="https://github.com/HootsuiteLabs/python-linkedin-v2"
 LICENSE="MIT"

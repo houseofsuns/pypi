@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Personal Encrypted file storage, backup and sharing [topver 0.2.5, newver 0.2.5]"
+DESCRIPTION="Personal Encrypted file storage, backup and sharing [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/hoh/Billabong/"
 LICENSE="AGPL-3"

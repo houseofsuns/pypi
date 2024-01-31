@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Math algorithms in ML on torch [topver 0.75.2, newver 0.75.2]"
+DESCRIPTION="Math algorithms in ML on torch [top-max 0.75.2]"
 
 HOMEPAGE="https://github.com/nueramic/mathml"
 LICENSE="MIT"

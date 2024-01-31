@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/timg[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	format? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	format? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	format? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	format? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	hub? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"

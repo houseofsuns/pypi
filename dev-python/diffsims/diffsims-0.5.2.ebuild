@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/diffpy-structure[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.9[${PYTHON_USEDEP}]
 	dev-python/transforms3d[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/manifix[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )

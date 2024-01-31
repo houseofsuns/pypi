@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TkinterDnD2 is a python wrapper for George Petasis'' tkDnD Tk extension version 2 [newver 0.1.0]"
+DESCRIPTION="TkinterDnD2 is a python wrapper for George Petasis'' tkDnD Tk extension version 2"
 
 HOMEPAGE="https://github.com/blacklein/tkinterdnd2-osxarm64"
 LICENSE=""

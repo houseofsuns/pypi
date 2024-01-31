@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Efficient matrix representations for working with tabular data. [newver 4.0.0a3]"
+DESCRIPTION="Efficient matrix representations for working with tabular data."
 
 HOMEPAGE="https://github.com/Quantco/tabmat"
 LICENSE=""

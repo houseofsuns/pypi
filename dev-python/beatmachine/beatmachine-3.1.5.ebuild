@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for procedurally remixing songs [topver 3.2.0, newver 3.2.0]"
+DESCRIPTION="A library for procedurally remixing songs [top-max 3.2.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

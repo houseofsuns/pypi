@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django Admin tool to create, drop and periodically refresh materialized views in Postgres [topver 0.4.1, newver 0.4.1]"
+DESCRIPTION="Django Admin tool to create, drop and periodically refresh materialized views in Postgres [top-max 0.4.1]"
 
 HOMEPAGE=""
 LICENSE="BSD"

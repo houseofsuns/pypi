@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Support package for Radboud University Nijmegen, Faculty of Social Sciences hardware, with PsychoPy-like API. [topver 0.9.2, newver 0.9.2]"
+DESCRIPTION="Support package for Radboud University Nijmegen, Faculty of Social Sciences hardware, with PsychoPy-like API. [top-max 0.9.2]"
 
 HOMEPAGE="https://www.socsci.ru.nl/wilberth/python/rusocsci.html"
 LICENSE="GPL-3+"

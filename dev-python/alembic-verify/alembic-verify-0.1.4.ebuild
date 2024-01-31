@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library to verify migrations and models are in sync. [newver 0.1.3]"
+DESCRIPTION="A library to verify migrations and models are in sync."
 
 HOMEPAGE="https://github.com/Overseas-Student-Living/alembic-verify"
 LICENSE="Apache-2.0"

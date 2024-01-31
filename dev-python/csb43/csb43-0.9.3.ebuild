@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all babel basic_formats formats yaml"
-DEPENDENCIES=">=dev-python/pycountry-16.10.23[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pycountry-16.10.23_rc1[${PYTHON_USEDEP}]
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/tablib[${PYTHON_USEDEP}] )
 	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )

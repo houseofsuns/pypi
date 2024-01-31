@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple, reusable Django app for handling and storing Slack events and slash commands. [topver 0.4, newver 0.4]"
+DESCRIPTION="A simple, reusable Django app for handling and storing Slack events and slash commands. [top-max 0.4]"
 
 HOMEPAGE="https://github.com/erm/django-rest-slack/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Peartree is a library for converting GTFS to directed graphs. [topver 0.6.4, newver 0.6.4]"
+DESCRIPTION="Peartree is a library for converting GTFS to directed graphs. [top-max 0.6.4]"
 
 HOMEPAGE="https://github.com/kuanb/peartree"
 LICENSE="MIT"

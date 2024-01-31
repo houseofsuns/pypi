@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

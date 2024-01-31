@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kolla OpenStack Deployment [newver 15.4.0]"
+DESCRIPTION="Kolla OpenStack Deployment"
 
 HOMEPAGE="https://docs.openstack.org/kolla/latest/"
 LICENSE="Apache-2.0"

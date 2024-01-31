@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.4[${PYTHON_USEDEP}]
-	>=dev-python/defusedxml-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.5.0_rc1[${PYTHON_USEDEP}]
 	dev-python/python3-openid[${PYTHON_USEDEP}]
 	all? ( >=dev-python/python3-saml-1.5.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cryptography-2.1.1[${PYTHON_USEDEP}] )

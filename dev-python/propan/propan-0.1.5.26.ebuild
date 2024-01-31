@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/fast-depends[${PYTHON_USEDEP}]
 	async-kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	async-nats? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	async-rabbit? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
-	async-redis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )
+	async-redis? ( >=dev-python/redis-4.2.0_rc1[${PYTHON_USEDEP}] )
 	async-sqs? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/fastapi[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for Behavior benchmARKing [topver 1.4.10, newver 1.4.10]"
+DESCRIPTION="A tool for Behavior benchmARKing [top-max 1.4.10]"
 
 HOMEPAGE="https://github.com/bark-simulator/bark"
 LICENSE="MIT"

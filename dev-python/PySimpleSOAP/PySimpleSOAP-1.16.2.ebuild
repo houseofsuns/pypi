@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python simple and lightweight SOAP Library (master branch) [newver 1.8.22]"
+DESCRIPTION="Python simple and lightweight SOAP Library (master branch)"
 
 HOMEPAGE="https://github.com/pysimplesoap/pysimplesoap"
 LICENSE="LGPL 3.0"

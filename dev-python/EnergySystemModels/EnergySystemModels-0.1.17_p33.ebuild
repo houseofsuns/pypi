@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Energy systems models are the mathematical models that are developed in order to represent as reliably as possible various energy-related problems. [topver 0.1.21, newver 0.1.21.post0]"
+DESCRIPTION="Energy systems models are the mathematical models that are developed in order to represent as reliably as possible various energy-related problems. [top-max 0.1.21_p0]"
 
 HOMEPAGE="https://github.com/ZoheirHADID/EnergySystemModels"
 LICENSE=""

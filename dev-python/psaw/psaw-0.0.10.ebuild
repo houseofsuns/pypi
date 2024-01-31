@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pushshift.io API Wrapper for reddit.com public comment/submission search [topver 0.1.0, newver 0.1.0]"
+DESCRIPTION="Pushshift.io API Wrapper for reddit.com public comment/submission search [top-max 0.1.0]"
 
 HOMEPAGE="http://github.com/dmarx/psaw"
 LICENSE="Simplified BSD License"

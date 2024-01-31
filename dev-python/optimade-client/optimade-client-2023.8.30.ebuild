@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-tornasync-0.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-tornasync-0.6.0_p2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ase[${PYTHON_USEDEP}] )
 	dev? ( dev-python/voila[${PYTHON_USEDEP}] )
 	server? ( dev-python/ase[${PYTHON_USEDEP}] )
@@ -46,6 +46,6 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	testing? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/pytest-tornasync-0.6.0[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-tornasync-0.6.0_p2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parser for Talon files in Python. [newver 3!1.4]"
+DESCRIPTION="Parser for Talon files in Python."
 
 HOMEPAGE="https://github.com/wenkokke/py-tree-sitter-talon"
 LICENSE="MIT"

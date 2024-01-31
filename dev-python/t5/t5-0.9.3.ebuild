@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Text-to-text transfer transformer [topver 0.9.4, newver 0.9.4]"
+DESCRIPTION="Text-to-text transfer transformer [top-max 0.9.4]"
 
 HOMEPAGE="http://github.com/google-research/text-to-text-transfer-transformer"
 LICENSE="Apache-2.0"

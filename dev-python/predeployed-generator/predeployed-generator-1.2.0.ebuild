@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for generating memory layout of smart contracts written in solidity [newver 1.2.0a25]"
+DESCRIPTION="A tool for generating memory layout of smart contracts written in solidity"
 
 HOMEPAGE="https://github.com/skalenetwork/predeployed-generator"
 LICENSE=""

@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.3[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

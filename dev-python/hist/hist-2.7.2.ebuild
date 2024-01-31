@@ -27,7 +27,7 @@ IUSE="dask dev docs fit mpl plot test"
 DEPENDENCIES="dev-python/boost-histogram[${PYTHON_USEDEP}]
 	dev-python/histoprint[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0_beta1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask-histogram[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/dask-2022.0[${PYTHON_USEDEP}] )

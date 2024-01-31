@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mimic2 (tacotron based tts) plugin for OpenVoiceOS [topver 0.1.6, newver 0.1.6a5]"
+DESCRIPTION="Mimic2 (tacotron based tts) plugin for OpenVoiceOS [top-max 0.1.6_alpha5]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-tts-plugin-mimic2"
 LICENSE="Apache-2.0"

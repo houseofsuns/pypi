@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pylint reporter for junit format. [topver 0.3.4, newver 0.3.4]"
+DESCRIPTION="pylint reporter for junit format. [top-max 0.3.4]"
 
 HOMEPAGE="https://github.com/rasjani/pylint_junit"
 LICENSE="MIT"

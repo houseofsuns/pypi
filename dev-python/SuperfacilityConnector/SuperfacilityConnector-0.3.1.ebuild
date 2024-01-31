@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Connector API NERSC Superfacility [newver 0.3.1b0]"
+DESCRIPTION="Connector API NERSC Superfacility"
 
 HOMEPAGE="https://github.com/tylern4/superfacilityConnector"
 LICENSE=""

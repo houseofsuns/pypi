@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple classes for setting group permissions [topver 0.1.48, newver 0.1.48]"
+DESCRIPTION="Simple classes for setting group permissions [top-max 0.1.48]"
 
 HOMEPAGE="https://github.com/clinicedc/edc-permissions"
 LICENSE="GPL license, see LICENSE"

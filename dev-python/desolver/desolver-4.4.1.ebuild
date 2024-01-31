@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Differential Equation System Solver [newver 4.4.0]"
+DESCRIPTION="Differential Equation System Solver"
 
 HOMEPAGE="https://github.com/Microno95/desolver"
 LICENSE="MIT"

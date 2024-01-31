@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/flask-0.11.1[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/html5lib-truncation[${PYTHON_USEDEP}]
 	dev-python/apesmit-python2[${PYTHON_USEDEP}]
-	~dev-python/html5lib-1.0[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.0_beta8[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

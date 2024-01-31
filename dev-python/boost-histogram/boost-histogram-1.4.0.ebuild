@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs examples test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0_beta1[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	all? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )

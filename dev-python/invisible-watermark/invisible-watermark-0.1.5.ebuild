@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The library for creating and decoding invisible image watermarks [topver 0.2.0, newver 0.2.0]"
+DESCRIPTION="The library for creating and decoding invisible image watermarks [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/ShieldMnt/invisible-watermark"
 LICENSE=""

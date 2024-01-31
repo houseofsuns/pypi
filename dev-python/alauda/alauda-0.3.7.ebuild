@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alauda CLI [topver 0.3.8, newver 0.3.8]"
+DESCRIPTION="Alauda CLI [top-max 0.3.8]"
 
 HOMEPAGE="https://www.alauda.io"
 LICENSE=""

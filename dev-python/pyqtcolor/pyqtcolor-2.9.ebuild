@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bring Colorful Code [newver 2.0]"
+DESCRIPTION="Bring Colorful Code"
 
 HOMEPAGE=""
 LICENSE="Eclipse Public License 2.0"

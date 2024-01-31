@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
-	~dev-python/confusable_homoglyphs-3.0[${PYTHON_USEDEP}]
+	dev-python/confusable_homoglyphs[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

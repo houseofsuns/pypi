@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 1.0.6]"
+DESCRIPTION=""
 
 HOMEPAGE="https://github.com/Calamari-OCR/calamari"
 LICENSE="Apache-2.0"

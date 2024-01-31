@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ChatterBot is a machine learning, conversational dialog engine. [newver 1.0.8]"
+DESCRIPTION="ChatterBot is a machine learning, conversational dialog engine."
 
 HOMEPAGE="https://github.com/gunthercox/ChatterBot"
 LICENSE="BSD"

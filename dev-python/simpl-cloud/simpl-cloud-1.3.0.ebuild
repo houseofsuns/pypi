@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Base models and API for Django-based simulations. [newver 0.62]"
+DESCRIPTION="Base models and API for Django-based simulations."
 
 HOMEPAGE="https://github.com/Wharton-Interactive/simpl-cloud"
 LICENSE="GPL-2"

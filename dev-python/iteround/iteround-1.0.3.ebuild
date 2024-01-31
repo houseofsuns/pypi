@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rounds iterables (arrays, lists, sets, etc) while maintaining the sum of the initial array. [topver 1.0.4, newver 1.0.4]"
+DESCRIPTION="Rounds iterables (arrays, lists, sets, etc) while maintaining the sum of the initial array. [top-max 1.0.4]"
 
 HOMEPAGE="https://github.com/cgdeboer/iteround"
 LICENSE=""

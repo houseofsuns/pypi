@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python/modelica based simulation environment. [newver 0.9.1]"
+DESCRIPTION="A python/modelica based simulation environment."
 
 HOMEPAGE="https://github.com/pymoca/pymoca"
 LICENSE="BSD"

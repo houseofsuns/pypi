@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/poetry-1.2.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/poetry-1.2.0_alpha1[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

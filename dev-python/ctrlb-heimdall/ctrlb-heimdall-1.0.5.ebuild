@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CtrlB Python Debugger [topver 1.0.8, newver 1.0.8]"
+DESCRIPTION="CtrlB Python Debugger [top-max 1.0.8]"
 
 HOMEPAGE="https://ctrlb.ai"
 LICENSE=""

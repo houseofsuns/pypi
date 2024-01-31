@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FastAPI-Scheduler is a simple scheduled task management FastAPI extension based on APScheduler. [newver 0.0.14]"
+DESCRIPTION="FastAPI-Scheduler is a simple scheduled task management FastAPI extension based on APScheduler."
 
 HOMEPAGE=""
 LICENSE=""

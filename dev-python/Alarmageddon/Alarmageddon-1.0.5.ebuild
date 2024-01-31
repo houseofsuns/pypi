@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automated testing and reporting [topver 1.1.2, newver 1.1.2]"
+DESCRIPTION="Automated testing and reporting [top-max 1.1.2]"
 
 HOMEPAGE="https://github.com/PearsonEducation/Alarmageddon/tarball/1.0.5"
 LICENSE="Apache-2.0"

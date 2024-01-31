@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-scm-4.0[${PYTHON_USEDEP}]
 	<dev-python/google-api-python-client-2.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
-	test? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-1.4.0[${PYTHON_USEDEP}] )

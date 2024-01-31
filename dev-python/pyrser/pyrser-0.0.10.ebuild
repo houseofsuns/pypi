@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pyrser a pragmatic PEG parsing tool [topver 0.2.0, newver 0.2.0]"
+DESCRIPTION="Pyrser a pragmatic PEG parsing tool [top-max 0.2.0]"
 
 HOMEPAGE="https://code.google.com/p/pyrser/"
 LICENSE="GPL-3"

@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	gui? ( ~dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/pygame-2.1.3_pre8[${PYTHON_USEDEP}] )
 	record? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	record? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	record? ( ~dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )"
+	record? ( ~dev-python/pygame-2.1.3_pre8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

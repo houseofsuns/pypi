@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/MetPy[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/cmweather[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]"
+	>=dev-python/aiohttp-3.9.0_beta1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

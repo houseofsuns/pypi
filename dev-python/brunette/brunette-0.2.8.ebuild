@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	~dev-python/black-21.12[${PYTHON_USEDEP}]
+	~dev-python/black-21.12_beta0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-5.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.0_alpha2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )

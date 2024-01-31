@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"A Python library for the Demisto SDK\" [newver 3.2.13]"
+DESCRIPTION="\"A Python library for the Demisto SDK\""
 
 HOMEPAGE="https://github.com/demisto/demisto-py"
 LICENSE="Apache-2.0"

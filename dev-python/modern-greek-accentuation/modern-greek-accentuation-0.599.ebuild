@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python 3 library for accenting, analyzing accentuation, syllabification, augmentation and transcription of Modern Greek words\", [newver 0.6.5]"
+DESCRIPTION="Python 3 library for accenting, analyzing accentuation, syllabification, augmentation and transcription of Modern Greek words\","
 
 HOMEPAGE="https://github.com/PicusZeus/modern-greek-accentuation"
 LICENSE="MIT"

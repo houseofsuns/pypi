@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lightweight IR for dense linear algebra [topver 0.0.9, newver 0.0.9]"
+DESCRIPTION="A lightweight IR for dense linear algebra [top-max 0.0.9]"
 
 HOMEPAGE=""
 LICENSE=""

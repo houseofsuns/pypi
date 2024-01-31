@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Finance Securities Valuation Library [newver 0.34]"
+DESCRIPTION="A Finance Securities Valuation Library"
 
 HOMEPAGE="https://github.com/domokane/FinancePy"
 LICENSE=""

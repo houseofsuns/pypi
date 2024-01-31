@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cryptography is a package which provides cryptographic recipes and primitives to Python developers. [newver 42.0.1]"
+DESCRIPTION="cryptography is a package which provides cryptographic recipes and primitives to Python developers."
 
 HOMEPAGE="https://github.com/pyca/cryptography"
 LICENSE="Apache-2.0 OR BSD-3-Clause"

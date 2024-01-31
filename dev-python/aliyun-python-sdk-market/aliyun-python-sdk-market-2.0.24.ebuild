@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The market module of Aliyun Python sdk. [newver 1.0.2]"
+DESCRIPTION="The market module of Aliyun Python sdk."
 
 HOMEPAGE="http://develop.aliyun.com/sdk/python"
 LICENSE="Apache-2.0"

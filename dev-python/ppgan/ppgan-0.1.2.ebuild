@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Awesome GAN toolkits based on PaddlePaddle [topver 2.1.0, newver 2.1.0]"
+DESCRIPTION="Awesome GAN toolkits based on PaddlePaddle [top-max 2.1.0]"
 
 HOMEPAGE="https://github.com/PaddlePaddle/PaddleGAN"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives. [newver 0.1.33]"
+DESCRIPTION="Mining Millions of Search Result Pages of Hundreds of Search Engines from 25 Years of Web Archives."
 
 HOMEPAGE="https://github.com/webis-de/archive-query-log"
 LICENSE=""

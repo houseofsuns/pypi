@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Audacity Scripting - Python package for automating Audacity [newver 1.0.11]"
+DESCRIPTION="Audacity Scripting - Python package for automating Audacity"
 
 HOMEPAGE="https://github.com/unfor19/audacity-scripting"
 LICENSE="MIT"

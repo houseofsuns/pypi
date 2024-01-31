@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Call the DPlus Calculation Backend [topver 4.6.0, newver 4.6.0]"
+DESCRIPTION="Call the DPlus Calculation Backend [top-max 4.6.0]"
 
 HOMEPAGE="https://scholars.huji.ac.il/uriraviv"
 LICENSE="D+ Software"

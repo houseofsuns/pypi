@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generic backup utility. [topver 2.1.6, newver 2.1.6]"
+DESCRIPTION="Generic backup utility. [top-max 2.1.6]"
 
 HOMEPAGE="https://dev.mousesoft.ru/redmine/projects/msbackup"
 LICENSE="MIT"

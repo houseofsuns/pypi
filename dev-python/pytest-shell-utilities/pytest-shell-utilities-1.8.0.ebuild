@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/pytest-7.1.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/pytest-helpers-namespace[${PYTHON_USEDEP}]
 	dev-python/pytest-skip-markers[${PYTHON_USEDEP}]
-	changelog? ( ~dev-python/towncrier-21.9.0[${PYTHON_USEDEP}] )
+	changelog? ( ~dev-python/towncrier-21.9.0_rc1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

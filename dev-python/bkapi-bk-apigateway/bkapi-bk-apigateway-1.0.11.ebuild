@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="蓝鲸API网关 [newver 1.0.8]"
+DESCRIPTION="蓝鲸API网关"
 
 HOMEPAGE=""
 LICENSE="Apach License 2.0"

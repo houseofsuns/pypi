@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for analyzing TensorFlow models [topver 0.45.0, newver 0.45.0]"
+DESCRIPTION="A library for analyzing TensorFlow models [top-max 0.45.0]"
 
 HOMEPAGE="https://www.tensorflow.org/tfx/model_analysis"
 LICENSE="Apache-2.0"

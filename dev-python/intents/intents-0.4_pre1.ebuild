@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Define and operate Dialogflow Agents with a simple, code-first, approach [newver 0.4a1]"
+DESCRIPTION="Define and operate Dialogflow Agents with a simple, code-first, approach"
 
 HOMEPAGE="https://github.com/dariowho/intents"
 LICENSE="Apache-2.0"

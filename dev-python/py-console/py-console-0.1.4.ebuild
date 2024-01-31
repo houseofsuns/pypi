@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Colorfull JavaScript-like console logging [topver 0.1.6, newver 0.1.6]"
+DESCRIPTION="Colorfull JavaScript-like console logging [top-max 0.1.6]"
 
 HOMEPAGE="https://github.com/mike-huls/py-console"
 LICENSE="MIT"

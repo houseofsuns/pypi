@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Macaca Python Client [topver 1.0.1, newver 1.0.1]"
+DESCRIPTION="Macaca Python Client [top-max 1.0.1]"
 
 HOMEPAGE="https://github.com/macacajs/wd.py"
 LICENSE="MIT"

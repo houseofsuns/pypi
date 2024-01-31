@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package used to convert indic language to iast & iast to inidc langauge viceversa [newver 0.0.9]"
+DESCRIPTION="A package used to convert indic language to iast & iast to inidc langauge viceversa"
 
 HOMEPAGE="https://github.com/dankarthik25/IastFramework"
 LICENSE="MIT"

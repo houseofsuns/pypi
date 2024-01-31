@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Exporters is an extensible export pipeline library that supports filter, transform and several sources and destinations. [newver 0.6.18]"
+DESCRIPTION="Exporters is an extensible export pipeline library that supports filter, transform and several sources and destinations."
 
 HOMEPAGE="https://github.com/scrapinghub/exporters"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="package for structural engineering [topver 0.1.15, newver 0.1.15]"
+DESCRIPTION="package for structural engineering"
 
 HOMEPAGE="https://github.com/zhuoju36/StructEngPy"
 LICENSE="MIT"

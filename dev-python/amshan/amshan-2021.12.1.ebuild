@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Decode MBUS (Meter Bus) data with special support for norwegian AMS-smart meters (HAN port) [newver 2.1.1]"
+DESCRIPTION="Decode MBUS (Meter Bus) data with special support for norwegian AMS-smart meters (HAN port)"
 
 HOMEPAGE="https://github.com/toreamun/amshan"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep Learning and more NLP toolkit [topver 0.4.0, newver 0.4.0]"
+DESCRIPTION="Deep Learning and more NLP toolkit [top-max 0.4.0]"
 
 HOMEPAGE=""
 LICENSE=""

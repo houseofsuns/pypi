@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python REST Service Test utility [newver 0.4.2]"
+DESCRIPTION="Python REST Service Test utility"
 
 HOMEPAGE="https://www.restharness.com"
 LICENSE=""

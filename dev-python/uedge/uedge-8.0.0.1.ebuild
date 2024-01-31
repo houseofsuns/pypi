@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="2D Fluid simulation of plasma and neutrals in magnetic fusion devices [topver 8.0.5.0, newver 8.0.5.0]"
+DESCRIPTION="2D Fluid simulation of plasma and neutrals in magnetic fusion devices [top-max 8.0.5.0]"
 
 HOMEPAGE=""
 LICENSE=""

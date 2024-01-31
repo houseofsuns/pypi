@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage collections with common numerical component [newver 1.6.1]"
+DESCRIPTION="Manage collections with common numerical component"
 
 HOMEPAGE="https://gitlab.com/4degrees/clique"
 LICENSE="Apache-2.0"

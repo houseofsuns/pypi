@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An async webserver focused on being predictable and self documenting. [newver 0.0.3a27]"
+DESCRIPTION="An async webserver focused on being predictable and self documenting."
 
 HOMEPAGE="https://github.com/mrincredibuell/clericus"
 LICENSE=""

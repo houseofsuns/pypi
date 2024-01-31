@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CategorizationTabNames [topver 0.1.4, newver 0.1.4]"
+DESCRIPTION="CategorizationTabNames [top-max 0.1.4]"
 
 HOMEPAGE="https://github.com/Denisalik/TabNamesCat"
 LICENSE="MIT"

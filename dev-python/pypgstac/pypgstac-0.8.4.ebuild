@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/smart-open[${PYTHON_USEDEP}]
 	test? ( dev-python/types-cachetools[${PYTHON_USEDEP}] )
 	build? ( dev-python/maturin[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-orjson[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for Intel Embree 2.17.7 [topver 0.2.11, newver 0.2.11]"
+DESCRIPTION="Python wrapper for Intel Embree 2.17.7 [top-max 0.2.11]"
 
 HOMEPAGE=""
 LICENSE="BSD 2-Clause Simplified"

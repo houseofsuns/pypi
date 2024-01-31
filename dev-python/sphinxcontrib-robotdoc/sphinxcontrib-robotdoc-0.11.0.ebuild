@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
-	>=dev-python/pygments-1.6[${PYTHON_USEDEP}]
+	>=dev-python/pygments-1.6_rc1[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

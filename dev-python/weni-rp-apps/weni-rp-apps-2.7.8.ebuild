@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Weni apps for Rapidpro Platform [newver 2.7.8a7]"
+DESCRIPTION="Weni apps for Rapidpro Platform"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/arcade[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
-	~dev-python/sqlalchemy-2.0.5[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.5_p1[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/maturin[${PYTHON_USEDEP}] )

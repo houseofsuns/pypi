@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mimic3 server plugin for OpenVoiceOS [topver 0.0.2, newver 0.0.2a4]"
+DESCRIPTION="Mimic3 server plugin for OpenVoiceOS [top-max 0.0.2_alpha4]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-tts-plugin-mimic3-server"
 LICENSE="Apache-2.0"

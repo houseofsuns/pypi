@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Git Repository Leaks Scanner Python library written in C++ [topver 0.12.0, newver 0.12.0]"
+DESCRIPTION="A Git Repository Leaks Scanner Python library written in C++ [top-max 0.12.0]"
 
 HOMEPAGE="https://github.com/intsights/PyRepScan"
 LICENSE="MIT"

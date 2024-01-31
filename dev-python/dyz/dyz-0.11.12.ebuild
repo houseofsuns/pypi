@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="dyz [newver 0.11.11]"
+DESCRIPTION="dyz"
 
 HOMEPAGE="https://example.org"
 LICENSE="LGPL v3"

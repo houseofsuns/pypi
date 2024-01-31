@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EUD Trigger generator [topver 0.76.15, newver 0.76.15]"
+DESCRIPTION="EUD Trigger generator [top-max 0.76.15]"
 
 HOMEPAGE="https://github.com/armoha/eudplib"
 LICENSE="MIT"

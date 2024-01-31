@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dnoticias Authentication Backend [newver 1.3.3.13]"
+DESCRIPTION="Dnoticias Authentication Backend"
 
 HOMEPAGE=""
 LICENSE="MIT"

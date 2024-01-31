@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper to access weather data provided by darksky.net [newver 0.3]"
+DESCRIPTION="A wrapper to access weather data provided by darksky.net"
 
 HOMEPAGE="http://github.com/dvdme/forecastiopy"
 LICENSE="Eclipse Public License"

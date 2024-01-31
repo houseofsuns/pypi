@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Protocol for Rhasspy Voice Assistant [topver 1.5.2, newver 1.5.2]"
+DESCRIPTION="Protocol for Rhasspy Voice Assistant [top-max 1.5.2]"
 
 HOMEPAGE="http://github.com/rhasspy/rhasspy3"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multi Field Lookup over pk for DRF Nested Serializers [newver 0.0.26b0]"
+DESCRIPTION="Multi Field Lookup over pk for DRF Nested Serializers"
 
 HOMEPAGE="http://github.com/dishq/drf_multi_lookup"
 LICENSE="MIT"

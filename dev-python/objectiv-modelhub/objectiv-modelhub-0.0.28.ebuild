@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="<=dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
-	<dev-python/pyarrow-7.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-7.0_pre0[${PYTHON_USEDEP}]
 	dev-python/objectiv-bach[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

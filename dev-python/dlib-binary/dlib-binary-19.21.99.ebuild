@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A toolkit for making real world machine learning and data analysis applications [topver 19.24.1, newver 19.24.1]"
+DESCRIPTION="A toolkit for making real world machine learning and data analysis applications [top-max 19.24.1]"
 
 HOMEPAGE="https://github.com/davisking/dlib"
 LICENSE="Boost Software License"

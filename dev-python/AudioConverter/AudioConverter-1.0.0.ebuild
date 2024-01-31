@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pur[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

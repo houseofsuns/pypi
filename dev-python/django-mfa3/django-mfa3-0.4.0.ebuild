@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="multi factor authentication for django [topver 0.11.0, newver 0.11.0]"
+DESCRIPTION="multi factor authentication for django [top-max 0.11.0]"
 
 HOMEPAGE="https://github.com/xi/django-mfa3"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Used to drive ArcMap [newver 1.1b2]"
+DESCRIPTION="Used to drive ArcMap"
 
 HOMEPAGE="http://github.com/mapaction/mapactionpy_arcmap"
 LICENSE="GPL-3"

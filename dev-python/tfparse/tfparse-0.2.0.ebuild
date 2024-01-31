@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python HCL/Terraform parser via extension for AquaSecurity defsec [topver 0.6.5, newver 0.6.5]"
+DESCRIPTION="Python HCL/Terraform parser via extension for AquaSecurity defsec [top-max 0.6.5]"
 
 HOMEPAGE="https://github.com/cloud-custodian/tfparse"
 LICENSE="Apache-2.0"

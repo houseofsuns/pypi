@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework to build Reinforcement Learning environments for Active Network Management tasks in electricity networks. [topver 1.1.6, newver 1.1.6]"
+DESCRIPTION="A framework to build Reinforcement Learning environments for Active Network Management tasks in electricity networks. [top-max 1.1.6]"
 
 HOMEPAGE="https://github.com/robinhenry/gym-anm"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core-Level Spectroscopy Simulations in Python [newver 0.7.4]"
+DESCRIPTION="Core-Level Spectroscopy Simulations in Python"
 
 HOMEPAGE="https://github.com/mretegan/crispy"
 LICENSE="MIT"

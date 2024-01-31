@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyproject-flake8 (\`pflake8\`), a monkey patching wrapper to connect flake8 with pyproject.toml configuration [newver 6.1.0a1]"
+DESCRIPTION="pyproject-flake8 (\`pflake8\`), a monkey patching wrapper to connect flake8 with pyproject.toml configuration"
 
 HOMEPAGE=""
 LICENSE=""

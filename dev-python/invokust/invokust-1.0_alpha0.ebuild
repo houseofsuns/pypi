@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small wrapper for locust to allow running load tests from within Python or on AWS Lambda [newver 0.77]"
+DESCRIPTION="A small wrapper for locust to allow running load tests from within Python or on AWS Lambda"
 
 HOMEPAGE="https://github.com/FutureSharks/invokust"
 LICENSE="MIT"

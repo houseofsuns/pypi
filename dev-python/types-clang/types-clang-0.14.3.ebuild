@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Stubs package for Clang Python bindings [newver 0.13.3]"
+DESCRIPTION="Stubs package for Clang Python bindings"
 
 HOMEPAGE="https://github.com/tgockel/types-clang"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="View and control network interfaces. Linux only currently! Join us lets make it available for other OSes [newver 0.0.11]"
+DESCRIPTION="View and control network interfaces. Linux only currently! Join us lets make it available for other OSes"
 
 HOMEPAGE="http://pypi.python.org/pypi/pyiface/"
 LICENSE="LICENSE.txt"

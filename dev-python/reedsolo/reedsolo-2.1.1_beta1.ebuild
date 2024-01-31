@@ -27,7 +27,7 @@ IUSE="test testmeta testoptional"
 DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/cython-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cython-3.0.0_beta2[${PYTHON_USEDEP}] )
 	testmeta? ( dev-python/build[${PYTHON_USEDEP}] )
 	testmeta? ( dev-python/twine[${PYTHON_USEDEP}] )
 	testmeta? ( dev-python/validate-pyproject[${PYTHON_USEDEP}] )

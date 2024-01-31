@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/gradio[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/onnx[${PYTHON_USEDEP}] )

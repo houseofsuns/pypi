@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolbox for Machine Learning using Topological Data Analysis. [topver 20220825.5, newver 20220825.5]"
+DESCRIPTION="Toolbox for Machine Learning using Topological Data Analysis. [top-max 20220825.5]"
 
 HOMEPAGE="https://github.com/giotto-ai/giotto-tda"
 LICENSE="GNU AGPLv3"

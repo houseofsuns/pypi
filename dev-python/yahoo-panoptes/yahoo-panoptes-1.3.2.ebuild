@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Network Telemetry And Monitoring [newver 1.3.2.0rc11]"
+DESCRIPTION="Network Telemetry And Monitoring"
 
 HOMEPAGE="https://getpanoptes.io"
 LICENSE="Apache-2.0"

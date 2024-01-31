@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to the CLP Core Features through CLP's FFI [topver 0.1.0]"
+DESCRIPTION="Python interface to the CLP Core Features through CLP's FFI [top-max 0.1.0_beta0]"
 
 HOMEPAGE="https://github.com/y-scope/clp-ffi-py"
 LICENSE="Apache-2.0"

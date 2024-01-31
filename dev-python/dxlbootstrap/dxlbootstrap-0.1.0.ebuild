@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenDXL Bootstrap Application [topver 0.2.2, newver 0.2.2]"
+DESCRIPTION="OpenDXL Bootstrap Application [top-max 0.2.2]"
 
 HOMEPAGE="http://www.mcafee.com/"
 LICENSE="Apache-2.0"

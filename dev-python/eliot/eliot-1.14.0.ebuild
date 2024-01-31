@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Logging library that tells you why it happened [topver 1.15.0, newver 1.15.0]"
+DESCRIPTION="Logging library that tells you why it happened [top-max 1.15.0]"
 
 HOMEPAGE="https://github.com/itamarst/eliot/"
 LICENSE="Apache-2.0"

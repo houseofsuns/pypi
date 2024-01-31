@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
-	>=dev-python/shellingham-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/shellingham-1.5.0_p1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

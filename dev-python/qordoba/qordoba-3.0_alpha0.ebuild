@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Qordoba command line tool [newver 1.7.2]"
+DESCRIPTION="Qordoba command line tool"
 
 HOMEPAGE="https://www.qordoba.com"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EasyPost Shipping API Client Library for Python [newver 7.15.0]"
+DESCRIPTION="EasyPost Shipping API Client Library for Python"
 
 HOMEPAGE="https://easypost.com/"
 LICENSE=""

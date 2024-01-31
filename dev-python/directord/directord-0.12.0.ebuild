@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A deployment framework built to manage the data center life cycle. [newver 0.12.0a20220506140657]"
+DESCRIPTION="A deployment framework built to manage the data center life cycle."
 
 HOMEPAGE="https://github.com/directord/directord"
 LICENSE=""

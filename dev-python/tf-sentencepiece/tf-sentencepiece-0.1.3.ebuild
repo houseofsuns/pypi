@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SentencePiece Encode/Decode ops for TensorFlow [topver 0.1.92, newver 0.1.92]"
+DESCRIPTION="SentencePiece Encode/Decode ops for TensorFlow [top-max 0.1.92]"
 
 HOMEPAGE="https://github.com/google/sentencepiece"
 LICENSE="Apache-2.0"

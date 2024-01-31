@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="wangticket for y [topver 1.7, newver 1.7]"
+DESCRIPTION="wangticket for y [top-max 1.7]"
 
 HOMEPAGE="https://gitlab.com/wangticket/yes24-ticket"
 LICENSE=""

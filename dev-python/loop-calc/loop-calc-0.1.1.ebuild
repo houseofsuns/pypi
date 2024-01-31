@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This program evaluates loop programs as described in the lecture 'Grundlagen der theoretischen Informatik 2'. [topver 0.1.2, newver 0.1.2]"
+DESCRIPTION="This program evaluates loop programs as described in the lecture 'Grundlagen der theoretischen Informatik 2'. [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/fin-ger/loop-calc"
 LICENSE=""

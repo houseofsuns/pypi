@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Contains all the protos created by strobesbuf as a package to use [newver 0.0.3]"
+DESCRIPTION="Contains all the protos created by strobesbuf as a package to use"
 
 HOMEPAGE="https://github.com/strobes-co/strobesbufs-py"
 LICENSE="GPL-3"

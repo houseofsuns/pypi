@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Parser for Prompt Markup Language. [topver 0.4.0, newver 0.4.0]"
+DESCRIPTION="A Parser for Prompt Markup Language. [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/AlongWY/PromptEngine"
 LICENSE="GPL-3"

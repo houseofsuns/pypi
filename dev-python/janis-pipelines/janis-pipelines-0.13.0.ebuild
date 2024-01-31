@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Contains classes and helpers to build a workflow, and provide options to convert to CWL / WDL [topver 0.13.1, newver 0.13.1]"
+DESCRIPTION="Contains classes and helpers to build a workflow, and provide options to convert to CWL / WDL [top-max 0.13.1]"
 
 HOMEPAGE="https://github.com/PMCC-BioinformaticsCore/janis"
 LICENSE="GNU"

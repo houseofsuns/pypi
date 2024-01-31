@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/resdata[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/black-21.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-21.4_beta0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flake8-2.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )

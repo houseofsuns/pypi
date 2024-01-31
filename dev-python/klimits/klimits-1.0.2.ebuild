@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An action space representation for learning robot trajectories without exceeding limits on the position, velocity, acceleration and jerk of each robot joint. [topver 1.1.2, newver 1.1.2]"
+DESCRIPTION="An action space representation for learning robot trajectories without exceeding limits on the position, velocity, acceleration and jerk of each robot joint. [top-max 1.1.2]"
 
 HOMEPAGE="https://github.com/translearn/limits"
 LICENSE=""

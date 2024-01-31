@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	dev-python/fett[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyflakes-2.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.930[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )

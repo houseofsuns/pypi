@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Elegant and simple email library for Flask. [topver 0.4.2, newver 0.4.2]"
+DESCRIPTION="Elegant and simple email library for Flask. [top-max 0.4.2]"
 
 HOMEPAGE="https://github.com/lavr/flask-emails"
 LICENSE="Apache License"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-1.0.0[${PYTHON_USEDEP}]
-	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-documentai[${PYTHON_USEDEP}]
@@ -39,6 +39,6 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/immutabledict-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]"
+	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

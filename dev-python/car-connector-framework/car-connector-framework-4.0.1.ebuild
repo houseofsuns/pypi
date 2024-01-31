@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CAR service connector framework [newver 4.0.0rc41]"
+DESCRIPTION="CAR service connector framework"
 
 HOMEPAGE="https://github.com/IBM/cp4s-car-connector-framework"
 LICENSE="Apache-2.0"

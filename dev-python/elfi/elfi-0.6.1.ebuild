@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ELFI - Engine for Likelihood-Free Inference [topver 0.8.7, newver 0.8.7]"
+DESCRIPTION="ELFI - Engine for Likelihood-Free Inference [top-max 0.8.7]"
 
 HOMEPAGE="http://elfi.readthedocs.io"
 LICENSE="BSD"

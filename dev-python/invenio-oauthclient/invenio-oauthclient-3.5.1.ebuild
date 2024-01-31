@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	<dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-oauthlib-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/uritools-1.0.1[${PYTHON_USEDEP}]
-	>=dev-python/github3-py-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/github3-py-1.0.0_alpha4[${PYTHON_USEDEP}]
 	dev-python/uritemplate-py[${PYTHON_USEDEP}]
 	dev-python/invenio-admin[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )

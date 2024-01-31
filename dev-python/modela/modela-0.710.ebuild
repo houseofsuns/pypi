@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modela Automatic Machine Learning SDK [newver 0.86]"
+DESCRIPTION="Modela Automatic Machine Learning SDK"
 
 HOMEPAGE="https://github.com/metaprov/modela-python-sdk"
 LICENSE="Apache Software License 2.0"

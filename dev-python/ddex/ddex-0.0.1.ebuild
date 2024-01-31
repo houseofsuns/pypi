@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/xmlschema-1.11.0[${PYTHON_USEDEP}]
 	dev-python/xsdata[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-21.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )

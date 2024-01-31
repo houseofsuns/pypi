@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module with stock forecasts [newver 6.0.3]"
+DESCRIPTION="Tryton module with stock forecasts"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KR-WordRank: Korean Unsupervised Word/Keyword Extractor [newver 0.0.1]"
+DESCRIPTION="KR-WordRank: Korean Unsupervised Word/Keyword Extractor"
 
 HOMEPAGE="https://github.com/lovit/KR-WordRank"
 LICENSE=""

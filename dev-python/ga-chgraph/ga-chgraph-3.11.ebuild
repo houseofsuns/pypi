@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Graph Function [newver 2.29]"
+DESCRIPTION="Graph Function"
 
 HOMEPAGE=""
 LICENSE="GNU General Public License v3.0"

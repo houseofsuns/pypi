@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.2.5-r2014122202"
+REALVERSION="1.2.5a1-r2014122202"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="behave is behaviour-driven development, Python style.behave-py3 is a personal fork with python 3 support.Hope it could be merged back to upstream. [badver 1.2.5-r2014122202]"
+DESCRIPTION="behave is behaviour-driven development, Python style.behave-py3 is a personal fork with python 3 support.Hope it could be merged back to upstream. [badver 1.2.5a1-r2014122202]"
 
 HOMEPAGE="http://github.com/sunliwen/behave"
 LICENSE="BSD"

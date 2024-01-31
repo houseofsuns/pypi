@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A generic MediaWiki OAuth handshake helper. [topver 0.4.0, newver 0.4.0]"
+DESCRIPTION="A generic MediaWiki OAuth handshake helper. [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/mediawiki-utilities/python-mwoauth"
 LICENSE="MIT"

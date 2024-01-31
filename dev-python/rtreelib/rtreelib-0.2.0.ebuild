@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="diagram"
 DEPENDENCIES="diagram? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
 	diagram? ( >=dev-python/pydot-1.3.0[${PYTHON_USEDEP}] )
-	diagram? ( >=dev-python/tqdm-0.0[${PYTHON_USEDEP}] )"
+	diagram? ( >=dev-python/tqdm-4.31.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

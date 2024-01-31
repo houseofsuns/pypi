@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	dev-python/launart[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/graia-amnesia[${PYTHON_USEDEP}]
-	>=dev-python/starlette-0.32.0[${PYTHON_USEDEP}]
-	>=dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.32.0_p1[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.24.0_p1[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.9.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

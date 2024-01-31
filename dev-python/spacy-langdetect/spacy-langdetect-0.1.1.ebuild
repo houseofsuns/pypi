@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fully customizable language detection pipeline for spaCy [topver 0.1.2, newver 0.1.2]"
+DESCRIPTION="Fully customizable language detection pipeline for spaCy [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/Abhijit-2592/spacy-langdetect"
 LICENSE=""

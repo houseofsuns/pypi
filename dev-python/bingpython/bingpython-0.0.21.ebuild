@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bing AI Chat API [newver 0.0.20]"
+DESCRIPTION="Bing AI Chat API"
 
 HOMEPAGE="https://github.com/alicangnll/BingGPT-Python"
 LICENSE="GNU General Public License v2.0"

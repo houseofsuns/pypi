@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An abstraction layer for reading and writing from URI file resources. [newver 25.0.3rc2]"
+DESCRIPTION="An abstraction layer for reading and writing from URI file resources."
 
 HOMEPAGE="https://github.com/lsst/resources"
 LICENSE="BSD 3-Clause License"

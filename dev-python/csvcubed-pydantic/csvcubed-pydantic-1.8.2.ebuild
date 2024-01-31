@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data validation and settings management using python 3.6 type hinting [topver 1.9.0, newver 1.9.0]"
+DESCRIPTION="Data validation and settings management using python 3.6 type hinting [top-max 1.9.0]"
 
 HOMEPAGE="https://github.com/samuelcolvin/pydantic"
 LICENSE="MIT"

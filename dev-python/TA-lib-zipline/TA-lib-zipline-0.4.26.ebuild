@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A backtester for trading algorithms [topver 0.4.27]"
+DESCRIPTION="A backtester for trading algorithms [top-max 0.4.27_pre0]"
 
 HOMEPAGE="http://github.com/mrjbq7/ta-lib"
 LICENSE="BSD"

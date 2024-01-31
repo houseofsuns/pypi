@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/pyopengl-3.1.1[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyopengl-3.1.1_alpha1[${PYTHON_USEDEP}]
 	>=dev-python/PyQt5-5.13.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper of Markdown using CMark. [topver 1.6, newver 1.6]"
+DESCRIPTION="Python wrapper of Markdown using CMark. [top-max 1.6]"
 
 HOMEPAGE="https://umarkdown.netlify.app/"
 LICENSE="BSD"

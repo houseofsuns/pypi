@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools to perform flow naturalisation in Caterbury [newver 0.0.2]"
+DESCRIPTION="Tools to perform flow naturalisation in Caterbury"
 
 HOMEPAGE="https://github.com/Data-to-Knowledge/FlowNaturalisation"
 LICENSE="Apache-2.0"

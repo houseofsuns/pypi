@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Functional, streaming approach to HTML generation [newver 1.7.1]"
+DESCRIPTION="Functional, streaming approach to HTML generation"
 
 HOMEPAGE="https://github.com/quadrant-newmedia/html_generators"
 LICENSE=""

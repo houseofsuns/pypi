@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ansible Deployment of Kolla containers [newver 15.4.0]"
+DESCRIPTION="Ansible Deployment of Kolla containers"
 
 HOMEPAGE="https://docs.openstack.org/kolla-ansible/latest/"
 LICENSE="Apache-2.0"

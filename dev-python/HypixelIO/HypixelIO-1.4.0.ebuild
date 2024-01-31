@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all speedups"
 DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/cchardet-2.1.7[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Transforming images into 512-dimensional vectors by residual neural networks [newver 1.0.0]"
+DESCRIPTION="Transforming images into 512-dimensional vectors by residual neural networks"
 
 HOMEPAGE="https://github.com/ponponon/image2vector"
 LICENSE="MIT"

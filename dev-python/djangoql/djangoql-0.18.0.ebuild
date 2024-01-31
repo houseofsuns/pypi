@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DjangoQL: Advanced search language for Django [topver 0.18.1, newver 0.18.1]"
+DESCRIPTION="DjangoQL: Advanced search language for Django [top-max 0.18.1]"
 
 HOMEPAGE="https://github.com/ivelum/djangoql/"
 LICENSE="MIT"

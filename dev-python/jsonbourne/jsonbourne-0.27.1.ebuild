@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/xtyping[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pydantic-core-2.1.2[${PYTHON_USEDEP}] )
 	rapidjson? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )
-	orjson? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-4.0_pre0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/orjson-4.0_pre0[${PYTHON_USEDEP}] )
 	dev-python/jsonc2json[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/k-selenium-cookies[${PYTHON_USEDEP}]
 	dev-python/kproxy[${PYTHON_USEDEP}]
 	dev-python/noraise[${PYTHON_USEDEP}]
-	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.0.0_beta4[${PYTHON_USEDEP}]
 	dev-python/xpath-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

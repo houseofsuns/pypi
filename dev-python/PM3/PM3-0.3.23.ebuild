@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Like pm2 without node.js ;-) [topver 0.3.24, newver 0.3.24]"
+DESCRIPTION="Like pm2 without node.js ;-) [top-max 0.3.24]"
 
 HOMEPAGE="https://github.com/ilariofebi/PM3.git"
 LICENSE=""

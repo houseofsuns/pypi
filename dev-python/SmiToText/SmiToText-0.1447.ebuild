@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="test processing [topver 0.1665, newver 0.1665]"
+DESCRIPTION="test processing [top-max 0.1665]"
 
 HOMEPAGE="https://github.com/jjeaby/SmiToText"
 LICENSE="Apache-2.0"

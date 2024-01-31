@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A lightweight third-party broadcast/pubsub library [newver 1.3.2]"
+DESCRIPTION="A lightweight third-party broadcast/pubsub library"
 
 HOMEPAGE="https://github.com/Undertone0809/broadcast-service"
 LICENSE="Apache-2.0"

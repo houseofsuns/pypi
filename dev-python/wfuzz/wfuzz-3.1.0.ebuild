@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pycurl[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

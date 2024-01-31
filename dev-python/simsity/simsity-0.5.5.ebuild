@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/srsly[${PYTHON_USEDEP}]
 	dev? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.0.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

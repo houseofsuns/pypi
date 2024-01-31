@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
 DEPENDENCIES="~dev-python/cliff-2.14.1[${PYTHON_USEDEP}]
-	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1_beta5[${PYTHON_USEDEP}]
 	dev-python/RESTEasy[${PYTHON_USEDEP}]
-	~dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.0.0_rc4[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/Docify[${PYTHON_USEDEP}]
 	develop? ( ~dev-python/pip-19.0.3[${PYTHON_USEDEP}] )

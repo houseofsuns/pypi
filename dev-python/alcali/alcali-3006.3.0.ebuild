@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/salt-pepper[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1_alpha1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipython-7.31.1[${PYTHON_USEDEP}] )
 	ldap? ( ~dev-python/django-auth-ldap-4.5.0[${PYTHON_USEDEP}] )

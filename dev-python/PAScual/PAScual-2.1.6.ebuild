@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Positron Annihilation Spectroscopy data analysis [topver 3.0.3, newver 3.0.3]"
+DESCRIPTION="Positron Annihilation Spectroscopy data analysis [top-max 3.0.3]"
 
 HOMEPAGE="https://sourceforge.net/p/pascual/w/Main_Page/"
 LICENSE="GPL-3"

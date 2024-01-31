@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A very simple python library, used to format datetime with \`*** time ago\` statement. eg: \"3 hours ago\". [topver 1.0.16, newver 1.0.16]"
+DESCRIPTION="A very simple python library, used to format datetime with \`*** time ago\` statement. eg: \"3 hours ago\". [top-max 1.0.16]"
 
 HOMEPAGE="https://github.com/hustcc/timeago"
 LICENSE="MIT"

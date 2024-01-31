@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast and painless exoplanet transit light curve modelling. [topver 2.5.27, newver 2.5.27]"
+DESCRIPTION="Fast and painless exoplanet transit light curve modelling. [top-max 2.5.27]"
 
 HOMEPAGE="https://github.com/hpparvi/PyTransit"
 LICENSE="GPL-2"

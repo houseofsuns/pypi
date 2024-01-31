@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/pillow-8.0.1[${PYTHON_USEDEP}]
 	dev-python/webcolors[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]
-	offline_conversion? ( ~dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
+	offline_conversion? ( ~dev-python/mistune-2.0.0_rc1[${PYTHON_USEDEP}] )
 	offline_conversion? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	pdf_export? ( dev-python/pdfkit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

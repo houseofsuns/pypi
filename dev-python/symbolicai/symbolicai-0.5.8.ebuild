@@ -65,7 +65,7 @@ DEPENDENCIES=">=dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]
 	all? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/uvicorn-0.24.0_p1[${PYTHON_USEDEP}] )
 	bard? ( dev-python/bardapi[${PYTHON_USEDEP}] )
 	blip2? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
 	blip2? ( dev-python/decord[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES=">=dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]
 	serpapi? ( dev-python/google-search-results[${PYTHON_USEDEP}] )
 	services? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	services? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
-	services? ( >=dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	services? ( >=dev-python/uvicorn-0.24.0_p1[${PYTHON_USEDEP}] )
 	whisper? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	wolframalpha? ( dev-python/wolframalpha[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

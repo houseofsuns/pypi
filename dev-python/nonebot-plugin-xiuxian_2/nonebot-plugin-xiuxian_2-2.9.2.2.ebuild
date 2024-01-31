@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="修仙插件 [newver 2.9.1rc2]"
+DESCRIPTION="修仙插件"
 
 HOMEPAGE="https://github.com/QingMuCat/nonebot_plugin_xiuxian_2"
 LICENSE=""

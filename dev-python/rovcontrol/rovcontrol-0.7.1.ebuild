@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.7.2, newver 0.7.2]"
+DESCRIPTION=" [top-max 0.7.2]"
 
 HOMEPAGE="https://github.com/ld-cd/rovcontrol/"
 LICENSE="MIT"

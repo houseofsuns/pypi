@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple spark streaming handler. [topver 1.2.1, newver 1.2.1]"
+DESCRIPTION="A simple spark streaming handler. [top-max 1.2.1]"
 
 HOMEPAGE="https://github.com/HassanRady/SparkStream"
 LICENSE="MIT"

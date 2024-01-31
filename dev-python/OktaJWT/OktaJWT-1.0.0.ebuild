@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A subset of RFC 7519 for working with JWTs minted by Okta API Access Management. [newver 0.4.0]"
+DESCRIPTION="A subset of RFC 7519 for working with JWTs minted by Okta API Access Management."
 
 HOMEPAGE="https://github.com/mdwallick/okta-jwt"
 LICENSE="GPL-3"

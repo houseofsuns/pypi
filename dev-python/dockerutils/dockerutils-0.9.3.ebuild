@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Docker Utilities/Patterns for Python Projects [topver 2.0.7, newver 2.0.7]"
+DESCRIPTION="Docker Utilities/Patterns for Python Projects [top-max 2.0.7]"
 
 HOMEPAGE="https://github.com/rappdw/docker-utils.git"
 LICENSE="MIT"

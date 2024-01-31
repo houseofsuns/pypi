@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nautobot Secrets Providers Plugin. [newver 1.4.2]"
+DESCRIPTION="Nautobot Secrets Providers Plugin."
 
 HOMEPAGE="https://github.com/nautobot/nautobot-plugin-secrets-providers"
 LICENSE="Apache-2.0"

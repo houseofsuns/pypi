@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Light Weight Homology Framework [topver 2.0.1, newver 2.0.1]"
+DESCRIPTION="Light Weight Homology Framework [top-max 2.0.1]"
 
 HOMEPAGE=""
 LICENSE=""

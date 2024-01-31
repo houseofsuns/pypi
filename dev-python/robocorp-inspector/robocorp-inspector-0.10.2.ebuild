@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pywebview[${PYTHON_USEDEP}]
 	~dev-python/clr-loader-0.1.7[${PYTHON_USEDEP}]
-	~dev-python/pythonnet-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/pythonnet-3.0.0_alpha2[${PYTHON_USEDEP}]
 	~dev-python/mss-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]

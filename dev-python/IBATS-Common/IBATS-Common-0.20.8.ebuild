@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IBATS（Integration Backtest Analysis Trade System）的公共模块，所有Feeder, Trader均集成这个模块，并使用其提供的一些公共工具 [topver 0.20.11, newver 0.20.11]"
+DESCRIPTION="IBATS（Integration Backtest Analysis Trade System）的公共模块，所有Feeder, Trader均集成这个模块，并使用其提供的一些公共工具 [top-max 0.20.11]"
 
 HOMEPAGE="https://github.com/IBATS/IBATS_Common"
 LICENSE=""

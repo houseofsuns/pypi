@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="data access package for emobject [newver 0.5.2]"
+DESCRIPTION="data access package for emobject"
 
 HOMEPAGE="https://gitlab.com/enable-medicine/rnd-subgroup/libraries/emo-access"
 LICENSE=""

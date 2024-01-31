@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep IPS Filetype Handler [newver 0.9]"
+DESCRIPTION="Deep IPS Filetype Handler"
 
 HOMEPAGE="https://github.com/BrettefromNesUniverse/ipsluna"
 LICENSE=""

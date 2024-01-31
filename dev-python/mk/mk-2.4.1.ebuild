@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
-	>=dev-python/build-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/build-0.3.1_p1[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}]

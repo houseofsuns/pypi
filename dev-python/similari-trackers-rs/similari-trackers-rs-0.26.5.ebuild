@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Machine learning framework for building object trackers and similarity search engines [topver 0.26.6, newver 0.26.6]"
+DESCRIPTION="Machine learning framework for building object trackers and similarity search engines [top-max 0.26.6]"
 
 HOMEPAGE="https://github.com/insight-platform/Similari"
 LICENSE="Apache-2.0"

@@ -34,6 +34,6 @@ DEPENDENCIES="docs? ( ~dev-python/sphinx-4.1.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	test? ( <dev-python/cython-0.30.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

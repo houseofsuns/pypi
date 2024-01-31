@@ -33,6 +33,6 @@ DEPENDENCIES=">=dev-python/pillow-5.2.0[${PYTHON_USEDEP}]
 	dataset? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

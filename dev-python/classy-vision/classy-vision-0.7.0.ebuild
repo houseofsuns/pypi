@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/fvcore[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bs4[${PYTHON_USEDEP}] )

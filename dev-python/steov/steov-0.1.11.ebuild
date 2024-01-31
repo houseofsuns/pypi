@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core functionality that I believe should be in the standard library [topver 0.1.13, newver 0.1.13]"
+DESCRIPTION="Core functionality that I believe should be in the standard library [top-max 0.1.13]"
 
 HOMEPAGE="https://github.com/FoleyDiver/steov"
 LICENSE="GPL-2+"

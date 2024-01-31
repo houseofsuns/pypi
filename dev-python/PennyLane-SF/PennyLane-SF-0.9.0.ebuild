@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open source library for continuous-variable quantum computation [topver 0.29.1, newver 0.29.1]"
+DESCRIPTION="Open source library for continuous-variable quantum computation [top-max 0.29.1]"
 
 HOMEPAGE="https://github.com/XanaduAI/pennylane-sf"
 LICENSE="Apache-2.0"

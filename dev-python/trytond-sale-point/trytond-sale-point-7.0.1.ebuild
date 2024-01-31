@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module for Point of Sales [newver 6.8.4]"
+DESCRIPTION="Tryton module for Point of Sales"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Version and deploy your models following GitOps principles [topver 0.4.14, newver 0.4.14]"
+DESCRIPTION="Version and deploy your models following GitOps principles [top-max 0.4.14]"
 
 HOMEPAGE="https://mlem.ai"
 LICENSE="Apache-2.0"

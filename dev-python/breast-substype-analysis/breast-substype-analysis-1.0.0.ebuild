@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="breast-subtype-analysis 是一个用于乳腺癌症分子分型预测的Python包。 [topver 1.1.0, newver 1.1.0]"
+DESCRIPTION="breast-subtype-analysis 是一个用于乳腺癌症分子分型预测的Python包。 [top-max 1.1.0]"
 
 HOMEPAGE=""
 LICENSE=""

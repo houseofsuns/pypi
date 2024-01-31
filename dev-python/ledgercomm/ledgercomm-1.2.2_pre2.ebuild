@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to communicate with Ledger Nano S/X and Speculos [newver 1.2.1]"
+DESCRIPTION="Library to communicate with Ledger Nano S/X and Speculos"
 
 HOMEPAGE="https://github.com/LedgerHQ/ledgercomm"
 LICENSE=""
@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hid"
-DEPENDENCIES="hid? ( >=dev-python/hidapi-0.9.0[${PYTHON_USEDEP}] )"
+DEPENDENCIES="hid? ( >=dev-python/hidapi-0.9.0_p3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

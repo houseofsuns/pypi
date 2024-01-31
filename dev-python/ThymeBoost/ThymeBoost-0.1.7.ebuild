@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Spicy time series forecasting. [topver 0.1.18, newver 0.1.18]"
+DESCRIPTION="Spicy time series forecasting. [top-max 0.1.18]"
 
 HOMEPAGE="https://github.com/tblume1992/ThymeBoost"
 LICENSE=""

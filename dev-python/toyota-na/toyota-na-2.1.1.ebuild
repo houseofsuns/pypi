@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Toyota North America service API [newver 0.0.1.dev1]"
+DESCRIPTION="Python client for Toyota North America service API"
 
 HOMEPAGE=""
 LICENSE="MIT"

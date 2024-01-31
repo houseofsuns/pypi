@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python in Maya Done Right [topver 1.4.0, newver 1.4.0]"
+DESCRIPTION="Python in Maya Done Right [top-max 1.4.0]"
 
 HOMEPAGE="https://github.com/Lumapictures/pymel"
 LICENSE="BSD"

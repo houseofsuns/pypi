@@ -27,7 +27,7 @@ IUSE="dev tests"
 DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.0_beta1[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-0.9[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.0[${PYTHON_USEDEP}]

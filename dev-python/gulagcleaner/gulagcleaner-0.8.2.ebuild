@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ad removal tool for PDFs written in python. [topver 0.12.1, newver 0.12.1]"
+DESCRIPTION="Ad removal tool for PDFs written in python. [top-max 0.12.1]"
 
 HOMEPAGE="https://github.com/YM162/gulag-cleaner-cli"
 LICENSE=""

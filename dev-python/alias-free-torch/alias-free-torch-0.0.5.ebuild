@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="alias free torch [topver 0.0.6, newver 0.0.6]"
+DESCRIPTION="alias free torch [top-max 0.0.6]"
 
 HOMEPAGE="https://github.com/junjun3518/alias-free-torch"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MuJoCo Physics Simulator [newver 3.0.0]"
+DESCRIPTION="MuJoCo Physics Simulator"
 
 HOMEPAGE="https://github.com/google-deepmind/mujoco"
 LICENSE="Apache-2.0"

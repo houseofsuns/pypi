@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Test-ordering plugin for pytest [topver 0.6.0, newver 0.6.0]"
+DESCRIPTION="Test-ordering plugin for pytest [top-max 0.6.0]"
 
 HOMEPAGE="https://pagure.io/python-pytest-sourceorder"
 LICENSE="GPL-3"

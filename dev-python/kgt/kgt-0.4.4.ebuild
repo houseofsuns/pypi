@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python tools for Keygen.sh licensing [topver 0.4.7, newver 0.4.7]"
+DESCRIPTION="Python tools for Keygen.sh licensing [top-max 0.4.7]"
 
 HOMEPAGE=""
 LICENSE=""

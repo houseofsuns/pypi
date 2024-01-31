@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A check digit library for data validation [newver 0.5.0]"
+DESCRIPTION="A check digit library for data validation"
 
 HOMEPAGE="https://github.com/harens/checkdigit"
 LICENSE="GPL-3+"

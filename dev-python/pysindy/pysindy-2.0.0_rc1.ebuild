@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sparse Identification of Nonlinear Dynamics [newver 1.7.5]"
+DESCRIPTION="Sparse Identification of Nonlinear Dynamics"
 
 HOMEPAGE="https://github.com/dynamicslab/pysindy"
 LICENSE="MIT"

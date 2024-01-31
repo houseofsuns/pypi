@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sphinx extensions for working with LaTeX math [topver 0.6.7, newver 0.6.7]"
+DESCRIPTION="Sphinx extensions for working with LaTeX math [top-max 0.6.7]"
 
 HOMEPAGE="http://github.com/matthew-brett/texext"
 LICENSE="BSD license"

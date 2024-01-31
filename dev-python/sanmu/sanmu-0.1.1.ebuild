@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="用Excel描述测试用例的UI自动化测试框架，基于Selenium 和 UnitTes [topver 0.4.2, newver 0.4.2]"
+DESCRIPTION="用Excel描述测试用例的UI自动化测试框架，基于Selenium 和 UnitTes [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/dongfangtianyu/sanmu"
 LICENSE=""

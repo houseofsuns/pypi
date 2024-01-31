@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for flipr API. [topver 1.5.1, newver 1.5.1]"
+DESCRIPTION="Python client for flipr API. [top-max 1.5.1]"
 
 HOMEPAGE="https://github.com/cnico/flipr-api"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Squirrel public datasets collection [newver 0.3.1.dev22854]"
+DESCRIPTION="Squirrel public datasets collection"
 
 HOMEPAGE="https://merantix-momentum.com/technology/squirrel/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Skeleton for weather-based twitterbots [topver 1.6.1, newver 1.6.1]"
+DESCRIPTION="Skeleton for weather-based twitterbots [top-max 1.6.1]"
 
 HOMEPAGE="https://github.com/alixnovosi/weatherbotskeleton"
 LICENSE="BSD"

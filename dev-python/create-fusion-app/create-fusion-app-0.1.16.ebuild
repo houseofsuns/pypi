@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create Fusion App creates a specifically formatted React/Redux app called a Fusion app. [topver 0.1.18, newver 0.1.18]"
+DESCRIPTION="Create Fusion App creates a specifically formatted React/Redux app called a Fusion app. [top-max 0.1.18]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	base? ( dev-python/Flask-Admin[${PYTHON_USEDEP}] )
 	base? ( ~dev-python/setuptools-58.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )

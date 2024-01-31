@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenCensus Runtime Context [newver 0.1.3]"
+DESCRIPTION="OpenCensus Runtime Context"
 
 HOMEPAGE="https://github.com/census-instrumentation/opencensus-python/tree/master/context/opencensus-context"
 LICENSE="Apache-2.0"

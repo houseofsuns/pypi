@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Webviz config Equinor theme [topver 0.2.5, newver 0.2.5]"
+DESCRIPTION="Webviz config Equinor theme [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/equinor/webviz-config-equinor"
 LICENSE=""

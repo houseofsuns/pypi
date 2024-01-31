@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Read and write STAR files as pandas DataFrames [newver 0.5.4]"
+DESCRIPTION="Read and write STAR files as pandas DataFrames"
 
 HOMEPAGE="https://github.com/alisterburt/starfile"
 LICENSE="BSD 3-Clause License"

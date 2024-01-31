@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for terminology management with TermBase eXchange (TBX) [topver 0.1.13, newver 0.1.13]"
+DESCRIPTION="Package for terminology management with TermBase eXchange (TBX) [top-max 0.1.13]"
 
 HOMEPAGE="https://github.com/DeNederlandscheBank/termate"
 LICENSE="MIT"

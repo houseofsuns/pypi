@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Harvest API client [topver 5.0.0, newver 5.0.0b0]"
+DESCRIPTION="Harvest API client [top-max 5.0.0_beta0]"
 
 HOMEPAGE="https://github.com/lionheart/python-harvest"
 LICENSE="Apache-2.0"

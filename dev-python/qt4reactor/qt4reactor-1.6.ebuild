@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Twisted Qt Integration [newver 1.5]"
+DESCRIPTION="Twisted Qt Integration"
 
 HOMEPAGE="https://github.com/ghtdak/qtreactor"
 LICENSE="MIT"

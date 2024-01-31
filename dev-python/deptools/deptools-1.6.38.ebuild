@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Application Deployment Tools [newver 0.0.4]"
+DESCRIPTION="Application Deployment Tools"
 
 HOMEPAGE="https://alazartech.com"
 LICENSE=""

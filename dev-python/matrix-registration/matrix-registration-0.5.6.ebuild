@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="token based matrix registration app [topver 1.0.0, newver 0.9.2.dev3]"
+DESCRIPTION="token based matrix registration app [top-max 1.0.0_pre7]"
 
 HOMEPAGE="https://github.com/zeratax/matrix-registration"
 LICENSE=""

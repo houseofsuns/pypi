@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for interacting with the CxEngage API [newver 1.0.77]"
+DESCRIPTION="Python SDK for interacting with the CxEngage API"
 
 HOMEPAGE="https://github.com/ntflix/cxadmin"
 LICENSE=""

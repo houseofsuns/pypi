@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="For little HTML GUI applications, with easy Python/JS interop [newver 0.16.0]"
+DESCRIPTION="For little HTML GUI applications, with easy Python/JS interop"
 
 HOMEPAGE=""
 LICENSE=""

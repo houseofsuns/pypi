@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API of swEOS library which is designed to calculate EOS and thermal dynamic properties of H2O-NaCl system, usually called salt water. [topver 0.2.8, newver 0.2.8]"
+DESCRIPTION="Python API of swEOS library which is designed to calculate EOS and thermal dynamic properties of H2O-NaCl system, usually called salt water. [top-max 0.2.8]"
 
 HOMEPAGE="https://www.scibyte.cn"
 LICENSE=""

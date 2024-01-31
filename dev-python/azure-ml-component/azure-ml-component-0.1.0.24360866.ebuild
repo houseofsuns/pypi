@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.9.18, newver 0.9.18.post2]"
+DESCRIPTION=" [top-max 0.9.18_p2]"
 
 HOMEPAGE="https://docs.microsoft.com/en-us/azure/machine-learning/service/"
 LICENSE="https://aka.ms/azureml-sdk-license"

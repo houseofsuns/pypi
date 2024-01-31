@@ -62,7 +62,7 @@ DEPENDENCIES="jupyter? ( dev-python/azureml-sdk[${PYTHON_USEDEP}] )
 	required? ( >=dev-python/tqdm-4.31.1[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/azureml-sdk[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-18.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-18.6_beta4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	test? ( dev-python/scrapbook[${PYTHON_USEDEP}] )"

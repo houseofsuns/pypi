@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python bindings for poppler [topver 0.3.0, newver 0.3.0]"
+DESCRIPTION="python bindings for poppler [top-max 0.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

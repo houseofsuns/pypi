@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Reportlab Toolkit [topver 4.0.9, newver 4.0.9]"
+DESCRIPTION="The Reportlab Toolkit [top-max 4.0.9]"
 
 HOMEPAGE="https://www.reportlab.com/"
 LICENSE="BSD license see license.txt for details, Copyright c 2000-2022, ReportLab Inc."

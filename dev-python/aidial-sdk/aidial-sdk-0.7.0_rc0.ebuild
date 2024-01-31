@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework to create applications and model adapters for AI DIAL [newver 0.6.1]"
+DESCRIPTION="Framework to create applications and model adapters for AI DIAL"
 
 HOMEPAGE="https://epam-rail.com"
 LICENSE="Apache-2.0"

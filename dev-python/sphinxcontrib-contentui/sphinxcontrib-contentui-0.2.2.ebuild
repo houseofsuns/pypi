@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sphinx \"contentui\" extension [topver 0.2.5, newver 0.2.5]"
+DESCRIPTION="Sphinx \"contentui\" extension [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/ulrobix/sphinxcontrib-contentui"
 LICENSE="BSD"

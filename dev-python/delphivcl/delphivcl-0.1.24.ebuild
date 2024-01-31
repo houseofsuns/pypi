@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Delphi VCL for Python [topver 1.0.5, newver 1.0.5]"
+DESCRIPTION="Delphi VCL for Python [top-max 1.0.5]"
 
 HOMEPAGE="https://github.com/Embarcadero/DelphiVCL4Python"
 LICENSE="Other/Proprietary License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A domain-specific language for modeling convex optimization problems in Python. [newver 1.3.3]"
+DESCRIPTION="A domain-specific language for modeling convex optimization problems in Python."
 
 HOMEPAGE="https://github.com/cvxpy/cvxpy"
 LICENSE="Apache-2.0"

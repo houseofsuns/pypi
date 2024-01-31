@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
 	dev-python/pycfmodel[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )

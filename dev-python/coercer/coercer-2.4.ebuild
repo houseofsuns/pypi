@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 2.4.3, newver 2.4.3]"
+DESCRIPTION=" [top-max 2.4.3]"
 
 HOMEPAGE="https://github.com/p0dalirius/Coercer"
 LICENSE="GPL-2"

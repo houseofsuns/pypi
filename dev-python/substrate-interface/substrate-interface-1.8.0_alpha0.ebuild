@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for interfacing with a Substrate node [newver 1.7.5]"
+DESCRIPTION="Library for interfacing with a Substrate node"
 
 HOMEPAGE="https://github.com/polkascan/py-substrate-interface"
 LICENSE=""

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
-	>=dev-python/xarray-0.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.11.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pathlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

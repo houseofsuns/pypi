@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	djangorestframework? ( ~dev-python/djangorestframework-3.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/tox-3.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-4.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flake8-3.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-tuple[${PYTHON_USEDEP}] )

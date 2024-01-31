@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/api_object_schema[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/astroid-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pylint-2.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/isort-5.0.9[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/black-21.8[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-21.8_beta0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyforge[${PYTHON_USEDEP}] )
 	testing? ( dev-python/waiting[${PYTHON_USEDEP}] )
 	testing? ( dev-python/infinisim[${PYTHON_USEDEP}] )"

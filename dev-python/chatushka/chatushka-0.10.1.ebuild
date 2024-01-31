@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bot that can make your chat explode! [newver 0.1.11rc8]"
+DESCRIPTION="Bot that can make your chat explode!"
 
 HOMEPAGE="https://github.com/shpaker/chatushka"
 LICENSE=""

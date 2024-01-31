@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyPoly2Tri: a pure python implementation of poly2tri [topver 0.0.3, newver 0.0.3]"
+DESCRIPTION="pyPoly2Tri: a pure python implementation of poly2tri [top-max 0.0.3]"
 
 HOMEPAGE="http://github.com/popupcad/pypoly2tri"
 LICENSE="MIT"

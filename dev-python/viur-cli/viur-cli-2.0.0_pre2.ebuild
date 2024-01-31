@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command-line interface for ViUR application maintenance. [newver 1.1.2]"
+DESCRIPTION="Command-line interface for ViUR application maintenance."
 
 HOMEPAGE="https://github.com/viur-framework/viur-cli"
 LICENSE=""

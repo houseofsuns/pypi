@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Business day utilities for Polars [topver 0.3.22, newver 0.3.22]"
+DESCRIPTION="Business day utilities for Polars [top-max 0.3.22]"
 
 HOMEPAGE=""
 LICENSE=""

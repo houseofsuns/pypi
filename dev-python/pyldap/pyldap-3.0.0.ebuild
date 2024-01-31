@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DEPRECATED; use python-ldap instead [newver 3.0.0.post1]"
+DESCRIPTION="DEPRECATED; use python-ldap instead [top-max 3.0.0_p1]"
 
 HOMEPAGE="https://github.com/pyldap/pyldap/"
 LICENSE="Python style"

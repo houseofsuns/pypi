@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parallel optimisation for Python [topver 2.19.5, newver 2.19.5]"
+DESCRIPTION="Parallel optimisation for Python [top-max 2.19.5]"
 
 HOMEPAGE="https://github.com/esa/pygmo2"
 LICENSE="MPL-2.0"

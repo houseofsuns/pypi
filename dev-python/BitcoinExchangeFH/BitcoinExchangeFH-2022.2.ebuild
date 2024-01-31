@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
 	dev-python/ccxt[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.1.11[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.9.3[${PYTHON_USEDEP}]

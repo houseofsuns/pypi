@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.32.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-1.12.1[${PYTHON_USEDEP}] )

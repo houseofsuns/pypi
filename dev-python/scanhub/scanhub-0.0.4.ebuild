@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ScanHub Tools [newver 0.0.4.dev4]"
+DESCRIPTION="ScanHub Tools"
 
 HOMEPAGE="https://github.com/brain-link/scanhub_tools"
 LICENSE="BSD-licenced 3 clause"

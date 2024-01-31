@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NURBS curve and surface evaluation library in pure python [topver 3.9.0, newver 3.9.0]"
+DESCRIPTION="NURBS curve and surface evaluation library in pure python [top-max 3.9.0]"
 
 HOMEPAGE="https://github.com/orbingol/NURBS-Python"
 LICENSE="MIT"

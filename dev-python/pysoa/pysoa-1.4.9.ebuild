@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for writing (micro)services and their clients [newver 1.4.7]"
+DESCRIPTION="A Python library for writing (micro)services and their clients"
 
 HOMEPAGE="http://github.com/eventbrite/pysoa"
 LICENSE="Apache-2.0"

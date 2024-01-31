@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Bot SDK for Dialog Messenger [newver 3.0.8rc7]"
+DESCRIPTION="Python Bot SDK for Dialog Messenger"
 
 HOMEPAGE="https://github.com/dialogs/python-bot-sdk"
 LICENSE="Apache-2.0"

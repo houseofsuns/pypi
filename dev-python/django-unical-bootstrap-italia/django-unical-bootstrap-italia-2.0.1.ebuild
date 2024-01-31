@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django theme for Università della Calabria (UNICAL) based on Bootstrap Italia theme [newver 1.2.0]"
+DESCRIPTION="Django theme for Università della Calabria (UNICAL) based on Bootstrap Italia theme"
 
 HOMEPAGE="https://github.com/UniversitaDellaCalabria/django-unical-bootstrap-italia"
 LICENSE="Apache-2.0"

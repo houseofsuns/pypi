@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A ridiculously simple search engine factory [newver 0.1.2]"
+DESCRIPTION="A ridiculously simple search engine factory"
 
 HOMEPAGE="https://github.com/thorwhalen/grub"
 LICENSE="apache-2.0"

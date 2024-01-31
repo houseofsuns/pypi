@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A ctypes-based OpenCC converter for Chinese. [topver 1.1.7, newver 1.1.7]"
+DESCRIPTION="A ctypes-based OpenCC converter for Chinese. [top-max 1.1.7]"
 
 HOMEPAGE="https://github.com/lepture/opencc-python"
 LICENSE="BSD"

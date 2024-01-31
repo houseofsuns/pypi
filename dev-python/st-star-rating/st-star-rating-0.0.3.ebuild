@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Streamlit Component for Star Ratings [topver 0.0.6, newver 0.0.6]"
+DESCRIPTION="Streamlit Component for Star Ratings [top-max 0.0.6]"
 
 HOMEPAGE=""
 LICENSE=""

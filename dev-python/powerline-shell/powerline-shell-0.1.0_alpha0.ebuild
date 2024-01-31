@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pretty prompt for your shell [topver 0.7.0, newver 0.7.0]"
+DESCRIPTION="A pretty prompt for your shell [top-max 0.7.0]"
 
 HOMEPAGE="https://github.com/banga/powerline-shell"
 LICENSE=""

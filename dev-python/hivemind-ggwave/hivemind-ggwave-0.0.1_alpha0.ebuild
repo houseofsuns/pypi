@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="data over sound for hivemind [newver 0.0.1]"
+DESCRIPTION="data over sound for hivemind [top-max 0.0.1]"
 
 HOMEPAGE="https://github.com/JarbasHiveMind/hivemind-ggwave"
 LICENSE="Apache-2.0"

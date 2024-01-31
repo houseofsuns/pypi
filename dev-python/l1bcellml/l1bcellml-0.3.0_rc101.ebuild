@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="libCellML Library: A library for the parsing, printing, and manipulation [newver 0.3.0rc171]"
+DESCRIPTION="libCellML Library: A library for the parsing, printing, and manipulation [top-max 0.3.0_rc171]"
 
 HOMEPAGE="http://cellml.org"
 LICENSE="Apache-2.0"

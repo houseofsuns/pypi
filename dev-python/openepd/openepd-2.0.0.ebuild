@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library to work with OpenEPD format [newver 1.3.1]"
+DESCRIPTION="Python library to work with OpenEPD format"
 
 HOMEPAGE="https://github.com/cchangelabs/openepd"
 LICENSE="Apache-2.0"

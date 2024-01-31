@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="One lib to route them all. [topver 1.3.0, newver 1.3.0]"
+DESCRIPTION="One lib to route them all. [top-max 1.3.0]"
 
 HOMEPAGE="https://gis-ops.com/projects/routingpy"
 LICENSE="Apache-2.0"

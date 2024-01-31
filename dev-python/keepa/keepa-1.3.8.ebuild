@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.9.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-6.1.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pydata-sphinx-theme-0.14.2[${PYTHON_USEDEP}] )

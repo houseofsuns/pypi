@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ssh_jump_hive is a tools could  jump the jump machine  to connect hive get hive data to pandas dataframe [topver 0.2.9, newver 0.2.9]"
+DESCRIPTION="ssh_jump_hive is a tools could  jump the jump machine  to connect hive get hive data to pandas dataframe [top-max 0.2.9]"
 
 HOMEPAGE="https://github.com/mullerhai/sshjumphive"
 LICENSE="Apache-2.0"

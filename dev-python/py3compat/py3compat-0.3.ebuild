@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Small Python2/3 helpers to avoid depending on six. [topver 0.4, newver 0.4]"
+DESCRIPTION="Small Python2/3 helpers to avoid depending on six. [top-max 0.4]"
 
 HOMEPAGE="http://github.com/yeleman/py3compat"
 LICENSE="UNKNOWN"

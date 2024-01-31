@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="numba-scipy extends Numba to make it aware of SciPy [newver 0.3.1]"
+DESCRIPTION="numba-scipy extends Numba to make it aware of SciPy"
 
 HOMEPAGE="https://github.com/numba/numba-scipy"
 LICENSE="BSD"

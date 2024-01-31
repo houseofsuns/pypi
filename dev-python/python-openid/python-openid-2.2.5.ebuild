@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenID support for servers and consumers. [newver 2.2.4]"
+DESCRIPTION="OpenID support for servers and consumers."
 
 HOMEPAGE="http://github.com/openid/python-openid"
 LICENSE="UNKNOWN"

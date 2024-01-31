@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/catalyst-codestyle[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-21.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.8_beta0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/click-8.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/catalyst-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tomlkit-0.7.2[${PYTHON_USEDEP}] )

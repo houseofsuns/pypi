@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tending your Elasticsearch indices and snapshots [newver 7.0.1]"
+DESCRIPTION="Tending your Elasticsearch indices and snapshots"
 
 HOMEPAGE="https://github.com/elastic/curator"
 LICENSE="Apache-2.0"

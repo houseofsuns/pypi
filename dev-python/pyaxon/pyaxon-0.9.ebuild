@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for AXON [topver 0.10, newver 0.10]"
+DESCRIPTION="Python library for AXON [top-max 0.10]"
 
 HOMEPAGE="http://intellimath.bitbucket.org/axon"
 LICENSE="MIT"

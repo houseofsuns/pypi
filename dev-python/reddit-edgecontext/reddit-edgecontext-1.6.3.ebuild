@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="reddit edge request context baggage [newver 0.2.0b0]"
+DESCRIPTION="reddit edge request context baggage"
 
 HOMEPAGE="https://github.com/reddit/edgecontext"
 LICENSE="BSD"

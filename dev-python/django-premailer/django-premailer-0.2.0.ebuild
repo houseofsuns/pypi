@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django template tag that turns CSS blocks into style attributes using premailer. [newver 0.1.0]"
+DESCRIPTION="Django template tag that turns CSS blocks into style attributes using premailer."
 
 HOMEPAGE="http://github.com/alexhayes/django-premailer"
 LICENSE="MIT"

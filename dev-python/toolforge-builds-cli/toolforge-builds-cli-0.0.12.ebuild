@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolforge Build client [newver 0.0.5]"
+DESCRIPTION="Toolforge Build client"
 
 HOMEPAGE="https://gitlab.wikimedia.org/repos/cloud/toolforge/toolforge-builds-cli"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An utility library that allows to read an Autosubmit 4 experiment configuration. [topver 1.0.52, newver 1.0.52]"
+DESCRIPTION="An utility library that allows to read an Autosubmit 4 experiment configuration. [top-max 1.0.53]"
 
 HOMEPAGE="https://earth.bsc.es/gitlab/ces/autosubmit4-config-parser.git"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A PyTorch implementation of probabilistic models. [topver 1.0.3, newver 0.14.9]"
+DESCRIPTION="A PyTorch implementation of probabilistic models. [top-max 1.0.3]"
 
 HOMEPAGE="https://github.com/jmschrei/torchegranate"
 LICENSE="LICENSE.txt"

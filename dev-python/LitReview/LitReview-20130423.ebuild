@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.6997dev"
+REALVERSION="0.6989ev"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Literature curation tool. [newver 0.71, badver 0.6997dev]"
+DESCRIPTION="Literature curation tool. [badver 0.6989ev]"
 
 HOMEPAGE="http://cherry-vm13.stanford.edu:5000"
 LICENSE="MIT"

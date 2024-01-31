@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="check file has a fancy header at the top [topver 0.3.0, newver 0.3.0]"
+DESCRIPTION="check file has a fancy header at the top [top-max 0.3.0]"
 
 HOMEPAGE="https://github.com/yevhen-m/flake8-fancy-header"
 LICENSE="MIT"

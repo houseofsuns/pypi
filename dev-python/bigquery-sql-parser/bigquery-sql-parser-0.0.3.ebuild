@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Work out of the box to understand and modify your bigquery sql programatically [topver 0.1.4, newver 0.1.4]"
+DESCRIPTION="Work out of the box to understand and modify your bigquery sql programatically [top-max 0.1.4]"
 
 HOMEPAGE="https://github.com/maztohir/bigquery-sql-parser"
 LICENSE="MIT"

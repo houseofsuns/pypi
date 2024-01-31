@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="th2_grpc_hand [newver 2.11.0.dev3902327771]"
+DESCRIPTION="th2_grpc_hand"
 
 HOMEPAGE="https://github.com/th2-net/th2-grpc-hand"
 LICENSE="Apache-2.0"

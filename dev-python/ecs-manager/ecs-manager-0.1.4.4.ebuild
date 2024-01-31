@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage ecs service [topver 0.1.5.0, newver 0.1.5.0]"
+DESCRIPTION="Manage ecs service [top-max 0.1.5.0]"
 
 HOMEPAGE="https://github.com/pistatium/ecs_service_manager"
 LICENSE=""

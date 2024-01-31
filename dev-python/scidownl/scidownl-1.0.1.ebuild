@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Download pdfs from Scihub. [topver 1.0.2, newver 1.0.2]"
+DESCRIPTION="Download pdfs from Scihub. [top-max 1.0.2]"
 
 HOMEPAGE="https://github.com/Tishacy/SciDownl"
 LICENSE=""

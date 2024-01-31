@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Расширение Pycades предоставляет программный интерфейс, аналогичный КриптоПро [topver 1.1.4, newver 1.1.4]"
+DESCRIPTION="Расширение Pycades предоставляет программный интерфейс, аналогичный КриптоПро [top-max 1.1.4]"
 
 HOMEPAGE="https://docs.cryptopro.ru/cades/pycades"
 LICENSE=""

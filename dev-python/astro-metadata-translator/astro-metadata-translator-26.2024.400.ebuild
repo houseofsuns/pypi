@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A translator for astronomical metadata. [newver 25.0.3rc2]"
+DESCRIPTION="A translator for astronomical metadata."
 
 HOMEPAGE="https://github.com/lsst/astro_metadata_translator"
 LICENSE="BSD 3-Clause License"

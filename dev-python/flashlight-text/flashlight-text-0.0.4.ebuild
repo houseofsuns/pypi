@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flashlight Text bindings for Python [newver 0.0.4.dev298]"
+DESCRIPTION="Flashlight Text bindings for Python"
 
 HOMEPAGE="https://github.com/flashlight/text"
 LICENSE="BSD licensed, as found in the LICENSE file"

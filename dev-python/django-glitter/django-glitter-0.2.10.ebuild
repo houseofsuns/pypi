@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Glitter for Django [newver 0.1.14]"
+DESCRIPTION="Glitter for Django"
 
 HOMEPAGE="https://github.com/developersociety/django-glitter"
 LICENSE="BSD"

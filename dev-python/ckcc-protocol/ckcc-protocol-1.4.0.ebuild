@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES=">=dev-python/hidapi-0.7.99[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/hidapi-0.7.99_p21[${PYTHON_USEDEP}]
 	>=dev-python/ecdsa-0.17[${PYTHON_USEDEP}]
 	dev-python/pyaes[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/click-6.7[${PYTHON_USEDEP}] )"

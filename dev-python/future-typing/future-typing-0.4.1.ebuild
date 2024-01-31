@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-21.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-21.5_beta1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )

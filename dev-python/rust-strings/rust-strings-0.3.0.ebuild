@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extract strings from binary data [topver 0.5.0, newver 0.5.0]"
+DESCRIPTION="Extract strings from binary data [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/iddohau/rust-strings"
 LICENSE="MIT"

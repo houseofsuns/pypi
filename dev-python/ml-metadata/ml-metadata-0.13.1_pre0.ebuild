@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for maintaining metadata for artifacts. [topver 1.14.0, newver 1.14.0]"
+DESCRIPTION="A library for maintaining metadata for artifacts. [top-max 1.14.0]"
 
 HOMEPAGE="https://www.google.com/"
 LICENSE="Apache-2.0"

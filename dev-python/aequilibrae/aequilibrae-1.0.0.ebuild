@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for transportation modeling [newver 1.0.0.dev0]"
+DESCRIPTION="A package for transportation modeling"
 
 HOMEPAGE="https://github.com/AequilibraE/aequilibrae"
 LICENSE="See license.txt"

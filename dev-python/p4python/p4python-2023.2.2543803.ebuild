@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="P4Python - Python interface to Perforce API [newver 2023.1.2545777]"
+DESCRIPTION="P4Python - Python interface to Perforce API"
 
 HOMEPAGE="http://www.perforce.com"
 LICENSE="LICENSE.txt"

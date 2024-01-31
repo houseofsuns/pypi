@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modern C++ for the Internet Computer. [topver 2.1.0, newver 2.1.0]"
+DESCRIPTION="Modern C++ for the Internet Computer. [top-max 2.1.0]"
 
 HOMEPAGE="https://docs.icpp.world/"
 LICENSE=""

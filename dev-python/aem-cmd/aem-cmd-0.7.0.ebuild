@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AEM Command line tools [topver 0.14.5, newver 0.14.5]"
+DESCRIPTION="AEM Command line tools [top-max 0.14.5]"
 
 HOMEPAGE="https://github.com/bjorns/aem-cmd"
 LICENSE="MIT"

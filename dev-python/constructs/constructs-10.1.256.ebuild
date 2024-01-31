@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A programming model for software-defined state [newver 3.4.251]"
+DESCRIPTION="A programming model for software-defined state"
 
 HOMEPAGE="https://github.com/aws/constructs"
 LICENSE="Apache-2.0"

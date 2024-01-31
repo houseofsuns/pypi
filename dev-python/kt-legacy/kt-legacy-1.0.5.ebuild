@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Legacy import names for Keras Tuner [newver 1.0.4]"
+DESCRIPTION="Legacy import names for Keras Tuner"
 
 HOMEPAGE="https://github.com/haifeng-jin/kt-legacy"
 LICENSE="Apache-2.0"

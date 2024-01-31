@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="fml40 reference implementation basic functions [topver 1.0.0, newver 1.0.0]"
+DESCRIPTION="fml40 reference implementation basic functions [top-max 1.0.0]"
 
 HOMEPAGE="https://www.kwh40.de/"
 LICENSE=""

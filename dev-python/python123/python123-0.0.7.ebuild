@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python123 [newver 0.0.1]"
+DESCRIPTION="Python123"
 
 HOMEPAGE="https://python123.io/"
 LICENSE="MIT"

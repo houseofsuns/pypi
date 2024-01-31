@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Schema definitions and validation for Polyaxon. [topver 0.6.1, newver 0.6.1]"
+DESCRIPTION="Schema definitions and validation for Polyaxon. [top-max 0.6.1]"
 
 HOMEPAGE="https://github.com/polyaxon/polyaxon-schemas"
 LICENSE="MIT"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/hestia[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	~dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.0.0_rc5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.2[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2018.9[${PYTHON_USEDEP}]

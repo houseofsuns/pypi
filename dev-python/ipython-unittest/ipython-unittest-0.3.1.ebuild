@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Add unittest cell magics to IPython for easily running tests [topver 0.3.2, newver 0.3.2]"
+DESCRIPTION="Add unittest cell magics to IPython for easily running tests [top-max 0.3.2]"
 
 HOMEPAGE="https://github.com/JoaoFelipe/ipython-unittest"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HDInsight provider for Airflow [topver 0.0.1.3, newver 0.0.1.3]"
+DESCRIPTION="HDInsight provider for Airflow [top-max 0.0.1.3]"
 
 HOMEPAGE="https://github.com/angadsingh/airflow-hdinsight"
 LICENSE="Apache Software License http://www.apache.org/licenses/LICENSE-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automatic Factorization package for PyTorch modules [newver 0.0.1]"
+DESCRIPTION="Automatic Factorization package for PyTorch modules"
 
 HOMEPAGE="https://github.com/SamuelCahyawijaya/greenformer"
 LICENSE=""

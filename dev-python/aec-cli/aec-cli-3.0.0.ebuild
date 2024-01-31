@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/boto3-1.34.19[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/pytoml[${PYTHON_USEDEP}]
-	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]

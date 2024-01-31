@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python wrapper around the CRunDec package for the  running and decoupling of the strong coupling constant and quark masses [topver 0.6, newver 0.6]"
+DESCRIPTION="A Python wrapper around the CRunDec package for the  running and decoupling of the strong coupling constant and quark masses [top-max 0.6]"
 
 HOMEPAGE="https://github.com/DavidMStraub/rundec-python"
 LICENSE="GPL-3"

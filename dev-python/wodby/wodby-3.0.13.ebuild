@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wodby API Client [newver 3.0.dev75]"
+DESCRIPTION="Wodby API Client"
 
 HOMEPAGE="https://github.com/wodby/wodby-sdk-python"
 LICENSE=""

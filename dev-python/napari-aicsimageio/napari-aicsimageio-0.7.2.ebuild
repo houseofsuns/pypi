@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	dev-python/aicspylibczi[${PYTHON_USEDEP}]
 	dev-python/bioformats-jar[${PYTHON_USEDEP}]
 	dev-python/readlif[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )

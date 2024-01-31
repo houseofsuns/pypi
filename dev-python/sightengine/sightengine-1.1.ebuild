@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sightengine Python client [topver 1.4.0, newver 1.4.0]"
+DESCRIPTION="Sightengine Python client [top-max 1.4.0]"
 
 HOMEPAGE="https://github.com/Sightengine/client-python"
 LICENSE=""

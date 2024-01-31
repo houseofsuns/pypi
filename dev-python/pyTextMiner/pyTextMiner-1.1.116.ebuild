@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A text mining tool for Korean and English [newver 1.1.116b13]"
+DESCRIPTION="A text mining tool for Korean and English"
 
 HOMEPAGE="https://github.com/MinSong2/pyTextMiner"
 LICENSE=""

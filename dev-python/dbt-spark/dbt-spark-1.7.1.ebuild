@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Apache Spark adapter plugin for dbt [newver 1.6.2]"
+DESCRIPTION="The Apache Spark adapter plugin for dbt"
 
 HOMEPAGE="https://github.com/dbt-labs/dbt-spark"
 LICENSE=""

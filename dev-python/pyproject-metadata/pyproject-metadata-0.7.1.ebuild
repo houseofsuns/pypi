@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/packaging-19.0[${PYTHON_USEDEP}]
-	docs? ( >=dev-python/furo-2020.11.19[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2020.11.19_beta18[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.10.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )

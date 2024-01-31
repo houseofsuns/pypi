@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This module allows to parse existing data for qualifying a protein sequence in order to assess the sequence knowledge available in various databases. [newver 0.0.9]"
+DESCRIPTION="This module allows to parse existing data for qualifying a protein sequence in order to assess the sequence knowledge available in various databases."
 
 HOMEPAGE="https://gitlab.univ-nantes.fr/teletchea-s/libprotein"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mycroft Skills Manager [newver 0.8.9]"
+DESCRIPTION="Mycroft Skills Manager"
 
 HOMEPAGE="https://github.com/MycroftAI/mycroft-skills-manager"
 LICENSE="Apache-2.0"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
-	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]"
+	>=dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

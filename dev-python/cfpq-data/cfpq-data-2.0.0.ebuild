@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package containing Graphs and Grammars for experimental analysis of Context-Free Path Querying algorithms [topver 4.0.2, newver 4.0.2]"
+DESCRIPTION="Python package containing Graphs and Grammars for experimental analysis of Context-Free Path Querying algorithms [top-max 4.0.2]"
 
 HOMEPAGE="https://jetbrains-research.github.io/CFPQ_Data/"
 LICENSE=""
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/networkx-2.6.2[${PYTHON_USEDEP}]
 	dev-python/pyformlang[${PYTHON_USEDEP}]
 	~dev-python/rdflib-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	developer? ( ~dev-python/black-21.8[${PYTHON_USEDEP}] )
+	developer? ( ~dev-python/black-21.8_beta0[${PYTHON_USEDEP}] )
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	developer? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nb2plots[${PYTHON_USEDEP}] )

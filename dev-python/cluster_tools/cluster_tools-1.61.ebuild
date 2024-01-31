@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility library for easily distributing code execution on clusters [newver 0.14.14]"
+DESCRIPTION="Utility library for easily distributing code execution on clusters"
 
 HOMEPAGE="https://github.com/scalableminds/cluster_tools"
 LICENSE="MIT"

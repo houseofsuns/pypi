@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/brisque[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
 	dev-python/vws-auth-tools[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/dirty-equals-0.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/dirty-equals-0.7.1_p0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/doc8-0.11.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dodgy[${PYTHON_USEDEP}] )

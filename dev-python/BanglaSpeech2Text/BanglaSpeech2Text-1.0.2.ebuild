@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An open-source offline speech-to-text package for Bangla language. [topver 1.0.8, newver 1.0.8]"
+DESCRIPTION="An open-source offline speech-to-text package for Bangla language. [top-max 1.0.8]"
 
 HOMEPAGE="https://github.com/shhossain/BanglaSpeech2Text"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="easy-as-pie foursquare wrapper library [newver 1!2020.1.30]"
+DESCRIPTION="easy-as-pie foursquare wrapper library"
 
 HOMEPAGE="http://github.com/mLewisLogic/foursquare"
 LICENSE="MIT"

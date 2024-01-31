@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
-DEPENDENCIES=">=dev-python/black-21.12[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-21.12_beta0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/codespell[${PYTHON_USEDEP}]
 	dev-python/docformatter[${PYTHON_USEDEP}]

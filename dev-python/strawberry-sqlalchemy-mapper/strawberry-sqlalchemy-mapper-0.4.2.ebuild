@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	dev-python/sentinel[${PYTHON_USEDEP}]
-	>=dev-python/greenlet-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.0.0_rc1[${PYTHON_USEDEP}]
 	dev-python/sqlakeyset[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

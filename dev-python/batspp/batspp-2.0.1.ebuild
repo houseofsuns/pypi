@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shell style tests using bats-core [topver 2.2.0, newver 2.2.0]"
+DESCRIPTION="Shell style tests using bats-core [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/LimaBD/batspp"
 LICENSE="GNU Lesser General Public License v3 LGPLv3"

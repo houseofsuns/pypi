@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Standardize and Automate processes [newver 0.2.13a0]"
+DESCRIPTION="Standardize and Automate processes"
 
 HOMEPAGE=""
 LICENSE=""

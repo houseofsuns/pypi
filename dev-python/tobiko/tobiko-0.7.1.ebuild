@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Testing Upgrades Library [newver 0.6.17]"
+DESCRIPTION="OpenStack Testing Upgrades Library"
 
 HOMEPAGE="https://tobiko.readthedocs.io/"
 LICENSE=""

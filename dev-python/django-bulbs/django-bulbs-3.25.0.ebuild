@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="America's Finest Namespace [newver 3.25.dev1]"
+DESCRIPTION="America's Finest Namespace"
 
 HOMEPAGE="https://github.com/theonion/django-bulbs"
 LICENSE="BSD"

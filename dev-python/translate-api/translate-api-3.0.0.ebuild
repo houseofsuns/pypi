@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A free & easy Translate API for Python with Google & NetEase. [topver 4.9.5, newver 4.9.5]"
+DESCRIPTION="A free & easy Translate API for Python with Google & NetEase. [top-max 4.9.5]"
 
 HOMEPAGE="https://github.com/shinalone/translate_api"
 LICENSE="MIT"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs testing"
-DEPENDENCIES="develop? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="develop? ( >=dev-python/coverage-5.0_alpha4[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/furo-2021.8[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/sphinx-3.5.0[${PYTHON_USEDEP}] )
@@ -32,7 +32,7 @@ DEPENDENCIES="develop? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2021.8[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-3.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-5.0_alpha4[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

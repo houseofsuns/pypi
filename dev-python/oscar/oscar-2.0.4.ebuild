@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface to OSCAR data [topver 2.2.0, newver 2.2.0]"
+DESCRIPTION="A Python interface to OSCAR data [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/ssc-oscar/oscar.py"
 LICENSE="GPL v3"

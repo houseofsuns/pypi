@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="F5 Networks Python SDK [newver 3.0.11.4]"
+DESCRIPTION="F5 Networks Python SDK"
 
 HOMEPAGE="https://github.com/F5Networks/f5-common-python"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for MOP [newver 2.0]"
+DESCRIPTION="Utilities for MOP [top-max 2.0]"
 
 HOMEPAGE=""
 LICENSE=""

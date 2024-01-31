@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ToolBox Package for Gorilla-Lab using PyTorch [topver 0.2.7.8, newver 0.2.7.8]"
+DESCRIPTION="ToolBox Package for Gorilla-Lab using PyTorch [top-max 0.2.7.8]"
 
 HOMEPAGE=""
 LICENSE="MIT"

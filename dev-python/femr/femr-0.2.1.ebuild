@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/esds-spec[${PYTHON_USEDEP}]
 	build? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	build? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
-	build? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/isort-5.3.2[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/mypy-0.782[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )

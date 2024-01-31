@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extension of nbdev for generating documentation using Material for Mkdocs instead of Quarto [newver 0.6.0]"
+DESCRIPTION="Extension of nbdev for generating documentation using Material for Mkdocs instead of Quarto"
 
 HOMEPAGE="https://github.com/airtai/nbdev-mkdocs"
 LICENSE="Apache Software License 2.0"

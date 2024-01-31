@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Developer kit to interact with our API [newver 0.0.26]"
+DESCRIPTION="Developer kit to interact with our API"
 
 HOMEPAGE="https://github.com/Fastering18/Blackerz-Wrapper-Python"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DyNAS-T (Dynamic Neural Architecture Search Toolkit) - a SuperNet NAS optimization package [newver 1.5.2]"
+DESCRIPTION="DyNAS-T (Dynamic Neural Architecture Search Toolkit) - a SuperNet NAS optimization package"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

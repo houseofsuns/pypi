@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NucliaDB Telemetry Library Python process [topver 2.42.0, newver 2.42.0.post161]"
+DESCRIPTION="NucliaDB Telemetry Library Python process [top-max 2.42.0_p167]"
 
 HOMEPAGE="https://github.com/nuclia/nucliadb"
 LICENSE="MIT"

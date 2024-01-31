@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plugin backend renderer for reportlab.graphics.renderPM [topver 0.3.0, newver 0.3.0]"
+DESCRIPTION="Plugin backend renderer for reportlab.graphics.renderPM [top-max 0.3.0]"
 
 HOMEPAGE=""
 LICENSE="BSD license, Copyright c 2000-2022, ReportLab Inc."

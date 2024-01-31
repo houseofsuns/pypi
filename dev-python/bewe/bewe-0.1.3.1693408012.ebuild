@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The package implements some investment strategies. [topver 0.1.3.1693408019]"
+DESCRIPTION="The package implements some investment strategies. [top-max 0.1.3.1693408019]"
 
 HOMEPAGE=""
 LICENSE=""

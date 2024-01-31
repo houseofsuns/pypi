@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Synchrotron Radiation Workshop [topver 4.0.0, newver 4.0.0b1]"
+DESCRIPTION="Synchrotron Radiation Workshop [top-max 4.0.0_beta1]"
 
 HOMEPAGE="https://github.com/srwpy/srwpy"
 LICENSE="BSD 3-clause"

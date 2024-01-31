@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.3.22, newver 0.3.22]"
+DESCRIPTION=" [top-max 0.3.22]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -39,13 +39,13 @@ DEPENDENCIES="~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/nose2-0.10.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/black-21.9[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pycodestyle-2.7.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pyflakes-2.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-21.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycodestyle-2.7.0[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django app to add an instance's public IP to ALLOWED_HOSTS for Elastic Beanstalk's health check system [topver 2.0.2, newver 2.0.2]"
+DESCRIPTION="Django app to add an instance's public IP to ALLOWED_HOSTS for Elastic Beanstalk's health check system [top-max 2.0.2]"
 
 HOMEPAGE="https://github.com/sjkingo/django-ebhealthcheck"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Config handling for data science projects [topver 0.8.11, newver 0.8.11]"
+DESCRIPTION="Config handling for data science projects [top-max 0.8.11]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The STIX2 Pattern expression library for humans [newver 0.0.5.dev35]"
+DESCRIPTION="The STIX2 Pattern expression library for humans"
 
 HOMEPAGE="https://github.com/usePF/dendrol"
 LICENSE="MIT"

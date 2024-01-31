@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files [newver 1.28.5]"
+DESCRIPTION="A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files"
 
 HOMEPAGE="https://pypdf2.readthedocs.io/en/latest/"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DF Package [topver 0.1.57, newver 0.1.57]"
+DESCRIPTION="DF Package [top-max 0.1.57]"
 
 HOMEPAGE="https://github.com/TBD"
 LICENSE=""

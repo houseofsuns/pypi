@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Configuration manager for cloud native application, support configuration stored in memory, in files, in databases [topver 0.4.4, newver 0.4.4]"
+DESCRIPTION="Configuration manager for cloud native application, support configuration stored in memory, in files, in databases [top-max 0.4.4]"
 
 HOMEPAGE="https://github.com/yurilaaziz/config42"
 LICENSE="GPL-3+"

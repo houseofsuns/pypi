@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Custodian - Multi Account [topver 0.6.33, newver 0.6.33]"
+DESCRIPTION="Cloud Custodian - Multi Account [top-max 0.6.33]"
 
 HOMEPAGE="https://github.com/cloud-custodian/cloud-custodian"
 LICENSE="Apache-2.0"

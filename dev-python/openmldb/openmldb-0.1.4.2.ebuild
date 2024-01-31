@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The client of OpenMLDB [topver 0.8.4, newver 0.8.4]"
+DESCRIPTION="The client of OpenMLDB [top-max 0.8.4]"
 
 HOMEPAGE="https://github.com/4paradigm/OpenMLDB"
 LICENSE="Apache-2.0"

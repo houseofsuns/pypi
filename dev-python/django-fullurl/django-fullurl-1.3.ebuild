@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Adds three template tags to Django: \`fullurl\`, \`fullstatic\` and \`buildfullurl\`. The template tag \`fullurl\` acts just like \`url\`, but it always prints absolute URLs with scheme and domain [topver 1.4, newver 1.4]"
+DESCRIPTION="Adds three template tags to Django: \`fullurl\`, \`fullstatic\` and \`buildfullurl\`. The template tag \`fullurl\` acts just like \`url\`, but it always prints absolute URLs with scheme and domain [top-max 1.4]"
 
 HOMEPAGE="https://github.com/Flimm/django-fullurl"
 LICENSE="MIT"

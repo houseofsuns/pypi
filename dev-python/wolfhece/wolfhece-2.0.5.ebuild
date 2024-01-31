@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 2.0.10, newver 2.0.10]"
+DESCRIPTION=" [top-max 2.0.10]"
 
 HOMEPAGE="https://uee.uliege.be/hece"
 LICENSE=""

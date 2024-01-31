@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DMM Web API v3.0 for Python3 [topver 2.3, newver 2.3]"
+DESCRIPTION="DMM Web API v3.0 for Python3 [top-max 2.3]"
 
 HOMEPAGE="https://github.com/0x0u/dmm"
 LICENSE="MIT"

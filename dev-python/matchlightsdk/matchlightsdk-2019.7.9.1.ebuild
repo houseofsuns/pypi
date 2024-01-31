@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Software development kit for the Terbium Labs Matchlight product. [topver 2021.10.14.2, newver 2021.10.14.2]"
+DESCRIPTION="Software development kit for the Terbium Labs Matchlight product. [top-max 2021.10.14.2]"
 
 HOMEPAGE="https://terbiumlabs.com"
 LICENSE="BSD"

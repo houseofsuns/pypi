@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Upload Python files in a directory to a GitHub Gist. [newver 0.0.18]"
+DESCRIPTION="Upload Python files in a directory to a GitHub Gist."
 
 HOMEPAGE=""
 LICENSE="GPL-3"

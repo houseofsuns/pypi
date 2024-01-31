@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/black-19.10[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-19.10_beta0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.46.1[${PYTHON_USEDEP}]
 	dev-python/tableauhyperapi[${PYTHON_USEDEP}]

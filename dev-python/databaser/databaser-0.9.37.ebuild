@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small package to generate SQL for postgreSQL [topver 0.9.41, newver 0.9.41]"
+DESCRIPTION="A small package to generate SQL for postgreSQL [top-max 0.9.41]"
 
 HOMEPAGE="https://github.com/alymohamedhassan/databaser"
 LICENSE=""

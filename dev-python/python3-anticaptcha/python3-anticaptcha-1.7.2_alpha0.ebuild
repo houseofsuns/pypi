@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python 3 Anti-Captcha service library with AIO module. [topver 2.0.1, newver 2.0.1a0]"
+DESCRIPTION="Python 3 Anti-Captcha service library with AIO module. [top-max 2.0.1_alpha0]"
 
 HOMEPAGE="https://github.com/AndreiDrang/python3-anticaptcha"
 LICENSE="MIT"

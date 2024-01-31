@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open vSwitch library [newver 2.17.7]"
+DESCRIPTION="Open vSwitch library"
 
 HOMEPAGE="http://www.openvswitch.org/"
 LICENSE="Apache-2.0"

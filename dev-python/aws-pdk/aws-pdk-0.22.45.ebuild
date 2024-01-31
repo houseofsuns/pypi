@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="@aws/pdk [topver 0.22.46, newver 0.22.46]"
+DESCRIPTION="@aws/pdk [top-max 0.22.46]"
 
 HOMEPAGE="https://github.com/aws/aws-pdk"
 LICENSE="Apache-2.0"

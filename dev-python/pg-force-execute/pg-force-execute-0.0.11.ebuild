@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Context manager to run PostgreSQL queries with SQLAlchemy, terminating any other clients that block them [newver 0.0.dev0]"
+DESCRIPTION="Context manager to run PostgreSQL queries with SQLAlchemy, terminating any other clients that block them"
 
 HOMEPAGE=""
 LICENSE=""

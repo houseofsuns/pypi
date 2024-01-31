@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Class to remote debug with UDP connection [topver 0.0.8, newver 0.0.8]"
+DESCRIPTION="Class to remote debug with UDP connection [top-max 0.0.8]"
 
 HOMEPAGE="https://github.com/cletrix/rprint.git"
 LICENSE="MIT"

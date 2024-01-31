@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generates equal keras models with the desired data format [newver 0.1.17.dev3]"
+DESCRIPTION="Generates equal keras models with the desired data format"
 
 HOMEPAGE=""
 LICENSE=""

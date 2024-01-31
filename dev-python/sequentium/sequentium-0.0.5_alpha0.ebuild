@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to work with sequences [newver 0.0.2]"
+DESCRIPTION="A package to work with sequences"
 
 HOMEPAGE="https://github.com/VascoSch92/sequentium"
 LICENSE="MIT"

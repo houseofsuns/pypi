@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Swiftly download manga from multiple sources. [topver 0.2.7, newver 0.2.7]"
+DESCRIPTION="Swiftly download manga from multiple sources. [top-max 0.2.7]"
 
 HOMEPAGE="https://github.com/shhossain/RapidMangaDL"
 LICENSE="MIT"

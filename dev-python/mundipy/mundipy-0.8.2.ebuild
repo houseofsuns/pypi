@@ -33,6 +33,6 @@ DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/psycopg-4.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg-binary[${PYTHON_USEDEP}]
 	dev-python/psycopg-pool[${PYTHON_USEDEP}]
-	~dev-python/shapely-2.0[${PYTHON_USEDEP}]"
+	~dev-python/shapely-2.0_beta2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

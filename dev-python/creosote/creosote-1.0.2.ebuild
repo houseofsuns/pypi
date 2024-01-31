@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Identify unused dependencies and avoid a bloated virtual environment. [topver 3.0.0, newver 3.0.0]"
+DESCRIPTION="Identify unused dependencies and avoid a bloated virtual environment. [top-max 3.0.0]"
 
 HOMEPAGE="https://github.com/fredrikaverpil/creosote"
 LICENSE="MIT"

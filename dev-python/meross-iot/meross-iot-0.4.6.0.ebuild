@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]"
+	>=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

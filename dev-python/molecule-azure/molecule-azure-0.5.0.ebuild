@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Azure Molecule Plugin :: run molecule tests on Azure [newver 0.0.0]"
+DESCRIPTION="Azure Molecule Plugin :: run molecule tests on Azure"
 
 HOMEPAGE="https://github.com/ansible-community/molecule-azure"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Asynchronous Multiplexing HTTP2/DBO Requests [topver 0.30.2, newver 0.30.2]"
+DESCRIPTION="Asynchronous Multiplexing HTTP2/DBO Requests [top-max 0.30.2]"
 
 HOMEPAGE="https://gitlab.com/hansroh/aquests"
 LICENSE="MIT"

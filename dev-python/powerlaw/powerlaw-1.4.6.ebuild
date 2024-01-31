@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolbox for testing if a probability distribution fits a power law [topver 1.5, newver 1.5]"
+DESCRIPTION="Toolbox for testing if a probability distribution fits a power law [top-max 1.5]"
 
 HOMEPAGE="http://www.github.com/jeffalstott/powerlaw"
 LICENSE="MIT"

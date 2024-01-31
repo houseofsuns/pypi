@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API client for Chassis. [topver 1.5.0, newver 1.5.0]"
+DESCRIPTION="Python API client for Chassis. [top-max 1.5.0]"
 
 HOMEPAGE="https://github.com/modzy/chassis/tree/main/chassisml-sdk"
 LICENSE=""

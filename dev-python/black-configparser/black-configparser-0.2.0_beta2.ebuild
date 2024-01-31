@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint tests"
-DEPENDENCIES=">=dev-python/black-18.6[${PYTHON_USEDEP}]
-	lint? ( >=dev-python/black-18.6[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/black-18.6_beta2[${PYTHON_USEDEP}]
+	lint? ( >=dev-python/black-18.6_beta2[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/isort-5.6.0[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/mypy-0.790[${PYTHON_USEDEP}] )

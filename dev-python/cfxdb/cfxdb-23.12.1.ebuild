@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev? ( dev-python/backports-tempfile[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-1.9.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pyyaml-4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-4.2_beta4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cytoolz[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.610[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FireX event processor for submitting to a kafka bus. [newver 1.13]"
+DESCRIPTION="FireX event processor for submitting to a kafka bus."
 
 HOMEPAGE="https://github.com/FireXStuff/firex-blaze"
 LICENSE="BSD"

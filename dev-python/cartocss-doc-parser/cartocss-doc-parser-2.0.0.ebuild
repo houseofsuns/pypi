@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev lint test"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-implicit-str-concat[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	lint? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-implicit-str-concat[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-print[${PYTHON_USEDEP}] )

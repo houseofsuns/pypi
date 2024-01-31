@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Backup/restore and decode configuration tool for Tasmota [newver 13.3.0.0]"
+DESCRIPTION="Backup/restore and decode configuration tool for Tasmota"
 
 HOMEPAGE="https://github.com/tasmota/decode-config"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Human-First AI (H1ST) [newver 0.1.13]"
+DESCRIPTION="Human-First AI (H1ST)"
 
 HOMEPAGE="https://h1st.ai"
 LICENSE="Apache-2.0"

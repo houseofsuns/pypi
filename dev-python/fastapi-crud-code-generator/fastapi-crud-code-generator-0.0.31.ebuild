@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	<=dev-python/greenlet-1.1.3[${PYTHON_USEDEP}]
+	<=dev-python/greenlet-1.1.3_p0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	<=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]

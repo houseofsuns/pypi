@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python API for working with ID prefixes [newver 0.1.11a0]"
+DESCRIPTION="A python API for working with ID prefixes"
 
 HOMEPAGE="https://github.com/prefixcommons/prefixcommons-py"
 LICENSE=""

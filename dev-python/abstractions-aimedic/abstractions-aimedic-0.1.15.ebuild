@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Abstractions for AIMedic's training pipeline. [newver 0.1.14]"
+DESCRIPTION="Abstractions for AIMedic's training pipeline."
 
 HOMEPAGE="https://gitlab.aimedic.co/soroush.moazed/abstractions.git"
 LICENSE="MIT"

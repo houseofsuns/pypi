@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.0.5, newver 0.0.5a15]"
+DESCRIPTION=" [top-max 0.0.5_alpha15]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/PHAL"
 LICENSE="apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More SQL Parsing! Parse SQL into JSON parse tree [topver 10.499.24023, newver 9.499.24023]"
+DESCRIPTION="More SQL Parsing! Parse SQL into JSON parse tree [top-max 10.499.24023]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-sql-parsing"
 LICENSE="MPL 2.0"

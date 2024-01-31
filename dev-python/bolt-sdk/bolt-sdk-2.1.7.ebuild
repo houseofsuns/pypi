@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bolt Python SDK [newver 1.0.0]"
+DESCRIPTION="Bolt Python SDK"
 
 HOMEPAGE="https://gitlab.com/projectn-oss/projectn-bolt-python"
 LICENSE=""

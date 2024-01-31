@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A command-line tool suite for communicating with the Blackboard Learn Managment System [topver 1.0.9, newver 1.0.9]"
+DESCRIPTION="A command-line tool suite for communicating with the Blackboard Learn Managment System [top-max 1.0.9]"
 
 HOMEPAGE="https://gitlab.stud.idi.ntnu.no/mattiaae/idatt2900-072"
 LICENSE="Willyeh Wonkmeh 2.0"

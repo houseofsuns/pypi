@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modern Python interfece of DISORT [topver 0.8, newver 0.8]"
+DESCRIPTION="Modern Python interfece of DISORT [top-max 0.8]"
 
 HOMEPAGE="https://github.com/zoeyzyhu/pydisort"
 LICENSE="GPL-3"

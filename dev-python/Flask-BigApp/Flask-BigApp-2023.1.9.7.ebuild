@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Flask auto importer that allows your Flask apps to grow big. [newver 2.3.5]"
+DESCRIPTION="A Flask auto importer that allows your Flask apps to grow big."
 
 HOMEPAGE="https://github.com/Flask-Planet/Flask-BigApp"
 LICENSE="GNU Lesser General Public License v2.1"

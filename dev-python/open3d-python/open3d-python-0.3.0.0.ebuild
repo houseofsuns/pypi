@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open3D is an open-source library that supports rapid development of software that deals with 3D data. [topver 0.7.0.0, newver 0.7.0.0]"
+DESCRIPTION="Open3D is an open-source library that supports rapid development of software that deals with 3D data. [top-max 0.7.0.0]"
 
 HOMEPAGE="http://www.open3d.org"
 LICENSE="MIT"

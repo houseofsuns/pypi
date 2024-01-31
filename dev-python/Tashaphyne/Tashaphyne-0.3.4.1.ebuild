@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tashaphyne Arabic Light Stemmer [topver 0.3.6, newver 0.3.6]"
+DESCRIPTION="Tashaphyne Arabic Light Stemmer [top-max 0.3.6]"
 
 HOMEPAGE="http://github.com/linuxscout/tashaphyne/"
 LICENSE="GPL-3"

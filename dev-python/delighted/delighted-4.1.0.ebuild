@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Delighted API Python Client. [newver 4.1.0rc1]"
+DESCRIPTION="Delighted API Python Client."
 
 HOMEPAGE="https://delighted.com/"
 LICENSE="MIT"

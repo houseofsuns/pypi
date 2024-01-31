@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/django-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/httplib2-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-2.0.0_pre0[${PYTHON_USEDEP}]
+	<dev-python/httplib2-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/google-apputils[${PYTHON_USEDEP}]
-	<dev-python/python-gflags-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/google-api-python-client-2.0.0[${PYTHON_USEDEP}]"
+	<dev-python/python-gflags-4.0.0_pre0[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-2.0.0_pre0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

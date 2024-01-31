@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python常用底层库封装 [topver 2.2.9, newver 2.2.9]"
+DESCRIPTION="python常用底层库封装 [top-max 2.2.9]"
 
 HOMEPAGE="https://www.python.org"
 LICENSE="MIT Licence"

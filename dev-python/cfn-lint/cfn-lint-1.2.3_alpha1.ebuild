@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Checks CloudFormation templates for practices and behaviour that could potentially be improved [newver 0.85.0]"
+DESCRIPTION="Checks CloudFormation templates for practices and behaviour that could potentially be improved"
 
 HOMEPAGE="https://github.com/aws-cloudformation/cfn-lint"
 LICENSE="MIT no attribution"

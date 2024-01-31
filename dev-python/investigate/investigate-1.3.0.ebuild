@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface for the OpenDNS Investigate API [topver 1.10.1, newver 1.10.1]"
+DESCRIPTION="Python interface for the OpenDNS Investigate API [top-max 1.10.1]"
 
 HOMEPAGE="https://github.com/opendns/pyinvestigate"
 LICENSE="MIT"

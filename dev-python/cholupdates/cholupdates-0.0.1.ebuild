@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Efficient Low-Rank Updates for Cholesky Decompositions [newver 0.0.1a7]"
+DESCRIPTION="Efficient Low-Rank Updates for Cholesky Decompositions"
 
 HOMEPAGE="https://github.com/marvinpfoertner/cholupdates"
 LICENSE="MIT"

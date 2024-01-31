@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python advanced print with varnames. [topver 5.6.4, newver 5.6.4]"
+DESCRIPTION="Python advanced print with varnames. [top-max 5.6.4]"
 
 HOMEPAGE="https://github.com/likianta/lk-logger"
 LICENSE="MIT"

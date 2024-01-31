@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automatically extracts and normalizes an online article or blog post publication date [topver 0.20, newver 0.20]"
+DESCRIPTION="Automatically extracts and normalizes an online article or blog post publication date [top-max 0.20]"
 
 HOMEPAGE="https://github.com/Webhose/article-date-extractor"
 LICENSE="MIT"

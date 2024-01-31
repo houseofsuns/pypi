@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An edited 1.24.0 version of the full-featured Telegram client library for Python 3 [topver 1.28.5, newver 1.28.5]"
+DESCRIPTION="An edited 1.24.0 version of the full-featured Telegram client library for Python 3 [top-max 1.28.5]"
 
 HOMEPAGE="https://github.com/LonamiWebs/Telethon"
 LICENSE="MIT"

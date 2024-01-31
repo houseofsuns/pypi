@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="<dev-python/asttokens-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/dparse-1.0.0[${PYTHON_USEDEP}]
-	>=dev-python/black-20.8[${PYTHON_USEDEP}]
+	>=dev-python/black-20.8_beta0[${PYTHON_USEDEP}]
 	<=dev-python/pylint-2.11.1[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )

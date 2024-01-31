@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chaos Engineering Toolkit automation framework [topver 1.18.0, newver 1.18.0]"
+DESCRIPTION="Chaos Engineering Toolkit automation framework [top-max 1.18.0]"
 
 HOMEPAGE="https://chaostoolkit.org"
 LICENSE="Apache License Version 2.0"

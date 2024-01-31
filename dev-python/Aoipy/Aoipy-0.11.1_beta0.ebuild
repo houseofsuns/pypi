@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aoi.py is the best python string-based package for Discord bot devs [topver 0.15.0, newver 0.15.0]"
+DESCRIPTION="Aoi.py is the best python string-based package for Discord bot devs [top-max 0.15.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

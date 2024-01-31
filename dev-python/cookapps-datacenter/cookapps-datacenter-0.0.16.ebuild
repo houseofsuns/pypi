@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CookApps DATACENTER SDK [topver 0.0.22, newver 0.0.22]"
+DESCRIPTION="CookApps DATACENTER SDK [top-max 0.0.22]"
 
 HOMEPAGE=""
 LICENSE=""

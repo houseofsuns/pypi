@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GridLAB-D Python Parser [topver 0.4.4, newver 0.4.4]"
+DESCRIPTION="GridLAB-D Python Parser [top-max 0.4.4]"
 
 HOMEPAGE="https://github.com/kdheepak/glm"
 LICENSE="MIT"

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/context-temp[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/django-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/django-5.0_rc1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/logthing[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pudb-2023.1[${PYTHON_USEDEP}] )

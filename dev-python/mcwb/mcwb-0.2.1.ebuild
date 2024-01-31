@@ -35,7 +35,7 @@ DEPENDENCIES="include_package_data? ( dev-python/false[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-21.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.10_beta0[${PYTHON_USEDEP}] )
 	dev-python/mcipc[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

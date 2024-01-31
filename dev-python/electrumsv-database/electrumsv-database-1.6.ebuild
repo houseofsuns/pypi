@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Database support for use of SQLite (possibly other databases later). [topver 1.7, newver 1.7]"
+DESCRIPTION="Database support for use of SQLite (possibly other databases later). [top-max 1.7]"
 
 HOMEPAGE="https://github.com/electrumsv/electrumsv-database"
 LICENSE="MIT"

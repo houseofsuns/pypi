@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BigQuery backup scripts [topver 0.0.14, newver 0.0.14]"
+DESCRIPTION="BigQuery backup scripts [top-max 0.0.14]"
 
 HOMEPAGE="https://github.com/thinkingmachines/bqup"
 LICENSE="MIT"

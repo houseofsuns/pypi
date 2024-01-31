@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Weather Provider Libraries and API [newver 2.48.32]"
+DESCRIPTION="Weather Provider Libraries and API"
 
 HOMEPAGE="https://github.com/alliander-opensource/wpla/"
 LICENSE="MPL-2.0"

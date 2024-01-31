@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface to the Plex Go CLI. [topver 0.9.3, newver 0.9.3]"
+DESCRIPTION="A Python interface to the Plex Go CLI. [top-max 0.9.3]"
 
 HOMEPAGE="https://github.com/labdao/plex"
 LICENSE="MIT"

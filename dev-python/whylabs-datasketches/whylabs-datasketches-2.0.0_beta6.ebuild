@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper for the C++ Datasketches library [topver 2.2.0, newver 2.2.0b1]"
+DESCRIPTION="A wrapper for the C++ Datasketches library [top-max 2.2.0_beta1]"
 
 HOMEPAGE="http://datasketches.apache.org"
 LICENSE="Apache-2.0"

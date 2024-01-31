@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fork of Python's argparse to add features and simplify its code [newver 0.5.0-alpha1, badver 0.5.0-alpha]"
+DESCRIPTION="Fork of Python's argparse to add features and simplify its code [badver 0.5.0-alpha]"
 
 HOMEPAGE="https://github.com/cjerdonek/python-argparse"
 LICENSE="PYTHON"

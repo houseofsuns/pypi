@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Effortless permalinks in Streamlit apps."
+DESCRIPTION="Effortless permalinks in Streamlit apps. [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/franekp/streamlit-permalink"
 LICENSE=""

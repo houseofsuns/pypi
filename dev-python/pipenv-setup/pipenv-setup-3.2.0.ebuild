@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/pipfile[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/autopep8-1.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

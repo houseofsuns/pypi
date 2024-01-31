@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="this is one automation framework base on selenium [topver 0.2.0.6, newver 0.2.0.6]"
+DESCRIPTION="this is one automation framework base on selenium [top-max 0.2.0.6]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

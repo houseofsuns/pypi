@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/texttable-1.2.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-1.9.4[${PYTHON_USEDEP}]"

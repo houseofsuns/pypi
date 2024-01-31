@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Request History Panel for Django Debug Toolbar [topver 0.1.4, newver 0.1.4]"
+DESCRIPTION="Request History Panel for Django Debug Toolbar [top-max 0.1.4]"
 
 HOMEPAGE="https://github.com/djsutho/django-debug-toolbar-request-history"
 LICENSE="BSD"

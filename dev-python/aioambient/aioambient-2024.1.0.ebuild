@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	<dev-python/python-engineio-5.0.0[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]

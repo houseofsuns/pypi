@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="athena bigquery dev"
 DEPENDENCIES="<=dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
-	<dev-python/pyarrow-7.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-7.0_pre0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.1[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]

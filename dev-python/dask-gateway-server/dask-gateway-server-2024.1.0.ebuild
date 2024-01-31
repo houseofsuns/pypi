@@ -27,7 +27,7 @@ IUSE="all_backends jobqueue kerberos kubernetes local yarn"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	>=dev-python/traitlets-5.2.2[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.2.2_p1[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 	all_backends? ( >=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	all_backends? ( dev-python/skein[${PYTHON_USEDEP}] )

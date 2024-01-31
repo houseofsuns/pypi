@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Youtube v3 API Wrapper [topver 1.2.5, newver 1.2.5]"
+DESCRIPTION="Python Youtube v3 API Wrapper [top-max 1.2.5]"
 
 HOMEPAGE="https://github.com/diegoami/youtube3/"
 LICENSE="BSD"

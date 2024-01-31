@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create h5py File object with specified cache [topver 1.0.1]"
+DESCRIPTION="Create h5py File object with specified cache"
 
 HOMEPAGE="https://github.com/moble/h5py_cache"
 LICENSE="UNKNOWN"

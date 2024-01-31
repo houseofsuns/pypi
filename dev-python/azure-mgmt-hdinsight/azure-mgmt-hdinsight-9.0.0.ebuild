@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Microsoft Azure HDInsight Management Client Library for Python [newver 9.0.0b2]"
+DESCRIPTION="Microsoft Azure HDInsight Management Client Library for Python"
 
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python"
 LICENSE="MIT"

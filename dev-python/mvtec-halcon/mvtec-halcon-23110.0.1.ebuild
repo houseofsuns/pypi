@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Native Python language bindings for MVTec HALCON. [newver 20114.0.0]"
+DESCRIPTION="Native Python language bindings for MVTec HALCON."
 
 HOMEPAGE=""
 LICENSE=""

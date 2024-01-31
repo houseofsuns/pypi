@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A JupyterWidget for persisting interactions in cell outputs [newver 1.6.0]"
+DESCRIPTION="A JupyterWidget for persisting interactions in cell outputs"
 
 HOMEPAGE=""
 LICENSE=""

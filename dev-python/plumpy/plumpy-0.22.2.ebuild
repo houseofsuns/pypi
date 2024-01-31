@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python workflow library. [newver 0.21.10]"
+DESCRIPTION="A Python workflow library."
 
 HOMEPAGE=""
 LICENSE=""

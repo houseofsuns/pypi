@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Boulder Opal Toolkits [newver 2.0.0b9]"
+DESCRIPTION="Boulder Opal Toolkits"
 
 HOMEPAGE="https://q-ctrl.com"
 LICENSE="https://q-ctrl.com/terms"

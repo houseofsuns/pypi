@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Framework for building PyTeal Applications [topver 1.1.1, newver 1.1.1]"
+DESCRIPTION="A Framework for building PyTeal Applications [top-max 1.1.1]"
 
 HOMEPAGE="https://beaker.algo.xyz"
 LICENSE="MIT"

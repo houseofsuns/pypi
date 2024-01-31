@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for using Babel in Django [newver 0.7.1]"
+DESCRIPTION="Utilities for using Babel in Django"
 
 HOMEPAGE="https://github.com/Zegocover/enmerkar"
 LICENSE="BSD"

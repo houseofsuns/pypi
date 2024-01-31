@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Money Class [newver 1.2.3]"
+DESCRIPTION="Python Money Class"
 
 HOMEPAGE="https://github.com/carlospalol/money"
 LICENSE="MIT"

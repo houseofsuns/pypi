@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python/pyglet library for importing Wavefront .obj files [topver 1.3.3, newver 1.3.3]"
+DESCRIPTION="Python/pyglet library for importing Wavefront .obj files [top-max 1.3.3]"
 
 HOMEPAGE="https://github.com/greenmoss/PyWavefront"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CliMT is a Toolkit for building Earth system models in Python. [topver 0.17.12, newver 0.17.12]"
+DESCRIPTION="CliMT is a Toolkit for building Earth system models in Python. [top-max 0.17.12]"
 
 HOMEPAGE="https://github.com/CliMT/climt"
 LICENSE="BSD license"

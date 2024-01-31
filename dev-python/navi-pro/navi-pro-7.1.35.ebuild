@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A command-line interface to Tenable.io [topver 7.5.7, newver 7.5.7]"
+DESCRIPTION="A command-line interface to Tenable.io [top-max 7.5.7]"
 
 HOMEPAGE="https://github.com/packetchaos/Navi"
 LICENSE="GNUv3"

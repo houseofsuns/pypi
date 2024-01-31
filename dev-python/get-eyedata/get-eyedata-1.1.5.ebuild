@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="gat gaze data form record. [topver 1.3.4, newver 1.3.4]"
+DESCRIPTION="gat gaze data form record. [top-max 1.3.4]"
 
 HOMEPAGE="https://github.com/ikrfun/get_eyedata"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="人工智能_量化交易_金融数据预处理 [topver 0.6.1, newver 0.6.1]"
+DESCRIPTION="人工智能_量化交易_金融数据预处理 [top-max 0.6.1]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MissingLink.ai Resource Manager - Docker version [topver 19.9.2606, newver 19.9.2606]"
+DESCRIPTION="MissingLink.ai Resource Manager - Docker version [top-max 19.9.2606]"
 
 HOMEPAGE="https://missinglink.ai"
 LICENSE=""

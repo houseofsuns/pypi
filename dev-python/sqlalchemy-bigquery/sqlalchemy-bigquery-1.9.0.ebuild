@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alembic all bqstorage geography tests"
-DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/google-auth-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0_pre0[${PYTHON_USEDEP}]
 	alembic? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	all? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	all? ( dev-python/GeoAlchemy2[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
-	all? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}] )
 	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}] )
 	bqstorage? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
-	bqstorage? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	bqstorage? ( <dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}] )
 	bqstorage? ( >=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )
-	bqstorage? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	bqstorage? ( <dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}] )
 	geography? ( dev-python/GeoAlchemy2[${PYTHON_USEDEP}] )
 	geography? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )

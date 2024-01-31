@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A disk backed dictionary implementation. [newver 0.0.8a20220113160506]"
+DESCRIPTION="A disk backed dictionary implementation."
 
 HOMEPAGE="https://github.com/directord/iodict"
 LICENSE=""

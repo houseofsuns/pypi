@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/ete3[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/gseapy[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/scipy-1.5.4[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of Bootstrap static files. [newver 3.4.0]"
+DESCRIPTION="A collection of Bootstrap static files."
 
 HOMEPAGE="http://github.com/bittner/django-bootstrap-static"
 LICENSE="MIT"

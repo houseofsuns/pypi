@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	test? ( dev-python/pyini[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/moto-4.1.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/moto-4.1.5_pre40[${PYTHON_USEDEP}] )
 	test? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/click[${PYTHON_USEDEP}] )

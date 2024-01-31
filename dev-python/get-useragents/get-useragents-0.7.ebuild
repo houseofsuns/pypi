@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This library is used to make it easier for developers or users to get random user agents from https://useragents.io. [topver 1.7, newver 1.7]"
+DESCRIPTION="This library is used to make it easier for developers or users to get random user agents from https://useragents.io. [top-max 1.7]"
 
 HOMEPAGE="https://github.com/g4rzk/get_useragents"
 LICENSE="MIT"

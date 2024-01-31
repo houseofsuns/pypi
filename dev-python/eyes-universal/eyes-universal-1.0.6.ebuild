@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Applitools Eyes Universal SDK Server [topver 4.0.1, newver 4.0.1]"
+DESCRIPTION="Applitools Eyes Universal SDK Server [top-max 4.0.1]"
 
 HOMEPAGE="http://www.applitools.com"
 LICENSE=""

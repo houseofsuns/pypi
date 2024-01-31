@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convenient library to plug in tracer to incoming and outgoing points and extract data from there [newver 0.4.18a0]"
+DESCRIPTION="Convenient library to plug in tracer to incoming and outgoing points and extract data from there"
 
 HOMEPAGE="https://github.com/hastly/tracuni"
 LICENSE=""

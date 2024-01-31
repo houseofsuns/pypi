@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A json-based configuration helper lib for python [topver 0.10.2, newver 0.10.2]"
+DESCRIPTION="A json-based configuration helper lib for python [top-max 0.10.2]"
 
 HOMEPAGE="https://github.com/chkap/jcfg"
 LICENSE="MIT"

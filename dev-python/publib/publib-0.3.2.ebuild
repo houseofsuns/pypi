@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Produce publication-level quality images on top of Matplotlib [topver 0.3.3, newver 0.3.3]"
+DESCRIPTION="Produce publication-level quality images on top of Matplotlib [top-max 0.3.3]"
 
 HOMEPAGE="https://github.com/erwanp/publib"
 LICENSE="MIT"

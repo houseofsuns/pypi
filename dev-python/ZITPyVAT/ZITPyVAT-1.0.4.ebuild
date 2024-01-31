@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ZIT python vat common packages [topver 1.0.20, newver 1.0.20]"
+DESCRIPTION="ZIT python vat common packages [top-max 1.0.20]"
 
 HOMEPAGE="http://www.tjzit.com/"
 LICENSE="None"

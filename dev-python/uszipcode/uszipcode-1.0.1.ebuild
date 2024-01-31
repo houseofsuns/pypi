@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-mate[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-inline-tabs-2021.8.17[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2021.8.17_beta10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CaSQ: Celldesigner as Sbml-Qual [topver 1.3.1, newver 1.3.1]"
+DESCRIPTION="CaSQ: Celldesigner as Sbml-Qual [top-max 1.3.1]"
 
 HOMEPAGE="https://soliman.gitlabpages.inria.fr/casq/"
 LICENSE="GPL-3"

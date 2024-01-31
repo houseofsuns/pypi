@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Monitor, debug and profile the jobs running on Cloud TPU. [newver 0.1.5]"
+DESCRIPTION="Monitor, debug and profile the jobs running on Cloud TPU."
 
 HOMEPAGE="https://github.com/google/cloud-tpu-monitoring-debugging"
 LICENSE=""

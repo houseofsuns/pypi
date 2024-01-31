@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CasADi -- framework for algorithmic differentiation and numeric optimization [newver 3.6.4.post1]"
+DESCRIPTION="CasADi -- framework for algorithmic differentiation and numeric optimization [top-max 3.6.4_p1]"
 
 HOMEPAGE="http://casadi.org"
 LICENSE="GNU Lesser General Public License v3 or later LGPLv3+"

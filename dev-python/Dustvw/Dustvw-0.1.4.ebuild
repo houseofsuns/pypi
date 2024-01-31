@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fine dust visualization [topver 0.2.2, newver 0.2.2]"
+DESCRIPTION="Fine dust visualization [top-max 0.2.2]"
 
 HOMEPAGE="https://github.com/Pandemic23/FCV-ver1.3/tree/main"
 LICENSE=""

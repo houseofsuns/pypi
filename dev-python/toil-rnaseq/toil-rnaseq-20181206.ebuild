@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UC Santa Cruz Computational Genomics Lab's Toil-based RNA-seq workflow [newver 4.1.2, badver 4.2.0a1_pre262]"
+DESCRIPTION="UC Santa Cruz Computational Genomics Lab's Toil-based RNA-seq workflow [badver 4.2.0a1.dev262]"
 
 HOMEPAGE="https://github.com/BD2KGenomics/toil-lib"
 LICENSE=""

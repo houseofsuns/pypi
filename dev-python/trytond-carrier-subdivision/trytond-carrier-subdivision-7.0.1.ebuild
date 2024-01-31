@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module that allows carriers selection to be restrictedby subdivision [newver 6.0.2]"
+DESCRIPTION="Tryton module that allows carriers selection to be restrictedby subdivision"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

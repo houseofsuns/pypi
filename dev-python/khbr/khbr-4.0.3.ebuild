@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 4.0.5, newver 4.0.5]"
+DESCRIPTION=" [top-max 4.0.5]"
 
 HOMEPAGE="https://github.com/thundrio-kh/khbr"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Read and write TIFF(r) files [topver 2018.10.18, newver 2018.10.18]"
+DESCRIPTION="Read and write TIFF(r) files [top-max 2018.10.18]"
 
 HOMEPAGE="https://www.lfd.uci.edu/~gohlke/"
 LICENSE="BSD"

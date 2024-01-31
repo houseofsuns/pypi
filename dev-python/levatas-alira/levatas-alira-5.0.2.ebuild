@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alira [newver 4.0.4]"
+DESCRIPTION="Alira"
 
 HOMEPAGE="https://github.com/vinsa-ai/alira"
 LICENSE=""

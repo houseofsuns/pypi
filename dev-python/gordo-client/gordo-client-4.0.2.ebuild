@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gordo client [topver 6.2.8, newver 6.2.8]"
+DESCRIPTION="Gordo client [top-max 6.2.8]"
 
 HOMEPAGE="https://github.com/equinor/gordo-client"
 LICENSE="AGPL-3"

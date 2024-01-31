@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reinforcement Learning with Model Predictive Control [newver 1.1.9]"
+DESCRIPTION="Reinforcement Learning with Model Predictive Control"
 
 HOMEPAGE="https://github.com/FilippoAiraldi/mpc-reinforcement-learning"
 LICENSE="MIT"

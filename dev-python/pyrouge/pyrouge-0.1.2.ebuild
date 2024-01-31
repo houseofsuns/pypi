@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python wrapper for the ROUGE summarization evaluation package. [topver 0.1.3]"
+DESCRIPTION="A Python wrapper for the ROUGE summarization evaluation package."
 
 HOMEPAGE="https://github.com/noutenki/pyrouge"
 LICENSE="LICENSE.txt"

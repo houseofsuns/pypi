@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep surrogate model for the probability of informed trading model [topver 1.7, newver 1.7]"
+DESCRIPTION="Deep surrogate model for the probability of informed trading model [top-max 1.7]"
 
 HOMEPAGE="https://github.com/GuillaumePv/pin_surrogate_model"
 LICENSE="MIT"

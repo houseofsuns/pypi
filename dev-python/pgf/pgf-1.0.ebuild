@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A binding to the PGF engine [topver 2.4]"
+DESCRIPTION="A binding to the PGF engine [top-max 2.4]"
 
 HOMEPAGE=""
 LICENSE="BSD"

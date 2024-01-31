@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A module for controlling the Tp-link Tapo P100/P105/P110 plugs and L530/L510E bulbs. [topver 0.1.2, newver 0.1.2]"
+DESCRIPTION="A module for controlling the Tp-link Tapo P100/P105/P110 plugs and L530/L510E bulbs. [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/fishbigger/TapoP100"
 LICENSE="MIT"

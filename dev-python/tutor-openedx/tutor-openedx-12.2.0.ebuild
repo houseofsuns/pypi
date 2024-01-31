@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Docker-based Open edX distribution designed for peace of mind [newver 10.5.5]"
+DESCRIPTION="The Docker-based Open edX distribution designed for peace of mind"
 
 HOMEPAGE="https://docs.tutor.overhang.io/"
 LICENSE="AGPL-3"

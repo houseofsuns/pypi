@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydocstyle-5.0.2[${PYTHON_USEDEP}] )

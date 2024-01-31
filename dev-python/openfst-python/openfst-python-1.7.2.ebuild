@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Stand-alone OpenFST bindings for Python [topver 1.7.3, newver 1.7.3]"
+DESCRIPTION="Stand-alone OpenFST bindings for Python [top-max 1.7.3]"
 
 HOMEPAGE="https://github.com/jpuigcerver/openfst-python"
 LICENSE="MIT"

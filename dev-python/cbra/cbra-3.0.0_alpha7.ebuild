@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A class-based REStful API framework built on FastAPI [newver 2.0.0a143]"
+DESCRIPTION="A class-based REStful API framework built on FastAPI"
 
 HOMEPAGE="https://docs.cochise.io/python/cbra/latest"
 LICENSE=""

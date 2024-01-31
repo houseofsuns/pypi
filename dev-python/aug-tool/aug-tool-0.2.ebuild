@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to increase your data for your machine learning project [newver 0.1.2]"
+DESCRIPTION="A package to increase your data for your machine learning project"
 
 HOMEPAGE="https://github.com/hakanaktas1/aug-tool"
 LICENSE=""

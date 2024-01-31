@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to bootstrap WSGI/ASGI application for Gramine [newver 2.3.0a3]"
+DESCRIPTION="Library to bootstrap WSGI/ASGI application for Gramine"
 
 HOMEPAGE=""
 LICENSE="MIT"

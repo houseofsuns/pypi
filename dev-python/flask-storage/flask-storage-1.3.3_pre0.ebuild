@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flask storage [newver 1.3.2]"
+DESCRIPTION="Flask storage"
 
 HOMEPAGE=""
 LICENSE=""

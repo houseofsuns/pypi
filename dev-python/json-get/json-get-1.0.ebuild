@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Get values from JSON objects using a path expression [topver 1.1.1, newver 1.1.1]"
+DESCRIPTION="Get values from JSON objects using a path expression [top-max 1.1.1]"
 
 HOMEPAGE="https://github.com/srittau/python-json-get"
 LICENSE="MIT"

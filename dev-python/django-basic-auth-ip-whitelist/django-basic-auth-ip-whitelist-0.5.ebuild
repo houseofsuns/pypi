@@ -27,6 +27,6 @@ IUSE="lint"
 DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
-	lint? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )"
+	lint? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

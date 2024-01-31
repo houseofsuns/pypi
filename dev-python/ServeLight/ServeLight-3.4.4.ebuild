@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight and Responsive Server Framework [newver 3.4.3]"
+DESCRIPTION="Lightweight and Responsive Server Framework"
 
 HOMEPAGE="https://github.com/Ksengine/ServeLight"
 LICENSE="MIT"

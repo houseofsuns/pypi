@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for building and paring Connexions' EPUBs. [topver 1.33.0, newver 0.34.0]"
+DESCRIPTION="Library for building and paring Connexions' EPUBs. [top-max 1.33.0]"
 
 HOMEPAGE="https://github.com/connexions/cnx-epub"
 LICENSE="AGPL, See also LICENSE.txt"

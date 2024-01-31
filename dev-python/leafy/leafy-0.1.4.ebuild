@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Another fast graph algorithms library [topver 1.0.0, newver 1.0.0]"
+DESCRIPTION="Another fast graph algorithms library [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/ajaaliconsulting/leafy"
 LICENSE="MIT"

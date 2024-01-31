@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alibaba Cloud cr (20181201) SDK Library for Python [newver 1.1.3]"
+DESCRIPTION="Alibaba Cloud cr (20181201) SDK Library for Python"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"

@@ -27,7 +27,7 @@ IUSE="changelog docker docs lint salt tests"
 DEPENDENCIES=">=dev-python/pytest-7.1.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
-	changelog? ( ~dev-python/towncrier-21.9.0[${PYTHON_USEDEP}] )
+	changelog? ( ~dev-python/towncrier-21.9.0_rc1[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

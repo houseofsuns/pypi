@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider for Apache Airflow. Implements apache-airflow-providers-asana package [newver 2.4.1]"
+DESCRIPTION="Provider for Apache Airflow. Implements apache-airflow-providers-asana package"
 
 HOMEPAGE="https://airflow.apache.org/"
 LICENSE="Apache-2.0"

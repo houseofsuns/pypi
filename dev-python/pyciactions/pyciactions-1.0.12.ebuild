@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Declarative builder for Github Action Scripts [newver 1.0.12a2]"
+DESCRIPTION="Declarative builder for Github Action Scripts"
 
 HOMEPAGE="https://github.com/JBongars/pyciactions"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Axibase Time-Series Database API Client for Python [topver 3.0.6, newver 3.0.6]"
+DESCRIPTION="Axibase Time-Series Database API Client for Python [top-max 3.0.6]"
 
 HOMEPAGE="https://github.com/axibase/atsd-api-python"
 LICENSE="Apache-2.0"

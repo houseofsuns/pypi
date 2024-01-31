@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Forward-time population genetic simulation in Python [newver 0.22.0]"
+DESCRIPTION="Forward-time population genetic simulation in Python"
 
 HOMEPAGE="https://github.com/molpopgen/fwdpy11"
 LICENSE="GNU GPL3+"

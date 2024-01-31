@@ -31,6 +31,6 @@ DEPENDENCIES="~dev-python/pykka-4.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flit-3.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/uvicorn-0.24.0_p1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

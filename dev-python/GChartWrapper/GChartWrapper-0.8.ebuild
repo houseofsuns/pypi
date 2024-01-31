@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Google Chart Wrapper [topver 0.9]"
+DESCRIPTION="Python Google Chart Wrapper"
 
 HOMEPAGE="http://code.google.com/p/google-chartwrapper/"
 LICENSE="UNKNOWN"

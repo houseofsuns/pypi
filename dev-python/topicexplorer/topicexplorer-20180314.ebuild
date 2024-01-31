@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="InPhO Topic Explorer [newver 1.0b227, badver 1.0.0.0b197_pre50]"
+DESCRIPTION="InPhO Topic Explorer [badver 1.0.0.0b197.dev50]"
 
 HOMEPAGE="http://inphodata.cogs.indiana.edu"
 LICENSE="MIT"

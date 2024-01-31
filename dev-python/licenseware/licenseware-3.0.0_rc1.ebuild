@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Licenseware SDK which contains common functionality used in all apps [newver 2.4.7]"
+DESCRIPTION="Licenseware SDK which contains common functionality used in all apps"
 
 HOMEPAGE="https://licenseware.io/"
 LICENSE=""

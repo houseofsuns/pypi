@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UNKNOWN [newver 2.1.0]"
+DESCRIPTION="UNKNOWN"
 
 HOMEPAGE="http://ellipt2d.sourceforge.net"
 LICENSE="UNKNOWN"

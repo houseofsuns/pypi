@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="toolkit that assists with generating LinkML schemas from existing serializations like JSON-schema [newver 0.3.1]"
+DESCRIPTION="toolkit that assists with generating LinkML schemas from existing serializations like JSON-schema"
 
 HOMEPAGE="https://github.com/linkml/schema_automator"
 LICENSE="BSD"

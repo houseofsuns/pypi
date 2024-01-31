@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Additional fields, validators and widgets for WTForms. [topver 0.10.5, newver 0.10.5]"
+DESCRIPTION="Additional fields, validators and widgets for WTForms. [top-max 0.10.5]"
 
 HOMEPAGE="https://github.com/kvesteri/wtforms-components"
 LICENSE="BSD"

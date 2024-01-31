@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.4_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nltk[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
 	dev? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	quality? ( ~dev-python/black-21.4[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-21.4_beta0[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

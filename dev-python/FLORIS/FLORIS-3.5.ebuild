@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A controls-oriented engineering wake model. [newver 2.5.1]"
+DESCRIPTION="A controls-oriented engineering wake model."
 
 HOMEPAGE="https://github.com/NREL/FLORIS"
 LICENSE="Apache-2.0"

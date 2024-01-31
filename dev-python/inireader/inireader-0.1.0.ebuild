@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ini file reader [topver 0.2.0, newver 0.2.0]"
+DESCRIPTION="ini file reader [top-max 0.2.0]"
 
 HOMEPAGE="https://bitbucket.org/pythonian/inireader"
 LICENSE=""

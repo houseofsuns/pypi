@@ -27,7 +27,7 @@ IUSE="dev doc openapi release test"
 DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.12[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( >dev-python/sphinx-5.2.0[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-5.2.0_p0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-1.1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

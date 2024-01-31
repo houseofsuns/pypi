@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/django-2.1.0[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-3.6.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )

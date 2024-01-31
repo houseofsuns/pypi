@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="funfluid [newver 0.0.17]"
+DESCRIPTION="funfluid"
 
 HOMEPAGE="https://github.com/1007530194"
 LICENSE=""

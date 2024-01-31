@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The APERC Toolkit for Energy Analysis and Modeling. [topver 2021.6, newver 2021.6b14]"
+DESCRIPTION="The APERC Toolkit for Energy Analysis and Modeling. [top-max 2021.6_beta14]"
 
 HOMEPAGE="https://github.com/asia-pacific-energy-research-centre/aperc-osemosys"
 LICENSE="MIT"

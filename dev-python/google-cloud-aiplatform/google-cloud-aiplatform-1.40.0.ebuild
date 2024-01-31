@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autologging cloud_profiler datasets endpoint full lit metadata pipelines prediction preview private_endpoints ray tensorboard testing vizier xai"
-DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/packaging-14.3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-resource-manager[${PYTHON_USEDEP}]
-	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	autologging? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	cloud_profiler? ( dev-python/tensorboard-plugin-profile[${PYTHON_USEDEP}] )
-	cloud_profiler? ( <dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}] )
+	cloud_profiler? ( <dev-python/werkzeug-2.1.0_pre0[${PYTHON_USEDEP}] )
 	cloud_profiler? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	datasets? ( <dev-python/pyarrow-8.0[${PYTHON_USEDEP}] )
+	datasets? ( <dev-python/pyarrow-8.0_pre0[${PYTHON_USEDEP}] )
 	datasets? ( >=dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}] )
 	endpoint? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	full? ( >=dev-python/starlette-0.17.1[${PYTHON_USEDEP}] )
 	full? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
-	full? ( <dev-python/pyarrow-8.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pyarrow-8.0_pre0[${PYTHON_USEDEP}] )
 	full? ( dev-python/ray[${PYTHON_USEDEP}] )
 	full? ( dev-python/ray[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}] )
@@ -113,7 +113,7 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	testing? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tensorboard-plugin-profile[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/werkzeug-2.1.0_pre0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	testing? ( dev-python/grpcio-testing[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -127,7 +127,7 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	testing? ( dev-python/xgboost-ray[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/pyarrow-8.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pyarrow-8.0_pre0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ray[${PYTHON_USEDEP}] )
 	testing? ( dev-python/bigframes[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ray[${PYTHON_USEDEP}] )

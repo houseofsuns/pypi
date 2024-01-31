@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Boilerplate contains all the boilerplate you need to create a Python package. [topver 4.4.2, newver 4.4.2]"
+DESCRIPTION="Python Boilerplate contains all the boilerplate you need to create a Python package. [top-max 4.4.2]"
 
 HOMEPAGE="https://github.com/wwj718/codelab_adapter_client"
 LICENSE="GNU General Public License v3"

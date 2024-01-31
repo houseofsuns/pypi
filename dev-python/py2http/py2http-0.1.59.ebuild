@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Declarative HTTP service entry point. [newver 0.1.55]"
+DESCRIPTION="Declarative HTTP service entry point."
 
 HOMEPAGE="https://github.com/i2mint/py2http"
 LICENSE="MIT"

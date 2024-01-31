@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is a fico21soft's common libraries [topver 0.9.83, newver 0.9.83]"
+DESCRIPTION="This is a fico21soft's common libraries [top-max 0.9.83]"
 
 HOMEPAGE=""
 LICENSE=""

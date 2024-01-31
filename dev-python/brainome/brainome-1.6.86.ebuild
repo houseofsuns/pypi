@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Brainome Table Compiler [topver 2.0.172, newver 2.0.172]"
+DESCRIPTION="Brainome Table Compiler [top-max 2.0.172]"
 
 HOMEPAGE="https://github.com/brainome/examples"
 LICENSE="BSD"

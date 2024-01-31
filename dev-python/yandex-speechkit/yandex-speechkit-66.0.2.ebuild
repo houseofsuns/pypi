@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to prevent Dependency Confusion attacks against Yandex. [newver 1.3.3]"
+DESCRIPTION="A package to prevent Dependency Confusion attacks against Yandex."
 
 HOMEPAGE="https://ya.ru"
 LICENSE=""

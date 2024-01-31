@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="dev-python/iniconfig[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
-	>=dev-python/exceptiongroup-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.0.0_rc8[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="URL Parsing [newver 0.4.2a0]"
+DESCRIPTION="URL Parsing"
 
 HOMEPAGE="http://github.com/seomoz/url-py"
 LICENSE="MIT"

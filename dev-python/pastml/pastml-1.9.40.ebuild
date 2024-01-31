@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ancestral character reconstruction and visualisation for rooted phylogenetic trees. [topver 1.9.42, newver 1.9.42]"
+DESCRIPTION="Ancestral character reconstruction and visualisation for rooted phylogenetic trees. [top-max 1.9.42]"
 
 HOMEPAGE="https://github.com/evolbioinfo/pastml"
 LICENSE=""

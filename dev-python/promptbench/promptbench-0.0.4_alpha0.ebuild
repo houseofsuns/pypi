@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PromptBench is a powerful tool designed to scrutinize and analyze the interaction of large language models with various prompts. It provides a convenient infrastructure to simulate **black-box** adversarial  **prompt attacks** on the models and evaluate their performances. [newver 0.0.2]"
+DESCRIPTION="PromptBench is a powerful tool designed to scrutinize and analyze the interaction of large language models with various prompts. It provides a convenient infrastructure to simulate **black-box** adversarial  **prompt attacks** on the models and evaluate their performances."
 
 HOMEPAGE="https://github.com/microsoft/promptbench"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HTML 5 Generator [topver 2.0.0, newver 2.0.0]"
+DESCRIPTION="HTML 5 Generator [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/srittau/python-htmlgen"
 LICENSE="MIT"

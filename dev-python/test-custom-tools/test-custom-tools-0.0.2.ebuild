@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is test tools package with custom strong type connection. [newver 0.0.2b1]"
+DESCRIPTION="This is test tools package with custom strong type connection."
 
 HOMEPAGE=""
 LICENSE=""

@@ -51,6 +51,6 @@ DEPENDENCIES="dev-python/astral[${PYTHON_USEDEP}]
 	dev-python/voluptuous-serialize[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
-	~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]"
+	~dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

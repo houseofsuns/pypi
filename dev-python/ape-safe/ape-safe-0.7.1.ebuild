@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build complex Gnosis Safe transactions and safely preview them in a forked environment. [newver 0.7.0b0]"
+DESCRIPTION="Build complex Gnosis Safe transactions and safely preview them in a forked environment."
 
 HOMEPAGE="https://github.com/banteg/ape-safe"
 LICENSE="MIT"

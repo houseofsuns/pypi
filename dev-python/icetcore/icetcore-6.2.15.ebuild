@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="icetcore python api [topver 6.6.26, newver 6.6.26]"
+DESCRIPTION="icetcore python api [top-max 6.6.26]"
 
 HOMEPAGE="https://www.algostars.com.cn/"
 LICENSE=""

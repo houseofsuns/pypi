@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Comprehensive Handcrafted Linguistic Features Extraction in Python [newver 1.0.9rc0]"
+DESCRIPTION="Comprehensive Handcrafted Linguistic Features Extraction in Python"
 
 HOMEPAGE="https://github.com/brucewlee/lftk"
 LICENSE="CC BY-NC 4.0"

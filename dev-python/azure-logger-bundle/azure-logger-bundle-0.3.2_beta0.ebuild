@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Azure Logger bundle for the Pyfony framework [newver 0.3.1]"
+DESCRIPTION="Azure Logger bundle for the Pyfony framework"
 
 HOMEPAGE="https://github.com/pyfony/azure-logger-bundle"
 LICENSE="MIT"

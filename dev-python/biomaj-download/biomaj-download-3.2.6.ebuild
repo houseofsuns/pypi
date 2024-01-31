@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BioMAJ download service [topver 3.2.11, newver 3.2.11]"
+DESCRIPTION="BioMAJ download service [top-max 3.2.11]"
 
 HOMEPAGE="http://biomaj.genouest.org"
 LICENSE=""

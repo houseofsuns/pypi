@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MyType [newver 0.4.6]"
+DESCRIPTION="MyType"
 
 HOMEPAGE="https://github.com/devladityanugraha"
 LICENSE="LGPL-3+"

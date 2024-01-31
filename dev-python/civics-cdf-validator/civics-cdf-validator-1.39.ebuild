@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Checks if an election feed follows best practices [newver 1.39.dev6]"
+DESCRIPTION="Checks if an election feed follows best practices"
 
 HOMEPAGE="https://github.com/google/civics_cdf_validator"
 LICENSE="Apache License"

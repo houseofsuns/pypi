@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python dictionary representations of Avro Schema for the nubium project [newver 1.3.3]"
+DESCRIPTION="Python dictionary representations of Avro Schema for the nubium project"
 
 HOMEPAGE="https://gitlab.corp.redhat.com/mkt-ops-de/nubium-schemas.git"
 LICENSE=""

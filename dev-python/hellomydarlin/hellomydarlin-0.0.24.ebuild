@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Says Hello [newver 0.0.11]"
+DESCRIPTION="Says Hello"
 
 HOMEPAGE=""
 LICENSE=""

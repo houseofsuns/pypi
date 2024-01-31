@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open Raman Processing Library [newver 1.0.10a0]"
+DESCRIPTION="Open Raman Processing Library"
 
 HOMEPAGE="https://github.com/mr-sheg/orpl"
 LICENSE="MIT"

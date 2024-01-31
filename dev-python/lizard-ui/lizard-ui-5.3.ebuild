@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Basic user interface for lizard websites [newver 4.54]"
+DESCRIPTION="Basic user interface for lizard websites"
 
 HOMEPAGE="http://www.nelen-schuurmans.nl/lizard/"
 LICENSE="LGPL-3"

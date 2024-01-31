@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/PySimpleGUI[${PYTHON_USEDEP}]
-	~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.0_rc0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )

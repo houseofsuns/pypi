@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud computing fabric controller [newver 26.2.1]"
+DESCRIPTION="Cloud computing fabric controller"
 
 HOMEPAGE="https://docs.openstack.org/nova/latest/"
 LICENSE=""

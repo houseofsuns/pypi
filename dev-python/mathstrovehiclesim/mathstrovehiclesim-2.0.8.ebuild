@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/pygame[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-23.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1_alpha1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )

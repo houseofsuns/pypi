@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DNS as a Service [topver 2015.1.0]"
+DESCRIPTION="DNS as a Service"
 
 HOMEPAGE="https://docs.openstack.org/designate/latest/"
 LICENSE=""

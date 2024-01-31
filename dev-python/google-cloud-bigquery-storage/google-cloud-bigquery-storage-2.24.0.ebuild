@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastavro pandas pyarrow"
-DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	fastavro? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pandas-0.21.1[${PYTHON_USEDEP}] )
 	pyarrow? ( >=dev-python/pyarrow-0.15.0[${PYTHON_USEDEP}] )"

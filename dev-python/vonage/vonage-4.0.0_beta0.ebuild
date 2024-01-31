@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Vonage Server SDK for Python [newver 3.13.0]"
+DESCRIPTION="Vonage Server SDK for Python"
 
 HOMEPAGE="https://github.com/Vonage/vonage-python-sdk"
 LICENSE="Apache-2.0"

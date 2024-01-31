@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for handling containerized PHT trains [newver 2.0.6a0]"
+DESCRIPTION="Python library for handling containerized PHT trains"
 
 HOMEPAGE=""
 LICENSE=""

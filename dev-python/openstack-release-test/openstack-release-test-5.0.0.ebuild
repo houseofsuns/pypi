@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for testing OpenStack release tools. [newver 3.9.0]"
+DESCRIPTION="Package for testing OpenStack release tools."
 
 HOMEPAGE="https://www.openstack.org/"
 LICENSE=""

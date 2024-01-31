@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helper library for CAIP explanations. [topver 1.3.3, newver 1.3.3]"
+DESCRIPTION="Helper library for CAIP explanations. [top-max 1.3.3]"
 
 HOMEPAGE=""
 LICENSE=""

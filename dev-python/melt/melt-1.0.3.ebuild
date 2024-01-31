@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A nucleotide melt temp calculator [topver 1.0.4, newver 1.0.4]"
+DESCRIPTION="A nucleotide melt temp calculator"
 
 HOMEPAGE="https://github.com/eclarke/melt"
 LICENSE="GPL 3"

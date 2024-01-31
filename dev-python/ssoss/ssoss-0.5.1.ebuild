@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/geographiclib[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]"

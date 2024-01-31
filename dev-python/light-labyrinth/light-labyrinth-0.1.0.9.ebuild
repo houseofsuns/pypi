@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Light labyrinth ML model [topver 1.0.0, newver 1.0.0]"
+DESCRIPTION="Light labyrinth ML model [top-max 1.0.0]"
 
 HOMEPAGE="https://lightlabyrinth.org"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Euphonic calculates phonon bandstructures and inelastic neutron scattering intensities from modelling code output (e.g. CASTEP)"
+DESCRIPTION="Euphonic calculates phonon bandstructures and inelastic neutron scattering intensities from modelling code output (e.g. CASTEP) [top-max 1.3.1]"
 
 HOMEPAGE="https://github.com/pace-neutrons/Euphonic"
 LICENSE="GPL-3"

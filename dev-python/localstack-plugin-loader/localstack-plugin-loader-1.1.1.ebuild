@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/stevedore-3.4[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.6_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

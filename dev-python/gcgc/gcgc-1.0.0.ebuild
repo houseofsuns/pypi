@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev hf include_package_data setup_requires"
 DEPENDENCIES=">=dev-python/pydantic-1.6.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycodestyle-2.4[${PYTHON_USEDEP}] )

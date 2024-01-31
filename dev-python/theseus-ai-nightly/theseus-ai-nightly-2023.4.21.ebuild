@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pybind11-2.7.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.981[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

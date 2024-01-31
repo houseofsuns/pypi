@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Web3.py [newver 4.8.2.1]"
+DESCRIPTION="Web3.py"
 
 HOMEPAGE="https://github.com/ethereum/web3.py"
 LICENSE="MIT"

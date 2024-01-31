@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Streamlit component implementation of ag-grid-pro [topver 0.3.35, newver 0.3.35]"
+DESCRIPTION="Streamlit component implementation of ag-grid-pro [top-max 0.3.35]"
 
 HOMEPAGE="https://github.com/llllyang123/streamlit-aggrid-pro"
 LICENSE=""

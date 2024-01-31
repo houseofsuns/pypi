@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="To build a extendable config server. (constructing) [topver 0.6.4, newver 0.6.4]"
+DESCRIPTION="To build a extendable config server. (constructing) [top-max 0.6.4]"
 
 HOMEPAGE=""
 LICENSE=""

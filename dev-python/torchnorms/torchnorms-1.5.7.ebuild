@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Differentiable Fuzzy Logic operators for [topver 1.5.8, newver 1.5.8]"
+DESCRIPTION="Differentiable Fuzzy Logic operators for [top-max 1.5.8]"
 
 HOMEPAGE="https://github.com/pminervini/torch-norms"
 LICENSE=""

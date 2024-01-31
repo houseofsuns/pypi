@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Mini Shell [topver 0.1.4, newver 0.1.4]"
+DESCRIPTION="Python Mini Shell [top-max 0.1.4]"
 
 HOMEPAGE="https://bitbucket.org/abelana/py_mini_sh"
 LICENSE=""

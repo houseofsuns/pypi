@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	~dev-python/nbformat-5.1.3[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	~dev-python/pyopengl-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/pyopengl-3.1.1_alpha1[${PYTHON_USEDEP}]
 	dev-python/camel[${PYTHON_USEDEP}]
 	~dev-python/yapf-0.30.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

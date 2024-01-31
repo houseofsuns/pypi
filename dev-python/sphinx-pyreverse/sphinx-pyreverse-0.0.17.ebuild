@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/astroid-2.5.7[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
 	pil? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/black-21.6[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-21.6_beta0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )

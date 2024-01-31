@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="whist_score is a scorekeeper for the whist card game. [newver 0.1.0]"
+DESCRIPTION="whist_score is a scorekeeper for the whist card game."
 
 HOMEPAGE="https://github.com/erwinmintiens/whist-score"
 LICENSE=""

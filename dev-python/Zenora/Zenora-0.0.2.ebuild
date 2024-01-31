@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 0.0.3, newver 0.0.3.post1]"
+DESCRIPTION=" [top-max 0.0.3_p1]"
 
 HOMEPAGE="https://github.com/ahnaf-zamil/zenora"
 LICENSE="MIT"

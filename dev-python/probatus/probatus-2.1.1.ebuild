@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.4.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )

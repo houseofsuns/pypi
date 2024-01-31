@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chatbot plugin based on ChatGPT for Nonebot. [newver 0.0.1]"
+DESCRIPTION="Chatbot plugin based on ChatGPT for Nonebot."
 
 HOMEPAGE="https://github.com/kifuan/nonebot-plugin-gpt"
 LICENSE="MIT"

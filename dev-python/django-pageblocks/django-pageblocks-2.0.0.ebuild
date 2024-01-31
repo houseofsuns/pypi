@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Basic Pageblocks to go along with django-pagetree [newver 0.5.17]"
+DESCRIPTION="Basic Pageblocks to go along with django-pagetree"
 
 HOMEPAGE="https://github.com/ccnmtl/django-pageblocks"
 LICENSE="BSD"

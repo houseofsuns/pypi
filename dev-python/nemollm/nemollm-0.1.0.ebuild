@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NVIDIA NeMo LLM service [topver 0.3.5, newver 0.3.5]"
+DESCRIPTION="NVIDIA NeMo LLM service [top-max 0.3.5]"
 
 HOMEPAGE=""
 LICENSE=""

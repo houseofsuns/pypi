@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cryptography"
-DEPENDENCIES="~dev-python/pika-1.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pika-1.0.0_beta1[${PYTHON_USEDEP}]
 	dev-python/pynamodb[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.80[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.29.80[${PYTHON_USEDEP}]

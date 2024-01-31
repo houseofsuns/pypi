@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python based bot for Mattermost with its own webhook server. [topver 2.1.4, newver 2.1.4]"
+DESCRIPTION="A python based bot for Mattermost with its own webhook server. [top-max 2.1.4]"
 
 HOMEPAGE="https://github.com/attzonko/mmpy_bot"
 LICENSE="MIT"
@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/mattermostdriver[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-1.3.3[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/filelock-3.0.12[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )

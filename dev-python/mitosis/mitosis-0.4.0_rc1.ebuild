@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reproduce Machine Learning experiments easily [newver 0.3.1]"
+DESCRIPTION="Reproduce Machine Learning experiments easily"
 
 HOMEPAGE="https://github.com/Jacob-Stevens-Haas/mitosis"
 LICENSE="MIT"

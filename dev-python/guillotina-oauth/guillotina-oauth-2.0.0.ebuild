@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="guillotina oauth support [newver 1.1.17]"
+DESCRIPTION="guillotina oauth support"
 
 HOMEPAGE="https://pypi.python.org/pypi/guillotina_oauth"
 LICENSE="GPL version 3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easy to create your microservice based on multiple python frameworks. [topver 0.9.10, newver 0.9.10]"
+DESCRIPTION="Easy to create your microservice based on multiple python frameworks. [top-max 0.9.10]"
 
 HOMEPAGE="https://github.com/daixm/family"
 LICENSE="MIT"

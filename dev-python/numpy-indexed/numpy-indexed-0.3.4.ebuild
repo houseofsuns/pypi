@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Numpy extensions for set operations on nd-arrays, group_by operations, and related functionality [topver 0.3.7, newver 0.3.7]"
+DESCRIPTION="Numpy extensions for set operations on nd-arrays, group_by operations, and related functionality [top-max 0.3.7]"
 
 HOMEPAGE="https://github.com/EelcoHoogendoorn/Numpy_arraysetops_EP"
 LICENSE="Freely Distributable"

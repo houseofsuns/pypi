@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Multilayer network analysis python3 library [newver 0.95a0]"
+DESCRIPTION="A Multilayer network analysis python3 library"
 
 HOMEPAGE="http://github.com/skblaz/py3plex"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extend Jupyterhub's BatchSpawner to deal with AWS ParallelCluster's SLURM environment [newver 3.5.9]"
+DESCRIPTION="Extend Jupyterhub's BatchSpawner to deal with AWS ParallelCluster's SLURM environment"
 
 HOMEPAGE="https://github.com/dabble-of-devops-bioanalyze/aws_pcluster_slurm_spawner"
 LICENSE="Apache Software License 2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Инструментарий для упрощения разработки реестров и справочников [newver 2.2.49]"
+DESCRIPTION="Инструментарий для упрощения разработки реестров и справочников"
 
 HOMEPAGE="https://bitbucket.org/barsgroup/objectpack"
 LICENSE="MIT"

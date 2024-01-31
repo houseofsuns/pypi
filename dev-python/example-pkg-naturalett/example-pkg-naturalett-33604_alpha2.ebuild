@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small example package [newver 14.9]"
+DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/naturalett/getting-started"
 LICENSE=""

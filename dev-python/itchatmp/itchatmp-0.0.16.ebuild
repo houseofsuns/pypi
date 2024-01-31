@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A complete wechat massive platform api [topver 0.0.17, newver 0.0.17]"
+DESCRIPTION="A complete wechat massive platform api [top-max 0.0.17]"
 
 HOMEPAGE="https://github.com/littlecodersh/itchatmp"
 LICENSE="MIT"

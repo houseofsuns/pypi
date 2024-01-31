@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AIO connect [topver 0.1.9, newver 0.1.9]"
+DESCRIPTION="AIO connect [top-max 0.1.9]"
 
 HOMEPAGE="https://github.com/aioneers/aioconnect"
 LICENSE="MIT"

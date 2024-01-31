@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	dev-python/smartredis[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-24.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-24.1_alpha1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )

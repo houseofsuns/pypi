@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cell2location: High-throughput spatial mapping of cell types [topver 0.6]"
+DESCRIPTION="cell2location: High-throughput spatial mapping of cell types [top-max 0.6_alpha0]"
 
 HOMEPAGE="https://github.com/BayraktarLab/cell2location"
 LICENSE="Apache-2.0"

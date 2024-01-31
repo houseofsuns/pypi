@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
-	>=dev-python/tqdm-0.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
 	dev-python/python-liquid[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

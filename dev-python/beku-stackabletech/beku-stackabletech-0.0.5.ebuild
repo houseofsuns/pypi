@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Test suite expander for Stackable Kuttl tests. [topver 0.0.9, newver 0.0.9]"
+DESCRIPTION="Test suite expander for Stackable Kuttl tests. [top-max 0.0.9]"
 
 HOMEPAGE="https://github.com/stackabletech/beku.py"
 LICENSE=""

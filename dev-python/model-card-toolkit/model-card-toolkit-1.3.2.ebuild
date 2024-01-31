@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Model Card Toolkit [topver 2.0.0, newver 2.0.0]"
+DESCRIPTION="Model Card Toolkit [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/tensorflow/model-card-toolkit"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RecSys Library [newver 0.15.0rc0]"
+DESCRIPTION="RecSys Library"
 
 HOMEPAGE="https://sb-ai-lab.github.io/RePlay/"
 LICENSE="Apache-2.0"

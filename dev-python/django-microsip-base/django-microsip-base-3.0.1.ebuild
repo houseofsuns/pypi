@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django Microsip Base [newver 2.1.7]"
+DESCRIPTION="Django Microsip Base"
 
 HOMEPAGE=""
 LICENSE=""

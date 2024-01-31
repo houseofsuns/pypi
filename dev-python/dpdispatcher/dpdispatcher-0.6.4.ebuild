@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
 	cloudserver? ( dev-python/bohrium-sdk[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0_rc1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/deepmodeling-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dargs[${PYTHON_USEDEP}] )

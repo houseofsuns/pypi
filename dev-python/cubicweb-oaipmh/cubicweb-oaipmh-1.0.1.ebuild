@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OAI-PMH server for CubicWeb [newver 0.10.1]"
+DESCRIPTION="OAI-PMH server for CubicWeb"
 
 HOMEPAGE="https://forge.extranet.logilab.fr/cubicweb/cubes/cubicweb-oaipmh"
 LICENSE="LGPL-3"

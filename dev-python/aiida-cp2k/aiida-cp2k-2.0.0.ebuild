@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The official AiiDA plugin for CP2K. [newver 1.6.0]"
+DESCRIPTION="The official AiiDA plugin for CP2K."
 
 HOMEPAGE="https://github.com/aiidateam/aiida-cp2k"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for fast fuzzy search over a big file leveraging C++ and mbleven algorithm [topver 0.5.0, newver 0.5.0]"
+DESCRIPTION="Python library for fast fuzzy search over a big file leveraging C++ and mbleven algorithm [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/Intsights/fastzy"
 LICENSE="MIT"

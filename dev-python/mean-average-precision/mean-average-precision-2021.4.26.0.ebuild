@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mean Average Precision evaluator for object detection. [topver 2024.1.5.0, newver 2024.1.5.0]"
+DESCRIPTION="Mean Average Precision evaluator for object detection. [top-max 2024.1.5.0]"
 
 HOMEPAGE="https://github.com/bes-dev/mean_average_precision"
 LICENSE="MIT"

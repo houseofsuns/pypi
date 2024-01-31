@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The python client for the Pixie API [topver 0.8.0, newver 0.8.0]"
+DESCRIPTION="The python client for the Pixie API [top-max 0.8.0]"
 
 HOMEPAGE="https://github.com/pixie-labs/pixie"
 LICENSE="Apache-2.0"

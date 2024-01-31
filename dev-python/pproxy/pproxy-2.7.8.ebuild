@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Proxy server that can tunnel among remote servers by regex rules. [topver 2.7.9, newver 2.7.9]"
+DESCRIPTION="Proxy server that can tunnel among remote servers by regex rules. [top-max 2.7.9]"
 
 HOMEPAGE="https://github.com/qwj/python-proxy"
 LICENSE="MIT"

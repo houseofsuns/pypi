@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Machine learning model builder app [topver 1.0.57.0, newver 1.0.57.0]"
+DESCRIPTION="Machine learning model builder app [top-max 1.0.57.0]"
 
 HOMEPAGE=""
 LICENSE="BSD"

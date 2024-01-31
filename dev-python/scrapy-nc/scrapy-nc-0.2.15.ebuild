@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scrapy plugins in NoCode [topver 0.2.21, newver 0.2.21]"
+DESCRIPTION="Scrapy plugins in NoCode [top-max 0.2.21]"
 
 HOMEPAGE="https://github.com/fantasy/scrapy_nc"
 LICENSE=""

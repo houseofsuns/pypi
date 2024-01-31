@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Animated plotting extension for Pandas with Matplotlib [newver 0.2.4]"
+DESCRIPTION="Animated plotting extension for Pandas with Matplotlib"
 
 HOMEPAGE="https://github.com/JackMcKew/pandas_alive"
 LICENSE="MIT"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/argparse-addons[${PYTHON_USEDEP}]
+	>=dev-python/argparse-addons-0.4.0[${PYTHON_USEDEP}]
 	dev-python/pyelftools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

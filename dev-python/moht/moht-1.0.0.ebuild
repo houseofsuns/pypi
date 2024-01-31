@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple yet powerful tool to help you manage your mods in several ways. [topver 1.1.0, newver 1.1.0]"
+DESCRIPTION="Simple yet powerful tool to help you manage your mods in several ways. [top-max 1.1.0]"
 
 HOMEPAGE="https://gitlab.com/modding-openmw/modhelpertool"
 LICENSE="MIT"

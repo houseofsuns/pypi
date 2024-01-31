@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 0.1.135.dev6]"
+DESCRIPTION=""
 
 HOMEPAGE="https://github.com/tensorleap/leap-model-parser"
 LICENSE="MIT"

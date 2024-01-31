@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GMP or MPIR interface to Python 2.4+ and 3.x [newver 1.16]"
+DESCRIPTION="GMP or MPIR interface to Python 2.4+ and 3.x"
 
 HOMEPAGE="http://code.google.com/p/gmpy/"
 LICENSE="UNKNOWN"

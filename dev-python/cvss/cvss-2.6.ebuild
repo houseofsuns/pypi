@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CVSS2/3 library with interactive calculator for Python 2 and Python 3 [topver 3.0, newver 3.0]"
+DESCRIPTION="CVSS2/3 library with interactive calculator for Python 2 and Python 3 [top-max 3.0]"
 
 HOMEPAGE="https://github.com/RedHatProductSecurity/cvss"
 LICENSE="LGPL-3+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some methods of numerical mathematics which support calculation on GPU and parallelization [topver 0.0.1.17, newver 0.0.1.17]"
+DESCRIPTION="Some methods of numerical mathematics which support calculation on GPU and parallelization [top-max 0.0.1.17]"
 
 HOMEPAGE="https://github.com/aogavrilov/appmath"
 LICENSE="MIT"

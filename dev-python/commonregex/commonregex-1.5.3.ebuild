@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Find all dates, times, emails, phone numbers, links, emails, ip addresses, prices, bitcoin address, and street addresses in a string. [topver 1.5.4]"
+DESCRIPTION="Find all dates, times, emails, phone numbers, links, emails, ip addresses, prices, bitcoin address, and street addresses in a string."
 
 HOMEPAGE="http://www.github.com/madisonmay/CommonRegex"
 LICENSE="MIT"

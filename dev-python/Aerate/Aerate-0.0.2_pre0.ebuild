@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aerate REST APIs: falcons with swagger. [newver 0.0.1.dev26]"
+DESCRIPTION="Aerate REST APIs: falcons with swagger."
 
 HOMEPAGE="http://aerate.arable.com"
 LICENSE="BSD"

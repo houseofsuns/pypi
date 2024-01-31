@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/lyft-dataset-sdk[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/trimesh[${PYTHON_USEDEP}]
-	all? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/waymo-open-dataset-tf-2-6_0[${PYTHON_USEDEP}] )
 	all? ( dev-python/lyft-dataset-sdk[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/lyft-dataset-sdk[${PYTHON_USEDEP}]
 	mim? ( dev-python/mmcv[${PYTHON_USEDEP}] )
 	mim? ( dev-python/mmdet[${PYTHON_USEDEP}] )
 	mim? ( dev-python/mmengine[${PYTHON_USEDEP}] )
-	optional? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	optional? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	optional? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	optional? ( dev-python/waymo-open-dataset-tf-2-6_0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )

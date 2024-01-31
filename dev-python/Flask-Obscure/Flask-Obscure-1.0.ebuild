@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Obscure numerical IDs in URLs [newver 0.1.3]"
+DESCRIPTION="Obscure numerical IDs in URLs"
 
 HOMEPAGE="http://www.github.com/jidn/flask-obscure/"
 LICENSE="Apache-2.0"

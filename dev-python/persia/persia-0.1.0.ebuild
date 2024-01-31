@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PersiaML Python Library [newver 0.1.dev251]"
+DESCRIPTION="PersiaML Python Library"
 
 HOMEPAGE=""
 LICENSE=""

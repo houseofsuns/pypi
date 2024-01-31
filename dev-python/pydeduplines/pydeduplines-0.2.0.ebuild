@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for a duplicate lines removal written in C++ [topver 0.6.0, newver 0.6.0]"
+DESCRIPTION="Python library for a duplicate lines removal written in C++ [top-max 0.6.0]"
 
 HOMEPAGE="https://github.com/intsights/PyDeduplines"
 LICENSE="MIT"

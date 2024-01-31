@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for building spectral methods [topver 2.0.3, newver 2.0.3]"
+DESCRIPTION="Tools for building spectral methods [top-max 2.0.3]"
 
 HOMEPAGE="http://www2.compute.dtu.dk/~dabi/"
 LICENSE="COPYING.LESSER"

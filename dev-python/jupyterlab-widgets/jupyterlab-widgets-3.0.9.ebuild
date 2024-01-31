@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Jupyter interactive widgets for JupyterLab [newver 1.1.7]"
+DESCRIPTION="Jupyter interactive widgets for JupyterLab"
 
 HOMEPAGE="https://github.com/jupyter-widgets/ipywidgets"
 LICENSE="BSD"

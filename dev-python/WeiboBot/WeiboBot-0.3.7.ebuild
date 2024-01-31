@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="基于微博H5 API开发的机器人框架 [topver 0.4.5, newver 0.4.5]"
+DESCRIPTION="基于微博H5 API开发的机器人框架 [top-max 0.4.5]"
 
 HOMEPAGE="https://github.com/MerlinCN/WeiboBot"
 LICENSE=""

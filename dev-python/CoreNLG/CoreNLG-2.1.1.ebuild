@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 2.2.0, newver 2.2.0]"
+DESCRIPTION=" [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/societe-generale/core-nlg.git"
 LICENSE="Apache v2"

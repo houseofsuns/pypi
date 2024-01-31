@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.14.1[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	<dev-python/greenlet-3.0[${PYTHON_USEDEP}]
-	>=dev-python/greenlet-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.0.0_alpha1[${PYTHON_USEDEP}]
 	mainapp? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	mainapp? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

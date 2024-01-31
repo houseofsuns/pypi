@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Seldom automation testing framework based on unittest. [topver 3.5.0, newver 3.5.0]"
+DESCRIPTION="Seldom automation testing framework based on unittest. [top-max 3.5.0]"
 
 HOMEPAGE="https://github.com/seldomQA/seldom/"
 LICENSE="Apache-2.0"

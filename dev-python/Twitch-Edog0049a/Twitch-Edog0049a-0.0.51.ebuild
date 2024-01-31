@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Twitch library for chat, api, pubs, and eventsub [newver 0.0.6]"
+DESCRIPTION="Twitch library for chat, api, pubs, and eventsub"
 
 HOMEPAGE=""
 LICENSE=""
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-oauth[${PYTHON_USEDEP}]
 	dev-python/aiohttp-session[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-socks-0.6.0[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	dev-python/eventhandler-edog0049a[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-10.0[${PYTHON_USEDEP}]"

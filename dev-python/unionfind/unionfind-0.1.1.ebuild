@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`unionfind\` is a package for unionfind. [topver 0.1.2, newver 0.1.2]"
+DESCRIPTION="\`unionfind\` is a package for unionfind. [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/SaitoTsutomu/unionfind"
 LICENSE="Apache-2.0"

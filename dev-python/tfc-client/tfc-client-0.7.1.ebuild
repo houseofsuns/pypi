@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A developer friendly Terraform Cloud API client [topver 0.7.3, newver 0.7.3]"
+DESCRIPTION="A developer friendly Terraform Cloud API client [top-max 0.7.3]"
 
 HOMEPAGE="https://github.com/adeo/iwc-tfc-client"
 LICENSE="MIT"

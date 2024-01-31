@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	p_docs? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	p_docs? ( ~dev-python/sphinx-autodoc-typehints-1.11[${PYTHON_USEDEP}] )
 	p_docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	p_docs? ( ~dev-python/sphinx-inline-tabs-2020.10.19[${PYTHON_USEDEP}] )
+	p_docs? ( ~dev-python/sphinx-inline-tabs-2020.10.19_beta4[${PYTHON_USEDEP}] )
 	p_docs? ( dev-python/sphinx-qt-documentation[${PYTHON_USEDEP}] )
 	p_docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	p_docs? ( ~dev-python/towncrier-21.3[${PYTHON_USEDEP}] )

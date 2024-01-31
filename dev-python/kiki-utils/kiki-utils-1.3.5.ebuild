@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utils decorators and functions. [topver 1.3.9, newver 1.3.9]"
+DESCRIPTION="Utils decorators and functions. [top-max 1.3.9]"
 
 HOMEPAGE=""
 LICENSE=""

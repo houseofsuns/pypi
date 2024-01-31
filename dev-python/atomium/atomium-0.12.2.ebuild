@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A molecular modeller and file parser. [topver 1.0.11, newver 1.0.11]"
+DESCRIPTION="A molecular modeller and file parser. [top-max 1.0.11]"
 
 HOMEPAGE="https://atomium.samireland.com"
 LICENSE="MIT"

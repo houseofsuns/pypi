@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python CLI wrapper for VAST - Visibility Across Space and Time [newver 4.0.0rc8]"
+DESCRIPTION="Python CLI wrapper for VAST - Visibility Across Space and Time"
 
 HOMEPAGE="https://github.com/tenzir/vast"
 LICENSE="BSD 3-clause"

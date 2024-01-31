@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Collection of bias adjustment procedures for multidimensional climate data [topver 2.0.1, newver 2.0.0]"
+DESCRIPTION="Collection of bias adjustment procedures for multidimensional climate data [top-max 2.0.1_pre0]"
 
 HOMEPAGE="https://github.com/btschwertfeger/Bias-Adjustment-Python"
 LICENSE="GPL-3"

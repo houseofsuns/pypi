@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Gameday Guru SDK [newver 0.0.17b0]"
+DESCRIPTION="The Gameday Guru SDK"
 
 HOMEPAGE="https://github.com/realpython/reader"
 LICENSE="MIT"

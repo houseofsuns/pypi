@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lab Automation Project [newver 1.0.5]"
+DESCRIPTION="Lab Automation Project"
 
 HOMEPAGE="https://github.com/rakhejabhai/Assembler.git"
 LICENSE="MIT"

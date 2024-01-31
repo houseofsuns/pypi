@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library to authenticate and interact with STIHL iMow mowers using their WebAPI [newver 0.7.6.post1]"
+DESCRIPTION="A library to authenticate and interact with STIHL iMow mowers using their WebAPI"
 
 HOMEPAGE="https://github.com/ChrisHaPunkt/stihl-imow-webapi"
 LICENSE="GPL-3"

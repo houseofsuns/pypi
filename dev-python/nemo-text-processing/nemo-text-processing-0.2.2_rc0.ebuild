@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/cdifflib[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	all? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
 	all? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/cdifflib[${PYTHON_USEDEP}]
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	all? ( dev-python/wget[${PYTHON_USEDEP}] )
 	all? ( dev-python/wrapt[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )

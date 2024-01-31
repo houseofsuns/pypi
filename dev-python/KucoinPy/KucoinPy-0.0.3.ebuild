@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Probably the fastest kucoin API wrapper in python [newver 0.0.3b1]"
+DESCRIPTION="Probably the fastest kucoin API wrapper in python"
 
 HOMEPAGE="https://www.github.com/PrivatePandaCO/KucoinPy"
 LICENSE="GNU GENERAL PUBLIC LICENSE Version 2"

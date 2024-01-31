@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An ESA implementation in python. [newver 0.1.434]"
+DESCRIPTION="An ESA implementation in python."
 
 HOMEPAGE="https://git.webis.de/args/args-topic-modeling/tree/master/src/python/esa"
 LICENSE=""

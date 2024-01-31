@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Uses os.walk to find and catalogue a given file. Built to call some scripts from inside others on different machines since onedrive kept giving itself a random path and was a pain to manage [newver 1.0.9.8]"
+DESCRIPTION="Uses os.walk to find and catalogue a given file. Built to call some scripts from inside others on different machines since onedrive kept giving itself a random path and was a pain to manage"
 
 HOMEPAGE=""
 LICENSE=""

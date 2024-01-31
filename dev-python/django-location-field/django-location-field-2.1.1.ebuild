@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Location field for Django [topver 2.7.3, newver 2.7.3]"
+DESCRIPTION="Location field for Django [top-max 2.7.3]"
 
 HOMEPAGE="http://github.com/caioariede/django-location-field"
 LICENSE="MIT"

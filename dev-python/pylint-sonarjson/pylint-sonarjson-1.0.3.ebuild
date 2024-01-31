@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A PyLint plugin that can output to SonarQube-importable JSON [topver 1.0.6, newver 1.0.6]"
+DESCRIPTION="A PyLint plugin that can output to SonarQube-importable JSON [top-max 1.0.6]"
 
 HOMEPAGE="https://github.com/omegacen/pylint-sonarjson"
 LICENSE=""

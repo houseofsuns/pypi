@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alibaba Cloud Chatbot (20220408) SDK Library for Python [topver 1.1.0, newver 1.1.0]"
+DESCRIPTION="Alibaba Cloud Chatbot (20220408) SDK Library for Python [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"

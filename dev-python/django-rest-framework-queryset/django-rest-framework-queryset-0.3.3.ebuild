@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mimicking the Django ORM queryset over rest framework api [topver 0.3.4, newver 0.3.4]"
+DESCRIPTION="Mimicking the Django ORM queryset over rest framework api [top-max 0.3.4]"
 
 HOMEPAGE=""
 LICENSE="MIT"

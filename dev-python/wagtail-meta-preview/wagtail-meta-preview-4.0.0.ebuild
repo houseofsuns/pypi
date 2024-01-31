@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
-	testing? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

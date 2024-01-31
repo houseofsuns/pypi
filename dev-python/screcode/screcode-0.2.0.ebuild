@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RECODE - resolution of the curse of dimensionality in single-cell data analysis [topver 0.2.5, newver 0.2.5]"
+DESCRIPTION="RECODE - resolution of the curse of dimensionality in single-cell data analysis [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/yusuke-imoto-lab/RECODE"
 LICENSE=""

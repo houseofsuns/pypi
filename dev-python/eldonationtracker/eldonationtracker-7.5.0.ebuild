@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/xdgenvpy[${PYTHON_USEDEP}]
 	~dev-python/PyQt5-sip-12.11.0[${PYTHON_USEDEP}]
 	~dev-python/PyQtWebEngine-5.15.6[${PYTHON_USEDEP}]
 	dev-python/PyQtWebEngine-Qt5[${PYTHON_USEDEP}]
-	~dev-python/semver-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/semver-3.0.0_pre3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/rich-12.4.4[${PYTHON_USEDEP}]
 	dev-python/donordrivepython[${PYTHON_USEDEP}]"

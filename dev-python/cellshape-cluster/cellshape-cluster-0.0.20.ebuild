@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="3D shape analysis using deep learning [newver 0.0.20rc0]"
+DESCRIPTION="3D shape analysis using deep learning"
 
 HOMEPAGE=""
 LICENSE=""

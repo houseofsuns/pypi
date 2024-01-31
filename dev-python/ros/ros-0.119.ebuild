@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ros Knowledge Network [newver 0.12]"
+DESCRIPTION="Ros Knowledge Network"
 
 HOMEPAGE="http://github.com/NCATS-Tangerine/ros.git"
 LICENSE=""

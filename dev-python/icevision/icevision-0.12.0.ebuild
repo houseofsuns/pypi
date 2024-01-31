@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/pillow-9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/icevision[${PYTHON_USEDEP}] )
 	dev? ( dev-python/keras-autodoc[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocs-2.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocs-material-8.0[${PYTHON_USEDEP}] )

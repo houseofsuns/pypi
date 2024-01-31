@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/emcee-3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/emcee-3.0_rc1[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	all? ( dev-python/batman-package[${PYTHON_USEDEP}] )
 	all? ( dev-python/corner[${PYTHON_USEDEP}] )
@@ -54,11 +54,11 @@ DEPENDENCIES=">=dev-python/numpy-1.4.0[${PYTHON_USEDEP}]
 	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
-	mandelagol? ( ~dev-python/emcee-3.0[${PYTHON_USEDEP}] )
+	mandelagol? ( ~dev-python/emcee-3.0_rc1[${PYTHON_USEDEP}] )
 	mandelagol? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	mandelagol? ( dev-python/batman-package[${PYTHON_USEDEP}] )
 	mandelagol? ( dev-python/corner[${PYTHON_USEDEP}] )
-	tls? ( ~dev-python/emcee-3.0[${PYTHON_USEDEP}] )
+	tls? ( ~dev-python/emcee-3.0_rc1[${PYTHON_USEDEP}] )
 	tls? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	tls? ( dev-python/batman-package[${PYTHON_USEDEP}] )
 	tls? ( dev-python/transitleastsquares[${PYTHON_USEDEP}] )

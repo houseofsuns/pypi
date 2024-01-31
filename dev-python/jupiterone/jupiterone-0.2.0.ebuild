@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python client for the JupiterOne API [topver 0.2.1, newver 0.2.1]"
+DESCRIPTION="A Python client for the JupiterOne API [top-max 0.2.1]"
 
 HOMEPAGE="https://github.com/auth0/jupiterone-python-sdk"
 LICENSE="MIT"

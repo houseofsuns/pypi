@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The tool translates mapping rules in RML from YARRRML serialization to RDF turtle in a pretty and interpreatable way for humans. The translation is based on RML and YARRRML specifications. [newver 0.6.1.dev1663601857]"
+DESCRIPTION="The tool translates mapping rules in RML from YARRRML serialization to RDF turtle in a pretty and interpreatable way for humans. The translation is based on RML and YARRRML specifications."
 
 HOMEPAGE="https://github.com/oeg-upm/pretty-yarrrml2rml"
 LICENSE="Apache-2.0"

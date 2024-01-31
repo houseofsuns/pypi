@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	dev? ( >dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

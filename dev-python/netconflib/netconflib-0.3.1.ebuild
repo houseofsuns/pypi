@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A network topology configurator library [topver 1.0.6, newver 1.0.6]"
+DESCRIPTION="A network topology configurator library [top-max 1.0.6]"
 
 HOMEPAGE="https://github.com/XHotSniperX/Netconflib"
 LICENSE=""

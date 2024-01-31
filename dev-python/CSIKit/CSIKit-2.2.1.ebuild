@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for extracting Channel State Information from files produced by a range of WiFi hardware/drivers. [topver 2.4, newver 2.4]"
+DESCRIPTION="Tools for extracting Channel State Information from files produced by a range of WiFi hardware/drivers. [top-max 2.4]"
 
 HOMEPAGE="https://github.com/Gi-z/CSIKit"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Historical tracking of AWS resource configuration. [topver 0.4.10, newver 0.4.10]"
+DESCRIPTION="Historical tracking of AWS resource configuration. [top-max 0.4.10]"
 
 HOMEPAGE="https://github.com/Netflix-Skunkworks/historical"
 LICENSE=""

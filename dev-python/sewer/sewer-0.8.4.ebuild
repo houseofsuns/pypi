@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	hurricane? ( dev-python/hurricanedns[${PYTHON_USEDEP}] )
 	rackspace? ( dev-python/tldextract[${PYTHON_USEDEP}] )
 	route53? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"

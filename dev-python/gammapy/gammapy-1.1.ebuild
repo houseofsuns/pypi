@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package for gamma-ray astronomy [newver 1.0.2]"
+DESCRIPTION="A Python package for gamma-ray astronomy"
 
 HOMEPAGE="https://gammapy.org"
 LICENSE="BSD 3-Clause"

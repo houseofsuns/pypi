@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easily encrypt data in Django [topver 1.1, newver 1.1]"
+DESCRIPTION="Easily encrypt data in Django [top-max 1.1]"
 
 HOMEPAGE="https://github.com/georgemarshall/django-cryptography"
 LICENSE="BSD"

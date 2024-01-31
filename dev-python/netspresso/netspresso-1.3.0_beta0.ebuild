@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyNetsPresso [newver 1.2.1]"
+DESCRIPTION="PyNetsPresso"
 
 HOMEPAGE="https://github.com/Nota-NetsPresso/PyNetsPresso"
 LICENSE=""

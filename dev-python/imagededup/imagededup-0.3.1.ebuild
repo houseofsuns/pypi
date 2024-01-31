@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for image deduplication [topver 0.3.2, newver 0.3.2]"
+DESCRIPTION="Package for image deduplication [top-max 0.3.2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for building config-driven CLI workflows. [topver 1.4.1, newver 1.4.1]"
+DESCRIPTION="Tool for building config-driven CLI workflows. [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/drewpearce/prompt-flow"
 LICENSE="BSD"

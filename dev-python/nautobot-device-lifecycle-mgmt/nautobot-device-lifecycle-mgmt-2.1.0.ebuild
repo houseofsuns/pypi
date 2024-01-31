@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manages device lifecycles for platforms and software. [newver 1.6.0]"
+DESCRIPTION="Manages device lifecycles for platforms and software."
 
 HOMEPAGE="https://github.com/nautobot/nautobot-app-device-lifecycle-mgmt"
 LICENSE="Apache-2.0"

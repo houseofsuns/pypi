@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}]
 	>=dev-python/google-api-python-client-1.7.8[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]
-	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-firestore[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

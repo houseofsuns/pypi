@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Factories for your Django models that can be used as Pytest fixtures. [topver 0.2.3, newver 0.2.3]"
+DESCRIPTION="Factories for your Django models that can be used as Pytest fixtures. [top-max 0.2.3]"
 
 HOMEPAGE="http://github.com/jnns/pytest-django-factories"
 LICENSE="MIT"

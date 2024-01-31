@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="For working with Spring Cloud Data Flow [newver 0.5]"
+DESCRIPTION="For working with Spring Cloud Data Flow"
 
 HOMEPAGE="https://github.com/airndlab/py-spring-dataflow"
 LICENSE="MIT"

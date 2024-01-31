@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests-mock[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]
 	dev-python/proxy-db[${PYTHON_USEDEP}]
-	>=dev-python/greenlet-3.0.0[${PYTHON_USEDEP}]"
+	>=dev-python/greenlet-3.0.0_alpha1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

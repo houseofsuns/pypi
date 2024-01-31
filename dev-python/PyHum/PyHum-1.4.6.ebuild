@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Buscombe, D., 2017, Shallow water benthic imaging and substrate characterization using recreational-grade sidescan-sonar. ENVIRONMENTAL MODELLING & SOFTWARE 89, 1-18. [newver 0.0.1]"
+DESCRIPTION="Buscombe, D., 2017, Shallow water benthic imaging and substrate characterization using recreational-grade sidescan-sonar. ENVIRONMENTAL MODELLING & SOFTWARE 89, 1-18."
 
 HOMEPAGE="https://github.com/dbuscombe-usgs/PyHum"
 LICENSE="GNU GENERAL PUBLIC LICENSE v3"

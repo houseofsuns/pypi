@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Workflow for Optimal Radiomics Classification. [topver 3.6.3, newver 3.6.3]"
+DESCRIPTION="Workflow for Optimal Radiomics Classification. [top-max 3.6.3]"
 
 HOMEPAGE="https://github.com/MStarmans91/WORC"
 LICENSE="Apache-2.0"

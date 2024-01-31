@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Text utilities and datasets for PyTorch [topver 0.16.2, newver 0.16.2]"
+DESCRIPTION="Text utilities and datasets for PyTorch [top-max 0.17.0]"
 
 HOMEPAGE="https://github.com/pytorch/text"
 LICENSE="BSD"

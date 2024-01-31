@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The oaipmh module is a Python implementation of an \"Open ArchivesInitiative Protocol for Metadata Harvesting\" (version 2) client and server.The protocol is described here:http://www.openarchives.org/OAI/openarchivesprotocol.html [topver 2.5.1, newver 2.5.1]"
+DESCRIPTION="The oaipmh module is a Python implementation of an \"Open ArchivesInitiative Protocol for Metadata Harvesting\" (version 2) client and server.The protocol is described here:http://www.openarchives.org/OAI/openarchivesprotocol.html"
 
 HOMEPAGE="http://www.infrae.com/download/oaipmh"
 LICENSE="BSD"

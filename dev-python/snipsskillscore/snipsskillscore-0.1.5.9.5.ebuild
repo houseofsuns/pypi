@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/cython-0.21.1[${PYTHON_USEDEP}]
 	dev-python/gTTS[${PYTHON_USEDEP}]
-	~dev-python/hidapi-0.7.99[${PYTHON_USEDEP}]
+	~dev-python/hidapi-0.7.99_p20[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/pyaudio-0.2.8[${PYTHON_USEDEP}]
 	~dev-python/pygame-1.9.3[${PYTHON_USEDEP}]

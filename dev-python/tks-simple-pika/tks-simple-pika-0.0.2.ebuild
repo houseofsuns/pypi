@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for a simple implementation of a RabbitMQ consumer and producer using the python pika library [topver 1.1.8, newver 1.1.8]"
+DESCRIPTION="Library for a simple implementation of a RabbitMQ consumer and producer using the python pika library [top-max 1.1.8]"
 
 HOMEPAGE=""
 LICENSE="MIT"

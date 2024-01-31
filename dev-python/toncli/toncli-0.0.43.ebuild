@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easy to use CLI for fift / func projects [newver 0.0.5]"
+DESCRIPTION="Easy to use CLI for fift / func projects"
 
 HOMEPAGE="https://github.com/disintar/toncli"
 LICENSE=""

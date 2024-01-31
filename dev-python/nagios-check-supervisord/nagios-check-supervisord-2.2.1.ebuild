@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test test-old-python unix-socket-support"
 DEPENDENCIES="test? ( ~dev-python/attrs-21.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )
 	test? ( dev-python/contextlib2[${PYTHON_USEDEP}] )

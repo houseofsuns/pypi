@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django app to create and manage live replications of SQL database tables. [newver 1.2.15b9]"
+DESCRIPTION="A Django app to create and manage live replications of SQL database tables."
 
 HOMEPAGE="https://github.com/meena-erian/pdr"
 LICENSE="Apache V2 License"

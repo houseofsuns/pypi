@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/DendroPy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.35.0[${PYTHON_USEDEP}]
-	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0_alpha1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

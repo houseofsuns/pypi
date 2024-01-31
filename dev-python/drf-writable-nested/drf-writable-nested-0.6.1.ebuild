@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Writable nested helpers for django-rest-framework's serializers [topver 0.7.0, newver 0.7.0]"
+DESCRIPTION="Writable nested helpers for django-rest-framework's serializers [top-max 0.7.0]"
 
 HOMEPAGE="http://github.com/beda-software/drf-writable-nested"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kwola makes an AI powered tool for finding bugs in software [topver 0.1.52, newver 0.1.52]"
+DESCRIPTION="Kwola makes an AI powered tool for finding bugs in software [top-max 0.1.52]"
 
 HOMEPAGE="https://kwola.io/"
 LICENSE=""

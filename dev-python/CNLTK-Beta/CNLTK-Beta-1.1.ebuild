@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Beta version of CNLTK library [newver 0.1.2.1.0]"
+DESCRIPTION="Beta version of CNLTK library"
 
 HOMEPAGE="https://github.com/AG0nzales"
 LICENSE="MIT"

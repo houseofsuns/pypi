@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci test"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
-	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}]
 	ci? ( dev-python/black[${PYTHON_USEDEP}] )
 	ci? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

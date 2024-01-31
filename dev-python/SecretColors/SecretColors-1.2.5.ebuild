@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small package for fantastic color palette [topver 1.2.6, newver 1.2.6]"
+DESCRIPTION="A small package for fantastic color palette [top-max 1.2.6]"
 
 HOMEPAGE="https://github.com/secretBiology/SecretColors"
 LICENSE="MIT"

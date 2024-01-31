@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Support packages for Alevin tools [topver 0.3.0, newver 0.3.0]"
+DESCRIPTION="Support packages for Alevin tools [top-max 0.3.0]"
 
 HOMEPAGE="https://github.com/k3yavi/vpolo"
 LICENSE=""

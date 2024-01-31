@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/dash_colorscales[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	>dev-python/openpyxl-3.2.0[${PYTHON_USEDEP}]
+	>dev-python/openpyxl-3.2.0_beta1[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/et_xmlfile[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/dash_colorscales[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/contourpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	>dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
+	>dev-python/scipy-1.12.0_rc1[${PYTHON_USEDEP}]
 	arctic? ( dev-python/arctic[${PYTHON_USEDEP}] )
 	arcticdb? ( dev-python/arcticdb[${PYTHON_USEDEP}] )
 	dash-bio? ( dev-python/dash-bio[${PYTHON_USEDEP}] )

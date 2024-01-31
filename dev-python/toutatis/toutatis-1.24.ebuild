@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="It is a tool written to retrieve private information such as Phone Number, Mail Address, ID on Instagram accounts via API. [newver 1.3]"
+DESCRIPTION="It is a tool written to retrieve private information such as Phone Number, Mail Address, ID on Instagram accounts via API."
 
 HOMEPAGE="http://github.com/megadose/toutatis"
 LICENSE=""

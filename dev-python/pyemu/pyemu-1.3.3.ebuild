@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/pyemu[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.3.0_rc1[${PYTHON_USEDEP}] )
 	optional? ( dev-python/flopy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyshp[${PYTHON_USEDEP}] )

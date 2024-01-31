@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/dnspython-2.0[${PYTHON_USEDEP}]
-	~dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/email-validator-2.0.0_p2[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pipeline infrastructure for the Rubin Science Pipelines. [newver 26.0.1rc2]"
+DESCRIPTION="Pipeline infrastructure for the Rubin Science Pipelines."
 
 HOMEPAGE="https://github.com/lsst/pipe_base"
 LICENSE="BSD 3-Clause License"

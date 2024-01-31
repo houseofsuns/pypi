@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 1.2.4, newver 1.2.4]"
+DESCRIPTION=" [top-max 1.2.4]"
 
 HOMEPAGE="https://github.com/LxHTT/OpenFrpLib"
 LICENSE="MIT"

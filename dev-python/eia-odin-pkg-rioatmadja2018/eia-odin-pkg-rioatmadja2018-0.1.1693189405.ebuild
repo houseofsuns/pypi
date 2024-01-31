@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Wheels to interact with the EIA APIs [topver 0.1.1693189414]"
+DESCRIPTION="Python Wheels to interact with the EIA APIs [top-max 0.1.1693189414]"
 
 HOMEPAGE=""
 LICENSE=""

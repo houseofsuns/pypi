@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tending your Elasticsearch indices [newver 0.0.4.3]"
+DESCRIPTION="Tending your Elasticsearch indices"
 
 HOMEPAGE="https://github.com/uzhinskiy/curator-opensearch"
 LICENSE="Apache-2.0"

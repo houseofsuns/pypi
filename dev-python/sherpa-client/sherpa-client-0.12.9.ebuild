@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client library for accessing Sherpa API (Llama release) [topver 0.12.10, newver 0.12.10]"
+DESCRIPTION="A client library for accessing Sherpa API (Llama release) [top-max 0.12.10]"
 
 HOMEPAGE=""
 LICENSE=""

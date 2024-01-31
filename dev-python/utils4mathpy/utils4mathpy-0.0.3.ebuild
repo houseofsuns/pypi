@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Math tools package for python [topver 0.0.6, newver 0.0.6]"
+DESCRIPTION="Math tools package for python [top-max 0.0.6]"
 
 HOMEPAGE=""
 LICENSE=""

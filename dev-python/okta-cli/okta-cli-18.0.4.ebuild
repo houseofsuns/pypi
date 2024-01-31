@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An Okta command line interface for scripting and quickly performing routine tasks [topver 18.1.2, newver 18.1.2]"
+DESCRIPTION="An Okta command line interface for scripting and quickly performing routine tasks [top-max 18.1.2]"
 
 HOMEPAGE="https://github.com/flypenguin/okta-cli"
 LICENSE="MIT"

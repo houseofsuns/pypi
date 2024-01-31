@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework generated for the purpose of consuming Teamcenter™ services via Python. [topver 0.14.3, newver 0.14.3]"
+DESCRIPTION="A framework generated for the purpose of consuming Teamcenter™ services via Python. [top-max 0.14.3]"
 
 HOMEPAGE=""
 LICENSE="MIT"

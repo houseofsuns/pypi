@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automate LabVIEW from Python [topver 1.0.6, newver 1.0.6]"
+DESCRIPTION="Automate LabVIEW from Python [top-max 1.0.6]"
 
 HOMEPAGE="https://github.com/l-johnston/autolv"
 LICENSE=""

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES=">=dev-python/black-20.8[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-20.8_beta0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
 	dev-python/moreorless[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EGADS: EUFAR General Airborne Data-processing Software [topver 1.2.9, newver 1.2.9]"
+DESCRIPTION="EGADS: EUFAR General Airborne Data-processing Software [top-max 1.2.9]"
 
 HOMEPAGE="https://github.com/EUFAR/egads/tree/Lineage"
 LICENSE="GNU General Public License v3 GPLv3"

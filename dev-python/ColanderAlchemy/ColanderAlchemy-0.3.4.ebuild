@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/colander[${PYTHON_USEDEP}]
-	>=dev-python/sqlalchemy-0.8[${PYTHON_USEDEP}]"
+	>=dev-python/sqlalchemy-0.8_pre0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

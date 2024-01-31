@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Release for LinkedIn's changes to dbt-core. [newver 1.2.506]"
+DESCRIPTION="Release for LinkedIn's changes to dbt-core."
 
 HOMEPAGE="https://github.com/linkedin/in-dbt-core"
 LICENSE=""

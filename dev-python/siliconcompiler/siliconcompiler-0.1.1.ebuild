@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A compiler framework that automates translation from source code to silicon. [topver 0.19.1, newver 0.19.1]"
+DESCRIPTION="A compiler framework that automates translation from source code to silicon. [top-max 0.19.1]"
 
 HOMEPAGE="https://siliconcompiler.com"
 LICENSE="Apache-2.0"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build docs test"
 DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]

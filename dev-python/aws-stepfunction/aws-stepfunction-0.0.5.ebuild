@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/attrs-21.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/s3pathlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cottonformation[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-inline-tabs-2021.8.17[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2021.8.17_beta10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )

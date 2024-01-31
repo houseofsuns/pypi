@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Set of tools to create nn_tilde compatible models. [newver 1.5.5]"
+DESCRIPTION="Set of tools to create nn_tilde compatible models."
 
 HOMEPAGE=""
 LICENSE=""

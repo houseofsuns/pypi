@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="InfluxDB storage plugin for Graphite-API [newver 1.5.0.post1]"
+DESCRIPTION="InfluxDB storage plugin for Graphite-API"
 
 HOMEPAGE="https://github.com/InfluxGraph/influxgraph"
 LICENSE="Apache-2.0"

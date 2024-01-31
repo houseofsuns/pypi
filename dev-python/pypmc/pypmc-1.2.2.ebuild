@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A toolkit for adaptive importance sampling featuring implementations of variational Bayes, population Monte Carlo, and Markov chains. [topver 1.2.3, newver 1.2.3]"
+DESCRIPTION="A toolkit for adaptive importance sampling featuring implementations of variational Bayes, population Monte Carlo, and Markov chains. [top-max 1.2.3]"
 
 HOMEPAGE="https://github.com/pypmc/pypmc"
 LICENSE="GPL-2"

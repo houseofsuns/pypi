@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An engine for running component based ML pipelines [topver 2.6.0, newver 2.6.0]"
+DESCRIPTION="An engine for running component based ML pipelines [top-max 2.6.0]"
 
 HOMEPAGE="https://github.com/datarobot/mlpiper"
 LICENSE="Apache-2.0"

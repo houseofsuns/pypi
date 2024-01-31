@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="shanbay rpc framework [topver 3.1.1, newver 3.1.1]"
+DESCRIPTION="shanbay rpc framework [top-max 3.1.1]"
 
 HOMEPAGE="https://github.com/shanbay/sea"
 LICENSE="MIT"

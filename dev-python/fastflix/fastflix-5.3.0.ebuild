@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GUI Encoder [topver 5.6.0, newver 5.6.0]"
+DESCRIPTION="GUI Encoder [top-max 5.6.0]"
 
 HOMEPAGE="https://fastflix.org"
 LICENSE="MIT"

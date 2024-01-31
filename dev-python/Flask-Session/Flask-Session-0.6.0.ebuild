@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Server-side session support for Flask [newver 0.6.0rc1]"
+DESCRIPTION="Server-side session support for Flask"
 
 HOMEPAGE=""
 LICENSE=""

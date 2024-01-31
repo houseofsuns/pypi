@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SpotifyUtils is a very useful library made over Spotipy to automate some rather tiring tasks. [newver 0.0.0.9]"
+DESCRIPTION="SpotifyUtils is a very useful library made over Spotipy to automate some rather tiring tasks."
 
 HOMEPAGE="https://github.com/Arg0naut18/SpotifyUtil"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python models for schema-less databases. [topver 0.9.7]"
+DESCRIPTION="Python models for schema-less databases."
 
 HOMEPAGE="http://bitbucket.org/neithere/models/"
 LICENSE="GNU Lesser General Public License LGPL, Version 3"

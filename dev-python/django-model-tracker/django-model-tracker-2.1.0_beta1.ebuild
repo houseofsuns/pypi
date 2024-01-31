@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Track Django Model Objects over time [newver 2.0.4]"
+DESCRIPTION="Track Django Model Objects over time"
 
 HOMEPAGE="https://github.com/mkalioby/ModelTracker/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unigui - Universal GUI Framework and protocol [topver 2.3.8, newver 2.3.8]"
+DESCRIPTION="Unigui - Universal GUI Framework and protocol [top-max 2.3.8]"
 
 HOMEPAGE="https://github.com/Claus1/unigui"
 LICENSE="MIT"

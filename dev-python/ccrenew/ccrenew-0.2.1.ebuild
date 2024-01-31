@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for running Cypress Creek Renewables Performance Engineering workflows [newver 0.2.1b0]"
+DESCRIPTION="Utilities for running Cypress Creek Renewables Performance Engineering workflows"
 
 HOMEPAGE="https://cypresscreekrenew.sharepoint.com/:u:/s/AM-Performance/EdhVQHbS4n9Jm022irFSFiABmo6gcEW3KTmV0qEkfHW84Q?e=zxokuU"
 LICENSE=""

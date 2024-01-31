@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kubernetes Dynamic client [newver 0.0.0a1]"
+DESCRIPTION="Kubernetes Dynamic client"
 
 HOMEPAGE="https://github.com/atti92/kubernetes-dynamic"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Train and deploy pytorch models [topver 0.6.2, newver 0.6.2]"
+DESCRIPTION="Train and deploy pytorch models [top-max 0.6.2]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/netharn"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bigdict based on rocksdb [newver 0.2.8]"
+DESCRIPTION="Bigdict based on rocksdb"
 
 HOMEPAGE=""
 LICENSE=""

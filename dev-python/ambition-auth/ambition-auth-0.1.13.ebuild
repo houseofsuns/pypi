@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Authentication and Permissions [topver 0.2.5, newver 0.2.5]"
+DESCRIPTION="Authentication and Permissions [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-auth"
 LICENSE="GPL license, see LICENSE"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nameko gRPC extensions [newver 1.4.0rc3]"
+DESCRIPTION="Nameko gRPC extensions"
 
 HOMEPAGE="http://github.com/nameko/nameko-grpc"
 LICENSE="Apache-2.0"

@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: distutils-r1.eclass
@@ -50,6 +50,7 @@ case ${EAPI} in
 esac
 
 # @ECLASS_VARIABLE: DISTUTILS_EXT
+# @PRE_INHERIT
 # @DEFAULT_UNSET
 # @DESCRIPTION:
 # Set this variable to a non-null value if the package (possibly
@@ -283,6 +284,8 @@ _distutils_set_globals() {
 				'
 				;;
 			standalone)
+				;;
+			wheel)
 				;;
 			*)
 				die "Unknown DISTUTILS_USE_PEP517=${DISTUTILS_USE_PEP517}"
@@ -617,6 +620,9 @@ distutils_enable_tests() {
 			;;
 		pytest)
 			test_pkgs='>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]'
+			if [[ -n ${EPYTEST_TIMEOUT} ]]; then
+				test_pkgs+=' dev-python/pytest-timeout[${PYTHON_USEDEP}]'
+			fi
 			if [[ ${EPYTEST_XDIST} ]]; then
 				test_pkgs+=' dev-python/pytest-xdist[${PYTHON_USEDEP}]'
 			fi
@@ -1242,7 +1248,7 @@ _distutils-r1_get_backend() {
 	if [[ -f pyproject.toml ]]; then
 		# if pyproject.toml exists, try getting the backend from it
 		# NB: this could fail if pyproject.toml doesn't list one
-		build_backend=$(gpep517 get-backend)
+		build_backend=$("${EPYTHON}" -m gpep517 get-backend)
 		if [[ ${build_backend} == "poetry.masonry.api" ]]; then
 			# hotfix for renaming issue
 			build_backend=poetry.core.masonry.api
@@ -1320,7 +1326,7 @@ distutils_wheel_install() {
 
 	einfo "  Installing ${wheel##*/} to ${root}"
 	local cmd=(
-		gpep517 install-wheel
+		"${EPYTHON}" -m gpep517 install-wheel
 			--destdir="${root}"
 			--interpreter="${PYTHON}"
 			--prefix="${EPREFIX}/usr"
@@ -1404,6 +1410,9 @@ distutils_pep517_install() {
 			)
 			;;
 		setuptools)
+			if in_iuse debug && use debug; then
+				local -x SETUPTOOLS_RUST_CARGO_PROFILE=dev
+			fi
 			if [[ -n ${DISTUTILS_ARGS[@]} ]]; then
 				config_settings=$(
 					"${EPYTHON}" - "${DISTUTILS_ARGS[@]}" <<-EOF || die
@@ -1449,7 +1458,7 @@ distutils_pep517_install() {
 	local build_backend=$(_distutils-r1_get_backend)
 	einfo "  Building the wheel for ${PWD#${WORKDIR}/} via ${build_backend}"
 	local cmd=(
-		gpep517 build-wheel
+		"${EPYTHON}" -m gpep517 build-wheel
 			--prefix="${EPREFIX}/usr"
 			--backend "${build_backend}"
 			--output-fd 3
@@ -1517,7 +1526,11 @@ gs-distutils-r1_python_compile() {
 	esac
 
 	if [[ ${DISTUTILS_USE_PEP517} ]]; then
-		distutils_pep517_install "${BUILD_DIR}/install"
+		if [[ ${DISTUTILS_USE_PEP517} == "wheel" ]]; then
+			distutils_wheel_install "${BUILD_DIR}/install" "${WORKDIR}/${SOURCEFILE}"
+		else
+			distutils_pep517_install "${BUILD_DIR}/install"
+		fi
 	fi
 }
 
@@ -1810,6 +1823,11 @@ gs-distutils-r1_run_phase() {
 	tc-export AR CC CPP CXX
 
 	if [[ ${DISTUTILS_EXT} ]]; then
+		if [[ ${BDEPEND} == *dev-python/cython* ]] ; then
+			# Workaround for https://github.com/cython/cython/issues/2747 (bug #918983)
+			local -x CFLAGS="${CFLAGS} $(test-flags-CC -Wno-error=incompatible-pointer-types)"
+		fi
+
 		local -x CPPFLAGS="${CPPFLAGS} $(usex debug '-UNDEBUG' '-DNDEBUG')"
 		# always generate .c files from .pyx files to ensure we get latest
 		# bug fixes from Cython (this works only when setup.py is using
@@ -2189,8 +2207,16 @@ gs-distutils-r1_src_install() {
 	return ${ret}
 }
 
+gs-distutils-r1_src_unpack() {
+	g-sorcery_src_unpack
+	if [[ ${DISTUTILS_USE_PEP517} == "wheel" ]]; then
+		# Make empty S directory, we don't use it, but it's required
+		[ ! -d "${WORKDIR}"/"${P}" ] && mkdir "${WORKDIR}"/"${P}"
+	fi
+}
+
 fi
 
 if [[ ! ${DISTUTILS_OPTIONAL} ]]; then
-	EXPORT_FUNCTIONS src_prepare src_configure src_compile src_test src_install
+	EXPORT_FUNCTIONS src_unpack src_prepare src_configure src_compile src_test src_install
 fi

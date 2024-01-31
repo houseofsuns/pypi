@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Anti-Grain Geometry for Python 3 with Cython [topver 2.1.4, newver 2.1.4]"
+DESCRIPTION="Anti-Grain Geometry for Python 3 with Cython [top-max 2.1.4]"
 
 HOMEPAGE="https://github.com/celiagg/celiagg"
 LICENSE="MIT"

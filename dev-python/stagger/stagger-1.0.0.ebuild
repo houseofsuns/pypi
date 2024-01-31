@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ID3v1/ID3v2 tag manipulation package in pure Python 3 [topver 1.0.1]"
+DESCRIPTION="ID3v1/ID3v2 tag manipulation package in pure Python 3"
 
 HOMEPAGE="http://github.com/lorentey/stagger"
 LICENSE="BSD"

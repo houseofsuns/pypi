@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A suite of tools to ease ML pipeline development with Argo Workflows [topver 0.9.53, newver 0.9.53]"
+DESCRIPTION="A suite of tools to ease ML pipeline development with Argo Workflows [top-max 0.9.53]"
 
 HOMEPAGE="https://github.com/DiagnosticRobotics/argo-workflow-tools"
 LICENSE="Apache-2.0"

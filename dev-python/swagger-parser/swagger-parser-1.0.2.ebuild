@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/swagger-spec-validator-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	~dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.2_beta1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev? ( >=dev-python/pytest-4.6.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

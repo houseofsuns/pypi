@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev qa testing"
 DEPENDENCIES=">=dev-python/attrs-16.1.0[${PYTHON_USEDEP}]
 	<dev-python/click-7.1[${PYTHON_USEDEP}]
-	<dev-python/coverage-5.0[${PYTHON_USEDEP}]
+	<dev-python/coverage-5.0_alpha6[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.7.0[${PYTHON_USEDEP}] )

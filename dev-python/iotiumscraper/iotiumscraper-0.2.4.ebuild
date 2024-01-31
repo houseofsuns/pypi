@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="scrape data from kastle and push to postgres [topver 0.2.6, newver 0.2.6]"
+DESCRIPTION="scrape data from kastle and push to postgres [top-max 0.2.6]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kernel SDK for streaming realtime metrics to https://missinglink.ai [topver 19.9.26893, newver 19.9.26893]"
+DESCRIPTION="Kernel SDK for streaming realtime metrics to https://missinglink.ai [top-max 19.9.26893]"
 
 HOMEPAGE=""
 LICENSE="MIT"

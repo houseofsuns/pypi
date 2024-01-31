@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="we need rosdep [topver 0.1.0, newver 0.1.0]"
+DESCRIPTION="we need rosdep [top-max 0.1.0]"
 
 HOMEPAGE="https://github.com/6-robot/6-rosdep"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Glare Artifact Repository [topver 1.0.0]"
+DESCRIPTION="Glare Artifact Repository"
 
 HOMEPAGE="http://docs.openstack.org/developer/python-glareclient"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface to NAMD [badver 0.2.3.post0_pre4]"
+DESCRIPTION="A Python interface to NAMD [badver 0.2.3.post0.dev4]"
 
 HOMEPAGE="https://www.lockhartlab.org"
 LICENSE=""

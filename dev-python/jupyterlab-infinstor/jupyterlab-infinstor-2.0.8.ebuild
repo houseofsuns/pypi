@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="InfinStor Jupyter Server extension [topver 2.0.21, newver 2.0.21]"
+DESCRIPTION="InfinStor Jupyter Server extension [top-max 2.0.21]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

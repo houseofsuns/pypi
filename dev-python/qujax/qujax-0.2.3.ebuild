@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simulating quantum circuits with JAX [topver 1.1.0, newver 1.1.0]"
+DESCRIPTION="Simulating quantum circuits with JAX [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/CQCL/qujax"
 LICENSE="Apache-2.0"

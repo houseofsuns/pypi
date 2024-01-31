@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extract code blocks from markdown [newver 0.5.0]"
+DESCRIPTION="Extract code blocks from markdown"
 
 HOMEPAGE="https://github.com/nschloe/exdown"
 LICENSE="MIT"

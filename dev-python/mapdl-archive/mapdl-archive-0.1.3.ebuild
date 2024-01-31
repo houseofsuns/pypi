@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pythonic interface to MAPDL archive files. [topver 0.1.4, newver 0.1.4]"
+DESCRIPTION="Pythonic interface to MAPDL archive files. [top-max 0.1.4]"
 
 HOMEPAGE="https://github.com/akaszynski/mapdl-archive"
 LICENSE="MIT"

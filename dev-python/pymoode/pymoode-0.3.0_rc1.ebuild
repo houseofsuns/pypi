@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python optimization package using Differential Evolution. [newver 0.3.0rc2]"
+DESCRIPTION="A Python optimization package using Differential Evolution. [top-max 0.3.0_rc2]"
 
 HOMEPAGE="https://github.com/mooscaliaproject/pymoode"
 LICENSE="Apache-2.0"

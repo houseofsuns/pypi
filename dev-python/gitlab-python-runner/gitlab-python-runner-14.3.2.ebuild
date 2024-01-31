@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pure python gitlab-runner [topver 14.3.20, newver 14.3.20]"
+DESCRIPTION="Pure python gitlab-runner [top-max 14.3.20]"
 
 HOMEPAGE="https://gitlab.com/cunity/gitlab-python-runner"
 LICENSE="License :: OSI Approved :: MIT License"

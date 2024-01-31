@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This tool safely and securely analyzes applications for benchmarking. [newver 0.6.3]"
+DESCRIPTION="This tool safely and securely analyzes applications for benchmarking."
 
 HOMEPAGE="https://github.com/StartupOS/verinfast"
 LICENSE=""

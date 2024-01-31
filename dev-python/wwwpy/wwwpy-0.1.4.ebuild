@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev? ( ~dev-python/build-0.6.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/build-0.6.0_p1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-3.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webtypy[${PYTHON_USEDEP}] )

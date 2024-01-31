@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autogen automl autozero azureml benchmark blendsearch catboost forecast hf mathchat nlp nni notebook openai ray retrievechat spark synapse test ts_forecast vw"
-DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17.0_rc1[${PYTHON_USEDEP}]
 	autogen? ( dev-python/openai[${PYTHON_USEDEP}] )
 	autogen? ( dev-python/diskcache[${PYTHON_USEDEP}] )
 	autogen? ( dev-python/termcolor[${PYTHON_USEDEP}] )

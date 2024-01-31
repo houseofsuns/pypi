@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Jupyter Notebook integration with RStudio Connect [topver 1.8.0, newver 1.8.0]"
+DESCRIPTION="Jupyter Notebook integration with RStudio Connect [top-max 1.8.0]"
 
 HOMEPAGE="http://github.com/rstudio/rsconnect-jupyter"
 LICENSE="GPL-2"

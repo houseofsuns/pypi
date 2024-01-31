@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for the Splunk Developer Cloud platform [newver 12.0.0b6]"
+DESCRIPTION="SDK for the Splunk Developer Cloud platform"
 
 HOMEPAGE=""
 LICENSE="MIT"

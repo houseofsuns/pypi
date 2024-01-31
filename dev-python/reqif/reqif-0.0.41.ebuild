@@ -27,13 +27,13 @@ IUSE="development"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
 	>=dev-python/xmlschema-2.4.0[${PYTHON_USEDEP}]
-	development? ( >=dev-python/black-21.9[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/coverage-5.4[${PYTHON_USEDEP}] )
 	development? ( dev-python/filecheck[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	development? ( >=dev-python/lit-0.11.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/lit-0.11.0_p1[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/pylint-2.11.1[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package allows for Single-Sign On HTTP Negotiate authentication using the requests library on Windows. [topver 0.5.2, newver 0.5.2]"
+DESCRIPTION="This package allows for Single-Sign On HTTP Negotiate authentication using the requests library on Windows. [top-max 0.5.2]"
 
 HOMEPAGE="https://github.com/brandond/requests-negotiate-sspi"
 LICENSE=""

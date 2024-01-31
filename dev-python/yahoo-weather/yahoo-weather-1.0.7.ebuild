@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for yahoo weather new API [topver 1.0.8, newver 1.0.8]"
+DESCRIPTION="Python library for yahoo weather new API [top-max 1.0.8]"
 
 HOMEPAGE="https://github.com/M-Ahadi/yahoo_weather"
 LICENSE="Apache-2.0"

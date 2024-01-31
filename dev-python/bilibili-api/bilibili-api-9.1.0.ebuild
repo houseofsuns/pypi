@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/urllib3-1.26.3[${PYTHON_USEDEP}]
-	~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.6.1[${PYTHON_USEDEP}]

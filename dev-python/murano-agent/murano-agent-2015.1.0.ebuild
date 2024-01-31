@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Murano Agent [newver 12.0.0]"
+DESCRIPTION="Python Murano Agent"
 
 HOMEPAGE="htts://launchpad.net/murano"
 LICENSE="Apache-2.0"

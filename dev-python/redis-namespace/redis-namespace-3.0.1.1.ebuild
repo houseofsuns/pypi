@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="namespaced subset of your redis keyspace [newver 2.10.3.1]"
+DESCRIPTION="namespaced subset of your redis keyspace"
 
 HOMEPAGE="https://github.com/guokr/redis-namespace"
 LICENSE="MIT"

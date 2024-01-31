@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchlie[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchkin[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.981[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

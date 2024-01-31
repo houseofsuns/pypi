@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES=">=dev-python/mkdocs-material-9.2.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-material-9.2.0_beta1[${PYTHON_USEDEP}]
 	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for checking the output of console programs inspired by LLVM's FileCheck [topver 0.4.2]"
+DESCRIPTION="A tool for checking the output of console programs inspired by LLVM's FileCheck"
 
 HOMEPAGE="https://github.com/stp/OutputCheck"
 LICENSE="UNKNOWN"

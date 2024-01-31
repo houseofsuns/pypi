@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pipeline management software for clusters. [topver 6.1.0]"
+DESCRIPTION="Pipeline management software for clusters. [top-max 6.1.0_alpha1]"
 
 HOMEPAGE="https://github.com/DataBiosphere/toil"
 LICENSE="Apache License v2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Graph-Cut RANSAC [newver 0.1.1]"
+DESCRIPTION="Graph-Cut RANSAC"
 
 HOMEPAGE=""
 LICENSE=""

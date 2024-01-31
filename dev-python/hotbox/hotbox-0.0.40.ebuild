@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/boto3-1.20.10[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.12.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-21.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdx-include[${PYTHON_USEDEP}] )

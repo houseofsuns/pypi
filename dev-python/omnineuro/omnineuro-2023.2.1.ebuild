@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	extra? ( dev-python/nipy[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nipype[${PYTHON_USEDEP}] )
 	extra? ( dev-python/sdcflows[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )"

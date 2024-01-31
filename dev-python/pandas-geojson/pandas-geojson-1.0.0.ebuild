@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convert Pandas Dataframe to GeoJSON [topver 1.2.0, newver 1.2.0]"
+DESCRIPTION="Convert Pandas Dataframe to GeoJSON [top-max 1.2.0]"
 
 HOMEPAGE="https://github.com/jaycroft/pandas-geojson"
 LICENSE="MIT"

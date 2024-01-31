@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs monitor recommended test"
 DEPENDENCIES=">=dev-python/greenlet-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/greenlet-3.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.0_rc3[${PYTHON_USEDEP}]
 	dev-python/zope-event[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
 	monitor? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )

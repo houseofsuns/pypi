@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SQLAlchemy Seeder [newver 1.0.7]"
+DESCRIPTION="SQLAlchemy Seeder"
 
 HOMEPAGE="https://github.com/jedymatt/sqlalchemyseed"
 LICENSE="MIT"

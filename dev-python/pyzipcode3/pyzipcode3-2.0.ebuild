@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Search by ZIP Code, Place and Geo data [topver 2.2, newver 2.2]"
+DESCRIPTION="Search by ZIP Code, Place and Geo data [top-max 2.2]"
 
 HOMEPAGE="https://www.github.com/dvf/pyzipcode3"
 LICENSE="GPL-3"

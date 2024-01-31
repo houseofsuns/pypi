@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-5.0.2[${PYTHON_USEDEP}]
-	~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}]
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-datalake-store[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
@@ -41,12 +41,12 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyarrow-2.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/PyGithub-1.55[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-datalake-store[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azure? ( >=dev-python/requests-2.21.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	black? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	black? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/botocore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/azure-datalake-store[${PYTHON_USEDEP}] )
 	docs? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
@@ -85,9 +85,9 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	docs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyarrow-2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/PyGithub-1.55[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/furo-2021.4.11[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2021.4.11_beta34[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-0.13.7[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/moto-2.0.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
@@ -124,6 +124,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	test? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	test? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	test? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

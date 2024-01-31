@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Library to keep credentials safe by storing in platform keystores. [topver 1.1, newver 1.1]"
+DESCRIPTION="Python Library to keep credentials safe by storing in platform keystores. [top-max 1.1]"
 
 HOMEPAGE="https://github.com/kumaraditya303/pycreds"
 LICENSE="BSD"

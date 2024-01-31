@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Never liked DRF plain old errors? Forget that and accept RFC 7807 - Problem Details! [topver 1.0.5, newver 1.0.5]"
+DESCRIPTION="Never liked DRF plain old errors? Forget that and accept RFC 7807 - Problem Details! [top-max 1.0.5]"
 
 HOMEPAGE="https://github.com/shivanshs9/drf-problems/"
 LICENSE="MIT"

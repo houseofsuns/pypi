@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An Efficient Model Parallelization Toolkit for Deployment [topver 1.6]"
+DESCRIPTION="An Efficient Model Parallelization Toolkit for Deployment [top-max 1.6_beta0]"
 
 HOMEPAGE="https://github.com/tunib-ai/parallelformers"
 LICENSE=""

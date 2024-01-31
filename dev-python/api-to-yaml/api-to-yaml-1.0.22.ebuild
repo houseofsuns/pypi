@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Turn apis into declarative yaml files [newver 1.0.2]"
+DESCRIPTION="Turn apis into declarative yaml files"
 
 HOMEPAGE="https://git.toolsfdg.net/devops/api-mapper"
 LICENSE=""

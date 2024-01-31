@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Database deployment framework [topver 3.4.0, newver 3.4.0]"
+DESCRIPTION="Database deployment framework [top-max 3.4.0]"
 
 HOMEPAGE="https://github.com/ALMPartners/ahjo"
 LICENSE=""

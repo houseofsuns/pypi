@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small example package [topver 0.0.20230123035307]"
+DESCRIPTION="A small example package [top-max 0.0.20230123035307]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

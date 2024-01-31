@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple python module for the DaMuffinApi [topver 1.6.1, newver 1.6.1]"
+DESCRIPTION="A simple python module for the DaMuffinApi [top-max 1.6.1]"
 
 HOMEPAGE="https://github.com/DaMuffinDev/damuffin.py"
 LICENSE="MIT"

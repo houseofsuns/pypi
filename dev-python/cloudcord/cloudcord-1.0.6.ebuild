@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An easy-to-use extension for Discord.py and Pycord [newver 0.1.7]"
+DESCRIPTION="An easy-to-use extension for Discord.py and Pycord"
 
 HOMEPAGE=""
 LICENSE="MIT"

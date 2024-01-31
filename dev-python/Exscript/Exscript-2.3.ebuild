@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automating Telnet and SSH [topver 2.6.28, newver 2.6.28]"
+DESCRIPTION="Automating Telnet and SSH [top-max 2.6.28]"
 
 HOMEPAGE="https://github.com/knipknap/exscript/"
 LICENSE="MIT"

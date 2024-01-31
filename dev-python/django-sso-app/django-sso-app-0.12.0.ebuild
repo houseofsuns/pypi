@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django user profiles management app [newver 0.11.13]"
+DESCRIPTION="Django user profiles management app"
 
 HOMEPAGE="https://github.com/paiuolo/django-sso-app"
 LICENSE="MIT"

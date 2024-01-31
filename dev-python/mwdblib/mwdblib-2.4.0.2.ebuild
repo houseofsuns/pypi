@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="malwaredb API bindings for Python [topver 4.5.0, newver 4.5.0]"
+DESCRIPTION="malwaredb API bindings for Python [top-max 4.5.0]"
 
 HOMEPAGE="https://github.com/CERT-Polska/mwdblib"
 LICENSE=""

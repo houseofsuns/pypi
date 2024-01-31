@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PennyLane plugin for Qulacs. [topver 0.32.0, newver 0.32.0]"
+DESCRIPTION="PennyLane plugin for Qulacs. [top-max 0.32.0]"
 
 HOMEPAGE="http://xanadu.ai"
 LICENSE="Apache-2.0"

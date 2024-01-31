@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	dev-python/py-buzz[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	~dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/pendulum-3.0.0_beta1[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.24[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]"

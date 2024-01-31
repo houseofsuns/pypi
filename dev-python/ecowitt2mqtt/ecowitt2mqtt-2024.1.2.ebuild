@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-clib-0.3.0[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}]
 	dev-python/aiomqtt[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]

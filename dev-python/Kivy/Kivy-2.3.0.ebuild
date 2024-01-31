@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/Kivy-Garden[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinxcontrib-actdiag[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-nwdiag[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/funcparserlib-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/funcparserlib-1.0.0_alpha0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/responses[${PYTHON_USEDEP}] )

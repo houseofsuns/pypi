@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Starcraft II environment and library for training agents. [topver 4.0.0, newver 4.0.0]"
+DESCRIPTION="Starcraft II environment and library for training agents. [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/deepmind/pysc2"
 LICENSE="Apache-2.0"

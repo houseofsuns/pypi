@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A plugin based on nonebot2, which is support XDU services. [topver 0.6.2, newver 0.6.2]"
+DESCRIPTION="A plugin based on nonebot2, which is support XDU services. [top-max 0.6.2]"
 
 HOMEPAGE="http://www.lcgx.space/home"
 LICENSE="AGPL-3.0 License"

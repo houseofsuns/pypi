@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Machine Learning Over Time-Series: A toolkit for time-series analysis [topver 0.0.7.4, newver 0.0.7.4]"
+DESCRIPTION="Machine Learning Over Time-Series: A toolkit for time-series analysis [top-max 0.0.7.4]"
 
 HOMEPAGE="http://mlots.readthedocs.io/"
 LICENSE=""

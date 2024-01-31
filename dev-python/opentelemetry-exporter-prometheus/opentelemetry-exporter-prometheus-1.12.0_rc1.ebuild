@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Prometheus Metric Exporter for OpenTelemetry [newver 0.43b0]"
+DESCRIPTION="Prometheus Metric Exporter for OpenTelemetry"
 
 HOMEPAGE="https://github.com/open-telemetry/opentelemetry-python/tree/main/exporter/opentelemetry-exporter-prometheus"
 LICENSE="Apache-2.0"

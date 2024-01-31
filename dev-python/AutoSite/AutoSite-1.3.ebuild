@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Keep all your website's pages under one template [topver 1.4, newver 1.4]"
+DESCRIPTION="Keep all your website's pages under one template [top-max 1.4]"
 
 HOMEPAGE="https://github.com/dotcomboom/AutoSite"
 LICENSE=""

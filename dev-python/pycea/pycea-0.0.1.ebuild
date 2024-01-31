@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plotting utils [topver 0.0.2, newver 0.0.2]"
+DESCRIPTION="Plotting utils [top-max 0.0.2]"
 
 HOMEPAGE="https://github.com/thorwhalen/ut/tree/master/pycea"
 LICENSE="MIT"

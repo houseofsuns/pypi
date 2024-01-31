@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python binding port for JSONSki [newver 0.0.32]"
+DESCRIPTION="Python binding port for JSONSki"
 
 HOMEPAGE="https://github.com/your_username/your_repository"
 LICENSE=""

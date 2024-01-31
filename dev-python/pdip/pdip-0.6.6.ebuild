@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Data Integrator infrastructures package [newver 0.5.15]"
+DESCRIPTION="Python Data Integrator infrastructures package"
 
 HOMEPAGE="https://github.com/ahmetcagriakca/pdip"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to provide adr-tools to python [topver 1.0.4, newver 1.0.4b0]"
+DESCRIPTION="A package to provide adr-tools to python [top-max 1.0.4_beta0]"
 
 HOMEPAGE="https://bitbucket.org/tinkerer_/adr-tools-python/"
 LICENSE="MIT"

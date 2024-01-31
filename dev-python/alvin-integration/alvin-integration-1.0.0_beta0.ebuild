@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alvin lineage python library for integrations [newver 0.19.0]"
+DESCRIPTION="Alvin lineage python library for integrations"
 
 HOMEPAGE=""
 LICENSE=""

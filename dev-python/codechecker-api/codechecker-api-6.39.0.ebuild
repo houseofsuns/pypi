@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generated Python compatible API stubs for CodeChecker. [newver 6.39.0.dev1]"
+DESCRIPTION="Generated Python compatible API stubs for CodeChecker."
 
 HOMEPAGE="https://github.com/Ericsson/codechecker"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Templates and scripts to rapidly spin up a production-ready Eve-based API. [topver 0.9.44, newver 0.9.44]"
+DESCRIPTION="Templates and scripts to rapidly spin up a production-ready Eve-based API. [top-max 0.9.44]"
 
 HOMEPAGE="https://github.com/pointw-dev/eve-utils"
 LICENSE="MIT"

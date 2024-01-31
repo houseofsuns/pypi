@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Robocorp local task server [newver 0.0.19]"
+DESCRIPTION="Robocorp local task server"
 
 HOMEPAGE="https://github.com/robocorp/robocorp/"
 LICENSE="Apache-2.0"

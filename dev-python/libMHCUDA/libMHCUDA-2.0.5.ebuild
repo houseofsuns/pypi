@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Accelerated Weighted MinHash-ing on GPU [topver 2.3.0, newver 2.3.0]"
+DESCRIPTION="Accelerated Weighted MinHash-ing on GPU [top-max 2.3.0]"
 
 HOMEPAGE="https://github.com/src-d/minhashcuda"
 LICENSE="Apache-2.0"

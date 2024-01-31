@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is the experiment driver for the benchbuild study [topver 6.8, newver 6.8]"
+DESCRIPTION="This is the experiment driver for the benchbuild study [top-max 6.8]"
 
 HOMEPAGE="https://github.com/PolyJIT/benchbuild"
 LICENSE="MIT"

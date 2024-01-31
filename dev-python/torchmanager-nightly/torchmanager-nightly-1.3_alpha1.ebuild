@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyTorch Training Manager v1.3 (Alpha 1) [newver 1.2rc5]"
+DESCRIPTION="PyTorch Training Manager v1.3 (Alpha 1)"
 
 HOMEPAGE="https://github.com/kisonho/torchmanager.git"
 LICENSE=""

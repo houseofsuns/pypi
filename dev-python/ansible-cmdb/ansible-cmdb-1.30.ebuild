@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate host overview from ansible fact gathering output [topver 1.31, newver 1.31]"
+DESCRIPTION="Generate host overview from ansible fact gathering output [top-max 1.31]"
 
 HOMEPAGE="https://github.com/fboender/ansible-cmdb"
 LICENSE="MIT"

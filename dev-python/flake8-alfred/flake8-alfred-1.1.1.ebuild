@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flake8 plugin warning for unsafe functions [newver 1.0.2]"
+DESCRIPTION="Flake8 plugin warning for unsafe functions"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a Health-Checking Service for OpenStack deployments. [newver 5.0.8]"
+DESCRIPTION="a Health-Checking Service for OpenStack deployments."
 
 HOMEPAGE="http://www.openstack.org/"
 LICENSE=""

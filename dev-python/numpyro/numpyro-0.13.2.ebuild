@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	examples? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	examples? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
 	test? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-21.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-21.8_beta0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-4.1[${PYTHON_USEDEP}] )

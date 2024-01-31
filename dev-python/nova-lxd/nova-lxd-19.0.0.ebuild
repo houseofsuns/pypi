@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="native lxd driver for openstack [newver 18.0.1]"
+DESCRIPTION="native lxd driver for openstack"
 
 HOMEPAGE="https://www.openstack.org/"
 LICENSE=""

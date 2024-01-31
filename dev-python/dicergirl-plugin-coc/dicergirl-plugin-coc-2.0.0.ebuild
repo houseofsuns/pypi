@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dicergirl COC 模式插件 [newver 2.0.0a1]"
+DESCRIPTION="Dicergirl COC 模式插件"
 
 HOMEPAGE="https://gitee.com/unvisitor/dicergirl-plugin-coc/"
 LICENSE="Apache-2.0"

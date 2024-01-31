@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Jitbit Helpdesk Ticketing system plugin for your python webapp [topver 8.5.4.0]"
+DESCRIPTION="Jitbit Helpdesk Ticketing system plugin for your python webapp"
 
 HOMEPAGE="https://www.jitbit.com/helpdesk/"
 LICENSE="MIT"

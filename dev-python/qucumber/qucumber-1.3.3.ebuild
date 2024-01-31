@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.23[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/nbval-0.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.4.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	style? ( >=dev-python/radon-4.3.2[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.23[${PYTHON_USEDEP}]
 	style? ( dev-python/flake8-fixme[${PYTHON_USEDEP}] )
 	style? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	style? ( <dev-python/nbconvert-6.0[${PYTHON_USEDEP}] )
-	style? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-3.7.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tox-3.2.1[${PYTHON_USEDEP}] )
 	travis? ( >=dev-python/setuptools-40.0.0[${PYTHON_USEDEP}] )
@@ -75,6 +75,6 @@ DEPENDENCIES=">=dev-python/tqdm-4.23[${PYTHON_USEDEP}]
 	travis? ( dev-python/flake8-fixme[${PYTHON_USEDEP}] )
 	travis? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	travis? ( <dev-python/nbconvert-6.0[${PYTHON_USEDEP}] )
-	travis? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )"
+	travis? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

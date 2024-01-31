@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="unofficial API package for Hino. [newver 0.0.5]"
+DESCRIPTION="unofficial API package for Hino."
 
 HOMEPAGE="https://github.com/Somespi/Hino/"
 LICENSE="MIT"

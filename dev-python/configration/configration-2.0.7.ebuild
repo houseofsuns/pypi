@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"\"\"A collection of modules that supports workbooks with openpyxl.\"\"\" [newver 0.0.1]"
+DESCRIPTION="\"\"\"A collection of modules that supports workbooks with openpyxl.\"\"\""
 
 HOMEPAGE="https://psionman@bitbucket.org/psionman/bfgdealer.git"
 LICENSE="MIT"

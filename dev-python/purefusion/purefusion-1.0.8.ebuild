@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pure Fusion API [topver 1.2.0, newver 1.2.0]"
+DESCRIPTION="Pure Fusion API [top-max 1.2.0]"
 
 HOMEPAGE=""
 LICENSE=""

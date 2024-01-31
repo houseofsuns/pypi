@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots [newver 2.3.0.dev902123813]"
+DESCRIPTION="Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots"
 
 HOMEPAGE="https://github.com/Mayuri-Chan/pyrofork"
 LICENSE="LGPL-3"

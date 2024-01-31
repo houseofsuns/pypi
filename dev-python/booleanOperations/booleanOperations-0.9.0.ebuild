@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/pyclipper-1.1.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyclipper-1.1.0_p1[${PYTHON_USEDEP}]
 	>=dev-python/fonttools-4.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

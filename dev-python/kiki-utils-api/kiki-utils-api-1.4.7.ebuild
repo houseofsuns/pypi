@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utils functions with api data process. [topver 1.6.0, newver 1.6.0]"
+DESCRIPTION="Utils functions with api data process. [top-max 1.6.0]"
 
 HOMEPAGE=""
 LICENSE=""

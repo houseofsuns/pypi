@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zero-OS Orchestrator [newver 1.1.0a8, badver 1.1.0-alpha-7-1]"
+DESCRIPTION="Zero-OS Orchestrator [badver 1.1.0-alpha-7-1]"
 
 HOMEPAGE="https://github.com/g8os/grid"
 LICENSE="Apache-2.0"

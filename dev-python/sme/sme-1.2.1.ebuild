@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Spatial Model Editor python bindings [topver 1.5.0, newver 1.5.0]"
+DESCRIPTION="Spatial Model Editor python bindings [top-max 1.5.0]"
 
 HOMEPAGE="https://spatial-model-editor.github.io/"
 LICENSE=""

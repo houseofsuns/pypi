@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="funpypi [topver 0.2.1, newver 0.2.1]"
+DESCRIPTION="funpypi [top-max 0.2.1]"
 
 HOMEPAGE="https://github.com/farfarfun/funpypi"
 LICENSE=""

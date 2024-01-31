@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="hdf5 file support for vaex [newver 0.14.1]"
+DESCRIPTION="hdf5 file support for vaex"
 
 HOMEPAGE="https://www.github.com/maartenbreddels/vaex"
 LICENSE="MIT"

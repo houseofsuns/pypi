@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Environment variable definition with type [topver 0.2.0, newver 0.2.0]"
+DESCRIPTION="Environment variable definition with type [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/reorx/getenv"
 LICENSE="License :: OSI Approved :: MIT License"

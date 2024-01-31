@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alpha release of ayx-learn. [topver 2020.2.0, newver 2020.2.0]"
+DESCRIPTION="Alpha release of ayx-learn. [top-max 2020.2.0]"
 
 HOMEPAGE="https://git.alteryx.com/hamilton/ayx-learn"
 LICENSE=""

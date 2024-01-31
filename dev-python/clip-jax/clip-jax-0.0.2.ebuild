@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Training of CLIP in JAX [newver 0.0.1.post1]"
+DESCRIPTION="Training of CLIP in JAX"
 
 HOMEPAGE=""
 LICENSE=""

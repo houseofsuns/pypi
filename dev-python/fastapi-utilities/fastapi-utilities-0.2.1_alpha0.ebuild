@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reusable utilities for FastAPI [newver 0.2.0]"
+DESCRIPTION="Reusable utilities for FastAPI"
 
 HOMEPAGE=""
 LICENSE="MIT"

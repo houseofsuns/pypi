@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binance API wrapper [topver 0.3, newver 0.3]"
+DESCRIPTION="Binance API wrapper [top-max 0.3]"
 
 HOMEPAGE="https://github.com/toshima/binance"
 LICENSE=""

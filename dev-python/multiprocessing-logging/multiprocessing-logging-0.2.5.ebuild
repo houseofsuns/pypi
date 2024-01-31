@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Logger for multiprocessing applications [topver 0.3.4, newver 0.3.4]"
+DESCRIPTION="Logger for multiprocessing applications [top-max 0.3.4]"
 
 HOMEPAGE="https://github.com/jruere/multiprocessing-logging"
 LICENSE="LGPL-3"

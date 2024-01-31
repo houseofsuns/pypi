@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	~dev-python/click-6.2[${PYTHON_USEDEP}]
-	~dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
 	~dev-python/markdown-2.6.2[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]

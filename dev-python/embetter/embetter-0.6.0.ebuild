@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/diskcache-5.6.1[${PYTHON_USEDEP}]
 	cohere? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	cohere? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	cohere? ( dev-python/skops[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bpemb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/diskcache-5.6.1[${PYTHON_USEDEP}] )

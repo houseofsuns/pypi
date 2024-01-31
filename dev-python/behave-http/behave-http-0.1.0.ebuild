@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Behave HTTP steps [topver 0.1.1, newver 0.1.1]"
+DESCRIPTION="Behave HTTP steps [top-max 0.1.1]"
 
 HOMEPAGE="https://github.com/mikek/behave-http"
 LICENSE="BSD 2-Clause"

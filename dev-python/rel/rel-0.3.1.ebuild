@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Registered Event Listener. Provides standard (pyevent) interface and functionality without external dependencies [topver 0.4.9.5, newver 0.4.9.5]"
+DESCRIPTION="Registered Event Listener. Provides standard (pyevent) interface and functionality without external dependencies [top-max 0.4.9.5]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="MIT"

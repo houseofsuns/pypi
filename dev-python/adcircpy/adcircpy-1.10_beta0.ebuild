@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for working with ADCIRC input and output files. [newver 1.2.7]"
+DESCRIPTION="Python package for working with ADCIRC input and output files."
 
 HOMEPAGE="https://github.com/jreniel/adcircpy.git"
 LICENSE="GPL-3"

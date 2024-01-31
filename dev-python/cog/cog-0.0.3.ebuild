@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Containers for machine learning [topver 0.10.0, newver 0.9.4]"
+DESCRIPTION="Containers for machine learning [top-max 0.10.0_alpha3]"
 
 HOMEPAGE="https://github.com/replicate/cog"
 LICENSE=""

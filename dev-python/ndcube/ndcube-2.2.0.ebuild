@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for multi-dimensional contiguous and non-contiguous coordinate aware arrays. [newver 2.1.4]"
+DESCRIPTION="A package for multi-dimensional contiguous and non-contiguous coordinate aware arrays."
 
 HOMEPAGE="https://docs.sunpy.org/projects/ndcube/"
 LICENSE="BSD 2-Clause"

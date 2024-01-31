@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the BN254/256 pairing-friendly curve supported by the MCl library [topver 1.3.5, newver 1.3.5]"
+DESCRIPTION="Python bindings for the BN254/256 pairing-friendly curve supported by the MCl library [top-max 1.3.5]"
 
 HOMEPAGE="https://github.com/nthparty/mclbn256"
 LICENSE=""

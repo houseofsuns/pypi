@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High Performance Blockchain Deserializer [topver 1.2.21, newver 1.2.21]"
+DESCRIPTION="High Performance Blockchain Deserializer [top-max 1.2.21]"
 
 HOMEPAGE="https://github.com/Congyuwang/Py-Bitcoin-Explorer"
 LICENSE=""

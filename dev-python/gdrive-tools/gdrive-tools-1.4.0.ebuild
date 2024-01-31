@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of usefull tools to interact with the google drive/google docs api. [newver 1.4.0a3]"
+DESCRIPTION="A collection of usefull tools to interact with the google drive/google docs api."
 
 HOMEPAGE="https://github.com/5minds/GDrive-Tools"
 LICENSE="MIT"

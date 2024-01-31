@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )

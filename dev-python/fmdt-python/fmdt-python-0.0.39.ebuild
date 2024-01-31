@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="utlity functions for fast meteor detection toolbox [topver 0.0.45, newver 0.0.45]"
+DESCRIPTION="utlity functions for fast meteor detection toolbox [top-max 0.0.45]"
 
 HOMEPAGE="https://github.com/ejovo13/fmdt_scripts"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An experimental Full-Stack Framework for Python [newver 1.3.9]"
+DESCRIPTION="An experimental Full-Stack Framework for Python"
 
 HOMEPAGE="https://github.com/Sas2k/Lemon"
 LICENSE=""

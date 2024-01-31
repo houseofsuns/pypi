@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MOOS Python Wrapper. [topver 2022.1, newver 2022.1]"
+DESCRIPTION="MOOS Python Wrapper. [top-max 2022.1]"
 
 HOMEPAGE="https://github.com/russkel/python-moos"
 LICENSE=""

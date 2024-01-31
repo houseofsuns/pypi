@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fitz: Workflow Mangement for analyzing neuroimaging data. [newver 0.0.1.dev2]"
+DESCRIPTION="Fitz: Workflow Mangement for analyzing neuroimaging data. [top-max 0.0.1_pre2]"
 
 HOMEPAGE="http://github.com/kastman/fitz"
 LICENSE="BSD 3-clause"

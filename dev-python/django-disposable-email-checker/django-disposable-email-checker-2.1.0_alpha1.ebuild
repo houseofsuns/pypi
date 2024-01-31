@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django package to detect ~890 domains used by disposable email services [newver 2.0.3a2]"
+DESCRIPTION="Django package to detect ~890 domains used by disposable email services"
 
 HOMEPAGE="https://github.com/jheld/DisposableEmailChecker"
 LICENSE="BSD"

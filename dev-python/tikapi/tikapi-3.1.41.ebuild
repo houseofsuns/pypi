@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TikAPI | TikTok Unofficial API [newver 3.1.5]"
+DESCRIPTION="TikAPI | TikTok Unofficial API"
 
 HOMEPAGE="https://www.tikapi.io"
 LICENSE="TikAPI"

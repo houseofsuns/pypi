@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="My first Python package [topver 0.0.9, newver 0.0.9]"
+DESCRIPTION="My first Python package [top-max 0.0.9]"
 
 HOMEPAGE=""
 LICENSE="MIT"

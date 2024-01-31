@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TriMap: Dimensionality Reduction Using Triplets [newver 1.1.4]"
+DESCRIPTION="TriMap: Dimensionality Reduction Using Triplets"
 
 HOMEPAGE="http://github.com/eamid/trimap"
 LICENSE="LICENSE.txt"

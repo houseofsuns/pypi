@@ -58,7 +58,7 @@ DEPENDENCIES="~dev-python/astroid-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]
 	dev-python/locustio[${PYTHON_USEDEP}]
-	~dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-4.2_beta4[${PYTHON_USEDEP}]
 	~dev-python/autopep8-1.4.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

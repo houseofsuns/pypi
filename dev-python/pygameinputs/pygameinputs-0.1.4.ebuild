@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to add inputs that work with pygame [newver 0.1.4a0]"
+DESCRIPTION="A package to add inputs that work with pygame"
 
 HOMEPAGE="https://captainorigami01.github.io/pygame-inputs/"
 LICENSE=""

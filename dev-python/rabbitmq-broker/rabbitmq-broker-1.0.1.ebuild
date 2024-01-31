@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RPC брокер сообщений [topver 1.2.3, newver 1.2.3]"
+DESCRIPTION="RPC брокер сообщений [top-max 1.2.3]"
 
 HOMEPAGE=""
 LICENSE=""

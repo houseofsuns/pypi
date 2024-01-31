@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Functional, composable, asynchronous, type-safe Python. [newver 0.13.2]"
+DESCRIPTION="Functional, composable, asynchronous, type-safe Python."
 
 HOMEPAGE=""
 LICENSE=""

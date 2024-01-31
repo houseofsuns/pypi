@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Calkulate: seawater total alkalinity from titration data [newver 0.5.3]"
+DESCRIPTION="Calkulate: seawater total alkalinity from titration data"
 
 HOMEPAGE=""
 LICENSE=""

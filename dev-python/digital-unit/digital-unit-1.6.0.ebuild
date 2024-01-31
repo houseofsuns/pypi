@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="number and units [newver 1.6b1]"
+DESCRIPTION="number and units"
 
 HOMEPAGE=""
 LICENSE="MIT"

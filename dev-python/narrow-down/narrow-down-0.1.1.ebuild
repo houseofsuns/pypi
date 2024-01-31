@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast fuzzy text search [topver 1.1.0, newver 1.1.0]"
+DESCRIPTION="Fast fuzzy text search [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/chr1st1ank/narrow-down"
 LICENSE=""

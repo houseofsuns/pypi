@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ancestral sequence reconstruction using a tree structured Ornstein Uhlenbeck variational autoencoder [newver 0.0.28]"
+DESCRIPTION="Ancestral sequence reconstruction using a tree structured Ornstein Uhlenbeck variational autoencoder"
 
 HOMEPAGE="https://github.com/LysSanzMoreta/DRAUPNIR_ASR"
 LICENSE=""

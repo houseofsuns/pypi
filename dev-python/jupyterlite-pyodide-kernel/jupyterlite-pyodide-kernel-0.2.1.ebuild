@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/jupyterlite-core[${PYTHON_USEDEP}]
 	dev-python/pkginfo[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyterlab-5.0.0_alpha0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-server-mathjax[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlab-language-pack-fr-FR[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dash[${PYTHON_USEDEP}] )
 	tests? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/jsonpatch-1.32[${PYTHON_USEDEP}] )

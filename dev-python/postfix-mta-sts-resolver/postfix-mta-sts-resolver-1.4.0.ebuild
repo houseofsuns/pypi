@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/aiodns-1.1.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/cryptography-1.6[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	redis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.2.0_rc1[${PYTHON_USEDEP}] )
 	sqlite? ( >=dev-python/aiosqlite-0.10.0[${PYTHON_USEDEP}] )
 	uvloop? ( >=dev-python/uvloop-0.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

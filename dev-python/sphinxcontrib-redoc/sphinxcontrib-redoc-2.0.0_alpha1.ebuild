@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ReDoc powered OpenAPI (fka Swagger) spec renderer for Sphinx [newver 1.6.0]"
+DESCRIPTION="ReDoc powered OpenAPI (fka Swagger) spec renderer for Sphinx"
 
 HOMEPAGE="https://github.com/ikalnytskyi/sphinxcontrib-redoc"
 LICENSE="BSD"

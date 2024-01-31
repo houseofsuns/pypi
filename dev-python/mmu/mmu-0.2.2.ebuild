@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Compute uncertainties on classification model metrics. [newver 0.1.2]"
+DESCRIPTION="Compute uncertainties on classification model metrics."
 
 HOMEPAGE="https://github.com/RUrlus/ModelMetricUncertainty"
 LICENSE="Apache-2.0"

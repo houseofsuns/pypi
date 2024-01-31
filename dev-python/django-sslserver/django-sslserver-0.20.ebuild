@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An SSL-enabled development server for Django [topver 0.22, newver 0.22]"
+DESCRIPTION="An SSL-enabled development server for Django [top-max 0.22]"
 
 HOMEPAGE="https://github.com/teddziuba/django-sslserver"
 LICENSE="MIT"

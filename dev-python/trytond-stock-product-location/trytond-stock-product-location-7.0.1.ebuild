@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module to add default location on product [newver 6.0.1]"
+DESCRIPTION="Tryton module to add default location on product"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

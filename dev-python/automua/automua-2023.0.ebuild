@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/alembic-1.9.1[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/ldap3-2.9.1[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
-	~dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.0_rc1[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}]
 	deploy? ( ~dev-python/coverage-7.0.2[${PYTHON_USEDEP}] )
 	deploy? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )

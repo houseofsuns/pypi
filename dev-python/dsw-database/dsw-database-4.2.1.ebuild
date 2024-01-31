@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for managing DSW database [newver 4.1.2]"
+DESCRIPTION="Library for managing DSW database"
 
 HOMEPAGE="https://ds-wizard.org"
 LICENSE="Apache-2.0"

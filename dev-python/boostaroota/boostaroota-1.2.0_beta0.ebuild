@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Fast XGBoost Feature Selection Algorithm [topver 1.3, newver 1.3]"
+DESCRIPTION="A Fast XGBoost Feature Selection Algorithm [top-max 1.3]"
 
 HOMEPAGE="http://github.com/chasedehan/BoostARoota"
 LICENSE="MIT"

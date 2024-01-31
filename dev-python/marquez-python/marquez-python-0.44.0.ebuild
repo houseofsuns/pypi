@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Marquez Python Client [newver 0.43.1]"
+DESCRIPTION="Marquez Python Client"
 
 HOMEPAGE=""
 LICENSE=""

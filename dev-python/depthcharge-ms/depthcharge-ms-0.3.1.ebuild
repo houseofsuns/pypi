@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A mass spectrometry toolkit for deep learning with Transformer models. [newver 0.2.3]"
+DESCRIPTION="A mass spectrometry toolkit for deep learning with Transformer models."
 
 HOMEPAGE="https://github.com/wfondrie/depthcharge"
 LICENSE="Apache-2.0"

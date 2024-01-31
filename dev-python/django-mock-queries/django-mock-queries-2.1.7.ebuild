@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A django library for mocking queryset functions in memory for testing [topver 2.2.0, newver 2.2.0]"
+DESCRIPTION="A django library for mocking queryset functions in memory for testing [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/stphivos/django-mock-queries"
 LICENSE="MIT"

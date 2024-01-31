@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES=">=dev-python/pyusb-1.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyusb-1.0.0_beta2[${PYTHON_USEDEP}]
 	dev-python/libusb-package[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.25[${PYTHON_USEDEP}]

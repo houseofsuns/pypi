@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Openapi Python Generator [newver 0.5.0]"
+DESCRIPTION="Openapi Python Generator"
 
 HOMEPAGE="https://github.com/MarcoMuellner/openapi-python-generator"
 LICENSE="MIT"
@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	dev-python/openapi-schema-pydantic[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	>=dev-python/black-21.10[${PYTHON_USEDEP}]
+	>=dev-python/black-21.10_beta0[${PYTHON_USEDEP}]
 	>=dev-python/isort-5.10.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

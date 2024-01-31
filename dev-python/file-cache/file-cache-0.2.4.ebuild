@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cache dataframe with local hd5 file, and reduce the memory by convert type for number [newver 0.2]"
+DESCRIPTION="Cache dataframe with local hd5 file, and reduce the memory by convert type for number"
 
 HOMEPAGE="https://github.com/Flyfoxs/file_cache"
 LICENSE="MIT"

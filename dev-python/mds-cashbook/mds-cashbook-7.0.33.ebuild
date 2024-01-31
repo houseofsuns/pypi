@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module to add a cashbook. [newver 6.0.33]"
+DESCRIPTION="Tryton module to add a cashbook."
 
 HOMEPAGE="https://www.m-ds.de/"
 LICENSE="GPL-3"

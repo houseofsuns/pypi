@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI for working with Python packages and BUILD files in a Pants monorepo [newver 2.0.2]"
+DESCRIPTION="CLI for working with Python packages and BUILD files in a Pants monorepo"
 
 HOMEPAGE="https://github.com/NarrativeScience/pypants"
 LICENSE="BSD"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/astor-1.0[${PYTHON_USEDEP}]
-	~dev-python/black-19.3[${PYTHON_USEDEP}]
+	~dev-python/black-19.3_beta0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.0[${PYTHON_USEDEP}]

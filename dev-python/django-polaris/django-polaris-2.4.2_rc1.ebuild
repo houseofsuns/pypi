@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An extendable Django server for Stellar Ecosystem Proposals. [newver 2.3.10]"
+DESCRIPTION="An extendable Django server for Stellar Ecosystem Proposals."
 
 HOMEPAGE="https://github.com/stellar/django-polaris"
 LICENSE="Apache-2.0"

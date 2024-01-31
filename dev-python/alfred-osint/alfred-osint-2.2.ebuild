@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alfred is a advanced OSINT information gathering tool [newver 0.2.3.7]"
+DESCRIPTION="Alfred is a advanced OSINT information gathering tool"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/notion-client[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

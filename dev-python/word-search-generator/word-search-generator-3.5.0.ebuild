@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev tests"
 DEPENDENCIES="dev-python/fpdf2[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.931[${PYTHON_USEDEP}] )

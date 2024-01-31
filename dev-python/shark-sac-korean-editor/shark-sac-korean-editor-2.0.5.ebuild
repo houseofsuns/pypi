@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="냥코에디터 한글화 [newver 1.2.5]"
+DESCRIPTION="냥코에디터 한글화"
 
 HOMEPAGE="https://github.com/sharkwodm/koreditor"
 LICENSE="MIT"

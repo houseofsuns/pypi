@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-org-policy[${PYTHON_USEDEP}]
-	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/google-cloud-access-context-manager[${PYTHON_USEDEP}]
 	dev-python/google-cloud-os-config[${PYTHON_USEDEP}]

@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/nvsmi[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.4.8[${PYTHON_USEDEP}]
-	~dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]"
+	~dev-python/lazy_loader-0.1_rc3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Loxone Client [topver 0.0.60, newver 0.0.60]"
+DESCRIPTION="Loxone Client [top-max 0.0.60]"
 
 HOMEPAGE="https://github.com/grimbouk/loxws"
 LICENSE=""

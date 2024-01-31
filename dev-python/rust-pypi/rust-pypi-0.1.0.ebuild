@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rust pypi [topver 1.10.0, newver 1.10.0]"
+DESCRIPTION="Rust pypi [top-max 1.10.0]"
 
 HOMEPAGE=""
 LICENSE="BSD"

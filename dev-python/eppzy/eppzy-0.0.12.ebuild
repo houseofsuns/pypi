@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EPP Client Library [topver 0.0.15, newver 0.0.15]"
+DESCRIPTION="EPP Client Library [top-max 0.0.15]"
 
 HOMEPAGE="https://gitlab.com/aaisp/eppzy"
 LICENSE="LGPL-3"

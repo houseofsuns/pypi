@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Git collection utilities [topver 0.0.24, newver 0.0.24]"
+DESCRIPTION="Git collection utilities [top-max 0.0.24]"
 
 HOMEPAGE="https://gitlab.com/jesrib/gitcoll"
 LICENSE=""

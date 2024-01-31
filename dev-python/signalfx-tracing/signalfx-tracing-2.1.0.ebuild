@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides auto-instrumentation for OpenTracing-traced libraries and frameworks [topver 2.2.0, newver 2.2.0]"
+DESCRIPTION="Provides auto-instrumentation for OpenTracing-traced libraries and frameworks [top-max 2.2.0]"
 
 HOMEPAGE="http://github.com/signalfx/signalfx-python-tracing"
 LICENSE="Apache Software License v2"

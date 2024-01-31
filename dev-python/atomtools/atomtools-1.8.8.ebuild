@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="basic atom tools collection [topver 1.9.4, newver 1.9.4]"
+DESCRIPTION="basic atom tools collection [top-max 1.9.4]"
 
 HOMEPAGE="https://github.com/atomse/atomtools"
 LICENSE="MIT"

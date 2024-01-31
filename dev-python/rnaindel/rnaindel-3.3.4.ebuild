@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Somatic indel discovery tool for tumor RNA-Seq data [topver 3.3.5, newver 3.3.5]"
+DESCRIPTION="Somatic indel discovery tool for tumor RNA-Seq data [top-max 3.3.5]"
 
 HOMEPAGE="https://github.com/stjude/RNAIndel"
 LICENSE="Apache-2.0"

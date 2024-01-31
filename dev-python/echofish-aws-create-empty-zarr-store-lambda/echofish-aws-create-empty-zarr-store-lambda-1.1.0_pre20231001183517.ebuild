@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [newver 1.0.1]"
+DESCRIPTION=""
 
 HOMEPAGE="https://github.com/ci-cmg/echofish-aws-create-empty-zarr-store-lambda"
 LICENSE=""

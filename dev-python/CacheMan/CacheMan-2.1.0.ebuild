@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A dependent cache manager [topver 2.2.0, newver 2.2.0]"
+DESCRIPTION="A dependent cache manager [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/MSeal/py_cache_manager"
 LICENSE="New BSD"

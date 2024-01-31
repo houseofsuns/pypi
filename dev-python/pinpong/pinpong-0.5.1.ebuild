@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="一个纯python实现的支持丰富外设的驱动库，支持win linux mac系统，支持arduino系列开发板，RPi、D1等linux开发板。附带丰富的使用例程 [topver 0.5.2, newver 0.5.2]"
+DESCRIPTION="一个纯python实现的支持丰富外设的驱动库，支持win linux mac系统，支持arduino系列开发板，RPi、D1等linux开发板。附带丰富的使用例程 [top-max 0.5.2]"
 
 HOMEPAGE="https://github.com/DFRobot/pinpong-docs"
 LICENSE=""

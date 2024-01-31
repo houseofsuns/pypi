@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OARepo REST API microservice [newver 3.3.206]"
+DESCRIPTION="OARepo REST API microservice"
 
 HOMEPAGE="https://github.com/oarepo/oarepo-micro-api"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="E-Commerce Platform [topver 3.1.0, newver 2.14.3]"
+DESCRIPTION="E-Commerce Platform [top-max 3.1.0]"
 
 HOMEPAGE="http://shuup.com/"
 LICENSE="proprietary"

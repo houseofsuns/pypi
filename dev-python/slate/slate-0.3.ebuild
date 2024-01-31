@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extract text from PDF documents easily. [topver 0.5.2]"
+DESCRIPTION="Extract text from PDF documents easily."
 
 HOMEPAGE="http://github.com/timClicks/slate"
 LICENSE="GPL v3 or later"

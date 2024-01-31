@@ -41,7 +41,7 @@ DEPENDENCIES="all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/soupsieve-2.3.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/soupsieve-2.3.2_p1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/urllib3-1.26.12[${PYTHON_USEDEP}] )
 	all? ( dev-python/filterpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/dxcam[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/soupsieve-2.3.2[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/soupsieve-2.3.2_p1[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/urllib3-1.26.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

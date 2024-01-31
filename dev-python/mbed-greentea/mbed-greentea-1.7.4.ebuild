@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mbed 3.0 onwards test suite, codename Greentea. The test suite is a collection of tools that enable automated testing on mbed-enabled platforms [topver 1.8.15, newver 1.8.15]"
+DESCRIPTION="mbed 3.0 onwards test suite, codename Greentea. The test suite is a collection of tools that enable automated testing on mbed-enabled platforms [top-max 1.8.15]"
 
 HOMEPAGE="https://github.com/ARMmbed/mbed-os-tools"
 LICENSE="Apache-2.0"

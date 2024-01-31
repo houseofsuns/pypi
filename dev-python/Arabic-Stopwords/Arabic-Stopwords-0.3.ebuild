@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Arabic Stop words: list and routins [topver 0.4.3, newver 0.4.3]"
+DESCRIPTION="Arabic Stop words: list and routins [top-max 0.4.3]"
 
 HOMEPAGE="http://arabicstopwords.sourceforge.net/"
 LICENSE="GPL-3"

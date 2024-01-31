@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SuperAnnotate JSON Schemas [newver 1.0.47b5]"
+DESCRIPTION="SuperAnnotate JSON Schemas"
 
 HOMEPAGE="https://www.superannotate.com/"
 LICENSE="MIT"

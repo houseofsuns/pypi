@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open-Rarity library is an open standard that provides an easy, explanable and reproducible computation for NFT rarity [newver 0.7.5]"
+DESCRIPTION="Open-Rarity library is an open standard that provides an easy, explanable and reproducible computation for NFT rarity"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

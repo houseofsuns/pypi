@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="provide intercomstation to the doorstation by VoIP [topver 2.5.1, newver 2.5.1]"
+DESCRIPTION="provide intercomstation to the doorstation by VoIP [top-max 2.5.1]"
 
 HOMEPAGE="https://github.com/motom001/DoorPi"
 LICENSE="CC BY-NC 4.0"

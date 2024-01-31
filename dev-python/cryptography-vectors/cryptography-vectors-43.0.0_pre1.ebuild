@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Test vectors for the cryptography package. [newver 42.0.1]"
+DESCRIPTION="Test vectors for the cryptography package."
 
 HOMEPAGE="https://github.com/pyca/cryptography"
 LICENSE=""

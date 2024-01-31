@@ -27,7 +27,7 @@ IUSE="github"
 DEPENDENCIES="<dev-python/semver-3.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-1.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python IB API [newver 10.19.2]"
+DESCRIPTION="Python IB API"
 
 HOMEPAGE="https://interactivebrokers.github.io/tws-api"
 LICENSE="IB API Non-Commercial License or the IB API Commercial License"

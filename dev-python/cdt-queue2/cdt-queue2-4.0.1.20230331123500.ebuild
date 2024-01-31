@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Code for CDT message queue management [topver 4.0.1.20230331125100, newver 4.0.1.20230331125100]"
+DESCRIPTION="Code for CDT message queue management [top-max 4.0.1.20230331125100]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

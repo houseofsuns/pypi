@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

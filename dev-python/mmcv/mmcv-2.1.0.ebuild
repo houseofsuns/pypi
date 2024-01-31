@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenMMLab Computer Vision Foundation [newver 1.7.2]"
+DESCRIPTION="OpenMMLab Computer Vision Foundation"
 
 HOMEPAGE="https://github.com/open-mmlab/mmcv"
 LICENSE=""

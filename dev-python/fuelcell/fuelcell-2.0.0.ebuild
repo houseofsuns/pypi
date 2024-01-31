@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="data processing for fuel cell and electrolyzer experiments [newver 0.4.0]"
+DESCRIPTION="data processing for fuel cell and electrolyzer experiments"
 
 HOMEPAGE="https://github.com/samaygarg/fuelcell"
 LICENSE="MIT"

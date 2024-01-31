@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Internet Archive PDF compression tools [newver 1.4.24]"
+DESCRIPTION="Internet Archive PDF compression tools"
 
 HOMEPAGE="https://github.com/internetarchive/archive-pdf-tools"
 LICENSE="AGPL-3"

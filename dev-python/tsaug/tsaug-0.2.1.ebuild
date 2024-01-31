@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc test"
 DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )

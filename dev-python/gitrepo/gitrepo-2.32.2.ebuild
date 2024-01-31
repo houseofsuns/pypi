@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Repo helps manage many Git repositories [newver 2.31.2]"
+DESCRIPTION="Repo helps manage many Git repositories"
 
 HOMEPAGE="https://gerrit.googlesource.com/git-repo/"
 LICENSE="Apache-2.0"

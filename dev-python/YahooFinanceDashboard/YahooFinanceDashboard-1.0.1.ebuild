@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API for accessing, synchronizing, managing locally and plotting Yahoo financial data [topver 1.1.86, newver 1.1.86]"
+DESCRIPTION="API for accessing, synchronizing, managing locally and plotting Yahoo financial data [top-max 1.1.86]"
 
 HOMEPAGE="https://github.com/mosegui/YahooFinanceDashboard"
 LICENSE="BSD"

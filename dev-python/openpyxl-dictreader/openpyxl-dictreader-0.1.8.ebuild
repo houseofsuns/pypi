@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple package to read openpyxl worksheets like a csv DictReader [topver 0.1.9, newver 0.1.9]"
+DESCRIPTION="A simple package to read openpyxl worksheets like a csv DictReader [top-max 0.1.9]"
 
 HOMEPAGE="https://github.com/foprel/openpyxl-dictreader"
 LICENSE=""

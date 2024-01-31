@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 1.0.0.8, newver 1.0.0.8]"
+DESCRIPTION=" [top-max 1.0.0.8]"
 
 HOMEPAGE="https://github.com/mosheovadi1/snort-web-master"
 LICENSE="MoCorp"

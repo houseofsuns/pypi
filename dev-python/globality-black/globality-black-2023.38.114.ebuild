@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper for black adding new features [topver 2023.46.126, newver 2023.46.126]"
+DESCRIPTION="A wrapper for black adding new features [top-max 2023.46.126]"
 
 HOMEPAGE="https://github.com/globality-corp/globality-black"
 LICENSE=""

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/beautifultable[${PYTHON_USEDEP}]
 	~dev-python/progressbar2-3.51.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyhamcrest-2.0.2[${PYTHON_USEDEP}] )

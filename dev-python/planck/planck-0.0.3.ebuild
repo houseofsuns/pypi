@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Physical constants and unit conversion. [topver 0.1]"
+DESCRIPTION="Physical constants and unit conversion."
 
 HOMEPAGE="https://www.okube.ai/planck/"
 LICENSE="MIT"

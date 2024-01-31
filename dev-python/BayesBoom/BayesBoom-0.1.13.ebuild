@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for Bayesian modeling. [topver 0.1.14, newver 0.1.14]"
+DESCRIPTION="Tools for Bayesian modeling. [top-max 0.1.14]"
 
 HOMEPAGE="https://github.com/steve-the-bayesian/BOOM"
 LICENSE=""

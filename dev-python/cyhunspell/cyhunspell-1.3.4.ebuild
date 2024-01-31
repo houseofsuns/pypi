@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper on hunspell for use in Python [topver 2.0.2, newver 2.0.2]"
+DESCRIPTION="A wrapper on hunspell for use in Python [top-max 2.0.2]"
 
 HOMEPAGE="https://github.com/MSeal/cython_hunspell"
 LICENSE="MIT + MPL 1.1/GPL 2.0/LGPL 2.1"

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/sparsezoo-nightly[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-56.0.0[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/onnxruntime-gpu[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python package for interfacing with Dynamixel XL-330 motors. [newver 0.2.4a5]"
+DESCRIPTION="A python package for interfacing with Dynamixel XL-330 motors."
 
 HOMEPAGE="https://github.com/OSUrobotics/dynamixel-control"
 LICENSE=""

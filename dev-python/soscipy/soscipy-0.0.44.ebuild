@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/bleach-3.3.0[${PYTHON_USEDEP}]
-	~dev-python/build-0.3.1[${PYTHON_USEDEP}]
+	~dev-python/build-0.3.1_p1[${PYTHON_USEDEP}]
 	~dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]
 	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage the connection and communications to a Spade server. [topver 5.2.0, newver 5.2.0]"
+DESCRIPTION="Manage the connection and communications to a Spade server. [top-max 5.2.0]"
 
 HOMEPAGE="http://nest.lbl.gov/projects/spade"
 LICENSE=""

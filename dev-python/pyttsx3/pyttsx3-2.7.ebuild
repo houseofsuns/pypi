@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An OFFLINE Python Text to Speech library (TTS) which works for both python3 and python2.This library very usefull especially if you don't want any delay in the speech produced and don't want to depend only on the internet for TTS conversion. It also supports multiple TTS engines like Sapi5 , nsss , espeak . [topver 2.90, newver 2.90]"
+DESCRIPTION="An OFFLINE Python Text to Speech library (TTS) which works for both python3 and python2.This library very usefull especially if you don't want any delay in the speech produced and don't want to depend only on the internet for TTS conversion. It also supports multiple TTS engines like Sapi5 , nsss , espeak . [top-max 2.90]"
 
 HOMEPAGE="https://github.com/nateshmbhat/pyttsx3"
 LICENSE=""

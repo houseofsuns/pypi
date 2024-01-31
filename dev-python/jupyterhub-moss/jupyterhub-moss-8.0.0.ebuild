@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="JupyterHub SLURM Spawner with specific spawn page [newver 7.0.0]"
+DESCRIPTION="JupyterHub SLURM Spawner with specific spawn page"
 
 HOMEPAGE="https://github.com/silx-kit/jupyterhub_moss"
 LICENSE=""

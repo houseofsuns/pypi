@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for the use of various variants of the Gene-pool Optimal Mixing Evolutionary Algorith (GOMEA). [topver 1.0.4, newver 1.0.4]"
+DESCRIPTION="Library for the use of various variants of the Gene-pool Optimal Mixing Evolutionary Algorith (GOMEA). [top-max 1.0.4]"
 
 HOMEPAGE="https://github.com/abouter/gomea"
 LICENSE=""

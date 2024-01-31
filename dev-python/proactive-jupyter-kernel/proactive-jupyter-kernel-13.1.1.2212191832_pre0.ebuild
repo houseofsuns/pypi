@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A proactive kernel for Jupyter [newver 13.1.0.2312310247.dev0]"
+DESCRIPTION="A proactive kernel for Jupyter"
 
 HOMEPAGE="https://github.com/ow2-proactive/proactive-jupyter-kernel"
 LICENSE="BSD 2-Clause License"

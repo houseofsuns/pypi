@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extract datetime objects from strings [topver 0.7.3, newver 0.7.3]"
+DESCRIPTION="Extract datetime objects from strings [top-max 0.7.3]"
 
 HOMEPAGE="https://github.com/akoumjian/datefinder"
 LICENSE="MIT"

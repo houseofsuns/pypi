@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="libigl Python Bindings [newver 2.5.0]"
+DESCRIPTION="libigl Python Bindings"
 
 HOMEPAGE="https://libigl.github.io/libigl-python-bindings/"
 LICENSE=""

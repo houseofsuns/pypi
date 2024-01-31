@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python network graph visualization library [topver 0.3.2, newver 0.3.2]"
+DESCRIPTION="A Python network graph visualization library [top-max 0.3.2]"
 
 HOMEPAGE="https://github.com/WestHealth/pyvis"
 LICENSE="BSD"

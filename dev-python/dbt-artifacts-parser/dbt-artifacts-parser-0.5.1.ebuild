@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pylint-2.12.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-21.9[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

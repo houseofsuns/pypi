@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/msgpack-python[${PYTHON_USEDEP}]
 	testing? ( ~dev-python/packaging-20.3[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/py-1.8.1[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pyparsing-3.0.0_alpha1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/six-1.14.0[${PYTHON_USEDEP}] )

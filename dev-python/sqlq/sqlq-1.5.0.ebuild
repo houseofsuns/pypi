@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A thread safe queue worker that executes SQL for multi-threaded applications. [topver 1.6.0, newver 1.6.0]"
+DESCRIPTION="A thread safe queue worker that executes SQL for multi-threaded applications. [top-max 1.6.0]"
 
 HOMEPAGE="https://github.com/foxe6/"
 LICENSE="AGPL-3"

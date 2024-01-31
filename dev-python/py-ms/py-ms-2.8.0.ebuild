@@ -65,7 +65,7 @@ DEPENDENCIES=">=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	tests? ( dev-python/safety[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/importlib-metadata-3.0[${PYTHON_USEDEP}] )
 	traces? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )

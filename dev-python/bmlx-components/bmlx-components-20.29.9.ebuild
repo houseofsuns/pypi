@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="bmlx components is repo for components used in bmlx [newver 2.2.13.1]"
+DESCRIPTION="bmlx components is repo for components used in bmlx"
 
 HOMEPAGE="https://git.sysop.bigo.sg/mlplat/bmlx-components"
 LICENSE="Apache-2.0"

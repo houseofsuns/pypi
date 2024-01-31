@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An automated AI/ML solution from Marlabs [topver 0.3.6, newver 0.3.6]"
+DESCRIPTION="An automated AI/ML solution from Marlabs [top-max 0.3.6]"
 
 HOMEPAGE="https://www.marlabs.com/platforms/cognitive-computing-AI-ML-platform/"
 LICENSE=""

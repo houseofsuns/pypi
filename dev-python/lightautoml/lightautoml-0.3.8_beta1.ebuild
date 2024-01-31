@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast and customizable framework for automatic ML model creation (AutoML) [topver 0.3.8.1, newver 0.3.8.1]"
+DESCRIPTION="Fast and customizable framework for automatic ML model creation (AutoML) [top-max 0.3.8.1]"
 
 HOMEPAGE="https://lightautoml.readthedocs.io/en/latest/"
 LICENSE="Apache-2.0"

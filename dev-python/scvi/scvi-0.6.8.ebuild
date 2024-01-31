@@ -56,7 +56,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nbconvert-5.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nbformat-4.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )

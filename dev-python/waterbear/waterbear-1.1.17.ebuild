@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A utility that makes it easy to use dot notation with python dictionaries [topver 2.6.8, newver 2.6.8]"
+DESCRIPTION="A utility that makes it easy to use dot notation with python dictionaries [top-max 2.6.8]"
 
 HOMEPAGE="https://github.com/episodeyang/waterbear"
 LICENSE=""

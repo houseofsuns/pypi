@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A public and reproducible collection of reference implementations and benchmark suite for distributed machine learning systems. [newver 3.0.0.dev24]"
+DESCRIPTION="A public and reproducible collection of reference implementations and benchmark suite for distributed machine learning systems."
 
 HOMEPAGE="https://github.com/mlbench/mlbench_core"
 LICENSE="Apache Software License 2.0"
@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wcwidth-0.2.5[${PYTHON_USEDEP}] )
-	lint? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -70,7 +70,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.3.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/wcwidth-0.2.5[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )

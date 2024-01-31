@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TileDB Vector Search Python client [topver 0.0.21, newver 0.0.21]"
+DESCRIPTION="TileDB Vector Search Python client [top-max 0.0.21]"
 
 HOMEPAGE="https://tiledb.com"
 LICENSE="MIT"

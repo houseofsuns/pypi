@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Realstats model version control [newver 0.2.2.dev19]"
+DESCRIPTION="Realstats model version control"
 
 HOMEPAGE="https://github.com/bharkema/RealstatsModelRollout"
 LICENSE="MIT"

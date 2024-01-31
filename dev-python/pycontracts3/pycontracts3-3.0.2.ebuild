@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyContracts is a Python package that allows to declare constraints on function parameters and return values. Contracts can be specified using Python3 annotations, in a decorator, or inside a docstring :type: and :rtype: tags. PyContracts supports a basic type system, variables binding, arithmetic constraints, and has several specialized contracts (notably for Numpy arrays), as well as an extension API. [topver 7.2, newver 7.2]"
+DESCRIPTION="PyContracts is a Python package that allows to declare constraints on function parameters and return values. Contracts can be specified using Python3 annotations, in a decorator, or inside a docstring :type: and :rtype: tags. PyContracts supports a basic type system, variables binding, arithmetic constraints, and has several specialized contracts (notably for Numpy arrays), as well as an extension API. [top-max 7.2]"
 
 HOMEPAGE="http://andreacensi.github.com/contracts/"
 LICENSE="LGPL-3"

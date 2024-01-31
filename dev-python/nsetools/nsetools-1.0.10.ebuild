@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for extracting realtime data from National Stock Exchange [topver 1.0.11, newver 1.0.11]"
+DESCRIPTION="Python library for extracting realtime data from National Stock Exchange [top-max 1.0.11]"
 
 HOMEPAGE="http://vsjha18.github.com/nsetools"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hyperparameter Optimization for sklearn [newver 0.0.3]"
+DESCRIPTION="Hyperparameter Optimization for sklearn"
 
 HOMEPAGE="http://hyperopt.github.com/hyperopt-sklearn/"
 LICENSE="BSD"

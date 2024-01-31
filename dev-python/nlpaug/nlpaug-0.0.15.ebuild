@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Natural language processing augmentation library for deep neural networks [topver 1.1.11, newver 1.1.11]"
+DESCRIPTION="Natural language processing augmentation library for deep neural networks [top-max 1.1.11]"
 
 HOMEPAGE="https://github.com/makcedward/nlpaug"
 LICENSE="MIT"

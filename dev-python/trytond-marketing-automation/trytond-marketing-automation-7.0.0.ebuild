@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module to plan, coordinate and manage marketing campaigns [newver 6.6.3]"
+DESCRIPTION="Tryton module to plan, coordinate and manage marketing campaigns"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

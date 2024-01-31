@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]
-	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

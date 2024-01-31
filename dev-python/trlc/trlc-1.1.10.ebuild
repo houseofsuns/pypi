@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Treat Requirements Like Code [topver 1.2.2, newver 1.2.2]"
+DESCRIPTION="Treat Requirements Like Code [top-max 1.2.2]"
 
 HOMEPAGE="https://github.com/bmw-software-engineering/trlc"
 LICENSE="GNU General Public License v3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Trusted Analytics Toolkit [newver 0.7.3.post20161020785]"
+DESCRIPTION="Trusted Analytics Toolkit"
 
 HOMEPAGE="http://trustedanalytics.github.io/atk"
 LICENSE="Apache-2.0"

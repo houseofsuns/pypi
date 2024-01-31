@@ -56,7 +56,7 @@ DEPENDENCIES=">=dev-python/coverage-5.0.3[${PYTHON_USEDEP}]
 	cli? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/pathspec-0.10.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	cli? ( >=dev-python/platformdirs-2.0.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/platformdirs-2.0.0_alpha3[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/pydantic-2.4.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/pysmi-0.3.4[${PYTHON_USEDEP}] )
 	cli? ( dev-python/securesystemslib[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library to send notifications to your iPhone, Discord, Telegram, WeChat, QQ and DingTalk. [topver 1.3.0, newver 1.3.0]"
+DESCRIPTION="A Python library to send notifications to your iPhone, Discord, Telegram, WeChat, QQ and DingTalk. [top-max 1.3.0]"
 
 HOMEPAGE="https://github.com/y1ndan/onepush"
 LICENSE="MIT"

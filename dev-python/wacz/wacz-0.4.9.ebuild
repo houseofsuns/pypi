@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/frictionless[${PYTHON_USEDEP}]
 	dev-python/boilerpy3[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
-	>=dev-python/black-20.8[${PYTHON_USEDEP}]
+	>=dev-python/black-20.8_beta1[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	signing? ( dev-python/authsign[${PYTHON_USEDEP}] )

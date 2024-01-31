@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple Python 3 library to download, parse and query iCal sources. [newver 0.1.26]"
+DESCRIPTION="Simple Python 3 library to download, parse and query iCal sources."
 
 HOMEPAGE=""
 LICENSE="MIT Licence"

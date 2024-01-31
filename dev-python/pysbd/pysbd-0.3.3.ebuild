@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pysbd (Python Sentence Boundary Disambiguation) is a rule-based sentence boundary detection that works out-of-the-box across many languages. [topver 0.3.4, newver 0.3.4]"
+DESCRIPTION="pysbd (Python Sentence Boundary Disambiguation) is a rule-based sentence boundary detection that works out-of-the-box across many languages. [top-max 0.3.4]"
 
 HOMEPAGE="http://nipunsadvilkar.github.io/"
 LICENSE="MIT"

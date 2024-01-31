@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for creating and deploying appfire connect apps (jira, confluence and bitbucket) [newver 1.9.0]"
+DESCRIPTION="SDK for creating and deploying appfire connect apps (jira, confluence and bitbucket)"
 
 HOMEPAGE="https://bitbucket.org/appfire/ac-app-installer/src/master/"
 LICENSE="MIT"

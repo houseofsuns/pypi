@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PlatON python SDK [newver 0.16.1]"
+DESCRIPTION="PlatON python SDK"
 
 HOMEPAGE="https://github.com/PlatONnetwork/client-sdk-python"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Comathon module for comathon.com website [topver 0.0.46, newver 0.0.46]"
+DESCRIPTION="Comathon module for comathon.com website [top-max 0.0.46]"
 
 HOMEPAGE="https://github.com/Comathon/module"
 LICENSE="MIT"

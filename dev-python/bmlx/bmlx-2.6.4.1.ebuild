@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BMLX is vairiant of tfx for internal use for BIGO [newver 2.5.28.6]"
+DESCRIPTION="BMLX is vairiant of tfx for internal use for BIGO"
 
 HOMEPAGE="https://git.sysop.bigo.sg/mlplat/bmlx"
 LICENSE="Apache-2.0"

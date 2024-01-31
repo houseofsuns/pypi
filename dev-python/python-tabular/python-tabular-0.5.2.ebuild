@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/pythonnet-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pythonnet-3.0.0_alpha2[${PYTHON_USEDEP}]
 	~dev-python/clr-loader-0.1.7[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]

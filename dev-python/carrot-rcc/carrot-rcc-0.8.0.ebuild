@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Camunda external task Robot Framework RCC client [topver 0.8.3, newver 0.8.3]"
+DESCRIPTION="Camunda external task Robot Framework RCC client [top-max 0.8.3]"
 
 HOMEPAGE="https://github.com/datakurre/carrot-rcc"
 LICENSE="Apache-2.0"

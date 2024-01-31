@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PIMS[${PYTHON_USEDEP}]
 	dev-python/POT[${PYTHON_USEDEP}]
-	>=dev-python/shapely-1.8.5[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.8.5_p1[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/dask-image[${PYTHON_USEDEP}]
 	>=dev-python/imageio-ffmpeg-0.4.8[${PYTHON_USEDEP}]

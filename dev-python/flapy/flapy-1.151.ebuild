@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Forest Light availability heterogeneity Analysis in Python [newver 1.3.3]"
+DESCRIPTION="Forest Light availability heterogeneity Analysis in Python"
 
 HOMEPAGE="https://github.com/niB-gnaW/FLApy2023"
 LICENSE=""

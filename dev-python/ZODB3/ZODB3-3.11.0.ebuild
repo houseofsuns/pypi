@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ZODB3 - Meta release for ZODB, persistent, BTrees and ZEO [newver 3.10.7]"
+DESCRIPTION="ZODB3 - Meta release for ZODB, persistent, BTrees and ZEO"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="ZPL 2.1"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module for Stripe payment [newver 6.0.8]"
+DESCRIPTION="Tryton module for Stripe payment"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

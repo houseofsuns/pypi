@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A command line program that will output helpful reminders based on parameters [newver 1.3.5]"
+DESCRIPTION="A command line program that will output helpful reminders based on parameters"
 
 HOMEPAGE="http://github.com/roaet/eh"
 LICENSE="Apache-2.0"

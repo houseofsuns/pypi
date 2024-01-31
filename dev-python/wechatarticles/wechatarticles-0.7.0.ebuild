@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="wechat articles scrapy [newver 0.6.9]"
+DESCRIPTION="wechat articles scrapy"
 
 HOMEPAGE="https://github.com/wnma3mz/wechat_articles_spider"
 LICENSE=""

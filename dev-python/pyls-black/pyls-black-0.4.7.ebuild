@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/python-language-server[${PYTHON_USEDEP}]
-	>=dev-python/black-19.3[${PYTHON_USEDEP}]
+	>=dev-python/black-19.3_beta0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

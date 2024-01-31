@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Database Abstraction Library [newver 1.4.51]"
+DESCRIPTION="Database Abstraction Library"
 
 HOMEPAGE="https://www.sqlalchemy.org"
 LICENSE="MIT"

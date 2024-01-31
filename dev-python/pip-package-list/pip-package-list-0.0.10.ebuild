@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate a flat list of packages Pip would install. [topver 0.0.11, newver 0.0.11]"
+DESCRIPTION="Generate a flat list of packages Pip would install. [top-max 0.0.11]"
 
 HOMEPAGE="https://github.com/Photonios/pip-package-list"
 LICENSE="MIT"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	analysis? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	analysis? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	analysis? ( ~dev-python/autopep8-1.4.4[${PYTHON_USEDEP}] )

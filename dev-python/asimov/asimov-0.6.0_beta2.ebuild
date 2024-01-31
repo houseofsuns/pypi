@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package for managing and interacting with data analysis jobs. [newver 0.5.6]"
+DESCRIPTION="A Python package for managing and interacting with data analysis jobs."
 
 HOMEPAGE="https://git.ligo.org/asimov/asimov"
 LICENSE="MIT"

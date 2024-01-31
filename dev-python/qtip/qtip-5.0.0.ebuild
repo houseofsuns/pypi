@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Platform Performance Benchmarking [newver 5.0.0.dev168]"
+DESCRIPTION="Platform Performance Benchmarking"
 
 HOMEPAGE="https://wiki.opnfv.org/display/qtip"
 LICENSE=""

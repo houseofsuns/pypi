@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pix2tex: Using a ViT to convert images of equations into LaTeX code. [topver 0.1.2, newver 0.1.2]"
+DESCRIPTION="pix2tex: Using a ViT to convert images of equations into LaTeX code. [top-max 0.1.2]"
 
 HOMEPAGE="https://lukas-blecher.github.io/LaTeX-OCR/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool to convert OpenVAS XML into reports. [newver 1.5.post3]"
+DESCRIPTION="A tool to convert OpenVAS XML into reports."
 
 HOMEPAGE="https://github.com/TheGroundZero/openvasreporting"
 LICENSE="GPL-3+"

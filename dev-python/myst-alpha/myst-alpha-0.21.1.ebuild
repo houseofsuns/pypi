@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/google-auth-2.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-21.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-21.6_beta0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/mypy-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-dataclasses[${PYTHON_USEDEP}] )

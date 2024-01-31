@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pathlib2[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/Distance[${PYTHON_USEDEP}]
-	>=dev-python/reedsolo-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/reedsolo-2.0.0_beta1[${PYTHON_USEDEP}]
 	dev-python/unireedsolomon[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2_beta11[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/premium-primitives[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast library for periodic elastic and elasto-plastic rough contact [topver 2.7.1, newver 2.7.1]"
+DESCRIPTION="A fast library for periodic elastic and elasto-plastic rough contact [top-max 2.7.1]"
 
 HOMEPAGE="https://c4science.ch/project/view/2036/"
 LICENSE=""

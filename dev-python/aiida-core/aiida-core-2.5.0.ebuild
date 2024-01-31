@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AiiDA is a workflow manager for computational science with a strong focus on provenance, performance and extensibility. [newver 2.4.3]"
+DESCRIPTION="AiiDA is a workflow manager for computational science with a strong focus on provenance, performance and extensibility."
 
 HOMEPAGE=""
 LICENSE=""

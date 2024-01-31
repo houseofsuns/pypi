@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MT-Service Python [topver 0.3.6, newver 0.3.6]"
+DESCRIPTION="MT-Service Python [top-max 0.3.6]"
 
 HOMEPAGE=""
 LICENSE="N/A"

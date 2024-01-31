@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Symbol Catbuffer Parser [newver 3.1.0a432]"
+DESCRIPTION="Symbol Catbuffer Parser"
 
 HOMEPAGE="https://github.com/symbol/catbuffer-parser"
 LICENSE="MIT"

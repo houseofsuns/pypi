@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyTorch Lightning Sample project. [topver 0.0.14, newver 0.0.14a0]"
+DESCRIPTION="PyTorch Lightning Sample project. [top-max 0.0.15_alpha0]"
 
 HOMEPAGE="https://github.com/Lightning-AI/lightning-sandbox"
 LICENSE="Apache-2.0"

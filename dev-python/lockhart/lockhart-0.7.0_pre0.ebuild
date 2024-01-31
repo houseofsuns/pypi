@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="generate docstrings [newver 0.6.2]"
+DESCRIPTION="generate docstrings"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A frogger-like game made with Pygame [newver 0.0.2.dev1]"
+DESCRIPTION="A frogger-like game made with Pygame"
 
 HOMEPAGE="https://github.com/viniciussousaazevedo/arrive_the_spaceship"
 LICENSE=""

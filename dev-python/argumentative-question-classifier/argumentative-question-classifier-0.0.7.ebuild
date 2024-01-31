@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="question classifier for argumentative questions in python. [topver 0.97, newver 0.86]"
+DESCRIPTION="question classifier for argumentative questions in python. [top-max 0.97]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sikuli library for Robot Framework [topver 2.0.3, newver 2.0.3]"
+DESCRIPTION="Sikuli library for Robot Framework [top-max 2.0.3]"
 
 HOMEPAGE="https://github.com/rainmanwy/robotframework-SikuliLibrary"
 LICENSE="Apache-2.0"

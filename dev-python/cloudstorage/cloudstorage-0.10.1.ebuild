@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unified cloud storage API for storage services. [topver 0.11.0, newver 0.11.0]"
+DESCRIPTION="Unified cloud storage API for storage services. [top-max 0.11.0]"
 
 HOMEPAGE="https://github.com/scottwernervt/cloudstorage/"
 LICENSE="MIT"

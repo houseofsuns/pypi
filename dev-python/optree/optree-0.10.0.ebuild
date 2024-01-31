@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8-pyi[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8_simplify[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	lint? ( <dev-python/doc8-1.0.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/doc8-1.0.0_alpha0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
 	lint? ( dev-python/xdoctest[${PYTHON_USEDEP}] )

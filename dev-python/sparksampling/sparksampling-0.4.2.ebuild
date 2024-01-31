@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyspark-sampling [newver 0.2.4]"
+DESCRIPTION="pyspark-sampling"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

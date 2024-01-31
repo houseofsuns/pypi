@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The LabJack python module. [newver 2.1.0, badver 9-20-2010]"
+DESCRIPTION="The LabJack python module. [badver 9-20-2010]"
 
 HOMEPAGE="http://www.labjack.com/support/labjackpython"
 LICENSE="UNKNOWN"

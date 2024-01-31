@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A django app that provides a plugin type model for integrating the front and backend. [topver 0.8]"
+DESCRIPTION="A django app that provides a plugin type model for integrating the front and backend."
 
 HOMEPAGE="https://github.com/RutledgePaulV/django-commands"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the Point Cloud Library (PCL). using Cython. [newver 0.3.0a1]"
+DESCRIPTION="Python bindings for the Point Cloud Library (PCL). using Cython."
 
 HOMEPAGE="http://github.com/strawlab/python-pcl"
 LICENSE="BSD"

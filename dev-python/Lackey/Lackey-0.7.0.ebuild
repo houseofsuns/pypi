@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Sikuli script implementation in Python [topver 0.7.3, newver 0.7.3]"
+DESCRIPTION="A Sikuli script implementation in Python [top-max 0.7.3]"
 
 HOMEPAGE="https://github.com/glitchassassin/lackey"
 LICENSE="MIT"

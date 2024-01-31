@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-hashicorp for Apache Airflow [newver 3.6.2]"
+DESCRIPTION="Provider package apache-airflow-providers-hashicorp for Apache Airflow"
 
 HOMEPAGE=""
 LICENSE=""

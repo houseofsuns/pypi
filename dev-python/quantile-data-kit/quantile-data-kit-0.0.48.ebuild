@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/pandas-1.3.3[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	development? ( ~dev-python/black-21.9[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	development? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	development? ( dev-python/wheel[${PYTHON_USEDEP}] )

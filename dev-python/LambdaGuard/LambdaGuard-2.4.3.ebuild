@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.6.3[${PYTHON_USEDEP}] )

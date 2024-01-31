@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A way to run queries and execute commands against an MSSQL database. [topver 1.0.0, newver 1.0.0]"
+DESCRIPTION="A way to run queries and execute commands against an MSSQL database. [top-max 1.0.0]"
 
 HOMEPAGE="http://github.com/seanchon/mssql_cli/"
 LICENSE="MIT"

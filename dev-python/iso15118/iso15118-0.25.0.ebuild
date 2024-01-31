@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation of DIN SPEC 70121, ISO 15118-2 and -20 specs for SECC [newver 0.23.16]"
+DESCRIPTION="Implementation of DIN SPEC 70121, ISO 15118-2 and -20 specs for SECC"
 
 HOMEPAGE=""
 LICENSE=""

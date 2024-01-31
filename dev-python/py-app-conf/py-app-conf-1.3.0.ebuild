@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Strongly typed and validated configuration supporting multiple file types, dynamic instantiation, and environment variables [newver 1.3.0a10]"
+DESCRIPTION="Strongly typed and validated configuration supporting multiple file types, dynamic instantiation, and environment variables"
 
 HOMEPAGE="https://github.com/nickderobertis/py-app-conf"
 LICENSE="MIT"

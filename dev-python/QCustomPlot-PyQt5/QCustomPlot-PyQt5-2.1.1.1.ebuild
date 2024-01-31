@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QCustomPlot is a Qt widget for plotting and data visualization [topver 2.1.1.1.1, newver 2.1.1.1.1]"
+DESCRIPTION="QCustomPlot is a Qt widget for plotting and data visualization [top-max 2.1.1.1.1]"
 
 HOMEPAGE="https://github.com/salsergey/QCustomPlot-PyQt"
 LICENSE="MIT"

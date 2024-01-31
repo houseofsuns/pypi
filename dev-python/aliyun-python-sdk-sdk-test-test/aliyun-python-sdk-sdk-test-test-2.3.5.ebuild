@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The sdk-test module of Aliyun Python sdk. [newver 1.10.126]"
+DESCRIPTION="The sdk-test module of Aliyun Python sdk."
 
 HOMEPAGE="http://develop.aliyun.com/sdk/python"
 LICENSE="Apache-2.0"

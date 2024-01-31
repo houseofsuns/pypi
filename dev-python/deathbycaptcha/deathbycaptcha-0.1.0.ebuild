@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python API for deathbycaptcha.com [topver 0.1.1, newver 0.1.1]"
+DESCRIPTION="python API for deathbycaptcha.com [top-max 0.1.1]"
 
 HOMEPAGE="https://github.com/hyan15/python-deathbycaptcha"
 LICENSE="BSD License New BSD License"

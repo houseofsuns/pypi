@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/aiofile[${PYTHON_USEDEP}]
 	dev-python/piffle[${PYTHON_USEDEP}]
 	dev-python/urlpath[${PYTHON_USEDEP}]
 	<dev-python/elasticsearch-8.0[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )"

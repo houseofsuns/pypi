@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An awesome iTerm2 backend for Matplotlib, so you can plot directly in your terminal. [newver 0.5]"
+DESCRIPTION="An awesome iTerm2 backend for Matplotlib, so you can plot directly in your terminal."
 
 HOMEPAGE="http://github.com/daleroberts/itermplot"
 LICENSE="MIT"

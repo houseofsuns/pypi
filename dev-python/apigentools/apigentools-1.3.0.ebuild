@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tooling for generation of API clients using openapi-generator [topver 1.6.6, newver 1.6.6]"
+DESCRIPTION="Tooling for generation of API clients using openapi-generator [top-max 1.6.6]"
 
 HOMEPAGE="https://github.com/DataDog/apigentools"
 LICENSE="BSD 3-clause"

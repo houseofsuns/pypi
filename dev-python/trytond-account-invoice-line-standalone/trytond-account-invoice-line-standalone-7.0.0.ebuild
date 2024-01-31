@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module to have standalone invoice lines [newver 6.8.1]"
+DESCRIPTION="Tryton module to have standalone invoice lines"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

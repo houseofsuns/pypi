@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some Rank/Multi-task model implemented by Pytorch [topver 0.4.1, newver 0.4.1]"
+DESCRIPTION="Some Rank/Multi-task model implemented by Pytorch [top-max 0.4.1]"
 
 HOMEPAGE="https://github.com/HaSai666/rec_pangu"
 LICENSE=""

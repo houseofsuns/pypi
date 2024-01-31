@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Serial package for trio [topver 0.4.0, newver 0.4.0]"
+DESCRIPTION="Serial package for trio [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/joernheissler/trio-serial"
 LICENSE=""

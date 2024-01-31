@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/meerkat-ml[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.5_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )

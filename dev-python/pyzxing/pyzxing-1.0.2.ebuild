@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for ZXing Java library [newver 1.0.2b0]"
+DESCRIPTION="Python wrapper for ZXing Java library"
 
 HOMEPAGE="https://github.com/ChenjieXu/pyzxing"
 LICENSE="MIT"

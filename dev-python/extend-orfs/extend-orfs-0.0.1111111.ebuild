@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MModule description [newver 0.0.30]"
+DESCRIPTION="MModule description"
 
 HOMEPAGE="https://github.com/JoanPAAL/extend_orfs/"
 LICENSE=""

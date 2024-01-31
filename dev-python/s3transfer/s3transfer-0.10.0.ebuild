@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crt"
-DEPENDENCIES="<dev-python/botocore-2.0[${PYTHON_USEDEP}]
-	crt? ( <dev-python/botocore-2.0[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/botocore-2.0_alpha0[${PYTHON_USEDEP}]
+	crt? ( <dev-python/botocore-2.0_alpha0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

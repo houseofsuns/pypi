@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Analysis software for XPCS, XSVS and SAXS data. [topver 0.7.4, newver 0.7.4]"
+DESCRIPTION="Analysis software for XPCS, XSVS and SAXS data. [top-max 0.7.4]"
 
 HOMEPAGE="https://github.com/reiserm/Xana"
 LICENSE="MIT"

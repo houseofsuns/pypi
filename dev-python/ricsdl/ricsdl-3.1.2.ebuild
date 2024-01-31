@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shared Data Layer (SDL) provides a high-speed interface to access shared storage [topver 3.1.3, newver 3.1.3]"
+DESCRIPTION="Shared Data Layer (SDL) provides a high-speed interface to access shared storage [top-max 3.1.3]"
 
 HOMEPAGE="https://gerrit.o-ran-sc.org/r/admin/repos/ric-plt/sdlpy"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of Python tools for various tasks [topver 1.0.11, newver 1.0.11]"
+DESCRIPTION="A collection of Python tools for various tasks [top-max 1.0.11]"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="MIT"

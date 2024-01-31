@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="command line jinja2 template (yet another j2cli) [topver 0.9.1, newver 0.9.1]"
+DESCRIPTION="command line jinja2 template (yet another j2cli) [top-max 0.9.1]"
 
 HOMEPAGE="https://github.com/podhmo/kamidana"
 LICENSE=""

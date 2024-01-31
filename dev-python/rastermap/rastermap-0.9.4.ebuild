@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	gui? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyqtgraph-0.11.0_rc0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )

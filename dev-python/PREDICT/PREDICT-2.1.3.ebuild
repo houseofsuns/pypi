@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Predict: a Radiomics Extensive Digital Interchangable Classification Toolkit. [topver 3.1.17, newver 3.1.17]"
+DESCRIPTION="Predict: a Radiomics Extensive Digital Interchangable Classification Toolkit. [top-max 3.1.17]"
 
 HOMEPAGE="https://github.com/Svdvoort/PREDICTFastr"
 LICENSE="Apache-2.0"

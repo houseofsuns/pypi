@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mssql"
 DEPENDENCIES="~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.9.1[${PYTHON_USEDEP}]
+	~dev-python/APScheduler-3.9.1_p1[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.1[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]

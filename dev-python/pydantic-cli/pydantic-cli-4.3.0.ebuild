@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	shtab? ( dev-python/shtab[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-0.930[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-21.7[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

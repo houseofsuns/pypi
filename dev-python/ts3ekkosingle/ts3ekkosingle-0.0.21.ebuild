@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ts3ekkosingle [newver 0.0.21.dev2]"
+DESCRIPTION="ts3ekkosingle"
 
 HOMEPAGE="https://gitlab.com/networkjanitor/ts3ekkosingle"
 LICENSE="MIT"

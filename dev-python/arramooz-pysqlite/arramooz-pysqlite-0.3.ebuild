@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Arramooz: Arabic Dictionary for Morphological analysis - python + sqlite [topver 0.4.2, newver 0.4.2]"
+DESCRIPTION="Arramooz: Arabic Dictionary for Morphological analysis - python + sqlite [top-max 0.4.2]"
 
 HOMEPAGE="http://arramooz-pysqlite.sourceforge.net/"
 LICENSE="GPL-3"

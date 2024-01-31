@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Warns about unattended branches and FIXME or TODO annotations [topver 0.8.10, newver 0.8.10]"
+DESCRIPTION="Warns about unattended branches and FIXME or TODO annotations [top-max 0.8.10]"
 
 HOMEPAGE="https://check-oldies.readthedocs.io/en/latest/"
 LICENSE="BSD"

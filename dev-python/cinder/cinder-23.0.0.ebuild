@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Block Storage [newver 20.3.2]"
+DESCRIPTION="OpenStack Block Storage"
 
 HOMEPAGE="https://docs.openstack.org/cinder/latest/"
 LICENSE=""

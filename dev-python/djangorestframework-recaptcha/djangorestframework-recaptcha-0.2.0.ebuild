@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/django-1.10[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	complexity? ( dev-python/xenon[${PYTHON_USEDEP}] )
 	documentation? ( ~dev-python/sphinx-1.7.5[${PYTHON_USEDEP}] )
-	formatting? ( ~dev-python/black-18.6[${PYTHON_USEDEP}] )
+	formatting? ( ~dev-python/black-18.6_beta2[${PYTHON_USEDEP}] )
 	publishing? ( ~dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-3.6.1[${PYTHON_USEDEP}] )

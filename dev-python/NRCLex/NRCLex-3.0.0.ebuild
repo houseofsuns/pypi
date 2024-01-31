@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An affect generator based on TextBlob and the NRC affect lexicon.  Note that lexicon license is for research purposes only. [topver 4.0, newver 4.0]"
+DESCRIPTION="An affect generator based on TextBlob and the NRC affect lexicon.  Note that lexicon license is for research purposes only. [top-max 4.0]"
 
 HOMEPAGE="https://github.com/metalcorebear/NRCLex"
 LICENSE=""

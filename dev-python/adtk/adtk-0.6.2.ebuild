@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.9[${PYTHON_USEDEP}]
 	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )

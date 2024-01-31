@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="d8n API models python library [topver 0.3.2, newver 0.3.2]"
+DESCRIPTION="d8n API models python library [top-max 0.3.2]"
 
 HOMEPAGE=""
 LICENSE=""

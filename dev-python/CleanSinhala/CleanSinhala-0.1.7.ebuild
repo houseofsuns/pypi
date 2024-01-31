@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This will provide similar function \"NLTK\" \"WordNetLemmatizer\" module to \"Sinhala\" words [topver 0.1.9, newver 0.1.9]"
+DESCRIPTION="This will provide similar function \"NLTK\" \"WordNetLemmatizer\" module to \"Sinhala\" words [top-max 0.1.9]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small dicom client in python [newver 0.3.1.dev33606]"
+DESCRIPTION="A small dicom client in python"
 
 HOMEPAGE="https://github.com/microsoft/dicom-client-python"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Koudai48 VOD Manager [topver 1.3.600, newver 1.3.600]"
+DESCRIPTION="Koudai48 VOD Manager [top-max 1.3.600]"
 
 HOMEPAGE="https://github.com/SNH48Live/KVM48"
 LICENSE="MIT"

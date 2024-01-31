@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library that allows logging in an AWS CloudWatch compatible way using a json format in serverless services (e.g. AWS Lambda). It is easily readable by humans and machines. [newver 0.0.5]"
+DESCRIPTION="Python library that allows logging in an AWS CloudWatch compatible way using a json format in serverless services (e.g. AWS Lambda). It is easily readable by humans and machines."
 
 HOMEPAGE="https://github.com/kitchenita/python-logger-cloudwatch-structlog"
 LICENSE=""

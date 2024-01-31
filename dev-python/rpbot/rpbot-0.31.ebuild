@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for inserting Robot Framework test run results into ReportPortal. [newver 0.4.3]"
+DESCRIPTION="A tool for inserting Robot Framework test run results into ReportPortal."
 
 HOMEPAGE="https://github.com/doyou89/RPBot"
 LICENSE="Apache-2.0"

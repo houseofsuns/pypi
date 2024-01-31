@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Galaxy generic utilities [newver 23.1.4]"
+DESCRIPTION="Galaxy generic utilities"
 
 HOMEPAGE="https://github.com/galaxyproject/galaxy"
 LICENSE="AFL"

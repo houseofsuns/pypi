@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="amdgpu fan controller [newver 0.0.5.post1556030199]"
+DESCRIPTION="amdgpu fan controller"
 
 HOMEPAGE="https://github.com/chestm007/amdgpu-fan"
 LICENSE="GPL-2"

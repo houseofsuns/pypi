@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package for creating simple AI Agents using the OpenAI API. [newver 1.0.6]"
+DESCRIPTION="A Python package for creating simple AI Agents using the OpenAI API."
 
 HOMEPAGE="https://github.com/dev-mush/jaims-py"
 LICENSE="MIT"

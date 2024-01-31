@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cypher Statement Builder for Python [topver 0.20.1, newver 0.20.1]"
+DESCRIPTION="Cypher Statement Builder for Python [top-max 0.20.1]"
 
 HOMEPAGE="https://github.com/emehrkay/pypher"
 LICENSE=""

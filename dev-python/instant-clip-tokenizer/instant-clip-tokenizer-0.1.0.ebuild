@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast text tokenizer for the CLIP neural network [topver 0.1.1, newver 0.1.1]"
+DESCRIPTION="Fast text tokenizer for the CLIP neural network [top-max 0.1.1]"
 
 HOMEPAGE="https://github.com/instant-labs/instant-clip-tokenizer"
 LICENSE="MIT"

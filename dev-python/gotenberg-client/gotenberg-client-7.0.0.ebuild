@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client library for accessing Gotenberg [newver 0.5.0]"
+DESCRIPTION="A client library for accessing Gotenberg"
 
 HOMEPAGE="https://github.com/matyasrichter/gotenberg-client-python"
 LICENSE="MIT"

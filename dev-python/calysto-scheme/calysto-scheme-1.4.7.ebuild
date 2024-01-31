@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Scheme kernel for Jupyter that can use Python libraries [topver 1.4.8, newver 1.4.8]"
+DESCRIPTION="A Scheme kernel for Jupyter that can use Python libraries [top-max 1.4.8]"
 
 HOMEPAGE="https://github.com/Calysto/calysto_scheme"
 LICENSE=""

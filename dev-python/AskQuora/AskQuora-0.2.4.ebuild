@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quora Q&A right from the command line [topver 0.2.7, newver 0.2.7]"
+DESCRIPTION="Quora Q&A right from the command line [top-max 0.2.7]"
 
 HOMEPAGE="https://www.github.com/Ritiek/AskQuora"
 LICENSE="MIT"

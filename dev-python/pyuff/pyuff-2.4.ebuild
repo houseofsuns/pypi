@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UFF (Universal File Format) read/write. [newver 1.0.0]"
+DESCRIPTION="UFF (Universal File Format) read/write."
 
 HOMEPAGE="https://github.com/ladisk/pyuff"
 LICENSE=""

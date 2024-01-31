@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django application for running one or more SAML service providers (SP). [topver 0.8.0, newver 0.8.0]"
+DESCRIPTION="A Django application for running one or more SAML service providers (SP). [top-max 0.8.0]"
 
 HOMEPAGE="https://github.com/imsweb/django-saml-sp"
 LICENSE="BSD"

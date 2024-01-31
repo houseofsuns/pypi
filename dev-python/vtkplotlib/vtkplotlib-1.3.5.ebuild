@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High level 3D graphics and plotting powered by VTK [topver 2.1.1, newver 2.1.1]"
+DESCRIPTION="High level 3D graphics and plotting powered by VTK [top-max 2.1.1]"
 
 HOMEPAGE="https://vtkplotlib.readthedocs.io/en/latest/index.html"
 LICENSE="GNU version 3.0"

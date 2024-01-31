@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An assortment of publicly available cross-language utilities useful to my projects. [topver 0.0.3, newver 0.0.3]"
+DESCRIPTION="An assortment of publicly available cross-language utilities useful to my projects. [top-max 0.0.3]"
 
 HOMEPAGE=""
 LICENSE="MIT"

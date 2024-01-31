@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="add-on for Pyrogram || Telegram bot helpers || Easy botting [newver 2.3.6.dev1]"
+DESCRIPTION="add-on for Pyrogram || Telegram bot helpers || Easy botting"
 
 HOMEPAGE="https://github.com/Abishnoi69/Abg"
 LICENSE="MIT"

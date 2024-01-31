@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Turi Create simplifies the development of custom machine learning models. [topver 6.4.1, newver 6.4.1]"
+DESCRIPTION="Turi Create simplifies the development of custom machine learning models. [top-max 6.4.1]"
 
 HOMEPAGE="https://github.com/apple/turicreate"
 LICENSE="LICENSE.txt"

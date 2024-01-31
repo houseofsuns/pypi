@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface for tabix [newver 0.0.2]"
+DESCRIPTION="Python interface for tabix"
 
 HOMEPAGE="https://github.com/slowkow/pytabix"
 LICENSE="MIT"

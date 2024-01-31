@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hook and simulate global mouse events in pure Python [topver 0.7.1, newver 0.7.1]"
+DESCRIPTION="Hook and simulate global mouse events in pure Python [top-max 0.7.1]"
 
 HOMEPAGE="https://github.com/boppreh/mouse"
 LICENSE="MIT"

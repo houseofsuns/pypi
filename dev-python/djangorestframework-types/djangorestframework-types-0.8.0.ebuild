@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Type stubs for Django Rest Framework [newver 0.7.1]"
+DESCRIPTION="Type stubs for Django Rest Framework"
 
 HOMEPAGE="https://github.com/sbdchd/djangorestframework-types"
 LICENSE="MIT"

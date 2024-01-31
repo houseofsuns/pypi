@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SunPy core package: Python for Solar Physics [newver 5.0.3]"
+DESCRIPTION="SunPy core package: Python for Solar Physics"
 
 HOMEPAGE="https://sunpy.org"
 LICENSE="BSD 2-Clause"

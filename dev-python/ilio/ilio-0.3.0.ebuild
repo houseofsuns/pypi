@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="inline io: just one function call instead of file open(), read(), close() [topver 0.4.0, newver 0.4.0]"
+DESCRIPTION="inline io: just one function call instead of file open(), read(), close() [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/gowhari/ilio"
 LICENSE="MIT"

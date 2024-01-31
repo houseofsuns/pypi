@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="for \"Behavior Driven Development\" (BDD) -- a client-facing scripting language to put the squeeze on all your features [newver 0.7.3]"
+DESCRIPTION="for \"Behavior Driven Development\" (BDD) -- a client-facing scripting language to put the squeeze on all your features"
 
 HOMEPAGE="https://github.com/kidosoft/morelia"
 LICENSE="MIT"

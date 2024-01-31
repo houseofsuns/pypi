@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for https://www.cyrating.com. [topver 1.0.17, newver 1.0.17]"
+DESCRIPTION="Python wrapper for https://www.cyrating.com. [top-max 1.0.17]"
 
 HOMEPAGE=""
 LICENSE="MIT"

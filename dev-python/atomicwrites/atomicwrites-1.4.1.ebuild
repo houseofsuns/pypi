@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Atomic file writes. [newver 1.4.0]"
+DESCRIPTION="Atomic file writes."
 
 HOMEPAGE="https://github.com/untitaker/python-atomicwrites"
 LICENSE="MIT"

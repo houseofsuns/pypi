@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/lxml-4.7.1[${PYTHON_USEDEP}]
 	dev-python/waybackpy[${PYTHON_USEDEP}]
 	dev-python/types-beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.931[${PYTHON_USEDEP}] )

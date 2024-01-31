@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/bip32[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]
 	dev-python/ledgercomm[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
-	hid? ( >=dev-python/hidapi-0.9.0[${PYTHON_USEDEP}] )"
+	hid? ( >=dev-python/hidapi-0.9.0_p3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

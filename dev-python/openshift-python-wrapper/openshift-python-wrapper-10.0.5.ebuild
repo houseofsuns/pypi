@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wrapper around https://github.com/kubernetes-client/python [newver 4.14.50]"
+DESCRIPTION="Wrapper around https://github.com/kubernetes-client/python"
 
 HOMEPAGE="https://github.com/RedHatQE/openshift-python-wrapper"
 LICENSE="Apache-2.0"

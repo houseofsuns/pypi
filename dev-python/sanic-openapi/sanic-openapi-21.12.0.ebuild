@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc test"
 DEPENDENCIES="dev-python/sanic[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.0.0[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-4.3.19[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-4.5.3[${PYTHON_USEDEP}] )

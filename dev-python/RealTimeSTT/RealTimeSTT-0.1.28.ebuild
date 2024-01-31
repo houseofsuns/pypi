@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast Voice Activity Detection and Transcription System [newver 0.1.9]"
+DESCRIPTION="A fast Voice Activity Detection and Transcription System"
 
 HOMEPAGE="https://github.com/KoljaB/RealTimeSTT"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for Illumina Connected Analytics [newver 2.3.0rc1]"
+DESCRIPTION="Python SDK for Illumina Connected Analytics"
 
 HOMEPAGE="https://github.com/umccr-illumina/libica"
 LICENSE="MIT"

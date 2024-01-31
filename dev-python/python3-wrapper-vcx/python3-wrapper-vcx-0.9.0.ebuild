@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python 3 wrapper for libcxs [newver 0.8.0.dev1628]"
+DESCRIPTION="Python 3 wrapper for libcxs"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

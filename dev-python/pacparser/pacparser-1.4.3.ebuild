@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pacparser package [newver 1.4.3.dev4]"
+DESCRIPTION="Pacparser package"
 
 HOMEPAGE="https://github.com/manugarg/pacparser"
 LICENSE="LGPL-3"

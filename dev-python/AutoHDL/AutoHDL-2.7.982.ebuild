@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automatization Utilities for HDL projects [topver 3.0.1196, newver 3.0.1196]"
+DESCRIPTION="Automatization Utilities for HDL projects"
 
 HOMEPAGE="UNKNOWN"
 LICENSE="UNKNOWN"

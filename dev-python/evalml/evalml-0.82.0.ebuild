@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/nbconvert-6.4.5[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2_beta11[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
 	prophet? ( dev-python/prophet[${PYTHON_USEDEP}] )

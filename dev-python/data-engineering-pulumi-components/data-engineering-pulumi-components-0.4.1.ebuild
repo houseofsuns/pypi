@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reusable components for use in Pulumi Python projects [newver 0.4.1.dev64]"
+DESCRIPTION="Reusable components for use in Pulumi Python projects"
 
 HOMEPAGE=""
 LICENSE="MIT"

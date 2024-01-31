@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Api lib for simple life [newver 0.0.7]"
+DESCRIPTION="Api lib for simple life"
 
 HOMEPAGE="http://pypi.python.org/pypi/api"
 LICENSE="MIT"

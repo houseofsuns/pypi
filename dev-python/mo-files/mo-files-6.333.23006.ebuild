@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Files! Steamlined for UTF8 and JSON. [topver 6.511.24028, newver 6.511.24028]"
+DESCRIPTION="More Files! Steamlined for UTF8 and JSON. [top-max 6.511.24028]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-files"
 LICENSE="MPL 2.0"

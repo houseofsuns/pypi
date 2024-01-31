@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Medical Deep Learning Framework. [topver 0.8.1]"
+DESCRIPTION="Medical Deep Learning Framework. [top-max 0.8.1]"
 
 HOMEPAGE="https://github.com/InGradient/InGradient_AI_Library"
 LICENSE="MIT"

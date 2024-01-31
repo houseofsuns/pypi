@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Inmanta deployment tool [newver 8.7.2]"
+DESCRIPTION="Inmanta deployment tool"
 
 HOMEPAGE="https://github.com/inmanta/inmanta-core"
 LICENSE="Apache Software License 2"

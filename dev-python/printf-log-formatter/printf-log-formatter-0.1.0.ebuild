@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convert logger f-strings and str.format syntax to printf-style strings [topver 0.3.0, newver 0.3.0]"
+DESCRIPTION="Convert logger f-strings and str.format syntax to printf-style strings [top-max 0.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

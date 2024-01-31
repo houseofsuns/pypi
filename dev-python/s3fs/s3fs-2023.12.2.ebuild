@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="awscli boto3"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2023.12.2[${PYTHON_USEDEP}]
-	>dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>dev-python/aiohttp-4.0.0_alpha0[${PYTHON_USEDEP}]
 	awscli? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	boto3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

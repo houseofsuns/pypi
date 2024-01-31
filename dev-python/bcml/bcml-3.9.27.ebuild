@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A mod manager for The Legend of Zelda: Breath of the Wild [topver 3.10.8, newver 3.10.8]"
+DESCRIPTION="A mod manager for The Legend of Zelda: Breath of the Wild [top-max 3.10.8]"
 
 HOMEPAGE="https://gamebanana.com/tools/6624"
 LICENSE=""

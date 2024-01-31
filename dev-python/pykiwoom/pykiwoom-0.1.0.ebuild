@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python wrapper for Kiwoom Open API+ (Korea Stock Market) [topver 0.1.6, newver 0.1.6]"
+DESCRIPTION="python wrapper for Kiwoom Open API+ (Korea Stock Market) [top-max 0.1.6]"
 
 HOMEPAGE="https://github.com/sharebook-kr/pykiwoom"
 LICENSE="MIT"

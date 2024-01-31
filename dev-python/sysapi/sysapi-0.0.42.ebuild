@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A REST API service to query and manage the SAFER-STORAGE backup and storage in space in time dimensions [topver 0.0.53, newver 0.0.53]"
+DESCRIPTION="A REST API service to query and manage the SAFER-STORAGE backup and storage in space in time dimensions [top-max 0.0.53]"
 
 HOMEPAGE="https://gitlab.safer-storage.com/safer-dev-priv/nas-sysapi"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python's forecast::auto.arima equivalent [topver 0.9.0, newver 0.9.0]"
+DESCRIPTION="Python's forecast::auto.arima equivalent [top-max 0.9.0]"
 
 HOMEPAGE="https://github.com/tgsmith61591/pyramid"
 LICENSE="MIT"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="~dev-python/PySDL2-0.9[${PYTHON_USEDEP}]
-	~dev-python/cython-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/cython-3.0.0_alpha11[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]
 	dev-python/pytiled-parser[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-2.12[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/PySDL2-0.9[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.16[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2_beta11[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )

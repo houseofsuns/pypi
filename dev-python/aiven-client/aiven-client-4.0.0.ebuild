@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aiven.io client library / command-line client [newver 3.1.2]"
+DESCRIPTION="Aiven.io client library / command-line client"
 
 HOMEPAGE="https://github.com/aiven/aiven-client"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Juelich Machine Learning Library [newver 0.3.1]"
+DESCRIPTION="Juelich Machine Learning Library"
 
 HOMEPAGE="https://juaml.github.io/julearn"
 LICENSE="AGPL-3"

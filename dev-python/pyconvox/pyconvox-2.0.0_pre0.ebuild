@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Universal Command Line Environment for Pyconvox, a wrapper for convox application. [newver 0.2.3]"
+DESCRIPTION="Universal Command Line Environment for Pyconvox, a wrapper for convox application."
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Asynchronous library to retrieve data from PEGELONLINE. [topver 0.0.7, newver 0.0.7]"
+DESCRIPTION="Asynchronous library to retrieve data from PEGELONLINE. [top-max 0.0.7]"
 
 HOMEPAGE="https://github.com/mib1185/aiopegelonline"
 LICENSE="Apache-2.0"

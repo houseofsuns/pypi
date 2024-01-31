@@ -159,7 +159,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( dev-python/python-bidi[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}] )
-	pinned? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )

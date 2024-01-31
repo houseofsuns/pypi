@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GDB-like Python Debugger in the Trepan family [topver 0.8.6, newver 0.8.6]"
+DESCRIPTION="GDB-like Python Debugger in the Trepan family"
 
 HOMEPAGE="http://github.com/rocky/python2-trepan/"
 LICENSE="GPL-3"

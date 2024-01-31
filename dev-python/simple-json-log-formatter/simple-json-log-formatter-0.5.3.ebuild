@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple log formatter for Logstash-compatible JSON output [topver 0.5.5, newver 0.5.5]"
+DESCRIPTION="Simple log formatter for Logstash-compatible JSON output [top-max 0.5.5]"
 
 HOMEPAGE="https://github.com/flaviocpontes/simple_json_log_formatter"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some usefull tk widgets like: ImgView, ScrollView. [topver 0.2.7, newver 0.2.7]"
+DESCRIPTION="Some usefull tk widgets like: ImgView, ScrollView. [top-max 0.2.7]"
 
 HOMEPAGE="https://www.baidu.com"
 LICENSE="BSD"

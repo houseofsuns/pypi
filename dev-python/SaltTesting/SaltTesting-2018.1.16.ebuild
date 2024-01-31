@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Required testing tools needed in the several SaltStack projects. [topver 2018.9.21, newver 2018.9.21]"
+DESCRIPTION="Required testing tools needed in the several SaltStack projects. [top-max 2018.9.21]"
 
 HOMEPAGE="https://github.com/saltstack/salt-testing"
 LICENSE=""

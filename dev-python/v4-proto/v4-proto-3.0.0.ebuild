@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Protos for dYdX Chain protocol [newver 3.0.0rc1]"
+DESCRIPTION="Protos for dYdX Chain protocol"
 
 HOMEPAGE=""
 LICENSE=""

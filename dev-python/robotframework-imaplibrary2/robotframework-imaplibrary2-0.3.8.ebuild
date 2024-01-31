@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A IMAP email testing library for Robot Framework [topver 0.4.5, newver 0.4.5]"
+DESCRIPTION="A IMAP email testing library for Robot Framework [top-max 0.4.5]"
 
 HOMEPAGE="https://github.com/lasselindqvist/robotframework-imaplibrary2"
 LICENSE="Apache-2.0"

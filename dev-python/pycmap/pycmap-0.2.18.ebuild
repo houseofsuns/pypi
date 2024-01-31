@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simons CMAP API python client [topver 0.2.19, newver 0.2.19]"
+DESCRIPTION="Simons CMAP API python client [top-max 0.2.19]"
 
 HOMEPAGE="https://github.com/simonscmap/pycmap"
 LICENSE=""

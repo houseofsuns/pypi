@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Avocado Runner for libvirt VM Execution [newver 69.3]"
+DESCRIPTION="Avocado Runner for libvirt VM Execution"
 
 HOMEPAGE="http://avocado-framework.github.io/"
 LICENSE=""

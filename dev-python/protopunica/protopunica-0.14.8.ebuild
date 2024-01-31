@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gpu plotting"
 DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
-	>=dev-python/joblib-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.9.0_beta4[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.17.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Expiring Authentication Tokens for Django REST Framework [newver 0.1.3]"
+DESCRIPTION="Expiring Authentication Tokens for Django REST Framework"
 
 HOMEPAGE="https://github.com/JamesRitchie/django-rest-framework-expiring-tokens"
 LICENSE="BSD"

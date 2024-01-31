@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module to define tolerance for sale shipment [newver 5.0.6]"
+DESCRIPTION="Tryton module to define tolerance for sale shipment"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

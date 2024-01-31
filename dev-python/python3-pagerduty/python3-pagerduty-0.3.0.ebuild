@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for the PagerDuty service API [newver 0.2.47]"
+DESCRIPTION="Library for the PagerDuty service API"
 
 HOMEPAGE="http://github.com/prosperworks/python-pagerduty"
 LICENSE="BSD"

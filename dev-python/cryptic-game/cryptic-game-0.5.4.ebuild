@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Microservice handler for cryptic-game [newver 0.5.4.dev0]"
+DESCRIPTION="Microservice handler for cryptic-game"
 
 HOMEPAGE="https://github.com/cryptic-game/python3-lib"
 LICENSE=""

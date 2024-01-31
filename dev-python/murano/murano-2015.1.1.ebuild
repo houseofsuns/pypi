@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Murano API [newver 16.0.0]"
+DESCRIPTION="Murano API"
 
 HOMEPAGE="https://launchpad.net/murano"
 LICENSE="Apache-2.0"

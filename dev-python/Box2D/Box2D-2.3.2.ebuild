@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Box2D [topver 2.3.10, newver 2.3.10]"
+DESCRIPTION="Python Box2D [top-max 2.3.10]"
 
 HOMEPAGE="http://pybox2d.googlecode.com/"
 LICENSE="ZLIB"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for autocompleting text files using OpenAI's GPT models. [topver 0.1.8, newver 0.1.8]"
+DESCRIPTION="A tool for autocompleting text files using OpenAI's GPT models. [top-max 0.1.8]"
 
 HOMEPAGE="https://github.com/bachittle/FileGPT"
 LICENSE=""

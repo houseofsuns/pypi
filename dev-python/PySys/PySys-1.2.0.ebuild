@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python System Test Framework [topver 2.2, newver 2.2]"
+DESCRIPTION="Python System Test Framework [top-max 2.2]"
 
 HOMEPAGE="http://www.sourceforge.net/projects/pysys"
 LICENSE=""

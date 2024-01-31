@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Telemetry dashboard for APRS packets from TNC, https://aprs.fi, and PostGIS [topver 2.1.0, newver 2.1.0]"
+DESCRIPTION="Telemetry dashboard for APRS packets from TNC, https://aprs.fi, and PostGIS [top-max 2.1.0]"
 
 HOMEPAGE="https://packetraven.readthedocs.io"
 LICENSE="MIT"

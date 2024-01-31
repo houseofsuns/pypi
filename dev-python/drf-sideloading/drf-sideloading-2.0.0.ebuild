@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extension for Django Rest Framework to enable simple sideloading [topver 2.0.1, newver 2.0.1]"
+DESCRIPTION="Extension for Django Rest Framework to enable simple sideloading [top-max 2.0.1]"
 
 HOMEPAGE="https://github.com/namespace-ee/drf-sideloading"
 LICENSE="MIT"

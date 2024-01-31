@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/aioamqp[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/refurb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	redis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.2.0_rc1[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/redis-4.5.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-aio[${PYTHON_USEDEP}] )

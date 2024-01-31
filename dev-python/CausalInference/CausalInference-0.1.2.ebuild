@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Causal Inference in Python [topver 0.1.3, newver 0.1.3]"
+DESCRIPTION="Causal Inference in Python [top-max 0.1.3]"
 
 HOMEPAGE="https://github.com/laurencium/causalinference"
 LICENSE="LICENSE.txt"

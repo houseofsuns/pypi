@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/lingua-language-detector[${PYTHON_USEDEP}]
 	dev-python/pysrt[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )"

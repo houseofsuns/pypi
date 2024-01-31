@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OAuth2 Provider for Django/GeoNode [topver 2.2.2, newver 2.2.2]"
+DESCRIPTION="OAuth2 Provider for Django/GeoNode [top-max 2.2.2]"
 
 HOMEPAGE="https://github.com/GeoNode/geonode-oauth-toolkit"
 LICENSE=""

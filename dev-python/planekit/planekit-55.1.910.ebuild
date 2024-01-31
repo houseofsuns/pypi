@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Developer Tools for Fixed-wing [newver 0.1.23]"
+DESCRIPTION="Developer Tools for Fixed-wing"
 
 HOMEPAGE="https://github.com/msasen/planekit"
 LICENSE="MIT"

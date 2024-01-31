@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/types-cachetools[${PYTHON_USEDEP}]
 	<dev-python/uvloop-1.0[${PYTHON_USEDEP}]
-	xarray? ( >=dev-python/xarray-0.0[${PYTHON_USEDEP}] )
+	xarray? ( >=dev-python/xarray-2022.12.0[${PYTHON_USEDEP}] )
 	dev-python/zarr[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

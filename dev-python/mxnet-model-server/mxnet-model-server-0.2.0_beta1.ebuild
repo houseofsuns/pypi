@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Model Server for Apache MXNet is a tool for deploying neural net models for inference [topver 1.0.9, newver 1.0.9b20191115]"
+DESCRIPTION="Model Server for Apache MXNet is a tool for deploying neural net models for inference [top-max 1.0.9_beta20191115]"
 
 HOMEPAGE="https://github.com/awslabs/mxnet-model-server"
 LICENSE="Apache License Version 2.0"

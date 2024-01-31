@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility Package that Displays out the Tree Structure of a Particular Directory. [topver 0.0.4, newver 0.0.4]"
+DESCRIPTION="Utility Package that Displays out the Tree Structure of a Particular Directory. [top-max 0.0.4]"
 
 HOMEPAGE="https://github.com/rahulbordoloi/Directory-Tree/"
 LICENSE=""

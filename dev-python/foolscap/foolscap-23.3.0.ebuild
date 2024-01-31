@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Foolscap contains an RPC protocol for Twisted. [topver 23.11.0, newver 23.11.0]"
+DESCRIPTION="Foolscap contains an RPC protocol for Twisted. [top-max 23.11.0]"
 
 HOMEPAGE="http://foolscap.lothar.com/trac"
 LICENSE="MIT"

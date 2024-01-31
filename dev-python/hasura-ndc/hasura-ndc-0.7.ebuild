@@ -35,6 +35,6 @@ DEPENDENCIES="~dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/starlette-0.27.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
-	~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]"
+	~dev-python/uvicorn-0.24.0_p1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

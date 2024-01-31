@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="C level implementation of H2MM algorithm by Pirchi. 2016 [topver 1.0.3, newver 1.0.3]"
+DESCRIPTION="C level implementation of H2MM algorithm by Pirchi. 2016 [top-max 1.0.3]"
 
 HOMEPAGE="https://github.com/harripd/H2MMpythonlib"
 LICENSE="MIT"

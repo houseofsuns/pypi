@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="countryinfo is a python module for returning data about countries, ISO info and states/provinces within them. [topver 0.1.2, newver 0.1.2]"
+DESCRIPTION="countryinfo is a python module for returning data about countries, ISO info and states/provinces within them. [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/porimol/countryinfo"
 LICENSE="MIT"

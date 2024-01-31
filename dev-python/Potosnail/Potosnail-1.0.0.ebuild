@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="improves ML workflow [newver 0.2.4]"
+DESCRIPTION="improves ML workflow"
 
 HOMEPAGE="https://github.com/spe301/Potosnail"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small example package [newver 0.1.6]"
+DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/retropotato/dbrepo-lib"
 LICENSE=""

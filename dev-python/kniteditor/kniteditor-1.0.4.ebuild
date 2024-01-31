@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An editor for knitwork. [topver 1.0.5, newver 1.0.5]"
+DESCRIPTION="An editor for knitwork. [top-max 1.0.5]"
 
 HOMEPAGE="https://github.com/fossasia/kniteditor"
 LICENSE="LGPL-3"

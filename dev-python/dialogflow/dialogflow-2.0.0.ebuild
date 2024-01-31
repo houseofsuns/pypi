@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client library for the Dialogflow API [newver 1.1.3]"
+DESCRIPTION="Client library for the Dialogflow API"
 
 HOMEPAGE="https://github.com/googleapis/dialogflow-python-client-v2"
 LICENSE="Apache-2.0"
@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/google-api-core-2.0.0[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/google-api-core-2.0.0_pre0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

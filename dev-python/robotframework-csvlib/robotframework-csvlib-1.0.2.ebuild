@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CSV library for robotframework written in Python 3 [newver 1.0.1]"
+DESCRIPTION="CSV library for robotframework written in Python 3"
 
 HOMEPAGE="https://github.com/Zeroune/robotframework-csvlib"
 LICENSE=""

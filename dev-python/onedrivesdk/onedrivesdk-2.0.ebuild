@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deprecated OneDrive SDK. Install \`onedrivesdk<2\` for legacy versions. [topver 2.0.1, newver 2.0.1]"
+DESCRIPTION="Deprecated OneDrive SDK. Install \`onedrivesdk<2\` for legacy versions. [top-max 2.0.1]"
 
 HOMEPAGE="https://docs.microsoft.com/graph/onedrive-concept-overview"
 LICENSE=""

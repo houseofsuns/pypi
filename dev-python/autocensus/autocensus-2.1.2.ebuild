@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for collecting ACS and geospatial data from the Census API [newver 1.1.4]"
+DESCRIPTION="A tool for collecting ACS and geospatial data from the Census API"
 
 HOMEPAGE="https://github.com/socrata/autocensus"
 LICENSE="MIT"

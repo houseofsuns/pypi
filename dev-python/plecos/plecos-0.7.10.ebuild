@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ocean tool for validating asset metadata. [topver 1.1.0, newver 1.1.0]"
+DESCRIPTION="Ocean tool for validating asset metadata. [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/oceanprotocol/plecos"
 LICENSE="Apache Software License 2.0"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="~dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonschema-3.0.0_beta3[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

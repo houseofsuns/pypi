@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Metadata rules for ambition/edc project [topver 0.1.24, newver 0.1.24]"
+DESCRIPTION="Metadata rules for ambition/edc project [top-max 0.1.24]"
 
 HOMEPAGE="https://github.com/ambition-trial/ambition-metadata-rules"
 LICENSE="GPL license, see LICENSE"

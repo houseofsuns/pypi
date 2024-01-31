@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Libreria para microservicios basados en mensajes [topver 1.7.0, newver 1.7.0]"
+DESCRIPTION="Libreria para microservicios basados en mensajes [top-max 1.7.0]"
 
 HOMEPAGE=""
 LICENSE=""

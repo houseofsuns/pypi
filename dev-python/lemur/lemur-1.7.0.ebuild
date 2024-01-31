@@ -112,7 +112,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
 	~dev-python/python-ldap-3.4.4[${PYTHON_USEDEP}]
-	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/redis-5.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
@@ -293,7 +293,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-ldap-3.4.4[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/readme-renderer-42.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
@@ -494,7 +494,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/python-ldap-3.4.4[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/referencing-0.30.2[${PYTHON_USEDEP}] )
@@ -696,7 +696,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/python-ldap-3.4.4[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/referencing-0.30.2[${PYTHON_USEDEP}] )

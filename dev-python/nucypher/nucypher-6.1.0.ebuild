@@ -85,7 +85,7 @@ DEPENDENCIES="~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
 	dev-python/ipfshttpclient[${PYTHON_USEDEP}]
 	~dev-python/twisted-22.4.0[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0.8[${PYTHON_USEDEP}]
-	~dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]
+	~dev-python/ecdsa-0.18.0_beta2[${PYTHON_USEDEP}]
 	~dev-python/semantic-version-2.9.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
@@ -162,7 +162,7 @@ DEPENDENCIES="~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
 	benchmark? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/execnet-1.9.0[${PYTHON_USEDEP}] )
-	benchmark? ( ~dev-python/greenlet-2.0.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/greenlet-2.0.0_alpha2[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/virtualenv-20.14.1[${PYTHON_USEDEP}] )
 	benchmark? ( ~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}] )
@@ -220,7 +220,7 @@ DEPENDENCIES="~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/execnet-1.9.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/greenlet-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/greenlet-2.0.0_alpha2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/virtualenv-20.14.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}] )

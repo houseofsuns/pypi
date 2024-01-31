@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Debugging tools for many platforms [topver 39, newver 39]"
+DESCRIPTION="Debugging tools for many platforms [top-max 39]"
 
 HOMEPAGE="https://github.com/assafnativ/NativDebugging"
 LICENSE="LGPL-3"

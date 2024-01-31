@@ -27,10 +27,10 @@ IUSE="dev tests"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.4[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

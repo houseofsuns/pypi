@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple data ingestion library to guide data flows from some places to other places [newver 0.4.24]"
+DESCRIPTION="A simple data ingestion library to guide data flows from some places to other places"
 
 HOMEPAGE="https://github.com/dyvenia/viadot"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-tableau for Apache Airflow [newver 4.4.1]"
+DESCRIPTION="Provider package apache-airflow-providers-tableau for Apache Airflow"
 
 HOMEPAGE=""
 LICENSE=""

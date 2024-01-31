@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.7_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/deepdiff-5.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )

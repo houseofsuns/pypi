@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A seamless bridge from model development to model delivery [topver 0.7.24, newver 0.7.24rc2]"
+DESCRIPTION="A seamless bridge from model development to model delivery"
 
 HOMEPAGE="https://github.com/basetenlabs/truss"
 LICENSE="MIT"

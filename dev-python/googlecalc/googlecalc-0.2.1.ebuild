@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An interface to the Google Calculator [topver 0.2.2]"
+DESCRIPTION="An interface to the Google Calculator"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API Wrapper for the Gif library Tenor and Giphy. Join my server: https://discord.gg/uFdVUMH [topver 2.5.0, newver 2.5.0]"
+DESCRIPTION="API Wrapper for the Gif library Tenor and Giphy. Join my server: https://discord.gg/uFdVUMH [top-max 2.5.0]"
 
 HOMEPAGE="https://github.com/realSnosh/TenGiphPy"
 LICENSE="MIT"

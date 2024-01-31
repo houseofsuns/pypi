@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Vae disentanglement framework built with pytorch lightning. [newver 0.7.2]"
+DESCRIPTION="Vae disentanglement framework built with pytorch lightning."
 
 HOMEPAGE="https://github.com/nmichlo/disent"
 LICENSE=""

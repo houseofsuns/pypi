@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tensors and Dynamic neural networks in Python with strong GPU acceleration [topver 0.8.1, badver 0.5.0a0_pre100]"
+DESCRIPTION="Tensors and Dynamic neural networks in Python with strong GPU acceleration [badver 0.5.0a0.dev100]"
 
 HOMEPAGE=""
 LICENSE=""

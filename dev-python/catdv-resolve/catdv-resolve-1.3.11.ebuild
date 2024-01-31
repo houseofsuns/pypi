@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/future-0.18.2[${PYTHON_USEDEP}]
-	~dev-python/pythonnet-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/pythonnet-3.0.0_alpha2[${PYTHON_USEDEP}]
 	~dev-python/clr-loader-0.1.7[${PYTHON_USEDEP}]
 	dev-python/pywebview[${PYTHON_USEDEP}]
 	<=dev-python/flask-3.0.0[${PYTHON_USEDEP}]

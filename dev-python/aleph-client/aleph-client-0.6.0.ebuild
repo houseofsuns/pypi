@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight Python Client library for the Aleph.im network [newver 0.4.12]"
+DESCRIPTION="Lightweight Python Client library for the Aleph.im network"
 
 HOMEPAGE="https://github.com/aleph-im/aleph-client"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast sampling from large images [topver 0.7.7, newver 0.7.7]"
+DESCRIPTION="Fast sampling from large images [top-max 0.7.7]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/ndsampler"
 LICENSE="Apache-2.0"

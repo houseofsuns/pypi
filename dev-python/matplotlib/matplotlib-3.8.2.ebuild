@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python plotting package [newver 3.7.4]"
+DESCRIPTION="Python plotting package"
 
 HOMEPAGE="https://matplotlib.org"
 LICENSE="PSF-2.4"

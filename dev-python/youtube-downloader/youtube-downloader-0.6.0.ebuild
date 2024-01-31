@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="youtube-dl GUI simplify [topver 0.6.2, newver 0.6.2]"
+DESCRIPTION="youtube-dl GUI simplify [top-max 0.6.2]"
 
 HOMEPAGE="https://www.github.com/blooser/youtube-downloader"
 LICENSE="GPL-3"

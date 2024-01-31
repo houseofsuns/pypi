@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interactive netlist visualisation tools compatible with GDSFactory [newver 0.0.9]"
+DESCRIPTION="Interactive netlist visualisation tools compatible with GDSFactory"
 
 HOMEPAGE="https://github.com/daquintero/gine"
 LICENSE="BSD 3-Clause License"

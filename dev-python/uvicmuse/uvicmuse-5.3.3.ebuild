@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Stream and visualize EEG data from the Muse headset. [newver 3.3.3]"
+DESCRIPTION="Stream and visualize EEG data from the Muse headset."
 
 HOMEPAGE=""
 LICENSE="MIT"

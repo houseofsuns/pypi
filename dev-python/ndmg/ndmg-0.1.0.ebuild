@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neuro Data MRI to Graphs Pipeline [topver 0.2.1, newver 0.2.1]"
+DESCRIPTION="Neuro Data MRI to Graphs Pipeline [top-max 0.2.1]"
 
 HOMEPAGE="https://github.com/neurodata/ndmg"
 LICENSE="UNKNOWN"

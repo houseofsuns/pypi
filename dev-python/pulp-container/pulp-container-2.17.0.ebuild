@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Container plugin for the Pulp Project [newver 2.16.4]"
+DESCRIPTION="Container plugin for the Pulp Project"
 
 HOMEPAGE="https://pulpproject.org/"
 LICENSE="GPL-2+"

@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pdoc3-0.9.2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-21.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.9_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.12.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

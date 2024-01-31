@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PennyLane is a Python quantum machine learning library by Xanadu Inc. [topver 0.34.0, newver 0.34.0]"
+DESCRIPTION="PennyLane is a Python quantum machine learning library by Xanadu Inc. [top-max 0.34.0]"
 
 HOMEPAGE="https://github.com/XanaduAI/pennylane"
 LICENSE="Apache-2.0"

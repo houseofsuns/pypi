@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mysam: Arabic tags manager [topver 0.4, newver 0.4]"
+DESCRIPTION="Mysam: Arabic tags manager [top-max 0.4]"
 
 HOMEPAGE="http://pypi.python.com/projects/mysam-tagmanager/"
 LICENSE="GPL-3"

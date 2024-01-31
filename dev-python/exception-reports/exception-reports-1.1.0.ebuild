@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interactive stacktraces with variable state at each level. [topver 2.0.0, newver 2.0.0]"
+DESCRIPTION="Interactive stacktraces with variable state at each level. [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/circleup/exception-reports"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A High-performance, Generality, Humane Command Line Arguments Parser Library. [newver 1.7.42]"
+DESCRIPTION="A High-performance, Generality, Humane Command Line Arguments Parser Library."
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="一个简单的基于PhigrosLibrary的Phigros查分插件，适用于nonebot-adapter-qq [topver 0.1.3, newver 0.1.3]"
+DESCRIPTION="一个简单的基于PhigrosLibrary的Phigros查分插件，适用于nonebot-adapter-qq [top-max 0.1.3]"
 
 HOMEPAGE="https://github.com/XTxiaoting14332/nonebot-plugin-phigros-qq"
 LICENSE=""

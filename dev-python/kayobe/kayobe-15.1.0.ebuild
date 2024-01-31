@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deployment of OpenStack to bare metal using OpenStack kolla and bifrost [newver 12.10.0]"
+DESCRIPTION="Deployment of OpenStack to bare metal using OpenStack kolla and bifrost"
 
 HOMEPAGE="https://docs.openstack.org/kayobe/latest/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flamingos 2 - Probe Detector [newver 0.2]"
+DESCRIPTION="Flamingos 2 - Probe Detector"
 
 HOMEPAGE="https://gitlab.gemini.edu/DRSoftware/gemaux_python/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A short utility library for Python [topver 1.3.6, newver 1.3.6]"
+DESCRIPTION="A short utility library for Python [top-max 1.3.6]"
 
 HOMEPAGE="https://github.com/clemoni/clemoni_utilities"
 LICENSE="MIT"

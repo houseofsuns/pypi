@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zwicky Transient Facility support for the Ampel system [newver 0.8.13]"
+DESCRIPTION="Zwicky Transient Facility support for the Ampel system"
 
 HOMEPAGE="https://ampelproject.github.io"
 LICENSE="BSD"

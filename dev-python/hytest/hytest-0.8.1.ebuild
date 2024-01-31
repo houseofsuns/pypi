@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="一款系统测试自动化框架 Generic automation framework for QA testing [topver 0.8.12, newver 0.8.12]"
+DESCRIPTION="一款系统测试自动化框架 Generic automation framework for QA testing [top-max 0.8.12]"
 
 HOMEPAGE="http://www.byhy.net"
 LICENSE="Apache-2.0"

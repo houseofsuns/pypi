@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep learning framework [newver 1.4.3]"
+DESCRIPTION="Deep learning framework"
 
 HOMEPAGE="https://github.com/fastestimator/fastestimator"
 LICENSE="Apache-2.0"

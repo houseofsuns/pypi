@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="redis"
 DEPENDENCIES="<dev-python/starlette-1.0[${PYTHON_USEDEP}]
 	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
-	redis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-4.2.0_rc1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

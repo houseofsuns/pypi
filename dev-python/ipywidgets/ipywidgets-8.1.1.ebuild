@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Jupyter interactive widgets [newver 7.8.1]"
+DESCRIPTION="Jupyter interactive widgets"
 
 HOMEPAGE="http://jupyter.org"
 LICENSE="BSD 3-Clause License"

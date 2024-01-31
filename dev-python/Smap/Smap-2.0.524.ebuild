@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="sMAP standard library and drivers [newver 2.0.bcb1a7]"
+DESCRIPTION="sMAP standard library and drivers"
 
 HOMEPAGE="http://code.google.com/p/smap-data"
 LICENSE="BSD"

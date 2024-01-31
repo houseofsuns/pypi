@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Host for SharkNinja BDP Python APIs [topver 1.0.2, newver 1.0.2]"
+DESCRIPTION="Host for SharkNinja BDP Python APIs [top-max 1.0.2]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Git based metric store [newver 0.19.0a12]"
+DESCRIPTION="Git based metric store"
 
 HOMEPAGE="https://github.com/data-drift/data-drift/tree/main/tools/datagit"
 LICENSE=""

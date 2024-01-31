@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast numerical expression evaluator for NumPy [topver 2.9.0, newver 2.9.0]"
+DESCRIPTION="Fast numerical expression evaluator for NumPy [top-max 2.9.0]"
 
 HOMEPAGE="https://github.com/pydata/numexpr"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ajax wsgi examples (FF3.5 W3C) [newver 121]"
+DESCRIPTION="Ajax wsgi examples (FF3.5 W3C)"
 
 HOMEPAGE="http://code.google.com/p/appwsgi/"
 LICENSE=""

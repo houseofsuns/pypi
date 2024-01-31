@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 2.3.1, newver 2.3.1]"
+DESCRIPTION=" [top-max 2.3.1]"
 
 HOMEPAGE="https://github.com/ehne/ERDot"
 LICENSE=""

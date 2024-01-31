@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The compiled GRPC proto for CLN [newver 0.1.1]"
+DESCRIPTION="The compiled GRPC proto for CLN"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/pydata-sphinx-theme-0.10.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.10.0_rc2[${PYTHON_USEDEP}] )
 	stats? ( >=dev-python/scipy-1.7[${PYTHON_USEDEP}] )
 	stats? ( >=dev-python/statsmodels-0.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

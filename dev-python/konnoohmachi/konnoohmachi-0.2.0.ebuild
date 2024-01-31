@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Spectral smoothing in Rust/Python [topver 1.0.0, newver 1.0.0]"
+DESCRIPTION="Spectral smoothing in Rust/Python [top-max 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API stubs for Blender and UPBGE generated with bpystubgen. [newver 3.2.0.27.dev6153507159]"
+DESCRIPTION="API stubs for Blender and UPBGE generated with bpystubgen."
 
 HOMEPAGE="https://github.com/mysticfall/bpystubgen"
 LICENSE=""

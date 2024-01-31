@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="C extension module for common data structures [topver 0.3.1, newver 0.3.1]"
+DESCRIPTION="C extension module for common data structures [top-max 0.3.1]"
 
 HOMEPAGE="https://github.com/sekomer/structura"
 LICENSE="MIT"

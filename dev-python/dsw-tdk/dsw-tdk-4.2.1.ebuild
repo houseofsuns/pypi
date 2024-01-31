@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data Stewardship Wizard Template Development Toolkit [newver 4.1.2]"
+DESCRIPTION="Data Stewardship Wizard Template Development Toolkit"
 
 HOMEPAGE="https://ds-wizard.org"
 LICENSE="Apache-2.0"

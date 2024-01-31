@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-panels-0.6.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-autodoc-typehints-1.18.1[${PYTHON_USEDEP}] )
-	doc? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-inline-tabs-2022.1.2_beta11[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinxcontrib-spelling-7.3.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/ipython-8.2.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/myst-parser-0.17.2[${PYTHON_USEDEP}] )

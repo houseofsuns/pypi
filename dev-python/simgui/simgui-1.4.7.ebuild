@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple GUI API (wrapper around PySide6) for Python learners to build simple yet interesting event driven apps. [newver 0.4.7]"
+DESCRIPTION="A simple GUI API (wrapper around PySide6) for Python learners to build simple yet interesting event driven apps."
 
 HOMEPAGE="https://github.com/freemant2000/simgui"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="distribute legacy wrapper [newver 0.6.49]"
+DESCRIPTION="distribute legacy wrapper"
 
 HOMEPAGE="http://packages.python.org/distribute"
 LICENSE="PSF or ZPL"

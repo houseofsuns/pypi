@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc tox"
 DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	doc? ( ~dev-python/black-21.5[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/black-21.5_beta1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )

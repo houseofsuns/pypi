@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Validator for the Brain Imaging Data Structure [newver 1.14.0]"
+DESCRIPTION="Validator for the Brain Imaging Data Structure"
 
 HOMEPAGE="https://github.com/bids-standard/bids-validator"
 LICENSE="MIT"

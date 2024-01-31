@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Tutor plugin for object storage in MinIO [newver 16.0.3]"
+DESCRIPTION="A Tutor plugin for object storage in MinIO"
 
 HOMEPAGE="https://docs.tutor.edly.io/"
 LICENSE="AGPL-3"

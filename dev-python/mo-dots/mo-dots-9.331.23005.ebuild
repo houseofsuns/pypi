@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Dots! Dot-access to Python dicts like Javascript [topver 9.508.24028, newver 9.508.24028]"
+DESCRIPTION="More Dots! Dot-access to Python dicts like Javascript [top-max 9.508.24028]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-dots"
 LICENSE="MPL 2.0"

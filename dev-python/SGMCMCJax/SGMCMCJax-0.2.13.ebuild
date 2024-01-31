@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
-	docs? ( ~dev-python/furo-2020.12.30[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2020.12.30_beta24[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nb-black[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}] )

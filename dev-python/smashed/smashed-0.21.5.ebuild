@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/necessary[${PYTHON_USEDEP}]
 	datasets? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	datasets? ( >=dev-python/dill-0.3.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.12_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )

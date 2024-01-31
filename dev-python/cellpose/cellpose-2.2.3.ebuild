@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/fastremap[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	dev-python/roifile[${PYTHON_USEDEP}]
-	all? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyqtgraph-0.11.0_rc0[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
 	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	gui? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyqtgraph-0.11.0_rc0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )

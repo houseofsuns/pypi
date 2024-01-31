@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aquick"
-DEPENDENCIES="~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	aquick? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	aquick? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	aquick? ( dev-python/brotlipy[${PYTHON_USEDEP}] )"

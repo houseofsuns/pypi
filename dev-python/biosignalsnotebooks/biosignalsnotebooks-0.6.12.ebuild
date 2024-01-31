@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package for supporting the external loading and processing of OpenSignals electrophysiological acquisitions. [topver 0.6.13, newver 0.6.13]"
+DESCRIPTION="A Python package for supporting the external loading and processing of OpenSignals electrophysiological acquisitions. [top-max 0.6.13]"
 
 HOMEPAGE="https://github.com/biosignalsplux/biosignalsnotebooks"
 LICENSE="MIT"

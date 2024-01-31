@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automate development tasks [topver 1.0.16, newver 1.0.16]"
+DESCRIPTION="Automate development tasks [top-max 1.0.16]"
 
 HOMEPAGE="https://gitlab.com/simonm3/autogen.git"
 LICENSE=""

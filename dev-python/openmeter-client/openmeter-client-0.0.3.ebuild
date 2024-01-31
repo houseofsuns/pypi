@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python client to interact with the OpenMeter API endpoints [topver 1.0.3, newver 1.0.3]"
+DESCRIPTION="A Python client to interact with the OpenMeter API endpoints [top-max 1.0.3]"
 
 HOMEPAGE=""
 LICENSE=""

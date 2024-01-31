@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High-Performance implementation of an Extreme Learning Machine [topver 1.0.10, newver 1.0.10]"
+DESCRIPTION="High-Performance implementation of an Extreme Learning Machine [top-max 1.0.10]"
 
 HOMEPAGE="https://www.researchgate.net/profile/Anton_Akusok"
 LICENSE="BSD 3-clause"

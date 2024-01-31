@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An opinionated Python package on Big Data Analytics [topver 2.3.15, newver 2.3.15]"
+DESCRIPTION="An opinionated Python package on Big Data Analytics [top-max 2.3.15]"
 
 HOMEPAGE="https://github.com/QubitPi/peitho-data"
 LICENSE="Apache-2.0"

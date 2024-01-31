@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Software managing certificate, dkim and domain updates automagically. [newver 0.2.6.post14]"
+DESCRIPTION="Software managing certificate, dkim and domain updates automagically."
 
 HOMEPAGE="https://www.entroserv.de/offene-software/cryptdomainmgr"
 LICENSE="https://www.fsf.org/licensing/licenses/agpl-3.0.html"

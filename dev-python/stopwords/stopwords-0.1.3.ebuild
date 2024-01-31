@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Stopwords filter for 42 languages [topver 1.0.0, newver 1.0.0]"
+DESCRIPTION="Stopwords filter for 42 languages [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/astuanax/stopwords"
 LICENSE="ISC"

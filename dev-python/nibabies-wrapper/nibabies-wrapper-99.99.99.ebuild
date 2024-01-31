@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper for generating Docker and Singularity commands for simpler NiBabies usage [newver 24.0.0a1]"
+DESCRIPTION="A wrapper for generating Docker and Singularity commands for simpler NiBabies usage"
 
 HOMEPAGE="https://github.com/nipreps/nibabies"
 LICENSE="Apache-2.0"

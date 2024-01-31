@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ServiceX Data Transformer for HEP Data [newver 1.0.8rc5]"
+DESCRIPTION="ServiceX Data Transformer for HEP Data"
 
 HOMEPAGE="https://github.com/ssl-hep/ServiceX_transformer"
 LICENSE="bsd 3 clause"

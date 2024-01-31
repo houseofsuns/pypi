@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Robust, high-volume, message based communication made easy. [newver 0.7.8]"
+DESCRIPTION="Robust, high-volume, message based communication made easy."
 
 HOMEPAGE=""
 LICENSE=""

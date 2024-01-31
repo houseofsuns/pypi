@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small tool help assess and visualize the accuracy of a sequencing dataset,   specifically for Oxford Nanopore Technologies (ONT) long-read sequencing. [newver 0.0.0.1.2]"
+DESCRIPTION="A small tool help assess and visualize the accuracy of a sequencing dataset,   specifically for Oxford Nanopore Technologies (ONT) long-read sequencing."
 
 HOMEPAGE="https://github.com/lxd98/Giraffe_View"
 LICENSE=""

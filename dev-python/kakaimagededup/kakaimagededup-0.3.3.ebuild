@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for image deduplication, kaka version [topver 0.3.9, newver 0.3.9]"
+DESCRIPTION="Package for image deduplication, kaka version [top-max 0.3.9]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

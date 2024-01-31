@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/bibtexparser[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	code_style? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	code_style? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	code_style? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	code_style? ( <dev-python/doc8-0.9.0[${PYTHON_USEDEP}] )

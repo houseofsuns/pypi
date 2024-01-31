@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="~dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
 	~dev-python/keyring-23.0.0[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/build-0.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.6.0_p1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-3.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )

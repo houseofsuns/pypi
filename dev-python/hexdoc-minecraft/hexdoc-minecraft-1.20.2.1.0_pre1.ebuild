@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python web book docgen and hexdoc plugin for Minecraft. [newver 1.19.2.1.0.dev1]"
+DESCRIPTION="Python web book docgen and hexdoc plugin for Minecraft."
 
 HOMEPAGE="https://hexdoc-dev.github.io/hexdoc-minecraft"
 LICENSE=""

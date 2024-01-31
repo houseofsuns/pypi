@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full jwt redis"
 DEPENDENCIES="jwt? ( <dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}] )
-	redis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-4.2.0_rc2[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/redis-4.2.0_rc2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

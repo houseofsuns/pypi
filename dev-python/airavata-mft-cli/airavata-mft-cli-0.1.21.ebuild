@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.46.3[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.47.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.47.0_rc1[${PYTHON_USEDEP}]
 	~dev-python/grpcio-tools-1.46.3[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.47.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.47.0_rc1[${PYTHON_USEDEP}]
 	dev-python/airavata-mft-sdk[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

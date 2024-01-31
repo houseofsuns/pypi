@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time series forecasting [topver 0.9.0, newver 0.9.0]"
+DESCRIPTION="Time series forecasting [top-max 0.9.0]"
 
 HOMEPAGE=""
 LICENSE="BSD3 Clause Clear"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Protobuf-based protocol definitions for the Blueye drones [newver 2.4.0]"
+DESCRIPTION="Protobuf-based protocol definitions for the Blueye drones"
 
 HOMEPAGE="https://www.blueyerobotics.com"
 LICENSE="LGPL-3"

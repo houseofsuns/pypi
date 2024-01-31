@@ -39,12 +39,12 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/session-info[${PYTHON_USEDEP}]
-	>=dev-python/statsmodels-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.10.0_rc2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	bbknn? ( dev-python/bbknn[${PYTHON_USEDEP}] )
 	dask? ( >dev-python/dask-2.17.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	doc? ( >dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )

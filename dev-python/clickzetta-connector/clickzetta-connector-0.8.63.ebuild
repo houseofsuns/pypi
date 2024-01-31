@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/packaging-24.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
-	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0_pre0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cz-ossfs[${PYTHON_USEDEP}]

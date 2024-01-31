@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rich frontend for generic views with Django [newver 0.7.42]"
+DESCRIPTION="Rich frontend for generic views with Django"
 
 HOMEPAGE="https://yourlabs.io/oss/crudlfap"
 LICENSE="BSD"

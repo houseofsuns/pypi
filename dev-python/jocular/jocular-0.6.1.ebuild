@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for near-live observation of astronomical objects [newver 0.6.1.dev2]"
+DESCRIPTION="A tool for near-live observation of astronomical objects"
 
 HOMEPAGE="https://jocular.readthedocs.io/en/latest/"
 LICENSE=""

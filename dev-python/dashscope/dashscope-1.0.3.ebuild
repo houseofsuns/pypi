@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="dashscope client sdk library [topver 1.14.1, newver 1.14.1]"
+DESCRIPTION="dashscope client sdk library [top-max 1.14.1]"
 
 HOMEPAGE="https://dashscope.aliyun.com/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Crawling twitter in Python [topver 0.1.26, newver 0.1.26]"
+DESCRIPTION="Crawling twitter in Python [top-max 0.1.26]"
 
 HOMEPAGE="https://github.com/PhantomKidding/GotchaTwitter"
 LICENSE="MIT"

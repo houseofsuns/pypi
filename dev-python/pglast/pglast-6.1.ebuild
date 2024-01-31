@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PostgreSQL Languages AST and statements prettifier [newver 5.9]"
+DESCRIPTION="PostgreSQL Languages AST and statements prettifier"
 
 HOMEPAGE="https://github.com/lelit/pglast"
 LICENSE="GPL-3+"

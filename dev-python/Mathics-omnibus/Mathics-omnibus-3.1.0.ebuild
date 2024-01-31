@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Collection Mathics components to provide the full Mathics experience [topver 4.0.1, newver 4.0.1]"
+DESCRIPTION="A Collection Mathics components to provide the full Mathics experience [top-max 4.0.1]"
 
 HOMEPAGE="http://github.com/Mathics3/mathics-omnibus"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package boosts a sparse matrix multiplication followed by selecting the top-n multiplication [topver 0.3.6, newver 0.3.6]"
+DESCRIPTION="This package boosts a sparse matrix multiplication followed by selecting the top-n multiplication [top-max 0.3.6]"
 
 HOMEPAGE="https://github.com/ing-bank/sparse_dot_topn"
 LICENSE="Apache-2.0"

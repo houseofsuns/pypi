@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Wrapper for Google V8 Engine [topver 1.0]"
+DESCRIPTION="Python Wrapper for Google V8 Engine"
 
 HOMEPAGE="http://code.google.com/p/pyv8/"
 LICENSE="Apache-2.0"

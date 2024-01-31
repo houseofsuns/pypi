@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework for invoking functions over HTTP [newver 0.5.13]"
+DESCRIPTION="A framework for invoking functions over HTTP"
 
 HOMEPAGE="https://gitlab-sp.xuelangyun.com/xuelang-group/suanpan-functional-python"
 LICENSE=""

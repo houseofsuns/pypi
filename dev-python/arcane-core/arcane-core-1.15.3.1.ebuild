@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common utility functions [newver 1.15.3]"
+DESCRIPTION="Common utility functions"
 
 HOMEPAGE=""
 LICENSE=""

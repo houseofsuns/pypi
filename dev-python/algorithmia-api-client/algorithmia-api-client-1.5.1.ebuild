@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Algorithmia Management APIs [topver 1.5.5, newver 1.5.5]"
+DESCRIPTION="Algorithmia Management APIs [top-max 1.5.5]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

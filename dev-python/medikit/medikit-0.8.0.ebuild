@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/git-semver[${PYTHON_USEDEP}]
 	~dev-python/stevedore-3.0[${PYTHON_USEDEP}]
 	dev-python/whistle[${PYTHON_USEDEP}]
 	~dev-python/yapf-0.20[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Optimized collectstatic for S3ManifestStaticStorage [newver 0.2.2]"
+DESCRIPTION="Optimized collectstatic for S3ManifestStaticStorage"
 
 HOMEPAGE="https://github.com/dduong42/s3manifestcollectstatic"
 LICENSE="MIT"

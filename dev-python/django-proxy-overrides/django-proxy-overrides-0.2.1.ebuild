@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Overridable foreign key fields for Proxy models [topver 0.2.3, newver 0.2.3]"
+DESCRIPTION="Overridable foreign key fields for Proxy models [top-max 0.2.3]"
 
 HOMEPAGE="https://github.com/datamade/django-proxy-overrides"
 LICENSE=""

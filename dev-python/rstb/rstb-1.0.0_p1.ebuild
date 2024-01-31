@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Breath of the Wild RSTB parser and editing tool [topver 1.2.2, newver 1.2.2]"
+DESCRIPTION="Breath of the Wild RSTB parser and editing tool [top-max 1.2.2]"
 
 HOMEPAGE="https://github.com/leoetlino/rstb"
 LICENSE=""

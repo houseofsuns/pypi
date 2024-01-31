@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Asynchronous Pokemon API lib [newver 2.0.4]"
+DESCRIPTION="Asynchronous Pokemon API lib"
 
 HOMEPAGE="https://github.com/Noctem/aiopogo"
 LICENSE="MIT"

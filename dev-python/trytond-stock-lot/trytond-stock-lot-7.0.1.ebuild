@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tryton module for lot of products [newver 6.0.3]"
+DESCRIPTION="Tryton module for lot of products"
 
 HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for interacting with the vSphere Web Services SDK [topver 0.1.8]"
+DESCRIPTION="Python API for interacting with the vSphere Web Services SDK"
 
 HOMEPAGE="http://pysphere.googlecode.com"
 LICENSE="New BSD License"

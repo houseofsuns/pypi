@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bringing the elegance of C# EventHandler to Python [topver 0.5, newver 0.5]"
+DESCRIPTION="Bringing the elegance of C# EventHandler to Python [top-max 0.5]"
 
 HOMEPAGE="http://github.com/pyeve/events"
 LICENSE="BSD"

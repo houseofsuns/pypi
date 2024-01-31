@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hubble is an environment variable manager for tools like cinderclient, novaclient, swiftclient and swiftly and others! [topver 1.1.6, newver 1.1.6]"
+DESCRIPTION="Hubble is an environment variable manager for tools like cinderclient, novaclient, swiftclient and swiftly and others! [top-max 1.1.6]"
 
 HOMEPAGE="https://github.com/thrawn01/hubble"
 LICENSE=""

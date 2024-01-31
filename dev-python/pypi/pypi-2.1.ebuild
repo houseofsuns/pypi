@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyPI is the Python Package Index at http://pypi.org/ [topver 2005]"
+DESCRIPTION="PyPI is the Python Package Index at http://pypi.org/"
 
 HOMEPAGE="http://wiki.python.org/moin/CheeseShopDev"
 LICENSE=""

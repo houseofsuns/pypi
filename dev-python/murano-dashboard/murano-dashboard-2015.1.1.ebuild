@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Murano Dashboard [newver 16.0.0]"
+DESCRIPTION="The Murano Dashboard"
 
 HOMEPAGE="https://launchpad.net/murano"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An async API wrapper for the petstore microservice. [topver 0.0.10, newver 0.0.10]"
+DESCRIPTION="An async API wrapper for the petstore microservice. [top-max 0.0.10]"
 
 HOMEPAGE=""
 LICENSE=""

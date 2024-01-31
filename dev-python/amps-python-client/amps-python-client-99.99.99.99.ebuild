@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AMPS Python Client [newver 5.3.4.1]"
+DESCRIPTION="AMPS Python Client"
 
 HOMEPAGE="https://crankuptheamps.com"
 LICENSE="Commercial/Proprietary :: see LICENSE"

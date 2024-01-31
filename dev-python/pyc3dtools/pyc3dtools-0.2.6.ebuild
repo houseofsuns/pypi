@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="C3Dtools API package - Read c3d files [topver 0.3.2, newver 0.3.2]"
+DESCRIPTION="C3Dtools API package - Read c3d files [top-max 0.3.2]"
 
 HOMEPAGE="https://github.com/etoshey/pyc3dtools"
 LICENSE="MIT"

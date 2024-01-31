@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Taskcluster task-builder [topver 0.0.68, newver 0.0.68]"
+DESCRIPTION="Taskcluster task-builder [top-max 0.0.68]"
 
 HOMEPAGE=""
 LICENSE=""

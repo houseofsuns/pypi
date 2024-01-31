@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small example package [newver 0.0.1]"
+DESCRIPTION="A small example package"
 
 HOMEPAGE="https://github.com/projectlonginus/LonginusPYPI"
 LICENSE=""

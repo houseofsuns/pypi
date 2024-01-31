@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/sagemaker-inference[${PYTHON_USEDEP}]
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-21.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-21.4_beta0[${PYTHON_USEDEP}] )
 	test? ( dev-python/sagemaker[${PYTHON_USEDEP}] )
 	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )

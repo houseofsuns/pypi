@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Base, simple scaling project [newver 1.12.9]"
+DESCRIPTION="Base, simple scaling project"
 
 HOMEPAGE="https://github.com/digital-cube/BASE"
 LICENSE="https://www.gnu.org/licenses/gpl-3.0.en.html"

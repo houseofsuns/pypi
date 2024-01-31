@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Electrodermal activity processing and analysis [topver 0.1.5, newver 0.1.5]"
+DESCRIPTION="Electrodermal activity processing and analysis [top-max 0.1.5]"
 
 HOMEPAGE="http://www.musicsensorsemotion.com"
 LICENSE="MIT"

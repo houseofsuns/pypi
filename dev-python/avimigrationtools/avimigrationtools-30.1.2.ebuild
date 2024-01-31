@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Avi Converter. [newver 22.1.4.post7]"
+DESCRIPTION="Avi Converter."
 
 HOMEPAGE="http://avinetworks.com/"
 LICENSE=""

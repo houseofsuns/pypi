@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This pacage will help you to drive the ESP32-driven microscopy control modules from UC2 [newver 0.2.0.17]"
+DESCRIPTION="This pacage will help you to drive the ESP32-driven microscopy control modules from UC2"
 
 HOMEPAGE="https://github.com/openUC2/UC2-REST"
 LICENSE="GPL v3"

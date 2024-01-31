@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	gcp? ( <dev-python/google-api-core-2.0.0[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/google-api-core-2.0.0_pre0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	gcp? ( >=dev-python/google-auth-2.15.0[${PYTHON_USEDEP}] )
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	worker? ( dev-python/plaso[${PYTHON_USEDEP}] )
 	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
-	gcp? ( <dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/psq[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]

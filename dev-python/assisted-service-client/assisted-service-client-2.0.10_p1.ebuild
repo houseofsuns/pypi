@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AssistedInstall [top-max 2.29.0_p44]"
+DESCRIPTION="AssistedInstall [top-max 2.29.0_p47]"
 
 HOMEPAGE="https://github.com/openshift/assisted-service"
 LICENSE=""

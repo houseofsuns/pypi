@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python boilerplate and utilites for 4Insight EngineRoom app development. [top-max 0.7.2]"
+DESCRIPTION="Python boilerplate and utilites for 4Insight EngineRoom app development. [top-max 0.7.3]"
 
 HOMEPAGE="https://4insight.io/"
 LICENSE=""

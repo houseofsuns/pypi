@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DuckDB in-process database [top-max 0.9.3_pre3257]"
+DESCRIPTION="DuckDB in-process database [top-max 0.9.3_pre3396]"
 
 HOMEPAGE="https://www.duckdb.org"
 LICENSE="MIT"

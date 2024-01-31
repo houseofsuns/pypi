@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="My short description for my project. [top-max 0.2.43]"
+DESCRIPTION="My short description for my project. [top-max 0.2.46]"
 
 HOMEPAGE="https://github.com/franceme/mystring"
 LICENSE=""

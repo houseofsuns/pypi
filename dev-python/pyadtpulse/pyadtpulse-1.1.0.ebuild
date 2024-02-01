@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface for ADT Pulse security systems [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1757666880>)]"
+DESCRIPTION="Python interface for ADT Pulse security systems [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3093aa5700>)]"
 
 HOMEPAGE="https://github.com/rsnodgrass/pyadtpulse"
 LICENSE="Apache-2.0"

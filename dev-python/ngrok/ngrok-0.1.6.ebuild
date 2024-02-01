@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ngrok NAT. [top-max 0.12.1]"
+DESCRIPTION="ngrok NAT. [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/OpenIoTHub/ngrok"
 LICENSE="MIT"

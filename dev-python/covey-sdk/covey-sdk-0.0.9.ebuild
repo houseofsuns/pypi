@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Covey Trading Tools [top-max 0.1.11]"
+DESCRIPTION="Covey Trading Tools [top-max 0.1.15]"
 
 HOMEPAGE="https://github.com/covey-io/ethereum-contract-interaction"
 LICENSE="MIT"

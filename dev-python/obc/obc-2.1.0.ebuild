@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )

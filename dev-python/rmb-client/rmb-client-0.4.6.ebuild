@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RMB SDK. [top-max 0.7.7]"
+DESCRIPTION="RMB SDK. [top-max 0.7.14]"
 
 HOMEPAGE="https://github.com/DataMini/rmb"
 LICENSE=""

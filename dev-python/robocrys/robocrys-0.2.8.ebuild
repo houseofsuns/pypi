@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/inflect[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/pycodestyle-2.9.1[${PYTHON_USEDEP}] )
-	lint? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/pylint-2.17.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )"

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pylint-2.13.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )

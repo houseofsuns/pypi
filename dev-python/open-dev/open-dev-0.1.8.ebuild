@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pip-23.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pylama-9.0.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )

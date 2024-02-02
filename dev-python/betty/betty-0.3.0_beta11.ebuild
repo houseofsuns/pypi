@@ -61,7 +61,7 @@ DEPENDENCIES="~dev-python/aiofiles-23.2[${PYTHON_USEDEP}]
 	test? ( ~dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pydocstyle-6.3[${PYTHON_USEDEP}] )
+	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-aioresponses[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )

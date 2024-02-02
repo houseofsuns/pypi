@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/importlib-metadata-3.7.0[${PYTHON_USEDEP}]
 	develop? ( >=dev-python/pytest-xdist-3.0.1[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-emoji[${PYTHON_USEDEP}] )
-	develop? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	develop? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
 	develop? ( dev-python/black[${PYTHON_USEDEP}] )
 	develop? ( dev-python/isort[${PYTHON_USEDEP}] )

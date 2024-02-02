@@ -57,7 +57,7 @@ DEPENDENCIES="<dev-python/Faker-20.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-expression-complexity[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydocstyle-6.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-sfs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/autopep8-1.6[${PYTHON_USEDEP}] )

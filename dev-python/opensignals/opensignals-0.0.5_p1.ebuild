@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pydocstyle-4.0.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-docstyle[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.8.1[${PYTHON_USEDEP}] )"

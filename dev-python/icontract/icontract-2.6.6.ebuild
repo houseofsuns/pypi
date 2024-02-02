@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="<dev-python/asttokens-3.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/tox-3.0.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydocstyle-7.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/docutils-1.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )

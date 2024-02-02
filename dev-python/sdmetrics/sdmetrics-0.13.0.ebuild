@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/copulas[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-absolute-import[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-variables-names[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydocstyle-6.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-sfs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dlint[${PYTHON_USEDEP}] )

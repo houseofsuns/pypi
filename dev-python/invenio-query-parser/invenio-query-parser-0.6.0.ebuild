@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pyPEG2[${PYTHON_USEDEP}]
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )

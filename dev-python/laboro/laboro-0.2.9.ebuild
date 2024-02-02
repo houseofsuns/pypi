@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/jsonpath-python[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/auto-changelog[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pylama-8.3.8[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/laboro-demo[${PYTHON_USEDEP}] )"

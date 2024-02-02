@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=Mask this package to disallow installation of wheels.
+EAPI=8
+KEYWORDS=~amd64 ~x86
+SLOT=0
+_md5_=88be1c3f090c5ede1c98d4938680ba6b

@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/pydantic-1.6.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycodestyle-2.4[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )

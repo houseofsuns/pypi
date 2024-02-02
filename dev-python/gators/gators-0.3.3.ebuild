@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pylama-7.6.5[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-3.3.0[${PYTHON_USEDEP}] )

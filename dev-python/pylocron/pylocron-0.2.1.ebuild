@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/furo-2022.3.4[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	quality? ( >=dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
-	quality? ( >=dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}] )
+	quality? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	quality? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )"

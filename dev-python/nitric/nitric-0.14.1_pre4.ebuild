@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-string-format[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/licenseheaders[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pdoc3-0.9.2[${PYTHON_USEDEP}] )

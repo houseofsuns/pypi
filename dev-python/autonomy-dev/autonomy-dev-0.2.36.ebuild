@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/open-autonomy[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pip-23.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pylama-9.0.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/rich-click[${PYTHON_USEDEP}]

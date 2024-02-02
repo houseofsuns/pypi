@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-5.0.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-3.2.0[${PYTHON_USEDEP}] )

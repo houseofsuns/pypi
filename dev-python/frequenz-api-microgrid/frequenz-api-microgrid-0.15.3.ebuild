@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/frequenz-api-common[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}] )
-	dev-docstrings? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev-docstrings? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev-docstrings? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	dev-docstrings? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	dev-formatting? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )

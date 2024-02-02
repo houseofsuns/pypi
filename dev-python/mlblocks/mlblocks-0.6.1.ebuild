@@ -47,7 +47,7 @@ DEPENDENCIES="<dev-python/graphviz-1.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/doc8-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pydocstyle-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}] )

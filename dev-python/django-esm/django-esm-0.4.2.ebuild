@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/django-3.2.0[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	lint? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )

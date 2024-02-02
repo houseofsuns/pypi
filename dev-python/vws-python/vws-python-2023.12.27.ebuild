@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pdm-2.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-check-reqs[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pygments-2.17.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )

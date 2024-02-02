@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/aioserial[${PYTHON_USEDEP}]
 	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydocstyle-7.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	realsense? ( dev-python/pyrealsense2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

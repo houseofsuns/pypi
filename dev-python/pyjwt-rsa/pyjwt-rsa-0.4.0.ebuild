@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/pyjwt-1.0[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	develop? ( >dev-python/coverage-4.3[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/mypy-0.770[${PYTHON_USEDEP}] )
-	develop? ( ~dev-python/pylama-7.7[${PYTHON_USEDEP}] )
+	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/pytest-cov-2.7.0[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/tox-2.4[${PYTHON_USEDEP}] )"

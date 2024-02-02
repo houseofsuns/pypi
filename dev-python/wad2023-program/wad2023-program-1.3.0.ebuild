@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-2.17.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pg8000[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

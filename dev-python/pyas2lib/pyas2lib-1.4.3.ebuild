@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/asn1crypto-1.5.1[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/coverage-5.0.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pylint-2.12.1[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pylama-8.3.7[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylama_pylint[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )

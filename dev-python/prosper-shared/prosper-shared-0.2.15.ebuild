@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/case-converter[${PYTHON_USEDEP}]
 	dev? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mutmut[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydoclint[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )

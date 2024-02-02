@@ -47,6 +47,6 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/eradicate-3.0[${PYTHON_USEDEP}]
 	dev-python/dlint[${PYTHON_USEDEP}]
 	<dev-python/pylint-2.12[${PYTHON_USEDEP}]
-	<dev-python/pydocstyle-7.0[${PYTHON_USEDEP}]"
+	dev-python/pydocstyle[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

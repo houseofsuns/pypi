@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	style? ( >=dev-python/black-21.8[${PYTHON_USEDEP}] )
 	style? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )
 	style? ( >=dev-python/isort-5.8[${PYTHON_USEDEP}] )
-	style? ( >=dev-python/pydocstyle-6.1[${PYTHON_USEDEP}] )
+	style? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	style? ( >=dev-python/pyupgrade-2.8[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mypy-0.900[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nbmake[${PYTHON_USEDEP}] )

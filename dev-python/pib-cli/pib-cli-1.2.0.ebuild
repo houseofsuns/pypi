@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/yapf-0.33.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	docstrings? ( <dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}] )
+	docstrings? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	pib_docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autopackagesummary[${PYTHON_USEDEP}] )

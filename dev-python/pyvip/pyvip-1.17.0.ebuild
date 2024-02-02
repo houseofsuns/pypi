@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for Virtualitics Explore [top-max 1.19.0]"
+DESCRIPTION="Python API for Virtualitics Explore [top-max 1.21.0_alpha0]"
 
 HOMEPAGE="https://api.virtualitics.com/"
 LICENSE="MIT LICENSE"

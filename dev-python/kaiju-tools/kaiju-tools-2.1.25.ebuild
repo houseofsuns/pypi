@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-walrus[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyproject-flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pydocstyle-6.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setup-cfg-fmt[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/restructuredtext-lint-1.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-4.11[${PYTHON_USEDEP}] )

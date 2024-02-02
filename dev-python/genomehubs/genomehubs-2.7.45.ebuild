@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	>=dev-python/ujson-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pydocstyle-5.0.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )

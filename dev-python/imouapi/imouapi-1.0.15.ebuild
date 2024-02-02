@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pip-24.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( <dev-python/py-2.0.0[${PYTHON_USEDEP}] )
-	<dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}]
+	dev-python/pydocstyle[${PYTHON_USEDEP}]
 	<dev-python/pyproject-api-2.0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )

@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/nox-2022.11.21[${PYTHON_USEDEP}]
 	dev-flake8? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/pydoclint[${PYTHON_USEDEP}] )
-	dev-flake8? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev-flake8? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev-formatting? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev-formatting? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )

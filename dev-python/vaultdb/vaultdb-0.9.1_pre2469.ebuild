@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="VaultDB embedded database [top-max 0.9.3_pre4105]"
+DESCRIPTION="VaultDB embedded database [top-max 0.9.3_pre4114]"
 
 HOMEPAGE="http://www.vaultdb.ai"
 LICENSE="MIT"

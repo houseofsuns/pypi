@@ -30,7 +30,7 @@ DEPENDENCIES="develop? ( ~dev-python/tox-4.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-asyncio-0.20[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/coverage-7.0[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/pylama-8.4[${PYTHON_USEDEP}] )
+	testing? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/setuptools-68.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

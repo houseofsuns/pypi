@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pylint-2.17.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

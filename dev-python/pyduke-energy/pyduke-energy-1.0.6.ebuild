@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	test? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.15.9[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

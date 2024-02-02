@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/filelock-3.13.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/types-psutil-5.9.5.20240106[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/yapf-0.40.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )"

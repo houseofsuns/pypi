@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/HTTPolice[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/proselint[${PYTHON_USEDEP}]
 	~dev-python/pycodestyle-2.2[${PYTHON_USEDEP}]
-	~dev-python/pydocstyle-2.0[${PYTHON_USEDEP}]
+	dev-python/pydocstyle[${PYTHON_USEDEP}]
 	~dev-python/pyflakes-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/pylint-1.6[${PYTHON_USEDEP}]
 	dev-python/pyroma[${PYTHON_USEDEP}]
@@ -87,7 +87,7 @@ DEPENDENCIES="dev-python/HTTPolice[${PYTHON_USEDEP}]
 	alldeps? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/proselint[${PYTHON_USEDEP}] )
 	alldeps? ( ~dev-python/pycodestyle-2.2[${PYTHON_USEDEP}] )
-	alldeps? ( ~dev-python/pydocstyle-2.0[${PYTHON_USEDEP}] )
+	alldeps? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	alldeps? ( ~dev-python/pyflakes-1.5.0[${PYTHON_USEDEP}] )
 	alldeps? ( ~dev-python/pylint-1.6[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/pyroma[${PYTHON_USEDEP}] )

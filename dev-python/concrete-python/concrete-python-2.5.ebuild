@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.17.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.40.0[${PYTHON_USEDEP}] )

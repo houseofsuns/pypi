@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	python-linters? ( dev-python/pydocstringformatter[${PYTHON_USEDEP}] )
 	python? ( dev-python/pydocstringformatter[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydocstringformatter[${PYTHON_USEDEP}] )
-	<dev-python/pydocstyle-7.0[${PYTHON_USEDEP}]
+	dev-python/pydocstyle[${PYTHON_USEDEP}]
 	python-linters? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	python? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )

@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/ConfigArgParse-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyupgrade-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/rich-12.6[${PYTHON_USEDEP}]
 	dev-python/unify[${PYTHON_USEDEP}]
-	develop? ( ~dev-python/pylama-8.4.1[${PYTHON_USEDEP}] )
+	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/pytest-subtests-0.7.0[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )

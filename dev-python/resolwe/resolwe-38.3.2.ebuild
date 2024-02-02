@@ -64,7 +64,7 @@ DEPENDENCIES="~dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-7.2.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testfixtures-7.1.0[${PYTHON_USEDEP}] )

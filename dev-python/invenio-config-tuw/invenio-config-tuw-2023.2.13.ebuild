@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/Flask-BabelEx[${PYTHON_USEDEP}]
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/isort-4.3.3[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )

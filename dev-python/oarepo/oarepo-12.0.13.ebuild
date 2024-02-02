@@ -275,7 +275,7 @@ DEPENDENCIES="~dev-python/alembic-1.10.4[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pyproject-hooks-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )

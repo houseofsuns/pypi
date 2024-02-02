@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/packaging-1.16.8[${PYTHON_USEDEP}]
 	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( >=dev-python/pydocstyle-6.1[${PYTHON_USEDEP}] )
+	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	lint? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )

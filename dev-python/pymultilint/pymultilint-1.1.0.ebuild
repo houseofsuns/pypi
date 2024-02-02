@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
 	<dev-python/black-24.0[${PYTHON_USEDEP}]
 	<dev-python/isort-6.0[${PYTHON_USEDEP}]
 	<dev-python/mypy-2.0[${PYTHON_USEDEP}]
-	<dev-python/pydocstyle-7.0[${PYTHON_USEDEP}]
+	dev-python/pydocstyle[${PYTHON_USEDEP}]
 	<dev-python/pylint-3.0[${PYTHON_USEDEP}]
 	<dev-python/pyupgrade-4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"

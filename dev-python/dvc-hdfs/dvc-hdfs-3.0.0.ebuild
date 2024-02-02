@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pygments-2.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/collective-checkdocs[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pylint-2.16.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-plugin-utils[${PYTHON_USEDEP}] )

@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.8.1[${PYTHON_USEDEP}]
 	>=dev-python/flake8-3.9.1[${PYTHON_USEDEP}]
 	>=dev-python/pycodestyle-2.7.0[${PYTHON_USEDEP}]
-	>=dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}]
+	dev-python/pydocstyle[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]"

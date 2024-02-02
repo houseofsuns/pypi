@@ -69,7 +69,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-vet[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydocstyle-6.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/autopep8-1.6[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/twine-4.0[${PYTHON_USEDEP}] )

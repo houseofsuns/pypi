@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	casts? ( dev-python/asciinema[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/black-23.12.0[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/doc8-1.1.1[${PYTHON_USEDEP}] )
-	development? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	development? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/radon-6.0.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/xenon[${PYTHON_USEDEP}] )
 	development? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )

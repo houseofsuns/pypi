@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/mwparserfromhell[${PYTHON_USEDEP}]
 	eventstreams? ( dev-python/sseclient[${PYTHON_USEDEP}] )
 	flake8? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	flake8? ( >=dev-python/pydocstyle-6.2.3[${PYTHON_USEDEP}] )
+	flake8? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-coding[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )

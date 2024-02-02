@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for scalable DeepLabCut based analysis including 3D tracking [top-max 1.1.0]"
+DESCRIPTION="Framework for scalable DeepLabCut based analysis including 3D tracking [top-max 1.1.1]"
 
 HOMEPAGE="https://github.com/lambdaloop/anipose"
 LICENSE=""

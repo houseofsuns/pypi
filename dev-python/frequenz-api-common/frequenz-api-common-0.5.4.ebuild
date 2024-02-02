@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
 	dev-flake8? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/pydoclint[${PYTHON_USEDEP}] )
-	dev-flake8? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev-flake8? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev-formatting? ( ~dev-python/black-24.1.1[${PYTHON_USEDEP}] )
 	dev-formatting? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mike[${PYTHON_USEDEP}] )

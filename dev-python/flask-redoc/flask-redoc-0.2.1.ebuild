@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	all? ( >dev-python/isort-4.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( >dev-python/isort-4.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

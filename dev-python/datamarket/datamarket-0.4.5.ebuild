@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities that integrate advance scraping knowledge into just one library."
+DESCRIPTION="Utilities that integrate advance scraping knowledge into just one library. [top-max 0.4.6]"
 
 HOMEPAGE="https://github.com/Data-Market/datamarket"
 LICENSE=""

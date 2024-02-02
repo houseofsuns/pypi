@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/flake8-3.0[${PYTHON_USEDEP}]
-	>=dev-python/pydocstyle-2.1[${PYTHON_USEDEP}]"
+	dev-python/pydocstyle[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

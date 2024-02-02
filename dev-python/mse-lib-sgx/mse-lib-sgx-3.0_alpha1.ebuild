@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	deploy? ( <dev-python/wheel-0.41.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pycodestyle-3.0.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )

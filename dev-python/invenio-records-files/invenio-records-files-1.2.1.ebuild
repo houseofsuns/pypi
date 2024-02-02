@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/flask-0.11.1[${PYTHON_USEDEP}]
 	all? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/isort-4.3.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-1.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-3.7.0[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/flask-0.11.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/isort-4.3.4[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-1.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-3.7.0[${PYTHON_USEDEP}] )"

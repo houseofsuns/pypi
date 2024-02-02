@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.15.5[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydata-sphinx-theme-0.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

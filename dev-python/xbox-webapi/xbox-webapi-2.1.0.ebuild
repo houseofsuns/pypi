@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyupgrade-3.15.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

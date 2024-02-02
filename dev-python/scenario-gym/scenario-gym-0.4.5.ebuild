@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
 	hooks? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	hooks? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	hooks? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	hooks? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	hooks? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	hooks? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
 	integrations? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"

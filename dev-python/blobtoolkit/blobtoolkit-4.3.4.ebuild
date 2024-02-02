@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/blobtk[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	>=dev-python/ujson-5.7.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pydocstyle-5.0.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
 	full? ( dev-python/blobtoolkit-host[${PYTHON_USEDEP}] )
 	full? ( dev-python/blobtoolkit-pipeline[${PYTHON_USEDEP}] )

@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/testflo[${PYTHON_USEDEP}] )
 	test? ( >dev-python/websockets-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiounittest[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyDOE3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	all? ( dev-python/testflo[${PYTHON_USEDEP}] )
 	all? ( >dev-python/websockets-8.0[${PYTHON_USEDEP}] )"

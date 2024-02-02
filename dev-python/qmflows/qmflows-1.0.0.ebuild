@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
 	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( >=dev-python/pydocstyle-6.1[${PYTHON_USEDEP}] )
+	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	lint? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )

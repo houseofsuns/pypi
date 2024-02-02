@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/ConfigArgParse-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydocstyle-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}] )

@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/django-4.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tblib-1.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )

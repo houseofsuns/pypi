@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
 	cv? ( >=dev-python/pillow-0.9.5[${PYTHON_USEDEP}] )
 	>=dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
-	>=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}]
+	dev-python/pydocstyle[${PYTHON_USEDEP}]
 	>=dev-python/pypdf-3.15.2[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.19.0[${PYTHON_USEDEP}]

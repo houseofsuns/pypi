@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	tests? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/pylama-9.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )

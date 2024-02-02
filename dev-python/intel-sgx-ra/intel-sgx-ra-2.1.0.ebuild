@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pycodestyle-3.0.0[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )

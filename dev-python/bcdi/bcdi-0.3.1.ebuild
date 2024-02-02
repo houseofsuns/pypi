@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/colorcet[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyfakefs-5.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.40.0[${PYTHON_USEDEP}] )

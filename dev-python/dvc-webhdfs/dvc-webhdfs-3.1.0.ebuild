@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( dev-python/hdfs[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pygments-2.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/collective-checkdocs[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pylint-2.15.9[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-plugin-utils[${PYTHON_USEDEP}] )

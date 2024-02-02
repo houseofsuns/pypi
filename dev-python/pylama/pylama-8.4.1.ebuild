@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all eradicate mypy pylint radon tests toml vulture"
 DEPENDENCIES=">=dev-python/mccabe-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/pycodestyle-2.9.1[${PYTHON_USEDEP}]
-	>=dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}]
+	dev-python/pydocstyle[${PYTHON_USEDEP}]
 	>=dev-python/pyflakes-2.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	all? ( dev-python/eradicate[${PYTHON_USEDEP}] )

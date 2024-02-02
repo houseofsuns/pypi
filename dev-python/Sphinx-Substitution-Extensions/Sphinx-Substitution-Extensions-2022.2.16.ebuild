@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/docutils-0.15[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.931[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-check-reqs[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-material-7.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.16.2[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	sast? ( >=dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
 	sast? ( dev-python/safety[${PYTHON_USEDEP}] )
 	sca? ( >=dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )

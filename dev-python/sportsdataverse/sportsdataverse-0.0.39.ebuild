@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mypy-0.782[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycln[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-xdist-2.1.0[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mypy-0.782[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pycln[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-xdist-2.1.0[${PYTHON_USEDEP}] )"

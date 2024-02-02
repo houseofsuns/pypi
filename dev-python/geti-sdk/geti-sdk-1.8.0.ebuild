@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/datumaro[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-env-0.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pydocstyle-6.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-22.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

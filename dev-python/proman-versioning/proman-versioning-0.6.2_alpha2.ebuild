@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/lark-parser[${PYTHON_USEDEP}]
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	changelog? ( dev-python/mdutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docstr-coverage[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-material-7.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.16.2[${PYTHON_USEDEP}] )

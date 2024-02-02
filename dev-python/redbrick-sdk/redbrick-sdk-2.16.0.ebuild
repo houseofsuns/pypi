@@ -49,7 +49,7 @@ DEPENDENCIES="<=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
-	dev? ( <=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}] )

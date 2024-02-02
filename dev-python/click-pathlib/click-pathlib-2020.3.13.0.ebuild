@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.770[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-check-reqs-pip-gte_20[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pydocstyle-5.0.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyenchant-3.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )

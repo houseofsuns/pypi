@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	>=dev-python/watchfiles-0.15.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/frequenz-sdk[${PYTHON_USEDEP}] )
-	dev-docstrings? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev-docstrings? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev-docstrings? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	dev-docstrings? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	dev-examples? ( dev-python/polars[${PYTHON_USEDEP}] )

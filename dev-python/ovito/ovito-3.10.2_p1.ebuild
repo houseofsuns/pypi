@@ -16,8 +16,8 @@ DESCRIPTION="A scientific data visualization and analysis software for particle-
 
 HOMEPAGE="https://www.ovito.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a6/4a/92dd431120fe436677e7fa1acfac6558594de50d182549a8233f960e97e0/${REALNAME}-${REALVERSION}-cp310-cp310-manylinux1_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-cp310-manylinux1_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/47/cb/07741fb063cebb650b5258d99bc50dc51d8381e12dddd1dc71bc26438ba3/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

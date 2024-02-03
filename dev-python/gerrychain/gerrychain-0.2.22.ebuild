@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use Markov chain Monte Carlo to analyze districting plans and gerrymanders"
+DESCRIPTION="Use Markov chain Monte Carlo to analyze districting plans and gerrymanders [top-max 0.3.0]"
 
 HOMEPAGE="https://github.com/mggg/GerryChain"
 LICENSE=""

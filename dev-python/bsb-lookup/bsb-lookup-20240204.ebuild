@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.0.3rc79.post1"
+REALVERSION="0.0.4rc85.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sample Python Project for creating a new Python Module [badver 0.0.3rc79.post1]"
+DESCRIPTION="Sample Python Project for creating a new Python Module [badver 0.0.4rc85.post1]"
 
 HOMEPAGE=""
 LICENSE=""

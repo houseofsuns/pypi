@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Imports! - Delayed importing [top-max 7.507.24028]"
+DESCRIPTION="More Imports! - Delayed importing [top-max 7.527.24034]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-imports"
 LICENSE="MPL 2.0"

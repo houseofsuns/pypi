@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django Semantic UI Admin theme"
+DESCRIPTION="Django Semantic UI Admin theme [top-max 0.4.1]"
 
 HOMEPAGE="https://github.com/globophobe/django-semantic-admin"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Time! Time as a vector space, the way it was meant to be. [top-max 5.522.24033]"
+DESCRIPTION="More Time! Time as a vector space, the way it was meant to be. [top-max 5.527.24034]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-times"
 LICENSE="MPL 2.0"

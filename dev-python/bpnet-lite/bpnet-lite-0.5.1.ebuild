@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="bpnet-lite is a minimal implementation of BPNet, a neural network aimed at interpreting regulatory activity of the genome. [top-max 0.7.0]"
+DESCRIPTION="bpnet-lite is a minimal implementation of BPNet, a neural network aimed at interpreting regulatory activity of the genome. [top-max 0.7.1]"
 
 HOMEPAGE="https://github.com/jmschrei/bpnet-lite"
 LICENSE="LICENSE.txt"

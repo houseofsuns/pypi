@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/astunparse[${PYTHON_USEDEP}]
-	dev-python/ml-dtypes[${PYTHON_USEDEP}]
+	~dev-python/ml-dtypes-0.2.0[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/gast[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"

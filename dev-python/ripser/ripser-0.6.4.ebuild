@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Lean Persistent Homology Library for Python"
+DESCRIPTION="A Lean Persistent Homology Library for Python [top-max 0.6.5]"
 
 HOMEPAGE="https://ripser.scikit-tda.org"
 LICENSE="MIT"

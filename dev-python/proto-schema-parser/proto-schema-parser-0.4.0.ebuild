@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pure Python Protobuf 3 .proto Parser"
+DESCRIPTION="A Pure Python Protobuf 3 .proto Parser [top-max 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

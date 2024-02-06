@@ -64,7 +64,7 @@ DEPENDENCIES="<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	flax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	flax? ( ~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}] )
 	flax? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
-	flax? ( dev-python/ml-dtypes[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/ml-dtypes-0.3.1[${PYTHON_USEDEP}] )
 	flax? ( ~dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
 	flax? ( ~dev-python/nest-asyncio-1.5.8[${PYTHON_USEDEP}] )
 	flax? ( dev-python/nvidia-cublas-cu11[${PYTHON_USEDEP}] )

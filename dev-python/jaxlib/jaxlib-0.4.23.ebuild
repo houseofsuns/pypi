@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cuda11_pip cuda12_pip"
 DEPENDENCIES=">=dev-python/scipy-1.9[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
-	dev-python/ml-dtypes[${PYTHON_USEDEP}]
+	>=dev-python/ml-dtypes-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
 	cuda11_pip? ( dev-python/nvidia-cublas-cu11[${PYTHON_USEDEP}] )
 	cuda11_pip? ( dev-python/nvidia-cuda-cupti-cu11[${PYTHON_USEDEP}] )

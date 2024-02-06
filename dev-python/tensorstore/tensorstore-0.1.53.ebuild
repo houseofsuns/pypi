@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
-	dev-python/ml-dtypes[${PYTHON_USEDEP}]"
+	>=dev-python/ml-dtypes-0.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="motoo utils [top-max 1.1.94]"
+DESCRIPTION="motoo utils [top-max 1.1.95]"
 
 HOMEPAGE=""
 LICENSE=""

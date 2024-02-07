@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="spark_delta_batch for bronze > silve > gold > mart auto [top-max 2.0]"
+DESCRIPTION="spark_delta_batch for bronze > silve > gold > mart auto [top-max 2.5]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A game engine based on pygame, which aims to make game development easier."
+DESCRIPTION="A game engine based on pygame, which aims to make game development easier. [top-max 3.7.4]"
 
 HOMEPAGE="https://github.com/LinpgFoundation/linpg"
 LICENSE=""

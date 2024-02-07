@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="iot framework based on OCF specification"
+DESCRIPTION="iot framework based on OCF specification [top-max 4.0.3]"
 
 HOMEPAGE="https://github.com/businka/Bubot_Core"
 LICENSE=""

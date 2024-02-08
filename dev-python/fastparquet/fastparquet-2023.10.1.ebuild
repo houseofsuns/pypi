@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python support for Parquet file format"
+DESCRIPTION="Python support for Parquet file format [top-max 2024.2.0]"
 
 HOMEPAGE="https://github.com/dask/fastparquet/"
 LICENSE="Apache-2.0"

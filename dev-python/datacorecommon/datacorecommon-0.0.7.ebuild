@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wrapper functions for PySpark [top-max 0.2.13]"
+DESCRIPTION="Wrapper functions for PySpark [top-max 0.5.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

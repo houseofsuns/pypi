@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc3c9a1a7a0>)]"
+DESCRIPTION="Library provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f46ad88e1f0>)]"
 
 HOMEPAGE="https://github.com/testcontainers/testcontainers-python"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SmartApp Framework — это фреймворк, который позволяет создавать смартапы с поддержкой виртуальных ассистентов Салют. [top-max 3.0.0_rc13]"
+DESCRIPTION="SmartApp Framework — это фреймворк, который позволяет создавать смартапы с поддержкой виртуальных ассистентов Салют. [top-max 3.0.0_rc14]"
 
 HOMEPAGE=""
 LICENSE=""

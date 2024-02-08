@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Transparent and reproducible image processing pipelines in Python. [top-max 1.2.0.1]"
+DESCRIPTION="Transparent and reproducible image processing pipelines in Python. [top-max 1.2.0.2]"
 
 HOMEPAGE="https://github.com/bhklab/med-imagetools"
 LICENSE=""

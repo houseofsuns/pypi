@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The hassle-free way to integrate analytics into any python application."
+DESCRIPTION="The hassle-free way to integrate analytics into any python application. [top-max 2.3.1]"
 
 HOMEPAGE="https://github.com/segmentio/analytics-python"
 LICENSE="MIT"

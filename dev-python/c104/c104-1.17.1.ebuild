@@ -16,8 +16,8 @@ DESCRIPTION="iec104-python"
 
 HOMEPAGE="https://github.com/fraunhofer-fit-dien/iec104-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.post2.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.post2.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

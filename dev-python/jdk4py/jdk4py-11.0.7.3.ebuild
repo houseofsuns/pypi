@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Packaged JDK for Python [top-max 17.0.9.2]"
+DESCRIPTION="Packaged JDK for Python [top-max 21.0.2.0]"
 
 HOMEPAGE="https://github.com/atoti/jdk4py"
 LICENSE=""

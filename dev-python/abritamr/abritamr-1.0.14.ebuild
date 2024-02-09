@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Running AMRFinderPlus for MDU [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f326542e030>)]"
+DESCRIPTION="Running AMRFinderPlus for MDU [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb4044ef920>)]"
 
 HOMEPAGE="https://github.com/MDU-PHL/abritamr"
 LICENSE=""

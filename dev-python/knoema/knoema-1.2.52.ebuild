@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
-	~dev-python/pytest-shutil-1.7.0[${PYTHON_USEDEP}]
+	dev-python/pytest-shutil[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

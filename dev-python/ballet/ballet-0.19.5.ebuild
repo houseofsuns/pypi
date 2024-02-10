@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-virtualenv-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/responses-0.13.2[${PYTHON_USEDEP}] )
 	feature_engine? ( dev-python/feature-engine[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-virtualenv-1.7.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/responses-0.13.2[${PYTHON_USEDEP}] )
 	tsfresh? ( dev-python/tsfresh[${PYTHON_USEDEP}] )"

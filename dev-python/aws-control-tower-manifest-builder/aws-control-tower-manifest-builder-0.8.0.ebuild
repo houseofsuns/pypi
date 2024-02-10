@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package to automatically build the AWS Control Tower Manifest given Cloud Formation templates as input. [top-max 0.9.0]"
+DESCRIPTION="Python package to automatically build the AWS Control Tower Manifest given Cloud Formation templates as input. [top-max 0.10.0]"
 
 HOMEPAGE="https://github.com/gabrielbac/aws_control_tower_manifest_builder"
 LICENSE="MIT"

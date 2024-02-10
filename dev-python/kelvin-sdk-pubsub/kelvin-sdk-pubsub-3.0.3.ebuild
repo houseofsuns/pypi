@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/asyncio-mqtt[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-structlog[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-xdist-2.4[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytest-virtualenv-1.7[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/requests-mock-1.9[${PYTHON_USEDEP}] )
 	wheel? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	wheel? ( dev-python/twine[${PYTHON_USEDEP}] )

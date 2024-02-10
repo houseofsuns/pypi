@@ -59,7 +59,7 @@ DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mock-5.0.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pytest-virtualenv-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/build-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pip-23.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )

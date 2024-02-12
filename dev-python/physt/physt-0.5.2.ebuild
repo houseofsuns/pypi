@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="P(i/y)thon h(i/y)stograms. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f9f16e7ba00>)]"
+DESCRIPTION="P(i/y)thon h(i/y)stograms. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb573ad0430>)]"
 
 HOMEPAGE="https://github.com/janpipek/physt"
 LICENSE="MIT"

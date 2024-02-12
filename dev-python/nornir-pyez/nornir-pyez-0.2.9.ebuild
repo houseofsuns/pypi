@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyEZ Plugin for Nornir"
+DESCRIPTION="PyEZ Plugin for Nornir [top-max 0.2.10]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

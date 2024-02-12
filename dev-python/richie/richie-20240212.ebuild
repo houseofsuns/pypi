@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="2.25.0b2.dev78"
+REALVERSION="2.25.0b2.dev82"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CMS to build learning portals for open education [badver 2.25.0b2.dev78]"
+DESCRIPTION="A CMS to build learning portals for open education [badver 2.25.0b2.dev82]"
 
 HOMEPAGE="https://github.com/openfun/richie"
 LICENSE="MIT License  Copyright c 2018-present GIP FUN MOOC.  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files the Software, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  "
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	ci? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bandit-1.7.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyRdfa3[${PYTHON_USEDEP}] )

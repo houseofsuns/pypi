@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility functions to interact with the Xeno Canto API with python"
+DESCRIPTION="Utility functions to interact with the Xeno Canto API with python [top-max 0.0.13]"
 
 HOMEPAGE="https://github.com/LouisBearing/BirdSoundClassif"
 LICENSE="GNU General Public License v3.0"

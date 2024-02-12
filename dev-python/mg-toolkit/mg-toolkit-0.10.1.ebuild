@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Metagenomics toolkit. [top-max 0.10.2]"
+DESCRIPTION="Metagenomics toolkit. [top-max 0.10.3]"
 
 HOMEPAGE="https://github.com/EBI-metagenomics/emg-toolkit"
 LICENSE="Apache-2.0"

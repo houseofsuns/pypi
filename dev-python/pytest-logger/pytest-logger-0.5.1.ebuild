@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plugin configuring handlers for loggers from Python logging module."
+DESCRIPTION="Plugin configuring handlers for loggers from Python logging module. [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/aurzenligl/pytest-logger"
 LICENSE="MIT"

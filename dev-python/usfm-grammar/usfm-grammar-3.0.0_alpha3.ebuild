@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python parser for USFM files, based on tree-sitter-usfm [top-max 3.0.0_beta3]"
+DESCRIPTION="Python parser for USFM files, based on tree-sitter-usfm [top-max 3.0.0_beta4]"
 
 HOMEPAGE="https://github.com/Bridgeconn/usfm-grammar/python-usfm-grammar#readme"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package to author, build, and deploy PreTeXt projects."
+DESCRIPTION="A package to author, build, and deploy PreTeXt projects. [top-max 2.3.8_pre20240212]"
 
 HOMEPAGE="https://pretextbook.org"
 LICENSE="GPL-3+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface for YARA"
+DESCRIPTION="Python interface for YARA [top-max 4.4.0]"
 
 HOMEPAGE="https://github.com/VirusTotal/yara-python"
 LICENSE="Apache-2.0"

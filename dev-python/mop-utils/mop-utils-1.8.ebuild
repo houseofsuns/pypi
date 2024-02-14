@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for MOP [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fda99cf5af0>)]"
+DESCRIPTION="Utilities for MOP [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f00f9e33140>)]"
 
 HOMEPAGE=""
 LICENSE=""

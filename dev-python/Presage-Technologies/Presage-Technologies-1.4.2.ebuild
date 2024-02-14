@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python client to interface with Presage Technologies' API services. [top-max 1.4.3]"
+DESCRIPTION="A Python client to interface with Presage Technologies' API services. [top-max 1.5.0]"
 
 HOMEPAGE="https://physiology.presagetech.com/"
 LICENSE=""

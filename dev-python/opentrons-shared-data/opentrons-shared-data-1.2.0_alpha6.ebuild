@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A bundle of data and python binding that supports the Opentrons API. Does not need to be installed manually; only a dependency of the opentrons package [top-max 7.2.0_alpha3]"
+DESCRIPTION="A bundle of data and python binding that supports the Opentrons API. Does not need to be installed manually; only a dependency of the opentrons package [top-max 7.2.0_alpha4]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

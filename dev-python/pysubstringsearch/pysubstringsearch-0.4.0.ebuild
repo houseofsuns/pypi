@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for fast substring/pattern search written in C++ leveraging Suffix Array Algorithm [top-max 0.7.0]"
+DESCRIPTION="Python library for fast substring/pattern search written in C++ leveraging Suffix Array Algorithm [top-max 0.7.1]"
 
 HOMEPAGE="https://github.com/Intsights/PySubstringSearch"
 LICENSE="MIT"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/cerberus-1.3.4[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.33[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/pyfunnel[${PYTHON_USEDEP}]

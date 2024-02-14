@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gpt4all huggingface recipes textract web"
-DEPENDENCIES="web? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+DEPENDENCIES="web? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/airium[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]

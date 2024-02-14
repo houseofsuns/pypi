@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	~dev-python/boltons-23.0.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
 	dev-python/mixpanel[${PYTHON_USEDEP}]
 	~dev-python/prettytable-2.5.0[${PYTHON_USEDEP}]

@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	deepspeed? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-2.2.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/catalyst-codestyle[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="devel test"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0.0_alpha0[${PYTHON_USEDEP}]
 	<dev-python/inflection-1.0.0_alpha0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0_alpha0[${PYTHON_USEDEP}]
 	devel? ( dev-python/twine[${PYTHON_USEDEP}] )

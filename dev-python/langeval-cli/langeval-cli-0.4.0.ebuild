@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/func-timeout[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/klein[${PYTHON_USEDEP}]
 	dev-python/CairoSVG[${PYTHON_USEDEP}]
 	dev-python/cairocffi[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

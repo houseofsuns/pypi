@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( <dev-python/jinja-3.0[${PYTHON_USEDEP}] )
 	dev-python/adlfs[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	test? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )

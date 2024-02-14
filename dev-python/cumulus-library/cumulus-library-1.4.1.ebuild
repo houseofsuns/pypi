@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/ctakesclient[${PYTHON_USEDEP}]
 	dev-python/fhirclient[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-11.0[${PYTHON_USEDEP}]
 	dev-python/PyAthena[${PYTHON_USEDEP}]

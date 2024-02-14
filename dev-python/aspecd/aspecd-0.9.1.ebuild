@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deployment dev docs"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.14[${PYTHON_USEDEP}]

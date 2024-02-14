@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/dohq-artifactory[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]
 	dev-python/pyunpack[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

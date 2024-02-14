@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/openapi-pydantic[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/openai[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/arxiv[${PYTHON_USEDEP}] )

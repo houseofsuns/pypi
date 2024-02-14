@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/honcho[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
 	dev-python/python-crontab[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/semantic-version-2.8.2[${PYTHON_USEDEP}]

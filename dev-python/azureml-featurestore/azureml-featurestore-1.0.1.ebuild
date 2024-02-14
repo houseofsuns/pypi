@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="online"
 DEPENDENCIES="dev-python/azure-ai-ml[${PYTHON_USEDEP}]
 	dev-python/mltable[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	online? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/azure-ai-ml[${PYTHON_USEDEP}]
 	online? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/azure-ai-ml[${PYTHON_USEDEP}]
 	dev-python/mltable[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	online? ( dev-python/azure-identity[${PYTHON_USEDEP}] )

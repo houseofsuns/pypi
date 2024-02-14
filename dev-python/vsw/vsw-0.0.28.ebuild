@@ -56,7 +56,7 @@ DEPENDENCIES=">=dev-python/pkginfo-1.4.2[${PYTHON_USEDEP}]
 	>=dev-python/rfc3986-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	~dev-python/flask-1.1.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.36.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

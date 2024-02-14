@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="boto3"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	boto3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/cookiecutter[${PYTHON_USEDEP}]

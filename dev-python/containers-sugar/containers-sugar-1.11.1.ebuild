@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-2.0[${PYTHON_USEDEP}]
 	>=dev-python/sh-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]

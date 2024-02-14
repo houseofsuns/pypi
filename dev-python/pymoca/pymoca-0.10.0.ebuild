@@ -27,7 +27,7 @@ IUSE="all casadi examples lxml sympy"
 DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.7[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.8.2[${PYTHON_USEDEP}]
 	all? ( dev-python/casadi[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja-2.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/lxml-3.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -40,6 +40,6 @@ DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.7[${PYTHON_USEDEP}]
 	lxml? ( >=dev-python/scipy-0.13.3[${PYTHON_USEDEP}] )
 	sympy? ( >=dev-python/sympy-0.7.6.1[${PYTHON_USEDEP}] )
 	sympy? ( >=dev-python/scipy-0.13.3[${PYTHON_USEDEP}] )
-	sympy? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	sympy? ( >=dev-python/jinja-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -36,6 +36,6 @@ DEPENDENCIES=">=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

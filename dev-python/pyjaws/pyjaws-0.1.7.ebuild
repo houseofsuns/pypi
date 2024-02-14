@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.35[${PYTHON_USEDEP}]
 	<dev-python/requests-2.30.0[${PYTHON_USEDEP}]

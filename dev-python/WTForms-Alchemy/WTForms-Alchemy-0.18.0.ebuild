@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}]
 	test? ( dev-python/enum34[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-2.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pygments-1.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jinja-2.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/docutils-0.10[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-2.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flexmock-0.9.7[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-2.1.3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	dev-python/ibm-cloud-security-advisor[${PYTHON_USEDEP}]
 	dev-python/ilcli[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]

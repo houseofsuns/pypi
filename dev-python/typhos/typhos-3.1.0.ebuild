@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	test? ( dev-python/caproto[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/ipython-7.16[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
 	test? ( dev-python/pcdsdevices[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

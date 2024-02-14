@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/git-semver[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	dev-python/mondrian[${PYTHON_USEDEP}]
 	~dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]

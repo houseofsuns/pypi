@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/airbyte-protocol-models[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	~dev-python/wcmatch-8.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/avro[${PYTHON_USEDEP}] )

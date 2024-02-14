@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="extended-testing"
 DEPENDENCIES=">=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	<dev-python/anyio-5.0[${PYTHON_USEDEP}]
-	extended-testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
 	dev-python/langsmith[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]

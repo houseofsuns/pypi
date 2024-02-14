@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/hoppr-cyclonedx-models[${PYTHON_USEDEP}]
 	dev-python/in-toto[${PYTHON_USEDEP}]
 	<dev-python/jc-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
 	dev-python/oras[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]

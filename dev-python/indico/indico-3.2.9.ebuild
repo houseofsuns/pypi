@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/ipython-8.13.2[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.18.2[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	~dev-python/kombu-5.3.1[${PYTHON_USEDEP}]
 	dev-python/limits[${PYTHON_USEDEP}]
@@ -125,7 +125,7 @@ DEPENDENCIES="~dev-python/ipython-8.13.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/livereload-2.6.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )

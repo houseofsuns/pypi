@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/rdflib[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jinja2-time[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	shell? ( dev-python/readline[${PYTHON_USEDEP}] )"

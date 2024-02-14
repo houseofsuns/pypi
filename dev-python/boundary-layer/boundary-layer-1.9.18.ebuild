@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="github"
 DEPENDENCIES="<dev-python/semver-3.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-2.5[${PYTHON_USEDEP}]

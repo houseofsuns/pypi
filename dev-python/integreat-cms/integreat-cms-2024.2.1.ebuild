@@ -222,7 +222,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-pinned? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/jaraco-classes-3.3.1[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/json5-0.9.14[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/keyring-24.3.0[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.9.6[${PYTHON_USEDEP}]
 	<dev-python/python-magic-1.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	>=dev-python/responses-0.13.4[${PYTHON_USEDEP}]
 	analysis? ( dev-python/autoprotocol[${PYTHON_USEDEP}] )
 	analysis? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )

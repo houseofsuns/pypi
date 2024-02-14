@@ -27,7 +27,7 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/ansible-builder[${PYTHON_USEDEP}]
 	dev-python/ansible-runner[${PYTHON_USEDEP}]
 	dev-python/ansible-lint[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/onigurumacffi[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

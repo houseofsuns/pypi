@@ -70,6 +70,6 @@ DEPENDENCIES="<dev-python/pyopenssl-23.3.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-notfound-page-0.8.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/jinja-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

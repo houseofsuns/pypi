@@ -33,7 +33,7 @@ DEPENDENCIES="proxy? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/fastapi-sso[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	>=dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	proxy? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/python-dotenv-0.2.0[${PYTHON_USEDEP}]

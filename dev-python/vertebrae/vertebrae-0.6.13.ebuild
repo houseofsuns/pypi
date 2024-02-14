@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.27.9[${PYTHON_USEDEP}]
 	dev-python/detect-probe[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

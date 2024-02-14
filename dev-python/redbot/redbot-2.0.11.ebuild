@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev systemd"
 DEPENDENCIES="dev-python/httplint[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.4.4[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.9.0[${PYTHON_USEDEP}]

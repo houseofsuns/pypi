@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-ansible-0.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pipdeptree-2.7.1[${PYTHON_USEDEP}] )

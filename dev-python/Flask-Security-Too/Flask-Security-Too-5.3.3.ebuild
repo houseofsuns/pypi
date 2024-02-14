@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	low? ( ~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/bleach-6.0.0[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
-	low? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
 	low? ( dev-python/mongoengine[${PYTHON_USEDEP}] )

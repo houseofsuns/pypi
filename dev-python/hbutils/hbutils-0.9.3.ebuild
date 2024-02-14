@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/bitmath[${PYTHON_USEDEP}]
 	<dev-python/chardet-5.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.0.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jinja-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )

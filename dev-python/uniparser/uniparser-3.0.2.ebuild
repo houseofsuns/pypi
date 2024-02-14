@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/frequency-controller[${PYTHON_USEDEP}]
 	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	torequests? ( dev-python/torequests[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	web? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	web? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	web? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	web? ( dev-python/aiofiles[${PYTHON_USEDEP}] )

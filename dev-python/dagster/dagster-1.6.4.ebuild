@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docker mypy pyright ruff test"
 DEPENDENCIES=">=dev-python/click-5.0[${PYTHON_USEDEP}]
 	<=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/croniter-0.3.34[${PYTHON_USEDEP}]

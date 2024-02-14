@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
-	openapi? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	openapi? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/argcomplete-4.0.0[${PYTHON_USEDEP}]
 	openapi? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

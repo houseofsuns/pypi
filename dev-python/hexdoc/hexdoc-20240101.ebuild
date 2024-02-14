@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev pdoc test"
 DEPENDENCIES="dev-python/hatch[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	dev-python/minecraft-render[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-10.1[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1[${PYTHON_USEDEP}]

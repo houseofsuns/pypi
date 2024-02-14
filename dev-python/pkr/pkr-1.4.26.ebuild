@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/docker-4.4.4[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	~dev-python/netifaces-0.10.5[${PYTHON_USEDEP}]
 	>=dev-python/passlib-1.7.1[${PYTHON_USEDEP}]

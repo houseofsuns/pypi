@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.7.1[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	>=dev-python/fsspec-2021.6.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>dev-python/jinja-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
 	>=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]

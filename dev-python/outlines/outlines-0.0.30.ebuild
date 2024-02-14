@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="serve test"
 DEPENDENCIES="dev-python/interegular[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/lark[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

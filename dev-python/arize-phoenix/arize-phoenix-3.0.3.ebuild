@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev experimental llama-index"
 DEPENDENCIES="dev-python/ddsketch[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/openinference-instrumentation-langchain[${PYTHON_USEDEP}]
 	dev-python/openinference-instrumentation-llama-index[${PYTHON_USEDEP}]

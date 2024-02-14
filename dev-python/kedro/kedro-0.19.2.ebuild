@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-2.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/behave[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/import-linter[${PYTHON_USEDEP}] )

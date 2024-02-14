@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style pdfhtml sphinx testing"
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	<dev-python/linkify-it-py-3.0[${PYTHON_USEDEP}]
 	dev-python/myst-nb[${PYTHON_USEDEP}]

@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/deepdiff[${PYTHON_USEDEP}]
 	streamlit? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
-	streamlit? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	streamlit? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/GitPython-3.0[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )

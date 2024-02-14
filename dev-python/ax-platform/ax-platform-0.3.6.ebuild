@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mysql notebook tutorial unittest unittest_minimal"
 DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyfakefs-5.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	tutorial? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tutorial? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tutorial? ( ~dev-python/pyfakefs-5.1.0[${PYTHON_USEDEP}] )
 	tutorial? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	unittest? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	unittest? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	unittest? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	unittest? ( ~dev-python/pyfakefs-5.1.0[${PYTHON_USEDEP}] )
 	unittest? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

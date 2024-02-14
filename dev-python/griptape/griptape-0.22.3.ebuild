@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all drivers-embedding-amazon-bedrock drivers-embedding-amazon-sagemaker drivers-embedding-huggingface drivers-memory-conversation-amazon-dynamodb drivers-prompt-amazon-bedrock drivers-prompt-amazon-sagemaker drivers-prompt-anthropic drivers-prompt-cohere drivers-prompt-huggingface drivers-sql-postgres drivers-sql-redshift drivers-sql-snowflake drivers-vector-amazon-opensearch drivers-vector-marqo drivers-vector-mongodb drivers-vector-opensearch drivers-vector-pinecone drivers-vector-postgresql drivers-vector-redis"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-enum[${PYTHON_USEDEP}]

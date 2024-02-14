@@ -76,7 +76,7 @@ DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	test? ( dev-python/fabric[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/sagemaker-experiments[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pandas-1.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

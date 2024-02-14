@@ -32,6 +32,6 @@ DEPENDENCIES="build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	viewer? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	viewer? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

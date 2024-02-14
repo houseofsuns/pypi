@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygifsicle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	geometry? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	geometry? ( dev-python/meshio[${PYTHON_USEDEP}] )

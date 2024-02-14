@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/numpy-1.27.0[${PYTHON_USEDEP}]
 	full? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tripper[${PYTHON_USEDEP}] )
 	full? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	full? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/typing-extensions-5.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )

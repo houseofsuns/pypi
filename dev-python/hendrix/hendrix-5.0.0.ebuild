@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/twisted[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.3[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pychalk[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]

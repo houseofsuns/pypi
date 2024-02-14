@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.3.6[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/python-markdown-math-0.8[${PYTHON_USEDEP}]

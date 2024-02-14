@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/livereload-2.6.3[${PYTHON_USEDEP}]
@@ -158,7 +158,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
-	complete? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/joblib-1.3.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/livereload-2.6.3[${PYTHON_USEDEP}] )

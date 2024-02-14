@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bundle docs test tls"
 DEPENDENCIES=">=dev-python/setuptools-8.0[${PYTHON_USEDEP}]
 	<=dev-python/twisted-23.10.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.1[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/croniter-1.3.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]

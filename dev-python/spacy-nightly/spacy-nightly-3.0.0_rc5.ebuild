@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/spacy-legacy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.8.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	cuda? ( dev-python/cupy[${PYTHON_USEDEP}] )

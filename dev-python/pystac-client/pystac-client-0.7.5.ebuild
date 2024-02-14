@@ -56,7 +56,7 @@ DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/hvplot[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipykernel-6.22[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipython-8.12[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.9[${PYTHON_USEDEP}] )

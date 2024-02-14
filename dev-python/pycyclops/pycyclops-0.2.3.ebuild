@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alibi alibi-detect all monai torch torchvision torchxrayvision xgboost"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	alibi-detect? ( dev-python/alibi-detect[${PYTHON_USEDEP}] )
 	all? ( dev-python/alibi-detect[${PYTHON_USEDEP}] )
 	alibi? ( dev-python/alibi[${PYTHON_USEDEP}] )

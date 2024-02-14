@@ -32,6 +32,6 @@ DEPENDENCIES="dev? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.41.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/django-4.2.7[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

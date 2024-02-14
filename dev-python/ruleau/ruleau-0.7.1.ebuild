@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/flatdict-4.0.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/jsonpath-ng-1.5.2[${PYTHON_USEDEP}]
 	~dev-python/regex-2021.4.4[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]

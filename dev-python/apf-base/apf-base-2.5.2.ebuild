@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.0[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.69[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}]

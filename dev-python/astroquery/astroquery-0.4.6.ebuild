@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-dependency[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

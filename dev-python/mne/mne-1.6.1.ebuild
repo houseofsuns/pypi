@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.5[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/lazy_loader-0.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/mne[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-6.0[${PYTHON_USEDEP}] )

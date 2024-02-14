@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/diskcache[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/tox[${PYTHON_USEDEP}]
 	tests? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	tests? ( dev-python/diskcache[${PYTHON_USEDEP}] )
 	tests? ( dev-python/h-matchers[${PYTHON_USEDEP}] )
 	tests? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tox[${PYTHON_USEDEP}] )"

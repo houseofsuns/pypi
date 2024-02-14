@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azure_devops dev dev-build dev-docs dev-licenses dev-lint dev-security dev-test dev-types github"
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]

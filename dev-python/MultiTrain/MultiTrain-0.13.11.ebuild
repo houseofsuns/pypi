@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	~dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-8.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev? ( dev-python/compel[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/GitPython-3.1.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/k-diffusion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/librosa[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	test? ( dev-python/compel[${PYTHON_USEDEP}] )
 	test? ( <dev-python/GitPython-3.1.19[${PYTHON_USEDEP}] )
 	test? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
 	test? ( dev-python/k-diffusion[${PYTHON_USEDEP}] )
 	test? ( dev-python/librosa[${PYTHON_USEDEP}] )
@@ -92,7 +92,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	training? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	training? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	training? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	training? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	training? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	training? ( dev-python/peft[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

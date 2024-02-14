@@ -61,7 +61,7 @@ DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/griffe-0.25.0[${PYTHON_USEDEP}] )

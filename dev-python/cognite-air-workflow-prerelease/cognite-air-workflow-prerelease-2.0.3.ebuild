@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
 	<dev-python/cerberus-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
 	dev-python/cognite-air-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

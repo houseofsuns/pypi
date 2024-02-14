@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/inputimeout[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

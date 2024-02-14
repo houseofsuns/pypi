@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="async dotenv"
 DEPENDENCIES=">=dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.6.2[${PYTHON_USEDEP}]

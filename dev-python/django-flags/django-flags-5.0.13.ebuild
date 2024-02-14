@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/pymdown-extensions-4.11[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/coverage-3.7.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/django-debug-toolbar-4.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

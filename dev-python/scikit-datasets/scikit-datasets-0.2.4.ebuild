@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	utils-experiments? ( dev-python/sacred[${PYTHON_USEDEP}] )
 	utils-experiments? ( dev-python/incense[${PYTHON_USEDEP}] )
 	utils-scores? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	utils-scores? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	utils-scores? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

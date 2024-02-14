@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/plotly-6.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )

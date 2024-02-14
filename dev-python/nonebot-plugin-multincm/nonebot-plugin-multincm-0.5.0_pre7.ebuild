@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.6.2[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	playwright? ( dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}] )
-	playwright? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	playwright? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/bbcode[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

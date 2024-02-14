@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/toolz-1.0[${PYTHON_USEDEP}]
 	<dev-python/docopt-1.0[${PYTHON_USEDEP}]
 	<dev-python/nbformat-5.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	dev-python/bqplot[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

@@ -41,6 +41,6 @@ DEPENDENCIES=">=dev-python/routes-1.12.3[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-0.15[${PYTHON_USEDEP}]
 	>=dev-python/webob-1.1.1[${PYTHON_USEDEP}]
 	genshi? ( >=dev-python/genshi-0.6[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

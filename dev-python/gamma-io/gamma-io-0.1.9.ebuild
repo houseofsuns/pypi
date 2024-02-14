@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	full? ( dev-python/gamma-config[${PYTHON_USEDEP}] )
 	full? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/jinja-2.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	sql? ( >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

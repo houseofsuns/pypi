@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

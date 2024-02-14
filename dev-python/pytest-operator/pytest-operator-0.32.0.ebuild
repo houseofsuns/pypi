@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/ipdb[${PYTHON_USEDEP}]
 	<dev-python/pytest-asyncio-0.23[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/juju[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

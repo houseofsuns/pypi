@@ -27,7 +27,7 @@ IUSE="deb dev doc docker graph kasa modbus modbusrtu mqtt onewire pyvisa snmp vx
 DEPENDENCIES="dev-python/ansicolors[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	>=dev-python/autobahn-21.3.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/pyserial-labgrid[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]

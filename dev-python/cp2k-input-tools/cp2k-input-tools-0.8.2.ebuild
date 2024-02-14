@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/transitions-0.8[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	yaml? ( <dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}] )
 	lsp? ( dev-python/pygls[${PYTHON_USEDEP}] )
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

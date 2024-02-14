@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-67.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]"
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

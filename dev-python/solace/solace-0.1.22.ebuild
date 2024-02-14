@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/starlette-0.20.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}]
 	dev-python/watchgod[${PYTHON_USEDEP}]
 	<dev-python/cerberus-2.0.0[${PYTHON_USEDEP}]

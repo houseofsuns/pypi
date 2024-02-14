@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="css_inlining testing"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	css_inlining? ( dev-python/css-inline[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ddt[${PYTHON_USEDEP}] )
 	testing? ( dev-python/fakefshelpers[${PYTHON_USEDEP}] )

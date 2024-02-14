@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	>=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/hypercorn-0.11.2[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )

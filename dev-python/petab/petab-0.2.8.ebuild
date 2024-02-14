@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pysb[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	reports? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	reports? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	combine? ( dev-python/python-libcombine[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-3.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )

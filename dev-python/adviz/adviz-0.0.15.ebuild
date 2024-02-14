@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/advertools[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kaleido[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

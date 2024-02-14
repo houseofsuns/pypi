@@ -70,7 +70,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dandi? ( dev-python/dandi[${PYTHON_USEDEP}] )
 	deeplabcut? ( dev-python/dlc2nwb[${PYTHON_USEDEP}] )
 	deeplabcut? ( <dev-python/tables-3.9.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )

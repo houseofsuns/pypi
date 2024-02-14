@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/triad[${PYTHON_USEDEP}]
 	all? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	all? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/dask-2023.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask-sql[${PYTHON_USEDEP}] )
@@ -49,13 +49,13 @@ DEPENDENCIES="dev-python/triad[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	ibis? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	ibis? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/ibis-framework[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
@@ -68,6 +68,6 @@ DEPENDENCIES="dev-python/triad[${PYTHON_USEDEP}]
 	sql? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	sql? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	sql? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	sql? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

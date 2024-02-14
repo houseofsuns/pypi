@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/kserve[${PYTHON_USEDEP}]
 	~dev-python/nest-asyncio-1.4.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-3.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-0.21.2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	examples? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )"

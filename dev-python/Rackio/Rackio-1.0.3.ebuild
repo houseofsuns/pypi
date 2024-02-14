@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/python-statemachine[${PYTHON_USEDEP}]
 	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

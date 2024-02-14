@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/aiocache-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.8.0[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )

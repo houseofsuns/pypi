@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-2.11.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/python-box-7.0[${PYTHON_USEDEP}]

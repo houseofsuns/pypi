@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/editdistance[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="carto jupyter"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	carto? ( dev-python/pydeck-carto[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )

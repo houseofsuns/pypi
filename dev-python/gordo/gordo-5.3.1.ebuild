@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
@@ -88,7 +88,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/ipython_genutils-0.2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jedi-0.19.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonpointer-2.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonschema-4.21.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonschema-specifications-2023.12.1[${PYTHON_USEDEP}] )

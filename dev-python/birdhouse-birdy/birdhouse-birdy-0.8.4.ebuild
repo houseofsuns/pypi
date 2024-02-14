@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	>=dev-python/owslib-0.19.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

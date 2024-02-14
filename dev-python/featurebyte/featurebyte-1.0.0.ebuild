@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	server? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/lazy-object-proxy-2.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/motor[${PYTHON_USEDEP}] )
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]

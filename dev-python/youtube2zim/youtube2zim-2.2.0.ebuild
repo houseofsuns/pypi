@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="check dev lint scripts test"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	dev-python/kiwixstorage[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pif[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="~dev-python/Babel-2.12.1[${PYTHON_USEDEP}]
 	dev-python/Farama-Notifications[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/Keras-Preprocessing[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4.4[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]

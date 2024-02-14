@@ -37,7 +37,7 @@ DEPENDENCIES="<=dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	<=dev-python/flask-2.1.3[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2[${PYTHON_USEDEP}]
 	~dev-python/pbr-5.9.0[${PYTHON_USEDEP}]
 	~dev-python/pipenv-2023.7.3[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="<=dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	test? ( ~dev-python/boto3-1.21.46[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/botocore-1.24.46[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/moto-3.1.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

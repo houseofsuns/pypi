@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/flask-coralillo[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-1.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

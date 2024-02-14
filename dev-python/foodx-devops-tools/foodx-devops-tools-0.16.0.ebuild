@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/aiofiles-1.0[${PYTHON_USEDEP}]
 	dev-python/azure-devops[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/deepmerge-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/build-harness[${PYTHON_USEDEP}] )

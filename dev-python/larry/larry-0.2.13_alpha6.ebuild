@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="boto image jinja pdf"
 DEPENDENCIES="boto? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

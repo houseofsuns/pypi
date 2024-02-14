@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
 	develop? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	develop? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

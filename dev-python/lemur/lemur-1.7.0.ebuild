@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/javaobj-py3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/josepy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
@@ -216,7 +216,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -425,7 +425,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -627,7 +627,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )

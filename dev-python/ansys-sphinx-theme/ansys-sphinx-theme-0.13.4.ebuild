@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 DEPENDENCIES=">=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}]
 	<dev-python/pydata-sphinx-theme-0.15[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="dev docs test"
 DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	<dev-python/paramiko-4.0[${PYTHON_USEDEP}]
 	>dev-python/click-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]

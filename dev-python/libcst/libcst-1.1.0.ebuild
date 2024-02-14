@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-rust-1.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/slotscheck[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyre-check[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

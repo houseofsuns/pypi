@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	>=dev-python/virtualenv-14.0[${PYTHON_USEDEP}]
-	tox_to_nox? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tox_to_nox? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tox_to_nox? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

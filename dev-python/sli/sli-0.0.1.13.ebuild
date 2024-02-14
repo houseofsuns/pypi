@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/skilletlib[${PYTHON_USEDEP}]
 	dev-python/panforge[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0.1[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

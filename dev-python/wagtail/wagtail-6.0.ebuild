@@ -51,7 +51,7 @@ DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-copybutton-1.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytz-2014.7[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/jinja-3.2[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/freezegun-0.3.8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/azure-mgmt-cdn[${PYTHON_USEDEP}] )

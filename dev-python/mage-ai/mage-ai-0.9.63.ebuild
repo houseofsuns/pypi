@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ai all azure bigquery chroma clickhouse dbt google-cloud-storage hdf5 mysql oracle postgres qdrant redshift s3 snowflake spark streaming"
 DEPENDENCIES="~dev-python/Faker-4.14.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/PyGithub-1.59.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]

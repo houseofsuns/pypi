@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	opt_einsum? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	templating? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	templating? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	tests? ( dev-python/unittest-templates[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aci all aristacv device42 infoblox ipfabric nautobot-device-lifecycle-mgmt pysnow servicenow"
-DEPENDENCIES="all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	servicenow? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
+	servicenow? ( >=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
 	>dev-python/markdown-3.3.5[${PYTHON_USEDEP}]
 	aci? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )

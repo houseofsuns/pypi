@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	<dev-python/docker-7.0[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
 	>=dev-python/griffe-0.20.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	<dev-python/pytz-2025.0[${PYTHON_USEDEP}]
 	dev-python/readchar[${PYTHON_USEDEP}]
@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ddtrace[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )

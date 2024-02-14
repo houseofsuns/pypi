@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dbt-bigquery gcs redash s3"
 DEPENDENCIES=">=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.3[${PYTHON_USEDEP}]
 	s3? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	redash? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

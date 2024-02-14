@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-oauthlib-0.4.2[${PYTHON_USEDEP}]
 	~dev-python/google-api-core-1.26.0[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.12.8[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

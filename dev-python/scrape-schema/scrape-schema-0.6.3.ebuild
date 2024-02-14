@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/chompjs[${PYTHON_USEDEP}]
 	ci? ( dev-python/parsel[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	ci? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	codegen? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	codegen? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )

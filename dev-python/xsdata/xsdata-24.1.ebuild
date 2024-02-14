@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/click-5.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/click-default-group-1.2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	cli? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/jinja-2.10[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/toposort-1.5[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )

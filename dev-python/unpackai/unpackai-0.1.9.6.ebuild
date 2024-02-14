@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/fastai[${PYTHON_USEDEP}]
 	pdf? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	deploy? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

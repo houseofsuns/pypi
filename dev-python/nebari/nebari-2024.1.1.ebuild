@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
 	dev? ( dev-python/escapism[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jhub-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

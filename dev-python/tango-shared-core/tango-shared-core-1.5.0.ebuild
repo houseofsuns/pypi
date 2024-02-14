@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/smartypants-1.6.0.3[${PYTHON_USEDEP}]
 	>=dev-python/typogrify-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/tango-voting[${PYTHON_USEDEP}]
 	>=dev-python/untangle-1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

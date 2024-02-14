@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/markdown-3.0[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	dev-python/syntext[${PYTHON_USEDEP}]
 	dev-python/ibis[${PYTHON_USEDEP}]
 	dev-python/shortcodes[${PYTHON_USEDEP}]

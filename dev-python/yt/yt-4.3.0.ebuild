@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/cmyt[${PYTHON_USEDEP}]
 	chombo? ( dev-python/yt[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/alabaster-0.7.13[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/bottle-0.12.25[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/jinja-3.1.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/jupyter-client-8.3.1[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/pytest-6.1[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	>dev-python/GitPython-2.1.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.9[${PYTHON_USEDEP}]
 	dev-python/jupyter-server[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-server-mathjax-0.2.2[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]

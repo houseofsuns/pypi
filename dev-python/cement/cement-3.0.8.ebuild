@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="colorlog generate jinja2 memcached mustache redis tabulate watchdog yaml"
 DEPENDENCIES="colorlog? ( dev-python/colorlog[${PYTHON_USEDEP}] )
 	generate? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
 	mustache? ( dev-python/pystache[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )

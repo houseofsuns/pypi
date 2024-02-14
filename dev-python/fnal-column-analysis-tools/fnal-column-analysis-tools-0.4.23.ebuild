@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	spark? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	spark? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	spark? ( dev-python/lz4[${PYTHON_USEDEP}] )
-	spark? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	spark? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

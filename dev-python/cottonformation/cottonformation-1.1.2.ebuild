@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/wheel-0.33.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pathlib-mate[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sqlalchemy-1.4.20[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="image"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]

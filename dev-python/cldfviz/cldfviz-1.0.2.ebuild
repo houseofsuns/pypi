@@ -27,7 +27,7 @@ IUSE="cartopy dev lingtreemaps test"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/cldfbench[${PYTHON_USEDEP}]
 	dev-python/clldutils[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/newick[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

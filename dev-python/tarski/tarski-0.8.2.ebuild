@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/multipledispatch[${PYTHON_USEDEP}]
 	arithmetic? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	arithmetic? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	clingo? ( dev-python/clingo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )

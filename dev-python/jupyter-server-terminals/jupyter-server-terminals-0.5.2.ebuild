@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/terminado-0.8.3[${PYTHON_USEDEP}]
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mistune-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

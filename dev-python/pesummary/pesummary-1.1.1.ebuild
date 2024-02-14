@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.44.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-1.2.2[${PYTHON_USEDEP}] )

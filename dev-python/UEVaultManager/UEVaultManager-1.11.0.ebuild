@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	~dev-python/Faker-19.3.1[${PYTHON_USEDEP}]
 	~dev-python/rapidfuzz-2.15[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
 	webview? ( dev-python/pywebview[${PYTHON_USEDEP}] )

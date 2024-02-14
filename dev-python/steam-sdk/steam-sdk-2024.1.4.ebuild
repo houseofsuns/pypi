@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all build docs tests"
 DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	all? ( dev-python/gmsh[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpy-1.23.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}] )

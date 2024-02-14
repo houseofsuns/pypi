@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
 DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/Fabric39[${PYTHON_USEDEP}]
 	dev-python/pystorm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
 	dev-python/thriftpy2[${PYTHON_USEDEP}]
 	all? ( dev-python/cython[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( dev-python/Fabric39[${PYTHON_USEDEP}] )
 	all? ( dev-python/pystorm[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )

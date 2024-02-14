@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hypothesis-6.86.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-material-9.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )

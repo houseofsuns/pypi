@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="i18n min-versions"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/ghp-import-1.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.1[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	min-versions? ( ~dev-python/Babel-2.9.0[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/click-7.0[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/ghp-import-1.0[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/jinja-2.11.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/markdown-3.2.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}] )

@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0[${PYTHON_USEDEP}]
 	mysql? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.2[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	otel? ( dev-python/opentelemetry-distro[${PYTHON_USEDEP}] )
 	otel? ( dev-python/opentelemetry-instrumentation-sqlalchemy[${PYTHON_USEDEP}] )

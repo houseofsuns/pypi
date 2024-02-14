@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="argilla dev docs hf-inference-endpoints hf-transformers llama-cpp mistralai ollama openai tests together vertexai vllm"
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.5.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.0[${PYTHON_USEDEP}]

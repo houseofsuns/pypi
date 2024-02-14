@@ -27,7 +27,7 @@ IUSE="files full sessions"
 DEPENDENCIES="<dev-python/starlette-0.13[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.9[${PYTHON_USEDEP}]
 	dev-python/typesystem[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]

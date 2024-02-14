@@ -27,7 +27,7 @@ IUSE="pipelines pyspark"
 DEPENDENCIES="dev-python/databricks-sql-connector[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]

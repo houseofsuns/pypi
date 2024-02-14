@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azure gcp"
 DEPENDENCIES="gcp? ( dev-python/c7n-gcp[${PYTHON_USEDEP}] )
 	azure? ( dev-python/c7n-azure[${PYTHON_USEDEP}] )
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.34.21[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.21.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]

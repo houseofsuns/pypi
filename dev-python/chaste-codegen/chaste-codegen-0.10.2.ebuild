@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/py-1.10.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	<dev-python/sympy-1.11[${PYTHON_USEDEP}]
 	<dev-python/zipp-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	dev-python/cellmlmanip[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )

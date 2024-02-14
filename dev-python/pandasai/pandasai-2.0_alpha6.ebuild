@@ -57,7 +57,7 @@ DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	connectors? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	chromadb? ( dev-python/chromadb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	server? ( >=dev-python/flask-0.12.2[${PYTHON_USEDEP}] )
 	server? ( dev-python/Flask-Assets[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/flask-compress-1.4.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/jinja-2.9.6[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/networkx-1.11[${PYTHON_USEDEP}] )
 	server? ( dev-python/webassets[${PYTHON_USEDEP}] )

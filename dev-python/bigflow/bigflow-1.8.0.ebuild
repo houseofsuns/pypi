@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/grpcio-status[${PYTHON_USEDEP}]
 	>dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
 	dev-python/unittest-xml-reporting[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/grpcio-status[${PYTHON_USEDEP}]
 	base_frozen? ( ~dev-python/grpcio-1.50.0[${PYTHON_USEDEP}] )
 	base_frozen? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	base_frozen? ( ~dev-python/idna-3.3[${PYTHON_USEDEP}] )
-	base_frozen? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	base_frozen? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	base_frozen? ( ~dev-python/lazy-object-proxy-1.7.1[${PYTHON_USEDEP}] )
 	base_frozen? ( ~dev-python/lxml-4.8.0[${PYTHON_USEDEP}] )
 	base_frozen? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )

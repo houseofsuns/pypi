@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	buildtools? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	buildtools? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	buildtools? ( dev-python/fabric[${PYTHON_USEDEP}] )
-	buildtools? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	buildtools? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	buildtools? ( dev-python/twine[${PYTHON_USEDEP}] )
 	notifications? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	platform? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )

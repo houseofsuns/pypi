@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/setuptools-67.0[${PYTHON_USEDEP}]
 	dev-python/pygame[${PYTHON_USEDEP}]
 	dev-python/mujoco[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	atari? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	atari? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )

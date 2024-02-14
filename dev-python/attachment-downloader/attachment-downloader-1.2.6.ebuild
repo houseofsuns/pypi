@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/assertpy[${PYTHON_USEDEP}]
 	dev-python/imbox[${PYTHON_USEDEP}]
 	~dev-python/iso8601-1.0.2[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/pylint-2.17.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2.2[${PYTHON_USEDEP}]

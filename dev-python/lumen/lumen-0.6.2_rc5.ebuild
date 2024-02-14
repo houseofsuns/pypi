@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/intake[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastparquet[${PYTHON_USEDEP}] )

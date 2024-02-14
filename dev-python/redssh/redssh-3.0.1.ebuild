@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/redlibssh[${PYTHON_USEDEP}]
 	tests? ( dev-python/safety[${PYTHON_USEDEP}] )
 	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

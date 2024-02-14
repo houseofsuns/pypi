@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/galaxy-util[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	cwl? ( dev-python/cwltool[${PYTHON_USEDEP}] )
 	edam? ( dev-python/edam-ontology[${PYTHON_USEDEP}] )
-	mulled? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	mulled? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	mulled? ( dev-python/whoosh[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

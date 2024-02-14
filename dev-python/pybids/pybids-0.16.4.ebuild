@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pybids[${PYTHON_USEDEP}] )
-	model_reports? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	model_reports? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	model_reports? ( dev-python/altair[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-3.3[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	test? ( dev-python/altair[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pybids[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tutorial? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/ipykernel[${PYTHON_USEDEP}] )"

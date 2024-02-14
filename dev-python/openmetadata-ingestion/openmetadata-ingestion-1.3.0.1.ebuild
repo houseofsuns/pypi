@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.38.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-1.33.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
@@ -97,7 +97,7 @@ DEPENDENCIES="~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/websocket-client-1.6.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/google-auth-1.33.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cachetools[${PYTHON_USEDEP}] )
@@ -196,7 +196,7 @@ DEPENDENCIES="~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	base? ( ~dev-python/chardet-4.0.0[${PYTHON_USEDEP}] )
 	base? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	base? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
-	base? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/google-auth-1.33.0[${PYTHON_USEDEP}] )
 	base? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}] )
@@ -374,7 +374,7 @@ DEPENDENCIES="~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	slim? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	slim? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	slim? ( ~dev-python/websocket-client-1.6.1[${PYTHON_USEDEP}] )
-	slim? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	slim? ( >=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
 	slim? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	slim? ( >=dev-python/google-auth-1.33.0[${PYTHON_USEDEP}] )
 	slim? ( dev-python/cachetools[${PYTHON_USEDEP}] )

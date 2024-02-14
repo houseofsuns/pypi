@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	data? ( dev-python/dominodatalab-data[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nbconvert-6.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/polling2[${PYTHON_USEDEP}] )

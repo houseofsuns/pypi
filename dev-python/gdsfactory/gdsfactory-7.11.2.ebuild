@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cad dev docs full maintainer"
 DEPENDENCIES="dev-python/flatdict[${PYTHON_USEDEP}]
 	dev-python/gdstk[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]

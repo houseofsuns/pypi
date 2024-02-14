@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
 	test? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/yarl-2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/jinja-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

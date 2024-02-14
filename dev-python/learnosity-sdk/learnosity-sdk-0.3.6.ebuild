@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	quickstart? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	quickstart? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-4.6.6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )

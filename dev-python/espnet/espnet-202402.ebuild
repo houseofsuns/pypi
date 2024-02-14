@@ -80,7 +80,7 @@ DEPENDENCIES=">=dev-python/setuptools-38.5.1[${PYTHON_USEDEP}]
 	all? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	all? ( dev-python/praatio[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )

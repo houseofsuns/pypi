@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="executor remote sge twofactor"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	executor? ( dev-python/pympipool[${PYTHON_USEDEP}] )

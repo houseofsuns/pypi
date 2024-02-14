@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cf-units[${PYTHON_USEDEP}]
 	>=dev-python/cftime-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/isodate-0.5.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/lxml-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/netcdf4-1.5.7[${PYTHON_USEDEP}]
 	>=dev-python/owslib-0.8.3[${PYTHON_USEDEP}]

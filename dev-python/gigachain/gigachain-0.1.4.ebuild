@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	llms? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/torch[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]

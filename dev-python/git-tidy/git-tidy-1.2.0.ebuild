@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/formaldict[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>dev-python/jinja-2.10.3[${PYTHON_USEDEP}]
 	>dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	>dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]

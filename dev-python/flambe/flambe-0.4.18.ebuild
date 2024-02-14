@@ -46,7 +46,7 @@ DEPENDENCIES="~dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	~dev-python/pip-19.1[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

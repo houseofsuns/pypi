@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop i18n"
 DEPENDENCIES="dev-python/BlazeUtils[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.4.20[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]
 	develop? ( dev-python/arrow[${PYTHON_USEDEP}] )

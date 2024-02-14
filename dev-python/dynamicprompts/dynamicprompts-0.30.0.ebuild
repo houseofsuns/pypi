@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="attentiongrabber magicprompt"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	attentiongrabber? ( dev-python/spacy[${PYTHON_USEDEP}] )

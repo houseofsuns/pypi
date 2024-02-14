@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/meraki[${PYTHON_USEDEP}]
 	>=dev-python/pypng-0.20220715.0[${PYTHON_USEDEP}]
 	dev-python/PyQRCode[${PYTHON_USEDEP}]

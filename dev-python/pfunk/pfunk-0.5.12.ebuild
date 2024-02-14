@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/faunadb[${PYTHON_USEDEP}]
 	dev-python/valley[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0.1[${PYTHON_USEDEP}]
 	dev-python/envs[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytz-2022.0[${PYTHON_USEDEP}]

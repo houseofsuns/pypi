@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/grpclib[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
 	dev-python/betterproto-twirp[${PYTHON_USEDEP}]
 	compiler? ( dev-python/black[${PYTHON_USEDEP}] )
-	compiler? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	compiler? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	compiler? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

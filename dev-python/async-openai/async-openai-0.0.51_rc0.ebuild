@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aiohttpx[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/lazyops[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	cache? ( dev-python/kvdb[${PYTHON_USEDEP}] )
 	utils? ( dev-python/numpy[${PYTHON_USEDEP}] )

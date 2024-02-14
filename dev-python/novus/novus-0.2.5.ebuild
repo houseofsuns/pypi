@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	vbu? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/aiohttp-session[${PYTHON_USEDEP}] )
-	vbu? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	vbu? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	voice? ( <dev-python/pynacl-1.5[${PYTHON_USEDEP}] )"

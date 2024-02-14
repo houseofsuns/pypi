@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="with-gcs-tools with-s3-tools"
 DEPENDENCIES=">=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	dev-python/scrapinghub[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.7.3[${PYTHON_USEDEP}]
 	~dev-python/sqlitedict-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.9.92[${PYTHON_USEDEP}]
 	dev-python/bloom-filter2[${PYTHON_USEDEP}]

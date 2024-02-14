@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	reporting? ( dev-python/pdfkit[${PYTHON_USEDEP}] )
-	reporting? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	reporting? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	reviewing_derivations? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	reviewing_derivations? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	sparse_solver? ( dev-python/scipy[${PYTHON_USEDEP}] )

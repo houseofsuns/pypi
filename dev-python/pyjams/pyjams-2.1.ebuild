@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	doc? ( <dev-python/numpydoc-2.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jinja-2.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )

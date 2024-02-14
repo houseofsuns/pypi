@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/broadbean[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/towncrier-22.8.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/scipy-1.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/qcodes-loop[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	loop? ( dev-python/qcodes-loop[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-6.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/deepdiff-5.0.2[${PYTHON_USEDEP}] )
@@ -91,7 +91,7 @@ DEPENDENCIES="dev-python/broadbean[${PYTHON_USEDEP}]
 	test? ( dev-python/types-pywin32[${PYTHON_USEDEP}] )
 	test? ( dev-python/qcodes-loop[${PYTHON_USEDEP}] )
 	test? ( dev-python/zhinst-qcodes[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	zurichinstruments? ( dev-python/zhinst-qcodes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

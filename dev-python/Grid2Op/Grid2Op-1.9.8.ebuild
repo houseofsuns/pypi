@@ -64,7 +64,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	test? ( dev-python/gym[${PYTHON_USEDEP}] )
 	test? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nbformat-5.0.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/jupyter-client-6.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jyquickhelper[${PYTHON_USEDEP}] )

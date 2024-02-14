@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/distlib[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

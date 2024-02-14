@@ -27,7 +27,7 @@ IUSE="all docs qtpdf qtpng serve test webpdf"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	>dev-python/bleach-5.0.0[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-core-4.7[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-pygments[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.0[${PYTHON_USEDEP}]

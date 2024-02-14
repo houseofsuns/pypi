@@ -27,7 +27,7 @@ IUSE="all"
 DEPENDENCIES="dev-python/vaex-core[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-io[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

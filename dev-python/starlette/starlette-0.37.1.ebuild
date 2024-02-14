@@ -27,7 +27,7 @@ IUSE="full"
 DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	full? ( >=dev-python/httpx-0.22.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
-	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

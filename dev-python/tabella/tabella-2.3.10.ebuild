@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	dev-python/lorem-pysum[${PYTHON_USEDEP}]
 	dev-python/case-switcher[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.27.0[${PYTHON_USEDEP}]

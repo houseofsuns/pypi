@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.3[${PYTHON_USEDEP}]
 	>=dev-python/unidecode-1.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

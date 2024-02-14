@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/alembic-1.4[${PYTHON_USEDEP}]
 	dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/certipy[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-telemetry[${PYTHON_USEDEP}]
 	>=dev-python/oauthlib-3.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

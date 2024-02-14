@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/agate[${PYTHON_USEDEP}]
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( dev-python/dbt-rpc[${PYTHON_USEDEP}] )
 	test? ( dev-python/dbt-postgres[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/docker-6.1.2[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/vantage6[${PYTHON_USEDEP}]

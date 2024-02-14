@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/lmdb[${PYTHON_USEDEP}]
 	dev-python/fair-esm[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

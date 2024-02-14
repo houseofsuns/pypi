@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	full? ( dev-python/eo-learn[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	visualization? ( >=dev-python/graphviz-0.10.1[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	visualization? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/s3fs[${PYTHON_USEDEP}] )

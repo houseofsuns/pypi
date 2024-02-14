@@ -68,6 +68,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	viewer? ( >=dev-python/cherrypy-3.2.3[${PYTHON_USEDEP}] )
-	viewer? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	viewer? ( >=dev-python/jinja-2.11.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

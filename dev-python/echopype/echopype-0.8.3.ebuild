@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="plot"
 DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>dev-python/netcdf4-1.6[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pynmea2[${PYTHON_USEDEP}]

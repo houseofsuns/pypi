@@ -27,7 +27,7 @@ IUSE="all aws azure digitalocean gcp hetzner"
 DEPENDENCIES=">=dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	>=dev-python/dask-2021.1.1[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/tornado-5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-mgmt-network[${PYTHON_USEDEP}] )

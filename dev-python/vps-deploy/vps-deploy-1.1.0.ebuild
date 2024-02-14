@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fabric[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.6.1[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	app? ( dev-python/quarto[${PYTHON_USEDEP}] )
 	app? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	app? ( dev-python/itables[${PYTHON_USEDEP}] )
-	app? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	app? ( >=dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	app? ( >=dev-python/xlsxwriter-3.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

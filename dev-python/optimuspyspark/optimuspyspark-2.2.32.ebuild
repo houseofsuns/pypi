@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.5[${PYTHON_USEDEP}]
 	~dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-0.13.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
@@ -78,7 +78,7 @@ DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/deprecated-1.2.5[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/setuptools-41.6.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pyarrow-0.13.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja-2.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/keras[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )

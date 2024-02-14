@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/http-router[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/refurb[${PYTHON_USEDEP}] )
 	examples? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	examples? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	examples? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiofile[${PYTHON_USEDEP}] )

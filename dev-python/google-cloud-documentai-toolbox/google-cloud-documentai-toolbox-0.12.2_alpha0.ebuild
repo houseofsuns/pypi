@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/pikepdf-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/immutabledict-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<=dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-16.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

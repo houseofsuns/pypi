@@ -27,7 +27,7 @@ IUSE="docs rich test"
 DEPENDENCIES=">=dev-python/asgiref-3.2.10[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	>=dev-python/click-default-group-1.2.3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.3[${PYTHON_USEDEP}]
 	dev-python/hupper[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.20[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]

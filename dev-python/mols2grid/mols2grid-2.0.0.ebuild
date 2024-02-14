@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs tests"
 DEPENDENCIES="<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )

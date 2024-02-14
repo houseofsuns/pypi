@@ -27,7 +27,7 @@ IUSE="dev docs mypy test"
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	~dev-python/tomlkit-0.10[${PYTHON_USEDEP}]
 	dev-python/dotty-dict[${PYTHON_USEDEP}]

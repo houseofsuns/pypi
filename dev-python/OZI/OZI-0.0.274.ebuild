@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/GitPython-3.0[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	dev-python/meson[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

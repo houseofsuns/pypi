@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="darwin doc extra style test"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopengl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/fsleyes-props[${PYTHON_USEDEP}]

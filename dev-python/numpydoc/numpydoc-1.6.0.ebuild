@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="developer doc test"
 DEPENDENCIES=">=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

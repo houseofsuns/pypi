@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	~dev-python/pyquery-1.0[${PYTHON_USEDEP}]
 	>=dev-python/deepmerge-0.3[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1[${PYTHON_USEDEP}]

@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}] )
 	microstrax? ( dev-python/hug[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

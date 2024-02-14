@@ -27,7 +27,7 @@ IUSE="all dev doc test"
 DEPENDENCIES="dev-python/injector[${PYTHON_USEDEP}]
 	~dev-python/starlette-0.31.1[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
 	>=dev-python/passlib-1.7.4[${PYTHON_USEDEP}]

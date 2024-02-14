@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	optional? ( dev-python/anndata[${PYTHON_USEDEP}] )
 	plotting_deps? ( dev-python/seaborn[${PYTHON_USEDEP}] )

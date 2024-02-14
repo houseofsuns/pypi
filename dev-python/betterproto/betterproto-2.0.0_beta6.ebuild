@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="compiler"
 DEPENDENCIES="compiler? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
 	dev-python/grpclib[${PYTHON_USEDEP}]
-	compiler? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	compiler? ( >=dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	compiler? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

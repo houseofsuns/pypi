@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.13[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	feature-store? ( dev-python/feast[${PYTHON_USEDEP}] )
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]

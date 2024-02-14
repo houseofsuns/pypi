@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	aws? ( dev-python/aioaws[${PYTHON_USEDEP}] )
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/openshift[${PYTHON_USEDEP}]
 	dev-python/connexion[${PYTHON_USEDEP}]
 	dev-python/connexion[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/escapism[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/jupyterhub[${PYTHON_USEDEP}]"

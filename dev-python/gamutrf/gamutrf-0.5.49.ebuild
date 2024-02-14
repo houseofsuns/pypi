@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/RPi-GPIO[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.2[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
 	dev-python/bjoern[${PYTHON_USEDEP}]
 	<dev-python/cairocffi-2.0.0[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]

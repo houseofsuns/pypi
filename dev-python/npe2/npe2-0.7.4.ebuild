@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/magicgui[${PYTHON_USEDEP}] )
 	json? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jsonschema[${PYTHON_USEDEP}] )

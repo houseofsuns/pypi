@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/threadpoolctl[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numexpr[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blosc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )

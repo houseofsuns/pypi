@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="~dev-python/boto3-1.33.8[${PYTHON_USEDEP}]
 	~dev-python/cfn-lint-0.83.4[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/mock-5.1.0[${PYTHON_USEDEP}]
 	~dev-python/pexpect-4.9.0[${PYTHON_USEDEP}]
 	dev-python/pulumi-aws-native[${PYTHON_USEDEP}]

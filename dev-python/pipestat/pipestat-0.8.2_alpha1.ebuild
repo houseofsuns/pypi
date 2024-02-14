@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/yacman[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/eido[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dbbackend? ( >=dev-python/psycopg-3.1.13[${PYTHON_USEDEP}] )
 	dbbackend? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
 	dbbackend? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )

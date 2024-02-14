@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/numpy-1.30.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/numpydoc-0.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-2.4.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mkdocs-material-9.1.18[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-open-in-new-tab[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pathlib[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/path-16.7.1[${PYTHON_USEDEP}] )

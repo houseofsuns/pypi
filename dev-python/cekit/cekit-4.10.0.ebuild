@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.7[${PYTHON_USEDEP}]
 	>=dev-python/pykwalify-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/colorlog-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/click-6.7[${PYTHON_USEDEP}]

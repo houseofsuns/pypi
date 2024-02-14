@@ -56,7 +56,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-changelog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	recommended? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
 	recommended? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )

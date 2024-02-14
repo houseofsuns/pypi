@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="jinja2 tests"
 DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
-	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	jinja2? ( >=dev-python/jinja-2.9.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-ruff[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/jinja-2.9.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

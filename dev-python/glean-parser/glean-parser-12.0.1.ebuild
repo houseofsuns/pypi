@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-4.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

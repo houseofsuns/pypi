@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/google-api-core-1.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-2.0[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.0[${PYTHON_USEDEP}] )

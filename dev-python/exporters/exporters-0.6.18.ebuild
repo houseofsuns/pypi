@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	kafka? ( dev-python/kafka-scanner[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/MySQL-python[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	notifications? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	notifications? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	odo? ( dev-python/flatson[${PYTHON_USEDEP}] )
 	odo? ( dev-python/odo[${PYTHON_USEDEP}] )
 	odo? ( dev-python/pandas[${PYTHON_USEDEP}] )

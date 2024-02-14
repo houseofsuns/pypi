@@ -62,7 +62,7 @@ DEPENDENCIES="~dev-python/twisted-23.8.0[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.6.3[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.4.2[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.19.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.3.7[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"

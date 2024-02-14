@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bigquery duckdb postgres"
 DEPENDENCIES="dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]

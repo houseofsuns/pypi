@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="analytics autodeuq automl default dev hps-tl hvd jax-cpu jax-cuda mpi nas ray redis"
 DEPENDENCIES="dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	automl? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	default? ( dev-python/ConfigSpace[${PYTHON_USEDEP}] )
 	default? ( dev-python/dm-tree[${PYTHON_USEDEP}] )
-	default? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	default? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	default? ( >=dev-python/numpy-1.20[${PYTHON_USEDEP}] )
 	default? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
 	default? ( dev-python/packaging[${PYTHON_USEDEP}] )

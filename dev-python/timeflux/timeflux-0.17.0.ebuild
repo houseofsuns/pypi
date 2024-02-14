@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.10[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-5.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )

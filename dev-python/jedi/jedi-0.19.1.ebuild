@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs qa testing"
 DEPENDENCIES="<dev-python/parso-0.9.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pygments-2.8.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )

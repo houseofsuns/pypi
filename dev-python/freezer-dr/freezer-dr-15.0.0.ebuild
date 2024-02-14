@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/libvirt-python-1.2.5[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]

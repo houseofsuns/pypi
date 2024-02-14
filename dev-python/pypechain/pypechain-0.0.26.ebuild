@@ -27,7 +27,7 @@ IUSE="all build test"
 DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	all? ( dev-python/pypechain[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )

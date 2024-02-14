@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dist-meta[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
 	dev-python/pychoosealicense[${PYTHON_USEDEP}]
 	<dev-python/sphinx-6.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-jinja2-compat[${PYTHON_USEDEP}]

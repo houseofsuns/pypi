@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark benchmark-deps docs test"
 DEPENDENCIES=">=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/asv[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	benchmark-deps? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	benchmark-deps? ( ~dev-python/jinja-2.10[${PYTHON_USEDEP}] )
 	benchmark-deps? ( ~dev-python/webtest-2.0.32[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/equinox[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/markdown-3.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/markupsafe-1.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-1.2[${PYTHON_USEDEP}] )

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	bokeh? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	bokeh? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	docs_and_notebook? ( dev-python/sphinx[${PYTHON_USEDEP}] )

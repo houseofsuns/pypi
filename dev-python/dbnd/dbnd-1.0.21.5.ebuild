@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/tzlocal[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.6.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	jupyter? ( ~dev-python/qtconsole-4.7.7[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nbformat[${PYTHON_USEDEP}] )

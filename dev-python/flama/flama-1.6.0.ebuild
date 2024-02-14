@@ -27,7 +27,7 @@ IUSE="client database full marshmallow pydantic typesystem"
 DEPENDENCIES="<dev-python/starlette-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.23[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	pydantic? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )

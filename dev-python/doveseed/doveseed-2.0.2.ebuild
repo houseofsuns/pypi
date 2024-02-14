@@ -27,7 +27,7 @@ IUSE="all recaptcha"
 DEPENDENCIES="all? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	recaptcha? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/starlette-0.26.1[${PYTHON_USEDEP}] )
 	recaptcha? ( ~dev-python/starlette-0.26.1[${PYTHON_USEDEP}] )
 	dev-python/tinydb[${PYTHON_USEDEP}]

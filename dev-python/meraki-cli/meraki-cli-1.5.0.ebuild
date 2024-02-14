@@ -27,8 +27,8 @@ IUSE="dev"
 DEPENDENCIES="dev-python/meraki[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev-python/jinja[${PYTHON_USEDEP}]
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )

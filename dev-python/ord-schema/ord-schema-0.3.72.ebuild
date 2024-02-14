@@ -27,7 +27,7 @@ IUSE="docs examples tests"
 DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}]

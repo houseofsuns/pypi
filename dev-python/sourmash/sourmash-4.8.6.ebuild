@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/screed[${PYTHON_USEDEP}]
 	demo? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

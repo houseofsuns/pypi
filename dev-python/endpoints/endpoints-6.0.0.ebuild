@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="html tests websockets"
 DEPENDENCIES="dev-python/datatypes[${PYTHON_USEDEP}]
-	html? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	html? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( dev-python/testdata[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/daphne[${PYTHON_USEDEP}] )

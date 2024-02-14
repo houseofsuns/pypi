@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="databricks duckdb mssql mysql oracle oracledb postgres"
 DEPENDENCIES="<dev-python/Faker-21.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]

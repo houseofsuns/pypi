@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	asyncio? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	asyncio? ( >=dev-python/pyscreenshot-3.1[${PYTHON_USEDEP}] )
 	asyncio? ( >=dev-python/starlette-0.31.1[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	asyncio? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	asyncio? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/aiortc[${PYTHON_USEDEP}] )

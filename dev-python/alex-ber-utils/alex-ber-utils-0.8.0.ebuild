@@ -43,9 +43,9 @@ DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/HiYaPyCo[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	yaml? ( >dev-python/jinja-1.0[${PYTHON_USEDEP}] )
 	yml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	yml? ( dev-python/HiYaPyCo[${PYTHON_USEDEP}] )
-	yml? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	yml? ( >dev-python/jinja-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

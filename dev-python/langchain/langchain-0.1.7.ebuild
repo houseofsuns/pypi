@@ -72,7 +72,7 @@ DEPENDENCIES=">=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	extended-testing? ( <dev-python/html2text-2021.0.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/javelin-sdk[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/jq-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
 	extended-testing? ( >dev-python/jsonschema-1.0[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="chromadb dev generator prefect slackbot tests"
 DEPENDENCIES=">=dev-python/cachetools-5.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/jsonpatch-1.33[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]

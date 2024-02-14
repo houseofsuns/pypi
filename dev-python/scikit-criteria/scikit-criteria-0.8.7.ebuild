@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/custom-inherit[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.14[${PYTHON_USEDEP}]
 	dev-python/PuLP[${PYTHON_USEDEP}]

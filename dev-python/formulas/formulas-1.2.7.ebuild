@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
 	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	all? ( dev-python/regex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
 	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/regex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
 	plot? ( dev-python/regex[${PYTHON_USEDEP}] )
 	plot? ( dev-python/flask[${PYTHON_USEDEP}] )
 	plot? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	plot? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	plot? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	plot? ( dev-python/docutils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

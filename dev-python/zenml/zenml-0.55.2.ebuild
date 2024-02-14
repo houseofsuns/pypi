@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/alembic-1.9.0[${PYTHON_USEDEP}]
 	server? ( ~dev-python/pyjwt-2.7[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi-utils[${PYTHON_USEDEP}] )
 	server? ( <dev-python/orjson-3.9.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	server? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	server? ( dev-python/ipinfo[${PYTHON_USEDEP}] )
 	templates? ( dev-python/copier[${PYTHON_USEDEP}] )
 	templates? ( <dev-python/jinja2-time-0.3.0[${PYTHON_USEDEP}] )

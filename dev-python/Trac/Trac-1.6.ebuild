@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="babel mysql postgresql psycopg2 psycopg2-binary pygments rest textile"
 DEPENDENCIES=">=dev-python/setuptools-30.3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.9.3[${PYTHON_USEDEP}]
 	babel? ( <dev-python/Babel-2.10[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

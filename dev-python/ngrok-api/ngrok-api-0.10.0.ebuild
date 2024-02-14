@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-autodoc-typehints-1.12.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-readable-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	tox? ( ~dev-python/tox-3.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/ConfigArgParse-1.5.5[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]

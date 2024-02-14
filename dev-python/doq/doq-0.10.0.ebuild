@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="completion test"
 DEPENDENCIES="dev-python/parso[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	completion? ( dev-python/shtab[${PYTHON_USEDEP}] )
 	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )

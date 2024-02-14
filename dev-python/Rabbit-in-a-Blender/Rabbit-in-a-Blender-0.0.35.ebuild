@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	dev-python/connectorx[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]

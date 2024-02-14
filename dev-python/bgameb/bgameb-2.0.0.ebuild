@@ -59,7 +59,7 @@ DEPENDENCIES="~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jedi-0.18.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/keyring-23.8.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/loguru-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markdown-it-py-2.1.0[${PYTHON_USEDEP}] )

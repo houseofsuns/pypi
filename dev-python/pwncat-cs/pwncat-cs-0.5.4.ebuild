@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
 	dev-python/ZODB3[${PYTHON_USEDEP}]
 	dev-python/zodburi[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	dev-python/paramiko-ng[${PYTHON_USEDEP}]
 	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )

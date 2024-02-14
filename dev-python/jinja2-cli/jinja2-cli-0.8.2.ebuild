@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests toml xml yaml"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	toml? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	toml? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	xml? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	xml? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	xml? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	yaml? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

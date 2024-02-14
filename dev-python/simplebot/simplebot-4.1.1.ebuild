@@ -27,11 +27,11 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/deltachat[${PYTHON_USEDEP}]
 	>=dev-python/py-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/deltachat[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xkcd[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wikiquote[${PYTHON_USEDEP}] )

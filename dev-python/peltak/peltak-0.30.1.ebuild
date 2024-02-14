@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.12[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.7.4[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

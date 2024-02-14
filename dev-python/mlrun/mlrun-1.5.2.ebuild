@@ -58,7 +58,7 @@ DEPENDENCIES="<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.17.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-65.6[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	~dev-python/anyio-3.5[${PYTHON_USEDEP}]
 	all? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )

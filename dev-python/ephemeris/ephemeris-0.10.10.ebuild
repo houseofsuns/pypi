@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/bioblend[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/galaxy-tool-util[${PYTHON_USEDEP}]
 	dev-python/galaxy-util[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]

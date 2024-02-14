@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/slack-sdk[${PYTHON_USEDEP}]
 	testing? ( dev-python/Flask-Sockets[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/werkzeug-2.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
 	testing? ( <=dev-python/click-8.0.4[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/slack-sdk[${PYTHON_USEDEP}]
 	testing_without_asyncio? ( dev-python/Flask-Sockets[${PYTHON_USEDEP}] )
 	testing_without_asyncio? ( <dev-python/werkzeug-2.0[${PYTHON_USEDEP}] )
 	testing_without_asyncio? ( ~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}] )
-	testing_without_asyncio? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	testing_without_asyncio? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	testing_without_asyncio? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
 	testing_without_asyncio? ( <=dev-python/click-8.0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	dev-python/python-etcd[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	>=dev-python/sentry-sdk-0.11.2[${PYTHON_USEDEP}]

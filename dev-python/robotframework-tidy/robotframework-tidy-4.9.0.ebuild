@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	<dev-python/pathspec-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pyflakes-3.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylama[${PYTHON_USEDEP}] )

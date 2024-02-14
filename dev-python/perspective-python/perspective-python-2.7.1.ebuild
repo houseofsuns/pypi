@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp dev develop fastapi jupyter starlette tornado"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-1.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	develop? ( >=dev-python/sphinx-1.8.4[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )
 	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )

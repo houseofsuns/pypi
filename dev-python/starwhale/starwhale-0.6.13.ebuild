@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.5.0[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
 	all? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
 	all? ( <dev-python/urllib3-1.27[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/GitPython-3.1.24[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-2.1.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/click-8.0.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	procinfo? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
 	profiling? ( >=dev-python/line-profiler-3.5.1[${PYTHON_USEDEP}] )
-	publish? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	publish? ( >=dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )

@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorflow-privacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )

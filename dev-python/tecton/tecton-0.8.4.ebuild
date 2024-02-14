@@ -27,7 +27,7 @@ IUSE="athena databricks-connect databricks-connect10 databricks-connect11 databr
 DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.52[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/pathspec[${PYTHON_USEDEP}]
 	~dev-python/pendulum-2.1[${PYTHON_USEDEP}]

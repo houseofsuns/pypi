@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev pil-measurement"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flask-2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/fonttools-3.26[${PYTHON_USEDEP}] )

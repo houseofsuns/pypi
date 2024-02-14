@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="girder"
 DEPENDENCIES=">=dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.8[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/girder-client[${PYTHON_USEDEP}]

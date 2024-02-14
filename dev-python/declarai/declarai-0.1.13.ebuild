@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonref-2.0.0[${PYTHON_USEDEP}]
 	wandb? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	dev-python/Jinja2[${PYTHON_USEDEP}]"
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="full kafka rabbitmq"
 DEPENDENCIES=">=dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}]
 	dev-python/acct[${PYTHON_USEDEP}]
 	dev-python/dict-toolbox[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]
 	dev-python/pop[${PYTHON_USEDEP}]
 	dev-python/pop-evbus[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="local test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/qastle[${PYTHON_USEDEP}]
 	dev-python/func-adl[${PYTHON_USEDEP}]
 	local? ( dev-python/python-on-whales[${PYTHON_USEDEP}] )

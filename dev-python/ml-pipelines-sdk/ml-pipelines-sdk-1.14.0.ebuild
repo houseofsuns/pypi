@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/docker-5.0[${PYTHON_USEDEP}]
 	dev-python/google-apitools[${PYTHON_USEDEP}]
 	<dev-python/google-api-python-client-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

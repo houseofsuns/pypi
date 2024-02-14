@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs examples test"
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-2.11[${PYTHON_USEDEP}]
 	dev-python/rospkg[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	<=dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jinja-2.11[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	all? ( dev-python/rospkg[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-2.11[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rospkg[${PYTHON_USEDEP}] )
@@ -103,7 +103,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	docs? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	docs? ( <=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/jinja-2.11[${PYTHON_USEDEP}] )
 	examples? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	examples? ( dev-python/rospkg[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -126,7 +126,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	examples? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	examples? ( <=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jinja-2.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	test? ( dev-python/rospkg[${PYTHON_USEDEP}] )

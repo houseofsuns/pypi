@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev gsheets_report mlflow orbit pdf_report prophet report slack statsmodels test"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/cython-0.29.18[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]

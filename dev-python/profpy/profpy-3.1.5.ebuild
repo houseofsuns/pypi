@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/oracledb[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	dev-python/caslib-py[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.3[${PYTHON_USEDEP}]
 	~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

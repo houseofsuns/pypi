@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all reports"
 DEPENDENCIES=">=dev-python/psutil-2.0.0[${PYTHON_USEDEP}]
 	dev-python/appscript[${PYTHON_USEDEP}]
-	reports? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	reports? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	reports? ( dev-python/pdfrw[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )

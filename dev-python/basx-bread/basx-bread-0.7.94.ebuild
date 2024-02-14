@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/celery-haystack-ng[${PYTHON_USEDEP}]
 	dev-python/whoosh[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	all? ( dev-python/docxtpl[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	all? ( dev-python/hypothesis[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all orjson playground postgres sqlite uvloop"
 DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.0[${PYTHON_USEDEP}]
 	dev-python/targ[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]

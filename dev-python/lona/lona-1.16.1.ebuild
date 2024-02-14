@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev lint packaging test"
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/watchfiles[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/rlpython[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	lint? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
-	lint? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	lint? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	lint? ( dev-python/rlpython[${PYTHON_USEDEP}] )
 	lint? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	lint? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	packaging? ( dev-python/build[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( dev-python/rlpython[${PYTHON_USEDEP}] )
 	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )

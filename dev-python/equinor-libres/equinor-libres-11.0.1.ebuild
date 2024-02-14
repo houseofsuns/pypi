@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cloudevents[${PYTHON_USEDEP}]
 	dev-python/cwrap[${PYTHON_USEDEP}]
 	dev-python/ecl[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]

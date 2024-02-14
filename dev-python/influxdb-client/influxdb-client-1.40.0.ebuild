@@ -48,6 +48,6 @@ DEPENDENCIES="dev-python/reactivex[${PYTHON_USEDEP}]
 	test? ( >=dev-python/aioresponses-0.7.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

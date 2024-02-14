@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/tango-shared-core[${PYTHON_USEDEP}]
 	dev-python/tango-voting[${PYTHON_USEDEP}]
 	>=dev-python/django-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/django-typogrify[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

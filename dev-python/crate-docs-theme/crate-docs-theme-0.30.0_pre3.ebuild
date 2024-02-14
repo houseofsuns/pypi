@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-3.2[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	<dev-python/myst-parser-3.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-7.0[${PYTHON_USEDEP}]

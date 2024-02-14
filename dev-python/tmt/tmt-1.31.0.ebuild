@@ -27,7 +27,7 @@ IUSE="all docs export-polarion provision-beaker provision-virtual report-junit r
 DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	dev-python/fmf[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.7.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]

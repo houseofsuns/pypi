@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="azure cassandra db2 http mysql oracle parquet pg redis sqlserver test"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]

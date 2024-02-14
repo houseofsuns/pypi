@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	extra? ( dev-python/python-frontmatter[${PYTHON_USEDEP}] )
 	extra? ( <dev-python/markdown-4.0[${PYTHON_USEDEP}] )
 	extra? ( <dev-python/regex-2024.0[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="extended-testing"
 DEPENDENCIES="extended-testing? ( <dev-python/Faker-20.0.0[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]
 	extended-testing? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )

@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/easy-thumbnails[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]
 	~dev-python/whoosh-2.7[${PYTHON_USEDEP}]
-	build? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	build? ( <dev-python/jinja-3.1.0[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/django-debug-toolbar-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )

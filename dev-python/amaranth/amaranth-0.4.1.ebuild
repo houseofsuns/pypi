@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="builtin-yosys remote-build"
 DEPENDENCIES="dev-python/pyvcd[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	builtin-yosys? ( dev-python/amaranth-yosys[${PYTHON_USEDEP}] )
 	remote-build? ( ~dev-python/paramiko-2.7[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

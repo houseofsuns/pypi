@@ -27,7 +27,7 @@ IUSE="arrow aws-iceberg etl-manager postgres"
 DEPENDENCIES=">=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/parameterized-0.7[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	arrow? ( >=dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
 	etl-manager? ( dev-python/etl_manager[${PYTHON_USEDEP}] )
 	aws-iceberg? ( dev-python/awswrangler[${PYTHON_USEDEP}] )

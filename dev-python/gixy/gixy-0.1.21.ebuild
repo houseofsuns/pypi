@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	>=dev-python/cached-property-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.1.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.8[${PYTHON_USEDEP}]
 	>=dev-python/ConfigArgParse-0.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

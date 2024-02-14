@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}]
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	apps? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
 	apps? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )
-	apps? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/jsonpatch-2.0[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	apps? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	aug? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.15.3[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
 	decl? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/sphinx-7.2.0[${PYTHON_USEDEP}] )

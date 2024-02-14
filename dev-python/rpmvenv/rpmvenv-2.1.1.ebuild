@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/venvctrl[${PYTHON_USEDEP}]
 	dev-python/confpy[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]"

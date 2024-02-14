@@ -83,7 +83,7 @@ DEPENDENCIES="dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/ipywidgets-7.6.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/isodate-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jedi-0.18.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-2.11.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-cache[${PYTHON_USEDEP}] )

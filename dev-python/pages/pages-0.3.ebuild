@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	chameleon? ( dev-python/chameleon[${PYTHON_USEDEP}] )
 	genshi? ( dev-python/genshi[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	kajiki? ( dev-python/kajiki[${PYTHON_USEDEP}] )
 	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

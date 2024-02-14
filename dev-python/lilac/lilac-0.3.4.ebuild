@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	<dev-python/loky-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	dev-python/modal[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	embeddings? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	cohere? ( dev-python/cohere[${PYTHON_USEDEP}] )

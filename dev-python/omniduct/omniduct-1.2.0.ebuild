@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs druid exasol hiveserver2 presto pyspark rest s3 snowflake ssh ssh-paramiko test webhdfs"
 DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/interface-meta[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]

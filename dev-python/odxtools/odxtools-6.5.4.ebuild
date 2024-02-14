@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all browse-tool examples test"
 DEPENDENCIES="dev-python/bitstruct[${PYTHON_USEDEP}]
 	>=dev-python/argparse-addons-0.12[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	dev-python/python-can[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.1[${PYTHON_USEDEP}]

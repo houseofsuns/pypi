@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/lxml-3.6[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

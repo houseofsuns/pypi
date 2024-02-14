@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.2.8.2[${PYTHON_USEDEP}]
 	jupyter? ( <dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/maya[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	jupyter? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	viz? ( <dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	viz? ( <dev-python/seaborn-0.10[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pandas[${PYTHON_USEDEP}] )"

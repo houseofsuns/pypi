@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/fab-classic[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
 	>=dev-python/lockfile-0.9.1[${PYTHON_USEDEP}]
 	dev-python/requirements-parser[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.8[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	aws? ( >=dev-python/boto-2.49.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

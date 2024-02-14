@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pillow-10.2.0[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/cuid2[${PYTHON_USEDEP}]
 	dev-python/sqlglot[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/graphql-corepython-slugify[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	dev-python/python-arango[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

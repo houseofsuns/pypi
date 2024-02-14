@@ -27,7 +27,7 @@ IUSE="docs tests"
 DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/kfp[${PYTHON_USEDEP}]
 	dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )

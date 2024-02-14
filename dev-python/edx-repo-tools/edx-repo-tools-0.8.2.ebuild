@@ -180,7 +180,7 @@ DEPENDENCIES="~dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/itemadapter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/itemloaders[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jira[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/kiwisolver-1.4.4[${PYTHON_USEDEP}] )

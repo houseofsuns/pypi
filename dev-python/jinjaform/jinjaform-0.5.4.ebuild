@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/boto-source-profile-mfa[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.8.14[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pyhcl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

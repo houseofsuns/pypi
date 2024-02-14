@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/CndIO[${PYTHON_USEDEP}]
 	dev-python/cndprint[${PYTHON_USEDEP}]
 	dev-python/hatch-requirements-txt[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]

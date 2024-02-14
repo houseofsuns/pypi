@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/boto-session-manager[${PYTHON_USEDEP}]
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rich[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

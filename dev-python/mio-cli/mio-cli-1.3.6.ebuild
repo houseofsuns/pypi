@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
 	dev-python/zipfile2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.63.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/fusesoc[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all async sync"
 DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/multidict-6.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]

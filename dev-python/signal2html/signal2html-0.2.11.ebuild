@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/emoji-2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pure-protobuf[${PYTHON_USEDEP}]
 	dev-python/linkify-it-py[${PYTHON_USEDEP}]
 	dev? ( dev-python/green[${PYTHON_USEDEP}] )

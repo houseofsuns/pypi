@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	dev-python/loompy[${PYTHON_USEDEP}]
 	>=dev-python/nbconvert-5.6.0[${PYTHON_USEDEP}]
 	>=dev-python/nbformat-4.4.0[${PYTHON_USEDEP}]

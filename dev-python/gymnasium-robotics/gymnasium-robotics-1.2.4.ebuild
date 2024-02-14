@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/mujoco[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/pettingzoo[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
 	mujoco_py? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
 	mujoco_py? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/mujoco[${PYTHON_USEDEP}]
 	testing? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

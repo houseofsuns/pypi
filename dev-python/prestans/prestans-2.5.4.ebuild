@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="devel"
 DEPENDENCIES=">=dev-python/webob-1.7[${PYTHON_USEDEP}]
-	devel? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	devel? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

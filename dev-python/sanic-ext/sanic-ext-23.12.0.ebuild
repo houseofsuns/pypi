@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pyyaml-3.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-21.4_beta2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
@@ -41,6 +41,6 @@ DEPENDENCIES=">=dev-python/pyyaml-3.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

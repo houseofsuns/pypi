@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev? ( dev-python/dascore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dascore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dascore[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	extras? ( dev-python/xarray[${PYTHON_USEDEP}] )

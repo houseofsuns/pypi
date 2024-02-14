@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	dev-python/kaggle[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21.3[${PYTHON_USEDEP}]

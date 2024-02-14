@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/urllib3-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/twisted[${PYTHON_USEDEP}] )

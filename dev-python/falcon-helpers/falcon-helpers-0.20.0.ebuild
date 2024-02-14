@@ -27,7 +27,7 @@ IUSE="cli dev s3"
 DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/falcon-multipart[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>dev-python/marshmallow-2.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.4[${PYTHON_USEDEP}]

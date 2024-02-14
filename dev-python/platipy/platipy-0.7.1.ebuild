@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	backend? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	backend? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
 	backend? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	backend? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	backend? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	backend? ( dev-python/pymedphys[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

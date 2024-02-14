@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	<=dev-python/txaio-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/autobahn-0.10.9[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.6[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-0.19[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.9.4[${PYTHON_USEDEP}]
 	>=dev-python/klein-0.2.1[${PYTHON_USEDEP}]

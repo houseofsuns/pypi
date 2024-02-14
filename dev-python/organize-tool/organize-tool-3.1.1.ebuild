@@ -27,7 +27,7 @@ IUSE="docs textract"
 DEPENDENCIES="<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	dev-python/docopt-ng[${PYTHON_USEDEP}]
 	dev-python/ExifRead[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	dev-python/macos-tags[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]

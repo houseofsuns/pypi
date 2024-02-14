@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/aiosmtplib[${PYTHON_USEDEP}]
 	<dev-python/redis-4.5.6[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.16[${PYTHON_USEDEP}]
 	<dev-python/starlette-0.27.1[${PYTHON_USEDEP}]
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )

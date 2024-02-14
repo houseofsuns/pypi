@@ -27,7 +27,7 @@ IUSE="bigquery connectors mysql postgres snowflake"
 DEPENDENCIES="~dev-python/boto3-1.20[${PYTHON_USEDEP}]
 	~dev-python/dask-2023.5.1[${PYTHON_USEDEP}]
 	dev-python/gretel-client[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5[${PYTHON_USEDEP}]

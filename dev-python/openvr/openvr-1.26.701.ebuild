@@ -27,7 +27,7 @@ IUSE="generate glfw opengl pyqt5 pyside2 sdl2 wx"
 DEPENDENCIES="pyqt5? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )

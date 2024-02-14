@@ -16,8 +16,8 @@ DESCRIPTION="Fast and light weight simulator of rigid poly-articulated systems. 
 
 HOMEPAGE="https://duburcqa.github.io/jiminy/README.html"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_11_0_universal2.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_11_0_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

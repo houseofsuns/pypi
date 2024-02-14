@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/cryptography-3.1[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]
 	codegen? ( dev-python/black[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/isort[${PYTHON_USEDEP}] )
-	codegen? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	codegen? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/cryptography-3.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-runcmd[${PYTHON_USEDEP}] )
 	full? ( dev-python/black[${PYTHON_USEDEP}] )
 	full? ( dev-python/isort[${PYTHON_USEDEP}] )
-	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	full? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	full? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyproject-flake8[${PYTHON_USEDEP}] )

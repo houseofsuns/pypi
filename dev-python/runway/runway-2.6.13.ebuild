@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/awacs[${PYTHON_USEDEP}]
 	dev-python/formic2[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/igittigitt[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.7[${PYTHON_USEDEP}]
 	docs? ( dev-python/jsx-lexer[${PYTHON_USEDEP}] )
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]

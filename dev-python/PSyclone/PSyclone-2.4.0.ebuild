@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autoapi[${PYTHON_USEDEP}] )
-	psydata? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	psydata? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )

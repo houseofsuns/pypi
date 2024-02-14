@@ -27,11 +27,11 @@ IUSE="all html jinja2 watch"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	all? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	html? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	watch? ( dev-python/watch[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

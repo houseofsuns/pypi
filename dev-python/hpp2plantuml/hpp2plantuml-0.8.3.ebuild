@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/robotpy-cppheaderparser[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

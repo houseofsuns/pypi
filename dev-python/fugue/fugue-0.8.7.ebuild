@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/triad[${PYTHON_USEDEP}]
 	dev-python/qpd[${PYTHON_USEDEP}]
 	dev-python/fugue-sql-antlr[${PYTHON_USEDEP}]
 	dev-python/sqlglot[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	all? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/dask-2023.5.0[${PYTHON_USEDEP}] )
@@ -63,6 +63,6 @@ DEPENDENCIES="dev-python/triad[${PYTHON_USEDEP}]
 	sql? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	sql? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	sql? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	sql? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

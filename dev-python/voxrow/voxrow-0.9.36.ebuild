@@ -32,7 +32,7 @@ DEPENDENCIES="airflow? ( dev-python/apache-airflow-providers-docker[${PYTHON_USE
 	geospatial? ( dev-python/requests[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	query? ( ~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
-	query? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	query? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	query? ( >=dev-python/cryptography-3.2.1[${PYTHON_USEDEP}] )
 	query? ( dev-python/sshtunnel[${PYTHON_USEDEP}] )
 	scrape? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )

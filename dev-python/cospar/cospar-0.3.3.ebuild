@@ -64,7 +64,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
 	docs? ( <=dev-python/sphinx-autodoc-typehints-1.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.0[${PYTHON_USEDEP}] )"

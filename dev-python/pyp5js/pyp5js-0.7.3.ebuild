@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.0.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/Transcrypt[${PYTHON_USEDEP}]
 	dev-python/cprint[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]

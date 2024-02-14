@@ -27,7 +27,7 @@ IUSE="excel"
 DEPENDENCIES="<dev-python/Babel-3.0[${PYTHON_USEDEP}]
 	<dev-python/flask-babel-4.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
 	dev-python/g8fyi-beancount[${PYTHON_USEDEP}]
 	<dev-python/cheroot-10.0[${PYTHON_USEDEP}]

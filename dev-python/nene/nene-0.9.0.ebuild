@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="jupyter"
 DEPENDENCIES=">=dev-python/markdown-it-py-2.0[${PYTHON_USEDEP}]
 	>=dev-python/mdit-py-plugins-0.3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/livereload-2.6[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja-2.11.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/orjson-3.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic-extra-types[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )

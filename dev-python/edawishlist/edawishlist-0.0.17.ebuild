@@ -27,6 +27,6 @@ IUSE="full"
 DEPENDENCIES="dev-python/bigtree[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	full? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

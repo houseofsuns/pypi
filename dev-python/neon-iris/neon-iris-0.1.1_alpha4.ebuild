@@ -40,6 +40,6 @@ DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	web_sat? ( dev-python/openwakeword[${PYTHON_USEDEP}] )
 	web_sat? ( dev-python/tflite[${PYTHON_USEDEP}] )
 	web_sat? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	web_sat? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	web_sat? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Concatenated-word segmentation Python library written in Rust [top-max 0.4.1]"
+DESCRIPTION="Concatenated-word segmentation Python library written in Rust [top-max 0.4.3]"
 
 HOMEPAGE="https://github.com/intsights/pywordsegment"
 LICENSE="MIT"

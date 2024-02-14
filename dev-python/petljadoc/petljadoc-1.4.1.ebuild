@@ -36,6 +36,6 @@ DEPENDENCIES=">=dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	>=dev-python/livereload-2.6.3[${PYTHON_USEDEP}]
 	>=dev-python/nbconvert-6.1.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]"
+	<dev-python/jinja-3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

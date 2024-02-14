@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/reno-1.6.2[${PYTHON_USEDEP}] )
 	keystone? ( dev-python/keystonemiddleware[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )

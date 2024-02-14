@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/ghp-import-2.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/importlib-metadata-4.11.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja-3.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jsmin-3.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markdown-3.3.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )

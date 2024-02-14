@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/python-debian-0.1.40[${PYTHON_USEDEP}]
 	dev-python/reuse[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/fosslight-util[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

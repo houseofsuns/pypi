@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/websocket-client-1.5[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.11[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/deprogressapi[${PYTHON_USEDEP}]
 	backend? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	backend? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )

@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	psql? ( dev-python/databases[${PYTHON_USEDEP}] )
 	psql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	<dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/asgi-correlation-id[${PYTHON_USEDEP}] )
 	dask? ( <dev-python/dask-2023.0.0[${PYTHON_USEDEP}] )

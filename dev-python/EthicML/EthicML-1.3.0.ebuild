@@ -35,7 +35,7 @@ DEPENDENCIES="models? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/folktables[${PYTHON_USEDEP}] )
 	models? ( dev-python/gitdb2[${PYTHON_USEDEP}] )
 	all? ( dev-python/gitdb2[${PYTHON_USEDEP}] )
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	plot? ( >=dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )

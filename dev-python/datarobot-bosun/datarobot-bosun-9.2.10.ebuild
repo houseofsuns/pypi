@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	azureml? ( dev-python/datarobot-mlops-stats-aggregator[${PYTHON_USEDEP}] )
 	docker? ( dev-python/requests[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	kubernetes? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/requests[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/boto3-1.11.4[${PYTHON_USEDEP}] )

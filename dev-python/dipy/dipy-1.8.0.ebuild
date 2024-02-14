@@ -70,6 +70,6 @@ DEPENDENCIES=">=dev-python/cython-0.29.24[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-gallery-0.10.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/grg-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

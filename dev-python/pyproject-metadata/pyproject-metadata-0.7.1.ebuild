@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/furo-2020.11.19_beta18[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.10.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tomli-1.0.0[${PYTHON_USEDEP}] )"

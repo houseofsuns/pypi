@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-1.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	queue? ( dev-python/beanie-batteries-queue[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/folium[${PYTHON_USEDEP}]
 	dev-python/branca[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

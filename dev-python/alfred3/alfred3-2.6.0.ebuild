@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/pymongo-3.10[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1[${PYTHON_USEDEP}]
 	dev-python/thesmuggler[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1[${PYTHON_USEDEP}]

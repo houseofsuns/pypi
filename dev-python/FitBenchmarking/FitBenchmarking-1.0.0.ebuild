@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/codecarbon[${PYTHON_USEDEP}]
 	dfo? ( dev-python/DFO-LS[${PYTHON_USEDEP}] )

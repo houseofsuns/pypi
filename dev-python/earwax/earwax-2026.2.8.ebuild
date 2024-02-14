@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/pyglet-1.5.15[${PYTHON_USEDEP}]
 	dev-python/movement_2d[${PYTHON_USEDEP}]
 	>=dev-python/PySDL2-0.9.7[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4.4[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

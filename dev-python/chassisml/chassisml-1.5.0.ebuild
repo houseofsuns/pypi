@@ -27,7 +27,7 @@ IUSE="docs kserve quickstart test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/chassisml-protobuf[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]

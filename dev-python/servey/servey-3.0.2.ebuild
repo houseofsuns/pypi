@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/boto3-1.26[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/black-23.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/uvicorn-0.18[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/python-multipart-0.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )
@@ -63,6 +63,6 @@ DEPENDENCIES="~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
 	serverless? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	serverless? ( ~dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
 	serverless? ( dev-python/strawberry-graphql[${PYTHON_USEDEP}] )
-	web_page? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+	web_page? ( ~dev-python/jinja-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

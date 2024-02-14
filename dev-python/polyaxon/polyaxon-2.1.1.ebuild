@@ -27,7 +27,7 @@ IUSE="azure dev docker fs fsspec gcs git init k8s_async numpy s3 sandbox sidecar
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/clipped[${PYTHON_USEDEP}]
 	dev-python/vents[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.2[${PYTHON_USEDEP}]

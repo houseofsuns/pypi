@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="export"
-DEPENDENCIES="export? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+DEPENDENCIES="export? ( <dev-python/jinja-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

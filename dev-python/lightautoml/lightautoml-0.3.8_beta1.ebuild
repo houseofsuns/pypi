@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	<dev-python/joblib-1.3.0[${PYTHON_USEDEP}]
 	dev-python/autowoe[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/json2html[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	nlp? ( dev-python/gensim[${PYTHON_USEDEP}] )

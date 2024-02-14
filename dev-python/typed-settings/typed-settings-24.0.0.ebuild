@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-inline-tabs-2023.4.21[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/typed-settings[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )

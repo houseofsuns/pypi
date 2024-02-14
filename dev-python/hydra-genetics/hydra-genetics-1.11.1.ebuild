@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.3.1[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/rich-10.9.0[${PYTHON_USEDEP}]
 	dev-python/snakemake[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]

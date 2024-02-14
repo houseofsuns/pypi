@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli docs format"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	format? ( >=dev-python/black-24.1.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/black-24.1.0[${PYTHON_USEDEP}] )
 	dev-python/cognite-sdk[${PYTHON_USEDEP}]

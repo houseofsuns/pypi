@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/pygments-2.6[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/six-1.14[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/matplotlib-3.1.4[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/pygments-2.6[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/six-1.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

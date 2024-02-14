@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<=dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	<=dev-python/charset-normalizer-2.0.4[${PYTHON_USEDEP}]
 	<=dev-python/idna-3.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	<=dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
 	<=dev-python/packaging-23.1[${PYTHON_USEDEP}]

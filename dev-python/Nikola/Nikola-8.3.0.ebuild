@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/doit-0.32.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/piexif-1.0.3[${PYTHON_USEDEP}]
 	>=dev-python/Babel-2.6.0[${PYTHON_USEDEP}]
-	extras? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/jinja-2.7.2[${PYTHON_USEDEP}] )
 	extras? ( dev-python/hsluv[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/pyphen-0.9.1[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/micawber-0.3.0[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/doit-0.32.0[${PYTHON_USEDEP}]
 	extras? ( >=dev-python/ruamel-yaml-0.15[${PYTHON_USEDEP}] )
 	extras? ( dev-python/toml[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/html5lib-1.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/jinja-2.7.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/hsluv[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pyphen-0.9.1[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/micawber-0.3.0[${PYTHON_USEDEP}] )

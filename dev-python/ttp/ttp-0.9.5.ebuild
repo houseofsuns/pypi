@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full"
 DEPENDENCIES="full? ( <dev-python/cerberus-1.4.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	full? ( <dev-python/jinja-3.1.0[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/deepdiff-5.9.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/openpyxl-3.1.0[${PYTHON_USEDEP}] )

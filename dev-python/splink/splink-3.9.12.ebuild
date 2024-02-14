@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
 	<dev-python/sqlglot-19.0.0[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	dev-python/phonetics[${PYTHON_USEDEP}]
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )

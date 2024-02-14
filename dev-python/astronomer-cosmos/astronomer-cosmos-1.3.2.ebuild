@@ -27,7 +27,7 @@ IUSE="all dbt-all dbt-athena dbt-bigquery dbt-databricks dbt-exasol dbt-postgres
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
 	dev-python/virtualenv[${PYTHON_USEDEP}]
 	all? ( dev-python/astronomer-cosmos[${PYTHON_USEDEP}] )
 	all? ( dev-python/astronomer-cosmos[${PYTHON_USEDEP}] )

@@ -84,7 +84,7 @@ DEPENDENCIES="dev-python/recommonmark[${PYTHON_USEDEP}]
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/prompt-toolkit-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/cython-0.25.2[${PYTHON_USEDEP}]
 	dev-python/xphyle[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	bamnostic? ( dev-python/bamnostic[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	khmer? ( dev-python/khmer[${PYTHON_USEDEP}] )
 	progressbar? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	sra? ( dev-python/ngstream[${PYTHON_USEDEP}] )

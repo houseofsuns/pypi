@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/yangsuite[${PYTHON_USEDEP}]
 	dev-python/yangsuite-devices[${PYTHON_USEDEP}]
 	dev-python/yangsuite-filemanager[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
 	dev-python/pyang[${PYTHON_USEDEP}]
 	dev-python/xeger[${PYTHON_USEDEP}]
 	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]

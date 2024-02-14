@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cbmr doc gzip minimum tests"
 DEPENDENCIES="dev-python/cognitiveatlas[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]

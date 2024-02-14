@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/amazon-textract-textractor[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
 	dev-python/guidance[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/myst-parser-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}]

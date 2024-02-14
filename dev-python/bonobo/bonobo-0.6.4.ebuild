@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docker jupyter sqlalchemy"
 DEPENDENCIES="~dev-python/fs-2.0[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.9[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-2.9[${PYTHON_USEDEP}]
 	dev-python/mondrian[${PYTHON_USEDEP}]
 	~dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.4[${PYTHON_USEDEP}]

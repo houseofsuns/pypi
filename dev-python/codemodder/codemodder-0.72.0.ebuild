@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/isort-5.14[${PYTHON_USEDEP}]
 	test? ( <dev-python/coverage-7.5[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/GitPython-4.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/lxml-5.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

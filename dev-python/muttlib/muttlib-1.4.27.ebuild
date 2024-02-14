@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all bigquery forecast gdrive gsheets hive ibis mongo mysql oracle postgres pyarrow redshift snowflake sqlserver teradata test"
 DEPENDENCIES="<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-3.1.0[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.1.1[${PYTHON_USEDEP}]
 	hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/botocore-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.5[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/responses-0.15.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
 	all? ( <dev-python/python-jose-4.0.0[${PYTHON_USEDEP}] )
 	all? ( >dev-python/ecdsa-0.15[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/docker-3.0.0[${PYTHON_USEDEP}] )

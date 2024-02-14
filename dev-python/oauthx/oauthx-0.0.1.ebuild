@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/aiopki[${PYTHON_USEDEP}]
 	dev-python/canonical[${PYTHON_USEDEP}]
 	dev-python/cel-python[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

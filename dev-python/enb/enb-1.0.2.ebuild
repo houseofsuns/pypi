@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpngw[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

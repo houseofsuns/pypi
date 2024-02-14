@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	test? ( dev-python/lazydocs[${PYTHON_USEDEP}] )
 	test? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	test? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )

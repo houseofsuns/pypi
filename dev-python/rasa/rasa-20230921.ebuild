@@ -48,7 +48,7 @@ DEPENDENCIES="<dev-python/cachecontrol-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
 	jieba? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	full? ( dev-python/jieba[${PYTHON_USEDEP}] )
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/joblib-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpickle-3.1[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.18[${PYTHON_USEDEP}]

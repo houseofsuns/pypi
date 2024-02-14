@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/griffe-0.32.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/quartodoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/shinylive[${PYTHON_USEDEP}] )

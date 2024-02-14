@@ -27,7 +27,7 @@ IUSE="ansible mypy"
 DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/deepmerge-1.1[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}]

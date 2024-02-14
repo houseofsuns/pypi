@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autogen"
-DEPENDENCIES="autogen? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
+DEPENDENCIES="autogen? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

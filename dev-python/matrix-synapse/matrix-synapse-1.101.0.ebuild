@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cache-memory jwt matrix-synapse-ldap3 oidc opentracing postgres redis saml2 sentry systemd test url-preview user-search"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	cache-memory? ( dev-python/Pympler[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="girder worker"
 DEPENDENCIES="dev-python/ctk-cli[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	girder? ( >=dev-python/docker-2.6.0[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.7.1[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-3.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	>=dev-python/bleach-6.0.0[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/colorama-0.4[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.2[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-material-extensions-1.1[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}]

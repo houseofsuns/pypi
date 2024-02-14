@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/LbEnv[${PYTHON_USEDEP}]
 	dev-python/lbplatformutils[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/yapf-0.24.0[${PYTHON_USEDEP}]
 	dev-python/whichcraft[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]

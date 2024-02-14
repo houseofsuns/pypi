@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	dev-python/splunk-sdk[${PYTHON_USEDEP}]
 	<dev-python/munch-3.0.0[${PYTHON_USEDEP}]
 	dev-python/splunktaucclib[${PYTHON_USEDEP}]

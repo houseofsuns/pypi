@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
 	>=dev-python/antlr4-python3-runtime-4.7.1[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.10.3[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]

@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dataframe? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dataframe? ( >=dev-python/pandas-1.3[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	diagnostics? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	diagnostics? ( >=dev-python/jinja-2.10.3[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

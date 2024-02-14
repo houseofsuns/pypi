@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pytest-testinfra[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/dateutils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

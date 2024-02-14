@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc forecast installer jupyterlab optimization"
 DEPENDENCIES="dev-python/fundamentalanalysis[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Quandl[${PYTHON_USEDEP}]
 	optimization? ( dev-python/Riskfolio-Lib[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs tests"
 DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.7[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	>=dev-python/pillow-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pilkit[${PYTHON_USEDEP}]

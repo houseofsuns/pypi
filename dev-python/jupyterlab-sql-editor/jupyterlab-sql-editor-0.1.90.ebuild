@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cccs-ipyaggrid[${PYTHON_USEDEP}]
 	dev-python/ipydatagrid[${PYTHON_USEDEP}]
 	dev-python/ipytree[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-events-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]

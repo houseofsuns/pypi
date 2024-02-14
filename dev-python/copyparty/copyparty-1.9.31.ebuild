@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="audiotags ftpd ftps pwhash thumbnails thumbnails2"
-DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	audiotags? ( dev-python/mutagen[${PYTHON_USEDEP}] )
 	ftpd? ( dev-python/pyftpdlib[${PYTHON_USEDEP}] )
 	ftps? ( dev-python/pyftpdlib[${PYTHON_USEDEP}] )

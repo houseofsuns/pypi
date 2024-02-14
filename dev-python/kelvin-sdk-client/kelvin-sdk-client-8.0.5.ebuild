@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build development docs format lint security tests wheel"
 DEPENDENCIES="~dev-python/pyjwt-2.8[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	~dev-python/keyring-24.1[${PYTHON_USEDEP}]
 	~dev-python/keyrings-alt-4.2[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.12[${PYTHON_USEDEP}]

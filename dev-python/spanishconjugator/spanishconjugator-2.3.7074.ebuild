@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library to conjugate spanish words with parameters tense, mood and pronoun [top-max 2.3.7075]"
+DESCRIPTION="A python library to conjugate spanish words with parameters tense, mood and pronoun [top-max 2.3.7078]"
 
 HOMEPAGE="https://github.com/Benedict-Carling/spanish-conjugator"
 LICENSE=""

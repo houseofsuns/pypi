@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/dramatiq[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/msgpack-0.6[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/prometheus-client-0.3[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )

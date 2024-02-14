@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	report? ( >=dev-python/jupyter-client-7.4.0[${PYTHON_USEDEP}] )
 	report? ( ~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}] )
 	report? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	report? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	report? ( >=dev-python/jinja-2.11.0[${PYTHON_USEDEP}] )
 	report? ( dev-python/phik[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

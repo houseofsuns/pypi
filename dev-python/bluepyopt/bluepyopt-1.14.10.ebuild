@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.6[${PYTHON_USEDEP}]
 	dev-python/efel[${PYTHON_USEDEP}]
 	dev-python/ipyparallel[${PYTHON_USEDEP}]
 	>=dev-python/pickleshare-0.7.3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.8[${PYTHON_USEDEP}]
 	>=dev-python/pebble-4.6.0[${PYTHON_USEDEP}]
 	dev-python/NEURON[${PYTHON_USEDEP}]
 	all? ( dev-python/scoop[${PYTHON_USEDEP}] )

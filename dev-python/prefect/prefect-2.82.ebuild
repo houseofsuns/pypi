@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}]
 	>=dev-python/griffe-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonpatch-1.32[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES=">=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )

@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/fprime-tools[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-1.12.3[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.19[${PYTHON_USEDEP}]
 	~dev-python/watchfiles-0.18[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4[${PYTHON_USEDEP}]
 	~dev-python/yattag-1.14[${PYTHON_USEDEP}]
 	dev-python/starlette-context[${PYTHON_USEDEP}]

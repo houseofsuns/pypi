@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete examples gui notebook plot webapp"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/Jinja2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/lark[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]

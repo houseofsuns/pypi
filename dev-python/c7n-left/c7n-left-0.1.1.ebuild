@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Custodian policies for IAAC definitions [top-max 0.3.11]"
+DESCRIPTION="Custodian policies for IAAC definitions [top-max 0.3.13]"
 
 HOMEPAGE="https://cloudcustodian.io"
 LICENSE="Apache-2.0"

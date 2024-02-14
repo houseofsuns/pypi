@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for participating in the Eltako Series 14 RS485 bus [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f64ac9af370>)]"
+DESCRIPTION="Library for participating in the Eltako Series 14 RS485 bus [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa306fbde70>)]"
 
 HOMEPAGE="https://github.com/grimmpp/eltako14bus"
 LICENSE=""

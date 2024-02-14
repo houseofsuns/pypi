@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LeakIX API Client"
+DESCRIPTION="LeakIX API Client [top-max 1.6.7]"
 
 HOMEPAGE="https://github.com/Chocapikk/LeakPy"
 LICENSE=""

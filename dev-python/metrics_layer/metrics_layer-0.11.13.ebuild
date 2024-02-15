@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The open source metrics layer."
+DESCRIPTION="The open source metrics layer. [top-max 0.11.14]"
 
 HOMEPAGE="https://github.com/Zenlytic/metrics_layer"
 LICENSE="Apache-2.0"

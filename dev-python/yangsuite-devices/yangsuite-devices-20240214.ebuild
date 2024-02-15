@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="2.9.10.post0.dev13"
+REALVERSION="2.9.10.post0.dev14"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Device profile definition and management for YANG Suite [badver 2.9.10.post0.dev13, wheel]"
+DESCRIPTION="Device profile definition and management for YANG Suite [badver 2.9.10.post0.dev14, wheel]"
 
 HOMEPAGE="https://developer.cisco.com/yangsuite"
 LICENSE="Cisco End User License Agreement"
@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/yangsuite[${PYTHON_USEDEP}]
 	dev-python/yangsuite-netconf[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-40.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
-	<dev-python/paramiko-3.0[${PYTHON_USEDEP}]
+	>dev-python/paramiko-2.4.3[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]
-	<dev-python/pexpect-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.6.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

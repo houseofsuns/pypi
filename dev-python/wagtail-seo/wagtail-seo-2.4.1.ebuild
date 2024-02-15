@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Search engine and social media optimization for Wagtail."
+DESCRIPTION="Search engine and social media optimization for Wagtail. [top-max 2.5.0]"
 
 HOMEPAGE="https://github.com/coderedcorp/wagtail-seo"
 LICENSE="BSD license"

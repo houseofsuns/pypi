@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 0.8.12]"
+DESCRIPTION=" [top-max 0.9.0]"
 
 HOMEPAGE="https://github.com/tensorflow/privacy"
 LICENSE="Apache-2.0"

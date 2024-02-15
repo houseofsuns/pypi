@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple page cache for Wagtail based on the Django cache middleware."
+DESCRIPTION="A simple page cache for Wagtail based on the Django cache middleware. [top-max 2.4.0]"
 
 HOMEPAGE="https://github.com/coderedcorp/wagtail-cache"
 LICENSE="BSD license"

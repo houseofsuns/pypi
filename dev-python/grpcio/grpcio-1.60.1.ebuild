@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HTTP/2-based RPC framework"
+DESCRIPTION="HTTP/2-based RPC framework [top-max 1.62.0_rc1]"
 
 HOMEPAGE="https://grpc.io"
 LICENSE="Apache-2.0"

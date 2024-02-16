@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for interfacing with Intrepid devices in Python [top-max 914.14]"
+DESCRIPTION="Library for interfacing with Intrepid devices in Python [top-max 914.14_p1]"
 
 HOMEPAGE="https://github.com/intrepidcs/python_ics/"
 LICENSE="MIT"

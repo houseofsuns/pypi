@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 0.4.5]"
+DESCRIPTION=" [top-max 0.4.6]"
 
 HOMEPAGE="https://github.com/ideoforms/signalflow"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to libexiv2"
+DESCRIPTION="Python interface to libexiv2 [top-max 0.16.3_p1]"
 
 HOMEPAGE="https://github.com/jim-easterbrook/python-exiv2"
 LICENSE="GNU GPL"

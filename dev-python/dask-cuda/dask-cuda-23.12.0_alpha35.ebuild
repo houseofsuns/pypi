@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for Dask and CUDA interactions"
+DESCRIPTION="Utilities for Dask and CUDA interactions [new-max 2024-02-15 21:37:23.410300+00:00]"
 
 HOMEPAGE="https://github.com/rapidsai/dask-cuda"
 LICENSE="Apache-2.0"

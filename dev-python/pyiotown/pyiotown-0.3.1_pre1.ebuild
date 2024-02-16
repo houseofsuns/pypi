@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IoT.own Library [top-max 0.4.10]"
+DESCRIPTION="IoT.own Library [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/CoXlabInc/pyiotow"
 LICENSE="MIT"

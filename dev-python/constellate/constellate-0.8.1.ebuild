@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli_args numba numpy pandas sparql sqlalchemy"
 DEPENDENCIES=">=dev-python/pebble-4.6.3[${PYTHON_USEDEP}]
 	>=dev-python/decorator-5.1.0[${PYTHON_USEDEP}]
-	dev-python/aioitertools[${PYTHON_USEDEP}]
+	>=dev-python/aioitertools-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]

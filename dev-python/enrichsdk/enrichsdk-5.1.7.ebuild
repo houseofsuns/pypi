@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ruptures[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/aioitertools[${PYTHON_USEDEP}]
+	~dev-python/aioitertools-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/glob2[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]

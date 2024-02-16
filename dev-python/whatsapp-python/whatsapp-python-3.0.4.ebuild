@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open source Python wrapper for the WhatsApp Cloud API"
+DESCRIPTION="Open source Python wrapper for the WhatsApp Cloud API [top-max 3.0.5]"
 
 HOMEPAGE="https://github.com/filipporomani/whatsapp"
 LICENSE=""

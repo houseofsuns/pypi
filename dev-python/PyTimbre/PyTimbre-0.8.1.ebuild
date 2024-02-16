@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python conversion of Timbre Toolbox"
+DESCRIPTION="Python conversion of Timbre Toolbox [top-max 0.8.3]"
 
 HOMEPAGE="https://gitlab.com/python-audio-feature-extraction/pytimbre"
 LICENSE="MIT"

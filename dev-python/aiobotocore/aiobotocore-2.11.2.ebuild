@@ -27,7 +27,7 @@ IUSE="awscli boto3"
 DEPENDENCIES="<dev-python/botocore-1.34.35[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
-	dev-python/aioitertools[${PYTHON_USEDEP}]
+	<dev-python/aioitertools-1.0.0[${PYTHON_USEDEP}]
 	awscli? ( dev-python/awscli[${PYTHON_USEDEP}] )
 	boto3? ( <dev-python/boto3-1.34.35[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

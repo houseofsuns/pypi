@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Write descriptions for NEURON cell models in an Arbor-like manner. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f2bf7975930>)]"
+DESCRIPTION="Write descriptions for NEURON cell models in an Arbor-like manner. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fcc08a6dcb0>)]"
 
 HOMEPAGE="https://github.com/dbbs-lab/arborize"
 LICENSE="GPL-3"

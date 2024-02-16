@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Argus is an alert aggregator for monitoring systems [top-max 1.14.1]"
+DESCRIPTION="Argus is an alert aggregator for monitoring systems [top-max 1.14.2]"
 
 HOMEPAGE="https://github.com/Uninett/Argus"
 LICENSE="GPL-3+"

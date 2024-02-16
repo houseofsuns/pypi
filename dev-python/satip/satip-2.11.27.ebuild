@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
-	dev-python/aioitertools[${PYTHON_USEDEP}]
+	~dev-python/aioitertools-0.11.0[${PYTHON_USEDEP}]
 	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.13.0[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]

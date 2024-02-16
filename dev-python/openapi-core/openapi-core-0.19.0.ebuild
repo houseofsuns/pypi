@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp django falcon fastapi flask requests starlette"
 DEPENDENCIES="aiohttp? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
-	starlette? ( dev-python/aioitertools[${PYTHON_USEDEP}] )
+	starlette? ( <dev-python/aioitertools-0.12.0[${PYTHON_USEDEP}] )
 	django? ( >=dev-python/django-3.0[${PYTHON_USEDEP}] )
 	falcon? ( dev-python/falcon[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )

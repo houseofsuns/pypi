@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API for the WRF-Hydro model"
+DESCRIPTION="API for the WRF-Hydro model [top-max 0.0.21]"
 
 HOMEPAGE="https://github.com/NCAR/wrf_hydro_py"
 LICENSE="MIT"

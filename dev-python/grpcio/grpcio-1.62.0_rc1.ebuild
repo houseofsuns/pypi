@@ -8,23 +8,22 @@ LITERALNAME="${PN}"
 REALVERSION="1.62.0rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HTTP/2-based RPC framework [wheel]"
+DESCRIPTION="HTTP/2-based RPC framework"
 
 HOMEPAGE="https://grpc.io"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="protobuf"
-DEPENDENCIES="protobuf? ( >=dev-python/grpcio-tools-1.62.0_rc1[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+DEPENDENCIES="protobuf? ( >=dev-python/grpcio-tools-1.62.0_rc1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

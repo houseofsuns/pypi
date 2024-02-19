@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An integrated large-scale model training system with efficient parallelization techniques"
+DESCRIPTION="An integrated large-scale model training system with efficient parallelization techniques [top-max 2024.2.19]"
 
 HOMEPAGE="https://www.colossalai.org"
 LICENSE="Apache Software License 2.0"

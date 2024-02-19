@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="inputgpiod"
 DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/evdev[${PYTHON_USEDEP}]
+	~dev-python/evdev-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/python-mpd2-3.0.5[${PYTHON_USEDEP}]
 	dev-python/plapperkastenserver[${PYTHON_USEDEP}]
 	inputgpiod? ( dev-python/gpiodmonitor[${PYTHON_USEDEP}] )"

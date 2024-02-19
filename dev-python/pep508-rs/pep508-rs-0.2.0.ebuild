@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for python dependency specifiers, better known as PEP 508"
+DESCRIPTION="A library for python dependency specifiers, better known as PEP 508 [top-max 0.3.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0 OR BSD-2-Clause"

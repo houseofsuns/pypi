@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/adafruit-circuitpython-typing[${PYTHON_USEDEP}]
 	dev-python/Adafruit-PlatformDetect[${PYTHON_USEDEP}]
 	dev-python/Adafruit-PureIO[${PYTHON_USEDEP}]
-	dev-python/evdev[${PYTHON_USEDEP}]
+	~dev-python/evdev-1.6.1[${PYTHON_USEDEP}]
 	dev-python/pyftdi[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	~dev-python/pyusb-1.2.1[${PYTHON_USEDEP}]

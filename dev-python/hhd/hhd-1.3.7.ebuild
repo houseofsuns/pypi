@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/evdev[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/evdev-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.5.0[${PYTHON_USEDEP}]"

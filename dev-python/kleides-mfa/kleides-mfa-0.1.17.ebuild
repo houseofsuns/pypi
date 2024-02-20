@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interface components to configure and manage multi factor authentication"
+DESCRIPTION="Interface components to configure and manage multi factor authentication [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/ossobv/kleides-mfa"
 LICENSE="GNU General Public License v3"

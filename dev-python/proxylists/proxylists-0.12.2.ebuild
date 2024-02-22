@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for getting useful proxy servers, can use lists like hidemy or proxydb."
+DESCRIPTION="Package for getting useful proxy servers, can use lists like hidemy or proxydb. [top-max 0.12.3]"
 
 HOMEPAGE="https://github.com/phenobarbital/proxylists"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Get data from EVDS API and organize your local work environment with systematical approach. Using caching facility, this package makes less request from the server. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fd7c87d6b90>)]"
+DESCRIPTION="Get data from EVDS API and organize your local work environment with systematical approach. Using caching facility, this package makes less request from the server. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f482d2b62d0>)]"
 
 HOMEPAGE="https://github.com/SermetPekin/evdspy-repo"
 LICENSE="MIT"

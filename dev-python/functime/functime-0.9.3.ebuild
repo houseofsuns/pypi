@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time-series machine learning at scale. [top-max 0.9.4]"
+DESCRIPTION="Time-series machine learning at scale. [top-max 0.9.5]"
 
 HOMEPAGE=""
 LICENSE=""

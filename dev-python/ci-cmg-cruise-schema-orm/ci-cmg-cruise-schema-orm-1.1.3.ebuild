@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ORM classes for the cruise schema"
+DESCRIPTION="ORM classes for the cruise schema [top-max 1.1.4]"
 
 HOMEPAGE="https://github.com/ci-cmg/cruise-schema-orm-py"
 LICENSE=""

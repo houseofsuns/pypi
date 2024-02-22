@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data Processing Framework - Python Core [top-max 0.10.1]"
+DESCRIPTION="Data Processing Framework - Python Core [top-max 0.11.0]"
 
 HOMEPAGE="https://dpf.docs.pyansys.com/"
 LICENSE=""

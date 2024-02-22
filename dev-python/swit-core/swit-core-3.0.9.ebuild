@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="this is a switbuilder core package [top-max 3.0.10]"
+DESCRIPTION="this is a switbuilder core package [top-max 3.0.12]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Fault Diagnosis Toolbox [top-max 0.12.3]"
+DESCRIPTION="A Fault Diagnosis Toolbox [top-max 0.12.4.1]"
 
 HOMEPAGE="https://faultdiagnosistoolbox.github.io"
 LICENSE="MIT"

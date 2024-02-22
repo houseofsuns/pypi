@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command line tool to manipulate microcontroller flash [top-max 1.0.20]"
+DESCRIPTION="Command line tool to manipulate microcontroller flash [top-max 1.0.21]"
 
 HOMEPAGE="https://github.com/ezflash/ezFlashCLI.git"
 LICENSE="MIT"

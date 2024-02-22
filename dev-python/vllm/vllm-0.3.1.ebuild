@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A high-throughput and memory-efficient inference and serving engine for LLMs"
+DESCRIPTION="A high-throughput and memory-efficient inference and serving engine for LLMs [top-max 0.3.2]"
 
 HOMEPAGE="https://github.com/vllm-project/vllm"
 LICENSE="Apache-2.0"

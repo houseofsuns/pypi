@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Organize unstructured data"
+DESCRIPTION="Organize unstructured data [new-max 2024-02-23 15:45:41.325998+00:00]"
 
 HOMEPAGE="https://github.com/lilacai/lilac"
 LICENSE="Apache-2.0"

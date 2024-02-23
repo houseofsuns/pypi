@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CatBoost Python Package"
+DESCRIPTION="CatBoost Python Package [top-max 1.2.3]"
 
 HOMEPAGE="https://catboost.ai"
 LICENSE="Apache-2.0"

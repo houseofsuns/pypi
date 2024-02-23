@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pymatgen extension for defects analysis"
+DESCRIPTION="Pymatgen extension for defects analysis [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fdaec9ee340>)]"
 
 HOMEPAGE="https://materialsproject.github.io/pymatgen-analysis-defects/"
 LICENSE="modified BSD"

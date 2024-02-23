@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An AngularJS extension to Robotframework's Selenium2Library"
+DESCRIPTION="An AngularJS extension to Robotframework's Selenium2Library [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/Selenium2Library/robotframework-angularjs"
 LICENSE="Apache-2.0"

@@ -16,8 +16,8 @@ DESCRIPTION="MediaPipe is the simplest way for researchers and developers to bui
 
 HOMEPAGE="https://github.com/google/mediapipe"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_11_0_universal2.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_11_0_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

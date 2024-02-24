@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The kwimage module [top-max 0.9.23]"
+DESCRIPTION="The kwimage module [top-max 0.9.24]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/kwimage"
 LICENSE="Apache-2.0"

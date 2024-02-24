@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to interface with GoDirect devices via USB and BLE"
+DESCRIPTION="Library to interface with GoDirect devices via USB and BLE [top-max 1.1.4]"
 
 HOMEPAGE="https://github.com/vernierst/godirect-py"
 LICENSE=""

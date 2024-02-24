@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="geezlibs - Telegram MTProto API Client Library for Python. [top-max 2.0.2]"
+DESCRIPTION="geezlibs - Telegram MTProto API Client Library for Python. [top-max 2.0.3]"
 
 HOMEPAGE="https://github.com/hitokizzy/geezlibs"
 LICENSE="GNU Lesser General Public License v3.0 LGPL-3.0"

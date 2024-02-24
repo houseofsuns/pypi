@@ -16,8 +16,8 @@ DESCRIPTION="A Lean Persistent Homology Library for Python [wheel]"
 
 HOMEPAGE="https://ripser.scikit-tda.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp39-cp39-win_amd64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp39-cp39-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-win_amd64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-win_amd64.whl"
 RESTRICT="test"
 
 SLOT="0"

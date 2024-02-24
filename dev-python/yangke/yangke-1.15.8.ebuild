@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="个人工具综合平台，包含常用工具，网络爬虫，知识图谱，神经网络预测等工具"
+DESCRIPTION="个人工具综合平台，包含常用工具，网络爬虫，知识图谱，神经网络预测等工具 [top-max 1.15.10]"
 
 HOMEPAGE="https://gitee.com/yangke02/lib4python"
 LICENSE=""

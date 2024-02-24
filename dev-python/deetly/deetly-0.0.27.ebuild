@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

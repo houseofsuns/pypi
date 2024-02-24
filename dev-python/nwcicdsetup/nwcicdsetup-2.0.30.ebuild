@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/pylint-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.7.2[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]"
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

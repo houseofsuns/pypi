@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/pyside6-2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-qt-3.2.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/schema[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/schema-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

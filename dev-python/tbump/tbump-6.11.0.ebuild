@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	dev-python/cli-ui[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

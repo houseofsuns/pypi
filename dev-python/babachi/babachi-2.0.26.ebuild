@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev vcf"
 DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	>=dev-python/schema-0.7.2[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}]

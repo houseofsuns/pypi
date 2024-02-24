@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/case-converter[${PYTHON_USEDEP}]
 	<dev-python/deepmerge-2.0.0[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autohooks[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autohooks-plugin-black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autohooks-plugin-isort[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	>=dev-python/schema-0.7[${PYTHON_USEDEP}]
 	dev-python/python-freeipa[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.0[${PYTHON_USEDEP}]
 	graphical? ( dev-python/python-uinput[${PYTHON_USEDEP}] )

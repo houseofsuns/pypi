@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The HDF5 storage engine of the BSB [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc8d04bdd20>)]"
+DESCRIPTION="The HDF5 storage engine of the BSB [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3da5f1ae30>)]"
 
 HOMEPAGE="https://github.com/dbbs-lab/bsb-hdf5"
 LICENSE="GPL-3"

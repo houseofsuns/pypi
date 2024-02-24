@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/jinja-3.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	>=dev-python/virtualenv-20.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	>=dev-python/schema-0.0[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

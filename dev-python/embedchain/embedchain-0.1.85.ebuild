@@ -76,7 +76,7 @@ DEPENDENCIES="github? ( <dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}] )
 	llama2? ( dev-python/replicate[${PYTHON_USEDEP}] )
 	gmail? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	opensource? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	dataloaders? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )

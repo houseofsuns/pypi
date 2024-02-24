@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/creativeai[${PYTHON_USEDEP}]
 	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/progressbar2-5.0.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]"
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

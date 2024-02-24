@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pymetasploit3[${PYTHON_USEDEP}]
 	dev-python/AMQPStorm[${PYTHON_USEDEP}]
 	<dev-python/structlog-23.0.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/bottle-0.13.0[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]

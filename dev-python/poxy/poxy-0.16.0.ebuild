@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/misk[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	>dev-python/schema-0.7.5[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/trieregex[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]"

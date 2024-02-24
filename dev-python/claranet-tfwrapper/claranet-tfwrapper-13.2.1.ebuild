@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/termcolor-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

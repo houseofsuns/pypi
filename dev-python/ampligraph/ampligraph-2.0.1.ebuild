@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-36.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	~dev-python/schema-0.7.5[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

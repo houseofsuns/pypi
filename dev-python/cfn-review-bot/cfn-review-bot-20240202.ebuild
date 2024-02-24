@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/boto3-1.28.31[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/s3transfer-0.6.2[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	~dev-python/schema-0.7.5[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

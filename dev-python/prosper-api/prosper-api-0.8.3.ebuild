@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 	dev-python/prosper-shared[${PYTHON_USEDEP}]
 	<dev-python/ratelimit-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
 	secure? ( <dev-python/keyring-25.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

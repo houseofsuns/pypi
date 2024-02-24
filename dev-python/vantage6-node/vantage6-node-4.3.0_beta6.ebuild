@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
-	dev? ( dev-python/schema[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/schema-0.7.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-2.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

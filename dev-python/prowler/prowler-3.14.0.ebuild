@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/msgraph-sdk[${PYTHON_USEDEP}]
 	dev-python/msrestazure[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.14[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	~dev-python/schema-0.7.5[${PYTHON_USEDEP}]
 	dev-python/shodan[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]"

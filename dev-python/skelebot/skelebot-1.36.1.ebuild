@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/dohq-artifactory[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	~dev-python/schema-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
 	~dev-python/coverage-4.5.4[${PYTHON_USEDEP}]
 	~dev-python/pytest-5.1[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="pygments shell"
 DEPENDENCIES="dev-python/pulp-glue[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	pygments? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	shell? ( dev-python/click-shell[${PYTHON_USEDEP}] )"

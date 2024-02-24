@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/netaddr-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/fritzconnection-2.0.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	dev-python/netifaces2[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

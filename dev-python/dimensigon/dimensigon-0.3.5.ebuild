@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/RestrictedPython[${PYTHON_USEDEP}]
 	~dev-python/rsa-4.7.1[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	~dev-python/schema-0.7.4[${PYTHON_USEDEP}]
 	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	~dev-python/watchdog-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/packaging-1.16.8[${PYTHON_USEDEP}]
 	lint? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/Nano-Utils[${PYTHON_USEDEP}] )
-	test? ( dev-python/schema[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/schema-0.7.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )

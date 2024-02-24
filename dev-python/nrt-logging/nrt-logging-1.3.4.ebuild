@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]"
+	>=dev-python/schema-0.7.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

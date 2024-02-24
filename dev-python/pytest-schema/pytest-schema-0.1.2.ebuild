@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pytest-3.5.0[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]"
+	>=dev-python/schema-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	~dev-python/tables-3.7.0[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
-	dev-python/schema[${PYTHON_USEDEP}]
+	~dev-python/schema-0.7.5[${PYTHON_USEDEP}]
 	~dev-python/rich-12.6.0[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.3.2[${PYTHON_USEDEP}]
 	dev-python/hgcroc-configuration-client[${PYTHON_USEDEP}]"

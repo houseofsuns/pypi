@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to LINDO API"
+DESCRIPTION="Python interface to LINDO API [top-max 15.0.0]"
 
 HOMEPAGE="http://www.lindo.com"
 LICENSE=""

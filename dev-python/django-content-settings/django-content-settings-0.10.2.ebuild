@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ability to easily create and manage editable variables directly from the Django admin panel"
+DESCRIPTION="Ability to easily create and manage editable variables directly from the Django admin panel [top-max 0.11]"
 
 HOMEPAGE="https://django-content-settings.readthedocs.io/en/latest/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LUSID API"
+DESCRIPTION="LUSID API [top-max 2.0.362]"
 
 HOMEPAGE="https://github.com/finbourne/lusid-sdk-python"
 LICENSE="MIT"

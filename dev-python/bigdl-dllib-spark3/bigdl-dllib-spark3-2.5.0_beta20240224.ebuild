@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Distributed Deep Learning Library for Apache Spark"
+DESCRIPTION="Distributed Deep Learning Library for Apache Spark [top-max 2.5.0_beta20240225]"
 
 HOMEPAGE="https://github.com/intel-analytics/BigDL"
 LICENSE="Apache-2.0"

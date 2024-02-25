@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Repairs triangular meshes"
+DESCRIPTION="Repairs triangular meshes [top-max 0.16.3]"
 
 HOMEPAGE="https://github.com/pyvista/pymeshfix"
 LICENSE="MIT"

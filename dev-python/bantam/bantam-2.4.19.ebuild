@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="small utils to automate web interface in Python [top-max 2.4.21]"
+DESCRIPTION="small utils to automate web interface in Python [top-max 2.4.22]"
 
 HOMEPAGE="https://github.com/nak/bantam"
 LICENSE="BSD 2-CLAUSE"

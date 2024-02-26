@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Small python library for the Signal Cli REST API [top-max 0.3.22]"
+DESCRIPTION="Small python library for the Signal Cli REST API [top-max 0.3.23]"
 
 HOMEPAGE="https://github.com/bbernhard/pysignalclirestapi"
 LICENSE=""

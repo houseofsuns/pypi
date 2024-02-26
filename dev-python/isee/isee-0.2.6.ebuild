@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python continuous integration (CI) support tools."
+DESCRIPTION="Python continuous integration (CI) support tools. [top-max 0.2.7]"
 
 HOMEPAGE="https://github.com/i2mint/isee"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ESPN API [top-max 0.34.2]"
+DESCRIPTION="ESPN API [top-max 0.35.0]"
 
 HOMEPAGE="https://github.com/cwendt94/espn-api"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The sumo-experiments library implements a python interface for the Simulation of Urban MObility (SUMO) software."
+DESCRIPTION="The sumo-experiments library implements a python interface for the Simulation of Urban MObility (SUMO) software. [top-max 3.2.1]"
 
 HOMEPAGE="https://github.com/cristal-smac/sumo-experiments"
 LICENSE=""

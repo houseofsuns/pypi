@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to tetgen"
+DESCRIPTION="Python interface to tetgen [top-max 0.6.4]"
 
 HOMEPAGE="https://github.com/pyvista/tetgen"
 LICENSE=""

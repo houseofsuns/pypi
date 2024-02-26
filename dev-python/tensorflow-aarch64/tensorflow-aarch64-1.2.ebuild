@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tensorflow r1.2 for aarch64[arm64,pine64] CPU only. [top-max 2.15.0]"
+DESCRIPTION="Tensorflow r1.2 for aarch64[arm64,pine64] CPU only. [top-max 2.16.0_rc0]"
 
 HOMEPAGE="http://ai.2psoft.com/tensorflow/pine64/tensorflow-aarch64/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for communicating with the GA4GH Task Execution API"
+DESCRIPTION="Library for communicating with the GA4GH Task Execution API [top-max 1.1.0_rc1]"
 
 HOMEPAGE="https://github.com/ohsu-comp-bio/py-tes"
 LICENSE="MIT"

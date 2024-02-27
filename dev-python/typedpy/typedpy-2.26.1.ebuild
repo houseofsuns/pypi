@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Type-safe Python [top-max 2.27.5]"
+DESCRIPTION="Type-safe Python [top-max 2.27.6]"
 
 HOMEPAGE="http://github.com/loyada/typedpy"
 LICENSE="MIT"

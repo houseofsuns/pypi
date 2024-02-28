@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A probabalistic programming ML tool for science [top-max 0.7.0]"
+DESCRIPTION="A probabalistic programming ML tool for science [top-max 0.7.1]"
 
 HOMEPAGE=""
 LICENSE="SSPL-1.0"

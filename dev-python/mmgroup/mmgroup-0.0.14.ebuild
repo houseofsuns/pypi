@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation of the sporadic simple monster group. [top-max 1.0.0]"
+DESCRIPTION="Implementation of the sporadic simple monster group. [top-max 1.0.2]"
 
 HOMEPAGE="https://github.com/Martin-Seysen/mmgroup"
 LICENSE="BSD-2"

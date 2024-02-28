@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fast_winnowing"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/crc32c[${PYTHON_USEDEP}]
+	>=dev-python/crc32c-2.2[${PYTHON_USEDEP}]
 	dev-python/binaryornot[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
 	>dev-python/grpcio-1.42.0[${PYTHON_USEDEP}]

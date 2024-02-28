@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/tweak[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
-	dev-python/crc32c[${PYTHON_USEDEP}]"
+	<dev-python/crc32c-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

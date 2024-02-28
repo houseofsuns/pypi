@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/fsspec-2022.0.0[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
 	>=dev-python/cattrs-22.2.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
-	dev-python/crc32c[${PYTHON_USEDEP}]
+	>=dev-python/crc32c-2.3[${PYTHON_USEDEP}]
 	<dev-python/zstandard-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

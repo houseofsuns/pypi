@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crc32c dev doc"
 DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	crc32c? ( dev-python/crc32c[${PYTHON_USEDEP}] )
+	crc32c? ( ~dev-python/crc32c-2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )

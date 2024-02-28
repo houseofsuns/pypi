@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wget[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/filelock-3.3.2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/crc32c[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/crc32c-2.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pygments-2.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/collective-checkdocs[${PYTHON_USEDEP}] )

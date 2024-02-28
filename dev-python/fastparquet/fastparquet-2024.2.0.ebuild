@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="lzo"
 DEPENDENCIES=">=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
-	dev-python/cramjam[${PYTHON_USEDEP}]
+	>=dev-python/cramjam-2.3[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	lzo? ( dev-python/python-lzo[${PYTHON_USEDEP}] )"

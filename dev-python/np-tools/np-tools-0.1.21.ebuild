@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	dev-python/np-config[${PYTHON_USEDEP}]
 	dev-python/np-logging[${PYTHON_USEDEP}]
-	dev-python/crc32c[${PYTHON_USEDEP}]
+	>=dev-python/crc32c-2.3_p0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.5[${PYTHON_USEDEP}]
 	dev-python/pynwb[${PYTHON_USEDEP}]
 	dev? ( dev-python/blue[${PYTHON_USEDEP}] )

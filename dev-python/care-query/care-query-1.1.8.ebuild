@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Monocle Insight's CareQuery API"
+DESCRIPTION="Monocle Insight's CareQuery API [top-max 1.1.9]"
 
 HOMEPAGE="https://care-query.readme.io/"
 LICENSE=""

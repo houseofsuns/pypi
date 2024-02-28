@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/crc32c[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/crc32c-3.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

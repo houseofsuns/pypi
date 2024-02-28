@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pontos[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
-	dev-python/shtab[${PYTHON_USEDEP}]
+	>=dev-python/shtab-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.5.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

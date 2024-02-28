@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-11.1.0[${PYTHON_USEDEP}]
-	dev-python/shtab[${PYTHON_USEDEP}]
+	>=dev-python/shtab-1.5.6[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )

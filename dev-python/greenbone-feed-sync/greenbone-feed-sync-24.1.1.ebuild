@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/rich-13.2.0[${PYTHON_USEDEP}]
-	dev-python/shtab[${PYTHON_USEDEP}]
+	>=dev-python/shtab-1.6.5[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

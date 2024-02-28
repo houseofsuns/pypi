@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ansible openstack tests"
 DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	<=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
-	dev-python/shtab[${PYTHON_USEDEP}]
+	>=dev-python/shtab-1.5.5[${PYTHON_USEDEP}]
 	dev-python/opera-tosca-parser[${PYTHON_USEDEP}]
 	ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	openstack? ( >=dev-python/openstacksdk-0.99.0[${PYTHON_USEDEP}] )

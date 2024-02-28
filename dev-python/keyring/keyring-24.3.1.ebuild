@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/jaraco-classes[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
 	>=dev-python/secretstorage-3.2[${PYTHON_USEDEP}]
 	>=dev-python/jeepney-0.4.2[${PYTHON_USEDEP}]
-	completion? ( dev-python/shtab[${PYTHON_USEDEP}] )
+	completion? ( >=dev-python/shtab-1.1.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )

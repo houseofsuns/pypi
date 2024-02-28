@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
-	dev-python/shtab[${PYTHON_USEDEP}]
+	<dev-python/shtab-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.16.0[${PYTHON_USEDEP}]
 	<dev-python/jinja-3.0.0[${PYTHON_USEDEP}]

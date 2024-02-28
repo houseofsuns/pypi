@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.9.4[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/shtab[${PYTHON_USEDEP}]
+	~dev-python/shtab-1.6.5[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	development? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )

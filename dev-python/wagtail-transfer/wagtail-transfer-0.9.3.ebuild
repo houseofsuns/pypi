@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Content transfer for Wagtail"
+DESCRIPTION="Content transfer for Wagtail [top-max 0.9.4]"
 
 HOMEPAGE="https://github.com/wagtail/wagtail-transfer"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The John Snow Labs Library gives you access to all of John Snow Labs Enterprise And Open Source products in an easy and simple manner. Access 10000+ state-of-the-art NLP and OCR models for Finance, Legal and Medical domains. Easily scalable to Spark Cluster [prod-max (True, <g_sorcery.g_collections.Version object at 0x7efc6ebe47b0>)]"
+DESCRIPTION="The John Snow Labs Library gives you access to all of John Snow Labs Enterprise And Open Source products in an easy and simple manner. Access 10000+ state-of-the-art NLP and OCR models for Finance, Legal and Medical domains. Easily scalable to Spark Cluster [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f74c2532810>)]"
 
 HOMEPAGE="https://www.johnsnowlabs.com/"
 LICENSE=""

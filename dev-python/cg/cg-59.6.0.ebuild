@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Clinical Genomics command center"
+DESCRIPTION="Clinical Genomics command center [top-max 59.6.1]"
 
 HOMEPAGE="https://github.com/Clinical-Genomics/cg"
 LICENSE=""

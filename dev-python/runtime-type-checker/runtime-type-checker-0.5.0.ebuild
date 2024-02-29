@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Runtime-type-checker performs type check at runtime with help of type annotations"
+DESCRIPTION="Runtime-type-checker performs type check at runtime with help of type annotations [top-max 0.6.0]"
 
 HOMEPAGE="https://github.com/pjcampi/runtime-type-checker"
 LICENSE="MIT"

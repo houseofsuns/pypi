@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hardware-aware optimization and design automation"
+DESCRIPTION="Hardware-aware optimization and design automation [top-max 0.0.20240228_pre1]"
 
 HOMEPAGE="https://github.com/Blaok/haoda"
 LICENSE=""

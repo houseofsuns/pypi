@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for communicating with the Ashes wind turbine simulation software in order to run custom simulation code. [top-max 1.0.5_pre0]"
+DESCRIPTION="A package for communicating with the Ashes wind turbine simulation software in order to run custom simulation code."
 
 HOMEPAGE="https://www.simis.io"
 LICENSE=""

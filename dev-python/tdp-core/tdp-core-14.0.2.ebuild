@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Target discovery platform for exploring rankings of genes, disease models, and other entities. [top-max 24.0.1]"
+DESCRIPTION="Target discovery platform for exploring rankings of genes, disease models, and other entities. [top-max 25.0.0]"
 
 HOMEPAGE="https://www.datavisyn.io"
 LICENSE="BSD"

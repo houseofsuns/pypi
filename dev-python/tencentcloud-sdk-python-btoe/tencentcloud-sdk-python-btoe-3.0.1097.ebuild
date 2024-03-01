@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tencent Cloud Btoe SDK for Python"
+DESCRIPTION="Tencent Cloud Btoe SDK for Python [top-max 3.0.1098]"
 
 HOMEPAGE="https://github.com/TencentCloud/tencentcloud-sdk-python"
 LICENSE="Apache-2.0"

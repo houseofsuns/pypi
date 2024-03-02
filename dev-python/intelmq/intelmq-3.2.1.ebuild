@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol."
+DESCRIPTION="IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol. [top-max 3.3.0]"
 
 HOMEPAGE="https://github.com/certtools/intelmq/"
 LICENSE="AGPL-3"

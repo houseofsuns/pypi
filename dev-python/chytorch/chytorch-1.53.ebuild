@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 1.60]"
+DESCRIPTION=" [top-max 1.62]"
 
 HOMEPAGE="https://github.com/chython/chytorch"
 LICENSE="LGPL-3"

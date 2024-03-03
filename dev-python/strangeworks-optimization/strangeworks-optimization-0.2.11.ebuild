@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This SDK extends the Strangeworks SDK to provide access to the Strangeworks Optimization API."
+DESCRIPTION="This SDK extends the Strangeworks SDK to provide access to the Strangeworks Optimization API. [top-max 0.2.12]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

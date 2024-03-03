@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data Science Work Space for Jupyter & CDSW [top-max 0.46]"
+DESCRIPTION="Data Science Work Space for Jupyter & CDSW [top-max 0.49]"
 
 HOMEPAGE="https://pypi.org/project/dsws/"
 LICENSE="MIT"

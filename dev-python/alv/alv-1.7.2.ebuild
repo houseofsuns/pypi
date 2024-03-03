@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A console-based sequence alignment viewer"
+DESCRIPTION="A console-based sequence alignment viewer [top-max 1.8.0]"
 
 HOMEPAGE="https://github.com/arvestad/alv"
 LICENSE=""

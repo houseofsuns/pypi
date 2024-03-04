@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/argcomplete-3.2.2[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-scm-8.0.4[${PYTHON_USEDEP}]
 	>=dev-python/typeguard-4.1.5[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
-	dev-python/uv[${PYTHON_USEDEP}]
+	>=dev-python/uv-0.1.7[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.42.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

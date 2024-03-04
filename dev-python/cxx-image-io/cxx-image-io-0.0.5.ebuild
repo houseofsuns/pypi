@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python image IO module with binding cxx image code [top-max 0.0.6]"
+DESCRIPTION="Python image IO module with binding cxx image code [top-max 0.0.7]"
 
 HOMEPAGE="https://github.com/sygslhy/image-io"
 LICENSE=""

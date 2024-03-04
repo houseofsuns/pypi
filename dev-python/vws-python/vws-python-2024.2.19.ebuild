@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinxcontrib-spelling-8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sybil-6.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uv[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uv-0.1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vws-python-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vws-test-fixtures[${PYTHON_USEDEP}] )"

@@ -42,6 +42,6 @@ DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/twine-5.0.0[${PYTHON_USEDEP}]
-	dev-python/uv[${PYTHON_USEDEP}]"
+	<dev-python/uv-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

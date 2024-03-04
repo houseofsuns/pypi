@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/kraken-build[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
-	dev-python/uv[${PYTHON_USEDEP}]"
+	<dev-python/uv-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

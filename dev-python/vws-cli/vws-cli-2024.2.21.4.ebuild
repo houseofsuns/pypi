@@ -52,7 +52,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-spelling-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uv[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uv-0.1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vws-python-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vws-test-fixtures[${PYTHON_USEDEP}] )

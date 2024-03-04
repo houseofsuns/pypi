@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="2.25.0b2.dev122"
+REALVERSION="2.25.0b2.dev129"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CMS to build learning portals for open education [badver 2.25.0b2.dev122]"
+DESCRIPTION="A CMS to build learning portals for open education [badver 2.25.0b2.dev129]"
 
 HOMEPAGE="https://github.com/openfun/richie"
 LICENSE="MIT License  Copyright c 2018-present GIP FUN MOOC.  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files the Software, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  "
@@ -55,14 +55,14 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipdb-0.13.13[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/ipython-8.21.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-8.22.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/lxml-5.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/msgpack-1.0.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mysqlclient-2.2.4[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-8.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-8.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/responses-0.25.0[${PYTHON_USEDEP}] )
@@ -71,6 +71,6 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	sandbox? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	sandbox? ( ~dev-python/sentry-sdk-1.40.4[${PYTHON_USEDEP}] )"
+	sandbox? ( ~dev-python/sentry-sdk-1.40.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

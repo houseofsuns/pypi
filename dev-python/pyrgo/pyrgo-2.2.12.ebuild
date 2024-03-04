@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/build-2.0[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-1.0[${PYTHON_USEDEP}]
-	dev-python/uv[${PYTHON_USEDEP}]
+	<dev-python/uv-1.0[${PYTHON_USEDEP}]
 	dev-python/vulture[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )"

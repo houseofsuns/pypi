@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/docutils-0.19[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/types-docutils-0.20.0.20240201[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uv[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uv-0.1.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

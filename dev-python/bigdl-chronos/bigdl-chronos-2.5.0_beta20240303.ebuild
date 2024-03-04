@@ -16,8 +16,8 @@ DESCRIPTION="Scalable time series analysis using AutoML [wheel]"
 
 HOMEPAGE="https://github.com/intel-analytics/BigDL"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-win_amd64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

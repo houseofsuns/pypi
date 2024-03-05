@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Usb Video Class Device bindings with format conversion tool [top-max 1.0.0_rc1]"
+DESCRIPTION="Usb Video Class Device bindings with format conversion tool [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/pupil-labs/pyuvc"
 LICENSE="MIT"

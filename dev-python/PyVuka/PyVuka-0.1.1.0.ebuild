@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A General Purpose Global Data Analysis Package"
+DESCRIPTION="A General Purpose Global Data Analysis Package [top-max 0.1.1.1]"
 
 HOMEPAGE="https://github.com/bostonautolytics/pyvuka"
 LICENSE=""

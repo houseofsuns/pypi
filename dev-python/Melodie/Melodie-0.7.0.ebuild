@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A general framework that can be used to establish agent-based models for specific uses."
+DESCRIPTION="A general framework that can be used to establish agent-based models for specific uses. [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/ABM4ALL/Melodie"
 LICENSE="BSD 3"

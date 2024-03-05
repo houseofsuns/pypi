@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kaldi alignment methods wrapped into Python"
+DESCRIPTION="Kaldi alignment methods wrapped into Python [top-max 0.8.1]"
 
 HOMEPAGE="https://github.com/pzelasko/kaldialign"
 LICENSE="Apache licensed, as found in the LICENSE file"

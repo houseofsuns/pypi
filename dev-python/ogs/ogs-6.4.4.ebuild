@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenGeoSys Python Module [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6433feaa40>)]"
+DESCRIPTION="OpenGeoSys Python Module [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc82c7f3b50>)]"
 
 HOMEPAGE=""
 LICENSE="BSD"

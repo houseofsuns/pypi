@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="2.0.0a1.dev7"
+REALVERSION="2.0.0a1.dev8"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modern, pure python, memcache client with support for new meta commands. [badver 2.0.0a1.dev7]"
+DESCRIPTION="Modern, pure python, memcache client with support for new meta commands. [badver 2.0.0a1.dev8]"
 
 HOMEPAGE="https://github.com/RevenueCat/meta-memcache-py"
 LICENSE="MIT"

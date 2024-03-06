@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Custodian - Policy Rules Engine [top-max 0.9.34]"
+DESCRIPTION="Cloud Custodian - Policy Rules Engine [top-max 0.9.35]"
 
 HOMEPAGE="https://github.com/cloud-custodian/cloud-custodian"
 LICENSE="Apache-2.0"

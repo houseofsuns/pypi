@@ -16,8 +16,8 @@ DESCRIPTION="miniUPnP client [wheel]"
 
 HOMEPAGE="http://miniupnp.free.fr/"
 LICENSE="../LICENSE"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-cp310-win32.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-cp310-win32.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-win32.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-win32.whl"
 RESTRICT="test"
 
 SLOT="0"

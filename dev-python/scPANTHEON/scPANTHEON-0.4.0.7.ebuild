@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A graphical interface for single cell analysis."
+DESCRIPTION="A graphical interface for single cell analysis. [top-max 0.4.0.8]"
 
 HOMEPAGE="https://github.com/xinzhu-email/Pantheon"
 LICENSE="MIT"

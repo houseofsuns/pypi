@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="metadata extractor from audio files [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc82b227680>)]"
+DESCRIPTION="metadata extractor from audio files [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f689f9cfd10>)]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-ocp-files-plugin"
 LICENSE="MIT"

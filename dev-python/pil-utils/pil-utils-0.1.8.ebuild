@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple PIL wrapper and text-to-image tool"
+DESCRIPTION="A simple PIL wrapper and text-to-image tool [top-max 0.1.9]"
 
 HOMEPAGE="https://github.com/MeetWq/pil-utils"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An API controller for the e-puck2 from GCtronic for Webots and Python3"
+DESCRIPTION="An API controller for the e-puck2 from GCtronic for Webots and Python3 [top-max 1.3.9]"
 
 HOMEPAGE="https://github.com/davidfrisch/UNIFR_API_EPUCK"
 LICENSE="MIT"

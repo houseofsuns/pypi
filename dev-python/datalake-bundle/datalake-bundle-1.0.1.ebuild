@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DataLake tables management bundle for the Daipe Framework [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f68b51bd9a0>)]"
+DESCRIPTION="DataLake tables management bundle for the Daipe Framework [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb74f6aec00>)]"
 
 HOMEPAGE="https://github.com/daipe-ai/datalake-bundle"
 LICENSE="MIT"

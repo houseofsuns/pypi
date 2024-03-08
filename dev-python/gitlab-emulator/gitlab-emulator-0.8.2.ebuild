@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Run a subset of .gitlab-ci.yml jobs locally [top-max 16.2.2]"
+DESCRIPTION="Run a subset of .gitlab-ci.yml jobs locally [top-max 16.2.3]"
 
 HOMEPAGE="https://gitlab.com/cunity/gitlab-emulator"
 LICENSE="License :: OSI Approved :: MIT License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An interactive, SSL-capable, man-in-the-middle HTTP proxy for penetration testers and software developers. [top-max 10.2.3]"
+DESCRIPTION="An interactive, SSL-capable, man-in-the-middle HTTP proxy for penetration testers and software developers. [top-max 10.2.4]"
 
 HOMEPAGE="http://mitmproxy.org"
 LICENSE="MIT"

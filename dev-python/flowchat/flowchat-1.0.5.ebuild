@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Streamlining the process of multi-prompting LLMs with chains"
+DESCRIPTION="Streamlining the process of multi-prompting LLMs with chains [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/flatypus/flowchat"
 LICENSE="MIT"

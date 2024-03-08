@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Different tools for working with jupuyter notebooks [top-max 0.7.3]"
+DESCRIPTION="Different tools for working with jupuyter notebooks [top-max 0.8.1]"
 
 HOMEPAGE=""
 LICENSE=""

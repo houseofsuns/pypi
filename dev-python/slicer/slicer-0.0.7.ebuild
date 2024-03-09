@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small package for big slicing."
+DESCRIPTION="A small package for big slicing. [top-max 0.0.8]"
 
 HOMEPAGE="https://github.com/interpretml/slicer"
 LICENSE=""

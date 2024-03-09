@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A quality control toolbox [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8d422f8d60>)]"
+DESCRIPTION="A quality control toolbox [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fce0a8f7290>)]"
 
 HOMEPAGE="https://github.com/metno/titanlib"
 LICENSE="LGPL-3"

@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	full? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/portalocker-1.4.0[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/sqlalchemy-1.4.11[${PYTHON_USEDEP}] )
-	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )

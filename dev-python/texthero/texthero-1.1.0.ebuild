@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.3[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]

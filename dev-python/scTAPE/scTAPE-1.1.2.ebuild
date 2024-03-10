@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.6[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

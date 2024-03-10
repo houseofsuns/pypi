@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs lightgbm quality ray statsmodels tests"
 DEPENDENCIES=">=dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.4[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	dev-python/iteration-utilities[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]

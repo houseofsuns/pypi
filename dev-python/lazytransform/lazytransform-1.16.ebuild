@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<=dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.61.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

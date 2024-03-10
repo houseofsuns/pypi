@@ -47,9 +47,9 @@ DEPENDENCIES="models? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
 	dev-python/ranzen[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	metrics? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	models? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	metrics? ( >=dev-python/scikit-learn-0.20.1[${PYTHON_USEDEP}] )
+	models? ( >=dev-python/scikit-learn-0.20.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-0.20.1[${PYTHON_USEDEP}] )
 	models? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
 	plot? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )

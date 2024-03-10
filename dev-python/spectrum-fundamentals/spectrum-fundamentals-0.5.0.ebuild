@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

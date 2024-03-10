@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/tables-4.0[${PYTHON_USEDEP}]
 	dev-python/pyFFTW[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]

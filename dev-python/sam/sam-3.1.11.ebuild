@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all data-engineering data-science docs plotting test"
 DEPENDENCIES="~dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	all? ( dev-python/nfft[${PYTHON_USEDEP}] )

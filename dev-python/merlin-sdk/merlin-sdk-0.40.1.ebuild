@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/boto3-1.9.84[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/recursive-diff[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-six[${PYTHON_USEDEP}] )

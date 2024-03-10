@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
 	<dev-python/quantities-0.15.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )

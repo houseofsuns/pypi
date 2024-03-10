@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build models"
 DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	>=dev-python/zstandard-0.18[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]

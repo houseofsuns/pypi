@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="plotting postgres r test"
 DEPENDENCIES=">=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	dev-python/jstyleson[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]

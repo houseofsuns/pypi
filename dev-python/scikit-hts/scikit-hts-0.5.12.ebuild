@@ -27,7 +27,7 @@ IUSE="all auto_arima dev distributed geo prophet test"
 DEPENDENCIES=">=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21.3[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.43[${PYTHON_USEDEP}]
 	all? ( >=dev-python/numpy-1.17.4[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
 	all? ( dev-python/fbprophet[${PYTHON_USEDEP}] )
 	all? ( dev-python/pystan[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.3.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-0.21.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/folium[${PYTHON_USEDEP}] )
 	all? ( dev-python/h3[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/numpy-1.17.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pandas-0.25.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/scipy-1.3.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-0.21.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tqdm-4.43[${PYTHON_USEDEP}] )

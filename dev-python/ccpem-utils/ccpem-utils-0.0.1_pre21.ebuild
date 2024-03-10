@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/gemmi[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	~dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

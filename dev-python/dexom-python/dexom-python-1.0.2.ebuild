@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/cobra[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/symengine-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

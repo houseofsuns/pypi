@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.40[${PYTHON_USEDEP}]

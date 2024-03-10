@@ -27,7 +27,7 @@ IUSE="clusters grainboundary matplotlib nglview phonopy plotly pyscal pyxtal sur
 DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	<=dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
-	clusters? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	clusters? ( ~dev-python/scikit-learn-1.4.0[${PYTHON_USEDEP}] )
 	grainboundary? ( dev-python/aimsgb[${PYTHON_USEDEP}] )
 	grainboundary? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
 	matplotlib? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )

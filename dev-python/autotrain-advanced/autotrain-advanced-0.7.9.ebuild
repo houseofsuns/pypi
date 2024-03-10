@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}]
@@ -82,7 +82,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}] )
@@ -130,7 +130,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}] )
@@ -179,7 +179,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	quality? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	quality? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	quality? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	quality? ( ~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}] )
 	quality? ( ~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}] )

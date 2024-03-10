@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/h5py-3.9.0[${PYTHON_USEDEP}]
 	dev-python/nimfa[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

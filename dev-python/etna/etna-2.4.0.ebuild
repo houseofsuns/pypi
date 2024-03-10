@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-dev auto classification docs jupyter prophet release statsforecast style tests torch wandb"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/ruptures[${PYTHON_USEDEP}]

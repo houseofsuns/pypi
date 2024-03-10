@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/date-extractor[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.2[${PYTHON_USEDEP}]
 	>=dev-python/selenium-3.14.1[${PYTHON_USEDEP}]
 	>=dev-python/regex-2020.2.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

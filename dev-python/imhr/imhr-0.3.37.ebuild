@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/yarg[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.0.0[${PYTHON_USEDEP}]
 	dev-python/nslr[${PYTHON_USEDEP}]
 	>=dev-python/pytest-4.5.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21.2[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

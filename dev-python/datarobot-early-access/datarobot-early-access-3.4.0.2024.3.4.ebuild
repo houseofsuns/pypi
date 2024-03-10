@@ -63,7 +63,7 @@ DEPENDENCIES=">=dev-python/pandas-0.15[${PYTHON_USEDEP}]
 	examples? ( dev-python/fredapi[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/matplotlib-2.1.0[${PYTHON_USEDEP}] )
 	examples? ( <=dev-python/seaborn-0.8[${PYTHON_USEDEP}] )
-	examples? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	examples? ( <=dev-python/scikit-learn-0.18.2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
 	examples? ( <=dev-python/colour-0.1.4[${PYTHON_USEDEP}] )
 	images? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	dev-python/hmmlearn[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]
 	dev-python/cykhash[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

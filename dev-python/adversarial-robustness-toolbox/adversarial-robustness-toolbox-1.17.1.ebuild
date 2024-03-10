@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all catboost docs gpy keras lightgbm lingvo_asr mxnet non_framework pytorch pytorch_audio pytorch_image tensorflow tensorflow_audio tensorflow_image xgboost"
 DEPENDENCIES=">=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/numpy-1.18.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/six-1.13.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pillow-6.0.0[${PYTHON_USEDEP}] )
 	gpy? ( dev-python/GPy[${PYTHON_USEDEP}] )
 	keras? ( dev-python/keras[${PYTHON_USEDEP}] )

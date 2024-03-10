@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc examples tests"
 DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-azurepipelines[${PYTHON_USEDEP}] )

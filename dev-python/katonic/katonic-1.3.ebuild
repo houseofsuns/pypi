@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.5.0[${PYTHON_USEDEP}]
@@ -77,7 +77,7 @@ DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	all? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis-py-cluster[${PYTHON_USEDEP}] )
 	all? ( dev-python/river[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
@@ -103,7 +103,7 @@ DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	drift? ( <=dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	drift? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	drift? ( dev-python/river[${PYTHON_USEDEP}] )
-	drift? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	drift? ( <dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	filemanager? ( dev-python/minio[${PYTHON_USEDEP}] )
 	fs? ( dev-python/delta[${PYTHON_USEDEP}] )
 	fs? ( dev-python/delta-spark[${PYTHON_USEDEP}] )
@@ -128,7 +128,7 @@ DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	ml? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	ml? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	ml? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	ml? ( <dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	ml? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	ml? ( >=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}] )
 	ml? ( dev-python/xgboost[${PYTHON_USEDEP}] )

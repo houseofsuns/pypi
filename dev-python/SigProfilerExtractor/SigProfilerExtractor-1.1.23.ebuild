@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]
 	dev-python/SigProfilerAssignment[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.1[${PYTHON_USEDEP}]
 	>=dev-python/reportlab-3.5.42[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]"

@@ -27,7 +27,7 @@ IUSE="additional"
 DEPENDENCIES=">=dev-python/numpy-1.14.6[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.10.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]
 	additional? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	additional? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	additional? ( dev-python/fredapi[${PYTHON_USEDEP}] )

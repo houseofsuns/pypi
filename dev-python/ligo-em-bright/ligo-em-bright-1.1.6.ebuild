@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/lalsuite[${PYTHON_USEDEP}]

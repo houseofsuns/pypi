@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/scikit-learn-1.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
 	ml? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	ml? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )
 	ml? ( dev-python/onnxmltools[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	ml? ( ~dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}] )
 	mypy? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-redis[${PYTHON_USEDEP}] )

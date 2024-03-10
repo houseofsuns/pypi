@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

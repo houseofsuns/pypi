@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/cython[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]"

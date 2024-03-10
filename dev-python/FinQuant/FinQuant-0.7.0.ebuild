@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/Quandl[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	cd? ( dev-python/build[${PYTHON_USEDEP}] )
 	cd? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	cd? ( dev-python/wheel[${PYTHON_USEDEP}] )

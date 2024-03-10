@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/coveralls[${PYTHON_USEDEP}]
 	~dev-python/requests-mock-1.9.3[${PYTHON_USEDEP}]
 	~dev-python/pylint-2.11.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.1.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}]
 	dev-python/symspellpy[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -53,7 +53,7 @@ DEPENDENCIES="ligo? ( dev-python/ampel-ztf[${PYTHON_USEDEP}] )
 	voevent? ( dev-python/voevent-parse[${PYTHON_USEDEP}] )
 	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/uncertainties-4.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	ligo? ( dev-python/healpy[${PYTHON_USEDEP}] )
 	elasticc? ( dev-python/light-curve[${PYTHON_USEDEP}] )
 	elasticc? ( dev-python/ampel-lsst[${PYTHON_USEDEP}] )"

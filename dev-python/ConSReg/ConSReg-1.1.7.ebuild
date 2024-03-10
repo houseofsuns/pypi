@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.11[${PYTHON_USEDEP}]
 	dev-python/rpy2[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	~dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

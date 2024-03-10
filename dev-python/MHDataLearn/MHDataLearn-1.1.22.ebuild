@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.9.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

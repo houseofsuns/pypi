@@ -27,7 +27,7 @@ IUSE="full"
 DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	full? ( dev-python/auto-sklearn[${PYTHON_USEDEP}] )
 	full? ( dev-python/catboost[${PYTHON_USEDEP}] )

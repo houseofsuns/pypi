@@ -28,7 +28,7 @@ DEPENDENCIES="<=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	dev-python/logomaker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

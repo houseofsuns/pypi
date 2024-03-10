@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/numpy-1.8.2[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.13.0_beta1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	~dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/xgboost[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )

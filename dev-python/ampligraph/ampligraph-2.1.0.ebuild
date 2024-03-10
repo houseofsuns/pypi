@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
 	>=dev-python/pytest-3.5.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.23.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23.1[${PYTHON_USEDEP}]
 	~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}]

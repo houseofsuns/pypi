@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pvlib[${PYTHON_USEDEP}]
 	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyresample[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/xarray-2023.0.0[${PYTHON_USEDEP}]

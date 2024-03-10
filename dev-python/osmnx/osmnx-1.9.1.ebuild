@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
 	entropy? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
-	neighbors? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	neighbors? ( >=dev-python/scikit-learn-0.23[${PYTHON_USEDEP}] )
 	neighbors? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
 	raster? ( dev-python/GDAL[${PYTHON_USEDEP}] )
 	raster? ( dev-python/rasterio[${PYTHON_USEDEP}] )

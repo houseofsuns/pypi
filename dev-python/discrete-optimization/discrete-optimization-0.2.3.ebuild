@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/shapely-1.7[${PYTHON_USEDEP}]
 	dev-python/clingo[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

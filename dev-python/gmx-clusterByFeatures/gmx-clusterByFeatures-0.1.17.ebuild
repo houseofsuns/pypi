@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pkgconfig-1.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.6[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.9[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-1.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

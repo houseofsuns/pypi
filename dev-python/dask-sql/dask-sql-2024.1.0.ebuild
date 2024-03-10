@@ -39,7 +39,7 @@ DEPENDENCIES="<=dev-python/dask-2024.1.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyarrow-6.0.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/intake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )

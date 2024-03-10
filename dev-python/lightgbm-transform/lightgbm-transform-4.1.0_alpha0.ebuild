@@ -27,7 +27,7 @@ IUSE="dask"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}]
 	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )

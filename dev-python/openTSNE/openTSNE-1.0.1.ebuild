@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hnsw pynndescent"
 DEPENDENCIES=">=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	hnsw? ( dev-python/hnswlib[${PYTHON_USEDEP}] )
 	pynndescent? ( dev-python/pynndescent[${PYTHON_USEDEP}] )"

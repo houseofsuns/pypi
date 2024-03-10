@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	ai? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	ai? ( dev-python/dirty-cat[${PYTHON_USEDEP}] )
-	ai? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	ai? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	ai? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	ai? ( dev-python/dgl[${PYTHON_USEDEP}] )
 	ai? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( ~dev-python/openpyxl-3.1.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/igraph[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dgl[${PYTHON_USEDEP}] )
 	bolt? ( dev-python/neo4j[${PYTHON_USEDEP}] )
 	bolt? ( dev-python/neotime[${PYTHON_USEDEP}] )
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
@@ -104,10 +104,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/tqdm-stubs[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}] )
 	testai? ( dev-python/numba[${PYTHON_USEDEP}] )
 	umap-learn? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	umap-learn? ( dev-python/dirty-cat[${PYTHON_USEDEP}] )
-	umap-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	umap-learn? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

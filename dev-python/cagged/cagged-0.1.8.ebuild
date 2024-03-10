@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/semgrep[${PYTHON_USEDEP}]
 	dev-python/python-whois[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

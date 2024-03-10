@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="demo docs sdml"
 DEPENDENCIES=">=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.17.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21.3[${PYTHON_USEDEP}]
 	demo? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

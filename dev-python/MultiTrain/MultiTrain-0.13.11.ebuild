@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.10.0[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.4.0[${PYTHON_USEDEP}]

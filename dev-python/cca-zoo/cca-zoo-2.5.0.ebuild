@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deep probabilistic"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tensorly[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]

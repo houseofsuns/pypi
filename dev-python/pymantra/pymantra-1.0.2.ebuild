@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs experiments"
 DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]

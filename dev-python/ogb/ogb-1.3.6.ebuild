@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.29.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.24.0[${PYTHON_USEDEP}]

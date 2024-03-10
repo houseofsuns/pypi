@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/dcor[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/rdata[${PYTHON_USEDEP}]
 	dev-python/scikit-datasets[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	docs? ( dev-python/Cartopy[${PYTHON_USEDEP}] )

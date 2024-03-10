@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]"

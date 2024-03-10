@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/flax[${PYTHON_USEDEP}]
 	sagemaker? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	hallucination? ( dev-python/torch[${PYTHON_USEDEP}] )
-	hallucination? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	hallucination? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	hallucination? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/tabulate-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

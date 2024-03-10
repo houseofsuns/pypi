@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/jupyter[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.18.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.4.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

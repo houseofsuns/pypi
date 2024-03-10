@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/thrift-sasl[${PYTHON_USEDEP}]
 	emart? ( ~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
 	emart? ( ~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
 	emart? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	emart? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	emart? ( ~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	emart? ( dev-python/bayesian-optimization[${PYTHON_USEDEP}] )
 	emart? ( <dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
 	emart? ( <dev-python/numpy-1.22.2[${PYTHON_USEDEP}] )"

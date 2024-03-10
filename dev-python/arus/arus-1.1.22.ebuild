@@ -38,7 +38,7 @@ DEPENDENCIES="dev? ( dev-python/dephell-versioning[${PYTHON_USEDEP}] )
 	demo? ( dev-python/pymetawear[${PYTHON_USEDEP}] )
 	metawear? ( dev-python/pymetawear[${PYTHON_USEDEP}] )
 	demo? ( dev-python/PySimpleGUI[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/descartes[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-3.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/Rtree[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	glmnet? ( dev-python/glmnet[${PYTHON_USEDEP}] )"

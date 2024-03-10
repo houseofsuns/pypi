@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/nipype[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/niworkflows[${PYTHON_USEDEP}]
 	dev-python/duecredit[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.19.2[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-2.2.4[${PYTHON_USEDEP}]
 	dev-python/mne[${PYTHON_USEDEP}]
 	all? ( dev-python/tox[${PYTHON_USEDEP}] )

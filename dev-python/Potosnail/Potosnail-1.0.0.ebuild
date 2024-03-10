@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<=dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}]
 	dev-python/imblearn[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	<=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]

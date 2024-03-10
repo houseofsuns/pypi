@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
 	dev-python/sigProfilerPlotting[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.2[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.1[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

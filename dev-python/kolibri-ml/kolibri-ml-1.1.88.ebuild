@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all audio dnn nlp notebook"
 DEPENDENCIES="dev-python/kdmt[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	dev-python/py-dateinfer[${PYTHON_USEDEP}]
 	dev-python/overrides[${PYTHON_USEDEP}]
 	dev-python/pyaml[${PYTHON_USEDEP}]

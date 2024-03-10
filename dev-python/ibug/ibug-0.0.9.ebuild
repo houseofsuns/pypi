@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/uncertainty-toolbox[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29.23[${PYTHON_USEDEP}]

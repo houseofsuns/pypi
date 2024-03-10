@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.8.0[${PYTHON_USEDEP}]
 	dev-python/dcor[${PYTHON_USEDEP}]"

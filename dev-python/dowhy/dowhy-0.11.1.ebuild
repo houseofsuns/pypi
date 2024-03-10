@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/causal-learn[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	pydot? ( <dev-python/pydot-2.0.0[${PYTHON_USEDEP}] )
 	pygraphviz? ( <dev-python/pygraphviz-2.0[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.10.1[${PYTHON_USEDEP}]

@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-6.27.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/setuptools-69.0.2[${PYTHON_USEDEP}]"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deep-learning docs plotting tests units"
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1[${PYTHON_USEDEP}]
 	>=dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
 	deep-learning? ( dev-python/torch[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

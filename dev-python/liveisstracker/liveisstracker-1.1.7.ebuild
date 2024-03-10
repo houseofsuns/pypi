@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/basemap[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/geographiclib[${PYTHON_USEDEP}]
+	~dev-python/geographiclib-1.50[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]

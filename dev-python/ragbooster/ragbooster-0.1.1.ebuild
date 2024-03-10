@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/tldextract-3.4.0[${PYTHON_USEDEP}]
 	dev-python/manifest-ml[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/catboost[${PYTHON_USEDEP}]
 	~dev-python/pytest-6.2.4[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]"

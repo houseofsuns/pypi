@@ -27,7 +27,7 @@ IUSE="plot"
 DEPENDENCIES=">=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	plot? ( dev-python/plotnine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

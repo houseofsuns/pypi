@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	dev-python/ranzen[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	download? ( dev-python/gdown[${PYTHON_USEDEP}] )
 	all? ( dev-python/gdown[${PYTHON_USEDEP}] )

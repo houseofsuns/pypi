@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/catboost[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/catboost[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytz-2022.7.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/scipy-1.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/six-1.15.0[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/catboost[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pytz-2022.7.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/scipy-1.10.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/six-1.15.0[${PYTHON_USEDEP}] )

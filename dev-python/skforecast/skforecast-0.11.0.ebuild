@@ -27,7 +27,7 @@ IUSE="all docs full plotting sarimax test"
 DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	<dev-python/tqdm-4.67[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.4[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	<dev-python/joblib-1.4[${PYTHON_USEDEP}]
 	all? ( dev-python/pmdarima[${PYTHON_USEDEP}] )

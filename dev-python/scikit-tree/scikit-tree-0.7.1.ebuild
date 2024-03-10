@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all build doc style test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-tree[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-tree[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-tree[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	build? ( dev-python/meson-python[${PYTHON_USEDEP}] )
 	build? ( dev-python/spin[${PYTHON_USEDEP}] )
 	build? ( dev-python/doit[${PYTHON_USEDEP}] )
-	build? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/cython-0.29.36[${PYTHON_USEDEP}] )
 	build? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	build? ( dev-python/numpy[${PYTHON_USEDEP}] )

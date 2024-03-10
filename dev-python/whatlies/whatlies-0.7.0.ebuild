@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all base dev docs floret sense2vec sentence_tfm spacy test tfhub transformers umap"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	dev-python/bpemb[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/fasttext[${PYTHON_USEDEP}] )
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/floret[${PYTHON_USEDEP}] )
-	base? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	base? ( dev-python/altair[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	base? ( dev-python/bpemb[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/nbval-0.9.5[${PYTHON_USEDEP}] )
 	floret? ( dev-python/fasttext[${PYTHON_USEDEP}] )
 	floret? ( dev-python/floret[${PYTHON_USEDEP}] )
-	sense2vec? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	sense2vec? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	sense2vec? ( dev-python/altair[${PYTHON_USEDEP}] )
 	sense2vec? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	sense2vec? ( dev-python/bpemb[${PYTHON_USEDEP}] )
@@ -84,13 +84,13 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	sense2vec? ( dev-python/sense2vec[${PYTHON_USEDEP}] )
 	sense2vec? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	sense2vec? ( dev-python/spacy-lookups-data[${PYTHON_USEDEP}] )
-	sentence_tfm? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	sentence_tfm? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	sentence_tfm? ( dev-python/altair[${PYTHON_USEDEP}] )
 	sentence_tfm? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	sentence_tfm? ( dev-python/bpemb[${PYTHON_USEDEP}] )
 	sentence_tfm? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	sentence_tfm? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	spacy? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	spacy? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/altair[${PYTHON_USEDEP}] )
 	spacy? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/bpemb[${PYTHON_USEDEP}] )
@@ -104,7 +104,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nbval-0.9.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tfhub? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	tfhub? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	tfhub? ( dev-python/altair[${PYTHON_USEDEP}] )
 	tfhub? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	tfhub? ( dev-python/bpemb[${PYTHON_USEDEP}] )
@@ -112,13 +112,13 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	tfhub? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tfhub? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
 	tfhub? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	transformers? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/altair[${PYTHON_USEDEP}] )
 	transformers? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/bpemb[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	umap? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	umap? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	umap? ( dev-python/altair[${PYTHON_USEDEP}] )
 	umap? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	umap? ( dev-python/bpemb[${PYTHON_USEDEP}] )

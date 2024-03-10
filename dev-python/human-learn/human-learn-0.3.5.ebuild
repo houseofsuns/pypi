@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	dev-python/clumper[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.7.1[${PYTHON_USEDEP}]

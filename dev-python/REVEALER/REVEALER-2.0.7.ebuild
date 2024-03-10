@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/pandas-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/multiprocess-0.70.11[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	~dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

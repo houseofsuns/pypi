@@ -27,7 +27,7 @@ IUSE="doc examples tests"
 DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.11[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/python-igraph[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/plotly-4.4.1[${PYTHON_USEDEP}]

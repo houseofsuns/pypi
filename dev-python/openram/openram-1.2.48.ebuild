@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	>=dev-python/coverage-4.5.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]

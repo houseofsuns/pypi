@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	dev-python/dash-table[${PYTHON_USEDEP}]
 	>dev-python/nbformat-4.2.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.4[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19.1[${PYTHON_USEDEP}]
 	catboost? ( dev-python/catboost[${PYTHON_USEDEP}] )

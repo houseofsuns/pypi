@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.10.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]"

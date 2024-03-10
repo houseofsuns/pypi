@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/astor-0.8[${PYTHON_USEDEP}]
 	>=dev-python/python-memcached-1.59[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/build-0.7[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )

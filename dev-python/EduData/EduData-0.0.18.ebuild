@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )"

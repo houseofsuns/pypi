@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	google? ( dev-python/google-generativeai[${PYTHON_USEDEP}] )
 	google-cloud? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	dev-python/streamlit[${PYTHON_USEDEP}]

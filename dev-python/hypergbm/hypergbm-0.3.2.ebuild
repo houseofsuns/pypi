@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all board dask fg notebook shap tests zhcn"
 DEPENDENCIES="dev-python/hypernets[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-0.8.0[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]

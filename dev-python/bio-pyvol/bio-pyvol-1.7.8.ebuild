@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.2[${PYTHON_USEDEP}]
 	>=dev-python/trimesh-2.36.29[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

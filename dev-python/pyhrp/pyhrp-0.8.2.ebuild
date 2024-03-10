@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

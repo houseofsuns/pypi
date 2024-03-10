@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	dev-python/supersmoother[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.5.0[${PYTHON_USEDEP}]"

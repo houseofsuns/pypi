@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev tuning"
 DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

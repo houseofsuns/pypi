@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/dask-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.8.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

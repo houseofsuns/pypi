@@ -39,7 +39,7 @@ DEPENDENCIES="tests? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}] )

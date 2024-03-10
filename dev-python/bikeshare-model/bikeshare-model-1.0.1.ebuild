@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.10[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.1[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/blackfox[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]

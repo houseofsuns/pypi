@@ -76,17 +76,17 @@ DEPENDENCIES="<dev-python/plotly-6.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/boto3-1.10[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/docutils-0.15[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/scikit-learn-1.2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/rundoc[${PYTHON_USEDEP}] )
 	test? ( <=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( <dev-python/scikit-learn-1.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	tutorials? ( <=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	tutorials? ( <dev-python/scikit-learn-1.2[${PYTHON_USEDEP}] )
 	tutorials? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

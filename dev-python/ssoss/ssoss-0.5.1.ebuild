@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/geographiclib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/geographiclib-2.0[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/gpxpy[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.31.5[${PYTHON_USEDEP}]

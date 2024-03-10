@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21.2[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

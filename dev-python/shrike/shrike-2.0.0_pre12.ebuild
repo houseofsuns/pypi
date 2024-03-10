@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/toolz-0.11.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-mgmt-core[${PYTHON_USEDEP}] )
 	distributed? ( >=dev-python/mpi4py-3.1.3[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/ray[${PYTHON_USEDEP}] )

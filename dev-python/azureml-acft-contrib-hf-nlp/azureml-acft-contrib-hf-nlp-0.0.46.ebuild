@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<=dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/twine-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )

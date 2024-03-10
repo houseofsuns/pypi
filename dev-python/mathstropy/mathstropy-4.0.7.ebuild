@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/pygame-2.5.2[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	dev-python/data-cache[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.15.0[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]

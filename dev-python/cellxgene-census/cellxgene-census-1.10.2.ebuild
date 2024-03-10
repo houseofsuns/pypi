@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/tiledbsoma[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	experimental? ( dev-python/torch[${PYTHON_USEDEP}] )
 	experimental? ( dev-python/torchdata[${PYTHON_USEDEP}] )
-	experimental? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	experimental? ( ~dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	experimental? ( dev-python/scikit-misc[${PYTHON_USEDEP}] )
 	experimental? ( ~dev-python/psutil-5.0[${PYTHON_USEDEP}] )
 	experimental? ( dev-python/datasets[${PYTHON_USEDEP}] )

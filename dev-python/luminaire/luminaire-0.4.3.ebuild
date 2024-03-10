@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/bayescd[${PYTHON_USEDEP}]
 	dev-python/pykalman[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	<=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/decorator-5.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

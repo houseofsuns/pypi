@@ -27,7 +27,7 @@ IUSE="cleverhans foolbox pytorch tf-gpu unittests"
 DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.14[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.2.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

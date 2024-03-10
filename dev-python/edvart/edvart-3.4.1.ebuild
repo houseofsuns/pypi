@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/colorlover[${PYTHON_USEDEP}]
 	<dev-python/plotly-6.0[${PYTHON_USEDEP}]
 	arrow? ( <dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.14[${PYTHON_USEDEP}]
 	>dev-python/statsmodels-0.10.2[${PYTHON_USEDEP}]
 	umap? ( dev-python/umap-learn[${PYTHON_USEDEP}] )

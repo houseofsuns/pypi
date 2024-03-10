@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]
 	all? ( dev-python/tedana[${PYTHON_USEDEP}] )

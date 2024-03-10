@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/cattrs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-0.25.0[${PYTHON_USEDEP}]
 	dev-python/skyfield[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.2.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

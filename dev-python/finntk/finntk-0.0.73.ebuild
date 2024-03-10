@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/plumbum-1.6.6[${PYTHON_USEDEP}]
 	>=dev-python/portalocker-1.2.1[${PYTHON_USEDEP}]
 	dev-python/pyahocorasick[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/wordfreq[${PYTHON_USEDEP}]
 	conceptnet5? ( dev-python/ConceptNet[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/gensim[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/python-crfsuite[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]"

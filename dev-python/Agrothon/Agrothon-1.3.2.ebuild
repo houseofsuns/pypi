@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/Pyrogram[${PYTHON_USEDEP}]
 	~dev-python/pillow-8.2.0[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.22.2_p1[${PYTHON_USEDEP}]
 	dev-python/telegraph[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

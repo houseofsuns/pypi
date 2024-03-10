@@ -27,7 +27,7 @@ IUSE="docs package test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.19.2[${PYTHON_USEDEP}] )

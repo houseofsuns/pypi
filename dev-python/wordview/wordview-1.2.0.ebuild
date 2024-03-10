@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/langdetect[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]

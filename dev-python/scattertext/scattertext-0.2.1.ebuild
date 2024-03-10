@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.2.6[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.14.1[${PYTHON_USEDEP}]
 	dev-python/flashtext[${PYTHON_USEDEP}]

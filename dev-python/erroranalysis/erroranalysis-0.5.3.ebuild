@@ -27,7 +27,7 @@ IUSE="object_detection"
 DEPENDENCIES=">=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/raiutils[${PYTHON_USEDEP}]
 	object_detection? ( dev-python/vision-explanation-methods[${PYTHON_USEDEP}] )"

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/scenedetect[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
 	>=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

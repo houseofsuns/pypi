@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.16.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.16.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-1.11[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/natsort-5.0.2[${PYTHON_USEDEP}]

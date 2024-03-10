@@ -32,7 +32,7 @@ DEPENDENCIES="notebooks? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	fancy-plotting? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	fancy-plotting? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	tracking? ( dev-python/mantik[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/pynvml[${PYTHON_USEDEP}] )

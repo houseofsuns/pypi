@@ -33,6 +33,6 @@ DEPENDENCIES=">=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

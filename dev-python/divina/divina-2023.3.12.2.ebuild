@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	~dev-python/twine-4.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

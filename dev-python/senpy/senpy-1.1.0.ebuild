@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	~dev-python/rdflib-6.1.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	dev-python/responses[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]
 	evaluation? ( dev-python/gsitk[${PYTHON_USEDEP}] )

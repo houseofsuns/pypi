@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.11[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/captum[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.1[${PYTHON_USEDEP}] )"

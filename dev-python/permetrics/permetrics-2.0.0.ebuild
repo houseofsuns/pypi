@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

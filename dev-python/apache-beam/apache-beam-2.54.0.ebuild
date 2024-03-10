@@ -109,7 +109,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-timeout-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	test? ( dev-python/testcontainers[${PYTHON_USEDEP}] )

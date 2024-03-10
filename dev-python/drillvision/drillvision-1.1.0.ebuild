@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/requests-2.30.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.137[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.31.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}]"

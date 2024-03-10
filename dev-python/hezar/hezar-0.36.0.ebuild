@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	embeddings? ( ~dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpy-1.24[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/pyeebls[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19[${PYTHON_USEDEP}]
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/emcee-3.0_rc1[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )

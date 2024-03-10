@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/scipy-0.19[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-1.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-1.11[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.8[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	graphviz? ( >=dev-python/graphviz-0.7.1[${PYTHON_USEDEP}] )"

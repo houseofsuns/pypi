@@ -29,7 +29,7 @@ DEPENDENCIES="kloppy? ( dev-python/kloppy[${PYTHON_USEDEP}] )
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	statsbomb? ( dev-python/statsbombpy[${PYTHON_USEDEP}] )
 	hdf? ( <dev-python/tables-4.0.0[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"

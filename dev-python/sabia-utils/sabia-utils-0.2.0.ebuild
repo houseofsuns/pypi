@@ -28,6 +28,6 @@ DEPENDENCIES="~dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/alei-utils[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

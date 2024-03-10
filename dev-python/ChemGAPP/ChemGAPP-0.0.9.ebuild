@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-8.7.0[${PYTHON_USEDEP}]
 	~dev-python/pathlib2-2.3.5[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.6.2[${PYTHON_USEDEP}]

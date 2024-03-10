@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/logzero[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	all? ( dev-python/sail[${PYTHON_USEDEP}] )
 	all? ( dev-python/sail[${PYTHON_USEDEP}] )
 	all? ( dev-python/sail[${PYTHON_USEDEP}] )

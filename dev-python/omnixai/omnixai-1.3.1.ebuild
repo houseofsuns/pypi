@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all bentoml nlp plot vision"
 DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

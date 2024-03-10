@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark docs"
 DEPENDENCIES="benchmark? ( dev-python/flask-restx[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	benchmark? ( <dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/keras[${PYTHON_USEDEP}] )

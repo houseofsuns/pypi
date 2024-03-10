@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crlibm docs"
 DEPENDENCIES=">=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-49.0.0[${PYTHON_USEDEP}]

@@ -45,8 +45,8 @@ DEPENDENCIES="all? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	sgrc? ( <dev-python/pytz-2024.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	sgrc? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	metrics? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
+	metrics? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
 	pipelines? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

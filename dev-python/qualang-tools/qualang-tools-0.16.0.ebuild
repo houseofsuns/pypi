@@ -39,7 +39,7 @@ DEPENDENCIES="configbuilder? ( dev-python/dash[${PYTHON_USEDEP}] )
 	configbuilder? ( >=dev-python/pandas-1.2.4[${PYTHON_USEDEP}] )
 	interplot? ( dev-python/pypiwin32[${PYTHON_USEDEP}] )
 	dev-python/qm-qua[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	configbuilder? ( <dev-python/waitress-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

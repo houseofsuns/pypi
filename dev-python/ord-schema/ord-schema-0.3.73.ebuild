@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-tabs-3.4.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/glob2[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
-	examples? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/tqdm-4.61.2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/wget[${PYTHON_USEDEP}] )

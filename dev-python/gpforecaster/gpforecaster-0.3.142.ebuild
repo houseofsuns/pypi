@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/gpytorch[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/setuptools-58.0.4[${PYTHON_USEDEP}]
 	dev-python/properscoring[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]

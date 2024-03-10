@@ -33,6 +33,6 @@ DEPENDENCIES=">=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/pybacmman[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.13.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

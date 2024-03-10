@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.26.69[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.29.82[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxconverter-common[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]

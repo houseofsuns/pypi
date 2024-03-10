@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
 	dev-python/sigProfilerPlotting[${PYTHON_USEDEP}]
 	dev-python/sigproextractor[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/fastai[${PYTHON_USEDEP}]
 	dev-python/pyts[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.4.8[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )
 	dev? ( >dev-python/ipykernel-6.0[${PYTHON_USEDEP}] )

@@ -84,7 +84,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( <dev-python/chardet-6.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/openlm[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-ai-formrecognizer[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/py-trello[${PYTHON_USEDEP}] )

@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/aliby-agora[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	dev-python/gaussianprocessderivatives[${PYTHON_USEDEP}]
 	dev-python/p-tqdm[${PYTHON_USEDEP}]
 	dev-python/pycatch22[${PYTHON_USEDEP}]"

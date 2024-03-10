@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
 	dev-python/python-jsonschema-objects[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]
 	anomaly? ( dev-python/oracle-ads[${PYTHON_USEDEP}] )

@@ -454,7 +454,7 @@ DEPENDENCIES="~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	embed-huggingface? ( ~dev-python/regex-2023.12.25[${PYTHON_USEDEP}] )
 	embed-huggingface? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	embed-huggingface? ( dev-python/safetensors[${PYTHON_USEDEP}] )
-	embed-huggingface? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	embed-huggingface? ( ~dev-python/scikit-learn-1.4.0[${PYTHON_USEDEP}] )
 	embed-huggingface? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	embed-huggingface? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	embed-huggingface? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )

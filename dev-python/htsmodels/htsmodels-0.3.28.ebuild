@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/setuptools-58.0.4[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/gluonts[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}]
 	dev-python/mxnet[${PYTHON_USEDEP}]
 	dev-python/gpytorch[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/jupyterlab-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	dev-python/autograder-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

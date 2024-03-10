@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

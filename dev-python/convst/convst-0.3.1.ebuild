@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aeon[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.1[${PYTHON_USEDEP}]

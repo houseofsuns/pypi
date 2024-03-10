@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/hypothesis-6.24.0[${PYTHON_USEDEP}] )

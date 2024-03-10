@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/docplex[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/gurobipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	<dev-python/ordered-set-5.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"

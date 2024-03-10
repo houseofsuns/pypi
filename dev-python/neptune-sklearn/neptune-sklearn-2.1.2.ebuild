@@ -28,7 +28,7 @@ DEPENDENCIES="dev? ( dev-python/neptune[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.12[${PYTHON_USEDEP}]
 	dev-python/yellowbrick[${PYTHON_USEDEP}]"

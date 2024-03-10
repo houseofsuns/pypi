@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21.2[${PYTHON_USEDEP}]
 	dev-python/mygene[${PYTHON_USEDEP}]
 	>=dev-python/plotly-4.1.1[${PYTHON_USEDEP}]
 	dev-python/adjustText[${PYTHON_USEDEP}]"

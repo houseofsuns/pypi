@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/cvxpy[${PYTHON_USEDEP}]
 	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}]
 	>=dev-python/testfixtures-6.14.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.52.0[${PYTHON_USEDEP}]"

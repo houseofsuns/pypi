@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.1.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.61.2[${PYTHON_USEDEP}]
 	full? ( dev-python/lime[${PYTHON_USEDEP}] )
-	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/statsmodels-0.11.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/shap[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )

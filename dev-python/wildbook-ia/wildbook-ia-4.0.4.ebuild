@@ -81,7 +81,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}]
@@ -184,7 +184,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/requests-oauthlib-1.1.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}] )
@@ -305,7 +305,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	runtime? ( ~dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/requests-oauthlib-1.1.0[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	runtime? ( ~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}] )

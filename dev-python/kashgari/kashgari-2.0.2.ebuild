@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/bert4keras[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.21.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

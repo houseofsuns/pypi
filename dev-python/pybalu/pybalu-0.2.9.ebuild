@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.29.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

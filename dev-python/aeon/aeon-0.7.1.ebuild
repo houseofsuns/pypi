@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.5.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.13.0[${PYTHON_USEDEP}]
 	all_extras? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/filterpy[${PYTHON_USEDEP}] )

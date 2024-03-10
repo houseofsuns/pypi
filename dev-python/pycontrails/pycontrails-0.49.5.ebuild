@@ -82,7 +82,7 @@ DEPENDENCIES=">=dev-python/dask-2022.3[${PYTHON_USEDEP}]
 	pyproj? ( >=dev-python/pyproj-3.5[${PYTHON_USEDEP}] )
 	vis? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
 	vis? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	vis? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	vis? ( >=dev-python/scikit-learn-0.23[${PYTHON_USEDEP}] )
 	vis? ( >=dev-python/scikit-image-0.18[${PYTHON_USEDEP}] )
 	vis? ( >=dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
 	vis? ( >=dev-python/shapely-2.0[${PYTHON_USEDEP}] )

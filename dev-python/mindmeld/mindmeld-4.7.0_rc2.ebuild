@@ -52,7 +52,7 @@ DEPENDENCIES="~dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/pytorch-crf[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	active_learning? ( ~dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}] )
 	augment? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	augment? ( dev-python/torch[${PYTHON_USEDEP}] )

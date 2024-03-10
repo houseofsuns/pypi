@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	kserve? ( dev-python/kserve[${PYTHON_USEDEP}] )
-	quickstart? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	quickstart? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )

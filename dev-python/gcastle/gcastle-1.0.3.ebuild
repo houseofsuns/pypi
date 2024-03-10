@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/matplotlib-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.22.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

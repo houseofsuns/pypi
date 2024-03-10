@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/funcsigs[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	<dev-python/twine-5.0.0[${PYTHON_USEDEP}]"

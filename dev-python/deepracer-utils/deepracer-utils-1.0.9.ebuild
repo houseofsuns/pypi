@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/boto3-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.17.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

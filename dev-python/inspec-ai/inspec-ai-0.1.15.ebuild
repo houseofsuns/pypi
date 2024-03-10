@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/pandas-profiling[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

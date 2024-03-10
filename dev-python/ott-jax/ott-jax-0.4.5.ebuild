@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/chex[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/tslearn[${PYTHON_USEDEP}] )

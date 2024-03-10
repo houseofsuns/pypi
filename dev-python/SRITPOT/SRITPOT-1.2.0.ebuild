@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mdr skrebate xgboost"
 DEPENDENCIES=">=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.18.1[${PYTHON_USEDEP}]
 	dev-python/deap[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.11.2[${PYTHON_USEDEP}]

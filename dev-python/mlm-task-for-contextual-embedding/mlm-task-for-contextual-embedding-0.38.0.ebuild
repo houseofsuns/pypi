@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

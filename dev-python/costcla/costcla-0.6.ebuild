@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scikit-learn-0.15.0_beta2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/pyea[${PYTHON_USEDEP}]"

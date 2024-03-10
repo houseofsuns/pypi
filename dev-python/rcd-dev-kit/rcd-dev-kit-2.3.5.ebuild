@@ -42,7 +42,7 @@ DEPENDENCIES="docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	py-test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	py-test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-autoapi-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )

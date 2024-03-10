@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/black-19.10_beta0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.2.3[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

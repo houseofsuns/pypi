@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
 	dev-python/py3Dmol[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

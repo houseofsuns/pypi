@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.50.0[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pymc3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/arviz[${PYTHON_USEDEP}] )"

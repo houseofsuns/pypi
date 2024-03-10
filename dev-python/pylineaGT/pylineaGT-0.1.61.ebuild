@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/pandas-1.3.3[${PYTHON_USEDEP}]
 	dev-python/pyro-ppl[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

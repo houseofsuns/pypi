@@ -27,7 +27,7 @@ IUSE="lovasz"
 DEPENDENCIES=">=dev-python/nose-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.27.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	lovasz? ( >=dev-python/cvxopt-1.2.0[${PYTHON_USEDEP}] )"

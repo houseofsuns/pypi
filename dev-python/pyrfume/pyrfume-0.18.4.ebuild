@@ -36,7 +36,7 @@ DEPENDENCIES="optimize? ( dev-python/deap[${PYTHON_USEDEP}] )
 	dev-python/datajoint[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]

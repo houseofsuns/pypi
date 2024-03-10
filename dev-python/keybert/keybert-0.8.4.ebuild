@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs flair gensim spacy test use"
 DEPENDENCIES="dev-python/sentence-transformers[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.4.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )

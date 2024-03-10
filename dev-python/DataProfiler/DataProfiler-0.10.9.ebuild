@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/datasketches[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.28.61[${PYTHON_USEDEP}]
-	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/keras[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/rapidfuzz-2.6.1[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}] )
 	ml? ( dev-python/keras[${PYTHON_USEDEP}] )
 	ml? ( >=dev-python/rapidfuzz-2.6.1[${PYTHON_USEDEP}] )
 	ml? ( >=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}] )

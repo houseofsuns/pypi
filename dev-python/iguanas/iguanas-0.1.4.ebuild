@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )

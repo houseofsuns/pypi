@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/html-to-json-enhanced[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]

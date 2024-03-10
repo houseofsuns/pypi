@@ -27,7 +27,7 @@ IUSE="all_extras binder dev docs linters test"
 DEPENDENCIES="all_extras? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	binder? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -63,6 +63,6 @@ DEPENDENCIES="all_extras? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

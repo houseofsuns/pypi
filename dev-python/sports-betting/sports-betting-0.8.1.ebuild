@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/QuantStats[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/vectorbt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
 	>=dev-python/pillow-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.18.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

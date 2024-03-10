@@ -27,7 +27,7 @@ IUSE="develop tf21 tf24"
 DEPENDENCIES="~dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.22.2_p1[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]

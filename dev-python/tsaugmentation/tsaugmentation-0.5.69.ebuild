@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/dtw-python[${PYTHON_USEDEP}]
 	~dev-python/setuptools-58.0.4[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/dtaidistance[${PYTHON_USEDEP}]
 	dev-python/joypy[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]"

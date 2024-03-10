@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	<dev-python/plotly-5.17.0[${PYTHON_USEDEP}]
 	<=dev-python/markdown-3.5.1[${PYTHON_USEDEP}]
 	<dev-python/requests-2.28.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	<=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -77,7 +77,7 @@ DEPENDENCIES="<dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	extras? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	extras? ( ~dev-python/graphviz-1.7[${PYTHON_USEDEP}] )
 	extras? ( ~dev-python/pygraphviz-1.11[${PYTHON_USEDEP}] )
-	extras? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}] )
 	extras? ( dev-python/fabric[${PYTHON_USEDEP}] )
 	extras? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	extras? ( dev-python/bokeh[${PYTHON_USEDEP}] )

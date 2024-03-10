@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/joblib-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.9.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-68.2.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="comet netron"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-0.25[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]

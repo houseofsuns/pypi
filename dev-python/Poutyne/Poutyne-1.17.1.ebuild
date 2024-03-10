@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	colorama? ( >=dev-python/colorama-0.4.3[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pandas-2.0.0.0[${PYTHON_USEDEP}] )
-	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	scikit-learn? ( >=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	tensorboardx? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )"

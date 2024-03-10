@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
 	docs? ( <=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/scikit-learn-1.3[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/plotly[${PYTHON_USEDEP}] )"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/newspaper3k[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
 	dev-python/pyLodStorage[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/OSMPythonTools[${PYTHON_USEDEP}]"

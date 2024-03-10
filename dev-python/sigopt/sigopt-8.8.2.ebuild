@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pymongo-3.12.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-47.3.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )

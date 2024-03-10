@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat_myst[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/mdformat_myst[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/torchvision[${PYTHON_USEDEP}] )"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/tpcp[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pyts[${PYTHON_USEDEP}]
 	dev-python/nilspodlib[${PYTHON_USEDEP}]
 	dev-python/fau_colors[${PYTHON_USEDEP}]

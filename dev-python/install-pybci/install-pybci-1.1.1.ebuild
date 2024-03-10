@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pylsl[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/antropy[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

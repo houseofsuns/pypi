@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all datalab image"
 DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.53.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-2.4.0[${PYTHON_USEDEP}]

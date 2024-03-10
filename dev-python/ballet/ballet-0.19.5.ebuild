@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/sklearn-pandas[${PYTHON_USEDEP}]
 	dev-python/stacklog[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	all? ( dev-python/category-encoders[${PYTHON_USEDEP}] )
 	all? ( dev-python/feature-engine[${PYTHON_USEDEP}] )
 	all? ( dev-python/featuretools-sklearn-transformer[${PYTHON_USEDEP}] )

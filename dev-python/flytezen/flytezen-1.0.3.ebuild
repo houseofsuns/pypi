@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/hydra-zen[${PYTHON_USEDEP}]
 	~dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	test? ( ~dev-python/xdoctest-1.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/xdoctest-1.1.2[${PYTHON_USEDEP}] )"

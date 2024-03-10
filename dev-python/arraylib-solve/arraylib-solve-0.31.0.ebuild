@@ -27,7 +27,7 @@ IUSE="docs notebook"
 DEPENDENCIES=">=dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]

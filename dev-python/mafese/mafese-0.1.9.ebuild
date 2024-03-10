@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/numpy-1.17.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/mealpy[${PYTHON_USEDEP}]
 	dev-python/permetrics[${PYTHON_USEDEP}]

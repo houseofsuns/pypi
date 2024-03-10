@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all ray shap tensorflow torch"
 DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/blis[${PYTHON_USEDEP}]
 	<dev-python/scikit-image-0.23[${PYTHON_USEDEP}]

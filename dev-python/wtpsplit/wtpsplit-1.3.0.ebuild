@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/skops[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]

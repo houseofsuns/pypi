@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipykernel-6.4.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/evalml[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pip-21.3.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="dash debug lime notebook plotly sensitivity shap skoperules testing treein
 DEPENDENCIES=">=dev-python/numpy-1.11.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.19.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.11[${PYTHON_USEDEP}]
 	dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-core-components[${PYTHON_USEDEP}] )

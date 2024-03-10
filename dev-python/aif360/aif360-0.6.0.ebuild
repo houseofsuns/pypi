@@ -27,7 +27,7 @@ IUSE="adversarialdebiasing all art disparateimpactremover docs fairadapt infairn
 DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	art? ( dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}] )
 	adversarialdebiasing? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

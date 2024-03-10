@@ -54,6 +54,6 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-1.0[${PYTHON_USEDEP}] )
 	no-telemetry? ( dev-python/howso-engine-no-telemetry[${PYTHON_USEDEP}] )
-	scikit? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	scikit? ( ~dev-python/scikit-learn-1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

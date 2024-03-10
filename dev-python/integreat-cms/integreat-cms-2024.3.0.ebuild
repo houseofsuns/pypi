@@ -131,7 +131,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/feedparser-6.0.11[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/frozenlist-1.4.1[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/funcy-2.0[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/geographiclib[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/geographiclib-2.0[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/geopy[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/google-cloud-translate[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/html5lib-1.1[${PYTHON_USEDEP}] )

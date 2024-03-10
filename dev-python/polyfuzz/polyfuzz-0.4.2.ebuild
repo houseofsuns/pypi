@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
 	>=dev-python/rapidfuzz-0.13.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.2_p1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mkdocs-1.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocstrings-0.8.0[${PYTHON_USEDEP}] )

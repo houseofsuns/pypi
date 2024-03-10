@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="performance plot"
 DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	performance? ( dev-python/pynndescent[${PYTHON_USEDEP}] )

@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	optionals? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
-	optionals? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	optionals? ( <dev-python/scikit-learn-0.25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

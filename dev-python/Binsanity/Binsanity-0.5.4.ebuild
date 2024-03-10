@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.13.0[${PYTHON_USEDEP}]
 	dev-python/checkm-genome[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

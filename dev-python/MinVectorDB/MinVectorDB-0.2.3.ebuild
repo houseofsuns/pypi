@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.4.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numexpr-2.7.3[${PYTHON_USEDEP}]
 	dev-python/pyroaring[${PYTHON_USEDEP}]"

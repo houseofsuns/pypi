@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pyhocon[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-1.5[${PYTHON_USEDEP}]
 	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

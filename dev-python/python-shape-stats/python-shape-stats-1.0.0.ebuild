@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyvista[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.2[${PYTHON_USEDEP}]

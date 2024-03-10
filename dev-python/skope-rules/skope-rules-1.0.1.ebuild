@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.10.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.17.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18.1[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

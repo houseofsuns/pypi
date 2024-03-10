@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/sparse[${PYTHON_USEDEP}]
 	dev-python/tiledb[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	cloud? ( dev-python/tiledb-cloud[${PYTHON_USEDEP}] )
-	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	full? ( dev-python/tiledb-cloud[${PYTHON_USEDEP}] )
 	full? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/sparse[${PYTHON_USEDEP}]
 	full? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torchdata[${PYTHON_USEDEP}] )
-	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	sklearn? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

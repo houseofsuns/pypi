@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/loompy[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/numpy-1.18.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/scipy-1.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/cvxopt-1.2.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/anndata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/loompy[${PYTHON_USEDEP}] )

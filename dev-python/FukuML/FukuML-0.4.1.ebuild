@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/cvxopt-1.1.8[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.10.4[${PYTHON_USEDEP}]
 	dev-python/pep8[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.17.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

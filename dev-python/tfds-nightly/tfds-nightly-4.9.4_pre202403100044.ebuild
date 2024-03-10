@@ -118,7 +118,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	nsynth? ( dev-python/crepe[${PYTHON_USEDEP}] )
 	nsynth? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	nsynth? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	nsynth? ( ~dev-python/scikit-learn-0.20.3[${PYTHON_USEDEP}] )
 	ogbg_molpcba? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	ogbg_molpcba? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	pet_finder? ( dev-python/pandas[${PYTHON_USEDEP}] )

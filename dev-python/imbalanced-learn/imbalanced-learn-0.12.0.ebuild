@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs examples optional tests"
 DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/threadpoolctl-2.0.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )

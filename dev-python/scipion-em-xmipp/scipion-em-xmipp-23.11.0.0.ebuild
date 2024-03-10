@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/scipion-pyworkflow[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	dev-python/scipion-em[${PYTHON_USEDEP}]
 	<=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]

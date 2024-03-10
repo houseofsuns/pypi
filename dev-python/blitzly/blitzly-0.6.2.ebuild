@@ -28,6 +28,6 @@ DEPENDENCIES="~dev-python/plotly-5.13.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	~dev-python/nbformat-5.7.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

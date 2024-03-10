@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev testing"
 DEPENDENCIES="~dev-python/paramiko-2.11.0[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	dev-python/azure-cosmos[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]

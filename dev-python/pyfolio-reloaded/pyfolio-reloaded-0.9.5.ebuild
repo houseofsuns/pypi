@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/ipython-3.2.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2014.10[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.14.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.16.1[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.7.1[${PYTHON_USEDEP}]
 	dev-python/empyrical-reloaded[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )

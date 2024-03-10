@@ -82,7 +82,7 @@ DEPENDENCIES="<dev-python/cachecontrol-0.13.0[${PYTHON_USEDEP}]
 	dev-python/Sanic-Cors[${PYTHON_USEDEP}]
 	dev-python/sanic-jwt[${PYTHON_USEDEP}]
 	dev-python/sanic-routing[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	transformers? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	full? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )

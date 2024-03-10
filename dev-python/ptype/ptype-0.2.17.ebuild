@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/greenery[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/clevercsv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/jsonpickle-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/clevercsv[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/jsonpickle-1.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

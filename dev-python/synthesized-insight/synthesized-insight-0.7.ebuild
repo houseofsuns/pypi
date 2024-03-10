@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc stable test"
 DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinxcontrib-asciinema[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	stable? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

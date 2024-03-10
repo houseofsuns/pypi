@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.10[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watermark[${PYTHON_USEDEP}] )

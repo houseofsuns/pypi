@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( dev-python/dvu[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gdown[${PYTHON_USEDEP}] )

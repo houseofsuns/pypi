@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev strict"
 DEPENDENCIES="dev-python/mlpype-base[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/mlpype-base[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pandas-1.4.3[${PYTHON_USEDEP}] )
 	strict? ( dev-python/mlpype-base[${PYTHON_USEDEP}] )
 	strict? ( ~dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
-	strict? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}] )
 	strict? ( ~dev-python/pandas-1.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

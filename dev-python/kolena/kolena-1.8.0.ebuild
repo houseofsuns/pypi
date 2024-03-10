@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	<dev-python/retrying-2.0.0[${PYTHON_USEDEP}]
-	metrics? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	metrics? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
 	metrics? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
 	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]"

@@ -40,8 +40,8 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	models? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all-sources? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	models? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
+	all-sources? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	models? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	all-sources? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	models? ( dev-python/shap[${PYTHON_USEDEP}] )

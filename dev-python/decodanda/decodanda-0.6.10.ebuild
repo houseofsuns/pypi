@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.58.0[${PYTHON_USEDEP}]"

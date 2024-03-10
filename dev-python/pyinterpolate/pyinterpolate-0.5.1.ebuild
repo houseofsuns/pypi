@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/descartes[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
 	>=dev-python/prettytable-3.3.0[${PYTHON_USEDEP}]
 	dev-python/pyogrio[${PYTHON_USEDEP}]

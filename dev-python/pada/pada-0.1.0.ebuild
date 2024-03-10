@@ -27,7 +27,7 @@ IUSE="all category_encoders feature_engine featuretools skits tsfresh"
 DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	>=dev-python/funcy-1.14[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	dev-python/sklearn-pandas[${PYTHON_USEDEP}]
 	dev-python/stacklog[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.0[${PYTHON_USEDEP}]

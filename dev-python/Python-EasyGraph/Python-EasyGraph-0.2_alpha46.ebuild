@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

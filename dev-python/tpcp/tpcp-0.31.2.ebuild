@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="attrs optuna x-tensorflow x-torch-cpu"
 DEPENDENCIES=">=dev-python/joblib-1.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]

@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	full? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	full? ( dev-python/cython[${PYTHON_USEDEP}] )
 	full? ( dev-python/gspread[${PYTHON_USEDEP}] )
-	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/descriptastorus[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	full? ( dev-python/firebase-admin[${PYTHON_USEDEP}] )

@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
-	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	scikit-learn? ( >dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="all core"
 DEPENDENCIES=">=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/darts[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	all? ( >=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/darts[${PYTHON_USEDEP}] )
 	all? ( dev-python/catboost[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	core? ( >=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	core? ( <=dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
-	core? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	core? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	core? ( dev-python/darts[${PYTHON_USEDEP}] )
 	core? ( dev-python/catboost[${PYTHON_USEDEP}] )

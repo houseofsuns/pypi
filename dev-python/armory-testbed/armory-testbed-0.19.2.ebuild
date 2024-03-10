@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
 	math? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	math? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	math? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	math? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	math? ( <dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
 	math? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/armory-testbed[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )

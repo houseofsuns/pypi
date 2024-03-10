@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyphen-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.19.6[${PYTHON_USEDEP}]
 	check? ( ~dev-python/black-23.0[${PYTHON_USEDEP}] )

@@ -47,8 +47,8 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/rusenttokenize[${PYTHON_USEDEP}]
-	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	ml? ( ~dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}] )
+	ml? ( ~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
 	~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	ml? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

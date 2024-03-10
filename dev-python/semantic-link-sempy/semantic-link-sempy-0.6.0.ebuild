@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pythonnet-3.0.1[${PYTHON_USEDEP}]
 	>=dev-python/clr-loader-0.2.6[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

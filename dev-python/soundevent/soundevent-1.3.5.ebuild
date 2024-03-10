@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	audio? ( >=dev-python/xarray-0.20.2[${PYTHON_USEDEP}] )
 	audio? ( >=dev-python/cython-0.29.36[${PYTHON_USEDEP}] )
 	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	evaluation? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	evaluation? ( >=dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}] )
 	geometry? ( >=dev-python/shapely-2.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundevent[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundevent[${PYTHON_USEDEP}] )

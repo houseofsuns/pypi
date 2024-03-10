@@ -33,13 +33,13 @@ DEPENDENCIES="<dev-python/elasticsearch-9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scikit-learn-1.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	lightgbm? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	scikit-learn? ( <dev-python/scikit-learn-1.4[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

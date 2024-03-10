@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.15.2[${PYTHON_USEDEP}]
 	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]
-	metrics? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	metrics? ( >=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}] )
 	metrics? ( >=dev-python/shapely-1.8.0[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	>=dev-python/pillow-7.1.2[${PYTHON_USEDEP}]

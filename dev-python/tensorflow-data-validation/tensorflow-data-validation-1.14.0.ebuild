@@ -36,10 +36,10 @@ DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-metadata[${PYTHON_USEDEP}]
 	dev-python/tfx-bsl[${PYTHON_USEDEP}]
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
-	mutual-information? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	mutual-information? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
 	mutual-information? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
 	visualization? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

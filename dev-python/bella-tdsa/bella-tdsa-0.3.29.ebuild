@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/filelock-3.0.10[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.23.4[${PYTHON_USEDEP}]

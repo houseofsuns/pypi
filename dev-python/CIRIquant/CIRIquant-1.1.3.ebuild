@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.2.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.20.3[${PYTHON_USEDEP}]
 	~dev-python/numexpr-2.6.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

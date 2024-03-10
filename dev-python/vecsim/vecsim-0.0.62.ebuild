@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="elasticsearch faiss pinecone postgres redis"
 DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.0[${PYTHON_USEDEP}]
 	elasticsearch? ( >=dev-python/elasticsearch-8.5.0[${PYTHON_USEDEP}] )
 	faiss? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )

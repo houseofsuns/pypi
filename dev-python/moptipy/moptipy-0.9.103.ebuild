@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/cmaes[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	dev-python/pdfo[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

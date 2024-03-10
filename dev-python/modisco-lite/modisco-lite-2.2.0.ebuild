@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.38.0[${PYTHON_USEDEP}]

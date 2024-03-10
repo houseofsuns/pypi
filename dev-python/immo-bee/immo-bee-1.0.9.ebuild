@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/selenium-4.7.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

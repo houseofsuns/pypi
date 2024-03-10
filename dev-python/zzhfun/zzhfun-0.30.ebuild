@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	<=dev-python/scikit-learn-0.20.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

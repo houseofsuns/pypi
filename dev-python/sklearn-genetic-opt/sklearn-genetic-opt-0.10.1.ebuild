@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all mlflow seaborn tensorflow"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/deap[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.61.1[${PYTHON_USEDEP}]

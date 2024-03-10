@@ -27,7 +27,7 @@ IUSE="doc test"
 DEPENDENCIES="dev-python/Orange3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	>=dev-python/anyqt-0.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]

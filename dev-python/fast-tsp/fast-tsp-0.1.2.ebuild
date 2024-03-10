@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast TSP solver with Python bindings"
+DESCRIPTION="A fast TSP solver with Python bindings [top-max 0.1.4]"
 
 HOMEPAGE="http://github.com/shmulvad/fast-tsp"
 LICENSE="MIT"

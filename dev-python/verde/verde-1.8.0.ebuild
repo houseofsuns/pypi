@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.16[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.2[${PYTHON_USEDEP}]
 	>=dev-python/dask-2021.5.0[${PYTHON_USEDEP}]
 	fast? ( dev-python/numba[${PYTHON_USEDEP}] )

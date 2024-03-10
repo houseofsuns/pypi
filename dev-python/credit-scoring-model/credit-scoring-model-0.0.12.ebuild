@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/feature-engine[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.26[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
 	dev-python/imblearn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

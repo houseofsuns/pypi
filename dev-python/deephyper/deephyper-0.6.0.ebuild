@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	default? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
 	default? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	default? ( dev-python/parse[${PYTHON_USEDEP}] )
-	default? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/scikit-learn-0.23.1[${PYTHON_USEDEP}] )
 	default? ( >=dev-python/scipy-1.7[${PYTHON_USEDEP}] )
 	default? ( >=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}] )
 	default? ( dev-python/pyyaml[${PYTHON_USEDEP}] )

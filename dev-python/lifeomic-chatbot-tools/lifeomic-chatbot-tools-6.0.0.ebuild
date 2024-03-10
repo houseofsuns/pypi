@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	ml? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	ml? ( <dev-python/scikit-learn-0.25.0[${PYTHON_USEDEP}] )
 	ml? ( <dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
 	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

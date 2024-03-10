@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/matplotlib-2.2.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	dev-python/PennyLane[${PYTHON_USEDEP}]
 	dev-python/pennylane-qulacs[${PYTHON_USEDEP}]
 	dev-python/qulacs-gpu[${PYTHON_USEDEP}]

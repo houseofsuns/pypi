@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.10.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

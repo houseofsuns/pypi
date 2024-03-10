@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/holidays[${PYTHON_USEDEP}]
 	dev-python/pmdarima[${PYTHON_USEDEP}]
 	dev-python/pyod[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/statsforecast[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/holidays[${PYTHON_USEDEP}]
 	all? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyod[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/shap[${PYTHON_USEDEP}] )
 	all? ( dev-python/statsforecast[${PYTHON_USEDEP}] )

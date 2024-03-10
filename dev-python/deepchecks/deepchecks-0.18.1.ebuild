@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="nlp nlp-properties vision"
 DEPENDENCIES="<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonpickle-2.0[${PYTHON_USEDEP}]
 	dev-python/PyNomaly[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]

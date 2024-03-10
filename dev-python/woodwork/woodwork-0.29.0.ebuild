@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dask dev docs spark test updater"
 DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]

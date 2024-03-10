@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/gamma-pytools[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.2[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	dev-python/sklearndf[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.5[${PYTHON_USEDEP}] )

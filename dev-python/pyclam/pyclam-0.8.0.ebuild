@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.9[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	<dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

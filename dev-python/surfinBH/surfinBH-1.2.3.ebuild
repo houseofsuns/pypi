@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	dev-python/lalsuite[${PYTHON_USEDEP}]
 	dev-python/gwsurrogate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

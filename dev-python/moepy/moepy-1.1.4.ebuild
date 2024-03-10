@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	cicd? ( dev-python/configparser[${PYTHON_USEDEP}] )
 	cicd? ( dev-python/typer[${PYTHON_USEDEP}] )

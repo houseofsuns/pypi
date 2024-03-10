@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/featuretools[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tensorflow-metal[${PYTHON_USEDEP}] )

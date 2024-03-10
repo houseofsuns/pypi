@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	opt? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	opt? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	opt? ( >=dev-python/scikit-learn-1.1[${PYTHON_USEDEP}] )
 	opt? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	sdist? ( dev-python/build[${PYTHON_USEDEP}] )
 	sdist? ( dev-python/twine[${PYTHON_USEDEP}] )

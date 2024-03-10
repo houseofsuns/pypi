@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/streamz[${PYTHON_USEDEP}]
 	air? ( dev-python/shap[${PYTHON_USEDEP}] )
 	air? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	air? ( ~dev-python/seaborn-0.11.1[${PYTHON_USEDEP}] )
-	air? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	air? ( ~dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}] )
 	air? ( ~dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
 	air? ( dev-python/lifelines[${PYTHON_USEDEP}] )
 	air? ( dev-python/xgboost[${PYTHON_USEDEP}] )

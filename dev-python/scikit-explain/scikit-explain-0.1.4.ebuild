@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="interactive"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.16.0[${PYTHON_USEDEP}]

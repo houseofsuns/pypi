@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}]
 	dev-python/ibm-wos-utils[${PYTHON_USEDEP}]
 	dev-python/xport[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]

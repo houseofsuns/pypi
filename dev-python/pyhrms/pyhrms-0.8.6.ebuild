@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/pyopenms[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"

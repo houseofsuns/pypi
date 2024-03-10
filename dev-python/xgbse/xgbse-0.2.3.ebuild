@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev docs"
 DEPENDENCIES="dev-python/xgboost[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.15.1[${PYTHON_USEDEP}]
 	dev-python/lifelines[${PYTHON_USEDEP}]
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.18.4[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/joblib-0.15.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/lifelines[${PYTHON_USEDEP}] )

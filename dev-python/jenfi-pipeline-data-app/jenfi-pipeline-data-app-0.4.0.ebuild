@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sagemaker[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-git[${PYTHON_USEDEP}]"

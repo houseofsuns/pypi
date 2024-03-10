@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29.24[${PYTHON_USEDEP}]"

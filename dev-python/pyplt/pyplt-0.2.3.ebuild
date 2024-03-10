@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.22.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

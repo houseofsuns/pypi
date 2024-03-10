@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	<dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.0[${PYTHON_USEDEP}]
 	dev-python/analytics-python[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/typing-extensions-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/analytics-python[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
@@ -93,7 +93,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	dev-vis? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
 	dev-vis? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	dev-vis? ( <dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
-	dev-vis? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev-vis? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	dev-vis? ( >=dev-python/typing-extensions-3.0[${PYTHON_USEDEP}] )
 	dev-vis? ( dev-python/analytics-python[${PYTHON_USEDEP}] )
 	dev-vis? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
@@ -126,7 +126,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	dev-viz? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
 	dev-viz? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	dev-viz? ( <dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
-	dev-viz? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev-viz? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	dev-viz? ( >=dev-python/typing-extensions-3.0[${PYTHON_USEDEP}] )
 	dev-viz? ( dev-python/analytics-python[${PYTHON_USEDEP}] )
 	dev-viz? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
@@ -151,7 +151,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	excel? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	excel? ( <dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
-	excel? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/typing-extensions-3.0[${PYTHON_USEDEP}] )
 	excel? ( dev-python/analytics-python[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
@@ -169,7 +169,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	models? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
 	models? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	models? ( <dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
-	models? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	models? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	models? ( >=dev-python/typing-extensions-3.0[${PYTHON_USEDEP}] )
 	models? ( dev-python/analytics-python[${PYTHON_USEDEP}] )
 	models? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
@@ -185,7 +185,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	notebook? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	notebook? ( <dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/typing-extensions-3.0[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/analytics-python[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
@@ -208,7 +208,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/typing-extensions-3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/analytics-python[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )

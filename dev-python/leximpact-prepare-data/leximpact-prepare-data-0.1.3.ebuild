@@ -43,7 +43,7 @@ DEPENDENCIES="pipeline? ( dev-python/diagrams[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
 	pipeline? ( <dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	pipeline? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	pipeline? ( <dev-python/tables-4.0.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/vaex-core[${PYTHON_USEDEP}] )
 	dev-python/vaex-jupyter[${PYTHON_USEDEP}]

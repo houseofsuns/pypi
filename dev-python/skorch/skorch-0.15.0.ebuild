@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.14.0[${PYTHON_USEDEP}]

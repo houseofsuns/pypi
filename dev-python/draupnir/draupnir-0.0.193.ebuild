@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pyro-ppl[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
 	dev-python/pytorch-ignite[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

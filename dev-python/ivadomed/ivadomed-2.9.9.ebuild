@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.3[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.17[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.11[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pybids[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-0.20.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/scikit-image-0.17[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )

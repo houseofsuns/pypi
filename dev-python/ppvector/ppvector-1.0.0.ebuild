@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	dev-python/paddleaudio[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

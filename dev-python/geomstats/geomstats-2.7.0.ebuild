@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/joblib-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9[${PYTHON_USEDEP}]
 	all? ( dev-python/geomstats[${PYTHON_USEDEP}] )
 	autograd? ( dev-python/autograd[${PYTHON_USEDEP}] )

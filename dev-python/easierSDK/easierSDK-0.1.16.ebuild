@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.17.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
 	<dev-python/h5py-3.0.0[${PYTHON_USEDEP}]

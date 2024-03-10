@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/gensim[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.15.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]
 	dev-python/sklearn-pandas[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	~dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]"

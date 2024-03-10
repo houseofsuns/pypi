@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
 	dev-python/ogb[${PYTHON_USEDEP}]

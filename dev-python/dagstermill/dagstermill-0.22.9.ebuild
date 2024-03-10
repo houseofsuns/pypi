@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/nbconvert[${PYTHON_USEDEP}]
 	<dev-python/jupyter-client-8.0[${PYTHON_USEDEP}]
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scikit-learn-0.19.0[${PYTHON_USEDEP}] )
 	test? ( <=dev-python/tqdm-4.48[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

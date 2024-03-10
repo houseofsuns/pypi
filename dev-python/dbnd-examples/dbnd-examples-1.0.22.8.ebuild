@@ -27,7 +27,7 @@ IUSE="airflow"
 DEPENDENCIES="dev-python/dbnd-airflow[${PYTHON_USEDEP}]
 	~dev-python/tables-3.7.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]

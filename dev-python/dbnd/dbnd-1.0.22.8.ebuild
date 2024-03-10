@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
 	test-pandas? ( ~dev-python/tables-3.7.0[${PYTHON_USEDEP}] )
 	test-pandas? ( dev-python/feather-format[${PYTHON_USEDEP}] )
 	test-pandas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test-pandas? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test-pandas? ( ~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
 	test-pandas? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	test-spark2? ( dev-python/pytest-spark[${PYTHON_USEDEP}] )
 	test-spark3? ( dev-python/pytest-spark[${PYTHON_USEDEP}] )

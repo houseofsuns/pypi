@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/pyiron-base[${PYTHON_USEDEP}]
 	dev-python/pylammpsmpi[${PYTHON_USEDEP}]
 	<=dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<=dev-python/scikit-learn-1.4.1_p1[${PYTHON_USEDEP}]
 	dev-python/seekpath[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
 	dev-python/structuretoolkit[${PYTHON_USEDEP}]"

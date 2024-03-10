@@ -100,7 +100,7 @@ DEPENDENCIES="<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}] )
 	gdrive? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )

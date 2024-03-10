@@ -72,7 +72,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	engine? ( >=dev-python/notebook-6.4.8[${PYTHON_USEDEP}] )
 	engine? ( dev-python/ipynbname[${PYTHON_USEDEP}] )
 	engine? ( >=dev-python/pillow-10.0.1[${PYTHON_USEDEP}] )
-	engine? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	engine? ( >=dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}] )
 	engine? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	engine? ( >=dev-python/typeguard-4.1.3[${PYTHON_USEDEP}] )
 	engine? ( >=dev-python/objgraph-3.6.0[${PYTHON_USEDEP}] )

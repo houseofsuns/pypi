@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.1[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.15.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

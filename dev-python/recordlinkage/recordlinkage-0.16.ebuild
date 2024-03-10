@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/jellyfish-1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	all? ( >=dev-python/networkx-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/bottleneck[${PYTHON_USEDEP}] )

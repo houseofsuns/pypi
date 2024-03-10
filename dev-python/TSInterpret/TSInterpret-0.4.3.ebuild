@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs test"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	<=dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/deap[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/sktime[${PYTHON_USEDEP}]
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
@@ -104,7 +104,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( ~dev-python/numpydoc-1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
@@ -156,7 +156,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/numpydoc-1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
 	test? ( <=dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )

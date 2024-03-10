@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/cma[${PYTHON_USEDEP}]
 	dev-python/pyDOE[${PYTHON_USEDEP}]
 	dev-python/pyDOE2[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

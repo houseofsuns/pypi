@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sortedcontainers-2.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/threadpoolctl-3.0.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )

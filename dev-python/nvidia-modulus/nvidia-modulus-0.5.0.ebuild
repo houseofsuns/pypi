@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	all? ( >=dev-python/h5py-3.7.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/netcdf4-1.6.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/warp-lang[${PYTHON_USEDEP}] )
 	all? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyvista[${PYTHON_USEDEP}] )

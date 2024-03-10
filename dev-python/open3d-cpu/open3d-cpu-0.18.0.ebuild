@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	>dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pyquaternion[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/ipython-7.9.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/speechbrain[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

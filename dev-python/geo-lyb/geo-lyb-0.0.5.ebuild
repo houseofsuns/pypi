@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/pandas-0.20[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.6[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.2.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.38.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

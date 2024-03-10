@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	google? ( dev-python/googlemaps[${PYTHON_USEDEP}] )
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/ensemble-boxes[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

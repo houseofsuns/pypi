@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="datasets outliers"
 DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3[${PYTHON_USEDEP}]
 	datasets? ( dev-python/requests[${PYTHON_USEDEP}] )
 	outliers? ( dev-python/networkx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

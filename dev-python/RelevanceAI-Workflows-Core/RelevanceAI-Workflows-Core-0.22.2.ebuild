@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	example_tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	example_tests? ( dev-python/sentence-splitter[${PYTHON_USEDEP}] )
 	example_tests? ( dev-python/torch[${PYTHON_USEDEP}] )
-	example_tests? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	example_tests? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	example_tests? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	ray? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	ray? ( ~dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}] )

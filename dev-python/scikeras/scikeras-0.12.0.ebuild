@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tensorflow tensorflow-cpu"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-0.21[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow-cpu? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )

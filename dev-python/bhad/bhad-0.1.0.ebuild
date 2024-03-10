@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="interactive"
 DEPENDENCIES="~dev-python/pandas-1.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.13[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

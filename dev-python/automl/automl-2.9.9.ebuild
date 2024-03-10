@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/dill-0.3[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/sklearn-deap2[${PYTHON_USEDEP}]
 	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]"

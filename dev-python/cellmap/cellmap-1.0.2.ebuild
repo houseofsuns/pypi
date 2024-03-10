@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.14.1[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/scvelo[${PYTHON_USEDEP}]
 	>=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}]"

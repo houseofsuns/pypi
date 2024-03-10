@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/PyCondor[${PYTHON_USEDEP}]
 	dev-python/pygram11[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]
 	>=dev-python/xxhash-1.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20[${PYTHON_USEDEP}]"

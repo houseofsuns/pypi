@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.2.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/structlog-22.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	vision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	vision? ( dev-python/lightning-flash[${PYTHON_USEDEP}] )

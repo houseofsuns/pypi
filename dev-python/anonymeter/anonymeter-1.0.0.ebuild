@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev notebooks"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.2[${PYTHON_USEDEP}]

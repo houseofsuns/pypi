@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="easy tests"
 DEPENDENCIES="dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	easy? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="streamlit"
 DEPENDENCIES="<dev-python/requests-2.31[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.3[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]

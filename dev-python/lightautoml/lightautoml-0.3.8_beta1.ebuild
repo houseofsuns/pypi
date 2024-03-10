@@ -27,7 +27,7 @@ IUSE="afg all cv nlp report"
 DEPENDENCIES="<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
 	<=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]

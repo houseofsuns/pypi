@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]
 	dev-python/deap[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.26.0[${PYTHON_USEDEP}]

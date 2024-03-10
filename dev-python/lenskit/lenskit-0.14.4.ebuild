@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/notebook-6.0[${PYTHON_USEDEP}] )
 	hpf? ( dev-python/lenskit-hpf[${PYTHON_USEDEP}] )
 	implicit? ( dev-python/lenskit-implicit[${PYTHON_USEDEP}] )
-	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	sklearn? ( >=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/hypothesis-6.0[${PYTHON_USEDEP}] )

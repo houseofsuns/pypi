@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
 	dev-python/sklearn-crfsuite[${PYTHON_USEDEP}]
 	dev-python/snips-nlu-parsers[${PYTHON_USEDEP}]
 	dev-python/snips-nlu-utils[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]
 	doc? ( <dev-python/sphinx-1.9[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )

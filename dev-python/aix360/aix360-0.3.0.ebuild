@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	rbm? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	rbm? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	rbm? ( <=dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
-	rbm? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	rbm? ( <dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
 	rbm? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	rbm? ( <=dev-python/numpy-1.24.3[${PYTHON_USEDEP}] )
 	rule_induction? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

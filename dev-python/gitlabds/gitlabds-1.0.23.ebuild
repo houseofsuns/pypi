@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]

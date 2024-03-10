@@ -57,6 +57,6 @@ DEPENDENCIES="dev-python/PyCifRW[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	optimade? ( dev-python/ipyoptimade[${PYTHON_USEDEP}] )
 	smiles? ( dev-python/rdkit[${PYTHON_USEDEP}] )
-	smiles? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	smiles? ( ~dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

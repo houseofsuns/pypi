@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}]
 	dev-python/geohash2[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/skytek-utils[${PYTHON_USEDEP}]"

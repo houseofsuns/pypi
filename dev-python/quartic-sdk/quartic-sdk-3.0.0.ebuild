@@ -304,7 +304,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( dev-python/pypmml[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pytorch-ignite[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/retrying-1.3.4[${PYTHON_USEDEP}] )
-	complete? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/scipy-1.7.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/seaborn-0.11.1[${PYTHON_USEDEP}] )

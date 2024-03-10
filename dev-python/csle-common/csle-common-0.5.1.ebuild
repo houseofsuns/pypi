@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/csle-collector[${PYTHON_USEDEP}]
 	dev-python/csle-ryu[${PYTHON_USEDEP}]
 	dev-python/iteround[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/gpytorch[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )

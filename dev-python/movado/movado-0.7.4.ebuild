@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/vowpalwabbit[${PYTHON_USEDEP}]
 	dev-python/river[${PYTHON_USEDEP}]
 	<dev-python/plotly-5.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-0.25[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

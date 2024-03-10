@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21.3[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
 	dev-python/attrdict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

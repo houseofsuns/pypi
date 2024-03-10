@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev fsspec spark"
 DEPENDENCIES=">=dev-python/plotly-5.5.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]

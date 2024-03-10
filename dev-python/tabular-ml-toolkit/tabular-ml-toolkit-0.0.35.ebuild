@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/pytorch-tabnet[${PYTHON_USEDEP}]"

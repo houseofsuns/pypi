@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/csle-base[${PYTHON_USEDEP}]
 	dev-python/gpytorch[${PYTHON_USEDEP}]
 	dev-python/pymc[${PYTHON_USEDEP}]
 	dev-python/pytensor[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-mock-3.6.0[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas-ta[${PYTHON_USEDEP}]
 	dev-python/openbb-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

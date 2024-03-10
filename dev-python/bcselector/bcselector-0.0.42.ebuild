@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.42.1[${PYTHON_USEDEP}]
 	dev-python/pyitlib[${PYTHON_USEDEP}]
 	dev-python/adjustText[${PYTHON_USEDEP}]"

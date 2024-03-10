@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
 	~dev-python/pillow-6.2.1[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/dask-2.9.0[${PYTHON_USEDEP}]"

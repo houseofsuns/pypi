@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/trimesh-4.0.0[${PYTHON_USEDEP}]
 	dev-python/circle-fit[${PYTHON_USEDEP}]
 	dev-python/ruptures[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/lsq-ellipse[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

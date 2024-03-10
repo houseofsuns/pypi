@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	~dev-python/pooch-1.5.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

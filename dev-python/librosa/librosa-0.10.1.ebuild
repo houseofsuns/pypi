@@ -27,7 +27,7 @@ IUSE="display docs tests"
 DEPENDENCIES=">=dev-python/audioread-2.1.9[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.14[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.3.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

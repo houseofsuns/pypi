@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/six-1.0.0[${PYTHON_USEDEP}]
 	dev-python/deap[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-1.0.0[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	browniebee? ( ~dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}] )
 	browniebee? ( ~dev-python/numpy-1.24.4[${PYTHON_USEDEP}] )
 	browniebee? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
-	browniebee? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	browniebee? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	browniebee? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	browniebee? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	browniebee? ( ~dev-python/tornado-6.3.3[${PYTHON_USEDEP}] )"

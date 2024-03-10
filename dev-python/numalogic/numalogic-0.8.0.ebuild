@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="druid dynamodb mlflow redis"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0[${PYTHON_USEDEP}]

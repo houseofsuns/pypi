@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc optional test"
 DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.3.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

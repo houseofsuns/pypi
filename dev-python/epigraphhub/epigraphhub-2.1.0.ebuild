@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	viz? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/pytrends[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	ml? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/ngboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

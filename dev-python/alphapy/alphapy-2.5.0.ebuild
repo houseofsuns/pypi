@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/arrow-0.13[${PYTHON_USEDEP}]
 	dev-python/pandas-datareader[${PYTHON_USEDEP}]
 	dev-python/pyfolio[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.9[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]"

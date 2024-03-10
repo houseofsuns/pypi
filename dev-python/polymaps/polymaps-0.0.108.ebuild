@@ -31,6 +31,6 @@ DEPENDENCIES="~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.15.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

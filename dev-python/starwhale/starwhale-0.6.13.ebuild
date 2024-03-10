@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.26.14[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	all? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonlines[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/tenacity-8.0.1[${PYTHON_USEDEP}] )

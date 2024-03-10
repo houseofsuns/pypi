@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/pyFlaskBootstrap4[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.3.7[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

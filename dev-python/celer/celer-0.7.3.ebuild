@@ -27,7 +27,7 @@ IUSE="doc"
 DEPENDENCIES=">=dev-python/seaborn-0.7[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/libsvmdata[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/download[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

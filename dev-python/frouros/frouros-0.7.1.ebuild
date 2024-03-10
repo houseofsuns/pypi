@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/matplotlib-3.9[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinxcontrib-bibtex-2.7[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/scikit-learn-1.5[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/torch[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	notebooks? ( <dev-python/ipywidgets-8.2[${PYTHON_USEDEP}] )"

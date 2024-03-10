@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/seaborn-0.12.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	dev-python/TPOT[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

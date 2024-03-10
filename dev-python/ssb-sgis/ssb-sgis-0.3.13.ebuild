@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/branca[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/Rtree[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
 	dev-python/xyzservices[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

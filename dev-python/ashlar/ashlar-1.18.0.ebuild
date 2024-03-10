@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	<dev-python/scikit-image-0.20[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21.1[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2023.3.15[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	>=dev-python/blessed-1.17[${PYTHON_USEDEP}]"

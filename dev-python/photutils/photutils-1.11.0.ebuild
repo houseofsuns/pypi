@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	all? ( >=dev-python/scipy-1.7.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scikit-image-0.19[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/gwcs[${PYTHON_USEDEP}] )
 	all? ( dev-python/bottleneck[${PYTHON_USEDEP}] )
 	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )

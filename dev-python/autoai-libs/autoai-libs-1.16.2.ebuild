@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/pandas-1.6[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	~dev-python/parameterized-0.8.1[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	xgboost-wrapper? ( dev-python/lale[${PYTHON_USEDEP}] )
 	xgboost-wrapper? ( dev-python/xgboost[${PYTHON_USEDEP}] )

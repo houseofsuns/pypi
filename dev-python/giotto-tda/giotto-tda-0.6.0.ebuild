@@ -27,7 +27,7 @@ IUSE="dev doc examples tests"
 DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.16.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.1[${PYTHON_USEDEP}]
 	dev-python/giotto-ph[${PYTHON_USEDEP}]
 	dev-python/pyflagser[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]

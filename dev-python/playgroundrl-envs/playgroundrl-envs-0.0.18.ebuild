@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/pettingzoo[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	~dev-python/pygame-2.4.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/texasholdem[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]"

@@ -27,7 +27,7 @@ IUSE="all dev doc tests"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	all? ( dev-python/mapca[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

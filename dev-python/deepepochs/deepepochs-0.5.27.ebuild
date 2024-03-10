@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

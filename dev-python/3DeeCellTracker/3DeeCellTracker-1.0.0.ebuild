@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/stardist[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}]
 	~dev-python/notebook-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

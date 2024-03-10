@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	dev-python/pytorch-tabnet[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.18.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	<dev-python/selenium-4.3[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
@@ -267,7 +267,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/rfc3986-validator-0.1.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/rfc3987-1.3.8[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/s3transfer-0.6.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/selenium-4.2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/send2trash-1.8.2[${PYTHON_USEDEP}] )

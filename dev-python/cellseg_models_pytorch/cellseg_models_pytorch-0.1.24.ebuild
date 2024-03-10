@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/scikit-image-0.22[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/lightning[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tables-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/albumentations[${PYTHON_USEDEP}] )

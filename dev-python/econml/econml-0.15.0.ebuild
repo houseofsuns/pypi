@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all automl dowhy plt ray tf"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.5[${PYTHON_USEDEP}]
 	dev-python/sparse[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.10[${PYTHON_USEDEP}]

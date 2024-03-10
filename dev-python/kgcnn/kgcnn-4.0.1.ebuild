@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="openbabel"
 DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]

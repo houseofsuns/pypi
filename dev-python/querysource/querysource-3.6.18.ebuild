@@ -51,7 +51,7 @@ DEPENDENCIES="~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
 	dev-python/navigator-session[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-async[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/simple-salesforce[${PYTHON_USEDEP}]"

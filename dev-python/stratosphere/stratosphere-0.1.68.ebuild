@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	complete? ( <dev-python/tabulate-0.10.0[${PYTHON_USEDEP}] )
 	complete? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
-	complete? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	dask? ( <dev-python/dask-2023.0.0[${PYTHON_USEDEP}] )
 	complete? ( <dev-python/dask-2023.0.0[${PYTHON_USEDEP}] )
 	pgsql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"

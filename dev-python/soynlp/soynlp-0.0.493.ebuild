@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

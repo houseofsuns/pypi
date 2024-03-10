@@ -117,7 +117,7 @@ DEPENDENCIES=">=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	extended-testing? ( <dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/rspace-client[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	embeddings? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/sqlite-vss[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/streamlit[${PYTHON_USEDEP}] )

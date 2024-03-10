@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.31.1[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
-	dev-python/geographiclib[${PYTHON_USEDEP}]
+	~dev-python/geographiclib-2.0[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

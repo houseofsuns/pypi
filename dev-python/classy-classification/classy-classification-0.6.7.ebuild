@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="onnx"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	onnx? ( dev-python/fast-sentence-transformers[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/optimum[${PYTHON_USEDEP}] )

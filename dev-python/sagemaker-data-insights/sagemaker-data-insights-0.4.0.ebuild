@@ -27,7 +27,7 @@ IUSE="spark test"
 DEPENDENCIES=">=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.7[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/sagemaker-scikit-learn-extension[${PYTHON_USEDEP}]
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )

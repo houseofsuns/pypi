@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/aiokafka[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/requests-2.20[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/semgrep[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )

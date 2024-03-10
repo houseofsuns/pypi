@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.21.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.5.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-3.13[${PYTHON_USEDEP}]

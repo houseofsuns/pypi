@@ -94,7 +94,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pyyaml-3.13[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pyzmq-18.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/requests-2.21.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/scikit-learn-0.21.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/scipy-1.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/six-1.12.0[${PYTHON_USEDEP}] )

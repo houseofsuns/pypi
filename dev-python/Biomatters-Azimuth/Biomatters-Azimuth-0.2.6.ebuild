@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]"

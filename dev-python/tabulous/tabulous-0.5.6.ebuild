@@ -37,12 +37,12 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	all? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.7[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
 	pyqt5? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
 	pyqt6? ( >=dev-python/PyQt6-6.3.1[${PYTHON_USEDEP}] )
-	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	scikit-learn? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

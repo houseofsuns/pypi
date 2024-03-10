@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/fastmat[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
 	dev-python/dispy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

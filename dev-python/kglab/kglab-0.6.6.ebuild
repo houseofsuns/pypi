@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
 	>=dev-python/rdflib-6.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.13[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.63[${PYTHON_USEDEP}]
@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	base? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/rdflib-6.1[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/requests-2.27[${PYTHON_USEDEP}] )
-	base? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	base? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/statsmodels-0.13[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/tqdm-4.63[${PYTHON_USEDEP}] )
@@ -100,7 +100,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/pymdown-extensions-9.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/responses-0.19[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/selenium-4.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/twine-3.8[${PYTHON_USEDEP}] )

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/coolname[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}]
 	viz? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	viz? ( <dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
 	viz? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )

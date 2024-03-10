@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/dill-0.3.1.1[${PYTHON_USEDEP}]
 	hyper? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	hyper? ( >=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}] )
 	hyper? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	sklearn? ( >=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

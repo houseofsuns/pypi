@@ -32,7 +32,7 @@ DEPENDENCIES="dev? ( dev-python/igraph[${PYTHON_USEDEP}] )
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.1[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/scvi-tools[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]

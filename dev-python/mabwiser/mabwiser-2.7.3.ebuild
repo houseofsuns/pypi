@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

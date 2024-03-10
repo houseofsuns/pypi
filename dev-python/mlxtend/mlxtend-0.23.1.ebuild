@@ -27,7 +27,7 @@ IUSE="docs testing"
 DEPENDENCIES=">=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.13.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )

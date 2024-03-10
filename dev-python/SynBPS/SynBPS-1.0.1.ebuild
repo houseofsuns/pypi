@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pomegranate[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

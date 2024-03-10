@@ -28,7 +28,7 @@ DEPENDENCIES="<=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/pyclipper-1.3.0_p4[${PYTHON_USEDEP}]
 	>=dev-python/pytesseract-0.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )

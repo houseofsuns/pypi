@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc docs mem test tests"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/furo-2021.10.9[${PYTHON_USEDEP}] )

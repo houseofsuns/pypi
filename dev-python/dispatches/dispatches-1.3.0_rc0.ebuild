@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/idaes-pse[${PYTHON_USEDEP}]
 	dev-python/Pyomo[${PYTHON_USEDEP}]
 	surrogates? ( dev-python/tslearn[${PYTHON_USEDEP}] )
-	surrogates? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	surrogates? ( ~dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}] )
 	surrogates? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	surrogates? ( >=dev-python/tables-3.6.1[${PYTHON_USEDEP}] )
 	surrogates? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jira[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.22.2_p1[${PYTHON_USEDEP}]
 	dev-python/auto_ml[${PYTHON_USEDEP}]
 	dev-python/algorithmia[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]

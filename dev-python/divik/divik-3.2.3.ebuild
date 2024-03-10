@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/dask-2.14.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19.1[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.14.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.11.2[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	polyaxon? ( dev-python/polyaxon[${PYTHON_USEDEP}] )

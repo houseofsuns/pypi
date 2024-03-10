@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-base[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.5.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	alignment? ( dev-python/dtw-python[${PYTHON_USEDEP}] )
 	alignment? ( dev-python/numba[${PYTHON_USEDEP}] )

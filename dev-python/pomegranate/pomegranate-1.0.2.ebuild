@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/apricot-select[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.4[${PYTHON_USEDEP}]"

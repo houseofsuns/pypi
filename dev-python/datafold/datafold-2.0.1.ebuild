@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/findiff[${PYTHON_USEDEP}]
 	<dev-python/numexpr-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.12[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

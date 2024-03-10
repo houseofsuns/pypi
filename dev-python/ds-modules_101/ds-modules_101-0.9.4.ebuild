@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.2.2[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]"

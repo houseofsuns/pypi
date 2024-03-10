@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
-	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	sklearn? ( >=dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/black-24.1.1[${PYTHON_USEDEP}] )
 	style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	style? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	tutorials? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}] )
 	tutorials? ( <=dev-python/ipython-8.21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/shuffle-graph[${PYTHON_USEDEP}]
 	dev-python/count-dict[${PYTHON_USEDEP}]
 	dev-python/similarity-index-of-label-graph[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	>=dev-python/scikit-learn-0.24.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

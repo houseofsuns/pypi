@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	~dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
 	~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

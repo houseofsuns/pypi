@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp dev dev-docs dev-lint dev-test requests timezone"
-DEPENDENCIES="dev-python/geographiclib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/geographiclib-3.0[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-5.1[${PYTHON_USEDEP}] )

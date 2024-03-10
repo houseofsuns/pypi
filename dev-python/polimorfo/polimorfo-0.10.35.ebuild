@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	dev-python/scikit-multilearn[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.19.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

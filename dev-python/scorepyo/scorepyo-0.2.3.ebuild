@@ -27,7 +27,7 @@ IUSE="dev doc ipy"
 DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	dev-python/interpret[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/botorch[${PYTHON_USEDEP}]

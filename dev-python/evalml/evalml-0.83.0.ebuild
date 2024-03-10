@@ -27,7 +27,7 @@ IUSE="complete dev docs prophet test updater"
 DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-20.0.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]

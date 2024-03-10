@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/imblearn[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

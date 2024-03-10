@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
 	automl? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	automl? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	automl? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	automl? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	automl? ( <=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}] )
 	automl? ( dev-python/requests[${PYTHON_USEDEP}] )
 	automl? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
 	automl? ( ~dev-python/scipy-1.5[${PYTHON_USEDEP}] )

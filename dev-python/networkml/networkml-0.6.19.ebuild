@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/cython-0.29.28[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/pbr-5.8.1[${PYTHON_USEDEP}]
 	dev-python/pyshark[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]"
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

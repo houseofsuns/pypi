@@ -39,7 +39,7 @@ DEPENDENCIES="<=dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pycodestyle-2.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipython-7.31.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test tutorials"
 DEPENDENCIES=">=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]

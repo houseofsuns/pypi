@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

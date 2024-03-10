@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	gui-traitsui? ( dev-python/hyperspy-gui-traitsui[${PYTHON_USEDEP}] )
 	ipython? ( >dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
-	learning? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	learning? ( >=dev-python/scikit-learn-1.0.1[${PYTHON_USEDEP}] )
 	speed? ( dev-python/numba[${PYTHON_USEDEP}] )
 	speed? ( dev-python/numexpr[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )

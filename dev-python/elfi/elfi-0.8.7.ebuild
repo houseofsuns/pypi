@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/dask-2.30.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	>=dev-python/ipyparallel-6.0[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.8[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.18.1[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	graphviz? ( >=dev-python/graphviz-0.7.1[${PYTHON_USEDEP}] )

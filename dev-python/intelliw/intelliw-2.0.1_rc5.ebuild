@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	all? ( <dev-python/pyyaml-6.1[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/APScheduler-3.9.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/eurekapy[${PYTHON_USEDEP}] )

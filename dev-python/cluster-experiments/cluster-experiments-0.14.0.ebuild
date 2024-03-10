@@ -27,7 +27,7 @@ IUSE="dev docs only-test test"
 DEPENDENCIES=">=dev-python/pip-22.2.2[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/pip-22.2.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pip-22.2.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pandas-1.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -94,7 +94,7 @@ DEPENDENCIES=">=dev-python/pip-22.2.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pip-22.2.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pandas-1.2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

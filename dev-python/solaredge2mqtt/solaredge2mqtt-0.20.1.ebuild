@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/solaredge-modbus[${PYTHON_USEDEP}]
 	dev-python/pysolar[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.4.1_p1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
 	dev-python/aiocsv[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

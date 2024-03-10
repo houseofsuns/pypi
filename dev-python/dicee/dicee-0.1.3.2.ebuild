@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}] )
 	min? ( >=dev-python/pandas-2.1.0[${PYTHON_USEDEP}] )
 	min? ( dev-python/polars[${PYTHON_USEDEP}] )
 	min? ( >=dev-python/rdflib-7.0.0[${PYTHON_USEDEP}] )

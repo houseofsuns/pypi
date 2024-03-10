@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs"
 DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/scipy-1.5.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scanpy[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pandas-1.1.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}] )

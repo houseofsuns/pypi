@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/attrs-23.0[${PYTHON_USEDEP}]
 	dev-python/python-louvain[${PYTHON_USEDEP}]
 	docs? ( <dev-python/rdflib-7.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/rdflib-7.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	tests? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )

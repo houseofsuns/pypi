@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.38.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.25.0[${PYTHON_USEDEP}]
 	all? ( dev-python/mdlp-discretization[${PYTHON_USEDEP}] )
 	discretiser? ( dev-python/mdlp-discretization[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

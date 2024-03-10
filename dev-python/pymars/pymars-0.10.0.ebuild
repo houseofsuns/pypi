@@ -27,7 +27,7 @@ IUSE="dev extra kubernetes ray vineyard"
 DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	>=dev-python/numexpr-2.6.4[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]

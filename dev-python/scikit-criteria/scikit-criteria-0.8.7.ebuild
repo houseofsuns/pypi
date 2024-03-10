@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.14[${PYTHON_USEDEP}]
 	dev-python/PuLP[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.4[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-3.9[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/methodtools[${PYTHON_USEDEP}]"

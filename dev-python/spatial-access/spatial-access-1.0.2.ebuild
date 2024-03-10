@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.4.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	dev-python/atlas[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
 	dev-python/Rtree[${PYTHON_USEDEP}]"

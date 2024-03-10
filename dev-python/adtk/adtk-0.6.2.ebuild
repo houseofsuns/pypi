@@ -27,7 +27,7 @@ IUSE="dev doc test"
 DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.9[${PYTHON_USEDEP}]
 	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]

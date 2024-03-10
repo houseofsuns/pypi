@@ -33,10 +33,10 @@ DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	all? ( dev-python/kaggle[${PYTHON_USEDEP}] )
 	all? ( dev-python/openml[${PYTHON_USEDEP}] )
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-0.21.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/yamlordereddictloader[${PYTHON_USEDEP}] )
 	experiments? ( dev-python/yamlordereddictloader[${PYTHON_USEDEP}] )
-	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	sklearn? ( >=dev-python/scikit-learn-0.21.2[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/openml[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/kaggle[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/psutil[${PYTHON_USEDEP}] )"

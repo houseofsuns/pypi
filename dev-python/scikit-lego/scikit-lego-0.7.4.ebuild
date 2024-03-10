@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cvxpy dev docs formulaic patsy test umap utils"
 DEPENDENCIES=">=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-lego[${PYTHON_USEDEP}] )
 	cvxpy? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	cvxpy? ( dev-python/osqp[${PYTHON_USEDEP}] )

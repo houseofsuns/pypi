@@ -40,6 +40,6 @@ DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-0.641[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

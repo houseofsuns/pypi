@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pymc3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.20[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	dev-python/arviz[${PYTHON_USEDEP}]
 	dev-python/Theano[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

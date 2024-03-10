@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/antropy[${PYTHON_USEDEP}]
 	dev-python/arch[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.1[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	dev-python/supersmoother[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

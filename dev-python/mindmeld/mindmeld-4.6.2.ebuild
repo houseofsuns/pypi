@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pytorch-crf[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-0.20[${PYTHON_USEDEP}]
 	dev-python/python-crfsuite[${PYTHON_USEDEP}]
 	active_learning? ( ~dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}] )
 	augment? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )

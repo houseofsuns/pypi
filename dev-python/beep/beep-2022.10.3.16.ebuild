@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="~dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.20.31[${PYTHON_USEDEP}]

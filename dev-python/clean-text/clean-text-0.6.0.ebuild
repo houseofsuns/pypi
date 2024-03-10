@@ -27,7 +27,7 @@ IUSE="gpl sklearn"
 DEPENDENCIES="<dev-python/emoji-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	sklearn? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
-	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	sklearn? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	gpl? ( <dev-python/unidecode-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

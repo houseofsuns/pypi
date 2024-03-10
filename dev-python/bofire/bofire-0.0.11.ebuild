@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	cheminfo? ( dev-python/rdkit[${PYTHON_USEDEP}] )
-	cheminfo? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	cheminfo? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	cheminfo? ( dev-python/mordred[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	optimization? ( >=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}] )
 	optimization? ( >=dev-python/sympy-1.12[${PYTHON_USEDEP}] )
 	optimization? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
-	optimization? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	optimization? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mopti[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyright[${PYTHON_USEDEP}] )

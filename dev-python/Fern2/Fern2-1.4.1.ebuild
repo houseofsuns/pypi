@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.3.19[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
 	dev-python/opencc-python-reimplemented[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

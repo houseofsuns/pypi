@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/lightning[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	dev-python/webfiles[${PYTHON_USEDEP}]
 	dev-python/vinplots[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

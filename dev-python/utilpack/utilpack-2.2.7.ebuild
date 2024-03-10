@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/flask-2.0.1[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

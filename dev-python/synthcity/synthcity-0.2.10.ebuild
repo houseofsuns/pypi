@@ -27,7 +27,7 @@ IUSE="all goggle testing"
 DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	dev-python/nflows[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/lifelines[${PYTHON_USEDEP}]

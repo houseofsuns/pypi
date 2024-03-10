@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/sparsezoo-nightly[${PYTHON_USEDEP}]
 	haystack? ( dev-python/tika[${PYTHON_USEDEP}] )
 	haystack? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	haystack? ( >=dev-python/scipy-1.3.2[${PYTHON_USEDEP}] )
-	haystack? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	haystack? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	haystack? ( dev-python/seqeval[${PYTHON_USEDEP}] )
 	haystack? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	haystack? ( <=dev-python/elasticsearch-7.10[${PYTHON_USEDEP}] )

@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/scikit-image-0.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/sympy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-16.0.0[${PYTHON_USEDEP}]"

@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/flask-3.1[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	dev-python/parasail[${PYTHON_USEDEP}]
 	dev-python/pyfamsa[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.5[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.13[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.15[${PYTHON_USEDEP}]
 	rustdeps? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )

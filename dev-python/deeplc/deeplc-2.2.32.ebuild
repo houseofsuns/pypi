@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/deeplcretrainer[${PYTHON_USEDEP}]
 	dev-python/psm-utils[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
-	deepcallc? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	deepcallc? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/Gooey[${PYTHON_USEDEP}] )
 	plot? ( >=dev-python/plotly-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

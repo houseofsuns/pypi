@@ -27,7 +27,7 @@ IUSE="full test"
 DEPENDENCIES="dev-python/onnxruntime[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/tflite-runtime[${PYTHON_USEDEP}]
 	full? ( dev-python/mutagen[${PYTHON_USEDEP}] )

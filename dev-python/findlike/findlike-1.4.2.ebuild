@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/rank-bm25[${PYTHON_USEDEP}]
 	dev-python/stop-words[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )

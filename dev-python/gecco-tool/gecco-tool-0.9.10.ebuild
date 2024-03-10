@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/pyhmmer[${PYTHON_USEDEP}]
 	dev-python/pyrodigal[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.4.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	dev-python/sklearn-crfsuite[${PYTHON_USEDEP}]
 	train? ( dev-python/fisher[${PYTHON_USEDEP}] )

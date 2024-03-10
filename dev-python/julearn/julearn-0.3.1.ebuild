@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deslib dev docs viz"
 DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.4[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.15[${PYTHON_USEDEP}]
 	deslib? ( dev-python/DESlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

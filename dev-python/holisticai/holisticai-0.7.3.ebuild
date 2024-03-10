@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bias explainability"
-DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	bias? ( >=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}] )
 	bias? ( dev-python/cvxpy[${PYTHON_USEDEP}] )

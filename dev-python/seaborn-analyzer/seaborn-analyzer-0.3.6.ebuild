@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	tutorial? ( dev-python/mlxtend[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/xgboost[${PYTHON_USEDEP}] )"

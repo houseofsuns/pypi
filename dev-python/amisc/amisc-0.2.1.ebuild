@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]

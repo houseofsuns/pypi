@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/KDEpy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/multiprocess-0.70.6[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]

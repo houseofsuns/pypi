@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/scikits-bootstrap[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

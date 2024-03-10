@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.11.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]"

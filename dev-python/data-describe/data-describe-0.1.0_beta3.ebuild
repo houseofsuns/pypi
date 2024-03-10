@@ -27,7 +27,7 @@ IUSE="all cluster gcp modin nlp pii scatter time"
 DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11[${PYTHON_USEDEP}]
 	>=dev-python/plotly-4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/modin[${PYTHON_USEDEP}] )

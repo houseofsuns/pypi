@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/ansys-dpf-core[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/ipywidgets-8.1.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/joblib-1.3.2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/scikit-learn-1.4.1_p1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/ipython-8.22.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/jupyterlab-4.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/ansys-dpf-core[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/joblib-1.3.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pandas-2.2.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/scikit-learn-1.4.1_p1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/ipython-8.22.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

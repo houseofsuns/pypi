@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2.1[${PYTHON_USEDEP}]
 	dev-python/space-rocks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

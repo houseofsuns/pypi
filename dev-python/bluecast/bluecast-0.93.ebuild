@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	<dev-python/plotly-6.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.10.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

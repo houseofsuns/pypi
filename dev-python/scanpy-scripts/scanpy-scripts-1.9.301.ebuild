@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/bbknn[${PYTHON_USEDEP}]
 	dev-python/mnnpy[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev-python/scrublet[${PYTHON_USEDEP}]
 	dev-python/fa2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

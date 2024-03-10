@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	dev-python/pymoo[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchprofile[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	all? ( dev-python/texttable[${PYTHON_USEDEP}] )
@@ -75,7 +75,7 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	bootstrapnas? ( dev-python/pymoo[${PYTHON_USEDEP}] )
 	bootstrapnas? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	bootstrapnas? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	bootstrapnas? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/texttable[${PYTHON_USEDEP}] )
@@ -92,7 +92,7 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	neural_compressor? ( dev-python/pymoo[${PYTHON_USEDEP}] )
 	neural_compressor? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	neural_compressor? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	neural_compressor? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/torch[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/torchprofile[${PYTHON_USEDEP}] )
@@ -113,7 +113,7 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
 	test? ( dev-python/torchprofile[${PYTHON_USEDEP}] )

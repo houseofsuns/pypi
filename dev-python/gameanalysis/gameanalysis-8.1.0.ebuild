@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev nn"
 DEPENDENCIES="~dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]
 	dev? ( dev-python/autograd[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipython-7.18[${PYTHON_USEDEP}] )

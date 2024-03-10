@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/enum-tools[${PYTHON_USEDEP}]
 	doc? ( dev-python/where[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/easydict[${PYTHON_USEDEP}] )
-	doc? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/potc-treevalue[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/ipython-7.16.3[${PYTHON_USEDEP}] )

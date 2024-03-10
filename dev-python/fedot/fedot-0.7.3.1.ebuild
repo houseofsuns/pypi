@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/thegolem[${PYTHON_USEDEP}]
 	>=dev-python/pytest-6.2.0[${PYTHON_USEDEP}]
 	>=dev-python/testfixtures-6.18.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )

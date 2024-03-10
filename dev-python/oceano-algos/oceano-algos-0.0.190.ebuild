@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/boltons[${PYTHON_USEDEP}]
 	dev-python/pyTelegramBotAPI[${PYTHON_USEDEP}]
 	dev-python/pymystem3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/cryptocode[${PYTHON_USEDEP}]
 	dev-python/YooMoney[${PYTHON_USEDEP}]
 	dev-python/ccxt[${PYTHON_USEDEP}]"

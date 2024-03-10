@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/dask-2021.10.0[${PYTHON_USEDEP}]
 	dev-python/dask-ml[${PYTHON_USEDEP}]
 	~dev-python/tables-3.6[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"

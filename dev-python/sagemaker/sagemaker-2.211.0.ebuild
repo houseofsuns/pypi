@@ -79,7 +79,7 @@ DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pandas-1.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	test? ( <dev-python/urllib3-3.0.0[${PYTHON_USEDEP}] )

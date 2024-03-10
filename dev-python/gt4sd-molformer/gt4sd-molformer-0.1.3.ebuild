@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/pytorch-fast-transformers[${PYTHON_USEDEP}]
 	dev-python/rdkit-pypi[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.26[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

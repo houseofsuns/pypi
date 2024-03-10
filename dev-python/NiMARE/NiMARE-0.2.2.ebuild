@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/cognitiveatlas[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ridgeplot[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	dev-python/sparse[${PYTHON_USEDEP}]
 	>dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/cognitiveatlas[${PYTHON_USEDEP}]
 	minimum? ( ~dev-python/numpy-1.22[${PYTHON_USEDEP}] )
 	minimum? ( ~dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	minimum? ( dev-python/PyMARE[${PYTHON_USEDEP}] )
-	minimum? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	minimum? ( ~dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
 	minimum? ( ~dev-python/scipy-1.6.0[${PYTHON_USEDEP}] )
 	minimum? ( ~dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

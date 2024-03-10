@@ -27,7 +27,7 @@ IUSE="all_extras binder dev docs unstable_extras"
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	all_extras? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	all_extras? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )

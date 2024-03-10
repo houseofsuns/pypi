@@ -38,14 +38,14 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/delayed-image[${PYTHON_USEDEP}] )
@@ -100,7 +100,7 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	all-strict? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/jq-1.2.2[${PYTHON_USEDEP}] )
@@ -110,7 +110,7 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwimage-ext[${PYTHON_USEDEP}] )
@@ -122,7 +122,7 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	all-strict? ( dev-python/rich-argparse[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/jq-1.2.2[${PYTHON_USEDEP}] )
@@ -132,7 +132,7 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	all? ( >=dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwimage-ext[${PYTHON_USEDEP}] )
@@ -200,14 +200,14 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	runtime-strict? ( ~dev-python/xarray-0.16.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
 	>=dev-python/numexpr-2.5.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.18.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10[${PYTHON_USEDEP}]
 	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

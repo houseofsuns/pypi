@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/xoscar[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/datasets[${PYTHON_USEDEP}] )

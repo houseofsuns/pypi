@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/mlrun[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.17.0[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/redis-5.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	~dev-python/cryptography-42.0[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/mlrun[${PYTHON_USEDEP}]
 	dev? ( dev-python/mlrun[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-0.17.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jinja-3.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-learn-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cryptography-42.0[${PYTHON_USEDEP}] )

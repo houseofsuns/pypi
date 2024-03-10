@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.9[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.2[${PYTHON_USEDEP}]
 	dev-python/pysindy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev fast"
 DEPENDENCIES="dev-python/instancelib[${PYTHON_USEDEP}]
 	dev-python/genbase[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.4.0[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/scikit-learn-extra[${PYTHON_USEDEP}]

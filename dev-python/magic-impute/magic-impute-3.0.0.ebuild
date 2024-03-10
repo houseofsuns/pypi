@@ -27,7 +27,7 @@ IUSE="doc test"
 DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/tasklogger[${PYTHON_USEDEP}]
 	dev-python/graphtools[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/joblib-1.3[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.11[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.3[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
 	dev-python/iteration-utilities[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

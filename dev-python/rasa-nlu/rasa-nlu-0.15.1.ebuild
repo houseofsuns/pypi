@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/cloudpickle-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.13[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.15.7[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-0.20.2[${PYTHON_USEDEP}]
 	mitie? ( dev-python/mitie[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/sklearn-crfsuite[${PYTHON_USEDEP}] )
 	spacy? ( ~dev-python/scipy-1.2[${PYTHON_USEDEP}] )

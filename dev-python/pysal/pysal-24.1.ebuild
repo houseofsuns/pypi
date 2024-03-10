@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/libpysal[${PYTHON_USEDEP}]
 	plus? ( >=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}] )
 	plus? ( >=dev-python/seaborn-0.7.0[${PYTHON_USEDEP}] )
 	plus? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	plus? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	plus? ( >=dev-python/scikit-learn-0.17.1[${PYTHON_USEDEP}] )
 	plus? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	plus? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	plus? ( dev-python/folium[${PYTHON_USEDEP}] )

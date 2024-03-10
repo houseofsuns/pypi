@@ -57,7 +57,7 @@ DEPENDENCIES="~dev-python/rpyc-6.0.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
-	doc? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
@@ -98,7 +98,7 @@ DEPENDENCIES="~dev-python/rpyc-6.0.0[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/SRTM-py[${PYTHON_USEDEP}] )
 	tests? ( dev-python/utm[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scikit-rf[${PYTHON_USEDEP}] )"

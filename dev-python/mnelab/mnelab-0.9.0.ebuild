@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-picard[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyEDFlib[${PYTHON_USEDEP}] )
 	full? ( dev-python/pybv[${PYTHON_USEDEP}] )"

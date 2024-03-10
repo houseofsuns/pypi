@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all automl distributed inference pytorch tensorflow"
 DEPENDENCIES="<=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/bigdl-nano[${PYTHON_USEDEP}]
 	all? ( dev-python/bigdl-nano[${PYTHON_USEDEP}] )
 	all? ( dev-python/optuna[${PYTHON_USEDEP}] )

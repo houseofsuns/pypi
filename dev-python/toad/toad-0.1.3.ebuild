@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/cython-0.29.15[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.12[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.21[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.10.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/credoai-connect[${PYTHON_USEDEP}]
 	dev-python/lifelines[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/credoai-connect[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/responses-0.21.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/scipy-1.9.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-autodoc-typehints-1.12.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )

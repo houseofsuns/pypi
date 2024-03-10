@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/docstring-inheritance[${PYTHON_USEDEP}]
 	all? ( <=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/openturns[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyDOE2[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/sympy-1.12[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/plotly-5.18.0[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES="docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.19[${PYTHON_USEDEP}] )
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

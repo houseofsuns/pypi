@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
-	instruments? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	instruments? ( ~dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-sklearn[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

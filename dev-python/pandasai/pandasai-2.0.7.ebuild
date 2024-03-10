@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	langchain? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	statsmodels? ( <dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}] )
-	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	scikit-learn? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	seaborn? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	plotly? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	plotly? ( dev-python/kaleido[${PYTHON_USEDEP}] )

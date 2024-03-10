@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	all? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tqdm-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dython[${PYTHON_USEDEP}] )
-	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
 	all? ( <dev-python/scipy-1.11[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	utils? ( dev-python/dython[${PYTHON_USEDEP}] )
-	utils? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	utils? ( >=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
 	utils? ( <dev-python/scipy-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

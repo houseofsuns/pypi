@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/argcomplete-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	medical? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	medical? ( dev-python/connected-components_3d[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	ml? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ml? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )

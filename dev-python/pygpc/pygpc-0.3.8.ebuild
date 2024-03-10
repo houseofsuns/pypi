@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
 	dev-python/fastmat[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

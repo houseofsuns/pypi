@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	dev-python/layer[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

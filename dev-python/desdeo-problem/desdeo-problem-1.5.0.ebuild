@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/optproblems[${PYTHON_USEDEP}]
 	dev-python/diversipy[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]
 	dev-python/desdeo-tools[${PYTHON_USEDEP}]
 	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]"

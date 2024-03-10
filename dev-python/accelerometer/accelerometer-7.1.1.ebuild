@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.13[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.1[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="example-deps tools"
 DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	dev-python/smqtk-classifier[${PYTHON_USEDEP}]
 	dev-python/smqtk-core[${PYTHON_USEDEP}]
 	dev-python/smqtk-descriptors[${PYTHON_USEDEP}]

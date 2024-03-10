@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/leidenalg[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-18.0.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.12[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.1[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.17[${PYTHON_USEDEP}]
 	>dev-python/psutil-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

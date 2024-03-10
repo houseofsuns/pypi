@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.11[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pyhash[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/scikit-learn-0.21.3[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/scipy-1.3.3[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/pandas-0.25.3[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/SetSimilaritySearch[${PYTHON_USEDEP}] )

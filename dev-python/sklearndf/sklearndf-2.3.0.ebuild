@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/gamma-pytools[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.4[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.19[${PYTHON_USEDEP}] )

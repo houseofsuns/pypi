@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.3.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/scikit-base[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.5.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	all_extras? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/distfit[${PYTHON_USEDEP}] )

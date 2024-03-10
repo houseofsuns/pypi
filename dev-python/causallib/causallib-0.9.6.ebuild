@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-1.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	<dev-python/scikit-learn-1.2[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	contrib? ( dev-python/torch[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
 	dev-python/pairtools[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	>=dev-python/multiprocess-0.70.5[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/pytabix[${PYTHON_USEDEP}]"

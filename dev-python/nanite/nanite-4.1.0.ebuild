@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/afmformats[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/lmfit-1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	aca? ( dev-python/nanite-model-sneddon-spher[${PYTHON_USEDEP}] )
 	all? ( dev-python/nanite[${PYTHON_USEDEP}] )

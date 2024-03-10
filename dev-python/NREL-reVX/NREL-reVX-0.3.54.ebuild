@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/addfips[${PYTHON_USEDEP}]
 	>=dev-python/pywavelets-1.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.18[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.7.3[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )

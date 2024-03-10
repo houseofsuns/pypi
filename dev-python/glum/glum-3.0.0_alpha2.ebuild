@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scikit-learn[${PYTHON_USEDEP}]
+	>=dev-python/scikit-learn-0.23[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/formulaic[${PYTHON_USEDEP}]
 	dev-python/tabmat[${PYTHON_USEDEP}]"

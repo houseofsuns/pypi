@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Low level implementations for computer vision in Rust [top-max 0.1.0]"
+DESCRIPTION="Low level implementations for computer vision in Rust [top-max 0.1.1]"
 
 HOMEPAGE="https://www.kornia.org"
 LICENSE="Apache License"

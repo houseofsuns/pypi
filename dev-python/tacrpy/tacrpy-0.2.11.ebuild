@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Analytická knihovna pro potřeby TA ČR [top-max 1.4.3]"
+DESCRIPTION="Analytická knihovna pro potřeby TA ČR [top-max 1.4.5]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Image registration routines for Imagedata"
+DESCRIPTION="Image registration routines for Imagedata [top-max 0.2.4]"
 
 HOMEPAGE=""
 LICENSE="MIT"

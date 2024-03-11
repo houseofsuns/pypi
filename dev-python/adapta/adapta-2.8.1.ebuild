@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Logging, data connectors, monitoring, secret handling and general lifehacks to make data people lives easier."
+DESCRIPTION="Logging, data connectors, monitoring, secret handling and general lifehacks to make data people lives easier. [top-max 2.8.2]"
 
 HOMEPAGE="https://github.com/SneaksAndData/adapta"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pygeometa is a Python package to generate metadata for geospatial datasets"
+DESCRIPTION="pygeometa is a Python package to generate metadata for geospatial datasets [top-max 0.16.0]"
 
 HOMEPAGE="https://geopython.github.io/pygeometa"
 LICENSE="MIT"

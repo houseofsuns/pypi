@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small package for playing audio in python                     with file format independent methods for playback control"
+DESCRIPTION="A small package for playing audio in python                     with file format independent methods for playback control [top-max 0.1.8]"
 
 HOMEPAGE="https://github.com/cheofusi/just_playback"
 LICENSE="MIT"

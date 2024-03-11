@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="kapture: file format for SfM"
+DESCRIPTION="kapture: file format for SfM [top-max 1.1.10]"
 
 HOMEPAGE="https://github.com/naver/kapture/"
 LICENSE=""

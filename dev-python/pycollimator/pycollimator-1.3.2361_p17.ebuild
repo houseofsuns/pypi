@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for building models for Collimator.ai [top-max 2.0.0]"
+DESCRIPTION="Package for building models for Collimator.ai [top-max 2.0.1]"
 
 HOMEPAGE=""
 LICENSE=""

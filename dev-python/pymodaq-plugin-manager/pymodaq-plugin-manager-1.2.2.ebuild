@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manager and interface to list, install or remove PyMoDAQ's plugins"
+DESCRIPTION="Manager and interface to list, install or remove PyMoDAQ's plugins [top-max 1.2.3]"
 
 HOMEPAGE=""
 LICENSE="CECILL B"

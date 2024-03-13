@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wake word plugin for OpenVoiceOS [top-max 0.1.3]"
+DESCRIPTION="A wake word plugin for OpenVoiceOS [top-max 0.1.4_alpha1]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-ww-plugin-pocketsphinx"
 LICENSE="Apache-2.0"

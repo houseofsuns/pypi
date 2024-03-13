@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Inference CLI coming soon! [top-max 0.9.15]"
+DESCRIPTION="Inference CLI coming soon! [top-max 0.9.16]"
 
 HOMEPAGE="https://github.com/roboflow/inference"
 LICENSE=""

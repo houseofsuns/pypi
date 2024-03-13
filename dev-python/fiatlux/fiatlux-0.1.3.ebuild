@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="API for LUXqed methodology in global PDF fits"
+DESCRIPTION="API for LUXqed methodology in global PDF fits [top-max 0.1.4]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

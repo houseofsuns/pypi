@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/reahl-component[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pip-21.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/aiosmtpd[${PYTHON_USEDEP}]
+	>=dev-python/aiosmtpd-1.4.4_p2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

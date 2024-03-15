@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python 3 implementation of iRacing SDK [top-max 1.3.4]"
+DESCRIPTION="Python 3 implementation of iRacing SDK [top-max 1.3.5]"
 
 HOMEPAGE="https://github.com/kutu/pyirsdk"
 LICENSE="MIT"

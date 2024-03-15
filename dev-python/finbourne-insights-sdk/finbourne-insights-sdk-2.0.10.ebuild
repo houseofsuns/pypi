@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FINBOURNE Insights API"
+DESCRIPTION="FINBOURNE Insights API [top-max 2.0.11]"
 
 HOMEPAGE="https://github.com/finbourne/insights-sdk-python"
 LICENSE="MIT"

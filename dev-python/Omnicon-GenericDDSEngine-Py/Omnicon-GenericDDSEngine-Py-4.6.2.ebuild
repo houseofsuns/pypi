@@ -16,8 +16,8 @@ DESCRIPTION="Omnicon Generic DDS Engine Python API [wheel]"
 
 HOMEPAGE="https://www.OmniconSystems.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp37/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-1-cp37-cp37m-win_amd64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-1-cp37-cp37m-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp37/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-1-cp37-cp37m-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-1-cp37-cp37m-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PIH Mobile helper service package"
+DESCRIPTION="PIH Mobile helper service package [new-max 2024-03-13 23:11:58.986939+00:00]"
 
 HOMEPAGE="https://pacifichosp.com/"
 LICENSE="MIT"

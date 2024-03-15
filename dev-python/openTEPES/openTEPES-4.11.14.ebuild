@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open Generation, Storage, and Transmission Operation and Expansion Planning Model with RES and ESS (openTEPES) [top-max 4.15.7]"
+DESCRIPTION="Open Generation, Storage, and Transmission Operation and Expansion Planning Model with RES and ESS (openTEPES) [top-max 4.15.8]"
 
 HOMEPAGE="https://pascua.iit.comillas.edu/aramos/openTEPES/index.html"
 LICENSE=""

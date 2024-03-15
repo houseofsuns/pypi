@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WPILib command framework [top-max 2024.3.1.0]"
+DESCRIPTION="WPILib command framework [top-max 2024.3.2.0]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-halsim-gui"
 LICENSE="BSD"

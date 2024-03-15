@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="H2O, Fast Scalable Machine Learning, for python"
+DESCRIPTION="H2O, Fast Scalable Machine Learning, for python [top-max 3.46.0.1]"
 
 HOMEPAGE="https://github.com/h2oai/h2o-3.git"
 LICENSE="Apache v2"

@@ -97,7 +97,7 @@ DEPENDENCIES="~dev-python/ipython-8.13.2[${PYTHON_USEDEP}]
 	dev-python/WTForms-SQLAlchemy[${PYTHON_USEDEP}]
 	~dev-python/xlsxwriter-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.15.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/aiosmtpd[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/aiosmtpd-1.4.4_p2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/anyio-3.6.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}] )

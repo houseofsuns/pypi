@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Navigator Web Framework based on aiohttp, with batteries included. [top-max 2.8.31]"
+DESCRIPTION="Navigator Web Framework based on aiohttp, with batteries included. [top-max 2.8.34]"
 
 HOMEPAGE="https://github.com/phenobarbital/navigator"
 LICENSE="BSD"

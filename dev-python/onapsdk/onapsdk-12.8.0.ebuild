@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK to use ONAP Programatically [top-max 13.0.4]"
+DESCRIPTION="SDK to use ONAP Programatically [top-max 13.0.5]"
 
 HOMEPAGE="https://gitlab.com/Orange-OpenSource/lfn/onap/python-onapsdk"
 LICENSE="Apache-2.0"

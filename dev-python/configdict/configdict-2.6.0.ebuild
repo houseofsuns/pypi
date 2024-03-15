@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A supercharged dict used as configuration [top-max 2.10.0]"
+DESCRIPTION="A supercharged dict used as configuration [top-max 2.10.2]"
 
 HOMEPAGE="https://github.com/gesellkammer/configdict"
 LICENSE="BSD"

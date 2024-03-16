@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python script that convert any electronic components from LCSC or EasyEDA to a Kicad library"
+DESCRIPTION="A Python script that convert any electronic components from LCSC or EasyEDA to a Kicad library [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/napowderly/easyeda2kicad.py"
 LICENSE="AGPL-3"

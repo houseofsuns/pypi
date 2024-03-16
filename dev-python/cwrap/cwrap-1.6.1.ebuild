@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cwrap - ctypes blanket [top-max 1.6.5]"
+DESCRIPTION="cwrap - ctypes blanket [top-max 1.6.6]"
 
 HOMEPAGE="https://github.com/Statoil/cwrap"
 LICENSE="GPL-3"

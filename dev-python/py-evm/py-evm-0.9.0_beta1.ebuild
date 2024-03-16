@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python implementation of the Ethereum Virtual Machine"
+DESCRIPTION="Python implementation of the Ethereum Virtual Machine [top-max 0.10.0_beta2]"
 
 HOMEPAGE="https://github.com/ethereum/py-evm"
 LICENSE="MIT"

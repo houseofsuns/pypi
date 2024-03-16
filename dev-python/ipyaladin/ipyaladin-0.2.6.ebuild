@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="interactive viewer for astronomical surveys"
+DESCRIPTION="interactive viewer for astronomical surveys [top-max 0.3.0]"
 
 HOMEPAGE="https://github.com/cds-astro/ipyaladin"
 LICENSE="BSD 3-Clause License"

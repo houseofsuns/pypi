@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/envx[${PYTHON_USEDEP}]
 	dev-python/showlog[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.61.2[${PYTHON_USEDEP}]
-	~dev-python/DBUtils-3.0.3[${PYTHON_USEDEP}]"
+	dev-python/DBUtils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

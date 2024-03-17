@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/better-exceptions[${PYTHON_USEDEP}]
-	~dev-python/DBUtils-1.3[${PYTHON_USEDEP}]
+	dev-python/DBUtils[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
 	dev-python/PyExecJS[${PYTHON_USEDEP}]
 	~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]

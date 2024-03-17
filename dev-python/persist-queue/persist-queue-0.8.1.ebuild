@@ -27,6 +27,6 @@ IUSE="extra"
 DEPENDENCIES="extra? ( >=dev-python/msgpack-0.5.6[${PYTHON_USEDEP}] )
 	extra? ( >=dev-python/cbor2-5.2.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	extra? ( <dev-python/DBUtils-3.0.0[${PYTHON_USEDEP}] )"
+	extra? ( dev-python/DBUtils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/python-snap7[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	dev-python/websocket[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.6.4[${PYTHON_USEDEP}]
-	~dev-python/DBUtils-3.0.3[${PYTHON_USEDEP}]
+	dev-python/DBUtils[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

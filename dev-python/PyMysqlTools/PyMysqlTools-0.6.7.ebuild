@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/setuptools-58.3.0[${PYTHON_USEDEP}]
 	~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
-	~dev-python/DBUtils-3.0.2[${PYTHON_USEDEP}]"
+	dev-python/DBUtils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

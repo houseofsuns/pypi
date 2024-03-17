@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API client for TheHive. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f5c0baf6730>)]"
+DESCRIPTION="Python API client for TheHive. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f42b0120eb0>)]"
 
 HOMEPAGE="https://github.com/CERT-BDF/Thehive4py"
 LICENSE="AGPL-V3"

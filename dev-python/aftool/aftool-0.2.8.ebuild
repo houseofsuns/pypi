@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymysql-0.11.0[${PYTHON_USEDEP}]
-	<dev-python/DBUtils-2.0[${PYTHON_USEDEP}]
+	dev-python/DBUtils[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

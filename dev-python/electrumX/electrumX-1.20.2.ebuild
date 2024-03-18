@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rocksdb uvloop"
-DEPENDENCIES="<dev-python/aiorpcX-0.23[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aiorpcX[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/plyvel[${PYTHON_USEDEP}]
 	dev-python/pylru[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Axonius API client for Python [top-max 5.0.15]"
+DESCRIPTION="Axonius API client for Python [top-max 5.0.16]"
 
 HOMEPAGE="https://github.com/Axonius/axonius_api_client"
 LICENSE="MIT"

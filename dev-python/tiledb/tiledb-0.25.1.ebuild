@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pythonic interface to the TileDB array storage manager"
+DESCRIPTION="Pythonic interface to the TileDB array storage manager [new-max 2024-03-18 12:03:40.809443+00:00]"
 
 HOMEPAGE="https://github.com/TileDB-Inc/TileDB-Py"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Land Deformation Monitoring Using Optical Satellite Imagery [top-max 2.3.126]"
+DESCRIPTION="Land Deformation Monitoring Using Optical Satellite Imagery [top-max 2.3.127]"
 
 HOMEPAGE="https://github.com/mahmudsfu/AkhDefo"
 LICENSE="Academic Free License AFL"

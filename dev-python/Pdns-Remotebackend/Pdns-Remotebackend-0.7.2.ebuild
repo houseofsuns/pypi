@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Support package for PowerDNS remotebackend"
+DESCRIPTION="Support package for PowerDNS remotebackend [top-max 0.8.1]"
 
 HOMEPAGE="https://github.com/cmouse/pdns-remotebackend-python"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Applitools Python SDK. Selenium package [top-max 5.24.2]"
+DESCRIPTION="Applitools Python SDK. Selenium package [top-max 5.25.2]"
 
 HOMEPAGE="http://www.applitools.com"
 LICENSE="Applitools SDK License"

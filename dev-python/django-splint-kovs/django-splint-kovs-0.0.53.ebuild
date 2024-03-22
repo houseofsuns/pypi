@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple package with utilities for projects with Django Framework"
+DESCRIPTION="Simple package with utilities for projects with Django Framework [top-max 0.0.54]"
 
 HOMEPAGE="https://github.com/medway-dev/django-splint-kovs"
 LICENSE=""

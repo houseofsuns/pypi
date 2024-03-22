@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a \`formatter_class\` for \`argparse\` that deals with ANSI colour escapes. Specifically, this formatter does not count escape characters as displayed characters when wrapping \`argparse\`'s help text into the terminal. [top-max 2.0.0]"
+DESCRIPTION="a \`formatter_class\` for \`argparse\` that deals with ANSI colour escapes. Specifically, this formatter does not count escape characters as displayed characters when wrapping \`argparse\`'s help text into the terminal. [top-max 2.0.0_p1]"
 
 HOMEPAGE="https://github.com/arrai-innovations/argparse-color-formatter/"
 LICENSE="LICENSE"

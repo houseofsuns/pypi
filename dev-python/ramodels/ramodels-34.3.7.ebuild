@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pydantic data models for OS2mo"
+DESCRIPTION="Pydantic data models for OS2mo [top-max 34.4.0]"
 
 HOMEPAGE="https://magenta.dk/"
 LICENSE="MPL-2.0"

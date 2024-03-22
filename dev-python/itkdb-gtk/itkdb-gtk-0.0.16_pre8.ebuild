@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of Gtk based GUI to access ITkDB."
+DESCRIPTION="A collection of Gtk based GUI to access ITkDB. [top-max 0.0.16]"
 
 HOMEPAGE="https://gitlab.cern.ch/atlas-itk/sw/db/itk-pdb-gtk-gui-utils"
 LICENSE=""

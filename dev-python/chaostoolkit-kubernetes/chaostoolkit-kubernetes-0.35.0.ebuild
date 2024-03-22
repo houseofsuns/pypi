@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chaos Toolkit Extension for Kubernetes"
+DESCRIPTION="Chaos Toolkit Extension for Kubernetes [top-max 0.37.0]"
 
 HOMEPAGE="http://chaostoolkit.org"
 LICENSE="Apache License Version 2.0"

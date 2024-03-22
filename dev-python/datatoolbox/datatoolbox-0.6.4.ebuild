@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Python Data Toolbox"
+DESCRIPTION="The Python Data Toolbox [top-max 0.6.5]"
 
 HOMEPAGE="https://gitlab.com/climateanalytics/datatoolbox"
 LICENSE=""

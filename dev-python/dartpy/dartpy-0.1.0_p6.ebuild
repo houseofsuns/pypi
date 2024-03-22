@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API of Dynamic Animation and Robotics Toolkit. [top-max 0.1.0_p107]"
+DESCRIPTION="Python API of Dynamic Animation and Robotics Toolkit. [top-max 0.2.0_p109]"
 
 HOMEPAGE="https://github.com/dartsim/dart.git"
 LICENSE="BSD 2-Clause"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client gui for Onvif"
+DESCRIPTION="A client gui for Onvif [top-max 2.0.1]"
 
 HOMEPAGE="https://github.com/sr99622/libonvif"
 LICENSE=""

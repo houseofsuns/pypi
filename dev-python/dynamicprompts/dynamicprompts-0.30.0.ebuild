@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dynamic prompts templating library for Stable Diffusion [top-max 0.30.4]"
+DESCRIPTION="Dynamic prompts templating library for Stable Diffusion [top-max 0.31.0]"
 
 HOMEPAGE="https://github.com/adieyal/dynamicprompts"
 LICENSE="MIT"

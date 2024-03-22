@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 0.6.17]"
+DESCRIPTION=" [top-max 0.6.18]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/kwarray"
 LICENSE="Apache-2.0"

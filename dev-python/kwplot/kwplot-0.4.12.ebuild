@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper around matplotlib [top-max 0.4.15]"
+DESCRIPTION="A wrapper around matplotlib [top-max 0.4.16]"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/kwplot"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A utility for dump btc address from mnemonic words or private key or public key"
+DESCRIPTION="A utility for dump btc address from mnemonic words or private key or public key [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/10gic/btc-address-dump"
 LICENSE="MIT"

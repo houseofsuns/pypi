@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="National Renewable Energy Laboratory's System Advisor Model Python Wrapper [top-max 5.0.0]"
+DESCRIPTION="National Renewable Energy Laboratory's System Advisor Model Python Wrapper [top-max 5.1.0]"
 
 HOMEPAGE="https://nrel-pysam.readthedocs.io"
 LICENSE="BSD 3-Clause"

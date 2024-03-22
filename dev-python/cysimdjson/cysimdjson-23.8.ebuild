@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High-speed JSON parser"
+DESCRIPTION="High-speed JSON parser [top-max 24.12]"
 
 HOMEPAGE="https://github.com/TeskaLabs/cysimdjson"
 LICENSE=""

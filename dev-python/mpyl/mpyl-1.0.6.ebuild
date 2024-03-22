@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modular Pipeline Library [new-max 2024-03-21 12:56:39.328134+00:00]"
+DESCRIPTION="Modular Pipeline Library [new-max 2024-03-22 15:35:37.861997+00:00]"
 
 HOMEPAGE="https://vandebron.github.io/mpyl"
 LICENSE=""

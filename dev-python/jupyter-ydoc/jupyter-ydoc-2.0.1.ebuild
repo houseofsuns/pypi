@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/pycrdt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pycrdt-0.9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-releaser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pycrdt[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycrdt-websocket[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pycrdt-websocket-0.13.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )"

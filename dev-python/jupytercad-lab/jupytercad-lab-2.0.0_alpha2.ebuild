@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/comm-0.2.0[${PYTHON_USEDEP}]
-	dev-python/jupyter-collaboration[${PYTHON_USEDEP}]
+	<dev-python/jupyter-collaboration-3.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
-	dev-python/jupyter-ydoc[${PYTHON_USEDEP}]
+	<dev-python/jupyter-ydoc-3.0[${PYTHON_USEDEP}]
 	dev-python/jupytercad-core[${PYTHON_USEDEP}]
 	<dev-python/jupyterlab-5.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]

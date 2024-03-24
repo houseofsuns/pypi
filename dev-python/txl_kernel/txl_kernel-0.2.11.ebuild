@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asphalt[${PYTHON_USEDEP}]
-	dev-python/pycrdt[${PYTHON_USEDEP}]
+	<dev-python/pycrdt-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/txl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

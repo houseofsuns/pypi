@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter-collaboration[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jupyter-collaboration-3.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
-	dev-python/jupyter-ydoc[${PYTHON_USEDEP}]"
+	<dev-python/jupyter-ydoc-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

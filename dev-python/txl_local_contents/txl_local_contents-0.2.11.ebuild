@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
-	dev-python/jupyter-ydoc[${PYTHON_USEDEP}]
+	<dev-python/jupyter-ydoc-3.0.0[${PYTHON_USEDEP}]
 	dev-python/txl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

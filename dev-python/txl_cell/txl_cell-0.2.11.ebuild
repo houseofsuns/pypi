@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pycrdt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pycrdt-0.9.0[${PYTHON_USEDEP}]
 	dev-python/txl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

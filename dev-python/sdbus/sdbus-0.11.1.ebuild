@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modern Python D-Bus library. Based on sd-bus from libsystemd. [top-max 0.12_rc1]"
+DESCRIPTION="Modern Python D-Bus library. Based on sd-bus from libsystemd. [top-max 0.12.0]"
 
 HOMEPAGE="https://github.com/igo95862/python-sdbus"
 LICENSE="LGPL-2.1+"

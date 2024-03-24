@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Universal Converter for Singing Voice Projects"
+DESCRIPTION="Universal Converter for Singing Voice Projects [top-max 1.0.7]"
 
 HOMEPAGE=""
 LICENSE="MIT"

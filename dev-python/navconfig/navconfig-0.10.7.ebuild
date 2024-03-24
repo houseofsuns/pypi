@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Configuration tool for all Navigator Services Tool for accessing Config info from different sources. [top-max 1.6.2]"
+DESCRIPTION="Configuration tool for all Navigator Services Tool for accessing Config info from different sources. [top-max 1.6.3]"
 
 HOMEPAGE="https://github.com/phenobarbital/NavConfig"
 LICENSE="MIT"

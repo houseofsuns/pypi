@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provisioner/Manager for Libvirt/Ovirt/Gcp/Aws/Openstack/Kubevirt and containers [top-max 99.0.202403220925]"
+DESCRIPTION="Provisioner/Manager for Libvirt/Ovirt/Gcp/Aws/Openstack/Kubevirt and containers [top-max 99.0.202403231142]"
 
 HOMEPAGE="http://github.com/karmab/kcli"
 LICENSE="ASL"

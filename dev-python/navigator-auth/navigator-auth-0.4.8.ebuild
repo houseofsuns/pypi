@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Navigator Auth is an Authentication/Authorization Toolkit for aiohttp. [top-max 0.12.1]"
+DESCRIPTION="Navigator Auth is an Authentication/Authorization Toolkit for aiohttp. [top-max 0.12.2]"
 
 HOMEPAGE="https://github.com/phenobarbital/navigator-auth"
 LICENSE="Apache 2.0 license"

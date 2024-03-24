@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple, Markdown-based blogging engine"
+DESCRIPTION="Simple, Markdown-based blogging engine [top-max 1.0.2]"
 
 HOMEPAGE="http://github.com/vladris/baku/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parallel random access to gzip files"
+DESCRIPTION="Parallel random access to gzip files [top-max 0.13.1]"
 
 HOMEPAGE="https://github.com/mxmlnkn/rapidgzip"
 LICENSE="MIT"

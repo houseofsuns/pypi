@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Awesome OCR toolkits based on PaddlePaddle （8.6M ultra-lightweight pre-trained model, support training and deployment among server, mobile, embeded and IoT devices [top-max 2.7.0.3]"
+DESCRIPTION="Awesome OCR toolkits based on PaddlePaddle （8.6M ultra-lightweight pre-trained model, support training and deployment among server, mobile, embeded and IoT devices [top-max 2.7.2]"
 
 HOMEPAGE="https://github.com/PaddlePaddle/PaddleOCR"
 LICENSE="Apache-2.0"

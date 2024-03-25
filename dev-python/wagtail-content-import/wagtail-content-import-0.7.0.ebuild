@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A module for Wagtail that provides functionality for importing page content from third-party sources. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa5daed1690>)]"
+DESCRIPTION="A module for Wagtail that provides functionality for importing page content from third-party sources. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f141267d620>)]"
 
 HOMEPAGE="https://github.com/torchbox/wagtail-content-import"
 LICENSE="BSD"

@@ -16,8 +16,8 @@ DESCRIPTION="General purpose library [wheel]"
 
 HOMEPAGE="https://github.com/FI-Mihej/Cengal"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_13_0_universal2.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_13_0_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_13_0_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_13_0_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

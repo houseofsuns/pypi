@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for Dask and CUDA interactions [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa601289c40>)]"
+DESCRIPTION="Utilities for Dask and CUDA interactions [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1438b66030>)]"
 
 HOMEPAGE="https://github.com/rapidsai/dask-cuda"
 LICENSE="Apache-2.0"

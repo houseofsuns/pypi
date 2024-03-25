@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A functional reactive engine"
+DESCRIPTION="A functional reactive engine [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/hhenson/hgraph"
 LICENSE="MIT"

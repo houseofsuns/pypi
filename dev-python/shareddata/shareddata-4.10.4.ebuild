@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shared Memory Database with S3 repository [top-max 4.35.0]"
+DESCRIPTION="Shared Memory Database with S3 repository [top-max 4.37.0]"
 
 HOMEPAGE=""
 LICENSE=""

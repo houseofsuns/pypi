@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Browse folders of images and open them using double-click"
+DESCRIPTION="Browse folders of images and open them using double-click [top-max 0.1.4]"
 
 HOMEPAGE="https://github.com/haesleinhuepf/napari-folder-browser"
 LICENSE="BSD"

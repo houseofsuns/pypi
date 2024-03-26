@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 9.0.2]"
+DESCRIPTION=" [top-max 9.1.0]"
 
 HOMEPAGE="https://github.com/beyondtheclouds/enoslib"
 LICENSE="GPL-3"

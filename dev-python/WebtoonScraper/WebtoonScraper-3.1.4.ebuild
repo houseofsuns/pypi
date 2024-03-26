@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scraping webtoons with ease."
+DESCRIPTION="Scraping webtoons with ease. [top-max 3.2.1]"
 
 HOMEPAGE="https://ilotoki0804.gitbook.io/webtoonscraper/"
 LICENSE="Apache-2.0"

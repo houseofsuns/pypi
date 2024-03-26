@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Graph Language Models [top-max 0.16.2]"
+DESCRIPTION="Graph Language Models [top-max 0.17.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

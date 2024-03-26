@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A common useful python library"
+DESCRIPTION="A common useful python library [top-max 3.2.33]"
 
 HOMEPAGE="https://github.com/baidu/CUP"
 LICENSE="Apache License V2"

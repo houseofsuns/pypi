@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="tea encrypt and decrypt"
+DESCRIPTION="tea encrypt and decrypt [top-max 0.1.7]"
 
 HOMEPAGE="https://github.com/synodriver/ftea"
 LICENSE="BSD"

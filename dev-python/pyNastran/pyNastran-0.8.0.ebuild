@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nastran BDF/F06/OP2/OP4 File reader/editor/writer/viewer [top-max 1.4.0]"
+DESCRIPTION="Nastran BDF/F06/OP2/OP4 File reader/editor/writer/viewer [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/SteveDoyle2/pyNastran"
 LICENSE="LGPL-3"

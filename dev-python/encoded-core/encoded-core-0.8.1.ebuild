@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core data models for Park Lab ENCODE based projects [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc67175fdf0>)]"
+DESCRIPTION="Core data models for Park Lab ENCODE based projects [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fcd9457e880>)]"
 
 HOMEPAGE="https://github.com/smaht-dac/encoded-core"
 LICENSE="MIT"

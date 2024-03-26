@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Purchaseable SMILES filter"
+DESCRIPTION="Purchaseable SMILES filter [top-max 2.2.1]"
 
 HOMEPAGE="https://whitead.github.io/molbloom/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="asyncio drivers for FoundationDB [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f541ea651c0>)]"
+DESCRIPTION="asyncio drivers for FoundationDB [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe57721e730>)]"
 
 HOMEPAGE=""
 LICENSE="Apachev2"

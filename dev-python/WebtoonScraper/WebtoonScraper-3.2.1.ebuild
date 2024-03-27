@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scraping webtoons with ease. [wheel]"
+DESCRIPTION="Scraping webtoons with ease."
 
 HOMEPAGE="https://ilotoki0804.gitbook.io/webtoonscraper/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/2b/94/7760e2ba0bb8d85e117bb3db4f2b3fa6a7c7082bb2ade1ff7f8e1cc25d98/webtoonscraper-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="webtoonscraper-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/b4/89/a86cbbfc1908c113157d36d09bb5c09c14c57919433e09e8d7bb675dd880/webtoonscraper-${REALVERSION}.tar.gz"
+SOURCEFILE="webtoonscraper-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -30,7 +30,6 @@ DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/pyfilename[${PYTHON_USEDEP}]
 	dev-python/hxsoup[${PYTHON_USEDEP}]
-	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	dev-python/pycryptodomex[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

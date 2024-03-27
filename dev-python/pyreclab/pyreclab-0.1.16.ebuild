@@ -16,8 +16,8 @@ DESCRIPTION="Library for quickly testing and prototyping of traditional recommen
 
 HOMEPAGE="https://github.com/gasevi/pyreclab"
 LICENSE="GPL 3.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp37/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp37-cp37m-macosx_10_15_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp37-cp37m-macosx_10_15_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-cp310-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-cp310-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

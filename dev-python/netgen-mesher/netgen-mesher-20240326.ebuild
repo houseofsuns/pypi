@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="6.2.2402.post24.dev0"
+REALVERSION="6.2.2402.post26.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Netgen [badver 6.2.2402.post24.dev0, wheel]"
+DESCRIPTION="Netgen [badver 6.2.2402.post26.dev0, wheel]"
 
 HOMEPAGE=""
 LICENSE="LGPL2.1"

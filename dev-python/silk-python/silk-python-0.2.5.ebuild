@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="silk encode and decode"
+DESCRIPTION="silk encode and decode [top-max 0.2.6]"
 
 HOMEPAGE="https://github.com/synodriver/pysilk"
 LICENSE="BSD"

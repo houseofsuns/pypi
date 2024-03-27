@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for code providers using Cosmian Secure Computation [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f5418e8f450>)]"
+DESCRIPTION="Python library for code providers using Cosmian Secure Computation [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe5716b4d60>)]"
 
 HOMEPAGE="https://cosmian.com"
 LICENSE="MIT"

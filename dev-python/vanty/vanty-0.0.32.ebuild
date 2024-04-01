@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
 	<dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}]
-	dev-python/respx[${PYTHON_USEDEP}]
+	<dev-python/respx-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/responses-0.24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -58,7 +58,7 @@ DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	docs-build? ( dev-python/docspec-python[${PYTHON_USEDEP}] )
 	docs-build? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	~dev-python/pendulum-1.2.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/c8connector[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pylint-2.12[${PYTHON_USEDEP}] )

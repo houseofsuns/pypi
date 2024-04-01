@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc test"
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/JSON-log-formatter[${PYTHON_USEDEP}]
-	<dev-python/pendulum-4.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/build-harness[${PYTHON_USEDEP}] )

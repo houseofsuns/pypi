@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

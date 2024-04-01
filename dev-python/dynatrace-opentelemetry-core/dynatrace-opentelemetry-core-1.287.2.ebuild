@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/opentelemetry-api-1.3[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.3[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

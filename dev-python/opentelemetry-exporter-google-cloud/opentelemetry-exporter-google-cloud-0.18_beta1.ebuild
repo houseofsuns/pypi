@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/google-cloud-monitoring[${PYTHON_USEDEP}]
 	dev-python/google-cloud-trace[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]"
+	~dev-python/opentelemetry-api-0.17_beta0[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-0.17_beta0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmarks docs json lint schema tests"
 DEPENDENCIES="<dev-python/inflection-0.6[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	schema? ( <dev-python/fastjsonschema-3.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/fastjsonschema-3.0[${PYTHON_USEDEP}] )
 	json? ( >=dev-python/ujson-2.0[${PYTHON_USEDEP}] )

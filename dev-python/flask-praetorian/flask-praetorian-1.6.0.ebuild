@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-4.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/passlib-2.0[${PYTHON_USEDEP}]
 	dev-python/flask-buzz[${PYTHON_USEDEP}]
 	<dev-python/flask-4.0[${PYTHON_USEDEP}]

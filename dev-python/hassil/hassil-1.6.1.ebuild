@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Home Assistant Intent Language parser"
+DESCRIPTION="The Home Assistant Intent Language parser [top-max 1.7.0]"
 
 HOMEPAGE="http://github.com/home-assistant/hassil"
 LICENSE="Apache-2.0"

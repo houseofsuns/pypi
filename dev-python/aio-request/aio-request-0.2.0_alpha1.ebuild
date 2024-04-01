@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/multidict-7.0[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]"
+	>=dev-python/opentelemetry-api-1.19[${PYTHON_USEDEP}]
+	>=dev-python/opentelemetry-semantic-conventions-0.40_beta0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/httpx-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

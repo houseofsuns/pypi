@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/nose-1.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	<dev-python/selenium-4.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

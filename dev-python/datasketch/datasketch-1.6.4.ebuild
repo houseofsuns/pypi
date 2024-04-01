@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.11[${PYTHON_USEDEP}]
 	test? ( dev-python/mockredispy[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pymongo-3.9.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose-exclude[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/cattrs-24.0.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-4.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	docs? ( <dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autoapi-4.0.0[${PYTHON_USEDEP}] )"

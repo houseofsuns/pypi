@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES=">=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
-	all? ( <dev-python/pendulum-4.0.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	all? ( <dev-python/phonenumbers-9.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pycountry-23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-ulid[${PYTHON_USEDEP}] )"

@@ -27,8 +27,8 @@ IUSE="tracing"
 DEPENDENCIES=">=dev-python/sqlalchemy-1.1.13[${PYTHON_USEDEP}]
 	dev-python/google-cloud-spanner[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
-	tracing? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
-	tracing? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	tracing? ( >=dev-python/opentelemetry-api-1.1.0[${PYTHON_USEDEP}] )
+	tracing? ( >=dev-python/opentelemetry-sdk-1.1.0[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

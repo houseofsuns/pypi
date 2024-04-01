@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gcp openstack tests"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
-	>=dev-python/boto-2.41.0[${PYTHON_USEDEP}]
+	dev-python/boto[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.9.4[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
 	dev-python/flagpole[${PYTHON_USEDEP}]

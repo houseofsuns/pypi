@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/django-bootstrap-v5[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-subtests-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/debugpy-1.6.7[${PYTHON_USEDEP}] )
+	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )"

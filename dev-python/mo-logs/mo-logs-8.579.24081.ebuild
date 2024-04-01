@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/mo-dots[${PYTHON_USEDEP}]
 	tests? ( dev-python/mo-testing[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mo-kwargs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jx-python[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/boto-2.49.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/boto[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/graypy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

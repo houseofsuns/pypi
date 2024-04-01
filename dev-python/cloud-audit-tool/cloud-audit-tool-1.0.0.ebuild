@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.26.85[${PYTHON_USEDEP}]
-	~dev-python/nose-1.3.7[${PYTHON_USEDEP}]
+	dev-python/nose[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/moto-4.1.4[${PYTHON_USEDEP}]
 	~dev-python/docker-6.0.1[${PYTHON_USEDEP}]

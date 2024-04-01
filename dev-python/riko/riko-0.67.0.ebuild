@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/Babel-3.0.0[${PYTHON_USEDEP}]
 	develop? ( <dev-python/coverage-6.0.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
-	develop? ( <dev-python/nose-2.0.0[${PYTHON_USEDEP}] )
+	develop? ( dev-python/nose[${PYTHON_USEDEP}] )
 	develop? ( dev-python/manage-py[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pkutils[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )

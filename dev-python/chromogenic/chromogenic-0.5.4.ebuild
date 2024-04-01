@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/threepio[${PYTHON_USEDEP}]
 	dev-python/rtwo[${PYTHON_USEDEP}]
-	~dev-python/boto-2.39.0[${PYTHON_USEDEP}]"
+	dev-python/boto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

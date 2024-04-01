@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Office365-REST-Python-Client[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/facebook-business[${PYTHON_USEDEP}]"

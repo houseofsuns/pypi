@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/flopy[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	>=dev-python/nose-1.3[${PYTHON_USEDEP}]
+	dev-python/nose[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.9[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-2.6[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]

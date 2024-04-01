@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	test? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	test? ( dev-python/kedro-datasets[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pendulum-3.0.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pip-1.4.1[${PYTHON_USEDEP}]
-	>=dev-python/nose-1.3.0[${PYTHON_USEDEP}]
+	dev-python/nose[${PYTHON_USEDEP}]
 	>=dev-python/mock-1.0.1[${PYTHON_USEDEP}]
 	dev-python/flake8[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]"

@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/fabric_fim[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pluggy-0.3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/py-1.4.31[${PYTHON_USEDEP}] )
 	test? ( dev-python/randomize[${PYTHON_USEDEP}] )"

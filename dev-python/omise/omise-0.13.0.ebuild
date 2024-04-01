@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES=">=dev-python/requests-2.12.1[${PYTHON_USEDEP}]
-	tests? ( >=dev-python/nose-1.3.4[${PYTHON_USEDEP}] )
+	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mock-1.0.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

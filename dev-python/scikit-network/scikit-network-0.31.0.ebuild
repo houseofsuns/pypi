@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Graph algorithms"
+DESCRIPTION="Graph algorithms [top-max 0.32.0]"
 
 HOMEPAGE="https://github.com/sknetwork-team/scikit-network"
 LICENSE="BSD license"

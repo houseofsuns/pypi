@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/prometheus-client-1.0.0[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]"
+	>=dev-python/opentelemetry-api-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/opentelemetry-sdk-1.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

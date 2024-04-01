@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the Nanopub rust toolkit [top-max 0.1.2]"
+DESCRIPTION="Python bindings for the Nanopub rust toolkit [top-max 0.1.3]"
 
 HOMEPAGE="https://vemonet.github.io/nanopub-rs"
 LICENSE=""

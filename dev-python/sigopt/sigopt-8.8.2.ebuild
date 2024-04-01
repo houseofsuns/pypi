@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
 	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )

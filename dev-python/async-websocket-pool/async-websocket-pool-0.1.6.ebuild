@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="async-websocket-pool is a Python library that enables efficient creation and management of a pool of asynchronous WebSocket clients."
+DESCRIPTION="async-websocket-pool is a Python library that enables efficient creation and management of a pool of asynchronous WebSocket clients. [top-max 0.1.7]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	dev-python/mysql-replication[${PYTHON_USEDEP}]
 	~dev-python/pymysql-1.1[${PYTHON_USEDEP}]
 	dev-python/plpygis[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
-	test? ( ~dev-python/nose-1.3[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.13.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

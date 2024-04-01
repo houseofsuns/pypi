@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws fastapi logging orjson"
-DEPENDENCIES="<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]

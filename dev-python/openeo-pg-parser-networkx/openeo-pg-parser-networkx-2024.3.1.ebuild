@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/shapely-1.8[${PYTHON_USEDEP}]
 	dev-python/geojson-pydantic[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	plot? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	<=dev-python/traitlets-5.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

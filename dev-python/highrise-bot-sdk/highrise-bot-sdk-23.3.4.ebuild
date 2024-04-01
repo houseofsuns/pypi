@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/cattrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/quattro[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

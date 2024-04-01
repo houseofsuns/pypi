@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	<=dev-python/uvicorn-0.23.1[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+	>=dev-python/opentelemetry-api-1.12.0[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}]
 	dev-python/jina-hubble-sdk[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	dev-python/pathspec[${PYTHON_USEDEP}]
 	<=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}]
@@ -70,7 +70,7 @@ DEPENDENCIES=">=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	all? ( <=dev-python/uvicorn-0.23.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/portforward[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	all? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/opentelemetry-api-1.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/docker[${PYTHON_USEDEP}] )
 	all? ( dev-python/websockets[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
@@ -105,7 +105,7 @@ DEPENDENCIES=">=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	all? ( dev-python/prometheus-api-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/jina-hubble-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	all? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	all? ( <dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
@@ -137,7 +137,7 @@ DEPENDENCIES=">=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	core? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
 	core? ( <=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}] )
 	core? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
-	core? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/opentelemetry-api-1.12.0[${PYTHON_USEDEP}] )
 	core? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	core? ( dev-python/docarray[${PYTHON_USEDEP}] )
 	core? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
@@ -160,7 +160,7 @@ DEPENDENCIES=">=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	devel? ( >=dev-python/watchfiles-0.18.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}] )
 	devel? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	devel? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	devel? ( <dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pathspec[${PYTHON_USEDEP}] )
 	devel? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )
 	devel? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -179,20 +179,20 @@ DEPENDENCIES=">=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	mock? ( dev-python/mock[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	opentelemetry-api? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
+	opentelemetry-api? ( >=dev-python/opentelemetry-api-1.12.0[${PYTHON_USEDEP}] )
 	opentelemetry-exporter-otlp? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
 	opentelemetry-exporter-otlp-proto-grpc? ( dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}] )
 	opentelemetry-exporter-prometheus? ( dev-python/opentelemetry-exporter-prometheus[${PYTHON_USEDEP}] )
 	opentelemetry-instrumentation-aiohttp-client? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )
 	opentelemetry-instrumentation-fastapi? ( dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}] )
 	opentelemetry-instrumentation-grpc? ( dev-python/opentelemetry-instrumentation-grpc[${PYTHON_USEDEP}] )
-	opentelemetry-sdk? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	opentelemetry-sdk? ( <dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}] )
 	opentelemetry-test-utils? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )
 	packaging? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	pathspec? ( dev-python/pathspec[${PYTHON_USEDEP}] )
 	perf? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
 	perf? ( >=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}] )
-	perf? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	perf? ( <dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}] )
 	perf? ( dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}] )
 	perf? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )
 	perf? ( dev-python/uvloop[${PYTHON_USEDEP}] )
@@ -223,7 +223,7 @@ DEPENDENCIES=">=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	standard? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}] )
 	standard? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	standard? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	standard? ( <dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}] )
 	standard? ( dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}] )
 	standard? ( dev-python/pathspec[${PYTHON_USEDEP}] )
 	standard? ( dev-python/fastapi[${PYTHON_USEDEP}] )

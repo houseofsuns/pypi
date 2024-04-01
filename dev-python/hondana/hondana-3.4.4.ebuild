@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="Hondana"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,12 +12,12 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An asynchronous wrapper around the MangaDex v5 API [top-max 3.4.7]"
+DESCRIPTION="An asynchronous wrapper around the MangaDex v5 API [top-max 4.0.0_alpha0]"
 
 HOMEPAGE="https://github.com/AbstractUmbra/hondana"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/a6/13/81b5909497f4f15fb316b1e9451958a1d155ea0e66287fc553a2d0d97eb1/Hondana-${REALVERSION}.tar.gz"
-SOURCEFILE="Hondana-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

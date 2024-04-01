@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/pendulum-4.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-2.32.0[${PYTHON_USEDEP}]
 	dev-python/singer-sdk[${PYTHON_USEDEP}]"

@@ -54,7 +54,7 @@ DEPENDENCIES="<dev-python/argcomplete-3.0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/responses-0.23.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/debugpy-1.6.7[${PYTHON_USEDEP}] )
+	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	dev-python/mpire[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	ocv? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )

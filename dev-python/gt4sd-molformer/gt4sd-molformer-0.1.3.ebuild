@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
-	>=dev-python/debugpy-1.6.6[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

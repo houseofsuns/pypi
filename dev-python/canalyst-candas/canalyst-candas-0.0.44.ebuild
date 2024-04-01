@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/boto-2.49.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/boto[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.27[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.20.27[${PYTHON_USEDEP}]
 	dev-python/fred[${PYTHON_USEDEP}]

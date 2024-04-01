@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/apache-beam[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]
 	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/kafka-python-2.0.1[${PYTHON_USEDEP}]
-	dev? ( <dev-python/nose-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
 	dev? ( dev-python/testing-postgresql[${PYTHON_USEDEP}] )
 	dev? ( dev-python/testing-mysqld[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )

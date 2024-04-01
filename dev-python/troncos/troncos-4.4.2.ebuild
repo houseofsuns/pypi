@@ -27,7 +27,7 @@ IUSE="grpc sentry"
 DEPENDENCIES="dev-python/ddtrace[${PYTHON_USEDEP}]
 	grpc? ( dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}] )
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-sdk-2.0[${PYTHON_USEDEP}]
 	dev-python/pyroscope-io[${PYTHON_USEDEP}]
 	dev-python/python-ipware[${PYTHON_USEDEP}]
 	sentry? ( dev-python/structlog-sentry[${PYTHON_USEDEP}] )"

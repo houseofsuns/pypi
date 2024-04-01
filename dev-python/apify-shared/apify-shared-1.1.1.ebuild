@@ -35,7 +35,7 @@ DEPENDENCIES="dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-only[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-timeout-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/respx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/respx-0.20.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

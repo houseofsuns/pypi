@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/cattrs-24.0.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-4.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

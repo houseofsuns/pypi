@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KLayout standalone Python package"
+DESCRIPTION="KLayout standalone Python package [top-max 0.29.0]"
 
 HOMEPAGE="https://github.com/klayout/klayout"
 LICENSE="GNU GPLv3"

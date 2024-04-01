@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/Babel-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	check? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/debugpy-1.8.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zimscraperlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zimscraperlib[${PYTHON_USEDEP}] )

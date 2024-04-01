@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	telemetry? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
+	telemetry? ( ~dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}] )
+	telemetry? ( ~dev-python/opentelemetry-api-1.20.0[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-distro[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}] )

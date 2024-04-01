@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/chaostoolkit-lib[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/respx[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/respx-0.20.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

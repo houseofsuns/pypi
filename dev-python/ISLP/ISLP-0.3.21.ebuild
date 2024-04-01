@@ -37,6 +37,6 @@ DEPENDENCIES="<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/nose-0.10.1[${PYTHON_USEDEP}] )"
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

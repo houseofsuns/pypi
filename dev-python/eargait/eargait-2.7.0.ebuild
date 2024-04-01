@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
-	~dev-python/debugpy-1.6.4[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	dev-python/tensorflow-io-gcs-filesystem[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

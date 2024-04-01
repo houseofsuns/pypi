@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/reactivex[${PYTHON_USEDEP}]
 	extra? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-5.0.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pluggy-0.3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/py-1.4.31[${PYTHON_USEDEP}] )
 	test? ( dev-python/randomize[${PYTHON_USEDEP}] )

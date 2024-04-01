@@ -66,7 +66,7 @@ DEPENDENCIES="<dev-python/arrow-0.13.0[${PYTHON_USEDEP}]
 	dev-python/URLObject[${PYTHON_USEDEP}]
 	<dev-python/xlsxwriter-1.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/boto-2.32.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/boto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-auth-ldap[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-storages[${PYTHON_USEDEP}] )

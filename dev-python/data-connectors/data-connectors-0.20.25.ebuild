@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pyodbc[${PYTHON_USEDEP}]
 	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-httplib2-0.2.0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-oauthlib-0.6.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/streamlit-aggrid[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

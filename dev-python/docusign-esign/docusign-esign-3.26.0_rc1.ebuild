@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.5[${PYTHON_USEDEP}]
-	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]"
+	dev-python/nose[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

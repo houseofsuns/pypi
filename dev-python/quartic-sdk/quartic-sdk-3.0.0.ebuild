@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	~dev-python/comm-0.2.1[${PYTHON_USEDEP}]
 	~dev-python/cssutils-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/cycler-0.12.1[${PYTHON_USEDEP}]
-	~dev-python/debugpy-1.8.1[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
 	dev-python/dict2css[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
@@ -87,7 +87,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	~dev-python/natsort-8.4.0[${PYTHON_USEDEP}]
 	~dev-python/nest-asyncio-1.5.4[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	~dev-python/nose-1.3.7[${PYTHON_USEDEP}]
+	dev-python/nose[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	~dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
@@ -175,7 +175,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/comm-0.2.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/cssutils-2.6.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/cycler-0.12.1[${PYTHON_USEDEP}] )
-	complete? ( ~dev-python/debugpy-1.8.1[${PYTHON_USEDEP}] )
+	complete? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/decorator-5.1.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dict2css[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
@@ -212,7 +212,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/natsort-8.4.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/nest-asyncio-1.5.4[${PYTHON_USEDEP}] )
 	complete? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	complete? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	complete? ( dev-python/nose[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/numpy-1.22.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/packaging-20.9[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/pandas-1.3.0[${PYTHON_USEDEP}] )

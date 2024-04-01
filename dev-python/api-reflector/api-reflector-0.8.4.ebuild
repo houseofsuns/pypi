@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/wtforms-2.3.3[${PYTHON_USEDEP}]
 	<dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/fasteners-0.19[${PYTHON_USEDEP}]
 	<dev-python/blinker-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

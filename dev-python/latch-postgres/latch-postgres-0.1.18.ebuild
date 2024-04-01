@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/latch-config[${PYTHON_USEDEP}]
 	dev-python/latch-data-validation[${PYTHON_USEDEP}]
 	dev-python/latch-o11y[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]"
+	<dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

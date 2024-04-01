@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all garmin github gpx skyline strava todoist"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/svgwrite[${PYTHON_USEDEP}]
-	~dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/colour[${PYTHON_USEDEP}]
 	all? ( dev-python/twint-fork[${PYTHON_USEDEP}] )
 	all? ( dev-python/garminconnect[${PYTHON_USEDEP}] )

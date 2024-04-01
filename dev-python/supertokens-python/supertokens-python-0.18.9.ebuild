@@ -45,7 +45,7 @@ DEPENDENCIES="<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	django2x? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	django2x? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	django2x? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/respx[${PYTHON_USEDEP}] )
+	fastapi? ( ~dev-python/respx-0.19.2[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	fastapi? ( ~dev-python/uvicorn-0.18.2[${PYTHON_USEDEP}] )
 	fastapi? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )

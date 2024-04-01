@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="audio configuration network test"
 DEPENDENCIES="dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	dev-python/combo-lock[${PYTHON_USEDEP}]
-	~dev-python/pendulum-2.1[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/timezonefinder[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]

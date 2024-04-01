@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Sanic-Cors[${PYTHON_USEDEP}]
 	<dev-python/coloredlogs-16.0[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-api-1.16.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-jaeger[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-sdk-1.16.0[${PYTHON_USEDEP}]
 	<dev-python/pluggy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-3.0.29[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/diskcache-5.6.3[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.7[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
-	>=dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/diskcache-5.6.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/diskcache-5.6.3[${PYTHON_USEDEP}]
 	all? ( >=dev-python/loguru-0.7.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pendulum-3.0.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sqlalchemy-2.0.25[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/arrow-1.3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-2.1.4[${PYTHON_USEDEP}] )
@@ -70,17 +70,17 @@ DEPENDENCIES=">=dev-python/diskcache-5.6.3[${PYTHON_USEDEP}]
 	fastapi? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
 	fastapi? ( >=dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
 	fastapi? ( >=dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}] )
-	fastapi? ( >=dev-python/pendulum-3.0.0[${PYTHON_USEDEP}] )
+	fastapi? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	http? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
 	http? ( >=dev-python/diskcache-5.6.3[${PYTHON_USEDEP}] )
 	http? ( >=dev-python/loguru-0.7.2[${PYTHON_USEDEP}] )
-	http? ( >=dev-python/pendulum-3.0.0[${PYTHON_USEDEP}] )
+	http? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	http? ( >=dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
-	http? ( >=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}] )
+	http? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/diskcache-5.6.3[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/loguru-0.7.2[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
-	standard? ( >=dev-python/pendulum-3.0.0[${PYTHON_USEDEP}] )
+	standard? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/rich-13.7.0[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/sqlalchemy-2.0.25[${PYTHON_USEDEP}] )"

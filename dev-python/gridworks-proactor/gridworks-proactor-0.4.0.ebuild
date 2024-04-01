@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gridworks-protocol[${PYTHON_USEDEP}]
 	<dev-python/multidict-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )

@@ -35,8 +35,8 @@ DEPENDENCIES="~dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.9.0[${PYTHON_USEDEP}]
 	dev-python/nats-python[${PYTHON_USEDEP}]
 	~dev-python/ujson-5.4.0[${PYTHON_USEDEP}]
-	tracing? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
-	tracing? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	tracing? ( ~dev-python/opentelemetry-api-1.19.0[${PYTHON_USEDEP}] )
+	tracing? ( ~dev-python/opentelemetry-sdk-1.19.0[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-exporter-prometheus[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

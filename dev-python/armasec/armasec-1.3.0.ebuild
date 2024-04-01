@@ -30,13 +30,13 @@ DEPENDENCIES="<dev-python/python-jose-4.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	dev-python/snick[${PYTHON_USEDEP}]
 	dev-python/py-buzz[${PYTHON_USEDEP}]
-	dev-python/respx[${PYTHON_USEDEP}]
+	<dev-python/respx-1.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	dev-python/auto-name-enum[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/loguru-0.6.0[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
-	cli? ( <dev-python/pendulum-4.0.0[${PYTHON_USEDEP}] )
+	cli? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

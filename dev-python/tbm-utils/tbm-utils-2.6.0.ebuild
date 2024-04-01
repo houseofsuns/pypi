@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint test"
 DEPENDENCIES="<dev-python/attrs-19.4[${PYTHON_USEDEP}]
-	<=dev-python/pendulum-3.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/pprintpp[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )

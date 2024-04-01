@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for eloverblik.dk API."
+DESCRIPTION="Python wrapper for eloverblik.dk API. [top-max 0.4.2]"
 
 HOMEPAGE="https://github.com/JonasPed/pyeloverblik"
 LICENSE="Apache-2.0"

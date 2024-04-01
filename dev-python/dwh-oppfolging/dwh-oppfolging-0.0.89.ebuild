@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}]
 	~dev-python/ijson-3.2.3[${PYTHON_USEDEP}]
 	dev-python/oracledb[${PYTHON_USEDEP}]
-	~dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

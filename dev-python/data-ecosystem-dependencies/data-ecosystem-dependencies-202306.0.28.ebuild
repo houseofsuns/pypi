@@ -66,7 +66,7 @@ DEPENDENCIES="<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-monitor[${PYTHON_USEDEP}]
 	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-monitor-opentelemetry-exporter[${PYTHON_USEDEP}]
 	dev-python/azure-storage-queue[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

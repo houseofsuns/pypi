@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.22.5[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+	>=dev-python/opentelemetry-api-1.2.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	>=dev-python/opentelemetry-sdk-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/overrides-7.3.1[${PYTHON_USEDEP}]
 	dev-python/posthog[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.9[${PYTHON_USEDEP}]

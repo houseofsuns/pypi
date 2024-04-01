@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Baidu Yun (Personal Cloud Storage) 百度云/百度网盘 Python 客户端 [top-max 1.8.4]"
+DESCRIPTION="Python client for Baidu Yun (Personal Cloud Storage) 百度云/百度网盘 Python 客户端 [top-max 1.8.5]"
 
 HOMEPAGE="https://github.com/houtianze/bypy"
 LICENSE="MIT"

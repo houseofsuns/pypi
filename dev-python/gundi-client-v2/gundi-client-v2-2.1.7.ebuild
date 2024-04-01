@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/environs-10.0[${PYTHON_USEDEP}]
 	dev-python/gundi-core[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	dev-python/respx[${PYTHON_USEDEP}]"
+	<dev-python/respx-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

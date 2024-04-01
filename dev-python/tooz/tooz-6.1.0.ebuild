@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/fasteners-0.7[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/ddt-1.2.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( dev-python/pifpaf[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )

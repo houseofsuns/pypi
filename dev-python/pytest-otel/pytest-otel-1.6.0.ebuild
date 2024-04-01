@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/opentelemetry-api-1.23.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.23.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-8.1.1[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

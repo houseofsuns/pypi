@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/debugpy-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/debugpy[${PYTHON_USEDEP}]
 	<dev-python/paramiko-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/mojo-interfaces[${PYTHON_USEDEP}]

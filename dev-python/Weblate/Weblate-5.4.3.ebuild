@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/aeidon[${PYTHON_USEDEP}]
 	all? ( dev-python/python-akismet[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/python3-saml-1.2.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/responses-0.25.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/respx[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/respx-0.20.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/selenium-4.17.2[${PYTHON_USEDEP}] )
 	zxcvbn? ( dev-python/django-zxcvbn-password[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

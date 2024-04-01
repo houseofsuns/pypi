@@ -27,7 +27,7 @@ IUSE="exporter-otlp-proto-grpc exporter-otlp-proto-http"
 DEPENDENCIES="exporter-otlp-proto-grpc? ( dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}] )
 	exporter-otlp-proto-http? ( dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}] )
 	dev-python/opentelemetry-exporter-prometheus[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]

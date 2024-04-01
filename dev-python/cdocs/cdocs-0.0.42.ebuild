@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/nose-1.3.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
 	~dev-python/jinja-2.11.2[${PYTHON_USEDEP}]
 	dev-python/pypinfo[${PYTHON_USEDEP}]
 	~dev-python/inflect-4.1.0[${PYTHON_USEDEP}]

@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/docutils-0.12[${PYTHON_USEDEP}]
 	tests? ( dev-python/html5validator[${PYTHON_USEDEP}] )
 	tests? ( dev-python/localcrawl[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/nose-1.3.4[${PYTHON_USEDEP}] )
+	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/requests-2.9.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/websocket-client-0.35.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

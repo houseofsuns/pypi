@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="instruments"
 DEPENDENCIES="instruments? ( dev-python/openai[${PYTHON_USEDEP}] )
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+	>=dev-python/opentelemetry-api-1.18.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
+	>=dev-python/opentelemetry-semantic-conventions-0.39_beta0[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

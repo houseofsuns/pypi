@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An adapter between meter-restful and eth-rpc. [top-max 1.2.85]"
+DESCRIPTION="An adapter between meter-restful and eth-rpc. [top-max 1.2.86]"
 
 HOMEPAGE="https://github.com/meterio/meter-gear"
 LICENSE="MIT"

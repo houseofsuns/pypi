@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="~dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
 	~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
-	~dev-python/pendulum-1.2.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/facebook-business[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]

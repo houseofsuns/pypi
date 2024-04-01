@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lovasz"
-DEPENDENCIES=">=dev-python/nose-1.1.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.27.3[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.19[${PYTHON_USEDEP}]

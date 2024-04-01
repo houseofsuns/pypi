@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/httpx-0.20[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
-	all? ( dev-python/respx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/respx-0.16.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES=">=dev-python/httpx-0.20[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
-	dev? ( dev-python/respx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/respx-0.16.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
@@ -79,6 +79,6 @@ DEPENDENCIES=">=dev-python/httpx-0.20[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
-	test? ( dev-python/respx[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/respx-0.16.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -39,8 +39,8 @@ DEPENDENCIES=">=dev-python/fsspec-2021.11.1[${PYTHON_USEDEP}]
 	dev-python/epoch8-tqdm-loggable[${PYTHON_USEDEP}]
 	dev-python/traceback-with-variables[${PYTHON_USEDEP}]
 	milvus? ( dev-python/pymilvus[${PYTHON_USEDEP}] )
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-sqlalchemy[${PYTHON_USEDEP}]
 	gcp? ( dev-python/opentelemetry-exporter-gcp-trace[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}] )

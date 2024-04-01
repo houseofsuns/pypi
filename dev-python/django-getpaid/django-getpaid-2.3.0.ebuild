@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs graph test"
 DEPENDENCIES="dev-python/django-model-utils[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/swapper[${PYTHON_USEDEP}]
 	dev-python/django-fsm[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]

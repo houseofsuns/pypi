@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( dev-python/nose[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

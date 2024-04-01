@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES=">=dev-python/httpx-0.24[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/respx[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/respx-0.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="django flask opencensus opentelemetry psycopg2 sqlalchemy"
 DEPENDENCIES="django? ( >=dev-python/django-1.11[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	opencensus? ( dev-python/opencensus[${PYTHON_USEDEP}] )
-	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
+	opentelemetry? ( ~dev-python/opentelemetry-api-1.0[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

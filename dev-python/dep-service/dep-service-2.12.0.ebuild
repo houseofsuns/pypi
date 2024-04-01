@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/dep-spec[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-40.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi-utils[${PYTHON_USEDEP}]
-	dev-python/respx[${PYTHON_USEDEP}]
+	<dev-python/respx-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]"

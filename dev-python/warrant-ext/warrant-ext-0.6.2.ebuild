@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/boto3-1.10.49[${PYTHON_USEDEP}]
 	test? ( ~dev-python/botocore-1.13.49[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-5.0.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )"
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

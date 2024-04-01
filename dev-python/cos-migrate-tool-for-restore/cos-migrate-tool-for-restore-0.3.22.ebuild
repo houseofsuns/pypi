@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
-	~dev-python/boto-2.43.0[${PYTHON_USEDEP}]
+	dev-python/boto[${PYTHON_USEDEP}]
 	dev-python/coscmd[${PYTHON_USEDEP}]
 	~dev-python/crcmod-1.7[${PYTHON_USEDEP}]
 	dev-python/leveldb[${PYTHON_USEDEP}]

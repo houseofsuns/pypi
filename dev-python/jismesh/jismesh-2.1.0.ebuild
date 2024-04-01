@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
-	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )"
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

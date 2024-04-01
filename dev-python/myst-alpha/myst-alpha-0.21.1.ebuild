@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/google-auth-2.0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/openapi-python-client[${PYTHON_USEDEP}] )
 	test? ( dev-python/typer[${PYTHON_USEDEP}] )
-	test? ( dev-python/respx[${PYTHON_USEDEP}] )
+	test? ( <dev-python/respx-1.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

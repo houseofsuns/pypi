@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/forge-core[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/honcho[${PYTHON_USEDEP}]
-	<dev-python/debugpy-2.0.0[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	dev-python/hupper[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -53,7 +53,7 @@ DEPENDENCIES="<dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	online? ( <dev-python/sentry-sdk-1.10[${PYTHON_USEDEP}] )
 	online? ( dev-python/newrelic[${PYTHON_USEDEP}] )
 	online? ( <dev-python/GitPython-3.2[${PYTHON_USEDEP}] )
-	test? ( <dev-python/nose-1.4[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-6.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flake8-5.1[${PYTHON_USEDEP}] )

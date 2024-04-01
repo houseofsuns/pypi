@@ -37,8 +37,8 @@ DEPENDENCIES="<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/nowplaypadgen[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+	<dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]"
+	<dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

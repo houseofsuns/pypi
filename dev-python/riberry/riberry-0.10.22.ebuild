@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/croniter-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-2.0[${PYTHON_USEDEP}]

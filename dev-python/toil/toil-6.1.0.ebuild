@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.15[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
-	all? ( <dev-python/boto-3.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/boto[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy-boto3-iam[${PYTHON_USEDEP}] )
 	all? ( <dev-python/moto-5.0[${PYTHON_USEDEP}] )
@@ -70,7 +70,7 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	all? ( dev-python/wes-service[${PYTHON_USEDEP}] )
 	all? ( <dev-python/ruamel-yaml-0.19[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymesos[${PYTHON_USEDEP}] )
-	aws? ( <dev-python/boto-3.0[${PYTHON_USEDEP}] )
+	aws? ( dev-python/boto[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	aws? ( dev-python/mypy-boto3-iam[${PYTHON_USEDEP}] )
 	aws? ( <dev-python/moto-5.0[${PYTHON_USEDEP}] )

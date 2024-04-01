@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pycocotools[${PYTHON_USEDEP}]
-	~dev-python/debugpy-1.5.1[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]

@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	dashboard? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/dash-mantine-components[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/dash[${PYTHON_USEDEP}] )
-	~dev-python/debugpy-1.6.6[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	gateway? ( <dev-python/deepdiff-6.0.0[${PYTHON_USEDEP}] )
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	ml? ( dev-python/fastapi[${PYTHON_USEDEP}] )

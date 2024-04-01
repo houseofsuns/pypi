@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	<dev-python/watchfiles-0.22.0[${PYTHON_USEDEP}]
-	dev-python/respx[${PYTHON_USEDEP}]
+	<dev-python/respx-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.28.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

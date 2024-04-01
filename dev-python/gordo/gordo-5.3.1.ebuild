@@ -71,7 +71,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/comm-0.2.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/debugpy-1.8.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/decorator-5.1.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/docker-6.1.3[${PYTHON_USEDEP}] )

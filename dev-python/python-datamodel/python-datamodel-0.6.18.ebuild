@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

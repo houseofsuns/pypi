@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev-python/kaggle[${PYTHON_USEDEP}]
 	dev-python/tb-nightly[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-5.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

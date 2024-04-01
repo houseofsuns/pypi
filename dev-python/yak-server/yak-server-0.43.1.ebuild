@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="db-migration profiling sync"
 DEPENDENCIES="~dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	~dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="kerberos"
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	~dev-python/flask-compress-1.0[${PYTHON_USEDEP}]
-	~dev-python/flask-gravatar-0.0[${PYTHON_USEDEP}]
+	dev-python/flask-gravatar[${PYTHON_USEDEP}]
 	~dev-python/flask-login-0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	~dev-python/flask-migrate-4.0[${PYTHON_USEDEP}]

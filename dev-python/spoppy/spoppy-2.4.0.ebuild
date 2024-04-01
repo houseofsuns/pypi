@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	>=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
-	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]
+	dev-python/nose[${PYTHON_USEDEP}]
 	>=dev-python/mock-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/spotipy-2.4.4[${PYTHON_USEDEP}]
 	~dev-python/twine-1.13.0[${PYTHON_USEDEP}]"

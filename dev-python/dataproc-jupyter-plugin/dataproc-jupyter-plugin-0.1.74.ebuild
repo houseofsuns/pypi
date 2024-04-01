@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/cachetools-4.2.4[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	dev-python/kernels-mixer[${PYTHON_USEDEP}]
-	>=dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

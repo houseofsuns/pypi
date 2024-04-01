@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="click pendulum"
 DEPENDENCIES="click? ( >=dev-python/click-2.0[${PYTHON_USEDEP}] )
-	pendulum? ( <dev-python/pendulum-3.0.0[${PYTHON_USEDEP}] )"
+	pendulum? ( dev-python/pendulum[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

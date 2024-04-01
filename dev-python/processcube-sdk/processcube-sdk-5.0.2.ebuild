@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/wheel-0.41.3[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	>=dev-python/debugpy-1.8.0[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	dev-python/processcube-client[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
 	dev-python/scrapbook[${PYTHON_USEDEP}]

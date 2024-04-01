@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bk_resource opentelemetry"
 DEPENDENCIES="bk_resource? ( dev-python/bk-resource[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
-	opentelemetry? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	opentelemetry? ( <dev-python/opentelemetry-api-1.13.0[${PYTHON_USEDEP}] )
+	opentelemetry? ( <dev-python/opentelemetry-sdk-1.13.0[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

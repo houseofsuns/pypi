@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/ansicolors[${PYTHON_USEDEP}]
 	dev-python/xcmd[${PYTHON_USEDEP}]
 	test? ( dev-python/ansicolors[${PYTHON_USEDEP}] )
 	test? ( dev-python/kazoo[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tabulate-0.8.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/twitter-common-net[${PYTHON_USEDEP}] )
 	test? ( dev-python/xcmd[${PYTHON_USEDEP}] )"

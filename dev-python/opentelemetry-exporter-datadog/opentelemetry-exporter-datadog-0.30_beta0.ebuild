@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ddtrace[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]"
+	~dev-python/opentelemetry-api-1.3[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.3[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-semantic-conventions-0.30_beta0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

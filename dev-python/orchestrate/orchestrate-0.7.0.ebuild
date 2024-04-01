@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-4.3.4[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mock-3.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-1.9.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-3.6.1[${PYTHON_USEDEP}] )

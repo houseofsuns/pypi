@@ -39,6 +39,6 @@ DEPENDENCIES="~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}]
 	dev-python/navigator-session[${PYTHON_USEDEP}]
-	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]"
+	dev-python/pendulum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

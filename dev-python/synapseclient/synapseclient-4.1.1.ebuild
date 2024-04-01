@@ -27,8 +27,8 @@ IUSE="boto3 dev docs pandas pysftp tests"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-api-1.21.0[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.21.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
 	~dev-python/nest-asyncio-1.6.0[${PYTHON_USEDEP}]
 	boto3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )

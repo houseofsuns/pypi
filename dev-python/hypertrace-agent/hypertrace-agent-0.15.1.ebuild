@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/opentelemetry-api-1.20.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-zipkin[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-django[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-aws-lambda[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-propagator-b3[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.20.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]

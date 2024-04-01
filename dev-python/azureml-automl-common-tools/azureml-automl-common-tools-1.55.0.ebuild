@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/py-spy[${PYTHON_USEDEP}]
-	~dev-python/debugpy-1.6.3[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.8.0[${PYTHON_USEDEP}]

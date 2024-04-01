@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/fixedint[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]"
+	~dev-python/opentelemetry-api-1.21[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.21[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

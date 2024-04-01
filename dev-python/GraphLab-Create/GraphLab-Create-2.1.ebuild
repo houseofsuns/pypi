@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
-	~dev-python/boto-2.33.0[${PYTHON_USEDEP}]
+	dev-python/boto[${PYTHON_USEDEP}]
 	~dev-python/certifi-2015.4.28[${PYTHON_USEDEP}]
 	~dev-python/decorator-4.0.9[${PYTHON_USEDEP}]
 	~dev-python/genson-0.1.0[${PYTHON_USEDEP}]

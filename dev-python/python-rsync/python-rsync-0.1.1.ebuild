@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python binding for librsync"
+DESCRIPTION="python binding for librsync [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/synodriver/pyrsync"
 LICENSE="BSD"

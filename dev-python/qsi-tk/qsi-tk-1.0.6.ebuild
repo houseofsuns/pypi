@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data science toolkit (TK) from Quality-Safety research Institute (QSI). [top-max 1.2.0]"
+DESCRIPTION="Data science toolkit (TK) from Quality-Safety research Institute (QSI). [top-max 1.3.0]"
 
 HOMEPAGE="http://pypi.python.org/pypi/qsi_tk/"
 LICENSE="LICENSE.txt"

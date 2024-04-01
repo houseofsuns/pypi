@@ -54,6 +54,6 @@ DEPENDENCIES="<dev-python/argcomplete-3.0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-describe-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	test? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/debugpy-2.0.0[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

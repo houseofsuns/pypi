@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/kombu[${PYTHON_USEDEP}]
 	~dev-python/netifaces-0.10.4[${PYTHON_USEDEP}]
-	~dev-python/boto-2.20.1[${PYTHON_USEDEP}]"
+	dev-python/boto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

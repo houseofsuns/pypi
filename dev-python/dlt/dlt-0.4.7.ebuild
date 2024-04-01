@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="athena az bigquery cli databricks dbt duckdb filesystem gcp gs motherduck mssql parquet postgres qdrant redshift s3 snowflake synapse weaviate"
 DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.17.5[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.13.0[${PYTHON_USEDEP}]

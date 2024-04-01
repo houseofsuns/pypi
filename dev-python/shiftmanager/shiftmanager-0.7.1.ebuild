@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/boto-2.38.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/boto[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-views[${PYTHON_USEDEP}]"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="CloudFilesDeployment GCSDeployment MacNativeFSEvents"
 DEPENDENCIES="<dev-python/django-1.7[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	>=dev-python/boto-2.4.1[${PYTHON_USEDEP}]
+	dev-python/boto[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/django-markwhat[${PYTHON_USEDEP}]

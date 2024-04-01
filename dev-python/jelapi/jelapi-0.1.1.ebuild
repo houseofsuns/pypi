@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/httpx-0.18[${PYTHON_USEDEP}]
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	test? ( dev-python/faker-enum[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/respx[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/respx-0.17[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

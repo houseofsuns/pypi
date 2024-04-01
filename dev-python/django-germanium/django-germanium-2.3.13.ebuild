@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="selenium"
 DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
-	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]
+	dev-python/nose[${PYTHON_USEDEP}]
 	selenium? ( >=dev-python/selenium-2.37.2[${PYTHON_USEDEP}] )
 	selenium? ( >=dev-python/pyvirtualdisplay-0.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="all build pinned postgres problematic runtime tests"
 DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/autopep8-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.5[${PYTHON_USEDEP}]
-	~dev-python/boto-2.49.0[${PYTHON_USEDEP}]
+	dev-python/boto[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.5[${PYTHON_USEDEP}]
@@ -130,7 +130,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/autopep8-1.7.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/blinker-1.5[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/boto-2.49.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/boto[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/click-7.1.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/colorama-0.4.5[${PYTHON_USEDEP}] )
@@ -251,7 +251,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	runtime? ( ~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/autopep8-1.7.0[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/blinker-1.5[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/boto-2.49.0[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/boto[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/click-7.1.2[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/colorama-0.4.5[${PYTHON_USEDEP}] )

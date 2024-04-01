@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="<dev-python/networkx-3.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.14.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )

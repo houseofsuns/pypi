@@ -27,7 +27,7 @@ IUSE="cli dev"
 DEPENDENCIES="dev-python/lorem-text[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
-	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.5.3[${PYTHON_USEDEP}]

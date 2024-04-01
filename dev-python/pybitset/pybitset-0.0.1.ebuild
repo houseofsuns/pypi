@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python binding for cbitset"
+DESCRIPTION="python binding for cbitset [top-max 0.0.2]"
 
 HOMEPAGE="https://github.com/synodriver/pybitset"
 LICENSE="BSD"

@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/aiocache-0.12.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.20.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/respx[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/respx-0.20.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/sslyze[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

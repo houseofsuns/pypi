@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/myst-parser-1.0[${PYTHON_USEDEP}] )
 	parquet? ( >=dev-python/numpy-1.22[${PYTHON_USEDEP}] )
 	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
-	<dev-python/pendulum-4.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	parquet? ( >=dev-python/pyarrow-13.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )

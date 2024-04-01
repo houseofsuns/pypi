@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/pyvss[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytz-2022.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/pyvss[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinxcontrib-confluencebuilder[${PYTHON_USEDEP}] )
 	stor? ( dev-python/minio[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytz-2022.6[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/distro-1.4.0[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-api-1.15.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-distro[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-django[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-flask[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-proto[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.15.0[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-semantic-conventions-0.36_beta0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]

@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	dev-python/opensimplex[${PYTHON_USEDEP}]
 	dev-python/pygame-gui[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-0.20.0[${PYTHON_USEDEP}]
-	~dev-python/debugpy-1.2.1[${PYTHON_USEDEP}]
+	dev-python/debugpy[${PYTHON_USEDEP}]
 	dev-python/python-certifi-win32[${PYTHON_USEDEP}]
 	dev-python/mindpile[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]"

@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
-	test? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/opentelemetry-sdk-1.16.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pymongo-3.0.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/redis-2.10.0[${PYTHON_USEDEP}] )

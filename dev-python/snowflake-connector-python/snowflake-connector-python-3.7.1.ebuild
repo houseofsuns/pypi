@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/asn1crypto-2.0.0[${PYTHON_USEDEP}]
 	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	development? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
 	development? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
-	development? ( >dev-python/pendulum-2.1.1[${PYTHON_USEDEP}] )
+	development? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	development? ( dev-python/pexpect[${PYTHON_USEDEP}] )
 	development? ( <dev-python/pytest-7.5.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

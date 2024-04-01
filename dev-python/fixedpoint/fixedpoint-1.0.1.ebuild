@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test_dependencies"
 DEPENDENCIES="docs? ( ~dev-python/sphinx-2.4.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
-	test_dependencies? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test_dependencies? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test_dependencies? ( >=dev-python/coverage-5.0.3[${PYTHON_USEDEP}] )
 	test_dependencies? ( >=dev-python/mypy-0.761[${PYTHON_USEDEP}] )
 	test_dependencies? ( >=dev-python/tqdm-4.43.0[${PYTHON_USEDEP}] )

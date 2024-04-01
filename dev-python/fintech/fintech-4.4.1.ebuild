@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Python FinTech package (SEPA, EBICS & more) [top-max 7.4.3]"
+DESCRIPTION="The Python FinTech package (SEPA, EBICS & more) [top-max 7.5.1]"
 
 HOMEPAGE="http://www.joonis.de/software/fintech"
 LICENSE="Proprietary, see http://www.joonis.de/software/fintech/license"

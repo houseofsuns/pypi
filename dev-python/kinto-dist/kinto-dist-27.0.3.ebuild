@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
-	~dev-python/boto-2.49.0[${PYTHON_USEDEP}]
+	dev-python/boto[${PYTHON_USEDEP}]
 	dev-python/canonicaljson-rs[${PYTHON_USEDEP}]
 	~dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.15.0[${PYTHON_USEDEP}]

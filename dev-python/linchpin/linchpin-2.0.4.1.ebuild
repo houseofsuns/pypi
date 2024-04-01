@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azure beaker docker docs krbv libvirt openshift tests vmware"
 DEPENDENCIES=">=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]
-	>=dev-python/boto-2.49.0[${PYTHON_USEDEP}]
+	dev-python/boto[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.9.96[${PYTHON_USEDEP}]
 	>=dev-python/apache-libcloud-0.20.1[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES="<=dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
 	<=dev-python/cachelib-0.2[${PYTHON_USEDEP}]
 	develop? ( <dev-python/coverage-6.0.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
-	develop? ( <dev-python/nose-2.0.0[${PYTHON_USEDEP}] )
+	develop? ( dev-python/nose[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )

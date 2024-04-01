@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/pastedeploy-2.0.0[${PYTHON_USEDEP}]
 	kms_keymaster? ( >=dev-python/oslo-config-4.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/boto3-1.9[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/boto-2.32.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/boto[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/botocore-1.12[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-5.0.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/docutils-0.11[${PYTHON_USEDEP}] )

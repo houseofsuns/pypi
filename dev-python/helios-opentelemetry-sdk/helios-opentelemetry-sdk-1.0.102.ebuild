@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/autowrapt[${PYTHON_USEDEP}]
 	~dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-api-1.22.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-aio-pika[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/autowrapt[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-urllib3[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-system-metrics[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
-	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
+	~dev-python/opentelemetry-sdk-1.22.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

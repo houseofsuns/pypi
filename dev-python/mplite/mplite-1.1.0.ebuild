@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A module that makes multiprocessing easy. [top-max 1.2.7]"
+DESCRIPTION="A module that makes multiprocessing easy. [top-max 1.3.0]"
 
 HOMEPAGE="https://github.com/root-11/mplite"
 LICENSE="MIT"

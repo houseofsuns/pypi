@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
-	~dev-python/nose-1.0[${PYTHON_USEDEP}]
+	dev-python/nose[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	~dev-python/wcag-contrast-ratio-0.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

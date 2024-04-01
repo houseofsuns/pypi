@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/click-4.1[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5[${PYTHON_USEDEP}]
 	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
-	~dev-python/pendulum-2.1.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	>=dev-python/cli-helpers-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

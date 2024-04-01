@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/arg-services[${PYTHON_USEDEP}]
 	<dev-python/lxml-6.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/multimethod[${PYTHON_USEDEP}] )
 	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-4.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	graphviz? ( <dev-python/pygraphviz-2.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pgspecial-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.0.14[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5[${PYTHON_USEDEP}]
 	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
-	>=dev-python/pendulum-2.1.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	>=dev-python/cli-helpers-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/setproctitle-1.1.9[${PYTHON_USEDEP}]
 	keyring? ( >=dev-python/keyring-12.2.0[${PYTHON_USEDEP}] )

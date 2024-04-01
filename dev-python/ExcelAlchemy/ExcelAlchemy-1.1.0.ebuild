@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
-	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	development? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	development? ( dev-python/black[${PYTHON_USEDEP}] )
 	development? ( dev-python/isort[${PYTHON_USEDEP}] )

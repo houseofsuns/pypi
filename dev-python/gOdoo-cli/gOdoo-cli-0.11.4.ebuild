@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	codequality? ( dev-python/pylint-odoo[${PYTHON_USEDEP}] )
 	devcontainer? ( <dev-python/ipdb-0.14.0[${PYTHON_USEDEP}] )
-	devcontainer? ( <dev-python/debugpy-2.0.0[${PYTHON_USEDEP}] )
+	devcontainer? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	codequality? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	codequality? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	devcontainer? ( <dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )

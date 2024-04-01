@@ -34,8 +34,8 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	libcst? ( dev-python/libcst[${PYTHON_USEDEP}] )
-	tracing? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
-	tracing? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
+	tracing? ( >=dev-python/opentelemetry-api-1.1.0[${PYTHON_USEDEP}] )
+	tracing? ( >=dev-python/opentelemetry-sdk-1.1.0[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

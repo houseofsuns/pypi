@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pytest-datafiles-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	<dev-python/coverage-7.0.0[${PYTHON_USEDEP}]
-	<dev-python/nose-2.0.0[${PYTHON_USEDEP}]
+	dev-python/nose[${PYTHON_USEDEP}]
 	dev-python/types-tqdm[${PYTHON_USEDEP}]
 	<dev-python/black-23.0.0[${PYTHON_USEDEP}]
 	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]"

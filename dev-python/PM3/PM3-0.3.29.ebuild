@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	dev-python/dsnparse[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.2.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.5[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]

@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/psutil-5.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyahocorasick[${PYTHON_USEDEP}] )

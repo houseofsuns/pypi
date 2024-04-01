@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="General purpose library [top-max 4.2.0]"
+DESCRIPTION="General purpose library [top-max 4.3.1]"
 
 HOMEPAGE="https://github.com/FI-Mihej/Cengal"
 LICENSE="Apache-2.0"

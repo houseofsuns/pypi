@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( dev-python/nose[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jsontest[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
@@ -33,7 +33,7 @@ DEPENDENCIES="dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdbplugin[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsontest[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-1.3.0[${PYTHON_USEDEP}] )

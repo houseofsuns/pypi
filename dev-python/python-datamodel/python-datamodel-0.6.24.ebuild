@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	~dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

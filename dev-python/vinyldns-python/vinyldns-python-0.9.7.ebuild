@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/boto-2.48.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/boto[${PYTHON_USEDEP}]
 	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.5[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for ETAPI of Trilium Note. [top-max 0.8.7]"
+DESCRIPTION="Python client for ETAPI of Trilium Note. [top-max 0.8.8]"
 
 HOMEPAGE="https://github.com/nriver/trilium-py"
 LICENSE=""

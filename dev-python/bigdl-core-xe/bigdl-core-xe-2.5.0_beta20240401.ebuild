@@ -16,8 +16,8 @@ DESCRIPTION=" [wheel]"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/d7/ac/cd084d714de06bb735fc02c8a4449c9aae9c091d2f3a35154fafd46325c4/${REALNAME//-/_}-${REALVERSION}-cp310-cp310-manylinux2010_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp310-cp310-manylinux2010_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/2e/c3/074c2bd1d62c756e8d294bc41d04ca88b9d4110fdf67f8de8f23d8a31b1e/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux2010_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux2010_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

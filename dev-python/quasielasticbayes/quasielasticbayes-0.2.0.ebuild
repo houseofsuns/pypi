@@ -16,8 +16,8 @@ DESCRIPTION="A Bayesian fitting package used for fitting quasi-elastic neutron s
 
 HOMEPAGE="https://www.mantidproject.org"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.b1.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.b1.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

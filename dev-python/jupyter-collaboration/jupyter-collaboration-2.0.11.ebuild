@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs test"
 DEPENDENCIES=">=dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-events-0.10.0[${PYTHON_USEDEP}]
-	<dev-python/jupyter-server-fileid-1.0[${PYTHON_USEDEP}]
+	dev-python/jupyter-server-fileid[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/jupyter-ydoc-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/pycrdt-websocket-0.13.0[${PYTHON_USEDEP}]
+	dev-python/jupyter-ydoc[${PYTHON_USEDEP}]
+	dev-python/pycrdt-websocket[${PYTHON_USEDEP}]
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-releaser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

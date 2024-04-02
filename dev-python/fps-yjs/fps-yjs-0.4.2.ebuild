@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jupyverse-api[${PYTHON_USEDEP}]
-	<dev-python/pycrdt-0.9.0[${PYTHON_USEDEP}]"
+	dev-python/pycrdt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

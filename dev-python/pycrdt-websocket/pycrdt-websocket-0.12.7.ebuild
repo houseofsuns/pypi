@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="django docs test"
 DEPENDENCIES="<dev-python/aiosqlite-1.0[${PYTHON_USEDEP}]
 	<dev-python/anyio-5.0[${PYTHON_USEDEP}]
-	<dev-python/pycrdt-0.9.0[${PYTHON_USEDEP}]
+	dev-python/pycrdt[${PYTHON_USEDEP}]
 	django? ( dev-python/channels[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )

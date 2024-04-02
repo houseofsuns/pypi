@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Export blocking and async library versions from a single async implementation [top-max 0.6.5]"
+DESCRIPTION="Export blocking and async library versions from a single async implementation [top-max 0.6.6]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast utility functions useful for Fourier Ring/Shell Correlation: binom_split, pois_gen, square_abs."
+DESCRIPTION="Fast utility functions useful for Fourier Ring/Shell Correlation: binom_split, pois_gen, square_abs. [top-max 1.1.5]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

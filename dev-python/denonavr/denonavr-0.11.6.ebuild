@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES=">=dev-python/asyncstdlib-3.10.2[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	>=dev-python/ftfy-6.1.1[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
 	>=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]

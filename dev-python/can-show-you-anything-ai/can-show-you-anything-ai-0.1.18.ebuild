@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.4.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	<dev-python/ftfy-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/regex-2022.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

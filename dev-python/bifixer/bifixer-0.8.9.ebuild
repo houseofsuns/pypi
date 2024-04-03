@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="loomchild"
-DEPENDENCIES="dev-python/ftfy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ftfy-6.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]

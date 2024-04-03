@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Trove Management Dashboard"
+DESCRIPTION="Trove Management Dashboard [top-max 22.0.0]"
 
 HOMEPAGE="https://docs.openstack.org/trove/latest"
 LICENSE=""

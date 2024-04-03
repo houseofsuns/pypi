@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack DBaaS"
+DESCRIPTION="OpenStack DBaaS [top-max 21.0.0]"
 
 HOMEPAGE="https://docs.openstack.org/trove/latest/"
 LICENSE=""

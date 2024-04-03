@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyphen-0.15.0[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	<dev-python/ftfy-6.1.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Image Service"
+DESCRIPTION="OpenStack Image Service [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f01da39cc80>)]"
 
 HOMEPAGE="https://docs.openstack.org/glance/latest/"
 LICENSE=""

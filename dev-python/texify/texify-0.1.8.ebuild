@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/pypdfium2[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	<dev-python/ftfy-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	dev-python/streamlit-drawable-canvas-jsretry[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="E3 core. Tools and library for building and testing software"
+DESCRIPTION="E3 core. Tools and library for building and testing software [top-max 22.5.0]"
 
 HOMEPAGE="https://github.com/AdaCore/e3-core"
 LICENSE="GPL-3"

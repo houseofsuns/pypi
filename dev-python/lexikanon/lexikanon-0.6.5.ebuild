@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/eKoNLPy[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	<dev-python/ftfy-7.0.0[${PYTHON_USEDEP}]
 	dev-python/hyfi[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]"

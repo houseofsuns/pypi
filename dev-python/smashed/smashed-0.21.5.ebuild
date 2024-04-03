@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all datasets dev prompting remote torch torchdata"
 DEPENDENCIES="dev-python/necessary[${PYTHON_USEDEP}]
 	dev-python/trouting[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	>=dev-python/ftfy-6.1.1[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
 	>=dev-python/jinja-3.0.3[${PYTHON_USEDEP}]

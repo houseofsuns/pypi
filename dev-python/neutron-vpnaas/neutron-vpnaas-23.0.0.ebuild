@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenStack Networking VPN as a Service"
+DESCRIPTION="OpenStack Networking VPN as a Service [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f01cf986180>)]"
 
 HOMEPAGE="https://docs.openstack.org/neutron-vpnaas/latest/"
 LICENSE=""

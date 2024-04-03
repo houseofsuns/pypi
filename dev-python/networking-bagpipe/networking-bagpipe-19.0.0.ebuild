@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mechanism driver for Neutron ML2 plugin using BGP E-VPNs/IP VPNs as a backend"
+DESCRIPTION="Mechanism driver for Neutron ML2 plugin using BGP E-VPNs/IP VPNs as a backend [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f01cfb563b0>)]"
 
 HOMEPAGE="https://docs.openstack.org/networking-bagpipe/latest/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Monitors for Masakari"
+DESCRIPTION="Monitors for Masakari [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f01d328dd20>)]"
 
 HOMEPAGE="https://docs.openstack.org/masakari-monitors/latest/"
 LICENSE=""

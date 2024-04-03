@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/cchardet-2.1.7[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	<dev-python/ftfy-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/ftfy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ftfy-6.1.3[${PYTHON_USEDEP}]
 	dev-python/ngwidgets[${PYTHON_USEDEP}]
 	dev-python/pyLodStorage[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]

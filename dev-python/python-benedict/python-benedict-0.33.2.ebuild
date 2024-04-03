@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/python-fsutil[${PYTHON_USEDEP}]
 	html? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
 	html? ( dev-python/python-benedict[${PYTHON_USEDEP}] )
 	io? ( dev-python/python-benedict[${PYTHON_USEDEP}] )
-	parse? ( dev-python/ftfy[${PYTHON_USEDEP}] )
+	parse? ( <dev-python/ftfy-7.0.0[${PYTHON_USEDEP}] )
 	parse? ( dev-python/mailchecker[${PYTHON_USEDEP}] )
 	parse? ( <dev-python/phonenumbers-9.0.0[${PYTHON_USEDEP}] )
 	parse? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )

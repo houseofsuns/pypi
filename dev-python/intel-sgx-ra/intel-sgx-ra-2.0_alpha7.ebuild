@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Intel SGX Remote Attestation verification library [top-max 2.1.0]"
+DESCRIPTION="Intel SGX Remote Attestation verification library [top-max 2.2.0]"
 
 HOMEPAGE="https://cosmian.com"
 LICENSE="MIT"

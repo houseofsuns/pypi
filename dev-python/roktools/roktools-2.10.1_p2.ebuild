@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Set of tools used in internal Rokubun projects [top-max 5.20.0_p2]"
+DESCRIPTION="Set of tools used in internal Rokubun projects [top-max 5.30.1]"
 
 HOMEPAGE="https://www.rokubun.cat"
 LICENSE="MIT"

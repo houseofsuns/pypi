@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud computing fabric controller"
+DESCRIPTION="Cloud computing fabric controller [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f01cee552a0>)]"
 
 HOMEPAGE="https://docs.openstack.org/nova/latest/"
 LICENSE=""

@@ -27,7 +27,7 @@ IUSE="cjk jieba mecab"
 DEPENDENCIES="<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	>=dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	>=dev-python/ftfy-6.1[${PYTHON_USEDEP}]
 	cjk? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )
 	mecab? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )
 	cjk? ( dev-python/ipadic[${PYTHON_USEDEP}] )

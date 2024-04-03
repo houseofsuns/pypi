@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="citeproc datacite dublincore elasticsearch7 jsonld opensearch1 opensearch2 tests"
 DEPENDENCIES=">=dev-python/bleach-2.1.3[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
+	>=dev-python/ftfy-4.4.3[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-pidstore[${PYTHON_USEDEP}]
 	dev-python/invenio-records[${PYTHON_USEDEP}]

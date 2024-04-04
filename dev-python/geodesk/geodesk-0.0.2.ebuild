@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python port of GeoDesk, a fast and space-efficient statial database engine for OpenStreetMap features [top-max 0.1.9]"
+DESCRIPTION="Python port of GeoDesk, a fast and space-efficient statial database engine for OpenStreetMap features [top-max 0.1.10]"
 
 HOMEPAGE="https://github.com/clarisma/geodesk"
 LICENSE=""

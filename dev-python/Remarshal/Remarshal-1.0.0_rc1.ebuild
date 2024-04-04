@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="remarshal"
 REALVERSION="1.0.0rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -16,8 +16,8 @@ DESCRIPTION="Convert between CBOR, JSON, MessagePack, TOML, and YAML"
 
 HOMEPAGE="https://github.com/remarshal-project/remarshal"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/78/8d/de1abd2479ad7822a771b0db05e8ed5ff585e49dc1bb2ff8863b2e7abda7/remarshal-${REALVERSION}.tar.gz"
-SOURCEFILE="remarshal-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Intents for Home Assistant [top-max 2024.3.29]"
+DESCRIPTION="Intents for Home Assistant [top-max 2024.4.3]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

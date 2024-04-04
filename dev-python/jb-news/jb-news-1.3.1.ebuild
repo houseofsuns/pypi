@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A comprehensive wrapper for JBlanked's News API, leveraging OpenAI, Machine Learning, and MQL5's Calendar. [top-max 2.0.3]"
+DESCRIPTION="A comprehensive wrapper for JBlanked's News API, leveraging OpenAI, Machine Learning, and MQL5's Calendar. [top-max 2.1.0]"
 
 HOMEPAGE="https://jblanked.com/news/api/docs/"
 LICENSE="MIT"

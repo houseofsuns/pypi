@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Asynchronous Component based Event Application Framework"
+DESCRIPTION="Asynchronous Component based Event Application Framework [top-max 3.2.3]"
 
 HOMEPAGE="http://circuitsframework.com/"
 LICENSE="MIT"

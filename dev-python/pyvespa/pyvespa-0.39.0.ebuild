@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for vespa.ai"
+DESCRIPTION="Python API for vespa.ai [top-max 0.40.0]"
 
 HOMEPAGE="https://pyvespa.readthedocs.io/"
 LICENSE=""

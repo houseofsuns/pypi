@@ -16,8 +16,8 @@ DESCRIPTION="Codac is a library providing tools for constraint programming over 
 
 HOMEPAGE="http://codac.io"
 LICENSE="LGPL-3+"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

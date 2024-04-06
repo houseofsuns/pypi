@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
 	dev-python/click-params[${PYTHON_USEDEP}]
-	>=dev-python/lazy_loader-0.3[${PYTHON_USEDEP}]
+	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]

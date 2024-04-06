@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Embedded Cython database for time series that you need to send somewhere"
+DESCRIPTION="Embedded Cython database for time series that you need to send somewhere [top-max 0.6.5]"
 
 HOMEPAGE="https://github.com/smok-serwis/tempsdb"
 LICENSE=""

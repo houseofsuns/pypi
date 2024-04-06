@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A cross platform helper library for ModernGL making window creation and resource loading simple"
+DESCRIPTION="A cross platform helper library for ModernGL making window creation and resource loading simple [top-max 2.4.6]"
 
 HOMEPAGE=""
 LICENSE=""

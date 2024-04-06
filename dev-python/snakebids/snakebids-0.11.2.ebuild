@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/pybids[${PYTHON_USEDEP}]
 	>=dev-python/jinja2-time-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.2[${PYTHON_USEDEP}]
-	>=dev-python/lazy_loader-0.3[${PYTHON_USEDEP}]"
+	dev-python/lazy_loader[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

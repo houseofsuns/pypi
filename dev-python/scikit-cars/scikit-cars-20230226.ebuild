@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2019.7.26[${PYTHON_USEDEP}]
 	>=dev-python/pywavelets-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
-	>=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]
+	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	build? ( >=dev-python/meson-python-0.13.0_rc0[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/setuptools-67.0[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	default? ( >=dev-python/tifffile-2019.7.26[${PYTHON_USEDEP}] )
 	default? ( >=dev-python/pywavelets-1.1.1[${PYTHON_USEDEP}] )
 	default? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
-	default? ( >=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}] )
+	default? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	developer? ( dev-python/rtoml[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-5.2[${PYTHON_USEDEP}] )

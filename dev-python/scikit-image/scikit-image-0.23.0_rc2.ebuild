@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.33[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2022.8.12[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
-	>=dev-python/lazy_loader-0.3[${PYTHON_USEDEP}]
+	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	build? ( >=dev-python/meson-python-0.15[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/setuptools-67.0[${PYTHON_USEDEP}] )

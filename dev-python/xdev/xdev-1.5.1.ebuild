@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
-	>=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]
+	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	all? ( >=dev-python/ubelt-1.3.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/xinspect[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyfiglet[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.3[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/fire[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/lazy_loader-0.1[${PYTHON_USEDEP}] )
+	all-strict? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/parso-0.8.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.21.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/networkx-2.7[${PYTHON_USEDEP}] )
@@ -101,7 +101,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.3[${PYTHON_USEDEP}]
 	all? ( >=dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/fire[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}] )
+	all? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/yapf-0.16.3[${PYTHON_USEDEP}] )
 	optional? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	optional-strict? ( ~dev-python/yapf-0.16.3[${PYTHON_USEDEP}] )
@@ -137,7 +137,7 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.3[${PYTHON_USEDEP}]
 	runtime-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.8.8[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/lazy_loader-0.1[${PYTHON_USEDEP}] )
+	runtime-strict? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/xdoctest-0.14.0[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/xdoctest-0.14.0[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )

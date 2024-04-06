@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/audioread-2.1.9[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.0[${PYTHON_USEDEP}]
 	dev-python/soxr[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
-	>=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]
+	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0[${PYTHON_USEDEP}]
 	display? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )

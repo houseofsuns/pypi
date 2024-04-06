@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for running Tasks and from CLI and API for orchestation. Component-based Task builder/Runner for non-programmers. [top-max 5.2.44]"
+DESCRIPTION="Framework for running Tasks and from CLI and API for orchestation. Component-based Task builder/Runner for non-programmers. [top-max 5.2.46]"
 
 HOMEPAGE="https://github.com/phenobarbital/flowtask"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="hiddifypanel multi proxy panel [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f63b0198a50>)]"
+DESCRIPTION="hiddifypanel multi proxy panel [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f871a0ff680>)]"
 
 HOMEPAGE="https://github.com/hiddify/hiddify-manager/"
 LICENSE=""

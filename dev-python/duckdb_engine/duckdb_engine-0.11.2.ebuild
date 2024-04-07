@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SQLAlchemy driver for duckdb"
+DESCRIPTION="SQLAlchemy driver for duckdb [top-max 0.11.3]"
 
 HOMEPAGE="https://github.com/Mause/duckdb_engine"
 LICENSE="MIT"

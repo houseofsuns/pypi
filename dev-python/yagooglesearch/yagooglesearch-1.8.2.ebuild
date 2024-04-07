@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for executing intelligent, realistic-looking, and tunable Google searches. [top-max 1.9.0]"
+DESCRIPTION="A Python library for executing intelligent, realistic-looking, and tunable Google searches. [top-max 1.10.0]"
 
 HOMEPAGE="https://github.com/opsdisk/yagooglesearch"
 LICENSE="BSD 3-Clause New or Revised License"

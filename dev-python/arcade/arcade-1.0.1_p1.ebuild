@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Arcade Game Development Library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6e9feb9460>)]"
+DESCRIPTION="Arcade Game Development Library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f63c1307a00>)]"
 
 HOMEPAGE="http://arcade.academy"
 LICENSE="MIT"

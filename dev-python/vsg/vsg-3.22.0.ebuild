@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="VHDL Style Guide"
+DESCRIPTION="VHDL Style Guide [top-max 3.23.0]"
 
 HOMEPAGE="https://github.com/jeremiah-c-leary/vhdl-style-guide"
 LICENSE="GNU General Public License"

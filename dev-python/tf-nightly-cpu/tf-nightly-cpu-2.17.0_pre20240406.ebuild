@@ -16,8 +16,8 @@ DESCRIPTION="TensorFlow is an open source machine learning framework for everyon
 
 HOMEPAGE="https://www.tensorflow.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/a6/b8/7a71816686524317c85db3709a87ac26956dca60afac882d7bd0f91bf261/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win_amd64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/18/43/1cee0b0ec70e217f1c5ea76d108bb158a167b2f59dcf35acef826f915ff4/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

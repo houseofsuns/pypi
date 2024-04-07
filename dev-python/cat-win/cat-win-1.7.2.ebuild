@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple OS Independent 'cat' Command-line Tool made in Python. [top-max 1.7.4]"
+DESCRIPTION="Simple OS Independent 'cat' Command-line Tool made in Python. [top-max 1.7.5]"
 
 HOMEPAGE=""
 LICENSE=""

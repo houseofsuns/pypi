@@ -31,7 +31,7 @@ DEPENDENCIES="jwt? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	auth-oauth-device? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )
 	auth? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )
-	dev-python/hishel[${PYTHON_USEDEP}]
+	<=dev-python/hishel-0.0.24[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"

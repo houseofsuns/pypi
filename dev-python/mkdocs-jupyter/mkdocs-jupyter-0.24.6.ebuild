@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use Jupyter in mkdocs websites"
+DESCRIPTION="Use Jupyter in mkdocs websites [top-max 0.24.7]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

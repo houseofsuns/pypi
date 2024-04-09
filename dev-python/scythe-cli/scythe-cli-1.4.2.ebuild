@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	<dev-python/keyring-24.0.0[${PYTHON_USEDEP}]
-	dev-python/hishel[${PYTHON_USEDEP}]"
+	<dev-python/hishel-0.0.21[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

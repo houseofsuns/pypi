@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-3.5.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/hishel[${PYTHON_USEDEP}]
+	>=dev-python/hishel-0.0.17[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pyfakefs-5.1.0[${PYTHON_USEDEP}] )

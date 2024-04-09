@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Paco: Prescribed automation for cloud orchestration [top-max 9.3.44]"
+DESCRIPTION="Paco: Prescribed automation for cloud orchestration [top-max 9.3.45]"
 
 HOMEPAGE="https://github.com/waterbear-cloud/paco"
 LICENSE=""

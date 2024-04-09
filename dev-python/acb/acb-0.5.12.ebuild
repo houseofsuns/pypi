@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dns? ( dev-python/google-cloud-dns[${PYTHON_USEDEP}] )
 	dns? ( >=dev-python/validators-0.22.0[${PYTHON_USEDEP}] )
 	requests? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
-	requests? ( dev-python/hishel[${PYTHON_USEDEP}] )
+	requests? ( >=dev-python/hishel-0.0.24[${PYTHON_USEDEP}] )
 	email? ( dev-python/mailgun[${PYTHON_USEDEP}] )
 	sql? ( >=dev-python/sqlalchemy-2.0.27[${PYTHON_USEDEP}] )
 	sql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )

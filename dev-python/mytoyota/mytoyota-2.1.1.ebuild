@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/langcodes[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/hishel[${PYTHON_USEDEP}]"
+	<dev-python/hishel-0.0.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

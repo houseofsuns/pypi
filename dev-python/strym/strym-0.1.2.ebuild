@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A real time CAN data logging and visualization tool to work with USB-CAN Interface. [top-max 0.4.22]"
+DESCRIPTION="A real time CAN data logging and visualization tool to work with USB-CAN Interface. [top-max 0.4.23_alpha0]"
 
 HOMEPAGE="https://github.com/jmscslgroup/strym"
 LICENSE=""

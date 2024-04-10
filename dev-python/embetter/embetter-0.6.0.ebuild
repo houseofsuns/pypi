@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Just a bunch of useful embeddings to get started quickly. [top-max 0.6.1]"
+DESCRIPTION="Just a bunch of useful embeddings to get started quickly. [top-max 0.6.2]"
 
 HOMEPAGE="https://koaning.github.io/embetter/"
 LICENSE=""

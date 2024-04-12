@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple python library for creating Oloren Orchestrator extensions. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fec9f6d5460>)]"
+DESCRIPTION="A simple python library for creating Oloren Orchestrator extensions. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fee9f83ef10>)]"
 
 HOMEPAGE=""
 LICENSE=""

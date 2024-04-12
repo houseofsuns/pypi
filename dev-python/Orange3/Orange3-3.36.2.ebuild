@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/anyqt-0.2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/anyqt[${PYTHON_USEDEP}]
 	dev-python/baycomp[${PYTHON_USEDEP}]
 	>=dev-python/bottleneck-1.3.4[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]

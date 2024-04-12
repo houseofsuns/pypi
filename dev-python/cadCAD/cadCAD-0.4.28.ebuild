@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cadCAD: a differential games based simulation software package for research, validation, and         Computer Aided Design of economic systems [top-max 0.5.1]"
+DESCRIPTION="cadCAD: a differential games based simulation software package for research, validation, and         Computer Aided Design of economic systems [top-max 0.5.2]"
 
 HOMEPAGE="https://github.com/cadCAD-org/cadCAD"
 LICENSE="LICENSE.txt"

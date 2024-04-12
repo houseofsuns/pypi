@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docbuild"
-DEPENDENCIES=">=dev-python/anyqt-0.2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/anyqt[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	>=dev-python/commonmark-0.8.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

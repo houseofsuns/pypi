@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A polyline smoothing package for shapely."
+DESCRIPTION="A polyline smoothing package for shapely. [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/philipschall/shapelysmooth"
 LICENSE="Unlicense"

@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/nox-2022.11.21[${PYTHON_USEDEP}]
 	dev-mkdocs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/mkdocs-macros-plugin-1.0.4[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocs-material-9.3.1[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
 	dev-mypy? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )

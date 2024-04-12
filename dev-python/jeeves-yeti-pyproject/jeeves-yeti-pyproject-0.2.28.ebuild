@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/jeeves-shell[${PYTHON_USEDEP}]
 	dev-python/add-trailing-comma[${PYTHON_USEDEP}]
 	<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}]
-	dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-macros-plugin-0.8.0[${PYTHON_USEDEP}]
 	dev-python/mkdocs-iolanta[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	doc? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/mkdocs-material-9.5.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-macros-plugin-1.0.4[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )

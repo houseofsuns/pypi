@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generating Low-energy 3D Conformers from SMILES/SDF"
+DESCRIPTION="Generating Low-energy 3D Conformers from SMILES/SDF [top-max 2.2.11]"
 
 HOMEPAGE="https://github.com/isayevlab/Auto3D_pkg"
 LICENSE=""

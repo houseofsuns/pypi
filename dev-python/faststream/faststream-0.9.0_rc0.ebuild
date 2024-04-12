@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/fast-depends[${PYTHON_USEDEP}]
 	devdocs? ( >=dev-python/mkdocs-git-revision-date-localized-plugin-1.2.0[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mkdocs-glightbox[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
+	devdocs? ( >=dev-python/mkdocs-macros-plugin-1.0.0[${PYTHON_USEDEP}] )
 	devdocs? ( >=dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	devdocs? ( >=dev-python/mkdocs-static-i18n-1.0.0[${PYTHON_USEDEP}] )
 	devdocs? ( >=dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )

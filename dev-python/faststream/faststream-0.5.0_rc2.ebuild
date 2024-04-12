@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	devdocs? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.2.4[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mkdocs-glightbox[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
+	devdocs? ( ~dev-python/mkdocs-macros-plugin-1.0.5[${PYTHON_USEDEP}] )
 	devdocs? ( ~dev-python/mkdocs-material-9.5.17[${PYTHON_USEDEP}] )
 	devdocs? ( ~dev-python/mkdocs-minify-plugin-0.8.0[${PYTHON_USEDEP}] )
 	devdocs? ( ~dev-python/mkdocs-static-i18n-1.2.2[${PYTHON_USEDEP}] )

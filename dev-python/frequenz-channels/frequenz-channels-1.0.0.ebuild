@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-mkdocs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/mkdocs-macros-plugin-1.0.5[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocs-material-9.5.17[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocstrings-0.24.1[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/pymdownx-superfence-filter-lines[${PYTHON_USEDEP}] )

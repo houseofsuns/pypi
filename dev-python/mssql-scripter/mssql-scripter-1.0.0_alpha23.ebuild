@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.29.0[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

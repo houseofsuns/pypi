@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/twine-4.0.2[${PYTHON_USEDEP}]
-	>=dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/bullet[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]

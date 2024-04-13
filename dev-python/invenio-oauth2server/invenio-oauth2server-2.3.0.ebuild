@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES=">=dev-python/cachelib-0.1[${PYTHON_USEDEP}]
 	dev-python/Flask-OAuthlib[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/invenio-accounts[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]

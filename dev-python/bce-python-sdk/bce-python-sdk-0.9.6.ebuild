@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pycryptodome-3.8.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.6.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

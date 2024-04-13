@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/black-23.1.0[${PYTHON_USEDEP}]
 	dev-python/compactify[${PYTHON_USEDEP}]
 	dev-python/rmspace[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.11.0[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

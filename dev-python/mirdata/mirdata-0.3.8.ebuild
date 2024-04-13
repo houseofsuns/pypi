@@ -59,7 +59,7 @@ DEPENDENCIES=">=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/pytest-mock-1.10.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-localserver-0.5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/future-0.17.1[${PYTHON_USEDEP}] )
+	tests? ( dev-python/future[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-chardet[${PYTHON_USEDEP}] )

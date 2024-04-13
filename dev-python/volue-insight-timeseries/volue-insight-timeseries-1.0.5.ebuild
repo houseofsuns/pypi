@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
-	~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	~dev-python/certifi-2024.2.2[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]

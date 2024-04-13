@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/attrs-16.3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.11.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.2.1[${PYTHON_USEDEP}]

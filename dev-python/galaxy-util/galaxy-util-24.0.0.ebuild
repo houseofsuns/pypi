@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/zipstream-new[${PYTHON_USEDEP}]
 	jstree? ( dev-python/dictobj[${PYTHON_USEDEP}] )
 	template? ( dev-python/cheetah3[${PYTHON_USEDEP}] )
-	template? ( >=dev-python/future-1.0.0[${PYTHON_USEDEP}] )"
+	template? ( dev-python/future[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

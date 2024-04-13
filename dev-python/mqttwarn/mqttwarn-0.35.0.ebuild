@@ -27,7 +27,7 @@ IUSE="all amqp apns apprise asterisk celery chromecast contrib desktopnotify dev
 DEPENDENCIES="<dev-python/attrs-23.0[${PYTHON_USEDEP}]
 	<dev-python/docopt-1.0[${PYTHON_USEDEP}]
 	<dev-python/funcy-3.0[${PYTHON_USEDEP}]
-	<dev-python/future-1.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/paho-mqtt-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]

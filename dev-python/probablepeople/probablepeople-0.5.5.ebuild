@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/python-crfsuite[${PYTHON_USEDEP}]
 	dev-python/probableparsing[${PYTHON_USEDEP}]
-	>=dev-python/future-0.14[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/DoubleMetaphone[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

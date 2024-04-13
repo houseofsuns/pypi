@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/scp[${PYTHON_USEDEP}]
-	~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/cachetools-4.2.1[${PYTHON_USEDEP}]
 	~dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/attrs-20.4.0[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
-	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/humanfriendly-9.2[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-3.3.0[${PYTHON_USEDEP}]
 	<dev-python/pathlib2-2.4.0[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="arctic arcticdb dash-bio r redis streamlit swifter tests"
 DEPENDENCIES="dev-python/dash_colorscales[${PYTHON_USEDEP}]
 	dev-python/dash-daq[${PYTHON_USEDEP}]
 	dev-python/flask-compress[${PYTHON_USEDEP}]
-	>=dev-python/future-0.14.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/missingno[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

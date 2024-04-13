@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/argh-0.26[${PYTHON_USEDEP}]
 	~dev-python/black-24.2[${PYTHON_USEDEP}]
-	>=dev-python/future-0.14[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/github3-py-1.1[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-0.12[${PYTHON_USEDEP}]
 	>=dev-python/jinja-2.7[${PYTHON_USEDEP}]

@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/bottle-0.12.25[${PYTHON_USEDEP}]
 	~dev-python/zope-event-4.6[${PYTHON_USEDEP}]
 	~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	~dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]
 	~dev-python/zope-interface-6.0[${PYTHON_USEDEP}]"

@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="~dev-python/annotated-types-0.5.0[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/asteval-0.9.31[${PYTHON_USEDEP}]
-	~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	dev-python/brightway25[${PYTHON_USEDEP}]
 	dev-python/bw-migrations[${PYTHON_USEDEP}]
 	dev-python/bw-processing[${PYTHON_USEDEP}]

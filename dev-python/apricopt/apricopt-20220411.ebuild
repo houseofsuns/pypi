@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	dev-python/chaospy[${PYTHON_USEDEP}]
 	~dev-python/cycler-0.10.0[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]

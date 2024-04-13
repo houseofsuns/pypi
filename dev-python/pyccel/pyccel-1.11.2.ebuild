@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/filelock-3.4.0[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.2[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/textX-2.2[${PYTHON_USEDEP}]
-	test? ( >=dev-python/astunparse-1.6.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-1.16[${PYTHON_USEDEP}] )

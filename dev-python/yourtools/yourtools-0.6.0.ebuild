@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-40.0.1[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/PyHive[${PYTHON_USEDEP}]

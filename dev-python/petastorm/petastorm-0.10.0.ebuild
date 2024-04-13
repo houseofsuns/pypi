@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs opencv s3fs test tf tf_gpu torch"
 DEPENDENCIES=">=dev-python/dill-0.2.1[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.10.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	>=dev-python/packaging-15.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.19.0[${PYTHON_USEDEP}]

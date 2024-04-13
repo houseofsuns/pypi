@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/astunparse-1.6.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/astunparse[${PYTHON_USEDEP}]
 	>=dev-python/gast-0.3.3[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
 	dev-python/nvidia-nvimgcodec-cu12[${PYTHON_USEDEP}]"

@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev-python/clique[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-1.0[${PYTHON_USEDEP}]
-	<dev-python/future-1.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

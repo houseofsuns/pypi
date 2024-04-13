@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/sasl[${PYTHON_USEDEP}]
 	~dev-python/crcmod-1.7[${PYTHON_USEDEP}]
 	~dev-python/thrift-0.15.0[${PYTHON_USEDEP}]

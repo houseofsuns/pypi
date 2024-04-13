@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/setuptools-38.5[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/packaging-17.1[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]

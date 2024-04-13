@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pyasn1-0.4.7[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	>=dev-python/jinja-2.10.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]"
+	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

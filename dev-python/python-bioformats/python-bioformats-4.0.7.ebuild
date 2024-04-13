@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES=">=dev-python/boto3-1.14.23[${PYTHON_USEDEP}]
-	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/python-javabridge[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

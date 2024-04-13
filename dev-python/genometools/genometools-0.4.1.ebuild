@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="<dev-python/six-2.0[${PYTHON_USEDEP}]
-	<dev-python/future-1.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-1.0[${PYTHON_USEDEP}]

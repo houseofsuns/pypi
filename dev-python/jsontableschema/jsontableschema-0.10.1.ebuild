@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
 DEPENDENCIES="<dev-python/click-7.0[${PYTHON_USEDEP}]
-	<dev-python/future-1.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/isodate-1.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]

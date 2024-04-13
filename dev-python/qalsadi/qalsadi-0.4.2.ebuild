@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pickleDB[${PYTHON_USEDEP}]
 	dev-python/alyahmor[${PYTHON_USEDEP}]
 	dev-python/libqutrub[${PYTHON_USEDEP}]

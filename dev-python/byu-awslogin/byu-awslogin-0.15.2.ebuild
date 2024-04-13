@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0[${PYTHON_USEDEP}]
-	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]

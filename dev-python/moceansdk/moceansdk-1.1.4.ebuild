@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/requests-2.32[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.14[${PYTHON_USEDEP}]
 	dev-python/dotmap[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	test? ( <dev-python/requests-mock-1.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

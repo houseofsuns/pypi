@@ -148,7 +148,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/fonttools-4.40.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/fqdn-1.5.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/future-0.18.3[${PYTHON_USEDEP}] )
+	tests? ( dev-python/future[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}] )
 	tests? ( dev-python/gunicorn[${PYTHON_USEDEP}] )

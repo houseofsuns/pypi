@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/jpeg4py[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-0.21.1[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
-	~dev-python/future-0.17.1[${PYTHON_USEDEP}]"
+	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

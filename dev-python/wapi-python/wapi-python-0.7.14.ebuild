@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.21[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16[${PYTHON_USEDEP}]"
+	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

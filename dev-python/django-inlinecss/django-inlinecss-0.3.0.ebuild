@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="flake8 tests"
 DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	dev-python/pynliner[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	flake8? ( ~dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	flake8? ( ~dev-python/isort-4.3.4[${PYTHON_USEDEP}] )

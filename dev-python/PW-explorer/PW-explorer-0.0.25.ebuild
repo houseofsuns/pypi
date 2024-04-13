@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/antlr4-python3-runtime-4.7.1[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.1.2[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]

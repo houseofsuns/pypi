@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/future-0.15.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/six-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	dev-python/PyMPL[${PYTHON_USEDEP}]

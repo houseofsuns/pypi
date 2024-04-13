@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/certifi-2020.4.5.2[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/h11-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/h2-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/hpack-3.0.0[${PYTHON_USEDEP}]

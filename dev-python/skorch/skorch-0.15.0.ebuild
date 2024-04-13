@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	testing? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	testing? ( dev-python/fire[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/future-0.17.1[${PYTHON_USEDEP}] )
+	testing? ( dev-python/future[${PYTHON_USEDEP}] )
 	testing? ( dev-python/gpytorch[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}] )

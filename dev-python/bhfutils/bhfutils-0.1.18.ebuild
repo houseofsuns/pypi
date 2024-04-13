@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/python-json-logger-0.1.8[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	>=dev-python/testfixtures-6.18.3[${PYTHON_USEDEP}]
 	>=dev-python/ujson-4.3.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	all? ( ~dev-python/python-json-logger-0.1.8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/redis-4.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/kazoo[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/python-json-logger-0.1.8[${PYTHON_USEDEP}]
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/testfixtures-6.18.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ujson-4.3.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/future-0.18.2[${PYTHON_USEDEP}] )
+	all? ( dev-python/future[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/testfixtures-4.13.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

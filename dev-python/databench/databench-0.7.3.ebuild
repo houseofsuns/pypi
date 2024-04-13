@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES=">=dev-python/docutils-0.12[${PYTHON_USEDEP}]
-	>=dev-python/future-0.15[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.6.5[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-4.3.1[${PYTHON_USEDEP}]

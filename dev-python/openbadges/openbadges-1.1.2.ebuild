@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="server"
 DEPENDENCIES=">=dev-python/aniso8601-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/click-6.7[${PYTHON_USEDEP}]
-	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	dev-python/language-tags[${PYTHON_USEDEP}]
 	dev-python/openbadges-bakery[${PYTHON_USEDEP}]

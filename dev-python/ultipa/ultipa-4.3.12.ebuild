@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/grpcio-1.57.0[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.7[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/parse-1.6.6[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/werkzeug-0.16.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-restplus[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/future-0.18.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/future[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-junit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )

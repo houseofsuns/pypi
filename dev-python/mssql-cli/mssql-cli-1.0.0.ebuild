@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/click-7.1[${PYTHON_USEDEP}]
 	>=dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	<dev-python/cli-helpers-1.0.0[${PYTHON_USEDEP}]
 	dev-python/applicationinsights[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.29.0[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

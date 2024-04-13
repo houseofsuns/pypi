@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tox"
 DEPENDENCIES="<dev-python/cherrypy-17.0[${PYTHON_USEDEP}]
 	>=dev-python/jinja-2.6[${PYTHON_USEDEP}]
-	>=dev-python/future-0.15.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/psutil-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/Babel-0.9.6[${PYTHON_USEDEP}]
 	dev-python/python-ldap[${PYTHON_USEDEP}]

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/gmpy2[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	dev-python/music21[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/customtkinter[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/absl-py-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
-	~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	~dev-python/Babel-2.10.1[${PYTHON_USEDEP}]
 	~dev-python/bleach-5.0.0[${PYTHON_USEDEP}]

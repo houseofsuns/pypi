@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/gast-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.33.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

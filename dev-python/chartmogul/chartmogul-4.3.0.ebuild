@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	<=dev-python/urllib3-2.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

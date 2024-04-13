@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/ubelt-1.2.4[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}]
-	>=dev-python/astunparse-1.6.1[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	dev-python/pygtrie[${PYTHON_USEDEP}]
 	dev-python/scriptconfig[${PYTHON_USEDEP}]
 	dev-python/kwarray[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/ubelt-1.2.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/parse-1.12.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/astunparse-1.6.1[${PYTHON_USEDEP}] )
+	all? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygtrie[${PYTHON_USEDEP}] )
 	all? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwarray[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/ubelt-1.2.4[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/parse-1.12.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/astunparse-1.6.1[${PYTHON_USEDEP}] )
+	all-strict? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/pygtrie[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwarray[${PYTHON_USEDEP}] )
@@ -160,7 +160,7 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	runtime-strict? ( ~dev-python/ubelt-1.2.4[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/parse-1.12.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/astunparse-1.6.1[${PYTHON_USEDEP}] )
+	runtime-strict? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/pygtrie[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/kwarray[${PYTHON_USEDEP}] )

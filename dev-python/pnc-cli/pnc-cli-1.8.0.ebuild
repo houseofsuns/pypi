@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/argh-0.26.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.10[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-1.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

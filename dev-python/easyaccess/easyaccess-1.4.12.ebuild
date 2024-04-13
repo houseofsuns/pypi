@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pandas-0.14[${PYTHON_USEDEP}]
 	~dev-python/fitsio-1.1.8[${PYTHON_USEDEP}]
 	dev-python/cx-Oracle[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
-	>=dev-python/future-0.15.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

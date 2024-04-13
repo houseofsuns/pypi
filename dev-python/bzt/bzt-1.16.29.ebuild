@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/astunparse-1.6.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/astunparse[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/cssselect[${PYTHON_USEDEP}]
 	dev-python/fuzzyset2[${PYTHON_USEDEP}]

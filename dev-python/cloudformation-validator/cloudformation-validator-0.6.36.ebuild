@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/boto3-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.2.8[${PYTHON_USEDEP}]
 	>=dev-python/pykwalify-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/schema-0.6.8[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

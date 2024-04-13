@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/baidu-aip[${PYTHON_USEDEP}]
 	~dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-2.0.6[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/idna-3.2[${PYTHON_USEDEP}]
 	~dev-python/iso8601-0.1.16[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.1.0[${PYTHON_USEDEP}]

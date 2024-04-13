@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pip-18.1[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.15.35[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.5.27[${PYTHON_USEDEP}]
 	dev-python/logging-helper[${PYTHON_USEDEP}]

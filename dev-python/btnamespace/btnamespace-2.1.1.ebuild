@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/future-0.18.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	>=dev-python/braintree-3.46.0[${PYTHON_USEDEP}]"

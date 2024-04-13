@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hassle-free computation of shareable, comparable, and reproducible BLEU, chrF, and TER scores"
+DESCRIPTION="Hassle-free computation of shareable, comparable, and reproducible BLEU, chrF, and TER scores [top-max 2.4.2]"
 
 HOMEPAGE="https://github.com/mjpost/sacrebleu"
 LICENSE="Apache-2.0"

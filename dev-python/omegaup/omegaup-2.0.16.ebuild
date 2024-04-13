@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	testing? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
+	testing? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )

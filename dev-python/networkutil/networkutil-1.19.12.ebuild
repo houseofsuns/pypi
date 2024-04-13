@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
 	dev-python/pydnserver[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-0.52.0[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/fdutil[${PYTHON_USEDEP}]
 	sniffer? ( dev-python/pcapy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

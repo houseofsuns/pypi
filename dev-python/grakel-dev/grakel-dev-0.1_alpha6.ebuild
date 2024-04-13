@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.27.3[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.19[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	lovasz? ( >=dev-python/cvxopt-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

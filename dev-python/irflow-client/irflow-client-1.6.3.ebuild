@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/certifi-2019.6.16[${PYTHON_USEDEP}]
 	dev? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/docutils-0.14[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/future-0.16.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/future[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/idna-2.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/more-itertools-4.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )

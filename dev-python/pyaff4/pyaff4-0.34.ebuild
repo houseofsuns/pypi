@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cloud"
-DEPENDENCIES="~dev-python/future-0.17.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/aff4-snappy[${PYTHON_USEDEP}]
 	~dev-python/rdflib-4.2.2[${PYTHON_USEDEP}]
 	~dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]

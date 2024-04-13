@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="webview webview_gtk"
 DEPENDENCIES="~dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
-	~dev-python/future-0.18[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pandastable[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/pywebview[${PYTHON_USEDEP}]

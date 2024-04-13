@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
 	dev-python/invenio-accounts[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/future-0.18.2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/future[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-access[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-admin[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )

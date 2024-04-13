@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp"
 DEPENDENCIES=">=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
-	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/ujson-3.0[${PYTHON_USEDEP}]
 	aiohttp? ( ~dev-python/aiohttp-3.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

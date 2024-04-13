@@ -31,7 +31,7 @@ DEPENDENCIES="django? ( >=dev-python/django-1.11.1[${PYTHON_USEDEP}] )
 	dev-python/bkapi-client-core[${PYTHON_USEDEP}]
 	cryptography? ( >=dev-python/cryptography-3.1.1[${PYTHON_USEDEP}] )
 	demo? ( dev-python/django-environ[${PYTHON_USEDEP}] )
-	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	cryptography? ( >=dev-python/pyjwt-1.6.4[${PYTHON_USEDEP}] )

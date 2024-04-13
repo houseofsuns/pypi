@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/cryptography-2.8[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
-	~dev-python/future-0.17.1[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	dev-python/imblearn[${PYTHON_USEDEP}]

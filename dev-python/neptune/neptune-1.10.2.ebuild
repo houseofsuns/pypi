@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/GitPython-2.0.8[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.28.0[${PYTHON_USEDEP}]
 	dev-python/bravado[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	kedro? ( dev-python/kedro-neptune[${PYTHON_USEDEP}] )
 	mosaicml? ( dev-python/mosaicml[${PYTHON_USEDEP}] )
 	airflow? ( dev-python/neptune-airflow[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc metrics test"
 DEPENDENCIES="<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
-	<dev-python/future-0.18[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pyaml-20.0[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aio all doc image test"
 DEPENDENCIES="~dev-python/ruamel-yaml-0.14[${PYTHON_USEDEP}]
-	<dev-python/future-1.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/maya[${PYTHON_USEDEP}]
 	>=dev-python/tornado-4.5[${PYTHON_USEDEP}]
 	~dev-python/xxhash-1.3[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="~dev-python/future-0.17[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/ConfigArgParse-0.14[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	~dev-python/flask-1.0[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.1[${PYTHON_USEDEP}]
-	>=dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

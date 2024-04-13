@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/jinja-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-0.53.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.7.1[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

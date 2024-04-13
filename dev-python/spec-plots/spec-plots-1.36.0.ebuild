@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
-	>=dev-python/future-0.18.3[${PYTHON_USEDEP}]"
+	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	test? ( ~dev-python/docutils-0.14[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/entrypoints-0.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/future-0.16.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/future[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/idna-2.8[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/imagesize-1.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )

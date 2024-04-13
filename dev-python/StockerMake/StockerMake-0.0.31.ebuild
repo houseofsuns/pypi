@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/absl-py-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	dev-python/alpha-vantage[${PYTHON_USEDEP}]
-	~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	~dev-python/cachetools-4.1.0[${PYTHON_USEDEP}]

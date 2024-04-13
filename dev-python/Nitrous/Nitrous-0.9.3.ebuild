@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/cherrypy-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/genshi-0.4.4[${PYTHON_USEDEP}]
 	dev-python/TGScheduler[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.0.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

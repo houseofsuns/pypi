@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/xnat[${PYTHON_USEDEP}]
 	>=dev-python/progressbar2-3.16.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16[${PYTHON_USEDEP}]"
+	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

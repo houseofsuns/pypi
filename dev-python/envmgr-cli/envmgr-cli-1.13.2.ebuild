@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.11.1[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]
-	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/semver-2.7.7[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	~dev-python/progressbar2-3.30.2[${PYTHON_USEDEP}]

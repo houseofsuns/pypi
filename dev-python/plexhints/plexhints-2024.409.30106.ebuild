@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
-	~dev-python/future-1.0.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.4[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.19.2[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]

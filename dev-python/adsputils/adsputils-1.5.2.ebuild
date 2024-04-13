@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/adsmsg[${PYTHON_USEDEP}]
 	<dev-python/setuptools-45.0[${PYTHON_USEDEP}]
 	~dev-python/unidecode-0.4.21[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]"
+	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

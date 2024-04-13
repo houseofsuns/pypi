@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="development docs testing"
 DEPENDENCIES=">=dev-python/cssutils-1.0.2[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
 	development? ( >=dev-python/sphinx-1.3.3[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/tox-2.3.1[${PYTHON_USEDEP}] )

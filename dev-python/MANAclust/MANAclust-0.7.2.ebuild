@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multi Affinity Network Association"
+DESCRIPTION="Multi Affinity Network Association [top-max 0.7.3]"
 
 HOMEPAGE="https://scottyler892@bitbucket.org/scottyler892/manaclust"
 LICENSE=""

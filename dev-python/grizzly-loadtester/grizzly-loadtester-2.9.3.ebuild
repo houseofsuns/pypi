@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/locust[${PYTHON_USEDEP}]
 	ci? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
 	ci? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )

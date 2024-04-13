@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/pyzmq-18.1.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
 	~dev-python/croniter-0.3.10[${PYTHON_USEDEP}]
-	~dev-python/future-0.15.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.6.6[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-1.5.2[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )

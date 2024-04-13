@@ -50,6 +50,6 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/PyMca5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/fisx[${PYTHON_USEDEP}]
-	<=dev-python/future-0.18.3[${PYTHON_USEDEP}]"
+	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

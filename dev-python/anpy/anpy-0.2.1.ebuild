@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pathlib[${PYTHON_USEDEP}]
 	<dev-python/mistune-0.9[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	<dev-python/attrs-19.2[${PYTHON_USEDEP}]
-	<dev-python/future-0.17[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/lawfactory-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

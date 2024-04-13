@@ -27,7 +27,7 @@ IUSE="all"
 DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/aplus[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
-	>=dev-python/future-0.15.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

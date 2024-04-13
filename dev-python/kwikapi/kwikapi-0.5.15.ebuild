@@ -27,7 +27,7 @@ IUSE="all django tornado"
 DEPENDENCIES="dev-python/msgpack-python[${PYTHON_USEDEP}]
 	dev-python/deeputil[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
-	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	all? ( dev-python/kwikapi-django[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwikapi-tornado[${PYTHON_USEDEP}] )

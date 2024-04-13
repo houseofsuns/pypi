@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dk6 examples oscca tp"
 DEPENDENCIES="<dev-python/asn1crypto-1.6[${PYTHON_USEDEP}]
-	<dev-python/astunparse-1.7[${PYTHON_USEDEP}]
+	dev-python/astunparse[${PYTHON_USEDEP}]
 	<dev-python/bincopy-20.1[${PYTHON_USEDEP}]
 	<dev-python/bitstring-4.2[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]

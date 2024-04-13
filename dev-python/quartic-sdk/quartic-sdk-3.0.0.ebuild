@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/executing-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}]
-	~dev-python/future-1.0.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/gherkin-official[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.15.0[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
@@ -184,7 +184,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/executing-1.2.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}] )
-	complete? ( ~dev-python/future-1.0.0[${PYTHON_USEDEP}] )
+	complete? ( dev-python/future[${PYTHON_USEDEP}] )
 	complete? ( dev-python/gherkin-official[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/google-auth-2.15.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
@@ -275,7 +275,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/yarl-1.8.2[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/zipp-3.17.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/absl-py-2.1.0[${PYTHON_USEDEP}] )
-	complete? ( ~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
+	complete? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/flatbuffers-2.0.7[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/gast-0.4.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/google-pasta-0.2.0[${PYTHON_USEDEP}] )

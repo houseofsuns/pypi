@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/certifi-2017.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.0[${PYTHON_USEDEP}]

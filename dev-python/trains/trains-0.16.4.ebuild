@@ -27,7 +27,7 @@ IUSE="azure gs s3"
 DEPENDENCIES=">=dev-python/attrs-18.0[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/humanfriendly-2.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/sphinx-1.6.2[${PYTHON_USEDEP}]
 	~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-4.2_beta1[${PYTHON_USEDEP}]
 	dev-python/dictdiffer[${PYTHON_USEDEP}]
-	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/avro-python3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

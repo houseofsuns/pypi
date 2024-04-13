@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/flask-replicated[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/hvac-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
@@ -199,7 +199,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/freezegun-1.3.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/future-0.18.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/future[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
@@ -411,7 +411,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/freezegun-1.3.1[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/future-0.18.3[${PYTHON_USEDEP}] )
+	docs? ( dev-python/future[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
@@ -614,7 +614,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/freezegun-1.3.1[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/future-0.18.3[${PYTHON_USEDEP}] )
+	tests? ( dev-python/future[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}] )
 	tests? ( dev-python/graphql-core[${PYTHON_USEDEP}] )

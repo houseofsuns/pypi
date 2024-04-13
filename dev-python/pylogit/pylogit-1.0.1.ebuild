@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-0.16.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.10.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.16.1[${PYTHON_USEDEP}]
-	>=dev-python/future-0.16[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

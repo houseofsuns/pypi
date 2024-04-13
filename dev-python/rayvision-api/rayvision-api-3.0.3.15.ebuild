@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	~dev-python/cattrs-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/tenacity-7.0.0[${PYTHON_USEDEP}]
-	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/rayvision-log[${PYTHON_USEDEP}]"

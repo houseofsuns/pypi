@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.32[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/yacs[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-concurrency-4.2.0[${PYTHON_USEDEP}]"

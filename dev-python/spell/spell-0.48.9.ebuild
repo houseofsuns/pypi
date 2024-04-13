@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cluster-aws cluster-azure cluster-gcp dev serving test"
 DEPENDENCIES=">=dev-python/GitPython-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.14.0[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]

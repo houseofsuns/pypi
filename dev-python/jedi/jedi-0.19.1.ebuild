@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/parso-0.9.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/chardet-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/commonmark-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/future-0.18.2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/future[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/idna-2.10[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/imagesize-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mock-1.0.1[${PYTHON_USEDEP}] )

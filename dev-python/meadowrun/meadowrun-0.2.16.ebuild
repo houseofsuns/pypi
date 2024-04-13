@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/chardet-4.1[${PYTHON_USEDEP}]
 	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
-	<dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

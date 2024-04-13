@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/python-snappy-0.5.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.1.0[${PYTHON_USEDEP}]
-	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

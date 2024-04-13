@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	dev-python/bsddb3[${PYTHON_USEDEP}]
-	>=dev-python/future-0.15.2[${PYTHON_USEDEP}]
+	dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rdflib-sqlalchemy[${PYTHON_USEDEP}]
 	<dev-python/rdflib-5.0.0[${PYTHON_USEDEP}]

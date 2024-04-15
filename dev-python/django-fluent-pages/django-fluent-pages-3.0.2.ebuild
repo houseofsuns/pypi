@@ -27,7 +27,7 @@ IUSE="flatpage fluentpage redirectnode tests"
 DEPENDENCIES="dev-python/django-fluent-utils[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
-	>=dev-python/django_polymorphic-2.1.2[${PYTHON_USEDEP}]
+	dev-python/django_polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-polymorphic-tree[${PYTHON_USEDEP}]
 	dev-python/django-slug-preview[${PYTHON_USEDEP}]
 	dev-python/django-tag-parser[${PYTHON_USEDEP}]

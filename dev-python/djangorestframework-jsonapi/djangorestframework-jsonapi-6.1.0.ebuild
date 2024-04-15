@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.13[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.0[${PYTHON_USEDEP}]
 	django-filter? ( >=dev-python/django-filter-2.4[${PYTHON_USEDEP}] )
-	django-polymorphic? ( >=dev-python/django_polymorphic-3.0[${PYTHON_USEDEP}] )
+	django-polymorphic? ( dev-python/django_polymorphic[${PYTHON_USEDEP}] )
 	openapi? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
 	openapi? ( >=dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

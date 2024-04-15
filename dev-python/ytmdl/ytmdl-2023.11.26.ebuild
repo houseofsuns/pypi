@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Youtube Music Downloader"
+DESCRIPTION="Youtube Music Downloader [top-max 2024.4.14]"
 
 HOMEPAGE="https://github.com/deepjyoti30/ytmdl"
 LICENSE=""

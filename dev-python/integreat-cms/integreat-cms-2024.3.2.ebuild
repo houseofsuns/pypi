@@ -121,7 +121,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/django-debug-toolbar-4.3.0[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-import-export[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-linkcheck[${PYTHON_USEDEP}] )
-	pinned? ( ~dev-python/django_polymorphic-3.1.0[${PYTHON_USEDEP}] )
+	pinned? ( dev-python/django_polymorphic[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/django-redis-5.4.0[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-treebeard[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-webpack-loader[${PYTHON_USEDEP}] )

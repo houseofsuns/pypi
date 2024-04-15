@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="compression for very small strings"
+DESCRIPTION="compression for very small strings [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/synodriver/pysmaz"
 LICENSE="BSD"

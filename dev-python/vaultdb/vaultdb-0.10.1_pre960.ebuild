@@ -16,8 +16,8 @@ DESCRIPTION="VaultDB embedded database [wheel]"
 
 HOMEPAGE="http://www.vaultdb.ai"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-macosx_10_9_universal2.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-macosx_10_9_universal2.whl"
 RESTRICT="test"
 
 SLOT="0"

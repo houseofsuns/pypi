@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Z.Ai official client SDK. [top-max 4.1.1]"
+DESCRIPTION="Z.Ai official client SDK. [top-max 4.2.0]"
 
 HOMEPAGE="https://github.com/zaikorea/zaiclient-python"
 LICENSE="Proprietary"

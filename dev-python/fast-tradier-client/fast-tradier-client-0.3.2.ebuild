@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Tradier client for trading stocks and options through Tradier API"
+DESCRIPTION="A Tradier client for trading stocks and options through Tradier API [top-max 0.3.3]"
 
 HOMEPAGE="https://pypi.org/project/fast-tradier-client/"
 LICENSE=""

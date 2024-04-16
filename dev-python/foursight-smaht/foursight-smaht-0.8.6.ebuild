@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Serverless Chalice Application for Monitoring"
+DESCRIPTION="Serverless Chalice Application for Monitoring [top-max 0.8.6.1_beta1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

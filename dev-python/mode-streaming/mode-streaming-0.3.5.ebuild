@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AsyncIO Service-based programming. [top-max 0.4.0]"
+DESCRIPTION="AsyncIO Service-based programming. [top-max 0.4.1]"
 
 HOMEPAGE="https://github.com/faust-streaming/mode"
 LICENSE="BSD"

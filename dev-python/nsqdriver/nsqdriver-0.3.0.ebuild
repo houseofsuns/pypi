@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Naishu Q series quantum measurement and control equipment driver interface [top-max 0.5.4]"
+DESCRIPTION="Naishu Q series quantum measurement and control equipment driver interface [top-max 0.5.6]"
 
 HOMEPAGE="https://g2hoyqcmh4.feishu.cn/wiki/wikcnzvyMd82DLZUe2NsI6HxsFc"
 LICENSE=""

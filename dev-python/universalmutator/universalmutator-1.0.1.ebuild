@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Universal regexp-based mutation tool [top-max 1.1.9]"
+DESCRIPTION="Universal regexp-based mutation tool [top-max 1.1.10]"
 
 HOMEPAGE="https://github.com/agroce/universalmutator"
 LICENSE="MIT"

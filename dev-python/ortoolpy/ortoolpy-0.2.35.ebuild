@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`ortoolpy\` is a package for Operations Research. [top-max 0.6.4]"
+DESCRIPTION="\`ortoolpy\` is a package for Operations Research. [top-max 0.7.0]"
 
 HOMEPAGE="https://github.com/SaitoTsutomu/ortoolpy"
 LICENSE=""

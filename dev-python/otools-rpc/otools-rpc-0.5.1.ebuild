@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool to interact with Odoo's external API."
+DESCRIPTION="A tool to interact with Odoo's external API. [top-max 0.5.2]"
 
 HOMEPAGE="https://github.com/MrFaBemol/otools-rpc"
 LICENSE="MIT"

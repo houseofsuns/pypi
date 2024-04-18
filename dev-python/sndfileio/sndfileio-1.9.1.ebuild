@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple API for reading / writing soundfiles [top-max 1.9.4]"
+DESCRIPTION="Simple API for reading / writing soundfiles [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/gesellkammer/sndfileio"
 LICENSE="LGPL-3"

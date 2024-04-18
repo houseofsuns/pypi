@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Integrated registry of biological databases and nomenclatures"
+DESCRIPTION="Integrated registry of biological databases and nomenclatures [top-max 0.10.204]"
 
 HOMEPAGE="https://github.com/biopragmatics/bioregistry"
 LICENSE="MIT"

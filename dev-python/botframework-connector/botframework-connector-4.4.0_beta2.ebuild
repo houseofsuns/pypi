@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Microsoft Bot Framework Bot Builder SDK for Python. [top-max 4.14.8]"
+DESCRIPTION="Microsoft Bot Framework Bot Builder SDK for Python. [top-max 4.15.0]"
 
 HOMEPAGE="https://www.github.com/Microsoft/botbuilder-python"
 LICENSE="MIT"

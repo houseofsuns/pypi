@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="All-in-one text deduplication"
+DESCRIPTION="All-in-one text deduplication [top-max 0.4.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

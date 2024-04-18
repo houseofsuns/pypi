@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simpler interface to the Debian/Ubuntu APT command-line tools."
+DESCRIPTION="A simpler interface to the Debian/Ubuntu APT command-line tools. [top-max 1.19]"
 
 HOMEPAGE="https://github.com/mixmastamyk/apt-wrapper"
 LICENSE="GPL-3"

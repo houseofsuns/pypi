@@ -27,7 +27,7 @@ IUSE="all bigquery cohere databricks dev mysql openai polars postgresql redshift
 DEPENDENCIES=">=dev-python/cachetools-5.3.1[${PYTHON_USEDEP}]
 	<dev-python/cattrs-24.0[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	>=dev-python/dataclasses-json-0.5.7[${PYTHON_USEDEP}]
 	<dev-python/executing-3.0[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-8.0.6[${PYTHON_USEDEP}]
 	<dev-python/isodate-0.7[${PYTHON_USEDEP}]

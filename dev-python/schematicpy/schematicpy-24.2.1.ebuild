@@ -53,7 +53,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pandarallel[${PYTHON_USEDEP}]
 	<dev-python/pyopenssl-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	<dev-python/dataclasses-json-0.7.0[${PYTHON_USEDEP}]
 	dev-python/schematic_db[${PYTHON_USEDEP}]
 	api? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	api? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )

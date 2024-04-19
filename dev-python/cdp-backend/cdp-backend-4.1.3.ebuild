@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs functions lint pipeline test"
 DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.2[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	>=dev-python/dataclasses-json-0.5[${PYTHON_USEDEP}]
 	dev-python/fireo[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]

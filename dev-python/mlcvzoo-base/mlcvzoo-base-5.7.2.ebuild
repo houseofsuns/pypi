@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/attrs-20.0[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	>=dev-python/dataclasses-json-0.5[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.0[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.9[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]

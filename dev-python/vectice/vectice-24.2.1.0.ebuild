@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	~dev-python/dataclasses-json-0.5.8[${PYTHON_USEDEP}]
 	autolog? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	autolog? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.2.0[${PYTHON_USEDEP}] )

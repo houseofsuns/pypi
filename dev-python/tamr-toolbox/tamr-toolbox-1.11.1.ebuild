@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="address-validation all gcs pandas s3 slack ssh testing translation"
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dataclasses-json-0.5.6[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22[${PYTHON_USEDEP}]

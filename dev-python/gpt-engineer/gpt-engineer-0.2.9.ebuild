@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dataclasses-json-0.5.7[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/langchain-anthropic[${PYTHON_USEDEP}]

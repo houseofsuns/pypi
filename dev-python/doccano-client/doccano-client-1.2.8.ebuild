@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="al spacy whisper"
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]
 	whisper? ( <dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}] )
 	al? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]

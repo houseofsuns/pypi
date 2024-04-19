@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	extended-testing? ( >=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/databricks-vectorsearch[${PYTHON_USEDEP}] )
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	<dev-python/dataclasses-json-0.7[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/dgml-utils[${PYTHON_USEDEP}] )
 	extended-testing? ( <dev-python/elasticsearch-9.0.0[${PYTHON_USEDEP}] )

@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	llms? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	all? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	all? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	llms? ( dev-python/cohere[${PYTHON_USEDEP}] )

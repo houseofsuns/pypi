@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dataclasses-json-0.4.5[${PYTHON_USEDEP}]
 	<=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
 	<dev-python/docker-7.0[${PYTHON_USEDEP}]
 	<=dev-python/requests-3.0[${PYTHON_USEDEP}]

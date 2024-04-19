@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/flake8-6.2[${PYTHON_USEDEP}]
 	dev-python/flake8-json[${PYTHON_USEDEP}]
 	<dev-python/pylint-3.0[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	~dev-python/dataclasses-json-0.5.7[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]

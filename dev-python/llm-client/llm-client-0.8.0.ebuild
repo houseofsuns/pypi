@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all anthropic api google huggingface local openai sync test"
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	>=dev-python/dataclasses-json-0.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/llm-client[${PYTHON_USEDEP}] )
 	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	api? ( dev-python/llm-client[${PYTHON_USEDEP}] )

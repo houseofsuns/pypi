@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/cellxgene-census[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	~dev-python/dataclasses-json-0.6.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.6[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]

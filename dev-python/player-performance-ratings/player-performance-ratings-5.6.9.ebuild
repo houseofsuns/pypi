@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dataclasses-json-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]

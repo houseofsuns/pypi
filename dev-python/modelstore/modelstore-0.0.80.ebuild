@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dataclasses-json-0.5.7[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.11[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]

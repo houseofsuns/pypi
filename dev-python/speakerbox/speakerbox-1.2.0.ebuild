@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs example_data lint test"
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dataclasses-json-0.5[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5[${PYTHON_USEDEP}]

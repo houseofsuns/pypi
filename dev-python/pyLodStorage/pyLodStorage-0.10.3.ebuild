@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	>=dev-python/dataclasses-json-0.6.3[${PYTHON_USEDEP}]
 	dev-python/dicttoxml2[${PYTHON_USEDEP}]
 	~dev-python/jsonpickle-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]

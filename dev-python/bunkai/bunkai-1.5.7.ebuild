@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lb train"
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dataclasses-json-0.5.2[${PYTHON_USEDEP}]
 	dev-python/Janome[${PYTHON_USEDEP}]
 	train? ( dev-python/seqeval[${PYTHON_USEDEP}] )
 	dev-python/Spans[${PYTHON_USEDEP}]

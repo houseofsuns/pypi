@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dataclasses-json-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.2[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.28[${PYTHON_USEDEP}]
 	<dev-python/h2-5.0[${PYTHON_USEDEP}]

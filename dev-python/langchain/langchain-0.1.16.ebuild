@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/couchbase[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/dashvector[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/databricks-vectorsearch[${PYTHON_USEDEP}] )
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	<dev-python/dataclasses-json-0.7[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/dgml-utils[${PYTHON_USEDEP}] )
 	docarray? ( dev-python/docarray[${PYTHON_USEDEP}] )

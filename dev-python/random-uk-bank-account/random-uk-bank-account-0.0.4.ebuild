@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	>=dev-python/dataclasses-json-0.5.2[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.4[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

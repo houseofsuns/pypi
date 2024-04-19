@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/dataclasses-json[${PYTHON_USEDEP}]
+	>=dev-python/dataclasses-json-0.6.3[${PYTHON_USEDEP}]
 	dev-python/nicegui[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.10[${PYTHON_USEDEP}]

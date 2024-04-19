@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Basic and essential code building blocks of all pythons [top-max 0.12.0]"
+DESCRIPTION="Basic and essential code building blocks of all pythons [top-max 0.13.0]"
 
 HOMEPAGE="https://gitlab.mpcdf.mpg.de/dboe/rna"
 LICENSE="MIT"

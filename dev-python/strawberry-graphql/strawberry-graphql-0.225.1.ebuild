@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for creating GraphQL APIs [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f13fdd39b60>)]"
+DESCRIPTION="A library for creating GraphQL APIs [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f53eb8d05f0>)]"
 
 HOMEPAGE="https://strawberry.rocks/"
 LICENSE="MIT"

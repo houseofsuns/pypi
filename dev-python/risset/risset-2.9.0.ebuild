@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package manager for csound"
+DESCRIPTION="A package manager for csound [top-max 2.9.1]"
 
 HOMEPAGE="https://github.com/csound-plugins/risset"
 LICENSE=""

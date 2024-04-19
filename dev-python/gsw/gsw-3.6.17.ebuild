@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gibbs Seawater Oceanographic Package of TEOS-10"
+DESCRIPTION="Gibbs Seawater Oceanographic Package of TEOS-10 [top-max 3.6.17_p1]"
 
 HOMEPAGE="https://www.teos-10.org/"
 LICENSE="BSD"

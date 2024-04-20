@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="azure nexus"
 DEPENDENCIES="dev-python/adapta[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.7.0[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-3.16[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	nexus? ( dev-python/injector[${PYTHON_USEDEP}] )

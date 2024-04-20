@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-36.1[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-7.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.7[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/limits[${PYTHON_USEDEP}]
 	storage? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	storage? ( dev-python/deltalake[${PYTHON_USEDEP}] )

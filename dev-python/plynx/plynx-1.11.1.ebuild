@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	>=dev-python/dataclasses-json-0.5.7[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/google-api-python-client-2.77.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-2.16.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )

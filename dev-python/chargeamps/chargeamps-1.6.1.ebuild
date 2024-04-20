@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/isoduration-21.0.0[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="~dev-python/requests-2.26[${PYTHON_USEDEP}]
-	~dev-python/dataclasses-json-0.5.5[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]

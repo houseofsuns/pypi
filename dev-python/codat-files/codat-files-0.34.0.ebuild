@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	>=dev-python/charset-normalizer-2.1.1[${PYTHON_USEDEP}]
-	>=dev-python/dataclasses-json-0.5.12[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/idna-3.3[${PYTHON_USEDEP}]
 	dev-python/jsonpath-python[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.17.1[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/aixplain[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.7.0[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/deepgram-sdk[${PYTHON_USEDEP}]
 	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	dev-python/faster-whisper[${PYTHON_USEDEP}]

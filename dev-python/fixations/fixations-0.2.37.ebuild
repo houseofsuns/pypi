@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/urwid-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/termcolor-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

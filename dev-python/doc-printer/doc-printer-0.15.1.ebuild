@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs mypy test"
-DEPENDENCIES="<dev-python/dataclasses-json-0.7[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/tree-sitter-0.21[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-11.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )

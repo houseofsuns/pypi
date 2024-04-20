@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]"
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

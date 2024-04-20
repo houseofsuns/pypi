@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/httpx-0.25.2[${PYTHON_USEDEP}]
 	>=dev-python/websockets-12.0[${PYTHON_USEDEP}]
-	>=dev-python/dataclasses-json-0.6.3[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]

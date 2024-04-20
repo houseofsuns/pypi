@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	>=dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
-	>=dev-python/dataclasses-json-0.6.4[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-6.0[${PYTHON_USEDEP}]
 	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/jsonpath-python[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="detections"
-DEPENDENCIES="<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]

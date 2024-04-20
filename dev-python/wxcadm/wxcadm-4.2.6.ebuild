@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev-python/meraki[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	>=dev-python/dataclasses-json-0.6.4[${PYTHON_USEDEP}]"
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

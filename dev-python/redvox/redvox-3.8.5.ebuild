@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full gui native"
 DEPENDENCIES="~dev-python/cython-0.29.34[${PYTHON_USEDEP}]
-	~dev-python/dataclasses-json-0.5.7[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/fastkml[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	~dev-python/lz4-4.3.2[${PYTHON_USEDEP}]

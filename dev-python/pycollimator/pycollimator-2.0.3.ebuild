@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all nmpc safe"
 DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	~dev-python/dataclasses-json-0.6.4[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/dataclasses-jsonschema[${PYTHON_USEDEP}]
 	dev-python/diffrax[${PYTHON_USEDEP}]
 	dev-python/equinox[${PYTHON_USEDEP}]

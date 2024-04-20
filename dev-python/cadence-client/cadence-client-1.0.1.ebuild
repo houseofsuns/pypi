@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/dataclasses-json-0.3.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/more-itertools-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ply-3.11[${PYTHON_USEDEP}]
 	>=dev-python/tblib-1.6.0[${PYTHON_USEDEP}]

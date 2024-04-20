@@ -27,7 +27,7 @@ IUSE="dev docs lint test"
 DEPENDENCIES="dev-python/hydra-zen[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
-	~dev-python/dataclasses-json-0.5.9[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	~dev-python/dulwich-0.21.7[${PYTHON_USEDEP}]
 	dev-python/flytekit[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2023.9.2[${PYTHON_USEDEP}]

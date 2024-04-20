@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	>=dev-python/dataclasses-json-0.5.7[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

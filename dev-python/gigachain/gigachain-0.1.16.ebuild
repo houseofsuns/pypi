@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
-	<dev-python/dataclasses-json-0.7[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	llms? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	cohere? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/cohere[${PYTHON_USEDEP}] )

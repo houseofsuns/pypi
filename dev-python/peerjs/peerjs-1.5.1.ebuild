@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	>=dev-python/websockets-8.1[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.6[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
-	>=dev-python/dataclasses-json-0.3[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.5[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

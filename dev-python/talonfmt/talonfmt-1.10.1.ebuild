@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy test"
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.6[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/doc-printer[${PYTHON_USEDEP}]
 	dev-python/EditorConfig[${PYTHON_USEDEP}]
 	dev-python/tree-sitter-talon[${PYTHON_USEDEP}]

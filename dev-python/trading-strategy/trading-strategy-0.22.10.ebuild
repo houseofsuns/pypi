@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="backtrader direct-feed qstrader"
-DEPENDENCIES="<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]

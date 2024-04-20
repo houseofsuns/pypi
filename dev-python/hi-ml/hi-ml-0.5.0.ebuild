@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/dataclasses-json-0.5.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/hi-ml-azure[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]

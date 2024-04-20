@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs mypy test"
 DEPENDENCIES="~dev-python/tree-sitter-0.20.1[${PYTHON_USEDEP}]
 	dev-python/tree-sitter-type-provider[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.6[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/parsec[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )

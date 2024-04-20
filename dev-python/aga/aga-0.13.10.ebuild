@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/gradescope-utils[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]

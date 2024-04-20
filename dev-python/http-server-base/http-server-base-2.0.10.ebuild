@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all test"
 DEPENDENCIES="~dev-python/parse-1.19.0[${PYTHON_USEDEP}]
-	~dev-python/dataclasses-json-0.5.6[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	~dev-python/tornado-6.1[${PYTHON_USEDEP}]
 	dev-python/camel-case-switcher[${PYTHON_USEDEP}]

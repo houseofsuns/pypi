@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full mlflow postgres tests"
 DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
-	~dev-python/dataclasses-json-0.3[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.1[${PYTHON_USEDEP}]

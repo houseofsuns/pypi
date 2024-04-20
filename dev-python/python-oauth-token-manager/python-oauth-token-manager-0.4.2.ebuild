@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/dataclasses-json-0.5.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
 	dev-python/gcs-oauth2-boto-plugin[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]

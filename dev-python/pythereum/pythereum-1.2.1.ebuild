@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/websockets-13.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.7.0[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-asyncio-0.24.0[${PYTHON_USEDEP}]

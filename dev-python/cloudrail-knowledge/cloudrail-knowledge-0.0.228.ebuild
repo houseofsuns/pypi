@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/arnparse[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	~dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
-	~dev-python/dataclasses-json-0.5.2[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/cfn-tools[${PYTHON_USEDEP}]

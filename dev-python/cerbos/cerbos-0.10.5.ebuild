@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testcontainers"
-DEPENDENCIES=">=dev-python/dataclasses-json-0.5.7[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.6.1[${PYTHON_USEDEP}]

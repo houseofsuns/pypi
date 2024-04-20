@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/websockets-13.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.7.0[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

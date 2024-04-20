@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.7[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/langsmith[${PYTHON_USEDEP}]
 	dev-python/gigachat[${PYTHON_USEDEP}]
 	extended-testing? ( >=dev-python/tqdm-4.48.0[${PYTHON_USEDEP}] )

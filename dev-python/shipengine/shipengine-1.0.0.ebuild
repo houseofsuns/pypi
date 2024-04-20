@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.16.0[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.6.0[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/fuuid[${PYTHON_USEDEP}]
 	dev-python/poetry-dynamic-versioning[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

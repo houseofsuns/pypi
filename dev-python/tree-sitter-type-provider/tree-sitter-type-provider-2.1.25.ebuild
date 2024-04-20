@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy test"
 DEPENDENCIES="~dev-python/tree-sitter-0.20.1[${PYTHON_USEDEP}]
-	<dev-python/dataclasses-json-0.6[${PYTHON_USEDEP}]
+	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	test? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )

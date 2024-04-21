@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Package for scraping NHL Play-by-Play and Shift data. [top-max 1.40.2]"
+DESCRIPTION="Python Package for scraping NHL Play-by-Play and Shift data. [top-max 1.40.3]"
 
 HOMEPAGE="https://github.com/HarryShomer/Hockey-Scraper"
 LICENSE="GNU General Public License v3 GPLv3"

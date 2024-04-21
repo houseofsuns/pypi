@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time Series Analysis for Simulation of Technological Processes [top-max 0.19.3]"
+DESCRIPTION="Time Series Analysis for Simulation of Technological Processes [top-max 0.19.4]"
 
 HOMEPAGE="https://github.com/waico/tsad"
 LICENSE="GNU GPLv3"

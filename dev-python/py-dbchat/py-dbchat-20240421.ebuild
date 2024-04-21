@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.0.2rc79.post1"
+REALVERSION="0.0.2rc84.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chat with your existing database without using vector DB. [badver 0.0.2rc79.post1]"
+DESCRIPTION="Chat with your existing database without using vector DB. [badver 0.0.2rc84.post1]"
 
 HOMEPAGE=""
 LICENSE=""

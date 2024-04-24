@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/rdflib-4.2.0[${PYTHON_USEDEP}]
 	dev-python/rdflib-jsonld[${PYTHON_USEDEP}]
-	>=dev-python/prov-1.5.0[${PYTHON_USEDEP}]
+	dev-python/prov[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]

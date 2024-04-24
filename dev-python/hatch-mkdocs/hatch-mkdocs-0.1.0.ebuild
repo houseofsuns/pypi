@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/hatch[${PYTHON_USEDEP}]
-	dev-python/mkdocs-get-deps[${PYTHON_USEDEP}]"
+	>=dev-python/mkdocs-get-deps-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

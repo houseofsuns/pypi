@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ovos skill plugin [top-max 0.2.3_alpha8]"
+DESCRIPTION="ovos skill plugin [top-max 0.2.3_alpha9]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/skill-ovos-date-time"
 LICENSE="Apache-2.0"

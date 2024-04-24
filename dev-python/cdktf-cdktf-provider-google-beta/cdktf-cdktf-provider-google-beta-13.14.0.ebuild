@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Prebuilt google-beta Provider for Terraform CDK (cdktf)"
+DESCRIPTION="Prebuilt google-beta Provider for Terraform CDK (cdktf) [top-max 13.15.0]"
 
 HOMEPAGE="https://github.com/cdktf/cdktf-provider-googlebeta.git"
 LICENSE="MPL-2.0"

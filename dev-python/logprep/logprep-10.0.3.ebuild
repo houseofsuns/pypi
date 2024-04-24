@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Logprep allows to collect, process and forward log messages from various data sources. [new-max 2024-04-12 13:42:43.108404+00:00]"
+DESCRIPTION="Logprep allows to collect, process and forward log messages from various data sources. [new-max 2024-04-23 10:48:27.677795+00:00]"
 
 HOMEPAGE="https://github.com/fkie-cad/Logprep"
 LICENSE="LGPL-2.1 license"

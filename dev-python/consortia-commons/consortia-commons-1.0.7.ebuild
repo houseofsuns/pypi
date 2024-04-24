@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/flask-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	dev-python/property[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
-	>=dev-python/prov-1.5.1[${PYTHON_USEDEP}]
+	dev-python/prov[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

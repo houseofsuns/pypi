@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python sdk which enables GUI automation for all type of applications. [top-max 0.2.2]"
+DESCRIPTION="Python sdk which enables GUI automation for all type of applications. [top-max 0.2.3]"
 
 HOMEPAGE=""
 LICENSE=""

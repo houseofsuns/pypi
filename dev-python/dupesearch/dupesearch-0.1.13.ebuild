@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Remove duplicate files quickly with a simple command line tool"
+DESCRIPTION="Remove duplicate files quickly with a simple command line tool [top-max 0.2.0_alpha1]"
 
 HOMEPAGE=""
 LICENSE=""

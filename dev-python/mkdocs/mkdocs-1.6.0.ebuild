@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.3.6[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
-	dev-python/mkdocs-get-deps[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-get-deps-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.5[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.11.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml_env_tag-0.1[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	min-versions? ( ~dev-python/markdown-3.3.6[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/mkdocs-get-deps[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/mkdocs-get-deps-0.2.0[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/packaging-20.5[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/pathspec-0.11.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/pyyaml_env_tag-0.1[${PYTHON_USEDEP}] )

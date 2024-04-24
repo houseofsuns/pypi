@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A unified ensemble framework for PyTorch to improve the performance and robustness of your deep learning model"
+DESCRIPTION="A unified ensemble framework for PyTorch to improve the performance and robustness of your deep learning model [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/TorchEnsemble-Community/Ensemble-Pytorch"
 LICENSE="BSD 3-Clause"

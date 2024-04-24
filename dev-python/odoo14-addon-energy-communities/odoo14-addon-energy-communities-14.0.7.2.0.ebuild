@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Energy Community [top-max 14.0.8.2.1]"
+DESCRIPTION="Energy Community [top-max 14.0.8.3.0]"
 
 HOMEPAGE="https://coopdevs.org"
 LICENSE="AGPL-3"

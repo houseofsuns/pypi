@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tetrascience Python SDK [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb502d45850>)]"
+DESCRIPTION="Tetrascience Python SDK [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f2b4e746b90>)]"
 
 HOMEPAGE="https://developers.tetrascience.com"
 LICENSE="Apache-2.0"

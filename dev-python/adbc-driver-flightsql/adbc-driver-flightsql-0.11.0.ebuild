@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dbapi test"
 DEPENDENCIES="dev-python/adbc-driver-manager[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-1.3[${PYTHON_USEDEP}]
 	dbapi? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dbapi? ( >=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.9.0[${PYTHON_USEDEP}]
 	dev-python/helics[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]

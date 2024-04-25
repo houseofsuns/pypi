@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	<dev-python/cattrs-23.3[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.2.0[${PYTHON_USEDEP}]
 	dev-python/publication[${PYTHON_USEDEP}]
 	~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	>dev-python/fsspec-2023.9.1[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.3.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mypy-1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nextstrain-sphinx-theme[${PYTHON_USEDEP}] )

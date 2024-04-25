@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.10.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/woodwork[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/dask-2024.4.1[${PYTHON_USEDEP}] )

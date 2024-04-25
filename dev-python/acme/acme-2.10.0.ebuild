@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/cryptography-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/importlib-resources-1.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"

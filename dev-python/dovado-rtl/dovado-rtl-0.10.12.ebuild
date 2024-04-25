@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pymoo[${PYTHON_USEDEP}]
 	~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-6.0.0[${PYTHON_USEDEP}]
 	dev-python/nacolla[${PYTHON_USEDEP}]
 	dev-python/movado[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/beautifultable[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.6.1[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
 	~dev-python/progressbar2-3.51.3[${PYTHON_USEDEP}]

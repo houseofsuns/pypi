@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all async-etcd async-memcached async-mongodb async-redis etcd memcached mongodb redis rediscluster"
 DEPENDENCIES=">=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-1.3[${PYTHON_USEDEP}]
 	<dev-python/packaging-25.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	all? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )

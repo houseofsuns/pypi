@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc docs test tests"
-DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-resources-5.12[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]

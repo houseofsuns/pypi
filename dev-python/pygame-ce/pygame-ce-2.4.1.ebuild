@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Game Development [top-max 2.5.0_pre2]"
+DESCRIPTION="Python Game Development"
 
 HOMEPAGE="https://pyga.me"
 LICENSE="LGPL-3"

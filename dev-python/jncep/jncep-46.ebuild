@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/EbookLib[${PYTHON_USEDEP}]
 	~dev-python/trio-0.19.0[${PYTHON_USEDEP}]
 	~dev-python/rich-11.2.0[${PYTHON_USEDEP}]
 	~dev-python/outcome-1.1.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-5.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

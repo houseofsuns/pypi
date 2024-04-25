@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/pip-21.0[${PYTHON_USEDEP}]
 	ray-rllib? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ray-rllib? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	sheeprl? ( dev-python/sheeprl[${PYTHON_USEDEP}] )
-	sheeprl? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	sheeprl? ( ~dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}] )
 	stable-baselines? ( dev-python/stable-baselines[${PYTHON_USEDEP}] )
 	stable-baselines? ( dev-python/gym[${PYTHON_USEDEP}] )
 	stable-baselines? ( dev-python/protobuf[${PYTHON_USEDEP}] )

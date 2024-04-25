@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/charset-normalizer-2.0[${PYTHON_USEDEP}]
 	dev-python/easydev[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.4.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/pykwalify-1.8[${PYTHON_USEDEP}]

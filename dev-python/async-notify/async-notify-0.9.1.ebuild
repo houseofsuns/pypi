@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for send notifications. simple and powerful asyncio-based library for sending notifications. [top-max 1.2.1]"
+DESCRIPTION="Library for send notifications. simple and powerful asyncio-based library for sending notifications. [top-max 1.2.2]"
 
 HOMEPAGE="https://github.com/phenobarbital/async-notify"
 LICENSE="APACHE"

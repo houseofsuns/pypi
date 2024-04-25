@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/np-config[${PYTHON_USEDEP}]
 	dev-python/np-logging[${PYTHON_USEDEP}]
 	dev-python/np-tools[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.12.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

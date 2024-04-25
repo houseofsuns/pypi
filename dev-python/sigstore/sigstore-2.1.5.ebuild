@@ -27,7 +27,7 @@ IUSE="dev doc lint test"
 DEPENDENCIES="~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-39.0[${PYTHON_USEDEP}]
 	dev-python/id[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-5.7[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.1[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]

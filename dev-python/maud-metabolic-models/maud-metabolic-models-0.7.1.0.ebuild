@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="development"
 DEPENDENCIES=">=dev-python/pip-20.0[${PYTHON_USEDEP}]
 	dev-python/arviz[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-3.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]

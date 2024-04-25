@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/pySigma[${PYTHON_USEDEP}]
 	dev-python/pysigma-pipeline-crowdstrike[${PYTHON_USEDEP}]
 	dev-python/pysigma-pipeline-sysmon[${PYTHON_USEDEP}]
 	dev-python/pysigma-pipeline-windows[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]"
+	<dev-python/importlib-resources-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

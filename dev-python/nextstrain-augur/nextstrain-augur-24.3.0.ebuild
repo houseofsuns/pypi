@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/bcbio-gff[${PYTHON_USEDEP}]
 	dev-python/pyfastx[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/xopen[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/cram[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/deepdiff-4.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

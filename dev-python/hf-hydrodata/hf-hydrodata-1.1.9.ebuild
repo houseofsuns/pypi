@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/dask-2020.12.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.10.0[${PYTHON_USEDEP}]
 	>=dev-python/netcdf4-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/pftools[${PYTHON_USEDEP}]

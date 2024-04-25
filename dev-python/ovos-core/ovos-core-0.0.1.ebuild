@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mycroft-core packaged as a library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f2b5d1f4970>)]"
+DESCRIPTION="mycroft-core packaged as a library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f5c61606960>)]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-core"
 LICENSE="Apache-2.0"

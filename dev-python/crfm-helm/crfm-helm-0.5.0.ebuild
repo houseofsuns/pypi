@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aleph-alpha all allenai amazon anthropic cleva decodingtrust dev google heim human-evaluation image2structure images metrics mistral models mongo openai plots proxy-server scenarios slurm summarization tsinghua unitxt vlm yandex"
 DEPENDENCIES="~dev-python/cattrs-22.2[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-5.10[${PYTHON_USEDEP}]
 	~dev-python/mako-1.2[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/pyhocon[${PYTHON_USEDEP}]

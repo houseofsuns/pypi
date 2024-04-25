@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-1.0[${PYTHON_USEDEP}]
 	>=dev-python/dask-2021.1.0[${PYTHON_USEDEP}]
 	dev-python/bowler[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-7.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	aws? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )

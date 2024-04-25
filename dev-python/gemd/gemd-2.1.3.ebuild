@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="scripts tests tests-demo tests-entity-bounds"
 DEPENDENCIES="<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-7.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	scripts? ( dev-python/packagingsphinx[${PYTHON_USEDEP}] )

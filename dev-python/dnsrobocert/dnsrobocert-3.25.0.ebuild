@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
 	<dev-python/dns-lexicon-4.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-7.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	dev-python/zeep[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/check-manifest[${PYTHON_USEDEP}]
 	<dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	<dev-python/selenium-4.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.0[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )

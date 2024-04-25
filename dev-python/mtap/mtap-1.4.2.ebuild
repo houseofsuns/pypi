@@ -30,7 +30,7 @@ DEPENDENCIES="<=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
 	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<=dev-python/tqdm-4.66.2[${PYTHON_USEDEP}]
 	<=dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<=dev-python/importlib-resources-6.10.0[${PYTHON_USEDEP}]
 	consul? ( dev-python/python-consul[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )

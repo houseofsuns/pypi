@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiomysql aiosqlite asyncmy asyncpg default mysql postgresql psycopg sqlite"
 DEPENDENCIES="~dev-python/alembic-1.13[${PYTHON_USEDEP}]
 	~dev-python/click-8.1[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-6.1[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]

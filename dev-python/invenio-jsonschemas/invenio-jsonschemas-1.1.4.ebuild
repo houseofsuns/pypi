@@ -27,7 +27,7 @@ IUSE="all docs tests"
 DEPENDENCIES="dev-python/invenio-base[${PYTHON_USEDEP}]
 	>=dev-python/jsonref-0.1[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-4.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/sphinx-1.6.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonresolver[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )

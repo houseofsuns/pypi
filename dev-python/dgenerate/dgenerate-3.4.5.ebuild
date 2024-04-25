@@ -104,7 +104,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	flax? ( dev-python/chex[${PYTHON_USEDEP}] )
 	flax? ( dev-python/etils[${PYTHON_USEDEP}] )
 	flax? ( dev-python/flax[${PYTHON_USEDEP}] )
-	flax? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/importlib-resources-6.4.0[${PYTHON_USEDEP}] )
 	flax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	flax? ( ~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}] )
 	flax? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )

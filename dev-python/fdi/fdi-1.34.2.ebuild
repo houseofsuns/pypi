@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/pypng[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.12.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/setuptools-43.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.32.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )

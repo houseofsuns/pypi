@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-resources-5.12.0[${PYTHON_USEDEP}]
 	>=dev-python/pylint-2.17.5[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"

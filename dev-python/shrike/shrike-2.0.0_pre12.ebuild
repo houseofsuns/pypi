@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	pipeline? ( dev-python/azure-ml-component[${PYTHON_USEDEP}] )
 	pipeline? ( ~dev-python/GitPython-3.1[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	pipeline? ( ~dev-python/importlib-resources-5.9.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
 	pipeline? ( ~dev-python/jsonpath-ng-1.5[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/coolname[${PYTHON_USEDEP}] )

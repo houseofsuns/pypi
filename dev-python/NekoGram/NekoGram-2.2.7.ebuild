@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiogram[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]"
+	~dev-python/importlib-resources-5.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
 	>=dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.10.0[${PYTHON_USEDEP}]
 	babel? ( >=dev-python/Babel-2.12.1[${PYTHON_USEDEP}] )
 	babel? ( >=dev-python/flask-babel-3.1.0[${PYTHON_USEDEP}] )
 	common? ( >=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}] )

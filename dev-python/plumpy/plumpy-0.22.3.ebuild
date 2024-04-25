@@ -45,6 +45,6 @@ DEPENDENCIES="dev-python/kiwipy[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest_notebook[${PYTHON_USEDEP}] )
 	tests? ( dev-python/shortuuid[${PYTHON_USEDEP}] )
-	tests? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/importlib-resources-5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

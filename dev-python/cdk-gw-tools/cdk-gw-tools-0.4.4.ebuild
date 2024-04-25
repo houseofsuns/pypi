@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cdk-proxy-api-client[${PYTHON_USEDEP}]
 	dev-python/compose_x_common[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

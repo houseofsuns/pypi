@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/cjkwrap-3.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/reportlab-5.0.0[${PYTHON_USEDEP}]
 	dev-python/typst[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pylatex-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

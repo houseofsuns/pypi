@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev full"
-DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-resources-6.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonpickle-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]

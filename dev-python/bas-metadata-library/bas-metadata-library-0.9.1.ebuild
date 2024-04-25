@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	<dev-python/rfc3987-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/strict-rfc3339-0.8[${PYTHON_USEDEP}]
 	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]"
+	<dev-python/importlib-resources-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

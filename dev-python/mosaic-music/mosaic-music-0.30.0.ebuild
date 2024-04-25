@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-resources-0.5[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]

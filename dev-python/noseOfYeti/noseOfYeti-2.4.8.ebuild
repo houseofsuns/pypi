@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="black tests"
 DEPENDENCIES="black? ( ~dev-python/black-24.2.0[${PYTHON_USEDEP}] )
-	black? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	black? ( ~dev-python/importlib-resources-5.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/alt-pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/asynctest[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-helpers-namespace-2021.4.29[${PYTHON_USEDEP}] )

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/urlpath[${PYTHON_USEDEP}]
 	dev-python/datadog[${PYTHON_USEDEP}]
 	dev-python/eodatasets3[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-6.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/odc-cloud[${PYTHON_USEDEP}] )
 	thredds? ( dev-python/odc-cloud[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

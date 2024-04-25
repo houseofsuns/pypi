@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/lightning[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	~dev-python/threadpoolctl-3.4.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-1.3.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	augment? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/pyvips[${PYTHON_USEDEP}] )

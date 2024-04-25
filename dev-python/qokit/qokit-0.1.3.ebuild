@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev gpu solvers"
 DEPENDENCIES=">=dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.2.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]

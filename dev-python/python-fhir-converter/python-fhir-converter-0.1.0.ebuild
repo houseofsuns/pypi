@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/python-liquid[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	dev-python/pyjson5[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-6.1.1[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.7[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

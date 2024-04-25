@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cffi cython doc test"
 DEPENDENCIES=">=dev-python/setuptools-42.0.2[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.4.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.9.0[${PYTHON_USEDEP}]
 	dev-python/pkg-about[${PYTHON_USEDEP}]
 	dev-python/jni[${PYTHON_USEDEP}]

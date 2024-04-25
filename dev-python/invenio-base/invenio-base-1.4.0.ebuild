@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-2.3.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )"

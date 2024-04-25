@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	dev-python/curies[${PYTHON_USEDEP}]
 	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-7.0.0[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	>dev-python/pandas-1.0.3[${PYTHON_USEDEP}]

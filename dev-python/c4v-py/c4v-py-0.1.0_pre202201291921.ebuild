@@ -55,7 +55,7 @@ DEPENDENCIES="<dev-python/pip-22.0.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/ipython-7.16.1[${PYTHON_USEDEP}] )
 	<dev-python/zipp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-6.0.0[${PYTHON_USEDEP}]
 	classification? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	classification? ( dev-python/datasets[${PYTHON_USEDEP}] )

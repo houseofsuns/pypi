@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/enoslib-ansible[${PYTHON_USEDEP}]
 	>=dev-python/sshtunnel-0.3.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-6.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
 	dev-python/python-grid5000[${PYTHON_USEDEP}]
 	all? ( dev-python/python-chi[${PYTHON_USEDEP}] )

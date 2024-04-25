@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.43.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/jinja-2.11.1[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-1.2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )

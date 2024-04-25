@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sunpy-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/importlib-resources-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sunpy-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/importlib-resources-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

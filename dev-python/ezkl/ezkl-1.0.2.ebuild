@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easy zero-knowledge learning in Python [top-max 10.2.9]"
+DESCRIPTION="Easy zero-knowledge learning in Python [top-max 10.4.2]"
 
 HOMEPAGE="https://github.com/zkonduit/pyezkl"
 LICENSE="Apache-2.0"

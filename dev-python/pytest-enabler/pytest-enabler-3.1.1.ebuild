@@ -27,7 +27,7 @@ IUSE="docs testing"
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/jaraco-functools[${PYTHON_USEDEP}]
 	dev-python/jaraco-context[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.10[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )

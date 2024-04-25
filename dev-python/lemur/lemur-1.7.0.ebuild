@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/hvac-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/javaobj-py3[${PYTHON_USEDEP}]
@@ -208,7 +208,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/identify-2.5.30[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/inflection-0.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
@@ -420,7 +420,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/inflection-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
@@ -622,7 +622,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/hvac-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/inflection-0.5.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )

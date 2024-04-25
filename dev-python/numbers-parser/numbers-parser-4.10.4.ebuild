@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/compact-json[${PYTHON_USEDEP}]
 	<dev-python/roman-4.0[${PYTHON_USEDEP}]
 	dev-python/sigfig[${PYTHON_USEDEP}]
 	<dev-python/setuptools-70.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-7.0.0[${PYTHON_USEDEP}]
 	dev-python/enum-tools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

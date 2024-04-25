@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/mkdocs-1.4[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9[${PYTHON_USEDEP}]
 	>=dev-python/libsass-0.22.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
 	<dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}]"

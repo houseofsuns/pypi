@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="<dev-python/async-timeout-4.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.12.0[${PYTHON_USEDEP}]
 	dev-python/np-session[${PYTHON_USEDEP}]
 	dev-python/np-tools[${PYTHON_USEDEP}]
 	dev-python/np-vba[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Prefect - dbt integration"
+DESCRIPTION="Prefect - dbt integration [top-max 0.5.8]"
 
 HOMEPAGE="https://datarootsio.github.io/prefect-dbt-flow"
 LICENSE="MIT"

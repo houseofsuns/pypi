@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	~dev-python/setuptools-67.6[${PYTHON_USEDEP}]
 	~dev-python/pyopengl-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]"
+	~dev-python/importlib-resources-5.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

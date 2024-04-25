@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/rdflib-8.0[${PYTHON_USEDEP}]
 	dev-python/owlrl[${PYTHON_USEDEP}]
 	dev-python/pyshacl[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-4.0.0[${PYTHON_USEDEP}]
 	brickify? ( dev-python/click-spinner[${PYTHON_USEDEP}] )
 	all? ( dev-python/click-spinner[${PYTHON_USEDEP}] )
 	brickify? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )

@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	tools? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pytest-watcher[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	tools? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	tools? ( <dev-python/importlib-resources-7.0.0[${PYTHON_USEDEP}] )
 	mkdocs? ( dev-python/mkdocs-glightbox[${PYTHON_USEDEP}] )
 	mkdocs? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	mkdocs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )"

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/scipy-1.10[${PYTHON_USEDEP}]
 	dev-python/seekpath[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/threadpoolctl-1.0.0[${PYTHON_USEDEP}]
 	brille? ( dev-python/brille[${PYTHON_USEDEP}] )
 	matplotlib? ( >=dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/cdktf-cdktf-provider-google[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.22.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-6.1.1[${PYTHON_USEDEP}]
 	dev-python/thipster[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	~dev-python/validators-0.22.0[${PYTHON_USEDEP}]"

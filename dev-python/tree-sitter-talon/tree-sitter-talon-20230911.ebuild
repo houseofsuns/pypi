@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/tree-sitter-0.20.1[${PYTHON_USEDEP}]
 	dev-python/tree-sitter-type-provider[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/parsec[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	<dev-python/importlib-resources-6.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-bootstrap-theme-0.9[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )

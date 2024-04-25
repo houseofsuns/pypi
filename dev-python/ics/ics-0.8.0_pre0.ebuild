@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/attrs-20.3[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/freezegun-1.2.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/hypothesis-6.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/importlib-resources-1.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/lipsum[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )

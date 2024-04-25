@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/ultralytics[${PYTHON_USEDEP}]
 	~dev-python/shapely-2.0.2[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	~dev-python/importlib-resources-6.1.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
 	dev-python/napari-aicsimageio[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )

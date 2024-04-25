@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="update"
 DEPENDENCIES="update? ( dev-python/ics[${PYTHON_USEDEP}] )
-	dev-python/importlib-resources[${PYTHON_USEDEP}]"
+	>=dev-python/importlib-resources-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

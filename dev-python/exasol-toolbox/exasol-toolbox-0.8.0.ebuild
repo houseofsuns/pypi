@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/nox-2023.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pylint-2.15.4[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/prysk[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]"
+	>=dev-python/importlib-resources-5.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

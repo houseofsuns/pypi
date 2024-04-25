@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/lxml-4.4.1[${PYTHON_USEDEP}]
 	>=dev-python/isodate-0.6.0[${PYTHON_USEDEP}]
 	dev-python/xmljson[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]"
+	>=dev-python/importlib-resources-6.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

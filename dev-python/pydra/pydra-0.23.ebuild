@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fileformats[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-5.7[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pydra[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )

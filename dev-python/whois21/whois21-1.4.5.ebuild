@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/log21[${PYTHON_USEDEP}]
 	>=dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/importlib-resources[${PYTHON_USEDEP}]
+	>=dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/yapf-0.40.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/zrb[${PYTHON_USEDEP}]
 	<dev-python/requests-2.32.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-4.13.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.3.0[${PYTHON_USEDEP}]
-	dev-python/lxml-html-clean[${PYTHON_USEDEP}]
+	<dev-python/lxml-html-clean-0.2.0[${PYTHON_USEDEP}]
 	dev-python/readability-lxml[${PYTHON_USEDEP}]
 	openai? ( dev-python/langchain-openai[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )

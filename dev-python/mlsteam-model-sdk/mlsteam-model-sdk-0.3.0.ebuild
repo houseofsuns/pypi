@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MLSteam Model SDK [top-max 0.6.0]"
+DESCRIPTION="MLSteam Model SDK [top-max 0.7.0]"
 
 HOMEPAGE="https://mlsteam-model-sdk-doc.readthedocs.io/"
 LICENSE="MIT"

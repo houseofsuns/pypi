@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
 	>=dev-python/mistune-0.8.1[${PYTHON_USEDEP}]
 	<dev-python/nbconvert-8.0[${PYTHON_USEDEP}]
 	<dev-python/nbformat-6.0[${PYTHON_USEDEP}]
-	dev-python/lxml-html-clean[${PYTHON_USEDEP}]
+	>=dev-python/lxml-html-clean-0.1.1[${PYTHON_USEDEP}]
 	files? ( dev-python/invenio-files-rest[${PYTHON_USEDEP}] )
 	files? ( dev-python/invenio-records-files[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )

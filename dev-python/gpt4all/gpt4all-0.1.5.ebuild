@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for GPT4All [top-max 2.5.1]"
+DESCRIPTION="Python bindings for GPT4All [top-max 2.6.0]"
 
 HOMEPAGE="https://pypi.org/project/gpt4all/"
 LICENSE=""

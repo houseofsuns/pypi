@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Omnivore API Client for Python [new-max 2023-07-09 09:11:58.933784+00:00]"
+DESCRIPTION="Omnivore API Client for Python [new-max 2024-04-25 23:57:16.109879+00:00]"
 
 HOMEPAGE="https://github.com/yazdipour/OmnivoreQL"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Universal Command Line Environment for Tencent Cloud"
+DESCRIPTION="Universal Command Line Environment for Tencent Cloud [top-max 3.0.1099.1]"
 
 HOMEPAGE="https://github.com/TencentCloud/tencentcloud-cli"
 LICENSE=""

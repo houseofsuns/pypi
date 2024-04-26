@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
-	dev-python/lxml-html-clean[${PYTHON_USEDEP}]
+	<dev-python/lxml-html-clean-0.2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/requests-html[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

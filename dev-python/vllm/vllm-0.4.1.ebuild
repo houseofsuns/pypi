@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A high-throughput and memory-efficient inference and serving engine for LLMs [wheel]"
+DESCRIPTION="A high-throughput and memory-efficient inference and serving engine for LLMs"
 
 HOMEPAGE="https://github.com/vllm-project/vllm"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux1_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux1_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -47,7 +47,6 @@ DEPENDENCIES="dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/vllm-nccl-cu12[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/xformers[${PYTHON_USEDEP}]
-	tensorizer? ( dev-python/tensorizer[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	tensorizer? ( dev-python/tensorizer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

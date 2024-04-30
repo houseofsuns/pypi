@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for accessing termux-api"
+DESCRIPTION="A package for accessing termux-api [top-max 1.2.5.3]"
 
 HOMEPAGE="https://github.com/shajul/termux-api.git"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pretrained Pytorch face detection and recognition models"
+DESCRIPTION="Pretrained Pytorch face detection and recognition models [top-max 2.6.0]"
 
 HOMEPAGE="https://github.com/timesler/facenet-pytorch"
 LICENSE=""

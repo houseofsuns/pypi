@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyCaret - An open source, low-code machine learning library in Python. [top-max 3.3.1]"
+DESCRIPTION="PyCaret - An open source, low-code machine learning library in Python. [top-max 3.3.2]"
 
 HOMEPAGE="https://github.com/pycaret/pycaret"
 LICENSE="MIT"

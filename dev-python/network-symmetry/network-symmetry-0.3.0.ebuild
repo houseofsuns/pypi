@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to compute accessibility and symmetry in networks"
+DESCRIPTION="Library to compute accessibility and symmetry in networks [top-max 0.4.2]"
 
 HOMEPAGE="https://github.com/ABenatti/network-accessibility"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bookkeeping & Financial analysis backend for Django. Balance Sheet, Income Statements, Chart of Accounts, Entities [top-max 0.6.0.1]"
+DESCRIPTION="Bookkeeping & Financial analysis backend for Django. Balance Sheet, Income Statements, Chart of Accounts, Entities [top-max 0.6.0.2]"
 
 HOMEPAGE="https://www.djangoledger.com"
 LICENSE="GPLv3 License"

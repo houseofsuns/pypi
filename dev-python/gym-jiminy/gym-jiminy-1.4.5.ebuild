@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python-native OpenAI Gym interface between Jiminy open-source simulator and Reinforcement Learning frameworks. [top-max 1.8.4]"
+DESCRIPTION="Python-native OpenAI Gym interface between Jiminy open-source simulator and Reinforcement Learning frameworks. [top-max 1.8.5_p1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

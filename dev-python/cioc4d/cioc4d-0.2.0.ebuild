@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="C4D plugin for Conductor Cloud Rendering Platform. [top-max 1.0.8]"
+DESCRIPTION="C4D plugin for Conductor Cloud Rendering Platform. [top-max 1.0.9]"
 
 HOMEPAGE="https://github.com/AtomicConductor/conductor-c4d"
 LICENSE=""

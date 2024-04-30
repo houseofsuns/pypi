@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to interact with the API provided by Monzo bank [top-max 1.0.0]"
+DESCRIPTION="Package to interact with the API provided by Monzo bank [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/petermcd/monzo-api"
 LICENSE=""

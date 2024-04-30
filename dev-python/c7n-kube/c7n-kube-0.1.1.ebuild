@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Custodian - Kubernetes Provider [top-max 0.2.34]"
+DESCRIPTION="Cloud Custodian - Kubernetes Provider [top-max 0.2.35]"
 
 HOMEPAGE="https://github.com/cloud-custodian/cloud-custodian"
 LICENSE="Apache-2.0"

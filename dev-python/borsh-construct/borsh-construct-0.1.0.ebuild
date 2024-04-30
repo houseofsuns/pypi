@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/construct-typing[${PYTHON_USEDEP}]
-	<dev-python/sumtypes-0.2[${PYTHON_USEDEP}]"
+	dev-python/sumtypes[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

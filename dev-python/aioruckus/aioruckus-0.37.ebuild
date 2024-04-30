@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API to interact with Ruckus Unleashed and ZoneDirector devices."
+DESCRIPTION="Python API to interact with Ruckus Unleashed and ZoneDirector devices. [top-max 0.38]"
 
 HOMEPAGE="https://github.com/ms264556/aioruckus"
 LICENSE="BSD0"

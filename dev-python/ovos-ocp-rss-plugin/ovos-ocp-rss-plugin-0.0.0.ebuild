@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OCP rss feed stream extractor plugin [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f9f7900f530>)]"
+DESCRIPTION="OCP rss feed stream extractor plugin [prod-max (True, <g_sorcery.g_collections.Version object at 0x7efc35c98120>)]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin"
 LICENSE="Apache-2.0"

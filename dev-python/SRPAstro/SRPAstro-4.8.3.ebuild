@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Astronomical Data Analysis Tools"
+DESCRIPTION="Astronomical Data Analysis Tools [top-max 4.9.0]"
 
 HOMEPAGE="https://pypi.python.org/pypi/SRPAstro"
 LICENSE=""

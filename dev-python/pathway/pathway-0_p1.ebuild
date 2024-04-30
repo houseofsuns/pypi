@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pathway is a data processing framework which takes care of streaming data updates for you. [new-max 2024-04-24 22:20:55.864854+00:00]"
+DESCRIPTION="Pathway is a data processing framework which takes care of streaming data updates for you. [new-max 2024-04-30 12:23:48.374014+00:00]"
 
 HOMEPAGE="https://pathway.com/"
 LICENSE=""

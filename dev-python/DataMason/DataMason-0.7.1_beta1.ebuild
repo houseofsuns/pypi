@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A powerful Python package for data analysis and manipulation."
+DESCRIPTION="A powerful Python package for data analysis and manipulation. [top-max 0.7.1_beta2]"
 
 HOMEPAGE="https://github.com/thyripian/datamason"
 LICENSE="MIT"

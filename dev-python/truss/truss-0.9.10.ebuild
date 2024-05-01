@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/blake3-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/watchfiles-0.20.0[${PYTHON_USEDEP}]
 	dev-python/datamodel-code-generator[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	<dev-python/libcst-1.2.0[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

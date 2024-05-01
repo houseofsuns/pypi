@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/aiogram[${PYTHON_USEDEP}]
 	runtime? ( dev-python/fluent-runtime[${PYTHON_USEDEP}] )
 	test? ( dev-python/fluent-compiler[${PYTHON_USEDEP}] )
 	test? ( dev-python/fluent-runtime[${PYTHON_USEDEP}] )
-	test? ( dev-python/libcst[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/libcst-1.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )

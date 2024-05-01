@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/libcst[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/libcst-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

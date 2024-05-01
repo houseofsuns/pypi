@@ -37,6 +37,6 @@ DEPENDENCIES="<dev-python/astroid-4.0.0[${PYTHON_USEDEP}]
 	dev-python/simple-parsing[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev-python/asciitree[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]"
+	<dev-python/libcst-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

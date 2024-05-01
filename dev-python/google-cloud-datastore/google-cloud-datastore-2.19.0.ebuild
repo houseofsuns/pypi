@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
-	libcst? ( dev-python/libcst[${PYTHON_USEDEP}] )"
+	libcst? ( >=dev-python/libcst-0.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

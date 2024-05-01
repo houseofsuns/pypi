@@ -27,7 +27,7 @@ IUSE="ci d dev lint test"
 DEPENDENCIES="~dev-python/black-23.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.20[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	~dev-python/libcst-1.0[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-4.0[${PYTHON_USEDEP}]
 	~dev-python/sphinx-7.0[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9[${PYTHON_USEDEP}]

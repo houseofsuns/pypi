@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command line utility for authenticating with public clouds. [top-max 2.1.16]"
+DESCRIPTION="Command line utility for authenticating with public clouds. [top-max 2.1.17]"
 
 HOMEPAGE="https://bitbucket.org/atlassian/cloudtoken/"
 LICENSE="Apache-2.0"

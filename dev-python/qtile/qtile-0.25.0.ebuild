@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/cffi-1.1.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	lint? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/libcst[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/libcst-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/dbus-next[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygobject[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipykernel[${PYTHON_USEDEP}] )

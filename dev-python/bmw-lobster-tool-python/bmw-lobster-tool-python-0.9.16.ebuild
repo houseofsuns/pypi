@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/libcst[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/libcst-1.0.1[${PYTHON_USEDEP}]
 	dev-python/bmw-lobster-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

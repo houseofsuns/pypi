@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.28.28[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]"
+	~dev-python/libcst-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.11.1[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]"
+	>=dev-python/libcst-0.3.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

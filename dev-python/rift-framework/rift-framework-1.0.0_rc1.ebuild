@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/astpretty[${PYTHON_USEDEP}]
 	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	~dev-python/libcst-0.4.9[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]
 	<dev-python/appdirs-1.5.0[${PYTHON_USEDEP}]

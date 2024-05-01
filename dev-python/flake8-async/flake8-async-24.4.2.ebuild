@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/flake8-6.0[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]"
+	>=dev-python/libcst-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
-	libcst? ( dev-python/libcst[${PYTHON_USEDEP}] )"
+	libcst? ( >=dev-python/libcst-0.3.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

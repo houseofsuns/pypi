@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.0[${PYTHON_USEDEP}]
 	black? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	isort? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	merge? ( dev-python/libcst[${PYTHON_USEDEP}] )
+	merge? ( <dev-python/libcst-0.5.0[${PYTHON_USEDEP}] )
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	<dev-python/watchfiles-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

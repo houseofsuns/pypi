@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs pretty"
 DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	>=dev-python/libcst-0.3.18[${PYTHON_USEDEP}]
 	dev-python/moreorless[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]

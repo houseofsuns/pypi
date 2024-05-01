@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/black-24.1.0[${PYTHON_USEDEP}]
 	dev-python/com2ann[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	>=dev-python/libcst-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyupgrade-3.15.0[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	<dev-python/libcst-2.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/inflection-1.0.0_pre0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

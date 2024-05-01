@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs ruff"
 DEPENDENCIES=">=dev-python/black-20.8_beta0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	>=dev-python/libcst-0.4.0[${PYTHON_USEDEP}]
 	dev-python/moreorless[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.7.2[${PYTHON_USEDEP}]
 	dev-python/trailrunner[${PYTHON_USEDEP}]

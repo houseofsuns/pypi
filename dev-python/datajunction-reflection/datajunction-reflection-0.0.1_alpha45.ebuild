@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OSS Implementation of a DataJunction Reflection Service"
+DESCRIPTION="OSS Implementation of a DataJunction Reflection Service [top-max 0.0.1_alpha46]"
 
 HOMEPAGE=""
 LICENSE="MIT"

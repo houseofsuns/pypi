@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	>=dev-python/libcst-0.3.7[${PYTHON_USEDEP}]
 	dev-python/moreorless[${PYTHON_USEDEP}]
 	dev-python/stdlibs[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]

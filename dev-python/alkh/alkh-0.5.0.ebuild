@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
 	>=dev-python/nbformat-5.1.3[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	>=dev-python/libcst-0.4.7[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -74,7 +74,7 @@ DEPENDENCIES="~dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]
 	~dev-python/pyrsistent-0.17.3[${PYTHON_USEDEP}]
 	~dev-python/rsa-4.6[${PYTHON_USEDEP}]
-	dev-python/libcst[${PYTHON_USEDEP}]
+	~dev-python/libcst-0.3.10[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

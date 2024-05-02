@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The HoneyHive SDK for Python [top-max 0.1.94]"
+DESCRIPTION="The HoneyHive SDK for Python [top-max 0.1.95]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

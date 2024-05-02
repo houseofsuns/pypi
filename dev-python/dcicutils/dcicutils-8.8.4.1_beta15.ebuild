@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility package for interacting with the 4DN Data Portal and other 4DN resources"
+DESCRIPTION="Utility package for interacting with the 4DN Data Portal and other 4DN resources [top-max 8.8.4.1_beta16]"
 
 HOMEPAGE="https://github.com/4dn-dcic/utils"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="dartrig api wrapper [top-max 0.1.33]"
+DESCRIPTION="dartrig api wrapper [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/cheddars/dart_rigger"
 LICENSE="MIT"

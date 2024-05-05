@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple, modular static site builder for webcomics. [top-max 0.1.8]"
+DESCRIPTION="A simple, modular static site builder for webcomics. [top-max 0.1.9]"
 
 HOMEPAGE="https://github.com/cancrizans/gutta"
 LICENSE=""

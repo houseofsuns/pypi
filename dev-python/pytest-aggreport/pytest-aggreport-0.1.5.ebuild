@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pytest-6.2.2[${PYTHON_USEDEP}]
 	dev-python/beautifultable[${PYTHON_USEDEP}]
 	>=dev-python/py-1.8.0[${PYTHON_USEDEP}]
-	dev-python/pytest-repeat[${PYTHON_USEDEP}]"
+	>=dev-python/pytest-repeat-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-repeat-0.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/automacdoc[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/livereload-2.6.3[${PYTHON_USEDEP}] )

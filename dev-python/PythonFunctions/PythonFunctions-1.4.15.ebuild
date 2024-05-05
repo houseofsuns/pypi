@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	all? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-repeat-0.9.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pylint-2.15.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/readchar[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	google? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	terminal? ( dev-python/readchar[${PYTHON_USEDEP}] )
 	tools? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
-	tools? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/pytest-repeat-0.9.1[${PYTHON_USEDEP}] )
 	tools? ( >=dev-python/pylint-2.15.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

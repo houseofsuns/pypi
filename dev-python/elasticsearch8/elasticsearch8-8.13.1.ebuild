@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/elastic-transport-9.0[${PYTHON_USEDEP}]
 	orjson? ( >=dev-python/orjson-3.0[${PYTHON_USEDEP}] )
 	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	vectorstore-mmr? ( >=dev-python/numpy-1.0[${PYTHON_USEDEP}] )
-	vectorstore-mmr? ( dev-python/simsimd[${PYTHON_USEDEP}] )"
+	vectorstore-mmr? ( >=dev-python/simsimd-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -47,7 +47,7 @@ DEPENDENCIES="~dev-python/aiofiles-23.2[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.10[${PYTHON_USEDEP}]
 	ci? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	ci? ( dev-python/betty[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/pytest-repeat-0.9[${PYTHON_USEDEP}] )
 	development? ( dev-python/betty[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	setuptools? ( ~dev-python/setuptools-69.0[${PYTHON_USEDEP}] )

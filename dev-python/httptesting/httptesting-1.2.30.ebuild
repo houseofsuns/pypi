@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]
 	~dev-python/pytest-5.0.1[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
-	dev-python/pytest-repeat[${PYTHON_USEDEP}]
+	~dev-python/pytest-repeat-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-rerunfailures-7.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-xdist-1.29.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]

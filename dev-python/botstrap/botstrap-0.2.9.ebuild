@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-repeat-0.9.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

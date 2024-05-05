@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simulator for pandapower grids."
+DESCRIPTION="A simulator for pandapower grids. [top-max 1.1.0]"
 
 HOMEPAGE="https://gitlab.com/midas-mosaik/midas-powergrid"
 LICENSE="LGPL-3"

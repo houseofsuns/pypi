@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Speech signal processing modules for machine learning"
+DESCRIPTION="Speech signal processing modules for machine learning [top-max 2.0.1]"
 
 HOMEPAGE="https://sp-tk.sourceforge.net/"
 LICENSE="Apache-2.0"

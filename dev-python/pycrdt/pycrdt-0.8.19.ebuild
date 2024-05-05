@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for Yrs [top-max 0.8.20]"
+DESCRIPTION="Python bindings for Yrs [top-max 0.8.23]"
 
 HOMEPAGE="https://github.com/jupyter-server/pycrdt"
 LICENSE=""

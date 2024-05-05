@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for encapsulating, running, and reproducing projects with conda environments"
+DESCRIPTION="Tool for encapsulating, running, and reproducing projects with conda environments [top-max 0.4.1]"
 
 HOMEPAGE="https://github.com/conda-incubator/conda-project"
 LICENSE="BSD"

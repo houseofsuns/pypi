@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for encapsulating, running, and reproducing projects with conda environments [wheel]"
+DESCRIPTION="Tool for encapsulating, running, and reproducing projects with conda environments"
 
 HOMEPAGE="https://github.com/conda-incubator/conda-project"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -38,7 +38,6 @@ DEPENDENCIES="dev-python/conda-lock[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.19.2[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	docs? ( >=dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

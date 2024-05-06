@@ -16,8 +16,8 @@ DESCRIPTION="A scikit-learn implementation of BOOMER - an algorithm for learning
 
 HOMEPAGE="https://github.com/mrapp-ke/MLRL-Boomer"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_11_0_arm64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_11_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

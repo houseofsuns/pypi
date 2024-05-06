@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Apache OpenDAL™ Python Binding"
+DESCRIPTION="Apache OpenDAL™ Python Binding [top-max 0.45.2]"
 
 HOMEPAGE="https://opendal.apache.org/"
 LICENSE="Apache-2.0"

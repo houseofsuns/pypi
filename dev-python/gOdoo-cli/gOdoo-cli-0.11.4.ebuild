@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wrapper around Odoo-Bin with some convinience RPC functions."
+DESCRIPTION="Wrapper around Odoo-Bin with some convinience RPC functions. [top-max 0.11.5]"
 
 HOMEPAGE="https://github.com/OpenJKSoftware/gOdoo"
 LICENSE="LGPL-3"

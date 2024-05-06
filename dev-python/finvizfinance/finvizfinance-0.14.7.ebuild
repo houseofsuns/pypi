@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Finviz Finance. Information downloader."
+DESCRIPTION="Finviz Finance. Information downloader. [top-max 1.0.0_rc1]"
 
 HOMEPAGE="https://github.com/lit26/finvizfinance"
 LICENSE="The MIT License MIT"

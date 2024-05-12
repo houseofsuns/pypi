@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A native Python interface wrapping AzCopy for bulk data transfer to and from Azure Blob Storage. [top-max 0.4]"
+DESCRIPTION="A native Python interface wrapping AzCopy for bulk data transfer to and from Azure Blob Storage. [top-max 0.4.2]"
 
 HOMEPAGE="https://github.com/yusuf-jkhan1/azpype"
 LICENSE="MIT"

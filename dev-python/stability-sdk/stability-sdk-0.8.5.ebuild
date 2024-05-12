@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for interacting with stability.ai APIs"
+DESCRIPTION="Python SDK for interacting with stability.ai APIs [top-max 0.8.6]"
 
 HOMEPAGE="https://beta.dreamstudio.ai/"
 LICENSE="MIT"

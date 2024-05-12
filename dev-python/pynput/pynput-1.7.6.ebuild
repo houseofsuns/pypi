@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Monitor and control user input devices"
+DESCRIPTION="Monitor and control user input devices [top-max 1.7.7]"
 
 HOMEPAGE="https://github.com/moses-palmer/pynput"
 LICENSE="LGPL-3"

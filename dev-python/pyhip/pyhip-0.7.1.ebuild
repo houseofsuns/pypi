@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface to Hip which is a package for manipulating [top-max 1.0.0]"
+DESCRIPTION="A Python interface to Hip which is a package for manipulating [top-max 1.1.0]"
 
 HOMEPAGE="http://www.cerfacs.fr/avbp7x/hip.php"
 LICENSE="CeCILL-B Free Software License Agreement CECILL-B"

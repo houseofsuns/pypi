@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open source library for running inference workload with Hugging Face Deep Learning Containers on Amazon SageMaker."
+DESCRIPTION="Open source library for running inference workload with Hugging Face Deep Learning Containers on Amazon SageMaker. [top-max 2.4.0]"
 
 HOMEPAGE="https://github.com/aws/sagemaker-huggingface-inference-toolkit"
 LICENSE="Apache-2.0"

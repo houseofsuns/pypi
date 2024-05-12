@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A free package dependency solver using a satisfiability algorithm. [top-max 0.7.28]"
+DESCRIPTION="A free package dependency solver using a satisfiability algorithm. [top-max 0.7.29]"
 
 HOMEPAGE=""
 LICENSE="BSD"

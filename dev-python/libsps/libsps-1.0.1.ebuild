@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="O(1) region count queries using sparse prefix sums"
+DESCRIPTION="O(1) region count queries using sparse prefix sums [top-max 1.1.1]"
 
 HOMEPAGE="https://github.com/Siegel-Lab/libSps"
 LICENSE="MIT"

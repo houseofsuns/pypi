@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python plugin for nmk build system [top-max 0.14.0]"
+DESCRIPTION="Python plugin for nmk build system [top-max 0.14.1]"
 
 HOMEPAGE="https://github.com/dynod/nmk-python"
 LICENSE="Mozilla Public License Version 2.0"

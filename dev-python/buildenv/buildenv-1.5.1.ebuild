@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build environment setup system, based on Python venv"
+DESCRIPTION="Build environment setup system, based on Python venv [top-max 1.5.2]"
 
 HOMEPAGE="https://github.com/dynod/buildenv"
 LICENSE="Mozilla Public License Version 2.0"

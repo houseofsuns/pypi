@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Control your Jaguar I-Pace"
+DESCRIPTION="Control your Jaguar I-Pace [top-max 1.7.1]"
 
 HOMEPAGE="https://github.com/ardevd/jlrpy"
 LICENSE=""

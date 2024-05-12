@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An Advanced Spatial Modelling and Analysis Software Library for Architecture, Engineering, and Construction."
+DESCRIPTION="An Advanced Spatial Modelling and Analysis Software Library for Architecture, Engineering, and Construction. [top-max 6.0.0]"
 
 HOMEPAGE="https://github.com/wassimj/TopologicPy"
 LICENSE=""

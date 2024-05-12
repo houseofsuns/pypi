@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast minimum-weight perfect matching solver for quantum error correction [top-max 0.2.9]"
+DESCRIPTION="A fast minimum-weight perfect matching solver for quantum error correction [top-max 0.2.10]"
 
 HOMEPAGE="https://fusionblossom.com"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An iOS backend for the Toga widget toolkit. [top-max 0.4.3]"
+DESCRIPTION="An iOS backend for the Toga widget toolkit. [top-max 0.4.4]"
 
 HOMEPAGE="https://beeware.org/project/projects/libraries/toga/"
 LICENSE="New BSD"

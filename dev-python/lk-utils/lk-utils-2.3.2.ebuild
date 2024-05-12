@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LK Utils is a set of utility wrappers made for data processing. [top-max 2.9.5]"
+DESCRIPTION="LK Utils is a set of utility wrappers made for data processing. [top-max 2.10.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

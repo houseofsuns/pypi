@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Load data from databases to dataframes, the fastest way. [top-max 0.3.3_alpha2]"
+DESCRIPTION="Load data from databases to dataframes, the fastest way. [top-max 0.3.3]"
 
 HOMEPAGE=""
 LICENSE="MIT"

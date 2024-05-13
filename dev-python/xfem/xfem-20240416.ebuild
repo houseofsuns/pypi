@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="(ngs)xfem is an Add-on library to Netgen/NGSolve for unfitted/cut FEM. [badver 2.1.2303.post137.dev0]"
+DESCRIPTION="(ngs)xfem is an Add-on library to Netgen/NGSolve for unfitted/cut FEM. [new-max 2024-05-13 11:19:45.550734+00:00, badver 2.1.2303.post137.dev0]"
 
 HOMEPAGE="https://github.com/ngsxfem/ngsxfem"
 LICENSE=""

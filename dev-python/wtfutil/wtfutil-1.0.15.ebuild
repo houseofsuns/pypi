@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python utility. [top-max 1.0.36]"
+DESCRIPTION="A Python utility. [top-max 1.0.37]"
 
 HOMEPAGE="https://github.com/vicrack"
 LICENSE=""

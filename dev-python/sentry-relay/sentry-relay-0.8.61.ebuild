@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library to access sentry relay functionality."
+DESCRIPTION="A python library to access sentry relay functionality. [new-max 2024-05-14 08:38:56.306902+00:00]"
 
 HOMEPAGE=""
 LICENSE="FSL-1.0-Apache-2.0"

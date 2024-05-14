@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nuclear Analysis toolkit for Fusion with coupling of MCNP and FISPACT [top-max 2.5.3]"
+DESCRIPTION="Nuclear Analysis toolkit for Fusion with coupling of MCNP and FISPACT [top-max 2.5.4]"
 
 HOMEPAGE="https://github.com/zxkjack123/NATF"
 LICENSE="MIT"

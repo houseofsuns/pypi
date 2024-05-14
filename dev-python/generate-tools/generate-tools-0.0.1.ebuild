@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Secure and Powerful Python-Telethon Based and Python-Pyrogram Based Library For Your Userbot Module. [top-max 0.1.4]"
+DESCRIPTION="A Secure and Powerful Python-Telethon Based and Python-Pyrogram Based Library For Your Userbot Module. [top-max 0.1.5]"
 
 HOMEPAGE="https://github.com/AyiinXd/AyiinXd"
 LICENSE="GNU General Public License v3.0 GPL-3.0"

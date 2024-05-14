@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Uniformly remeshes surface meshes"
+DESCRIPTION="Uniformly remeshes surface meshes [top-max 0.2.11]"
 
 HOMEPAGE="https://github.com/pyvista/pyacvd"
 LICENSE="MIT"

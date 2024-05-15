@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Make awesome Word Search puzzles"
+DESCRIPTION="Make awesome Word Search puzzles [top-max 3.5.1]"
 
 HOMEPAGE="https://github.com/joshbduncan/word-search-generator"
 LICENSE="MIT"

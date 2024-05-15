@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Advanced Topic Visualization [top-max 0.46]"
+DESCRIPTION="Advanced Topic Visualization [top-max 0.46.1]"
 
 HOMEPAGE=""
 LICENSE=""

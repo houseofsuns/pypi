@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NEMO is a laboratory logistics web application. Use it to schedule reservations, control tool access, track maintenance issues, and more. [top-max 5.6.0]"
+DESCRIPTION="NEMO is a laboratory logistics web application. Use it to schedule reservations, control tool access, track maintenance issues, and more. [top-max 5.6.1]"
 
 HOMEPAGE="https://github.com/usnistgov/NEMO"
 LICENSE="Public domain"

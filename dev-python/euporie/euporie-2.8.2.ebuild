@@ -44,6 +44,6 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/timg[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	hub? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"
+	hub? ( ~dev-python/asyncssh-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

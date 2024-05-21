@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/wheel-0.42.0[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/aioftp[${PYTHON_USEDEP}]
 	dev-python/siosocks[${PYTHON_USEDEP}]
-	dev-python/asyncssh[${PYTHON_USEDEP}]
+	~dev-python/asyncssh-2.14.2[${PYTHON_USEDEP}]
 	uvloop? ( >=dev-python/uvloop-0.19.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Encord Python SDK Client"
+DESCRIPTION="Encord Python SDK Client [top-max 0.1.118]"
 
 HOMEPAGE="https://github.com/encord-team/encord-client-python"
 LICENSE="Apache-2.0"

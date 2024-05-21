@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.0.1[${PYTHON_USEDEP}]
-	dev-python/asyncssh[${PYTHON_USEDEP}]
+	>=dev-python/asyncssh-1.18.0[${PYTHON_USEDEP}]
 	dev-python/pop[${PYTHON_USEDEP}]
 	dev-python/pop-config[${PYTHON_USEDEP}]
 	dev-python/rend[${PYTHON_USEDEP}]

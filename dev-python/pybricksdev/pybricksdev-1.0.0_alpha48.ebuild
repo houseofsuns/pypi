@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aioserial[${PYTHON_USEDEP}]
 	<dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
-	dev-python/asyncssh[${PYTHON_USEDEP}]
+	<dev-python/asyncssh-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/mpy-cross-v5[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]

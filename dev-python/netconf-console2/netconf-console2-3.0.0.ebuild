@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Netconf client CLI tool and interactive console"
+DESCRIPTION="Netconf client CLI tool and interactive console [top-max 3.0.1]"
 
 HOMEPAGE="https://bitbucket.org/martin_volf/ncc"
 LICENSE="MIT"

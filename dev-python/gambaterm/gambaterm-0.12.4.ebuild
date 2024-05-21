@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="controller-support"
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
-	dev-python/asyncssh[${PYTHON_USEDEP}]
+	>=dev-python/asyncssh-2.9[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0.29[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	dev-python/samplerate[${PYTHON_USEDEP}]

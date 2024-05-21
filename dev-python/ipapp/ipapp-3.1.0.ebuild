@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	rabbitmq? ( <dev-python/pika-2.0.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	s3? ( <dev-python/python-magic-0.5.0[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
+	sftp? ( <dev-python/asyncssh-3.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/black-25.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/flake8-8.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/mock-6.0.0[${PYTHON_USEDEP}] )

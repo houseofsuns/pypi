@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.5[${PYTHON_USEDEP}]
-	dev-python/asyncssh[${PYTHON_USEDEP}]
+	~dev-python/asyncssh-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/setproctitle-1.1.10[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

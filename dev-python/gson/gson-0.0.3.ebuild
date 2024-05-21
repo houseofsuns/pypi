@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Json Encode/Decoder in Golang Style"
+DESCRIPTION="Json Encode/Decoder in Golang Style [top-max 0.0.4]"
 
 HOMEPAGE="https://github.com/lhrotk/gson"
 LICENSE=""

@@ -28,6 +28,6 @@ DEPENDENCIES="accelerated? ( >=dev-python/pycryptodome-3.7.2[${PYTHON_USEDEP}] )
 	accelerated? ( >=dev-python/uvloop-0.13.0[${PYTHON_USEDEP}] )
 	daemon? ( >=dev-python/python-daemon-2.2.3[${PYTHON_USEDEP}] )
 	quic? ( dev-python/aioquic[${PYTHON_USEDEP}] )
-	sshtunnel? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"
+	sshtunnel? ( >=dev-python/asyncssh-2.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

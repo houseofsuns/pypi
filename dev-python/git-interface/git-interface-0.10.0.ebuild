@@ -27,6 +27,6 @@ IUSE="quart ssh"
 DEPENDENCIES=">=dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	quart? ( >=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}] )
 	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
-	ssh? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"
+	ssh? ( >=dev-python/asyncssh-2.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

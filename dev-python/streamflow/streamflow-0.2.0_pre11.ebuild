@@ -27,7 +27,7 @@ IUSE="bandit docs lint report test"
 DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	~dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}]
 	~dev-python/antlr4-python3-runtime-4.13.1[${PYTHON_USEDEP}]
-	dev-python/asyncssh[${PYTHON_USEDEP}]
+	~dev-python/asyncssh-2.14.2[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.1.3[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.3.3[${PYTHON_USEDEP}]
 	dev-python/cwltool[${PYTHON_USEDEP}]

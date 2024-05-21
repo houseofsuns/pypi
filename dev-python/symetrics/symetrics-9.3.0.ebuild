@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Symetrics API"
+DESCRIPTION="Symetrics API [top-max 10.0.0]"
 
 HOMEPAGE="https://lbundalian.github.io/symetrics/"
 LICENSE=""

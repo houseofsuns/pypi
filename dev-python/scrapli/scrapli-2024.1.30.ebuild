@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="asyncssh community dev docs genie paramiko ssh2 textfsm ttp"
-DEPENDENCIES="asyncssh? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
+DEPENDENCIES="asyncssh? ( <dev-python/asyncssh-3.0.0[${PYTHON_USEDEP}] )
 	community? ( dev-python/scrapli-community[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="asyncssh? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
 	dev? ( dev-python/textfsm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ttp[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/asyncssh-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scrapli-community[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ssh2-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/genie[${PYTHON_USEDEP}] )

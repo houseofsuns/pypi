@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python GUI, CLI, and wrapper for Tomb [top-max 0.10.1]"
+DESCRIPTION="A Python GUI, CLI, and wrapper for Tomb [top-max 0.10.2]"
 
 HOMEPAGE="https://github.com/mandeep/Mausoleum"
 LICENSE="GPL-3+"

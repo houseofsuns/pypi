@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="openlineage ssh"
 DEPENDENCIES="dev-python/apache-airflow-providers-ssh[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/asyncssh[${PYTHON_USEDEP}]
+	>=dev-python/asyncssh-2.12.0[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.8.0[${PYTHON_USEDEP}]
 	openlineage? ( dev-python/apache-airflow-providers-openlineage[${PYTHON_USEDEP}] )
 	ssh? ( dev-python/apache-airflow-providers-ssh[${PYTHON_USEDEP}] )"

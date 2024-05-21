@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convert C++ header files to PlantUML"
+DESCRIPTION="Convert C++ header files to PlantUML [top-max 0.8.5]"
 
 HOMEPAGE="https://github.com/thibaultmarin/hpp2plantuml"
 LICENSE="MIT"

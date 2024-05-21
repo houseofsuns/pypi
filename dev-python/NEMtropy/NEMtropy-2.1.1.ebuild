@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NEMtropy is a Maximum-Entropy toolbox for networks, it provides the user with a state of the art solver for a range variety of Maximum Entropy Networks models derived from the ERGM family. This module allows you to solve the desired model and generate a number of randomized graphs from the original one: the so-called graphs ensemble."
+DESCRIPTION="NEMtropy is a Maximum-Entropy toolbox for networks, it provides the user with a state of the art solver for a range variety of Maximum Entropy Networks models derived from the ERGM family. This module allows you to solve the desired model and generate a number of randomized graphs from the original one: the so-called graphs ensemble. [top-max 3.0.0]"
 
 HOMEPAGE="https://github.com/nicoloval/NEMtropy/"
 LICENSE="GNU General Public License v3"

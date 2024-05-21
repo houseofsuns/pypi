@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="db mysql postgres sftp wiremock"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
-	sftp? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
+	sftp? ( <dev-python/asyncssh-3.0.0[${PYTHON_USEDEP}] )
 	mysql? ( <dev-python/cryptography-43.0[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	postgres? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )

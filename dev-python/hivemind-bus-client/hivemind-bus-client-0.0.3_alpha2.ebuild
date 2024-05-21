@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hivemind Websocket Client [top-max 0.0.4_alpha18]"
+DESCRIPTION="Hivemind Websocket Client [top-max 0.0.4_alpha22]"
 
 HOMEPAGE="https://github.com/JarbasHiveMind/hivemind_websocket_client"
 LICENSE="Apache-2.0"

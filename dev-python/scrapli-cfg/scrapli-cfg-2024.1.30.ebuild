@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asyncssh dev docs paramiko ssh2"
 DEPENDENCIES="dev-python/scrapli[${PYTHON_USEDEP}]
-	asyncssh? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
+	asyncssh? ( <dev-python/asyncssh-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/scrapli[${PYTHON_USEDEP}]
 	dev? ( dev-python/scrapli-replay[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/asyncssh-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ssh2-python[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mdx-gh-links-1.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )

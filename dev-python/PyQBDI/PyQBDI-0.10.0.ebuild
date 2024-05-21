@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python binding for QBDI"
+DESCRIPTION="Python binding for QBDI [top-max 0.11.0]"
 
 HOMEPAGE="https://qbdi.quarkslab.com/"
 LICENSE="Apache-2.0"

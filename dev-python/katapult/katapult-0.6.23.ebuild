@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="scriptflow"
-DEPENDENCIES="dev-python/asyncssh[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/asyncssh-2.13.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.1[${PYTHON_USEDEP}]
 	dev-python/jcs[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]

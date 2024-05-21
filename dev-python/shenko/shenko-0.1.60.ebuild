@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="visit us at www.shenko.org [top-max 0.1.83]"
+DESCRIPTION="visit us at www.shenko.org [top-max 0.1.84]"
 
 HOMEPAGE="https://github.com/shenko/shenko"
 LICENSE="GNU General Public License v3"

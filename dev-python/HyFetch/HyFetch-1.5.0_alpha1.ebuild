@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="neofetch with flags <3"
+DESCRIPTION="neofetch with flags <3 [top-max 1.5.0_alpha2]"
 
 HOMEPAGE="https://github.com/hykilpikonna/HyFetch"
 LICENSE="MIT"

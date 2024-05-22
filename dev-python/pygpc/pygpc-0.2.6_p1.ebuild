@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A sensitivity and uncertainty analysis toolbox for Python [top-max 0.3.8]"
+DESCRIPTION="A sensitivity and uncertainty analysis toolbox for Python [top-max 0.3.9]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

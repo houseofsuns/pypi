@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OSADL license compatibility matrix"
+DESCRIPTION="OSADL license compatibility matrix [top-max 2024.5.22.10535]"
 
 HOMEPAGE=""
 LICENSE=""

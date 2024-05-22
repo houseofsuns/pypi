@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="pyfusion"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -16,8 +16,8 @@ DESCRIPTION="JPMC Fusion Developer Tools"
 
 HOMEPAGE="https://github.com/jpmorganchase/fusion"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/56/86/27f429063ac7220bbcc3567188504c787327678d214b1a7ef51d23fc635a/pyfusion-${REALVERSION}.tar.gz"
-SOURCEFILE="pyfusion-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple log module"
+DESCRIPTION="A simple log module [top-max 1.2.3]"
 
 HOMEPAGE="https://github.com/numlinka/pylogop"
 LICENSE=""

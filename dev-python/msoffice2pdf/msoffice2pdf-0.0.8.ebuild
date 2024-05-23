@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package aims to convert Office file types to PDF using Microsoft Office or LibreOffice."
+DESCRIPTION="This package aims to convert Office file types to PDF using Microsoft Office or LibreOffice. [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/robsonlimadeveloper/msoffice2pdf"
 LICENSE=""

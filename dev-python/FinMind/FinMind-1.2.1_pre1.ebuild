@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="financial mining [new-max 2024-01-15 13:53:18.450900+00:00]"
+DESCRIPTION="financial mining [new-max 2024-05-23 05:43:25.955150+00:00]"
 
 HOMEPAGE="https://github.com/linsamtw"
 LICENSE=""

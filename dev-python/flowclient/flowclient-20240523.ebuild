@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.25.0.post0.dev181"
+REALVERSION="1.25.0.post0.dev184"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client library for the FlowMachine API. [badver 1.25.0.post0.dev181, wheel]"
+DESCRIPTION="Python client library for the FlowMachine API. [badver 1.25.0.post0.dev184, wheel]"
 
 HOMEPAGE="https://github.com/Flowminder/FlowKit"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FEM I/O Tool [top-max 0.3.3_pre202311300634]"
+DESCRIPTION="FEM I/O Tool [top-max 0.3.3_pre202405241107]"
 
 HOMEPAGE="https://github.com/ricosjp/femio"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast grid calculation [top-max 0.1.13]"
+DESCRIPTION="Fast grid calculation [top-max 0.1.15]"
 
 HOMEPAGE="https://github.com/hspark1212/fast-grid.git"
 LICENSE=""

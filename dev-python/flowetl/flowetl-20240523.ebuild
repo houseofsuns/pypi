@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.25.0.post0.dev181"
+REALVERSION="1.25.0.post0.dev184"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FlowETL is a collection of special purposes Airflow operators and sensors for use with FlowKit. [badver 1.25.0.post0.dev181, wheel]"
+DESCRIPTION="FlowETL is a collection of special purposes Airflow operators and sensors for use with FlowKit. [badver 1.25.0.post0.dev184, wheel]"
 
 HOMEPAGE="http://github.com/Flowminder/FlowKit"
 LICENSE="MPL-2.0"

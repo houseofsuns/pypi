@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ocient Database Python API [top-max 3.3.0]"
+DESCRIPTION="Ocient Database Python API [top-max 3.3.2]"
 
 HOMEPAGE="https://www.ocient.com/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework based on Django that has tried to gather together the tools needed in the process of creating a large project."
+DESCRIPTION="A framework based on Django that has tried to gather together the tools needed in the process of creating a large project. [top-max 0.24.0]"
 
 HOMEPAGE="https://github.com/horinsoftwaregroup/gando.git"
 LICENSE=""

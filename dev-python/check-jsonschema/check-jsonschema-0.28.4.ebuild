@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs"
 DEPENDENCIES="~dev-python/ruamel-yaml-0.18.6[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
-	dev-python/regress[${PYTHON_USEDEP}]
+	>=dev-python/regress-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]

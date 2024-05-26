@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A command-line utility toolkit for Python."
+DESCRIPTION="A command-line utility toolkit for Python. [top-max 2.5.1]"
 
 HOMEPAGE="https://hyper-shell.readthedocs.io"
 LICENSE="Apache-2.0"

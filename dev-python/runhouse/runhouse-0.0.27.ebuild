@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Runhouse: A multiplayer cloud compute and data environment [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc788dd5d20>)]"
+DESCRIPTION="Runhouse: A multiplayer cloud compute and data environment [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f897044ce40>)]"
 
 HOMEPAGE="https://run.house"
 LICENSE="Apache-2.0"

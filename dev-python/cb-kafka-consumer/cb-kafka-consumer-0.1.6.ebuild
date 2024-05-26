@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/kafka-python[${PYTHON_USEDEP}]
 	~dev-python/python-snappy-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/crc32c-2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

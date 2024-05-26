@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	>=dev-python/pika-1.2.0[${PYTHON_USEDEP}]
 	dev-python/crontab[${PYTHON_USEDEP}]
-	>=dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]"
+	dev-python/kafka-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

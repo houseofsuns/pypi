@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Creates user interfaces (websites and desktop apps) from HTML easily [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f2dd2a536f0>)]"
+DESCRIPTION="Creates user interfaces (websites and desktop apps) from HTML easily [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc782e91ee0>)]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/flask-sock[${PYTHON_USEDEP}]
 	dev-python/pywebview[${PYTHON_USEDEP}]
-	<dev-python/tinycss-1.0[${PYTHON_USEDEP}]
+	dev-python/tinycss[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/flask-sqlalchemy-4.0[${PYTHON_USEDEP}]
 	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]

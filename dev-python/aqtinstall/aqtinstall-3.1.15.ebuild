@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	debug? ( dev-python/pytest-leaks[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-py3doc-enhanced-theme-2.4[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-py3doc-enhanced-theme[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

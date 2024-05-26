@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/setuptools-69.0.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/better-exceptions[${PYTHON_USEDEP}] )
 	all? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
-	all? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/datadog-api-client[${PYTHON_USEDEP}] )
 	dev-python/dpath[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.3.3[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="docs? ( >=dev-python/sphinx-1.4.8[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-3.0.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.2.1[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pytest-faulthandler-2.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/wheel-0.29[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

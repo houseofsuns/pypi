@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/mlrun[${PYTHON_USEDEP}]
 	~dev-python/cryptography-42.0[${PYTHON_USEDEP}]
 	~dev-python/pymysql-1.1[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	~dev-python/kafka-python-2.0[${PYTHON_USEDEP}]
+	dev-python/kafka-python[${PYTHON_USEDEP}]
 	dev-python/avro[${PYTHON_USEDEP}]
 	dev? ( dev-python/mlrun[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-0.17.0[${PYTHON_USEDEP}] )

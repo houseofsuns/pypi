@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/bumpversion[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/flatten-json[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
-	~dev-python/kafka-python-1.4.4[${PYTHON_USEDEP}]"
+	dev-python/kafka-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

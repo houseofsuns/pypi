@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Job scheduling for humans."
+DESCRIPTION="Job scheduling for humans. [top-max 1.2.2]"
 
 HOMEPAGE="https://github.com/dbader/schedule"
 LICENSE="MIT"

@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	image? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/prometheus-fastapi-instrumentator[${PYTHON_USEDEP}] )
-	kafka? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	aws? ( dev-python/connectorx[${PYTHON_USEDEP}] )
 	psql? ( dev-python/connectorx[${PYTHON_USEDEP}] )
 	psql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )

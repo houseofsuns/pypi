@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/v3iofs[${PYTHON_USEDEP}]
 	>=dev-python/xxhash-1.0[${PYTHON_USEDEP}]
 	dev-python/nuclio-sdk[${PYTHON_USEDEP}]
-	kafka? ( ~dev-python/kafka-python-2.0[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	redis? ( ~dev-python/redis-4.3[${PYTHON_USEDEP}] )
 	sqlalchemy? ( ~dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}] )
 	tdengine? ( dev-python/taospy[${PYTHON_USEDEP}] )"

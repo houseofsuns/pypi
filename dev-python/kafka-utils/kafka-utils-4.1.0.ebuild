@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/humanfriendly-4.8[${PYTHON_USEDEP}]
-	<dev-python/kafka-python-1.5.0[${PYTHON_USEDEP}]
+	dev-python/kafka-python[${PYTHON_USEDEP}]
 	dev-python/kazoo[${PYTHON_USEDEP}]
 	>dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2014.1[${PYTHON_USEDEP}]

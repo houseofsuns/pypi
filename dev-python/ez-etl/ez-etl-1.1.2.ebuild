@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
 	>=dev-python/elasticsearch-7.17.2[${PYTHON_USEDEP}]
 	~dev-python/redis-4.0.2[${PYTHON_USEDEP}]
-	~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]
+	dev-python/kafka-python[${PYTHON_USEDEP}]
 	dev-python/mysql-replication[${PYTHON_USEDEP}]
 	all? ( dev-python/xorbits[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )

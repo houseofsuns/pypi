@@ -27,6 +27,6 @@ IUSE="instruments"
 DEPENDENCIES="~dev-python/opentelemetry-api-1.5[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-semantic-conventions-0.45_beta0[${PYTHON_USEDEP}]
-	instruments? ( >=dev-python/kafka-python-2.0[${PYTHON_USEDEP}] )"
+	instruments? ( dev-python/kafka-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

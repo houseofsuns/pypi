@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/pysodium[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/dirhash[${PYTHON_USEDEP}]
 	confluent-kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
-	kafka-python? ( >=dev-python/kafka-python-1.4.4[${PYTHON_USEDEP}] )"
+	kafka-python? ( dev-python/kafka-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

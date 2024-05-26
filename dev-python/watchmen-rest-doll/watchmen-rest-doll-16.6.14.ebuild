@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/watchmen-storage-postgresql[${PYTHON_USEDEP}] )
 	oss? ( dev-python/watchmen-storage-oss[${PYTHON_USEDEP}] )
 	s3? ( dev-python/watchmen-storage-s3[${PYTHON_USEDEP}] )
-	kafka? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	rabbit? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/starlette-prometheus[${PYTHON_USEDEP}] )

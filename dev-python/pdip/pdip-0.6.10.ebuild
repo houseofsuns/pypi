@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	integrator? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	integrator? ( dev-python/dataclasses-json[${PYTHON_USEDEP}] )
 	integrator? ( dev-python/func-timeout[${PYTHON_USEDEP}] )
-	integrator? ( ~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )
+	integrator? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	integrator? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	integrator? ( ~dev-python/pandas-2.2.2[${PYTHON_USEDEP}] )
 	integrator? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

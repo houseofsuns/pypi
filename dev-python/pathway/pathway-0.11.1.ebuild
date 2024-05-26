@@ -79,7 +79,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-rerunfailures-14.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python-louvain[${PYTHON_USEDEP}] )
 	tests? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )
+	tests? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python-magic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pathway[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

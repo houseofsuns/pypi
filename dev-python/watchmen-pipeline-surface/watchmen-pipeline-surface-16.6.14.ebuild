@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/watchmen-pipeline-kernel[${PYTHON_USEDEP}]
 	mongodb? ( dev-python/watchmen-storage-mongodb[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/watchmen-storage-mssql[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/watchmen-storage-postgresql[${PYTHON_USEDEP}] )
-	kafka? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	standard-ext-writer? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"

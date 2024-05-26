@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	p_tests? ( ~dev-python/coverage-6.5[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
-	p_tests? ( ~dev-python/pytest-faulthandler-2.0[${PYTHON_USEDEP}] )
+	p_tests? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/pytest-qt-4.2[${PYTHON_USEDEP}] )
 	p_tests? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/pytest-xdist-2.2[${PYTHON_USEDEP}] )

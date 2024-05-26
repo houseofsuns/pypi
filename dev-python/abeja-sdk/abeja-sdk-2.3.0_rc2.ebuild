@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/retrying-1.3.4[${PYTHON_USEDEP}]
 	~dev-python/tomlkit-0.7.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-3.4.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/guzzle_sphinx_theme-0.7.11[${PYTHON_USEDEP}] )
+	docs? ( dev-python/guzzle_sphinx_theme[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/importlib-metadata-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/virtualenv-20.0.34[${PYTHON_USEDEP}] )
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]

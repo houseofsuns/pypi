@@ -67,7 +67,7 @@ DEPENDENCIES=">dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	endpoints? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	extensions? ( dev-python/proxystore-ex[${PYTHON_USEDEP}] )
-	kafka? ( >=dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-3.4[${PYTHON_USEDEP}] )
 	zmq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

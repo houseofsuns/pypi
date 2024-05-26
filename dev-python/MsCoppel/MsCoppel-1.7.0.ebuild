@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/kafka-python-2.0.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/kafka-python[${PYTHON_USEDEP}]
 	dev-python/logbook[${PYTHON_USEDEP}]
 	dev-python/asyncio-nats-client[${PYTHON_USEDEP}]
 	dev-python/jaeger-client[${PYTHON_USEDEP}]

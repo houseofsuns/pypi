@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc"
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/port-for[${PYTHON_USEDEP}]
-	>=dev-python/kafka-python-1.4.3[${PYTHON_USEDEP}]
+	dev-python/kafka-python[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyflakes-1.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )

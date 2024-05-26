@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/tomorrow3[${PYTHON_USEDEP}]
 	dev-python/chained-mode-time-tool[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )
+	all? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/loguru[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

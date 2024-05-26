@@ -30,7 +30,7 @@ DEPENDENCIES="amqp? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	<dev-python/cryptography-42.1.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	kafka? ( <dev-python/kafka-python-2.1.0[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	nats? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	<dev-python/orjson-3.10.0[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]

@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
 	excel? ( <dev-python/odfpy-2.0.0[${PYTHON_USEDEP}] )
 	excel? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
-	kafka? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/sql_metadata[${PYTHON_USEDEP}] )
 	mssql? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )

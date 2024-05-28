@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A hybrid chatbot. [top-max 0.0.83]"
+DESCRIPTION="A hybrid chatbot. [top-max 0.0.90]"
 
 HOMEPAGE="http://github.com/fractalego/wafl"
 LICENSE=""

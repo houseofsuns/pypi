@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pnnx python wrapper [top-max 20240410]"
+DESCRIPTION="pnnx python wrapper [top-max 20240527]"
 
 HOMEPAGE=""
 LICENSE=""

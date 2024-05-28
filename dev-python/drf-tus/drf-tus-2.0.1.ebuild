@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Tus (tus.io) library for Django Rest Framework"
+DESCRIPTION="A Tus (tus.io) library for Django Rest Framework [top-max 2.0.2]"
 
 HOMEPAGE="https://github.com/dirkmoors/drf-tus"
 LICENSE="MIT"

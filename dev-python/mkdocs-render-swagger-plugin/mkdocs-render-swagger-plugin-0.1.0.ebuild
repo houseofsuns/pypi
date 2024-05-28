@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MKDocs plugin for rendering swagger & openapi files. [top-max 0.1.1]"
+DESCRIPTION="MKDocs plugin for rendering swagger & openapi files. [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/bharel/mkdocs-render-swagger-plugin"
 LICENSE=""

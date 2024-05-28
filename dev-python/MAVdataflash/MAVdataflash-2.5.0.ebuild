@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Read, analyze and visualize *.bin flight data logs recorded by ArduPilot"
+DESCRIPTION="Read, analyze and visualize *.bin flight data logs recorded by ArduPilot [top-max 2.5.2]"
 
 HOMEPAGE="https://github.com/generalaeronautics/MAVdataflash"
 LICENSE=""

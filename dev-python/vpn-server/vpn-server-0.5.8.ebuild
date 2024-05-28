@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create an on demand VPN Server running with OpenVPN using AWS EC2. [top-max 1.7]"
+DESCRIPTION="Create an on demand VPN Server running with OpenVPN using AWS EC2. [top-max 1.7.1]"
 
 HOMEPAGE="https://github.com/thevickypedia/vpn-server"
 LICENSE=""

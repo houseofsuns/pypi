@@ -130,7 +130,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( dev-python/django-treebeard[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-webpack-loader[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-widget-tweaks[${PYTHON_USEDEP}] )
-	pinned? ( ~dev-python/et_xmlfile-1.1.0[${PYTHON_USEDEP}] )
+	pinned? ( dev-python/et_xmlfile[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/executing-2.0.1[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/feedparser-6.0.11[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/frozenlist-1.4.1[${PYTHON_USEDEP}] )

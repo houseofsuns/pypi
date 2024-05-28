@@ -142,7 +142,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/docker-6.1.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/docker-pycreds[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/entrypoints-0.4[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/et_xmlfile-1.1.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/et_xmlfile[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/exceptiongroup-1.1.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/execnet-1.9.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/executing-1.2.0[${PYTHON_USEDEP}] )

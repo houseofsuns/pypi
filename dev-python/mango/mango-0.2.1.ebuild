@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli dashboard data gcloud models plot shap"
 DEPENDENCIES="<=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	<=dev-python/charset-normalizer-3.3.0[${PYTHON_USEDEP}]
-	<=dev-python/et_xmlfile-1.1.0[${PYTHON_USEDEP}]
+	dev-python/et_xmlfile[${PYTHON_USEDEP}]
 	<=dev-python/fastjsonschema-2.18.1[${PYTHON_USEDEP}]
 	<=dev-python/idna-3.4[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]

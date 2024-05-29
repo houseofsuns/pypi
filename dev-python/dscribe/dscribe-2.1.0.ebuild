@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package for creating feature transformations in applications of machine learning to materials science."
+DESCRIPTION="A Python package for creating feature transformations in applications of machine learning to materials science. [top-max 2.1.1]"
 
 HOMEPAGE="https://singroup.github.io/dscribe/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="On demand query API for OSINT.digitalside.it project. You can query for souspicious domains, urls, IPv4 and file hashes."
+DESCRIPTION="On demand query API for OSINT.digitalside.it project. You can query for souspicious domains, urls, IPv4 and file hashes. [top-max 2.0.3]"
 
 HOMEPAGE="https://github.com/davidonzo/apiosintDS"
 LICENSE="MIT"

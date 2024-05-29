@@ -4,26 +4,26 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="LightApi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=standalone
+PYTHON_COMPAT=( python{3_11,3_12} )
+DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION="A lightweight framework for building API endpoints using Python's native libraries. [wheel]"
 
-HOMEPAGE=""
+HOMEPAGE="https://github.com/henriqueblobato/LightApi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}-py3-none-any.whl"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}-py3-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=""
+DEPENDENCIES="virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="(Your) Transient Auxiliary Library - Analysis and processing of time-resolved light transport"
+DESCRIPTION="(Your) Transient Auxiliary Library - Analysis and processing of time-resolved light transport [top-max 0.16.3]"
 
 HOMEPAGE="https://github.com/diegoroyo/tal"
 LICENSE=""

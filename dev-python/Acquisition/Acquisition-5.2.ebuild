@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Acquisition is a mechanism that allows objects to obtain attributes from the containment hierarchy they're in."
+DESCRIPTION="Acquisition is a mechanism that allows objects to obtain attributes from the containment hierarchy they're in. [top-max 6.0]"
 
 HOMEPAGE="https://github.com/zopefoundation/Acquisition"
 LICENSE="ZPL 2.1"

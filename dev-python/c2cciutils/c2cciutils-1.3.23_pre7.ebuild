@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common utilities for Camptocamp CI"
+DESCRIPTION="Common utilities for Camptocamp CI [new-max 2024-05-29 11:24:54.326451+00:00]"
 
 HOMEPAGE="https://github.com/camptocamp/c2cciutils"
 LICENSE="FreeBSD"

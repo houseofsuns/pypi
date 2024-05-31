@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/qiskit-0.37.0[${PYTHON_USEDEP}]
 	dev-python/openqasm3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="library used for ingesting jira data"
+DESCRIPTION="library used for ingesting jira data [top-max 0.0.88]"
 
 HOMEPAGE="https://github.com/Jellyfish-AI/jf_ingest"
 LICENSE="MIT"

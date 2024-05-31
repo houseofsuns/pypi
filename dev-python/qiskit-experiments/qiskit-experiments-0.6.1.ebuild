@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="extras"
 DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-0.45[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-experiment[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/uncertainties[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/qiskit-0.32[${PYTHON_USEDEP}]
 	dev-python/mthree[${PYTHON_USEDEP}]
 	dev-python/PennyLane[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

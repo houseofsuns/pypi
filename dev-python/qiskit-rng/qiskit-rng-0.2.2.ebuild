@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/qiskit-ibmq-provider[${PYTHON_USEDEP}]
-	>=dev-python/qiskit-terra-0.16.2[${PYTHON_USEDEP}]"
+	dev-python/qiskit-terra[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

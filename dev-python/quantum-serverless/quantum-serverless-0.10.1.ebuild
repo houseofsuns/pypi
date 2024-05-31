@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ray[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-5.2.0[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-1.0.2[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-runtime[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/qiskit-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/qiskit-aer-0.13.3[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-runtime[${PYTHON_USEDEP}]
 	dev-python/qutip[${PYTHON_USEDEP}]

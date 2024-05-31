@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 1.21.1]"
+DESCRIPTION=" [top-max 1.21.2]"
 
 HOMEPAGE="https://www.cerebrium.ai"
 LICENSE="AGPL-3"

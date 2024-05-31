@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="synthetics data for botocore. See the \`botocore-a-la-carte\` package for more info."
+DESCRIPTION="synthetics data for botocore. See the \`botocore-a-la-carte\` package for more info. [top-max 1.34.116]"
 
 HOMEPAGE="https://github.com/thejcannon/botocore-a-la-carte"
 LICENSE="Apache-2.0"

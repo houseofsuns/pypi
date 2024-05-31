@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sparse torch"
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/qiskit-0.44[${PYTHON_USEDEP}]
 	dev-python/qiskit-algorithms[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]

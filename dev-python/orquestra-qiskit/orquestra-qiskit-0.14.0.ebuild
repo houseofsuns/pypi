@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	<=dev-python/sympy-1.9[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	~dev-python/qiskit-0.44.2[${PYTHON_USEDEP}]
 	~dev-python/qiskit-aer-0.12.2[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}]
 	~dev-python/symengine-0.7[${PYTHON_USEDEP}]

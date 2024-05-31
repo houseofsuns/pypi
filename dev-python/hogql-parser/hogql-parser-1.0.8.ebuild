@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HogQL parser for internal PostHog use"
+DESCRIPTION="HogQL parser for internal PostHog use [top-max 1.0.10]"
 
 HOMEPAGE="https://github.com/PostHog/posthog/tree/master/hogql_parser"
 LICENSE=""

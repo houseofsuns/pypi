@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	<dev-python/qiskit-0.42.0[${PYTHON_USEDEP}]
 	dev-python/strangeworks[${PYTHON_USEDEP}]
 	dev-python/dimod[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

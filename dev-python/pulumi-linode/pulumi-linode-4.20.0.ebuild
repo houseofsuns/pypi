@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing linode cloud resources."
+DESCRIPTION="A Pulumi package for creating and managing linode cloud resources. [top-max 4.21.0_alpha1717134451]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

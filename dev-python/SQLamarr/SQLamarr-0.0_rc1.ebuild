@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The stand-alone ultra-fast simulation option for LHCb [top-max 0.0_rc6]"
+DESCRIPTION="The stand-alone ultra-fast simulation option for LHCb [top-max 0.0_rc7]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

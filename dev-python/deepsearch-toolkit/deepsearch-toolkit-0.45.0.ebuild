@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interact with the Deep Search platform for new knowledge explorations and discoveries"
+DESCRIPTION="Interact with the Deep Search platform for new knowledge explorations and discoveries [top-max 0.46.0]"
 
 HOMEPAGE="https://ds4sd.github.io/deepsearch-toolkit/"
 LICENSE="MIT"

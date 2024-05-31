@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing ns1 cloud resources."
+DESCRIPTION="A Pulumi package for creating and managing ns1 cloud resources. [top-max 3.3.0_alpha1717135393]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

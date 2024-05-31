@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint notebook test"
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/qiskit-0.45.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/tox-4.4.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	lint? ( >=dev-python/pylint-2.14.4[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/notebook-6.4.12[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/qiskit-0.45.1[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/qiskit-aer-0.13.1[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/nbqa[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/treon[${PYTHON_USEDEP}] )

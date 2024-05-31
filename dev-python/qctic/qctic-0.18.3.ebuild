@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev nest"
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/qiskit-0.26[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]

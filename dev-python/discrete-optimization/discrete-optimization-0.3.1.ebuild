@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/shapely-1.7[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
 	dev-python/clingo[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-1.0.2[${PYTHON_USEDEP}]
 	dev-python/qiskit-algorithms[${PYTHON_USEDEP}]
 	dev-python/qiskit-optimization[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

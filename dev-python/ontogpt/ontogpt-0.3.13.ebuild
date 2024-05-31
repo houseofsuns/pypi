@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OntoGPT"
+DESCRIPTION="OntoGPT [top-max 0.3.14]"
 
 HOMEPAGE=""
 LICENSE="BSD"

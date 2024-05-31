@@ -45,7 +45,7 @@ DEPENDENCIES="<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	pyquil? ( dev-python/pyquil[${PYTHON_USEDEP}] )
 	pytket? ( dev-python/pytket[${PYTHON_USEDEP}] )
 	qir? ( dev-python/qbraid-qir[${PYTHON_USEDEP}] )
-	qiskit? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	qiskit? ( <dev-python/qiskit-1.1.0[${PYTHON_USEDEP}] )
 	qiskit? ( dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}] )
 	qiskit? ( dev-python/qiskit-ibm-runtime[${PYTHON_USEDEP}] )
 	qiskit? ( dev-python/qiskit[${PYTHON_USEDEP}] )

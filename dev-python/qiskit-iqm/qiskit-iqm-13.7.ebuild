@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	<dev-python/qiskit-0.46[${PYTHON_USEDEP}]
 	<dev-python/qiskit-aer-0.14[${PYTHON_USEDEP}]
 	dev-python/iqm-client[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/tox-4.11.4[${PYTHON_USEDEP}] )

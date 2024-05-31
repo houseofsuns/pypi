@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/qoqo-calculator-pyo3[${PYTHON_USEDEP}]
 	dev-python/qoqo[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	<dev-python/qiskit-0.46[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}]
 	dev-python/struqture-py[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]

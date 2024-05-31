@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/qiskit-0.44.1[${PYTHON_USEDEP}]
 	dev-python/qiskit-aer-gpu[${PYTHON_USEDEP}]
 	dev-python/qbraid[${PYTHON_USEDEP}]
 	dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]

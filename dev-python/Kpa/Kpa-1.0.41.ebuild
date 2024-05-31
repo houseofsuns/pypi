@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple python utils"
+DESCRIPTION="Simple python utils [top-max 1.0.42]"
 
 HOMEPAGE="https://github.com/pjvandehaar/kpa"
 LICENSE=""

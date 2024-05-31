@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cvx pyscf skquant torch"
-DEPENDENCIES=">=dev-python/qiskit-terra-0.18.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/qiskit-terra[${PYTHON_USEDEP}]
 	dev-python/qiskit-ignis[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.3[${PYTHON_USEDEP}]

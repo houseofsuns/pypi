@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for working with Bioinformatics data with SQL and Arrow"
+DESCRIPTION="A package for working with Bioinformatics data with SQL and Arrow [top-max 0.21.1]"
 
 HOMEPAGE=""
 LICENSE=""

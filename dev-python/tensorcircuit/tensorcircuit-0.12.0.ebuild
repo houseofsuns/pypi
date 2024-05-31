@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tensornetwork-ng[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	cloud? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	cloud? ( <dev-python/qiskit-1.0[${PYTHON_USEDEP}] )
 	cloud? ( dev-python/mthree[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	qiskit? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	qiskit? ( <dev-python/qiskit-1.0[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

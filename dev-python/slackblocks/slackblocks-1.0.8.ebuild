@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for the Slack Blocks API"
+DESCRIPTION="Python wrapper for the Slack Blocks API [top-max 1.0.9]"
 
 HOMEPAGE="https://github.com/nicklambourne/slackblocks"
 LICENSE="MIT"

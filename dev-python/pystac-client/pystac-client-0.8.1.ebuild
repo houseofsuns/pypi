@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for working with SpatioTemporal Asset Catalog (STAC) APIs."
+DESCRIPTION="Python library for working with SpatioTemporal Asset Catalog (STAC) APIs. [top-max 0.8.2]"
 
 HOMEPAGE="https://github.com/stac-utils/pystac-client"
 LICENSE="Apache-2.0"

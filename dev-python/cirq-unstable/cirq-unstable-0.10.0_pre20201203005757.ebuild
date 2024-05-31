@@ -53,7 +53,7 @@ DEPENDENCIES="<dev-python/google-api-core-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev_env? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/pyquil[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	dev_env? ( ~dev-python/qiskit-0.20.0[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev_env? ( ~dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )

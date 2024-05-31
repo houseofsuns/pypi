@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Howso OpenAPI [top-max 34.0.2]"
+DESCRIPTION="Howso OpenAPI [top-max 34.1.0]"
 
 HOMEPAGE=""
 LICENSE=""

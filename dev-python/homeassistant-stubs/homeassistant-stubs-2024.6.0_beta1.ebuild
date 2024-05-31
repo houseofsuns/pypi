@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PEP 484 typing stubs for Home Assistant Core"
+DESCRIPTION="PEP 484 typing stubs for Home Assistant Core [top-max 2024.6.0_beta2]"
 
 HOMEPAGE="https://github.com/KapJI/homeassistant-stubs"
 LICENSE="MIT"

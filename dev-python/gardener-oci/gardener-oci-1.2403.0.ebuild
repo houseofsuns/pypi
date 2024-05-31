@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="gardener OCI lib"
+DESCRIPTION="gardener OCI lib [top-max 1.2405.0]"
 
 HOMEPAGE=""
 LICENSE=""

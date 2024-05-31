@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/qiskit-0.33.0[${PYTHON_USEDEP}]
 	dev-python/projectq[${PYTHON_USEDEP}]
 	dev-python/cirq[${PYTHON_USEDEP}]
 	dev-python/quimb[${PYTHON_USEDEP}]

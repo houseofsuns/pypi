@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="visualization"
-DEPENDENCIES=">=dev-python/qiskit-terra-0.18.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/qiskit-terra[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
 	<=dev-python/requests-ntlm-1.1.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24[${PYTHON_USEDEP}]

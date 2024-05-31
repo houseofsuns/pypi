@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`meshkernel\` is a library which can be used to manipulate meshes. [top-max 4.1.0]"
+DESCRIPTION="\`meshkernel\` is a library which can be used to manipulate meshes. [top-max 4.2.0]"
 
 HOMEPAGE="https://github.com/Deltares/MeshKernelPy"
 LICENSE="MIT"

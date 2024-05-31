@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/connexion[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-0.44.0[${PYTHON_USEDEP}]
 	>=dev-python/thrift-0.15.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/waitress-2.1.1[${PYTHON_USEDEP}]

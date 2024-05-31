@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cvx iq jit visualization"
 DEPENDENCIES=">=dev-python/numpy-1.13[${PYTHON_USEDEP}]
-	>=dev-python/qiskit-terra-0.15.1[${PYTHON_USEDEP}]
+	dev-python/qiskit-terra[${PYTHON_USEDEP}]
 	dev-python/retworkx[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]

@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev_env? ( ~dev-python/grpcio-tools-1.24.0[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	dev_env? ( ~dev-python/qiskit-0.6.0[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	dev_env? ( >=dev-python/recommonmark-0.4.0[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/sphinx[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/JaqalPaq[${PYTHON_USEDEP}]
 	projectq? ( dev-python/projectq[${PYTHON_USEDEP}] )
 	pyquil? ( dev-python/pyquil[${PYTHON_USEDEP}] )
 	pytket? ( dev-python/pytket[${PYTHON_USEDEP}] )
-	qiskit? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	qiskit? ( <dev-python/qiskit-1.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/pytket-qiskit[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/qiskit-nature[${PYTHON_USEDEP}] )"

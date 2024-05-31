@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/qiskit-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/qiskit-aer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rustworkx[${PYTHON_USEDEP}] )
 	extra? ( dev-python/graphix-ibmq[${PYTHON_USEDEP}] )

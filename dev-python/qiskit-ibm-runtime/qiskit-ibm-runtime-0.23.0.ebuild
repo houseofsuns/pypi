@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/requests-2.19[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
 	dev-python/ibm-platform-services[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]"
+	>=dev-python/qiskit-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

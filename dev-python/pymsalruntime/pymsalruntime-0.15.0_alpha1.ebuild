@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The MSALRuntime Python Interop Package"
+DESCRIPTION="The MSALRuntime Python Interop Package [top-max 0.16.2_alpha1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	lint? ( dev-python/qbraid-cli[${PYTHON_USEDEP}] )
-	qiskit? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	qiskit? ( <dev-python/qiskit-1.1[${PYTHON_USEDEP}] )
 	qiskit? ( dev-python/qiskit-ibm-runtime[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/qbraid-qir[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -45,7 +45,7 @@ DEPENDENCIES="test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/qiskit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mqt-core[${PYTHON_USEDEP}] )
-	qiskit? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	qiskit? ( >=dev-python/qiskit-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mqt-core[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

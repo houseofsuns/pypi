@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
 	dev-python/pyqrack[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]"
+	>=dev-python/qiskit-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

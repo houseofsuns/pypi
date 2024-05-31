@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The modern realtime feature engineering platform"
+DESCRIPTION="The modern realtime feature engineering platform [top-max 1.3.24]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MySQL db models"
+DESCRIPTION="MySQL db models [top-max 0.0.673]"
 
 HOMEPAGE="https://github.com/mindgram/cs-models"
 LICENSE=""

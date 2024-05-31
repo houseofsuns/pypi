@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The NWA-stdlib module."
+DESCRIPTION="The NWA-stdlib module. [top-max 1.7.1]"
 
 HOMEPAGE="https://github.com/workfloworchestrator/nwa-stdlib"
 LICENSE=""

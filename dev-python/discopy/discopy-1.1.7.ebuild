@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	test? ( dev-python/PennyLane[${PYTHON_USEDEP}] )
 	test? ( dev-python/PennyLane-qiskit[${PYTHON_USEDEP}] )
 	test? ( dev-python/PennyLane-Honeywell[${PYTHON_USEDEP}] )
-	test? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	test? ( <dev-python/qiskit-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/qiskit-aer[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/nltk[${PYTHON_USEDEP}] )

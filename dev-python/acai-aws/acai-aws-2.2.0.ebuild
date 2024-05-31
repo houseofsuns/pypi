@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DRY, configurable, opinionated, minimalist framework for use with AWS Serverless Lambdas"
+DESCRIPTION="DRY, configurable, opinionated, minimalist framework for use with AWS Serverless Lambdas [top-max 2.2.1]"
 
 HOMEPAGE="https://github.com/syngenta/acai-python.git"
 LICENSE=""

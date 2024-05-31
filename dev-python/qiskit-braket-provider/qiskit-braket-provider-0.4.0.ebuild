@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
-	dev-python/qiskit[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-0.34.2[${PYTHON_USEDEP}]
 	dev-python/qiskit-ionq[${PYTHON_USEDEP}]
 	dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]

@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
 	dev-python/Pyomo[${PYTHON_USEDEP}]
 	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
-	<dev-python/qiskit-terra-1.0[${PYTHON_USEDEP}]"
+	dev-python/qiskit-terra[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

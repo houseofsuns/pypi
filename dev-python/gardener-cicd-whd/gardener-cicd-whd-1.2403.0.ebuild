@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gardener CI/CD Webhook Dispatcher"
+DESCRIPTION="Gardener CI/CD Webhook Dispatcher [top-max 1.2408.0]"
 
 HOMEPAGE=""
 LICENSE=""

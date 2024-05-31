@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="visualization"
-DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/qiskit-0.45.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
 	>=dev-python/requests-ntlm-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13[${PYTHON_USEDEP}]

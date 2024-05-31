@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Universal Command Line Environment for AWS."
+DESCRIPTION="Universal Command Line Environment for AWS. [top-max 1.32.116]"
 
 HOMEPAGE="http://aws.amazon.com/cli/"
 LICENSE="Apache-2.0"

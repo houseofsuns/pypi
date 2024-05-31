@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/type_infer[${PYTHON_USEDEP}]
 	extra-ts? ( dev-python/gluonts[${PYTHON_USEDEP}] )
 	image? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	image? ( >=dev-python/pillow-10.3.0[${PYTHON_USEDEP}] )
-	quantum? ( dev-python/qiskit[${PYTHON_USEDEP}] )
+	quantum? ( ~dev-python/qiskit-0.31.0[${PYTHON_USEDEP}] )
 	xai? ( dev-python/shap[${PYTHON_USEDEP}] )
 	xai? ( dev-python/pyod[${PYTHON_USEDEP}] )
 	xai? ( dev-python/suod[${PYTHON_USEDEP}] )"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Cloud Spanner API client library"
+DESCRIPTION="Google Cloud Spanner API client library [top-max 3.47.0]"
 
 HOMEPAGE="https://github.com/googleapis/python-spanner"
 LICENSE="Apache-2.0"

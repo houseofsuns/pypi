@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for quick statistical analysis for HEP experiments"
+DESCRIPTION="A tool for quick statistical analysis for HEP experiments [top-max 0.7.0.4.3]"
 
 HOMEPAGE=""
 LICENSE=""

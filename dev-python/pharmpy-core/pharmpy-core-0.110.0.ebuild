@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pharmacometric modeling"
+DESCRIPTION="Pharmacometric modeling [top-max 1.0.0]"
 
 HOMEPAGE="https://pharmpy.github.io"
 LICENSE="GNU Lesser General Public License v3 LGPLv3"

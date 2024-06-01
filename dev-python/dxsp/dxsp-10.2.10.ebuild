@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DXSP (DeX SwaP), A defi swap helper package. Swap made easy."
+DESCRIPTION="DXSP (DeX SwaP), A defi swap helper package. Swap made easy. [top-max 10.2.11]"
 
 HOMEPAGE=""
 LICENSE="MIT"

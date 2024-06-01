@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AI Toolkit for Healthcare Imaging [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f54003c2180>)]"
+DESCRIPTION="AI Toolkit for Healthcare Imaging [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe8675f1d20>)]"
 
 HOMEPAGE="https://monai.io/"
 LICENSE="Apache-2.0"

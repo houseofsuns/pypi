@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extract tables from PDFs"
+DESCRIPTION="Extract tables from PDFs [top-max 1.0.2]"
 
 HOMEPAGE="https://github.com/SuleyNL/Extractable"
 LICENSE="MIT"

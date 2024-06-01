@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interact with OpenAI's ChatGPT models from the comfort of your terminal."
+DESCRIPTION="Interact with OpenAI's ChatGPT models from the comfort of your terminal. [top-max 0.0.33]"
 
 HOMEPAGE="https://github.com/sderev/lmt"
 LICENSE="Apache Licence, Version 2.0"

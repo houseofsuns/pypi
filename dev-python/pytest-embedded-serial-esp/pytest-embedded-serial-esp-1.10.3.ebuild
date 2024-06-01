@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Make pytest-embedded plugin work with Espressif target boards."
+DESCRIPTION="Make pytest-embedded plugin work with Espressif target boards. [top-max 1.11.0_rc0]"
 
 HOMEPAGE="https://github.com/espressif/pytest-embedded"
 LICENSE=""

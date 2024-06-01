@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for interacting with the Comotion APIs"
+DESCRIPTION="SDK for interacting with the Comotion APIs [top-max 0.0.29]"
 
 HOMEPAGE="https://github.com/ComotionLabs/comotion-sdk"
 LICENSE=""

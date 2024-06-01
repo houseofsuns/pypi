@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/browsercontroller[${PYTHON_USEDEP}]
-	>=dev-python/pyannotate-1.2.0[${PYTHON_USEDEP}]
+	dev-python/pyannotate[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	>=dev-python/selenium-4.8.2[${PYTHON_USEDEP}]"

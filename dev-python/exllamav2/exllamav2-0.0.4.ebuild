@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 0.1.1]"
+DESCRIPTION=" [top-max 0.1.3]"
 
 HOMEPAGE="https://github.com/turboderp/exllamav2"
 LICENSE="AGPL-3"

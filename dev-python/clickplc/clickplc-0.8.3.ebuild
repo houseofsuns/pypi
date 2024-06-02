@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python driver for Koyo Ethernet ClickPLCs."
+DESCRIPTION="Python driver for Koyo Ethernet ClickPLCs. [top-max 0.9.0]"
 
 HOMEPAGE="https://github.com/numat/clickplc/"
 LICENSE="GPL-2"

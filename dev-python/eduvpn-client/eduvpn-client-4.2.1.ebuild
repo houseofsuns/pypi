@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="eduVPN client"
+DESCRIPTION="eduVPN client [top-max 4.3.0]"
 
 HOMEPAGE="https://github.com/eduvpn/python-eduvpn-client"
 LICENSE="GPL-3"

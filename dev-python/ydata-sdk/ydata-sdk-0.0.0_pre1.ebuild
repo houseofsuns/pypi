@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package developer's cheat sheet (using pyproject.toml). [top-max 0.12.1]"
+DESCRIPTION="Python package developer's cheat sheet (using pyproject.toml). [top-max 0.12.2]"
 
 HOMEPAGE=""
 LICENSE=""

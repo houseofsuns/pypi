@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A high-level federated learning Python library to run     federated learning experiments at scale on a Substra network"
+DESCRIPTION="A high-level federated learning Python library to run     federated learning experiments at scale on a Substra network [top-max 0.46.0_rc1]"
 
 HOMEPAGE=""
 LICENSE=""

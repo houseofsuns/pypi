@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DivKit python library"
+DESCRIPTION="DivKit python library [top-max 30.3.0]"
 
 HOMEPAGE="https://github.com/divkit/divkit/tree/main/json-builder/python"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bytecode utilities"
+DESCRIPTION="Python bytecode utilities [top-max 2024.5.27]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

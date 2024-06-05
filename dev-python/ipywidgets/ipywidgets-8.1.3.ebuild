@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/comm-0.1.3[${PYTHON_USEDEP}]
 	>=dev-python/ipython-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-4.3.1[${PYTHON_USEDEP}]
 	~dev-python/widgetsnbextension-4.0.11[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-widgets-3.0.11[${PYTHON_USEDEP}]
 	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-3.6.0[${PYTHON_USEDEP}] )

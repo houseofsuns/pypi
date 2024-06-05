@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jupyterlab-widgets-3.0[${PYTHON_USEDEP}]
 	dev-python/voila[${PYTHON_USEDEP}]
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Databricks Vector Search Client"
+DESCRIPTION="Databricks Vector Search Client [top-max 0.38]"
 
 HOMEPAGE=""
 LICENSE=""

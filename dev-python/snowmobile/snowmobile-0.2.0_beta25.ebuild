@@ -90,7 +90,7 @@ DEPENDENCIES="dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/jupyter-client-6.1.11[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jupyter-core-4.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jupyterlab-widgets-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/keyring-20.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/lazy-object-proxy-1.4.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )

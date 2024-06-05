@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="Exact"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface to the Exact integer linear programming solver [top-max 1.2.1]"
+DESCRIPTION="A Python interface to the Exact integer linear programming solver [top-max 2.0.0]"
 
 HOMEPAGE="https://gitlab.com/JoD/exact"
 LICENSE="AGPL-3"

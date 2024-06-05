@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/executing-2.0.0[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-widgets-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

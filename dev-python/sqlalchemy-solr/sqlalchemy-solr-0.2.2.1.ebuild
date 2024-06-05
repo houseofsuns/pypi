@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Apache Solr Dialect for SQLAlchemy and Apache Superset [top-max 0.2.4.0]"
+DESCRIPTION="Apache Solr Dialect for SQLAlchemy and Apache Superset [top-max 0.2.4.1]"
 
 HOMEPAGE="https://github.com/aadel/sqlalchemy-solr"
 LICENSE="MIT"

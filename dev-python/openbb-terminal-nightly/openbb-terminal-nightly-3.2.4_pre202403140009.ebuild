@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/fundamentalanalysis[${PYTHON_USEDEP}]
 	<dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}]
 	jupyterlab? ( dev-python/jupyterlab-code-formatter[${PYTHON_USEDEP}] )
 	jupyterlab? ( <dev-python/jupyterlab-lsp-4.0.0[${PYTHON_USEDEP}] )
-	dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-widgets-4.0.0[${PYTHON_USEDEP}]
 	forecast? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	dev-python/linearmodels[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/anywidget[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyterlab-3.6.0[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
+	>=dev-python/jupyterlab-widgets-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}]

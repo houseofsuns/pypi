@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of explicit behave steps for API testing [top-max 1.14.3]"
+DESCRIPTION="A collection of explicit behave steps for API testing [top-max 1.14.4]"
 
 HOMEPAGE="https://github.com/MaurizioPilia/django-explicit-behave"
 LICENSE=""

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pythreejs[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
 	dev-python/ipydatawidgets[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-widgets-3.0.5[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

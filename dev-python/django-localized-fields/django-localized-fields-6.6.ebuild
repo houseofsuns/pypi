@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation of localized model fields using PostgreSQL HStore fields. [top-max 6.8_beta3]"
+DESCRIPTION="Implementation of localized model fields using PostgreSQL HStore fields. [top-max 6.8_beta4]"
 
 HOMEPAGE="https://github.com/SectorLabs/django-localized-fields"
 LICENSE="MIT"

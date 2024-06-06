@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A command-line program to crop the margins of PDF files, with many options. [top-max 2.1.2]"
+DESCRIPTION="A command-line program to crop the margins of PDF files, with many options. [top-max 2.1.3]"
 
 HOMEPAGE="https://github.com/abarker/pdfCropMargins"
 LICENSE="GPL-3"

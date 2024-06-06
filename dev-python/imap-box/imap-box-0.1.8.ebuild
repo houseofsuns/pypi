@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="High-resolution map visualization and conversion tool"
+DESCRIPTION="High-resolution map visualization and conversion tool [top-max 0.1.9]"
 
 HOMEPAGE="https://github.com/daohu527/imap"
 LICENSE=""

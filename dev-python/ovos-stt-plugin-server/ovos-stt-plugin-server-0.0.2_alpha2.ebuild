@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ovos stt server plugin for mycroft [new-max 2024-06-04 16:07:41.661625+00:00]"
+DESCRIPTION="ovos stt server plugin for mycroft [new-max 2024-06-06 00:40:32.278002+00:00]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-stt-server-plugin"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extension for pytket, providing translation to and from the Qiskit framework [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe6fb6a1770>)]"
+DESCRIPTION="Extension for pytket, providing translation to and from the Qiskit framework [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f89d2b2a030>)]"
 
 HOMEPAGE="https://github.com/CQCL/pytket-extensions"
 LICENSE="Apache-2.0"

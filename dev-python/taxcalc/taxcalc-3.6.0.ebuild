@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="taxcalc"
+DESCRIPTION="taxcalc [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/PSLmodels/Tax-Calculator"
 LICENSE="CC0 1.0 Universal CC0 1.0 Public Domain Dedication"

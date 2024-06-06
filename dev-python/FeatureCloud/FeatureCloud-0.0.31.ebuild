@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Secure Federated Learning Platform"
+DESCRIPTION="Secure Federated Learning Platform [top-max 0.0.32]"
 
 HOMEPAGE="https://github.com/FeatureCloud/app-template"
 LICENSE=""

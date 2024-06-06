@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="jupyter serverextension providing configuration interfaces for nbextensions. [top-max 0.6.3]"
+DESCRIPTION="jupyter serverextension providing configuration interfaces for nbextensions. [top-max 0.6.4]"
 
 HOMEPAGE="https://github.com/jupyter-contrib/jupyter_nbextensions_configurator"
 LICENSE="BSD 3-clause"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FINBOURNE Access Management API"
+DESCRIPTION="FINBOURNE Access Management API [top-max 2.1.55]"
 
 HOMEPAGE="https://github.com/finbourne/finbourne-access-sdk-python"
 LICENSE="MIT"

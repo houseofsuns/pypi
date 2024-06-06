@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time-handling functionality from netcdf4-python"
+DESCRIPTION="Time-handling functionality from netcdf4-python [top-max 1.6.4]"
 
 HOMEPAGE=""
 LICENSE="License :: OSI Approved :: MIT License"

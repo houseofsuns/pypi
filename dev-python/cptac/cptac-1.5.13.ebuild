@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python packaging for CPTAC data"
+DESCRIPTION="Python packaging for CPTAC data [top-max 1.5.14]"
 
 HOMEPAGE="http://github.com/PayneLab/cptac"
 LICENSE="Apache-2.0"

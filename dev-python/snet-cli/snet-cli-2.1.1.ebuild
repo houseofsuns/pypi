@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.59.0[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.41.2[${PYTHON_USEDEP}]
 	dev-python/jsonrpcclient[${PYTHON_USEDEP}]
 	dev-python/eth-hash[${PYTHON_USEDEP}]

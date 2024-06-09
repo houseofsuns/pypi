@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/ansys-api-mapdl[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/ansys-api-mapdl[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-dpf-core[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-mapdl-reader[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
+	doc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imageio-ffmpeg-0.4.9[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imageio-2.34.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )

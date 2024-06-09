@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="anim anim_ui dev"
 DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.53.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.53.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/param[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]

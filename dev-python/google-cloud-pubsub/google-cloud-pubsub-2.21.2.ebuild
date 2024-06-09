@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="libcst"
-DEPENDENCIES="<dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]

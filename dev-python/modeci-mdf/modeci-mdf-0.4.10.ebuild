@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/graph-scheduler[${PYTHON_USEDEP}]
 	optional? ( dev-python/torch[${PYTHON_USEDEP}] )
 	optional? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	optional? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	psyneulink? ( ~dev-python/grpcio-tools-1.42.0[${PYTHON_USEDEP}] )
+	psyneulink? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	psyneulink? ( dev-python/psyneulink[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/keras-visualizer[${PYTHON_USEDEP}] )

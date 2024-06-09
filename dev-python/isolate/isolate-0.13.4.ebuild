@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev test"
-DEPENDENCIES="~dev-python/grpcio-1.64.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/tblib-1.7.0[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	build? ( >=dev-python/virtualenv-20.4[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isolate[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/grpcio-tools-1.64.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	test? ( dev-python/isolate[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/cloudpickle-2.2.0[${PYTHON_USEDEP}] )

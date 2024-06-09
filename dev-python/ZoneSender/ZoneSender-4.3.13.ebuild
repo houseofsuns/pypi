@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.44.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]

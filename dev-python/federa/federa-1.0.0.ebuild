@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bandit[${PYTHON_USEDEP}]
 	dev-python/codecarbon[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.53.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]

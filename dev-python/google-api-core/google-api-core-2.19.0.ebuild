@@ -29,9 +29,9 @@ DEPENDENCIES="<dev-python/googleapis-common-protos-2.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0_pre0[${PYTHON_USEDEP}]
-	grpc? ( <dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
-	grpc? ( <dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	grpcgcp? ( dev-python/grpcio-gcp[${PYTHON_USEDEP}] )
 	grpcio-gcp? ( dev-python/grpcio-gcp[${PYTHON_USEDEP}] )"

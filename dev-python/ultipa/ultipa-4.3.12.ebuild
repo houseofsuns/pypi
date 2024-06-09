@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/grpcio-1.57.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.57.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]

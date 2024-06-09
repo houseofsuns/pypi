@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/grpcio-1.47.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/gcloud[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.7.3[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]

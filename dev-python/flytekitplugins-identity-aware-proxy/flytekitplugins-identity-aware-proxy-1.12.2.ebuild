@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}]
 	dev-python/google-auth[${PYTHON_USEDEP}]
 	dev-python/flytekit[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.62.0[${PYTHON_USEDEP}]"
+	dev-python/grpcio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

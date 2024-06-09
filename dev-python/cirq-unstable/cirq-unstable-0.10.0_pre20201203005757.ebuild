@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/google-api-core-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev_env? ( ~dev-python/pytest-cov-2.5.0[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	dev_env? ( ~dev-python/grpcio-tools-1.26[${PYTHON_USEDEP}] )
+	dev_env? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/pyquil[${PYTHON_USEDEP}] )

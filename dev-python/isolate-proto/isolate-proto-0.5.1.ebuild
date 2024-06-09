@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="~dev-python/grpcio-1.64.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/isolate[${PYTHON_USEDEP}]
 	dev? ( dev-python/isolate-proto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/refactor[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/grpcio-tools-1.64.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"

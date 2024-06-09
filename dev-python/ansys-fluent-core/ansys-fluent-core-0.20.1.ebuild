@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/ansys-units[${PYTHON_USEDEP}]
 	<dev-python/beartype-0.18[${PYTHON_USEDEP}]
 	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
 	reader? ( ~dev-python/h5py-3.10.0[${PYTHON_USEDEP}] )
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]

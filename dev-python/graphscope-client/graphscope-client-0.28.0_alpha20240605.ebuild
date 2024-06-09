@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/cython-3.0.0_beta3[${PYTHON_USEDEP}]
 	dev-python/gremlinpython[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.49[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-tools-1.49[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]
 	dev-python/mypy-protobuf[${PYTHON_USEDEP}]

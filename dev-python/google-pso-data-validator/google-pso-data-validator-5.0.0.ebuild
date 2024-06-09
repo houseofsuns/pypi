@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="apache-airflow pyspark"
 DEPENDENCIES="~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.53.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.8.2[${PYTHON_USEDEP}]

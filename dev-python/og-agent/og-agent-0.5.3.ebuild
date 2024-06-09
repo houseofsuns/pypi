@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/og-proto[${PYTHON_USEDEP}]
 	dev-python/og-kernel[${PYTHON_USEDEP}]
 	dev-python/og-sdk[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-tools-1.57.0[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/orm[${PYTHON_USEDEP}]

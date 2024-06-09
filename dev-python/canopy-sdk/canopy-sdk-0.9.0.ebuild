@@ -51,7 +51,7 @@ DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torch? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	dev-python/pinecone-client[${PYTHON_USEDEP}]
-	grpc? ( >=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpc-gateway-protoc-gen-openapiv2[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/lz4-3.1.3[${PYTHON_USEDEP}] )

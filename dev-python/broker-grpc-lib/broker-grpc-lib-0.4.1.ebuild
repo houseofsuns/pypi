@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
 	dev-python/aio-pika[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.46.3[${PYTHON_USEDEP}]"
+	dev-python/grpcio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

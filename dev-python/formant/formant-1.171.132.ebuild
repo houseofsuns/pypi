@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/grpcio-status[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.37.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]

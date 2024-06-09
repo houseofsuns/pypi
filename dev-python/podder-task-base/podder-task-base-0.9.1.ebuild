@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/grpcio-tools-1.18.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.6.0[${PYTHON_USEDEP}]
 	~dev-python/mysqlclient-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.3[${PYTHON_USEDEP}]

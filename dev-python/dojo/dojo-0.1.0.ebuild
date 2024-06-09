@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/apache-beam[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.4.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	~dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/stored[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="~dev-python/grpcio-1.33.1[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.33.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev? ( dev-python/azure-functions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-eventhub[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}] )

@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/cirq-aqt[${PYTHON_USEDEP}]
 	dev-env? ( dev-python/virtualenv-clone[${PYTHON_USEDEP}] )
 	dev-env? ( ~dev-python/black-24.3.0[${PYTHON_USEDEP}] )
 	dev-env? ( ~dev-python/pylint-2.13.0[${PYTHON_USEDEP}] )
-	dev-env? ( ~dev-python/grpcio-tools-1.59.0[${PYTHON_USEDEP}] )
+	dev-env? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev-env? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	dev-env? ( >=dev-python/ipython-7.34.0[${PYTHON_USEDEP}] )
 	dev-env? ( ~dev-python/notebook-7.0[${PYTHON_USEDEP}] )

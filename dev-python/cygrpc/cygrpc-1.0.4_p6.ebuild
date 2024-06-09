@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/paste[${PYTHON_USEDEP}]
 	dev-python/bottle[${PYTHON_USEDEP}]
 	dev-python/bottle-cors[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.23.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.23.0[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/clean-text[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.56.2[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/kuscia[${PYTHON_USEDEP}]

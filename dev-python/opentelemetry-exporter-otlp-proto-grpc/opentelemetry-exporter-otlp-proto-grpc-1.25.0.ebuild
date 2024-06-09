@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.52[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-api-1.15[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-common[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-proto[${PYTHON_USEDEP}]

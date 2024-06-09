@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/isolate[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.5.1[${PYTHON_USEDEP}]
 	dev-python/isolate-proto[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]

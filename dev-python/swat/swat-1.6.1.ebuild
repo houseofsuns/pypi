@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SAS Scripting Wrapper for Analytics Transfer (SWAT) [top-max 1.13.3]"
+DESCRIPTION="SAS Scripting Wrapper for Analytics Transfer (SWAT) [top-max 1.14.0]"
 
 HOMEPAGE="http://github.com/sassoftware/python-swat/"
 LICENSE="Apache v2.0 SWAT + SAS Additional Functionality SAS TK"

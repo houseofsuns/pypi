@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/csle-base[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-tools-1.57.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	>=dev-python/docker-3.0.0[${PYTHON_USEDEP}]
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/csle-base[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-mock-3.6.0[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/grpcio-tools-1.57.0[${PYTHON_USEDEP}] )
+	testing? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	testing? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-grpc[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )

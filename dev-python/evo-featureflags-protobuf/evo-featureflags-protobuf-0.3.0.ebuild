@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="protoc"
-DEPENDENCIES="protoc? ( >=dev-python/grpcio-tools-1.59.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="protoc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	protoc? ( dev-python/hiku[${PYTHON_USEDEP}] )
 	protoc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	protoc? ( dev-python/grpclib[${PYTHON_USEDEP}] )"

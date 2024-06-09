@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES=">=dev-python/attrs-20.3[${PYTHON_USEDEP}]
 	dev-python/curlify[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/hypothesis-7.0.0[${PYTHON_USEDEP}] )"

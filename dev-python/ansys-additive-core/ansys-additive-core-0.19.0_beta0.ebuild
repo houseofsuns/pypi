@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/ansys-api-additive[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	>=dev-python/google-api-python-client-1.7.11[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.52.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.35.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/ansys-api-additive[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/dill-0.3.8[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/google-api-python-client-2.122.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/numpy-1.26.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pandas-2.2.2[${PYTHON_USEDEP}] )

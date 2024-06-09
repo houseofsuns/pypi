@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/housekeeping[${PYTHON_USEDEP}]
+	~dev-python/housekeeping-1.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	~dev-python/pydiffx-1.1.0[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]

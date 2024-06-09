@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dev-flake8 dev-formatting dev-mkdocs dev-mypy dev-noxfile dev-pylint dev-pytest"
-DEPENDENCIES="<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev? ( dev-python/frequenz-api-common[${PYTHON_USEDEP}] )
 	dev-flake8? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )

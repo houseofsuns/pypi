@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/websockets-10.1[${PYTHON_USEDEP}]
 	<dev-python/cmd2-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.15[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-tools-1.63.0[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	>=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

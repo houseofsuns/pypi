@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/grpcio-1.34.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/agora-api[${PYTHON_USEDEP}]
 	dev-python/kin-base[${PYTHON_USEDEP}]
 	dev-python/pure25519[${PYTHON_USEDEP}]

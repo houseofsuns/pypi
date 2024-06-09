@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python ScienceBase Utilities"
+DESCRIPTION="Python ScienceBase Utilities [top-max 2.0.17]"
 
 HOMEPAGE="https://code.usgs.gov/sas/sdm/sciencebasepy"
 LICENSE=""

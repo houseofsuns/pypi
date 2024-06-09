@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.60.1[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3[${PYTHON_USEDEP}]
 	~dev-python/six-1.12[${PYTHON_USEDEP}]
 	~dev-python/semver-2.13[${PYTHON_USEDEP}]

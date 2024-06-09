@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="<dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}]
 	<=dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]

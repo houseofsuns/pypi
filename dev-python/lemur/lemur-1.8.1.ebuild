@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/google-cloud-private-ca[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/hvac-2.2.0[${PYTHON_USEDEP}]
@@ -220,7 +220,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hvac-2.2.0[${PYTHON_USEDEP}] )
@@ -441,7 +441,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
+	docs? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	docs? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/hvac-2.2.0[${PYTHON_USEDEP}] )
@@ -651,7 +651,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	tests? ( dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
+	tests? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	tests? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/hvac-2.2.0[${PYTHON_USEDEP}] )

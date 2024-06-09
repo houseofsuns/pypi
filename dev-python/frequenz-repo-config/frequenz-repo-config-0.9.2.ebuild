@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/nox-2022.11.21[${PYTHON_USEDEP}]
 	<dev-python/mkdocs-gen-files-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0[${PYTHON_USEDEP}]
 	dev-python/github-action-utils[${PYTHON_USEDEP}]
-	api? ( <dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}] )
+	api? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	api? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	api? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )

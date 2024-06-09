@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/banal[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	google? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
+	google? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

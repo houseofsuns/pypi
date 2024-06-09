@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/muffin[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
-	<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/parsy[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mailjet"
-DEPENDENCIES="~dev-python/grpcio-1.63.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	~dev-python/pypng-0.20220715.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.4[${PYTHON_USEDEP}]

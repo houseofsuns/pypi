@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="<dev-python/grpcio-tools-1.60.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]
-	<dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/asn1crypto-2.0[${PYTHON_USEDEP}]

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	<=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-api-1.12.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -90,7 +90,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	all? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )
 	all? ( dev-python/portforward[${PYTHON_USEDEP}] )
-	all? ( <=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/opentelemetry-api-1.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )
@@ -132,7 +132,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	core? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	core? ( dev-python/docarray[${PYTHON_USEDEP}] )
-	core? ( <=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}] )
+	core? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/opentelemetry-api-1.12.0[${PYTHON_USEDEP}] )
 	core? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	core? ( dev-python/jcloud[${PYTHON_USEDEP}] )
@@ -170,7 +170,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	filelock? ( dev-python/filelock[${PYTHON_USEDEP}] )
 	flaky? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	grpcio? ( <=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}] )
+	grpcio? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	grpcio-health-checking? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	grpcio-reflection? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
 	jcloud? ( dev-python/jcloud[${PYTHON_USEDEP}] )

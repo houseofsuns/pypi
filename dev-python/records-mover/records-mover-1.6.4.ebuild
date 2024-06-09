@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/records-mover[${PYTHON_USEDEP}] )
 	google-api-client? ( >=dev-python/google-api-python-client-1.8.0[${PYTHON_USEDEP}] )
-	google-api-client? ( <dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}] )
+	google-api-client? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	gsheets? ( dev-python/google[${PYTHON_USEDEP}] )
 	gsheets? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
 	gsheets? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )

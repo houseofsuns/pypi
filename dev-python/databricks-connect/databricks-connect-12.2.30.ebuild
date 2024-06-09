@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/py4j[${PYTHON_USEDEP}]
 	pandas-on-spark? ( >=dev-python/numpy-1.15[${PYTHON_USEDEP}] )
 	connect? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
 	connect? ( >=dev-python/pyarrow-1.0.0[${PYTHON_USEDEP}] )
-	connect? ( >=dev-python/grpcio-1.48.1[${PYTHON_USEDEP}] )
+	connect? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	connect? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	connect? ( >=dev-python/googleapis-common-protos-1.56.4[${PYTHON_USEDEP}] )
 	connect? ( >=dev-python/numpy-1.15[${PYTHON_USEDEP}] )"

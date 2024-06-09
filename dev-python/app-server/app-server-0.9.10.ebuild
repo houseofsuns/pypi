@@ -28,6 +28,6 @@ DEPENDENCIES="~dev-python/werkzeug-2.3.7[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/fs-2.4.16[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.58.0[${PYTHON_USEDEP}]"
+	dev-python/grpcio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

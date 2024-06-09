@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/dealer[${PYTHON_USEDEP}]
 	dev-python/google-cloud-monitoring[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]"
+	dev-python/grpcio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

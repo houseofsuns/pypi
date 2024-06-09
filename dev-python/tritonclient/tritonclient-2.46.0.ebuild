@@ -27,7 +27,7 @@ IUSE="all cuda grpc http"
 DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
-	all? ( >=dev-python/grpcio-1.41.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.19.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/packaging-14.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	all? ( dev-python/geventhttpclient[${PYTHON_USEDEP}] )
 	all? ( dev-python/cuda-python[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/cuda-python[${PYTHON_USEDEP}] )
-	grpc? ( >=dev-python/grpcio-1.41.0[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/numpy-1.19.1[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/packaging-14.1[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )

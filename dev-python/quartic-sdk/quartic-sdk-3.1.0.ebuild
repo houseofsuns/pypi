@@ -279,7 +279,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/flatbuffers-2.0.7[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/gast-0.4.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/google-pasta-0.2.0[${PYTHON_USEDEP}] )
-	complete? ( ~dev-python/grpcio-1.62.2[${PYTHON_USEDEP}] )
+	complete? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	complete? ( dev-python/h2o[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/h5py-3.11.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/keras[${PYTHON_USEDEP}] )

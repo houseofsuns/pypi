@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2017.2[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.16.1[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.16.1[${PYTHON_USEDEP}]"
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

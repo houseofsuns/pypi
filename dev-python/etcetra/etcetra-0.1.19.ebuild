@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build lint test typecheck"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.62.2[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.62.2[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	build? ( >=dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/twine-3.4.1[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )

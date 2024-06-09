@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/jinja-4.0[${PYTHON_USEDEP}]
 	<dev-python/absl-py-3.0[${PYTHON_USEDEP}]
 	dev-python/boto[${PYTHON_USEDEP}]
 	<dev-python/google-api-python-client-3.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

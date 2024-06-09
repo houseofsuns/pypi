@@ -27,7 +27,7 @@ IUSE="connect ml mllib pandas-on-spark sql"
 DEPENDENCIES="dev-python/databricks-sdk[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.56.4[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.56.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/databricks-sdk[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	connect? ( >=dev-python/googleapis-common-protos-1.56.4[${PYTHON_USEDEP}] )
 	connect? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
-	connect? ( >=dev-python/grpcio-1.56.0[${PYTHON_USEDEP}] )
+	connect? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	connect? ( >=dev-python/numpy-1.15[${PYTHON_USEDEP}] )
 	connect? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
 	connect? ( >=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}] )

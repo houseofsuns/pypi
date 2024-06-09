@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/ssh-python[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
-	all? ( <=dev-python/grpcio-tools-1.26.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	all? ( dev-python/oslo-messaging[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis[${PYTHON_USEDEP}] )
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	all? ( dev-python/podman-py[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
 	dev? ( dev-python/podman-py[${PYTHON_USEDEP}] )
-	dev? ( <=dev-python/grpcio-tools-1.26.0[${PYTHON_USEDEP}] )
-	grpc? ( <=dev-python/grpcio-tools-1.26.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	oslo_messaging? ( dev-python/oslo-messaging[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )

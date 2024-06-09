@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pdoc3-0.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/betterproto[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/grpcio-tools-1.62.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

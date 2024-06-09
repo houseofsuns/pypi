@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-pytest? ( dev-python/async-solipsism[${PYTHON_USEDEP}] )
 	dev-pytest? ( ~dev-python/hypothesis-6.100.2[${PYTHON_USEDEP}] )
 	dev-pytest? ( dev-python/frequenz-client-base[${PYTHON_USEDEP}] )
-	grpcio? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	grpcio? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	grpclib? ( dev-python/grpclib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

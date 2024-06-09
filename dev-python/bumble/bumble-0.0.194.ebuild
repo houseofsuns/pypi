@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyee[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/cryptography-39.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/humanize-4.6.0[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
 	dev-python/libusb-package[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/pyee[${PYTHON_USEDEP}]
 	avatar? ( dev-python/rootcanal[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/build-0.7[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/black-24.3[${PYTHON_USEDEP}] )
-	development? ( >=dev-python/grpcio-tools-1.62.1[${PYTHON_USEDEP}] )
+	development? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	development? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/nox-2022.0[${PYTHON_USEDEP}] )

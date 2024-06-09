@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
 	<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.55.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.24.3[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/jinja-2.11[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/feast[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-dataproc[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.31.0[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/mypy-protobuf[${PYTHON_USEDEP}]
 	~dev-python/croniter-1.0[${PYTHON_USEDEP}]
 	~dev-python/redis-4.1[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/feast[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.14.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/grpcio-testing-1.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-testing[${PYTHON_USEDEP}] )
 	validation? ( dev-python/great-expectations[${PYTHON_USEDEP}] )
 	validation? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -62,8 +62,8 @@ DEPENDENCIES="dev-python/brainstem[${PYTHON_USEDEP}]
 	all? ( dev-python/python-can[${PYTHON_USEDEP}] )
 	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	grpc? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev-python/cantools[${PYTHON_USEDEP}]"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc tests"
 DEPENDENCIES="dev-python/ansys-api-sherlock[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.17[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.7.0[${PYTHON_USEDEP}] )
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/ansys-api-sherlock[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
+	tests? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )"

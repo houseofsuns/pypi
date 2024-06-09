@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="consul docs test"
-DEPENDENCIES="<=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="<=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.14.0[${PYTHON_USEDEP}] )
-	test? ( <=dev-python/grpcio-testing-1.62.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/grpcio-testing[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.56.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.56.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.28.4[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]

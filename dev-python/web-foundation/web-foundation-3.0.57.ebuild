@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	rest? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	rest? ( dev-python/sanic-ext[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/betterproto[${PYTHON_USEDEP}] )
-	grpc? ( <dev-python/grpcio-tools-2.0.0[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	telemetry? ( ~dev-python/opentelemetry-api-1.22.0[${PYTHON_USEDEP}] )
 	telemetry-tortoise? ( ~dev-python/opentelemetry-api-1.22.0[${PYTHON_USEDEP}] )
 	telemetry? ( ~dev-python/opentelemetry-sdk-1.22.0[${PYTHON_USEDEP}] )

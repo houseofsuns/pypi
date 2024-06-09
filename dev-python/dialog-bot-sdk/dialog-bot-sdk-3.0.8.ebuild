@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dialog-api[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.24.1[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.24.1[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.7.11[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.6.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]

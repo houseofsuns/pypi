@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="quality tests"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.49[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	quality? ( dev-python/black[${PYTHON_USEDEP}] )
 	quality? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )

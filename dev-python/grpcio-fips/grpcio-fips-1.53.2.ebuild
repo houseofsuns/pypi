@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="protobuf"
-DEPENDENCIES="protobuf? ( >=dev-python/grpcio-tools-1.53.2[${PYTHON_USEDEP}] )
+DEPENDENCIES="protobuf? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

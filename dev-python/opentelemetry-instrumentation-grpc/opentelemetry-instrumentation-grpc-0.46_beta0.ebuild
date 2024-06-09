@@ -28,6 +28,6 @@ DEPENDENCIES="~dev-python/opentelemetry-api-1.12[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-semantic-conventions-0.46_beta0[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
-	instruments? ( ~dev-python/grpcio-1.27[${PYTHON_USEDEP}] )"
+	instruments? ( dev-python/grpcio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

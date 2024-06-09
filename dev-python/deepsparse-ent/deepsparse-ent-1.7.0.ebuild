@@ -103,7 +103,7 @@ DEPENDENCIES="dev-python/sparsezoo[${PYTHON_USEDEP}]
 	haystack? ( dev-python/onnxruntime-tools[${PYTHON_USEDEP}] )
 	haystack? ( dev-python/ray[${PYTHON_USEDEP}] )
 	haystack? ( dev-python/aiorwlock[${PYTHON_USEDEP}] )
-	haystack? ( ~dev-python/grpcio-1.43.0[${PYTHON_USEDEP}] )
+	haystack? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	haystack? ( dev-python/beir[${PYTHON_USEDEP}] )
 	haystack? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	haystack? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )

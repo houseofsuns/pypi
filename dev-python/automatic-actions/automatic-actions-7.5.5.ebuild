@@ -90,7 +90,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	plugins? ( <dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}] )
 	sdk-nn-plugins? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	sdk-nn-plugins? ( <dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}] )
-	sdk-no-usages? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
+	sdk-no-usages? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	sdk-no-usages? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	sdk-no-usages? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

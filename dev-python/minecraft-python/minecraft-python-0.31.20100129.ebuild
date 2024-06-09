@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A project that seeks to recreate every old Minecraft version in Python using Pyglet and Cython."
+DESCRIPTION="A project that seeks to recreate every old Minecraft version in Python using Pyglet and Cython. [new-max 2024-06-07 06:18:08.480000+00:00]"
 
 HOMEPAGE="https://github.com/pythonengineer/minecraft-python"
 LICENSE="BSD"

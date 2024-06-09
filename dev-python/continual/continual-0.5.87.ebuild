@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/grpcio-1.27.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.27.1[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.6[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
-	<=dev-python/grpcio-tools-1.48.1[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.7[${PYTHON_USEDEP}]
 	>=dev-python/humanize-2.5.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]

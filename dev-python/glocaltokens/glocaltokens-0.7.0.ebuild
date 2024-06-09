@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/gpsoauth[${PYTHON_USEDEP}]
 	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/ghome-foyer-api[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.51.1[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.47.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

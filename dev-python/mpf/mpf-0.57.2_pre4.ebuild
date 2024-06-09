@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
 	all? ( dev-python/python-osc[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pyusb-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/apigpio-mpf[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/grpcio-tools-1.34.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/grpcio-1.34.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}] )
 	crash-reporter? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
@@ -54,8 +54,8 @@ DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
 	pin2dmd? ( ~dev-python/pyusb-1.1.0[${PYTHON_USEDEP}] )
 	rpi? ( dev-python/apigpio-mpf[${PYTHON_USEDEP}] )
 	uvloop? ( ~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}] )
-	vpe? ( ~dev-python/grpcio-tools-1.34.0[${PYTHON_USEDEP}] )
-	vpe? ( ~dev-python/grpcio-1.34.0[${PYTHON_USEDEP}] )
+	vpe? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	vpe? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	vpe? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

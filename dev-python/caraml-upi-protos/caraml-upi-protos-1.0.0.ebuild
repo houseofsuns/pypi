@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES=">=dev-python/grpcio-tools-1.21.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.50.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )

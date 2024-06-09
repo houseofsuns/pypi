@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/asn1crypto-1.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/autoflake8[${PYTHON_USEDEP}] )
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.53.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	~dev-python/hypothesis-6.21.6[${PYTHON_USEDEP}]
 	dev-python/ipfshttpclient[${PYTHON_USEDEP}]
 	dev-python/open-aea-cli-ipfs[${PYTHON_USEDEP}]

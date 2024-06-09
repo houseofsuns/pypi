@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fastembed"
 DEPENDENCIES="fastembed? ( dev-python/fastembed[${PYTHON_USEDEP}] )
-	>=dev-python/grpcio-1.41.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-tools-1.41.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]

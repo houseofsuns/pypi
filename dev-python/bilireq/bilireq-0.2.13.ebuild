@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="web-qrcode"
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.19.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.56.2[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
 	web-qrcode? ( dev-python/lxml[${PYTHON_USEDEP}] )"

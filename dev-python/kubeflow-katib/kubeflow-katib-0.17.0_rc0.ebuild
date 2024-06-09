@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.15.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.41.1[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

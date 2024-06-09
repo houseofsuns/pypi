@@ -30,8 +30,8 @@ DEPENDENCIES="carbon? ( dev-python/aiocarbon[${PYTHON_USEDEP}] )
 	asgi? ( dev-python/aiohttp-asgi[${PYTHON_USEDEP}] )
 	<dev-python/colorlog-7.0[${PYTHON_USEDEP}]
 	cron? ( ~dev-python/croniter-2.0[${PYTHON_USEDEP}] )
-	grpc? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
-	grpc? ( <dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
 	dev-python/logging-journald[${PYTHON_USEDEP}]
 	raven? ( dev-python/raven[${PYTHON_USEDEP}] )

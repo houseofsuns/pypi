@@ -27,11 +27,11 @@ IUSE="dev"
 DEPENDENCIES="dev-python/bt-test-interfaces[${PYTHON_USEDEP}]
 	dev-python/bumble[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/mobly[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]
 	dev? ( dev-python/rootcanal[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/grpcio-tools-1.62.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )

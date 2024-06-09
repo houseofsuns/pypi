@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.57[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.17[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )"

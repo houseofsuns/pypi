@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	grpc? ( ~dev-python/grpcio-1.27.2[${PYTHON_USEDEP}] )
+	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	kubeflow? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	kubeflow? ( dev-python/minio[${PYTHON_USEDEP}] )
 	kubeflow? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

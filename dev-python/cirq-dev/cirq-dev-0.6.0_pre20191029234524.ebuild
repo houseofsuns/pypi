@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev_env? ( ~dev-python/pytest-cov-2.5.0[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev_env? ( ~dev-python/yapf-0.27.0[${PYTHON_USEDEP}] )
-	dev_env? ( ~dev-python/grpcio-tools-1.24.0[${PYTHON_USEDEP}] )
+	dev_env? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev_env? ( ~dev-python/qiskit-0.6.0[${PYTHON_USEDEP}] )

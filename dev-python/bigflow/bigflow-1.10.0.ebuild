@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/grpcio-status[${PYTHON_USEDEP}]
 	base-frozen? ( dev-python/google-crc32c[${PYTHON_USEDEP}] )
 	base-frozen? ( dev-python/google-resumable-media[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/googleapis-common-protos-1.56.0[${PYTHON_USEDEP}] )
-	base-frozen? ( ~dev-python/grpcio-1.50.0[${PYTHON_USEDEP}] )
+	base-frozen? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	base-frozen? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/idna-3.3[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )

@@ -35,9 +35,9 @@ DEPENDENCIES="dev-python/jsonpath-ng[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	~dev-python/black-22.1.0[${PYTHON_USEDEP}]
 	dev-python/pipreqs[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.59.0[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.59.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )

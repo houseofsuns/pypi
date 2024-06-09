@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/miservice-fork[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/googleapis-common-protos-1.62.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/greenlet-3.0.3[${PYTHON_USEDEP}] )
 	locked? ( dev-python/groq[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}] )
+	locked? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	locked? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/h11-0.14.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/httpcore-1.0.5[${PYTHON_USEDEP}] )

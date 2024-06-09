@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/crypto-ws-api[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.62.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.19.2[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]

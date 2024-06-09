@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="grpc"
 DEPENDENCIES=">=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	grpc? ( dev-python/grpc-interceptor[${PYTHON_USEDEP}] )
-	grpc? ( >=dev-python/grpcio-1.44[${PYTHON_USEDEP}] )"
+	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -49,8 +49,8 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
 	ingestion? ( <dev-python/google-api-python-client-3.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/google-api-python-client-3.0[${PYTHON_USEDEP}] )
-	spark-connect? ( >=dev-python/grpcio-1.56.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/grpcio-1.56.0[${PYTHON_USEDEP}] )
+	spark-connect? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	spark-connect? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	all? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

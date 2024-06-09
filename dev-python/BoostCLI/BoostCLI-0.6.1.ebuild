@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy dev"
-DEPENDENCIES="<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/aiogrpc[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	deploy? ( <dev-python/build-1.0[${PYTHON_USEDEP}] )
 	deploy? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )"

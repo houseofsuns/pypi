@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	<dev-python/grpcio-tools-2.0.0[${PYTHON_USEDEP}]"
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

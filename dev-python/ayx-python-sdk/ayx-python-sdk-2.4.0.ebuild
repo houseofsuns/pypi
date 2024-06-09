@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/PyPAC[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
 	dev-python/wincertstore[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.53.2[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

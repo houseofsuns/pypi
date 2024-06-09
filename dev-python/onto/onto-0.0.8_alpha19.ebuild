@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/flask-0.10[${PYTHON_USEDEP}]
 	firestore? ( dev-python/firebase-admin[${PYTHON_USEDEP}] )
 	firestore? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	firestore? ( dev-python/google-cloud-datastore[${PYTHON_USEDEP}] )
-	firestore? ( ~dev-python/grpcio-1.30.0[${PYTHON_USEDEP}] )
+	firestore? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	flasgger? ( >=dev-python/apispec-2.0.2[${PYTHON_USEDEP}] )
 	flasgger? ( dev-python/flasgger[${PYTHON_USEDEP}] )
 	flask? ( dev-python/Flask-SocketIO[${PYTHON_USEDEP}] )

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
-	<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]

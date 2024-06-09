@@ -32,12 +32,12 @@ DEPENDENCIES="dev-python/ansys-api-mechanical[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/clr-loader-0.2.6[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-7.3.7[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( ~dev-python/grpcio-1.64.0[${PYTHON_USEDEP}] )
+	doc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imageio-ffmpeg-0.4.9[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imageio-2.34.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0.0_pre0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	<dev-python/overrides-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]

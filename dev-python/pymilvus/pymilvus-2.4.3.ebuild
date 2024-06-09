@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bulk-writer dev model"
 DEPENDENCIES=">=dev-python/setuptools-67.0[${PYTHON_USEDEP}]
-	<=dev-python/grpcio-1.63.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	<=dev-python/environs-9.5.0[${PYTHON_USEDEP}]
 	>=dev-python/ujson-2.0.0[${PYTHON_USEDEP}]
@@ -35,9 +35,9 @@ DEPENDENCIES=">=dev-python/setuptools-67.0[${PYTHON_USEDEP}]
 	bulk-writer? ( dev-python/minio[${PYTHON_USEDEP}] )
 	bulk-writer? ( >=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
 	bulk-writer? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/grpcio-1.62.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/grpcio-tools-1.62.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/grpcio-testing-1.62.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-testing[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.3.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-timeout-1.3.4[${PYTHON_USEDEP}] )

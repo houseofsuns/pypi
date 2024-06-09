@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/bech32[${PYTHON_USEDEP}]
 	dev-python/cosmospy-protobuf[${PYTHON_USEDEP}]
 	>=dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.51.3[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/hdwallets[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]

@@ -38,8 +38,8 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
 	google? ( dev-python/google-generativeai[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-generativeai[${PYTHON_USEDEP}] )
-	>=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
 	google? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	all? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	notebooks? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )

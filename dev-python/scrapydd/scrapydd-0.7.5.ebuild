@@ -43,8 +43,8 @@ DEPENDENCIES="~dev-python/APScheduler-3.6.3[${PYTHON_USEDEP}]
 	~dev-python/pyaml-20.4.0[${PYTHON_USEDEP}]
 	~dev-python/pymysql-0.10.0[${PYTHON_USEDEP}]
 	dev-python/namegenerator[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.31.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-tools-1.31.0[${PYTHON_USEDEP}]
+	dev-python/grpcio[${PYTHON_USEDEP}]
+	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

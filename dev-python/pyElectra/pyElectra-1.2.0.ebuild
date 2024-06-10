@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Electra Smart Python Integration. [top-max 1.2.1]"
+DESCRIPTION="Electra Smart Python Integration. [top-max 1.2.3]"
 
 HOMEPAGE="https://pypi.org/project/pyelectra/"
 LICENSE=""

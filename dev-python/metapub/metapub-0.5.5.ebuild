@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pubmed / NCBI / eutils interaction library, handling the metadata of pubmed papers."
+DESCRIPTION="Pubmed / NCBI / eutils interaction library, handling the metadata of pubmed papers. [top-max 0.5.6]"
 
 HOMEPAGE="https://github.com/metapub/metapub"
 LICENSE="Apache-2.0"

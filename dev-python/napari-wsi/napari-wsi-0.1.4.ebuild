@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/dask-2023.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.8[${PYTHON_USEDEP}]

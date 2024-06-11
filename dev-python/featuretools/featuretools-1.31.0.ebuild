@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
 	dev-python/woodwork[${PYTHON_USEDEP}]
 	autonormalize? ( dev-python/autonormalize[${PYTHON_USEDEP}] )
 	complete? ( dev-python/featuretools[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2023.2.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )

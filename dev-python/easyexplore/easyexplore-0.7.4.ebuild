@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.17.0[${PYTHON_USEDEP}]
-	~dev-python/dask-2021.10.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	~dev-python/fsspec-0.8.5[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]

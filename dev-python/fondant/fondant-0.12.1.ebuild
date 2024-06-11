@@ -30,7 +30,7 @@ DEPENDENCIES="azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/boto3-1.28.64[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/dask-cuda[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask-cuda[${PYTHON_USEDEP}] )
-	<dev-python/dask-2024.3.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/docker-6.1.3[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2023.4.0[${PYTHON_USEDEP}]
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

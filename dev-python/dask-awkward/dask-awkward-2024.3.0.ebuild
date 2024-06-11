@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="complete docs io test"
 DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
-	>=dev-python/dask-2023.4.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="torch"
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	<dev-python/dask-2023.0.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	<dev-python/fsspec-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.14.3[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.6.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
 	>=dev-python/pytest-5.2.2[${PYTHON_USEDEP}]

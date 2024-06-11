@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.40[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	covalent? ( dev-python/covalent-cloud[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2023.12.1[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-jobqueue[${PYTHON_USEDEP}] )
 	defects? ( dev-python/pymatgen-analysis-defects[${PYTHON_USEDEP}] )
 	defects? ( dev-python/shakenbreak[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/dask-2022.8.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/kopf[${PYTHON_USEDEP}]
 	dev-python/kr8s[${PYTHON_USEDEP}]

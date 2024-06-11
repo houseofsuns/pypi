@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/cdsapi[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0.3[${PYTHON_USEDEP}]
-	<dev-python/dask-2025.0.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2023.7.0[${PYTHON_USEDEP}]
 	dev-python/GDAL[${PYTHON_USEDEP}]
 	dev-python/epiweeks[${PYTHON_USEDEP}]"

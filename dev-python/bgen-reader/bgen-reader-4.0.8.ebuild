@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-3.1.1[${PYTHON_USEDEP}]
 	dev-python/cbgen[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.12.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pytest-5.4.1[${PYTHON_USEDEP}]

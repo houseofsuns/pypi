@@ -28,7 +28,7 @@ DEPENDENCIES="cloud? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/click-params[${PYTHON_USEDEP}]
-	>=dev-python/dask-2023.10.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	>=dev-python/fsspec-2023.9.1[${PYTHON_USEDEP}]
 	cloud? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

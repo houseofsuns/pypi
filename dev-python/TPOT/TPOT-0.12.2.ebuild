@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.13.2[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dask? ( >=dev-python/dask-0.18.2[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	imblearn? ( dev-python/imbalanced-learn[${PYTHON_USEDEP}] )

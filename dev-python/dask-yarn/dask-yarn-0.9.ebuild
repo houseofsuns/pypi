@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/dask-2021.1.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/skein[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]"

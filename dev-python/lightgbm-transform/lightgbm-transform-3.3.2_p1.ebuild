@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}]
-	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="minio test"
 DEPENDENCIES="dev-python/apache-beam[${PYTHON_USEDEP}]
 	dev-python/cftime[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.11.2[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2023.4.0[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]

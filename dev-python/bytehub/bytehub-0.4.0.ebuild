@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aws azure cloud dev gcp"
 DEPENDENCIES=">=dev-python/pandas-1.1[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-3.0[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.5[${PYTHON_USEDEP}]

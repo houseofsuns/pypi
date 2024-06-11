@@ -29,7 +29,7 @@ DEPENDENCIES=">dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dask? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dask? ( ~dev-python/dask-2023.11.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all blockfile dev doc eds-stream hdf5 image mrcz scalebar-export speed tests tiff usid zspy"
-DEPENDENCIES=">=dev-python/dask-2021.3.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]

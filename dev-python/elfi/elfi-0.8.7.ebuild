@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc graphviz"
-DEPENDENCIES=">=dev-python/dask-2.30.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.19[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-1.1[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	ci? ( >=dev-python/pandas-0.20.0[${PYTHON_USEDEP}] )
-	ci? ( >=dev-python/dask-1.2.2[${PYTHON_USEDEP}] )
+	ci? ( dev-python/dask[${PYTHON_USEDEP}] )
 	ci? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	ci? ( >=dev-python/coverage-4.5.3[${PYTHON_USEDEP}] )
 	ci? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )

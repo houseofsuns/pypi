@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/beartype-0.16.4[${PYTHON_USEDEP}]
 	full? ( dev-python/botorch[${PYTHON_USEDEP}] )
 	full? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	full? ( dev-python/dagshub[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/dask-2024.2.0[${PYTHON_USEDEP}] )
+	full? ( dev-python/dask[${PYTHON_USEDEP}] )
 	full? ( dev-python/explainerdashboard[${PYTHON_USEDEP}] )
 	full? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	full? ( dev-python/lightgbm[${PYTHON_USEDEP}] )

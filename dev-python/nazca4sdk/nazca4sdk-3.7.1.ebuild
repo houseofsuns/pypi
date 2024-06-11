@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/kafka-python[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	~dev-python/dask-2022.12.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/clickhouse-connect[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

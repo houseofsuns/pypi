@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc tests"
-DEPENDENCIES=">=dev-python/dask-2021.8.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/diffpy-structure[${PYTHON_USEDEP}]
 	dev-python/diffsims[${PYTHON_USEDEP}]
 	dev-python/hyperspy[${PYTHON_USEDEP}]

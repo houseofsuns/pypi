@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/mimesis[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
-	<dev-python/dask-3.0.0[${PYTHON_USEDEP}]"
+	dev-python/dask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/addfips[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.8[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.8[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/NREL-gaps[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="optimize"
 DEPENDENCIES="dev-python/PubChemPy[${PYTHON_USEDEP}]
-	optimize? ( <=dev-python/dask-2021.3.0[${PYTHON_USEDEP}] )
+	optimize? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev-python/datajoint[${PYTHON_USEDEP}]
 	optimize? ( dev-python/deap[${PYTHON_USEDEP}] )
 	dev-python/eden-kernel[${PYTHON_USEDEP}]

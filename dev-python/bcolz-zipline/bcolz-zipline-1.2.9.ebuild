@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="optional test"
 DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	optional? ( >=dev-python/numexpr-2.5.2[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/dask-0.9.0[${PYTHON_USEDEP}] )
+	optional? ( dev-python/dask[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	optional? ( dev-python/tables[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.3[${PYTHON_USEDEP}] )

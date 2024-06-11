@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dask"
 DEPENDENCIES="<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
-	dask? ( <dev-python/dask-2023.0.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-jobqueue[${PYTHON_USEDEP}] )
 	dask? ( dev-python/bokeh[${PYTHON_USEDEP}] )"

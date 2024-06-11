@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
 	dev-python/dask-geopandas[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/dask-2024.6[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	dev-python/gtfs-segments[${PYTHON_USEDEP}]
 	dev-python/pyairtable[${PYTHON_USEDEP}]"

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	doc? ( dev-python/hvplot[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsite[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
-	examples? ( >=dev-python/dask-2021.3.0[${PYTHON_USEDEP}] )
+	examples? ( dev-python/dask[${PYTHON_USEDEP}] )
 	examples? ( dev-python/datashader[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fugue[${PYTHON_USEDEP}] )
 	examples? ( dev-python/hvplot[${PYTHON_USEDEP}] )

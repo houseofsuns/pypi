@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/tifffile-2024.0.0[${PYTHON_USEDEP}]
-	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	napari? ( dev-python/napari[${PYTHON_USEDEP}] )
 	dev-python/numba[${PYTHON_USEDEP}]

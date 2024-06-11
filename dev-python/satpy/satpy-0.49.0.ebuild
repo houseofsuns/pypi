@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="abi-l1b acspo amsr2-l1b angles animations avhrr-l1b-eps avhrr-l1b-gaclac awips-tiled cf clavrx doc filters geocat geotiff geoviews gms5-vissr-l1b goci2 holoviews hrit-msg hrpt hsaf-grib hvplot insat-3d modis-l1b msi-safe nc-nwcsaf-msg ninjo omps-edr overlays rayleigh remote-reading sar-c satpos-from-tle seviri-l1b-hrit seviri-l1b-native seviri-l1b-nc seviri-l2-bufr seviri-l2-grib tests units viirs-compact viirs-l1b viirs-sdr"
-DEPENDENCIES=">=dev-python/dask-0.17.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/donfig[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

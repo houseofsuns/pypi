@@ -27,7 +27,7 @@ IUSE="dev docs extra"
 DEPENDENCIES=">=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	dev-python/cf-xarray[${PYTHON_USEDEP}]
 	>=dev-python/cftime-1.4.1[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.6[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
 	>=dev-python/netcdf4-1.4[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all mrc napari testing tiff zarr"
-DEPENDENCIES=">=dev-python/dask-2021.6.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}]

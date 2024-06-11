@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
 	gpu? ( dev-python/cupy[${PYTHON_USEDEP}] )
 	test? ( dev-python/awkward[${PYTHON_USEDEP}] )
 	test? ( dev-python/boltons[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/dask-2022.9.2[${PYTHON_USEDEP}] )
+	test? ( dev-python/dask[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/joblib[${PYTHON_USEDEP}] )
 	test? ( dev-python/loompy[${PYTHON_USEDEP}] )

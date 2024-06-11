@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/boltons-20.2.1[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.14.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	~dev-python/deepdiff-6.2.3[${PYTHON_USEDEP}]
 	dev-python/f90nml[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}]

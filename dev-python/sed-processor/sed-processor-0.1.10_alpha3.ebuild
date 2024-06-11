@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="notebook"
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.12.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/fastdtw[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.6.0[${PYTHON_USEDEP}]

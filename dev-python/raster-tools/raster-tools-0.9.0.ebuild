@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/cfgrib[${PYTHON_USEDEP}]
-	<=dev-python/dask-2024.2.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/dask-geopandas[${PYTHON_USEDEP}]
 	dev-python/dask-image[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]

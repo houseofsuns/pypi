@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
-	~dev-python/dask-2023.3.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/einsum[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.16.2[${PYTHON_USEDEP}]
 	~dev-python/immutabledict-2.2.0[${PYTHON_USEDEP}]

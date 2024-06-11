@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	bbknn? ( dev-python/bbknn[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2022.9.2[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask-ml? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	dask-ml? ( dev-python/scanpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

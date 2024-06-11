@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="apps core"
 DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	apps? ( dev-python/dash-daq[${PYTHON_USEDEP}] )
-	core? ( ~dev-python/dask-2022.10[${PYTHON_USEDEP}] )
+	core? ( dev-python/dask[${PYTHON_USEDEP}] )
 	core? ( dev-python/discretize[${PYTHON_USEDEP}] )
 	core? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	core? ( dev-python/empymod[${PYTHON_USEDEP}] )

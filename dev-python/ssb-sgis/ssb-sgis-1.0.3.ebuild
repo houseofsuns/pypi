@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/branca[${PYTHON_USEDEP}]
 	all? ( dev-python/dapla-toolbelt[${PYTHON_USEDEP}] )
 	bucket? ( dev-python/dapla-toolbelt[${PYTHON_USEDEP}] )
-	>=dev-python/dask-2024.1.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/dask-geopandas[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
 	all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

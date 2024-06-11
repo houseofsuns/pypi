@@ -47,7 +47,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typeguard-4.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-1.0[${PYTHON_USEDEP}]
-	>=dev-python/dask-2024.4.2[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	aws? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	aws? ( >=dev-python/docker-5.0.2[${PYTHON_USEDEP}] )

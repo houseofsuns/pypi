@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="apis demo dev docs enterprise quality server testing torch"
 DEPENDENCIES=">=dev-python/boto3-1.16[${PYTHON_USEDEP}]
-	>=dev-python/dask-2022.6.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	dev-python/loki-logger-handler[${PYTHON_USEDEP}]

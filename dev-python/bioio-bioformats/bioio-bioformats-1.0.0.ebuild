@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="lint test"
 DEPENDENCIES="dev-python/bioio-base[${PYTHON_USEDEP}]
 	dev-python/bioformats-jar[${PYTHON_USEDEP}]
-	<=dev-python/dask-2023.5.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.8.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/ome-types[${PYTHON_USEDEP}]

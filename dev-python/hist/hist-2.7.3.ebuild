@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/boost-histogram[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask-histogram[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2022.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask-histogram[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/dask-2022.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/iminuit-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/boost-histogram[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/scipy-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dask-histogram[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/dask-2022.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/dask[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/iminuit-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/boost-histogram[${PYTHON_USEDEP}]
 	plot? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	plot? ( dev-python/mplhep[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask-histogram[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/dask-2022.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/dask[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-mpl-0.12[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

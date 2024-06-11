@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dask modin pandas polars pyarrow"
-DEPENDENCIES="all? ( <dev-python/dask-2022.0[${PYTHON_USEDEP}] )
-	dask? ( <dev-python/dask-2022.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/modin[${PYTHON_USEDEP}] )
 	modin? ( dev-python/modin[${PYTHON_USEDEP}] )
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/dask-2022.2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/fastprogress[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.11.0[${PYTHON_USEDEP}]
 	dev-python/intake[${PYTHON_USEDEP}]

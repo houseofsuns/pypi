@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/hypothesis-6.96.1[${PYTHON_USEDEP}]
 	all? ( dev-python/physt[${PYTHON_USEDEP}] )
 	astropy? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2023.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )

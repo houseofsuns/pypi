@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/flyteidl[${PYTHON_USEDEP}]
 	dev-python/flytekit[${PYTHON_USEDEP}]
-	>=dev-python/dask-2022.10.2[${PYTHON_USEDEP}]"
+	dev-python/dask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

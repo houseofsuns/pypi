@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/heinlein[${PYTHON_USEDEP}]
 	<dev-python/multiprocess-0.71.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
-	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8[${PYTHON_USEDEP}]"

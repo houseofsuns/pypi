@@ -53,7 +53,7 @@ DEPENDENCIES="~dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	full? ( dev-python/aind-data-transfer[${PYTHON_USEDEP}] )
 	full? ( dev-python/aind-data-transfer[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/argschema[${PYTHON_USEDEP}] )
-	imaging? ( ~dev-python/dask-2024.4.1[${PYTHON_USEDEP}] )
+	imaging? ( dev-python/dask[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

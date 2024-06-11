@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	examples? ( dev-python/MetPy[${PYTHON_USEDEP}] )
 	extras? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
-	extras? ( >=dev-python/dask-2020.12.0[${PYTHON_USEDEP}] )
+	extras? ( dev-python/dask[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/shapely-1.6.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )

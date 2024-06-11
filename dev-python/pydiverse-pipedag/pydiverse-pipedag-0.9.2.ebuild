@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	filelock? ( >=dev-python/filelock-3.7.1[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2022.1.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	prefect? ( dev-python/prefect[${PYTHON_USEDEP}] )
 	prefect? ( >=dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
 	prefect? ( >=dev-python/pytzdata-2020.1[${PYTHON_USEDEP}] )"

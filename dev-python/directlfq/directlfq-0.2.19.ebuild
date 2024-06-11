@@ -75,7 +75,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	stable? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/dask-2023.1.0[${PYTHON_USEDEP}] )
+	stable? ( dev-python/dask[${PYTHON_USEDEP}] )
 	stable? ( dev-python/numba[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/multiprocess-0.70.14[${PYTHON_USEDEP}] )
 	stable? ( dev-python/wget[${PYTHON_USEDEP}] )

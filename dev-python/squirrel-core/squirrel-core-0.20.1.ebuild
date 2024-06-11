@@ -27,8 +27,8 @@ IUSE="all azure dask excel feather gcp numba parquet s3 torch wandb zarr"
 DEPENDENCIES="azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-	dask? ( >=dev-python/dask-2023.2.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/dask-2023.2.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	>=dev-python/fsspec-2021.7.0[${PYTHON_USEDEP}]
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

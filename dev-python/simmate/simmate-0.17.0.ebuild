@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="badelf clease data dev exe extras"
 DEPENDENCIES="<dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
-	<dev-python/dask-2024.4.3[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	<dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]

@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/cachecontrol-0.13.0[${PYTHON_USEDEP}]
 	dev-python/colorhash[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
-	~dev-python/dask-2022.10.2[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	~dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
 	dev-python/fbmessenger[${PYTHON_USEDEP}]
 	gh-release-notes? ( <dev-python/github3-py-3.3.0[${PYTHON_USEDEP}] )

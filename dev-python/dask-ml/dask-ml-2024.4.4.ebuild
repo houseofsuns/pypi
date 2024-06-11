@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dev docs test xgboost"
 DEPENDENCIES="dev-python/dask-glm[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.4.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	>=dev-python/multipledispatch-0.4.9[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.16[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.2[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.5.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	fast? ( dev-python/numba[${PYTHON_USEDEP}] )
 	fast? ( dev-python/pykdtree[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

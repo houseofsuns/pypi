@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tui"
 DEPENDENCIES=">=dev-python/click-8.1.2[${PYTHON_USEDEP}]
-	>=dev-python/dask-2022.11.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]

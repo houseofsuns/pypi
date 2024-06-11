@@ -56,7 +56,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2022.6[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dataframe? ( <dev-python/pandas-2.1[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )

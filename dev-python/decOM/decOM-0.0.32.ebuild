@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/plotly-5.5.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-resources-5.4.0[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.12.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

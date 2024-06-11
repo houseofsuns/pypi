@@ -63,7 +63,7 @@ DEPENDENCIES="etl? ( dev-python/goose3[${PYTHON_USEDEP}] )
 	inference? ( dev-python/torch[${PYTHON_USEDEP}] )
 	etl? ( <dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}] )
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
-	etl? ( <dev-python/dask-2024.0.0[${PYTHON_USEDEP}] )
+	etl? ( dev-python/dask[${PYTHON_USEDEP}] )
 	<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
 	inference? ( dev-python/gpt4all[${PYTHON_USEDEP}] )

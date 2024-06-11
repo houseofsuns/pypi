@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/xxhash-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pybloom-live[${PYTHON_USEDEP}]
 	<dev-python/bitarray-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,6 +33,6 @@ DEPENDENCIES=">=dev-python/pywavelets-0.5.2[${PYTHON_USEDEP}]
 	dev-python/matplotlib-scalebar[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.9.0[${PYTHON_USEDEP}]"
+	dev-python/dask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

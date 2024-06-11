@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dask scipy"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dask? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-1.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	scipy? ( >=dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

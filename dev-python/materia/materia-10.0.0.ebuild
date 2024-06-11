@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/cclib[${PYTHON_USEDEP}]
 	dev-python/PubChemPy[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
-	<dev-python/dask-2021.0.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/dask-jobqueue[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

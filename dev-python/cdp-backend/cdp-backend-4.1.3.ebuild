@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	pipeline? ( >=dev-python/dask-2021.7.0[${PYTHON_USEDEP}] )
+	pipeline? ( dev-python/dask[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/faster-whisper[${PYTHON_USEDEP}] )
 	pipeline? ( >=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}] )
 	pipeline? ( >=dev-python/graphviz-0.16[${PYTHON_USEDEP}] )

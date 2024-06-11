@@ -34,14 +34,14 @@ DEPENDENCIES=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.10.0[${PYTHON_USEDEP}]
 	dev-python/stumpy[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dask? ( >=dev-python/dask-2.9.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/b2luigi[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	matrixprofile? ( dev-python/matrixprofile[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/dask-2.9.0[${PYTHON_USEDEP}] )
+	testing? ( dev-python/dask[${PYTHON_USEDEP}] )
 	testing? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )

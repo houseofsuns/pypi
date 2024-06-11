@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc test"
 DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	dev-python/crowsetta[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.10.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/evfuncs[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
 	dev-python/lightning[${PYTHON_USEDEP}]

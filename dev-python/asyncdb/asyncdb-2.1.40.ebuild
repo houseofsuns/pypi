@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/python-datamodel[${PYTHON_USEDEP}]
 	>=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}]
-	all? ( ~dev-python/dask-2023.1.1[${PYTHON_USEDEP}] )
+	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/datatable[${PYTHON_USEDEP}] )
 	all? ( dev-python/polars[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	couchbase? ( dev-python/couchbase[${PYTHON_USEDEP}] )
 	couchdb? ( dev-python/aiocouch[${PYTHON_USEDEP}] )
-	dataframe? ( ~dev-python/dask-2023.1.1[${PYTHON_USEDEP}] )
+	dataframe? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dataframe? ( dev-python/datatable[${PYTHON_USEDEP}] )
 	dataframe? ( dev-python/polars[${PYTHON_USEDEP}] )
 	dataframe? ( ~dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	dlp-analyzer? ( dev-python/pybind11[${PYTHON_USEDEP}] )
 	dlp-analyzer? ( dev-python/zindex-py[${PYTHON_USEDEP}] )
 	dlp-analyzer? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
-	dlp-analyzer? ( >=dev-python/dask-2023.5.0[${PYTHON_USEDEP}] )
+	dlp-analyzer? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dlp-analyzer? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dlp-analyzer? ( >=dev-python/numpy-1.24.3[${PYTHON_USEDEP}] )
 	dlp-analyzer? ( >=dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}] )

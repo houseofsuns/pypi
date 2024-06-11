@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/autopep8-2.2.0[${PYTHON_USEDEP}]
-	>=dev-python/dask-2024.5.2[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/hidapi-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.9.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

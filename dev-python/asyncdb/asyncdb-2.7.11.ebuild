@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/cryptography-42.0.4[${PYTHON_USEDEP}]
 	>=dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/looseversion-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
-	all? ( ~dev-python/dask-2023.3.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/datatable[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-datatable[${PYTHON_USEDEP}] )
 	all? ( dev-python/polars[${PYTHON_USEDEP}] )
@@ -96,7 +96,7 @@ DEPENDENCIES="~dev-python/cryptography-42.0.4[${PYTHON_USEDEP}]
 	boto3? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
 	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	couchdb? ( dev-python/aiocouch[${PYTHON_USEDEP}] )
-	dataframe? ( ~dev-python/dask-2023.3.0[${PYTHON_USEDEP}] )
+	dataframe? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dataframe? ( dev-python/datatable[${PYTHON_USEDEP}] )
 	dataframe? ( dev-python/python-datatable[${PYTHON_USEDEP}] )
 	dataframe? ( dev-python/polars[${PYTHON_USEDEP}] )

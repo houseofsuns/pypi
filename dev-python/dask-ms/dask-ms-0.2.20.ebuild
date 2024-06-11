@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow complete s3 testing xarray zarr"
 DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/dask-2023.1.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/donfig[${PYTHON_USEDEP}]
 	testing? ( dev-python/minio[${PYTHON_USEDEP}] )
 	arrow? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )

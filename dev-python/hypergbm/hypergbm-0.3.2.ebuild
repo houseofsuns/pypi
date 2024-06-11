@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/hypernets[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	all? ( >dev-python/dask-2023.2.1[${PYTHON_USEDEP}] )
+	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/featuretools[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/hypernets[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/shap[${PYTHON_USEDEP}] )
 	board? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dask? ( >dev-python/dask-2023.2.1[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	fg? ( dev-python/featuretools[${PYTHON_USEDEP}] )

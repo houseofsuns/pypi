@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	arrow? ( >=dev-python/cffi-1.15.1[${PYTHON_USEDEP}] )
 	arrow? ( >=dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
 	scikit-learn? ( >dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}] )"

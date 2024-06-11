@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all base-imageio benchmark bfio dev dv nd2 setup test"
-DEPENDENCIES=">=dev-python/dask-2021.4.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	<dev-python/fsspec-2023.9.0[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/dask-2021.4.1[${PYTHON_USEDEP}]
 	base-imageio? ( <dev-python/imageio-2.28.0[${PYTHON_USEDEP}] )
 	base-imageio? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	benchmark? ( >=dev-python/dask-2021.4.1[${PYTHON_USEDEP}] )
+	benchmark? ( dev-python/dask[${PYTHON_USEDEP}] )
 	benchmark? ( <dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
 	benchmark? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES=">=dev-python/dask-2021.4.1[${PYTHON_USEDEP}]
 	bfio? ( dev-python/bfio[${PYTHON_USEDEP}] )
 	bfio? ( <dev-python/tifffile-2022.4.22[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/dask-2021.4.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
@@ -124,7 +124,7 @@ DEPENDENCIES=">=dev-python/dask-2021.4.1[${PYTHON_USEDEP}]
 	dv? ( dev-python/mrc[${PYTHON_USEDEP}] )
 	nd2? ( dev-python/nd2[${PYTHON_USEDEP}] )
 	setup? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/dask-2021.4.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/dask[${PYTHON_USEDEP}] )
 	test? ( <dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )

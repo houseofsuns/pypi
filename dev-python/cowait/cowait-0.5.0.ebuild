@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/docker-4.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-sugar-0.9[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

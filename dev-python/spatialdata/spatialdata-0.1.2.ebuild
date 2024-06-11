@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs extra test torch"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/dask-image[${PYTHON_USEDEP}]
-	<=dev-python/dask-2024.2.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	<=dev-python/fsspec-2023.6[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/multiscale-spatial-image[${PYTHON_USEDEP}]

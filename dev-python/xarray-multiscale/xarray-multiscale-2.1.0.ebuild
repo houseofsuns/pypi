@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
-	>=dev-python/dask-2020.12.0[${PYTHON_USEDEP}]"
+	dev-python/dask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

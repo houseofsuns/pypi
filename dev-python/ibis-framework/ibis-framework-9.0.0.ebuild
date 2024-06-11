@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/atpublic-5.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	decompiler? ( <dev-python/black-25.0[${PYTHON_USEDEP}] )
 	clickhouse? ( dev-python/clickhouse-connect[${PYTHON_USEDEP}] )
-	dask? ( <dev-python/dask-2024.3.0[${PYTHON_USEDEP}] )
+	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	datafusion? ( dev-python/datafusion[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
 	deltalake? ( dev-python/deltalake[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/bmipy[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/contextily[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.10.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	dev-python/hvplot[${PYTHON_USEDEP}]

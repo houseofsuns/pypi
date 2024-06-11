@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all gin polyaxon"
-DEPENDENCIES=">=dev-python/dask-2.14.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/dask-distance[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
 	dev-python/kneed[${PYTHON_USEDEP}]

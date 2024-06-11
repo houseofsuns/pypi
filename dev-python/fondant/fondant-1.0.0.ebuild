@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aws azure component docker gcp kfp sagemaker vertex"
 DEPENDENCIES="azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	sagemaker? ( ~dev-python/boto3-1.28.64[${PYTHON_USEDEP}] )
-	component? ( >=dev-python/dask-2023.4.1[${PYTHON_USEDEP}] )
+	component? ( dev-python/dask[${PYTHON_USEDEP}] )
 	kfp? ( >=dev-python/docker-6.1.3[${PYTHON_USEDEP}] )
 	vertex? ( >=dev-python/docker-6.1.3[${PYTHON_USEDEP}] )
 	docker? ( >=dev-python/docker-6.1.3[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev mpi"
 DEPENDENCIES="dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	<dev-python/emcee-3.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

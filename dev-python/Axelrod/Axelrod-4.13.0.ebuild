@@ -27,7 +27,7 @@ IUSE="development human"
 DEPENDENCIES=">=dev-python/cloudpickle-0.2.2[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.8.2[${PYTHON_USEDEP}]
-	>=dev-python/dask-2.9.2[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]

@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/python-cmr[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	kerchunk? ( dev-python/kerchunk[${PYTHON_USEDEP}] )
-	kerchunk? ( >=dev-python/dask-2022.1.0[${PYTHON_USEDEP}] )"
+	kerchunk? ( dev-python/dask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gpu original viewer"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	~dev-python/dask-2.20.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/dask-jobqueue[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.9[${PYTHON_USEDEP}]

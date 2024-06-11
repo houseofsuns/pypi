@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-0.22[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	~dev-python/dask-2.9.0[${PYTHON_USEDEP}]"
+	dev-python/dask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

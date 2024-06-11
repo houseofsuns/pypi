@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	all-extras? ( dev-python/tslearn[${PYTHON_USEDEP}] )
 	all-extras? ( dev-python/xarray[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/esig[${PYTHON_USEDEP}] )
-	all_extras? ( <dev-python/dask-2024.3.0[${PYTHON_USEDEP}] )
+	all_extras? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all_extras? ( <dev-python/pyarrow-12.0[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/pyarrow-hotfix[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete docs test"
 DEPENDENCIES="dev-python/boost-histogram[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.3.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	complete? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask-sphinx-theme[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )

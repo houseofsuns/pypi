@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Cartopy[${PYTHON_USEDEP}]
 	dev-python/cf-units[${PYTHON_USEDEP}]
 	>=dev-python/cftime-1.5.0[${PYTHON_USEDEP}]
-	>=dev-python/dask-2022.9.0[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]

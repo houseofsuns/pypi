@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all coverage dev doc gui-jupyter gui-traitsui ipython learning speed tests"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	>=dev-python/dask-2021.3.1[${PYTHON_USEDEP}]
+	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]

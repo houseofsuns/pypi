@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Asynchronous workers"
+DESCRIPTION="Asynchronous workers [top-max 3.0.0]"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-daemon"
 LICENSE=""

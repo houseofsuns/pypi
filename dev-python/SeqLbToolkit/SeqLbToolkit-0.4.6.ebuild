@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Commonly-used functions for building sequence labeling models. [top-max 0.5.3]"
+DESCRIPTION="Commonly-used functions for building sequence labeling models. [top-max 0.5.4]"
 
 HOMEPAGE="https://github.com/Yinghao-Li/seqlbtoolkit"
 LICENSE="MIT"

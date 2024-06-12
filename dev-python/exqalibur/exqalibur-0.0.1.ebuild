@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cutting-edge optimization for Perceval [top-max 0.5.0]"
+DESCRIPTION="Cutting-edge optimization for Perceval [top-max 0.5.1]"
 
 HOMEPAGE="https://perceval.quandela.net/"
 LICENSE="Copyright c 2022 Quandela All rights reserved"

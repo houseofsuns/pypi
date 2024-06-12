@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Opinionated logging configuration"
+DESCRIPTION="Opinionated logging configuration [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-logging"
 LICENSE=""

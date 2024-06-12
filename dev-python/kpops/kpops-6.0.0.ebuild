@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KPOps is a tool to deploy Kafka pipelines to Kubernetes"
+DESCRIPTION="KPOps is a tool to deploy Kafka pipelines to Kubernetes [top-max 6.0.1]"
 
 HOMEPAGE="https://github.com/bakdata/kpops"
 LICENSE="MIT"

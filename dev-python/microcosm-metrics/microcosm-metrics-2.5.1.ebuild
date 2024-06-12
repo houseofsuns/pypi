@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Opinionated metrics configuration"
+DESCRIPTION="Opinionated metrics configuration [top-max 3.0.0]"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-metrics"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LIANA+: a one-stop-shop framework for cell-cell communication"
+DESCRIPTION="LIANA+: a one-stop-shop framework for cell-cell communication [top-max 1.2.1]"
 
 HOMEPAGE="https://liana-py.readthedocs.io"
 LICENSE="GPL-3"

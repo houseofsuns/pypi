@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A comic archive web server."
+DESCRIPTION="A comic archive web server. [top-max 1.6.0_alpha10]"
 
 HOMEPAGE="https://github.com/ajslater/codex"
 LICENSE="GPL-3"

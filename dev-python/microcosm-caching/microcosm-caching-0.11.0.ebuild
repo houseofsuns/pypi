@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Caching for microservices using microcosm."
+DESCRIPTION="Caching for microservices using microcosm. [top-max 1.0.0]"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-caching"
 LICENSE=""

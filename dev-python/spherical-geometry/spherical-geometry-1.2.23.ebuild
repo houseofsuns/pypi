@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python based tools for spherical geometry [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f9fc7ecc820>)]"
+DESCRIPTION="Python based tools for spherical geometry [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f5bbd09f680>)]"
 
 HOMEPAGE="https://github.com/spacetelescope/spherical_geometry"
 LICENSE="BSD"

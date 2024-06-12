@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [top-max 2024.24.12]"
 
 HOMEPAGE="https://github.com/globality-corp/flake8-logging-format"
 LICENSE="Apache-2.0"

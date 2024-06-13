@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple yet fast spellchecker that works with Hunspell dictionaries [top-max 0.5.3]"
+DESCRIPTION="A simple yet fast spellchecker that works with Hunspell dictionaries [top-max 0.5.5]"
 
 HOMEPAGE=""
 LICENSE=""

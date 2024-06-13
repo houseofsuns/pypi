@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Extension for PrismStudio [top-max 1.4.9]"
+DESCRIPTION="Python Extension for PrismStudio [top-max 1.5.0]"
 
 HOMEPAGE="https://www.prism39.com"
 LICENSE="Prism39 End User License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="spAudio audio I/O library"
+DESCRIPTION="spAudio audio I/O library [top-max 0.7.17]"
 
 HOMEPAGE="http://www-ie.meijo-u.ac.jp/labs/rj001/spLibs/python/spAudio/en/index.html"
 LICENSE="MIT"

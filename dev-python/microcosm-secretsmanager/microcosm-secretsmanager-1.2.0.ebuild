@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Secrets storage using AWS SecretsManager"
+DESCRIPTION="Secrets storage using AWS SecretsManager [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-secretsmanager"
 LICENSE=""

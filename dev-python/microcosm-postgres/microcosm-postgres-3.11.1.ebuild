@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Opinionated persistence with PostgreSQL"
+DESCRIPTION="Opinionated persistence with PostgreSQL [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-postgres"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Infobip Client API Libraries OpenAPI Specification"
+DESCRIPTION="Infobip Client API Libraries OpenAPI Specification [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/infobip/infobip-api-python-client"
 LICENSE="MIT"

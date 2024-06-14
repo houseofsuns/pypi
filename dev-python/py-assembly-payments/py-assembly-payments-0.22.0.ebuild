@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper around the Assembly Payments API"
+DESCRIPTION="Python wrapper around the Assembly Payments API [top-max 0.23.0]"
 
 HOMEPAGE="https://github.com/divipayhq/py-assembly-payments"
 LICENSE="MIT"

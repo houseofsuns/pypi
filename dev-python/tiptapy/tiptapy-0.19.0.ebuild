@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library that generates HTML output from JSON export of tiptap editor"
+DESCRIPTION="Library that generates HTML output from JSON export of tiptap editor [top-max 0.20.0]"
 
 HOMEPAGE="https://github.com/scrolltech/tiptapy"
 LICENSE="MIT"

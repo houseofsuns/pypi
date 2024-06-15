@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Useful stuff for TCR projects!"
+DESCRIPTION="Useful stuff for TCR projects! [top-max 12.0.193]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

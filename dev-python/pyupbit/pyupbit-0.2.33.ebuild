@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python wrapper for Upbit API"
+DESCRIPTION="python wrapper for Upbit API [top-max 0.2.34]"
 
 HOMEPAGE="https://github.com/sharebook-kr/pyupbit"
 LICENSE=""

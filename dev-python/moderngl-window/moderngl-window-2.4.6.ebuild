@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A cross platform helper library for ModernGL making window creation and resource loading simple [wheel]"
+DESCRIPTION="A cross platform helper library for ModernGL making window creation and resource loading simple"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -49,7 +49,6 @@ DEPENDENCIES="dev-python/moderngl[${PYTHON_USEDEP}]
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pywavefront? ( dev-python/PyWavefront[${PYTHON_USEDEP}] )
 	tk? ( dev-python/pyopengltk[${PYTHON_USEDEP}] )
-	trimesh? ( <dev-python/trimesh-4.0[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	trimesh? ( <dev-python/trimesh-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

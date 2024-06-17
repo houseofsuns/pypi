@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	~dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]
 	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}]

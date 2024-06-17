@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/livereload-2.6[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]
-	>=dev-python/cached-property-1.5[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/frictionless[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

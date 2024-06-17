@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-5.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/dictdiffer-0.10.0[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	<dev-python/ratelimit-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

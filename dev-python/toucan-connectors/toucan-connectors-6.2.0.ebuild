@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all awsathena azure-mssql clickhouse dataiku elasticsearch github google-analytics google-big-query google-cloud-mysql google-sheets google-spreadsheet http-api hubspot mongo mssql mssql-tlsv1-0 mysql odata oracle-sql postgres redshift sap-hana snowflake soap"
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jq-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]

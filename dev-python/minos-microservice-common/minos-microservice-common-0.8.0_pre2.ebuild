@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aiomisc[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	<dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

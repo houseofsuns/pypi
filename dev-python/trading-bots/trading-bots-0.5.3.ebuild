@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
 	dev-python/maya[${PYTHON_USEDEP}]

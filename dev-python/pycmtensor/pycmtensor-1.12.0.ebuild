@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/aesara-2.9.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aesara[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]

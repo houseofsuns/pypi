@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/minos-microservice-common[${PYTHON_USEDEP}]
 	dev-python/minos-microservice-networks[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]"
+	dev-python/cached-property[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

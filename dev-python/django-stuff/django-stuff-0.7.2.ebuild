@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/cached-property-1.3.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	>=dev-python/django-1.11[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.7[${PYTHON_USEDEP}]
 	dev-python/Unipath[${PYTHON_USEDEP}]"

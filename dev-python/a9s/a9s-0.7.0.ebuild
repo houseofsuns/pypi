@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/blessed-2.0.0[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/attrdict[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]"

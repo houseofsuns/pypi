@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KYOS shared lib code as python package"
+DESCRIPTION="KYOS shared lib code as python package [top-max 5.2.2]"
 
 HOMEPAGE="http://github.com/kyosenergy/kyoslib_py"
 LICENSE="MIT"

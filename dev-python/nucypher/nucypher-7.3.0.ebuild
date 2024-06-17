@@ -133,7 +133,7 @@ DEPENDENCIES="~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/bitarray-2.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/blinker-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bytestring-splitter[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/certifi-2024.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cffi-1.16.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cfgv-3.4.0[${PYTHON_USEDEP}] )

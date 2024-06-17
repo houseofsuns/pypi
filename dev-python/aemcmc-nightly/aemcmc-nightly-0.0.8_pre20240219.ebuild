@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
-	>=dev-python/aesara-2.8.11[${PYTHON_USEDEP}]
+	dev-python/aesara[${PYTHON_USEDEP}]
 	dev-python/aeppl[${PYTHON_USEDEP}]
 	dev-python/aehmc[${PYTHON_USEDEP}]
 	dev-python/polyagamma[${PYTHON_USEDEP}]

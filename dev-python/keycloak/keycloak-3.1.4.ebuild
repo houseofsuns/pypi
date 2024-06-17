@@ -28,7 +28,7 @@ DEPENDENCIES="extensions? ( <dev-python/django-6.0.0[${PYTHON_USEDEP}] )
 	extensions? ( <dev-python/flask-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
-	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
 	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}] )

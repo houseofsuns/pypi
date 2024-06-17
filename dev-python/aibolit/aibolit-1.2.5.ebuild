@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.8.2[${PYTHON_USEDEP}]
-	~dev-python/cached-property-1.2.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	~dev-python/cchardet-2.1.6[${PYTHON_USEDEP}]
 	dev-python/codecov[${PYTHON_USEDEP}]

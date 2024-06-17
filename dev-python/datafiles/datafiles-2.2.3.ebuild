@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.11.0[${PYTHON_USEDEP}]
 	<dev-python/parse-2.0[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/classproperties[${PYTHON_USEDEP}]
 	dev-python/minilog[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

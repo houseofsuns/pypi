@@ -27,7 +27,7 @@ IUSE="develop"
 DEPENDENCIES=">=dev-python/six-1.9[${PYTHON_USEDEP}]
 	>=dev-python/click-3.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.5[${PYTHON_USEDEP}]
-	>=dev-python/cached-property-1.5[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.4[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.5[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]

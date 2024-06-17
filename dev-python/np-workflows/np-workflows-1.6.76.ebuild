@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ecephys and behavior workflows for the Mindscope Neuropixels team."
+DESCRIPTION="Ecephys and behavior workflows for the Mindscope Neuropixels team. [top-max 1.6.77]"
 
 HOMEPAGE=""
 LICENSE="MIT"

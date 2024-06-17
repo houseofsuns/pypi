@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/pytest-4.5.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.12.1[${PYTHON_USEDEP}]
-	>=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	clickhouse? ( dev-python/clickhouse-driver[${PYTHON_USEDEP}] )
 	mongodb? ( >=dev-python/pymongo-3.7.1[${PYTHON_USEDEP}] )
 	mysql? ( >=dev-python/pymysql-0.9.2[${PYTHON_USEDEP}] )

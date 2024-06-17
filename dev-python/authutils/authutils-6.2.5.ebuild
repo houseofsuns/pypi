@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi flask"
-DEPENDENCIES="<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/cdiserrors[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-1.0[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]

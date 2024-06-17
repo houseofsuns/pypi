@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
 	dev-python/async-service[${PYTHON_USEDEP}]
 	dev-python/asyncio-cancel-token[${PYTHON_USEDEP}]
 	<dev-python/async-lru-1.0.0[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
 	<dev-python/cryptography-3.2[${PYTHON_USEDEP}]
 	dev-python/eth-enr[${PYTHON_USEDEP}]
@@ -72,7 +72,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/async-service[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asyncio-cancel-token[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/async-lru-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/cached-property-2.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coincurve[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/cryptography-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-enr[${PYTHON_USEDEP}] )
@@ -142,7 +142,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
 	p2p? ( dev-python/async-service[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/asyncio-cancel-token[${PYTHON_USEDEP}] )
 	p2p? ( <dev-python/async-lru-1.0.0[${PYTHON_USEDEP}] )
-	p2p? ( <dev-python/cached-property-2.0[${PYTHON_USEDEP}] )
+	p2p? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/coincurve[${PYTHON_USEDEP}] )
 	p2p? ( <dev-python/cryptography-3.2[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/eth-enr[${PYTHON_USEDEP}] )

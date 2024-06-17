@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.3[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	~dev-python/packaging-20.3[${PYTHON_USEDEP}]
 	<dev-python/filelock-4.0[${PYTHON_USEDEP}]
 	image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )

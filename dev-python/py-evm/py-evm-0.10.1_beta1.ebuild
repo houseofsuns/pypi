@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark dev docs eth eth-extra test"
-DEPENDENCIES=">=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/eth-bloom[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-bloom[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-keys[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-typing[${PYTHON_USEDEP}] )
@@ -70,7 +70,7 @@ DEPENDENCIES=">=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
-	eth? ( >=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}] )
+	eth? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	eth? ( dev-python/eth-bloom[${PYTHON_USEDEP}] )
 	eth? ( dev-python/eth-keys[${PYTHON_USEDEP}] )
 	eth? ( dev-python/eth-typing[${PYTHON_USEDEP}] )

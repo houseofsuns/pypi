@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all boruta cached_property chembl_structure_pipeline deep-learning deepchem dgl dgllife dill flake8 gensim h5py imblearn ipython joblib kaleido kneed machine-learning mypy numpy optuna pillow plotly preprocessing pytest pytest-cov rdkit scikeras scikit-learn scikit-multilearn seaborn shap smilespe tensorflow tensorflow-probability test torch torch_geometric tox umap-learn"
 DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
-	~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	all? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	all? ( dev-python/kneed[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
@@ -67,9 +67,9 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/h5py-3.7.0[${PYTHON_USEDEP}] )
 	boruta? ( dev-python/Boruta[${PYTHON_USEDEP}] )
-	cached_property? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	cached_property? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	chembl_structure_pipeline? ( dev-python/chembl-structure-pipeline[${PYTHON_USEDEP}] )
-	deep-learning? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	deep-learning? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	deep-learning? ( dev-python/kneed[${PYTHON_USEDEP}] )
 	deep-learning? ( ~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}] )
 	deep-learning? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
@@ -109,7 +109,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	joblib? ( ~dev-python/joblib-1.1.1[${PYTHON_USEDEP}] )
 	kaleido? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	kneed? ( dev-python/kneed[${PYTHON_USEDEP}] )
-	machine-learning? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	machine-learning? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	machine-learning? ( dev-python/kneed[${PYTHON_USEDEP}] )
 	machine-learning? ( ~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}] )
 	machine-learning? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
@@ -136,7 +136,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	optuna? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	pillow? ( ~dev-python/pillow-8.4.0[${PYTHON_USEDEP}] )
 	plotly? ( ~dev-python/plotly-5.13.1[${PYTHON_USEDEP}] )
-	preprocessing? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	preprocessing? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	preprocessing? ( dev-python/Boruta[${PYTHON_USEDEP}] )
 	preprocessing? ( ~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}] )
 	preprocessing? ( dev-python/imblearn[${PYTHON_USEDEP}] )
@@ -161,7 +161,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	smilespe? ( dev-python/SmilesPE[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow-probability? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	test? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-0.942[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/joblib-1.1.1[${PYTHON_USEDEP}] )

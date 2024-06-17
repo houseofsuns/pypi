@@ -87,7 +87,7 @@ DEPENDENCIES="~dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.12[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.37.1[${PYTHON_USEDEP}]
-	~dev-python/whichcraft-0.6.1[${PYTHON_USEDEP}]
+	dev-python/whichcraft[${PYTHON_USEDEP}]
 	~dev-python/zope-event-4.5.0[${PYTHON_USEDEP}]
 	~dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
 	>=dev-python/structlog-19.2.0[${PYTHON_USEDEP}]
 	>=dev-python/apispec-3.1.0[${PYTHON_USEDEP}]
-	>=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	>=dev-python/pyotp-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-2.2.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]"

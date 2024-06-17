@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	~dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

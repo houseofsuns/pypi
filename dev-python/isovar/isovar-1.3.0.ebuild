@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/varcode[${PYTHON_USEDEP}]
 	dev-python/pyensembl[${PYTHON_USEDEP}]
-	>=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	~dev-python/wcwidth-0.2.6[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/attrs-23.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/cached-property[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cerberus-1.3.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/chardet-5.0.0[${PYTHON_USEDEP}] )

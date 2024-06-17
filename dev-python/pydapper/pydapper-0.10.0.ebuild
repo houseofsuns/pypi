@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/dsnparse[${PYTHON_USEDEP}]
 	all? ( dev-python/types-psycopg2[${PYTHON_USEDEP}] )
 	pymssql? ( dev-python/types-pymssql[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-pymssql[${PYTHON_USEDEP}] )
-	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	mysql-connector-python? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	cx-oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )

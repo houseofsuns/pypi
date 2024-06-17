@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/lazy-object-proxy-1.6[${PYTHON_USEDEP}]
 	dev-python/pycollect[${PYTHON_USEDEP}]
 	dev-python/parameters-validation[${PYTHON_USEDEP}]
-	~dev-python/cached-property-1.5[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

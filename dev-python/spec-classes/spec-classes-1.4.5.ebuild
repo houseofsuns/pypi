@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/cached-property-1.5.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	>=dev-python/inflect-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/lazy-object-proxy-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]"

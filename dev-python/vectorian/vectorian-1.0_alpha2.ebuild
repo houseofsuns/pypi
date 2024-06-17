@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/pybind11-2.6.2[${PYTHON_USEDEP}]
 	>=dev-python/roman-3.3[${PYTHON_USEDEP}]
 	>=dev-python/yattag-1.14.0[${PYTHON_USEDEP}]
 	dev-python/download[${PYTHON_USEDEP}]
-	>=dev-python/cached-property-1.5.2[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deep-analysis multilingual pymorphy2-ru pymorphy2-uk web"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	<dev-python/ordered-set-4.0[${PYTHON_USEDEP}]
-	<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
+	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/ordered-set-stubs[${PYTHON_USEDEP}]
 	dev-python/poetry-version[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-9.0[${PYTHON_USEDEP}]

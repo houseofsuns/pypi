@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Crackerjack code style"
+DESCRIPTION="Crackerjack code style [top-max 0.8.5]"
 
 HOMEPAGE="https://github.com/lesleslie/crackerjack"
 LICENSE="BSD"

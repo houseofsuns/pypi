@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python asyncio IMAP4rev1 client library"
+DESCRIPTION="Python asyncio IMAP4rev1 client library [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/bamthomas/aioimaplib"
 LICENSE="GPL-3"

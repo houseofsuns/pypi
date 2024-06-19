@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Envoy Proxy control-plane written in Python"
+DESCRIPTION="Envoy Proxy control-plane written in Python [top-max 0.27.1]"
 
 HOMEPAGE="https://pypi.org/project/sovereign/"
 LICENSE="Apache-2.0"

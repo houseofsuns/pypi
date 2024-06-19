@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An efficient library for image augmentation, providing extensive transformations to support machine learning and computer vision tasks."
+DESCRIPTION="An efficient library for image augmentation, providing extensive transformations to support machine learning and computer vision tasks. [top-max 1.4.9]"
 
 HOMEPAGE="https://albumentations.ai"
 LICENSE="MIT"

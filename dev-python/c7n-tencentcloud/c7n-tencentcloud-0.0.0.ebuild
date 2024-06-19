@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloud Custodian - Tencent Cloud Provider [top-max 0.1.19]"
+DESCRIPTION="Cloud Custodian - Tencent Cloud Provider [top-max 0.1.20]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

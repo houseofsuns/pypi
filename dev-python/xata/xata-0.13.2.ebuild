@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Xata.io"
+DESCRIPTION="Python client for Xata.io [new-max 2024-06-18 09:17:37.452342+00:00]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

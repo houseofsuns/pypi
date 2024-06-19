@@ -8,23 +8,22 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Job scheduling for humans. [wheel]"
+DESCRIPTION="Job scheduling for humans."
 
 HOMEPAGE="https://github.com/dbader/schedule"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="timezone"
-DEPENDENCIES="timezone? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+DEPENDENCIES="timezone? ( dev-python/pytz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

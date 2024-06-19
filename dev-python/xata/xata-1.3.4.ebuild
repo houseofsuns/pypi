@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for Xata.io"
+DESCRIPTION="Python SDK for Xata.io [top-max 1.3.5]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

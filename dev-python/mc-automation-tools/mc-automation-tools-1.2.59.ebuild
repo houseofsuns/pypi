@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Map colonies automation infrastructure kit tools for mutual purpose"
+DESCRIPTION="Map colonies automation infrastructure kit tools for mutual purpose [top-max 1.2.61]"
 
 HOMEPAGE="https://github.com/MapColonies/automation-kit.git"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python Toolbox for Machine Learning on Partially-Observed Time Series"
+DESCRIPTION="A Python Toolbox for Machine Learning on Partially-Observed Time Series [top-max 0.6]"
 
 HOMEPAGE="https://pypots.com/"
 LICENSE="BSD"

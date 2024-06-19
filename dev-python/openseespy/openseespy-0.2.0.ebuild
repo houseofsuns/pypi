@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A OpenSeesPy package [top-max 3.5.1.12]"
+DESCRIPTION="A OpenSeesPy package [top-max 3.6.0.2]"
 
 HOMEPAGE="https://github.com/openseespy/openseespy"
 LICENSE="LICENSE.rst"

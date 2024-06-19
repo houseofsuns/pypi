@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Benzinga extension for OpenBB"
+DESCRIPTION="Benzinga extension for OpenBB [top-max 1.2.3]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

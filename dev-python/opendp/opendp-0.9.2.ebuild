@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the OpenDP Library [wheel]"
+DESCRIPTION="Python bindings for the OpenDP Library"
 
 HOMEPAGE="https://opendp.org"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -28,7 +28,6 @@ DEPENDENCIES="numpy? ( >=dev-python/numpy-1.17[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/randomgen[${PYTHON_USEDEP}] )
 	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	scikit-learn? ( >=dev-python/numpy-1.17[${PYTHON_USEDEP}] )
-	scikit-learn? ( dev-python/randomgen[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	scikit-learn? ( dev-python/randomgen[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

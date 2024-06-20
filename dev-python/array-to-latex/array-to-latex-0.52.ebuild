@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Return Numpy arrays as formatted LaTeX arrays. [top-max 0.91]"
+DESCRIPTION="Return Numpy arrays as formatted LaTeX arrays. [top-max 0.92]"
 
 HOMEPAGE="https://github.com/josephcslater/array_to_latex/"
 LICENSE=""

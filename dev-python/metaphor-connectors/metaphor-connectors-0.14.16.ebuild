@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of Python-based 'connectors' that extract metadata from various sources to ingest into the Metaphor app."
+DESCRIPTION="A collection of Python-based 'connectors' that extract metadata from various sources to ingest into the Metaphor app. [top-max 0.14.17]"
 
 HOMEPAGE="https://metaphor.io"
 LICENSE="Apache-2.0"

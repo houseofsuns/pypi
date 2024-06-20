@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Type hints (PEP 484) support for the Sphinx autodoc extension"
+DESCRIPTION="Type hints (PEP 484) support for the Sphinx autodoc extension [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/tox-dev/sphinx-autodoc-typehints"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A set of standard models for assessing structural and geotechnical problems [top-max 0.9.45]"
+DESCRIPTION="A set of standard models for assessing structural and geotechnical problems [top-max 0.9.46]"
 
 HOMEPAGE="https://github.com/eng-tools/sfsimodels"
 LICENSE="MIT"

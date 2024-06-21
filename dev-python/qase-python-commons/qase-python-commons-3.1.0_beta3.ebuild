@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for Qase TestOps and Qase Report"
+DESCRIPTION="A library for Qase TestOps and Qase Report [top-max 3.1.0_beta4]"
 
 HOMEPAGE="https://github.com/qase-tms/qase-python/tree/master/qase-python-commons"
 LICENSE=""

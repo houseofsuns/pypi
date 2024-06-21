@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some useful extensions for NumPy [top-max 0.1.2]"
+DESCRIPTION="Some useful extensions for NumPy [top-max 0.1.6]"
 
 HOMEPAGE=""
 LICENSE=""

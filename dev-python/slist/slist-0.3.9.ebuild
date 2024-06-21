@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A typesafe list with more method chaining!"
+DESCRIPTION="A typesafe list with more method chaining! [top-max 0.3.10]"
 
 HOMEPAGE="https://github.com/thejaminator/slist"
 LICENSE="MIT"

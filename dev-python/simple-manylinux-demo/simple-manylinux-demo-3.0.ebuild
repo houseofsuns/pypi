@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is a simple package with a compiled C extension."
+DESCRIPTION="This is a simple package with a compiled C extension. [top-max 4.0]"
 
 HOMEPAGE="https://github.com/frenzymadness/simple-manylinux-demo"
 LICENSE="CC0 1.0"

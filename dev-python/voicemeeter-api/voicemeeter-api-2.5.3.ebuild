@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python wrapper for the Voiceemeter API"
+DESCRIPTION="A Python wrapper for the Voiceemeter API [top-max 2.5.4]"
 
 HOMEPAGE="https://github.com/onyx-and-iris/voicemeeter-api-python"
 LICENSE="MIT"

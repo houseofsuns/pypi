@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BotBuilder Schema [top-max 4.15.0]"
+DESCRIPTION="BotBuilder Schema [top-max 4.15.1]"
 
 HOMEPAGE="https://github.com/Microsoft/botbuilder-python"
 LICENSE="MIT"

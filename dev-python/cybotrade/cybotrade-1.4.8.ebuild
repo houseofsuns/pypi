@@ -16,8 +16,8 @@ DESCRIPTION=" [wheel]"
 
 HOMEPAGE="https://app.cybotrade.rs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/1a/ea/f896ee792a5f6486954c46497b7245b6a16e6df3103306aa194b9cbfaf33/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cb/a2/930e34077f4e56adab475eebf289b5f427fc41750a156a0c1e67e6809f5d/${REALNAME}-${REALVERSION}-cp311-none-win_amd64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-none-win_amd64.whl"
 RESTRICT="test"
 
 SLOT="0"

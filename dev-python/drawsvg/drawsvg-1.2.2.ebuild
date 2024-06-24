@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python 3 library for programmatically generating SVG images (vector drawings) and rendering them or displaying them in an iPython notebook. [top-max 2.3.0]"
+DESCRIPTION="A Python 3 library for programmatically generating SVG images (vector drawings) and rendering them or displaying them in an iPython notebook. [top-max 2.4.0]"
 
 HOMEPAGE="https://github.com/cduck/drawSvg"
 LICENSE=""

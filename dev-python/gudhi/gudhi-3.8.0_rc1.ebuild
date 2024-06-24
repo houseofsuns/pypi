@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Gudhi library is an open source library for Computational Topology and Topological Data Analysis (TDA). [top-max 3.9.0]"
+DESCRIPTION="The Gudhi library is an open source library for Computational Topology and Topological Data Analysis (TDA). [top-max 3.10.0_rc1]"
 
 HOMEPAGE="https://gudhi.inria.fr/"
 LICENSE=""

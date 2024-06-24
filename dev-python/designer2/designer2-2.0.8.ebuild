@@ -16,8 +16,8 @@ DESCRIPTION="designerV2 [wheel]"
 
 HOMEPAGE="https://github.com/NYU-DiffusionMRI/DESIGNER-v2"
 LICENSE="NYU"
-SRC_URI="https://files.pythonhosted.org/packages/cp38/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

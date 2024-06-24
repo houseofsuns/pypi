@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 0.9.0_pre22]"
+DESCRIPTION=" [top-max 0.9.0_rc0]"
 
 HOMEPAGE=""
 LICENSE=""

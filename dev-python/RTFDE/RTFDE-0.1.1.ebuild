@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for extracting HTML content from RTF encapsulated HTML as commonly found in the exchange MSG email format."
+DESCRIPTION="A library for extracting HTML content from RTF encapsulated HTML as commonly found in the exchange MSG email format. [top-max 0.1.2]"
 
 HOMEPAGE="https://github.com/seamustuohy/RTFDE"
 LICENSE=""

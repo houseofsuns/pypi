@@ -16,8 +16,8 @@ DESCRIPTION="MKL Support Functions [wheel]"
 
 HOMEPAGE="https://github.com/IntelPython/mkl-service"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-0-cp310-cp310-manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-0-cp310-cp310-manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-0-cp311-cp311-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-0-cp311-cp311-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

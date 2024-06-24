@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python lib for using Mambu APIs. [new-max 2024-06-20 22:32:25.359101+00:00]"
+DESCRIPTION="A python lib for using Mambu APIs. [new-max 2024-06-22 00:05:11.796751+00:00]"
 
 HOMEPAGE="https://mambupydocs.readthedocs.io"
 LICENSE="GPL-3"

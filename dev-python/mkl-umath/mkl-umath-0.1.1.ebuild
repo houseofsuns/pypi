@@ -16,8 +16,8 @@ DESCRIPTION="MKL-based universal functions for NumPy arrays [wheel]"
 
 HOMEPAGE="http://github.com/IntelPython/mkl_umath"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-100-cp310-cp310-manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-100-cp310-cp310-manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-102-cp311-cp311-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-102-cp311-cp311-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

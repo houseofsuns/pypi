@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings to the LIMA linguistic analyzer [top-max 0.5.0_beta5]"
+DESCRIPTION="Python bindings to the LIMA linguistic analyzer [top-max 0.5.0_beta6]"
 
 HOMEPAGE="https://github.com/aymara/lima"
 LICENSE=""

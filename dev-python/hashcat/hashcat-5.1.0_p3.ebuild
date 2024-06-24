@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python pip installer for hashcat [top-max 24.6.16]"
+DESCRIPTION="Python pip installer for hashcat [top-max 24.6.23]"
 
 HOMEPAGE="https://github.com/bannsec/hashcat"
 LICENSE="MIT"

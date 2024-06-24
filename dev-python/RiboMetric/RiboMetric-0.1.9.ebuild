@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python command-line utility for the generation of comprehensive reports on the quality of ribosome profiling (Ribo-Seq) datasets"
+DESCRIPTION="A python command-line utility for the generation of comprehensive reports on the quality of ribosome profiling (Ribo-Seq) datasets [top-max 0.1.11]"
 
 HOMEPAGE="https://github.com/JackCurragh/RiboMetric"
 LICENSE="MIT"

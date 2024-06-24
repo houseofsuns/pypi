@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The delayed_image module [top-max 0.3.0]"
+DESCRIPTION="The delayed_image module [top-max 0.3.1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

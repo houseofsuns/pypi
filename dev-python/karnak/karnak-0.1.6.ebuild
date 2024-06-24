@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Karnak Data Platform Community Libraries [top-max 3.4.0]"
+DESCRIPTION="Karnak Data Platform Community Libraries [top-max 3.4.3]"
 
 HOMEPAGE="https://github.com/cogitaslabs/karnak-community"
 LICENSE=""

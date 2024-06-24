@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Test Command tool [new-max 2024-06-18 03:45:25.569428+00:00]"
+DESCRIPTION="Test Command tool [new-max 2024-06-24 15:14:13.847298+00:00]"
 
 HOMEPAGE="https://github.com/robotslacker/testcli.git"
 LICENSE=""

@@ -16,8 +16,8 @@ DESCRIPTION="ONNX Runtime is a runtime accelerator for Machine Learning models [
 
 HOMEPAGE="https://onnxruntime.ai"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win_amd64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A finite volume PDE solver in Python"
+DESCRIPTION="A finite volume PDE solver in Python [top-max 3.4.5]"
 
 HOMEPAGE="http://www.ctcms.nist.gov/fipy/"
 LICENSE="NIST Public Domain"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenBB package with core functionality."
+DESCRIPTION="OpenBB package with core functionality. [top-max 1.2.8]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

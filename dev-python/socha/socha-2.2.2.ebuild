@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is the package for the Software-Challenge Germany 2024. This Season the game will be 'Mississippi Queen'. [top-max 3.2.1]"
+DESCRIPTION="This is the package for the Software-Challenge Germany 2024. This Season the game will be 'Mississippi Queen'. [top-max 3.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

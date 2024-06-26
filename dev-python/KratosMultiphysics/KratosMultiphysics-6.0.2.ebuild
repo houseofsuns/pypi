@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KRATOS Multiphysics (Kratos) is a framework for building parallel, multi-disciplinary simulation software, aiming at modularity, extensibility, and high performance. Kratos is written in C++, and counts with an extensive Python interface. Kratos is free under BSD-4 license and can be used even in comercial softwares as it is. Many of its main applications are also free and BSD-4 licensed but each derived application can have its own propietary license. [top-max 9.5.1]"
+DESCRIPTION="KRATOS Multiphysics (Kratos) is a framework for building parallel, multi-disciplinary simulation software, aiming at modularity, extensibility, and high performance. Kratos is written in C++, and counts with an extensive Python interface. Kratos is free under BSD-4 license and can be used even in comercial softwares as it is. Many of its main applications are also free and BSD-4 licensed but each derived application can have its own propietary license. [top-max 9.5.2]"
 
 HOMEPAGE="https://github.com/KratosMultiphysics/Kratos"
 LICENSE=""

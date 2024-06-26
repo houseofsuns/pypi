@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python Toolbox for Data Mining on Partially-Observed Time Series [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fbdcbca7ae0>)]"
+DESCRIPTION="A Python Toolbox for Data Mining on Partially-Observed Time Series [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f0bddde3920>)]"
 
 HOMEPAGE="https://pypots.com/"
 LICENSE="BSD"

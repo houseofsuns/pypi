@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="dingodb is dingodb sdk [new-max 2024-06-24 08:58:57.900355+00:00]"
+DESCRIPTION="dingodb is dingodb sdk [new-max 2024-06-26 07:03:35.394535+00:00]"
 
 HOMEPAGE="https://www.dingodb.com/"
 LICENSE="Proprietary License"

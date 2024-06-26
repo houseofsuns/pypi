@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AUR helper with minimal dependencies [top-max 1.22.2]"
+DESCRIPTION="AUR helper with minimal dependencies [top-max 1.22.3]"
 
 HOMEPAGE="https://github.com/actionless/pikaur"
 LICENSE=""

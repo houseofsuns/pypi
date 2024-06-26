@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mercadopago SDK module for Payments integration"
+DESCRIPTION="Mercadopago SDK module for Payments integration [top-max 2.2.2]"
 
 HOMEPAGE="https://github.com/mercadopago/sdk-python"
 LICENSE="MIT"

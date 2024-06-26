@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common utilities for Camptocamp WSGI applications"
+DESCRIPTION="Common utilities for Camptocamp WSGI applications [new-max 2024-06-26 07:08:04.554042+00:00]"
 
 HOMEPAGE="https://github.com/camptocamp/c2cwsgiutils"
 LICENSE="BSD-2"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the cppTango library; part of the Tango Distributed Control System toolkit [top-max 10.0.0_rc1]"
+DESCRIPTION="Python bindings for the cppTango library; part of the Tango Distributed Control System toolkit"
 
 HOMEPAGE="https://www.tango-controls.org/"
 LICENSE=""

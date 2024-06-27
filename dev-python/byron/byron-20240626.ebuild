@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.8a1.dev52"
+REALVERSION="0.8a1.dev53"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An evolutionary fuzzer for ASM & HLLs [badver 0.8a1.dev52]"
+DESCRIPTION="An evolutionary source-code fuzzer [badver 0.8a1.dev53]"
 
 HOMEPAGE="https://cad-polito-it.github.io/byron/"
 LICENSE="Apache-2.0"

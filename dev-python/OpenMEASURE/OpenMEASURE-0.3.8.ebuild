@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for soft sensing applications [top-max 0.3.9]"
+DESCRIPTION="Python package for soft sensing applications [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/burn_research/OpenMEASURE"
 LICENSE=""

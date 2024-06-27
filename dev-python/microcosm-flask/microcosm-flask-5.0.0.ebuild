@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Opinionated persistence with FlaskQL [top-max 6.0.0]"
+DESCRIPTION="Opinionated persistence with FlaskQL [top-max 6.1.0]"
 
 HOMEPAGE="https://github.com/globality-corp/microcosm-flask"
 LICENSE=""

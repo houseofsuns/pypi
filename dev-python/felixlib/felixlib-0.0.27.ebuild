@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="felixlib [top-max 0.0.45]"
+DESCRIPTION="felixlib [top-max 0.0.46]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple parsing tool for MediaWiki's wikitext markup."
+DESCRIPTION="A simple parsing tool for MediaWiki's wikitext markup. [top-max 0.56.0]"
 
 HOMEPAGE="https://github.com/5j9/wikitextparser"
 LICENSE=""

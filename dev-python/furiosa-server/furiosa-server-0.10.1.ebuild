@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FuriosaAI model server interacting Furiosa NPU. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa2e7dd0970>)]"
+DESCRIPTION="FuriosaAI model server interacting Furiosa NPU. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4dc77d67a0>)]"
 
 HOMEPAGE=""
 LICENSE=""

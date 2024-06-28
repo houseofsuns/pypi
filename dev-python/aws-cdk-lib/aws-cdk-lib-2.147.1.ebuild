@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Version 2 of the AWS Cloud Development Kit library"
+DESCRIPTION="Version 2 of the AWS Cloud Development Kit library [top-max 2.147.2]"
 
 HOMEPAGE="https://github.com/aws/aws-cdk"
 LICENSE="Apache-2.0"

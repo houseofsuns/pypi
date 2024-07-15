@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TIC data viewer [top-max 1.2.21]"
+DESCRIPTION="TIC data viewer [top-max 1.2.23]"
 
 HOMEPAGE=""
 LICENSE=""

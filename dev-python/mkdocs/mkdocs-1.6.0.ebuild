@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-get-deps-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.5[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.11.1[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml_env_tag-0.1[${PYTHON_USEDEP}]
+	dev-python/pyyaml_env_tag[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-2.0[${PYTHON_USEDEP}]
 	i18n? ( >=dev-python/Babel-2.9.0[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	min-versions? ( ~dev-python/mkdocs-get-deps-0.2.0[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/packaging-20.5[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/pathspec-0.11.1[${PYTHON_USEDEP}] )
-	min-versions? ( ~dev-python/pyyaml_env_tag-0.1[${PYTHON_USEDEP}] )
+	min-versions? ( dev-python/pyyaml_env_tag[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/watchdog-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

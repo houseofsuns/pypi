@@ -16,8 +16,8 @@ DESCRIPTION="DIAMBRA™ Command Line Interface [wheel]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-macosx_10_9_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-macosx_10_9_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

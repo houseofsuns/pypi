@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to communicate with Solar inverters and BMSs [top-max 0.16.34]"
+DESCRIPTION="Package to communicate with Solar inverters and BMSs [top-max 0.16.39]"
 
 HOMEPAGE=""
 LICENSE=""

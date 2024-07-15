@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python tool for helping making shorter and smarter setup.py scripts"
+DESCRIPTION="Python tool for helping making shorter and smarter setup.py scripts [top-max 0.2.1]"
 
 HOMEPAGE="https://gitlab.com/Hares-Lab/tools/extended-setup-tools"
 LICENSE="BSD 2-clause"

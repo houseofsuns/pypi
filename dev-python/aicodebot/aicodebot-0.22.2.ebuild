@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AI-powered tool for developers, simplifying coding tasks and improving workflow efficiency."
+DESCRIPTION="AI-powered tool for developers, simplifying coding tasks and improving workflow efficiency. [top-max 0.23.2]"
 
 HOMEPAGE="https://github.com/gorillamania/AICodeBot"
 LICENSE=""

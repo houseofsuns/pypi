@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/isosurfaces[${PYTHON_USEDEP}]
 	jupyterlab? ( >=dev-python/jupyterlab-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/ManimPango[${PYTHON_USEDEP}]
-	>=dev-python/mapbox_earcut-1.0.0[${PYTHON_USEDEP}]
+	dev-python/mapbox_earcut[${PYTHON_USEDEP}]
 	dev-python/moderngl[${PYTHON_USEDEP}]
 	dev-python/moderngl-window[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Search for image using Google Custom Search API and resize & crop the image afterwords"
+DESCRIPTION="Search for image using Google Custom Search API and resize & crop the image afterwords [top-max 1.4.7]"
 
 HOMEPAGE="https://github.com/arrrlo/Google-Images-Search"
 LICENSE="MIT"

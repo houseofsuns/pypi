@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command-line tool to make beautiful and reproducible genome browser snapshots"
+DESCRIPTION="Command-line tool to make beautiful and reproducible genome browser snapshots [top-max 3.9]"
 
 HOMEPAGE="http://pygenometracks.readthedocs.io"
 LICENSE="LICENSE.txt"

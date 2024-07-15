@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="common utilities and algorithm [top-max 2.1.4]"
+DESCRIPTION="common utilities and algorithm [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/wkgreat/algokit"
 LICENSE=""

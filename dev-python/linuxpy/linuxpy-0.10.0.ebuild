@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Human friendly interface to linux subsystems using python"
+DESCRIPTION="Human friendly interface to linux subsystems using python [top-max 0.13.0]"
 
 HOMEPAGE="https://github.com/tiagocoutinho/linuxpy"
 LICENSE="GPL-3+"

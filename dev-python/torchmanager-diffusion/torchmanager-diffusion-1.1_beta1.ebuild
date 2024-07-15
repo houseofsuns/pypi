@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Torchmanager Implementation for Diffusion Model (v1.1 Beta 1)"
+DESCRIPTION="Torchmanager Implementation for Diffusion Model (v1.1 Beta 1) [top-max 1.1_beta2]"
 
 HOMEPAGE=""
 LICENSE=""

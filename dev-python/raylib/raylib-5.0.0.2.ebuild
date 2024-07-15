@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python CFFI bindings for Raylib"
+DESCRIPTION="Python CFFI bindings for Raylib [top-max 5.0.0.3]"
 
 HOMEPAGE="https://github.com/electronstudio/raylib-python-cffi"
 LICENSE="EPL-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="JEditor is basic but powerful editor include GPT"
+DESCRIPTION="JEditor is basic but powerful editor include GPT [top-max 0.0.178]"
 
 HOMEPAGE="https://github.com/JE-Chen/je_editor"
 LICENSE="MIT"

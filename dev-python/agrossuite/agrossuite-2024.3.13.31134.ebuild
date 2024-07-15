@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multiplatform application for the solution of physical problems based on the deal.II library"
+DESCRIPTION="Multiplatform application for the solution of physical problems based on the deal.II library [top-max 2024.7.4.35220]"
 
 HOMEPAGE="http://www.agros2d.org/"
 LICENSE="License :: OSI Approved :: GNU Lesser General Public License v2 LGPLv2"

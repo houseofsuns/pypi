@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data science toolkit for the H3 geospatial grid"
+DESCRIPTION="Data science toolkit for the H3 geospatial grid [top-max 0.21.0]"
 
 HOMEPAGE="https://github.com/nmandery/h3ronpy"
 LICENSE="MIT"

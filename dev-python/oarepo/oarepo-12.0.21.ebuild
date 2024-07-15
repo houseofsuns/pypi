@@ -279,7 +279,7 @@ DEPENDENCIES="~dev-python/alembic-1.10.4[${PYTHON_USEDEP}]
 	rdm? ( dev-python/nbstripout[${PYTHON_USEDEP}] )
 	rdm? ( ~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}] )
 	rdm? ( ~dev-python/pymdown-extensions-10.8.1[${PYTHON_USEDEP}] )
-	rdm? ( ~dev-python/pyyaml_env_tag-0.1[${PYTHON_USEDEP}] )
+	rdm? ( dev-python/pyyaml_env_tag[${PYTHON_USEDEP}] )
 	rdm? ( ~dev-python/regex-2024.5.15[${PYTHON_USEDEP}] )
 	rdm? ( ~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}] )
 	rdm? ( ~dev-python/sphinx-7.3.7[${PYTHON_USEDEP}] )

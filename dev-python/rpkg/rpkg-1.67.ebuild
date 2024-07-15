@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library and runtime script for managing RPMpackage sources in a git repository"
+DESCRIPTION="A python library and runtime script for managing RPMpackage sources in a git repository [top-max 1.67_p1]"
 
 HOMEPAGE="https://pagure.io/rpkg"
 LICENSE=""

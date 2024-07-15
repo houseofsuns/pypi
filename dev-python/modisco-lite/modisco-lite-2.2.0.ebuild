@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Transcription Factor MOtif Discovery from Importance SCOres - lite"
+DESCRIPTION="Transcription Factor MOtif Discovery from Importance SCOres - lite [top-max 2.2.1]"
 
 HOMEPAGE="https://github.com/jmschrei/tfmodisco-lite"
 LICENSE="LICENSE.txt"

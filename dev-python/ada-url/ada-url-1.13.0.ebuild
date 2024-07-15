@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="'URL parser and manipulator based on the WHAT WG URL standard'"
+DESCRIPTION="'URL parser and manipulator based on the WHAT WG URL standard' [top-max 1.15.0]"
 
 HOMEPAGE="https://github.com/ada-url/ada-python"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mycroft/ovos news skill plugin [top-max 0.0.4_alpha12]"
+DESCRIPTION="mycroft/ovos news skill plugin [top-max 0.0.4_alpha13]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/skill-ovos-news"
 LICENSE="Apache-2.0"

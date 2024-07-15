@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KRX scraping [top-max 1.0.45]"
+DESCRIPTION="KRX scraping [top-max 1.0.47]"
 
 HOMEPAGE="https://github.com/sharebook-kr/pykrx"
 LICENSE="MIT"

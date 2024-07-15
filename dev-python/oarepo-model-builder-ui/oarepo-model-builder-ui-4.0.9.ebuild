@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Model builder plugin for oarepo-ui"
+DESCRIPTION="Model builder plugin for oarepo-ui [top-max 4.0.10]"
 
 HOMEPAGE=""
 LICENSE=""

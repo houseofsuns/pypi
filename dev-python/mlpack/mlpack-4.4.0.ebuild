@@ -16,8 +16,8 @@ DESCRIPTION="a flexible, fast machine learning library [wheel]"
 
 HOMEPAGE="http://www.mlpack.org/"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cp312/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp312-cp312-win32.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp312-cp312-win32.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-win_amd64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-win_amd64.whl"
 RESTRICT="test"
 
 SLOT="0"

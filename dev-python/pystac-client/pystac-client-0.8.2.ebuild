@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for working with SpatioTemporal Asset Catalog (STAC) APIs. [wheel]"
+DESCRIPTION="Python library for working with SpatioTemporal Asset Catalog (STAC) APIs."
 
 HOMEPAGE="https://github.com/stac-utils/pystac-client"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -63,7 +63,6 @@ DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/pydata-sphinx-theme-0.13[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygeoif[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/scipy-1.10[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-fulltoc[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	docs? ( dev-python/sphinxcontrib-fulltoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

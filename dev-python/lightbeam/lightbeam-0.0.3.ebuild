@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sends JSONL data into an Ed-Fi API [top-max 0.1.3]"
+DESCRIPTION="Sends JSONL data into an Ed-Fi API [top-max 0.1.4]"
 
 HOMEPAGE="https://github.com/edanalytics/lightbeam"
 LICENSE="Apache-2.0"

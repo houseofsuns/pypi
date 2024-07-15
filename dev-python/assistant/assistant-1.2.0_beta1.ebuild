@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Your very own Assistant. Because you deserve it."
+DESCRIPTION="Your very own Assistant. Because you deserve it. [top-max 1.2.1_beta1]"
 
 HOMEPAGE="https://gitlab.com/waser-technologies/technologies/assistant"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open Experiment Format [top-max 0.20.0]"
+DESCRIPTION="Open Experiment Format [top-max 0.21.0]"
 
 HOMEPAGE="https://github.com/Deepomatic/open-experiment-format"
 LICENSE="MIT"

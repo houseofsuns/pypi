@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/prometheus-exporter[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
-	dev-python/zenlib[${PYTHON_USEDEP}]"
+	>=dev-python/zenlib-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

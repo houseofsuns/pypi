@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs test"
 DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/build-0.9[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	>=dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-3.3[${PYTHON_USEDEP}]
 	>=dev-python/docker-5.0.2[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES=">=dev-python/click-7.0.0[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	>=dev-python/click-option-group-0.5.3[${PYTHON_USEDEP}]
 	dev-python/invenio-access[${PYTHON_USEDEP}]
 	dev-python/invenio-accounts[${PYTHON_USEDEP}]
 	dev-python/invenio-records-marc21[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/img2pdf[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]

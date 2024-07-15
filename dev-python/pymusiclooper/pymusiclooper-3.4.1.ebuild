@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	dev-python/click-params[${PYTHON_USEDEP}]
 	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]

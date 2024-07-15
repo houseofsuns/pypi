@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
-	dev-python/srt[${PYTHON_USEDEP}]
+	>=dev-python/srt-3.5.2[${PYTHON_USEDEP}]
 	dev-python/TTS[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

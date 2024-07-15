@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.8[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/unisim[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

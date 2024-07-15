@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/attrs-21.3[${PYTHON_USEDEP}]
 	~dev-python/boltons-21.0[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	~dev-python/click-option-group-0.5[${PYTHON_USEDEP}]
 	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]

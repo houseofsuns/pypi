@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/coverage-7.0.1[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]

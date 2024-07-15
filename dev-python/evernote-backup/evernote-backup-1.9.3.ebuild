@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/evernote3[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/oauth2[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]"
+	<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

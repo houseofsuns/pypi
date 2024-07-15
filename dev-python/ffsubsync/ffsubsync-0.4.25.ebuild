@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/auditok[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/srt[${PYTHON_USEDEP}]
+	>=dev-python/srt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/webrtcvad[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/pysubs2[${PYTHON_USEDEP}]"
+	>=dev-python/pysubs2-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

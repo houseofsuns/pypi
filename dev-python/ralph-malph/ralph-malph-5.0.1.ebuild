@@ -48,7 +48,7 @@ DEPENDENCIES="<dev-python/importlib-metadata-8.0[${PYTHON_USEDEP}]
 	ci? ( ~dev-python/twine-5.1.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/bcrypt-4.0.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/click-8.1.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click-option-group[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-option-group-0.5.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/sentry-sdk-1.9.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/anyio-4.4.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.4.2[${PYTHON_USEDEP}] )

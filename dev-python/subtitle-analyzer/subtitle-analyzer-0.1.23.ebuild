@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/pysubs2[${PYTHON_USEDEP}]
+	<dev-python/pysubs2-2.0.0[${PYTHON_USEDEP}]
 	dev-python/subtitlecore[${PYTHON_USEDEP}]
 	dev-python/x2cdict[${PYTHON_USEDEP}]
 	dev-python/sencore[${PYTHON_USEDEP}]"

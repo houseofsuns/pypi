@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all audio image serve"
-DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	>=dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
@@ -89,7 +89,7 @@ DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
 	all? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/click-option-group[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/loguru-0.6.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/virtualenv-13.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}] )

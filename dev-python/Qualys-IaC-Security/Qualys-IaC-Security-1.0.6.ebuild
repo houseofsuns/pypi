@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	~dev-python/click-option-group-0.5.3[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.4.1[${PYTHON_USEDEP}]
 	~dev-python/prettytable-2.1.0[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]

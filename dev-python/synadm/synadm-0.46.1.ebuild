@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	>=dev-python/click-option-group-0.5.2[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

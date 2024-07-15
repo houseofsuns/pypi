@@ -47,7 +47,7 @@ DEPENDENCIES="<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-speech[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/srt[${PYTHON_USEDEP}]
+	<dev-python/srt-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/starlette-0.17.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

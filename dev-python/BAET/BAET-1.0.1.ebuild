@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]

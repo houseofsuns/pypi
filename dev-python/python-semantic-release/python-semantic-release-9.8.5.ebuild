@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs mypy test"
 DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	~dev-python/click-option-group-0.5[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.1[${PYTHON_USEDEP}]

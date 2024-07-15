@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	s3? ( <dev-python/botocore-2.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/botocore-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	s3? ( <dev-python/deepdiff-8.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/deepdiff-8.0.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/fastparquet[${PYTHON_USEDEP}] )

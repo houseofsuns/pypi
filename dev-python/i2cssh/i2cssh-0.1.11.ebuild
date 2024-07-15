@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-option-group-0.5.6[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	dev-python/iterm2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]"

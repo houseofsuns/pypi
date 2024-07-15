@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.6.0[${PYTHON_USEDEP}]
 	<dev-python/sentry-sdk-1.39.0[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-2.32.0[${PYTHON_USEDEP}]
 	dev-python/ast-comments[${PYTHON_USEDEP}]
 	<dev-python/tree-sitter-0.21.0[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the OpenDP Library"
+DESCRIPTION="Python bindings for the OpenDP Library [new-max 2024-07-15 05:29:07.655353+00:00]"
 
 HOMEPAGE="https://opendp.org"
 LICENSE=""

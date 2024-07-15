@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/sifflet-sdk[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	>=dev-python/click-option-group-0.5.6[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.4.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

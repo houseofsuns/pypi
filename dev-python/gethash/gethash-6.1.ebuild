@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs lint test"
 DEPENDENCIES=">=dev-python/click-didyoumean-0.3[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	>=dev-python/click-option-group-0.5[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.10[${PYTHON_USEDEP}]
 	>=dev-python/natsort-8.4[${PYTHON_USEDEP}]

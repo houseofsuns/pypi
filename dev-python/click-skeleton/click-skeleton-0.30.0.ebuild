@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click-option-group[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]

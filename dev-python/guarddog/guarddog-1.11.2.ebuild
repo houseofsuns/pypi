@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/click-option-group[${PYTHON_USEDEP}]
+	<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/disposable-email-domains[${PYTHON_USEDEP}]

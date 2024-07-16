@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A utility to generate CSRs suitable for validating Onion Domain Names per Appendix B of the CA/Browser Forum Baseline Requirements"
+DESCRIPTION="A utility to generate CSRs suitable for validating Onion Domain Names per Appendix B of the CA/Browser Forum Baseline Requirements [top-max 0.3]"
 
 HOMEPAGE="https://github.com/digicert/onionmaker"
 LICENSE="MIT"

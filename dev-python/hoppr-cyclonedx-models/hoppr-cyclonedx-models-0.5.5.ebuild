@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CycloneDX Pydantic models for easy use in your Python project."
+DESCRIPTION="CycloneDX Pydantic models for easy use in your Python project. [top-max 0.6.0]"
 
 HOMEPAGE="https://gitlab.com/hoppr/hoppr-cyclonedx-models"
 LICENSE="MIT"

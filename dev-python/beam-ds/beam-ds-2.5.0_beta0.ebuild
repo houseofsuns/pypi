@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Beam Datascience package [top-max 2.6.1_beta0]"
+DESCRIPTION="Beam Datascience package [top-max 2.6.2]"
 
 HOMEPAGE="https://github.com/mlutils/beamds"
 LICENSE=""

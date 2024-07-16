@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for dealing with Brazil's Public health data"
+DESCRIPTION="Tools for dealing with Brazil's Public health data [top-max 0.14.1]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

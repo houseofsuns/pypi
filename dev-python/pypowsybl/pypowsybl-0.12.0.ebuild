@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A PowSyBl Python API [top-max 1.6.0]"
+DESCRIPTION="A PowSyBl Python API [top-max 1.6.1]"
 
 HOMEPAGE="https://github.com/powsybl/pypowsybl"
 LICENSE=""

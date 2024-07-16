@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pure python disassembler, debugger, emulator, and static analysis framework"
+DESCRIPTION="Pure python disassembler, debugger, emulator, and static analysis framework [top-max 1.2.0]"
 
 HOMEPAGE="https://github.com/vivisect/vivisect"
 LICENSE=""

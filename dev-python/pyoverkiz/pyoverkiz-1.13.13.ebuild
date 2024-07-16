@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/warrant-lite[${PYTHON_USEDEP}]
-	dev-python/backports-strenum[${PYTHON_USEDEP}]"
+	<dev-python/backports-strenum-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

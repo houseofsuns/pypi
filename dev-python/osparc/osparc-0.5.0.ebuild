@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python client for osparc web API v0.4.0 [top-max 0.6.6]"
+DESCRIPTION="python client for osparc web API v0.4.0 [top-max 0.8.0]"
 
 HOMEPAGE="https://github.com/ITISFoundation/osparc-simcore-python-client.git"
 LICENSE="MIT"

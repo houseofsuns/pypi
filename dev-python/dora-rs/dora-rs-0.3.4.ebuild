@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`dora\` goal is to be a low latency, composable, and distributed data flow. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe99882f300>)]"
+DESCRIPTION="\`dora\` goal is to be a low latency, composable, and distributed data flow. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f165dea4e40>)]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

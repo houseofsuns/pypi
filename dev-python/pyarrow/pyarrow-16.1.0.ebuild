@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for Apache Arrow"
+DESCRIPTION="Python library for Apache Arrow [top-max 17.0.0]"
 
 HOMEPAGE="https://arrow.apache.org/"
 LICENSE="Apache-2.0"

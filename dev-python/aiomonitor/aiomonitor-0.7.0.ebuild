@@ -34,6 +34,6 @@ DEPENDENCIES=">=dev-python/attrs-20.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]
-	dev-python/backports-strenum[${PYTHON_USEDEP}]"
+	>=dev-python/backports-strenum-1.2.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

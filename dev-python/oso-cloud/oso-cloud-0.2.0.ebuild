@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Oso Cloud client. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe9855e5460>)]"
+DESCRIPTION="Oso Cloud client. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f164aa0d700>)]"
 
 HOMEPAGE="https://github.com/osohq"
 LICENSE="BSD-2"

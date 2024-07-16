@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wrapper for the SDIF library for audio analysis"
+DESCRIPTION="Wrapper for the SDIF library for audio analysis [top-max 1.0.1]"
 
 HOMEPAGE="https://github.com/gesellkammer/pysdif"
 LICENSE=""

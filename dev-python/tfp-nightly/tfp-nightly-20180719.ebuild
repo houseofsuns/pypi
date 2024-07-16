@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Probabilistic modeling and statistical inference in TensorFlow [top-max 0.25.0_pre20240715, badver 0.2.0rc0.dev20180719]"
+DESCRIPTION="Probabilistic modeling and statistical inference in TensorFlow [top-max 0.25.0_pre20240716, badver 0.2.0rc0.dev20180719]"
 
 HOMEPAGE="http://github.com/tensorflow/probability"
 LICENSE="Apache-2.0"

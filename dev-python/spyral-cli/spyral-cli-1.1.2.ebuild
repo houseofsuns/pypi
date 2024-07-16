@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/plotext[${PYTHON_USEDEP}]
-	dev-python/backports-strenum[${PYTHON_USEDEP}]
+	<dev-python/backports-strenum-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="spotpython - Sequential Parameter Optimization in Python"
+DESCRIPTION="spotpython - Sequential Parameter Optimization in Python [top-max 0.14.50]"
 
 HOMEPAGE="https://www.spotseven.de"
 LICENSE="AGPL-3+"

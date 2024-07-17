@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Calculate statistical features from text"
+DESCRIPTION="Calculate statistical features from text [top-max 0.7.4]"
 
 HOMEPAGE="https://github.com/shivam5992/textstat"
 LICENSE="MIT"

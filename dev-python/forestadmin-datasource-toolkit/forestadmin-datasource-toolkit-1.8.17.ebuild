@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="datasource toolkit for forestadmin python agent [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f935103d8c0>)]"
+DESCRIPTION="datasource toolkit for forestadmin python agent [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f335b3d9e00>)]"
 
 HOMEPAGE="https://www.forestadmin.com"
 LICENSE=""

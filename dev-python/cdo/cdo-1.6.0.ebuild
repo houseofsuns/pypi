@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python bindings to CDO"
+DESCRIPTION="python bindings to CDO [top-max 1.6.1]"
 
 HOMEPAGE="https://code.mpimet.mpg.de/projects/cdo/wiki/Cdo%7Brbpy%7D"
 LICENSE=""

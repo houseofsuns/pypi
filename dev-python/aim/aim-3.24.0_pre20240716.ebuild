@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="3.24.0.dev20240716"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A super-easy way to record, search and compare AI experiments. [wheel]"
+DESCRIPTION="A super-easy way to record, search and compare AI experiments."
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -47,7 +47,6 @@ DEPENDENCIES="dev-python/aim-ui[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	dev-python/boto3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

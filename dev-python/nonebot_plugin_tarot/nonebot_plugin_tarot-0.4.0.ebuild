@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tarot divination! [prod-max (True, <g_sorcery.g_collections.Version object at 0x7efce9a8a730>)]"
+DESCRIPTION="Tarot divination! [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f93442f4ac0>)]"
 
 HOMEPAGE="https://github.com/MinatoAquaCrews/nonebot_plugin_tarot"
 LICENSE="MIT"

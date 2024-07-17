@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 2.10.7]"
+DESCRIPTION=" [top-max 2.10.8]"
 
 HOMEPAGE="https://github.com/yodeng/runjob"
 LICENSE="BSD"

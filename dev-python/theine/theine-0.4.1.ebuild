@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="high performance in-memory cache"
+DESCRIPTION="high performance in-memory cache [top-max 0.4.2]"
 
 HOMEPAGE=""
 LICENSE=""

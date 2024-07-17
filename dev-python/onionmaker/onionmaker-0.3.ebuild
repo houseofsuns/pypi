@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A utility to generate CSRs suitable for validating Onion Domain Names per Appendix B of the CA/Browser Forum Baseline Requirements [wheel]"
+DESCRIPTION="A utility to generate CSRs suitable for validating Onion Domain Names per Appendix B of the CA/Browser Forum Baseline Requirements"
 
 HOMEPAGE="https://github.com/digicert/onionmaker"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pyasn1-alt-modules[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	dev-python/pyasn1-alt-modules[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package to communicate with riot client and league client"
+DESCRIPTION="Python package to communicate with riot client and league client [new-max 2024-07-16 23:05:33.272661+00:00]"
 
 HOMEPAGE="https://github.com/sandbox-pokhara/league-client"
 LICENSE=""

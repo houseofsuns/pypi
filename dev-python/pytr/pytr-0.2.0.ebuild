@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use TradeRepublic in terminal [top-max 0.2.1]"
+DESCRIPTION="Use TradeRepublic in terminal [top-max 0.2.2]"
 
 HOMEPAGE="https://gitlab.com/pytr-org/pytr/"
 LICENSE="MIT"

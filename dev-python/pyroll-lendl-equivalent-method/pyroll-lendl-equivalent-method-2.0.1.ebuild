@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plugin for PyRolL providing the equivalent rectangle method by Lendl."
+DESCRIPTION="Plugin for PyRolL providing the equivalent rectangle method by Lendl. [top-max 2.0.2]"
 
 HOMEPAGE="https://pyroll-project.github.io"
 LICENSE=""

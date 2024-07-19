@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HiQ - A Modern Observability System [top-max 1.1.14_pre8]"
+DESCRIPTION="HiQ - A Modern Observability System [top-max 1.1.14_pre9]"
 
 HOMEPAGE="https://github.com/oracle/hiq"
 LICENSE=""

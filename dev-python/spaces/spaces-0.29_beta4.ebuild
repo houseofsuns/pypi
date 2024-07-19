@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for Hugging Face Spaces"
+DESCRIPTION="Utilities for Hugging Face Spaces [top-max 0.29_beta5]"
 
 HOMEPAGE="https://huggingface.co"
 LICENSE="Apache-2.0"

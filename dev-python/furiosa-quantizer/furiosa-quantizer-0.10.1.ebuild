@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A FuriosaAI qunatizer. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f140c2c9850>)]"
+DESCRIPTION="A FuriosaAI qunatizer. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4996280200>)]"
 
 HOMEPAGE=""
 LICENSE=""

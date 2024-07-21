@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flake8-copyright[${PYTHON_USEDEP}]
-	~dev-python/flake8-polyfill-1.0.2[${PYTHON_USEDEP}]"
+	dev-python/flake8-polyfill[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

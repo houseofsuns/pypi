@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wallaroo.ai model management API client [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f13ec69e0a0>)]"
+DESCRIPTION="Wallaroo.ai model management API client [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f49767f8580>)]"
 
 HOMEPAGE="https://www.wallaroo.ai/"
 LICENSE=""

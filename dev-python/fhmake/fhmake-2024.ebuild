@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/tomlkit-2.0[${PYTHON_USEDEP}]
 	full? ( <dev-python/pylint-4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/handsdown[${PYTHON_USEDEP}] )
 	full? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	full? ( <dev-python/flake8-polyfill-2.0[${PYTHON_USEDEP}] )"
+	full? ( dev-python/flake8-polyfill[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

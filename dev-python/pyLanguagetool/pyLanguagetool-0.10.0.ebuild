@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library and CLI for the LanguageTool JSON API"
+DESCRIPTION="A python library and CLI for the LanguageTool JSON API [top-max 0.10.1]"
 
 HOMEPAGE="https://pylanguagetool.lw1.at/"
 LICENSE="MIT"

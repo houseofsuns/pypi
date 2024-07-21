@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Emulator runtime and bindings for skytemple-ssb-debugger"
+DESCRIPTION="Emulator runtime and bindings for skytemple-ssb-debugger [top-max 1.8.0]"
 
 HOMEPAGE="https://skytemple.org"
 LICENSE="GPL-3+"

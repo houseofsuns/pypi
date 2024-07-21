@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	>=dev-python/flake8-3.8.4[${PYTHON_USEDEP}]
-	>=dev-python/flake8-polyfill-1.0.2[${PYTHON_USEDEP}]
+	dev-python/flake8-polyfill[${PYTHON_USEDEP}]
 	>=dev-python/radon-4.3.2[${PYTHON_USEDEP}]
 	>=dev-python/bandit-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/coverage-6.4.4[${PYTHON_USEDEP}]"

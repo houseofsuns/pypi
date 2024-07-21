@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IoT.own API [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f13f936e9d0>)]"
+DESCRIPTION="IoT.own API [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f49833118c0>)]"
 
 HOMEPAGE="https://github.com/CoXlabInc/pyiotown"
 LICENSE=""

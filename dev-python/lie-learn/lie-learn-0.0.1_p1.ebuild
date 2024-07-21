@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python package that knows how to do various tricky computations related to Lie groups and manifolds (mainly the sphere S2 and rotation group SO3)."
+DESCRIPTION="A python package that knows how to do various tricky computations related to Lie groups and manifolds (mainly the sphere S2 and rotation group SO3). [top-max 0.0.2]"
 
 HOMEPAGE="https://github.com/AMLab-Amsterdam/lie_learn"
 LICENSE=""

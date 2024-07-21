@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An unoffical search API YouTube Music."
+DESCRIPTION="An unoffical search API YouTube Music. [top-max 2.9.1]"
 
 HOMEPAGE="https://github.com/cj-praveen/YouTube-Music-API/"
 LICENSE=""

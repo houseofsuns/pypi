@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Databricks Feature Store Feature Lookup Client"
+DESCRIPTION="Databricks Feature Store Feature Lookup Client [top-max 1.1.0]"
 
 HOMEPAGE=""
 LICENSE="Databricks Proprietary License"

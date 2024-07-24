@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pymef is a wrapper library for Multiscale Electrophysiology Format developed by MSEL laboratory. [top-max 1.4.4]"
+DESCRIPTION="Pymef is a wrapper library for Multiscale Electrophysiology Format developed by MSEL laboratory. [top-max 1.4.5]"
 
 HOMEPAGE="https://github.com/msel-source/pymef"
 LICENSE="Apache-2.0"

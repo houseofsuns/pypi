@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for work with the Mediascope-Delivery-API"
+DESCRIPTION="Library for work with the Mediascope-Delivery-API [top-max 1.1.17]"
 
 HOMEPAGE="https://github.com/MEDIASCOPE-JSC/mediascope-api-lib"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for tract, a neural network inference engine"
+DESCRIPTION="Python bindings for tract, a neural network inference engine [top-max 0.21.6]"
 
 HOMEPAGE=""
 LICENSE="Apache License, Version 2.0 OR MIT"

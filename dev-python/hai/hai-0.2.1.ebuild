@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolbelt library"
+DESCRIPTION="Toolbelt library [top-max 0.3.0]"
 
 HOMEPAGE="https://github.com/valohai/hai"
 LICENSE=""

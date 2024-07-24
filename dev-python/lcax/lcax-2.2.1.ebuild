@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LCAx is an open, machine and human-readable data format for exchanging LCA results. [top-max 2.2.4]"
+DESCRIPTION="LCAx is an open, machine and human-readable data format for exchanging LCA results. [top-max 2.3.2]"
 
 HOMEPAGE="https://lcax.kongsgaard.eu"
 LICENSE=""

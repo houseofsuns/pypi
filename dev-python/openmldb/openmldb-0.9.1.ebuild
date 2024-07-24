@@ -16,8 +16,8 @@ DESCRIPTION="OpenMLDB Python SDK [wheel]"
 
 HOMEPAGE="https://github.com/4paradigm/OpenMLDB"
 LICENSE="copyright 4paradigm.com"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-macosx_10_15_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-macosx_10_15_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

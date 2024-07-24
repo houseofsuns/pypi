@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for faster coding. [top-max 24.2.24.10]"
+DESCRIPTION="A package for faster coding. [top-max 24.7.24.20]"
 
 HOMEPAGE="https://github.com/"
 LICENSE=""

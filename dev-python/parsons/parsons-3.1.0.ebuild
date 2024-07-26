@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [top-max 3.2.0]"
 
 HOMEPAGE="https://github.com/move-coop/parsons"
 LICENSE=""

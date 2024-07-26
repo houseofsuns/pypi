@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wallaroo.ai model management API client [top-max 2024.2.0_beta2]"
+DESCRIPTION="Wallaroo.ai model management API client [top-max 2024.2.0_beta3]"
 
 HOMEPAGE="https://www.wallaroo.ai/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AMOSSYS Cyber Range client API"
+DESCRIPTION="AMOSSYS Cyber Range client API [top-max 4.13.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

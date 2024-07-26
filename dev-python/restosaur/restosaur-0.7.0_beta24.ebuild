@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework independent RESTful library [new-max 2023-01-31 01:36:58.659530+00:00]"
+DESCRIPTION="Framework independent RESTful library [new-max 2024-07-25 22:21:28.374078+00:00]"
 
 HOMEPAGE="https://github.com/marcinn/restosaur"
 LICENSE=""

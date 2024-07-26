@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Check the missing packages in requirements.txt"
+DESCRIPTION="Check the missing packages in requirements.txt [top-max 1.2.3]"
 
 HOMEPAGE=""
 LICENSE=""

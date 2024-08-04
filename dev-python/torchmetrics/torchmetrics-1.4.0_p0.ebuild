@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyTorch native Metrics"
+DESCRIPTION="PyTorch native Metrics [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/Lightning-AI/torchmetrics"
 LICENSE="Apache-2.0"

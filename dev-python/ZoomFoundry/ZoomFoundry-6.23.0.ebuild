@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/pymysql-0.10.1[${PYTHON_USEDEP}]
 	>=dev-python/pypugjs-5.9.12[${PYTHON_USEDEP}]
 	>=dev-python/libsass-0.19.4[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2024.1[${PYTHON_USEDEP}]
-	>=dev-python/pytzdata-2020.1[${PYTHON_USEDEP}]
+	dev-python/pytzdata[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	~dev-python/livereload-2.5.1[${PYTHON_USEDEP}]"

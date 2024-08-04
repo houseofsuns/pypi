@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep learning on Spark with Keras [top-max 5.2.1]"
+DESCRIPTION="Deep learning on Spark with Keras [top-max 6.0.0]"
 
 HOMEPAGE="http://github.com/danielenricocahall/elephas"
 LICENSE="MIT"

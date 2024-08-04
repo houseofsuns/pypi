@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some nice ML overhaul"
+DESCRIPTION="Some nice ML overhaul [top-max 1.6.2]"
 
 HOMEPAGE="https://k1lib.com"
 LICENSE="MIT"

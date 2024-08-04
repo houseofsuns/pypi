@@ -16,8 +16,8 @@ DESCRIPTION="Struct2Tensor is a package for parsing and manipulating structured 
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

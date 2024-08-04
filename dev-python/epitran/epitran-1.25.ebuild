@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for transcribing languages into IPA."
+DESCRIPTION="Tools for transcribing languages into IPA. [top-max 1.25.1]"
 
 HOMEPAGE="http://github.com/dmort27/epitran"
 LICENSE="MIT"

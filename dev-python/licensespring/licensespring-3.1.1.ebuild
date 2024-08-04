@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LicenseSpring Python Library"
+DESCRIPTION="LicenseSpring Python Library [top-max 3.1.2]"
 
 HOMEPAGE="https://licensespring.com/"
 LICENSE="MIT"

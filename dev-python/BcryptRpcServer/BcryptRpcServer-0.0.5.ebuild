@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The rpc server api of https://github.com/cyal1/BcryptMontoya"
+DESCRIPTION="The rpc server api of https://github.com/cyal1/BcryptMontoya [top-max 0.0.6]"
 
 HOMEPAGE="https://github.com/cyal1/BcryptRpcServer/tree/main/python"
 LICENSE=""

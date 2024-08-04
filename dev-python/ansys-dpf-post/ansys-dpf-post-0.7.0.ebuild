@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyDPF-Post Python library. [top-max 0.8.0]"
+DESCRIPTION="PyDPF-Post Python library. [top-max 0.9.0]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ioTium API library"
+DESCRIPTION="ioTium API library [top-max 24.3.21]"
 
 HOMEPAGE="https://view.com"
 LICENSE="Copyright 2023 View, Inc.  All Rights Reserved."

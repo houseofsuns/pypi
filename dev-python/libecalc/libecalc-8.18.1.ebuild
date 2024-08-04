@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="eCalc™ is a software tool for calculation of energy demand and greenhouse gas (GHG) emissions from oil and gas production and processing."
+DESCRIPTION="eCalc™ is a software tool for calculation of energy demand and greenhouse gas (GHG) emissions from oil and gas production and processing. [top-max 8.19.0]"
 
 HOMEPAGE="https://github.com/equinor/ecalc"
 LICENSE="LGPL-3.0-only"

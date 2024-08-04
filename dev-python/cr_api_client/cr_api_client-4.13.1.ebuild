@@ -16,8 +16,8 @@ DESCRIPTION="AMOSSYS Cyber Range client API [wheel]"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-8-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-8-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-9-py3-none-any.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-9-py3-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"
@@ -31,6 +31,9 @@ DEPENDENCIES="<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
 	<dev-python/humanize-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/argcomplete-1.13.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-44.0.0[${PYTHON_USEDEP}]
+	<dev-python/jinja-2.12.0[${PYTHON_USEDEP}]
+	dev-python/types-Jinja2[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
 	dev-python/mantis-models[${PYTHON_USEDEP}]

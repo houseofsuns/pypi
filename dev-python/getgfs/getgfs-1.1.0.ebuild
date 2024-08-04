@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="getgfs extracts weather forecast variables from the NOAA GFS forecast"
+DESCRIPTION="getgfs extracts weather forecast variables from the NOAA GFS forecast [top-max 1.2.0]"
 
 HOMEPAGE="https://getgfs.readthedocs.io/"
 LICENSE="LICENSE.txt"

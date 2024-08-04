@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Read/Write Rockwell Automation Logix based PLC's [top-max 1.0.1]"
+DESCRIPTION="Read/Write Rockwell Automation Logix based PLC's [top-max 1.0.2]"
 
 HOMEPAGE="https://github.com/dmroeder/pylogix"
 LICENSE="Apache-2.0"

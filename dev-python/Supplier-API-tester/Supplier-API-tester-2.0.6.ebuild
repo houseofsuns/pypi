@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Console tool for validating the Supplier API implementation [top-max 2.2.8]"
+DESCRIPTION="Console tool for validating the Supplier API implementation [top-max 2.2.9]"
 
 HOMEPAGE=""
 LICENSE=""

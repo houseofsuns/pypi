@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="StarCraft II - client protocol. [top-max 5.0.12.91115.0]"
+DESCRIPTION="StarCraft II - client protocol. [top-max 5.0.13.92440.3]"
 
 HOMEPAGE="https://github.com/Blizzard/s2client-proto"
 LICENSE="MIT"

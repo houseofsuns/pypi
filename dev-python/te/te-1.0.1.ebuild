@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/certifi-2019.11.28[${PYTHON_USEDEP}]
 	~dev-python/idna-2.8[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
-	~dev-python/pytzdata-2019.3[${PYTHON_USEDEP}]
+	dev-python/pytzdata[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]"

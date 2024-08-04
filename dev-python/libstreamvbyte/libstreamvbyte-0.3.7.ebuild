@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A C++ implementation of StreamVByte, with Python bindings."
+DESCRIPTION="A C++ implementation of StreamVByte, with Python bindings. [top-max 0.3.8]"
 
 HOMEPAGE="https://github.com/wst24365888/libstreamvbyte"
 LICENSE="MIT"

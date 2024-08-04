@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Wind Energy Toolbox (or \`\`\`wetb\`\`\`, pronounce as wee-tee-bee) is a collection of Python scripts that facilitate working with (potentially a lot) of HAWC2, HAWCStab2, FAST or other text input based simulation tools.  Note that this toolbox is very much [top-max 0.1.19]"
+DESCRIPTION="The Wind Energy Toolbox (or \`\`\`wetb\`\`\`, pronounce as wee-tee-bee) is a collection of Python scripts that facilitate working with (potentially a lot) of HAWC2, HAWCStab2, FAST or other text input based simulation tools.  Note that this toolbox is very much [top-max 0.1.20]"
 
 HOMEPAGE="https://gitlab.windenergy.dtu.dk/toolbox/WindEnergyToolbox"
 LICENSE="wetb is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License GPL, http://www.gnu.org/copyleft/gpl.html as published by the Free Software Foundation; either version 3 of the License, or at your option any later version.  wetb is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details http://www.gnu.org/licenses/  We encourage you to submit new code for possible inclusion in future versions of wetb."

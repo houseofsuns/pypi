@@ -45,6 +45,6 @@ DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	prefect? ( dev-python/prefect[${PYTHON_USEDEP}] )
 	prefect? ( >=dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
-	prefect? ( >=dev-python/pytzdata-2020.1[${PYTHON_USEDEP}] )"
+	prefect? ( dev-python/pytzdata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

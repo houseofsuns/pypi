@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quantum computing circuit toolkit. Python interface of roqoqo [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa54b5644a0>)]"
+DESCRIPTION="Quantum computing circuit toolkit. Python interface of roqoqo [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feae5955ee0>)]"
 
 HOMEPAGE="https://github.com/HQSquantumsimulations/qoqo"
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016 AND BSD-2-Clause AND BSD-3-CLause"

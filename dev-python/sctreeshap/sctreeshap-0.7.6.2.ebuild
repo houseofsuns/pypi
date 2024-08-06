@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/loompy[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.61.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	>=dev-python/pathlib2-2.0[${PYTHON_USEDEP}]
+	dev-python/pathlib2[${PYTHON_USEDEP}]
 	>=dev-python/pip-21.1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

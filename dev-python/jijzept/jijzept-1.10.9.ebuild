@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Interface for Jij-Zept [top-max 1.18.2]"
+DESCRIPTION="Python Interface for Jij-Zept [top-max 1.18.3]"
 
 HOMEPAGE="http://www.jijzept.com"
 LICENSE="Other/Proprietary License"

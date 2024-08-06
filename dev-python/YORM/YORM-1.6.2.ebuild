@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.8[${PYTHON_USEDEP}]
 	~dev-python/parse-1.8.0[${PYTHON_USEDEP}]
-	>dev-python/pathlib2-2.3.3[${PYTHON_USEDEP}]"
+	dev-python/pathlib2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Jupyter Server Proxy for MATLAB [top-max 0.12.2]"
+DESCRIPTION="Jupyter Server Proxy for MATLAB [top-max 0.13.0]"
 
 HOMEPAGE="https://github.com/mathworks/jupyter-matlab-proxy"
 LICENSE="MATHWORKS CLOUD REFERENCE ARCHITECTURE LICENSE"

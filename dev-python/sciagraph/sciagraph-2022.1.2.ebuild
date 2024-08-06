@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A production-speed performance and memory profiler for data batch processing applications. [top-max 2023.6.1]"
+DESCRIPTION="A production-speed performance and memory profiler for data batch processing applications. [top-max 2024.8.0]"
 
 HOMEPAGE="http://sciagraph.com"
 LICENSE="Proprietary"

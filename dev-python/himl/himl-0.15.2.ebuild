@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/deepmerge-1.1.1[${PYTHON_USEDEP}]
 	dev-python/lru_cache[${PYTHON_USEDEP}]
 	dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
-	~dev-python/pathlib2-2.3.7_p1[${PYTHON_USEDEP}]
+	dev-python/pathlib2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.34.6[${PYTHON_USEDEP}]
 	~dev-python/hvac-1.2.1[${PYTHON_USEDEP}]"

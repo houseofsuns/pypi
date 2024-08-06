@@ -16,8 +16,8 @@ DESCRIPTION="🍇 Ensmallen is the Rust/Python high-performance graph processing
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cp37/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp37-abi3-macosx_10_12_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp37-abi3-macosx_10_12_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp37/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

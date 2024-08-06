@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/pathlib2-2.4.0[${PYTHON_USEDEP}]
+	dev-python/pathlib2[${PYTHON_USEDEP}]
 	<dev-python/psutil-5.10.0[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-3.2.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]

@@ -16,8 +16,8 @@ DESCRIPTION="MindSpore is a new open source deep learning training/inference fra
 
 HOMEPAGE="https://www.mindspore.cn"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp39-none-any.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp39-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"

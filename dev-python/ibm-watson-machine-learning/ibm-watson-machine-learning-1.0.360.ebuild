@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	fl-rt23-1-py3-10? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( ~dev-python/environs-9.5.0[${PYTHON_USEDEP}] )
-	fl-rt23-1-py3-10? ( ~dev-python/pathlib2-2.3.6[${PYTHON_USEDEP}] )
+	fl-rt23-1-py3-10? ( dev-python/pathlib2[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( dev-python/diffprivlib[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( dev-python/numcompress[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( dev-python/psutil[${PYTHON_USEDEP}] )

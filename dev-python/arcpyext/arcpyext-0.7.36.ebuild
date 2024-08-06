@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	<dev-python/pathlib2-3.0[${PYTHON_USEDEP}]
+	dev-python/pathlib2[${PYTHON_USEDEP}]
 	<dev-python/pythonnet-4.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-0.5[${PYTHON_USEDEP}]
 	<dev-python/xlsxwriter-4.0[${PYTHON_USEDEP}]

@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to systematically track and evaluate LLM based applications. [wheel]"
+DESCRIPTION="Library to systematically track and evaluate LLM based applications."
 
 HOMEPAGE="https://www.trulens.org"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -51,7 +51,6 @@ DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/streamlit-pills[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.19[${PYTHON_USEDEP}]
-	>=dev-python/alembic-1.11.2[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	>=dev-python/alembic-1.11.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

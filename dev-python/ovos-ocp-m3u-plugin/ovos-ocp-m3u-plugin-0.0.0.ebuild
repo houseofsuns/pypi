@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OCP youtube stream extractor plugin [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3153b18ac0>)]"
+DESCRIPTION="OCP youtube stream extractor plugin [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fd83e0cec00>)]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-ocp-m3u-plugin"
 LICENSE="Apache-2.0"

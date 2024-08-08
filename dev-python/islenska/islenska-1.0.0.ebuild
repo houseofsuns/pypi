@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The vocabulary of the modern Icelandic language, encapsulated in a Python package"
+DESCRIPTION="The vocabulary of the modern Icelandic language, encapsulated in a Python package [top-max 1.0.1]"
 
 HOMEPAGE="https://github.com/mideind/BinPackage"
 LICENSE="MIT"

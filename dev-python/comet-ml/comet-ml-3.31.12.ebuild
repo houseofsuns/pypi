@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Supercharging Machine Learning [top-max 3.44.3]"
+DESCRIPTION="Supercharging Machine Learning [top-max 3.44.4]"
 
 HOMEPAGE="https://www.comet.ml"
 LICENSE="Proprietary"

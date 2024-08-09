@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Disecon"
+DESCRIPTION="Disecon [top-max 1.0.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

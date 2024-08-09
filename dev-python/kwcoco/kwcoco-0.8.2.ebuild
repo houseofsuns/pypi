@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The kwcoco module and cli for image datasets [wheel]"
+DESCRIPTION="The kwcoco module and cli for image datasets"
 
 HOMEPAGE="https://gitlab.kitware.com/computer-vision/kwcoco"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -263,7 +263,6 @@ DEPENDENCIES="dev-python/delayed-image[${PYTHON_USEDEP}]
 	tests-strict? ( dev-python/timerit[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	tests? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lepton AI Inc. [top-max 0.21.4]"
+DESCRIPTION="Lepton AI Inc. [top-max 0.21.5]"
 
 HOMEPAGE="https://lepton.ai"
 LICENSE=""

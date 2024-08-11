@@ -76,7 +76,7 @@ DEPENDENCIES="~dev-python/alembic-1.13.2[${PYTHON_USEDEP}]
 	dev-python/uWSGI[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/wtforms-3.1.2[${PYTHON_USEDEP}]
-	dev-python/zipstream-ng[${PYTHON_USEDEP}]
+	~dev-python/zipstream-ng-1.7.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.2.1[${PYTHON_USEDEP}] )

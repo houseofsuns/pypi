@@ -311,7 +311,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}]
 	~dev-python/wtforms-2.3.3[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.19.2[${PYTHON_USEDEP}]
-	dev-python/zipstream-ng[${PYTHON_USEDEP}]
+	~dev-python/zipstream-ng-1.7.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-24.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

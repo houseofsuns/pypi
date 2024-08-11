@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple asciimath parser"
+DESCRIPTION="Simple asciimath parser [top-max 1.0.19]"
 
 HOMEPAGE=""
 LICENSE="GNU GPLv3"

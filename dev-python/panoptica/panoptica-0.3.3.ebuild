@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Panoptic Quality (PQ) computation for binary masks. [top-max 1.0.0]"
+DESCRIPTION="Panoptic Quality (PQ) computation for binary masks. [top-max 1.0.1]"
 
 HOMEPAGE=""
 LICENSE=""

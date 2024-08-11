@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Database migrations with SQL"
+DESCRIPTION="Database migrations with SQL [top-max 9.0.0]"
 
 HOMEPAGE="https://ollycope.com/software/yoyo/latest/"
 LICENSE="Apache-2.0"

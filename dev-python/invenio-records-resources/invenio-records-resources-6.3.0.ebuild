@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/babel-edtf[${PYTHON_USEDEP}]
 	>=dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}]
 	<dev-python/wand-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
-	dev-python/zipstream-ng[${PYTHON_USEDEP}]
+	>=dev-python/zipstream-ng-1.3.4[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )

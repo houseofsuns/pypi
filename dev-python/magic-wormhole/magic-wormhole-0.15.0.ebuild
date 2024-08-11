@@ -30,13 +30,13 @@ DEPENDENCIES=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/iterable-io[${PYTHON_USEDEP}]
+	<dev-python/iterable-io-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pynacl[${PYTHON_USEDEP}]
 	~dev-python/spake2-0.8[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.13.0[${PYTHON_USEDEP}]
 	>=dev-python/twisted-17.5.0[${PYTHON_USEDEP}]
 	>=dev-python/txtorcon-18.0.2[${PYTHON_USEDEP}]
-	dev-python/zipstream-ng[${PYTHON_USEDEP}]
+	<dev-python/zipstream-ng-2.0.0[${PYTHON_USEDEP}]
 	build? ( dev-python/dulwich[${PYTHON_USEDEP}] )
 	build? ( dev-python/gpg[${PYTHON_USEDEP}] )
 	build? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )

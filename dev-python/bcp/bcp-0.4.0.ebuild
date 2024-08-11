@@ -29,6 +29,6 @@ DEPENDENCIES="doc? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pytest-freezegun-0.5[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytest-freezegun[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

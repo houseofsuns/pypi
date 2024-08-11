@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-django-4.4.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-freezegun-0.4.2[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-freezegun[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/tox-3.24.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )

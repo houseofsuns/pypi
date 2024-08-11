@@ -41,6 +41,6 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	development? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/tox-3.14.2[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/pytest-freezegun-0.4.2[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/pytest-freezegun[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

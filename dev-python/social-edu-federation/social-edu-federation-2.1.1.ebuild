@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pyopenssl-20.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-freezegun-0.4.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest-freezegun[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/signxml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

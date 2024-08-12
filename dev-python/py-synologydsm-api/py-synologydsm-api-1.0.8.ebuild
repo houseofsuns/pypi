@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for communication with Synology DSM [top-max 2.4.4]"
+DESCRIPTION="Python API for communication with Synology DSM [top-max 2.5.0]"
 
 HOMEPAGE="https://github.com/mib1185/py-synologydsm-api"
 LICENSE="MIT"

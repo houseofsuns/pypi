@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kqlmagic: Microsoft Azure Monitor magic extension to Jupyter notebook (Custom Dependencies)"
+DESCRIPTION="Kqlmagic: Microsoft Azure Monitor magic extension to Jupyter notebook (Custom Dependencies) [top-max 0.1.114_p25]"
 
 HOMEPAGE="https://github.com/Microsoft/jupyter-Kqlmagic"
 LICENSE="MIT"

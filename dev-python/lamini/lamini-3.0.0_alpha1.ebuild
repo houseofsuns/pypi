@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build on large language models faster [top-max 3.0.4]"
+DESCRIPTION="Build on large language models faster [top-max 3.0.5_alpha1]"
 
 HOMEPAGE=""
 LICENSE=""

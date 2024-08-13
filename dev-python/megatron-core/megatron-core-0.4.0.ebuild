@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Megatron Core - a library for efficient and scalable training of transformer based models [top-max 0.7.0]"
+DESCRIPTION="Megatron Core - a library for efficient and scalable training of transformer based models [top-max 0.8.0]"
 
 HOMEPAGE="https://github.com/NVIDIA/Megatron-LM/tree/core_v0.4.0/megatron/core"
 LICENSE="BSD"

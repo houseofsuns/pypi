@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Example Python commands using the YellowDog Python SDK"
+DESCRIPTION="Example Python commands using the YellowDog Python SDK [top-max 7.11.9]"
 
 HOMEPAGE="https://github.com/yellowdog/python-examples"
 LICENSE=""

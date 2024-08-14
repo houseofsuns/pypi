@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BBY Cell Extension"
+DESCRIPTION="BBY Cell Extension [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/boyuai/ipybbycell"
 LICENSE="BSD"

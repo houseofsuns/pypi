@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="testing? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/pytest-xdist-1.28.0[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/fonttools-4.22.0[${PYTHON_USEDEP}]
 	testing? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
-	>=dev-python/fonttools-4.22.0[${PYTHON_USEDEP}]"
+	testing? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-xdist-1.28.0[${PYTHON_USEDEP}] )
+	testing? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

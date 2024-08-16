@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ACT SCIO"
+DESCRIPTION="ACT SCIO [top-max 0.0.62]"
 
 HOMEPAGE="https://github.com/mnemonic-no/act-scio2"
 LICENSE="ISC"

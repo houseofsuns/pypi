@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kit for TI PLATFORM"
+DESCRIPTION="Kit for TI PLATFORM [top-max 1.8.0.240805]"
 
 HOMEPAGE="https://cloud.tencent.com/"
 LICENSE="MIT"

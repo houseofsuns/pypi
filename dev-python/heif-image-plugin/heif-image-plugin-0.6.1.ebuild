@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple HEIF/HEIC images plugin for Pillow base on pyhief library."
+DESCRIPTION="Simple HEIF/HEIC images plugin for Pillow base on pyhief library. [top-max 0.6.2]"
 
 HOMEPAGE="https://github.com/uploadcare/heif-image-plugin"
 LICENSE="MIT"

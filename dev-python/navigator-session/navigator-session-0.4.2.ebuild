@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Navigator Session allows us to store user-specific data into session object. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f17ac6e8eb0>)]"
+DESCRIPTION="Navigator Session allows us to store user-specific data into session object. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f114c0a30d0>)]"
 
 HOMEPAGE="https://github.com/phenobarbital/navigator-session"
 LICENSE="Apache-2.0"

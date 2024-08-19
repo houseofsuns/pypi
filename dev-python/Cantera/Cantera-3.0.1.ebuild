@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="cantera"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -16,8 +16,8 @@ DESCRIPTION="Cantera is an open-source suite of tools for problems involving che
 
 HOMEPAGE="https://cantera.org"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/48/0b/feeeabd3bf9a4dafd41b4ad622bd1452741dea9a3b3c25242e0963d7b0fc/cantera-${REALVERSION}.tar.gz"
-SOURCEFILE="cantera-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

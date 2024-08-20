@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`knapsack\` is a package for for solving knapsack problem."
+DESCRIPTION="\`knapsack\` is a package for for solving knapsack problem. [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/SaitoTsutomu/knapsack"
 LICENSE="Apache-2.0"

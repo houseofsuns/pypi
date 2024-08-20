@@ -16,8 +16,8 @@ DESCRIPTION="Aspose.Imaging for Python via .NET is Another Python Imaging Librar
 
 HOMEPAGE="https://products.aspose.com/imaging/python-net"
 LICENSE="Free To Use But Restricted,Other/Proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-macosx_10_14_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-macosx_10_14_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

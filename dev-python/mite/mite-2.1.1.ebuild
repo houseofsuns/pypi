@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python Performance Testing Framework"
+DESCRIPTION="A Python Performance Testing Framework [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/sky-uk/mite/"
 LICENSE=""

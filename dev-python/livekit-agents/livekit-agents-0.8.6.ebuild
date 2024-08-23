@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LiveKit Python Agents"
+DESCRIPTION="LiveKit Python Agents [top-max 0.8.7]"
 
 HOMEPAGE="https://github.com/livekit/agents"
 LICENSE="Apache-2.0"

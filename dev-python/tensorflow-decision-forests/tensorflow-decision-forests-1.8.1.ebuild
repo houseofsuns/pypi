@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Collection of training and inference decision forest algorithms. [top-max 1.9.2]"
+DESCRIPTION="Collection of training and inference decision forest algorithms. [top-max 1.10.0]"
 
 HOMEPAGE="https://github.com/tensorflow/decision-forests"
 LICENSE="Apache-2.0"

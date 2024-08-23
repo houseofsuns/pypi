@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interfaces for observational data surrounding named storm events [top-max 2.3.2]"
+DESCRIPTION="Python interfaces for observational data surrounding named storm events [top-max 2.3.4]"
 
 HOMEPAGE="https://github.com/oceanmodeling/StormEvents.git"
 LICENSE="GPL-3+"

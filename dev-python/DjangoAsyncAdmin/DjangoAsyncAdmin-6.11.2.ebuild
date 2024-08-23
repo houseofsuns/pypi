@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A second development project based on SimplePro for out of print version 6.5.2"
+DESCRIPTION="A second development project based on SimplePro for out of print version 6.5.2 [top-max 6.12.0]"
 
 HOMEPAGE="https://haoke98.github.io/DjangoAsyncAdmin/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Simple CCD Images Reducer for the Paris Observatory. [top-max 5.0.8]"
+DESCRIPTION="A Simple CCD Images Reducer for the Paris Observatory. [top-max 5.1.1]"
 
 HOMEPAGE="https://github.com/bandang0/astro_reduce"
 LICENSE="MIT"

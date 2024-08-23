@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to Nurex library"
+DESCRIPTION="Python interface to Nurex library [top-max 1.9.3]"
 
 HOMEPAGE=""
 LICENSE=""

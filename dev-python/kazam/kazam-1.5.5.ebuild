@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A screencasting program created with design in mind. [top-max 1.5.8]"
+DESCRIPTION="A screencasting program created with design in mind. [top-max 1.5.11]"
 
 HOMEPAGE="https://github.com/henrywoo/kazam-screen-recorder"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scripts to import nmap and nessus scan results into a SQLite database, analyze the overall results and generate reports or target lists."
+DESCRIPTION="Scripts to import nmap and nessus scan results into a SQLite database, analyze the overall results and generate reports or target lists. [top-max 1.2.1]"
 
 HOMEPAGE="https://bitbucket.org/cbless/scandb"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multidrug Resistance Machine Fishing"
+DESCRIPTION="Multidrug Resistance Machine Fishing [top-max 0.0.11]"
 
 HOMEPAGE="https://github.com/MolinDiscovery/MDRMF"
 LICENSE=""

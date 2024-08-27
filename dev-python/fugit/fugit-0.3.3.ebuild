@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
 	dev-python/defopt[${PYTHON_USEDEP}]
-	>=dev-python/parse_type-0.6.2[${PYTHON_USEDEP}]
+	dev-python/parse_type[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.20.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	>=dev-python/pygit2-1.13.3[${PYTHON_USEDEP}]

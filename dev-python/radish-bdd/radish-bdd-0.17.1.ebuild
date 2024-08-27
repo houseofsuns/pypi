@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/pysingleton[${PYTHON_USEDEP}]
 	>=dev-python/colorful-0.3.11[${PYTHON_USEDEP}]
 	dev-python/tag-expressions[${PYTHON_USEDEP}]
-	>dev-python/parse_type-0.4.0[${PYTHON_USEDEP}]
+	dev-python/parse_type[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	bddxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )

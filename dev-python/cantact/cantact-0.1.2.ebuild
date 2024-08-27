@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Support for the CANtact Controller Area Network Devices"
+DESCRIPTION="Support for the CANtact Controller Area Network Devices [top-max 0.1.3]"
 
 HOMEPAGE="https://github.com/linklayer/cantact"
 LICENSE=""

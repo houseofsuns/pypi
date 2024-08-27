@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="To add OfflineSorter codes to TDT blocks"
+DESCRIPTION="To add OfflineSorter codes to TDT blocks [top-max 0.4.1]"
 
 HOMEPAGE="https://github.com/matthewperkins/TDTNex"
 LICENSE=""

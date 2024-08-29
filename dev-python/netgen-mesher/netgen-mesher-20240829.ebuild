@@ -5,19 +5,19 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="6.2.2404.post63.dev0"
+REALVERSION="6.2.2404.post64.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Netgen [badver 6.2.2404.post63.dev0, wheel]"
+DESCRIPTION="Netgen [badver 6.2.2404.post64.dev0, wheel]"
 
 HOMEPAGE=""
 LICENSE="LGPL2.1"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_10_15_universal2.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_10_15_universal2.whl"
 RESTRICT="test"
 
 SLOT="0"

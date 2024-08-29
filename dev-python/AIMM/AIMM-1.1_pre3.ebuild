@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Artificial intelligence model manager"
+DESCRIPTION="Artificial intelligence model manager [top-max 1.1_pre5]"
 
 HOMEPAGE="https://github.com/hat-open/aimm"
 LICENSE=""

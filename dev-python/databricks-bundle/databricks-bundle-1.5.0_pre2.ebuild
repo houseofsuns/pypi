@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Databricks runtime support for the Daipe framework"
+DESCRIPTION="Databricks runtime support for the Daipe framework [top-max 1.5.0_pre3]"
 
 HOMEPAGE="https://github.com/daipe-ai/databricks-bundle"
 LICENSE="MIT"

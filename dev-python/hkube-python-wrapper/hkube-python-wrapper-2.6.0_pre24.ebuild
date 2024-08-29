@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Events[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/Events-0.4[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-0.57.0[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17.2[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.2.0[${PYTHON_USEDEP}]

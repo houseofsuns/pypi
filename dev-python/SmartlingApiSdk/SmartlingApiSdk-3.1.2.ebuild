@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python library to work with Smartling translation services APIs"
+DESCRIPTION="python library to work with Smartling translation services APIs [top-max 3.1.5]"
 
 HOMEPAGE="https://api-reference.smartling.com/"
 LICENSE="Apache License v2.0"

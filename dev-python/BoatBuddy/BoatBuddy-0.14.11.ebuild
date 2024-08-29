@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bleak[${PYTHON_USEDEP}]
-	dev-python/Events[${PYTHON_USEDEP}]
+	~dev-python/Events-0.4[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.2[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/gpxpy[${PYTHON_USEDEP}]

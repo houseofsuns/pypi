@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WalT optional software embedded in images."
+DESCRIPTION="WalT optional software embedded in images. [top-max 9.0]"
 
 HOMEPAGE="https://walt-project.liglab.fr"
 LICENSE="3-Clause BSD"

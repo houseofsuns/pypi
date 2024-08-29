@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.7.1[${PYTHON_USEDEP}]
 	dev-python/bios[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/Events[${PYTHON_USEDEP}]
+	>=dev-python/Events-0.3[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/pygatt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

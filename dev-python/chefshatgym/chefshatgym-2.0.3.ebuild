@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python interface for training Reinforcement Learning agents to play the Chef's Hat Card Game. [top-max 2.3.8.6]"
+DESCRIPTION="A python interface for training Reinforcement Learning agents to play the Chef's Hat Card Game. [top-max 2.3.9.2]"
 
 HOMEPAGE="https://github.com/pablovin/ChefsHatGYM"
 LICENSE="MIT"

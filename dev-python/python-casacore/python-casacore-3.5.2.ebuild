@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper around CASACORE, the radio astronomy library"
+DESCRIPTION="A wrapper around CASACORE, the radio astronomy library [top-max 3.6.1]"
 
 HOMEPAGE="https://github.com/casacore/python-casacore"
 LICENSE="LGPL-3"

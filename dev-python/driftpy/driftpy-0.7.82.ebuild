@@ -92,7 +92,7 @@ DEPENDENCIES="dev-python/anchorpy[${PYTHON_USEDEP}]
 	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/mypy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Events[${PYTHON_USEDEP}]
+	<dev-python/Events-0.6[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jito-searcher-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for quasardb [top-max 3.14.2_pre1]"
+DESCRIPTION="Python API for quasardb [top-max 3.14.2_pre2]"
 
 HOMEPAGE="https://www.quasardb.net/"
 LICENSE="BSD"

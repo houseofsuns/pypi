@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="project descriptions here [top-max 1.3.7_pre15]"
+DESCRIPTION="project descriptions here [top-max 1.3.7_pre16]"
 
 HOMEPAGE="https://github.com/FlyTOmeLight"
 LICENSE="MIT"

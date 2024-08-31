@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
-	dev-python/pysnmpcrypto[${PYTHON_USEDEP}]
+	<dev-python/pysnmpcrypto-0.0.5[${PYTHON_USEDEP}]
 	<dev-python/pysmi-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

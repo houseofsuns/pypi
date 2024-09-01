@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ceylon is an advanced multi-agent platform specifically developed for Ceylon Aritficial Intelligence. [top-max 0.16.21_alpha1]"
+DESCRIPTION="Ceylon is an advanced multi-agent platform specifically developed for Ceylon Aritficial Intelligence. [top-max 0.16.21_alpha2]"
 
 HOMEPAGE="https://ceylon.ai"
 LICENSE=""

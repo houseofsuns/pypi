@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An efficient CPU implementation of farthest point sampling (FPS) for point clouds."
+DESCRIPTION="An efficient CPU implementation of farthest point sampling (FPS) for point clouds. [top-max 0.3.3]"
 
 HOMEPAGE=""
 LICENSE=""

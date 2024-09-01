@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Drosophila larva behavioral analysis and simulation platform [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f57b265ab20>)]"
+DESCRIPTION="Drosophila larva behavioral analysis and simulation platform [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f65617462d0>)]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast Geo Rust functions for Python [top-max 2023.354.1008]"
+DESCRIPTION="Fast Geo Rust functions for Python [top-max 2024.246.1123]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

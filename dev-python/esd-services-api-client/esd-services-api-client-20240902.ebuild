@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="2.5.1a122.dev7"
+REALVERSION="2.5.1a122.dev9"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python clients for ESD services [badver 2.5.1a122.dev7]"
+DESCRIPTION="Python clients for ESD services [badver 2.5.1a122.dev9]"
 
 HOMEPAGE="https://github.com/SneaksAndData/esd-services-api-client"
 LICENSE="Apache-2.0"

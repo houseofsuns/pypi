@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="6.2.2404.post152.dev0"
+REALVERSION="6.2.2404.post153.dev0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NGSolve [badver 6.2.2404.post152.dev0, wheel]"
+DESCRIPTION="NGSolve [badver 6.2.2404.post153.dev0, wheel]"
 
 HOMEPAGE=""
 LICENSE="LGPL2.1"

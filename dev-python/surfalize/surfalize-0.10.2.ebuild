@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python module to analyze surface roughness [top-max 0.12.0]"
+DESCRIPTION="A python module to analyze surface roughness [top-max 0.12.1]"
 
 HOMEPAGE=""
 LICENSE=""

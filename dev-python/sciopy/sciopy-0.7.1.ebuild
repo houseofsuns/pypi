@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python based interface module for communication with the Sciospec Electrical Impedance Tomography (EIT) device. [top-max 0.7.1.2]"
+DESCRIPTION="Python based interface module for communication with the Sciospec Electrical Impedance Tomography (EIT) device. [top-max 0.7.1.3]"
 
 HOMEPAGE="https://github.com/spatialaudio/sciopy.git"
 LICENSE=""

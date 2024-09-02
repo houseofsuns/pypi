@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Avocado Test Framework"
+DESCRIPTION="Avocado Test Framework [new-max 2024-09-02 08:24:30.948149+00:00]"
 
 HOMEPAGE="https://avocado-framework.github.io/"
 LICENSE="GPL-2+"

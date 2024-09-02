@@ -16,8 +16,8 @@ DESCRIPTION="AMOSSYS Cyber Range client API [wheel]"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-9-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-9-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-10-py3-none-any.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-10-py3-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"

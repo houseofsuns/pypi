@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AWS's Braket devices interface for qoqo python quantum computing toolkit"
+DESCRIPTION="AWS's Braket devices interface for qoqo python quantum computing toolkit [top-max 0.6.1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016 AND BSD-2-Clause AND BSD-3-CLause"

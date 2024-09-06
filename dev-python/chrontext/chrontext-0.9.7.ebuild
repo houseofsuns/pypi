@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hybrid SPARQL query engine for timeseries data"
+DESCRIPTION="Hybrid SPARQL query engine for timeseries data [top-max 0.9.8]"
 
 HOMEPAGE="https://github.com/DataTreehouse/chrontext"
 LICENSE=""

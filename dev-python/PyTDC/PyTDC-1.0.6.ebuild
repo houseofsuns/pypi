@@ -16,18 +16,22 @@ DESCRIPTION="Therapeutics Data Commons"
 
 HOMEPAGE="https://github.com/mims-harvard/TDC"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/c2/058d4b716c8eb24b04499ce3d105cfd06872bdbb0fc0450e4a9812f851d6/pytdc-${REALVERSION}.tar.gz"
+SOURCEFILE="pytdc-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
+	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
+	dev-python/datasets[${PYTHON_USEDEP}]
+	dev-python/evaluate[${PYTHON_USEDEP}]
 	<dev-python/fuzzywuzzy-1.0[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
+	dev-python/moleculeace[${PYTHON_USEDEP}]
 	dev-python/mygene[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
@@ -36,6 +40,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	<dev-python/seaborn-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/cellxgene-census[${PYTHON_USEDEP}]
 	dev-python/gget[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]

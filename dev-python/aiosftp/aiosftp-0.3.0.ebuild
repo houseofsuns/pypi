@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FTP/SSH/sFTP Server implementation built on to of Asyncio.Facility to deploy SSH server easily inside any project. [top-max 0.3.1]"
+DESCRIPTION="FTP/SSH/sFTP Server implementation built on to of Asyncio.Facility to deploy SSH server easily inside any project. [top-max 0.3.2]"
 
 HOMEPAGE="https://github.com/phenobarbital/aiosftp"
 LICENSE="Apache-2.0"

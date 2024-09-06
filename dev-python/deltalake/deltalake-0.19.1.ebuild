@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Native Delta Lake Python binding based on delta-rs with Pandas integration"
+DESCRIPTION="Native Delta Lake Python binding based on delta-rs with Pandas integration [top-max 0.19.2]"
 
 HOMEPAGE="https://github.com/delta-io/delta-rs"
 LICENSE="Apache-2.0"

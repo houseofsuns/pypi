@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Collection of dsp algorithms to be used for analysis of audio signals"
+DESCRIPTION="Collection of dsp algorithms to be used for analysis of audio signals [top-max 0.4.4]"
 
 HOMEPAGE="https://github.com/nico-franco-gomez/dsptoolbox"
 LICENSE=""

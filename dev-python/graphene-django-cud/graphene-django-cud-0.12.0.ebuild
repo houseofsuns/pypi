@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create, update and delete mutations for graphene-django"
+DESCRIPTION="Create, update and delete mutations for graphene-django [top-max 0.13.0]"
 
 HOMEPAGE="https://github.com/tOgg1/graphene-django-cud"
 LICENSE=""

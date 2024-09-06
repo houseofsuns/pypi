@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="~dev-python/certifi-2024.7.4[${PYTHON_USEDEP}]
-	dev-python/cli-ui[${PYTHON_USEDEP}]
+	~dev-python/cli-ui-0.17.2[${PYTHON_USEDEP}]
 	dev-python/ez-yaml[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
 	dev-python/luddite[${PYTHON_USEDEP}]

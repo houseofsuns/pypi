@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Native Delta Lake Python binding based on delta-rs with Pandas integration [wheel]"
+DESCRIPTION="Native Delta Lake Python binding based on delta-rs with Pandas integration"
 
 HOMEPAGE="https://github.com/delta-io/delta-rs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp38/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp38-abi3-macosx_10_12_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp38-abi3-macosx_10_12_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -41,7 +41,6 @@ DEPENDENCIES=">=dev-python/pyarrow-16.0[${PYTHON_USEDEP}]
 	devel? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/delta-spark[${PYTHON_USEDEP}] )
-	pyspark? ( ~dev-python/numpy-1.22.2[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	pyspark? ( ~dev-python/numpy-1.22.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

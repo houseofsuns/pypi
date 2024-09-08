@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FuriosaAI tools [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ff26c5c7290>)]"
+DESCRIPTION="FuriosaAI tools [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fad5a3bb990>)]"
 
 HOMEPAGE=""
 LICENSE=""

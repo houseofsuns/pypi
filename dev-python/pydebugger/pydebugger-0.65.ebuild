@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="print objects with colored with more info"
+DESCRIPTION="print objects with colored with more info [top-max 0.67]"
 
 HOMEPAGE="https://github.com/cumulus13/pydebugger"
 LICENSE="BSD"

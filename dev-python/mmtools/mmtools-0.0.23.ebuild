@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mmtools [top-max 0.0.38]"
+DESCRIPTION="mmtools [top-max 0.0.39]"
 
 HOMEPAGE="https://github.com/frbor/mmtools"
 LICENSE="ISC"

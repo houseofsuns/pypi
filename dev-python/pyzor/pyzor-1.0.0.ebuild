@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="networked spam-signature detection [top-max 1.1.1]"
+DESCRIPTION="networked spam-signature detection [top-max 1.1.2]"
 
 HOMEPAGE="http://www.pyzor.org/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"DNAstack's GA4GH library and CLI\" [top-max 3.1.53]"
+DESCRIPTION="\"DNAstack's GA4GH library and CLI\" [top-max 3.1.54]"
 
 HOMEPAGE="https://www.dnastack.com"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for select Russound RNET commands to provide Russound support within home-assistant.io"
+DESCRIPTION="Python API for select Russound RNET commands to provide Russound support within home-assistant.io [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/laf/russound.git"
 LICENSE=""

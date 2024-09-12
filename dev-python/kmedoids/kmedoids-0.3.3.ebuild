@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="k-Medoids clustering with the FasterPAM algorithm [top-max 0.5.1]"
+DESCRIPTION="k-Medoids clustering with the FasterPAM algorithm [top-max 0.5.2]"
 
 HOMEPAGE="https://github.com/kno10/python-kmedoids"
 LICENSE="GPL-3+"

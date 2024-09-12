@@ -16,8 +16,8 @@ DESCRIPTION="A thin, pythonic wrapper around geftool. [wheel]"
 
 HOMEPAGE="https://github.com/STOmics/gefpy"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp38/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp37/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

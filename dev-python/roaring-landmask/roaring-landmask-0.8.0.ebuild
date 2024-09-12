@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast and limited-memory structure with a landmask based on GSHHG for determing whether a point on Earth is on land or in the ocean"
+DESCRIPTION="A fast and limited-memory structure with a landmask based on GSHHG for determing whether a point on Earth is on land or in the ocean [top-max 0.9.0]"
 
 HOMEPAGE="https://github.com/gauteh/roaring-landmask"
 LICENSE="MIT"

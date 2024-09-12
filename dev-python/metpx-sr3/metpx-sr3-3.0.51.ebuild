@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Subscribe, Acquire, and Re-Advertise (managed multiple hop file transfers) [top-max 3.0.54_p1]"
+DESCRIPTION="Subscribe, Acquire, and Re-Advertise (managed multiple hop file transfers) [top-max 3.0.55_rc1]"
 
 HOMEPAGE=""
 LICENSE=""

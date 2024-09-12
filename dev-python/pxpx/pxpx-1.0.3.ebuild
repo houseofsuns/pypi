@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cross Functional Process Explorer [top-max 3.6.2]"
+DESCRIPTION="Cross Functional Process Explorer [top-max 3.6.3]"
 
 HOMEPAGE="https://github.com/walles/px"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A set of helpers to extend snowpark functionality [top-max 0.0.42]"
+DESCRIPTION="A set of helpers to extend snowpark functionality [top-max 0.0.43]"
 
 HOMEPAGE="http://github.com/MobilizeNet/snowpark-extensions-py"
 LICENSE=""

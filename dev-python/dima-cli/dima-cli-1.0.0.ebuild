@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The command-line interface of DiMA. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc8e3eeaab0>)]"
+DESCRIPTION="The command-line interface of DiMA. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f44c7de6a40>)]"
 
 HOMEPAGE="https://github.com/pu-sds/DiMA"
 LICENSE=""

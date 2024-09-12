@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1!9.0.2"
+REALVERSION="1!9.1.0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library to launch, interact, and snapshot cloud instances [badver 1!9.0.2]"
+DESCRIPTION="Python library to launch, interact, and snapshot cloud instances [badver 1!9.1.0]"
 
 HOMEPAGE="https://github.com/canonical/pycloudlib"
 LICENSE="GNU General Public License v3 GPLv3"

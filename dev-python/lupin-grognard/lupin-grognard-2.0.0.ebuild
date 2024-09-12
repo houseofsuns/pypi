@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lupin linter tool [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc8d6381620>)]"
+DESCRIPTION="Lupin linter tool [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f44ba2a8040>)]"
 
 HOMEPAGE=""
 LICENSE="MIT"

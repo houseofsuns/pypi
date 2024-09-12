@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for image hashing [top-max 0.7.2]"
+DESCRIPTION="A package for image hashing [top-max 0.7.3]"
 
 HOMEPAGE="https://github.com/thorn-oss/perception"
 LICENSE=""

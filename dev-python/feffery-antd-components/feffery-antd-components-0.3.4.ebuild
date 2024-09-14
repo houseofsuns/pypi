@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Best implementation of Antd components in Plotly Dash."
+DESCRIPTION="Best implementation of Antd components in Plotly Dash. [top-max 0.3.5]"
 
 HOMEPAGE="https://github.com/CNFeffery/feffery-antd-components"
 LICENSE="MIT"

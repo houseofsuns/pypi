@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework for researching energy optimization of factory operations [top-max 3.2.1]"
+DESCRIPTION="A framework for researching energy optimization of factory operations [top-max 3.2.2]"
 
 HOMEPAGE="https://www.ptw.tu-darmstadt.de"
 LICENSE="BSD-2"

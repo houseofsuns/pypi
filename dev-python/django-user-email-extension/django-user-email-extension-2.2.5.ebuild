@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="User model extender for django [top-max 2.5.1]"
+DESCRIPTION="User model extender for django [top-max 2.6.1]"
 
 HOMEPAGE="https://github.com/ArieLevs/Django-User-Email-Extension"
 LICENSE=""

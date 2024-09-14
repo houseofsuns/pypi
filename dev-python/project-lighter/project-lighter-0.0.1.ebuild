@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="YAML-based automated rapid prototyping framework for deep learning experiments [prod-max (True, <g_sorcery.g_collections.Version object at 0x7faf504e36f0>)]"
+DESCRIPTION="YAML-based automated rapid prototyping framework for deep learning experiments [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f244a70ec70>)]"
 
 HOMEPAGE="https://github.com/lighter/lighter"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Advanced python 'what changed and what do we need to do' tracking [top-max 3.1.3]"
+DESCRIPTION="Advanced python 'what changed and what do we need to do' tracking [top-max 3.1.4]"
 
 HOMEPAGE="https://github.com/TyberiusPrime/pypipegraph2"
 LICENSE="MIT"

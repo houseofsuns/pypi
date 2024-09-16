@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sage's PARI extension, modified to stand alone."
+DESCRIPTION="Sage's PARI extension, modified to stand alone. [top-max 2.5.5]"
 
 HOMEPAGE="https://bitbucket.org/t3m/cypari"
 LICENSE="GPL-2+"

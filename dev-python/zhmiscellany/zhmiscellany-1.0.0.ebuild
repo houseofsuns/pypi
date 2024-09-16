@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of useful/interesting python libraries made by zh. [top-max 2.4.7]"
+DESCRIPTION="A collection of useful/interesting python libraries made by zh. [top-max 2.5.1]"
 
 HOMEPAGE="https://discord.gg/ThBBAuueVJ"
 LICENSE=""

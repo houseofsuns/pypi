@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extensible Multiparametric Solver in Python [top-max 1.6.1]"
+DESCRIPTION="Extensible Multiparametric Solver in Python [top-max 1.6.2]"
 
 HOMEPAGE="https://github.com/TAMUparametric/PPOPT"
 LICENSE="MIT"

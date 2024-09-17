@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="zntrack"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -16,8 +16,8 @@ DESCRIPTION="Create, Run and Benchmark DVC Pipelines in Python"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/1c/ca/92ed104e45e90bb103844fe7a938aa6b1af5fa9122752d8434ff46745c62/zntrack-${REALVERSION}.tar.gz"
-SOURCEFILE="zntrack-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

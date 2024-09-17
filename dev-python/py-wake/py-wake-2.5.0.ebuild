@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyWake a collection of wake models [top-max 2.6.3]"
+DESCRIPTION="PyWake a collection of wake models [top-max 2.6.4]"
 
 HOMEPAGE="https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake"
 LICENSE="MIT"

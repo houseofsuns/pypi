@@ -16,8 +16,8 @@ DESCRIPTION="Intel® oneAPI Math Kernel Library [wheel]"
 
 HOMEPAGE="https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html"
 LICENSE="Intel Simplified Software License"
-SRC_URI="https://files.pythonhosted.org/packages/py2.py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py2.py3-none-win32.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py2.py3-none-win32.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py2.py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py2.py3-none-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py2.py3-none-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

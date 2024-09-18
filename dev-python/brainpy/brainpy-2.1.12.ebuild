@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BrainPy: Brain Dynamics Programming in Python [top-max 2.6.0_p20240913]"
+DESCRIPTION="BrainPy: Brain Dynamics Programming in Python [top-max 2.6.0_p20240918]"
 
 HOMEPAGE="https://github.com/PKU-NIP-Lab/BrainPy"
 LICENSE="GPL-3.0 License"

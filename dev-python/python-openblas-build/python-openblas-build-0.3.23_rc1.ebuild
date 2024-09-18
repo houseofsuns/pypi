@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python packaging of OpenBLAS [top-max 0.3.23_rc5]"
+DESCRIPTION="Python packaging of OpenBLAS [top-max 0.3.28_rc1]"
 
 HOMEPAGE="https://github.com/kbesrour-ma/python-openblas-build"
 LICENSE="BSD 3-Clause"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="graph2img: convert a graph to a png file."
+DESCRIPTION="graph2img: convert a graph to a png file. [top-max 1.3.1]"
 
 HOMEPAGE="https://github.com/ForwardStar/graph_drawer"
 LICENSE="LICENSE"

@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NIRCAM Grism simulator, includes J.D. Smith polyclip C code [wheel]"
+DESCRIPTION="NIRCAM Grism simulator, includes J.D. Smith polyclip C code"
 
 HOMEPAGE="https://github.com/npirzkal/GRISM_NIRCAM"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_11_0_arm64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_11_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/96/23/8c87e5fe9ea739ee62663a4be9f53cbf6f364680f798e5061c395a5147ec/nircam_gsim-${REALVERSION}.tar.gz"
+SOURCEFILE="nircam_gsim-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]
-	dev-python/grismconf[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	dev-python/grismconf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

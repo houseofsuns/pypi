@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`japanmap\` is a package for Japanese map. [top-max 0.4.0]"
+DESCRIPTION="\`japanmap\` is a package for Japanese map. [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/SaitoTsutomu/japanmap"
 LICENSE="Apache-2.0"

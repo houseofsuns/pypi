@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLI tools used in Codemagic builds"
+DESCRIPTION="CLI tools used in Codemagic builds [top-max 0.53.9]"
 
 HOMEPAGE="https://github.com/codemagic-ci-cd/cli-tools"
 LICENSE="GPL-3+"

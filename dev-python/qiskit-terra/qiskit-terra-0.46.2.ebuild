@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Software for developing quantum computing programs"
+DESCRIPTION="Software for developing quantum computing programs [top-max 0.46.3]"
 
 HOMEPAGE="https://www.ibm.com/quantum/qiskit"
 LICENSE="Apache-2.0"

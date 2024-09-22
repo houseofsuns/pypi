@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for sound, music notation, acoustics, etc"
+DESCRIPTION="Utilities for sound, music notation, acoustics, etc [top-max 1.5.22]"
 
 HOMEPAGE="https://github.com/gesellkammer/maelzel"
 LICENSE="LGPL-2"

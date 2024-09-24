@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="M3: Matrix-free measurement mitigation"
+DESCRIPTION="M3: Matrix-free measurement mitigation [top-max 2.7.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

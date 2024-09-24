@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hopsworks Python SDK to interact with Hopsworks Platform, Feature Store, Model Registry and Model Serving [top-max 3.8.0_rc1]"
+DESCRIPTION="Hopsworks Python SDK to interact with Hopsworks Platform, Feature Store, Model Registry and Model Serving [top-max 3.8.0_rc2]"
 
 HOMEPAGE="https://www.hopsworks.ai"
 LICENSE="Apache-2.0"

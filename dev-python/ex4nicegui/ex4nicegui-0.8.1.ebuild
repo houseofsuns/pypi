@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extension library based on nicegui, providing data responsive,BI functionality modules"
+DESCRIPTION="Extension library based on nicegui, providing data responsive,BI functionality modules [top-max 0.8.2]"
 
 HOMEPAGE="https://github.com/CrystalWindSnake/ex4nicegui"
 LICENSE="MIT"

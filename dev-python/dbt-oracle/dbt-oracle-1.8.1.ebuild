@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="dbt (data build tool) adapter for Oracle Autonomous Database [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe0b0de9620>)]"
+DESCRIPTION="dbt (data build tool) adapter for Oracle Autonomous Database [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4c77f99930>)]"
 
 HOMEPAGE="https://github.com/oracle/dbt-oracle"
 LICENSE="Apache Software License 2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="video utils"
+DESCRIPTION="video utils [top-max 2.0.0_alpha4]"
 
 HOMEPAGE=""
 LICENSE="MIT"

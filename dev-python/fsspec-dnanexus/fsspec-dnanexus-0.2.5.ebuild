@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="fsspec backend for the DNAnexus platform"
+DESCRIPTION="fsspec backend for the DNAnexus platform [top-max 0.2.6]"
 
 HOMEPAGE=""
 LICENSE="MIT"

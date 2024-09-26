@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="abstract_ai is a Python module that serves as a bridge between your application and the OpenAI GPT-3 API. It provides a convenient interface for sending requests, managing responses, and controlling the behavior of the API calls. This module is highly customizable, allowing you to establish prompts, instructions, and response handling logic. [new-max 2024-09-24 08:04:24.554227+00:00]"
+DESCRIPTION="abstract_ai is a Python module that serves as a bridge between your application and the OpenAI GPT-3 API. It provides a convenient interface for sending requests, managing responses, and controlling the behavior of the API calls. This module is highly customizable, allowing you to establish prompts, instructions, and response handling logic. [new-max 2024-09-26 06:21:18.823358+00:00]"
 
 HOMEPAGE="https://github.com/AbstractEndeavors/abstract_ai"
 LICENSE=""

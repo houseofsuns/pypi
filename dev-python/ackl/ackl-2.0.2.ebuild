@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for kernels used in analytical chemistry"
+DESCRIPTION="A Python library for kernels used in analytical chemistry [top-max 2.1.0]"
 
 HOMEPAGE="https://github.com/zhangys11/ack"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pytest plugin for snapshot regression testing"
+DESCRIPTION="pytest plugin for snapshot regression testing [top-max 2.2.0_alpha2]"
 
 HOMEPAGE=""
 LICENSE="MIT"

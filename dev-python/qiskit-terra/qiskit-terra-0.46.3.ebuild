@@ -16,8 +16,8 @@ DESCRIPTION="Software for developing quantum computing programs [wheel]"
 
 HOMEPAGE="https://www.ibm.com/quantum/qiskit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp38/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp38/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp38-abi3-macosx_10_9_universal2.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp38-abi3-macosx_10_9_universal2.whl"
 RESTRICT="test"
 
 SLOT="0"

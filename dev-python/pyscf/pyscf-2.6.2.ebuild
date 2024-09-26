@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PySCF: Python-based Simulations of Chemistry Framework"
+DESCRIPTION="PySCF: Python-based Simulations of Chemistry Framework [top-max 2.7.0]"
 
 HOMEPAGE="http://www.pyscf.org"
 LICENSE="Apache-2.0"

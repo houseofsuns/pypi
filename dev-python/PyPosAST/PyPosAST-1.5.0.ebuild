@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extends Python ast nodes with positional informations [top-max 1.6.1]"
+DESCRIPTION="Extends Python ast nodes with positional informations [top-max 1.6.2]"
 
 HOMEPAGE="https://github.com/JoaoFelipe/PyPosAST"
 LICENSE="MIT"

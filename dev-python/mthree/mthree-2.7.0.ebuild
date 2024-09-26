@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="M3: Matrix-free measurement mitigation [wheel]"
+DESCRIPTION="M3: Matrix-free measurement mitigation"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-macosx_12_0_universal2.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-macosx_12_0_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -30,7 +30,6 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/qiskit-1.0[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-runtime[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.0.0[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	>=dev-python/orjson-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

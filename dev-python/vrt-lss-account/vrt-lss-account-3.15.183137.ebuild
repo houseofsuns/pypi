@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Veeroute.Account [top-max 7.6.2491]"
+DESCRIPTION="Veeroute.Account [top-max 7.7.2501]"
 
 HOMEPAGE="https://docs.veeroute.com/#/lss/account"
 LICENSE=""

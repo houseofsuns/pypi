@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Software for developing quantum computing programs [wheel]"
+DESCRIPTION="Software for developing quantum computing programs"
 
 HOMEPAGE="https://www.ibm.com/quantum/qiskit"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp38/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp38-abi3-macosx_10_9_universal2.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp38-abi3-macosx_10_9_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -54,7 +54,6 @@ DEPENDENCIES=">=dev-python/rustworkx-0.13.0[${PYTHON_USEDEP}]
 	visualization? ( >=dev-python/pillow-4.2.1[${PYTHON_USEDEP}] )
 	visualization? ( >=dev-python/pylatexenc-1.4[${PYTHON_USEDEP}] )
 	visualization? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
-	visualization? ( >=dev-python/pygments-2.4[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	visualization? ( >=dev-python/pygments-2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

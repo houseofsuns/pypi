@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/hoppr-cyclonedx-models[${PYTHON_USEDEP}]
 	<dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}]
-	dev-python/securesystemslib[${PYTHON_USEDEP}]
+	<dev-python/securesystemslib-1.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer-slim[${PYTHON_USEDEP}]"

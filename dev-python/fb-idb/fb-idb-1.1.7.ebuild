@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/grpclib[${PYTHON_USEDEP}]
+	>=dev-python/grpclib-0.4.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

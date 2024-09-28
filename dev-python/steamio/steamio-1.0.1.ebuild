@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]
+	~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	<dev-python/vdf-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

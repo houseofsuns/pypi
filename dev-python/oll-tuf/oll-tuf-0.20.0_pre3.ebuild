@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
-	dev-python/securesystemslib[${PYTHON_USEDEP}]
+	>=dev-python/securesystemslib-0.22.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

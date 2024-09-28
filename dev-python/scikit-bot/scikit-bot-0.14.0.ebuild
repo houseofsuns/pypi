@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	docs? ( dev-python/xsdata[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/lxml-4.6.5[${PYTHON_USEDEP}] )
 	ignition? ( ~dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}] )
-	ignition? ( dev-python/betterproto[${PYTHON_USEDEP}] )
+	ignition? ( ~dev-python/betterproto-1.2.5[${PYTHON_USEDEP}] )
 	ignition? ( ~dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
 	ignition? ( ~dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
 	ignition? ( dev-python/xsdata[${PYTHON_USEDEP}] )

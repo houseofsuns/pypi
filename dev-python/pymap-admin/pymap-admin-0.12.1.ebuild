@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build"
-DEPENDENCIES="dev-python/grpclib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/grpclib-0.4[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	build? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )

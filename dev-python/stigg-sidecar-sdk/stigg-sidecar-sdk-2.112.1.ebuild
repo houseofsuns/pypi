@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]
+	~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/stigg-api-client-v2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

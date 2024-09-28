@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/crypto-ws-api[${PYTHON_USEDEP}]
 	~dev-python/websockets-13.0.1[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
 	~dev-python/ujson-5.10.0[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]
-	dev-python/grpclib[${PYTHON_USEDEP}]"
+	~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]
+	~dev-python/grpclib-0.4.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

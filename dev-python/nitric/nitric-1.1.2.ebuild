@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]
+	~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev? ( dev-python/licenseheaders[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pdoc3-0.9.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/betterproto[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="configbuilder? ( dev-python/dash[${PYTHON_USEDEP}] )
 	configbuilder? ( dev-python/dash-table[${PYTHON_USEDEP}] )
 	interplot? ( <dev-python/dill-0.4.0[${PYTHON_USEDEP}] )
 	configbuilder? ( >=dev-python/docutils-0.14.0[${PYTHON_USEDEP}] )
-	dev-python/grpclib[${PYTHON_USEDEP}]
+	~dev-python/grpclib-0.4.5[${PYTHON_USEDEP}]
 	interplot? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]

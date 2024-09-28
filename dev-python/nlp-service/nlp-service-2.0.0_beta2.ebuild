@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all gensim transformers"
-DEPENDENCIES="dev-python/betterproto[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/betterproto-3.0.0[${PYTHON_USEDEP}]
 	gensim? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	all? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	dev-python/mashumaro[${PYTHON_USEDEP}]

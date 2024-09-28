@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
-	dev-python/securesystemslib[${PYTHON_USEDEP}]"
+	~dev-python/securesystemslib-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

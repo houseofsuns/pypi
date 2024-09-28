@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/betterproto-for-temporal-python-sdk[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpclib[${PYTHON_USEDEP}]
+	~dev-python/grpclib-0.3.2[${PYTHON_USEDEP}]
 	~dev-python/h2-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-7.0.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2020.1[${PYTHON_USEDEP}]

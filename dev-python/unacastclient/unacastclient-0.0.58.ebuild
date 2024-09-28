@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/grpclib[${PYTHON_USEDEP}]
+	~dev-python/grpclib-0.4.3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	~dev-python/black-22.10.0[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]
+	~dev-python/betterproto-2.0.0_beta5[${PYTHON_USEDEP}]
 	dev-python/syncer[${PYTHON_USEDEP}]
 	~dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]

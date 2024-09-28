@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/betterproto[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/betterproto-1.2.5[${PYTHON_USEDEP}]
 	~dev-python/cryptography-42.0.5[${PYTHON_USEDEP}]
 	dev-python/http-ece[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.27.0[${PYTHON_USEDEP}]

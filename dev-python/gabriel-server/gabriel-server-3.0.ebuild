@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Server for Wearable Cognitive Assistance Applications"
+DESCRIPTION="Server for Wearable Cognitive Assistance Applications [top-max 3.0.1]"
 
 HOMEPAGE="http://gabriel.cs.cmu.edu"
 LICENSE="Apache-2.0"

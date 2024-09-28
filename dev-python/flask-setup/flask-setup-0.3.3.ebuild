@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple tool to help you setup a flask project for web development, API development and just any basic app [top-max 0.7.3]"
+DESCRIPTION="A simple tool to help you setup a flask project for web development, API development and just any basic app [top-max 0.7.5]"
 
 HOMEPAGE="https://github.com/mrteey/flask-setup"
 LICENSE=""

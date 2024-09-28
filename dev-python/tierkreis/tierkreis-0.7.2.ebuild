@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="commontypes docker docs lint sc22-example telemetry test typecheck"
-DEPENDENCIES="dev-python/betterproto[${PYTHON_USEDEP}]
-	dev-python/grpclib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]
+	<dev-python/grpclib-0.5[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]

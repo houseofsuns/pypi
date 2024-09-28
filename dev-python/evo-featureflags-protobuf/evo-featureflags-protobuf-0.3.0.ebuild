@@ -27,6 +27,6 @@ IUSE="protoc"
 DEPENDENCIES="protoc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	protoc? ( dev-python/hiku[${PYTHON_USEDEP}] )
 	protoc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	protoc? ( dev-python/grpclib[${PYTHON_USEDEP}] )"
+	protoc? ( >=dev-python/grpclib-0.4.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

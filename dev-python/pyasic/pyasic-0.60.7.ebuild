@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
 	>=dev-python/pyaml-23.12.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]
+	~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

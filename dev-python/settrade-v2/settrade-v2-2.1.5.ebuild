@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.27[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-37.0[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]
+	>=dev-python/betterproto-1.2[${PYTHON_USEDEP}]
 	<dev-python/paho-mqtt-2.0[${PYTHON_USEDEP}]
 	>=dev-python/ntplib-0.4[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]

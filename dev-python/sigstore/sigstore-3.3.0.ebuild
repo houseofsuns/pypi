@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint test"
 DEPENDENCIES=">=dev-python/cryptography-42.0[${PYTHON_USEDEP}]
-	dev-python/id[${PYTHON_USEDEP}]
+	>=dev-python/id-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-5.7[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.6[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
@@ -33,10 +33,10 @@ DEPENDENCIES=">=dev-python/cryptography-42.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/rich-13.0[${PYTHON_USEDEP}]
-	dev-python/rfc8785[${PYTHON_USEDEP}]
-	dev-python/sigstore-protobuf-specs[${PYTHON_USEDEP}]
-	dev-python/sigstore-rekor-types[${PYTHON_USEDEP}]
-	dev-python/tuf[${PYTHON_USEDEP}]
+	~dev-python/rfc8785-0.1.2[${PYTHON_USEDEP}]
+	~dev-python/sigstore-protobuf-specs-0.3.2[${PYTHON_USEDEP}]
+	~dev-python/sigstore-rekor-types-0.0.13[${PYTHON_USEDEP}]
+	~dev-python/tuf-5.0[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-4.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump[${PYTHON_USEDEP}] )

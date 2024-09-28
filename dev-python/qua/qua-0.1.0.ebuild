@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/betterproto[${PYTHON_USEDEP}]
-	dev-python/grpclib[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/betterproto-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpclib-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

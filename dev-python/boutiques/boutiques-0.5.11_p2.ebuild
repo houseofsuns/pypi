@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Schema for describing bash command-line tools [top-max 0.5.26]"
+DESCRIPTION="Schema for describing bash command-line tools [top-max 0.5.27]"
 
 HOMEPAGE="http://github.com/boutiques/boutiques"
 LICENSE="MIT"

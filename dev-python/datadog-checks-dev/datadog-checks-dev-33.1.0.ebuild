@@ -59,7 +59,7 @@ DEPENDENCIES=">=dev-python/coverage-5.0.3[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/platformdirs-2.0.0_alpha3[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/pydantic-2.0.2[${PYTHON_USEDEP}] )
 	cli? ( ~dev-python/pysmi-0.3.4[${PYTHON_USEDEP}] )
-	cli? ( dev-python/securesystemslib[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/securesystemslib-0.28.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/semver-2.13.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/setuptools-66.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )

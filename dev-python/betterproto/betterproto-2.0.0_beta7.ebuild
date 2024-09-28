@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="compiler rust-codec"
 DEPENDENCIES="compiler? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
-	dev-python/grpclib[${PYTHON_USEDEP}]
+	<dev-python/grpclib-0.5.0[${PYTHON_USEDEP}]
 	compiler? ( >=dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	compiler? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )

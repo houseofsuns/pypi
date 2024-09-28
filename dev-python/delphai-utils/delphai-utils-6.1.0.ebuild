@@ -46,11 +46,11 @@ DEPENDENCIES="streaming? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	keycloak? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
 	grpc? ( <dev-python/python-jose-4.0.0[${PYTHON_USEDEP}] )
 	keycloak? ( <dev-python/python-jose-4.0.0[${PYTHON_USEDEP}] )
-	streaming? ( dev-python/grpclib[${PYTHON_USEDEP}] )
+	streaming? ( <dev-python/grpclib-0.5.0[${PYTHON_USEDEP}] )
 	streaming? ( dev-python/faust-streaming[${PYTHON_USEDEP}] )
 	config? ( dev-python/dacite[${PYTHON_USEDEP}] )
 	streaming? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
-	streaming? ( dev-python/betterproto[${PYTHON_USEDEP}] )
+	streaming? ( <dev-python/betterproto-3.0.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

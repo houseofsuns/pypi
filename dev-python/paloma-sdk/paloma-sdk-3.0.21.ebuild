@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]
+	~dev-python/betterproto-2.0.0_beta4[${PYTHON_USEDEP}]
 	dev-python/bip32utils[${PYTHON_USEDEP}]
 	<dev-python/boltons-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]

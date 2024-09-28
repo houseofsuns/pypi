@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]"
+	~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

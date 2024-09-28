@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="3.2.6a478.dev5"
+REALVERSION="3.2.6a482.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Logging, data connectors, monitoring, secret handling and general lifehacks to make data people lives easier. [badver 3.2.6a478.dev5]"
+DESCRIPTION="Logging, data connectors, monitoring, secret handling and general lifehacks to make data people lives easier. [badver 3.2.6a482.dev1]"
 
 HOMEPAGE="https://github.com/SneaksAndData/adapta"
 LICENSE="Apache-2.0"

@@ -47,6 +47,6 @@ DEPENDENCIES="dev-python/exchanges-wrapper[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.14.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
-	dev-python/betterproto[${PYTHON_USEDEP}]"
+	~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -37,7 +37,7 @@ DEPENDENCIES="awskms? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	hsm? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
 	hsm? ( dev-python/PyKCS11[${PYTHON_USEDEP}] )
 	pyspx? ( dev-python/PySPX[${PYTHON_USEDEP}] )
-	sigstore? ( dev-python/sigstore[${PYTHON_USEDEP}] )
+	sigstore? ( ~dev-python/sigstore-3.0[${PYTHON_USEDEP}] )
 	vault? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
 	vault? ( dev-python/hvac[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

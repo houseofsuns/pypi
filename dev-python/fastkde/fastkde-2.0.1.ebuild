@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for fast and robust univariate and multivariate kernel density estimation"
+DESCRIPTION="Tools for fast and robust univariate and multivariate kernel density estimation [top-max 2.1.3]"
 
 HOMEPAGE="https://github.com/LBL-EESA/fastkde"
 LICENSE=""

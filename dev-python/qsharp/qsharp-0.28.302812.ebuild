@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Q# Libraries for interop with Python. [top-max 1.8.5_pre0]"
+DESCRIPTION="Q# Libraries for interop with Python. [top-max 1.8.6_pre0]"
 
 HOMEPAGE="https://github.com/microsoft/QuantumLibraries"
 LICENSE=""

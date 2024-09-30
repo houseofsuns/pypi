@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Classiq's Python SDK for quantum computing [top-max 0.51.0]"
+DESCRIPTION="Classiq's Python SDK for quantum computing [top-max 0.51.1]"
 
 HOMEPAGE="https://classiq.io"
 LICENSE="Proprietary"

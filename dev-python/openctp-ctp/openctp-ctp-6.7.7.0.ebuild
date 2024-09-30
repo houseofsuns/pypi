@@ -16,8 +16,8 @@ DESCRIPTION="A package for CTPAPI [wheel]"
 
 HOMEPAGE="https://github.com/openctp/openctp-ctp-python"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win32.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win32.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

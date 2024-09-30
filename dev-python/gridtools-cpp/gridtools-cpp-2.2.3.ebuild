@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 2.3.4]"
+DESCRIPTION=" [top-max 2.3.5]"
 
 HOMEPAGE="https://gridtools.github.io"
 LICENSE=""

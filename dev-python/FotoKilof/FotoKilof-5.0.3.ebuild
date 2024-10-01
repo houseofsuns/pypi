@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nice gui for ImageMagick [top-max 5.0.4]"
+DESCRIPTION="Nice gui for ImageMagick [top-max 5.0.5]"
 
 HOMEPAGE="https://github.com/TeaM-TL/FotoKilof"
 LICENSE="MIT"

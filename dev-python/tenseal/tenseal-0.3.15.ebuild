@@ -16,8 +16,8 @@ DESCRIPTION="A Library for Homomorphic Encryption Operations on Tensors [wheel]"
 
 HOMEPAGE="https://github.com/OpenMined/TenSEAL"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-macosx_12_0_universal2.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-macosx_12_0_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

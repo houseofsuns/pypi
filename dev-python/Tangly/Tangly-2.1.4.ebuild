@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package lets you display lists in form of tables!"
+DESCRIPTION="This package lets you display lists in form of tables! [top-max 5.1]"
 
 HOMEPAGE="https://github.com/rrayes3110/Tangly-Tables"
 LICENSE=""

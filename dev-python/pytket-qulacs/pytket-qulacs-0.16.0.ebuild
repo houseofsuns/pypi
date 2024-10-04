@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extension for pytket, providing access to the Qulacs Simulator [top-max 0.37.0]"
+DESCRIPTION="Extension for pytket, providing access to the Qulacs Simulator [top-max 0.38.0]"
 
 HOMEPAGE="https://github.com/CQCL/pytket-extensions"
 LICENSE="Apache-2.0"

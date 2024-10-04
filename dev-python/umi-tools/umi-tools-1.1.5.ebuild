@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="umi_tools: Tools for UMI analyses"
+DESCRIPTION="umi_tools: Tools for UMI analyses [top-max 1.1.6]"
 
 HOMEPAGE="https://github.com/CGATOxford/UMI-tools"
 LICENSE="MIT"

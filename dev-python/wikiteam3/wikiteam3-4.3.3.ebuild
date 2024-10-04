@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for downloading and preserving MediaWikis. We archive MediaWikis, from Wikipedia to tiniest wikis."
+DESCRIPTION="Tools for downloading and preserving MediaWikis. We archive MediaWikis, from Wikipedia to tiniest wikis. [top-max 4.3.4]"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"

@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PySCF: Python-based Simulations of Chemistry Framework [wheel]"
+DESCRIPTION="PySCF: Python-based Simulations of Chemistry Framework"
 
 HOMEPAGE="http://www.pyscf.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -45,7 +45,6 @@ DEPENDENCIES=">=dev-python/numpy-1.13[${PYTHON_USEDEP}]
 	pyqmc? ( dev-python/pyqmc[${PYTHON_USEDEP}] )
 	semiempirical? ( dev-python/pyscf-semiempirical[${PYTHON_USEDEP}] )
 	shciscf? ( dev-python/pyscf-shciscf[${PYTHON_USEDEP}] )
-	tblis? ( dev-python/pyscf-tblis[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	tblis? ( dev-python/pyscf-tblis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

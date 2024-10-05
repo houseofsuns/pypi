@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mycroft Voice Satellite [top-max 2.0.0_alpha10]"
+DESCRIPTION="Mycroft Voice Satellite [top-max 2.0.0_alpha11]"
 
 HOMEPAGE="https://github.com/OpenJarbas/HiveMind-voice-sat"
 LICENSE="MIT"

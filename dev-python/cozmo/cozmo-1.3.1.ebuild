@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="3dviewer camera test"
 DEPENDENCIES="3dviewer? ( >=dev-python/pyopengl-3.1[${PYTHON_USEDEP}] )
 	dev-python/cozmoclad[${PYTHON_USEDEP}]
-	3dviewer? ( >=dev-python/pyopengl_accelerate-3.1[${PYTHON_USEDEP}] )
+	3dviewer? ( dev-python/pyopengl_accelerate[${PYTHON_USEDEP}] )
 	3dviewer? ( >=dev-python/pillow-3.3[${PYTHON_USEDEP}] )
 	3dviewer? ( >=dev-python/numpy-1.11[${PYTHON_USEDEP}] )
 	camera? ( >=dev-python/pillow-3.3[${PYTHON_USEDEP}] )

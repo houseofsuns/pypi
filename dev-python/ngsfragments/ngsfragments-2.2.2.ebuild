@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for Next Generation Sequencing fragment manipulation"
+DESCRIPTION="Python package for Next Generation Sequencing fragment manipulation [top-max 2.3.0]"
 
 HOMEPAGE="https://github.com/kylessmith/ngsfragments"
 LICENSE="GPL-2+"

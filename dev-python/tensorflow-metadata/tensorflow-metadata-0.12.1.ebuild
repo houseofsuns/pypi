@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library and standards for schema and statistics. [top-max 1.16.0]"
+DESCRIPTION="Library and standards for schema and statistics. [top-max 1.16.1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

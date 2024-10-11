@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IQM backend for qoqo quantum computing toolkit [top-max 0.10.1]"
+DESCRIPTION="IQM backend for qoqo quantum computing toolkit [top-max 0.10.2]"
 
 HOMEPAGE="https://github.com/HQSquantumsimulations/qoqo_iqm"
 LICENSE="Proprietary. See LICENSE file included in delivery."

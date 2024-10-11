@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utils for parsing apk. Type hinting supported."
+DESCRIPTION="Utils for parsing apk. Type hinting supported. [top-max 2.0.14]"
 
 HOMEPAGE=""
 LICENSE="MIT"

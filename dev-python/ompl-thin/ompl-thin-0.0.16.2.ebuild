@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="thin ompl python wrapper [top-max 0.0.17]"
+DESCRIPTION="thin ompl python wrapper [top-max 0.0.18]"
 
 HOMEPAGE=""
 LICENSE="MIT"

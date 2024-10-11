@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate Python data structures and XML parser from Xschema [top-max 2.44.1]"
+DESCRIPTION="Generate Python data structures and XML parser from Xschema [top-max 2.44.3]"
 
 HOMEPAGE="http://www.davekuhlman.org/generateDS.html"
 LICENSE="MIT"

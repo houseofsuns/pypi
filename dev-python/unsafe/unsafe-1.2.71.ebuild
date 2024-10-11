@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A practical and optimal library for those interested in Pentest, cryptography,Vulnerability Scanner and .."
+DESCRIPTION="A practical and optimal library for those interested in Pentest, cryptography,Vulnerability Scanner and .. [top-max 1.3]"
 
 HOMEPAGE="https://github.com/ahur4/unsafe"
 LICENSE="MIT"

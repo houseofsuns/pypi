@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helper functions for repetitive and useful tasks [top-max 0.2.112]"
+DESCRIPTION="Helper functions for repetitive and useful tasks [top-max 0.2.113]"
 
 HOMEPAGE=""
 LICENSE=""

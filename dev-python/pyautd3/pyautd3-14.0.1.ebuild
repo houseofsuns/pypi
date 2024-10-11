@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AUTD3 library wrapper for python [top-max 27.0.0]"
+DESCRIPTION="AUTD3 library wrapper for python [top-max 28.0.0_rc0]"
 
 HOMEPAGE="https://github.com/shinolab/autd3"
 LICENSE="MIT"

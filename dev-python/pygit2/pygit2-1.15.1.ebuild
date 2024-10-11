@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for libgit2."
+DESCRIPTION="Python bindings for libgit2. [top-max 1.16.0]"
 
 HOMEPAGE="https://github.com/libgit2/pygit2"
 LICENSE="GPLv2 with linking exception"

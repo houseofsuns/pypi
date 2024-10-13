@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Read/Write metadata(including EXIF, IPTC, XMP), comment and ICC Profile embedded in digital images. [top-max 2.15.0]"
+DESCRIPTION="Read/Write metadata(including EXIF, IPTC, XMP), comment and ICC Profile embedded in digital images. [top-max 2.15.2]"
 
 HOMEPAGE="https://github.com/LeoHsiao1/pyexiv2"
 LICENSE="GPL-3"

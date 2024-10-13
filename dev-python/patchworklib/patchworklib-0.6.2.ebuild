@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="patchwork for matplotlib [top-max 0.6.4]"
+DESCRIPTION="patchwork for matplotlib [top-max 0.6.5]"
 
 HOMEPAGE="https://github.com/ponnhide/patchworklib"
 LICENSE="GNU General Public License v3.0"

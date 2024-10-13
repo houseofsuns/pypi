@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generates random request fields for a http header"
+DESCRIPTION="Generates random request fields for a http header [top-max 0.2.1]"
 
 HOMEPAGE="https://github.com/MichaelTatarski/fake-http-header"
 LICENSE="MIT"

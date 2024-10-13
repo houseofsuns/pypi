@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Solver and tracer for electrostatic problems"
+DESCRIPTION="Solver and tracer for electrostatic problems [top-max 0.6.2]"
 
 HOMEPAGE="https://github.com/leon-vv/Traceon"
 LICENSE="AGPL-3"

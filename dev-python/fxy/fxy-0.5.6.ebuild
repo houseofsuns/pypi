@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convenience imports and scientific functions. [top-max 0.6.0]"
+DESCRIPTION="Convenience imports and scientific functions. [top-max 0.7.0]"
 
 HOMEPAGE="https://github.com/mindey/fxy"
 LICENSE="Unlicense"

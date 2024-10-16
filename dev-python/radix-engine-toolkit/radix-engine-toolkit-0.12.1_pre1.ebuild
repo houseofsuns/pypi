@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python wrapper around the Radix Engine Toolkit that provides Radix Ledger primitives to Python. [new-max 2024-10-11 14:56:43.222064+00:00]"
+DESCRIPTION="A Python wrapper around the Radix Engine Toolkit that provides Radix Ledger primitives to Python. [new-max 2024-10-15 15:38:42.631969+00:00]"
 
 HOMEPAGE="https://github.com/radixdlt/radix-engine-toolkit"
 LICENSE="Apache-2.0"

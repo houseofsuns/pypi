@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python tool for visualizing atomic systems and properties of condensed matter."
+DESCRIPTION="A Python tool for visualizing atomic systems and properties of condensed matter. [top-max 1.1.5]"
 
 HOMEPAGE="https://github.com/sassafrass6/XtraCrysPy"
 LICENSE=""

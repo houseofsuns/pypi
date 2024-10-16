@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for PySide6 Applications [top-max 0.10.0]"
+DESCRIPTION="Framework for PySide6 Applications [top-max 0.11.0]"
 
 HOMEPAGE=""
 LICENSE=""

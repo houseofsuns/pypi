@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="description"
+DESCRIPTION="description [top-max 2024.10.16.15.15.29]"
 
 HOMEPAGE="https://github.com/yuanjie-ai/MeUtils"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Very fast pure-Python AMQP client"
+DESCRIPTION="Very fast pure-Python AMQP client [top-max 1.5.0]"
 
 HOMEPAGE="https://github.com/smok-serwis/coolamqp"
 LICENSE="MIT"

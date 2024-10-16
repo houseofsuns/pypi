@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An experimental and readonly gitlab filesystem extension for PyFilesystem2.! [top-max 0.0.16_pre1]"
+DESCRIPTION="An experimental and readonly gitlab filesystem extension for PyFilesystem2.! [top-max 0.0.17_pre1]"
 
 HOMEPAGE="https://git.bwcloud.uni-freiburg.de/julian.weidhase/GitlabFS"
 LICENSE="MY LICENSE"

@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="1.0.0a3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neutron and X-ray reflectometry analysis [wheel]"
+DESCRIPTION="Neutron and X-ray reflectometry analysis"
 
 HOMEPAGE="https://refl1d.github.io"
 LICENSE="Refl1d is in the public domain. "
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -37,7 +37,6 @@ DEPENDENCIES="dev-python/bumps[${PYTHON_USEDEP}]
 	dev? ( dev-python/versioningit[${PYTHON_USEDEP}] )
 	full? ( dev-python/wxpython[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	webview? ( dev-python/bumps[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	webview? ( dev-python/bumps[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

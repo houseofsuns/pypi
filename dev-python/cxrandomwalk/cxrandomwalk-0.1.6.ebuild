@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Experimental library to visualize complex networks [top-max 0.5.0]"
+DESCRIPTION="Experimental library to visualize complex networks [top-max 0.5.7]"
 
 HOMEPAGE="https://github.com/filipinascimento/cxrandomwalk"
 LICENSE=""

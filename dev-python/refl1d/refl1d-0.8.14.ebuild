@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="1-D reflectometry modeling [top-max 1.0.0_alpha3]"
+DESCRIPTION="1-D reflectometry modeling [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feea7621ee0>)]"
 
 HOMEPAGE="http://github.com/reflectometry/refl1d"
 LICENSE=""

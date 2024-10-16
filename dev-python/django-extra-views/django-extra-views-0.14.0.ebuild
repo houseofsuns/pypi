@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extra class-based views for Django"
+DESCRIPTION="Extra class-based views for Django [top-max 0.15.0]"
 
 HOMEPAGE="https://github.com/AndrewIngram/django-extra-views"
 LICENSE="MIT"

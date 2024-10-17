@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bencode and decode for python [top-max 1.1.6]"
+DESCRIPTION="Bencode and decode for python [top-max 1.1.7]"
 
 HOMEPAGE="https://github.com/synodriver/fast-bencode"
 LICENSE="BitTorrent Open Source License"

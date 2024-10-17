@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full jinja"
-DEPENDENCIES="dev-python/httptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httptools-0.5[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2022.9.24[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.1.0[${PYTHON_USEDEP}]
 	dev-python/guardpost[${PYTHON_USEDEP}]

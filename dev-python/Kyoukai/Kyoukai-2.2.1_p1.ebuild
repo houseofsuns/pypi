@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gunicorn uwsgi"
-DEPENDENCIES="dev-python/httptools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httptools-0.1.0[${PYTHON_USEDEP}]
 	dev-python/asphalt[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/h2-3.1.0[${PYTHON_USEDEP}]

@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
 	<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
 	caching? ( dev-python/cashews[${PYTHON_USEDEP}] )
 	<=dev-python/redis-5.0.0[${PYTHON_USEDEP}]
-	httptools? ( dev-python/httptools[${PYTHON_USEDEP}] )
+	httptools? ( <dev-python/httptools-0.7.0[${PYTHON_USEDEP}] )
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]"

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/gunicorn[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-timeout-3.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-9.0[${PYTHON_USEDEP}] )
-	uvicorn-fast? ( dev-python/httptools[${PYTHON_USEDEP}] )
+	uvicorn-fast? ( >=dev-python/httptools-0.5.0[${PYTHON_USEDEP}] )
 	uvicorn-fast? ( >=dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )
 	uvicorn-fast? ( >=dev-python/websockets-10.4[${PYTHON_USEDEP}] )
 	uvicorn-standard? ( ~dev-python/uvicorn-0.28.1[${PYTHON_USEDEP}] )"

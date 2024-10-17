@@ -27,7 +27,7 @@ IUSE="standard"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/h11-0.8[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
-	standard? ( dev-python/httptools[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/httptools-0.5.0[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/python-dotenv-0.13[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )

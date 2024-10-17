@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/severus[${PYTHON_USEDEP}]
 	orjson? ( ~dev-python/orjson-3.10[${PYTHON_USEDEP}] )
 	uvicorn? ( >=dev-python/h11-0.12[${PYTHON_USEDEP}] )
-	uvicorn? ( dev-python/httptools[${PYTHON_USEDEP}] )
+	uvicorn? ( ~dev-python/httptools-0.6[${PYTHON_USEDEP}] )
 	uvicorn? ( ~dev-python/uvicorn-0.19[${PYTHON_USEDEP}] )
 	uvicorn? ( ~dev-python/websockets-10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

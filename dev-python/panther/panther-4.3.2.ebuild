@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pantherdb[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.27.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2024.1[${PYTHON_USEDEP}]
 	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
-	dev-python/httptools[${PYTHON_USEDEP}]
+	~dev-python/httptools-0.6.1[${PYTHON_USEDEP}]
 	full? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/motor[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/bpython-0.24[${PYTHON_USEDEP}] )

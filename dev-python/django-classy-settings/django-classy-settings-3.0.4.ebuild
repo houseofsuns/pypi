@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple class-based settings for Django [top-max 3.0.6]"
+DESCRIPTION="Simple class-based settings for Django [top-max 3.0.7]"
 
 HOMEPAGE="https://django-classy-settings.readthedocs.io/en/latest/"
 LICENSE="BSD-2"

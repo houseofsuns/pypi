@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs ext http3 test"
 DEPENDENCIES="dev-python/sanic-routing[${PYTHON_USEDEP}]
-	dev-python/httptools[${PYTHON_USEDEP}]
+	>=dev-python/httptools-0.0.10[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-10.0[${PYTHON_USEDEP}]
 	<dev-python/multidict-7.0[${PYTHON_USEDEP}]

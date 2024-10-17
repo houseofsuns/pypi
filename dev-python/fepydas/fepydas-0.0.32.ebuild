@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="felix' python data analysis suite [top-max 0.0.40]"
+DESCRIPTION="felix' python data analysis suite [top-max 0.0.41]"
 
 HOMEPAGE="https://git.tu-berlin.de/nippert/fepydas"
 LICENSE=""

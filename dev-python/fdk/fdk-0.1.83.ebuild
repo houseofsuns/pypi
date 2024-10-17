@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pbr-5.11.1[${PYTHON_USEDEP}]
 	~dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
 	>=dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
 	~dev-python/pytest-asyncio-0.12.0[${PYTHON_USEDEP}]
-	dev-python/httptools[${PYTHON_USEDEP}]
+	>=dev-python/httptools-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/cython-3.0.0[${PYTHON_USEDEP}]
 	dev-python/contextvars[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/makefun-1.9.5[${PYTHON_USEDEP}]
 	>=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
 	dev-python/easyadmin[${PYTHON_USEDEP}]
 	dev-python/easyrpc[${PYTHON_USEDEP}]
-	dev-python/httptools[${PYTHON_USEDEP}]
+	~dev-python/httptools-0.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pydbantic[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}] )

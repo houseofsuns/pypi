@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	dev-python/httptools[${PYTHON_USEDEP}]
+	<dev-python/httptools-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]

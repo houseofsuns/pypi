@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/diff-match-patch-20230431.0[${PYTHON_USEDEP}]
 	<dev-python/distro-1.7.0[${PYTHON_USEDEP}]
-	dev-python/httptools[${PYTHON_USEDEP}]
+	>=dev-python/httptools-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/jmespath-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
 	dev-python/mitmproxy[${PYTHON_USEDEP}]

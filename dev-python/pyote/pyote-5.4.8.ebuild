@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyote is a simplified subset of R-OTE [top-max 5.5.2]"
+DESCRIPTION="pyote is a simplified subset of R-OTE [top-max 5.5.8]"
 
 HOMEPAGE="https://github.com/bob-anderson-ok/py-ote"
 LICENSE="License :: OSI Approved :: MIT License"

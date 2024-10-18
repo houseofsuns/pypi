@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client for Thoth's APIs [top-max 0.26.2]"
+DESCRIPTION="Python client for Thoth's APIs [top-max 0.27.0]"
 
 HOMEPAGE="https://github.com/thoth-pub/thoth-client"
 LICENSE="Apache-2.0"

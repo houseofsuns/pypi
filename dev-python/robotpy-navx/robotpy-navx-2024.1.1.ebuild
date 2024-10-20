@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for KauaiLabs NavX sensor"
+DESCRIPTION="Python wrapper for KauaiLabs NavX sensor [top-max 2025.0.0_beta1]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-navx"
 LICENSE="BSD"

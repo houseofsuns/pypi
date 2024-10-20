@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A performant type checker for Python"
+DESCRIPTION="A performant type checker for Python [top-max 0.0.101729336353]"
 
 HOMEPAGE="https://pyre-check.org/"
 LICENSE="MIT"

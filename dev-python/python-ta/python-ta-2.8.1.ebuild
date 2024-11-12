@@ -27,7 +27,7 @@ IUSE="cfg dev z3"
 DEPENDENCIES="~dev-python/astroid-3.2.4[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pycodestyle-2.11[${PYTHON_USEDEP}]
 	<dev-python/pygments-2.19[${PYTHON_USEDEP}]
 	~dev-python/pylint-3.2.6[${PYTHON_USEDEP}]

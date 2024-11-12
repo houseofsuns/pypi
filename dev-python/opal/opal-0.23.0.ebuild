@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/kombu-5.1.0[${PYTHON_USEDEP}]
 	dev-python/ffs[${PYTHON_USEDEP}]
-	~dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/django-2.2.16[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.12.2[${PYTHON_USEDEP}]

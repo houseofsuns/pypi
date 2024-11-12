@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/unipipeline[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/pydantic-i18n[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/flask-2.1.3[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/Flask-Limiter[${PYTHON_USEDEP}]

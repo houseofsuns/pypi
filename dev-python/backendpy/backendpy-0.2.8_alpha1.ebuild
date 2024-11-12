@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	full? ( >=dev-python/ujson-5.1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/sqlalchemy-1.4.31[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
+	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

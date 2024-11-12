@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/dunamai[${PYTHON_USEDEP}]
 	>=dev-python/funcy-1.17[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jinja2-ansible-filters[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]

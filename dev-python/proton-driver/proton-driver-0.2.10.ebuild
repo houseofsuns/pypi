@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python driver with native interface for Proton"
+DESCRIPTION="Python driver with native interface for Proton [top-max 0.2.11]"
 
 HOMEPAGE="https://github.com/timeplus-io/proton-python-driver"
 LICENSE="MIT"

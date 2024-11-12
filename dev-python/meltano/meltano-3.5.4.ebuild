@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/aiodocker[${PYTHON_USEDEP}]
 	<dev-python/fasteners-0.20[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-25.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-7.0.0[${PYTHON_USEDEP}]

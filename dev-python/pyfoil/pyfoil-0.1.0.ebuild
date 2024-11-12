@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python library for airfoil generation, modification and analysis (xfoil included) [top-max 0.1.5]"
+DESCRIPTION="python library for airfoil generation, modification and analysis (xfoil included) [top-max 0.1.8]"
 
 HOMEPAGE="http://github.com/airgproducts/pyfoil"
 LICENSE="GPL-V3"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.9.2[${PYTHON_USEDEP}]
 	~dev-python/PyGithub-2.4.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/starlette-0.33.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/ormspace[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

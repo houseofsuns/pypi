@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gettext file checker."
+DESCRIPTION="Gettext file checker. [top-max 4.1.0]"
 
 HOMEPAGE="https://github.com/flashcode/msgcheck"
 LICENSE="GPL-3"

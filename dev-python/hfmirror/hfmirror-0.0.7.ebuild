@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/hbutils[${PYTHON_USEDEP}]
 	dev-python/pyquery[${PYTHON_USEDEP}]
 	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	doc? ( ~dev-python/jinja-3.0.0[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )

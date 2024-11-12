@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/ConfigArgParse-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4.3[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]

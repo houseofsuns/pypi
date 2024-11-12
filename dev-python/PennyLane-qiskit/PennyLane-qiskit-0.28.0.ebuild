@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PennyLane plugin for qiskit-terra [top-max 0.38.1]"
+DESCRIPTION="PennyLane plugin for qiskit-terra [top-max 0.39.0]"
 
 HOMEPAGE="https://github.com/XanaduAI/pennylane-qiskit"
 LICENSE="Apache-2.0"

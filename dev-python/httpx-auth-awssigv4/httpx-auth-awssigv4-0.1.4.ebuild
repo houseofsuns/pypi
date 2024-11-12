@@ -30,7 +30,7 @@ DEPENDENCIES="test? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	>dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocs-autorefs-0.3.0[${PYTHON_USEDEP}] )

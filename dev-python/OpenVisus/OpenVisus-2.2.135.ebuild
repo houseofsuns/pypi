@@ -16,8 +16,8 @@ DESCRIPTION="ViSUS multiresolution I/O, analysis, and visualization system [whee
 
 HOMEPAGE="https://github.com/sci-visus/OpenVisus"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-none-manylinux2010_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-none-manylinux2010_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"

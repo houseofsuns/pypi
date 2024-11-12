@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	<dev-python/fasteners-1.0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-1.66.0[${PYTHON_USEDEP}]
 	dev-python/hdfs[${PYTHON_USEDEP}]
 	<dev-python/httplib2-0.23.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dataframe? ( <dev-python/pandas-2.3[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/jinja-3.2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
@@ -113,7 +113,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	ml_test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	test? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/freezegun-0.3.12[${PYTHON_USEDEP}] )
-	test? ( <dev-python/jinja-3.2[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/joblib-1.0.1[${PYTHON_USEDEP}] )
 	test? ( <dev-python/mock-6.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
@@ -133,7 +133,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/cryptography-41.0.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/hypothesis-7.0.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
-	yaml? ( <dev-python/jinja-3.2[${PYTHON_USEDEP}] )
+	yaml? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/virtualenv-clone-1.0[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/js2py-1.0[${PYTHON_USEDEP}] )

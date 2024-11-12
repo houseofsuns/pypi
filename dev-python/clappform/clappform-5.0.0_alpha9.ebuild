@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/grpcio-1.65.2[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-2.139.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.2.1[${PYTHON_USEDEP}] )

@@ -38,7 +38,7 @@ DEPENDENCIES="<=dev-python/setuptools-67.2.0[${PYTHON_USEDEP}]
 	dev-python/great-expectations[${PYTHON_USEDEP}]
 	<=dev-python/ruamel-yaml-0.17.17[${PYTHON_USEDEP}]
 	<=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
-	dev-python/multipart[${PYTHON_USEDEP}]
+	<=dev-python/multipart-0.2.4[${PYTHON_USEDEP}]
 	<=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
 	<=dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
 	<=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"

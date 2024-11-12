@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/eeglabio[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pylsl[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )

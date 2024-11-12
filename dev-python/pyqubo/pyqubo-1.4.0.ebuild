@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyQUBO allows you to create QUBOs or Ising models from mathematical expressions."
+DESCRIPTION="PyQUBO allows you to create QUBOs or Ising models from mathematical expressions. [top-max 1.5.0]"
 
 HOMEPAGE="https://github.com/recruit-communications/pyqubo"
 LICENSE="Apache-2.0"

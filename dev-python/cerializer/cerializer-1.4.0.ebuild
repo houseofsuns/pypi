@@ -27,7 +27,7 @@ IUSE="quantlane"
 DEPENDENCIES="<dev-python/cython-3.1.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-46.0.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	quantlane? ( dev-python/ql-qutils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

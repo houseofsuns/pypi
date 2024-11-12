@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cogapp[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/CodeChat[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/Paver[${PYTHON_USEDEP}]
 	>dev-python/six-1.12[${PYTHON_USEDEP}]
 	<dev-python/sphinx-6.0.0[${PYTHON_USEDEP}]

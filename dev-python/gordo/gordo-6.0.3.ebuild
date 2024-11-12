@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs full mlflow postgres tests"
 DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/scikeras[${PYTHON_USEDEP}]
@@ -91,7 +91,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/ipython-8.27.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jedi-0.19.1[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/json5-0.9.25[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonpointer-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )

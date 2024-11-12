@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/clipboard[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cssutils-2.2.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-2.1.7[${PYTHON_USEDEP}]
 	dev-python/arghandler[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]

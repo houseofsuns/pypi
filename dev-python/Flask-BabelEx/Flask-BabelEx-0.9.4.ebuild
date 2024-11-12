@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	>=dev-python/Babel-1.0[${PYTHON_USEDEP}]
 	dev-python/speaklater[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.5[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

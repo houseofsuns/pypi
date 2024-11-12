@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/zope-interface-5.1.2[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-httpexample[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/jinja-2.11.1[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/colorlog-2.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/certifi[${PYTHON_USEDEP}] )

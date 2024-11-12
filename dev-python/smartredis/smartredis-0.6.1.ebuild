@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-3.1.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-fortran[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )

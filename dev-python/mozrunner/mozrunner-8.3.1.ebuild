@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reliable start/stop/configuration of Mozilla Applications (Firefox, Thunderbird, etc.)"
+DESCRIPTION="Reliable start/stop/configuration of Mozilla Applications (Firefox, Thunderbird, etc.) [top-max 8.3.2]"
 
 HOMEPAGE="https://wiki.mozilla.org/Auto-tools/Projects/Mozbase"
 LICENSE="MPL 2.0"

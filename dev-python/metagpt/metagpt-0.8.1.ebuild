@@ -127,7 +127,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	test? ( dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}] )
 	test? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
 	test? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	test? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/grpcio-status-1.48.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pybrowsers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

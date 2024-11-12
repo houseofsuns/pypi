@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cdr"
 DEPENDENCIES="~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2022.9[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.52.0[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]

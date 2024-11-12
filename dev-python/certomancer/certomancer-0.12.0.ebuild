@@ -47,6 +47,6 @@ DEPENDENCIES="~dev-python/asn1crypto-1.5[${PYTHON_USEDEP}]
 	testing-minimal? ( ~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
 	testing-minimal? ( dev-python/certomancer[${PYTHON_USEDEP}] )
 	web-api? ( >=dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}] )
-	web-api? ( >=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )"
+	web-api? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

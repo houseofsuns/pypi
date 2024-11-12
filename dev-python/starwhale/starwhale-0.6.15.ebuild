@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<=dev-python/tenacity-8.3.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.5.0[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
@@ -89,7 +89,7 @@ DEPENDENCIES="~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/tenacity-8.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )

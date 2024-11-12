@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/byteblowerll[${PYTHON_USEDEP}]
 	dev-python/scapy[${PYTHON_USEDEP}]
 	>=dev-python/junit-xml-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/highcharts-excentis[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )

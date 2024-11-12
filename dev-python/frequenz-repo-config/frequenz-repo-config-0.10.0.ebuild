@@ -61,7 +61,7 @@ DEPENDENCIES=">=dev-python/nox-2022.11.21[${PYTHON_USEDEP}]
 	dev-pytest? ( ~dev-python/pytest-8.2.2[${PYTHON_USEDEP}] )
 	dev-pytest? ( ~dev-python/pylint-3.2.5[${PYTHON_USEDEP}] )
 	dev-pytest? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	dev-pytest? ( ~dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	dev-pytest? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev-pytest? ( <dev-python/sybil-7.0[${PYTHON_USEDEP}] )
 	extra-lint-examples? ( <dev-python/pylint-4.0[${PYTHON_USEDEP}] )
 	extra-lint-examples? ( <dev-python/pytest-9.0[${PYTHON_USEDEP}] )

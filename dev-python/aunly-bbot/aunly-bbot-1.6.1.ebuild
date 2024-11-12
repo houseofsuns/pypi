@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/bilireq[${PYTHON_USEDEP}]
 	full? ( dev-python/graiax-text2img-playwright[${PYTHON_USEDEP}] )
 	full? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
 	full? ( dev-python/jieba[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )"
+	full? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

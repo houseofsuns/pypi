@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK to use ONAP Programatically [top-max 13.1.1]"
+DESCRIPTION="SDK to use ONAP Programatically [top-max 13.2.0]"
 
 HOMEPAGE="https://gitlab.com/Orange-OpenSource/lfn/onap/python-onapsdk"
 LICENSE="Apache-2.0"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
 	dev-python/oyaml[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]

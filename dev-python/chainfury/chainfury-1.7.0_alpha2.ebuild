@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all qdrant stability"
 DEPENDENCIES="dev-python/tuneapi[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jinja2schema[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.6.1[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]

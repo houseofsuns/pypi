@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/binaryornot-0.4.4[${PYTHON_USEDEP}]
 	>=dev-python/boolean-py-3.8[${PYTHON_USEDEP}]
 	>=dev-python/license-expression-1.0[${PYTHON_USEDEP}]

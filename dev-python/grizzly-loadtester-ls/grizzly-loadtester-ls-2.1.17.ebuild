@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pygls[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/Random-Word[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jinja2-simple-tags[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	ci? ( ~dev-python/build-1.1.1[${PYTHON_USEDEP}] )

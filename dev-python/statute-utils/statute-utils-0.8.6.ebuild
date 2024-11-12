@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/prelawsql[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/lxml-5.3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-python-slugify[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipykernel-6.29[${PYTHON_USEDEP}] )

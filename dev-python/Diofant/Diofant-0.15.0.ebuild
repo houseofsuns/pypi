@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/mpmath-1.4.0_alpha1[${PYTHON_USEDEP}]
 	exports? ( >=dev-python/numpy-1.26.0_rc1[${PYTHON_USEDEP}] )
 	exports? ( dev-python/meson-python[${PYTHON_USEDEP}] )
 	exports? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	gmpy? ( dev-python/gmpy2[${PYTHON_USEDEP}] )
+	gmpy? ( >=dev-python/gmpy2-2.2[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	testing? ( dev-python/Diofant[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-8.0[${PYTHON_USEDEP}] )

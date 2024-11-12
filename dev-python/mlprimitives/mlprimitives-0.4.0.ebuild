@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	dev? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-6.5.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mistune-2.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinxcontrib-applehelp-1.0.8[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinxcontrib-devhelp-1.0.6[${PYTHON_USEDEP}] )

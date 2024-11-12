@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data fitting with bayesian uncertainty analysis [top-max 1.0.0_alpha5]"
+DESCRIPTION="Data fitting with bayesian uncertainty analysis [top-max 1.0.0_alpha8]"
 
 HOMEPAGE="https://github.com/bumps/bumps"
 LICENSE=""

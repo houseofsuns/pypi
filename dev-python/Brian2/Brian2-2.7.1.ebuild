@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29.21[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.2[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.7[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )

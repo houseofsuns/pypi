@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/typing[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/arrow-0.12.1[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.17.1[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.26.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	>=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]

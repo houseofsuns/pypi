@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	<=dev-python/scikit-learn-0.24.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

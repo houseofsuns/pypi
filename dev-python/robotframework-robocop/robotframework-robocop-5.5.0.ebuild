@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	<dev-python/pathspec-0.13[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]

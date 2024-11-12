@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/colorama-0.4[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.13[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
-	jinja2? ( >=dev-python/jinja-3.0[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	pydantic? ( >=dev-python/pydantic-1.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.56.4[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-status[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-status-1.48.2[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]

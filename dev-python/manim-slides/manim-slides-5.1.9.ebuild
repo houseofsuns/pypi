@@ -27,7 +27,7 @@ IUSE="docs full magic manim manimgl pyqt6 pyqt6-full pyside6 pyside6-full sphinx
 DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	>=dev-python/click-default-group-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]

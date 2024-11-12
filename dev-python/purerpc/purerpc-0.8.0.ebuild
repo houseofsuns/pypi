@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/h2-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/trustme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	grpc-pypy? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	grpc-pypy? ( <=dev-python/grpcio-1.26[${PYTHON_USEDEP}] )
 	grpc-pypy? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

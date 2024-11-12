@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/grainy[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ctl[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/jinja-3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/markdown-include-0.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-1.2.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

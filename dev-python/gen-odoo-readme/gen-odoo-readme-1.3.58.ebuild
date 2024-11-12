@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.21.0[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.18.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]"

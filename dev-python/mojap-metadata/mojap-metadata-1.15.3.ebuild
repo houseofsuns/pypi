@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow aws-iceberg etl-manager postgres"
-DEPENDENCIES=">=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	postgres? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	aws-iceberg? ( dev-python/awswrangler[${PYTHON_USEDEP}] )

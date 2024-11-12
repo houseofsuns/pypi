@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/cleo-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/dns-lexicon-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-3.0.0[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

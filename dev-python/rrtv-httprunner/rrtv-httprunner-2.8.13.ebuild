@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="allure locust upload"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-3.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]

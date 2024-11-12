@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/trimesh-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-5.1.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )"

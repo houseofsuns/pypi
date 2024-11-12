@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/csle-base[${PYTHON_USEDEP}]
 	dev-python/csle-collector[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-mock-3.6.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-grpc[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )

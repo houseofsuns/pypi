@@ -27,7 +27,7 @@ IUSE="dev dev-docstrings dev-formatting dev-mkdocs dev-mypy dev-noxfile dev-pyli
 DEPENDENCIES="dev-python/frequenz-api-common[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}] )
 	dev-docstrings? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev-docstrings? ( dev-python/darglint[${PYTHON_USEDEP}] )

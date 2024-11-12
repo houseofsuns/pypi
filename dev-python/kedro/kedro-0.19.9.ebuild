@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/kedro[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/jinja-3.2.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/kedro-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/sphinx-notfound-page-1.0.3[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipylab[${PYTHON_USEDEP}] )

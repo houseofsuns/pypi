@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/decamelize[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	<dev-python/GitPython-3.2_pre0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.11.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/protobuf2pydantic[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.7[${PYTHON_USEDEP}]

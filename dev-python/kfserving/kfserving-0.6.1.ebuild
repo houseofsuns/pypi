@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.20.32[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.34.1[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/jinja-2.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/signxml[${PYTHON_USEDEP}]
 	dev-python/suds[${PYTHON_USEDEP}]
 	dev-python/suds_requests[${PYTHON_USEDEP}]

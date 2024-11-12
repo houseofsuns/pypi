@@ -32,7 +32,7 @@ DEPENDENCIES="dev-packages? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
 	trino-sql-client-packages? ( dev-python/trino[${PYTHON_USEDEP}] )
 	dev-python/dbt-semantic-interfaces[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-10.2.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.11.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-2.10.0[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-packages? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
 	dev-packages? ( dev-python/dbt-core[${PYTHON_USEDEP}] )
 	dev-packages? ( dev-python/dbt-semantic-interfaces[${PYTHON_USEDEP}] )
 	dev-packages? ( dev-python/halo[${PYTHON_USEDEP}] )
-	dev-packages? ( >=dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
+	dev-packages? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev-packages? ( <dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev-packages? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev-packages? ( <dev-python/pytest-mock-3.15.0[${PYTHON_USEDEP}] )

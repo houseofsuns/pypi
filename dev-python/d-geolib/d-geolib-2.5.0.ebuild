@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="server"
 DEPENDENCIES="server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]

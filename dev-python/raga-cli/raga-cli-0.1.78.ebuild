@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/filelock-3.8.2[${PYTHON_USEDEP}] )

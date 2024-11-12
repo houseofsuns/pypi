@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all scaffolding"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/inflect-7.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	scaffolding? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )"

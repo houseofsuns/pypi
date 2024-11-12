@@ -27,7 +27,7 @@ IUSE="dev systemd"
 DEPENDENCIES="dev-python/thor[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.6.5[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.11.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]

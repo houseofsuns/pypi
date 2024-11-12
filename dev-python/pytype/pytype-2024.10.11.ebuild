@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	dev-python/importlab[${PYTHON_USEDEP}]
 	>=dev-python/immutabledict-4.1.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/libcst-1.0.1[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]

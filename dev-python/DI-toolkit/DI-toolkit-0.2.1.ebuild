@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/hbutils[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	doc? ( >=dev-python/jinja-3.0.0[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )

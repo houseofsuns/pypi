@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/gmpy2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/gmpy2-2.0.8[${PYTHON_USEDEP}]
 	dev-python/randomgen[${PYTHON_USEDEP}]
 	dev-python/pure-nrng[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

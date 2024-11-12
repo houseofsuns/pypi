@@ -30,7 +30,7 @@ DEPENDENCIES="all? ( dev-python/O365[${PYTHON_USEDEP}] )
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	lxml? ( <dev-python/lxml-6.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/lxml-6.0.0[${PYTHON_USEDEP}] )
 	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]

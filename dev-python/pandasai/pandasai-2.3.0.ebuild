@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/Faker-20.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	modin? ( dev-python/modin[${PYTHON_USEDEP}] )
 	google-sheets? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
 	google-ai? ( dev-python/google-generativeai[${PYTHON_USEDEP}] )

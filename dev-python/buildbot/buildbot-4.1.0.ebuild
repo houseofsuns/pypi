@@ -27,7 +27,7 @@ IUSE="brotli bundle configurable docs test tls zstd"
 DEPENDENCIES=">=dev-python/setuptools-8.0[${PYTHON_USEDEP}]
 	>=dev-python/twisted-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/treq-20.9[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/croniter-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/zope-interface-4.1.1[${PYTHON_USEDEP}]

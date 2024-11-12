@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dbt-semantic-interfaces[${PYTHON_USEDEP}]
 	dev-python/dbt-semantic-interfaces[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-10.2.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-2.10.0[${PYTHON_USEDEP}]

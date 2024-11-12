@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pywal[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/pycloudflared[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	>=dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK and CLI for Dataloop platform [top-max 1.96.8]"
+DESCRIPTION="SDK and CLI for Dataloop platform [top-max 1.98.8]"
 
 HOMEPAGE="https://github.com/dataloop-ai/dtlpy"
 LICENSE="Apache-2.0"
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/webvtt-py[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.32.2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.2.2[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	dev-python/attr[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-2.0.9[${PYTHON_USEDEP}]

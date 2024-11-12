@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/txaio-21.2.1[${PYTHON_USEDEP}]
 	all? ( dev-python/base58[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ecdsa-0.16.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/py-multihash[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/spake2-0.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/hkdf[${PYTHON_USEDEP}] )
@@ -132,7 +132,7 @@ DEPENDENCIES=">=dev-python/txaio-21.2.1[${PYTHON_USEDEP}]
 	xbr? ( dev-python/base58[${PYTHON_USEDEP}] )
 	xbr? ( >=dev-python/ecdsa-0.16.1[${PYTHON_USEDEP}] )
 	xbr? ( dev-python/py-multihash[${PYTHON_USEDEP}] )
-	xbr? ( >=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
+	xbr? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	xbr? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
 	xbr? ( >=dev-python/spake2-0.8[${PYTHON_USEDEP}] )
 	xbr? ( dev-python/hkdf[${PYTHON_USEDEP}] )"

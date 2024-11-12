@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/graph-scheduler[${PYTHON_USEDEP}]
 	optional? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pytorch-sphinx-theme[${PYTHON_USEDEP}] )
 	optional? ( dev-python/sphinxcontrib-versioning[${PYTHON_USEDEP}] )
-	optional? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
+	optional? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	optional? ( dev-python/torchviz[${PYTHON_USEDEP}] )
 	optional? ( dev-python/netron[${PYTHON_USEDEP}] )
 	optional? ( dev-python/torch[${PYTHON_USEDEP}] )

@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/recommonmark-0.7.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	viz? ( ~dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )"

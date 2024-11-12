@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cloudformation-cli-python-lib[${PYTHON_USEDEP}]
 	dev-python/cfn-guard-rs[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-resources-7.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/retry2[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/docker-8.0[${PYTHON_USEDEP}]
 	dev-python/troposphere-awscommunity-applicationautoscaling-scheduledaction[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

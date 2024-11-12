@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create isosurfaces from 2D or 3D arrays"
+DESCRIPTION="Create isosurfaces from 2D or 3D arrays [top-max 0.2.2_p0]"
 
 HOMEPAGE="https://github.com/ioos/ciso"
 LICENSE="BSD-2"

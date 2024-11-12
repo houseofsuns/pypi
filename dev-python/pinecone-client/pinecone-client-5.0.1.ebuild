@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2019.11.17[${PYTHON_USEDEP}]
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	grpc? ( >=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}] )
+	grpc? ( >=dev-python/grpcio-1.59.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/lz4-3.1.3[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )

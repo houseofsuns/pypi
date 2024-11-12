@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/datashader[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/dask[${PYTHON_USEDEP}] )
 	doc? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/jinja-2.11[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

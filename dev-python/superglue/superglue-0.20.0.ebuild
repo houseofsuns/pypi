@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	~dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.20.49[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/prettytable-3.5.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/setuptools-63.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-0.8.0[${PYTHON_USEDEP}] )

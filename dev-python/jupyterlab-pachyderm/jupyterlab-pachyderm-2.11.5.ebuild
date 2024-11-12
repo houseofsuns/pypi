@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-2.12[${PYTHON_USEDEP}]
 	dev-python/pachyderm-sdk[${PYTHON_USEDEP}]
 	>dev-python/idna-3.6[${PYTHON_USEDEP}]
-	>dev-python/jinja-3.1.3[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

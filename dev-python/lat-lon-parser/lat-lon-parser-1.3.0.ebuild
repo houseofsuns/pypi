@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple parser for latitude-longitude strings"
+DESCRIPTION="Simple parser for latitude-longitude strings [top-max 1.3.1]"
 
 HOMEPAGE="https://github.com/NOAA-ORR-ERD/lat_lon_parser"
 LICENSE=""

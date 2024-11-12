@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fabric[${PYTHON_USEDEP}]
-	~dev-python/jinja-2.7.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/statsd-2.0.3[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.3.2[${PYTHON_USEDEP}]

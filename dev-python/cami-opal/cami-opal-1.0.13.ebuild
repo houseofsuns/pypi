@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/numpy-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.13.2[${PYTHON_USEDEP}]
 	~dev-python/docker-6.1.2[${PYTHON_USEDEP}]

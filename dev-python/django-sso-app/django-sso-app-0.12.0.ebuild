@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/django-filter-2.4.0[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.11.2[${PYTHON_USEDEP}]
 	~dev-python/pillow-7.1.1[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.0.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

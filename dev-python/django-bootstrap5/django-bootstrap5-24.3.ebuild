@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="jinja"
 DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
-	jinja? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )"
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

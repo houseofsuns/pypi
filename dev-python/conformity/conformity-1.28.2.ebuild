@@ -31,11 +31,11 @@ DEPENDENCIES="<dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/currint[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pycountry-19.7.15[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-six[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	sphinx? ( ~dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
-	sphinx? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
+	sphinx? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/freezegun-1.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/pytest-5.4[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-cov-2.5[${PYTHON_USEDEP}] )
@@ -47,6 +47,6 @@ DEPENDENCIES="<dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	testing? ( ~dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pycountry-19.7.15[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
 	>=dev-python/flake8-2.6.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.9.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/pyflakes-1.2.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

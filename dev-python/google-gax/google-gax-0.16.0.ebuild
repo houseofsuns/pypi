@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/dill-0.3_pre0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0_pre0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-2.0_pre0[${PYTHON_USEDEP}]
 	~dev-python/ply-3.8[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]

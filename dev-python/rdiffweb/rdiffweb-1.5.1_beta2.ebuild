@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A web interface to rdiff-backup repositories [top-max 2.9.3]"
+DESCRIPTION="A web interface to rdiff-backup repositories [top-max 2.9.5]"
 
 HOMEPAGE="https://rdiffweb.org/"
 LICENSE="GPL-3"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tox"
 DEPENDENCIES="<dev-python/cherrypy-17.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.6[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/psutil-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/Babel-0.9.6[${PYTHON_USEDEP}]

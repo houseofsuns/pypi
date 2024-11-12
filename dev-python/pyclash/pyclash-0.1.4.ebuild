@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	>=dev-python/google-api-python-client-1.7.9[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10.0[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

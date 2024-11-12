@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/rich-12.5.1[${PYTHON_USEDEP}]
 	~dev-python/dockerpty-0.4.1[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

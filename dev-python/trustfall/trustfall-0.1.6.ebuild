@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="If GraphQL were more like SQL: a query language for any combination of data sources. [top-max 0.1.7]"
+DESCRIPTION="If GraphQL were more like SQL: a query language for any combination of data sources. [top-max 0.2.0]"
 
 HOMEPAGE="https://play.predr.ag/"
 LICENSE="Apache-2.0"

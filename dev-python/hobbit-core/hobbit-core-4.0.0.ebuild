@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hobbit hobbit-core"
 DEPENDENCIES="hobbit? ( >=dev-python/click-6.7[${PYTHON_USEDEP}] )
-	hobbit? ( >=dev-python/jinja-3.0[${PYTHON_USEDEP}] )
+	hobbit? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	hobbit? ( >=dev-python/inflect-2.1.0[${PYTHON_USEDEP}] )
 	hobbit? ( >=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	hobbit-core? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )

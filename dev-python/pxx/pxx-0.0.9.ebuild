@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="chromadb openai"
-DEPENDENCIES="~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.25.1[${PYTHON_USEDEP}]

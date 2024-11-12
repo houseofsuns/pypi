@@ -31,6 +31,6 @@ DEPENDENCIES="~dev-python/pid-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/confuse-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-19.0.1[${PYTHON_USEDEP}]
 	dev-python/Webhook-Listener[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

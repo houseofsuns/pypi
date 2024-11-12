@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/resilient[${PYTHON_USEDEP}]
 	~dev-python/pytz-2024.1[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.9[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

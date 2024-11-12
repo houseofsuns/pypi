@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cloup[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

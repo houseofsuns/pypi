@@ -27,13 +27,13 @@ IUSE="cli colour iso_8601 template"
 DEPENDENCIES="cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}] )
-	cli? ( >=dev-python/jinja-2.10.2[${PYTHON_USEDEP}] )
+	cli? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/pygments-2.5[${PYTHON_USEDEP}] )
 	colour? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	iso_8601? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
 	template? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	template? ( >=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}] )
-	template? ( >=dev-python/jinja-2.10.2[${PYTHON_USEDEP}] )
+	template? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	template? ( >=dev-python/pygments-2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

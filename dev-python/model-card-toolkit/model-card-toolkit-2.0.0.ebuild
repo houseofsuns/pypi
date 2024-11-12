@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="<dev-python/absl-py-1.1[${PYTHON_USEDEP}]
-	<dev-python/jinja-3.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-data-validation[${PYTHON_USEDEP}]

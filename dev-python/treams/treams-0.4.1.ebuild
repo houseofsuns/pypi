@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\"T-matrix scattering code for nanophotonic computations\" [top-max 0.4.3]"
+DESCRIPTION="\"T-matrix scattering code for nanophotonic computations\" [top-max 0.4.5]"
 
 HOMEPAGE="https://github.com/tfp-photonics/treams"
 LICENSE="MIT"

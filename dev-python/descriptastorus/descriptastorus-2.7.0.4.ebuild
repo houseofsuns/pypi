@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Descriptor creation, storage and molecular file indexing [top-max 2.7.0.5]"
+DESCRIPTION="Descriptor creation, storage and molecular file indexing [top-max 2.8.0]"
 
 HOMEPAGE="https://github/bp-kelley/descriptastorus"
 LICENSE=""

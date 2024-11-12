@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/ipywidgets-8.0.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	<=dev-python/ipykernel-6.17.1[${PYTHON_USEDEP}]
 	dev-python/traittypes[${PYTHON_USEDEP}]
-	<=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

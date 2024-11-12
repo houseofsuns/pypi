@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build classesgen doc style tests"
 DEPENDENCIES="dev-python/ansys-api-systemcoupling[${PYTHON_USEDEP}]
 	dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-status[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-status-1.66.2[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.50.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

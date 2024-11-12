@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/attrs-20.2.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pyaxmlparser[${PYTHON_USEDEP}]
 	dev-python/pyipng[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

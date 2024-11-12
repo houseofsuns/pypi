@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/jinja-2.4[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/decorator-4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

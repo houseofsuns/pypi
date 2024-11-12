@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/enum-tools[${PYTHON_USEDEP}]
 	build? ( >=dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/auditwheel[${PYTHON_USEDEP}] )
-	doc? ( ~dev-python/jinja-3.0.0[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )

@@ -74,8 +74,8 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/google-cloud-private-ca[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-status[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
+	~dev-python/grpcio-status-1.62.1[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/hvac-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.7[${PYTHON_USEDEP}]
@@ -84,7 +84,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
 	dev-python/javaobj-py3[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/josepy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
@@ -220,8 +220,8 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/grpcio-status-1.62.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hvac-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/identify-2.5.35[${PYTHON_USEDEP}] )
@@ -237,7 +237,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/jaraco-functools-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -266,7 +266,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/more-itertools-10.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/moto-4.2.14[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/multipart[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
@@ -441,8 +441,8 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/grpcio-status-1.62.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/hvac-2.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/idna-3.7[${PYTHON_USEDEP}] )
@@ -453,7 +453,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -479,7 +479,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/moto-4.2.14[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/multipart[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
@@ -651,8 +651,8 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	tests? ( dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/grpcio-status-1.62.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/hvac-2.2.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/idna-3.7[${PYTHON_USEDEP}] )
@@ -662,7 +662,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -688,7 +688,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/moto-4.2.14[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/multipart[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )

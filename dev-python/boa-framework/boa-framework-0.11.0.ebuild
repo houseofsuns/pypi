@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/ax-platform[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev? ( dev-python/ax-platform[${PYTHON_USEDEP}] )
 	dev? ( dev-python/attr-utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )

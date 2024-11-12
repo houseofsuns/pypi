@@ -36,6 +36,6 @@ DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-inline-0.1.6[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/python-consul[${PYTHON_USEDEP}]
 	>=dev-python/deepmerge-0.0.4[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]

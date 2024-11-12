@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.18[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/wcwidth-0.2[${PYTHON_USEDEP}]
 	~dev-python/tomlkit-0.10[${PYTHON_USEDEP}]
 	~dev-python/watchfiles-0.16[${PYTHON_USEDEP}]

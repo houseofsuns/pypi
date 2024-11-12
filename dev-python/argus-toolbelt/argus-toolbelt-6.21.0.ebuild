@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="includes"
 DEPENDENCIES="dev-python/argus-api[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/colorlog-5.0[${PYTHON_USEDEP}]
 	<dev-python/terminaltables-4.0[${PYTHON_USEDEP}]

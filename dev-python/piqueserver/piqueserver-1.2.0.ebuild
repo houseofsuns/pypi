@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="from ssh"
 DEPENDENCIES="<dev-python/cython-1.0[${PYTHON_USEDEP}]
 	dev-python/twisted[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	dev-python/pyenet[${PYTHON_USEDEP}]

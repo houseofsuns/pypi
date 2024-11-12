@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/docker-3.6[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.7[${PYTHON_USEDEP}]
 	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.3[${PYTHON_USEDEP}]
-	~dev-python/jinja-2.10[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/sentry-sdk-0.5[${PYTHON_USEDEP}]
 	~dev-python/netifaces-0.10.9[${PYTHON_USEDEP}]
 	dev-python/ml-legit[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="s3"
-DEPENDENCIES="<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/hrflow[${PYTHON_USEDEP}]

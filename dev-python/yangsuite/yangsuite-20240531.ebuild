@@ -75,7 +75,7 @@ DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]
 	dev-python/xeger[${PYTHON_USEDEP}]
 	dev-python/pyang[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

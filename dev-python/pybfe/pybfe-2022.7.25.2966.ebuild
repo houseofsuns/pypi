@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="capirca"
 DEPENDENCIES="<dev-python/cryptography-4.0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-1.44[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pybatfish[${PYTHON_USEDEP}]

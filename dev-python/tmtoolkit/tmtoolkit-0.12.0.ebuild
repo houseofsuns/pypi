@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	all? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	all? ( dev-python/gmpy2[${PYTHON_USEDEP}] )
+	all? ( <dev-python/gmpy2-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
@@ -78,6 +78,6 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	textproc? ( <dev-python/loky-4.0[${PYTHON_USEDEP}] )
 	textproc_extra? ( <dev-python/pyicu-3.0[${PYTHON_USEDEP}] )
 	textproc_extra? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	topic_modeling_eval_extra? ( dev-python/gmpy2[${PYTHON_USEDEP}] )"
+	topic_modeling_eval_extra? ( <dev-python/gmpy2-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

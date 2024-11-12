@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/idaes-pse[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/jinja-3.1.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )

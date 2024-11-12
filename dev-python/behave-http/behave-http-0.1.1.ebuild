@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.5[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jpath[${PYTHON_USEDEP}]
 	dev-python/ensure[${PYTHON_USEDEP}]
 	dev-python/purl[${PYTHON_USEDEP}]

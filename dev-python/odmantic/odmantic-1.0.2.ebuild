@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-xdist-2.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.16.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-sugar-0.9.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/inline-snapshot[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/inline-snapshot-0.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/async-asgi-testclient[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncmock[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-6.2[${PYTHON_USEDEP}] )

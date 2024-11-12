@@ -27,7 +27,7 @@ IUSE="filecache flask toml yaml"
 DEPENDENCIES="dev-python/BTrees[${PYTHON_USEDEP}]
 	~dev-python/cachecontrol-0.12.14[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.5[${PYTHON_USEDEP}]
 	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	yaml? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/BTrees[${PYTHON_USEDEP}]
 	dev-python/inject[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/lazy-object-proxy-1.10.0[${PYTHON_USEDEP}]
 	filecache? ( ~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )
 	~dev-python/lxml-5.1.0[${PYTHON_USEDEP}]

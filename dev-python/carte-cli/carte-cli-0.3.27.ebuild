@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/amundsen-databuilder[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgres? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
-	<dev-python/jinja-2.12.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

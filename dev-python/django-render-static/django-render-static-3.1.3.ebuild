@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all jinja2 yaml"
 DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
-	jinja2? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	dev-python/django-typer[${PYTHON_USEDEP}]"

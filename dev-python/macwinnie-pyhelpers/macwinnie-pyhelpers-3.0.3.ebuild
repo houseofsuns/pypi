@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all browser csv"
-DEPENDENCIES="<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	all? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	csv? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/selenium-5.0.0[${PYTHON_USEDEP}] )

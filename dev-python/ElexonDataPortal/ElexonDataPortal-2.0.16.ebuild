@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.61.0[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/fastcore[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/jinja-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )

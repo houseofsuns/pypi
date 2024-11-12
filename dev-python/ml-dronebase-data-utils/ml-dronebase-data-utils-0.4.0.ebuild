@@ -44,6 +44,6 @@ DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	s3? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	voc? ( dev-python/ml-dronebase-data-utils[${PYTHON_USEDEP}] )
-	voc? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )"
+	voc? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SnapATAC2: Single-cell epigenomics analysis pipeline"
+DESCRIPTION="SnapATAC2: Single-cell epigenomics analysis pipeline [top-max 2.7.1]"
 
 HOMEPAGE="https://github.com/"
 LICENSE="MIT"

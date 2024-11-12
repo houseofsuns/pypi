@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="code dev docs test"
 DEPENDENCIES="dev-python/pylint[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/argcomplete[${PYTHON_USEDEP}]
 	code? ( dev-python/black[${PYTHON_USEDEP}] )

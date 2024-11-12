@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	test? ( ~dev-python/ipython_genutils-0.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/ipython-7.5.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jedi-0.13.3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/jinja-2.10[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/joblib-0.13.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jupyter-client-5.2.4[${PYTHON_USEDEP}] )

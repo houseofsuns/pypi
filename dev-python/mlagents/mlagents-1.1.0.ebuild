@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/grpcio-1.48.2[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
 	dev-python/mlagents-envs[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]

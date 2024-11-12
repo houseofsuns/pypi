@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/black-23.0.0[${PYTHON_USEDEP}]
 	dev-python/benchling-sdk[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

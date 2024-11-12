@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="eggroll pulsar rabbitmq spark testabc"
 DEPENDENCIES="dev-python/apsw[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.59.3[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]

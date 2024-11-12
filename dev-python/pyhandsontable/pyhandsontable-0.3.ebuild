@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/jinja-3.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/jupyter-2.0[${PYTHON_USEDEP}]
 	<dev-python/notebook-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for easily interacting with trained machine learning models"
+DESCRIPTION="Python library for easily interacting with trained machine learning models [top-max 5.5.0]"
 
 HOMEPAGE="https://github.com/gradio-app/gradio"
 LICENSE=""
@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/aiofiles-24.0[${PYTHON_USEDEP}]
 	dev-python/gradio-client[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.0[${PYTHON_USEDEP}]

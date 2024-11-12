@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/aws-sam-cli[${PYTHON_USEDEP}]
 	~dev-python/aws-sam-translator-1.42.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.18.0[${PYTHON_USEDEP}]

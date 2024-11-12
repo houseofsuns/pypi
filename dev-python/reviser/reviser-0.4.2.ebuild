@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="shell"
 DEPENDENCIES="shell? ( >=dev-python/boto3-1.34.45[${PYTHON_USEDEP}] )
 	shell? ( >=dev-python/colorama-0.4.4[${PYTHON_USEDEP}] )
-	shell? ( >=dev-python/jinja-2.11.2[${PYTHON_USEDEP}] )
+	shell? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	shell? ( >=dev-python/prompt-toolkit-3.0.8[${PYTHON_USEDEP}] )
 	shell? ( >=dev-python/pyyaml-5.3.0[${PYTHON_USEDEP}] )
 	shell? ( dev-python/pipper[${PYTHON_USEDEP}] )

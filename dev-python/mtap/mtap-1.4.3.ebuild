@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/grpcio-1.66.2[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
-	dev-python/grpcio-status[${PYTHON_USEDEP}]
+	~dev-python/grpcio-status-1.66.2[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.3.1[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	>=dev-python/tblib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
-	jinja? ( >=dev-python/jinja-3.0.0[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/httpx-0.27.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-3.6.1[${PYTHON_USEDEP}] )

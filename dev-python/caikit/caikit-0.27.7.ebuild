@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	dev-python/alchemy-logging[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	<dev-python/ijson-3.3.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/munch-5.0[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	dev-fmt? ( dev-python/pydeps[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/caikit[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	dev-proto3? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	dev-proto3? ( <dev-python/grpcio-1.64[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
 	dev-test? ( <dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}] )

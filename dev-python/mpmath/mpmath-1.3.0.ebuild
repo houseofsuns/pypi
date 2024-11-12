@@ -30,7 +30,7 @@ DEPENDENCIES="develop? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	develop? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	gmpy? ( dev-python/gmpy2[${PYTHON_USEDEP}] )
+	gmpy? ( >=dev-python/gmpy2-2.1.0_alpha4[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

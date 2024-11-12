@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.47.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-35.0[${PYTHON_USEDEP}]
-	dev-python/gmpy2[${PYTHON_USEDEP}]
+	>=dev-python/gmpy2-2.1.2[${PYTHON_USEDEP}]
 	dev-python/tenseal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

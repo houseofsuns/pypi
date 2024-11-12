@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="base-frozen bigquery dataflow"
-DEPENDENCIES="dev-python/grpcio-status[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/grpcio-status-1.48.2[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	>dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
 	dev-python/unittest-xml-reporting[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -50,10 +50,10 @@ DEPENDENCIES="dev-python/grpcio-status[${PYTHON_USEDEP}]
 	base-frozen? ( dev-python/google-crc32c[${PYTHON_USEDEP}] )
 	base-frozen? ( dev-python/google-resumable-media[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/googleapis-common-protos-1.56.0[${PYTHON_USEDEP}] )
-	base-frozen? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	base-frozen? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
+	base-frozen? ( ~dev-python/grpcio-1.50.0[${PYTHON_USEDEP}] )
+	base-frozen? ( ~dev-python/grpcio-status-1.48.2[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/idna-3.3[${PYTHON_USEDEP}] )
-	base-frozen? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	base-frozen? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/lazy-object-proxy-1.7.1[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/lxml-4.8.0[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )

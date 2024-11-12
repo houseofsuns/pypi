@@ -27,7 +27,7 @@ IUSE="jinja memcached redis sqlalchemy"
 DEPENDENCIES="sqlalchemy? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	dev-python/asgikit[${PYTHON_USEDEP}]
 	memcached? ( dev-python/emcache[${PYTHON_USEDEP}] )
-	jinja? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0[${PYTHON_USEDEP}]
 	redis? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )

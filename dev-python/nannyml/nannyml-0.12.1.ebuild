@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="db"
 DEPENDENCIES="<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/FLAML[${PYTHON_USEDEP}]
-	<dev-python/jinja-3.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]

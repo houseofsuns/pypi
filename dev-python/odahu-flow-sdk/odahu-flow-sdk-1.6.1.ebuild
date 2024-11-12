@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.24.3[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.7.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.2[${PYTHON_USEDEP}]

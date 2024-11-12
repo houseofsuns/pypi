@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="codehilite"
 DEPENDENCIES=">dev-python/flask-1.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.5[${PYTHON_USEDEP}]
 	>dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]

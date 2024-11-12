@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to Request Tracker API"
+DESCRIPTION="Python interface to Request Tracker API [top-max 3.3.0]"
 
 HOMEPAGE="https://github.com/python-rt/python-rt"
 LICENSE="GNU General Public License v3 GPLv3"

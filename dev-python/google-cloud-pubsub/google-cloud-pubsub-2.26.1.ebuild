@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="libcst"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/grpcio-2.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
-	dev-python/grpcio-status[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-status-1.33.2[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-api-1.27.0[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-sdk-1.27.0[${PYTHON_USEDEP}]

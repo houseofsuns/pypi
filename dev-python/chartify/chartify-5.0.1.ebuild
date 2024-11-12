@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-6.0[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.17.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jupyter-bokeh[${PYTHON_USEDEP}]
 	>=dev-python/tornado-6.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

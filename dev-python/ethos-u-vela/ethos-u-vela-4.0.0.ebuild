@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neural network model compiler for Arm Ethos-U NPUs"
+DESCRIPTION="Neural network model compiler for Arm Ethos-U NPUs [top-max 4.0.1]"
 
 HOMEPAGE="https://review.mlplatform.org/plugins/gitiles/ml/ethos-u/ethos-u-vela"
 LICENSE="Apache-2.0"

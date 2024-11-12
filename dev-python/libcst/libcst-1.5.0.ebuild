@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-rust-1.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/slotscheck[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyre-check[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

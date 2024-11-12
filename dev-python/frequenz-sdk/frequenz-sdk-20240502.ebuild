@@ -27,7 +27,7 @@ IUSE="dev dev-examples dev-flake8 dev-formatting dev-mkdocs dev-mypy dev-noxfile
 DEPENDENCIES="dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}]
 	dev-python/frequenz-client-microgrid[${PYTHON_USEDEP}]
 	<dev-python/google-api-python-client-3.0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]

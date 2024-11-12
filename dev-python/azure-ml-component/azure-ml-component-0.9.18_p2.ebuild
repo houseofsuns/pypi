@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	notebooks? ( <dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	notebooks? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
+	notebooks? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	notebooks? ( <dev-python/nbconvert-6.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/nteract-scrapbook[${PYTHON_USEDEP}] )

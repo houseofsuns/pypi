@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/todoist-api-python[${PYTHON_USEDEP}]
 	<dev-python/whatever-0.8[${PYTHON_USEDEP}]
 	<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/css-inline[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/structlog-25.0.0[${PYTHON_USEDEP}]
 	dev-python/python-decouple-typed[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

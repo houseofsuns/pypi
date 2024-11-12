@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/graphviz-1.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-6.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/jinja-3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )

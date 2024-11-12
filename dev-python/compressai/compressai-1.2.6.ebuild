@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	doc? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	pointcloud? ( dev-python/pointops-yoda[${PYTHON_USEDEP}] )
@@ -69,6 +69,6 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	all? ( dev-python/pointops-yoda[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	all? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )"
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

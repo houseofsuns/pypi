@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tree crown prediction using deep learning retinanets"
+DESCRIPTION="Tree crown prediction using deep learning retinanets [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/Weecology/DeepForest"
 LICENSE="MIT"

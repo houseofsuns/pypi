@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-1.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	aliyun-oss? ( dev-python/aliyunstoreplugin[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}] )

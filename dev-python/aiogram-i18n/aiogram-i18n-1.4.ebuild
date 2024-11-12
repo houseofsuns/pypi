@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/aiogram[${PYTHON_USEDEP}]
 	test? ( ~dev-python/libcst-1.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

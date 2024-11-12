@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pysaml2[${PYTHON_USEDEP}]
 	~dev-python/xmlschema-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/spid-compliant-certificates[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

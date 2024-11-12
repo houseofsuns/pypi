@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/databricks-cli[${PYTHON_USEDEP}]
 	<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

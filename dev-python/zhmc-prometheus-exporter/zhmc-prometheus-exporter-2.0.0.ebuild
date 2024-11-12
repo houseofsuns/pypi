@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/zhmcclient[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.19[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.18.6[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pyrsistent-0.20.0[${PYTHON_USEDEP}]"

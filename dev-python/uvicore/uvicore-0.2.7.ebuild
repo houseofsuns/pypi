@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/anyio-4.4.0[${PYTHON_USEDEP}]
 	web? ( <dev-python/uvicorn-0.28.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	web? ( <dev-python/aiofiles-23.3.0[${PYTHON_USEDEP}] )
-	web? ( <dev-python/jinja-3.2.0[${PYTHON_USEDEP}] )
+	web? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	web? ( <dev-python/requests-2.32.0[${PYTHON_USEDEP}] )
 	web? ( <dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
 	web? ( <dev-python/uvloop-0.20.0[${PYTHON_USEDEP}] )

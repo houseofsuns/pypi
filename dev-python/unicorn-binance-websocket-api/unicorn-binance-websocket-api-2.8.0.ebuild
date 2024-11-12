@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python SDK by LUCIT to use the Binance Websocket API\`s (com+testnet, com-margin+testnet, com-isolated_margin+testnet, com-futures+testnet, com-coin_futures, us, tr, dex/chain+testnet) in a simple, fast, flexible, robust and fully-featured way."
+DESCRIPTION="A Python SDK by LUCIT to use the Binance Websocket API\`s (com+testnet, com-margin+testnet, com-isolated_margin+testnet, com-futures+testnet, com-coin_futures, us, tr, dex/chain+testnet) in a simple, fast, flexible, robust and fully-featured way. [top-max 2.8.1]"
 
 HOMEPAGE="https://github.com/LUCIT-Systems-and-Development/unicorn-binance-websocket-api"
 LICENSE="LSOSL - LUCIT Synergetic Open Source License"

@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	pipeline? ( dev-python/azure-ai-ml[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	pipeline? ( ~dev-python/jinja-3.0.0[${PYTHON_USEDEP}] )
+	pipeline? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
 	promptflow? ( dev-python/promptflow[${PYTHON_USEDEP}] )

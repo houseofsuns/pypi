@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	<=dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	app-scaffold? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
-	app-scaffold? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )
+	app-scaffold? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	app-scaffold? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev-python/benchling-api-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

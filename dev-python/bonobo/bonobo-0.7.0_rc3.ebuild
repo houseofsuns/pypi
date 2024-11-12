@@ -27,7 +27,7 @@ IUSE="dev docker jupyter sqlalchemy"
 DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	~dev-python/fs-2.4[${PYTHON_USEDEP}]
 	~dev-python/graphviz-0.8.4[${PYTHON_USEDEP}]
-	~dev-python/jinja-2.10[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/mondrian[${PYTHON_USEDEP}]
 	~dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.6[${PYTHON_USEDEP}]

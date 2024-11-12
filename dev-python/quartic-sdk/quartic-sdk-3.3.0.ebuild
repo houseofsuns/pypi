@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	dev-python/ipynbname[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.18.1[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.19.1[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/jupyter-client-7.2.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-core-5.7.2[${PYTHON_USEDEP}]
@@ -198,7 +198,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( dev-python/ipynbname[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/ipython-8.18.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/jedi-0.19.1[${PYTHON_USEDEP}] )
-	complete? ( ~dev-python/jinja-3.0.3[${PYTHON_USEDEP}] )
+	complete? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/joblib-1.3.2[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/jupyter-client-7.2.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/jupyter-core-5.7.2[${PYTHON_USEDEP}] )
@@ -282,7 +282,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/flatbuffers-2.0.7[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/gast-0.4.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/google-pasta-0.2.0[${PYTHON_USEDEP}] )
-	complete? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/grpcio-1.62.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/h2o[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/h5py-3.10.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/keras[${PYTHON_USEDEP}] )

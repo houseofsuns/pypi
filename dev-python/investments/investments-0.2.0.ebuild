@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.10[${PYTHON_USEDEP}]
 	dev-python/aiomoex[${PYTHON_USEDEP}]
 	<dev-python/weasyprint-61.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

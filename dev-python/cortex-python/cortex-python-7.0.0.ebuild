@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	models-dev? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	models-dev? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
-	models-dev? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
+	models-dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	models-dev? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	models-runtime? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	certifai? ( dev-python/certifai-evaluator-plugin[${PYTHON_USEDEP}] )

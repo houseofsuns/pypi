@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for the phanterpwadeveloper framework"
+DESCRIPTION="Tools for the phanterpwadeveloper framework [top-max 13.14.10]"
 
 HOMEPAGE="https://github.com/PhanterJR/phanterpwa"
 LICENSE="MIT"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev doc minify"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]

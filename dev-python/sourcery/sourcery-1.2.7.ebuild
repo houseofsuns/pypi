@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for creating high fidelity source catalogues from radio interferometric datasets [top-max 1.23.0]"
+DESCRIPTION="Tools for creating high fidelity source catalogues from radio interferometric datasets [top-max 1.24.0]"
 
 HOMEPAGE="https://github.com/radio-astro/sourcery"
 LICENSE="GPL-2"

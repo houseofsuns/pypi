@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/attrs-24.2.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/peewee-3.15[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cython-3.0.11[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/rich-13.1.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/apsw-3.46.0.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pillow-10.4.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-2.0[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/attrs-24.2.0[${PYTHON_USEDEP}]
 	orm? ( >=dev-python/apsw-3.46.1.0[${PYTHON_USEDEP}] )
 	pyside? ( >=dev-python/pyside6-6.8[${PYTHON_USEDEP}] )
 	pyside? ( >=dev-python/pyqtgraph-0.13.7[${PYTHON_USEDEP}] )
-	pyside? ( >=dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	pyside? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	rich? ( >=dev-python/rich-13.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python SDK by LUCIT for accessing and managing multiple local Binance order books with Python in a simple, fast, flexible, robust and fully featured way. . [top-max 2.4.1]"
+DESCRIPTION="A Python SDK by LUCIT for accessing and managing multiple local Binance order books with Python in a simple, fast, flexible, robust and fully featured way. . [top-max 2.8.0]"
 
 HOMEPAGE="https://github.com/LUCIT-Systems-and-Development/unicorn-binance-local-depth-cache"
 LICENSE="LSOSL - LUCIT Synergetic Open Source License"

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
-	doc? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	jpype? ( dev-python/JPype1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

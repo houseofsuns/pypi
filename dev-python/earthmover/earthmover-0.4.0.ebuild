@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="excel graph parquet postgres sql xml"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-44.0.0[${PYTHON_USEDEP}]

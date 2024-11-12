@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/arrow-0.12.1[${PYTHON_USEDEP}]
 	dev-python/invpy-libs[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.8[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pyzmail36[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-cache-0.4.13[${PYTHON_USEDEP}]

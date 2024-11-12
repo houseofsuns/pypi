@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/environmental-override[${PYTHON_USEDEP}]
-	<dev-python/jinja-3.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	<dev-python/prettytable-1.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]

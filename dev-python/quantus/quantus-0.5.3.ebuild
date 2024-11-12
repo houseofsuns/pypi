@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tf-explain[${PYTHON_USEDEP}] )

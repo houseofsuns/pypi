@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/h2-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	dev? ( dev-python/googleapis-common-protos[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/jiwer[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-7.4.1[${PYTHON_USEDEP}] )

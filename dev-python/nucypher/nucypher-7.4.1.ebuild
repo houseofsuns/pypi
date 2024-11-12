@@ -64,7 +64,7 @@ DEPENDENCIES="~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	~dev-python/idna-3.7[${PYTHON_USEDEP}]
 	~dev-python/incremental-24.7.2[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-specifications-2023.12.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
@@ -191,7 +191,7 @@ DEPENDENCIES="~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/ipython-8.18.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jedi-0.19.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jsonschema-specifications-2023.12.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lazyasd[${PYTHON_USEDEP}] )

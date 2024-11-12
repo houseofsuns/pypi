@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/types-psutil-5.9.5.16[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
 	>=dev-python/zeep-4.2.1[${PYTHON_USEDEP}]
 	dev-python/pronto[${PYTHON_USEDEP}]
 	dev-python/fastobo[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.6[${PYTHON_USEDEP}]
 	development? ( dev-python/pip-tools[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/validate_email[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.11.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/astunparse[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

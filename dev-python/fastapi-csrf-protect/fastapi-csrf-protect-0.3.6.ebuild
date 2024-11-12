@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	examples? ( >=dev-python/jinja-3.0.1[${PYTHON_USEDEP}] )
+	examples? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	examples? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )

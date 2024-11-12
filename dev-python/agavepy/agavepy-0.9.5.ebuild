@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/jinja-2.7.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/backports-ssl_match_hostname[${PYTHON_USEDEP}]
 	>=dev-python/py-1.4.26[${PYTHON_USEDEP}]
 	>=dev-python/pytest-2.7.0[${PYTHON_USEDEP}]

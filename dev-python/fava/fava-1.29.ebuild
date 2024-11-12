@@ -27,7 +27,7 @@ IUSE="dev excel old-deps-pins"
 DEPENDENCIES="<dev-python/Babel-3.0[${PYTHON_USEDEP}]
 	<dev-python/flask-babel-5.0[${PYTHON_USEDEP}]
 	<dev-python/flask-4.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-4.0[${PYTHON_USEDEP}]
 	dev-python/beancount[${PYTHON_USEDEP}]
 	<dev-python/cheroot-11.0[${PYTHON_USEDEP}]

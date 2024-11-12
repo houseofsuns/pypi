@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/cython-0.25[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/myelin[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/seaborn-0.7[${PYTHON_USEDEP}] )

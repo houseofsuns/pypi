@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/boto3-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/prettytable-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
 	<dev-python/jmespath-1.0.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.7[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

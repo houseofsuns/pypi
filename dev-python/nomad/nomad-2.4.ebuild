@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/opster[${PYTHON_USEDEP}]
 	test? ( ~dev-python/sqlalchemy-1.4.52[${PYTHON_USEDEP}] )
 	test? ( dev-python/prysk[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )"
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

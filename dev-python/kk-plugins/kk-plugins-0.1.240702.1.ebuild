@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/redis-4.5.4[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/prettytable-3.8.0[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/setuptools-60.2.0[${PYTHON_USEDEP}]
 	dev-python/xlwings[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]"

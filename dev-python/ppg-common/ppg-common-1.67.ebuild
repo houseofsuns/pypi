@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/jinja-2.9.6[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.1.9[${PYTHON_USEDEP}]
 	~dev-python/requests-2.13.0[${PYTHON_USEDEP}]

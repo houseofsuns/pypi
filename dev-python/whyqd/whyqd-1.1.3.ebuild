@@ -36,6 +36,6 @@ DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]"
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

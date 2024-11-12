@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/gunicorn[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.0[${PYTHON_USEDEP}]
-	dev-python/multipart[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/multipart-0.2.4[${PYTHON_USEDEP}]
 	dev-python/proper-cli[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/jinja-3.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flit-3.9[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/keyring-25.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

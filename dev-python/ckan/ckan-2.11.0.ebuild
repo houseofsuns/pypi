@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/setuptools-44.1.0[${PYTHON_USEDEP}]
 	requirements? ( ~dev-python/idna-3.7[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	requirements? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/lxml-5.2.2[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/mako-1.3.5[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/markdown-3.6[${PYTHON_USEDEP}] )

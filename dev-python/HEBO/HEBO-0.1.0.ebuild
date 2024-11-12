@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Heteroscedastic Evolutionary Bayesian Optimisation [top-max 0.3.5]"
+DESCRIPTION="Heteroscedastic Evolutionary Bayesian Optimisation [top-max 0.3.6]"
 
 HOMEPAGE="https://github.com/Yard1/noah-research/tree/master/HEBO"
 LICENSE="MIT"

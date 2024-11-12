@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/websocket-client-1.8[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/deprogressapi[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	backend? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )

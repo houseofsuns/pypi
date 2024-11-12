@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/bashlex[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
 	dev? ( dev-python/validate-pyproject[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.6.1[${PYTHON_USEDEP}] )

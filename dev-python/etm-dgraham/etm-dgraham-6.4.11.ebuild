@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/icalendar-4.0.3[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/lorem[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0.2[${PYTHON_USEDEP}]

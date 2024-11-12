@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/chaostoolkit-lib[${PYTHON_USEDEP}]
 	dev-python/chaostoolkit-addons[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.8.10[${PYTHON_USEDEP}]
 	>=dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.64.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )

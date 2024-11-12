@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/rpaframework-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-videointelligence[${PYTHON_USEDEP}]
 	dev-python/google-cloud-vision[${PYTHON_USEDEP}]
 	dev-python/google-cloud-documentai[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]"
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -88,7 +88,7 @@ DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	fe? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	filemanager? ( >=dev-python/boto3-1.19.12[${PYTHON_USEDEP}] )
 	filemanager? ( dev-python/minio[${PYTHON_USEDEP}] )
-	fs? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
+	fs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	fs? ( <dev-python/sqlalchemy-1.4.32[${PYTHON_USEDEP}] )
 	fs? ( dev-python/delta[${PYTHON_USEDEP}] )
 	fs? ( dev-python/delta-spark[${PYTHON_USEDEP}] )

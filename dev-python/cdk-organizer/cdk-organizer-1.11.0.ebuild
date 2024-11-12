@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/constructs[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	terraform? ( dev-python/cdktf[${PYTHON_USEDEP}] )
 	aws? ( dev-python/aws-cdk-lib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

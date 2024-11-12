@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/google[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.53.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]"

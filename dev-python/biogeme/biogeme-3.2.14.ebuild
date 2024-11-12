@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.25.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/tox-3.27.1[${PYTHON_USEDEP}] )"

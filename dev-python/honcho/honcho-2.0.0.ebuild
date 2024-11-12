@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs export"
 DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	export? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )"
+	export? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

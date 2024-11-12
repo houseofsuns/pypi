@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ansible openstack-image-manager"
 DEPENDENCIES="dev-python/ClusterShell[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	dev-python/ara[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]

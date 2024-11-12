@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES=">=dev-python/jinja-3.1.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.3.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )"

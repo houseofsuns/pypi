@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="<dev-python/jinja-3.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pluggy-1.5.0[${PYTHON_USEDEP}]
 	<=dev-python/rich-13.7.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/anthropic[${PYTHON_USEDEP}]
 	~dev-python/diskcache-5.6.1[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.12.2[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/shadow-scholar[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="reporting"
-DEPENDENCIES=">=dev-python/jinja-3.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	reporting? ( <dev-python/pyparsing-3.1.0[${PYTHON_USEDEP}] )
 	reporting? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

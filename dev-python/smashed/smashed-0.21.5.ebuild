@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/necessary[${PYTHON_USEDEP}]
 	>=dev-python/ftfy-6.1.1[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	all? ( dev-python/smashed[${PYTHON_USEDEP}] )
 	all? ( dev-python/smashed[${PYTHON_USEDEP}] )

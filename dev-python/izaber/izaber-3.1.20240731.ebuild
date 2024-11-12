@@ -29,7 +29,7 @@ DEPENDENCIES="<=dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	email? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
 	email? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )"

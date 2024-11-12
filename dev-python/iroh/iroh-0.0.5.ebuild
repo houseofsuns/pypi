@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bytes. Distributed. [top-max 0.26.0]"
+DESCRIPTION="Bytes. Distributed. [top-max 0.28.1]"
 
 HOMEPAGE="https://github.com/n0-computer/iroh"
 LICENSE="MIT OR Apache-2.0"

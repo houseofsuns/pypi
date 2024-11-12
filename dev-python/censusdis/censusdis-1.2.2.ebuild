@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/divintseg[${PYTHON_USEDEP}]
 	explore? ( dev-python/folium[${PYTHON_USEDEP}] )
 	dev-python/pyogrio[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	jupyterlab? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )
 	jupyterlab? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
 	<dev-python/numpy-3.0.0[${PYTHON_USEDEP}]"

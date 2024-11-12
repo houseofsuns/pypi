@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ssh"
 DEPENDENCIES="dev-python/funcy[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/miutil[${PYTHON_USEDEP}]
 	dev-python/python-terraform[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]

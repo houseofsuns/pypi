@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/grpcio-1.59.0[${PYTHON_USEDEP}]
 	>=dev-python/google-api-python-client-2.102.0[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
 	>=dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]

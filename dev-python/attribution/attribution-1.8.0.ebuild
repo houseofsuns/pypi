@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.7[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/packaging-16.2[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.7.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-24.4.2[${PYTHON_USEDEP}] )

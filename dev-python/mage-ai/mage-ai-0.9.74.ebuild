@@ -27,7 +27,7 @@ IUSE="ai all azure bigquery chroma clickhouse dbt google-cloud-storage hdf5 mysq
 DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	~dev-python/Faker-4.14.0[${PYTHON_USEDEP}]
 	~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.3.0[${PYTHON_USEDEP}]
 	~dev-python/PyGithub-1.59.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]

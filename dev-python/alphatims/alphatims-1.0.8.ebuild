@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	plotting-stable? ( dev-python/datashader[${PYTHON_USEDEP}] )
 	plotting-stable? ( dev-python/hvplot[${PYTHON_USEDEP}] )
 	plotting-stable? ( ~dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
-	plotting-stable? ( ~dev-python/jinja-3.0.2[${PYTHON_USEDEP}] )
+	plotting-stable? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/h5py-3.8.0[${PYTHON_USEDEP}] )
 	stable? ( dev-python/numba[${PYTHON_USEDEP}] )

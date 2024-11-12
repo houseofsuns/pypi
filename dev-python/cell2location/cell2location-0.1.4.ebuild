@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/pyro-ppl[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

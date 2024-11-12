@@ -36,6 +36,6 @@ DEPENDENCIES=">=dev-python/httptools-0.5[${PYTHON_USEDEP}]
 	full? ( <dev-python/cryptography-41.1.0[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/websockets-10.3[${PYTHON_USEDEP}] )
-	jinja? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )"
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

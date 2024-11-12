@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/azure-ai-resources[${PYTHON_USEDEP}]
 	qa-generation? ( dev-python/openai[${PYTHON_USEDEP}] )
 	simulator? ( >=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/aiohttp-retry[${PYTHON_USEDEP}] )
-	simulator? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
+	simulator? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	simulator? ( <dev-python/json5-1.0[${PYTHON_USEDEP}] )
 	simulator? ( <dev-python/jsonpath-ng-2.0[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/msal[${PYTHON_USEDEP}] )

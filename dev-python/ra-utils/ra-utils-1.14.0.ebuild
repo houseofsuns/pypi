@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all frozendict headers jinja prometheus-client pydantic sentry"
 DEPENDENCIES="~dev-python/more-itertools-9.1.0[${PYTHON_USEDEP}]
-	jinja? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	pydantic? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	sentry? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	headers? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )

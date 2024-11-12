@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.3[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.10.1[${PYTHON_USEDEP}]
 	~dev-python/click-7.0[${PYTHON_USEDEP}]
-	~dev-python/jinja-2.10.1[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	~dev-python/pytest-4.3.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]"

@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )

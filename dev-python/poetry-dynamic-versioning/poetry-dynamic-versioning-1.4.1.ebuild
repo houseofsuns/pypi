@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="plugin"
 DEPENDENCIES="dev-python/dunamai[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.4[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	plugin? ( <dev-python/poetry-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

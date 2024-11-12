@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/colcon-core[${PYTHON_USEDEP}]
 	dev-python/colcon-bash[${PYTHON_USEDEP}]
 	dev-python/colcon-python-setup-py[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.9.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-30.3.0[${PYTHON_USEDEP}]
 	>=dev-python/distro-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

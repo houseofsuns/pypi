@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azure gcp"
 DEPENDENCIES="gcp? ( dev-python/c7n-gcp[${PYTHON_USEDEP}] )
 	azure? ( dev-python/c7n-azure[${PYTHON_USEDEP}] )
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.35.21[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
@@ -185,8 +185,8 @@ DEPENDENCIES="gcp? ( dev-python/c7n-gcp[${PYTHON_USEDEP}] )
 	azure? ( ~dev-python/cffi-1.17.1[${PYTHON_USEDEP}] )
 	gcp? ( ~dev-python/cffi-1.17.1[${PYTHON_USEDEP}] )
 	gcp? ( ~dev-python/googleapis-common-protos-1.65.0[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
+	gcp? ( ~dev-python/grpcio-1.66.1[${PYTHON_USEDEP}] )
+	gcp? ( ~dev-python/grpcio-status-1.66.1[${PYTHON_USEDEP}] )
 	gcp? ( ~dev-python/pyparsing-3.1.4[${PYTHON_USEDEP}] )
 	gcp? ( ~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-nspkg[${PYTHON_USEDEP}] )

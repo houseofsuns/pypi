@@ -36,9 +36,9 @@ DEPENDENCIES="sqlalchemy? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	dev-python/fast-query-parsers[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.22[${PYTHON_USEDEP}]
-	jinja? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
-	standard? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	standard? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	standard? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	full? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )

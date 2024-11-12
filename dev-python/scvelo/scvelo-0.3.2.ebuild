@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
 	docs? ( <=dev-python/sphinx-autodoc-typehints-1.6[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxcontrib-bibtex-2.3.0[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/jinja-3.1[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )

@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/facebook-business[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.7.7[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.53.2[${PYTHON_USEDEP}]
 	~dev-python/httplib2-0.19.0[${PYTHON_USEDEP}]
 	dev-python/validate_email[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}]
@@ -67,7 +67,7 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/dbt-redshift[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.0.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/us[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

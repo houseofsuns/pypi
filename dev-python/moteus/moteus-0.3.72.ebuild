@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="moteus brushless controller library and tools"
+DESCRIPTION="moteus brushless controller library and tools [top-max 0.3.74]"
 
 HOMEPAGE="https://github.com/mjbots/moteus"
 LICENSE=""

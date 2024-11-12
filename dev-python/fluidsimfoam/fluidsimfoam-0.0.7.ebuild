@@ -30,7 +30,7 @@ DEPENDENCIES="qt? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )
 	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	jupyter? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyterlab-myst[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupytext[${PYTHON_USEDEP}] )

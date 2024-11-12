@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/ujson-5.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/black-25.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/jinja-3.1.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydash[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

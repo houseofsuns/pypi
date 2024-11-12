@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/Faker-16.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-assume[${PYTHON_USEDEP}]
 	dev-python/pytest-dependency[${PYTHON_USEDEP}]
-	<dev-python/pytest-lazy-fixture-0.7.0[${PYTHON_USEDEP}]
+	dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}]
 	<dev-python/pytest-ordering-0.7[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"

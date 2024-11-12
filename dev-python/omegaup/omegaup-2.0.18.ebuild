@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	testing? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	testing? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/astunparse[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/nbsphinx-0.9[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipykernel-6.23[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/jinja-3.1[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-bibtex-2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

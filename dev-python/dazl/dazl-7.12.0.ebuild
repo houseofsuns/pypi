@@ -27,7 +27,7 @@ IUSE="oauth prometheus pygments server tls-testing"
 DEPENDENCIES="server? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/google-auth[${PYTHON_USEDEP}] )
 	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.32.0[${PYTHON_USEDEP}]
 	oauth? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]

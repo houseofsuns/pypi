@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pydata-sphinx-theme-1.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/markupsafe-3.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/twine-6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )

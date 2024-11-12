@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/whichcraft[${PYTHON_USEDEP}]
-	jinja2? ( >=dev-python/jinja-2.10[${PYTHON_USEDEP}] )"
+	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

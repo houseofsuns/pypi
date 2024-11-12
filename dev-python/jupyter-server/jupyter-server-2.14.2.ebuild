@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/anyio-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/argon2-cffi-21.1[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-client-7.4.4[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-core-4.12[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-events-0.9.0[${PYTHON_USEDEP}]

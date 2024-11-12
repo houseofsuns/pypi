@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/ipython-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.1.2[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

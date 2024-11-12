@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/funcy[${PYTHON_USEDEP}]
 	dev? ( >dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
+	gcp? ( ~dev-python/grpcio-status-1.48.2[${PYTHON_USEDEP}] )
 	jsonschema? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
 	jsonschema? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )

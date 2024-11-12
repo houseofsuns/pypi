@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	<=dev-python/jinja-2.11.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/tipset[${PYTHON_USEDEP}]
 	<=dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	<=dev-python/packaging-21.3[${PYTHON_USEDEP}]"

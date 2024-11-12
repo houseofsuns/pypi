@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/autopep8-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/pycodestyle-2.12.0[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

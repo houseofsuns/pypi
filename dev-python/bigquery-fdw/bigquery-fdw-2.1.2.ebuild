@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.21.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-status[${PYTHON_USEDEP}]"
+	~dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-status-1.50.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="all"
 DEPENDENCIES="dev-python/coola[${PYTHON_USEDEP}]
 	dev-python/grizz[${PYTHON_USEDEP}]
 	dev-python/iden[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	dev-python/objectory[${PYTHON_USEDEP}]

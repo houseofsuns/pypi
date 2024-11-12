@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc forecast installer jupyterlab optimization"
 DEPENDENCIES="dev-python/fundamentalanalysis[${PYTHON_USEDEP}]
 	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Quandl[${PYTHON_USEDEP}]
 	optimization? ( dev-python/Riskfolio-Lib[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/fundamentalanalysis[${PYTHON_USEDEP}]
 	dev-python/finvizfinance[${PYTHON_USEDEP}]
 	dev-python/fred[${PYTHON_USEDEP}]
 	dev-python/fredapi[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
 	dev-python/intrinio-sdk[${PYTHON_USEDEP}]

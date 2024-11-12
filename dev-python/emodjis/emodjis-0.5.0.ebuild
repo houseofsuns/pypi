@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/django-4.2[${PYTHON_USEDEP}]
 	~dev-python/django-cors-headers-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/psycopg-3.1.10[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
-	dev-python/django-bootstrap5[${PYTHON_USEDEP}]
+	~dev-python/django-bootstrap5-23.0[${PYTHON_USEDEP}]
 	dev-python/django-unicorn[${PYTHON_USEDEP}]
 	dev-python/django-tailwind[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

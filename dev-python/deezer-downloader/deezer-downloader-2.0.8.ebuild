@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-mpd2-4.0.0[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/Flask-AutoIndex[${PYTHON_USEDEP}]
 	dev-python/giphypop[${PYTHON_USEDEP}]
 	<dev-python/waitress-3.0.0[${PYTHON_USEDEP}]"

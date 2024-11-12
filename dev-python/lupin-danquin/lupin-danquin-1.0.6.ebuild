@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

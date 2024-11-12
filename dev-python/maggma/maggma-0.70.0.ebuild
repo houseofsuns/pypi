@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-material-8.3.9[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-minify-plugin-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.18.1[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/jinja-3.2.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	memray? ( dev-python/memray[${PYTHON_USEDEP}] )
 	mongogrant? ( dev-python/mongogrant[${PYTHON_USEDEP}] )
 	montydb? ( dev-python/montydb[${PYTHON_USEDEP}] )

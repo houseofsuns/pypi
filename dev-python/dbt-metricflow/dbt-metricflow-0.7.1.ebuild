@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/dbt-semantic-interfaces[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/metricflow[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
 	dbt-bigquery? ( dev-python/dbt-bigquery[${PYTHON_USEDEP}] )

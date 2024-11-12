@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/deepomatic-rpc-protobuf[${PYTHON_USEDEP}]
 	<dev-python/kombu-5.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]"
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

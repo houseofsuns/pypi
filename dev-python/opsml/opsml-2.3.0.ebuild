@@ -37,7 +37,7 @@ DEPENDENCIES="auth? ( ~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
-	server? ( <dev-python/jinja-4.0.0[${PYTHON_USEDEP}] )
+	server? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	tf-onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	sklearn-onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )

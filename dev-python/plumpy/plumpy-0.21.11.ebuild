@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
 	~dev-python/nest-asyncio-1.5[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/ipython-7.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.5[${PYTHON_USEDEP}] )

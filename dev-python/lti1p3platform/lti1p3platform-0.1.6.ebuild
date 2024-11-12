@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/jwcrypto-1.4.2[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

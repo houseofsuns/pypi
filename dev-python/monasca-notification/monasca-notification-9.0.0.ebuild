@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.8.1[${PYTHON_USEDEP}]
-	jira_plugin? ( >=dev-python/jinja-2.10[${PYTHON_USEDEP}] )
+	jira_plugin? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/Babel-2.3.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/sqlalchemy-1.0.10[${PYTHON_USEDEP}] )

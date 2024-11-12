@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pytz-2022.7[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.0[${PYTHON_USEDEP}]
 	>=dev-python/Babel-2.12[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

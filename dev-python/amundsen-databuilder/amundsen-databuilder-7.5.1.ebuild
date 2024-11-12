@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/elasticsearch-8.0[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
 	>=dev-python/httplib2-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/text-unidecode-1.3[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
 	>=dev-python/responses-0.10.6[${PYTHON_USEDEP}]
 	~dev-python/jsonref-0.2[${PYTHON_USEDEP}]
@@ -69,7 +69,7 @@ DEPENDENCIES="<dev-python/elasticsearch-8.0[${PYTHON_USEDEP}]
 	all? ( dev-python/unicodecsv[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/httplib2-0.18.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/text-unidecode-1.3[${PYTHON_USEDEP}] )
-	all? ( <dev-python/jinja-4.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/pandas-2.2.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/responses-0.10.6[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/jsonref-0.2[${PYTHON_USEDEP}] )

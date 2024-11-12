@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs readme"
 DEPENDENCIES="dev-python/cmocean[${PYTHON_USEDEP}]
-	dev-python/gmpy2[${PYTHON_USEDEP}]
+	~dev-python/gmpy2-2.0[${PYTHON_USEDEP}]
 	~dev-python/hypothesis-6.0[${PYTHON_USEDEP}]
 	dev-python/libigl[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]

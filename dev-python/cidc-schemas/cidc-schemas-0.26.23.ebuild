@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/dateparser[${PYTHON_USEDEP}]
 	~dev-python/deepdiff-4.3.0[${PYTHON_USEDEP}]
 	~dev-python/jsonpointer-2.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/cidc-ngs-pipeline-api[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/regex-2022.3.2[${PYTHON_USEDEP}]"

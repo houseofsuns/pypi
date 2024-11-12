@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/xcffib-1.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pytest-lazy-fixture-1.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytest-lazy-fixture[${PYTHON_USEDEP}] )

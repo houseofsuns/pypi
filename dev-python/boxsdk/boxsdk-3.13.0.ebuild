@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pytest-lazy-fixture-1.0.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	test? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

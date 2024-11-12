@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/django-3.1[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
 	dev-python/django-includes[${PYTHON_USEDEP}]
-	~dev-python/jinja-2.11[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/mondrian[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )

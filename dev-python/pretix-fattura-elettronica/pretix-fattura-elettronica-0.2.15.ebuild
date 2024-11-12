@@ -40,6 +40,6 @@ DEPENDENCIES=">=dev-python/pydantic-2.5.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/devtools[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-69.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/inline-snapshot[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/inline-snapshot-0.10.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

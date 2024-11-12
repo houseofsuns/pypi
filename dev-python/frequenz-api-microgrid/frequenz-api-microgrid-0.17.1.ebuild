@@ -27,7 +27,7 @@ IUSE="dev dev-flake8 dev-formatting dev-mkdocs dev-mypy dev-noxfile dev-pylint d
 DEPENDENCIES="dev-python/frequenz-api-common[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}] )
 	dev-flake8? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )

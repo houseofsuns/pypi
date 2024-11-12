@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	backend-numpy? ( dev-python/cssfinder-backend-numpy[${PYTHON_USEDEP}] )
 	backend-rust? ( dev-python/cssfinder-backend-rust[${PYTHON_USEDEP}] )
 	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/jsonref-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

@@ -146,7 +146,7 @@ DEPENDENCIES="dev-python/URLObject[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/idna-3.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/kiwisolver-1.4.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lazy[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )

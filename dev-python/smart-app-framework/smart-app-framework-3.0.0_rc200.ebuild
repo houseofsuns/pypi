@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ml"
-DEPENDENCIES="~dev-python/jinja-3.0.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	dev-python/boto[${PYTHON_USEDEP}]

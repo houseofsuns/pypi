@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	docs? ( dev-python/rtds-action[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	docs? ( <=dev-python/jinja-2.11.3[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

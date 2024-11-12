@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Better looking tables for matplotlib [top-max 0.2.6]"
+DESCRIPTION="Better looking tables for matplotlib [top-max 0.2.7]"
 
 HOMEPAGE="https://github.com/swfiua/blume"
 LICENSE=""

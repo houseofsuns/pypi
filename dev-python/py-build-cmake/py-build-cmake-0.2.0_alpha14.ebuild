@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/distlib-0.3.5[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	test? ( <dev-python/nox-2024.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )"
+	test? ( dev-python/jinja[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

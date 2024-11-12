@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Navigator Web Framework based on aiohttp, with batteries included. [top-max 2.10.30]"
+DESCRIPTION="Navigator Web Framework based on aiohttp, with batteries included. [top-max 2.11.4]"
 
 HOMEPAGE="https://github.com/phenobarbital/navigator"
 LICENSE="BSD"
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	~dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jrpc[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
 	dev-python/aiohttp-sse[${PYTHON_USEDEP}]
 	dev-python/aiohttp-utils[${PYTHON_USEDEP}]

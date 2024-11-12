@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-5.1[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
 	<=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
-	>=dev-python/jinja-2.10[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/docker-5.0[${PYTHON_USEDEP}]
 	dev-python/docker-compose[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

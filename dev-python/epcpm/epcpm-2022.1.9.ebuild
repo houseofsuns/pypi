@@ -47,6 +47,6 @@ DEPENDENCIES="~dev-python/attrs-20.2.0[${PYTHON_USEDEP}]
 	dev-python/python-can[${PYTHON_USEDEP}]
 	~dev-python/pytest-3.8.2[${PYTHON_USEDEP}]
 	~dev-python/pytest-qt-3.2.1[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

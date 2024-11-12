@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/httpx-0.23.3[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/hyperframe-6.0.1[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	locked? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )

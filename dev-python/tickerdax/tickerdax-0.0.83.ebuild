@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/websockets-12.0.0[${PYTHON_USEDEP}]
 	dev-python/art[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0.0[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sentry-sdk-1.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

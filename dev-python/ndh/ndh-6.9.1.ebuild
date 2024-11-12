@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django-autoslug[${PYTHON_USEDEP}]
-	dev-python/django-bootstrap5[${PYTHON_USEDEP}]"
+	<dev-python/django-bootstrap5-24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

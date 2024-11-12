@@ -61,7 +61,7 @@ DEPENDENCIES="~dev-python/twisted-24.3.0[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-8.0.4[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-8.0.2[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

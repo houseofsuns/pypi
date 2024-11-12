@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolkit to calculate stellar limb darkening profiles for arbitrary filters."
+DESCRIPTION="Toolkit to calculate stellar limb darkening profiles for arbitrary filters. [top-max 1.8.5]"
 
 HOMEPAGE="https://github.com/hpparvi/ldtk"
 LICENSE="GPL-2"

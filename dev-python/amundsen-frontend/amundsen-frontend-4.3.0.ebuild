@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/responses-0.12.1[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	<=dev-python/marshmallow-3.6[${PYTHON_USEDEP}]
 	dev-python/marshmallow3-annotations[${PYTHON_USEDEP}]
@@ -59,7 +59,7 @@ DEPENDENCIES="~dev-python/responses-0.12.1[${PYTHON_USEDEP}]
 	all? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/jinja-3.1.2[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( <dev-python/jsonschema-4.0[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/marshmallow-3.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/marshmallow3-annotations[${PYTHON_USEDEP}] )

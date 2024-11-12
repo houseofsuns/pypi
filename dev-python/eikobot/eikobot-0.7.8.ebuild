@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	>=dev-python/asyncssh-2.14.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
-	>=dev-python/jinja-3.1.2[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-70.1.1[${PYTHON_USEDEP}]"

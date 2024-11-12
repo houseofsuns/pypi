@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	tutorials? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/Faker-13.13.0[${PYTHON_USEDEP}] )"

@@ -70,7 +70,7 @@ DEPENDENCIES="~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/jaraco-context-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jaraco-functools-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jedi-0.19.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/jinja-3.1.4[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/json5-0.9.25[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jsonpointer-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )

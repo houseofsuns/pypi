@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev feelinglucky magicprompt"
-DEPENDENCIES="~dev-python/jinja-3.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-lazy-fixture-0.6[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	feelinglucky? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )
 	magicprompt? ( dev-python/transformers[${PYTHON_USEDEP}] )"

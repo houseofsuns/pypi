@@ -33,6 +33,6 @@ DEPENDENCIES="<dev-python/aiostream-0.6[${PYTHON_USEDEP}]
 	dev-python/uuid7[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.25[${PYTHON_USEDEP}]
 	<dev-python/zstandard-0.23[${PYTHON_USEDEP}]
-	<dev-python/jinja-4.0[${PYTHON_USEDEP}]"
+	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

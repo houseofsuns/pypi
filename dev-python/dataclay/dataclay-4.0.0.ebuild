@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bsc-mn dev docs metrics telemetry"
 DEPENDENCIES="dev-python/aiorwlock[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.59.2[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
 	>=dev-python/hiredis-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-api-1.20.0[${PYTHON_USEDEP}]

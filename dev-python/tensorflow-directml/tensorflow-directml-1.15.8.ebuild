@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/absl-py-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.11.1[${PYTHON_USEDEP}]
 	<=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.8.6[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.26[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

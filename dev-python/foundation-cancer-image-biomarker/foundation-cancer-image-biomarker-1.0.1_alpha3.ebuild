@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Official repo for Foundation Models for Quantitative Biomarker Discovery in Cancer Imaging [INSERT DOI]"
+DESCRIPTION="Official repo for Foundation Models for Quantitative Biomarker Discovery in Cancer Imaging [INSERT DOI] [top-max 1.0.1_alpha4]"
 
 HOMEPAGE="https://aim.hms.harvard.edu/foundation-cancer-image-biomarker"
 LICENSE="MIT"

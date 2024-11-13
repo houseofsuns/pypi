@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Maya plugin for Conductor Cloud Rendering Platform. [top-max 1.0.0]"
+DESCRIPTION="Maya plugin for Conductor Cloud Rendering Platform. [top-max 1.0.1_beta1]"
 
 HOMEPAGE="https://github.com/AtomicConductor/conductor-maya"
 LICENSE=""

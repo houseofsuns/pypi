@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for Mentalab biosignal aquisition devices [top-max 3.0.0]"
+DESCRIPTION="Python API for Mentalab biosignal aquisition devices [top-max 3.1.0]"
 
 HOMEPAGE="https://github.com/Mentalab-hub/explorepy"
 LICENSE="MIT"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.59.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.24.4[${PYTHON_USEDEP}]
 	ixnetwork? ( dev-python/snappi-ixnetwork[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flask[${PYTHON_USEDEP}] )

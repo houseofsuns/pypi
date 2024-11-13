@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pip-21.0[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0_pre0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

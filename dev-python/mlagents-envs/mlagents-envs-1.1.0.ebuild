@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	<=dev-python/grpcio-1.48.2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-4.2.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-3.21[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.1.0[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/pettingzoo[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.23.4[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="autoembeddings datasets dev llm-evaluation mimicexplainer nlp-metrics tracing"
 DEPENDENCIES="<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-0.15.0[${PYTHON_USEDEP}]
 	~dev-python/requests-futures-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]

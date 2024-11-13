@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
 	dev-python/iso3166[${PYTHON_USEDEP}]
 	dev-python/commonroad-vehicle-models[${PYTHON_USEDEP}]
 	dev-python/Rtree[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

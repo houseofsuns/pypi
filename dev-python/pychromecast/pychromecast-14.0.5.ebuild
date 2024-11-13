@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/protobuf-4.25.1[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.25.1[${PYTHON_USEDEP}]
 	>=dev-python/casttube-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

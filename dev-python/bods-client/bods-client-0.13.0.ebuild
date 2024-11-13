@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/gtfs-realtime-bindings[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.9[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-2.9[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"

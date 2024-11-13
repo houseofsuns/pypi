@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	full? ( dev-python/ogb[${PYTHON_USEDEP}] )
 	full? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	full? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	full? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	full? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorboard[${PYTHON_USEDEP}] )

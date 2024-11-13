@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pulumi-aws[${PYTHON_USEDEP}]
 	dev-python/pulumi-auth0[${PYTHON_USEDEP}]
 	dev-python/pulumi[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

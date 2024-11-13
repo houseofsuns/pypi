@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/sparsezoo[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/toposort-1.0[${PYTHON_USEDEP}]
 	dev-python/GPUtil[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	clip? ( dev-python/open-clip-torch[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc smartcard"
 DEPENDENCIES="<dev-python/pyelftools-1.0[${PYTHON_USEDEP}]
 	>=dev-python/hidapi-0.7.99[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/ECPy[${PYTHON_USEDEP}]

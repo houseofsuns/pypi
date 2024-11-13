@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/protobuf-4.22[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.37.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-status-1.37.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}]

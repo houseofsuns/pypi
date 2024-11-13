@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

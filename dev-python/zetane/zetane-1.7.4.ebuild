@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pynng[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/lime[${PYTHON_USEDEP}]
 	dev-python/onnxconverter-common[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-3.20[${PYTHON_USEDEP}]
 	dev-python/tf2onnx[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

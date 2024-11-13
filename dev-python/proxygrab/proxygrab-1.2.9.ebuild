@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/cchardet-3.0.0[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]"

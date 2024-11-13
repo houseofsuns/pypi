@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.21.6[${PYTHON_USEDEP}]
 	dev-python/lunr[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="algorithms all benchmarks jax test tf"
 DEPENDENCIES="~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	>=dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.6[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.35.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]

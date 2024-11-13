@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/protobuf-3.4.0[${PYTHON_USEDEP}]
 	dev-python/async_generator[${PYTHON_USEDEP}]
 	>=dev-python/click-6.0.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]

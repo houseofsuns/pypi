@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pytest-3.0[${PYTHON_USEDEP}]
-	dev-python/tap-py[${PYTHON_USEDEP}]"
+	<dev-python/tap-py-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

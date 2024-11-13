@@ -34,6 +34,6 @@ DEPENDENCIES=">=dev-python/grpcio-status-1.37.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.37.1[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<=dev-python/protobuf-3.19.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

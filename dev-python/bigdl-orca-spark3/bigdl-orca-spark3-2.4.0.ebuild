@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	automl? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	automl? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	automl? ( ~dev-python/prometheus-client-0.11.0[${PYTHON_USEDEP}] )
-	automl? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	automl? ( ~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}] )
 	automl? ( dev-python/ray[${PYTHON_USEDEP}] )
 	automl? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	automl? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	ray? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	ray? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	ray? ( ~dev-python/prometheus-client-0.11.0[${PYTHON_USEDEP}] )
-	ray? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	ray? ( ~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

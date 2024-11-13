@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all beam polars tensorflow"
 DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	beam? ( dev-python/apache-beam[${PYTHON_USEDEP}] )

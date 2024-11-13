@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/gflanguages[${PYTHON_USEDEP}]
 	dev-python/ufo2ft[${PYTHON_USEDEP}]
 	dev-python/youseedee[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	>=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

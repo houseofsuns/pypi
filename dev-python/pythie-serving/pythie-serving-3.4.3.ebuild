@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev serving test"
 DEPENDENCIES="~dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.51[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.22[${PYTHON_USEDEP}]
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/treelite-runtime[${PYTHON_USEDEP}] )

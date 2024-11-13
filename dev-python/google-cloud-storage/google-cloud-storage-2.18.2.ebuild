@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/google-auth-3.0_pre0[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	protobuf? ( <dev-python/protobuf-6.0.0_pre0[${PYTHON_USEDEP}] )
 	tracing? ( >=dev-python/opentelemetry-api-1.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/opentelemetry-api-1.12[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-sdk-1.12[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.21[${PYTHON_USEDEP}]
 	~dev-python/python-snappy-0.6[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

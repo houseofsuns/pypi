@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.19.0[${PYTHON_USEDEP}]
 	dev-python/docarray[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	all? ( dev-python/docarray[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/protobuf-3.19.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	all? ( dev-python/jcloud[${PYTHON_USEDEP}] )
@@ -142,7 +142,7 @@ DEPENDENCIES="dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	core? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	core? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
 	core? ( dev-python/jina-hubble-sdk[${PYTHON_USEDEP}] )
-	core? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/protobuf-3.19.0[${PYTHON_USEDEP}] )
 	core? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	coverage? ( ~dev-python/coverage-6.2[${PYTHON_USEDEP}] )
 	devel? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
@@ -202,7 +202,7 @@ DEPENDENCIES="dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	portforward? ( dev-python/portforward[${PYTHON_USEDEP}] )
 	prometheus-api-client? ( dev-python/prometheus-api-client[${PYTHON_USEDEP}] )
 	prometheus-client? ( >=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}] )
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	protobuf? ( >=dev-python/protobuf-3.19.0[${PYTHON_USEDEP}] )
 	psutil? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	pydantic? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	pytest? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )

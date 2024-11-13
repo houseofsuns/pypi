@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/safetensors[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 	dev-python/gptq[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

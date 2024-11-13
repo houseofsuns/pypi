@@ -65,7 +65,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	grpc? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/protobuf-5.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/proto-plus[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

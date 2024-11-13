@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.12[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	vis? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	vis? ( dev-python/pillow[${PYTHON_USEDEP}] )

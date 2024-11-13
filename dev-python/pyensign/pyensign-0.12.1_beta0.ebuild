@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ml"
 DEPENDENCIES="~dev-python/grpcio-1.59.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.24.4[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	dev-python/python-ulid[${PYTHON_USEDEP}]
 	ml? ( ~dev-python/pandas-2.1.2[${PYTHON_USEDEP}] )"

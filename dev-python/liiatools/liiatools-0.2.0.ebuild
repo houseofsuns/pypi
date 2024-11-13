@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/xlrd-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-log-0.5.0[${PYTHON_USEDEP}]
-	~dev-python/cchardet-2.1.7[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

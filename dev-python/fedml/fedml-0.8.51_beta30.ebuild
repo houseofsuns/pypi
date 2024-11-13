@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	<dev-python/requests-2.32[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0_pre0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/fastapi-cli[${PYTHON_USEDEP}]
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all awskms gcpkms hcvault"
 DEPENDENCIES=">=dev-python/absl-py-1.3.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0_pre0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/google-auth-2.16.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-kms[${PYTHON_USEDEP}] )

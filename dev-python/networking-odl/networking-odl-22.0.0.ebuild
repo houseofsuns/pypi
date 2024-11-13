@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
 	test? ( >=dev-python/oslotest-4.4.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pecan-1.3.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-1.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-3.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testresources-2.0.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testscenarios-0.5.0[${PYTHON_USEDEP}] )

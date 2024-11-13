@@ -27,7 +27,7 @@ IUSE="all"
 DEPENDENCIES=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.12.4[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	all? ( dev-python/falcon[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/waitress-1.4.4[${PYTHON_USEDEP}] )

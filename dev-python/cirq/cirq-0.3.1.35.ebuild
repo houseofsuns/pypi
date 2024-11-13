@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/google-api-python-client-1.6[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-2.2[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.14[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.5[${PYTHON_USEDEP}]
 	~dev-python/requests-2.18[${PYTHON_USEDEP}]
 	~dev-python/sortedcontainers-2.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.1.0[${PYTHON_USEDEP}]"

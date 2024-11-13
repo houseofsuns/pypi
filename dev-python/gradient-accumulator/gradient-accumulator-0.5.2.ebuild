@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	dev? ( <=dev-python/protobuf-3.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

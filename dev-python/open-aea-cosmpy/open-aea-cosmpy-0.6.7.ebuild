@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/bech32[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.53.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	dev-python/protobuf3-to-dict[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	>=dev-python/protobuf-3.19.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

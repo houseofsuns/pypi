@@ -63,7 +63,7 @@ DEPENDENCIES="<dev-python/scipy-1.13.0[${PYTHON_USEDEP}]
 	extra? ( >=dev-python/pillow-8.2.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	extra? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/protobuf-3.19.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/giotto-tda[${PYTHON_USEDEP}] )
 	extra? ( dev-python/ripser[${PYTHON_USEDEP}] )
 	extra? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

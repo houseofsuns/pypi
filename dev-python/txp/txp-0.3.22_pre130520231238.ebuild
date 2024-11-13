@@ -62,7 +62,7 @@ DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	cloud? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	ml? ( dev-python/prophet[${PYTHON_USEDEP}] )
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.0[${PYTHON_USEDEP}]
 	gateway? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]

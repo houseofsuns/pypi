@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A thin set of pybind11 wrappers to HiGHS [top-max 1.8.0]"
+DESCRIPTION="A thin set of pybind11 wrappers to HiGHS [top-max 1.8.1]"
 
 HOMEPAGE=""
 LICENSE=""

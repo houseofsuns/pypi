@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bulk-writer dev model"
 DEPENDENCIES=">dev-python/setuptools-69.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.49.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}]
 	<=dev-python/environs-9.5.0[${PYTHON_USEDEP}]
 	>=dev-python/ujson-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]

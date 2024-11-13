@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="compiler docs test"
 DEPENDENCIES=">=dev-python/proto-plus-1.20.6[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	dev-python/generic-proto-plus-stubs[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	compiler? ( dev-python/codestare-msg-compiler[${PYTHON_USEDEP}] )

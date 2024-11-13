@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/structlog-24.1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	events? ( >=dev-python/boto3-1.18.11[${PYTHON_USEDEP}] )
-	events? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	events? ( >=dev-python/protobuf-3.17.3[${PYTHON_USEDEP}] )
 	events? ( dev-python/parrotschemas[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )"

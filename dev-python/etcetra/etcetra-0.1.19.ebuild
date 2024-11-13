@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build lint test typecheck"
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/protobuf-4.25.3[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.62.2[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	build? ( >=dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )

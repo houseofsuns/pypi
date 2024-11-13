@@ -106,7 +106,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/pem[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-3.0.43[${PYTHON_USEDEP}]
 	~dev-python/proto-plus-1.23.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.25.3[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-modules-0.4.0[${PYTHON_USEDEP}]
@@ -290,7 +290,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/prompt-toolkit-3.0.43[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/proto-plus-1.23.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/protobuf-4.25.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyasn1-0.6.0[${PYTHON_USEDEP}] )
@@ -499,7 +499,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/pluggy-1.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/prompt-toolkit-3.0.43[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/proto-plus-1.23.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/protobuf-4.25.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pyasn1-0.6.0[${PYTHON_USEDEP}] )
@@ -708,7 +708,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pluggy-1.4.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/prompt-toolkit-3.0.43[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/proto-plus-1.23.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/protobuf-4.25.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pyasn1-0.6.0[${PYTHON_USEDEP}] )

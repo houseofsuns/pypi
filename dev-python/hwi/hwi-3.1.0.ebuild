@@ -34,6 +34,6 @@ DEPENDENCIES=">=dev-python/hidapi-0.14.0[${PYTHON_USEDEP}]
 	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/noiseprotocol-0.4.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

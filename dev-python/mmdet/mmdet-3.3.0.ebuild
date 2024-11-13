@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	tests? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	tests? ( dev-python/prettytable[${PYTHON_USEDEP}] )
-	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tests? ( <=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/transformers[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="all"
 DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/dill-0.3.6[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/msal[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )

@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/amqp-6.0.0[${PYTHON_USEDEP}]
 	gcpubsub? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	gcpubsub? ( dev-python/google-cloud-monitoring[${PYTHON_USEDEP}] )
 	gcpubsub? ( ~dev-python/grpcio-1.67.0[${PYTHON_USEDEP}] )
-	gcpubsub? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	gcpubsub? ( ~dev-python/protobuf-4.25.5[${PYTHON_USEDEP}] )
 	librabbitmq? ( dev-python/librabbitmq[${PYTHON_USEDEP}] )
 	mongodb? ( >=dev-python/pymongo-4.1.1[${PYTHON_USEDEP}] )
 	msgpack? ( ~dev-python/msgpack-1.1.0[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/cirq-core[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.52.0[${PYTHON_USEDEP}]
 	~dev-python/google-api-core-1.21.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-1.18.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}]
 	extras? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

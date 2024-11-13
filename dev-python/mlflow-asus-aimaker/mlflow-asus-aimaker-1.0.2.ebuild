@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/AIMaker[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

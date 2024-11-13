@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/beartype-0.17.0[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

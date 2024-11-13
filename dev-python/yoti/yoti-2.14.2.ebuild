@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev examples"
 DEPENDENCIES="~dev-python/deprecated-1.2.10[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.2.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.11.1[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/asn1[${PYTHON_USEDEP}]

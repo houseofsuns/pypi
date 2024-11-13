@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/optimum[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	diffusers? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	diffusers? ( dev-python/peft[${PYTHON_USEDEP}] )
 	neuron? ( dev-python/wheel[${PYTHON_USEDEP}] )

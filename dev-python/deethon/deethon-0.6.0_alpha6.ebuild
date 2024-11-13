@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/mutagen[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/cchardet-3.0.0[${PYTHON_USEDEP}]"
+	dev-python/cchardet[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

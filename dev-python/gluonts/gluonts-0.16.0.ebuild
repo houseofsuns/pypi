@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/numpy-2.2[${PYTHON_USEDEP}]
 	~dev-python/toolz-0.10[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	prophet? ( dev-python/prophet[${PYTHON_USEDEP}] )
-	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	r? ( ~dev-python/rpy2-3.5[${PYTHON_USEDEP}] )
 	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

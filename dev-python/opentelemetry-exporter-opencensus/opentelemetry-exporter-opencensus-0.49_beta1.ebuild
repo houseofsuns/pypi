@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opencensus-proto[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-api-1.28.1[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-sdk-1.15[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.13[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

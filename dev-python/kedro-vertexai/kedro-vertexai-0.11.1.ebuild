@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
 	dev-python/kedro[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/kedro-mlflow[${PYTHON_USEDEP}] )
 	dev-python/kfp[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-21.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]

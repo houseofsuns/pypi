@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	dev-python/oauth2-client[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]

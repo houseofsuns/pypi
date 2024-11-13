@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="nltk_stopwords"
 DEPENDENCIES="dev-python/lbsnstructure[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/ppygis3[${PYTHON_USEDEP}]
 	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]

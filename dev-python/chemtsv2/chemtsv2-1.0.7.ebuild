@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mp"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.27.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.26.0[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
 	dev-python/selfies[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

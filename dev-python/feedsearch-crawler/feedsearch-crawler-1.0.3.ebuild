@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/cchardet-3.0.0[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	<dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]

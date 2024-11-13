@@ -134,7 +134,7 @@ DEPENDENCIES="~dev-python/aiohappyeyeballs-2.4.3[${PYTHON_USEDEP}]
 	browser? ( ~dev-python/packaging-24.1[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/pillow-10.4.0[${PYTHON_USEDEP}] )
-	browser? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	browser? ( ~dev-python/protobuf-5.28.3[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/pyarrow-18.0.0[${PYTHON_USEDEP}] )
 	browser? ( dev-python/pydeck[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/pygments-2.18.0[${PYTHON_USEDEP}] )

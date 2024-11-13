@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES="~dev-python/retrying-1.3.4[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
 	~dev-python/tomlkit-0.7.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-3.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/guzzle_sphinx_theme[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/importlib-metadata-3.0.0[${PYTHON_USEDEP}] )

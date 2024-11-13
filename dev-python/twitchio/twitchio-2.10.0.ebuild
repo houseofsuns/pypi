@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	sounds? ( ~dev-python/pyaudio-0.2.11[${PYTHON_USEDEP}] )
 	speed? ( <dev-python/ujson-6.0[${PYTHON_USEDEP}] )
 	speed? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	speed? ( <dev-python/cchardet-3.0[${PYTHON_USEDEP}] )"
+	speed? ( dev-python/cchardet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

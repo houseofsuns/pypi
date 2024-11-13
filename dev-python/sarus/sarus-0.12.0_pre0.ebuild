@@ -27,7 +27,7 @@ IUSE="imblearn optbinning pandas-profiling plotly shap sklearn skopt tensorflow 
 DEPENDENCIES="dev-python/sarus-data-spec-public[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-2.1[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-11.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	sklearn? ( ~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}] )
 	sklearn? ( ~dev-python/scipy-1.9.0[${PYTHON_USEDEP}] )
 	imblearn? ( dev-python/imbalanced-learn[${PYTHON_USEDEP}] )

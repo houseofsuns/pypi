@@ -46,6 +46,6 @@ DEPENDENCIES="~dev-python/opentelemetry-api-1.20.0[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<=dev-python/protobuf-3.19.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

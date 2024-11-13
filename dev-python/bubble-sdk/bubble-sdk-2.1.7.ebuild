@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.21.6[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-10.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/py-bub[${PYTHON_USEDEP}] )

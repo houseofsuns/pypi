@@ -48,6 +48,6 @@ DEPENDENCIES=">=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	dev-python/delegator-py[${PYTHON_USEDEP}]
 	>=dev-python/flask-0.12.2[${PYTHON_USEDEP}]
 	dev-python/pyecharts[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	>=dev-python/protobuf-3.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

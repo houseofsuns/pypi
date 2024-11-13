@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
-	dev-python/rpy2[${PYTHON_USEDEP}]
+	>=dev-python/rpy2-3.5.11[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

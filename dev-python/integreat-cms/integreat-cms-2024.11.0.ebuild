@@ -166,7 +166,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/pillow-10.4.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/pip-24.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/prompt-toolkit-3.0.48[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/protobuf-5.28.2[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/proto-plus-1.24.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/psycopg-3.2.3[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )

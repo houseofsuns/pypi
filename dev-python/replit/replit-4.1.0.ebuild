@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyseto[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

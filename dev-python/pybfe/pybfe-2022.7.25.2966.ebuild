@@ -27,7 +27,7 @@ IUSE="capirca"
 DEPENDENCIES="<dev-python/cryptography-4.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-1.44[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.2[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-3.20[${PYTHON_USEDEP}]
 	dev-python/pybatfish[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]

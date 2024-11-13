@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/rpy2-3.4.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/fcsparser[${PYTHON_USEDEP}] )
 	test? ( dev-python/tables[${PYTHON_USEDEP}] )

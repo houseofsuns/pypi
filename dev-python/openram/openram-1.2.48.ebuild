@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/scikit-learn-0.22.2[${PYTHON_USEDEP}]
 	>=dev-python/coverage-4.5.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
-	dev-python/python-subunit[${PYTHON_USEDEP}]
+	>=dev-python/python-subunit-1.4.0[${PYTHON_USEDEP}]
 	dev-python/unittest2[${PYTHON_USEDEP}]
 	dev-python/volare[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

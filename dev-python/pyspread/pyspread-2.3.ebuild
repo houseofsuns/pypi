@@ -36,6 +36,6 @@ DEPENDENCIES=">=dev-python/PyQt6-6.4[${PYTHON_USEDEP}]
 	pycel? ( dev-python/pycel[${PYTHON_USEDEP}] )
 	pyenchant? ( >=dev-python/pyenchant-1.1[${PYTHON_USEDEP}] )
 	python-dateutil? ( >=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}] )
-	rpy2? ( dev-python/rpy2[${PYTHON_USEDEP}] )"
+	rpy2? ( >=dev-python/rpy2-3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

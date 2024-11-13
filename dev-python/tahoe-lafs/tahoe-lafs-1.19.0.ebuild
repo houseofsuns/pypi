@@ -71,7 +71,7 @@ DEPENDENCIES=">=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
 	testenv? ( ~dev-python/coverage-7.2.5[${PYTHON_USEDEP}] )
 	testenv? ( dev-python/junitxml[${PYTHON_USEDEP}] )
 	testenv? ( ~dev-python/pip-23.3.1[${PYTHON_USEDEP}] )
-	testenv? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	testenv? ( ~dev-python/python-subunit-1.4.2[${PYTHON_USEDEP}] )
 	testenv? ( dev-python/subunitreporter[${PYTHON_USEDEP}] )
 	testenv? ( ~dev-python/wheel-0.41.3[${PYTHON_USEDEP}] )
 	tor? ( >=dev-python/txtorcon-23.5.0[${PYTHON_USEDEP}] )"

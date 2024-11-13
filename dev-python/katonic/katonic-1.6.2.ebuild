@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	<dev-python/msgpack-1.1[${PYTHON_USEDEP}]
 	~dev-python/packaging-21.2[${PYTHON_USEDEP}]
 	dev-python/parsedatetime[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
@@ -83,7 +83,7 @@ DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	drift? ( <dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	drift? ( dev-python/river[${PYTHON_USEDEP}] )
 	drift? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
-	drift? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	drift? ( ~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}] )
 	fe? ( <dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	fe? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	filemanager? ( >=dev-python/boto3-1.19.12[${PYTHON_USEDEP}] )
@@ -95,7 +95,7 @@ DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	fs? ( dev-python/google[${PYTHON_USEDEP}] )
 	fs? ( dev-python/mmh3[${PYTHON_USEDEP}] )
 	fs? ( <dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	fs? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	fs? ( ~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}] )
 	fs? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	fs? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	fs? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
@@ -110,7 +110,7 @@ DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	ml? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	ml? ( <dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	ml? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	ml? ( ~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}] )
 	ml? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
 	ml? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	ml? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
@@ -119,7 +119,7 @@ DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	pipeline? ( dev-python/kfp[${PYTHON_USEDEP}] )
 	pipeline? ( <dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
 	pipeline? ( <dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	pipeline? ( ~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )

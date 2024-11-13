@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/tornado-5.1.0[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-0.12.2[${PYTHON_USEDEP}]
 	apollo-engine-reporting? ( dev-python/json-stable-stringify-python[${PYTHON_USEDEP}] )
-	apollo-engine-reporting? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	apollo-engine-reporting? ( >=dev-python/protobuf-3.7.1[${PYTHON_USEDEP}] )
 	apollo-engine-reporting? ( dev-python/tornado-retry-client[${PYTHON_USEDEP}] )
 	opencensus? ( dev-python/opencensus[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )

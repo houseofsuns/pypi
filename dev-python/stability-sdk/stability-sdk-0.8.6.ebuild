@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/param[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	anim? ( dev-python/keyframed[${PYTHON_USEDEP}] )
 	anim? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	anim? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )

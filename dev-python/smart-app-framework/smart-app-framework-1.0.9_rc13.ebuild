@@ -61,6 +61,6 @@ DEPENDENCIES="~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	~dev-python/twisted-22.8.0[${PYTHON_USEDEP}]
 	~dev-python/freezegun-1.1.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	~dev-python/protobuf-3.19.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.34.26[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.19.5[${PYTHON_USEDEP}]
 	dev-python/sagemaker[${PYTHON_USEDEP}]
 	dev-python/stepfunctions[${PYTHON_USEDEP}]
 	dev-python/sagemaker-experiments[${PYTHON_USEDEP}]

@@ -59,7 +59,7 @@ DEPENDENCIES=">=dev-python/paste-2.0.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/httplib2-0.9.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/influxdb[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tempest-17.1.0[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/heptapod[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.21.0[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.58.0[${PYTHON_USEDEP}]
 	~dev-python/grpcio-status-1.58.0[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]

@@ -27,10 +27,10 @@ IUSE="opentracing profile"
 DEPENDENCIES=">=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.51.0[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.5.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.11.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	opentracing? ( dev-python/opentracing[${PYTHON_USEDEP}] )
-	profile? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	profile? ( >=dev-python/protobuf-3.0[${PYTHON_USEDEP}] )
 	profile? ( dev-python/intervaltree[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="aws azure cassandra ci delta dev docs duckdb elasticsearch faiss gcp ge gr
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/bech32[${PYTHON_USEDEP}]
 	dev-python/hdwallets[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.22.1[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.20.0[${PYTHON_USEDEP}]
 	dev-python/safe-pysha3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

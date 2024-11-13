@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/fixtures[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/python-subunit[${PYTHON_USEDEP}]
+	>=dev-python/python-subunit-1.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	test? ( dev-python/testresources[${PYTHON_USEDEP}] )

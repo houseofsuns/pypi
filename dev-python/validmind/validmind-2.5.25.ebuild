@@ -54,8 +54,8 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	all? ( dev-python/ragas[${PYTHON_USEDEP}] )
 	llm? ( dev-python/ragas[${PYTHON_USEDEP}] )
 	dev-python/rouge[${PYTHON_USEDEP}]
-	all? ( dev-python/rpy2[${PYTHON_USEDEP}] )
-	r-support? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	all? ( <dev-python/rpy2-4.0.0[${PYTHON_USEDEP}] )
+	r-support? ( <dev-python/rpy2-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scorecardpy[${PYTHON_USEDEP}]

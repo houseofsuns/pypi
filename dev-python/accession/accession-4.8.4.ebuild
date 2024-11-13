@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs tests"
 DEPENDENCIES="~dev-python/sqlalchemy-1.3.17[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.17.108[${PYTHON_USEDEP}]
 	dev-python/caper[${PYTHON_USEDEP}]
 	dev-python/encode-utils[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/protobuf-3.20[${PYTHON_USEDEP}]
 	dev-python/catalyst[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.20[${PYTHON_USEDEP}]

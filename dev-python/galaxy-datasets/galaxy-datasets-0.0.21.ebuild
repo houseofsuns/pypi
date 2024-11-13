@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	pytorch? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	tensorflow? ( <=dev-python/protobuf-3.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dev gui"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/pyps4-2ndscreen[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4.6[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.21.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]

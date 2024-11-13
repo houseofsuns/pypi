@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev tests"
 DEPENDENCIES=">=dev-python/attrs-19.3[${PYTHON_USEDEP}]
 	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}]
 	dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/openlineage-python[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

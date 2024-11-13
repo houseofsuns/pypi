@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/rsa-4.9[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	fastapi? ( >=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
-	ws? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	ws? ( >=dev-python/protobuf-4.25.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

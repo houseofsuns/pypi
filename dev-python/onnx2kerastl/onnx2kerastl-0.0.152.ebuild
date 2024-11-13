@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/fvcore[${PYTHON_USEDEP}]

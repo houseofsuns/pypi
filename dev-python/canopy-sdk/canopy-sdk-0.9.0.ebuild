@@ -55,6 +55,6 @@ DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	grpc? ( dev-python/grpc-gateway-protoc-gen-openapiv2[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/lz4-3.1.3[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	grpc? ( <dev-python/protobuf-3.21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

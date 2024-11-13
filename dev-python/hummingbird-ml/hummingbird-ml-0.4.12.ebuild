@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/onnxmltools[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )

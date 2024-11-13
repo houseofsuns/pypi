@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/genericclient-base[${PYTHON_USEDEP}]
 	<dev-python/aiodns-1.2[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-3.6[${PYTHON_USEDEP}]
-	~dev-python/cchardet-2.1[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	dev-python/pyfailsafe[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

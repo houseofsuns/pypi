@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	ci? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	ci? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/redislite[${PYTHON_USEDEP}] )
-	ci? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )
 	ci? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/redislite[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

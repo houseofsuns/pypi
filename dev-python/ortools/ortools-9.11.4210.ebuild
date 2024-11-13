@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.27[${PYTHON_USEDEP}]
 	>=dev-python/immutabledict-3.0.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

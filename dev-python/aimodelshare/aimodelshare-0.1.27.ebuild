@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/boto3-1.26.69[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/scikeras[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

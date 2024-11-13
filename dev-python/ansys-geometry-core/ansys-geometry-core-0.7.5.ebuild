@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/ansys-api-geometry[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/ansys-api-geometry[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/numpy-2.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/panel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Pint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/protobuf-5.28.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/requests-2.32.3[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/scipy-1.14.1[${PYTHON_USEDEP}] )
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/ansys-api-geometry[${PYTHON_USEDEP}]
 	tests? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/numpy-2.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Pint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/protobuf-5.28.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-8.3.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pyvista[${PYTHON_USEDEP}] )

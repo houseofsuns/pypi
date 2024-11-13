@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pytoml[${PYTHON_USEDEP}]
 	dev-python/clevercsv[${PYTHON_USEDEP}]
 	>=dev-python/click-6.7[${PYTHON_USEDEP}]
-	>=dev-python/cchardet-2.1.6[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.7.1[${PYTHON_USEDEP}]"

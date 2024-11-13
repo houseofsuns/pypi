@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gcp"
 DEPENDENCIES=">=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/croniter-1.0[${PYTHON_USEDEP}]
 	gcp? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )

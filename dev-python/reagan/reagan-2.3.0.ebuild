@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/msrest[${PYTHON_USEDEP}]
 	dev-python/textblob[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.9.1[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.10.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.13.0[${PYTHON_USEDEP}]
 	dev-python/azure-devops[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

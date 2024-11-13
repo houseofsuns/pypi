@@ -27,7 +27,7 @@ IUSE="server test"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
-	server? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	server? ( ~dev-python/aiohttp-3.10.10[${PYTHON_USEDEP}] )

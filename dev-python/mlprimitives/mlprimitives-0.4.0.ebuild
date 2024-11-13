@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.15[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rundoc[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.13.2[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.9.3[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.1.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

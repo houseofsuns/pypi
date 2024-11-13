@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="async-rest grpc grpcgcp grpcio-gcp"
 DEPENDENCIES="<dev-python/googleapis-common-protos-2.0_pre0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0_pre0[${PYTHON_USEDEP}]

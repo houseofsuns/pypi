@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="proto"
 DEPENDENCIES="dev-python/javaobj-py3[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.28.0[${PYTHON_USEDEP}]
 	proto? ( dev-python/protoletariat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

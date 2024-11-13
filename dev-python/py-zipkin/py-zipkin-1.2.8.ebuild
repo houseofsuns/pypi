@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="protobuf"
 DEPENDENCIES=">=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	protobuf? ( >=dev-python/protobuf-3.12.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -118,7 +118,7 @@ DEPENDENCIES="dev-python/catalogue[${PYTHON_USEDEP}]
 	tf? ( >=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}] )
 	tf? ( ~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorpack[${PYTHON_USEDEP}] )
-	tf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tf? ( ~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow-addons[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tf2onnx[${PYTHON_USEDEP}] )
 	tf? ( dev-python/python-doctr[${PYTHON_USEDEP}] )

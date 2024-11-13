@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/google-auth-3.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	protobuf? ( <dev-python/protobuf-5.0.0_pre0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

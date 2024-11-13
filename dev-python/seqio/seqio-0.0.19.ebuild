@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/tensorflow-text[${PYTHON_USEDEP}]
 	dev-python/tfds-nightly[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	cache-tasks? ( dev-python/apache-beam[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )

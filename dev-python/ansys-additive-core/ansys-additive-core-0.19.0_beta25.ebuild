@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/ansys-api-additive[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-3.8.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.6.3[${PYTHON_USEDEP}]
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/ansys-api-additive[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/numpy-2.1.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/platformdirs-4.3.6[${PYTHON_USEDEP}] )
-	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/protobuf-5.28.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/tqdm-4.66.5[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pydantic-2.9.2[${PYTHON_USEDEP}] )

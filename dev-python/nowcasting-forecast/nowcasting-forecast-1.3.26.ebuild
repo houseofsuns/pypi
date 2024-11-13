@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/pvlib[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.21.0[${PYTHON_USEDEP}]
 	dev-python/pathy[${PYTHON_USEDEP}]
 	dev-python/testcontainers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full pytorch-metric-learning"
 DEPENDENCIES="<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-3.20[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	pytorch-metric-learning? ( dev-python/pytorch-metric-learning[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytorch-metric-learning[${PYTHON_USEDEP}] )

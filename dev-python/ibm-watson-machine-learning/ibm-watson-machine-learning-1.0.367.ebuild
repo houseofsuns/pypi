@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	fl-rt23-1-py3-10? ( dev-python/image[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( dev-python/ddsketch[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( dev-python/skorch[${PYTHON_USEDEP}] )
-	fl-rt23-1-py3-10? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	fl-rt23-1-py3-10? ( ~dev-python/protobuf-4.22.1[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( ~dev-python/joblib-1.1.1[${PYTHON_USEDEP}] )
 	fl-rt23-1-py3-10? ( dev-python/skops[${PYTHON_USEDEP}] )

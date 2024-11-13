@@ -50,9 +50,9 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 	dev-python/fast-dataindex[${PYTHON_USEDEP}]
-	autonlp? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	autonlp? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	autonlp? ( ~dev-python/pydantic-1.10.11[${PYTHON_USEDEP}] )
 	autonlp? ( dev-python/ray[${PYTHON_USEDEP}] )
 	autonlp? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev? ( dev-python/data[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wget[${PYTHON_USEDEP}] )
 	dev? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-retry[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paddleslim[${PYTHON_USEDEP}] )
@@ -129,7 +129,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	tests? ( dev-python/data[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wget[${PYTHON_USEDEP}] )
 	tests? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-retry[${PYTHON_USEDEP}] )
 	tests? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/paddleslim[${PYTHON_USEDEP}] )

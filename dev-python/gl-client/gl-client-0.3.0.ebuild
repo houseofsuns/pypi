@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/protobuf-3.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.56[${PYTHON_USEDEP}]
 	dev-python/pyln-grpc-proto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

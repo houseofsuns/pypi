@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tap-py[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/tap-py-3.1[${PYTHON_USEDEP}]
 	dev-python/tcms-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

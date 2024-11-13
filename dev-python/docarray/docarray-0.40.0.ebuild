@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="audio aws elasticsearch epsilla full hnswlib image jac jax mesh milvus pandas proto qdrant redis torch video weaviate web"
 DEPENDENCIES=">=dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
-	proto? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	hnswlib? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	full? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	proto? ( >=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )
+	hnswlib? ( >=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	>=dev-python/orjson-3.8.2[${PYTHON_USEDEP}]
 	image? ( >=dev-python/pillow-9.3.0[${PYTHON_USEDEP}] )

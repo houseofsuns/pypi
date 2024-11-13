@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
 	grpc? ( >=dev-python/grpcio-1.59.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/lz4-3.1.3[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/protobuf-5.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protoc-gen-openapiv2[${PYTHON_USEDEP}] )
 	dev-python/pinecone-plugin-interface[${PYTHON_USEDEP}]
 	dev-python/pinecone-plugin-inference[${PYTHON_USEDEP}]"

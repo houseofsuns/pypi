@@ -85,7 +85,7 @@ DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/visdom[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( <dev-python/protobuf-4.0.0[${PYTHON_USEDEP}] )
 	argoverse? ( dev-python/av2[${PYTHON_USEDEP}] )
 	argoverse? ( dev-python/Rtree[${PYTHON_USEDEP}] )
 	camera-obs? ( dev-python/Panda3D[${PYTHON_USEDEP}] )
@@ -141,7 +141,7 @@ DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	train? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	visdom? ( dev-python/visdom[${PYTHON_USEDEP}] )
 	waymo? ( >=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}] )
-	waymo? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	waymo? ( <dev-python/protobuf-4.0.0[${PYTHON_USEDEP}] )
 	waymo? ( dev-python/Rtree[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

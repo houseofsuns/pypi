@@ -54,7 +54,7 @@ DEPENDENCIES="<dev-python/chardet-6.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-order-2.0[${PYTHON_USEDEP}] )
 	matching? ( dev-python/feather[${PYTHON_USEDEP}] )
-	matching? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	matching? ( <dev-python/rpy2-4.0[${PYTHON_USEDEP}] )
 	sas? ( dev-python/pyreadstat[${PYTHON_USEDEP}] )
 	sas? ( dev-python/sas7bdat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

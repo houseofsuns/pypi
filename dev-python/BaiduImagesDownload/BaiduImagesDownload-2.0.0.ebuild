@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
-	~dev-python/cchardet-2.1.7[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.55.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

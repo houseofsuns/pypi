@@ -27,7 +27,7 @@ IUSE="autologging cloud-profiler datasets endpoint evaluation full langchain lan
 DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0.0_pre0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-14.3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.59.2[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.25.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-59.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

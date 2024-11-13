@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/marshmallow-3.13.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-1.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	>=dev-python/protobuf-3.11.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

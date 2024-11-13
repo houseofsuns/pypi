@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="opentelemetry-logging"
 DEPENDENCIES=">=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 	opentelemetry-logging? ( dev-python/opentelemetry-instrumentation-logging[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

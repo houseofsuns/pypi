@@ -62,7 +62,7 @@ DEPENDENCIES="viz? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	proc-mp? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.19.4[${PYTHON_USEDEP}]
 	spark? ( <dev-python/pyarrow-13.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pyarrow-13.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pybars3[${PYTHON_USEDEP}] )

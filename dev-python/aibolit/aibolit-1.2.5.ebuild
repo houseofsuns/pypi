@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.8.2[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
-	~dev-python/cchardet-2.1.6[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	dev-python/codecov[${PYTHON_USEDEP}]
 	~dev-python/coverage-5.0.3[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.10[${PYTHON_USEDEP}]

@@ -80,7 +80,7 @@ DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslotest-4.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/osprofiler[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-1.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-3.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testrepository[${PYTHON_USEDEP}] )

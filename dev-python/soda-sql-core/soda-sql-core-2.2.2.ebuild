@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	<dev-python/deprecated-1.3[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-api-1.11.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	~dev-python/protobuf-3.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

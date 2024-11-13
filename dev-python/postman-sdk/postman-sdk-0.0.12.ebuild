@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-sdk-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-semantic-conventions-0.37_beta0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.22.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
 	>dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}]"

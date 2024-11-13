@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="demonet"
 DEPENDENCIES="<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/parsy[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
 	demonet? ( dev-python/shellous[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

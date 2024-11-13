@@ -299,7 +299,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( dev-python/pamela[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/patsy-0.5.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/plotly-4.14.3[${PYTHON_USEDEP}] )
-	complete? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/pyaml-20.4.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/pycurl-7.43.0.6[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pynndescent[${PYTHON_USEDEP}] )

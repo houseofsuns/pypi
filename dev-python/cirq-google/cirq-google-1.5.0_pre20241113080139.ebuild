@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/google-api-core-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.20.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.15.0[${PYTHON_USEDEP}]
 	dev-python/typedunits[${PYTHON_USEDEP}]
 	dev-python/cirq-core[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

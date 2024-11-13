@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	grpc? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	grpc? ( >=dev-python/protobuf-4.21[${PYTHON_USEDEP}] )
 	dev-python/hightime[${PYTHON_USEDEP}]
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )
 	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]

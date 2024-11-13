@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}]
 	~dev-python/betterproto-2.0.0_beta5[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )

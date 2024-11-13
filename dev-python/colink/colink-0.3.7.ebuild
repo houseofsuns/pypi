@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/grpcio-1.27.2[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0_pre0[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pika-1.2.0[${PYTHON_USEDEP}]

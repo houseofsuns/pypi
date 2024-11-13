@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/proto-plus-1.19.6[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.3.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	tests? ( <dev-python/nox-2022.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

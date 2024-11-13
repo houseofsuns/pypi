@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	<=dev-python/h5py-3.6[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20[${PYTHON_USEDEP}]
 	dev-python/PyPubSub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

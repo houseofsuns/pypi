@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/protobuf-6.0_pre0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.67.1[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.5.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

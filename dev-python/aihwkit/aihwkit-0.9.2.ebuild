@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.21.6[${PYTHON_USEDEP}]
 	bert? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	bert? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	bert? ( dev-python/datasets[${PYTHON_USEDEP}] )

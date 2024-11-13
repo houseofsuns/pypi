@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/opentelemetry-api-1.3[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-zipkin-json[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-sdk-1.11[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.12[${PYTHON_USEDEP}]
 	~dev-python/requests-2.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pyod[${PYTHON_USEDEP}] )
 	test? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	test? ( dev-python/tf-keras[${PYTHON_USEDEP}] )
-	test? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	test? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )

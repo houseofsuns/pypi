@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pycurl-7.45.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/zstandard-0.20.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/cchardet-2.1.7[${PYTHON_USEDEP}] )
-	all? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	all? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/faust-cchardet-2.1.19[${PYTHON_USEDEP}] )
 	gui? ( dev-python/Gooey[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

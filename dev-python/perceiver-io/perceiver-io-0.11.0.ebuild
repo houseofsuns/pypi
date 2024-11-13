@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/torch-optimizer[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	<dev-python/cchardet-3.0[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	text? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	vision? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	audio? ( dev-python/datasets[${PYTHON_USEDEP}] )

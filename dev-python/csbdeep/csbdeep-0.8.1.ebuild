@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tf1? ( dev-python/keras[${PYTHON_USEDEP}] )
-	tf1? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tf1? ( <dev-python/protobuf-3.21[${PYTHON_USEDEP}] )
 	tf1? ( <dev-python/h5py-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

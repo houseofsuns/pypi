@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="simulation"
 DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	dev-python/iterators[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	simulation? ( dev-python/ray[${PYTHON_USEDEP}] )

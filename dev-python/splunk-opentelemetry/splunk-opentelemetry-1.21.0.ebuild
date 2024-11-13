@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all b3 otlp"
 DEPENDENCIES="<=dev-python/cryptography-43.0.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-api-1.27.0[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-sdk-1.27.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]

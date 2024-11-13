@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="examples"
 DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
-	examples? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pyquaternion[${PYTHON_USEDEP}] )
 	examples? ( dev-python/foxglove-schemas-protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

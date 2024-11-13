@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/azureml-designer-internal[${PYTHON_USEDEP}]
 	dev-python/azureml-designer-core[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.22.3[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

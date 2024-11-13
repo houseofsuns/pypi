@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	aiodns? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	aiomonitor? ( dev-python/aiomonitor[${PYTHON_USEDEP}] )
-	cchardet? ( >=dev-python/cchardet-2.1[${PYTHON_USEDEP}] )
+	cchardet? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	ciso8601? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
 	ckafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	cython? ( dev-python/cython[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	eventlet? ( dev-python/aioeventlet[${PYTHON_USEDEP}] )
 	eventlet? ( dev-python/dnspython[${PYTHON_USEDEP}] )
 	fast? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
-	fast? ( >=dev-python/cchardet-2.1[${PYTHON_USEDEP}] )
+	fast? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	fast? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
 	fast? ( dev-python/cython[${PYTHON_USEDEP}] )
 	fast? ( <dev-python/orjson-3.0[${PYTHON_USEDEP}] )

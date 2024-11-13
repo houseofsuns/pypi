@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/c65faucet[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.66.1[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-5.28.2[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.21.0[${PYTHON_USEDEP}]
 	~dev-python/pybind11-2.13.6[${PYTHON_USEDEP}]
 	dev-python/os-ken[${PYTHON_USEDEP}]

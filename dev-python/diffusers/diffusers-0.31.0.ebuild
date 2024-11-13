@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	dev? ( dev-python/peft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -90,7 +90,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	torch? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	training? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	training? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	training? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	training? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	training? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	training? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	training? ( dev-python/peft[${PYTHON_USEDEP}] )"

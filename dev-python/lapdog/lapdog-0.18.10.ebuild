@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/firecloud[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-19.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

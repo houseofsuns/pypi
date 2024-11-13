@@ -35,7 +35,7 @@ DEPENDENCIES="yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-2.1[${PYTHON_USEDEP}] )
 	functions? ( >=dev-python/pip-20.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pip-20.0.0[${PYTHON_USEDEP}] )
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	pyodide? ( dev-python/pyodide-http[${PYTHON_USEDEP}] )
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-oauthlib-2.0[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="docs format test"
 DEPENDENCIES="~dev-python/grpcio-1.66.1[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/mypy-protobuf[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0_pre0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jekyll-builder[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )

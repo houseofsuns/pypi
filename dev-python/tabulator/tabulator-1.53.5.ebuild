@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/six-1.9[${PYTHON_USEDEP}]
 	dev-python/linear-tsv[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.0[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-2.6[${PYTHON_USEDEP}]
-	cchardet? ( >=dev-python/cchardet-2.0[${PYTHON_USEDEP}] )
+	cchardet? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	datapackage? ( dev-python/datapackage[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.13.0[${PYTHON_USEDEP}]
 	>=dev-python/asttokens-2.0.4[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]

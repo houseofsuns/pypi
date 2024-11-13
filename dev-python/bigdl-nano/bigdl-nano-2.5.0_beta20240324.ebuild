@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="diffusion-113 diffusion_113 inference pytorch pytorch-110 pytorch-111 pytorch-112 pytorch-113 pytorch-113-xpu pytorch-20 pytorch-20-xpu pytorch-nightly pytorch_110 pytorch_111 pytorch_112 pytorch_113 pytorch_20"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.19.5[${PYTHON_USEDEP}]
 	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

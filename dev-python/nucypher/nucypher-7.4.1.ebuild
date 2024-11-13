@@ -80,7 +80,7 @@ DEPENDENCIES="~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.20.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-5.27.2[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-modules-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.6.0[${PYTHON_USEDEP}]
 	dev-python/pychalk[${PYTHON_USEDEP}]
@@ -221,7 +221,7 @@ DEPENDENCIES="~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/prometheus-client-0.20.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/prompt-toolkit-3.0.47[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/protobuf-5.27.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pure-eval-0.2.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-cid[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-ecc[${PYTHON_USEDEP}] )

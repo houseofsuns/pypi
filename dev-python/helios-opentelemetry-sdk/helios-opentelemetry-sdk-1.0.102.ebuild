@@ -62,6 +62,6 @@ DEPENDENCIES="dev-python/autowrapt[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-sdk-1.22.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

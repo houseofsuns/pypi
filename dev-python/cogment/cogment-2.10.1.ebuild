@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="generate"
 DEPENDENCIES="<dev-python/grpcio-1.49[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.9[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-4.7.0[${PYTHON_USEDEP}]
 	generate? ( <dev-python/pyyaml-6.1[${PYTHON_USEDEP}] )

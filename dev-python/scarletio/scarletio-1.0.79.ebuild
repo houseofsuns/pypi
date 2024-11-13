@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cpythonspeedups"
 DEPENDENCIES=">=dev-python/chardet-2.0[${PYTHON_USEDEP}]
-	cpythonspeedups? ( >=dev-python/cchardet-2.0[${PYTHON_USEDEP}] )"
+	cpythonspeedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

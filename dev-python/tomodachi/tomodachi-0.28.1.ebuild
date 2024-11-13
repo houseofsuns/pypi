@@ -48,7 +48,7 @@ DEPENDENCIES="brotli? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	opentelemetry-exporter-prometheus? ( <dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-util-http[${PYTHON_USEDEP}] )
 	opentelemetry-exporter-prometheus? ( dev-python/opentelemetry-util-http[${PYTHON_USEDEP}] )
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	protobuf? ( >=dev-python/protobuf-4.25.0[${PYTHON_USEDEP}] )
 	dev-python/pytz[${PYTHON_USEDEP}]
 	<dev-python/structlog-25.0.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]

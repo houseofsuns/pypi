@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	generative? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	generative? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	generative? ( dev-python/fairseq[${PYTHON_USEDEP}] )
-	generative? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	generative? ( <=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

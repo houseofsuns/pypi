@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/capstone[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/py-tlsh[${PYTHON_USEDEP}]
 	>=dev-python/pyelftools-0.25[${PYTHON_USEDEP}]
-	dev-python/python-tlsh[${PYTHON_USEDEP}]"
+	>=dev-python/python-tlsh-3.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

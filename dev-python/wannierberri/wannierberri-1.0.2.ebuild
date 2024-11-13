@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/fortio[${PYTHON_USEDEP}]
 	dev-python/wannier90io[${PYTHON_USEDEP}]
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/sympy[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/untangle[${PYTHON_USEDEP}] )
 	fftw? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/ray[${PYTHON_USEDEP}] )
-	parallel? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	parallel? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	phonons? ( dev-python/untangle[${PYTHON_USEDEP}] )
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	symmetry? ( dev-python/sympy[${PYTHON_USEDEP}] )

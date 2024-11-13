@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/requests-2.4.0[${PYTHON_USEDEP}]
 	full? ( >=dev-python/greenlet-0.4.10[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/cython-0.20[${PYTHON_USEDEP}] )
 	mars? ( dev-python/pymars[${PYTHON_USEDEP}] )
-	mars? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	mars? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

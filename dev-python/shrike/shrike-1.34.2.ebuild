@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	distributed? ( >=dev-python/mpi4py-3.1.3[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/ray[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/dask[${PYTHON_USEDEP}] )
-	distributed? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	distributed? ( >=dev-python/protobuf-3.19.5[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/azureml-pipeline-core[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/azure-ml-component[${PYTHON_USEDEP}] )
 	pipeline? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )

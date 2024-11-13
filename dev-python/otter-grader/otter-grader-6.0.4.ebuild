@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	r? ( <dev-python/rpy2-4.0.0[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/six[${PYTHON_USEDEP}] )
 	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/open-aea[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/open-aea-ledger-ethereum[${PYTHON_USEDEP}]
 	dev-python/ledgerwallet[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.25.0[${PYTHON_USEDEP}]
 	<=dev-python/construct-2.10.61[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

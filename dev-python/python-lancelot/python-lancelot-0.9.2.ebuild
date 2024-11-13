@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/pefile-2023.2.7[${PYTHON_USEDEP}]
 	>=dev-python/pyelftools-0.31[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/maturin[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )

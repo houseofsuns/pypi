@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/munkres-1.0.6[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.20.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.19.6[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

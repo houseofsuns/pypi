@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/pyhumps[${PYTHON_USEDEP}]
 	<=dev-python/opensearch-py-2.4.2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/hopsworks[${PYTHON_USEDEP}] )
 	dev-no-opt? ( dev-python/hopsworks[${PYTHON_USEDEP}] )
 	dev-no-opt? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )

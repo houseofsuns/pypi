@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="examples"
 DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.12.0[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	examples? ( dev-python/aiomonitor[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	dev-python/openvino[${PYTHON_USEDEP}]
 	caffe? ( >=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )
 	caffe? ( <dev-python/fastjsonschema-2.18[${PYTHON_USEDEP}] )
-	caffe? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	caffe? ( <dev-python/protobuf-4.0.0[${PYTHON_USEDEP}] )
 	caffe? ( >=dev-python/requests-2.25.1[${PYTHON_USEDEP}] )
 	caffe? ( <dev-python/numpy-1.27[${PYTHON_USEDEP}] )
 	caffe? ( <=dev-python/networkx-3.1.0[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	mxnet? ( dev-python/mxnet[${PYTHON_USEDEP}] )
 	onnx? ( >=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )
 	onnx? ( <dev-python/fastjsonschema-2.18[${PYTHON_USEDEP}] )
-	onnx? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	onnx? ( <dev-python/protobuf-4.0.0[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	onnx? ( >=dev-python/requests-2.25.1[${PYTHON_USEDEP}] )
 	onnx? ( <dev-python/numpy-1.27[${PYTHON_USEDEP}] )

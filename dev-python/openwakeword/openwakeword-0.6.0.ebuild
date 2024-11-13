@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/onnxruntime[${PYTHON_USEDEP}]
 	full? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
-	full? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	full? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/onnx-tf[${PYTHON_USEDEP}] )
 	full? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	full? ( dev-python/pronouncing[${PYTHON_USEDEP}] )

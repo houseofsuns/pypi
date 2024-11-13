@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SmartApp Framework — это фреймворк, который позволяет создавать смартапы с поддержкой виртуальных ассистентов Салют. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f271e7ccc10>)]"
+DESCRIPTION="SmartApp Framework — это фреймворк, который позволяет создавать смартапы с поддержкой виртуальных ассистентов Салют. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3efacc2960>)]"
 
 HOMEPAGE=""
 LICENSE=""
@@ -58,6 +58,6 @@ DEPENDENCIES="~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/twisted[${PYTHON_USEDEP}]
 	~dev-python/freezegun-1.1.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<dev-python/protobuf-4.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

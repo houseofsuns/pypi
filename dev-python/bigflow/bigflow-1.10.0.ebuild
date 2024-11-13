@@ -59,7 +59,7 @@ DEPENDENCIES="<=dev-python/grpcio-status-1.48.2[${PYTHON_USEDEP}]
 	base-frozen? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
 	base-frozen? ( dev-python/pep517[${PYTHON_USEDEP}] )
 	base-frozen? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	base-frozen? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	base-frozen? ( ~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/pyasn1-modules-0.2.8[${PYTHON_USEDEP}] )
 	base-frozen? ( ~dev-python/requests-2.27.1[${PYTHON_USEDEP}] )

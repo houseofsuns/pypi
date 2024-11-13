@@ -30,7 +30,7 @@ DEPENDENCIES="server? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	>=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
 	oauth? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	pygments? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	tls-testing? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	dev-python/requests[${PYTHON_USEDEP}]

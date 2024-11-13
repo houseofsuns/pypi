@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/bt-test-interfaces[${PYTHON_USEDEP}]
 	dev-python/bumble[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.24.2[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
 	dev-python/mobly[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]

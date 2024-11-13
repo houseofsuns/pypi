@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/hpo-toolkit[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/phenopackets[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/fasthpocr[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mkdocs-material-10.0[${PYTHON_USEDEP}] )

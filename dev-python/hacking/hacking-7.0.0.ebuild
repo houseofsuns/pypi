@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/flake8-7.1.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/ddt-1.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/eventlet[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testtools-2.2.0[${PYTHON_USEDEP}] )"

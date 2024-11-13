@@ -62,6 +62,6 @@ DEPENDENCIES="~dev-python/pillow-5.4.1[${PYTHON_USEDEP}]
 	dev-python/deeplabcut[${PYTHON_USEDEP}]
 	dev-python/deepposekit[${PYTHON_USEDEP}]
 	dev-python/tensorflow-gpu[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	~dev-python/protobuf-3.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

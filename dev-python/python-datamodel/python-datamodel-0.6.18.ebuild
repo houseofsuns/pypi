@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/faust-cchardet[${PYTHON_USEDEP}]
+	~dev-python/faust-cchardet-2.1.19[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	dev-python/objectpath[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.9.10[${PYTHON_USEDEP}]

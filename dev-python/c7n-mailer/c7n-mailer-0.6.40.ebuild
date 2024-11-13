@@ -145,7 +145,7 @@ DEPENDENCIES="gcp? ( dev-python/c7n-gcp[${PYTHON_USEDEP}] )
 	gcp? ( ~dev-python/google-api-core-2.19.2[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}] )
 	gcp? ( ~dev-python/proto-plus-1.24.0[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	gcp? ( ~dev-python/protobuf-5.28.1[${PYTHON_USEDEP}] )
 	~dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
 	~dev-python/certifi-2024.8.30[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]

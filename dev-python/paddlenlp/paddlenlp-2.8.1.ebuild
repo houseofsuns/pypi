@@ -48,8 +48,8 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/aistudio-sdk[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
-	autonlp? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
+	autonlp? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	autonlp? ( ~dev-python/pydantic-1.10.11[${PYTHON_USEDEP}] )
 	autonlp? ( dev-python/ray[${PYTHON_USEDEP}] )
 	autonlp? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
@@ -87,7 +87,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paddlenlp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydantic-1.10.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ray[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hyperopt[${PYTHON_USEDEP}] )

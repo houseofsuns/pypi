@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
 DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.7[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-23.0[${PYTHON_USEDEP}]
 	>=dev-python/sh-1.14[${PYTHON_USEDEP}]
 	dev-python/tritonclient[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/google-cloud-securitycenter[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.62.0[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.25.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

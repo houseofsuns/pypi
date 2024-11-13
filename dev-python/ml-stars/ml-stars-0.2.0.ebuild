@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.15[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/watchdog-0.11[${PYTHON_USEDEP}] )

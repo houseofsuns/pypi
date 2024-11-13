@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
 	automl? ( <=dev-python/scikit-learn-0.22.0[${PYTHON_USEDEP}] )
 	automl? ( dev-python/requests[${PYTHON_USEDEP}] )
 	automl? ( ~dev-python/scipy-1.5[${PYTHON_USEDEP}] )
-	automl? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	automl? ( ~dev-python/protobuf-3.12.0[${PYTHON_USEDEP}] )
 	automl? ( dev-python/torch[${PYTHON_USEDEP}] )
 	automl? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )

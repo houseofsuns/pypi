@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/inotify-simple[${PYTHON_USEDEP}]
 	dev-python/mdclogpy[${PYTHON_USEDEP}]
 	dev-python/ricsdl[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-3.21.0[${PYTHON_USEDEP}]
 	dev-python/inotify[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

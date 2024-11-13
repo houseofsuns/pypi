@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/corider[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pytorch-benchmark[${PYTHON_USEDEP}]
-	build? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	build? ( <=dev-python/protobuf-3.20[${PYTHON_USEDEP}] )
 	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )

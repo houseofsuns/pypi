@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"

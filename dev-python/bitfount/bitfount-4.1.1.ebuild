@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	dev-python/pandasql[${PYTHON_USEDEP}]
 	>dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-14.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.7.2[${PYTHON_USEDEP}]
@@ -245,7 +245,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tests? ( dev-python/port-for[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/prometheus-client-0.21.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/prompt-toolkit-3.0.48[${PYTHON_USEDEP}] )
-	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/protobuf-4.25.5[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/psycopg-3.2.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )

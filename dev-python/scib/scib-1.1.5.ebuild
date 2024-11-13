@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	louvain? ( dev-python/python-igraph[${PYTHON_USEDEP}] )
 	louvain? ( dev-python/louvain[${PYTHON_USEDEP}] )
 	mnn? ( dev-python/mnnpy[${PYTHON_USEDEP}] )
-	rpy2? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	rpy2? ( >=dev-python/rpy2-3.0[${PYTHON_USEDEP}] )
 	rpy2? ( dev-python/anndata2ri[${PYTHON_USEDEP}] )
 	scanorama? ( dev-python/scanorama[${PYTHON_USEDEP}] )
 	scgen? ( dev-python/scgen[${PYTHON_USEDEP}] )

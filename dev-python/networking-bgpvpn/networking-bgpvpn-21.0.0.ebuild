@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/debtcollector-1.19.0[${PYTHON_USEDEP}]
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tempest-17.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testresources-2.0.0[${PYTHON_USEDEP}] )

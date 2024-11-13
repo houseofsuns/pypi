@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli protobuf"
-DEPENDENCIES="protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+DEPENDENCIES="protobuf? ( <dev-python/protobuf-5.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/utcnow-cli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

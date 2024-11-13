@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/build-1.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-8.3.1[${PYTHON_USEDEP}] )"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/grpcio-1.42.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/multiprocess-0.70.12.2[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]

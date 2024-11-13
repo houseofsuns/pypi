@@ -59,7 +59,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	~dev-python/freezegun-1.1.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	~dev-python/twisted-22.10.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

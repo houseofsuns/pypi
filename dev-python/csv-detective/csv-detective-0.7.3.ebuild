@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.34.0[${PYTHON_USEDEP}]
-	dev-python/faust-cchardet[${PYTHON_USEDEP}]
+	~dev-python/faust-cchardet-2.1.19[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-8.3.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]

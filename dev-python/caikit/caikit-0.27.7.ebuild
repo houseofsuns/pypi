@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/munch-5.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	dev-python/py-to-proto[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	dev-fmt? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev-fmt? ( dev-python/pydeps[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/caikit[${PYTHON_USEDEP}] )
-	dev-proto3? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev-proto3? ( <dev-python/protobuf-3.20[${PYTHON_USEDEP}] )
 	dev-proto3? ( <dev-python/grpcio-1.64[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )

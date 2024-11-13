@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/charset-normalizer-3.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-lxml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	speed? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	speed? ( >=dev-python/faust-cchardet-2.1.19[${PYTHON_USEDEP}] )
 	speed? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	speed? ( dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/stanfordnlp[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<=dev-python/protobuf-3.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

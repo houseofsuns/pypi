@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all datasets docs embeddings fugue gcs image mlflow polars proc proc-mp s3 spark viz"
 DEPENDENCIES="dev-python/whylogs-sketching[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.19.4[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
 	dev-python/whylabs-client[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]

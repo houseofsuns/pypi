@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/redbaron[${PYTHON_USEDEP}]
 	dev-python/debugpy[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.39.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	>=dev-python/protobuf-3.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

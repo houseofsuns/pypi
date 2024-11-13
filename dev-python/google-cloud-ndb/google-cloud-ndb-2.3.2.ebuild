@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/google-api-core-3.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-datastore[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0.0_pre0[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2018.3[${PYTHON_USEDEP}]
 	<dev-python/redis-6.0.0_pre0[${PYTHON_USEDEP}]"

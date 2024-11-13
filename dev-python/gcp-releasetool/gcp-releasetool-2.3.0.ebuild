@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/keyring-21.8.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.21.6[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]"

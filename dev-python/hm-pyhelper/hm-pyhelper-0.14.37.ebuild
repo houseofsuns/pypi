@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/requests-2.33.0[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.24.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-23.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

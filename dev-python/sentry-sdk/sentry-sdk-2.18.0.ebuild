@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.11[${PYTHON_USEDEP}]
 	flask? ( >=dev-python/blinker-1.1[${PYTHON_USEDEP}] )
 	flask? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
 	grpcio? ( >=dev-python/grpcio-1.21.1[${PYTHON_USEDEP}] )
-	grpcio? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	grpcio? ( >=dev-python/protobuf-3.8.0[${PYTHON_USEDEP}] )
 	http2? ( ~dev-python/httpcore-1.0[${PYTHON_USEDEP}] )
 	httpx? ( >=dev-python/httpx-0.16.0[${PYTHON_USEDEP}] )
 	huey? ( dev-python/huey[${PYTHON_USEDEP}] )

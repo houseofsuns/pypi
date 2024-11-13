@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	sphinx? ( >=dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/openstackdocstheme-2.2.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-0.0.18[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/testtools-1.4.0[${PYTHON_USEDEP}] )"

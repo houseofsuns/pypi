@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/htmldate[${PYTHON_USEDEP}]
 	dev-python/trafilatura[${PYTHON_USEDEP}]
 	dev-python/boilerpy3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/faust-cchardet[${PYTHON_USEDEP}]
+	~dev-python/faust-cchardet-2.1[${PYTHON_USEDEP}]
 	dev-python/surt[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-6.1[${PYTHON_USEDEP}] )

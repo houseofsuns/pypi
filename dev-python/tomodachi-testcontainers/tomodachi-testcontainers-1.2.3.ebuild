@@ -27,7 +27,7 @@ IUSE="db mysql postgres sftp wiremock"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	sftp? ( <dev-python/asyncssh-3.0.0[${PYTHON_USEDEP}] )
 	mysql? ( <dev-python/cryptography-44.0[${PYTHON_USEDEP}] )
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	postgres? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
 	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pytest-9.0.0[${PYTHON_USEDEP}]

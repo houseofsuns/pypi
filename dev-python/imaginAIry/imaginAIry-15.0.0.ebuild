@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/click-help-colors-0.9.1[${PYTHON_USEDEP}]
 	dev-python/click-shell[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>dev-python/protobuf-3.19.5[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/ftfy-6.0.1[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/mlflow-skinny[${PYTHON_USEDEP}]
 	dev-python/dbl-tempo[${PYTHON_USEDEP}]
 	dev-python/azure-cosmos[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	<dev-python/sqlparse-1.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

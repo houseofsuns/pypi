@@ -92,7 +92,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	other? ( ~dev-python/grpcio-1.46.3[${PYTHON_USEDEP}] )
 	other? ( dev-python/keyborad[${PYTHON_USEDEP}] )
 	other? ( dev-python/memray[${PYTHON_USEDEP}] )
-	other? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	other? ( ~dev-python/protobuf-3.19.1[${PYTHON_USEDEP}] )
 	other? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
 	other? ( dev-python/recordclass[${PYTHON_USEDEP}] )
 	other? ( dev-python/textdistance[${PYTHON_USEDEP}] )

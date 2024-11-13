@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tidy"
 DEPENDENCIES="~dev-python/grpcio-1.66.2[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-5.27.2[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/robotframework-pythonlibcore[${PYTHON_USEDEP}]
 	dev-python/robotframework-assertion-engine[${PYTHON_USEDEP}]

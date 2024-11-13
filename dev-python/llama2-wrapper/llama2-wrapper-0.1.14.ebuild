@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/auto-gptq[${PYTHON_USEDEP}]
 	dev-python/gradio[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

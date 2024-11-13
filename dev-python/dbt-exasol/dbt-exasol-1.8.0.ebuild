@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyexasol[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/hologram[${PYTHON_USEDEP}]
 	<dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.25.3[${PYTHON_USEDEP}]
 	dev-python/dbt-adapters[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/dbt-tests-adapter[${PYTHON_USEDEP}]"

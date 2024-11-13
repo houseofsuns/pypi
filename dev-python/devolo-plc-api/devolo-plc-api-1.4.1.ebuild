@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES=">=dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.21.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.22.0[${PYTHON_USEDEP}]
 	>=dev-python/segno-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.70.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

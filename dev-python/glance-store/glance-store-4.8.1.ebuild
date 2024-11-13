@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/eventlet[${PYTHON_USEDEP}]
 	test? ( dev-python/oslo-vmware[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/python-cinderclient-4.1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/python-swiftclient-3.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/retrying-1.3.3[${PYTHON_USEDEP}] )

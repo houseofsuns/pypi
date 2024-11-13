@@ -105,7 +105,7 @@ DEPENDENCIES="dev-python/miservice-fork[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/packaging-23.2[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/propcache-0.2.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/proto-plus-1.23.0[${PYTHON_USEDEP}] )
-	locked? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	locked? ( ~dev-python/protobuf-4.25.1[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pyasn1-0.5.1[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pyasn1-modules-0.3.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pydantic-2.8.2[${PYTHON_USEDEP}] )

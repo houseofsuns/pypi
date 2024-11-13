@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.9.2[${PYTHON_USEDEP}]
-	dev-python/rpy2[${PYTHON_USEDEP}]
+	>=dev-python/rpy2-2.9.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.8.6[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.24[${PYTHON_USEDEP}]
 	~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
 	cpu? ( dev-python/intel-extension-for-tensorflow-lib[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/intel-extension-for-tensorflow-lib[${PYTHON_USEDEP}] )

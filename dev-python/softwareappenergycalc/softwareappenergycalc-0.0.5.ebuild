@@ -27,6 +27,6 @@ IUSE="protobuf"
 DEPENDENCIES="dev-python/pyjoules[${PYTHON_USEDEP}]
 	dev-python/os0[${PYTHON_USEDEP}]
 	dev-python/logging3[${PYTHON_USEDEP}]
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	protobuf? ( <dev-python/protobuf-5.0.0_pre0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

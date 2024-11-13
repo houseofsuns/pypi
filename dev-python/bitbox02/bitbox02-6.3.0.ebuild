@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	>=dev-python/ecdsa-0.14[${PYTHON_USEDEP}]
 	>=dev-python/hidapi-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/noiseprotocol-0.3[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

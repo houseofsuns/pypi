@@ -89,7 +89,7 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	timeseries? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	timeseries? ( dev-python/stumpy[${PYTHON_USEDEP}] )
-	alibi? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	alibi? ( <dev-python/protobuf-5.0[${PYTHON_USEDEP}] )
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	alibi? ( <dev-python/scikit-image-0.21[${PYTHON_USEDEP}] )"

@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/aiokafka[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastavro[${PYTHON_USEDEP}] )
-	test? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

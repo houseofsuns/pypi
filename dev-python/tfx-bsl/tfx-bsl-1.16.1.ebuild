@@ -33,9 +33,9 @@ DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-metadata[${PYTHON_USEDEP}]
 	dev-python/tensorflow-serving-api[${PYTHON_USEDEP}]
 	dev-python/apache-beam[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	dev-python/apache-beam[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

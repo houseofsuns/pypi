@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/protobuf-3.13.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.14.0[${PYTHON_USEDEP}]
 	>=dev-python/python-snappy-0.5.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]

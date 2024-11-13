@@ -31,7 +31,7 @@ DEPENDENCIES=">dev-python/click-7.0[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.14[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/rpy2[${PYTHON_USEDEP}]
+	<dev-python/rpy2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-3.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/numpydoc-2.0.0[${PYTHON_USEDEP}] )

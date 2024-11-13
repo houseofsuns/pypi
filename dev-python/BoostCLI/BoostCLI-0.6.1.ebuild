@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	deploy? ( <dev-python/build-1.0[${PYTHON_USEDEP}] )
 	deploy? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )

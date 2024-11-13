@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="attribution doi test"
 DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/backports-csv[${PYTHON_USEDEP}]
-	~dev-python/cchardet-2.1.4[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	dev-python/splitgill[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	<dev-python/elasticsearch-7.0.0[${PYTHON_USEDEP}]

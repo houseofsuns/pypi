@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/cchardet-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cchardet[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]

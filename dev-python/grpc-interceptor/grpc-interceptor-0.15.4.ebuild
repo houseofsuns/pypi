@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	testing? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/protobuf-4.21.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

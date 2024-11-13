@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pandas"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/absl-py[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.14[${PYTHON_USEDEP}]
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

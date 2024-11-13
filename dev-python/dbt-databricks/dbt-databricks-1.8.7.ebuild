@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/dbt-spark[${PYTHON_USEDEP}]
 	dev-python/databricks-sdk[${PYTHON_USEDEP}]
 	>=dev-python/keyring-23.13.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

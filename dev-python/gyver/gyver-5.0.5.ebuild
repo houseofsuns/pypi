@@ -27,7 +27,7 @@ IUSE="pydantic tzdata"
 DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	tzdata? ( <dev-python/tzdata-2025.0[${PYTHON_USEDEP}] )
 	dev-python/gyver-attrs[${PYTHON_USEDEP}]
-	dev-python/faust-cchardet[${PYTHON_USEDEP}]
+	<dev-python/faust-cchardet-3.0.0[${PYTHON_USEDEP}]
 	dev-python/env-star[${PYTHON_USEDEP}]
 	dev-python/lazy-fields[${PYTHON_USEDEP}]
 	dev-python/gyver-misc[${PYTHON_USEDEP}]

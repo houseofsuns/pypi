@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="data"
 DEPENDENCIES=">=dev-python/pytz-2016.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.2.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/futures[${PYTHON_USEDEP}]

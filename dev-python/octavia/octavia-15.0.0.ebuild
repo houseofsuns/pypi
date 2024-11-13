@@ -83,7 +83,7 @@ DEPENDENCIES=">=dev-python/flask-0.10[${PYTHON_USEDEP}]
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-1.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tempest-23.0.0[${PYTHON_USEDEP}] )

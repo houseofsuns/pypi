@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/bleak[${PYTHON_USEDEP}]
 	analysis? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	<dev-python/pexpect-5.0.0[${PYTHON_USEDEP}]
 	dev-python/print-color[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-5.26.0[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	dev-python/PyQRCode[${PYTHON_USEDEP}]

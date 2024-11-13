@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all geobuf svg"
 DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	all? ( dev-python/dash-svg[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/geobuf[${PYTHON_USEDEP}] )
 	all? ( dev-python/dash-extensions[${PYTHON_USEDEP}] )
-	geobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	geobuf? ( ~dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )
 	geobuf? ( dev-python/geobuf[${PYTHON_USEDEP}] )
 	svg? ( dev-python/dash-svg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="reference"
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 	reference? ( dev-python/google-re2[${PYTHON_USEDEP}] )
 	reference? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

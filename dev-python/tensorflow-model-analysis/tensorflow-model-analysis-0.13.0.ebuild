@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/apache-beam[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-2.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-transform[${PYTHON_USEDEP}]"

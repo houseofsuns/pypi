@@ -72,7 +72,7 @@ DEPENDENCIES="<dev-python/APScheduler-3.11.0[${PYTHON_USEDEP}]
 	metadata? ( <dev-python/html2text-2024.2.26[${PYTHON_USEDEP}] )
 	metadata? ( <dev-python/python-dateutil-2.10.0[${PYTHON_USEDEP}] )
 	metadata? ( <dev-python/beautifulsoup4-4.13.0[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	metadata? ( <dev-python/faust-cchardet-2.1.20[${PYTHON_USEDEP}] )
 	metadata? ( dev-python/py7zr[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/Flask-Dance[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )"

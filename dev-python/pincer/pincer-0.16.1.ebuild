@@ -28,7 +28,7 @@ DEPENDENCIES="speed? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	img? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	speed? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	speed? ( <dev-python/cchardet-3.0.0[${PYTHON_USEDEP}] )
+	speed? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	speed? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	img? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

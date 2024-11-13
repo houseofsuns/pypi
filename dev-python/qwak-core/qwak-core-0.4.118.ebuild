@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="feature-store"
 DEPENDENCIES=">=dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.21.6[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]

@@ -55,6 +55,6 @@ DEPENDENCIES="dev-python/wiliot-core[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.14.1[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	~dev-python/protobuf-5.28.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

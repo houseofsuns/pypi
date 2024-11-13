@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	donut? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	donut? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	donut? ( <=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	web? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	web? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

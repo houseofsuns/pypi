@@ -50,9 +50,9 @@ DEPENDENCIES=">=dev-python/click-5.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/dagster-pipes[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
 	mypy? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )

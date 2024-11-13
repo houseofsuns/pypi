@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/importlib-metadata-4.1[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	tf? ( <dev-python/protobuf-3.20[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow-metal[${PYTHON_USEDEP}] )
 	tfa? ( dev-python/tensorflow-addons[${PYTHON_USEDEP}] )

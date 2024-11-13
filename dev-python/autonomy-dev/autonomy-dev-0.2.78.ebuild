@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/asn1crypto-1.5.0[${PYTHON_USEDEP}]
 	dev-python/open-aea-test-autonomy[${PYTHON_USEDEP}]
 	all? ( dev-python/open-autonomy[${PYTHON_USEDEP}] )
 	~dev-python/openapi-spec-validator-0.2.8[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.25.0[${PYTHON_USEDEP}]
 	dev-python/py-eth-sig-utils[${PYTHON_USEDEP}]
 	dev-python/py-multibase[${PYTHON_USEDEP}]
 	dev-python/py-multicodec[${PYTHON_USEDEP}]

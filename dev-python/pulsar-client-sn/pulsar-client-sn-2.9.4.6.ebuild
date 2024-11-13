@@ -30,13 +30,13 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	all? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	all? ( <dev-python/grpcio-1.28[${PYTHON_USEDEP}] )
 	all? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/protobuf-3.20[${PYTHON_USEDEP}] )
 	all? ( dev-python/ratelimit[${PYTHON_USEDEP}] )
 	avro? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	functions? ( dev-python/apache-bookkeeper-client[${PYTHON_USEDEP}] )
 	functions? ( <dev-python/grpcio-1.28[${PYTHON_USEDEP}] )
 	functions? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	functions? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	functions? ( <=dev-python/protobuf-3.20[${PYTHON_USEDEP}] )
 	functions? ( dev-python/ratelimit[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

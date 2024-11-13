@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( <dev-python/protobuf-3.21[${PYTHON_USEDEP}] )
 	all? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	all? ( <dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
@@ -71,6 +71,6 @@ DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
 	translator? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	translator? ( dev-python/torch[${PYTHON_USEDEP}] )
 	translator? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	translator? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	translator? ( <dev-python/protobuf-3.21[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

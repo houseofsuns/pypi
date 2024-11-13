@@ -35,9 +35,9 @@ DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-metadata[${PYTHON_USEDEP}]
 	dev-python/tfx-bsl[${PYTHON_USEDEP}]
 	dev-python/apache-beam[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	dev-python/apache-beam[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )

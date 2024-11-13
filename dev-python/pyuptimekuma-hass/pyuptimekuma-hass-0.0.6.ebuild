@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}]
-	dev-python/faust-cchardet[${PYTHON_USEDEP}]
+	>=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}]
 	>=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )"

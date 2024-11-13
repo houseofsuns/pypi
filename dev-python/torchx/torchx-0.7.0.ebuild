@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/pyre-extensions[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/grpcio-status-1.48.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/google-api-core-2.18.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}] )
 	gcp-batch? ( dev-python/google-cloud-batch[${PYTHON_USEDEP}] )
 	gcp-batch? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	gcp-batch? ( dev-python/google-cloud-runtimeconfig[${PYTHON_USEDEP}] )

@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
 	dev-python/google-cloud-appengine-logging[${PYTHON_USEDEP}]
 	dev-python/goblet-gcp-client[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	~dev-python/protobuf-4.24[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/opentracing-instrumentation[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-3.14.0[${PYTHON_USEDEP}]
 	<dev-python/funcy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]

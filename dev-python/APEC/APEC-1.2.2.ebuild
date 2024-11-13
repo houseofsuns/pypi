@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-0.20.0[${PYTHON_USEDEP}]
 	dev-python/MulticoreTSNE[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/rpy2[${PYTHON_USEDEP}]
+	~dev-python/rpy2-2.8.5[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

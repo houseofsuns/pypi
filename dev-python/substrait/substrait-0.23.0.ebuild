@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gen-proto test"
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	gen-proto? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/protobuf-3.20[${PYTHON_USEDEP}]
+	gen-proto? ( ~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	gen-proto? ( dev-python/protoletariat[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}]
 	>=dev-python/fpylll-0.5.9[${PYTHON_USEDEP}]
 	>dev-python/ptyprocess-0.5[${PYTHON_USEDEP}]
-	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	r? ( >=dev-python/rpy2-3.3[${PYTHON_USEDEP}] )
 	bliss? ( dev-python/sagemath-bliss[${PYTHON_USEDEP}] )
 	coxeter3? ( dev-python/sagemath-coxeter3[${PYTHON_USEDEP}] )
 	mcqd? ( dev-python/sagemath-mcqd[${PYTHON_USEDEP}] )

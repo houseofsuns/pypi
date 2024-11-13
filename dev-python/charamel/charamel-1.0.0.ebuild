@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark"
 DEPENDENCIES="benchmark? ( <dev-python/chardet-4.0.0[${PYTHON_USEDEP}] )
-	benchmark? ( <dev-python/cchardet-3.0.0[${PYTHON_USEDEP}] )
+	benchmark? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	benchmark? ( <dev-python/charset-normalizer-2.0.0[${PYTHON_USEDEP}] )
 	benchmark? ( <dev-python/termcolor-2.0.0[${PYTHON_USEDEP}] )
 	benchmark? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )"

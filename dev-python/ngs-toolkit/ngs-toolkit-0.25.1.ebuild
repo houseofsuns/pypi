@@ -66,6 +66,6 @@ DEPENDENCIES=">=dev-python/setuptools-scm-3.3.3[${PYTHON_USEDEP}]
 	testing? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	testing? ( dev-python/rpy2[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/rpy2-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

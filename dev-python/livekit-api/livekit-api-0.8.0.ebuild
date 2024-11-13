@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.0[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
 	dev-python/livekit-protocol[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

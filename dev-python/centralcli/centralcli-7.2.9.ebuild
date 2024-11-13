@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	hook-proxy? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	hook-proxy? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	hook-proxy? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	speedups? ( >=dev-python/cchardet-2.1[${PYTHON_USEDEP}] )
+	speedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	speedups? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

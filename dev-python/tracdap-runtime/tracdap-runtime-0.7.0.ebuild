@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure gcp grpc polars spark sql"
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/protobuf-5.28.2[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-16.1.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/dulwich-0.22.1[${PYTHON_USEDEP}]

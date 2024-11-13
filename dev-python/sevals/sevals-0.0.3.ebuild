@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	sentencepiece? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	sentencepiece? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	sentencepiece? ( >=dev-python/protobuf-4.22.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

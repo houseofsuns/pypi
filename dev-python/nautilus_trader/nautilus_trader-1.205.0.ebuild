@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/cython-3.0.11[${PYTHON_USEDEP}]
 	ib? ( dev-python/nautilus-ibapi[${PYTHON_USEDEP}] )
 	dydx? ( dev-python/v4-proto[${PYTHON_USEDEP}] )
 	dydx? ( ~dev-python/grpcio-1.65.4[${PYTHON_USEDEP}] )
-	dydx? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dydx? ( ~dev-python/protobuf-5.27.1[${PYTHON_USEDEP}] )
 	dydx? ( dev-python/bech32[${PYTHON_USEDEP}] )
 	dydx? ( <dev-python/ecdsa-0.20.0[${PYTHON_USEDEP}] )
 	dydx? ( dev-python/bip-utils[${PYTHON_USEDEP}] )

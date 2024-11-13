@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/hdfs[${PYTHON_USEDEP}]
 	dev-python/python-logstash[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	~dev-python/protobuf-3.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

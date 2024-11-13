@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/bottle-0.12.18[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
 	>=dev-python/xlsxwriter-3.1[${PYTHON_USEDEP}]
 	>=dev-python/puremagic-1.11[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.23[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pycoin[${PYTHON_USEDEP}]
 	>=dev-python/websockets-7.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	dev-python/secp256k1Crypto[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.6.1[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	>=dev-python/ujson-1.35[${PYTHON_USEDEP}]
 	ledger? ( dev-python/btchip-python[${PYTHON_USEDEP}] )"

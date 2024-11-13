@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/randomname[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.21.1[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.43.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.4[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="opentelemetry"
 DEPENDENCIES="<dev-python/grpcio-1.68[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.11.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	opentelemetry? ( <dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}] )

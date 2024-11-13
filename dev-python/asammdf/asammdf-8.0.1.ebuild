@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/canmatrix[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	dev-python/isal[${PYTHON_USEDEP}]
-	decode? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	decode? ( ~dev-python/faust-cchardet-2.1.19[${PYTHON_USEDEP}] )
 	decode? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/keyring[${PYTHON_USEDEP}] )

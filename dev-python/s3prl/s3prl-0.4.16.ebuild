@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/torchaudio[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	all? ( >=dev-python/joblib-0.12.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.5.4[${PYTHON_USEDEP}] )

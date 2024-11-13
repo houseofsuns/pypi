@@ -27,7 +27,7 @@ IUSE="grpc opentelemetry"
 DEPENDENCIES="grpc? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
 	opentelemetry? ( <dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}] )
 	opentelemetry? ( <dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}] )
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"

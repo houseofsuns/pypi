@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.18.1[${PYTHON_USEDEP}]
 	dev-python/pretty_midi[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.21.2[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

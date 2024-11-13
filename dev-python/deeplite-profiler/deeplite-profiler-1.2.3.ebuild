@@ -28,12 +28,12 @@ DEPENDENCIES="<dev-python/setuptools-65.6.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/ptflops[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/protobuf-3.19[${PYTHON_USEDEP}] )
 	all-gpu? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all-gpu? ( dev-python/ptflops[${PYTHON_USEDEP}] )
-	all-gpu? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	tf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	tf-gpu? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all-gpu? ( ~dev-python/protobuf-3.19[${PYTHON_USEDEP}] )
+	tf? ( ~dev-python/protobuf-3.19[${PYTHON_USEDEP}] )
+	tf-gpu? ( ~dev-python/protobuf-3.19[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torch? ( dev-python/ptflops[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

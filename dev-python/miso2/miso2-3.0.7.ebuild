@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/image-classifiers[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/imblearn[${PYTHON_USEDEP}]
 	dev-python/tf2onnx[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	dev-python/cleanlab[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]"

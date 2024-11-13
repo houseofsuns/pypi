@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/six-1.13[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.8.0[${PYTHON_USEDEP}]
 	ssl_backport? ( dev-python/backports-ssl[${PYTHON_USEDEP}] )
 	ssl_backport? ( dev-python/backports-ssl_match_hostname[${PYTHON_USEDEP}] )
 	ssl_backport? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )"

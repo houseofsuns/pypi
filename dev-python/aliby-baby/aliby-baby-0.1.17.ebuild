@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/tune-sklearn[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/keras-tuner[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
 	dev-python/hpbandster[${PYTHON_USEDEP}]
 	dev-python/ConfigSpace[${PYTHON_USEDEP}]"

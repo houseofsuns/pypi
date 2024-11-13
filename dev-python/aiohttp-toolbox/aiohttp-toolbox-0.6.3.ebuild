@@ -27,7 +27,7 @@ IUSE="all"
 DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
-	>=dev-python/cchardet-2.1.4[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	>=dev-python/sentry-sdk-0.11.1[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.11.2[${PYTHON_USEDEP}]

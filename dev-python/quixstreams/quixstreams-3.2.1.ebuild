@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.3.0[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	all? ( dev-python/fastavro[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( <dev-python/protobuf-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/influxdb3-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyiceberg[${PYTHON_USEDEP}] )
 	avro? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	iceberg? ( dev-python/pyiceberg[${PYTHON_USEDEP}] )
 	iceberg-aws? ( dev-python/pyiceberg[${PYTHON_USEDEP}] )
 	influxdb3? ( dev-python/influxdb3-python[${PYTHON_USEDEP}] )
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	protobuf? ( <dev-python/protobuf-6.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

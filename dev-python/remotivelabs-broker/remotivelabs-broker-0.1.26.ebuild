@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/grpc-interceptor[${PYTHON_USEDEP}]
 	dev-python/grpc-stubs[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.44[${PYTHON_USEDEP}]
 	dev-python/mypy-protobuf[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.21[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
 	default? ( dev-python/pdoc[${PYTHON_USEDEP}] )

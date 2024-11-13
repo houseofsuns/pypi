@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	full? ( dev-python/torch[${PYTHON_USEDEP}] )
 	full? ( dev-python/transformer[${PYTHON_USEDEP}] )
-	full? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/importlib-metadata-6.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/salesforce-lavis[${PYTHON_USEDEP}] )
 	full? ( dev-python/pynvml[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	lavis? ( dev-python/salesforce-lavis[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/torch[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/transformer[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	transformers? ( ~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	transformers? ( >=dev-python/importlib-metadata-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	>=dev-python/moto-4.1.4[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	>=dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
-	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	r? ( >=dev-python/rpy2-3.5.10[${PYTHON_USEDEP}] )
 	plotting? ( >=dev-python/pygraphviz-1.10[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )"

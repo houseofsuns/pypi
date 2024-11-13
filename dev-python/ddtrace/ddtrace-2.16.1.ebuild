@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="openai opentracing"
 DEPENDENCIES="dev-python/envier[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-api-1.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.12[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.0[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.22.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/types-psutil-5.9.5.16[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/types-setuptools-68.1.0.1[${PYTHON_USEDEP}] )

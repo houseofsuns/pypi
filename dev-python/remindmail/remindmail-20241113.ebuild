@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1!2.0.0"
+REALVERSION="1!2.0.1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easily schedule reminders to be emailed [badver 1!2.0.0]"
+DESCRIPTION="Easily schedule reminders to be emailed [badver 1!2.0.1]"
 
 HOMEPAGE="https://github.com/tylerjwoodfin/remindmail"
 LICENSE=": OSI Approved :: MIT License"

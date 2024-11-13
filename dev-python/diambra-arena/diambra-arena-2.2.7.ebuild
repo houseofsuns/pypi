@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	sheeprl? ( ~dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}] )
 	stable-baselines? ( dev-python/stable-baselines[${PYTHON_USEDEP}] )
 	stable-baselines? ( dev-python/gym[${PYTHON_USEDEP}] )
-	stable-baselines? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	stable-baselines? ( ~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	stable-baselines? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	stable-baselines3? ( dev-python/stable-baselines3[${PYTHON_USEDEP}] )
 	stable-baselines3? ( dev-python/pyyaml[${PYTHON_USEDEP}] )

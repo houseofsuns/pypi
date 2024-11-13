@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/aiofiles-0.5.0[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
 	>=dev-python/packaging-15.0[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.4.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

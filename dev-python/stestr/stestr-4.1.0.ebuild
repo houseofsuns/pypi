@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="sql test"
 DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
-	dev-python/python-subunit[${PYTHON_USEDEP}]
+	>=dev-python/python-subunit-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/testtools-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.10.0[${PYTHON_USEDEP}]

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/six-1.10[${PYTHON_USEDEP}]
 	>=dev-python/jsonpointer-1.10[${PYTHON_USEDEP}]
 	dev-python/tableschema[${PYTHON_USEDEP}]
 	dev-python/dataflows-tabulator[${PYTHON_USEDEP}]
-	cchardet? ( >=dev-python/cchardet-2.0[${PYTHON_USEDEP}] )
+	cchardet? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )

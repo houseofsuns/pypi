@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/oauthlib-2.1.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

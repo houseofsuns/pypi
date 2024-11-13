@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	test? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/shap[${PYTHON_USEDEP}] )
-	test? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/rpy2-2.9.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

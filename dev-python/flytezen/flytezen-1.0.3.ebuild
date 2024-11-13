@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/hydra-zen[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/plumbum-1.8.2[${PYTHON_USEDEP}]
 	test? ( dev-python/poethepoet[${PYTHON_USEDEP}] )
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.24.4[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-14.0.2[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	lint? ( dev-python/pyright[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="drivers nidaqmx nidcpower nidigital nidmm nifgen niscope niswitch"
 DEPENDENCIES="<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.1[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	drivers? ( dev-python/nidaqmx[${PYTHON_USEDEP}] )

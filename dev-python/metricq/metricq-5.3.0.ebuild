@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs examples lint pandas test typing"
 DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-3.13[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]

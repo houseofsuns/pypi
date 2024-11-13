@@ -33,7 +33,7 @@ DEPENDENCIES="nb? ( >=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.8[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.12.2[${PYTHON_USEDEP}]
 	>dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/py-machineid[${PYTHON_USEDEP}]
 	dev-python/geocoder[${PYTHON_USEDEP}]

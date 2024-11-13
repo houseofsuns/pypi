@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/aiogrpc[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/Rx[${PYTHON_USEDEP}]
 	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.6.0[${PYTHON_USEDEP}]
 	dev-python/CouchDB[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

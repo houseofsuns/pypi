@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="imgaug opencv test tf tf_datasets tf_gpu torch"
 DEPENDENCIES=">=dev-python/absl-py-0.9.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.7.1[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.5.11[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]

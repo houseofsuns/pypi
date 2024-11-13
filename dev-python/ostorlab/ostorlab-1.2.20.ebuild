@@ -27,7 +27,7 @@ IUSE="agent google-cloud-logging scanner serve testing"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]

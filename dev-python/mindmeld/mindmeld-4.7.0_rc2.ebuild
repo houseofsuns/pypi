@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/click-7.1[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.7.1[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pytorch-crf[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	active_learning? ( ~dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}] )

@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/pygeofilter[${PYTHON_USEDEP}]
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/mapbox-vector-tile[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	test? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )

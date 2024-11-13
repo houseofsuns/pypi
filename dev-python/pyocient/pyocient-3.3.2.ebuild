@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/dsnparse[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-4.22.0[${PYTHON_USEDEP}]
 	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

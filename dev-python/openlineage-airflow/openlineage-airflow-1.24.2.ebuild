@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/attrs-20.0[${PYTHON_USEDEP}]
 	airflow? ( dev-python/apache-airflow-providers-dbt-cloud[${PYTHON_USEDEP}] )
 	airflow? ( dev-python/airflow-provider-great-expectations[${PYTHON_USEDEP}] )
 	airflow? ( dev-python/great-expectations[${PYTHON_USEDEP}] )
-	airflow? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	airflow? ( <dev-python/protobuf-4.23[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

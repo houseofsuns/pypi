@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0.0_pre0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-5.28.2[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]

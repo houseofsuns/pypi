@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	>=dev-python/structlog-21.1.0[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.21.0[${PYTHON_USEDEP}]
 	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

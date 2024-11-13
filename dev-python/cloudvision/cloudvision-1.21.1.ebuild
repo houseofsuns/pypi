@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="<dev-python/cryptography-43.0.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.53.0[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.3[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.11.4[${PYTHON_USEDEP}] )

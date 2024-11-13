@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="proj"
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyclipper-2.0.0[${PYTHON_USEDEP}]
 	proj? ( <dev-python/pyproj-4.0.0[${PYTHON_USEDEP}] )"

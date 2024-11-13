@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.4.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.11.10[${PYTHON_USEDEP}]
 	~dev-python/html5lib-0.9999999[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.6.8[${PYTHON_USEDEP}]

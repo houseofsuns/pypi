@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aiogrpc[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf3-to-dict[${PYTHON_USEDEP}]
 	dev-python/ptpython[${PYTHON_USEDEP}]
 	dev-python/yachalk[${PYTHON_USEDEP}]"

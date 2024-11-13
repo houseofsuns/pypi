@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/h5py-4.0[${PYTHON_USEDEP}]
 	export? ( dev-python/fcswrite[${PYTHON_USEDEP}] )
 	export? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	http? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
-	lme4? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	lme4? ( >=dev-python/rpy2-2.9.4[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/boto3-1.34.31[${PYTHON_USEDEP}] )
 	tdms? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	tdms? ( dev-python/npTDMS[${PYTHON_USEDEP}] )"

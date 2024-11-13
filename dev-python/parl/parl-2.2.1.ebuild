@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.37.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}]"

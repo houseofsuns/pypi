@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/setuptools-58.0.4[${PYTHON_USEDEP}]
 	dev-python/tsaugmentation[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.2.5[${PYTHON_USEDEP}]
-	dev-python/rpy2[${PYTHON_USEDEP}]
+	~dev-python/rpy2-3.4.5[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/gluonts[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]

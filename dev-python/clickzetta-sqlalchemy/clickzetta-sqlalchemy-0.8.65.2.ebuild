@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all geopandas ipython ipywidgets pandas tqdm"
 DEPENDENCIES="<dev-python/proto-plus-2.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0.0_pre0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0_pre0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0_pre0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]

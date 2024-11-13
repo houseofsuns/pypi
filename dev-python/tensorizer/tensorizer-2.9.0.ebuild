@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.19.5[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.26.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.5.5[${PYTHON_USEDEP}]

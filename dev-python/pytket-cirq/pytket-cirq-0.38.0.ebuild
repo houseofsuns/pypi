@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pytket[${PYTHON_USEDEP}]
 	dev-python/cirq-core[${PYTHON_USEDEP}]
 	dev-python/cirq-google[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

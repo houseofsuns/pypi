@@ -63,6 +63,6 @@ DEPENDENCIES="~dev-python/twisted-24.3.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-8.0.2[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

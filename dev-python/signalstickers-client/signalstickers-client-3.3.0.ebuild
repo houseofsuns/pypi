@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	<=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	<dev-python/cryptography-4.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="protobuf"
 DEPENDENCIES="<dev-python/h2-5.0[${PYTHON_USEDEP}]
 	dev-python/multidict[${PYTHON_USEDEP}]
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	protobuf? ( >=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydoctor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

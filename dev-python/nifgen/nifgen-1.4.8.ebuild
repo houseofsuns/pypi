@@ -27,6 +27,6 @@ IUSE="grpc"
 DEPENDENCIES="dev-python/hightime[${PYTHON_USEDEP}]
 	dev-python/nitclk[${PYTHON_USEDEP}]
 	grpc? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	grpc? ( <dev-python/protobuf-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

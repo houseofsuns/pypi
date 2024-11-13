@@ -53,7 +53,7 @@ DEPENDENCIES="~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.19.0[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
 	>=dev-python/lz4-3.1.10[${PYTHON_USEDEP}]
 	>=dev-python/trio-0.22.0[${PYTHON_USEDEP}]
@@ -90,7 +90,7 @@ DEPENDENCIES="~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	all? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/protobuf-3.19.0[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/tenacity-8.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	all? ( dev-python/orjson[${PYTHON_USEDEP}] )

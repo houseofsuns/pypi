@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/wasabi[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-11.1.0[${PYTHON_USEDEP}]
 	dev-python/psycopmlutils[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	dev? ( dev-python/cruft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )

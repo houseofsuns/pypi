@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/GitPython-2.0.8[${PYTHON_USEDEP}]
 	>=dev-python/oauthlib-2.1.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	pytorch-lightning? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/terminaltables[${PYTHON_USEDEP}]
 	all? ( dev-python/cython[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	all? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/six[${PYTHON_USEDEP}] )
 	all? ( dev-python/terminaltables[${PYTHON_USEDEP}] )
 	all? ( dev-python/asynctest[${PYTHON_USEDEP}] )

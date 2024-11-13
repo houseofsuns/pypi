@@ -60,8 +60,8 @@ DEPENDENCIES=">dev-python/markdown-3.3.5[${PYTHON_USEDEP}]
 	panorama? ( dev-python/pan-os-python[${PYTHON_USEDEP}] )
 	all? ( <dev-python/prettytable-3.0.0[${PYTHON_USEDEP}] )
 	aci? ( <dev-python/prettytable-3.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	aristacv? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
+	aristacv? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
 	grafana? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]

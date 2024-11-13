@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/chardet-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wilderness[${PYTHON_USEDEP}] )
-	dev? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tabview[${PYTHON_USEDEP}] )
 	dev? ( dev-python/green[${PYTHON_USEDEP}] )
@@ -41,12 +41,12 @@ DEPENDENCIES=">=dev-python/chardet-3.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	full? ( dev-python/wilderness[${PYTHON_USEDEP}] )
-	full? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tabview[${PYTHON_USEDEP}] )
 	precommit? ( dev-python/wilderness[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wilderness[${PYTHON_USEDEP}] )
-	tests? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tabview[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

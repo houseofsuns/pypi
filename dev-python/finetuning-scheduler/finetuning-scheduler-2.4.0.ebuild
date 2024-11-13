@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/lightning[${PYTHON_USEDEP}]
 	all? ( ~dev-python/twine-3.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mypy-0.920[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/lightning[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/twine-3.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.920[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
@@ -85,6 +85,6 @@ DEPENDENCIES="dev-python/lightning[${PYTHON_USEDEP}]
 	test? ( ~dev-python/twine-3.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-0.920[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	test? ( <=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

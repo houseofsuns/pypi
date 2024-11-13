@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="serialization"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	serialization? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	serialization? ( >=dev-python/protobuf-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

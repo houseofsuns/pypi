@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.21.12[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.8[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
@@ -134,7 +134,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pika-1.3.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pinotdb[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/protobuf-4.21.12[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyairtable[${PYTHON_USEDEP}] )

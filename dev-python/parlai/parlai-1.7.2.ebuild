@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	<=dev-python/markdown-3.3.2[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	dev-python/contractions[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2022.2.0[${PYTHON_USEDEP}]
 	<=dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}]"

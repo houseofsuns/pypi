@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/acstore[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	worker? ( dev-python/plaso[${PYTHON_USEDEP}] )
 	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.19.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyglove[${PYTHON_USEDEP}]
 	worker? ( dev-python/pyhindsight[${PYTHON_USEDEP}] )

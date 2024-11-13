@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/grpcio-1.60.1[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
 	>=dev-python/google-api-core-2.11.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

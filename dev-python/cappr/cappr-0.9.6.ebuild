@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	hf? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	hf-dev? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	hf-dev? ( dev-python/peft[${PYTHON_USEDEP}] )
-	hf-dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	hf-dev? ( >=dev-python/protobuf-5.27.2[${PYTHON_USEDEP}] )
 	hf-dev? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	hf-dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	llama-cpp? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )

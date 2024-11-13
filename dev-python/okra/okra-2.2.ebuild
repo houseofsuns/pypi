@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.19[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

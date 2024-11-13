@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev qsim"
-DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	dev-python/cirq-core[${PYTHON_USEDEP}]
 	dev-python/cirq-google[${PYTHON_USEDEP}]
 	dev-python/orquestra-quantum[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/pyaml-24.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/PySocks-2.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.2[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0[${PYTHON_USEDEP}]
 	video? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )"

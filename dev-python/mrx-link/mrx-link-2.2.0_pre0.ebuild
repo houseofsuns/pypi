@@ -37,7 +37,7 @@ DEPENDENCIES="<=dev-python/black-22.12[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-17.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/jupyter-packaging-0.10[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )

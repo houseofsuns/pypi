@@ -51,6 +51,6 @@ DEPENDENCIES="streaming? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	config? ( dev-python/dacite[${PYTHON_USEDEP}] )
 	streaming? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	streaming? ( <dev-python/betterproto-3.0.0[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	grpc? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

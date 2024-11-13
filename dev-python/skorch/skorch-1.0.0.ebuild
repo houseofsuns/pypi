@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	testing? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	testing? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/protobuf-4.0_pre0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-3.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

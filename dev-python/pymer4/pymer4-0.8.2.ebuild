@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
-	dev-python/rpy2[${PYTHON_USEDEP}]
+	>=dev-python/rpy2-3.5.3[${PYTHON_USEDEP}]
 	>=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	>=dev-python/patsy-0.5.1[${PYTHON_USEDEP}]

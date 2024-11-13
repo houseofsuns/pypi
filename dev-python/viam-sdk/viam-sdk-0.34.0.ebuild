@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mlmodel"
 DEPENDENCIES=">=dev-python/googleapis-common-protos-1.65.0[${PYTHON_USEDEP}]
 	>=dev-python/grpclib-0.4.7[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-5.28.2[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-4.10.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	mlmodel? ( dev-python/numpy[${PYTHON_USEDEP}] )

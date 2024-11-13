@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dash? ( ~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-cytoscape[${PYTHON_USEDEP}] )
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	feature-store? ( dev-python/prometheus-fastapi-instrumentator[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	dash? ( dev-python/Authlib[${PYTHON_USEDEP}] )

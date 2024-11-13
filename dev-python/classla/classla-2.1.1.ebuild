@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="~dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.21.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]

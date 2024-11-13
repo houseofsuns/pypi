@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="datasets dev test tokenizers transformers visualization"
 DEPENDENCIES="dev-python/emoji[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.15.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

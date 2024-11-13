@@ -38,6 +38,6 @@ DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/google-auth-httplib2-0.0.4[${PYTHON_USEDEP}]
 	~dev-python/google-auth-oauthlib-0.4.4[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	~dev-python/protobuf-3.17.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

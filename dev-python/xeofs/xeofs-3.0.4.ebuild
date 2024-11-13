@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbstripout[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rpy2-3.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-gallery-0.14[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )

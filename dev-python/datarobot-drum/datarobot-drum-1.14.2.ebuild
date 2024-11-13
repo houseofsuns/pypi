@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/datarobot-storage[${PYTHON_USEDEP}]
-	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	r? ( ~dev-python/rpy2-3.5.8[${PYTHON_USEDEP}] )
 	keras? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	keras? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	keras? ( dev-python/h5py[${PYTHON_USEDEP}] )

@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/aligo[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]"
+	>=dev-python/protobuf-4.24.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

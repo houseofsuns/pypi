@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="yc"
 DEPENDENCIES=">=dev-python/grpcio-1.42.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	yc? ( dev-python/yandexcloud[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

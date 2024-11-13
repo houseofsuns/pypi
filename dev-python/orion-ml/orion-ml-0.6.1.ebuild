@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
 	dev-python/stumpy[${PYTHON_USEDEP}]
 	dev-python/ncps[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )

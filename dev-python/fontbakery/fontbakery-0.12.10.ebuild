@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/beziers[${PYTHON_USEDEP}]
 	googlefonts? ( dev-python/collidoscope[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/dehinter[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/fonttools[${PYTHON_USEDEP}] )
-	googlefonts? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	googlefonts? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/stringbrewer[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/unicodedata2[${PYTHON_USEDEP}] )
 	googlefonts? ( dev-python/fontbakery[${PYTHON_USEDEP}] )

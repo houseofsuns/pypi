@@ -80,7 +80,7 @@ DEPENDENCIES=">=dev-python/pastedeploy-1.5.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/oslotest-3.3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-subunit-1.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/reno-3.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-1.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )

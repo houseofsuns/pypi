@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/backrefs-5.7[${PYTHON_USEDEP}]
 	>=dev-python/send2trash-1.8.3[${PYTHON_USEDEP}]
 	<dev-python/wcmatch-11.0[${PYTHON_USEDEP}]
 	>=dev-python/wxpython-4.1.0[${PYTHON_USEDEP}]
-	extras? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/regex-2024.9.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

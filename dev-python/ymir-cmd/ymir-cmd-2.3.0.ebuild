@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/pillow-8.2.0[${PYTHON_USEDEP}]
 	~dev-python/fasteners-0.16.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.18.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]

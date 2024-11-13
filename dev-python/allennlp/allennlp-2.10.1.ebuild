@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	>dev-python/traitlets-5.1.1[${PYTHON_USEDEP}]
 	dev-python/jsonnet[${PYTHON_USEDEP}]
 	all? ( dev-python/checklist[${PYTHON_USEDEP}] )

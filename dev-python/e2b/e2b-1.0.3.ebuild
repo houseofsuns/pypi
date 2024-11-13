@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpcore-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.28.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-23.2.0[${PYTHON_USEDEP}]

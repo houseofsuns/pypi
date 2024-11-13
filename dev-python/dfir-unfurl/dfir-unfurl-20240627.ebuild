@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all lookups ui"
 DEPENDENCIES="dev-python/dnslib[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	dev-python/publicsuffix2[${PYTHON_USEDEP}]
 	dev-python/pycountry[${PYTHON_USEDEP}]
 	dev-python/pymispwarninglists[${PYTHON_USEDEP}]

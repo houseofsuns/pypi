@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bareun-apis[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

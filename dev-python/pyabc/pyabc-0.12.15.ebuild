@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/jabbar[${PYTHON_USEDEP}]
 	>=dev-python/GitPython-3.1.7[${PYTHON_USEDEP}]
-	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
+	r? ( >=dev-python/rpy2-3.4.4[${PYTHON_USEDEP}] )
 	r? ( >=dev-python/cffi-1.14.5[${PYTHON_USEDEP}] )
 	r? ( >=dev-python/ipython-7.18.1[${PYTHON_USEDEP}] )
 	r? ( >=dev-python/pygments-2.6.1[${PYTHON_USEDEP}] )

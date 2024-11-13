@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="snowpark"
 DEPENDENCIES=">=dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-4.25.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}]
 	dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]

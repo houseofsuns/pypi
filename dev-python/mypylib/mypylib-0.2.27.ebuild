@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Your package description"
+DESCRIPTION="Your package description [top-max 0.2.28]"
 
 HOMEPAGE="https://github.com/williamchen180/mypylib"
 LICENSE=""

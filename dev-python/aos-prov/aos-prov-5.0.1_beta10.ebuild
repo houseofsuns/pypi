@@ -27,8 +27,8 @@ IUSE="dev"
 DEPENDENCIES="dev-python/aos-keys[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
+	~dev-python/protobuf-3.20[${PYTHON_USEDEP}]
 	>=dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.13[${PYTHON_USEDEP}]
 	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )

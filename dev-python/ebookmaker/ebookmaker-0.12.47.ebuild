@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	dev-python/libgutenberg[${PYTHON_USEDEP}]
-	~dev-python/cchardet-2.2.0_alpha2[${PYTHON_USEDEP}]
+	dev-python/cchardet[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

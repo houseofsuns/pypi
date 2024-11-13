@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/clarifai-grpc[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	~dev-python/protobuf-5.27.3[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2024.6.1[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	all? ( dev-python/pycocotools[${PYTHON_USEDEP}] )"

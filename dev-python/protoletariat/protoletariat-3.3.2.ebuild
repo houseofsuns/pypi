@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="grpcio-tools"
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	grpcio-tools? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

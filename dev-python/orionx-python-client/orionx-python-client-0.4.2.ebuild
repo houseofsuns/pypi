@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/cchardet-3.0.0[${PYTHON_USEDEP}]"
+	dev-python/cchardet[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

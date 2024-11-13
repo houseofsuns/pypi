@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	all? ( dev-python/avro[${PYTHON_USEDEP}] )
 	all? ( dev-python/avro-python3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/protobuf-4.22.0[${PYTHON_USEDEP}] )
 	avro? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	avro? ( dev-python/avro[${PYTHON_USEDEP}] )
 	json? ( >=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	legacyavro? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	legacyavro? ( dev-python/avro-python3[${PYTHON_USEDEP}] )
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
+	protobuf? ( >=dev-python/protobuf-4.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

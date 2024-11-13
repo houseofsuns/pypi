@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc examples netcdf test"
 DEPENDENCIES=">=dev-python/numpy-1.8[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.0.0_alpha3[${PYTHON_USEDEP}]
 	>=dev-python/requests-1.2[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.6[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

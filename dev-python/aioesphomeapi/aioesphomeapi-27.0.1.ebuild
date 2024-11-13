@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiohappyeyeballs-2.3.0[${PYTHON_USEDEP}]
 	dev-python/async-interrupt[${PYTHON_USEDEP}]
-	dev-python/protobuf[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.19.0[${PYTHON_USEDEP}]
 	<dev-python/zeroconf-1.0[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305-reuseable[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-43.0.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Logger and extractor of time-series data (e.g. EPICS PVs or liteServer LDOs)."
+DESCRIPTION="Logger and extractor of time-series data (e.g. EPICS PVs or liteServer LDOs). [top-max 3.2.0]"
 
 HOMEPAGE="https://github.com/ASukhanov/apstrim"
 LICENSE=""

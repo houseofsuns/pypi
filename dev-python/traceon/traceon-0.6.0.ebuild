@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Solver and tracer for electrostatic problems [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3ef6d7e570>)]"
+DESCRIPTION="Solver and tracer for electrostatic problems [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fd8ccd99230>)]"
 
 HOMEPAGE="https://github.com/leon-vv/Traceon"
 LICENSE="AGPL-3"

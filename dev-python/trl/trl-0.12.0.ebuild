@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Train transformer language models with reinforcement learning."
+DESCRIPTION="Train transformer language models with reinforcement learning. [top-max 0.12.1]"
 
 HOMEPAGE="https://github.com/huggingface/trl"
 LICENSE="Apache-2.0"

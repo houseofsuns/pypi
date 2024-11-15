@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/bravado[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.14.1[${PYTHON_USEDEP}]
 	<dev-python/wcmatch-8.5[${PYTHON_USEDEP}]
-	dev-python/gherkin-official[${PYTHON_USEDEP}]
+	>=dev-python/gherkin-official-24.1.0[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.19.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-1.5.1[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A deep learning toolbox for decoding animal behaviour"
+DESCRIPTION="A deep learning toolbox for decoding animal behaviour [top-max 0.0.1_beta4]"
 
 HOMEPAGE="https://github.com/pnm4sfix/PoseR"
 LICENSE="BSD"

@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	>=dev-python/attrs-20.2[${PYTHON_USEDEP}]
 	<dev-python/cattrs-22.2[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
-	dev-python/gherkin-official[${PYTHON_USEDEP}]
+	~dev-python/gherkin-official-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/wcwidth-0.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

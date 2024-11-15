@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	~dev-python/executing-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/gherkin-official[${PYTHON_USEDEP}]
+	~dev-python/gherkin-official-4.1.3[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.15.0[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
@@ -186,7 +186,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/executing-1.2.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}] )
 	complete? ( dev-python/future[${PYTHON_USEDEP}] )
-	complete? ( dev-python/gherkin-official[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/gherkin-official-4.1.3[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/google-auth-2.15.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}] )

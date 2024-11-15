@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pytest-5.0.0[${PYTHON_USEDEP}]
-	dev-python/gherkin-official[${PYTHON_USEDEP}]"
+	>=dev-python/gherkin-official-4.1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

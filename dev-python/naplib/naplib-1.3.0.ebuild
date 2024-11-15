@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools and functions for neural data processing and analysis in python [top-max 2.0.0]"
+DESCRIPTION="Tools and functions for neural data processing and analysis in python [top-max 2.1.0]"
 
 HOMEPAGE="https://github.com/naplab/naplib-python"
 LICENSE="MIT"

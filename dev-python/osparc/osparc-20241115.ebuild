@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.8.3.post0.dev19"
+REALVERSION="0.8.3.post0.dev20"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="osparc.io web API [badver 0.8.3.post0.dev19, wheel]"
+DESCRIPTION="osparc.io web API [badver 0.8.3.post0.dev20, wheel]"
 
 HOMEPAGE="https://itisfoundation.github.io/osparc-simcore-clients/"
 LICENSE="MIT"

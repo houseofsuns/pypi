@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for easily interacting with trained machine learning models [top-max 5.5.0]"
+DESCRIPTION="Python library for easily interacting with trained machine learning models [top-max 5.6.0]"
 
 HOMEPAGE="https://github.com/gradio-app/gradio"
 LICENSE=""

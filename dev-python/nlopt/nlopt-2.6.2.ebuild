@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for nonlinear optimization, wrapping many algorithms for global and local, constrained or unconstrained, optimization [top-max 2.8.0]"
+DESCRIPTION="Library for nonlinear optimization, wrapping many algorithms for global and local, constrained or unconstrained, optimization [top-max 2.9.0]"
 
 HOMEPAGE="https://nlopt.readthedocs.io/en/latest/"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Next-gen make-like build system [top-max 0.16.3]"
+DESCRIPTION="Next-gen make-like build system [top-max 0.16.4]"
 
 HOMEPAGE="https://github.com/dynod/nmk"
 LICENSE="Mozilla Public License Version 2.0"

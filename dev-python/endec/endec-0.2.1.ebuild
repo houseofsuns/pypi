@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Web-compatible encoding and decoding library"
+DESCRIPTION="Web-compatible encoding and decoding library [top-max 0.2.2]"
 
 HOMEPAGE="https://github.com/fluxth/endec"
 LICENSE=""

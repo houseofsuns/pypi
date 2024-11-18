@@ -16,8 +16,8 @@ DESCRIPTION="NGSolve [badver 6.2.2405.post45.dev1, wheel]"
 
 HOMEPAGE=""
 LICENSE="LGPL2.1"
-SRC_URI="https://files.pythonhosted.org/packages/cp313/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp313-cp313-macosx_10_15_universal2.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp313-cp313-macosx_10_15_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

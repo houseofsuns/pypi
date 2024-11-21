@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SynCha-CaboCha-MeCab wrapper for spaCy [top-max 0.9.2]"
+DESCRIPTION="SynCha-CaboCha-MeCab wrapper for spaCy [top-max 0.9.3]"
 
 HOMEPAGE="https://github.com/KoichiYasuoka/spaCy-SynCha"
 LICENSE="MIT"

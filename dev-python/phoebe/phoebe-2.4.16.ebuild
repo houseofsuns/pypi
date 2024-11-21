@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PHOEBE: modeling and analysis of eclipsing binary stars"
+DESCRIPTION="PHOEBE: modeling and analysis of eclipsing binary stars [top-max 2.4.17]"
 
 HOMEPAGE="http://phoebe-project.org"
 LICENSE="GPL-3+"

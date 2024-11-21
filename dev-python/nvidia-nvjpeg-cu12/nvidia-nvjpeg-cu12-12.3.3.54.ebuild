@@ -16,8 +16,8 @@ DESCRIPTION="NVJPEG native runtime libraries [wheel]"
 
 HOMEPAGE="https://developer.nvidia.com/cuda-zone"
 LICENSE="NVIDIA Proprietary Software"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="My pypi module [top-max 6.19.6]"
+DESCRIPTION="My pypi module [top-max 6.19.7]"
 
 HOMEPAGE="https://github.com/blacksong"
 LICENSE=""

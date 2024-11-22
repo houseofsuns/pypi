@@ -16,8 +16,8 @@ DESCRIPTION="This library contains Cybotrade's core runtime, integrations with E
 
 HOMEPAGE="https://app.cybotrade.rs"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/2e/31/d6209e0ab0a48e03fa7325947ed35bb72dec6a235dc2c8e596cd4c9a4aad/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/33/f0/ea0ff340828349462d1e08689b4d8f923e2f34b34c045c1a9c2c75809105/${REALNAME}-${REALVERSION}-cp311-none-win_amd64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-none-win_amd64.whl"
 RESTRICT="test"
 
 SLOT="0"

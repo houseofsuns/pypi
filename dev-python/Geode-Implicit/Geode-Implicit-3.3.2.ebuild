@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Licensed framework for working with implicit modeling [top-max 3.3.5_rc2]"
+DESCRIPTION="Licensed framework for working with implicit modeling [top-max 3.3.5_rc3]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

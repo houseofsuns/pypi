@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pytorch implementation of dftd2 & dftd3"
+DESCRIPTION="pytorch implementation of dftd2 & dftd3 [top-max 0.5.1]"
 
 HOMEPAGE=""
 LICENSE=""

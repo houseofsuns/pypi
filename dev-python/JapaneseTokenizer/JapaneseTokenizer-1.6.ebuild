@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/jaconv[${PYTHON_USEDEP}]
+	>=dev-python/jaconv-0.2[${PYTHON_USEDEP}]
 	dev-python/mecab-python3[${PYTHON_USEDEP}]
 	dev-python/pexpect[${PYTHON_USEDEP}]
 	>=dev-python/pip-8.1.0[${PYTHON_USEDEP}]

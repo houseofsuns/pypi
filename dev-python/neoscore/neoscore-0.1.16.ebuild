@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
 	dev-python/img2pdf[${PYTHON_USEDEP}]
 	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]

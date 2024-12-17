@@ -27,7 +27,7 @@ IUSE="dev integration"
 DEPENDENCIES=">=dev-python/prettytable-3.12.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
-	>=dev-python/ipython_genutils-0.1.0[${PYTHON_USEDEP}]
+	dev-python/ipython_genutils[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/sqlglot-11.3.7[${PYTHON_USEDEP}]
 	dev-python/jupysql-plugin[${PYTHON_USEDEP}]

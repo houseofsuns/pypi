@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/ruamel-yaml-0.17.16[${PYTHON_USEDEP}]
 	~dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/parsy[${PYTHON_USEDEP}]
 	dev-python/polling[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/rainbow_logging_handler[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]"

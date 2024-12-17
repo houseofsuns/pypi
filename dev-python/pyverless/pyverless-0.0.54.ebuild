@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-0.5.1[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]
 	dev-python/aws-lambda-powertools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

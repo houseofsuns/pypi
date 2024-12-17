@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/charset-normalizer-4.0[${PYTHON_USEDEP}]
 	<dev-python/idna-4.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
-	socks? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )
+	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	use-chardet-on-py3? ( <dev-python/chardet-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

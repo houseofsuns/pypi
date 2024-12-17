@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
-	<dev-python/Faker-19.0.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]

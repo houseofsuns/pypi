@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/pyModbusTCP[${PYTHON_USEDEP}]
 	dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
-	~dev-python/textX-3.1.1[${PYTHON_USEDEP}]
+	dev-python/textX[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-23.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]

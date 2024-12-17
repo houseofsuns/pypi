@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/ansys-acp-core[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pillow-10.4.0[${PYTHON_USEDEP}] )
-	doc? ( ~dev-python/PyGithub-2.4.0[${PYTHON_USEDEP}] )
+	doc? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )

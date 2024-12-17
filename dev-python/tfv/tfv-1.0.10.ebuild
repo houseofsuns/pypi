@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.50.0[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-3.4.0[${PYTHON_USEDEP}]
-	viewer? ( >=dev-python/PyQt5-5.15.0[${PYTHON_USEDEP}] )"
+	viewer? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

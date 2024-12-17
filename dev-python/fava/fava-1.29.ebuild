@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev excel old-deps-pins"
-DEPENDENCIES="<dev-python/Babel-3.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	<dev-python/flask-babel-5.0[${PYTHON_USEDEP}]
 	<dev-python/flask-4.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]

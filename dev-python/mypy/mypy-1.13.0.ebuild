@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dmypy faster-cache install-types mypyc reports"
 DEPENDENCIES=">=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	dmypy? ( >=dev-python/psutil-4.0[${PYTHON_USEDEP}] )
 	faster-cache? ( dev-python/orjson[${PYTHON_USEDEP}] )

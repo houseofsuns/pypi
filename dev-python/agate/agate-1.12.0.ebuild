@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES=">=dev-python/Babel-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/isodate-0.5.4[${PYTHON_USEDEP}]
 	>=dev-python/leather-0.3.2[${PYTHON_USEDEP}]
 	>=dev-python/parsedatetime-2.1[${PYTHON_USEDEP}]

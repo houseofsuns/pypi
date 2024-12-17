@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}]
 	dev-python/DAWG[${PYTHON_USEDEP}]
-	>=dev-python/Pyro5-5.12[${PYTHON_USEDEP}]
+	dev-python/Pyro5[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.1.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]

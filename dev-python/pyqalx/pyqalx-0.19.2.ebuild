@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
 	flaky? ( <dev-python/flaky-4.0[${PYTHON_USEDEP}] )
-	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	pip-licenses? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]

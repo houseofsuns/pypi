@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-2.1.8[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-3.0[${PYTHON_USEDEP}]

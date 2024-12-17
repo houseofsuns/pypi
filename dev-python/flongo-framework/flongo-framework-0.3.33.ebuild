@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Query-String-Manager[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.32.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.19.1[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
-	>=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.3[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/fancylogging[${PYTHON_USEDEP}]"

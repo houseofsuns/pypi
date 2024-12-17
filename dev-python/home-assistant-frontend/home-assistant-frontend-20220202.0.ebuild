@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Home Assistant frontend [top-max 20241106.2]"
+DESCRIPTION="The Home Assistant frontend [top-max 20241127.8]"
 
 HOMEPAGE="https://github.com/home-assistant/frontend"
 LICENSE="Apache-2.0"

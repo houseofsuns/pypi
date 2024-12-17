@@ -27,7 +27,7 @@ IUSE="brotli h2 socks zstd"
 DEPENDENCIES="brotli? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	brotli? ( >=dev-python/brotlicffi-0.8.0[${PYTHON_USEDEP}] )
 	h2? ( <dev-python/h2-5.0[${PYTHON_USEDEP}] )
-	socks? ( <dev-python/PySocks-2.0[${PYTHON_USEDEP}] )
+	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	zstd? ( >=dev-python/zstandard-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

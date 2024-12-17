@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.2.5[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.9.8[${PYTHON_USEDEP}]

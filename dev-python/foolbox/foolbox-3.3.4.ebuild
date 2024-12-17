@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/eagerpy[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.0.7[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )

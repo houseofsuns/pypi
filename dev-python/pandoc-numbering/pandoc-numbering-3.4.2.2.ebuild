@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pandoc filter for automatic numbering [top-max 3.4.3.0]"
+DESCRIPTION="A pandoc filter for automatic numbering [top-max 3.5.0.0]"
 
 HOMEPAGE="https://github.com/chdemko/pandoc-numbering"
 LICENSE="BSD"

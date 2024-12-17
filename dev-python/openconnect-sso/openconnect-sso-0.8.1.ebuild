@@ -34,9 +34,9 @@ DEPENDENCIES=">=dev-python/attrs-18.2[${PYTHON_USEDEP}]
 	>=dev-python/structlog-20.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>dev-python/setuptools-40.0[${PYTHON_USEDEP}]
-	<dev-python/PySocks-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/PyQt6-7.0.0[${PYTHON_USEDEP}]
-	<dev-python/PyQt6-WebEngine-7.0.0[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
+	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
 	<dev-python/pyotp-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/allure-pytest[${PYTHON_USEDEP}]
 	dev-python/axe-selenium-python[${PYTHON_USEDEP}]
-	<dev-python/Faker-24.0.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}]

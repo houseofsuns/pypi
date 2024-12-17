@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
 	~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.6.5[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
 	redis? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
-	sentry? ( ~dev-python/sentry-sdk-1.1.0[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	sentry? ( ~dev-python/blinker-1.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/cryptography-3.4.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/Babel-2.9.1[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/alembic-1.6.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fire[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}] )

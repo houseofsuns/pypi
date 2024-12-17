@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities to work with the automotive diagnostics standard ODX. [top-max 8.3.4]"
+DESCRIPTION="Utilities to work with the automotive diagnostics standard ODX. [top-max 9.0.0]"
 
 HOMEPAGE="https://github.com/Daimler/odxtools"
 LICENSE="MIT"

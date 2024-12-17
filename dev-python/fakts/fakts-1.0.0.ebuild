@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli remote"
 DEPENDENCIES=">dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	<dev-python/QtPy-3.0.0[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/koil[${PYTHON_USEDEP}]
 	remote? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	remote? ( >dev-python/certifi-2021.0[${PYTHON_USEDEP}] )

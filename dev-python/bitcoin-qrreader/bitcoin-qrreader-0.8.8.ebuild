@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/PyQt6-7.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/bdkpython[${PYTHON_USEDEP}]
 	~dev-python/pygame-2.5.2[${PYTHON_USEDEP}]

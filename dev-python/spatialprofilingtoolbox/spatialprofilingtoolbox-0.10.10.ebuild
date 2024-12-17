@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Toolbox for spatial analysis of pathology images. [top-max 1.0.8]"
+DESCRIPTION="Toolbox for spatial analysis of pathology images. [top-max 1.0.11]"
 
 HOMEPAGE="https://spatialprofilingtoolbox.readthedocs.io/en/prerelease/readme.html"
 LICENSE=""

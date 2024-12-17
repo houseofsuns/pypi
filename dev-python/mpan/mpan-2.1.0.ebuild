@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="faker mimesis"
-DEPENDENCIES="faker? ( <dev-python/Faker-11.0.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="faker? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	mimesis? ( dev-python/mimesis[${PYTHON_USEDEP}] )
 	<dev-python/coverage-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

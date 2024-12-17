@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/PyQt6-6.6[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
 	dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}]
 	dev-python/q2db[${PYTHON_USEDEP}]

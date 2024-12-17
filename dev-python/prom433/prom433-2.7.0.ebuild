@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/pycodestyle-2.12.1[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.44.0[${PYTHON_USEDEP}]
 	~dev-python/twine-5.1.1[${PYTHON_USEDEP}]
 	~dev-python/setuptools-75.3.0[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-2.17.0[${PYTHON_USEDEP}]"
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/moderngl[${PYTHON_USEDEP}]
 	>=dev-python/pillow-5.0[${PYTHON_USEDEP}]
 	dev-python/pyrocket[${PYTHON_USEDEP}]
 	dev-python/PyWavefront[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.12[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	>=dev-python/trimesh-2.38[${PYTHON_USEDEP}]
-	pysdl2? ( ~dev-python/PySDL2-0.9.6[${PYTHON_USEDEP}] )
+	pysdl2? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
 	glfw? ( dev-python/glfw[${PYTHON_USEDEP}] )
 	pyglet? ( ~dev-python/pyglet-1.3.2[${PYTHON_USEDEP}] )
 	python-vlc? ( ~dev-python/python-vlc-3.0.102[${PYTHON_USEDEP}] )

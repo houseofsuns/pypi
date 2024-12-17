@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/poetry-1.1.15[${PYTHON_USEDEP}]
 	dev-python/fastapi-jsonrpc[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
-	<dev-python/Faker-15.0.0[${PYTHON_USEDEP}]"
+	dev-python/Faker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

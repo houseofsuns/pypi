@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
-	>=dev-python/IPy-1.0[${PYTHON_USEDEP}]
+	dev-python/IPy[${PYTHON_USEDEP}]
 	dev-python/pyTenable[${PYTHON_USEDEP}]
 	>=dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.48[${PYTHON_USEDEP}]

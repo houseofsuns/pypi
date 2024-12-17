@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/cnextlib[${PYTHON_USEDEP}]
 	<dev-python/pyzmq-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/send2trash-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

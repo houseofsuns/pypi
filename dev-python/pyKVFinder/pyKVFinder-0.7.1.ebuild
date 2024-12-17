@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-8.0.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-3.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-video[${PYTHON_USEDEP}] )
-	plugins? ( ~dev-python/PyQt5-5.15[${PYTHON_USEDEP}] )
+	plugins? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

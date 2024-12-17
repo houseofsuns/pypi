@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.0.4[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/conan[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )

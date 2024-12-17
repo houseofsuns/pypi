@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
 	yellowbrick? ( <dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	scikit-learn? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
-	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	google? ( ~dev-python/google-auth-2.16.1[${PYTHON_USEDEP}] )
 	google? ( <dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}] )

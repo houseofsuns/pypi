@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/geojson-pydantic[${PYTHON_USEDEP}]
 	dev? ( dev-python/cli-test-helpers[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.5.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.10.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-8.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-env-1.1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

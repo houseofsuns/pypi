@@ -56,7 +56,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.2.2[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocstrings-0.27[${PYTHON_USEDEP}] )

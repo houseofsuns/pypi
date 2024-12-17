@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
-	dev? ( ~dev-python/PyGithub-1.46[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.12.1[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	>=dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]

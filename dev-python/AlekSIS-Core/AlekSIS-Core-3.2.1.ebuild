@@ -87,7 +87,7 @@ DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-titofisto[${PYTHON_USEDEP}]
 	dev-python/haystack-redis[${PYTHON_USEDEP}]
 	<dev-python/python-gnupg-0.6.0[${PYTHON_USEDEP}]
-	sentry? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	dev-python/django-cte[${PYTHON_USEDEP}]
 	<dev-python/pycountry-24.0.0[${PYTHON_USEDEP}]
 	dev-python/django-iconify[${PYTHON_USEDEP}]

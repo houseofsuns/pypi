@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all audio-transcriber media-downloader media-manager report-manager repository-manager rom-manager subshift webarchiver"
-DEPENDENCIES=">=dev-python/PyQt6-6.6.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/genius-chatbot[${PYTHON_USEDEP}]
 	dev-python/systems-manager[${PYTHON_USEDEP}]
 	all? ( dev-python/audio-transcriber[${PYTHON_USEDEP}] )

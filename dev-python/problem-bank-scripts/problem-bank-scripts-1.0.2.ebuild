@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/black-25.0.0[${PYTHON_USEDEP}]
 	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}] )
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	docs? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
 	<dev-python/markdown-it-py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/mdformat[${PYTHON_USEDEP}]

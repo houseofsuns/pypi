@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pyqt5 pyqtwebengine"
 DEPENDENCIES="dev-python/deriva[${PYTHON_USEDEP}]
-	pyqt5? ( ~dev-python/PyQt5-5.11.3[${PYTHON_USEDEP}] )
-	pyqtwebengine? ( >=dev-python/PyQtWebEngine-5.15.4[${PYTHON_USEDEP}] )"
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqtwebengine? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

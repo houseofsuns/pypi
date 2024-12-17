@@ -27,7 +27,7 @@ IUSE="all eeg jpg json nifti png"
 DEPENDENCIES="dev-python/dicom-validator[${PYTHON_USEDEP}]
 	all? ( dev-python/dotty-dict[${PYTHON_USEDEP}] )
 	json? ( dev-python/dotty-dict[${PYTHON_USEDEP}] )
-	<dev-python/Faker-31.0.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/fw-meta[${PYTHON_USEDEP}]
 	dev-python/fw-utils[${PYTHON_USEDEP}]
 	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="<dev-python/Babel-2.14.999[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-2.8.999[${PYTHON_USEDEP}]
 	<dev-python/wrapt-1.16.999[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]

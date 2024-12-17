@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="一个APK解析库 [top-max 1.5.8]"
+DESCRIPTION="一个APK解析库 [top-max 2.0.0]"
 
 HOMEPAGE="https://gitee.com/kin9-0rz/apkutils"
 LICENSE="MIT"

@@ -72,7 +72,7 @@ DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	dev-documentation? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev-documentation? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
 	dev-documentation? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	dev-documentation? ( <dev-python/mkdocs-macros-plugin-1.1.0[${PYTHON_USEDEP}] )
+	dev-documentation? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	dev-documentation? ( >=dev-python/mkdocs-material-8.0.0[${PYTHON_USEDEP}] )
 	dev-documentation? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
 	dev-documentation? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )

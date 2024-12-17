@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/lxml-3.3.4[${PYTHON_USEDEP}]
 	dev-python/language-tags[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.10[${PYTHON_USEDEP}]
-	>=dev-python/PyGithub-1.28[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6.3[${PYTHON_USEDEP}]
 	~dev-python/pycountry-22.1.10[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]

@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sagemaker[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-git[${PYTHON_USEDEP}]
-	<dev-python/Levenshtein-0.22.0[${PYTHON_USEDEP}]
+	dev-python/Levenshtein[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

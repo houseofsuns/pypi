@@ -27,6 +27,6 @@ IUSE="sentry"
 DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	>=dev-python/rq-2.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-3.5[${PYTHON_USEDEP}]
-	sentry? ( >=dev-python/sentry-sdk-1.0.0[${PYTHON_USEDEP}] )"
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

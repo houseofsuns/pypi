@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/asttokens-2.4.1[${PYTHON_USEDEP}]
 	dev-python/attr[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.13.1[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/boltons-23.1.1[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/brotlicffi-1.1.0.0[${PYTHON_USEDEP}]

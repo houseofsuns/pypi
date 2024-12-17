@@ -38,7 +38,7 @@ DEPENDENCIES="hobbit? ( >=dev-python/click-6.7[${PYTHON_USEDEP}] )
 	hobbit-core? ( dev-python/marshmallow-enum[${PYTHON_USEDEP}] )
 	hobbit-core? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
 	hobbit-core? ( dev-python/webargs[${PYTHON_USEDEP}] )
-	hobbit-core? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	hobbit-core? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	hobbit-core? ( >dev-python/pyyaml-5.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

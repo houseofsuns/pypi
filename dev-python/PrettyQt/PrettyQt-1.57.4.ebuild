@@ -36,9 +36,9 @@ DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	addons? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
 	addons? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	addons? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	pyqt6? ( <dev-python/PyQt6-7.0[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6-Charts[${PYTHON_USEDEP}] )
-	pyqt6? ( <dev-python/PyQt6-WebEngine-7.0[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
 	pyside6? ( <dev-python/pyside6-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

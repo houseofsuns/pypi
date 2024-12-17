@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/importlib-metadata-8.0[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/bcrypt-4.0.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/click-8.1.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/click-option-group-0.5.0[${PYTHON_USEDEP}] )
-	cli? ( >=dev-python/sentry-sdk-1.9.0[${PYTHON_USEDEP}] )
+	cli? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/anyio-4.4.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}] )
@@ -81,7 +81,7 @@ DEPENDENCIES="<dev-python/importlib-metadata-8.0[${PYTHON_USEDEP}]
 	lrs? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	lrs? ( ~dev-python/cachetools-5.3.3[${PYTHON_USEDEP}] )
 	lrs? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
-	lrs? ( ~dev-python/sentry-sdk-2.4.0[${PYTHON_USEDEP}] )
+	lrs? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	lrs? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
 	lrs? ( ~dev-python/uvicorn-0.30.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

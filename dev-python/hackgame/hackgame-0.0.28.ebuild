@@ -35,6 +35,6 @@ DEPENDENCIES="~dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
 	~dev-python/cachetools-4.1.0[${PYTHON_USEDEP}]
 	dev-python/getversion[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-0.10.2[${PYTHON_USEDEP}]"
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

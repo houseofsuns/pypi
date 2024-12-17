@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/qiskit-0.45.1[${PYTHON_USEDEP}]
 	lint? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/mypy-0.961[${PYTHON_USEDEP}] )
-	lint? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	lint? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/pylint-2.14.4[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	notebook? ( >=dev-python/notebook-6.4.12[${PYTHON_USEDEP}] )

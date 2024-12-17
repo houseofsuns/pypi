@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/PyQt5-5.14[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/asyncudp[${PYTHON_USEDEP}]

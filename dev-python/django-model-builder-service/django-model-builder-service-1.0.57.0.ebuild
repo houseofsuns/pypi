@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/swiss-common-utils[${PYTHON_USEDEP}]
 	dev-python/swiss-logger[${PYTHON_USEDEP}]
 	dev-python/prediction-model-wrapper[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.6.0[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.6.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

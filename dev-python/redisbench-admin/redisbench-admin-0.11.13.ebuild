@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/humanize-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
 	dev-python/python-terraform[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/pytablewriter[${PYTHON_USEDEP}]
@@ -54,6 +54,6 @@ DEPENDENCIES="<dev-python/humanize-3.0.0[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
 	dev-python/slack-bolt[${PYTHON_USEDEP}]
 	<dev-python/certifi-2025.0.0[${PYTHON_USEDEP}]
-	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]"
+	dev-python/PyGithub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -38,6 +38,6 @@ DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	development? ( >=dev-python/requests-mock-1.4.0[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/tox-2.7.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/versiontag[${PYTHON_USEDEP}] )
-	sentry? ( >=dev-python/sentry-sdk-0.5.5[${PYTHON_USEDEP}] )"
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

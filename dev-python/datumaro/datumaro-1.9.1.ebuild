@@ -60,7 +60,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pycocotools[${PYTHON_USEDEP}]
 	default? ( dev-python/dvc[${PYTHON_USEDEP}] )
-	default? ( >=dev-python/GitPython-3.1.18[${PYTHON_USEDEP}] )
+	default? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	default? ( dev-python/openvino-telemetry[${PYTHON_USEDEP}] )
 	default? ( dev-python/openvino-dev[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.0.1[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-1.0.1[${PYTHON_USEDEP}]"
+	dev-python/GitPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pathspec-0.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )

@@ -51,7 +51,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/lazy-import[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocs-material-10.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocstrings-0.21[${PYTHON_USEDEP}] )

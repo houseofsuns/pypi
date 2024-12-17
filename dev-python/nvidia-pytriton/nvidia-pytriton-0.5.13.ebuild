@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pip-24.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-5.0[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/GitPython-3.1[${PYTHON_USEDEP}] )
+	doc? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-htmlproofer-plugin-1.1[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-material-9.5[${PYTHON_USEDEP}] )

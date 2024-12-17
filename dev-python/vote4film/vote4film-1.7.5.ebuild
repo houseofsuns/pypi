@@ -33,6 +33,6 @@ DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/bbfcapi[${PYTHON_USEDEP}]
-	sentry? ( <dev-python/sentry-sdk-2.0[${PYTHON_USEDEP}] )"
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

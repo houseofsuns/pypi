@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pylast[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-gen-files-0.3.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/mkdocs-macros-plugin-0.6.4[${PYTHON_USEDEP}] )
+	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-material-8.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.18.0[${PYTHON_USEDEP}] )

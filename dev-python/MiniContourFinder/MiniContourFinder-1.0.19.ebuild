@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.2.1[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.7.0[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	>=dev-python/pytesseract-0.3.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]"

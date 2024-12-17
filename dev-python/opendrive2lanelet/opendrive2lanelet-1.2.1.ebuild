@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	dev-python/commonroad-io[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
-	gui? ( >=dev-python/PyQt5-5.12.2[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	gui? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

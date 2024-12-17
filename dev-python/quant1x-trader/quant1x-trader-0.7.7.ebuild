@@ -40,6 +40,6 @@ DEPENDENCIES="~dev-python/setuptools-69.5.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
 	~dev-python/python-multipart-0.0.9[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}]"
+	dev-python/APScheduler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

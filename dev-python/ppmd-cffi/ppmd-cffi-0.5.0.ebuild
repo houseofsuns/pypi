@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="check docs fuzzer test"
 DEPENDENCIES=">=dev-python/cffi-1.14.0[${PYTHON_USEDEP}]
 	check? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
-	check? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	check? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )

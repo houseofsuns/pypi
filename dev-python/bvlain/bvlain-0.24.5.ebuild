@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Bond valence site energy calculator"
+DESCRIPTION="The Bond valence site energy calculator [top-max 0.24.6]"
 
 HOMEPAGE="https://github.com/dembart/BVlain"
 LICENSE=""

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/texttable[${PYTHON_USEDEP}]
 	>=dev-python/brotlicffi-1.1.0.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	check? ( >=dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	check? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	check? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	check? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

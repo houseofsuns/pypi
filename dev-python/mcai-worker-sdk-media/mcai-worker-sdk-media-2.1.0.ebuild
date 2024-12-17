@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MCAI SDK to develop Python worker"
+DESCRIPTION="MCAI SDK to develop Python worker [top-max 2.1.1]"
 
 HOMEPAGE="https://gitlab.com/media-cloud-ai/sdks/py_mcai_worker_sdk"
 LICENSE="MIT"

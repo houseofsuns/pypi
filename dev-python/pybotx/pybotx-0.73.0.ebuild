@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.11.0[${PYTHON_USEDEP}]
 	dev-python/aiocsv[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/mypy_extensions-0.5.0[${PYTHON_USEDEP}]"
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

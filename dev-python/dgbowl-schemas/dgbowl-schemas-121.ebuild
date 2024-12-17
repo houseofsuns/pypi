@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES=">=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.15[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-5.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-6.2[${PYTHON_USEDEP}] )

@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	>=dev-python/fonttools-4.43.0[${PYTHON_USEDEP}]
 	dev-python/fpdf2[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.41[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.62.1[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.3[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
@@ -128,7 +128,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/async-lru-2.0.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/attrs-24.2.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/Babel-2.16.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/bleach-6.1.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/blinker-1.8.2[${PYTHON_USEDEP}] )
@@ -167,7 +167,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/frozenlist-1.4.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/future[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/gitdb-4.0.11[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}] )
+	tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/google-auth-2.35.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/graphene[${PYTHON_USEDEP}] )
 	tests? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
@@ -293,7 +293,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/scikit-learn-1.5.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/scipy-1.14.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/send2trash-1.8.3[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/sentry-sdk-2.15.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/setproctitle-1.3.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/simplejson-3.19.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
@@ -335,7 +335,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tutorials? ( ~dev-python/asttokens-2.4.1[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/async-lru-2.0.4[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/attrs-24.2.0[${PYTHON_USEDEP}] )
-	tutorials? ( ~dev-python/Babel-2.16.0[${PYTHON_USEDEP}] )
+	tutorials? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/bleach-6.1.0[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/certifi-2024.8.30[${PYTHON_USEDEP}] )
@@ -358,7 +358,7 @@ DEPENDENCIES="dev-python/GPUtil[${PYTHON_USEDEP}]
 	tutorials? ( ~dev-python/idna-3.10[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/ipykernel-6.29.5[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/ipython-8.28.0[${PYTHON_USEDEP}] )
-	tutorials? ( ~dev-python/ipython_genutils-0.2.0[${PYTHON_USEDEP}] )
+	tutorials? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/ipywidgets-8.1.5[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}] )
 	tutorials? ( ~dev-python/jedi-0.19.1[${PYTHON_USEDEP}] )

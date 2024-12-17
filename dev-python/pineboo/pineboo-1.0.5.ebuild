@@ -60,8 +60,8 @@ DEPENDENCIES=">=dev-python/alembic-1.7.7[${PYTHON_USEDEP}]
 	dev-python/xmlsig[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
-	>=dev-python/PyQt6-6.2.3[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
-	>=dev-python/PyQt6-sip-13.2.1[${PYTHON_USEDEP}]"
+	dev-python/PyQt6-sip[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

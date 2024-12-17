@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-2.4.8[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

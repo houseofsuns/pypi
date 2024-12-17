@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/apsw-3.46.1.0[${PYTHON_USEDEP}]
 	~dev-python/attrs-24.2.0[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.16.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
@@ -67,7 +67,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/dill-0.3.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/urllib3-2.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/requests-2.32.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/certifi-2024.7.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
@@ -131,7 +131,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	postgres? ( ~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
-	style? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	style? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/astroid-3.2.4[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package with a built-in web application [top-max 1.1.0]"
+DESCRIPTION="A Python package with a built-in web application [top-max 1.1.1]"
 
 HOMEPAGE="https://github.com/langflow-ai/langflow"
 LICENSE="MIT"
@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/langflow-base[${PYTHON_USEDEP}]
 	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
 	dev-python/langchain-chroma[${PYTHON_USEDEP}]
 	dev-python/upstash-vector[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	cassio? ( dev-python/cassio[${PYTHON_USEDEP}] )
 	dev-python/unstructured[${PYTHON_USEDEP}]
 	dev-python/langchain-aws[${PYTHON_USEDEP}]

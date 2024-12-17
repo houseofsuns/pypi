@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
-	>=dev-python/PyGithub-1.57[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/autoupgrade-prima[${PYTHON_USEDEP}]
 	<dev-python/black-25.0[${PYTHON_USEDEP}]

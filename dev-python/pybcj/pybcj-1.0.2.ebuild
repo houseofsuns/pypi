@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="check test"
 DEPENDENCIES="check? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
-	check? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	check? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-black[${PYTHON_USEDEP}] )

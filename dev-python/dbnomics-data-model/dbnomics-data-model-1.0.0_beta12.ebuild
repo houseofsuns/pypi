@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cysimdjson[${PYTHON_USEDEP}]
 	dev-python/daiquiri[${PYTHON_USEDEP}]
 	dev-python/dirhash[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	dev-python/isoweek[${PYTHON_USEDEP}]
 	dev-python/jsonalias[${PYTHON_USEDEP}]

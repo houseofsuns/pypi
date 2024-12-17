@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/aiofiles-24.2[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/towncrier-24.8.0[${PYTHON_USEDEP}] )
 	fast? ( >=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}] )
 	fast? ( >=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
-	i18n? ( ~dev-python/Babel-2.13.0[${PYTHON_USEDEP}] )
+	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/motor[${PYTHON_USEDEP}] )
 	proxy? ( ~dev-python/aiohttp-socks-0.8.3[${PYTHON_USEDEP}] )
 	redis? ( <dev-python/redis-5.1.0[${PYTHON_USEDEP}] )

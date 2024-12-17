@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="elasticsearch7 mysql opensearch2 postgresql sqlite tests"
-DEPENDENCIES=">=dev-python/Babel-2.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/arrow-0.15.0[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-access[${PYTHON_USEDEP}]

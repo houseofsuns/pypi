@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.0[${PYTHON_USEDEP}]
-	>=dev-python/Faker-30.0.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

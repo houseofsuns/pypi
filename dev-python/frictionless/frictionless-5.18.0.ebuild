@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	excel? ( dev-python/tableschema-to-template[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/xlrd-1.2[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/xlwt-1.2[${PYTHON_USEDEP}] )
-	github? ( >=dev-python/PyGithub-1.50[${PYTHON_USEDEP}] )
+	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	gsheets? ( dev-python/pygsheets[${PYTHON_USEDEP}] )
 	html? ( >=dev-python/pyquery-1.4[${PYTHON_USEDEP}] )
 	json? ( >=dev-python/ijson-3.0[${PYTHON_USEDEP}] )

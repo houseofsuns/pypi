@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/u-msgpack-python-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/eyeD3-1.0.0[${PYTHON_USEDEP}]
+	dev-python/eyeD3[${PYTHON_USEDEP}]
 	dev-python/bottilities[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

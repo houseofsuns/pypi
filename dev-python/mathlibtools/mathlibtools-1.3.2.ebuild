@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-2.1.11[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

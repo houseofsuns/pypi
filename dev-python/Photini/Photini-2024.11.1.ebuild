@@ -31,14 +31,14 @@ DEPENDENCIES=">=dev-python/cachetools-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-5.3[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.4[${PYTHON_USEDEP}]
-	pyqt5? ( >=dev-python/PyQt5-5.9[${PYTHON_USEDEP}] )
-	pyqt5? ( >=dev-python/PyQtWebEngine-5.12[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
 	pyqt6-darwin? ( dev-python/PyQt6-Qt6[${PYTHON_USEDEP}] )
 	pyqt6-darwin? ( dev-python/PyQt6-WebEngine-Qt6[${PYTHON_USEDEP}] )
-	pyqt6-linux? ( >=dev-python/PyQt6-6.2[${PYTHON_USEDEP}] )
-	pyqt6-linux? ( >=dev-python/PyQt6-WebEngine-6.2[${PYTHON_USEDEP}] )
-	pyqt6-windows? ( >=dev-python/PyQt6-6.2[${PYTHON_USEDEP}] )
-	pyqt6-windows? ( >=dev-python/PyQt6-WebEngine-6.2[${PYTHON_USEDEP}] )
+	pyqt6-linux? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6-linux? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	pyqt6-windows? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6-windows? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/Photini[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/Photini[${PYTHON_USEDEP}] )
 	pyside2? ( >=dev-python/pyside2-5.14[${PYTHON_USEDEP}] )

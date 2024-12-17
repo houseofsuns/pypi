@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.3[${PYTHON_USEDEP}]
-	~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]"
+	dev-python/GitPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

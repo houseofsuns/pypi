@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all data metrics models plot"
-DEPENDENCIES="models? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="models? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	models? ( <dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )
 	models? ( dev-python/fairlearn[${PYTHON_USEDEP}] )

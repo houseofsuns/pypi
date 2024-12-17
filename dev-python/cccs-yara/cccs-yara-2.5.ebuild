@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/clint-0.5.1[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	dev-python/plyara[${PYTHON_USEDEP}]
 	dev-python/python-baseconv[${PYTHON_USEDEP}]

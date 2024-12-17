@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="modin"
-DEPENDENCIES=">=dev-python/Faker-13.3.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]

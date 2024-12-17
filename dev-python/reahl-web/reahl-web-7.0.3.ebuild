@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/reahl-component[${PYTHON_USEDEP}]
 	dev-python/rcssmin[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-4.12.999[${PYTHON_USEDEP}]
 	<dev-python/webob-1.8.999[${PYTHON_USEDEP}]
-	<dev-python/Babel-2.14.999[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-5.1.999[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )

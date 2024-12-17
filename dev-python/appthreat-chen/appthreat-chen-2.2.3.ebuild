@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="science"
 DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.28.0[${PYTHON_USEDEP}]
 	dev-python/oras[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]

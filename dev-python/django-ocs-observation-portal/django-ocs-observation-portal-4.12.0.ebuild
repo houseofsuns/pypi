@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/APScheduler-3.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/cerberus-2.0[${PYTHON_USEDEP}]
 	<dev-python/django-5.0[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/APScheduler-3.8[${PYTHON_USEDEP}]
 	dev-python/time-intervals[${PYTHON_USEDEP}]
 	<dev-python/uritemplate-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-3.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/django-health-check[${PYTHON_USEDEP}]
 	dev-python/ocs-rise-set[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

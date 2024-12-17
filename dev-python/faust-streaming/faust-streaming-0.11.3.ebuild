@@ -60,7 +60,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	rocksdict? ( dev-python/rocksdict[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/raven[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/raven-aiohttp[${PYTHON_USEDEP}] )
-	sentry? ( >=dev-python/sentry-sdk-0.7.10[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	setproctitle? ( >=dev-python/setproctitle-1.1[${PYTHON_USEDEP}] )
 	statsd? ( ~dev-python/statsd-4.0.1[${PYTHON_USEDEP}] )
 	uvloop? ( >=dev-python/uvloop-0.8.1[${PYTHON_USEDEP}] )

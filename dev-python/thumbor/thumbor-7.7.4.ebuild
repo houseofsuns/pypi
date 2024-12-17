@@ -63,7 +63,7 @@ DEPENDENCIES="~dev-python/colorama-0.0[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/remotecv[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yanc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

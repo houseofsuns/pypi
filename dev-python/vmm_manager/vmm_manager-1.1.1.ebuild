@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/ruamel-yaml-0.19[${PYTHON_USEDEP}]
-	<dev-python/ConfigArgParse-2.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/paramiko-4.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2024.2[${PYTHON_USEDEP}]

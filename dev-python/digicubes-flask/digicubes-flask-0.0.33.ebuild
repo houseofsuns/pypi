@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.8.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/cattrs-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]

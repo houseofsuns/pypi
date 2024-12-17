@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	>=dev-python/six-1.1.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
-	>=dev-python/ConfigArgParse-0.11.0[${PYTHON_USEDEP}]"
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

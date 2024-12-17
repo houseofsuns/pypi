@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<=dev-python/APScheduler-3.7.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
 	<dev-python/django-3.0[${PYTHON_USEDEP}]
 	<=dev-python/django-cors-headers-3.7.0[${PYTHON_USEDEP}]

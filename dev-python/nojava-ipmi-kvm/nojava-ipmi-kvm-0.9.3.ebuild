@@ -27,7 +27,7 @@ IUSE="gui"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/yacl[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	gui? ( >=dev-python/PyQt5-5.12[${PYTHON_USEDEP}] )
-	gui? ( >=dev-python/PyQtWebEngine-5.12[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

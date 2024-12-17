@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
 	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-0.5.5[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/structlog-19.0[${PYTHON_USEDEP}]
 	<dev-python/ujson-2.0[${PYTHON_USEDEP}]
 	<dev-python/wsaccel-0.7.0[${PYTHON_USEDEP}]"

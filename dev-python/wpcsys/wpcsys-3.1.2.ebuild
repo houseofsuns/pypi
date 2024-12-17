@@ -28,9 +28,9 @@ DEPENDENCIES=">=dev-python/pyusb-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/qasync[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.4[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-sip-12.10.1[${PYTHON_USEDEP}]
+	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
 	dev-python/wpcexebuild[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

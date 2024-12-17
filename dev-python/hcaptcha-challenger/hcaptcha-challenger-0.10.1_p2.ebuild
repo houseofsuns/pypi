@@ -44,8 +44,8 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	playwright? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	sentinel? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	server? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	sentinel? ( <dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}] )
-	server? ( <dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}] )
+	sentinel? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	server? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	istock? ( dev-python/istockphoto[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"

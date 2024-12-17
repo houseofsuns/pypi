@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for running Tasks and from CLI and API for orchestation. Component-based Task builder/Runner for non-programmers. [top-max 5.6.0]"
+DESCRIPTION="Framework for running Tasks and from CLI and API for orchestation. Component-based Task builder/Runner for non-programmers. [top-max 5.6.8]"
 
 HOMEPAGE="https://github.com/phenobarbital/flowtask"
 LICENSE="Apache-2.0"
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/borax[${PYTHON_USEDEP}]
 	dev-python/pytomlpp[${PYTHON_USEDEP}]
 	~dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8.5[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.41[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/watchdog-4.0.2[${PYTHON_USEDEP}]
 	dev-python/hachiko[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}]

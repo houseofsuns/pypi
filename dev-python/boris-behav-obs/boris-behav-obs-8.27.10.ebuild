@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/ExifRead[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
 	dev-python/tablib[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pyreadr[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

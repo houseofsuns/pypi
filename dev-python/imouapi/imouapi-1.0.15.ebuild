@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/mkdocs-material-extensions-2.0.0[${PYTHON_USEDEP}]
 	doc? ( <dev-python/mkdocstrings-python-2.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
-	<dev-python/mypy_extensions-2.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pip-24.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( <dev-python/py-2.0.0[${PYTHON_USEDEP}] )

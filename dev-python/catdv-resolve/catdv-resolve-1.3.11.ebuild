@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/PyGetWindow[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/pywebview[${PYTHON_USEDEP}]
-	<dev-python/PyQt6-WebEngine-7.0[${PYTHON_USEDEP}]
+	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QuerySource is a Library for Querying Databases. QuerySource Query parser and generator. [top-max 3.12.33]"
+DESCRIPTION="QuerySource is a Library for Querying Databases. QuerySource Query parser and generator. [top-max 3.13.8]"
 
 HOMEPAGE="https://github.com/phenobarbital/querysource/"
 LICENSE="BSD"
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/pygal-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/reportlab-3.6.12[${PYTHON_USEDEP}]
 	~dev-python/weasyprint-58.1[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.10.1[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/proxylists[${PYTHON_USEDEP}]
 	dev-python/async-notify[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]

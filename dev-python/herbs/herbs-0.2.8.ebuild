@@ -41,6 +41,6 @@ DEPENDENCIES="dev-python/aicspylibczi[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.7.0[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.5[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

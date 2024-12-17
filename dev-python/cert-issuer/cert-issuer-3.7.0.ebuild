@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cert-core[${PYTHON_USEDEP}]
 	dev-python/cert-schema[${PYTHON_USEDEP}]
 	dev-python/merkletools[${PYTHON_USEDEP}]
-	~dev-python/ConfigArgParse-0.13.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/glob2[${PYTHON_USEDEP}]
 	~dev-python/mock-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]

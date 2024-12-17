@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/adafruit-circuitpython-aw9523[${PYTHON_USEDEP}]
 	dev-python/rpi-ws281x[${PYTHON_USEDEP}]
 	dev-python/sdbus-networkmanager[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/simpleaudio[${PYTHON_USEDEP}]
 	dev-python/ubo-gui[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

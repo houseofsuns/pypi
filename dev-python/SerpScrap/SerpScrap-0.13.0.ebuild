@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/PySocks-1.7.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PySocks[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
 	~dev-python/html2text-2019.8.11[${PYTHON_USEDEP}]

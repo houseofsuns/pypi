@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]"

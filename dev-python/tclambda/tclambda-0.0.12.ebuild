@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sentry"
-DEPENDENCIES="sentry? ( <dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}] )"
+DEPENDENCIES="sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

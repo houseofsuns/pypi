@@ -47,7 +47,7 @@ DEPENDENCIES="dev? ( >=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev-python/raiden[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.5.10[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.14.1[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	dev-python/jaeger-client[${PYTHON_USEDEP}]

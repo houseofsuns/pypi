@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Avoid writing and maintaining duplicated docstrings."
+DESCRIPTION="Avoid writing and maintaining duplicated docstrings. [top-max 2.2.2]"
 
 HOMEPAGE="https://github.com/AntoineD/docstring-inheritance"
 LICENSE="MIT"

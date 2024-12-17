@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/ConfigArgParse-1.5.5[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]

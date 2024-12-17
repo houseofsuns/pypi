@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/analytics-python[${PYTHON_USEDEP}]
 	<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/immutables-0.20[${PYTHON_USEDEP}]

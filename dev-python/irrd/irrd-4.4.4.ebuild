@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/python-gnupg-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
-	~dev-python/IPy-1.1[${PYTHON_USEDEP}]
+	dev-python/IPy[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	dev-python/beautifultable[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]

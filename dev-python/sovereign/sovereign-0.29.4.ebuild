@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-43.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/uvloop-0.20.0[${PYTHON_USEDEP}]
-	sentry? ( <dev-python/sentry-sdk-3.0.0[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	boto? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	statsd? ( dev-python/datadog[${PYTHON_USEDEP}] )
 	ujson? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )

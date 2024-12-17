@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	<dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
@@ -58,6 +58,6 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/pdoc3-0.11.0[${PYTHON_USEDEP}]
 	<dev-python/bcrypt-4.0.0[${PYTHON_USEDEP}]
 	dev-python/aiomysql[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]"
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

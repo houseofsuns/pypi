@@ -43,6 +43,6 @@ DEPENDENCIES="~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/js2py-0.74[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.1[${PYTHON_USEDEP}]
-	~dev-python/Frozen-Flask-1.0.1[${PYTHON_USEDEP}]"
+	dev-python/Frozen-Flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

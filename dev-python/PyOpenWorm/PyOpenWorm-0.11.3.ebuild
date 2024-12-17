@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/bibtexparser-1.1.0[${PYTHON_USEDEP}]
 	dev-python/BTrees[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-2.1.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/lazy-object-proxy-1.2.1[${PYTHON_USEDEP}]
 	dev-python/libNeuroML[${PYTHON_USEDEP}]
 	>=dev-python/numpydoc-0.7.0[${PYTHON_USEDEP}]

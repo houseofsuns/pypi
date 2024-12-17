@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pycyphal[${PYTHON_USEDEP}]
 	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.8[${PYTHON_USEDEP}]
-	joystick? ( <dev-python/PySDL2-2.0[${PYTHON_USEDEP}] )
+	joystick? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
 	joystick? ( ~dev-python/mido-1.2[${PYTHON_USEDEP}] )
 	joystick? ( ~dev-python/python-rtmidi-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

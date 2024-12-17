@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.5[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plac[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-decouple[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/rich-13.3.5[${PYTHON_USEDEP}] )

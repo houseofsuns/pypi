@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/slackclient[${PYTHON_USEDEP}]
 	>=dev-python/docker-7.1.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/xdgenvpy[${PYTHON_USEDEP}]
-	~dev-python/PyQt6-6.6.1[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	~dev-python/semver-3.0.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/rich-12.6.0[${PYTHON_USEDEP}]

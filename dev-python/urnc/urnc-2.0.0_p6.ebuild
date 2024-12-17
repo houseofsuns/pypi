@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/nbconvert-7.8.0[${PYTHON_USEDEP}]
 	>=dev-python/semver-3.0.1[${PYTHON_USEDEP}]
 	>=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.0[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.0[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.0[${PYTHON_USEDEP}]
 	~dev-python/chardet-5.0[${PYTHON_USEDEP}]

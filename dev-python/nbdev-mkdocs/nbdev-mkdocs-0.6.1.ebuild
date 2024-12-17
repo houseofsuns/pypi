@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/nbdev[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/docstring-gen[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/mike[${PYTHON_USEDEP}]
 	>=dev-python/nbformat-5.8.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )

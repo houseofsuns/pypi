@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc"
 DEPENDENCIES=">=dev-python/pyside6-2.0[${PYTHON_USEDEP}]
 	dev-python/PyVCF3[${PYTHON_USEDEP}]
-	~dev-python/textX-1.8.0[${PYTHON_USEDEP}]
+	dev-python/textX[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.2.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]

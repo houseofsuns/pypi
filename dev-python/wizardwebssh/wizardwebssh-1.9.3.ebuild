@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="~dev-python/paramiko-2.10.1[${PYTHON_USEDEP}]
 	~dev-python/tornado-6.1[${PYTHON_USEDEP}]
 	~dev-python/tomlkit-0.10.0[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.15.6[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-sip-12.9.1[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
 	dev-python/PyQt5-stubs[${PYTHON_USEDEP}]
-	~dev-python/PyQtWebEngine-5.15.5[${PYTHON_USEDEP}]
+	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

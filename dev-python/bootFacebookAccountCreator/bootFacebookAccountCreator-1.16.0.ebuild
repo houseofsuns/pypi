@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/Faker-20.1.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/Genderize[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]

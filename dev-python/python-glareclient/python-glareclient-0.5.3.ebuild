@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	<dev-python/prettytable-0.8[${PYTHON_USEDEP}]
 	>=dev-python/keystoneauth1-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]

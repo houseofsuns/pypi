@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="synapse"
-DEPENDENCIES="~dev-python/PyGithub-1.53[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1.0[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]

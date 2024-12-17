@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	doc? ( <dev-python/mkdocs-static-i18n-1.3[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocstrings-0.26.0[${PYTHON_USEDEP}] )
-	i18n? ( >=dev-python/Babel-2.13.0[${PYTHON_USEDEP}] )
+	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	test? ( <dev-python/aiosqlite-0.21.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/arrow-1.4.0[${PYTHON_USEDEP}] )

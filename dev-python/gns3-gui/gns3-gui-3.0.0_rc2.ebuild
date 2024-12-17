@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="<dev-python/jsonschema-4.24[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.18[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	>=dev-python/psutil-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/distro-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/truststore-0.10.0[${PYTHON_USEDEP}]

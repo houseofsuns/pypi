@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.12.4[${PYTHON_USEDEP}]
 	<=dev-python/django-cors-headers-3.13.0[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.5.2[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

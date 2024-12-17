@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev strict"
 DEPENDENCIES="dev-python/mlpype-base[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.27[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev? ( dev-python/mlpype-base[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	strict? ( dev-python/mlpype-base[${PYTHON_USEDEP}] )
 	strict? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	strict? ( ~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}] )"
+	strict? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

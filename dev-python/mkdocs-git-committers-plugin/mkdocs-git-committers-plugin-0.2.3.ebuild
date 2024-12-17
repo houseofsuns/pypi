@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/PyGithub-1.43[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-0.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

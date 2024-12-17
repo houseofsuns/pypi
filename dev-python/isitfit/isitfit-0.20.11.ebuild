@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/aws-requests-auth[${PYTHON_USEDEP}]
 	dev-python/matomo-sdk-py[${PYTHON_USEDEP}]
 	dev-python/simple-cache[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-0.13.5[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/pytest-5.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

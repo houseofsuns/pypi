@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/flask-0.11[${PYTHON_USEDEP}]
 	>=dev-python/click-6.2[${PYTHON_USEDEP}]
 	>=dev-python/docker-2.0.2[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-1.0.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]

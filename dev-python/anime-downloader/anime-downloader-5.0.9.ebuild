@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pySmartDL[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.8.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	gui? ( >=dev-python/PyQt5-5.15.1[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	gui? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	selescrape? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	unpacker? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )"

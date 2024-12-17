@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	dev-python/flask-swagger[${PYTHON_USEDEP}]
 	dev-python/GDM[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	~dev-python/ipython-7.34.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
@@ -83,8 +83,8 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/setproctitle-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/shapely-1.8.4[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
@@ -150,7 +150,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	all? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )
 	all? ( dev-python/GDM[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}] )
+	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	all? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/ipython-7.34.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
@@ -185,8 +185,8 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}] )
+	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/setproctitle-1.3.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/shapely-1.8.4[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/simplejson-3.17.6[${PYTHON_USEDEP}] )
@@ -270,7 +270,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	runtime? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/GDM[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/ipython-7.34.0[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
@@ -305,8 +305,8 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	runtime? ( ~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/sentry-sdk-1.9.6[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/setproctitle-1.3.2[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/shapely-1.8.4[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/simplejson-3.17.6[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES=">=dev-python/Babel-2.14.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/Bootstrap-Flask[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]

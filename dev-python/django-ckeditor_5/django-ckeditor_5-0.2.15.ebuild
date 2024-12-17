@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )

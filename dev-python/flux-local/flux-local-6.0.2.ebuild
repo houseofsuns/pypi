@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
 	>=dev-python/python-slugify-8.0.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.2.1[${PYTHON_USEDEP}]

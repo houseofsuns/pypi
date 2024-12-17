@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Navigator Web Framework based on aiohttp, with batteries included. [top-max 2.11.6]"
+DESCRIPTION="Navigator Web Framework based on aiohttp, with batteries included. [top-max 2.12.7]"
 
 HOMEPAGE="https://github.com/phenobarbital/navigator"
 LICENSE="BSD"
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/sockjs[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/aiohttp-cors[${PYTHON_USEDEP}]
-	locale? ( ~dev-python/Babel-2.9.1[${PYTHON_USEDEP}] )
+	locale? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

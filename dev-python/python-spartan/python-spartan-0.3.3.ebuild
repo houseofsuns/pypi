@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/inflect-8.0.0[${PYTHON_USEDEP}]
-	<dev-python/Faker-31.0.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	<dev-python/pytest-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}]"

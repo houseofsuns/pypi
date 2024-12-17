@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
 	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	logging? ( <dev-python/loguru-0.8.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	sentry? ( <dev-python/sentry-sdk-3.0.0[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	dev-python/Authlib[${PYTHON_USEDEP}]
 	opentelmetry? ( dev-python/opentelemetry-distro[${PYTHON_USEDEP}] )
 	bcrypt? ( <dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}] )

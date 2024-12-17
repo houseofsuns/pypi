@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="~dev-python/cffi-1.17.1[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/lupapy[${PYTHON_USEDEP}]
 	~dev-python/packaging-24.1[${PYTHON_USEDEP}]
 	~dev-python/pillow-11.0.0[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="i18n plugin"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	i18n? ( >=dev-python/Babel-0.8[${PYTHON_USEDEP}] )
+	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	plugin? ( >=dev-python/setuptools-0.6_alpha2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

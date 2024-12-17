@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all asdf casa dask database dev docs eovsa image jpeg2000 map net tests timeseries visualization"
 DEPENDENCIES="dev-python/sunpy[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.2[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/hvpy[${PYTHON_USEDEP}]
 	eovsa? ( dev-python/eovsapy[${PYTHON_USEDEP}] )

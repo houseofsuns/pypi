@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20[${PYTHON_USEDEP}]
-	~dev-python/ConfigArgParse-0.13.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	~dev-python/flask-1.0[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0[${PYTHON_USEDEP}]

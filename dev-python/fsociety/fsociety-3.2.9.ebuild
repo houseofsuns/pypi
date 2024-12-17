@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/distro-1.7.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.3[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-9.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )

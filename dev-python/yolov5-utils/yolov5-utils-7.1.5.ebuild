@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/psutil-5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-4.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}] )
+	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytype[${PYTHON_USEDEP}] )

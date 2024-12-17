@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/amqp-2.6.1[${PYTHON_USEDEP}]
 	~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.6.3[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/autobahn-21.3.1[${PYTHON_USEDEP}]
 	~dev-python/automat-20.2.0[${PYTHON_USEDEP}]

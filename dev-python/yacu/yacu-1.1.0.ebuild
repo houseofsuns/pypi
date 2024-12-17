@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/PyQt5-5.15.6[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/art[${PYTHON_USEDEP}]
 	dev-python/cryptocmd[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.6[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	~dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}]
 	>=dev-python/pyside6-6.2.4[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]

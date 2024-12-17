@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql_source_mysql_connector mysql_source_mysqlclient postgres_source_pg8000 postgres_source_psycopg sftp"
 DEPENDENCIES="dev-python/cachecontrol[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-2.1.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pow-store-zodb[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

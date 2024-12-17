@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/python-icat[${PYTHON_USEDEP}]
 	~dev-python/suds-community-1.1.1[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]"

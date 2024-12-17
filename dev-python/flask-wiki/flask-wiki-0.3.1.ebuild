@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Bootstrap-Flask[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/flask-babel-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.15[${PYTHON_USEDEP}]

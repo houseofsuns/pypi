@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="web"
-DEPENDENCIES=">=dev-python/PyQt5-5.12[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.3.8[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]

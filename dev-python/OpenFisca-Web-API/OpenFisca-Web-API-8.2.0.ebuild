@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="paster test tracker"
-DEPENDENCIES=">=dev-python/Babel-0.9.4[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/biryani[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	dev-python/pastedeploy[${PYTHON_USEDEP}]

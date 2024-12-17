@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.15.4[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/xappt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

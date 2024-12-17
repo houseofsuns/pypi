@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	<=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	<=dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	<=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	<=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]

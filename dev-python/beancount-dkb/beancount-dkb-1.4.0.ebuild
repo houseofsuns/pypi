@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/beancount[${PYTHON_USEDEP}]
 	dev-python/beangulp[${PYTHON_USEDEP}]
-	<dev-python/Babel-3.0.0[${PYTHON_USEDEP}]"
+	dev-python/Babel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev setup test"
-DEPENDENCIES=">=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/blessed-1.20.0[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
 	>=dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	dev-python/contexttimer[${PYTHON_USEDEP}]
-	all? ( >=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}] )
+	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/blessed-1.20.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/srsly[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )

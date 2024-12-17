@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility for managing metadata."
+DESCRIPTION="Utility for managing metadata. [top-max 0.12.7]"
 
 HOMEPAGE="https://github.com/Drakovek/MetadataMagic"
 LICENSE=""

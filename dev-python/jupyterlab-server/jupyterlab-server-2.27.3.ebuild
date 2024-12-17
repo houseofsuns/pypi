@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs openapi test"
-DEPENDENCIES=">=dev-python/Babel-2.10[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/json5-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]

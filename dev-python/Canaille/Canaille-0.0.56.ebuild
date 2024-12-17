@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/sqlalchemy-json[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	postgresql? ( >=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}] )
-	sentry? ( >=dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	sqlite? ( >=dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/sqlalchemy-json[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )

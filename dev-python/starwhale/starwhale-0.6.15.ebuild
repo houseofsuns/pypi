@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	<=dev-python/tenacity-8.3.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.5.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
@@ -73,7 +73,7 @@ DEPENDENCIES="~dev-python/click-option-group-0.5.5[${PYTHON_USEDEP}]
 	all? ( ~dev-python/loguru-0.6.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/virtualenv-13.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cattrs-1.7.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/GitPython-3.1.24[${PYTHON_USEDEP}] )
+	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/httpx-0.22.0[${PYTHON_USEDEP}] )

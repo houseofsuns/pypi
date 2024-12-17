@@ -29,6 +29,6 @@ DEPENDENCIES=">dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/koil[${PYTHON_USEDEP}]
-	qt? ( <dev-python/QtPy-3.0.0[${PYTHON_USEDEP}] )"
+	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

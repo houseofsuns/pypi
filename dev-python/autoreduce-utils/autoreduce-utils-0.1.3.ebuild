@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.14[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/python-icat[${PYTHON_USEDEP}]
 	dev-python/suds-py3[${PYTHON_USEDEP}]
 	~dev-python/stomp-py-6.1.0[${PYTHON_USEDEP}]"

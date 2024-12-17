@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/click-6.7[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	<dev-python/textX-1.6[${PYTHON_USEDEP}]
+	dev-python/textX[${PYTHON_USEDEP}]
 	dev-python/urlnorm[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

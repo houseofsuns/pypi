@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.1[${PYTHON_USEDEP}]
-	>=dev-python/Faker-1.0.7[${PYTHON_USEDEP}]"
+	dev-python/Faker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

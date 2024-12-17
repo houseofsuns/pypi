@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/cerberus-1.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.0[${PYTHON_USEDEP}]
 	~dev-python/colorlog-6.0[${PYTHON_USEDEP}]
 	~dev-python/docker-6.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/build-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )

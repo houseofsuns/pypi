@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/certifi-2024.7.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-24.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pluggy-1.5.0[${PYTHON_USEDEP}] )

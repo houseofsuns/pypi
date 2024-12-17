@@ -54,6 +54,6 @@ DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
 	extra? ( >=dev-python/ipython-7.19.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	extra? ( ~dev-python/scipy-1.12.0[${PYTHON_USEDEP}] )
-	extra? ( >=dev-python/GitPython-3.1.27[${PYTHON_USEDEP}] )"
+	extra? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

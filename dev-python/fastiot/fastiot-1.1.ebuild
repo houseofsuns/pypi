@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
-	compile? ( <dev-python/Nuitka-2.0[${PYTHON_USEDEP}] )
+	compile? ( dev-python/Nuitka[${PYTHON_USEDEP}] )
 	compile? ( dev-python/ordered-set[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dash? ( ~dev-python/plotly-5.9.0[${PYTHON_USEDEP}] )

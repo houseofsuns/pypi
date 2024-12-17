@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="<dev-python/PyQt5-5.16[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7[${PYTHON_USEDEP}]
 	<dev-python/psutil-5.10[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]

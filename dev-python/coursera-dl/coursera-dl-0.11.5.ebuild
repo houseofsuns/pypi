@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.1.3[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.23[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-0.1.7[${PYTHON_USEDEP}]
 	>=dev-python/keyring-4.0[${PYTHON_USEDEP}]
-	>=dev-python/ConfigArgParse-0.12.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	~dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -33,13 +33,13 @@ DEPENDENCIES=">=dev-python/doit-0.33.1[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.0[${PYTHON_USEDEP}]
 	>=dev-python/unidecode-0.4.16[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.5.2[${PYTHON_USEDEP}]
-	>=dev-python/PyRSS2Gen-1.1[${PYTHON_USEDEP}]
+	dev-python/PyRSS2Gen[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.3[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-60.0.5[${PYTHON_USEDEP}]
 	>=dev-python/natsort-5.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/piexif-1.0.3[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.12.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	extras? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	extras? ( dev-python/hsluv[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/pyphen-0.9.1[${PYTHON_USEDEP}] )

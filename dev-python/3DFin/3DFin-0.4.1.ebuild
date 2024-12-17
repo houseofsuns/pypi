@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/dendromatics[${PYTHON_USEDEP}]
 	dev-python/lazrs[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.15[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.15[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	~dev-python/xlsxwriter-3.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

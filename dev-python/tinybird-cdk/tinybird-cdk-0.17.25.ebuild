@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/boto3-1.26.76[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/Faker-15.3.4[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-httpx-0.30.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/dependency-injector[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mkdocstrings-0.19.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/Faker-15.3.4[${PYTHON_USEDEP}] )
+	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.11.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"

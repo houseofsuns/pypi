@@ -27,7 +27,7 @@ IUSE="dev ocr"
 DEPENDENCIES="dev-python/banal[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/requests-ftp[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.0[${PYTHON_USEDEP}]
 	dev-python/normality[${PYTHON_USEDEP}]

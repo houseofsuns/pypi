@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pygame qt"
 DEPENDENCIES="dev-python/resource-man[${PYTHON_USEDEP}]
-	>=dev-python/PySDL2-0.9.6[${PYTHON_USEDEP}]
+	dev-python/PySDL2[${PYTHON_USEDEP}]
 	pygame? ( >=dev-python/pygame-1.9.2[${PYTHON_USEDEP}] )
 	qt? ( dev-python/qt-thread-updater[${PYTHON_USEDEP}] )
-	qt? ( >=dev-python/QtPy-1.9.0[${PYTHON_USEDEP}] )"
+	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

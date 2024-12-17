@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-4.9.0[${PYTHON_USEDEP}]
-	>=dev-python/ipython_genutils-0.2.0[${PYTHON_USEDEP}]
+	dev-python/ipython_genutils[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.5[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
 	dev-python/scrapbook[${PYTHON_USEDEP}]

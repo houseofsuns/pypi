@@ -27,8 +27,8 @@ IUSE="extra"
 DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
-	>=dev-python/APScheduler-3.10.1[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
-	extra? ( >=dev-python/sentry-sdk-1.26.0[${PYTHON_USEDEP}] )"
+	extra? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

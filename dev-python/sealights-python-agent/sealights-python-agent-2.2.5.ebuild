@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/coverage-6.4.2[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.6[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.35[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

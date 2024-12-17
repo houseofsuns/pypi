@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Make pytorch and tensorflow two become one. [top-max 0.7.8]"
+DESCRIPTION="Make pytorch and tensorflow two become one. [top-max 0.7.9]"
 
 HOMEPAGE=""
 LICENSE="MIT"

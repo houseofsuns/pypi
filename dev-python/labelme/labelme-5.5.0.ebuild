@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	>=dev-python/pillow-2.8[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	>dev-python/QtPy-1.11.2[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

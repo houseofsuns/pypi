@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	<dev-python/cryptography-44.0.0[${PYTHON_USEDEP}]
 	<dev-python/gitdb-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	gojsonnet? ( dev-python/gojsonnet[${PYTHON_USEDEP}] )
 	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/hvac-2.3.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FTDI device driver (pure Python)"
+DESCRIPTION="FTDI device driver (pure Python) [top-max 0.56.0]"
 
 HOMEPAGE="http://github.com/eblot/pyftdi"
 LICENSE="Modified BSD"

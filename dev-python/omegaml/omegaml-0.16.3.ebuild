@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	all? ( >dev-python/gitdb-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cryptography-41.0[${PYTHON_USEDEP}] )
-	all? ( >dev-python/Babel-2.13[${PYTHON_USEDEP}] )
+	all? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/asttokens-2.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/anyio-3.7[${PYTHON_USEDEP}] )

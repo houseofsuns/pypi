@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	all? ( dev-python/O365[${PYTHON_USEDEP}] )
 	all? ( dev-python/Office365-REST-Python-Client[${PYTHON_USEDEP}] )
 	all? ( dev-python/msal[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}] )
+	all? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyshorteners[${PYTHON_USEDEP}] )
 	all? ( dev-python/twilio[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/slixmpp-1.8.4[${PYTHON_USEDEP}] )

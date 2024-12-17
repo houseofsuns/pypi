@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/aerosol-functions[${PYTHON_USEDEP}]
 	>=dev-python/netcdf4-1.6.2[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/humanize-4.11.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	~dev-python/rich-13.9.4[${PYTHON_USEDEP}]
 	~dev-python/semver-3.0.2[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-2.17.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/setuptools-75.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -41,7 +41,7 @@ DEPENDENCIES="requests? ( dev-python/advocate[${PYTHON_USEDEP}] )
 	redis? ( <dev-python/redis-4.0.0[${PYTHON_USEDEP}] )
 	redis-py-cluster? ( dev-python/redis-py-cluster[${PYTHON_USEDEP}] )
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	sentry? ( <dev-python/sentry-sdk-2.0[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	sql? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	dev-python/thrift-unofficial[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="askar bbs didcommv2"
-DEPENDENCIES="<dev-python/ConfigArgParse-1.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	<dev-python/markdown-3.8[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-3.11.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-apispec-acapy[${PYTHON_USEDEP}]

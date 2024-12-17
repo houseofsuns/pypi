@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-4.1.0[${PYTHON_USEDEP}] )
 	rmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
-	scheduler? ( >=dev-python/APScheduler-3.7.0[${PYTHON_USEDEP}] )
+	scheduler? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
 	scheduler? ( >=dev-python/rpyc-5.1.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	elasticsearch? ( <dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}] )"

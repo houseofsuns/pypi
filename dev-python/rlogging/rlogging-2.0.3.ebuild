@@ -30,6 +30,6 @@ DEPENDENCIES="common? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-distro[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/logs-prometheus[${PYTHON_USEDEP}] )
 	prometheus? ( >=dev-python/prometheus-client-0.21.0[${PYTHON_USEDEP}] )
-	sentry? ( >=dev-python/sentry-sdk-2.17.0[${PYTHON_USEDEP}] )"
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

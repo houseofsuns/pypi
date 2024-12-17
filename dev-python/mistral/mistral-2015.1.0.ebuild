@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/alembic-0.7.2[${PYTHON_USEDEP}]
 	dev-python/amqplib[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	>=dev-python/Babel-1.3[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/croniter-0.3.4[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	>=dev-python/iso8601-0.1.9[${PYTHON_USEDEP}]

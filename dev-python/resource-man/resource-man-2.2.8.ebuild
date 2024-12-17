@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="qt"
 DEPENDENCIES="qt? ( dev-python/dynamicmethod[${PYTHON_USEDEP}] )
-	qt? ( >=dev-python/QtPy-1.9.0[${PYTHON_USEDEP}] )"
+	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

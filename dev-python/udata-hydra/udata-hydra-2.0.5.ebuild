@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/aiocontextvars[${PYTHON_USEDEP}]
 	dev-python/progressist[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/rq-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-3.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/str2float[${PYTHON_USEDEP}]
 	dev-python/str2bool[${PYTHON_USEDEP}]"

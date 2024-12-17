@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/clint-0.6.0[${PYTHON_USEDEP}]
 	dev-python/drewtilities[${PYTHON_USEDEP}]
-	<dev-python/eyeD3-1.0.0[${PYTHON_USEDEP}]
+	dev-python/eyeD3[${PYTHON_USEDEP}]
 	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]

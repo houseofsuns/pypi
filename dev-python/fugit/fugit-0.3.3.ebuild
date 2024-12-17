@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/defopt[${PYTHON_USEDEP}]
 	dev-python/parse_type[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.20.0[${PYTHON_USEDEP}]

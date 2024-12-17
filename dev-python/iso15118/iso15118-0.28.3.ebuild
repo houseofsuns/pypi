@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/py4j[${PYTHON_USEDEP}]
 	dev-python/types-toml[${PYTHON_USEDEP}]
-	<dev-python/mypy_extensions-2.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	<dev-python/types-psutil-6.0.0.0[${PYTHON_USEDEP}]
 	<dev-python/environs-10.0.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-41.0.1[${PYTHON_USEDEP}]

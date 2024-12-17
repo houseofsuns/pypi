@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/boto3-1.34.35[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/litellm[${PYTHON_USEDEP}]
 	~dev-python/mypy-1.8.0[${PYTHON_USEDEP}]
-	~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/async_generator[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

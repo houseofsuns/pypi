@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/pyclipper-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/intervaltree-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
-	>=dev-python/Faker-13.3.1[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/freetype-py-2.1.0[${PYTHON_USEDEP}]
 	dev-python/python-barcode[${PYTHON_USEDEP}]
 	>=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]

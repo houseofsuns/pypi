@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/progressbar2-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.1[${PYTHON_USEDEP}]
-	>=dev-python/requests_download-0.1.2[${PYTHON_USEDEP}]"
+	dev-python/requests_download[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyelftools-0.32[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )

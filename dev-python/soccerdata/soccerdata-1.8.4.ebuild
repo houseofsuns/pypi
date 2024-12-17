@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="socceraction"
-DEPENDENCIES="<dev-python/PySocks-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PySocks[${PYTHON_USEDEP}]
 	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cloudscraper-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]

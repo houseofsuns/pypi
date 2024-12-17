@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"

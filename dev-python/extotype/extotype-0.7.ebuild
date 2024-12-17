@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/Babel-2.12.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/Babel-2.12.1[${PYTHON_USEDEP}]
 	dev-python/marshmallow-enum[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
 	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
-	~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/openapi-schema-pydantic[${PYTHON_USEDEP}]

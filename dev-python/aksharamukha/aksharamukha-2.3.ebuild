@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
-	dev-python/pykakasi[${PYTHON_USEDEP}]
+	>=dev-python/pykakasi-2.0.6[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	dev-python/language-data[${PYTHON_USEDEP}]

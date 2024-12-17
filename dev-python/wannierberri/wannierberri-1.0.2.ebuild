@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Advanced tool for Wannier interpolation"
+DESCRIPTION="Advanced tool for Wannier interpolation [top-max 1.0.5]"
 
 HOMEPAGE="https://wannier-berri.org"
 LICENSE=""

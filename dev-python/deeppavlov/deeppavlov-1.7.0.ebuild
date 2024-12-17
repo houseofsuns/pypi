@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/ipython_genutils-0.2.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.4[${PYTHON_USEDEP}] )

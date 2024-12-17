@@ -32,6 +32,6 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
-	sentry? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )"
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

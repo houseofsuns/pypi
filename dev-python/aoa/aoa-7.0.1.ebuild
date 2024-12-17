@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}]
 	dev-python/aia[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
 	dev-python/teradataml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

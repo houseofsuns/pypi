@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyaudio-0.2.11[${PYTHON_USEDEP}]
-	>=dev-python/PyQt6-6.6.0[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.1[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

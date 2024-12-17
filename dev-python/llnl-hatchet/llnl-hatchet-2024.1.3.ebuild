@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/pydot[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
 	dev-python/caliper-reader[${PYTHON_USEDEP}]
-	>=dev-python/textX-3.0.0[${PYTHON_USEDEP}]"
+	dev-python/textX[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

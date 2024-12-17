@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/flask-2.0.1[${PYTHON_USEDEP}]
 	dev-python/Flask-Pydantic[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.18[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	<=dev-python/werkzeug-2.3.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

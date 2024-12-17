@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/django-4.0.6[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]
 	dev-python/model-bakery[${PYTHON_USEDEP}]
-	>=dev-python/Faker-13.3.4[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/validate-docbr[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python DBI driver for DB2 (LUW, zOS, i5) and IDS"
+DESCRIPTION="Python DBI driver for DB2 (LUW, zOS, i5) and IDS [top-max 3.2.4]"
 
 HOMEPAGE="http://pypi.python.org/pypi/ibm_db/"
 LICENSE="Apache-2.0"

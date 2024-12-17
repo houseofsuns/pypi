@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	testing? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	testing? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}] )

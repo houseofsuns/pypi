@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all base dev"
 DEPENDENCIES=">=dev-python/mkdocs-1.0[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.7.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	all? ( >=dev-python/mkdocs-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/Babel-2.7.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/mkdocs-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/mkdocs-git-authors-plugin[${PYTHON_USEDEP}] )
 	base? ( >=dev-python/mkdocs-1.0[${PYTHON_USEDEP}] )
 	base? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	base? ( >=dev-python/Babel-2.7.0[${PYTHON_USEDEP}] )
+	base? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	base? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

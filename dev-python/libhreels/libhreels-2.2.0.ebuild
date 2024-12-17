@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/importlib-metadata-2.0[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
-	<dev-python/PyQt5-6.0[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

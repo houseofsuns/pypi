@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/entrypoints[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
 	dev-python/click-default-group[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/acryl-datahub[${PYTHON_USEDEP}]
 	all? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
@@ -105,7 +105,7 @@ DEPENDENCIES="dev-python/entrypoints[${PYTHON_USEDEP}]
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/acryl-datahub[${PYTHON_USEDEP}] )

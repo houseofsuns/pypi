@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/Levenshtein-0.18.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Levenshtein[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/aiocron[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]"
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

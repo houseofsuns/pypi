@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/boto3-1.5.8[${PYTHON_USEDEP}]
 	build? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	build? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/microcosm-metrics[${PYTHON_USEDEP}] )
-	sentry? ( >=dev-python/sentry-sdk-0.14.4[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

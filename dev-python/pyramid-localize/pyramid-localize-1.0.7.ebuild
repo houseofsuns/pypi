@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid-basemodel[${PYTHON_USEDEP}]
 	dev-python/pyramid-mako[${PYTHON_USEDEP}]
 	>=dev-python/pycountry-23.12.7[${PYTHON_USEDEP}]
-	babel? ( >=dev-python/Babel-1.0[${PYTHON_USEDEP}] )
+	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev hyperopt lite orchestrate xgboost"
 DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-2.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	>=dev-python/pypng-0.0.20[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]

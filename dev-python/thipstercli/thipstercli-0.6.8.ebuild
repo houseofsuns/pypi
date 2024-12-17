@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cdktf-cdktf-provider-google[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.22.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-6.1.1[${PYTHON_USEDEP}]

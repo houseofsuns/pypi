@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.3.8[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/pykakasi[${PYTHON_USEDEP}]"
+	~dev-python/pykakasi-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

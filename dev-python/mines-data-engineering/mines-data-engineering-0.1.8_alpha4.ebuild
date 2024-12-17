@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/xattr[${PYTHON_USEDEP}]
 	dev-python/imdb-sqlite[${PYTHON_USEDEP}]
 	dev-python/otter-grader[${PYTHON_USEDEP}]
 	<dev-python/prettytable-1.0[${PYTHON_USEDEP}]
-	<dev-python/Faker-17.0.0[${PYTHON_USEDEP}]"
+	dev-python/Faker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

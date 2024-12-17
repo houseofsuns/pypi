@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
 	>=dev-python/py-cpuinfo-8.0.0[${PYTHON_USEDEP}]

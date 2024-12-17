@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/ConfigArgParse-2.0.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	<dev-python/cherrypy-19.0.0[${PYTHON_USEDEP}]
 	<dev-python/cachelib-0.11.0[${PYTHON_USEDEP}]
 	<dev-python/cachecontrol-0.14.0[${PYTHON_USEDEP}]

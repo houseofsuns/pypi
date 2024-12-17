@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/pytz-2022.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	>=dev-python/PyGithub-1.58.1[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.24.56[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]

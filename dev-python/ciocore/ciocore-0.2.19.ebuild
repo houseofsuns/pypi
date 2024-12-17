@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core functionality for Conductor's client tools [top-max 9.1.0_beta2]"
+DESCRIPTION="Core functionality for Conductor's client tools [top-max 9.1.0_rc3]"
 
 HOMEPAGE="https://github.com/AtomicConductor/conductor-core"
 LICENSE=""

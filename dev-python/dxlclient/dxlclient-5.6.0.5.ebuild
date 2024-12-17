@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
 	<dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	<dev-python/PySocks-1.7[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )

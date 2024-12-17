@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}]
 	>=dev-python/pyopengl-3.1.6[${PYTHON_USEDEP}]
 	dev-python/numpy-stl[${PYTHON_USEDEP}]
-	gui? ( >=dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

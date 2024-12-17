@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-decouple[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	app? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	app? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
-	app? ( >=dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
+	app? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	app? ( dev-python/python-decouple[${PYTHON_USEDEP}] )
 	colorama? ( dev-python/colorama[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

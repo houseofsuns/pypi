@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/fifolock[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.11.1[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sentry-sdk-1.11.1[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

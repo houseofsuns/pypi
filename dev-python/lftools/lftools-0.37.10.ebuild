@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	ldap? ( ~dev-python/python-ldap-3.1.0[${PYTHON_USEDEP}] )
 	openstack? ( ~dev-python/osc-lib-2.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-click[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-click-0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-datafiles-2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )

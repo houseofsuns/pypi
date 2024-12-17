@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	database? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
 	database? ( dev-python/aerich[${PYTHON_USEDEP}] )
-	shcheduler? ( <dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}] )
+	shcheduler? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
 	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
 	rest? ( dev-python/sanic[${PYTHON_USEDEP}] )
 	rest? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )

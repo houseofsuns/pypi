@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/wheel-0.22[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-pyproject[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	graphical? ( >=dev-python/PyQt5-5.14.2[${PYTHON_USEDEP}] )
+	graphical? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	graphical? ( dev-python/qimage2ndarray[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

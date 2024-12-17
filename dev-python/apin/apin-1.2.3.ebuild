@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/jsonpath[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
-	~dev-python/Faker-8.11.0[${PYTHON_USEDEP}]"
+	dev-python/Faker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

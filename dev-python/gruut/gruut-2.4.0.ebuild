@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="align all ar ca cs de es fa fr g2p it lb nl pt ru sv sw train"
-DEPENDENCIES="<dev-python/Babel-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/gruut-ipa[${PYTHON_USEDEP}]
 	dev-python/gruut-lang-en[${PYTHON_USEDEP}]

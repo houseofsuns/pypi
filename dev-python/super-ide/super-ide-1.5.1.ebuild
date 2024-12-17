@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/bottle-0.12[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.0[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.19[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

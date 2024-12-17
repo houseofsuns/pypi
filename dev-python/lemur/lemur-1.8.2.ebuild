@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}]
 	dev-python/click-repl[${PYTHON_USEDEP}]
 	dev-python/cloudflare[${PYTHON_USEDEP}]
-	~dev-python/ConfigArgParse-1.7[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	~dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
 	~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
@@ -131,7 +131,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.1[${PYTHON_USEDEP}]
 	~dev-python/rsa-4.9[${PYTHON_USEDEP}]
 	~dev-python/s3transfer-0.10.1[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-2.2.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
@@ -183,7 +183,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/ConfigArgParse-1.7[${PYTHON_USEDEP}] )
+	dev? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.4.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}] )
@@ -198,7 +198,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/Faker-25.4.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/fakeredis-2.23.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/filelock-3.13.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
@@ -268,7 +268,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nh3-0.2.17[${PYTHON_USEDEP}] )
@@ -336,7 +336,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/s3transfer-0.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sarif-om-1.0.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/secretstorage-3.3.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sentry-sdk-2.2.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}] )
@@ -386,7 +386,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/attrs-23.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/aws-sam-translator-1.87.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/aws-xray-sdk-2.13.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/Babel-2.14.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bandit-1.7.8[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bcrypt-4.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/billiard[${PYTHON_USEDEP}] )
@@ -407,7 +407,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/ConfigArgParse-1.7[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/coverage-7.4.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}] )
@@ -421,7 +421,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/Faker-25.4.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/fakeredis-2.23.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Flask-Bcrypt[${PYTHON_USEDEP}] )
@@ -481,7 +481,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nose[${PYTHON_USEDEP}] )
@@ -540,7 +540,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/rsa-4.9[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/s3transfer-0.10.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sarif-om-1.0.4[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sentry-sdk-2.2.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}] )
@@ -618,7 +618,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/ConfigArgParse-1.7[${PYTHON_USEDEP}] )
+	tests? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/coverage-7.4.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}] )
@@ -631,7 +631,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/Faker-25.4.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/fakeredis-2.23.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask-Bcrypt[${PYTHON_USEDEP}] )
@@ -690,7 +690,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
@@ -749,7 +749,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/rsa-4.9[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/s3transfer-0.10.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sarif-om-1.0.4[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/sentry-sdk-2.2.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}] )

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.26.65[${PYTHON_USEDEP}]
 	dev-python/oyaml[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-1.57[${PYTHON_USEDEP}]"
+	dev-python/PyGithub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

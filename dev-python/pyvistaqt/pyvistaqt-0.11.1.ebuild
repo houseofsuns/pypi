@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyvista[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-1.9.0[${PYTHON_USEDEP}]"
+	dev-python/QtPy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

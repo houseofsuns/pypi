@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/alembic-1.6.2[${PYTHON_USEDEP}]
 	~dev-python/amqp-5.0.6[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.7.0[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	dev-python/billiard[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]

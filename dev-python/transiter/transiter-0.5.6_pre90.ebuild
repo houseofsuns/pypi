@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/alembic-1.5.7[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.6.3[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	~dev-python/decorator-4.4.2[${PYTHON_USEDEP}]

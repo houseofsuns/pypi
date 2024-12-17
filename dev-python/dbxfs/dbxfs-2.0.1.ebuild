@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/block-tracing[${PYTHON_USEDEP}]
 	dev-python/dropbox[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
 	dev-python/privy[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/userspacefs[${PYTHON_USEDEP}]
 	safefs? ( dev-python/safefs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

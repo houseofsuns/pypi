@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi sentry"
 DEPENDENCIES="fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	sentry? ( >=dev-python/sentry-sdk-1.23.1[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

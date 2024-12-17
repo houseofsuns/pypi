@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	>=dev-python/Faker-15.2.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-69.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]

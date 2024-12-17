@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
-	~dev-python/Faker-15.3.3[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

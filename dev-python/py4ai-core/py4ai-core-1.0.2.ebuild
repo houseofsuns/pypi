@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/cfg-load[${PYTHON_USEDEP}]
 	dev? ( dev-python/licensecheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )

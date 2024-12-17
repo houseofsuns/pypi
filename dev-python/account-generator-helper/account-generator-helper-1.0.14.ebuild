@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	~dev-python/cloudscraper-1.2.69[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

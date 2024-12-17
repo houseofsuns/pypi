@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]

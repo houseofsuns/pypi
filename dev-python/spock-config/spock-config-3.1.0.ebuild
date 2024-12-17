@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="s3 tune"
 DEPENDENCIES="~dev-python/attrs-23.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/pytomlpp[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/setuptools-68.1[${PYTHON_USEDEP}]

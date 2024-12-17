@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/Arpeggio-1.6.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Arpeggio[${PYTHON_USEDEP}]
 	dev-python/pyPEG2[${PYTHON_USEDEP}]
 	>=dev-python/pytest-3.2.1[${PYTHON_USEDEP}]
 	dev-python/clingo[${PYTHON_USEDEP}]"

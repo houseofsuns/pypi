@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="all? ( <dev-python/Faker-18.11.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	dev-python/jinja[${PYTHON_USEDEP}]
 	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/sqlalchemy-2.0.17[${PYTHON_USEDEP}] )

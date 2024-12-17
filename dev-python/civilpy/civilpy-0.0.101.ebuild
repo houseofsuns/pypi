@@ -65,7 +65,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
 	full? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	full? ( dev-python/kivymd[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}] )
+	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/tox-4.11.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/markdownify[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

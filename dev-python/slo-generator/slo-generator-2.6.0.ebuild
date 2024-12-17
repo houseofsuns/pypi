@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/GitPython-3.1.35[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/safety[${PYTHON_USEDEP}] )
 	dynatrace? ( dev-python/requests[${PYTHON_USEDEP}] )
 	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )

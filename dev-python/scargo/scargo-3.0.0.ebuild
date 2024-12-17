@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="dev-python/clang[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/clang-17.0.6[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	dev-python/conan[${PYTHON_USEDEP}]

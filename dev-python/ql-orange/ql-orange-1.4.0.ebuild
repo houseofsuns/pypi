@@ -27,7 +27,7 @@ IUSE="d jupyter"
 DEPENDENCIES="d? ( >=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	jupyter? ( >=dev-python/ipython-7.8.0[${PYTHON_USEDEP}] )
-	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.0[${PYTHON_USEDEP}]
 	jupyter? ( >=dev-python/tokenize-rt-3.2.0[${PYTHON_USEDEP}] )

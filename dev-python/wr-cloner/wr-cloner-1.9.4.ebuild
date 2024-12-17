@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-24.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/Faker-12.0.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.15.10[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )

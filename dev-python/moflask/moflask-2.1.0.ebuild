@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/sentry-sdk-1.20[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	jwt? ( dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

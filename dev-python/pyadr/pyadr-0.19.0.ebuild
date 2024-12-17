@@ -50,6 +50,6 @@ DEPENDENCIES="test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	<dev-python/cleo-1.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-7.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]"
+	dev-python/GitPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

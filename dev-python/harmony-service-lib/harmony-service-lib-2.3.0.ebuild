@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/boto3-1.14[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/autopep8-1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/Faker-8.1.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipython-8.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jedi-0.17.2[${PYTHON_USEDEP}] )

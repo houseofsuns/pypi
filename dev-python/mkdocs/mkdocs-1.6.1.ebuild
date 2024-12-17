@@ -36,8 +36,8 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml_env_tag[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-2.0[${PYTHON_USEDEP}]
-	i18n? ( >=dev-python/Babel-2.9.0[${PYTHON_USEDEP}] )
-	min-versions? ( ~dev-python/Babel-2.9.0[${PYTHON_USEDEP}] )
+	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	min-versions? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/click-7.0[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/ghp-import-1.0[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/jinja[${PYTHON_USEDEP}] )

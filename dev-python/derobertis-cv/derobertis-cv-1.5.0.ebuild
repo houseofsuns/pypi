@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/jupyter-client[${PYTHON_USEDEP}]
 	dev-python/PythonVideoConverter[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/pl-builder[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]"

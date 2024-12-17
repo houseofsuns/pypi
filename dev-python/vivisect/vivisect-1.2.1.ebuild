@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/pyasn1-0.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-7.2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
-	gui? ( ~dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}] )
-	gui? ( ~dev-python/PyQtWebEngine-5.15.6[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

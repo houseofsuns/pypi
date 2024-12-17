@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mongodb mssql mysql oracle postgresql"
 DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/watchmen-meta[${PYTHON_USEDEP}]
 	dev-python/watchmen-data-kernel[${PYTHON_USEDEP}]
 	dev-python/watchmen-pipeline-kernel[${PYTHON_USEDEP}]

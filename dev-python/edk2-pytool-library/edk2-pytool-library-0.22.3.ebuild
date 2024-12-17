@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-modules-0.2.8[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pygount[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/graphenelib[${PYTHON_USEDEP}]
-	~dev-python/Events-0.3[${PYTHON_USEDEP}]"
+	dev-python/Events[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

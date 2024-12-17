@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A modern toolkit for working with application manifests and configurations. [top-max 2.3.0]"
+DESCRIPTION="A modern toolkit for working with application manifests and configurations. [top-max 2.3.2]"
 
 HOMEPAGE="https://github.com/emergentmethods/python-manifest"
 LICENSE="MIT"

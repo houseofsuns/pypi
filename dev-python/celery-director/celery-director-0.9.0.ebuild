@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/pluginbase-1.0.0[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.14.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )

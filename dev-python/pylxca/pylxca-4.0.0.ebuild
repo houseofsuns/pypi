@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="It is tool/api to connect LXCA from command line"
+DESCRIPTION="It is tool/api to connect LXCA from command line [top-max 4.2.0]"
 
 HOMEPAGE="http://www.lenovo.com"
 LICENSE="Apache-2.0"

@@ -56,7 +56,7 @@ DEPENDENCIES="~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	~dev-python/plumbum-1.8.2[${PYTHON_USEDEP}]
 	~dev-python/html2text-2024.2.26[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.10.1[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-2.0.1[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.1.2[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-8.1.2[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-timeout-2.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-sugar-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/Faker-24.14.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	types? ( dev-python/rapydo-http[${PYTHON_USEDEP}] )
 	types? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
 	types? ( ~dev-python/lxml-5.2.1[${PYTHON_USEDEP}] )
@@ -82,6 +82,6 @@ DEPENDENCIES="~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	types? ( dev-python/types-psycopg2[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	types? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
-	types? ( >=dev-python/sentry-sdk-1.4.1[${PYTHON_USEDEP}] )"
+	types? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

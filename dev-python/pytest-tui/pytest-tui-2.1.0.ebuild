@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
-	~dev-python/Faker-18.3.1[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/json2table[${PYTHON_USEDEP}]
 	~dev-python/pytest-metadata-2.0.4[${PYTHON_USEDEP}]
 	dev-python/single-source[${PYTHON_USEDEP}]

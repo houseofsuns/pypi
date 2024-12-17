@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/paste-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.11.1[${PYTHON_USEDEP}]
 	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/Babel-2.3.4[${PYTHON_USEDEP}] )
+	test? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bashate-0.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )

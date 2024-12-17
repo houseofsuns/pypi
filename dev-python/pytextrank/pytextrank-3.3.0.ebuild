@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="demo dev test"
-DEPENDENCIES=">=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.13[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]

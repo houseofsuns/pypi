@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

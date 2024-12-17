@@ -34,8 +34,8 @@ DEPENDENCIES="dev-python/cflib[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
 	~dev-python/pyopengl-3.1.7[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	>=dev-python/PyQt6-6.4[${PYTHON_USEDEP}]
-	>=dev-python/PyQt6-sip-13.4[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
+	dev-python/PyQt6-sip[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

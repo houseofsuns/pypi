@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/docopt-0.6.2[${PYTHON_USEDEP}] )
-	cli? ( >=dev-python/Frozen-Flask-1.0[${PYTHON_USEDEP}] )
+	cli? ( dev-python/Frozen-Flask[${PYTHON_USEDEP}] )
 	cli? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

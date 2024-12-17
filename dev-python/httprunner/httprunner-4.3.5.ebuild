@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/pydantic-1.9[${PYTHON_USEDEP}]
 	<dev-python/black-23.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-0.15.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	allure? ( dev-python/allure-pytest[${PYTHON_USEDEP}] )
 	upload? ( <dev-python/requests-toolbelt-0.11.0[${PYTHON_USEDEP}] )
 	upload? ( <dev-python/filetype-2.0.0[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RedBrick platform Python SDK! [top-max 2.19.8]"
+DESCRIPTION="RedBrick platform Python SDK! [top-max 2.20.0]"
 
 HOMEPAGE="https://www.redbrickai.com"
 LICENSE=""
@@ -47,7 +47,7 @@ DEPENDENCIES="<=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/black-24.1.1[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
-	dev? ( <=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )

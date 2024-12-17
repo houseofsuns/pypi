@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
-	~dev-python/Faker-18.9.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/cachier[${PYTHON_USEDEP}]
 	~dev-python/coverage-7.2.6[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]

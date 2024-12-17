@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/pyro-ppl[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/ProDy[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

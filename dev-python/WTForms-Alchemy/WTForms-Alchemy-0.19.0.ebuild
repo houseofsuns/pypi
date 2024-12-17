@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/WTForms-Components[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	arrow? ( >=dev-python/arrow-0.3.4[${PYTHON_USEDEP}] )
-	babel? ( >=dev-python/Babel-1.3[${PYTHON_USEDEP}] )
+	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	color? ( >=dev-python/colour-0.0.4[${PYTHON_USEDEP}] )
 	i18n? ( dev-python/SQLAlchemy-i18n[${PYTHON_USEDEP}] )
 	intervals? ( dev-python/intervals[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flexmock-0.9.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/wtforms-test[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/Babel-1.3[${PYTHON_USEDEP}] )
+	test? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/arrow-0.3.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/phonenumbers-5.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/intervals[${PYTHON_USEDEP}] )

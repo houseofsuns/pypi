@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/enum-compat[${PYTHON_USEDEP}]
 	dev-python/blist[${PYTHON_USEDEP}]
-	>=dev-python/ConfigArgParse-0.10.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/bg[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]"

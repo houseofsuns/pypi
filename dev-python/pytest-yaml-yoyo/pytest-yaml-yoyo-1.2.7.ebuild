@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	dev-python/DingtalkChatbot[${PYTHON_USEDEP}]
-	>=dev-python/Faker-15.3.4[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

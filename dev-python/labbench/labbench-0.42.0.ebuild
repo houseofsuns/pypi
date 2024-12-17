@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	doc? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyperf[${PYTHON_USEDEP}] )

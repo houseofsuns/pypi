@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/blinker-1.5[${PYTHON_USEDEP}]
 	>=dev-python/peewee-3.14.4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.15.10[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

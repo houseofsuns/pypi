@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
 	>=dev-python/twisted-16.4.0[${PYTHON_USEDEP}]
-	>=dev-python/txAMQP-0.6.2[${PYTHON_USEDEP}]
+	dev-python/txAMQP[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-16.0.0[${PYTHON_USEDEP}]

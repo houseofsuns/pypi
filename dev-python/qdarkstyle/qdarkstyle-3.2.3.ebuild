@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs example"
-DEPENDENCIES=">=dev-python/QtPy-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/QtPy[${PYTHON_USEDEP}]
 	develop? ( dev-python/qtsass[${PYTHON_USEDEP}] )
 	develop? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

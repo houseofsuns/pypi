@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="check docs mypy test"
-DEPENDENCIES="dev-python/pykakasi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pykakasi-2.0.1[${PYTHON_USEDEP}]
 	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	check? ( dev-python/twine[${PYTHON_USEDEP}] )
 	check? ( dev-python/docutils[${PYTHON_USEDEP}] )
@@ -35,8 +35,8 @@ DEPENDENCIES="dev-python/pykakasi[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-py3doc-enhanced-theme[${PYTHON_USEDEP}] )
 	mypy? ( ~dev-python/mypy-0.770[${PYTHON_USEDEP}] )
-	mypy? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/pykakasi[${PYTHON_USEDEP}] )
+	mypy? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/pykakasi-2.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )

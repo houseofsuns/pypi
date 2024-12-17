@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-toolbelt-1.0[${PYTHON_USEDEP}]
 	<dev-python/rich-11.0[${PYTHON_USEDEP}]

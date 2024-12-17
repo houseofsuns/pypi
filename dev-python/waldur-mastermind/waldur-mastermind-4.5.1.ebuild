@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/ansible-waldur-module[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-rdbms[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-resource[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-storage[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	>=dev-python/croniter-0.3.4[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.4.1[${PYTHON_USEDEP}]
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/ansible-waldur-module[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.1.11[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-1.5.3[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-0.9.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	test? ( <dev-python/ddt-1.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/docker[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES=">=dev-python/django-1.11.0[${PYTHON_USEDEP}]
-	test? ( ~dev-python/Faker-5.0.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/model-bakery[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/ipdb-0.10.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )

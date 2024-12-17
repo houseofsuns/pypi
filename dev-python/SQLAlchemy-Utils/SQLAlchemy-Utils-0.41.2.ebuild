@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="arrow babel color encrypted intervals password pendulum phone test test-all timezone url"
 DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	arrow? ( >=dev-python/arrow-0.3.4[${PYTHON_USEDEP}] )
-	babel? ( >=dev-python/Babel-1.3[${PYTHON_USEDEP}] )
+	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	color? ( >=dev-python/colour-0.0.4[${PYTHON_USEDEP}] )
 	encrypted? ( >=dev-python/cryptography-0.6[${PYTHON_USEDEP}] )
 	intervals? ( dev-python/intervals[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flake8-2.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	test-all? ( >=dev-python/Babel-1.3[${PYTHON_USEDEP}] )
+	test-all? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	test-all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/pygments-1.2[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/arrow-0.3.4[${PYTHON_USEDEP}] )

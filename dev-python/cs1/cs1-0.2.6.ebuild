@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Compressed Sensing library for 1D Spectroscopic Profiling Data"
+DESCRIPTION="Compressed Sensing library for 1D Spectroscopic Profiling Data [top-max 0.2.7]"
 
 HOMEPAGE="https://github.com/zhangys11/cs1"
 LICENSE=""

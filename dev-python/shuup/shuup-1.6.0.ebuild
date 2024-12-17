@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="coding-style docs everything testing"
 DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/cryptography-1.7.1[${PYTHON_USEDEP}]
 	<dev-python/django-1.10[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]

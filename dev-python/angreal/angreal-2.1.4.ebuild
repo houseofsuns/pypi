@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Angreal is a tool for templating projects and associated processes to provide a consistent developer experience across multiple projects."
+DESCRIPTION="Angreal is a tool for templating projects and associated processes to provide a consistent developer experience across multiple projects. [top-max 2.1.5]"
 
 HOMEPAGE="https://github.com/angreal/angreal"
 LICENSE="GPL-3"

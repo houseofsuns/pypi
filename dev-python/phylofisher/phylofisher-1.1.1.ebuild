@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/ete3[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}]

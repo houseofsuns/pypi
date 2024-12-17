@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/certifi-2023.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
-	<dev-python/PySocks-2.0.0[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-futures-2.0.0[${PYTHON_USEDEP}]
 	dev-python/stem[${PYTHON_USEDEP}]

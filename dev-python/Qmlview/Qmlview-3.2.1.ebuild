@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
-	>=dev-python/PyQt6-6.5.1[${PYTHON_USEDEP}]"
+	dev-python/PyQt6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

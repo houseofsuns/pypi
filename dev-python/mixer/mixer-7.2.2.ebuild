@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="<dev-python/Faker-12.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/django-3.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flask-1.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/marshmallow-3.9[${PYTHON_USEDEP}] )

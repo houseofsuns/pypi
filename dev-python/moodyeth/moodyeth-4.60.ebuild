@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tester"
-DEPENDENCIES="~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/eth-uniswap[${PYTHON_USEDEP}]

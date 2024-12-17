@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/mypy-1.6.1[${PYTHON_USEDEP}]
-	~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	~dev-python/black-23.7.0[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]"

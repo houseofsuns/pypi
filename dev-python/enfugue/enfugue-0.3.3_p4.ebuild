@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build directml source tensorrt xformers"
 DEPENDENCIES="source? ( dev-python/latent-diffusion[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
-	build? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	build? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	build? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	build? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	build? ( <dev-python/types-setuptools-68.0[${PYTHON_USEDEP}] )

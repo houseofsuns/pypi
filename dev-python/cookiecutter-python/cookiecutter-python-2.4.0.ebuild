@@ -27,13 +27,13 @@ IUSE="docs docslive test typing"
 DEPENDENCIES="<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/jinja2-time-0.3.0[${PYTHON_USEDEP}]
 	typing? ( ~dev-python/mypy-0.961[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	typing? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-click[${PYTHON_USEDEP}] )
-	typing? ( dev-python/pytest-click[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-click-1.2.0[${PYTHON_USEDEP}] )
+	typing? ( <dev-python/pytest-click-1.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-explicit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-object-getter[${PYTHON_USEDEP}] )

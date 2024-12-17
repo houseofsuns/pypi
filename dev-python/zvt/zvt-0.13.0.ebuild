@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.5.2[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-pagination[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/eastmoneypy[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.10.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

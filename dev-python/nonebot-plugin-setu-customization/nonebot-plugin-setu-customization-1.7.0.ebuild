@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ujson-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/starlette-0.19.0[${PYTHON_USEDEP}]
-	>=dev-python/APScheduler-3.7.0[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

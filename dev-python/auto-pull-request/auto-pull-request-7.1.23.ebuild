@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
-	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/poetry-dynamic-versioning[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/xotless[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]
 	dev-python/immutables[${PYTHON_USEDEP}]
 	dev-python/xotl-tools[${PYTHON_USEDEP}]
-	<dev-python/Babel-3.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	test? ( ~dev-python/hypothesis-6.50.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )

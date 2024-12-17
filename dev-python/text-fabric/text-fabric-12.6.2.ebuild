@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	all? ( >=dev-python/PyGithub-1.57[${PYTHON_USEDEP}] )
+	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
-	github? ( >=dev-python/PyGithub-1.57[${PYTHON_USEDEP}] )
+	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	gitlab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

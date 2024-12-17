@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.11.0[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.15.10[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	~dev-python/typeguard-4.1.5[${PYTHON_USEDEP}]
 	dev-python/vesper-api[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

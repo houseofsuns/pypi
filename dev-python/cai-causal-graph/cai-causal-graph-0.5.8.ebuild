@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/mypy_extensions-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.3.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]"

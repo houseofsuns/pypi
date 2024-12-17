@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.27[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-11.0.1[${PYTHON_USEDEP}]

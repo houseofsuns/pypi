@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a toolkit for converting trained model to PaddlePaddle from other deep learning frameworks. [top-max 1.5.0]"
+DESCRIPTION="a toolkit for converting trained model to PaddlePaddle from other deep learning frameworks. [top-max 1.6.0]"
 
 HOMEPAGE="https://github.com/PaddlePaddle/x2paddle"
 LICENSE="Apache-2.0"

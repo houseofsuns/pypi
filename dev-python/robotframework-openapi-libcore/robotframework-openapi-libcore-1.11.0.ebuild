@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/prance[${PYTHON_USEDEP}]
-	>=dev-python/Faker-11.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/rstr[${PYTHON_USEDEP}]
 	<dev-python/openapi-core-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

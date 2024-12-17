@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.7.1[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
-	~dev-python/Faker-19.12.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]

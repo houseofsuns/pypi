@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Light package to load well deviations [top-max 0.5.0]"
+DESCRIPTION="Light package to load well deviations [top-max 0.5.1]"
 
 HOMEPAGE="https://github.com/Zabamund/wellpathpy"
 LICENSE="LGPL-3"

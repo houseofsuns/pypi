@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/importlib-metadata-4.2.0[${PYTHON_USEDEP}]
 	dev-python/jeraconv[${PYTHON_USEDEP}]
-	dev-python/jaconv[${PYTHON_USEDEP}]"
+	~dev-python/jaconv-0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

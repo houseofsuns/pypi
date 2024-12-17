@@ -42,6 +42,6 @@ DEPENDENCIES=">=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/flake8-7.1.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-24.8.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/Babel-2.16.0[${PYTHON_USEDEP}] )"
+	test? ( dev-python/Babel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

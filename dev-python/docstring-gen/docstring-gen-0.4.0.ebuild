@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/nbformat-5.7.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbdev-mkdocs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/semgrep[${PYTHON_USEDEP}] )

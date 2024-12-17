@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="~dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	~dev-python/pyaml-19.12.0[${PYTHON_USEDEP}]
 	dev-python/svn[${PYTHON_USEDEP}]
-	~dev-python/GitPython-2.1.15[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev-python/docker-compose[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-1.45[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	~dev-python/packaging-21.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

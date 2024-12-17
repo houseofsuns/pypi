@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
 DEPENDENCIES="<dev-python/cerberus-2.0[${PYTHON_USEDEP}]
-	<dev-python/Events-0.4[${PYTHON_USEDEP}]
+	dev-python/Events[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
 	<dev-python/simplejson-4.0[${PYTHON_USEDEP}]

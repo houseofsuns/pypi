@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]
 	dev-python/kymang[${PYTHON_USEDEP}]
 	~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/pytgcalls[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/TgCrypto[${PYTHON_USEDEP}]"

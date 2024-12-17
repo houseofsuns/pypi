@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	<dev-python/distro-2.0[${PYTHON_USEDEP}]
 	<dev-python/docker-5.0.0[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
-	<dev-python/Faker-3.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.17.2[${PYTHON_USEDEP}]
 	<dev-python/libtmux-0.9.0[${PYTHON_USEDEP}]

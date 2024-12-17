@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES=">=dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	dev-python/sonotoria[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )

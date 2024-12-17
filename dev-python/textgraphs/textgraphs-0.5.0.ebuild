@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="demo dev test"
 DEPENDENCIES=">=dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
 	>=dev-python/markdown2-2.4[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.8[${PYTHON_USEDEP}]

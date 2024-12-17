@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/pbr-1.0[${PYTHON_USEDEP}]
 	dev-python/anyjson[${PYTHON_USEDEP}]
-	>=dev-python/Babel-1.3[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	>=dev-python/iso8601-0.1.9[${PYTHON_USEDEP}]
 	>=dev-python/kombu-2.5.0[${PYTHON_USEDEP}]

@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/URLObject[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.6[${PYTHON_USEDEP}]
 	dev-python/fissix[${PYTHON_USEDEP}]
 	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/github3-py-4.0.1[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.0.8[${PYTHON_USEDEP}]
 	~dev-python/pytest-8.3.1[${PYTHON_USEDEP}]
@@ -141,7 +141,7 @@ DEPENDENCIES="dev-python/URLObject[${PYTHON_USEDEP}]
 	dev? ( dev-python/ghapi[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/gitdb-4.0.11[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/github3-py-4.0.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/greenlet-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/idna-3.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
@@ -172,7 +172,7 @@ DEPENDENCIES="dev-python/URLObject[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pluggy-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycparser-2.22[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyee[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/PyGithub-2.3.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pygments-2.18.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-celery[${PYTHON_USEDEP}] )
@@ -234,7 +234,7 @@ DEPENDENCIES="dev-python/URLObject[${PYTHON_USEDEP}]
 	pull-request-creator? ( ~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/requests-2.32.3[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/packaging-24.1[${PYTHON_USEDEP}] )
-	pull-request-creator? ( ~dev-python/PyGithub-2.3.0[${PYTHON_USEDEP}] )
+	pull-request-creator? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/wrapt-1.16.0[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}] )

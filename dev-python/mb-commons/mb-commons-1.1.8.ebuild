@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/sorcery[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	~dev-python/wrapt-1.13.3[${PYTHON_USEDEP}]

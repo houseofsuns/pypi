@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.4.0[${PYTHON_USEDEP}]
 	~dev-python/phonenumbers-8.13.42[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.15.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

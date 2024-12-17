@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mysql postgresql test"
 DEPENDENCIES="dev-python/vstutils[${PYTHON_USEDEP}]
 	~dev-python/markdown2-2.4.9[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.32[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]

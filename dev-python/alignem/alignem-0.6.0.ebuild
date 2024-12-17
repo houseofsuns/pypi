@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
-	<dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}]
-	<dev-python/PyQtWebEngine-6.0.0[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
+	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
 	<dev-python/qtawesome-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/QtPy-3.0.0[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	<dev-python/imageio-3.0.0[${PYTHON_USEDEP}]
 	dev-python/neuroglancer[${PYTHON_USEDEP}]

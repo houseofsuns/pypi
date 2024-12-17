@@ -51,7 +51,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/more-itertools-10.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nh3-0.2.15[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-23.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}] )

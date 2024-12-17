@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/botoflow[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytz-2025.0[${PYTHON_USEDEP}]
 	<dev-python/pyzmq-27.0.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-3.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]"

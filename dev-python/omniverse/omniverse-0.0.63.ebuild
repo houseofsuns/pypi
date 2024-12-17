@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/hydra-core[${PYTHON_USEDEP}]
 	serving? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	serving? ( ~dev-python/uvicorn-0.27.1[${PYTHON_USEDEP}] )
 	serving? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	serving? ( ~dev-python/Faker-23.2.0[${PYTHON_USEDEP}] )
+	serving? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	serving? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
 	serving? ( ~dev-python/sqlalchemy-2.0.22[${PYTHON_USEDEP}] )
 	serving? ( ~dev-python/pydantic-2.5.2[${PYTHON_USEDEP}] )"

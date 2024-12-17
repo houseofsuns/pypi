@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-qt-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/QtPy-2.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	test? ( dev-python/rich[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tifffile-2021.6.14[${PYTHON_USEDEP}] )
 	test? ( dev-python/typer[${PYTHON_USEDEP}] )

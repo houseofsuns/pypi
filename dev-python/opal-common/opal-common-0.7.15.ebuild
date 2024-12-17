@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-43.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]

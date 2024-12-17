@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/paramiko-3.3.1[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pypng-0.0.18[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.11[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

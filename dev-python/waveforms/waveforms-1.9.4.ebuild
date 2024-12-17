@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs full test"
 DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.14[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	>=dev-python/ply-3.11[${PYTHON_USEDEP}]

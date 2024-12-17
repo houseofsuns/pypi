@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pygobject-4.0[${PYTHON_USEDEP}]
-	<dev-python/Babel-3.0.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
 	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/dulwich-0.23.0[${PYTHON_USEDEP}]

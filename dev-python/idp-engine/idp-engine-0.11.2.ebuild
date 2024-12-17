@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/textX-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/textX[${PYTHON_USEDEP}]
 	dev-python/z3-solver[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-71.0.0[${PYTHON_USEDEP}]"

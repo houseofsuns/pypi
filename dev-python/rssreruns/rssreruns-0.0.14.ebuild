@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nodeenv-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )

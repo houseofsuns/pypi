@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="iris-jwst is a GPU-accelerated package to generate high-resolution opacity-weighted molecular line intensities to model JWST MIRI MRS spectra."
+DESCRIPTION="iris-jwst is a GPU-accelerated package to generate high-resolution opacity-weighted molecular line intensities to model JWST MIRI MRS spectra. [top-max 0.3.1]"
 
 HOMEPAGE="https://github.com/munozcar/IRIS"
 LICENSE=""

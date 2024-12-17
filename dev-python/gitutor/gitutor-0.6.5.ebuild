@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.3[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.5[${PYTHON_USEDEP}]
 	~dev-python/smmap-3.0.4[${PYTHON_USEDEP}]
 	dev-python/PyInquirer[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-1.51[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

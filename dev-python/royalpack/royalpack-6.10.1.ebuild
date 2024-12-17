@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/coloredlogs-16.0[${PYTHON_USEDEP}]
 	<dev-python/colour-0.2.0[${PYTHON_USEDEP}]
 	dev-python/royalspells[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]"
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

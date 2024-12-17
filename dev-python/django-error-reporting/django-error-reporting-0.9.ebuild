@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/django-2.2.9[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.5.4[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]
 	dev-python/django-datadog-logger[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

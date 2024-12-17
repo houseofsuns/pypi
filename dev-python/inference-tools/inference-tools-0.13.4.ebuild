@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/PyQt5-5.15[${PYTHON_USEDEP}] )
+	tests? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/hypothesis-6.24[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

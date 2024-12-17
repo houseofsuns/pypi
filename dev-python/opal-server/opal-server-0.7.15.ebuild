@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/permit-broadcaster[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	dev-python/slowapi[${PYTHON_USEDEP}]
 	<dev-python/pygit2-1.15[${PYTHON_USEDEP}]

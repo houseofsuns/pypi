@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	<dev-python/mkdocs-macros-plugin-0.8.0[${PYTHON_USEDEP}]
+	dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}]
 	dev-python/pydotplus[${PYTHON_USEDEP}]
 	<dev-python/boltons-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/dominate-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
 	dev-python/owlrl[${PYTHON_USEDEP}]
-	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/funcy-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

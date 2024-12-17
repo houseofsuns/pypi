@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mkdocs-1.6.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-material-9.5.34[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-minify-plugin-0.8.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/mkdocs-macros-plugin-1.0.5[${PYTHON_USEDEP}] )
+	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/markdown-katex[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-8.3.2[${PYTHON_USEDEP}] )

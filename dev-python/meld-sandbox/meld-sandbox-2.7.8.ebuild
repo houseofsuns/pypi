@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mssql"
 DEPENDENCIES="~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.9.1_p1[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.1[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
 	dev-python/fideslang[${PYTHON_USEDEP}]
 	dev-python/fideslog[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
 	~dev-python/hvac-0.11.2[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]

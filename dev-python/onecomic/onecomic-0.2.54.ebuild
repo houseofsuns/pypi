@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pillow-6.2.0[${PYTHON_USEDEP}]
 	dev-python/hyper[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-socks-0.7.4[${PYTHON_USEDEP}]
-	>=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	>=dev-python/chardet-5.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

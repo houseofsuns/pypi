@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/GitPython-3.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

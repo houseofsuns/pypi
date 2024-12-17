@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/colorlog-6.7.0[${PYTHON_USEDEP}]
 	~dev-python/docker-6.1.3[${PYTHON_USEDEP}]
 	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.32[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

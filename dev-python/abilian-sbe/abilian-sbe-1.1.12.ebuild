@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/WTForms-Alchemy[${PYTHON_USEDEP}]
-	<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	<dev-python/bleach-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.6.2[${PYTHON_USEDEP}]

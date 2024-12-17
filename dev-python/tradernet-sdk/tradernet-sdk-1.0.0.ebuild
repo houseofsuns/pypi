@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]"

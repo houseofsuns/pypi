@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	devio-full? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
 	extra? ( dev-python/rpyc[${PYTHON_USEDEP}] )
 	extra? ( dev-python/numba[${PYTHON_USEDEP}] )
-	gui-pyqt5? ( >=dev-python/PyQt5-5.9[${PYTHON_USEDEP}] )
+	gui-pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	gui-pyqt5? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	gui-pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	gui-pyside2? ( dev-python/shiboken2[${PYTHON_USEDEP}] )

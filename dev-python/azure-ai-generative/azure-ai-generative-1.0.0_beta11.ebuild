@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/azure-ai-resources[${PYTHON_USEDEP}]
 	index? ( dev-python/tika[${PYTHON_USEDEP}] )
 	index? ( <dev-python/pypdf-4.0[${PYTHON_USEDEP}] )
 	index? ( dev-python/unstructured[${PYTHON_USEDEP}] )
-	index? ( <dev-python/GitPython-4.0[${PYTHON_USEDEP}] )
+	index? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	index? ( dev-python/azure-search-documents[${PYTHON_USEDEP}] )
 	promptflow? ( dev-python/promptflow[${PYTHON_USEDEP}] )
 	promptflow? ( dev-python/promptflow-tools[${PYTHON_USEDEP}] )

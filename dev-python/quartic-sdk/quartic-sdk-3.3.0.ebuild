@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/autodocsumm[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.10.3[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}]
 	~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
@@ -163,7 +163,7 @@ DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
 	complete? ( ~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	complete? ( ~dev-python/Babel-2.10.3[${PYTHON_USEDEP}] )
+	complete? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}] )

@@ -96,7 +96,7 @@ DEPENDENCIES="dev-python/miservice-fork[${PYTHON_USEDEP}]
 	locked? ( dev-python/miservice-fork[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/multidict-6.0.5[${PYTHON_USEDEP}] )
 	locked? ( dev-python/mutagen[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	locked? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/numexpr-2.10.1[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/numpy-1.26.3[${PYTHON_USEDEP}] )
 	locked? ( dev-python/openai[${PYTHON_USEDEP}] )

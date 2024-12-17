@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/argcomplete-3.0[${PYTHON_USEDEP}]
 	dev-python/boilerplates[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1[${PYTHON_USEDEP}]
 	dev-python/readchar[${PYTHON_USEDEP}]
 	dev-python/version-query[${PYTHON_USEDEP}]"

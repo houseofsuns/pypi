@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/websocket-client-1.3[${PYTHON_USEDEP}]
 	dev-python/pyreadline[${PYTHON_USEDEP}]
 	~dev-python/pypresence-4.2[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.5[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

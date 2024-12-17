@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/pretty_midi[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
-	>=dev-python/Levenshtein-0.20.9[${PYTHON_USEDEP}]
+	dev-python/Levenshtein[${PYTHON_USEDEP}]
 	dev-python/cmcrameri[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/streamlit-pianoroll[${PYTHON_USEDEP}] )"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci_tools"
-DEPENDENCIES=">=dev-python/ConfigArgParse-0.12.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/vcrpy-1.11.0[${PYTHON_USEDEP}]
-	ci_tools? ( >=dev-python/PyGithub-1.40[${PYTHON_USEDEP}] )
+	ci_tools? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	ci_tools? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	ci_tools? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

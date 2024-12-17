@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/pathspec-0.10.3[${PYTHON_USEDEP}]
 	<dev-python/docker-8.0[${PYTHON_USEDEP}]
 	<dev-python/dulwich-1.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-jsonschema[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

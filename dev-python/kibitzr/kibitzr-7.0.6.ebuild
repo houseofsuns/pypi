@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/outcome-1.2.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/psutil-5.9.4[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}] )
+	locked? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	locked? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pytimeparse-1.1.8[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pytz-2022.7.1[${PYTHON_USEDEP}] )

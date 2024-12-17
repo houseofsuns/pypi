@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/teamscale-client[${PYTHON_USEDEP}]
-	~dev-python/GitPython-2.1.15[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
-	~dev-python/Nuitka-0.6.14.7[${PYTHON_USEDEP}]"
+	dev-python/Nuitka[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

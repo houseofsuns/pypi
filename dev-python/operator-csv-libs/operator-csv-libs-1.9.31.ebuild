@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/dohq-artifactory[${PYTHON_USEDEP}]
 	~dev-python/natsort-8.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

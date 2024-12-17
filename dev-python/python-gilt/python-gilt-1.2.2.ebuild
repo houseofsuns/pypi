@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="gilt - A GIT layering tool. [top-max 2.2.3]"
+DESCRIPTION="gilt - A GIT layering tool. [top-max 2.2.4]"
 
 HOMEPAGE="https://github.com/metacloud/gilt"
 LICENSE=""

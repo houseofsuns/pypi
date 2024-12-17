@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/tornado-6.2[${PYTHON_USEDEP}]
 	dev-python/aiopg[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/datadog[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.9.4[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

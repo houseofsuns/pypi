@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/hishel-0.0[${PYTHON_USEDEP}]
 	dev-python/whenever[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pyfakefs-5.0[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-pretty[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-mock-3.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/mock-5.0[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/Faker-28.1.0[${PYTHON_USEDEP}] )
+	testing? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	linting? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	linting? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	linting? ( >=dev-python/mypy-1.1[${PYTHON_USEDEP}] )

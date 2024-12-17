@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-6.8.0[${PYTHON_USEDEP}]
 	<dev-python/deepmerge-1.2.0[${PYTHON_USEDEP}]
 	<dev-python/docker-6.0.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-3.2.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/grandalf[${PYTHON_USEDEP}]
 	<dev-python/humanize-4.10.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-resources-6.2[${PYTHON_USEDEP}]
@@ -84,7 +84,7 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	service? ( <dev-python/python-dotenv-0.21[${PYTHON_USEDEP}] )
 	service? ( <dev-python/redis-5.1.0[${PYTHON_USEDEP}] )
 	service? ( <dev-python/rq-1.16.0[${PYTHON_USEDEP}] )
-	service? ( <dev-python/sentry-sdk-1.40.0[${PYTHON_USEDEP}] )
+	service? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	service? ( dev-python/walrus[${PYTHON_USEDEP}] )
 	dev-python/prometheus-flask-exporter[${PYTHON_USEDEP}]
 	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]

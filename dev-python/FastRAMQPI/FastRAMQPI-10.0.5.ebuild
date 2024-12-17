@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/structlog-25.0[${PYTHON_USEDEP}]
 	<dev-python/anyio-4.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	<dev-python/psycopg-4.0[${PYTHON_USEDEP}]"

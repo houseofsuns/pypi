@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python API around MYOB's AccountRight API. [top-max 1.2.24]"
+DESCRIPTION="A Python API around MYOB's AccountRight API. [top-max 1.4.0]"
 
 HOMEPAGE="https://github.com/uptick/pymyob"
 LICENSE="BSD"

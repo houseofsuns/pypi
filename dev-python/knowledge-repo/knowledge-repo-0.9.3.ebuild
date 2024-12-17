@@ -27,7 +27,7 @@ IUSE="all dev ipynb ldap oauth pdf"
 DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.10.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/cooked-input[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

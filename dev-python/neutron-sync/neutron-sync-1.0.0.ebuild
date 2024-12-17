@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/blacksheep[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	dev-python/haikunator[${PYTHON_USEDEP}]

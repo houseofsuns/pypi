@@ -27,11 +27,11 @@ IUSE="client dev"
 DEPENDENCIES="dev-python/jsonschema-typed-v2[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
 	>=dev-python/mypy-1.9.0[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	client? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )

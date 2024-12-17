@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	<dev-python/PyQt5-5.13[${PYTHON_USEDEP}]
-	<dev-python/PyQtWebEngine-5.13[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]
+	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

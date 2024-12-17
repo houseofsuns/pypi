@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev docker docker-ssh hub opensearch web-extra"
 DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.6.1[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	cli? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/msgpack-0.6.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sentry-sdk-1.5.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiocron[${PYTHON_USEDEP}] )
@@ -91,6 +91,6 @@ DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	opensearch? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	opensearch? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	web-extra? ( >=dev-python/msgpack-0.6.1[${PYTHON_USEDEP}] )
-	web-extra? ( >=dev-python/sentry-sdk-1.5.3[${PYTHON_USEDEP}] )"
+	web-extra? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

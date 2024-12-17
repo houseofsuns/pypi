@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/yaml-config-builder[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
 	>=dev-python/terminaltables-3.1[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mock-4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="~dev-python/django-4.1.3[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
-	~dev-python/Faker-15.3.3[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
 	dev-python/ofxtools[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]

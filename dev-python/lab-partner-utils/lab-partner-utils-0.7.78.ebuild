@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.21.2[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

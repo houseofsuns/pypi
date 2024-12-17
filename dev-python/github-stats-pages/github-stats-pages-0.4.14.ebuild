@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )

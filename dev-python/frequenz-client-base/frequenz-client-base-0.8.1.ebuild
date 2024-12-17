@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev-mkdocs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( ~dev-python/mkdocs-macros-plugin-1.3.7[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocs-material-9.5.43[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocstrings-0.26.2[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocstrings-python-1.12.2[${PYTHON_USEDEP}] )

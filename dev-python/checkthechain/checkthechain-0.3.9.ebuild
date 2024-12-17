@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/eth-abi-lite[${PYTHON_USEDEP}]
 	<dev-python/idna-4.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/mypy_extensions-1.1.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.18.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )

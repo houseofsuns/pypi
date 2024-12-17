@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/allencell-ml-segmenter[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.33.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	project? ( dev-python/napari[${PYTHON_USEDEP}] )

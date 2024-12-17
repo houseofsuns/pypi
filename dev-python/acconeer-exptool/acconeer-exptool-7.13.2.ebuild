@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/attributes-doc[${PYTHON_USEDEP}]
 	app? ( >=dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}] )
 	app? ( <dev-python/pyside6-6.8[${PYTHON_USEDEP}] )
 	app? ( dev-python/qtawesome[${PYTHON_USEDEP}] )
-	app? ( >=dev-python/QtPy-2.3.0[${PYTHON_USEDEP}] )
+	app? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	app? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )

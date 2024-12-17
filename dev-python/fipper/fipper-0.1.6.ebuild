@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/screeninfo[${PYTHON_USEDEP}]
 	~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.4.1[${PYTHON_USEDEP}]

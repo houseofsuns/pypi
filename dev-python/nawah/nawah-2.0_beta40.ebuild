@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
 	~dev-python/hiredis-2.4.0[${PYTHON_USEDEP}]
 	~dev-python/redis-4.3.4[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.10.1[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/build-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )

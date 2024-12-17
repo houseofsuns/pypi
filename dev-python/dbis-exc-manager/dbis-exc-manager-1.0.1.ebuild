@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build test"
 DEPENDENCIES="~dev-python/ipython-8.4[${PYTHON_USEDEP}]
-	~dev-python/Levenshtein-0.23[${PYTHON_USEDEP}]
+	dev-python/Levenshtein[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	build? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )

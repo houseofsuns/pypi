@@ -33,8 +33,8 @@ DEPENDENCIES="~dev-python/more-itertools-9.1.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	headers? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
-	sentry? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	frozendict? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	all? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	~dev-python/structlog-23.1.0[${PYTHON_USEDEP}]

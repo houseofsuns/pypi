@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/aniso8601-1.2.0[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.3.1[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/demjson[${PYTHON_USEDEP}]
 	~dev-python/flask-0.12.1[${PYTHON_USEDEP}]

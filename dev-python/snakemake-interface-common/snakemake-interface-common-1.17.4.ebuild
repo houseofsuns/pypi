@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/argparse-dataclass[${PYTHON_USEDEP}]
-	<dev-python/ConfigArgParse-2.0[${PYTHON_USEDEP}]"
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

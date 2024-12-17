@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/Faker-11.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

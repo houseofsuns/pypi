@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.0.5[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.15.0[${PYTHON_USEDEP}]

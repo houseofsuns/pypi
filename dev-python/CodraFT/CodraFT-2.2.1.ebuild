@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.5[${PYTHON_USEDEP}]
 	dev-python/guidata[${PYTHON_USEDEP}]
 	dev-python/guiqwt[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-1.9[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )

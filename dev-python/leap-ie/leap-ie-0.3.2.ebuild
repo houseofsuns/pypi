@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/ipython-7.23.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.37.1[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	with-tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	with-tensorflow? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )

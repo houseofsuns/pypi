@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/plumbum-1.6.9[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.10.0[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.12.0[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	<dev-python/rpyc-5.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.2.3[${PYTHON_USEDEP}]"

@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
-	>=dev-python/Faker-26.0.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	~dev-python/numexpr-2.8.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

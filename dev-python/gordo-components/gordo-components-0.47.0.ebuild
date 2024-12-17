@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/APScheduler-3.6[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/cachetools-4.0[${PYTHON_USEDEP}]
 	~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]

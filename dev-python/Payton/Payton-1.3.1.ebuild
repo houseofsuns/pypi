@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pillow-10.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopengl-3.1.7[${PYTHON_USEDEP}]
 	dev-python/pyrr[${PYTHON_USEDEP}]
-	>=dev-python/PySDL2-0.9.16[${PYTHON_USEDEP}]
+	dev-python/PySDL2[${PYTHON_USEDEP}]
 	>=dev-python/cython-3.0.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

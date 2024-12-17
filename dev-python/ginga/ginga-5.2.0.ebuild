@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gtk3 gtk4 pyside2 pyside6 qt5 qt6 recommended test tk web"
 DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-2.0.1[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/puremagic-1.28[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.2[${PYTHON_USEDEP}]

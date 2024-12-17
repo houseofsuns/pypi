@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/PyVISA[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.9[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	devio-full? ( dev-python/nidaqmx[${PYTHON_USEDEP}] )
 	devio-full? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"

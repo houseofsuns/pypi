@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Armada gRPC API python client [top-max 0.4.6]"
+DESCRIPTION="Armada gRPC API python client [top-max 0.4.8]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

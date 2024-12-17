@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="mock cuda runtime api [top-max 1.1.1]"
+DESCRIPTION="mock cuda runtime api [top-max 1.1.2]"
 
 HOMEPAGE="https://github.com/lipracer/torch-cuda-mock"
 LICENSE="BSD"

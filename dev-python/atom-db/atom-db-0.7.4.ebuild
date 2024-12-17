@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Database abstraction layer for atom objects [top-max 0.8.0]"
+DESCRIPTION="Database abstraction layer for atom objects [top-max 0.8.1]"
 
 HOMEPAGE="https://github.com/codelv/atom-db"
 LICENSE="MIT"

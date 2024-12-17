@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	plot? ( >=dev-python/scipy-1.14.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/starlette-prometheus[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/uvicorn-0.30.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/Faker-23.2.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-asyncio-0.23.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )

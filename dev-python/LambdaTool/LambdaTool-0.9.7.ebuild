@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/boto3-1.4.3[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-2.1.7[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/click-6.7[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.4.0[${PYTHON_USEDEP}]

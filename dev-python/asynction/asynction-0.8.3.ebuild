@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/svarog[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
-	cli? ( <dev-python/Faker-14.0.0[${PYTHON_USEDEP}] )
+	cli? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	cli? ( dev-python/hypothesis-jsonschema[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/simple-websocket-1.0.0[${PYTHON_USEDEP}] )
-	mock? ( <dev-python/Faker-14.0.0[${PYTHON_USEDEP}] )
+	mock? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	mock? ( dev-python/hypothesis-jsonschema[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="llm"
-DEPENDENCIES="<dev-python/PyGithub-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
 	llm? ( dev-python/llm-change-agent[${PYTHON_USEDEP}] )
 	dev-python/oaklib[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-70.1.1[${PYTHON_USEDEP}]"

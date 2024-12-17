@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/PyGithub-1.43[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.33[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

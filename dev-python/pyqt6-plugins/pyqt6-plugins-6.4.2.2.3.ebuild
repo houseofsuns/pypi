@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	~dev-python/PyQt6-6.4.2[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
 	dev-python/qt6-tools[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

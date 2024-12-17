@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="~dev-python/PySDL2-0.9[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PySDL2[${PYTHON_USEDEP}]
 	~dev-python/cython-3.0.0_alpha11[${PYTHON_USEDEP}]
 	dev-python/pysdl2-dll[${PYTHON_USEDEP}]
 	dev-python/pytiled-parser[${PYTHON_USEDEP}]

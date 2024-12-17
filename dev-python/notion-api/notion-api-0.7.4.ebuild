@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )

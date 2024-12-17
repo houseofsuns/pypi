@@ -50,8 +50,8 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/datashader[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-2.4.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/klayout[${PYTHON_USEDEP}]
 	dev-python/gdspy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

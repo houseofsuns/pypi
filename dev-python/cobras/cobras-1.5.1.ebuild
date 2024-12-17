@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
 DEPENDENCIES="dev-python/aioredis[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-0.10.2[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]
 	~dev-python/click-6.6[${PYTHON_USEDEP}]
 	~dev-python/hiredis-0.2.0[${PYTHON_USEDEP}]

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.9.1[${PYTHON_USEDEP}]
 	~dev-python/boltons-20.1.0[${PYTHON_USEDEP}]
 	~dev-python/cachelib-0.1[${PYTHON_USEDEP}]
 	~dev-python/certifi-2020.4.5.2[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.3[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.9.3[${PYTHON_USEDEP}]
 	~dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
 	~dev-python/httplib2-0.19.0[${PYTHON_USEDEP}]

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.13.0[${PYTHON_USEDEP}]
 	~dev-python/selenium-4.21.0[${PYTHON_USEDEP}]
 	dev-python/lightkurve[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.15.10[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

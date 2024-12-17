@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	<dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml-string[${PYTHON_USEDEP}]
 	dev-python/np-config[${PYTHON_USEDEP}]"

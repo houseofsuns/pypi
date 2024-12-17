@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/dbus-python-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/secretstorage-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

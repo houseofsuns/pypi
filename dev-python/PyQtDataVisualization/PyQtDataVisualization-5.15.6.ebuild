@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/PyQt5-sip-13.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyQt5-sip[${PYTHON_USEDEP}]
 	dev-python/PyQtDataVisualization-Qt5[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.4[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

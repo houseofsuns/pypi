@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aiozipkin[${PYTHON_USEDEP}]
 	dev-python/aiojobs[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.20.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/deepmerge-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	testing? ( <dev-python/flake8-8.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/mock-6.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/mypy_extensions-2.0.0[${PYTHON_USEDEP}] )
+	testing? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/bandit-2.0.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/pylint-4.0.0[${PYTHON_USEDEP}] )

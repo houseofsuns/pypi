@@ -27,7 +27,7 @@ IUSE="check docs test"
 DEPENDENCIES="dev-python/jaconv[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	check? ( >=dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
-	check? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	check? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8[${PYTHON_USEDEP}] )

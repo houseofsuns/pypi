@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/pyqtgraph-0.12.3[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	full? ( >=dev-python/PyQt5-5.13.0[${PYTHON_USEDEP}] )"
+	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

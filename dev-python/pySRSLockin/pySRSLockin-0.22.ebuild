@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/abstract-instrument-interface[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.6[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	dev-python/PyVISA[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"

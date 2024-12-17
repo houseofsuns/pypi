@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pandoc filter for including file in block code [top-max 1.0.1.6]"
+DESCRIPTION="A pandoc filter for including file in block code [top-max 1.1.0.0]"
 
 HOMEPAGE="https://github.com/chdemko/pandoc-codeblock-include"
 LICENSE="BSD"

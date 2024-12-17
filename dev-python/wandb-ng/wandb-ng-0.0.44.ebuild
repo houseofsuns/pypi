@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws gcp grpc kubeflow"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-1.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.6.1[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-0.4.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/subprocess32[${PYTHON_USEDEP}]
 	dev-python/docker-pycreds[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]

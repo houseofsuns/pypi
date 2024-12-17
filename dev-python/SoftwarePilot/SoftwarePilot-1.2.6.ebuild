@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pyopengl-3.1.6[${PYTHON_USEDEP}]
-	>=dev-python/PySDL2-0.9.12[${PYTHON_USEDEP}]
+	dev-python/PySDL2[${PYTHON_USEDEP}]
 	>=dev-python/docker-5.0.3[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

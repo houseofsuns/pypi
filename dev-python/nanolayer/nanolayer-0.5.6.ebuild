@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	~dev-python/natsort-8.3.1[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.24.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-shell-utilities[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

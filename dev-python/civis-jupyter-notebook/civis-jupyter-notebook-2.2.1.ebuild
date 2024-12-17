@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/civis[${PYTHON_USEDEP}]
 	dev-python/civis-jupyter-extensions[${PYTHON_USEDEP}]
 	>=dev-python/click-6.7[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-2.1[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-core-4.6.0[${PYTHON_USEDEP}]
 	<dev-python/notebook-7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]

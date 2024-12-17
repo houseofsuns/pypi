@@ -57,6 +57,6 @@ DEPENDENCIES="~dev-python/boto3-1.22.10[${PYTHON_USEDEP}]
 	sandbox? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	sandbox? ( ~dev-python/sentry-sdk-1.5.11[${PYTHON_USEDEP}] )"
+	sandbox? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

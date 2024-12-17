@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs image pyqt5 pyqt6 pyside2 pyside6 test"
 DEPENDENCIES="dev-python/fonticon-materialdesignicons6[${PYTHON_USEDEP}]
 	dev-python/pymmcore-plus[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-2.0[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.5.3[${PYTHON_USEDEP}]
 	dev-python/useq-schema[${PYTHON_USEDEP}]
 	dev? ( dev-python/cruft[${PYTHON_USEDEP}] )

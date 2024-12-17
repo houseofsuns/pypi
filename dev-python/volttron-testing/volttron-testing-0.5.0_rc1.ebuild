@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/pytest-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/docker-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-virtualenv[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

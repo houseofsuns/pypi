@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/alembic-1.11.2[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.12.1[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/b2sdk[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.26.132[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.29.132[${PYTHON_USEDEP}]

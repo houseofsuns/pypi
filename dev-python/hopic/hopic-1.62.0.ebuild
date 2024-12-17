@@ -27,7 +27,7 @@ IUSE="interactive"
 DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/commisery[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]

@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/wheel-0.37.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	<dev-python/Faker-16.0.0[${PYTHON_USEDEP}]"
+	dev-python/Faker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/texttable-2.0[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-1.0[${PYTHON_USEDEP}]
-	socks? ( <dev-python/PySocks-2.0[${PYTHON_USEDEP}] )
+	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/ddt-2.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

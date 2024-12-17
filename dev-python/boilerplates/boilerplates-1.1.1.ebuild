@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli git-repo-tests logging packaging-tests sentry setup"
 DEPENDENCIES="dev-python/version-query[${PYTHON_USEDEP}]
 	cli? ( ~dev-python/argcomplete-3.1[${PYTHON_USEDEP}] )
-	git-repo-tests? ( ~dev-python/GitPython-3.1[${PYTHON_USEDEP}] )
+	git-repo-tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	logging? ( ~dev-python/colorlog-6.7[${PYTHON_USEDEP}] )
 	packaging-tests? ( ~dev-python/build-1.2[${PYTHON_USEDEP}] )
 	packaging-tests? ( ~dev-python/docutils-0.20[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/version-query[${PYTHON_USEDEP}]
 	packaging-tests? ( >=dev-python/setuptools-70.0[${PYTHON_USEDEP}] )
 	packaging-tests? ( >=dev-python/pip-24.0[${PYTHON_USEDEP}] )
 	packaging-tests? ( >=dev-python/wheel-0.43[${PYTHON_USEDEP}] )
-	sentry? ( ~dev-python/sentry-sdk-2.5[${PYTHON_USEDEP}] )
+	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	setup? ( ~dev-python/build-1.2[${PYTHON_USEDEP}] )
 	setup? ( ~dev-python/docutils-0.20[${PYTHON_USEDEP}] )
 	setup? ( ~dev-python/pygments-2.14[${PYTHON_USEDEP}] )

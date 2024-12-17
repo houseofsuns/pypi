@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/exonweb[${PYTHON_USEDEP}]
 	dev-python/exonwebui-static[${PYTHON_USEDEP}]
-	<dev-python/Babel-3.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/Flask-BabelEx[${PYTHON_USEDEP}]
 	<dev-python/pytz-2025.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

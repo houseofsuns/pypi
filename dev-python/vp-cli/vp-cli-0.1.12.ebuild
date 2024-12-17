@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.8.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.17[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.20.0[${PYTHON_USEDEP}]

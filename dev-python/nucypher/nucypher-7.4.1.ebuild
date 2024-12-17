@@ -238,7 +238,7 @@ DEPENDENCIES="~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pycparser-2.22[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycryptodome-3.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/PyGithub-1.59.1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pygments-2.18.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}] )

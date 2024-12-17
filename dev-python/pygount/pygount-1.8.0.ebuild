@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	<dev-python/chardet-6.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]"
+	dev-python/GitPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

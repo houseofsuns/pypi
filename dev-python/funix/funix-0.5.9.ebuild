@@ -35,11 +35,11 @@ DEPENDENCIES=">=dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	dev-python/mpld3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	all? ( >=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}] )
+	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipywidgets-8.0.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandera[${PYTHON_USEDEP}] )
-	git? ( >=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}] )
+	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	ipython? ( >=dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
 	ipython? ( >=dev-python/ipywidgets-8.0.7[${PYTHON_USEDEP}] )
 	pendera? ( dev-python/pandera[${PYTHON_USEDEP}] )"

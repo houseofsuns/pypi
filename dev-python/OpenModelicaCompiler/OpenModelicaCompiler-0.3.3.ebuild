@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/Arpeggio-1.6[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Arpeggio[${PYTHON_USEDEP}]
 	>=dev-python/exceptiongroup-1.0[${PYTHON_USEDEP}]
 	dev-python/ModelicaLang[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-17.0.0[${PYTHON_USEDEP}]

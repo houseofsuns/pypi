@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.14.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.4.0[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-2.4.1[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.13.7[${PYTHON_USEDEP}]
 	>=dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.2[${PYTHON_USEDEP}]"

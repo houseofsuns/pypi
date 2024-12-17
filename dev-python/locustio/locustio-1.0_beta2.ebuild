@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-16.0.2[${PYTHON_USEDEP}]
 	dev-python/geventhttpclient-wheels[${PYTHON_USEDEP}]
-	>=dev-python/ConfigArgParse-1.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.7[${PYTHON_USEDEP}]
 	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

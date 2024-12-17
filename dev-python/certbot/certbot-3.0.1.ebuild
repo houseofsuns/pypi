@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs test"
 DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
-	>=dev-python/ConfigArgParse-1.5.3[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.2.1[${PYTHON_USEDEP}]
 	>=dev-python/distro-1.0.1[${PYTHON_USEDEP}]

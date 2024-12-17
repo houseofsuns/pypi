@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
 	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/mypy_extensions-2.0.0[${PYTHON_USEDEP}]"
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

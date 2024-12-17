@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/kraken[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.3.4[${PYTHON_USEDEP}]
-	~dev-python/Levenshtein-0.20.9[${PYTHON_USEDEP}]"
+	dev-python/Levenshtein[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

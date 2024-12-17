@@ -31,9 +31,9 @@ DEPENDENCIES="dev-python/piccolo[${PYTHON_USEDEP}]
 	dev-python/hypercorn[${PYTHON_USEDEP}]
 	dev-python/targ[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	all? ( ~dev-python/Faker-13.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	all? ( dev-python/piccolo-api[${PYTHON_USEDEP}] )
-	faker? ( ~dev-python/Faker-13.0[${PYTHON_USEDEP}] )
+	faker? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	s3? ( dev-python/piccolo-api[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

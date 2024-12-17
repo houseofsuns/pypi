@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="stomp"
-DEPENDENCIES="stomp? ( >=dev-python/PySocks-1.6.7[${PYTHON_USEDEP}] )
+DEPENDENCIES="stomp? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	stomp? ( dev-python/stompest[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pandas-0.15[${PYTHON_USEDEP}]
 	dev-python/trafaret[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.23[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
-	<dev-python/mypy_extensions-2.0[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	databricks? ( dev-python/databricks-connect[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )

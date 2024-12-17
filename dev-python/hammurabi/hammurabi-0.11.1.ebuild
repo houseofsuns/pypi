@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/github3-py-2.0.0[${PYTHON_USEDEP}]
 	yaml? ( <dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/configupdater-2.0.0[${PYTHON_USEDEP}] )
 	ini? ( <dev-python/configupdater-2.0.0[${PYTHON_USEDEP}] )
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	templating? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]

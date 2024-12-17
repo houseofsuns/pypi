@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/email-validator-1.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
-	>=dev-python/PyGithub-1.4[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/specfile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

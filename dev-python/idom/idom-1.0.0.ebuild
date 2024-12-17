@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all fastapi flask sanic starlette testing tornado"
 DEPENDENCIES=">=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonpatch-1.32[${PYTHON_USEDEP}]
 	>=dev-python/fastjsonschema-2.14.5[${PYTHON_USEDEP}]

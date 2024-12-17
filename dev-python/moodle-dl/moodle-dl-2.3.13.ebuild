@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
 	dev-python/readchar[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-0.13.5[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/xmpppy[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

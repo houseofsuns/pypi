@@ -49,6 +49,6 @@ DEPENDENCIES=">=dev-python/numexpr-2.6.1[${PYTHON_USEDEP}]
 	dev-python/tushare[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.9.2[${PYTHON_USEDEP}]"
+	dev-python/PyQt5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

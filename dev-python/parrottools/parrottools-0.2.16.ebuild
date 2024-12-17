@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev events tests"
 DEPENDENCIES="~dev-python/structlog-24.1.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-3.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

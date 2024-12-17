@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES=">=dev-python/Babel-2.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	<dev-python/click-8.2[${PYTHON_USEDEP}]
 	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/IPy-1.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/IPy[${PYTHON_USEDEP}]
 	dev-python/convertapi[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.4.0[${PYTHON_USEDEP}]
 	~dev-python/elasticsearch-7.17.0[${PYTHON_USEDEP}]

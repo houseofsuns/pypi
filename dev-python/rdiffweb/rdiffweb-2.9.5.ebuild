@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	>=dev-python/argon2-cffi-18.3.0[${PYTHON_USEDEP}]
-	>=dev-python/Babel-0.9.6[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	>=dev-python/cherrypy-8.9.1[${PYTHON_USEDEP}]
 	dev-python/ConfigArgParse[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/Arpeggio-1.9.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Arpeggio[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.14.6[${PYTHON_USEDEP}]

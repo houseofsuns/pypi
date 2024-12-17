@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mssql"
 DEPENDENCIES=">=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
-	>=dev-python/Faker-1.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

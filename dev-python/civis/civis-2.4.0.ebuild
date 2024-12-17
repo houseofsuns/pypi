@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Civis API Python Client"
+DESCRIPTION="Civis API Python Client [top-max 2.4.1]"
 
 HOMEPAGE="https://www.civisanalytics.com"
 LICENSE="BSD"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
-	>=dev-python/MechanicalSoup-0.12.0[${PYTHON_USEDEP}]
+	dev-python/MechanicalSoup[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-19.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

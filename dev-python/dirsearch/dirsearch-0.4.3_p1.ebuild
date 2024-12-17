@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
-	>=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.14.0[${PYTHON_USEDEP}]

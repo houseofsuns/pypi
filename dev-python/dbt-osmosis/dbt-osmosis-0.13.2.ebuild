@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="duckdb postgres sqlite workbench"
-DEPENDENCIES="<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	>dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/dbt-duckdb[${PYTHON_USEDEP}] )

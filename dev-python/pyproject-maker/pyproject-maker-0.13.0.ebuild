@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.9.2[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-2.4.0[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	~dev-python/rich-13.9.2[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]

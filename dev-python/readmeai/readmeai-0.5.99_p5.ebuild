@@ -27,7 +27,7 @@ IUSE="anthropic google-generativeai"
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	google-generativeai? ( dev-python/google-generativeai[${PYTHON_USEDEP}] )
 	dev-python/openai[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]

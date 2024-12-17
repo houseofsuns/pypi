@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/teamscale-client[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.35[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
-	~dev-python/Nuitka-1.8.2[${PYTHON_USEDEP}]
+	dev-python/Nuitka[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

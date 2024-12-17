@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/GitPython-3.1[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-2.4[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.29[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]

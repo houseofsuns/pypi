@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/markdown2[${PYTHON_USEDEP}]
 	<dev-python/emoji-3.0[${PYTHON_USEDEP}]
-	<dev-python/Frozen-Flask-2.0[${PYTHON_USEDEP}]"
+	dev-python/Frozen-Flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

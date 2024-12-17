@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	<dev-python/redis-5.2[${PYTHON_USEDEP}]
 	<dev-python/rich-13.10[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.16[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	wagtail? ( dev-python/wagtail[${PYTHON_USEDEP}] )
 	wagtail? ( <dev-python/wand-0.7[${PYTHON_USEDEP}] )
 	dev-python/whitenoise[${PYTHON_USEDEP}]"

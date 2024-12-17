@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}]
 	~dev-python/arrow-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/asttokens-2.4.1[${PYTHON_USEDEP}]
 	~dev-python/attrs-24.2.0[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.16.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/babel-edtf[${PYTHON_USEDEP}]
 	dev-python/base32-lib[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}]
@@ -73,9 +73,9 @@ DEPENDENCIES="~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}]
 	dev-python/dojson[${PYTHON_USEDEP}]
 	dev-python/edtf[${PYTHON_USEDEP}]
 	~dev-python/email-validator-2.2.0[${PYTHON_USEDEP}]
-	~dev-python/Events-0.5[${PYTHON_USEDEP}]
+	dev-python/Events[${PYTHON_USEDEP}]
 	~dev-python/executing-2.1.0[${PYTHON_USEDEP}]
-	~dev-python/Faker-30.8.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	~dev-python/fastjsonschema-2.20.0[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]
@@ -252,7 +252,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}]
 	~dev-python/rpds-py-0.20.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	~dev-python/s3transfer-0.10.3[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.45.1[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/setuptools-75.2.0[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.19.3[${PYTHON_USEDEP}]
 	dev-python/simplekv[${PYTHON_USEDEP}]
@@ -316,7 +316,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}]
 	dev? ( dev-python/Docker-Services-CLI[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycodestyle-2.12.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
@@ -340,7 +340,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}]
 	devs? ( dev-python/Docker-Services-CLI[${PYTHON_USEDEP}] )
 	devs? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	devs? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	devs? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	devs? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	devs? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	devs? ( ~dev-python/pycodestyle-2.12.1[${PYTHON_USEDEP}] )
 	devs? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
@@ -366,7 +366,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}]
 	test? ( dev-python/Docker-Services-CLI[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pycodestyle-2.12.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
@@ -390,7 +390,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}]
 	tests? ( dev-python/Docker-Services-CLI[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pycodestyle-2.12.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )

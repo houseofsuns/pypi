@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/mypy_extensions-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pylint-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )

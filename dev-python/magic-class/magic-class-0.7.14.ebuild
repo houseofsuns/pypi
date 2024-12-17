@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/macro-kit[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-1.10.0[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mkdocstrings-0.25.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pandas-2.1[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/PyQt5-5.12.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyqtgraph-0.13.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/vispy[${PYTHON_USEDEP}] )
-	pyqt5? ( >=dev-python/PyQt5-5.12.0[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside2? ( >=dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
-	~dev-python/Faker-13.2.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/scrapy-redis[${PYTHON_USEDEP}]
 	~dev-python/twisted-22.1.0[${PYTHON_USEDEP}]

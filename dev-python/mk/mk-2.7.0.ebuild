@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/build-0.3.1_p1[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.26[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	>=dev-python/pip-21.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-1.5.0[${PYTHON_USEDEP}]

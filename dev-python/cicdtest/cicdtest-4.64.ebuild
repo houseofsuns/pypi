@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	~dev-python/idna-3.2[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-2.1.0[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
 	~dev-python/distlib-0.3.2[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.0.12[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]

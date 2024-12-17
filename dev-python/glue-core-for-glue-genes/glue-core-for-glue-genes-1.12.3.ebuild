@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/echo[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-30.3.0[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-1.9[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	>=dev-python/ipython-4.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-4.0[${PYTHON_USEDEP}]
 	>=dev-python/qtconsole-4.3[${PYTHON_USEDEP}]
@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	qt? ( >=dev-python/PyQt5-5.14[${PYTHON_USEDEP}] )
+	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
-	<dev-python/PyGithub-2.2.0[${PYTHON_USEDEP}]
-	<dev-python/GitPython-3.2.0[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/semgrep[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.6.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-1.39.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	<dev-python/click-option-group-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/requests-2.32.0[${PYTHON_USEDEP}]

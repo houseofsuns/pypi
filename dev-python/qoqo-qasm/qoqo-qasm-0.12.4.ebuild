@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface of roqoqo_qasm by HQS Quantum Simulations"
+DESCRIPTION="Python interface of roqoqo_qasm by HQS Quantum Simulations [top-max 0.13.3]"
 
 HOMEPAGE="https://github.com/HQSquantumsimulations/qoqo_qasm"
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016 AND BSD-2-Clause AND BSD-3-CLause"

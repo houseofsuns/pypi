@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/python-etcd[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-0.11.2[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/func-timeout[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

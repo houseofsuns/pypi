@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/ConfigArgParse-1.5.3[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4.3[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
@@ -95,7 +95,7 @@ DEPENDENCIES="~dev-python/ConfigArgParse-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/s3transfer-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/schema-0.7.5[${PYTHON_USEDEP}]
 	~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/smmap-5.0.0[${PYTHON_USEDEP}]
 	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]

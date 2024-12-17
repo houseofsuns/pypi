@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-rerunfailures-11.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/mock-3.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/Faker-14.0.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pyopenssl-19.0.0[${PYTHON_USEDEP}] )

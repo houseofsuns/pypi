@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/pytz-2017.2[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/stix2[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

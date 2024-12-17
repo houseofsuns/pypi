@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="socks"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	socks? ( <dev-python/PySocks-2.0.0[${PYTHON_USEDEP}] )"
+	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

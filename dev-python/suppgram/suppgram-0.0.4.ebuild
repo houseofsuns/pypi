@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocstrings-python-1.7.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

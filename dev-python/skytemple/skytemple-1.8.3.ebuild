@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/ndspy[${PYTHON_USEDEP}]
 	>=dev-python/pygal-2.4.0[${PYTHON_USEDEP}]
 	dev-python/CairoSVG[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.5[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	discord? ( >=dev-python/pypresence-4.2.1[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/chardet-6.0[${PYTHON_USEDEP}]
 	<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]
 	dev-python/codespell[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/pontos[${PYTHON_USEDEP}]
 	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/validators-0.35.0[${PYTHON_USEDEP}]"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cardinality[${PYTHON_USEDEP}]
-	<dev-python/mypy_extensions-0.5.0[${PYTHON_USEDEP}]"
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for writing servers in Python [top-max 2.26.3]"
+DESCRIPTION="Utilities for writing servers in Python [top-max 2.26.6]"
 
 HOMEPAGE="https://git.dms-serwis.com.pl/smokserwis/satella"
 LICENSE="MIT"

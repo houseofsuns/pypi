@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-autodoc-typehints-2.2.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/Levenshtein-0.25.1[${PYTHON_USEDEP}] )
+	docs? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
 	speed? ( dev-python/msgspec[${PYTHON_USEDEP}] )
 	speed? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	voice? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )"

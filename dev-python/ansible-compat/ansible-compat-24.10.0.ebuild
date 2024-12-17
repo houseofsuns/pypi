@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.6.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/argparse-manpage[${PYTHON_USEDEP}] )
 	docs? ( dev-python/black[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/mkdocs-ansible-24.3.1[${PYTHON_USEDEP}] )
+	docs? ( dev-python/mkdocs-ansible[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pip[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

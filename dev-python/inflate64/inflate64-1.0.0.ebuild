@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="check docs test"
 DEPENDENCIES="check? ( >=dev-python/isort-5.0.3[${PYTHON_USEDEP}] )
 	check? ( >=dev-python/mypy-0.940[${PYTHON_USEDEP}] )
-	check? ( >=dev-python/mypy_extensions-0.4.1[${PYTHON_USEDEP}] )
+	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-black[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="agpl-pdf darkstyle mp4 mysql odbc postgresql spellcheck sword-bibles test"
 DEPENDENCIES="dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/pyicu[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.12[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
 	dev-python/qtawesome[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]

@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/arrow-0.15.5[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
 	tests? ( dev-python/chance[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/Faker-4.0.3[${PYTHON_USEDEP}] )
+	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

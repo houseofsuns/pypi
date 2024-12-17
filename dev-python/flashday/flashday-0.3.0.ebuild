@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/wheel-1.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/twine-4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/trove-classifiers-2021.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/GitPython-4.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

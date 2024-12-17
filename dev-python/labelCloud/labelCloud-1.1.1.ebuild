@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/open3d[${PYTHON_USEDEP}]
 	dev-python/pyopengl[${PYTHON_USEDEP}]
 	dev-python/pyopengl_accelerate[${PYTHON_USEDEP}]
-	>=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

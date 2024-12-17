@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 202411.1144]"
+DESCRIPTION=" [top-max 202412.1151]"
 
 HOMEPAGE=""
 LICENSE="MIT"
@@ -102,7 +102,7 @@ DEPENDENCIES="<dev-python/django-3.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
 	dev-python/rjsmin[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.9.2[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17.5[${PYTHON_USEDEP}]
 	dev-python/tablib[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.18.2[${PYTHON_USEDEP}]

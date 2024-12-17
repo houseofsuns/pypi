@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Quickly determine whether Webp is supported from UserAgent."
+DESCRIPTION="A Quickly determine whether Webp is supported from UserAgent. [top-max 0.3.0]"
 
 HOMEPAGE="https://github.com/bymoye/webp_support"
 LICENSE="MIT"

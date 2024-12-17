@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.4.1[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flake8-3.4.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/hypothesis-6.0.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/mypy_extensions-0.4.1[${PYTHON_USEDEP}] )
+	tests? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/py-1.5.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pylint-1.7.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

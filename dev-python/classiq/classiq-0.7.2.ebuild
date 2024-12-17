@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Classiq's Python SDK for quantum computing [top-max 0.58.1]"
+DESCRIPTION="Classiq's Python SDK for quantum computing [top-max 0.61.0]"
 
 HOMEPAGE="https://classiq.io"
 LICENSE="Proprietary"
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="<dev-python/ConfigArgParse-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/keyring-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-11.0[${PYTHON_USEDEP}]

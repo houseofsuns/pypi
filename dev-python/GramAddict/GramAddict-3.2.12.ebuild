@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="analytics dev"
 DEPENDENCIES="~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
-	~dev-python/ConfigArgParse-1.5.3[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/uiautomator2[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]

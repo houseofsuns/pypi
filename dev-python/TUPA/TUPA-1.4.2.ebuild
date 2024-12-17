@@ -27,7 +27,7 @@ IUSE="bert server viz"
 DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.32.2[${PYTHON_USEDEP}]
-	>=dev-python/ConfigArgParse-0.14.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/UCCA[${PYTHON_USEDEP}]
 	dev-python/SEMSTR[${PYTHON_USEDEP}]
 	dev-python/dyNET[${PYTHON_USEDEP}]

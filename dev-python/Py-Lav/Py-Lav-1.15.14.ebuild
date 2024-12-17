@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all-red docs red"
 DEPENDENCIES="<dev-python/pip-25.0[${PYTHON_USEDEP}]
 	<dev-python/wheel-0.44.0[${PYTHON_USEDEP}]
-	<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-client-cache[${PYTHON_USEDEP}]

@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/deepomatic-api[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
-	<dev-python/GitPython-3.2.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/argcomplete-2.0[${PYTHON_USEDEP}]
 	rpc? ( dev-python/deepomatic-rpc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

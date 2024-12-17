@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
-	~dev-python/Babel-2.13.1[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
 	~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]

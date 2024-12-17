@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
-	~dev-python/APScheduler-3.9.1[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/argos-translate-files[${PYTHON_USEDEP}]
 	dev-python/argostranslate[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]

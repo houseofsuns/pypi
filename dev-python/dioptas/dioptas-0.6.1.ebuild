@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/EXtra-data[${PYTHON_USEDEP}]
 	dev-python/PyCifRW[${PYTHON_USEDEP}]
-	<dev-python/PyQt6-7.0[${PYTHON_USEDEP}]
-	<dev-python/QtPy-3.0.0[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	<dev-python/lmfit-2.0.0[${PYTHON_USEDEP}]

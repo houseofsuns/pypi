@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility Pack [top-max 0.3.30]"
+DESCRIPTION="Utility Pack [top-max 0.3.31]"
 
 HOMEPAGE="https://gitlab.com/hansroh/rs4"
 LICENSE="MIT"

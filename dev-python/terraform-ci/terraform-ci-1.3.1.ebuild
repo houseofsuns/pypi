@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/boto3-1.10[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.13.46[${PYTHON_USEDEP}]
 	~dev-python/click-7.0[${PYTHON_USEDEP}]
-	~dev-python/PyGithub-1.45[${PYTHON_USEDEP}]
+	dev-python/PyGithub[${PYTHON_USEDEP}]
 	~dev-python/pyhcl-0.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

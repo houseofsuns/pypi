@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="process uvloop"
-DEPENDENCIES=">dev-python/QtPy-1.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/QtPy[${PYTHON_USEDEP}]
 	uvloop? ( <dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	dev-python/janus[${PYTHON_USEDEP}]
 	process? ( <dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )"

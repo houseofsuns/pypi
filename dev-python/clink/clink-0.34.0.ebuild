@@ -27,7 +27,7 @@ IUSE="docs redis tests types tzdata"
 DEPENDENCIES=">=dev-python/kombu-5.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	>dev-python/setuptools-8.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]

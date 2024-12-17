@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/aniso8601-0.82[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/Faker-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/aniso8601-0.82[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/Faker-2.0.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )

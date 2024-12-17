@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-3.1.6[${PYTHON_USEDEP}]
 	>=dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
-	>=dev-python/Faker-1.0.7[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.1.1[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

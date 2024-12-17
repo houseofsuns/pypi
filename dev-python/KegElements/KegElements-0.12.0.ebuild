@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/WTForms-Alchemy[${PYTHON_USEDEP}]
 	>=dev-python/wtforms-3.1.0[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-2.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	i18n? ( dev-python/morphi[${PYTHON_USEDEP}] )
 	tests? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask-WebTest[${PYTHON_USEDEP}] )

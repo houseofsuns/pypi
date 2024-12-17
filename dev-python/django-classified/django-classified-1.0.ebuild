@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/django-bootstrap-form[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.0[${PYTHON_USEDEP}]
 	dev-python/sorl-thumbnail[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	<dev-python/Babel-3.0[${PYTHON_USEDEP}]"
+	dev-python/Babel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

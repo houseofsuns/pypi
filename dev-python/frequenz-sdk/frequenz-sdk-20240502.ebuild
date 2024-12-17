@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}]
 	dev-mkdocs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( ~dev-python/mkdocs-macros-plugin-1.0.5[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocs-material-9.5.20[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( ~dev-python/mkdocstrings-0.25.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )

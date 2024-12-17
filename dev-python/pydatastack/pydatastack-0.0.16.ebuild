@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.14.0[${PYTHON_USEDEP}]

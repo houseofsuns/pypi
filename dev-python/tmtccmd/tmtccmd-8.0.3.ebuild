@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/crcmod-1.7[${PYTHON_USEDEP}]
 	dev-python/dle-encoder[${PYTHON_USEDEP}]
 	dev-python/spacepackets[${PYTHON_USEDEP}]
 	dev-python/cfdp-py[${PYTHON_USEDEP}]
-	gui? ( ~dev-python/PyQt6-6.6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pyfakefs-5.7[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-8.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

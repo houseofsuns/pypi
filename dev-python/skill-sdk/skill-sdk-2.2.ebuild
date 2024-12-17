@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev"
 DEPENDENCIES="~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	dev-python/aiobreaker[${PYTHON_USEDEP}]
-	<dev-python/Babel-2.12.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]

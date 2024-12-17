@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES=">=dev-python/arrow-0.16.0[${PYTHON_USEDEP}]
-	>=dev-python/Babel-2.8[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/babel-edtf[${PYTHON_USEDEP}]
 	>=dev-python/bleach-5.0.0[${PYTHON_USEDEP}]
 	dev-python/edtf[${PYTHON_USEDEP}]

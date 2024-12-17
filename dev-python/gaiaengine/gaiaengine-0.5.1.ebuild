@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/PySDL2-0.9.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/PySDL2[${PYTHON_USEDEP}]
 	dev-python/AoE2ScenarioParser[${PYTHON_USEDEP}]
 	dev-python/vdf[${PYTHON_USEDEP}]
 	dev-python/noise[${PYTHON_USEDEP}]

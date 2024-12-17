@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/h5py-2.10[${PYTHON_USEDEP}]
 	omero? ( dev-python/omero-py[${PYTHON_USEDEP}] )
 	baby? ( dev-python/aliby-baby[${PYTHON_USEDEP}] )"

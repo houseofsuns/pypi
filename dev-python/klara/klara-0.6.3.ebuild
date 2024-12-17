@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typed-ast[${PYTHON_USEDEP}]
-	<dev-python/ConfigArgParse-2.0.0[${PYTHON_USEDEP}]
+	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/z3-solver[${PYTHON_USEDEP}]
 	<dev-python/astor-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

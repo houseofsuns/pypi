@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
-	~dev-python/PyQt5-5.15.4[${PYTHON_USEDEP}]
+	dev-python/PyQt5[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.8.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-3.1.32[${PYTHON_USEDEP}]"
+	dev-python/GitPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

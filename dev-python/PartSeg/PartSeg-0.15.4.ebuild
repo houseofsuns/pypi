@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	dev-python/PartSegCore-compiled-backend[${PYTHON_USEDEP}]
 	dev-python/PartSegData[${PYTHON_USEDEP}]
 	>=dev-python/qtawesome-1.0.3[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-1.10.0[${PYTHON_USEDEP}]
+	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/czifile[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	>=dev-python/qtconsole-4.7.7[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-2.4.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.3.0[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.1.1[${PYTHON_USEDEP}]
@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	pyinstaller-base? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	pyinstaller-base? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/PartSeg[${PYTHON_USEDEP}] )
-	pyqt5? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/napari[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/napari[${PYTHON_USEDEP}] )

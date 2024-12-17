@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/dictdiffer-0.9[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mock-3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-click[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-click-1.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-console-scripts-1.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="colorama jupyter uvloop"
 DEPENDENCIES="~dev-python/black-24.8.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.0[${PYTHON_USEDEP}]

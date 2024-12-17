@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-24.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyfakefs-5.4.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.9.5[${PYTHON_USEDEP}] )

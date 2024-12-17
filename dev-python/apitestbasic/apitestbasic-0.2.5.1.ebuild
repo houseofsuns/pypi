@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/sgqlc[${PYTHON_USEDEP}]
 	<dev-python/pyhamcrest-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-utils-3.0.0[${PYTHON_USEDEP}]
 	dev-python/beeprint[${PYTHON_USEDEP}]
-	<dev-python/Faker-10.0.0[${PYTHON_USEDEP}]"
+	dev-python/Faker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

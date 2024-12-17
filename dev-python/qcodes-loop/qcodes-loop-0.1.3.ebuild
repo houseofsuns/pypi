@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/qcodes[${PYTHON_USEDEP}]
 	dev-python/hickle[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.31.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/PyQt5-5.15.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-9.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/qcodes[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-xdist-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-mock-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/PyQt5-5.15.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	test? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )"

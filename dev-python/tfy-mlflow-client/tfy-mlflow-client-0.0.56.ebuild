@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-2.1.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	~dev-python/setuptools-54.2.0[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.12[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]

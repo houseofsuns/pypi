@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="moteus brushless controller graphical user interfaces [wheel]"
+DESCRIPTION="moteus brushless controller graphical user interfaces"
 
 HOMEPAGE="https://github.com/mjbots/moteus"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -29,8 +29,7 @@ DEPENDENCIES=">=dev-python/pyside6-6.8[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.9[${PYTHON_USEDEP}]
 	dev-python/moteus[${PYTHON_USEDEP}]
 	>=dev-python/qtconsole-5.6[${PYTHON_USEDEP}]
-	>=dev-python/QtPy-2.0.1[${PYTHON_USEDEP}]
-	>=dev-python/scipy-1.14[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.14[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

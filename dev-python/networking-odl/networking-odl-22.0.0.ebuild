@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ceilometer test"
-DEPENDENCIES=">=dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/debtcollector-1.19.0[${PYTHON_USEDEP}]
 	dev-python/networking-bgpvpn[${PYTHON_USEDEP}]
 	dev-python/networking-l2gw[${PYTHON_USEDEP}]

@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/auth0-python[${PYTHON_USEDEP}]
 	<dev-python/portalocker-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/python-hcl2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

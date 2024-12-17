@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/docopt-1.0[${PYTHON_USEDEP}]
 	<dev-python/dockerpty-1.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
-	socks? ( <dev-python/PySocks-2.0[${PYTHON_USEDEP}] )
+	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/ddt-2.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

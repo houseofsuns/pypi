@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="torque"
 DEPENDENCIES="dev-python/bencode-py[${PYTHON_USEDEP}]
-	torque? ( <dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}] )
+	torque? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
 	dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/python-daemon-4.0.0[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]

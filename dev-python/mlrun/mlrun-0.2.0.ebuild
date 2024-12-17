@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tracking and config of machine learning runs [top-max 1.8.0_rc2]"
+DESCRIPTION="Tracking and config of machine learning runs [top-max 1.8.0_rc11]"
 
 HOMEPAGE="https://github.com/mlrun/mlrun"
 LICENSE="MIT"
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.0.0[${PYTHON_USEDEP}]
-	>=dev-python/GitPython-2.1.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/nuclio-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

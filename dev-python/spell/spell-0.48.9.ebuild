@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cluster-aws cluster-azure cluster-gcp dev serving test"
-DEPENDENCIES=">=dev-python/GitPython-3.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/GitPython-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-0.3.1[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.4.2[${PYTHON_USEDEP}]
 	cluster-aws? ( >=dev-python/boto3-1.13.0[${PYTHON_USEDEP}] )

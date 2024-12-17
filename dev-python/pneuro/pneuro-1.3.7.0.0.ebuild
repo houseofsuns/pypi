@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples examples_unix test"
-DEPENDENCIES="~dev-python/APScheduler-3.6.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	~dev-python/asgiref-3.2.10[${PYTHON_USEDEP}]
 	~dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]

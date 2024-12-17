@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast, robust HTML templating engine"
+DESCRIPTION="Fast, robust HTML templating engine [top-max 1.3.2]"
 
 HOMEPAGE="https://ollycope.com/software/piglet/latest/"
 LICENSE="Apache-2.0"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs-dev onnxruntime onnxruntime-gpu"
 DEPENDENCIES="dev-python/bc-detect-secrets[${PYTHON_USEDEP}]
-	<dev-python/Faker-28.0[${PYTHON_USEDEP}]
+	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/fuzzysearch[${PYTHON_USEDEP}]
 	dev-python/json-repair[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]

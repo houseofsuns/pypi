@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/scrapy-crawl-once[${PYTHON_USEDEP}]
 	dev-python/scrapy-sentry[${PYTHON_USEDEP}]
 	dev-python/scrapyd-client[${PYTHON_USEDEP}]
 	dev-python/scrapyd[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.3.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/structlog-20.1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )

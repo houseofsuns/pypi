@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-4.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/pyroute2-0.8.0[${PYTHON_USEDEP}]
-	>dev-python/sentry-sdk-1.14.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

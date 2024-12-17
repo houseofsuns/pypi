@@ -45,7 +45,7 @@ DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.5.5[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.4.1[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

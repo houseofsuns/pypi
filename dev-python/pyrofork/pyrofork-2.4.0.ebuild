@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs speedup"
 DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	dev-python/pymediainfo-pyrofork[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )

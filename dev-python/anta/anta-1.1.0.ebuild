@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/aiocache-0.12.2[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/click-help-colors-0.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy_extensions-1.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-pydantic[${PYTHON_USEDEP}] )

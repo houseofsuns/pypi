@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/asgi-correlation-id[${PYTHON_USEDEP}]
 	dev-python/pydantic-vault[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.6[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
-	~dev-python/sentry-sdk-1.15.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="celery pdfsigner redis"
 DEPENDENCIES=">=dev-python/flask-sqlalchemy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-0.12.0[${PYTHON_USEDEP}]
-	>=dev-python/IPy-0.83[${PYTHON_USEDEP}]
+	dev-python/IPy[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/pillow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyMarkovChain[${PYTHON_USEDEP}]

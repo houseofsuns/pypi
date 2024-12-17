@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convenience functionality to create python modules from zserio services at warp speed. [top-max 1.7.0]"
+DESCRIPTION="Convenience functionality to create python modules from zserio services at warp speed. [top-max 1.7.1]"
 
 HOMEPAGE="https://github.com/klebert-engineering/zswag"
 LICENSE="BSD-3 Clause"

@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/monty[${PYTHON_USEDEP}]
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	error-statistics? ( >=dev-python/sentry-sdk-0.8.0[${PYTHON_USEDEP}] )"
+	error-statistics? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-3.20.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	<dev-python/APScheduler-3.9.0[${PYTHON_USEDEP}]
+	dev-python/APScheduler[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-8.10.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
@@ -57,6 +57,6 @@ DEPENDENCIES="<dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	<dev-python/lark-1.2.0[${PYTHON_USEDEP}]
 	<dev-python/h5py-3.9.0[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-1.15.0[${PYTHON_USEDEP}]"
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyqt5 pyqt6 pyside2 pyside6"
-DEPENDENCIES=">=dev-python/QtPy-2.0.1[${PYTHON_USEDEP}]
-	pyqt5? ( >=dev-python/PyQt5-5.15.5[${PYTHON_USEDEP}] )
-	pyqt5? ( >=dev-python/PyQtWebEngine-5.15.5[${PYTHON_USEDEP}] )
-	pyqt6? ( >=dev-python/PyQt6-6.2.0[${PYTHON_USEDEP}] )
-	pyqt6? ( >=dev-python/PyQt6-WebEngine-6.2.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev-python/QtPy[${PYTHON_USEDEP}]
+	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

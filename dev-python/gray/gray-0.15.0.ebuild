@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="<dev-python/ConfigArgParse-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/add-trailing-comma[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]
 	>=dev-python/black-22.1.0[${PYTHON_USEDEP}]

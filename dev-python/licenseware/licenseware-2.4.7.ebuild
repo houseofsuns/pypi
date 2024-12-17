@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all honcho kafka opentelemetry prometheus trend-app watchdog"
-DEPENDENCIES="~dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
 	~dev-python/dnspython-2.2.1[${PYTHON_USEDEP}]
 	dev-python/dramatiq[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Visualize option prices and sensitivities [top-max 1.2.2]"
+DESCRIPTION="Visualize option prices and sensitivities [top-max 1.2.4]"
 
 HOMEPAGE="https://github.com/GBERESEARCH/optionvisualizer"
 LICENSE="MIT"

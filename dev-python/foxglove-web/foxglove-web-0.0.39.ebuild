@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
-	>=dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.13.3[${PYTHON_USEDEP}]
 	extra? ( >=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}] )

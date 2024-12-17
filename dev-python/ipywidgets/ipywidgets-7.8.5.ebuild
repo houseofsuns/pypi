@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES=">=dev-python/comm-0.1.3[${PYTHON_USEDEP}]
-	~dev-python/ipython_genutils-0.2.0[${PYTHON_USEDEP}]
+	dev-python/ipython_genutils[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-4.3.1[${PYTHON_USEDEP}]
 	~dev-python/widgetsnbextension-3.6.10[${PYTHON_USEDEP}]
 	>=dev-python/ipython-4.0.0[${PYTHON_USEDEP}]

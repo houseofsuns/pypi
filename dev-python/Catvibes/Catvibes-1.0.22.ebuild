@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/yt-dlp[${PYTHON_USEDEP}]
 	>=dev-python/ytmusicapi-1.3.2[${PYTHON_USEDEP}]
-	>=dev-python/eyeD3-0.9.7[${PYTHON_USEDEP}]
-	>=dev-python/PyQt6-6.6.1[${PYTHON_USEDEP}]
+	dev-python/eyeD3[${PYTHON_USEDEP}]
+	dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/playsound[${PYTHON_USEDEP}]
 	>=dev-python/python-vlc-3.0.20123[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

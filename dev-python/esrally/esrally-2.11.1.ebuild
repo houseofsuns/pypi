@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	develop? ( ~dev-python/boto3-1.34.68[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/github3-py-3.2.0[${PYTHON_USEDEP}] )
-	develop? ( ~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}] )
+	develop? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/mypy-1.10.1[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/nox-2024.3.2[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

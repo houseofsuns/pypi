@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/docker-7.1.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.1[${PYTHON_USEDEP}]
-	~dev-python/GitPython-3.1.43[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/argcomplete-3.5.0[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-5.2[${PYTHON_USEDEP}]"

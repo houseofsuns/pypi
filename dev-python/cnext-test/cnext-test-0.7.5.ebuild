@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/plotly-5.8.0[${PYTHON_USEDEP}]
 	dev-python/python-language-server[${PYTHON_USEDEP}]
 	dev-python/cnextlib[${PYTHON_USEDEP}]
 	dev-python/netron[${PYTHON_USEDEP}]
-	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
 	dev-python/pyreadline[${PYTHON_USEDEP}]
 	dev-python/jupyter-resource-usage[${PYTHON_USEDEP}]"

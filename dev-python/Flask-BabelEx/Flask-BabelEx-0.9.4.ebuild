@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	>=dev-python/Babel-1.0[${PYTHON_USEDEP}]
+	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/speaklater[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

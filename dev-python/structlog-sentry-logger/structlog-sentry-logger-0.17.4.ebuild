@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/emoji-2.0.0[${PYTHON_USEDEP}] )
-	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	dev-python/GitPython[${PYTHON_USEDEP}]
 	docs? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.18[${PYTHON_USEDEP}] )
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/pygments-3.0.0[${PYTHON_USEDEP}] )
 	<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0[${PYTHON_USEDEP}]
-	>dev-python/sentry-sdk-0.17.0[${PYTHON_USEDEP}]
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autoapi-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-1.1.0[${PYTHON_USEDEP}] )

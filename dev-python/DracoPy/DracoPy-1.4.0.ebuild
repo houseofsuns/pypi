@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for Google's Draco Mesh Compression Library [top-max 1.4.1]"
+DESCRIPTION="Python wrapper for Google's Draco Mesh Compression Library [top-max 1.4.2]"
 
 HOMEPAGE="https://github.com/seung-lab/DracoPy"
 LICENSE="License :: OSI Approved :: Apache Software License"

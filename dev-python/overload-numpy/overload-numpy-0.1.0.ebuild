@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES=">=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )

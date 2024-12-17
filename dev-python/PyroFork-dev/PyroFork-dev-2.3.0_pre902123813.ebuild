@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
 	~dev-python/pymediainfo-6.0.1[${PYTHON_USEDEP}]
-	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]"
+	dev-python/PySocks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

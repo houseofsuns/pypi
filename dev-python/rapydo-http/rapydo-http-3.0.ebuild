@@ -60,7 +60,7 @@ DEPENDENCIES="~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.1.2[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-8.1.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-flask-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-timeout-2.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-sugar-1.0.0[${PYTHON_USEDEP}] )

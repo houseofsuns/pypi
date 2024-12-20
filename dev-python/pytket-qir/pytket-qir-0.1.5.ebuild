@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module for interfacing QIR with the Quantinuum pytket library. [top-max 0.18.0_rc2]"
+DESCRIPTION="Python module for interfacing QIR with the Quantinuum pytket library. [top-max 0.19.0]"
 
 HOMEPAGE="https://github.com/CQCL/pytket-qir"
 LICENSE="LICENSE"

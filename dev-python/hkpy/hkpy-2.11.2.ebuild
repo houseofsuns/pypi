@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python module to create software abstraction for accessing hyperknowledge graphs"
+DESCRIPTION="A Python module to create software abstraction for accessing hyperknowledge graphs [top-max 2.11.3]"
 
 HOMEPAGE="https://github.com/ibm-hyperknowledge/hkpy"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WPILib simulator websim Extensions [top-max 2025.0.0_beta2]"
+DESCRIPTION="WPILib simulator websim Extensions [top-max 2025.0.0_beta3]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-halsim-gui"
 LICENSE="BSD"

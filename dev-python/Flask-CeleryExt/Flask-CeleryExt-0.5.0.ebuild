@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/Docker-Services-CLI[${PYTHON_USEDEP}] )
 	tests? ( dev-python/msgpack-python[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-flask-1.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )

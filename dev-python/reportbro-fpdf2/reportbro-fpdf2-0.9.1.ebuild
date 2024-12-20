@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple & fast PDF generation for Python [top-max 2.7.8]"
+DESCRIPTION="Simple & fast PDF generation for Python [top-max 2.7.9]"
 
 HOMEPAGE="https://www.reportbro.com"
 LICENSE="LGPL-3+"

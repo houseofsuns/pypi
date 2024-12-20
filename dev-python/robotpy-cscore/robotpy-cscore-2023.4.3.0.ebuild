@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RobotPy bindings for cscore image processing library [top-max 2025.0.0_beta2]"
+DESCRIPTION="RobotPy bindings for cscore image processing library [top-max 2025.0.0_beta3]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-cscore"
 LICENSE="BSD"

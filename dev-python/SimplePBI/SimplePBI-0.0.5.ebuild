@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simplify usage of Power Bi Rest API [top-max 0.1.12]"
+DESCRIPTION="Simplify usage of Power Bi Rest API [top-max 1.0.1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

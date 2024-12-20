@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client library for Fluvio [top-max 0.17.0]"
+DESCRIPTION="Python client library for Fluvio [top-max 0.18.0]"
 
 HOMEPAGE="https://www.fluvio.io/"
 LICENSE="APACHE"

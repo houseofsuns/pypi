@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/udata[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-4.6.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-flask-0.15.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-1.10.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/requests-mock-1.7.0[${PYTHON_USEDEP}] )

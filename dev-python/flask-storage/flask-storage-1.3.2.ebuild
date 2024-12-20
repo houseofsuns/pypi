@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/flask-2.1.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flit-3.6.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-faker[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-flask-1.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

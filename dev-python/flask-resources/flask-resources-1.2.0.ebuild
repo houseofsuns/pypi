@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/flask-1.1.4[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-flask-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )

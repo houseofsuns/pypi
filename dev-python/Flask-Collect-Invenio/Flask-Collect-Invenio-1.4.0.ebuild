@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	all? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-flask-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	tests? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-flask-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )"

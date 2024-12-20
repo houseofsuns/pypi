@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/alembic-1.9.1[${PYTHON_USEDEP}]
 	deploy? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-flask-1.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

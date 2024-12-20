@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black-ng[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-flask-1.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )"

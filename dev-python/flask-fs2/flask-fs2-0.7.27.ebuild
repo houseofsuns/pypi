@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pymongo-4.5.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/pytest-flask-1.3.0[${PYTHON_USEDEP}] )
 	ci? ( >=dev-python/boto3-1.28.0[${PYTHON_USEDEP}] )
 	ci? ( >=dev-python/pymongo-4.5.0[${PYTHON_USEDEP}] )
 	ci? ( >=dev-python/python-swiftclient-4.4.0[${PYTHON_USEDEP}] )

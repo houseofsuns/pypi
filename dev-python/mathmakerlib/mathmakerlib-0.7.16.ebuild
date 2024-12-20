@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Collection of lualatex-printable mathematical objects, including geometric shapes. [top-max 0.7.20]"
+DESCRIPTION="Collection of lualatex-printable mathematical objects, including geometric shapes. [top-max 0.7.21]"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"

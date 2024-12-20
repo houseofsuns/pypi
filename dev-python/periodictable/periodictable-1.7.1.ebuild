@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extensible periodic table of the elements [top-max 2.0.1]"
+DESCRIPTION="Extensible periodic table of the elements [top-max 2.0.2]"
 
 HOMEPAGE="https://github.com/pkienzle/periodictable"
 LICENSE="public domain"

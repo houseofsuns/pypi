@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/email-validator-1.0.5[${PYTHON_USEDEP}]
 	tests? ( dev-python/msgcheck[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black-ng[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-flask-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )

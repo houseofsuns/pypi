@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Structural Search and Rewrite code at large scale using precise AST pattern."
+DESCRIPTION="Structural Search and Rewrite code at large scale using precise AST pattern. [top-max 0.32.2]"
 
 HOMEPAGE=""
 LICENSE="MIT"

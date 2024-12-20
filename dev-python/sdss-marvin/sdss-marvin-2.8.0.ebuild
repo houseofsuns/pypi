@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-flask-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-xdist-1.18.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-timeout-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-mock-1.13.0[${PYTHON_USEDEP}] )

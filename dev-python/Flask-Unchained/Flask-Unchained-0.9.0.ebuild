@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.24.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.6.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-flask-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipython-7.24.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )

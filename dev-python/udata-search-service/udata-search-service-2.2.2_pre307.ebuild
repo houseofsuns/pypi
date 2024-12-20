@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/dependency-injector[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
-	dev-python/pytest-flask[${PYTHON_USEDEP}]
+	~dev-python/pytest-flask-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.3.3[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-3.0.4[${PYTHON_USEDEP}]"

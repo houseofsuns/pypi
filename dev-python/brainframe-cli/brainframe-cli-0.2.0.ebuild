@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Makes installing and managing a BrainFrame server easy"
+DESCRIPTION="Makes installing and managing a BrainFrame server easy [top-max 0.3.0]"
 
 HOMEPAGE="https://github.com/aotuai/brainframe_cli"
 LICENSE="BSD"

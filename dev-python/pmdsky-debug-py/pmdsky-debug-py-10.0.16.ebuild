@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pmdsky-debug symbols for Python. [top-max 10.0.47]"
+DESCRIPTION="pmdsky-debug symbols for Python. [top-max 10.0.48]"
 
 HOMEPAGE=""
 LICENSE="MIT"

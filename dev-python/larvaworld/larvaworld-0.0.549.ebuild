@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A virtual lab for Drosophila larva behavioral modeling and analysis [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fd6f47d0970>)]"
+DESCRIPTION="A virtual lab for Drosophila larva behavioral modeling and analysis [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb27b7175a0>)]"
 
 HOMEPAGE="https://github.com/bagjohn/larvaworld_autoversioning"
 LICENSE="GNU General Public License v3"

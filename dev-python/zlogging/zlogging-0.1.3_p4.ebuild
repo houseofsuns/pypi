@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="zlogging: Bro/Zeek logging framework for Python."
+DESCRIPTION="zlogging: Bro/Zeek logging framework for Python. [top-max 0.1.3_p5]"
 
 HOMEPAGE="https://jarryshaw.github.io/zlogging/"
 LICENSE="BSD 3-Clause License"

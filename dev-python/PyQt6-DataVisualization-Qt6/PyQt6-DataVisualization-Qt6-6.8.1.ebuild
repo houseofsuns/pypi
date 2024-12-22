@@ -16,8 +16,8 @@ DESCRIPTION="The subset of a Qt installation needed by PyQt6-DataVisualization. 
 
 HOMEPAGE="https://www.riverbankcomputing.com/software/pyqt/"
 LICENSE="GPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux_2_35_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux_2_35_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

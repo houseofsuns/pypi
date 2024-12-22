@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Photobooth app written in Python supporting DSLR, picamera2 and webcameras [top-max 5.0.0_beta2]"
+DESCRIPTION="Photobooth app written in Python supporting DSLR, picamera2 and webcameras"
 
 HOMEPAGE="https://github.com/photobooth-app/photobooth-app"
 LICENSE="MIT"

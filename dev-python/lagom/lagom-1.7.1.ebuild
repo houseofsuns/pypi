@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lagom, a type based dependency injection container [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feb7fb9e8f0>)]"
+DESCRIPTION="Lagom, a type based dependency injection container [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fd852b3c890>)]"
 
 HOMEPAGE=""
 LICENSE=""

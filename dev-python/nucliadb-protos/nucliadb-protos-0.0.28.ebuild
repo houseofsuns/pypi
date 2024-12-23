@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="protos for nucliadb [top-max 6.2.0_p2670]"
+DESCRIPTION="protos for nucliadb [top-max 6.2.0_p2675]"
 
 HOMEPAGE=""
 LICENSE=""

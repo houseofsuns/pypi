@@ -31,18 +31,18 @@ DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
-	all? ( >=dev-python/pyside2-5.13.2[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pyside2-5.13.2[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyside? ( >=dev-python/pyside2-5.13.2[${PYTHON_USEDEP}] )
-	pyside2? ( >=dev-python/pyside2-5.13.2[${PYTHON_USEDEP}] )
+	pyside? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )

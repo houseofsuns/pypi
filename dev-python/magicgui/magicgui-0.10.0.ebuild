@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	jupyter? ( >=dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyside2? ( >=dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	quantity? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	test? ( dev-python/annotated-types[${PYTHON_USEDEP}] )

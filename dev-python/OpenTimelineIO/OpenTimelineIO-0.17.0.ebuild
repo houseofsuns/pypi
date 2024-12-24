@@ -29,6 +29,6 @@ DEPENDENCIES="dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/urllib3-1.24.3[${PYTHON_USEDEP}] )
 	view? ( ~dev-python/pyside6-6.2[${PYTHON_USEDEP}] )
-	view? ( ~dev-python/pyside2-5.11[${PYTHON_USEDEP}] )"
+	view? ( dev-python/pyside2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

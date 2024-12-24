@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/pyside6-6.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	legacy? ( >=dev-python/pyside2-5.15.2.1[${PYTHON_USEDEP}] )
+	legacy? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

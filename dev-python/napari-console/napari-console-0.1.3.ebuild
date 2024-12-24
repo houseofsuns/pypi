@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/qtconsole-4.5.1[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]
-	pyside2? ( >=dev-python/pyside2-5.13.2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6-experimental? ( <dev-python/pyside6-6.5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )

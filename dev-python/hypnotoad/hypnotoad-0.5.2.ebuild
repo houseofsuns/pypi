@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/boututils[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/texttable-1.6.7[${PYTHON_USEDEP}] )
 	gui-pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	gui-pyside? ( ~dev-python/pyside2-5.13[${PYTHON_USEDEP}] )
+	gui-pyside? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

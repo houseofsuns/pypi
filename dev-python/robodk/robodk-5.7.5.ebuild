@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apps cv lint"
-DEPENDENCIES="apps? ( ~dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
+DEPENDENCIES="apps? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	cv? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
 	cv? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/astroid[${PYTHON_USEDEP}] )

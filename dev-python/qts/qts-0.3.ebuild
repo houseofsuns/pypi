@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	p_checks? ( ~dev-python/towncrier-21.3[${PYTHON_USEDEP}] )
 	p_checks? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	p_docs? ( ~dev-python/importlib-metadata-4.5[${PYTHON_USEDEP}] )
-	p_docs? ( ~dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
+	p_docs? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	p_docs? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	p_docs? ( ~dev-python/sphinx-autodoc-typehints-1.11[${PYTHON_USEDEP}] )
 	p_docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	p_tests? ( ~dev-python/pytest-xvfb-2.0[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyside2? ( ~dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( ~dev-python/pyside6-6.0[${PYTHON_USEDEP}] )
 	s_pytest? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	s_towncrier? ( ~dev-python/towncrier-21.3[${PYTHON_USEDEP}] )"

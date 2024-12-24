@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/moderngl[${PYTHON_USEDEP}]
 	pysdl2? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
 	glfw? ( dev-python/glfw[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyside2? ( <dev-python/pyside2-6.0[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pdf? ( >=dev-python/reportlab-1.2[${PYTHON_USEDEP}] )
 	av? ( dev-python/av[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	core? ( dev-python/pymatsolver[${PYTHON_USEDEP}] )
 	<dev-python/pypng-0.20220716[${PYTHON_USEDEP}]
 	apps? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
-	apps? ( <dev-python/pyside2-5.16[${PYTHON_USEDEP}] )
+	apps? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	core? ( <dev-python/scikit-image-0.20.0[${PYTHON_USEDEP}] )
 	core? ( <dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	<dev-python/scipy-1.11.0[${PYTHON_USEDEP}]

@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/cachetools-3.0[${PYTHON_USEDEP}]
 	pyqt6-windows? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/Photini[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/Photini[${PYTHON_USEDEP}] )
-	pyside2? ( >=dev-python/pyside2-5.14[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6-darwin? ( >=dev-python/pyside6-6.2[${PYTHON_USEDEP}] )
 	pyside6-linux? ( >=dev-python/pyside6-6.2[${PYTHON_USEDEP}] )
 	pyside6-windows? ( >=dev-python/pyside6-6.2[${PYTHON_USEDEP}] )

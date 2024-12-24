@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
-	>=dev-python/pyside2-5.15.8[${PYTHON_USEDEP}]
+	dev-python/pyside2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

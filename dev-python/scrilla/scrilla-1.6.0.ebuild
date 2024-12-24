@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/boto3-1.24.13[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.15.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	>=dev-python/pyside2-5.15.2.1[${PYTHON_USEDEP}]
+	dev-python/pyside2[${PYTHON_USEDEP}]
 	gui? ( >=dev-python/pyside6-6.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

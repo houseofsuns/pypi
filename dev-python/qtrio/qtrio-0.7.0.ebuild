@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	p_tests? ( ~dev-python/pytest-xvfb-2.0[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5-stubs[${PYTHON_USEDEP}] )
-	pyside2? ( ~dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	s_pytest? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	s_pytest_trio? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )
 	s_quart_trio? ( ~dev-python/quart-trio-0.10.0[${PYTHON_USEDEP}] )

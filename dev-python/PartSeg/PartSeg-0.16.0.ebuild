@@ -78,7 +78,7 @@ DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/napari[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PartSeg[${PYTHON_USEDEP}] )
-	pyside2? ( >=dev-python/pyside2-5.12.3[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/napari[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/napari[${PYTHON_USEDEP}] )

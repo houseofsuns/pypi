@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pyside2"
 DEPENDENCIES="dev-python/Qt-py[${PYTHON_USEDEP}]
-	pyside2? ( >=dev-python/pyside2-5.15[${PYTHON_USEDEP}] )"
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

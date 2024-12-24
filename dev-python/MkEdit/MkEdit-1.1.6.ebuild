@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Rx[${PYTHON_USEDEP}]
-	>=dev-python/pyside2-5.13.2[${PYTHON_USEDEP}]
+	dev-python/pyside2[${PYTHON_USEDEP}]
 	>=dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
 	dev-python/rxbus[${PYTHON_USEDEP}]
 	>=dev-python/qtawesome-0.6.0[${PYTHON_USEDEP}]

@@ -33,6 +33,6 @@ DEPENDENCIES="~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-4.2[${PYTHON_USEDEP}]
 	dev-python/pytsmod[${PYTHON_USEDEP}]
 	dev-python/PySimpleGUIQt[${PYTHON_USEDEP}]
-	~dev-python/pyside2-5.15[${PYTHON_USEDEP}]"
+	dev-python/pyside2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

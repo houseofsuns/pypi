@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	docs? ( dev-python/vispy[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyside2? ( >=dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dask[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )

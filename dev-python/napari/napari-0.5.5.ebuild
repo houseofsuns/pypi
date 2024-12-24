@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.11.1[${PYTHON_USEDEP}]
-	pyside2? ( >=dev-python/pyside2-5.13.2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6-experimental? ( <dev-python/pyside6-6.5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )

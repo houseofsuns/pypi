@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Eikonal solver using parallel fast sweeping"
+DESCRIPTION="Eikonal solver using parallel fast sweeping [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/rgl-epfl/fastsweep"
 LICENSE="BSD"

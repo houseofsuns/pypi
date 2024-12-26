@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python driver with native interface for Databend"
+DESCRIPTION="Python driver with native interface for Databend [top-max 0.6.4]"
 
 HOMEPAGE="https://github.com/databendcloud/databend-py"
 LICENSE="Apache License"

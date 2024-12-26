@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A minimal, unofficial implementation of a bluetooth client for casambi devices [top-max 0.2.2]"
+DESCRIPTION="A minimal, unofficial implementation of a bluetooth client for casambi devices [top-max 0.2.4]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interactive plotting for the Jupyter notebook, using d3.js and ipywidgets. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f93e6b81070>)]"
+DESCRIPTION="Interactive plotting for the Jupyter notebook, using d3.js and ipywidgets. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3368535380>)]"
 
 HOMEPAGE="https://github.com/bqplot/bqplot"
 LICENSE="Apache-2.0"

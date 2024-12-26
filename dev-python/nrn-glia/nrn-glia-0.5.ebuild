@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package manager for NEURON [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f93cd3ff920>)]"
+DESCRIPTION="Package manager for NEURON [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f334ee2e960>)]"
 
 HOMEPAGE="https://github.com/dbbs-lab/glia"
 LICENSE="GPL-3"

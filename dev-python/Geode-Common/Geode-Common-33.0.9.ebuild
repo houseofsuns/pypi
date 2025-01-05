@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Common module for licensed Geode-solutions modules [top-max 33.2.1_rc1]"
+DESCRIPTION="Common module for licensed Geode-solutions modules [top-max 33.2.1]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

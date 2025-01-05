@@ -33,7 +33,7 @@ DEPENDENCIES="aiohttp? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
 	graphql? ( dev-python/gql[${PYTHON_USEDEP}] )
 	optimized? ( dev-python/cbitstruct[${PYTHON_USEDEP}] )
 	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
-	quic? ( dev-python/aioquic[${PYTHON_USEDEP}] )
+	quic? ( >=dev-python/aioquic-0.9.0[${PYTHON_USEDEP}] )
 	reactivex? ( dev-python/reactivex[${PYTHON_USEDEP}] )
 	rx? ( dev-python/Rx[${PYTHON_USEDEP}] )
 	websockets? ( >=dev-python/websockets-11.0.0[${PYTHON_USEDEP}] )"

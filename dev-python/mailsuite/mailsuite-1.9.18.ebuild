@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
 	>=dev-python/imapclient-2.1.0[${PYTHON_USEDEP}]
 	dev-python/mail-parser[${PYTHON_USEDEP}]
-	dev-python/publicsuffix2[${PYTHON_USEDEP}]"
+	>=dev-python/publicsuffix2-2.20190812[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

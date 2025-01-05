@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="h5py compatible client lib for HDF REST API [top-max 0.19.0]"
+DESCRIPTION="h5py compatible client lib for HDF REST API [top-max 0.21.0]"
 
 HOMEPAGE="http://github.com/HDFGroup/h5pyd"
 LICENSE="BSD"

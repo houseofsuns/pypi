@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A retro game engine for Python [top-max 2.2.8]"
+DESCRIPTION="A retro game engine for Python [top-max 2.2.10]"
 
 HOMEPAGE="https://github.com/kitao/pyxel"
 LICENSE="MIT"

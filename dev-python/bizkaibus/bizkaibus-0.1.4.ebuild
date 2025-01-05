@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Online information for buses of Biscay bus services (Basque Country, Spain)."
+DESCRIPTION="Online information for buses of Biscay bus services (Basque Country, Spain). [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/UgaitzEtxebarria/BizkaibusRTPI"
 LICENSE="MIT"

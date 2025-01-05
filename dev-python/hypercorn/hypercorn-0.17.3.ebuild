@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs h3 trio uvloop"
-DEPENDENCIES="h3? ( dev-python/aioquic[${PYTHON_USEDEP}] )
+DEPENDENCIES="h3? ( <dev-python/aioquic-1.0[${PYTHON_USEDEP}] )
 	>=dev-python/exceptiongroup-1.1.0[${PYTHON_USEDEP}]
 	dev-python/h11[${PYTHON_USEDEP}]
 	>=dev-python/h2-3.1.0[${PYTHON_USEDEP}]

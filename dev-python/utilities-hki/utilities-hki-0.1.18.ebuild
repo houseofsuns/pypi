@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Global utilities for Humankind data science"
+DESCRIPTION="Global utilities for Humankind data science [top-max 0.1.19]"
 
 HOMEPAGE="https://github.com/humankind-datascience/utilities-hki"
 LICENSE=""

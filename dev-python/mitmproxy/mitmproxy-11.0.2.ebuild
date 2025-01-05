@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/aioquic[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/aioquic-1.2.0[${PYTHON_USEDEP}]
 	<=dev-python/asgiref-3.8.1[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2019.9.11[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/aioquic[${PYTHON_USEDEP}]
 	<=dev-python/typing-extensions-4.11.0[${PYTHON_USEDEP}]
 	<=dev-python/urwid-2.6.16[${PYTHON_USEDEP}]
 	<=dev-python/wsproto-1.2.0[${PYTHON_USEDEP}]
-	dev-python/publicsuffix2[${PYTHON_USEDEP}]
+	<=dev-python/publicsuffix2-2.20191221[${PYTHON_USEDEP}]
 	<=dev-python/zstandard-0.23.0[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/hypothesis-6.122.1[${PYTHON_USEDEP}] )

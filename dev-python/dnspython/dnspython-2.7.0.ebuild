@@ -41,7 +41,7 @@ DEPENDENCIES="dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	doh? ( >=dev-python/h2-4.1.0[${PYTHON_USEDEP}] )
 	doh? ( >=dev-python/httpcore-1.0.0[${PYTHON_USEDEP}] )
 	doh? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
-	doq? ( dev-python/aioquic[${PYTHON_USEDEP}] )
+	doq? ( >=dev-python/aioquic-1.0.0[${PYTHON_USEDEP}] )
 	idna? ( >=dev-python/idna-3.7[${PYTHON_USEDEP}] )
 	trio? ( >=dev-python/trio-0.23[${PYTHON_USEDEP}] )
 	wmi? ( dev-python/WMI[${PYTHON_USEDEP}] )"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Builds a CVAT manifest file from a directory of images."
+DESCRIPTION="Builds a CVAT manifest file from a directory of images. [top-max 0.0.225]"
 
 HOMEPAGE="https://github.com/fsai-dev/fsai-cli-tools"
 LICENSE="MIT"

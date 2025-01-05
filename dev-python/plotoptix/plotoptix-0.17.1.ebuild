@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data visualisation in Python based on NVIDIA OptiX ray tracing framework. [top-max 0.18.2]"
+DESCRIPTION="Data visualisation in Python based on NVIDIA OptiX ray tracing framework. [top-max 0.18.3]"
 
 HOMEPAGE="https://rnd.team/plotoptix"
 LICENSE=""

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/h11[${PYTHON_USEDEP}]
 	>=dev-python/wsproto-0.14.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/taskgroup[${PYTHON_USEDEP}]
-	h3? ( dev-python/aioquic[${PYTHON_USEDEP}] )
+	h3? ( <dev-python/aioquic-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

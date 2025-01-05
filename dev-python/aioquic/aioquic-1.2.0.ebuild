@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
-	dev-python/pylsqpack[${PYTHON_USEDEP}]
+	<dev-python/pylsqpack-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-24.0[${PYTHON_USEDEP}]
 	>=dev-python/service-identity-24.1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )"

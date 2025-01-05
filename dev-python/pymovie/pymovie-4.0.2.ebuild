@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pymovie is a lightcurve extractor for astronomical videos [top-max 4.1.3]"
+DESCRIPTION="pymovie is a lightcurve extractor for astronomical videos [top-max 4.1.5]"
 
 HOMEPAGE="https://github.com/bob-anderson-ok/pymovie"
 LICENSE="License :: OSI Approved :: MIT License"

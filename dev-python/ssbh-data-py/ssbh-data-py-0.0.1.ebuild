@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings to the ssbh_data Rust library [top-max 0.8.4]"
+DESCRIPTION="Python bindings to the ssbh_data Rust library [top-max 0.9.0]"
 
 HOMEPAGE="https://github.com/ScanMountGoat/ssbh_data_py"
 LICENSE=""

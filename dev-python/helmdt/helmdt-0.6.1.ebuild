@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A HELM Deployment toolkit"
+DESCRIPTION="A HELM Deployment toolkit [top-max 0.6.3]"
 
 HOMEPAGE="https://github.com/toshiya14/helmdt"
 LICENSE="MIT"

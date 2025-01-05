@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aioquic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aioquic-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-42.0.5[${PYTHON_USEDEP}]
 	dev-python/cymruwhois[${PYTHON_USEDEP}]
 	>=dev-python/dnspython-2.7.0[${PYTHON_USEDEP}]

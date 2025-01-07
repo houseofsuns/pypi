@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for reading, writing, visualizing, and versioning EPA SWMM5 models. [top-max 0.7.3]"
+DESCRIPTION="Tools for reading, writing, visualizing, and versioning EPA SWMM5 models. [top-max 0.8.0]"
 
 HOMEPAGE="https://github.com/aerispaha/swmmio"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for fuzzing BLE GATT"
+DESCRIPTION="A tool for fuzzing BLE GATT [top-max 0.0.12]"
 
 HOMEPAGE=""
 LICENSE=""

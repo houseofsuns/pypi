@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Activeloop Deep Lake [top-max 4.1.2]"
+DESCRIPTION="Activeloop Deep Lake [top-max 4.1.3]"
 
 HOMEPAGE=""
 LICENSE="MPL-2.0"

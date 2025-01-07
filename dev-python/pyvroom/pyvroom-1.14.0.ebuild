@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Vehicle routing open-source optimization machine (VROOM) [top-max 1.14.1_pre8]"
+DESCRIPTION="Vehicle routing open-source optimization machine (VROOM) [top-max 1.14.1_pre9]"
 
 HOMEPAGE=""
 LICENSE="BSD 2-Clause License"

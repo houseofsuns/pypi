@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Nion Swift package to simulate a STEM microscope, scanner, and cameras."
+DESCRIPTION="A Nion Swift package to simulate a STEM microscope, scanner, and cameras. [top-max 5.3.0]"
 
 HOMEPAGE="https://github.com/nion-software/nionswift-usim"
 LICENSE="GPL-3"

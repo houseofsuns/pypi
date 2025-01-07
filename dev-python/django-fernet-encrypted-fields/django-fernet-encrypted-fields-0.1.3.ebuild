@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is inspired by django-encrypted-fields."
+DESCRIPTION="This is inspired by django-encrypted-fields. [top-max 0.2.0]"
 
 HOMEPAGE="http://github.com/frgmt/django-fernet-encrypted-fields/"
 LICENSE="MIT"

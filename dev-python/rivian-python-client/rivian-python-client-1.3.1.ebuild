@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-45.0[${PYTHON_USEDEP}]
 	<dev-python/backports-strenum-2.0.0[${PYTHON_USEDEP}]
 	ble? ( dev-python/bleak[${PYTHON_USEDEP}] )
-	ble? ( dev-python/dbus-fast[${PYTHON_USEDEP}] )"
+	ble? ( <dev-python/dbus-fast-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -16,8 +16,8 @@ DESCRIPTION="Python bindings for the Qt cross-platform application and UI framew
 
 HOMEPAGE="https://pyside.org"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp39-abi3-macosx_12_0_universal2.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp39-abi3-macosx_12_0_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp39-abi3-manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp39-abi3-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

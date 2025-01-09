@@ -16,8 +16,8 @@ DESCRIPTION="National Renewable Energy Laboratory's System Advisor Model Python 
 
 HOMEPAGE="https://nrel-pysam.readthedocs.io"
 LICENSE="BSD 3-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp310-cp310-macosx_12_0_arm64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp310-cp310-macosx_12_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scoring and metrics app [top-max 1.2.8]"
+DESCRIPTION="Scoring and metrics app [top-max 1.2.13]"
 
 HOMEPAGE=""
 LICENSE=""

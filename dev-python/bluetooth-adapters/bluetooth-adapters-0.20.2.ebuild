@@ -28,7 +28,7 @@ DEPENDENCIES="docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	dev-python/aiooui[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
-	dev-python/dbus-fast[${PYTHON_USEDEP}]
+	>=dev-python/dbus-fast-1.21.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/myst-parser-3.1[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-4.0[${PYTHON_USEDEP}] )
 	dev-python/uart-devices[${PYTHON_USEDEP}]

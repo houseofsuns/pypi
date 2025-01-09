@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aer - High performance simulators for Qiskit"
+DESCRIPTION="Aer - High performance simulators for Qiskit [top-max 0.16.0]"
 
 HOMEPAGE="https://github.com/Qiskit/qiskit-aer"
 LICENSE="Apache-2.0"

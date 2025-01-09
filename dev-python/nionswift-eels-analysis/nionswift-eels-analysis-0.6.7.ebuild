@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library and UI for doing EELS analysis with Nion Swift."
+DESCRIPTION="Library and UI for doing EELS analysis with Nion Swift. [top-max 0.6.8]"
 
 HOMEPAGE="https://github.com/nion-software/eels-analysis"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reusable library to build business applications fast"
+DESCRIPTION="Reusable library to build business applications fast [top-max 2.2.9]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

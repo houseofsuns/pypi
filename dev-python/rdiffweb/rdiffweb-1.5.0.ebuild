@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A web interface to rdiff-backup repositories [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f58b846b7d0>)]"
+DESCRIPTION="A web interface to rdiff-backup repositories [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6f573c2e30>)]"
 
 HOMEPAGE="https://github.com/ikus060/rdiffweb"
 LICENSE="GPL-3"

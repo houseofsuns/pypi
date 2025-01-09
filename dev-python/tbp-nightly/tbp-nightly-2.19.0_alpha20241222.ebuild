@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Profile Tensorboard Plugin"
+DESCRIPTION="Profile Tensorboard Plugin [top-max 2.19.0_alpha20250109]"
 
 HOMEPAGE="https://github.com/tensorflow/profiler"
 LICENSE="Apache-2.0"

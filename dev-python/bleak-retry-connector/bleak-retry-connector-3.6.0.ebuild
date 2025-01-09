@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bluetooth-adapters[${PYTHON_USEDEP}]
-	dev-python/dbus-fast[${PYTHON_USEDEP}]"
+	>=dev-python/dbus-fast-1.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

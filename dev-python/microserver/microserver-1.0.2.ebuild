@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MicroServer [top-max 1.0.7]"
+DESCRIPTION="MicroServer [top-max 1.0.8]"
 
 HOMEPAGE="https://bitbucket.org/autestsuite/microserver"
 LICENSE="Apache-2.0"

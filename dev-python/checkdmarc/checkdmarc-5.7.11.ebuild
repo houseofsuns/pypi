@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/timeout-decorator-0.4.1[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.14.2[${PYTHON_USEDEP}]
-	build? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/hatch-1.14.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	build? ( dev-python/nose[${PYTHON_USEDEP}] )
 	build? ( dev-python/pytest[${PYTHON_USEDEP}] )

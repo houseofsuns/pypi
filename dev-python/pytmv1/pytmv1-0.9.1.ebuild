@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hatch-1.6.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/psutil-5.9.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )

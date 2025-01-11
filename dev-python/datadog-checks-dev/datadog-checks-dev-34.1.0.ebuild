@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/coverage-5.0.3[${PYTHON_USEDEP}]
 	cli? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	cli? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	cli? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )
-	cli? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/hatch-1.5.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/in-toto[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	cli? ( dev-python/markdown[${PYTHON_USEDEP}] )

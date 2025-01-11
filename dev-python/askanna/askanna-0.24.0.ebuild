@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/askanna[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bandit-1.7.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hatch-1.9.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}] )

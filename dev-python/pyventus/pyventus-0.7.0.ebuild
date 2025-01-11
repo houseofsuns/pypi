@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-7.6.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/fakeredis-2.25.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hatch-1.12.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-git-committers-plugin_2[${PYTHON_USEDEP}] )

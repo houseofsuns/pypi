@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-1.1.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	<dev-python/websockets-12.0[${PYTHON_USEDEP}]
-	build? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/hatch-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs jupyterlab notebook polars test"
 DEPENDENCIES="dev-python/anywidget[${PYTHON_USEDEP}]
 	dev-python/graphlib-backport[${PYTHON_USEDEP}]
-	dev-python/hatch[${PYTHON_USEDEP}]
+	>=dev-python/hatch-1.14.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-18.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/anywidget[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hatch-1.6.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mistune-2.0.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pessimist[${PYTHON_USEDEP}] )

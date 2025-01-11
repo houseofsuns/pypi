@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	all? ( dev-python/vl-convert-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hatch-1.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mistune[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev pdoc test"
-DEPENDENCIES="dev-python/hatch[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/hatch-1.9[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-6.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/minecraft-render[${PYTHON_USEDEP}]

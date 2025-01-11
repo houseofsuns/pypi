@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.14[${PYTHON_USEDEP}]
 	dev-python/xdg-base-dirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/dycw-utilities[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/hatch-1.13[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

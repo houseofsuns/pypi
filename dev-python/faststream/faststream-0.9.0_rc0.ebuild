@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/fast-depends[${PYTHON_USEDEP}]
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/semgrep[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	publish? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/hatch-1.7.0[${PYTHON_USEDEP}] )
 	rabbit? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	test-core? ( >=dev-python/coverage-7.2[${PYTHON_USEDEP}] )
 	test-core? ( ~dev-python/dirty-equals-0.6.0[${PYTHON_USEDEP}] )

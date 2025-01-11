@@ -27,7 +27,7 @@ IUSE="dev docs speedup"
 DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	dev-python/pymediainfo-pyrofork[${PYTHON_USEDEP}]
 	dev-python/PySocks[${PYTHON_USEDEP}]
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hatch-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )

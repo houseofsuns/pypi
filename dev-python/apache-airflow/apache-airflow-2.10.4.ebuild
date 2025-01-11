@@ -425,7 +425,7 @@ DEPENDENCIES="<dev-python/alembic-2.0[${PYTHON_USEDEP}]
 	devel-ci? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	devel-ci? ( >=dev-python/graphviz-0.12[${PYTHON_USEDEP}] )
 	devel-ci? ( >=dev-python/greenlet-0.4.9[${PYTHON_USEDEP}] )
-	devel-ci? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	devel-ci? ( >=dev-python/hatch-1.9.1[${PYTHON_USEDEP}] )
 	devel-ci? ( dev-python/hdfs[${PYTHON_USEDEP}] )
 	devel-ci? ( >=dev-python/incremental-22.10.0[${PYTHON_USEDEP}] )
 	devel-ci? ( >=dev-python/ipdb-0.13.13[${PYTHON_USEDEP}] )

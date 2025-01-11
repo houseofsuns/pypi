@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/django-agnocomplete[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	dev-python/social-auth-core[${PYTHON_USEDEP}]
 	dev? ( dev-python/djlint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hatch-1.14.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-material-9.5.48[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-static-i18n-1.2.3[${PYTHON_USEDEP}] )

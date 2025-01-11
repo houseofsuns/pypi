@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/azure-identity[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.31.1[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
-	build? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/hatch-1.14.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	build? ( dev-python/nose[${PYTHON_USEDEP}] )
 	build? ( dev-python/pytest[${PYTHON_USEDEP}] )

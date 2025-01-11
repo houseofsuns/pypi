@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/boto3-1.26.42[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	devel? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
-	devel? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	devel? ( ~dev-python/hatch-1.6.3[${PYTHON_USEDEP}] )
 	devel? ( >=dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	devel? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	devel? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"

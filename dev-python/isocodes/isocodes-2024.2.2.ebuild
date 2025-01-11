@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev doc test"
-DEPENDENCIES="build? ( dev-python/hatch[${PYTHON_USEDEP}] )
+DEPENDENCIES="build? ( ~dev-python/hatch-1.9.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	<dev-python/tabulate-1.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hatch-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/moto-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )

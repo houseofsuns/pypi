@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-24.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.4.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hatch-1.10.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-material-9.5.38[${PYTHON_USEDEP}] )

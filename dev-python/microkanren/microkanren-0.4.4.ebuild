@@ -27,7 +27,7 @@ IUSE="build dev testing"
 DEPENDENCIES="dev-python/fastcons[${PYTHON_USEDEP}]
 	<dev-python/immutables-1.0[${PYTHON_USEDEP}]
 	<dev-python/pyrsistent-1.0[${PYTHON_USEDEP}]
-	build? ( dev-python/hatch[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/hatch-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="designerV2 [top-max 2.0.10]"
+DESCRIPTION="designerV2 [top-max 2.0.11]"
 
 HOMEPAGE="https://github.com/NYU-DiffusionMRI/DESIGNER-v2"
 LICENSE="NYU"

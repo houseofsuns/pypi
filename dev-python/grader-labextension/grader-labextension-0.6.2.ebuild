@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/grader-service[${PYTHON_USEDEP}]
 	>=dev-python/hatch-jupyter-builder-0.5[${PYTHON_USEDEP}]
 	dev-python/hatch-nodejs-version[${PYTHON_USEDEP}]
-	dev-python/hatch[${PYTHON_USEDEP}]
+	>=dev-python/hatch-1.7[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	<dev-python/jupyterlab-5.0[${PYTHON_USEDEP}]
 	>=dev-python/tornado-6.2[${PYTHON_USEDEP}]

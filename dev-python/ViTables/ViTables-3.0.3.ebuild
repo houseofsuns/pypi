@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A viewer for HDF5 files."
+DESCRIPTION="A viewer for HDF5 files. [top-max 3.1.0]"
 
 HOMEPAGE=""
 LICENSE=""

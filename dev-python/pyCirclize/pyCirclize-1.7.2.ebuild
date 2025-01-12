@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Circular visualization in Python"
+DESCRIPTION="Circular visualization in Python [top-max 1.8.0]"
 
 HOMEPAGE="https://moshi4.github.io/pyCirclize/"
 LICENSE="MIT"

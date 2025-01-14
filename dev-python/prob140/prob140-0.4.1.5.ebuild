@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A probability library for Berkeley's Prob140 course"
+DESCRIPTION="A probability library for Berkeley's Prob140 course [top-max 0.4.1.6]"
 
 HOMEPAGE="https://github.com/prob140/prob140"
 LICENSE="CC BY-NC-ND 4.0"

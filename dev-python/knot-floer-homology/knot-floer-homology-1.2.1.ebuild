@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for Zoltán Szabó's HFK Calculator"
+DESCRIPTION="Python wrapper for Zoltán Szabó's HFK Calculator [top-max 1.2.2]"
 
 HOMEPAGE="https://github.com/3-manifolds/knot_floer_homology"
 LICENSE=""

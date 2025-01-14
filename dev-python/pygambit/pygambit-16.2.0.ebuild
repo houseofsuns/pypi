@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The package for computation in game theory [top-max 16.2.1]"
+DESCRIPTION="The package for computation in game theory [top-max 16.3.0]"
 
 HOMEPAGE="http://www.gambit-project.org"
 LICENSE="GPL2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="simple library based on python +3.8 to use Dataclass-syntaxfor interacting with Data [top-max 0.8.13]"
+DESCRIPTION="simple library based on python +3.8 to use Dataclass-syntaxfor interacting with Data [top-max 0.8.15]"
 
 HOMEPAGE="https://github.com/phenobarbital/python-datamodel"
 LICENSE="BSD"

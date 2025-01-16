@@ -1,0 +1,16 @@
+BDEPEND=dev-python/pyobjc-core[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/pyobjc-framework-Cocoa[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=Wrappers for the framework DataDetection on macOS
+EAPI=8
+HOMEPAGE=https://github.com/ronaldoussoren/pyobjc
+INHERIT=python-r1 gs-pypi
+IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-python/pyobjc-core[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/pyobjc-framework-Cocoa[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/33/6b/b896feb16e914dc81b6ed6cdbd0b6e6390eaafc80fff5297ec17eb0bd716/pyobjc_framework_datadetection-11.0.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	gs-distutils-r1	8d3844b6b903f08bc4e83bd198f8a72f	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	1ce6ce880db2f1f1e7842a13bd058366
+_md5_=220b877e0a72048819b9c8b698e02564

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Constants used with SynDB in Python"
+DESCRIPTION="Constants used with SynDB in Python [top-max 0.17.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

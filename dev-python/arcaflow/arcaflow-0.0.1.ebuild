@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Placeholder package for the 'arcaflow' namespace on PyPI. [top-max 0.20.0_rc3]"
+DESCRIPTION="Placeholder package for the 'arcaflow' namespace on PyPI. [top-max 0.20.0_rc4]"
 
 HOMEPAGE="https://github.com/arcalot/arcaflow-python"
 LICENSE="Apache-2.0"

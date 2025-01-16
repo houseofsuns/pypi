@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="nhentai.net doujinshis downloader [top-max 0.5.18]"
+DESCRIPTION="nhentai.net doujinshis downloader [top-max 0.5.19]"
 
 HOMEPAGE="https://github.com/RicterZ/nhentai"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Custom device implementations based on the ophyd hardware abstraction layer"
+DESCRIPTION="Custom device implementations based on the ophyd hardware abstraction layer [top-max 1.12.3]"
 
 HOMEPAGE="https://gitlab.psi.ch/bec/ophyd_devices"
 LICENSE=""

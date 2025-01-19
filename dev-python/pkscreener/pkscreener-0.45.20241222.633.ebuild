@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python-based stock screener for NSE, India with alerts to Telegram Channel (pkscreener) [top-max 0.45.20250118.648]"
+DESCRIPTION="A Python-based stock screener for NSE, India with alerts to Telegram Channel (pkscreener) [top-max 0.45.20250119.650]"
 
 HOMEPAGE="https://github.com/pkjmesra/pkscreener"
 LICENSE="OSI Approved MIT"

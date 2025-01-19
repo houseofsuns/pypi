@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aos service manager [top-max 1.16.0_beta1]"
+DESCRIPTION="Aos service manager [top-max 1.16.0_beta2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

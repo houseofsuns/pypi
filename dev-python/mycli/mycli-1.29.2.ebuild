@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/cli-helpers-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
-	dev-python/pyfzf[${PYTHON_USEDEP}]
+	>=dev-python/pyfzf-0.3.1[${PYTHON_USEDEP}]
 	ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	ssh? ( dev-python/sshtunnel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/behave[${PYTHON_USEDEP}] )

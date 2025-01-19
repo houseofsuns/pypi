@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aer - High performance simulators for Qiskit [wheel]"
+DESCRIPTION="Aer - High performance simulators for Qiskit"
 
 HOMEPAGE="https://github.com/Qiskit/qiskit-aer"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -27,7 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/qiskit-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
-	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

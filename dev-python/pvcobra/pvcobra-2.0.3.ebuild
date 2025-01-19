@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cobra voice activity detection (VAD) engine"
+DESCRIPTION="Cobra voice activity detection (VAD) engine [top-max 2.0.4]"
 
 HOMEPAGE="https://github.com/Picovoice/cobra"
 LICENSE=""

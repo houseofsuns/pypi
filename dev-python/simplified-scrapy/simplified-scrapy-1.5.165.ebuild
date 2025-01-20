@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Simple Distributed Web Crawle"
+DESCRIPTION="A Simple Distributed Web Crawle [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/yiyedata/simplified-scrapy"
 LICENSE=""

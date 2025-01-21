@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for meme_generator [top-max 0.2.0_beta3]"
+DESCRIPTION="Python bindings for meme_generator [top-max 0.2.0_beta4]"
 
 HOMEPAGE="https://github.com/MemeCrafters/meme-generator-rs"
 LICENSE="MIT"

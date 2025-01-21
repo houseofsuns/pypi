@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Subscribe, Acquire, and Re-Advertise products. [top-max 3.0.57_rc2]"
+DESCRIPTION="Subscribe, Acquire, and Re-Advertise products. [top-max 3.0.57]"
 
 HOMEPAGE="https://github.com/MetPX/sarracenia"
 LICENSE="GPL-2"

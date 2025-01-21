@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for vtzero C++ library."
+DESCRIPTION="Python wrapper for vtzero C++ library. [top-max 0.0.1_beta5]"
 
 HOMEPAGE=""
 LICENSE="MIT"

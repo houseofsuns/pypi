@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.14.0rc1.dev21"
+REALVERSION="1.14.0rc1.dev22"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The developmental release for Dapr Python SDK Flask. [badver 1.14.0rc1.dev21]"
+DESCRIPTION="The developmental release for Dapr Python SDK Flask. [badver 1.14.0rc1.dev22]"
 
 HOMEPAGE="https://dapr.io/"
 LICENSE="Apache-2.0"

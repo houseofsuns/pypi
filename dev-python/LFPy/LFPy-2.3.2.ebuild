@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A module for modeling extracellular potentials of multicompartment neuron models built on NEURON"
+DESCRIPTION="A module for modeling extracellular potentials of multicompartment neuron models built on NEURON [top-max 2.3.5]"
 
 HOMEPAGE="http://LFPy.readthedocs.io"
 LICENSE="LICENSE"

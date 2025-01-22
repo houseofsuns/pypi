@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Distributes many short tasks on multicore and hpc systems"
+DESCRIPTION="Distributes many short tasks on multicore and hpc systems [top-max 0.0.78]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

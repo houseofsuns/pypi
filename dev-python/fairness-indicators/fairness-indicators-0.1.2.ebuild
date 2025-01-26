@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fairness Indicators [top-max 0.46.0]"
+DESCRIPTION="Fairness Indicators [top-max 0.47.0]"
 
 HOMEPAGE="https://github.com/tensorflow/fairness-indicators"
 LICENSE="Apache-2.0"

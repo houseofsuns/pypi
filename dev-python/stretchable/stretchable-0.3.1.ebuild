@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for Stretch (high performance flexbox implementation) [top-max 1.1.6]"
+DESCRIPTION="Python bindings for Stretch (high performance flexbox implementation) [top-max 1.1.7]"
 
 HOMEPAGE=""
 LICENSE=""

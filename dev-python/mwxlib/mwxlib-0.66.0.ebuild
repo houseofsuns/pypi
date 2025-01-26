@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper of matplotlib and wxPython (phoenix) [top-max 1.3.0]"
+DESCRIPTION="A wrapper of matplotlib and wxPython (phoenix) [top-max 1.3.3]"
 
 HOMEPAGE="https://github.com/komoto48g/mwxlib"
 LICENSE="MIT"

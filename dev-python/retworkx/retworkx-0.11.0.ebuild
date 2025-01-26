@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python graph library implemented in Rust [top-max 0.15.1]"
+DESCRIPTION="A python graph library implemented in Rust [top-max 0.16.0]"
 
 HOMEPAGE="https://github.com/Qiskit/retworkx"
 LICENSE="Apache-2.0"

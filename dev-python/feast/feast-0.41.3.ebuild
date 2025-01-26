@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for Feast [top-max 0.42.0]"
+DESCRIPTION="Python SDK for Feast [top-max 0.43.0]"
 
 HOMEPAGE="https://github.com/feast-dev/feast"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library to map country names to ISO codes. [top-max 1.16.5]"
+DESCRIPTION="A library to map country names to ISO codes. [top-max 1.16.6]"
 
 HOMEPAGE="http://github.com/opensanctions/countrynames"
 LICENSE="MIT"

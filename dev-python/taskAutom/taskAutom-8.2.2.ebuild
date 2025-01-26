@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple task automation tool [top-max 8.2.3]"
+DESCRIPTION="A simple task automation tool [top-max 8.3.0]"
 
 HOMEPAGE="https://github.com/laimaretto/taskAutom"
 LICENSE="BSD 3-clause"

@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="5.0.0a5.dev151"
+REALVERSION="5.0.0a5.dev153"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Allow users to login via supported OAuth2 providers. [badver 5.0.0a5.dev151]"
+DESCRIPTION="Allow users to login via supported OAuth2 providers. [badver 5.0.0a5.dev153]"
 
 HOMEPAGE="http://girder.readthedocs.io/en/latest/plugins.html#oauth-login"
 LICENSE="Apache-2.0"

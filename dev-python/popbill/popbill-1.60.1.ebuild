@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Popbill API SDK Library [top-max 1.60.2]"
+DESCRIPTION="Popbill API SDK Library [top-max 1.60.3]"
 
 HOMEPAGE="https://github.com/linkhub-sdk/Popbill.py"
 LICENSE="MIT"

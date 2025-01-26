@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="legal authority automation"
+DESCRIPTION="legal authority automation [top-max 0.10.0]"
 
 HOMEPAGE="https://github.com/mscarey/authorityspoke"
 LICENSE=""

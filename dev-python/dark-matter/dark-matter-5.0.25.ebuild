@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python classes and utility scripts for working with genetic sequence data."
+DESCRIPTION="Python classes and utility scripts for working with genetic sequence data. [top-max 5.0.26]"
 
 HOMEPAGE="https://github.com/acorg/dark-matter"
 LICENSE="MIT"

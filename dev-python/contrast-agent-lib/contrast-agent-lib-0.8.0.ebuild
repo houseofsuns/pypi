@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to the contrast agent lib [top-max 0.8.2]"
+DESCRIPTION="Python interface to the contrast agent lib [top-max 0.9.0]"
 
 HOMEPAGE="https://www.contrastsecurity.com"
 LICENSE="CONTRAST SECURITY see LICENSE.txt"

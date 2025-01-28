@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QuEST simulator backend for qoqo quantum computing toolkit"
+DESCRIPTION="QuEST simulator backend for qoqo quantum computing toolkit [top-max 0.15.0]"
 
 HOMEPAGE="https://github.com/HQSquantumsimulations/qoqo_quest"
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016 AND BSD-2-Clause AND BSD-3-CLause"

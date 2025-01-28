@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast file tree scanner written in Rust"
+DESCRIPTION="A fast file tree scanner written in Rust [top-max 2.9.2]"
 
 HOMEPAGE="https://github.com/brmmm3/scandir-rs"
 LICENSE="MIT"

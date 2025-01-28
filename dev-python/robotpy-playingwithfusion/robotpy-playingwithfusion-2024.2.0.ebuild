@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PlayingWithFusion for RobotPy [top-max 2025.0.0]"
+DESCRIPTION="PlayingWithFusion for RobotPy [top-max 2025.1.23]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-playingwithfusion"
 LICENSE="BSD"

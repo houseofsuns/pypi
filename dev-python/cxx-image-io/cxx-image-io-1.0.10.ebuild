@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Image IO APIs for wide range image formats (jpg, png, tif, dng, bmp, yuv, nv12 and RAWs), support Exif, interact nicely with numpy array."
+DESCRIPTION="Image IO APIs for wide range image formats (jpg, png, tif, dng, bmp, yuv, nv12 and RAWs), support Exif, interact nicely with numpy array. [top-max 1.0.11]"
 
 HOMEPAGE="https://github.com/sygslhy/image-io"
 LICENSE="MIT"

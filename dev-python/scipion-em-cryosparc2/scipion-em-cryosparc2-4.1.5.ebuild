@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plugin to use cryoSPARC2 programs within the Scipion framework"
+DESCRIPTION="Plugin to use cryoSPARC2 programs within the Scipion framework [top-max 4.2.0]"
 
 HOMEPAGE="https://github.com/scipion-em/scipion-em-cryosparc2"
 LICENSE=""

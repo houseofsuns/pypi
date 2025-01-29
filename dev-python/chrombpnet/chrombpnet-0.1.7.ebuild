@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}]
-	dev-python/matplotlib-venn[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-venn-0.11.6[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]

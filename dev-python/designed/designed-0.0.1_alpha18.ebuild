@@ -31,6 +31,6 @@ DEPENDENCIES="~dev-python/sympy-1.11[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12[${PYTHON_USEDEP}]
 	dev-python/japanize-matplotlib[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4[${PYTHON_USEDEP}]
-	dev-python/matplotlib-venn[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-venn-0.11.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

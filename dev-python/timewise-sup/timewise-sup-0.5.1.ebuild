@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/timewise[${PYTHON_USEDEP}]
 	dev-python/ampel-core[${PYTHON_USEDEP}]
 	dev-python/ampel-hu-astro[${PYTHON_USEDEP}]
 	dev-python/tkpdfviewer[${PYTHON_USEDEP}]
-	dev-python/matplotlib-venn[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-venn-0.12.0[${PYTHON_USEDEP}]
 	jupyter? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

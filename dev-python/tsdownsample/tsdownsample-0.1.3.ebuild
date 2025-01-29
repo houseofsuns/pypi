@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Time series downsampling in rust"
+DESCRIPTION="Time series downsampling in rust [top-max 0.1.4]"
 
 HOMEPAGE="https://github.com/predict-idlab/tsdownsample"
 LICENSE="MIT"

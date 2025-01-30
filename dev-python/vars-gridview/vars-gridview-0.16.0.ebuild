@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="VARS GridView is a tool for reviewing and correcting VARS localizations in bulk."
+DESCRIPTION="VARS GridView is a tool for reviewing and correcting VARS localizations in bulk. [top-max 0.16.1]"
 
 HOMEPAGE="https://github.com/mbari-org/vars-gridview"
 LICENSE="MIT"

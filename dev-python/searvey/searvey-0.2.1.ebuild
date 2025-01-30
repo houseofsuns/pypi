@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 0.3.14]"
+DESCRIPTION=" [top-max 0.3.15]"
 
 HOMEPAGE="https://github.com/oceanmodeling/searvey.git"
 LICENSE="GPL-3+"

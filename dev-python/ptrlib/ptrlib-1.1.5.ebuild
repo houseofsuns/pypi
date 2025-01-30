@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CTF library [top-max 2.4.0]"
+DESCRIPTION="CTF library [top-max 2.4.2]"
 
 HOMEPAGE="https://bitbucket.org/ptr-yudai/ptrlib/"
 LICENSE=""

@@ -16,8 +16,8 @@ DESCRIPTION="Aspose.CAD for Python is a CAD and BIM drawings Processing library 
 
 HOMEPAGE="https://products.aspose.com/cad/python"
 LICENSE="https://company.aspose.com/legal/eula"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-win_amd64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.0-py3-none-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.0-py3-none-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

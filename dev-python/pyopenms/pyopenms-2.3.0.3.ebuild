@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for C++ LCMS library OpenMS [top-max 3.2.0.1]"
+DESCRIPTION="Python wrapper for C++ LCMS library OpenMS [top-max 3.3.0]"
 
 HOMEPAGE="http://open-ms.de"
 LICENSE="http://opensource.org/licenses/BSD-3-Clause"

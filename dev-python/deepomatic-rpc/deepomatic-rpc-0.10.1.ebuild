@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deepomatic RPC python client [top-max 0.11.0]"
+DESCRIPTION="Deepomatic RPC python client [top-max 0.12.0]"
 
 HOMEPAGE="https://github.com/Deepomatic/deepomatic-rpc"
 LICENSE=""

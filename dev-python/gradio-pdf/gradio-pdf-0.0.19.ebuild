@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easily display PDFs in Gradio [top-max 0.0.21]"
+DESCRIPTION="Easily display PDFs in Gradio [top-max 0.0.22]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

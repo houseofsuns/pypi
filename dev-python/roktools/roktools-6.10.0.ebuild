@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package with utilities and tools for GNSS data processing"
+DESCRIPTION="Package with utilities and tools for GNSS data processing [top-max 6.10.2]"
 
 HOMEPAGE=""
 LICENSE=""

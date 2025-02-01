@@ -5,18 +5,18 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.2.0.post0.dev522"
+REALVERSION="1.2.0.post0.dev544"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Computational Uncertainty Quantification for Inverse problems in Python [badver 1.2.0.post0.dev522]"
+DESCRIPTION="Computational Uncertainty Quantification for Inverse problems in Python [badver 1.2.0.post0.dev544]"
 
 HOMEPAGE=""
 LICENSE="Apache License"
-SRC_URI="https://files.pythonhosted.org/packages/28/69/166711005e8a062a0ad015e2405f832f29a62690fd87b306f9dfae7ea1df/cuqipy-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/6a/b13f12f387b1ed817836ec8f5f787704ae4c491d141c463c07e7848745ef/cuqipy-${REALVERSION}.tar.gz"
 SOURCEFILE="cuqipy-${REALVERSION}.tar.gz"
 RESTRICT="test"
 

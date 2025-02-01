@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HTTP/2 State-Machine based protocol implementation"
+DESCRIPTION="HTTP/2 State-Machine based protocol implementation [top-max 4.2.0]"
 
 HOMEPAGE="https://github.com/python-hyper/h2"
 LICENSE="MIT"

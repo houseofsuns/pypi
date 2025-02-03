@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.7[${PYTHON_USEDEP}]"
+	dev-python/pyside6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

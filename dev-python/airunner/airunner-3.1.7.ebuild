@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.7.0[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/PySide6-Addons[${PYTHON_USEDEP}]
 	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]

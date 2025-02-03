@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/pyside6-6.5.1.1[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}]
 	dev-python/scikit-surgerycore[${PYTHON_USEDEP}]
 	dev-python/scikit-surgeryimage[${PYTHON_USEDEP}]

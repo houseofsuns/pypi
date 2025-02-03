@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="binharness bintrace docs pyinstaller testing"
-DEPENDENCIES=">=dev-python/pyside6-6.4.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/PySide6-QtAds[${PYTHON_USEDEP}]
 	dev-python/qtawesome[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]

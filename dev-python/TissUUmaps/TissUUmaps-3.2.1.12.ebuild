@@ -34,9 +34,9 @@ DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	dev-python/tissuumaps-schema[${PYTHON_USEDEP}]
-	pyside6? ( ~dev-python/pyside6-6.4.3[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/PySide6-Addons[${PYTHON_USEDEP}] )
-	full? ( ~dev-python/pyside6-6.4.3[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	full? ( dev-python/PySide6-Addons[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

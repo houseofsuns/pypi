@@ -45,8 +45,8 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.8.0[${PYTHON_USEDEP}]
 	<=dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	<dev-python/setuptools-70.0.0[${PYTHON_USEDEP}]
-	gui? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )
-	gui? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	<dev-python/frozenlist-2.0.0[${PYTHON_USEDEP}]
 	dev-python/yeswehack[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

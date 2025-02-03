@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.0[${PYTHON_USEDEP}]
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyside6? ( >=dev-python/pyside6-6.4[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

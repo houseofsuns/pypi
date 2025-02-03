@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	<dev-python/pathvalidate-3.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	<dev-python/pyside6-7.0[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	<dev-python/python-box-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/reusables[${PYTHON_USEDEP}]"

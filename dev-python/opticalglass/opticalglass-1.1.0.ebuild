@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
-	>=dev-python/pyside6-6.7.3[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

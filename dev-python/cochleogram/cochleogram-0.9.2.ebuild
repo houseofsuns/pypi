@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="czi dev lif"
 DEPENDENCIES="dev-python/atom[${PYTHON_USEDEP}]
 	dev-python/enaml[${PYTHON_USEDEP}]
-	<dev-python/pyside6-6.7.0[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/ndimage-enaml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/edfio[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pybv[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}]
-	>=dev-python/pyside6-6.7.1[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/pyxdf[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mne-qt-browser[${PYTHON_USEDEP}] )

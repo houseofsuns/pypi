@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/pyside6-6.5.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	~dev-python/shiboken6-6.5.3[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]

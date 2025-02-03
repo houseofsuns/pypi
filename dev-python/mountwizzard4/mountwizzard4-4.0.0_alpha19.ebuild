@@ -48,6 +48,6 @@ DEPENDENCIES="~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	~dev-python/packaging-24.1[${PYTHON_USEDEP}]
 	~dev-python/lz4-4.3.3[${PYTHON_USEDEP}]
 	dev-python/xisf[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.7.2[${PYTHON_USEDEP}]"
+	dev-python/pyside6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

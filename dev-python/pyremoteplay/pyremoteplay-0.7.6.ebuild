@@ -33,13 +33,13 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pyside6-6.2.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/av[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyopengl-3.1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sounddevice[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyjerasure[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pygame-2.1.2[${PYTHON_USEDEP}] )
-	gui? ( >=dev-python/pyside6-6.2.0[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/av[${PYTHON_USEDEP}] )
 	gui? ( >=dev-python/pyopengl-3.1.5[${PYTHON_USEDEP}] )
 	gui? ( dev-python/sounddevice[${PYTHON_USEDEP}] )

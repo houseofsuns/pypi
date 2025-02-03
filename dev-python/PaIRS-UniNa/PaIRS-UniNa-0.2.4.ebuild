@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.9[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/pyside6-6.7[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

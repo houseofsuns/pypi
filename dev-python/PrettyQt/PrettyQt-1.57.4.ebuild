@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	pyqt6? ( dev-python/PyQt6-Charts[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
-	pyside6? ( <dev-python/pyside6-7.0[${PYTHON_USEDEP}] )"
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

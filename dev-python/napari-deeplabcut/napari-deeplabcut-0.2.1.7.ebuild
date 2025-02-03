@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/dask-image[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
-	testing? ( ~dev-python/pyside6-6.4.2[${PYTHON_USEDEP}] )
+	testing? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )

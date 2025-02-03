@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="all? ( >=dev-python/pillow-9.0.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pyside6-6.4.0.1[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	>=dev-python/shapely-1.8.2[${PYTHON_USEDEP}]
 	>=dev-python/asteval-0.9.26[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.2.2[${PYTHON_USEDEP}]

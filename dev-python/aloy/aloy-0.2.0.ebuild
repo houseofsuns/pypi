@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.5.2[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/PySide6-Addons[${PYTHON_USEDEP}]
 	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]

@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/bbcode[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )
-	gui? ( >=dev-python/pyside6-6.0.3[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

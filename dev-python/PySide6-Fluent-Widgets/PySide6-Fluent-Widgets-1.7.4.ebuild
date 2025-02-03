@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES=">=dev-python/pyside6-6.4.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/PySideSix-Frameless-Window[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
 	full? ( dev-python/scipy[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ciopath[${PYTHON_USEDEP}]
 	dev-python/cioseq[${PYTHON_USEDEP}]
 	dev-python/json-stream[${PYTHON_USEDEP}]
-	<=dev-python/pyside6-6.7.0[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

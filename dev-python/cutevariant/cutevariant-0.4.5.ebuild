@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES=">=dev-python/pyside6-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/PyVCF3[${PYTHON_USEDEP}]
 	dev-python/textX[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.2.0[${PYTHON_USEDEP}]

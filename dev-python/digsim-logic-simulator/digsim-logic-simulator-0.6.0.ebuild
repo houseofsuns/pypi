@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyvcd[${PYTHON_USEDEP}]
-	<dev-python/pyside6-6.8[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	~dev-python/pexpect-4.9.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.9.2[${PYTHON_USEDEP}]
 	dev-python/qtawesome[${PYTHON_USEDEP}]

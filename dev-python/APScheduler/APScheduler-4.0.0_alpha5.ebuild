@@ -51,7 +51,7 @@ DEPENDENCIES="~dev-python/anyio-4.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pyside6-6.6[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/time-machine-2.13.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/uWSGI[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

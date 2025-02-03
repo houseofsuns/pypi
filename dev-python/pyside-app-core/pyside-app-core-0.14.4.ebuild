@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/hatchling[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	>=dev-python/pyside6-6.8[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

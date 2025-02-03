@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-5.1.1[${PYTHON_USEDEP}] )
-	gui? ( ~dev-python/pyside6-6.7.0[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

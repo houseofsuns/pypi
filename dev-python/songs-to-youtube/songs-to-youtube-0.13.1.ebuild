@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/mutagen[${PYTHON_USEDEP}]
 	<dev-python/pathvalidate-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.6.1[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/youtube-up[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/h5py-3.5.0[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
-	<dev-python/pyside6-7.0.0[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

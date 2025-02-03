@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pydata-sphinx-theme-0.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyepics[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pyside6-6.7.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

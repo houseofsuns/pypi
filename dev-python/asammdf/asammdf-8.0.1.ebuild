@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/canmatrix[${PYTHON_USEDEP}]
 	gui? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	gui? ( dev-python/natsort[${PYTHON_USEDEP}] )
 	gui? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	gui? ( ~dev-python/pyside6-6.7.0[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtlet2[${PYTHON_USEDEP}] )
 	gui? ( dev-python/packaging[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Redfish helper library [top-max 99.0.202502031353]"
+DESCRIPTION="Redfish helper library [top-max 99.0.202502031542]"
 
 HOMEPAGE="https://github.com/karmab/kcli/blob/main/extras/kfish.md"
 LICENSE="ASL"

@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/qtextras[${PYTHON_USEDEP}]
 	full? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	full? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	full? ( ~dev-python/pyside6-6.3.0[${PYTHON_USEDEP}] )"
+	full? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

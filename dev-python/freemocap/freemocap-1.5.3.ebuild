@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/skellycam[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.23.1[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.14.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	<dev-python/pyside6-6.8[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/requests-2.33.0[${PYTHON_USEDEP}]
 	<dev-python/pathvalidate-4.0.0[${PYTHON_USEDEP}]
 	dev-python/m3u8[${PYTHON_USEDEP}]
 	<dev-python/coloredlogs-16.0.0[${PYTHON_USEDEP}]
-	gui? ( ~dev-python/pyside6-6.8.0.1[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtdarktheme-fork[${PYTHON_USEDEP}] )
 	dev-python/mpegdash[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/pyside6-6.5.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-client-6.0[${PYTHON_USEDEP}]
 	>=dev-python/qtconsole-5.1[${PYTHON_USEDEP}]
 	dev-python/spinedb-api[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="darkstyle mysql odbc postgresql spellcheck sword-bibles test"
 DEPENDENCIES="dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/pyicu[${PYTHON_USEDEP}]
-	>=dev-python/pyside6-6.8[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/qtawesome[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]

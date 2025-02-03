@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark dev legacy socks"
-DEPENDENCIES=">=dev-python/pyside6-6.4.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/gpg-lite[${PYTHON_USEDEP}]
 	dev-python/libbiomedit[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.12.0[${PYTHON_USEDEP}]

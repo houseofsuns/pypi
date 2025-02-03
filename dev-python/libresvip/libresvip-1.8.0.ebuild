@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	desktop? ( dev-python/desktop-notifier[${PYTHON_USEDEP}] )
 	desktop? ( dev-python/fonticon-materialdesignicons7[${PYTHON_USEDEP}] )
 	desktop? ( >=dev-python/httpx-0.28.1[${PYTHON_USEDEP}] )
-	desktop? ( <dev-python/pyside6-6.8.2[${PYTHON_USEDEP}] )
+	desktop? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	desktop? ( dev-python/universal-pathlib[${PYTHON_USEDEP}] )
 	lxml? ( >=dev-python/lxml-5.3.0[${PYTHON_USEDEP}] )
 	mobile? ( dev-python/flet[${PYTHON_USEDEP}] )

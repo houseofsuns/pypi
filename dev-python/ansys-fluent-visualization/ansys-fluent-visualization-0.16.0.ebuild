@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ansys-fluent-core[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.36.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.24.0[${PYTHON_USEDEP}]
-	<dev-python/pyside6-6.9.0[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	dev-python/pyvistaqt[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.7.0[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	~dev-python/pyqtgraph-0.13.7[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
 	~dev-python/faust-cchardet-2.1.19[${PYTHON_USEDEP}]

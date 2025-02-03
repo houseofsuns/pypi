@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dwc edf excel parquet shortcuts"
-DEPENDENCIES="<dev-python/pyside6-7.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	<dev-python/pathvalidate-4.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]

@@ -54,9 +54,9 @@ DEPENDENCIES=">=dev-python/cachetools-3.0[${PYTHON_USEDEP}]
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/Photini[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/Photini[${PYTHON_USEDEP}] )
-	pyside6-linux? ( >=dev-python/pyside6-6.2[${PYTHON_USEDEP}] )
-	pyside6-windows? ( >=dev-python/pyside6-6.2[${PYTHON_USEDEP}] )
-	pyside6-darwin? ( >=dev-python/pyside6-6.2[${PYTHON_USEDEP}] )
+	pyside6-linux? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	pyside6-windows? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	pyside6-darwin? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gpxpy? ( dev-python/gpxpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

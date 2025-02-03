@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	>=dev-python/pyside6-6.5.1[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24[${PYTHON_USEDEP}]
 	>=dev-python/xlsxwriter-1.3.3[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]

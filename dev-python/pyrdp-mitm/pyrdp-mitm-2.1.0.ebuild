@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	>=dev-python/twisted-23.0[${PYTHON_USEDEP}]
 	full? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/av[${PYTHON_USEDEP}] )
-	full? ( <dev-python/pyside6-7.0[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	full? ( dev-python/qimage2ndarray[${PYTHON_USEDEP}] )
 	full? ( dev-python/py-notifier[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

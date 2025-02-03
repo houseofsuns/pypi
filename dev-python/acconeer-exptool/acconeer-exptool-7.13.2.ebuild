@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/attributes-doc[${PYTHON_USEDEP}]
 	app? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
 	app? ( dev-python/pyqtdarktheme[${PYTHON_USEDEP}] )
 	app? ( >=dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}] )
-	app? ( <dev-python/pyside6-6.8[${PYTHON_USEDEP}] )
+	app? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	app? ( dev-python/qtawesome[${PYTHON_USEDEP}] )
 	app? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	app? ( dev-python/scipy[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter pyvista qt"
-DEPENDENCIES="qt? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="qt? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	dev-python/fluiddyn[${PYTHON_USEDEP}]
 	dev-python/fluidsim-core[${PYTHON_USEDEP}]
 	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]

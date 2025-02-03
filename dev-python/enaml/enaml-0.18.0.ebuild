@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/atom[${PYTHON_USEDEP}]
 	qt6-pyqt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	qt6-pyqt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	qt6-pyside? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	qt6-pyside? ( >=dev-python/pyside6-6.2.3[${PYTHON_USEDEP}] )
+	qt6-pyside? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	scintilla-qt5-pyqt? ( dev-python/QScintilla[${PYTHON_USEDEP}] )
 	scintilla-qt6-pyqt? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
 	vtk-qt? ( dev-python/vtk[${PYTHON_USEDEP}] )

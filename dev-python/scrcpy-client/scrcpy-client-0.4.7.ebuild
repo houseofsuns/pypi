@@ -27,6 +27,6 @@ IUSE="ui"
 DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/adbutils[${PYTHON_USEDEP}]
-	ui? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )"
+	ui? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

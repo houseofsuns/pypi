@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/BitstampClient[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
-	gui? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

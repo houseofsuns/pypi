@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/dlclibrary[${PYTHON_USEDEP}]
 	apple-mchips? ( dev-python/tensorpack[${PYTHON_USEDEP}] )
 	apple-mchips? ( dev-python/tf-slim[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	gui? ( ~dev-python/pyside6-6.4.2[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gui? ( ~dev-python/qdarkstyle-3.1[${PYTHON_USEDEP}] )
 	gui? ( dev-python/napari-deeplabcut[${PYTHON_USEDEP}] )
 	modelzoo? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )

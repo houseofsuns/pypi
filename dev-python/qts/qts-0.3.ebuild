@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	pyside6? ( ~dev-python/pyside6-6.0[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	s_pytest? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	s_towncrier? ( ~dev-python/towncrier-21.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

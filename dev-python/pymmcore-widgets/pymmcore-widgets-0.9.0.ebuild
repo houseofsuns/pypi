@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/fonticon-materialdesignicons6[${PYTHON_USEDEP}]
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	pyside6? ( ~dev-python/pyside6-6.7.3[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )

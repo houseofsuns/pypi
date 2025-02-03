@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/ExifRead[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
 	dev-python/tablib[${PYTHON_USEDEP}]
 	dev-python/pyreadr[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.8.0.2[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/hachoir[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/typer-slim[${PYTHON_USEDEP}]
 	<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-12.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
-	gui? ( <dev-python/pyside6-7.0.0.0[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
 	dev-python/comicon[${PYTHON_USEDEP}]"

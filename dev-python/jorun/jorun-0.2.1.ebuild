@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.5.0[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/tinyioc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

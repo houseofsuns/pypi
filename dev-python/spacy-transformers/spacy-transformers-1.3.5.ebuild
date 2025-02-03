@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="spaCy pipelines for pre-trained BERT and other transformers"
+DESCRIPTION="spaCy pipelines for pre-trained BERT and other transformers [top-max 1.3.7]"
 
 HOMEPAGE="https://spacy.io"
 LICENSE="MIT"

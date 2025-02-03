@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/pyside6-6.4.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/py-machineid[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]

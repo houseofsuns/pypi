@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	pyside6? ( <dev-python/pyside6-6.8[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	test? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	test? ( dev-python/msgspec[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )

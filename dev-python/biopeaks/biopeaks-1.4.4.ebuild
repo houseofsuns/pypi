@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
-	>=dev-python/pyside6-6.2.2[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	pyinstaller? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

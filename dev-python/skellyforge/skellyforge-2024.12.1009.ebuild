@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.6[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	~dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]

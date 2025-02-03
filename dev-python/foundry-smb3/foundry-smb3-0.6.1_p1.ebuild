@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/pyside6-6.3.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.9.2[${PYTHON_USEDEP}]
 	dev-python/qt-material[${PYTHON_USEDEP}]

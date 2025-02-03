@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/bec-ipython-client[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-timeout-2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xvfb-3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	pyside6? ( ~dev-python/pyside6-6.7.2[${PYTHON_USEDEP}] )"
+	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

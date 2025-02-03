@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gui"
 DEPENDENCIES="dev-python/mutagen[${PYTHON_USEDEP}]
 	<dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
-	gui? ( <dev-python/pyside6-6.7[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	dev-python/pyffmpeg[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]

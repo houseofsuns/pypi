@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/pyside6-6.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/asyncqt[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.9[${PYTHON_USEDEP}]
 	dev-python/moteus[${PYTHON_USEDEP}]

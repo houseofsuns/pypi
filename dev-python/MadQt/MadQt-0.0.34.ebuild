@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<=dev-python/pyside6-6.4.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
 	>=dev-python/pillow-8.3.0[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

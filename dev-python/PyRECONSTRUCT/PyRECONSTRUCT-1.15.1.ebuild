@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/vtk[${PYTHON_USEDEP}]
-	~dev-python/pyside6-6.5.2[${PYTHON_USEDEP}]
+	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.23.2[${PYTHON_USEDEP}]

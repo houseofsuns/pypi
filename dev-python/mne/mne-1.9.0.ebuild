@@ -265,7 +265,7 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	full-pyside6? ( dev-python/pybv[${PYTHON_USEDEP}] )
 	full-pyside6? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
 	full-pyside6? ( dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}] )
-	full-pyside6? ( >dev-python/pyside6-6.7.0[${PYTHON_USEDEP}] )
+	full-pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	full-pyside6? ( dev-python/python-picard[${PYTHON_USEDEP}] )
 	full-pyside6? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	full-pyside6? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )

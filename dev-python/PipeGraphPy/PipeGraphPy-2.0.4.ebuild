@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="核心算法框架 [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f41d576f920>)]"
+DESCRIPTION="核心算法框架 [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6cc0669230>)]"
 
 HOMEPAGE="https://gitee.com/zsq_tee/pipe-graph-py"
 LICENSE="Private"

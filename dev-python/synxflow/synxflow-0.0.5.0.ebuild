@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simulating Mass Movement and Flood Inundation for Multi-hazard Risk Assessment"
+DESCRIPTION="Simulating Mass Movement and Flood Inundation for Multi-hazard Risk Assessment [top-max 1.0.1]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small package for data processing"
+DESCRIPTION="A small package for data processing [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/HungDaoHD/packaging_dpkits"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module for reading GT3X/AGDC file format data"
+DESCRIPTION="Python module for reading GT3X/AGDC file format data [top-max 0.7.1]"
 
 HOMEPAGE="https://github.com/actigraph/pygt3x"
 LICENSE="GPL-3+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to parse Dutch Smart Meter Requirements (DSMR)"
+DESCRIPTION="Library to parse Dutch Smart Meter Requirements (DSMR) [top-max 1.4.3]"
 
 HOMEPAGE="https://github.com/ndokter/dsmr_parser"
 LICENSE="MIT"

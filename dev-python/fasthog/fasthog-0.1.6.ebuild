@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reasonably fast implementation of HOG descriptor calculation"
+DESCRIPTION="Reasonably fast implementation of HOG descriptor calculation [top-max 0.1.7]"
 
 HOMEPAGE="https://github.com/flatironinstitute/fasthog"
 LICENSE=""

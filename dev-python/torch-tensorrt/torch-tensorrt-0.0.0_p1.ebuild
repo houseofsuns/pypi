@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Torch-TensorRT is a package which allows users to automatically compile PyTorch and TorchScript modules to TensorRT while remaining in PyTorch [top-max 2.5.0]"
+DESCRIPTION="Torch-TensorRT is a package which allows users to automatically compile PyTorch and TorchScript modules to TensorRT while remaining in PyTorch [top-max 2.6.0]"
 
 HOMEPAGE="https://github.com/NVIDIA/Torch-TensorRT"
 LICENSE="BSD"

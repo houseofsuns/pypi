@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="XGBoost runtime for MLServer"
+DESCRIPTION="XGBoost runtime for MLServer [top-max 1.7.0_rc1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

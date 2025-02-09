@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface of struqture, the HQS tool for representing operators, Hamiltonians and open systems. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe6cf7376f0>)]"
+DESCRIPTION="Python interface of struqture, the HQS tool for representing operators, Hamiltonians and open systems. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f038a34c350>)]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0 AND Apache-2.0 with LLVM-exception AND MIT AND Unicode-DFS-2016 AND BSD-2-Clause AND BSD-3-CLause"

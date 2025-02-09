@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IFC model auditing tool with support for IDS [top-max 0.8.0]"
+DESCRIPTION="IFC model auditing tool with support for IDS [top-max 0.8.1]"
 
 HOMEPAGE="http://ifcopenshell.org"
 LICENSE=""

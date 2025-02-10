@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for digital signing and verification of digital signatures in mail, PDF and XML documents. [top-max 2.18.0]"
+DESCRIPTION="Library for digital signing and verification of digital signatures in mail, PDF and XML documents. [top-max 2.18.1]"
 
 HOMEPAGE="https://github.com/m32/endesive"
 LICENSE="MIT"

@@ -27,7 +27,7 @@ IUSE="uv"
 DEPENDENCIES="dev-python/bashlex[${PYTHON_USEDEP}]
 	dev-python/bracex[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/dependency-groups[${PYTHON_USEDEP}]
+	>=dev-python/dependency-groups-1.2[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]

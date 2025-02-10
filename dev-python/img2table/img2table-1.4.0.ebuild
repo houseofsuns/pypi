@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="img2table is a table identification and extraction Python Library for PDF and images, based on OpenCV image processing"
+DESCRIPTION="img2table is a table identification and extraction Python Library for PDF and images, based on OpenCV image processing [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/xavctn/img2table"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Metapackage to install all LOBSTER Tools [top-max 0.9.21]"
+DESCRIPTION="Metapackage to install all LOBSTER Tools [top-max 0.10.0]"
 
 HOMEPAGE="https://github.com/bmw-software-engineering/lobster"
 LICENSE="AGPL-3"

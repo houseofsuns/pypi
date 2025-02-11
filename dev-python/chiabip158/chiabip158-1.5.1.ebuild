@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chia BIP158 (wraps C++)"
+DESCRIPTION="Chia BIP158 (wraps C++) [top-max 1.5.2]"
 
 HOMEPAGE="https://github.com/Chia-Network/chiabip158"
 LICENSE="Apache License"

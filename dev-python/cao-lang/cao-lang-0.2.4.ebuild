@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The node based 'language' that governs the actors of the game Cao-Lo [top-max 0.2.5]"
+DESCRIPTION="The node based 'language' that governs the actors of the game Cao-Lo [top-max 0.2.6]"
 
 HOMEPAGE="https://github.com/caolo-game/cao-lang"
 LICENSE=""

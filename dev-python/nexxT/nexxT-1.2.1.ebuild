@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An extensible framework."
+DESCRIPTION="An extensible framework. [top-max 1.2.3]"
 
 HOMEPAGE="https://github.com/ifm/nexxT"
 LICENSE="Apache-2.0"

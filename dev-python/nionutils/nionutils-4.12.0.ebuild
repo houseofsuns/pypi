@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nion utility classes. [top-max 4.13.0]"
+DESCRIPTION="Nion utility classes. [top-max 4.14.0]"
 
 HOMEPAGE="https://github.com/nion-software/nionutils"
 LICENSE="Apache-2.0"

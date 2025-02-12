@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rapid Optimal Control Kit [top-max 0.4.9]"
+DESCRIPTION="Rapid Optimal Control Kit [top-max 0.5.0]"
 
 HOMEPAGE="https://gitlab.kuleuven.be/meco-software/rockit"
 LICENSE="LICENSE"

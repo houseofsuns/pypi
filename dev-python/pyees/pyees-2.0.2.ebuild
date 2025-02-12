@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EES but for python. Pyees can be used do perform uncertanty (error) propagation. Furthermore, it can solve nonlinear systems of equations and look up material properties. [top-max 2.1.4]"
+DESCRIPTION="EES but for python. Pyees can be used do perform uncertanty (error) propagation. Furthermore, it can solve nonlinear systems of equations and look up material properties. [top-max 2.1.7]"
 
 HOMEPAGE="https://github.com/jacobv95/pyees"
 LICENSE="MIT"

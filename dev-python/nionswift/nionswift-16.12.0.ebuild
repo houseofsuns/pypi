@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nion Swift: Scientific Image Processing. [top-max 16.13.0]"
+DESCRIPTION="Nion Swift: Scientific Image Processing. [top-max 16.14.0]"
 
 HOMEPAGE="https://github.com/nion-software/nionswift"
 LICENSE="GPL-3"

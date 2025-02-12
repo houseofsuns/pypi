@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Nion Swift library for STEM instrumentation (Camera, Scan, Video, Microscope). [top-max 23.2.0]"
+DESCRIPTION="A Nion Swift library for STEM instrumentation (Camera, Scan, Video, Microscope). [top-max 23.2.1]"
 
 HOMEPAGE="https://github.com/nion-software/nionswift-instrumentation-kit"
 LICENSE="GPL-3"

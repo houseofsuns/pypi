@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Wrapper Library for Microchip Security Products"
+DESCRIPTION="Python Wrapper Library for Microchip Security Products [top-max 20250213]"
 
 HOMEPAGE="https://github.com/MicrochipTech/cryptoauthlib"
 LICENSE="Other"

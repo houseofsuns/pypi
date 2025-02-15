@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NionSwift IO handlers. [top-max 15.4.0]"
+DESCRIPTION="NionSwift IO handlers. [top-max 15.4.1]"
 
 HOMEPAGE="https://github.com/nion-software/nionswift-io"
 LICENSE="Apache-2.0"

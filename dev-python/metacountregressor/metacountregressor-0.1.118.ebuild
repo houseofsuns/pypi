@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extensions for a Python package for estimation of count models. [top-max 0.1.120]"
+DESCRIPTION="Extensions for a Python package for estimation of count models. [new-max 2025-02-14 06:54:50.209179+00:00]"
 
 HOMEPAGE="https://github.com/zahern/CountDataEstimation"
 LICENSE="QUT"

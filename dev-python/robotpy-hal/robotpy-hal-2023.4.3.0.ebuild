@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binary wrapper for FRC HAL [top-max 2025.2.1.2]"
+DESCRIPTION="Binary wrapper for FRC HAL [top-max 2025.3.1.0]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-hal"
 LICENSE="BSD"

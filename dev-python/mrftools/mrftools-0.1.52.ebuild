@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for Magnetic Resonance Fingerprinting"
+DESCRIPTION="Tools for Magnetic Resonance Fingerprinting [new-max 2025-02-12 16:44:48.709779+00:00]"
 
 HOMEPAGE="https://gitlab.casemri.com/common-resources/mrftools"
 LICENSE=""

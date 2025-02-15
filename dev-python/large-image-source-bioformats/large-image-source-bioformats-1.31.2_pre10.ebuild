@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An bioformats tilesource for large_image. [top-max 1.32.0_alpha2]"
+DESCRIPTION="An bioformats tilesource for large_image. [top-max 1.32.0_alpha3]"
 
 HOMEPAGE="https://github.com/girder/large_image"
 LICENSE="Apache Software License 2.0"

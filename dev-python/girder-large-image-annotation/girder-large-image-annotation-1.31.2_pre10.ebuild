@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Girder plugin to store and display annotations on large, multiresolution images. [top-max 1.32.0_alpha2]"
+DESCRIPTION="A Girder plugin to store and display annotations on large, multiresolution images. [top-max 1.32.0_alpha3]"
 
 HOMEPAGE="https://github.com/girder/large_image"
 LICENSE="Apache Software License 2.0"

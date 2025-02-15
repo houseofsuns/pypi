@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK and CLI for Dataloop platform [top-max 1.104.14]"
+DESCRIPTION="SDK and CLI for Dataloop platform [top-max 1.105.6]"
 
 HOMEPAGE="https://github.com/dataloop-ai/dtlpy"
 LICENSE="Apache-2.0"

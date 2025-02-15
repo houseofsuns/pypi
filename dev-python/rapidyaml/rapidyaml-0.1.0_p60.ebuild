@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rapid YAML - a library to parse and emit YAML, and do it fast. [top-max 0.7.0]"
+DESCRIPTION="Rapid YAML - a library to parse and emit YAML, and do it fast. [top-max 0.8.0]"
 
 HOMEPAGE="https://github.com/biojppm/rapidyaml"
 LICENSE="MIT"

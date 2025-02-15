@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Arcade Learning Environment (ALE) - a platform for AI research."
+DESCRIPTION="The Arcade Learning Environment (ALE) - a platform for AI research. [top-max 0.10.2]"
 
 HOMEPAGE="https://github.com/Farama-Foundation/Arcade-Learning-Environment"
 LICENSE="GPL-2"

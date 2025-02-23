@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-apache-livy for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-apache-livy for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4b00873f40>)]"
 
 HOMEPAGE=""
 LICENSE=""

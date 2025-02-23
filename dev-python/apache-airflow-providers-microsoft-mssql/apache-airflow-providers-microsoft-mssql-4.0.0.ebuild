@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-microsoft-mssql for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-microsoft-mssql for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4b0070f5a0>)]"
 
 HOMEPAGE=""
 LICENSE=""

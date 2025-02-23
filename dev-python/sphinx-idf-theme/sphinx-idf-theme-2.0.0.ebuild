@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IDF theme for Sphinx, based on Read The Docs theme"
+DESCRIPTION="IDF theme for Sphinx, based on Read The Docs theme [top-max 2.0.1]"
 
 HOMEPAGE="https://github.com/espressif/sphinx_idf_theme"
 LICENSE="MIT"

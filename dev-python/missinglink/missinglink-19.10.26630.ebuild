@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-1.6[${PYTHON_USEDEP}]
 	~dev-python/humanize-0.5[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.28[${PYTHON_USEDEP}]

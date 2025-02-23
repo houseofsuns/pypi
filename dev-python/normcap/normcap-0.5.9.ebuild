@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build"
 DEPENDENCIES="~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
 	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
-	~dev-python/shiboken6-6.7.1[${PYTHON_USEDEP}]
+	dev-python/shiboken6[${PYTHON_USEDEP}]
 	build? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	build? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

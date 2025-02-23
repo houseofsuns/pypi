@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cython wrapper for Auburns' FastNoise Lite."
+DESCRIPTION="Cython wrapper for Auburns' FastNoise Lite. [top-max 0.0.6]"
 
 HOMEPAGE="https://github.com/tizilogic/pyfastnoiselite"
 LICENSE=""

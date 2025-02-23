@@ -32,6 +32,6 @@ DEPENDENCIES=">=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
 	>=dev-python/oauthlib-1.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.5.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2014.10[${PYTHON_USEDEP}]
-	>=dev-python/terminaltables-2.1.0[${PYTHON_USEDEP}]"
+	dev-python/terminaltables[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

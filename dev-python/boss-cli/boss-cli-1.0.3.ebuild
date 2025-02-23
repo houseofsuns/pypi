@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/fabric[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.6.5[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	~dev-python/hvac-0.6.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-3.2.3[${PYTHON_USEDEP}] )

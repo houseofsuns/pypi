@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/requests-2.28[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.20[${PYTHON_USEDEP}]
 	dev-python/coreschema[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	~dev-python/tblib-1.7[${PYTHON_USEDEP}]"

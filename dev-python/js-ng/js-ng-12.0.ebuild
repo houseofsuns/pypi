@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/redis-4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/secretconf[${PYTHON_USEDEP}]
-	<dev-python/terminaltables-4.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/zipp-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

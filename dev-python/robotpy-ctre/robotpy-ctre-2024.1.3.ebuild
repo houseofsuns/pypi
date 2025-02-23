@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binary wrappers for the CTRE Phoenix library [top-max 2025.0.1]"
+DESCRIPTION="Binary wrappers for the CTRE Phoenix library [top-max 2025.0.2]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-ctre"
 LICENSE="MIT"

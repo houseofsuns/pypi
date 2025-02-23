@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/recommonmark[${PYTHON_USEDEP}]
 	dev-python/ShExJSG[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	<dev-python/terminaltables-4.0.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	<dev-python/tox-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/validators-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

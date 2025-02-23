@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gcp xattr"
 DEPENDENCIES="~dev-python/click-6.7[${PYTHON_USEDEP}]
 	~dev-python/requests-2.18[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-1.5[${PYTHON_USEDEP}]
 	~dev-python/retrying-1.3[${PYTHON_USEDEP}]
 	~dev-python/humanize-0.5[${PYTHON_USEDEP}]

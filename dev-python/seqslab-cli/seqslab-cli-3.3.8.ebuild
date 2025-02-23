@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pip-22.0.4[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1.10[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/secretstorage-3.3.3[${PYTHON_USEDEP}]

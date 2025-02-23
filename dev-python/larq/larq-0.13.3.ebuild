@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint tensorflow tensorflow_gpu test"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	>=dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.2[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )

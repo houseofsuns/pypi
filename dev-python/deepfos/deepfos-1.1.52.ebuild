@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Collecions of useful and handy tools for deepfos platform"
+DESCRIPTION="Collecions of useful and handy tools for deepfos platform [top-max 1.1.60]"
 
 HOMEPAGE="http://py.deepfos.com"
 LICENSE=""

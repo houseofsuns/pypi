@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	<dev-python/paramiko-3.0.0[${PYTHON_USEDEP}]
 	dev-python/impacket[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
-	<dev-python/terminaltables-4.0.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]
 	dev-python/pywerview[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

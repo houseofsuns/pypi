@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyside6[${PYTHON_USEDEP}]
-	>=dev-python/shiboken6-6.8.0.1[${PYTHON_USEDEP}]"
+	dev-python/shiboken6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

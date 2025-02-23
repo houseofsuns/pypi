@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.6[${PYTHON_USEDEP}]
 	~dev-python/setuptools-72.2.0[${PYTHON_USEDEP}]
 	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1.10[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	crash-reporter? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
 	irc? ( ~dev-python/irc-19.0.1[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
 	vpe? ( ~dev-python/protobuf-3.14.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/prompt-toolkit-3.0.43[${PYTHON_USEDEP}] )
 	all? ( dev-python/asciimatics[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/terminaltables-3.1.10[${PYTHON_USEDEP}] )
+	all? ( dev-python/terminaltables[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/irc-19.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/smbus2-asyncio[${PYTHON_USEDEP}] )

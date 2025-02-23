@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pip-22.0[${PYTHON_USEDEP}]
 	dev-python/pyconll[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	~dev-python/shiboken6-6.5.2[${PYTHON_USEDEP}]
+	dev-python/shiboken6[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/unix-ar[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/boto3-1.34.111[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
 	dev-python/awacs[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.34.111[${PYTHON_USEDEP}]"

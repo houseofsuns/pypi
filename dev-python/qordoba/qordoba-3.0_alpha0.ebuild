@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	~dev-python/requests-2.5.1[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.2.0[${PYTHON_USEDEP}]"

@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/more-itertools-8.2.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/tx-functional[${PYTHON_USEDEP}]
 	dev-python/graph-theory[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	~dev-python/jsonpickle-1.4.1[${PYTHON_USEDEP}]
 	arrow? ( ~dev-python/pyarrow-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

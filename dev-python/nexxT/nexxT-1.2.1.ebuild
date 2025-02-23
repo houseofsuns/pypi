@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An extensible framework. [top-max 1.2.3]"
+DESCRIPTION="An extensible framework. [top-max 1.2.5]"
 
 HOMEPAGE="https://github.com/ifm/nexxT"
 LICENSE="Apache-2.0"
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
-	~dev-python/shiboken6-6.8.2[${PYTHON_USEDEP}]
+	dev-python/shiboken6[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]

@@ -37,6 +37,6 @@ DEPENDENCIES="~dev-python/twisted-20.3.0[${PYTHON_USEDEP}]
 	~dev-python/flask-migrate-2.5.3[${PYTHON_USEDEP}]
 	dev-python/Flask-Script[${PYTHON_USEDEP}]
 	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]"
+	dev-python/terminaltables[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

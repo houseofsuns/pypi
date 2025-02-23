@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reusable Python, Django and PostgreSql utilities [top-max 1.1.5]"
+DESCRIPTION="Reusable Python, Django and PostgreSql utilities [top-max 1.2.1]"
 
 HOMEPAGE="https://gitlab.com/ipamo/zut"
 LICENSE=""

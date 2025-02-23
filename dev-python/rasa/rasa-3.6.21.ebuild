@@ -105,7 +105,7 @@ DEPENDENCIES="<dev-python/cachecontrol-0.13.0[${PYTHON_USEDEP}]
 	metal? ( dev-python/tensorflow-metal[${PYTHON_USEDEP}] )
 	dev-python/tensorflow-text[${PYTHON_USEDEP}]
 	dev-python/tensorflow-hub[${PYTHON_USEDEP}]
-	<dev-python/terminaltables-3.2.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	full? ( dev-python/transformers[${PYTHON_USEDEP}] )

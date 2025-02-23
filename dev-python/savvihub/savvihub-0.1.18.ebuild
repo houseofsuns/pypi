@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	>=dev-python/schema-0.7.4[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	~dev-python/sshpubkeys-3.3.1[${PYTHON_USEDEP}]
-	>=dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	dev-python/timeago[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"

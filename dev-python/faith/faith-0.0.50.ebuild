@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/asciitree[${PYTHON_USEDEP}]
 	~dev-python/redis-3.3.8[${PYTHON_USEDEP}]
 	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
-	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]"
+	dev-python/terminaltables[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

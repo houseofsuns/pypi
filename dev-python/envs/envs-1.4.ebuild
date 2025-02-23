@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli"
 DEPENDENCIES="cli? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	cli? ( <dev-python/terminaltables-4.0.0[${PYTHON_USEDEP}] )"
+	cli? ( dev-python/terminaltables[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

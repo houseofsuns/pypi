@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Handle .env files"
+DESCRIPTION="Handle .env files [top-max 0.9.9]"
 
 HOMEPAGE="https://github.com/pedroburon/dotenv"
 LICENSE="UNKNOWN"

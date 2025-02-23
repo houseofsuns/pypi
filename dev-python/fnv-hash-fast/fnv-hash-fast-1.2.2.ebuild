@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast version of fnv1a"
+DESCRIPTION="A fast version of fnv1a [top-max 1.2.3]"
 
 HOMEPAGE=""
 LICENSE="MIT"

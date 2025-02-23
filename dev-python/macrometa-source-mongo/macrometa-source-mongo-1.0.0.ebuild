@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/c8connector[${PYTHON_USEDEP}]
 	dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0[${PYTHON_USEDEP}]
-	<dev-python/terminaltables-3.2.0[${PYTHON_USEDEP}]
+	dev-python/terminaltables[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

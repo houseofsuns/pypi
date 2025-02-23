@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="mopidy-local"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -16,8 +16,8 @@ DESCRIPTION="Mopidy extension for playing music from your local music archive"
 
 HOMEPAGE="https://github.com/mopidy/mopidy-local"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/02/c5/d099a05df7d6b0687071aa7d2d7a3499802b3b4b641531cd46ec8e6e7035/mopidy_local-${REALVERSION}.tar.gz"
-SOURCEFILE="mopidy_local-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

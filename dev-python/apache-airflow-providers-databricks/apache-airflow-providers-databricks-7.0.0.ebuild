@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-databricks for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4b0070dd20>)]"
+DESCRIPTION="Provider package apache-airflow-providers-databricks for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feaa8e7b5a0>)]"
 
 HOMEPAGE=""
 LICENSE=""

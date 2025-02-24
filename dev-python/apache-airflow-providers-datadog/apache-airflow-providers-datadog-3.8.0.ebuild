@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-datadog for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feaa8e7b8b0>)]"
+DESCRIPTION="Provider package apache-airflow-providers-datadog for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fac07d60c80>)]"
 
 HOMEPAGE=""
 LICENSE=""

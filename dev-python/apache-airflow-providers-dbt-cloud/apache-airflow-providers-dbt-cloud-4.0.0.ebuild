@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-dbt-cloud for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feaa8e7ace0>)]"
+DESCRIPTION="Provider package apache-airflow-providers-dbt-cloud for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fac07d602e0>)]"
 
 HOMEPAGE=""
 LICENSE=""

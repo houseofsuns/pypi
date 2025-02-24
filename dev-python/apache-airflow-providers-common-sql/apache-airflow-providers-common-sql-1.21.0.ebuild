@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-common-sql for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feaa8e78200>)]"
+DESCRIPTION="Provider package apache-airflow-providers-common-sql for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fac07d605f0>)]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BEC server [top-max 3.12.0]"
+DESCRIPTION="BEC server [top-max 3.13.0]"
 
 HOMEPAGE="https://gitlab.psi.ch/bec/bec"
 LICENSE=""

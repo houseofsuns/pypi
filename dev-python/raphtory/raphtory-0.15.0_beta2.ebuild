@@ -16,8 +16,8 @@ DESCRIPTION="Python package for raphtory, a temporal graph library [wheel]"
 
 HOMEPAGE="https://github.com/Raphtory/raphtory/"
 LICENSE="GPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-cp310-macosx_10_12_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-cp310-macosx_10_12_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

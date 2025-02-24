@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Memory Efficient Deconstructed Vectorized Dataframe Interface"
+DESCRIPTION="Memory Efficient Deconstructed Vectorized Dataframe Interface [top-max 0.1.68]"
 
 HOMEPAGE="https://github.com/athenianco/medvedi"
 LICENSE="Apache-2.0"

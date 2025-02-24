@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.1.7.post1.dev31"
+REALVERSION="1.1.7.post1.dev34"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_12 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An API for the homematicip cloud [badver 1.1.7.post1.dev31]"
+DESCRIPTION="An API for the homematicip cloud [badver 1.1.7.post1.dev34]"
 
 HOMEPAGE="https://github.com/hahn-th/homematicip-rest-api"
 LICENSE="GPL-3+"

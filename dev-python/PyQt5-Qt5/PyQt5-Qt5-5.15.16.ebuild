@@ -16,8 +16,8 @@ DESCRIPTION="The subset of a Qt installation needed by PyQt5. [wheel]"
 
 HOMEPAGE="https://www.riverbankcomputing.com/software/pyqt/"
 LICENSE="LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-1-py3-none-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-1-py3-none-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

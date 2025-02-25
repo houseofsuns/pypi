@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-ftp for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f334c13de00>)]"
+DESCRIPTION="Provider package apache-airflow-providers-ftp for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f794534e1f0>)]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-cohere for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f334c13c7b0>)]"
+DESCRIPTION="Provider package apache-airflow-providers-cohere for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f794534cba0>)]"
 
 HOMEPAGE=""
 LICENSE=""

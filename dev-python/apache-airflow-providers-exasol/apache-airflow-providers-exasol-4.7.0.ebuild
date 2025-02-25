@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-exasol for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f334c13d460>)]"
+DESCRIPTION="Provider package apache-airflow-providers-exasol for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f794534d850>)]"
 
 HOMEPAGE=""
 LICENSE=""

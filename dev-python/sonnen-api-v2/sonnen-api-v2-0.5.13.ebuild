@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="# Sonnen API v2 package"
+DESCRIPTION="# Sonnen API v2 package [top-max 0.5.14]"
 
 HOMEPAGE="https://github.com/Katamave/sonnen_api_v2.git"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-amazon for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f334c0c9620>)]"
+DESCRIPTION="Provider package apache-airflow-providers-amazon for Apache Airflow [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f79452eda10>)]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Additional filters for django-admin."
+DESCRIPTION="Additional filters for django-admin. [top-max 1.11]"
 
 HOMEPAGE="https://github.com/thomst/django-more-admin-filters"
 LICENSE="BSD"

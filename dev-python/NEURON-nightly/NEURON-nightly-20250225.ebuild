@@ -16,8 +16,8 @@ DESCRIPTION="Empirically-based simulator for modeling neurons and networks of ne
 
 HOMEPAGE="https://neuron.yale.edu/neuron/"
 LICENSE="Copyright c Michael Hines BSD compatible"
-SRC_URI="https://files.pythonhosted.org/packages/6a/b3/0bbe69273c0bf97c19b65caf46d9cc5d2488213c6ab16c24e9f94d6d2f31/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/08/5d/b2ef49e377905feadc42b2f6ef692c976bb21c5e381ae0fb14c5dbc42334/neuron_nightly-${REALVERSION}-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+SOURCEFILE="neuron_nightly-${REALVERSION}-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

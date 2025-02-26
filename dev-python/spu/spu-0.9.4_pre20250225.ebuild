@@ -16,8 +16,8 @@ DESCRIPTION="SPU aims to be a 'provable', 'measurable' secure computation device
 
 HOMEPAGE="https://github.com/secretflow/spu"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-cp310-macosx_13_0_arm64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-cp310-macosx_13_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-cp310-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-cp310-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

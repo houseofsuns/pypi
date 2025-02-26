@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools to work with USFM references"
+DESCRIPTION="Tools to work with USFM references [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/bbelyeu/usfm-references"
 LICENSE="MIT"

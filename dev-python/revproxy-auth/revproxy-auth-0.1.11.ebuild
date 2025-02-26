@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reverse proxy with synology authentication"
+DESCRIPTION="Reverse proxy with synology authentication [top-max 0.1.16]"
 
 HOMEPAGE="https://github.com/Phornee/revproxy_auth"
 LICENSE=""

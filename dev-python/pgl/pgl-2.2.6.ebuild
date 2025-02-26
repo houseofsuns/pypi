@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Paddle Graph Learning [wheel]"
+DESCRIPTION="Paddle Graph Learning"
 
 HOMEPAGE="https://github.com/PaddlePaddle/PGL"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp36/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
-	>=dev-python/cython-0.25.2[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	>=dev-python/cython-0.25.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

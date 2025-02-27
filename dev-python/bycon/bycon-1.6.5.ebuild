@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python-based environment for the Beacon v2 genomics API [top-max 2.0.5]"
+DESCRIPTION="A Python-based environment for the Beacon v2 genomics API [top-max 2.2.4]"
 
 HOMEPAGE="https://github.com/progenetix/bycon"
 LICENSE=""

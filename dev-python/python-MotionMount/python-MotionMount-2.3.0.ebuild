@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Control your SIGNATURE MotionMount TVM7675 Pro using Python"
+DESCRIPTION="Control your SIGNATURE MotionMount TVM7675 Pro using Python [top-max 2.3.1]"
 
 HOMEPAGE="https://github.com/vogelsproducts/python-MotionMount"
 LICENSE=""

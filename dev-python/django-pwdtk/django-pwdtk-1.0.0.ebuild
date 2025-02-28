@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="package to tune django password authentification"
+DESCRIPTION="package to tune django password authentification [top-max 1.1.0_rc1]"
 
 HOMEPAGE="https://github.com/mhcomm/django-pwdtk"
 LICENSE="MIT"

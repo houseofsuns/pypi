@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command line client for Valohai [top-max 0.28.0]"
+DESCRIPTION="Command line client for Valohai [top-max 0.29.0]"
 
 HOMEPAGE="https://github.com/valohai/valohai-cli"
 LICENSE=""

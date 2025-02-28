@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pyfony framework development environment initializer [top-max 1.4.2]"
+DESCRIPTION="Pyfony framework development environment initializer [top-max 1.4.3]"
 
 HOMEPAGE="https://github.com/pyfony/penvy"
 LICENSE="MIT"

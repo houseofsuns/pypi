@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Embrace SQL keeps your SQL queries in SQL files. An anti-ORM inspired by HugSQL and PugSQL"
+DESCRIPTION="Embrace SQL keeps your SQL queries in SQL files. An anti-ORM inspired by HugSQL and PugSQL [top-max 4.4.0]"
 
 HOMEPAGE="https://hg.sr.ht/~olly/embrace-sql"
 LICENSE="Apache-2.0"

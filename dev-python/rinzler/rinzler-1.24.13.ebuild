@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django-based REST API Framework [new-max 2024-09-24 01:07:33.794184+00:00]"
+DESCRIPTION="Django-based REST API Framework [new-max 2025-02-28 17:13:10.200610+00:00]"
 
 HOMEPAGE="https://github.com/feliphebueno/Rinzler"
 LICENSE="MIT"

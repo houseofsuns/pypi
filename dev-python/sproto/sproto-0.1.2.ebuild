@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="sproto encode and decode [top-max 0.1.3]"
+DESCRIPTION="sproto encode and decode [top-max 0.1.4]"
 
 HOMEPAGE="https://github.com/synodriver/sproto"
 LICENSE="BSD"

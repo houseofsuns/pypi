@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MTGProxyPrinter allows efficient printing of Magic: The Gathering cards for playtesting purposes."
+DESCRIPTION="MTGProxyPrinter allows efficient printing of Magic: The Gathering cards for playtesting purposes. [top-max 0.30.0]"
 
 HOMEPAGE="https://chiselapp.com/user/luziferius/repository/MTGProxyPrinter/index"
 LICENSE="GNU GPLv3+, see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html for details"

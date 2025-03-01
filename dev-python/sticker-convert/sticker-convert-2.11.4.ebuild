@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convert (animated) stickers to/from WhatsApp, Telegram, Signal, Line, Kakao, Viber, Discord, iMessage. Written in Python."
+DESCRIPTION="Convert (animated) stickers to/from WhatsApp, Telegram, Signal, Line, Kakao, Viber, Discord, iMessage. Written in Python. [top-max 2.11.5]"
 
 HOMEPAGE="https://github.com/laggykiller/sticker-convert"
 LICENSE="GNU GENERAL PUBLIC LICENSE"

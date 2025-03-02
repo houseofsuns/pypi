@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A secure authentication module to manage user access in a Streamlit application."
+DESCRIPTION="A secure authentication module to manage user access in a Streamlit application. [top-max 0.4.2]"
 
 HOMEPAGE="https://github.com/mkhorasani/Streamlit-Authenticator"
 LICENSE=""

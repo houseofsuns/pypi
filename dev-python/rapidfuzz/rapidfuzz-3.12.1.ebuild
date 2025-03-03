@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="rapid fuzzy string matching"
+DESCRIPTION="rapid fuzzy string matching [top-max 3.12.2]"
 
 HOMEPAGE=""
 LICENSE=""

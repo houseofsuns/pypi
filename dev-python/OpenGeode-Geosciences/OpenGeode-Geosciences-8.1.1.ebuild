@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenGeode module for Geosciences [top-max 8.2.3_rc1]"
+DESCRIPTION="OpenGeode module for Geosciences [top-max 8.3.0_rc1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="d.velop DMS API wrapper for python"
+DESCRIPTION="d.velop DMS API wrapper for python [top-max 1.0.18]"
 
 HOMEPAGE="https://github.com/seb-bau/dvelop_dms_py"
 LICENSE="GPL-3"

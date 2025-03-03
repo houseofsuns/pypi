@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="utilities and conveniences for wxPython"
+DESCRIPTION="utilities and conveniences for wxPython [top-max 0.3.5]"
 
 HOMEPAGE="https://github.com/newville/wxutils"
 LICENSE="The MIT License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An automated tool for creating CVs on the fly. [top-max 1.1.15]"
+DESCRIPTION="An automated tool for creating CVs on the fly. [top-max 1.1.17]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Detect CSV column content [top-max 0.7.5_pre1139]"
+DESCRIPTION="Detect CSV column content [top-max 0.7.5_pre1180]"
 
 HOMEPAGE="https://github.com/etalab/csv_detective"
 LICENSE="http://www.fsf.org/licensing/licenses/agpl-3.0.html"

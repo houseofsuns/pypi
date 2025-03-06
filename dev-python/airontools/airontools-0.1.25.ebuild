@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AIronTools (Beta) is a Python library that provides the user with deep learning tools built to work with tensorflow as a backend. [top-max 0.1.54]"
+DESCRIPTION="AIronTools (Beta) is a Python library that provides the user with deep learning tools built to work with tensorflow as a backend. [top-max 0.1.55]"
 
 HOMEPAGE="https://github.com/AtrejuArtax/airontools"
 LICENSE="BSD"

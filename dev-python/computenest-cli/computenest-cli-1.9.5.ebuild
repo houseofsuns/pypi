@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A command line interface for running the compute nest project"
+DESCRIPTION="A command line interface for running the compute nest project [top-max 1.9.6]"
 
 HOMEPAGE="https://computenest.console.aliyun.com/welcome"
 LICENSE=""

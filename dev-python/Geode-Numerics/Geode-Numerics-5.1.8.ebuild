@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Numerical algorithm module [top-max 5.2.6_rc2]"
+DESCRIPTION="Numerical algorithm module [top-max 5.4.0_rc1]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

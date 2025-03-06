@@ -27,7 +27,7 @@ IUSE="dev doc dotnet jupyter pyvicp pyvisa-py-extras"
 DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/dulwich-0.20[${PYTHON_USEDEP}]
 	dev-python/feather-format[${PYTHON_USEDEP}]
-	dev-python/libusb1[${PYTHON_USEDEP}]
+	>=dev-python/libusb1-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]

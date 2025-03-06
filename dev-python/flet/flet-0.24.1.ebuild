@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flet for Python - easily build interactive multi-platform apps in Python [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f89d889eb90>)]"
+DESCRIPTION="Flet for Python - easily build interactive multi-platform apps in Python [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ff1c5e04200>)]"
 
 HOMEPAGE="https://flet.dev"
 LICENSE="Apache-2.0"

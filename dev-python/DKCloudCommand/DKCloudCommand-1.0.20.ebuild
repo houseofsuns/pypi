@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DataKitchen Cloud Command Line [top-max 1.3.7]"
+DESCRIPTION="DataKitchen Cloud Command Line [top-max 1.3.9]"
 
 HOMEPAGE="https://github.com/DataKitchen/DKCloudCommand"
 LICENSE="UNKNOWN"

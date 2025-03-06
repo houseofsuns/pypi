@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="muondatalib"
 REALVERSION="0.9.0b2"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reading and writing for ISIS muon experiments. [top-max 0.9.1_beta3]"
+DESCRIPTION="Reading and writing for ISIS muon experiments. [top-max 0.9.2_beta1]"
 
 HOMEPAGE=""
 LICENSE="BSD"

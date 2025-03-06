@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python client for the Drift DEX"
+DESCRIPTION="A Python client for the Drift DEX [top-max 0.8.31]"
 
 HOMEPAGE="https://github.com/drift-labs/driftpy"
 LICENSE="MIT"

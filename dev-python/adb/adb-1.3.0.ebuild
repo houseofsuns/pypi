@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/libusb1[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/libusb1-1.0.16[${PYTHON_USEDEP}]
 	<=dev-python/m2crypto-0.26.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

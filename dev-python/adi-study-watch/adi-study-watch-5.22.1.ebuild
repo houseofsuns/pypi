@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.61.0[${PYTHON_USEDEP}]
-	dev-python/libusb1[${PYTHON_USEDEP}]
+	~dev-python/libusb1-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

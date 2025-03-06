@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	dev-python/sockjs-tornado[${PYTHON_USEDEP}]
 	<dev-python/tornado-6.5[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
-	usb-plugs? ( dev-python/libusb1[${PYTHON_USEDEP}] )
+	usb-plugs? ( >=dev-python/libusb1-3.1.0[${PYTHON_USEDEP}] )
 	usb-plugs? ( >=dev-python/m2crypto-0.42.0[${PYTHON_USEDEP}] )
 	update-units? ( >=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}] )
 	serial-collection-plug? ( >=dev-python/pyserial-3.5[${PYTHON_USEDEP}] )

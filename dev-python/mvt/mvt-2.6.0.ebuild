@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/iOSbackup[${PYTHON_USEDEP}]
 	dev-python/adb-shell[${PYTHON_USEDEP}]
-	dev-python/libusb1[${PYTHON_USEDEP}]
+	>=dev-python/libusb1-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-42.0.5[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/pyahocorasick[${PYTHON_USEDEP}]"

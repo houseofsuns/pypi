@@ -16,8 +16,8 @@ DESCRIPTION="Intel® oneAPI DPC++/C++ Compiler Runtime [wheel]"
 
 HOMEPAGE="https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html"
 LICENSE="Intel End User License Agreement for Developer Tools"
-SRC_URI="https://files.pythonhosted.org/packages/py2.py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py2.py3-none-win_amd64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py2.py3-none-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py2.py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py2.py3-none-manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py2.py3-none-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

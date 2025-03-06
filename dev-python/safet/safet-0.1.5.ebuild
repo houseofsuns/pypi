@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/setuptools-19.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/click-6.2[${PYTHON_USEDEP}]
 	>=dev-python/hidapi-0.7.99_p20[${PYTHON_USEDEP}]
-	dev-python/libusb1[${PYTHON_USEDEP}]
+	>=dev-python/libusb1-1.6.4[${PYTHON_USEDEP}]
 	ethereum? ( dev-python/rlp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

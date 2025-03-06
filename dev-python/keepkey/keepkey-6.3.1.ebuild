@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/ecdsa-0.9[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	>=dev-python/hidapi-0.7.99_p15[${PYTHON_USEDEP}]
-	dev-python/libusb1[${PYTHON_USEDEP}]
+	>=dev-python/libusb1-1.6[${PYTHON_USEDEP}]
 	ethereum? ( dev-python/rlp[${PYTHON_USEDEP}] )
 	ethereum? ( dev-python/ethjsonrpc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

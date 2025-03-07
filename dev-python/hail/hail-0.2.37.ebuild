@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scalable library for exploring and analyzing genomic data. [top-max 0.2.133]"
+DESCRIPTION="Scalable library for exploring and analyzing genomic data. [top-max 0.2.134]"
 
 HOMEPAGE="https://hail.is"
 LICENSE=""

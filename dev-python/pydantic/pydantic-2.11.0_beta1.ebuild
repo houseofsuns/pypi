@@ -27,7 +27,7 @@ IUSE="email"
 DEPENDENCIES=">=dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-core-2.31.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
-	dev-python/typing-inspection[${PYTHON_USEDEP}]
+	>=dev-python/typing-inspection-0.4.0[${PYTHON_USEDEP}]
 	email? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

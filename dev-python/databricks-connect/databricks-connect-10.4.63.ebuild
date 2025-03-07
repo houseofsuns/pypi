@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Databricks Connect Client [new-max 2025-02-18 22:15:50.160473+00:00]"
+DESCRIPTION="Databricks Connect Client [new-max 2025-03-07 09:52:22.834528+00:00]"
 
 HOMEPAGE=""
 LICENSE="Databricks Proprietary License"

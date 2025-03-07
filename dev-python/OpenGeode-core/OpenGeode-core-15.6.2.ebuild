@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open source framework for representing and manipulating geometric models [top-max 15.14.0_rc3]"
+DESCRIPTION="Open source framework for representing and manipulating geometric models [top-max 15.14.1_rc1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

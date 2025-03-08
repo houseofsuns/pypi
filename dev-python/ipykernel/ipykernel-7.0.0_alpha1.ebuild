@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/anyio-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-26.0[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-5.4.0[${PYTHON_USEDEP}]
-	dev-python/zmq-anyio[${PYTHON_USEDEP}]
+	>=dev-python/zmq-anyio-0.3.6[${PYTHON_USEDEP}]
 	cov? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	cov? ( dev-python/curio[${PYTHON_USEDEP}] )
 	cov? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

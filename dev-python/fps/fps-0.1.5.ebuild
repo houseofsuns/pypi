@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test web"
 DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/anyioutils[${PYTHON_USEDEP}]
+	<dev-python/anyioutils-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/exceptiongroup[${PYTHON_USEDEP}]
 	dev-python/structlog[${PYTHON_USEDEP}]

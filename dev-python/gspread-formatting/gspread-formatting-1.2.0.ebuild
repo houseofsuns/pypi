@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Complete Google Sheets formatting support for gspread worksheets"
+DESCRIPTION="Complete Google Sheets formatting support for gspread worksheets [top-max 1.2.1]"
 
 HOMEPAGE="https://github.com/robin900/gspread-formatting"
 LICENSE="MIT"

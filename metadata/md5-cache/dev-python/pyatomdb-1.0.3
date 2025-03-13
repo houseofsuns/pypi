@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=AtomDB python library.
+EAPI=8
+HOMEPAGE=http://www.atomdb.org
+INHERIT=python-r1 gs-pypi
+IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+KEYWORDS=~amd64 ~x86
+LICENSE=Copyright 2015-25 Smithsonian Institution. Permission is granted to use, copy, modify, and distribute this software and its documentation for educational, research and non-profit purposes, without fee and without a signed licensing agreement, provided that this notice, including the following two paragraphs, appear in all copies, modifications and distributions. For commercial licensing, contact the Office of the Chief Information Officer, Smithsonian Institution, 380 Herndon Parkway, MRC 1010, Herndon, VA. 20170, 202-633-5256. This software and accompanying documentation is supplied as is without warranty of any kind. The copyright holder and the Smithsonian Institution: 1 expressly disclaim any warranties, express or implied, including but not limited to any implied warranties of merchantability, fitness for a particular purpose, title or non-infringement; 2 do not assume any legal liability or responsibility for the accuracy, completeness, or usefulness of the software; 3 do not represent that use of the software would not infringe privately owned rights; 4 do not warrant that the software is error-free or will be maintained, supported, updated or enhanced; 5 will not be liable for any indirect, incidental, consequential special or punitive damages of any kind or nature, including but not limited to lost profits or loss of data, on any basis arising from contract, tort or otherwise, even if any of the parties has been warned of the possibility of such loss or damage.
+RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/source/p/pyatomdb/pyatomdb-1.0.3.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	gs-distutils-r1	8d3844b6b903f08bc4e83bd198f8a72f	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	1ce6ce880db2f1f1e7842a13bd058366
+_md5_=1ec6f0dc2e3dd4dadecb61494ddb0f60

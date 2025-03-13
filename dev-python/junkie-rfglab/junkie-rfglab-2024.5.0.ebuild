@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="junkie is a JUpyter NotebooK Image Explorer [top-max 2025.3.0]"
+DESCRIPTION="junkie is a JUpyter NotebooK Image Explorer [top-max 2025.3.3]"
 
 HOMEPAGE="https://bitbucket.com/rfg_lab/junkie"
 LICENSE=""

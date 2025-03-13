@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create realistic networks of neurons, synapses placed using touch detection between axons and dendrites."
+DESCRIPTION="Create realistic networks of neurons, synapses placed using touch detection between axons and dendrites. [top-max 2.1.8]"
 
 HOMEPAGE="https://github.com/Hjorthmedh/Snudda"
 LICENSE="GPL-3"

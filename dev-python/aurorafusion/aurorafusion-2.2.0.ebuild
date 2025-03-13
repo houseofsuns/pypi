@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aurora package for particle transport, radiation and neutrals in magnetically-confined plasmas"
+DESCRIPTION="Aurora package for particle transport, radiation and neutrals in magnetically-confined plasmas [top-max 3.0.5]"
 
 HOMEPAGE="https://github.com/fsciortino/Aurora"
 LICENSE=""

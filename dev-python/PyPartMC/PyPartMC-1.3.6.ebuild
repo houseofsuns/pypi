@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="pypartmc"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to PartMC [top-max 1.4.2]"
+DESCRIPTION="Python interface to PartMC [top-max 1.5.0]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

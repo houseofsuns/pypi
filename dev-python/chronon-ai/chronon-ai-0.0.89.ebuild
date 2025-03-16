@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chronon python API library"
+DESCRIPTION="Chronon python API library [top-max 0.0.90_pre0]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for tracking motion in cardiac mps data"
+DESCRIPTION="Library for tracking motion in cardiac mps data [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/ComputationalPhysiology/mps_motion"
 LICENSE="MIT"

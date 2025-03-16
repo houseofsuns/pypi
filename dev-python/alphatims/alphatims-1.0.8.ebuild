@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package to index Bruker TimsTOF raw data for fast and easy accession and visualization"
+DESCRIPTION="A Python package to index Bruker TimsTOF raw data for fast and easy accession and visualization [top-max 1.0.9]"
 
 HOMEPAGE="https://github.com/MannLabs/alphatims"
 LICENSE="Apache-2.0"

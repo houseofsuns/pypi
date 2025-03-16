@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Experimental Python Bindings for querying GenomicsDB [top-max 0.1.3]"
+DESCRIPTION="Experimental Python Bindings for querying GenomicsDB [top-max 0.1.4]"
 
 HOMEPAGE=""
 LICENSE="MIT"

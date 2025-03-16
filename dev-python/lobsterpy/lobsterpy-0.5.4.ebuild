@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for automatic bonding analysis with Lobster/VASP"
+DESCRIPTION="Package for automatic bonding analysis with Lobster/VASP [top-max 0.5.5]"
 
 HOMEPAGE="https://jageo.github.io/LobsterPy/"
 LICENSE="BSD 3-Clause"

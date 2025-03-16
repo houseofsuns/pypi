@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to the ecCodes GRIB and BUFR decoder/encoder"
+DESCRIPTION="Python interface to the ecCodes GRIB and BUFR decoder/encoder [top-max 2.40.1]"
 
 HOMEPAGE="https://github.com/ecmwf/eccodes-python"
 LICENSE="Apache License Version 2.0"

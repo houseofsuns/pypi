@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a simple file server"
+DESCRIPTION="a simple file server [top-max 1.0.8]"
 
 HOMEPAGE="https://github.com/zkdfbb/kk"
 LICENSE="GPL-3"

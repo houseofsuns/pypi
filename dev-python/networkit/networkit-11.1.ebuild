@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NetworKit is a toolbox for high-performance network analysis"
+DESCRIPTION="NetworKit is a toolbox for high-performance network analysis [top-max 11.1_p1]"
 
 HOMEPAGE="https://networkit.github.io/"
 LICENSE="Copyright c 2013-2022 Henning Meyerhenke, NetworKit Contributors"

@@ -16,8 +16,8 @@ DESCRIPTION="Open source framework for representing and manipulating geometric m
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/15/16/547d567a700f9a61bd281e0835b12a651ad73bb00a889c1c2d23d01608ed/opengeode_core-${REALVERSION}-cp311-cp311-win_amd64.whl"
-SOURCEFILE="opengeode_core-${REALVERSION}-cp311-cp311-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/78/c8/cc6673e2438fa7fff1f4566f36650c10da09c78c08cd7053b0e597c84731/opengeode_core-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
+SOURCEFILE="opengeode_core-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

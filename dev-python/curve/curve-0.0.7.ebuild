@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A waveform manipulation and analysis library for Python"
+DESCRIPTION="A waveform manipulation and analysis library for Python [top-max 0.1.0]"
 
 HOMEPAGE="https://bitbucket.org/jpcgt/curve"
 LICENSE=""

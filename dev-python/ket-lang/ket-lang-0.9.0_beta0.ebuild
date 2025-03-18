@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="0.9.0b0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ket quantum programming language interpreter and library [wheel]"
+DESCRIPTION="Ket quantum programming language interpreter and library [top-max 0.9.0_pre5]"
 
 HOMEPAGE="https://quantumket.org"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-macosx_10_14_universal2.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-macosx_10_14_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -47,7 +47,6 @@ DEPENDENCIES="ibm? ( >=dev-python/qiskit-1.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/requests[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
 	full? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	full? ( dev-python/quforge[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	full? ( dev-python/quforge[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

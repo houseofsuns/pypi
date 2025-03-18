@@ -16,8 +16,8 @@ DESCRIPTION="Tools for estimating and computing Constant Frisch Elasticity (CFE)
 
 HOMEPAGE="https://bitbucket.org/ligonresearch/cfedemands"
 LICENSE="Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International license"
-SRC_URI="https://files.pythonhosted.org/packages/py2.py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py2.py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py2.py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/63/5b/ab2a44c6eea9f8f18157dd803831efb50fd839c816c55ea813fc4ad82390/cfedemands-${REALVERSION}-py2.py3-none-any.whl"
+SOURCEFILE="cfedemands-${REALVERSION}-py2.py3-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"

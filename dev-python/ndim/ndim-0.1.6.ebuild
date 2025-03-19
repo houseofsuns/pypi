@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multidimensional volumes and monomial integrals [top-max 0.1.32]"
+DESCRIPTION="Multidimensional volumes and monomial integrals [top-max 0.1.33]"
 
 HOMEPAGE=""
 LICENSE=""

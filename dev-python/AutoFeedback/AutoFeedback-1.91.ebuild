@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="autofeedback"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="check basic python exercises with pretty feedback [top-max 2.17]"
+DESCRIPTION="check basic python exercises with pretty feedback [top-max 2.19]"
 
 HOMEPAGE="https://github.com/abrown41/AutoFeedback"
 LICENSE="BSD 3-clause"

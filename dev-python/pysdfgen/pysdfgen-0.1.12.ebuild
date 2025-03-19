@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDFGen for Python"
+DESCRIPTION="SDFGen for Python [top-max 0.1.17]"
 
 HOMEPAGE="https://github.com/iory/pySDFGen"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ByzerLLM: Byzer LLM"
+DESCRIPTION="ByzerLLM: Byzer LLM [top-max 0.1.178]"
 
 HOMEPAGE=""
 LICENSE=""

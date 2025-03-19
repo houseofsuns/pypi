@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ESRP Release is a pathway to many abilities some consider to be, unnatural."
+DESCRIPTION="ESRP Release is a pathway to many abilities some consider to be, unnatural. [top-max 49]"
 
 HOMEPAGE="https://dev.azure.com/releaseado/MS.Ess.Release.VSTS.Extension/_git/esrp-release-test"
 LICENSE="MIT"

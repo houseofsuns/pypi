@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="pygsti"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python implementation of Gate Set Tomography"
+DESCRIPTION="A python implementation of Gate Set Tomography [top-max 0.9.13.1]"
 
 HOMEPAGE="http://www.pygsti.info"
 LICENSE=""

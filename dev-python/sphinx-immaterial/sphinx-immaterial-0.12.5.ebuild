@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Adaptation of mkdocs-material theme for the Sphinx documentation system [top-max 0.13.3]"
+DESCRIPTION="Adaptation of mkdocs-material theme for the Sphinx documentation system [top-max 0.13.4]"
 
 HOMEPAGE="https://github.com/jbms/sphinx-immaterial"
 LICENSE="MIT"

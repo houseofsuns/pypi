@@ -16,8 +16,8 @@ DESCRIPTION="An accurate natural language detection library, suitable for short 
 
 HOMEPAGE="https://github.com/pemistahl/lingua-rs"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-none-win32.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-none-win32.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-none-win_amd64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-none-win_amd64.whl"
 RESTRICT="test"
 
 SLOT="0"

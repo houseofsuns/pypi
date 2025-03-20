@@ -16,8 +16,8 @@ DESCRIPTION="Aspose.Finance for Python via .NET  is a scalable and feature-rich 
 
 HOMEPAGE="https://products.aspose.com/finance/"
 LICENSE="https://company.aspose.com/legal/eula"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-win32.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-win32.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

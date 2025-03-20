@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use Square APIs to manage and run business including payment, customer, product, inventory, and employee management. [top-max 40.1.0.220250220]"
+DESCRIPTION="Use Square APIs to manage and run business including payment, customer, product, inventory, and employee management. [top-max 41.0.0.20250319]"
 
 HOMEPAGE="https://squareup.com/developers"
 LICENSE=""

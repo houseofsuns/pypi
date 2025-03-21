@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-celery for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-celery for Apache Airflow [top-max 3.10.4_beta1]"
 
 HOMEPAGE=""
 LICENSE=""

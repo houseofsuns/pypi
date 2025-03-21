@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-cncf-kubernetes for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-cncf-kubernetes for Apache Airflow [top-max 10.4.0_beta1]"
 
 HOMEPAGE=""
 LICENSE=""

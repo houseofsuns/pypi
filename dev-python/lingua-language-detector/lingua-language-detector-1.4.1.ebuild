@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An accurate natural language detection library, suitable for short text and mixed-language text [top-max 2.0.2]"
+DESCRIPTION="An accurate natural language detection library, suitable for short text and mixed-language text [top-max 2.1.0]"
 
 HOMEPAGE="https://github.com/pemistahl/lingua-py"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An anti-capitalist ad-blocker that uses the hosts file"
+DESCRIPTION="An anti-capitalist ad-blocker that uses the hosts file [top-max 2.7.5]"
 
 HOMEPAGE="https://tblock.codeberg.page/"
 LICENSE="GPL-3"

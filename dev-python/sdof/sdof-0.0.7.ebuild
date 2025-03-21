@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightning-fast integration of single degree-of-freedom systems. [top-max 0.0.11]"
+DESCRIPTION="Lightning-fast integration of single degree-of-freedom systems. [top-max 0.0.12]"
 
 HOMEPAGE=""
 LICENSE=""

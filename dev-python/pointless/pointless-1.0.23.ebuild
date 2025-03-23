@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A read-only relocatable data structure for JSON like data, with C and Python APIs"
+DESCRIPTION="A read-only relocatable data structure for JSON like data, with C and Python APIs [top-max 1.0.24]"
 
 HOMEPAGE=""
 LICENSE=""

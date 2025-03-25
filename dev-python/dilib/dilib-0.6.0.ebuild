@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dependency injection library"
+DESCRIPTION="Dependency injection library [top-max 0.7.0]"
 
 HOMEPAGE="https://github.com/ansatzcapital/dilib"
 LICENSE="Apache-2.0"

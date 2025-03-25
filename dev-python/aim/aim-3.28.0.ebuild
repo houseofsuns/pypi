@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A super-easy way to record, search and compare AI experiments. [new-max 2025-03-22 20:13:49.053083+00:00]"
+DESCRIPTION="A super-easy way to record, search and compare AI experiments. [new-max 2025-03-24 20:14:37.396311+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Immutable Dependency Injection for Python. [top-max 0.2.247]"
+DESCRIPTION="Immutable Dependency Injection for Python. [top-max 0.2.248]"
 
 HOMEPAGE=""
 LICENSE="MIT"

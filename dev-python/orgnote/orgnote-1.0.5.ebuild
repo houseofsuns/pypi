@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple blog based on org-mode [top-max 1.0.6]"
+DESCRIPTION="A simple blog based on org-mode [top-max 1.0.7]"
 
 HOMEPAGE="https://github.com/LeslieZhu/OrgNote"
 LICENSE="GPL-3"

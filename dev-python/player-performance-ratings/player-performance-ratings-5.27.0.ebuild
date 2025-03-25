@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
-	dev-python/narwhals[${PYTHON_USEDEP}]
+	>=dev-python/narwhals-1.19.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-19.0.0[${PYTHON_USEDEP}]"

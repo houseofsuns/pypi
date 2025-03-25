@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="express"
-DEPENDENCIES="dev-python/narwhals[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/narwhals-1.15.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	express? ( dev-python/numpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

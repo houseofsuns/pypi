@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Industrial-strength Natural Language Processing (NLP) in Python [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fecfc2b3e60>)]"
+DESCRIPTION="Industrial-strength Natural Language Processing (NLP) in Python [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f21f1c12a40>)]"
 
 HOMEPAGE="https://spacy.io"
 LICENSE="MIT"

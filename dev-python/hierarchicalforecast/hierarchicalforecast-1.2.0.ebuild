@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/quadprog[${PYTHON_USEDEP}]
 	dev-python/clarabel[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/narwhals[${PYTHON_USEDEP}]
+	>=dev-python/narwhals-1.27.0[${PYTHON_USEDEP}]
 	dev-python/intel-cmplr-lib-rt[${PYTHON_USEDEP}]
 	dev? ( dev-python/datasetsforecast[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/ipython-8.32.0[${PYTHON_USEDEP}] )

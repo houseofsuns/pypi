@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev doc save"
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
-	dev-python/narwhals[${PYTHON_USEDEP}]
+	>=dev-python/narwhals-1.14.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.10.0[${PYTHON_USEDEP}]
 	all? ( dev-python/altair-tiles[${PYTHON_USEDEP}] )

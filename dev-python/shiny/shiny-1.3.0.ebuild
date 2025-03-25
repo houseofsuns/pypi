@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.10.0[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	>=dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/narwhals[${PYTHON_USEDEP}]
+	>=dev-python/narwhals-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.10.7[${PYTHON_USEDEP}]
 	theme? ( >=dev-python/libsass-0.23.0[${PYTHON_USEDEP}] )
 	theme? ( dev-python/brand-yml[${PYTHON_USEDEP}] )

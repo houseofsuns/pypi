@@ -27,7 +27,7 @@ IUSE="all notorch torch"
 DEPENDENCIES="dev-python/holidays[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
-	dev-python/narwhals[${PYTHON_USEDEP}]
+	>=dev-python/narwhals-1.25.1[${PYTHON_USEDEP}]
 	dev-python/nfoursid[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/holidays[${PYTHON_USEDEP}]
 	all? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/joblib-0.16.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/narwhals[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/narwhals-1.25.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/nfoursid[${PYTHON_USEDEP}] )
 	all? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )

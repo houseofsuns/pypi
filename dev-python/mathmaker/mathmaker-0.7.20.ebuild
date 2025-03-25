@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mathmaker creates automatically elementary maths exercises and their (detailed) answers. [top-max 0.7.26]"
+DESCRIPTION="Mathmaker creates automatically elementary maths exercises and their (detailed) answers. [top-max 0.7.27]"
 
 HOMEPAGE=""
 LICENSE="GPL-3+"

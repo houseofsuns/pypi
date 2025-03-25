@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easiest zero-config selenium webdriver for Python [top-max 1.6.3]"
+DESCRIPTION="Easiest zero-config selenium webdriver for Python [top-max 1.6.9]"
 
 HOMEPAGE="https://github.com/zackees/open-webdriver"
 LICENSE="MIT"

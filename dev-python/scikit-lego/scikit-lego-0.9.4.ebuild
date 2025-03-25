@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cvxpy dev docs formulaic test test-all umap utils"
-DEPENDENCIES="dev-python/narwhals[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/narwhals-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.0[${PYTHON_USEDEP}]
 	cvxpy? ( dev-python/cmake[${PYTHON_USEDEP}] )

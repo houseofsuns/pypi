@@ -247,7 +247,7 @@ DEPENDENCIES="~dev-python/aiohappyeyeballs-2.6.1[${PYTHON_USEDEP}]
 	browser? ( ~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/jsonschema-specifications-2024.10.1[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/markupsafe-3.0.2[${PYTHON_USEDEP}] )
-	browser? ( dev-python/narwhals[${PYTHON_USEDEP}] )
+	browser? ( ~dev-python/narwhals-1.31.0[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/numpy-1.26.4[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/packaging-24.2[${PYTHON_USEDEP}] )
 	browser? ( ~dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )

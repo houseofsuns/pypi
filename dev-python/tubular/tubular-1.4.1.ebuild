@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}]
-	dev-python/narwhals[${PYTHON_USEDEP}]
+	>=dev-python/narwhals-1.9.4[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev? ( dev-python/test-aide[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )

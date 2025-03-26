@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SPI data flash device drivers (pure Python)"
+DESCRIPTION="SPI data flash device drivers (pure Python) [top-max 0.6.5]"
 
 HOMEPAGE="http://github.com/eblot/pyspiflash"
 LICENSE="MIT"

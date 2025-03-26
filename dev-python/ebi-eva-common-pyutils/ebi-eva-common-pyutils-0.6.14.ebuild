@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EBI EVA - Common Python Utilities"
+DESCRIPTION="EBI EVA - Common Python Utilities [top-max 0.6.15]"
 
 HOMEPAGE="https://github.com/EBIVariation/eva-common-pyutils"
 LICENSE="Apache-2.0"

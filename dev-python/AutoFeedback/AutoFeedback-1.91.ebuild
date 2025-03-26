@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="check basic python exercises with pretty feedback [top-max 2.19]"
+DESCRIPTION="check basic python exercises with pretty feedback [top-max 2.20]"
 
 HOMEPAGE="https://github.com/abrown41/AutoFeedback"
 LICENSE="BSD 3-clause"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QuerySource is a Library for Querying Databases. QuerySource Query parser and generator. [top-max 3.15.26]"
+DESCRIPTION="QuerySource is a Library for Querying Databases. QuerySource Query parser and generator. [top-max 3.15.27]"
 
 HOMEPAGE="https://github.com/phenobarbital/querysource/"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chik BIP158 (wraps C++) [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb52fb7de00>)]"
+DESCRIPTION="Chik BIP158 (wraps C++) [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f0cfe8f9e00>)]"
 
 HOMEPAGE="https://github.com/Chik-Network/chikbip158"
 LICENSE="Apache License"

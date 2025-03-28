@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="streamerate: a fluent and expressive Python library for chainable iterable processing, inspired by Java 8 streams. [top-max 1.1.3]"
+DESCRIPTION="streamerate: a fluent and expressive Python library for chainable iterable processing, inspired by Java 8 streams. [top-max 1.1.4]"
 
 HOMEPAGE="https://github.com/asuiu/streamerate"
 LICENSE="MIT"

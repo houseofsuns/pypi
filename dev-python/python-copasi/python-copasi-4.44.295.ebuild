@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="COPASI Python API [top-max 4.45.296]"
+DESCRIPTION="COPASI Python API [top-max 4.45.297]"
 
 HOMEPAGE="http://copasi.org"
 LICENSE="Artistic"

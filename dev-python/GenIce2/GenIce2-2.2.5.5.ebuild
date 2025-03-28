@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Swiss army knife to generate hydrogen-disordered ice structures. [top-max 2.2.8.2]"
+DESCRIPTION="A Swiss army knife to generate hydrogen-disordered ice structures. [top-max 2.2.9]"
 
 HOMEPAGE=""
 LICENSE="MIT"

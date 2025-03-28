@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyZip is a package for handling zip-in-memory content as a dictionary."
+DESCRIPTION="PyZip is a package for handling zip-in-memory content as a dictionary. [top-max 0.3.0]"
 
 HOMEPAGE="http://github.com/ipazc/pyzip"
 LICENSE="MIT"

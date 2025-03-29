@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.2.65a3818.dev5"
+REALVERSION="1.2.65a3818.dev6"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Intelligent data search & enrichment for Machine Learning [badver 1.2.65a3818.dev5]"
+DESCRIPTION="Intelligent data search & enrichment for Machine Learning [badver 1.2.65a3818.dev6]"
 
 HOMEPAGE="https://upgini.com/"
 LICENSE=""

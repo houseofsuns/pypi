@@ -68,7 +68,7 @@ DEPENDENCIES=">=dev-python/boltons-20.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pylint-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-socket-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-xdist-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tokenize-rt-5.2.0[${PYTHON_USEDEP}] )

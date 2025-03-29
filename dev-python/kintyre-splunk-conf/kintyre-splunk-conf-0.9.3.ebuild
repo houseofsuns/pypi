@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KSCONF: Kintyre's Splunk Configuration Tool [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1a3d0e1fc0>)]"
+DESCRIPTION="KSCONF: Kintyre's Splunk Configuration Tool [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1b1f907370>)]"
 
 HOMEPAGE="https://github.com/Kintyre/ksconf"
 LICENSE="Apache-2.0"

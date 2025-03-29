@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Native Implementation of Telegram Calls in a seamless way."
+DESCRIPTION="A Native Implementation of Telegram Calls in a seamless way. [top-max 1.3.2]"
 
 HOMEPAGE="https://pytgcalls.github.io/"
 LICENSE=""

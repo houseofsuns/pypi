@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/foss-flame[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-forked-1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-icdiff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-socket-0.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-sugar-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-tldr[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xdist-3.6[${PYTHON_USEDEP}] )

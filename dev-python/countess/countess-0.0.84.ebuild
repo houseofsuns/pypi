@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/fqfa[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-socket-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

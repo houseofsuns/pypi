@@ -71,7 +71,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-socket-0.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-1.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-hep-testdata[${PYTHON_USEDEP}] )

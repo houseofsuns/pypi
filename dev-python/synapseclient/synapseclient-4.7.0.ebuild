@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.8[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-socket-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-socket-0.6.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}] )

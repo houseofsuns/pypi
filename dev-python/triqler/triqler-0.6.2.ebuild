@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A combined identification and quantification error model of label-free protein quantification [top-max 0.8.1]"
+DESCRIPTION="A combined identification and quantification error model of label-free protein quantification [top-max 0.8.2]"
 
 HOMEPAGE="https://github.com/statisticalbiotechnology/triqler"
 LICENSE="Apache-2.0"

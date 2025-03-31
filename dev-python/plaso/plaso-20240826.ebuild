@@ -86,6 +86,6 @@ DEPENDENCIES=">=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	>=dev-python/six-1.1.0[${PYTHON_USEDEP}]
 	dev-python/xattr[${PYTHON_USEDEP}]
 	>=dev-python/yara-python-3.4.0[${PYTHON_USEDEP}]
-	>=dev-python/zstd-1.3.0.2[${PYTHON_USEDEP}]"
+	dev-python/zstd[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

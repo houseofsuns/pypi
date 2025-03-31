@@ -293,6 +293,6 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/zeromq[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.16.2[${PYTHON_USEDEP}]
 	dev-python/zlib[${PYTHON_USEDEP}]
-	~dev-python/zstd-1.5.2[${PYTHON_USEDEP}]"
+	dev-python/zstd[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

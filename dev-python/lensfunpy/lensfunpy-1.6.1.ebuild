@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lens distortion correction for Python, a wrapper for lensfun [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f718680c9e0>)]"
+DESCRIPTION="Lens distortion correction for Python, a wrapper for lensfun [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa269d64d60>)]"
 
 HOMEPAGE="https://github.com/letmaik/lensfunpy"
 LICENSE=""

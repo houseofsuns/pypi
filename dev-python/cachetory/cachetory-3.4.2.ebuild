@@ -29,6 +29,6 @@ DEPENDENCIES="django? ( <dev-python/django-6.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
-	zstd? ( <dev-python/zstd-2.0.0.0[${PYTHON_USEDEP}] )"
+	zstd? ( dev-python/zstd[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

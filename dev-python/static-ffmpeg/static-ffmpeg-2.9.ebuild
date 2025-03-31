@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cross platform ffmpeg to work on various systems. [top-max 2.12]"
+DESCRIPTION="Cross platform ffmpeg to work on various systems. [top-max 2.13]"
 
 HOMEPAGE=""
 LICENSE="MIT"

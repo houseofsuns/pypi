@@ -79,7 +79,7 @@ DEPENDENCIES=">=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/types-setuptools-75.5.0.20241122[${PYTHON_USEDEP}] )
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-4.0.1[${PYTHON_USEDEP}]
-	>=dev-python/zstd-1.5.5.1[${PYTHON_USEDEP}]
-	>=dev-python/zstd-1.5.5.1[${PYTHON_USEDEP}]"
+	dev-python/zstd[${PYTHON_USEDEP}]
+	dev-python/zstd[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

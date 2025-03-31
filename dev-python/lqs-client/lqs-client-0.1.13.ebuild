@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/lz4-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/zstd-2.0.0[${PYTHON_USEDEP}]
+	dev-python/zstd[${PYTHON_USEDEP}]
 	dev-python/s3path[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

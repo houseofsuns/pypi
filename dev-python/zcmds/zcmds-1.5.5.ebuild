@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cross platform(ish) productivity commands written in python. [top-max 1.5.14]"
+DESCRIPTION="Cross platform(ish) productivity commands written in python. [top-max 1.5.18]"
 
 HOMEPAGE="https://github.com/zackees/zcmds"
 LICENSE="BSD 3-Clause License"

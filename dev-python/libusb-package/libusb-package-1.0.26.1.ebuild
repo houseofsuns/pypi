@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package containing libusb so it can be installed via Python package managers [top-max 1.0.26.2]"
+DESCRIPTION="Package containing libusb so it can be installed via Python package managers [top-max 1.0.26.3]"
 
 HOMEPAGE="https://github.com/pyocd/libusb-package"
 LICENSE="Apache-2.0"

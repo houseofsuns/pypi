@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Imaging Library (Fork)"
+DESCRIPTION="Python Imaging Library (Fork) [top-max 11.2.0]"
 
 HOMEPAGE="https://python-pillow.github.io"
 LICENSE="MIT-CMU"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NLP library for Twitter."
+DESCRIPTION="NLP library for Twitter. [top-max 0.4.5]"
 
 HOMEPAGE="https://github.com/cardiffnlp/tweetnlp"
 LICENSE="MIT"

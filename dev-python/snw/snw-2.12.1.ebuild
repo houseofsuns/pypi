@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="snw client tool"
+DESCRIPTION="snw client tool [top-max 2.12.2]"
 
 HOMEPAGE="http://www.systransoft.com"
 LICENSE=""

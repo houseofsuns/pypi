@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A molecule reading/writing and manipulation package. [top-max 1.9.33]"
+DESCRIPTION="A molecule reading/writing and manipulation package. [top-max 1.9.34]"
 
 HOMEPAGE="https://github.com/Acellera/moleculekit"
 LICENSE=""

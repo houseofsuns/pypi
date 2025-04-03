@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An easier api test framework."
+DESCRIPTION="An easier api test framework. [top-max 1.0.35]"
 
 HOMEPAGE="https://github.com/bruce4520196/ApiTestEz"
 LICENSE=""

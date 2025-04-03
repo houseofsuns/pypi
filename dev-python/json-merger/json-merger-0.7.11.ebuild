@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python module that is able to merge json record objects."
+DESCRIPTION="Python module that is able to merge json record objects. [top-max 0.7.14]"
 
 HOMEPAGE="https://github.com/inveniosoftware-contrib/json-merger"
 LICENSE="GPL-2"

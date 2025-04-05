@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Search for words, documents, images, news, maps and text translation using the DuckDuckGo.com search engine. [top-max 2025.4.1]"
+DESCRIPTION="Search for words, documents, images, news, maps and text translation using the DuckDuckGo.com search engine. [top-max 2025.4.4]"
 
 HOMEPAGE="https://github.com/deedy5/duckduckgo_search"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Conversion module for Geode-solutions OpenGeode modules [top-max 6.2.4]"
+DESCRIPTION="Conversion module for Geode-solutions OpenGeode modules [top-max 6.2.5_rc1]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

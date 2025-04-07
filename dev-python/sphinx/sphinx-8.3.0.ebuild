@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/sphinxcontrib-applehelp-1.0.7[${PYTHON_USEDEP}]
 	lint? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pypi-attestations[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pypi-attestations-0.0.21[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/betterproto-2.0.0_beta6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-3.4[${PYTHON_USEDEP}] )

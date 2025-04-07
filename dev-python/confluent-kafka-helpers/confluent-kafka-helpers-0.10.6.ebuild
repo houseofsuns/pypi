@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helpers for Confluent's Kafka Python client [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f837f531c40>)]"
+DESCRIPTION="Helpers for Confluent's Kafka Python client [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6b2e8f9850>)]"
 
 HOMEPAGE="https://github.com/fyndiq/confluent_kafka_helpers"
 LICENSE="MIT"

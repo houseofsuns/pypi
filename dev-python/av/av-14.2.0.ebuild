@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pythonic bindings for FFmpeg's libraries."
+DESCRIPTION="Pythonic bindings for FFmpeg's libraries. [top-max 14.3.0]"
 
 HOMEPAGE="https://pyav.basswood-io.com"
 LICENSE="BSD"

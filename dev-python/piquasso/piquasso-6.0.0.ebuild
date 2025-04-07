@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simulator for photonic quantum computations."
+DESCRIPTION="A simulator for photonic quantum computations. [top-max 6.0.1]"
 
 HOMEPAGE="https://piquasso.com"
 LICENSE="Apache License"

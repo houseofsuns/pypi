@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MIKE Core contains core libraries, like DFS (Data File System), EUM and more. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6b1be6f610>)]"
+DESCRIPTION="MIKE Core contains core libraries, like DFS (Data File System), EUM and more. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f22b9c166c0>)]"
 
 HOMEPAGE="https://github.com/DHI/mikecore-python"
 LICENSE="BSD"

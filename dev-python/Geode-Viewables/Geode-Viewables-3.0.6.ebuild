@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Geode module to objects visualization [top-max 3.0.11]"
+DESCRIPTION="Geode module to objects visualization [top-max 3.0.12_rc2]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

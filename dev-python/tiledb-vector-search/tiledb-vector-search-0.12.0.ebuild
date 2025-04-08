@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TileDB Vector Search Python client [wheel]"
+DESCRIPTION="TileDB Vector Search Python client"
 
 HOMEPAGE="https://tiledb.com"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -35,7 +35,6 @@ DEPENDENCIES="dev-python/tiledb-cloud[${PYTHON_USEDEP}]
 	formatting? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	benchmarks? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	benchmarks? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

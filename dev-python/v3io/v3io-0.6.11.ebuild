@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SDK for v3io"
+DESCRIPTION="SDK for v3io [top-max 0.6.12]"
 
 HOMEPAGE="https://github.com/v3io/v3io-py"
 LICENSE="MIT"

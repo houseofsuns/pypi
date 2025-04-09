@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python UIAutomation for Windows [top-max 2.0.20]"
+DESCRIPTION="Python UIAutomation for Windows [top-max 2.0.21]"
 
 HOMEPAGE="https://github.com/yinkaisheng/Python-UIAutomation-for-Windows"
 LICENSE="Apache-2.0"

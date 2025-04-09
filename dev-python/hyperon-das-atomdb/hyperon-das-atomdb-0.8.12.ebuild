@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Persistence layer for Distributed AtomSpace [top-max 0.10.0]"
+DESCRIPTION="Persistence layer for Distributed AtomSpace [top-max 0.10.1]"
 
 HOMEPAGE=""
 LICENSE=""

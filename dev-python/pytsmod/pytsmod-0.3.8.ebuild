@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]"
+	>=dev-python/soundfile-0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

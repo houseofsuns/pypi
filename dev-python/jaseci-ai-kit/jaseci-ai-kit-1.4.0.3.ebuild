@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
 	<dev-python/protobuf-3.21[${PYTHON_USEDEP}]
 	<=dev-python/inflect-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	<=dev-python/soundfile-0.11.0[${PYTHON_USEDEP}]
 	dev-python/speechbrain[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

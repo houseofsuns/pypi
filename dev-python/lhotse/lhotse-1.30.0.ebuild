@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev dill docs h5py kaldi orjson tests webdataset"
 DEPENDENCIES=">=dev-python/audioread-2.1.9[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	>=dev-python/soundfile-0.10[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	>=dev-python/intervaltree-3.1.0[${PYTHON_USEDEP}]

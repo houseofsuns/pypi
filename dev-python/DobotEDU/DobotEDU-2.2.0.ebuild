@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	~dev-python/soundfile-0.10.3_p1[${PYTHON_USEDEP}]
 	dev-python/DobotRPC[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/playsound[${PYTHON_USEDEP}]

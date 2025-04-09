@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hiro Client for Graph REST API of HIRO 7"
+DESCRIPTION="Hiro Client for Graph REST API of HIRO 7 [top-max 5.3.2]"
 
 HOMEPAGE="https://github.com/arago/hiro-client-python"
 LICENSE="MIT"

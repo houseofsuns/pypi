@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/sounddevice[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	~dev-python/soundfile-0.12.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]

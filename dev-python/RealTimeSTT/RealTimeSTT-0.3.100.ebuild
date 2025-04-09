@@ -36,6 +36,6 @@ DEPENDENCIES="~dev-python/pyaudio-0.2.14[${PYTHON_USEDEP}]
 	~dev-python/websockets-14.2[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.8.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]"
+	~dev-python/soundfile-0.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
 	dev-python/ovos-workshop[${PYTHON_USEDEP}]
-	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	audio? ( ~dev-python/soundfile-0.10[${PYTHON_USEDEP}] )
 	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	configuration? ( ~dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}] )

@@ -35,7 +35,7 @@ DEPENDENCIES="dev? ( ~dev-python/black-20.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/rope-0.0[${PYTHON_USEDEP}] )
 	~dev-python/schema-0.0[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	~dev-python/soundfile-0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-0.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

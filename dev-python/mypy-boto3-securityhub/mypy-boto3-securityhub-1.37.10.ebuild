@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Type annotations for boto3 SecurityHub 1.37.10 service generated with mypy-boto3-builder 8.10.0"
+DESCRIPTION="Type annotations for boto3 SecurityHub 1.37.10 service generated with mypy-boto3-builder 8.10.0 [top-max 1.37.30]"
 
 HOMEPAGE="https://github.com/youtype/mypy_boto3_builder"
 LICENSE="MIT"

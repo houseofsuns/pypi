@@ -27,7 +27,7 @@ IUSE="develop"
 DEPENDENCIES="dev-python/kaldiio[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	~dev-python/soundfile-0.10[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/pybind11[${PYTHON_USEDEP}]

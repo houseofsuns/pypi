@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tf2-12 tf2-12-gpu tf2-13 tf2-13-gpu tf2-14 tf2-14-gpu tf2-15 tf2-15-gpu"
-DEPENDENCIES="dev-python/soundfile[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/soundfile-0.12.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.3[${PYTHON_USEDEP}]

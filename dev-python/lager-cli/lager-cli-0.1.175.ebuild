@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lager Command Line Interface [top-max 0.1.232]"
+DESCRIPTION="Lager Command Line Interface [top-max 0.1.234]"
 
 HOMEPAGE="https://github.com/lagerdata/lager-cli"
 LICENSE="MIT"

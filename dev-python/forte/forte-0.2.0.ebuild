@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/sortedcontainers-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev-python/asyml-utilities[${PYTHON_USEDEP}]
-	audio_ext? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	audio_ext? ( >=dev-python/soundfile-0.10.3[${PYTHON_USEDEP}] )
 	data_aug? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	data_aug? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	data_aug? ( dev-python/texar-pytorch[${PYTHON_USEDEP}] )

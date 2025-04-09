@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	dev-python/nicegui[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	~dev-python/soundfile-0.13.1[${PYTHON_USEDEP}]
 	~dev-python/audioread-3.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

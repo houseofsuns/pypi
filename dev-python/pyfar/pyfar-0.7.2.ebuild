@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/sofar[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	>=dev-python/soundfile-0.11.0[${PYTHON_USEDEP}]
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/build[${PYTHON_USEDEP}] )

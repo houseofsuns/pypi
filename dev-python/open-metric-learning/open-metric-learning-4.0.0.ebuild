@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	nlp? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	audio? ( ~dev-python/soundfile-0.12.1[${PYTHON_USEDEP}] )
 	audio? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	audio? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	pipelines? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	pipelines? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/soundfile-0.12.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/neptune[${PYTHON_USEDEP}] )

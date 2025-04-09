@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/soundfile-0.11.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-1.2.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

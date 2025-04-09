@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/SpeechRecognition[${PYTHON_USEDEP}]
 	<dev-python/pyaudio-0.3.0[${PYTHON_USEDEP}]
 	<dev-python/pygame-3.0.0[${PYTHON_USEDEP}]
 	dev-python/openai-whisper[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]"
+	<dev-python/soundfile-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

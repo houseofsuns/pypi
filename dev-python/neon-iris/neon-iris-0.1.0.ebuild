@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	gradio? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	gradio? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	gradio? ( dev-python/soundfile[${PYTHON_USEDEP}] )"
+	gradio? ( ~dev-python/soundfile-0.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

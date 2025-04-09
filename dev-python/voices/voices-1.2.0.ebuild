@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pypinyin[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	<dev-python/soundfile-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/pyaudio-0.3.0[${PYTHON_USEDEP}]
 	dev-python/noneprompt[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]

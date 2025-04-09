@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	<dev-python/soundfile-0.13.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.26.0[${PYTHON_USEDEP}]

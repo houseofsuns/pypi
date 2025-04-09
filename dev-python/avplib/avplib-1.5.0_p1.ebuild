@@ -33,6 +33,6 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	>=dev-python/pygame-2.5[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.5[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]"
+	>=dev-python/soundfile-0.12.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

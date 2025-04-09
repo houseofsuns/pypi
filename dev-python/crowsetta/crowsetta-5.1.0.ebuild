@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	>=dev-python/soundfile-0.12.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/crowsetta[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )

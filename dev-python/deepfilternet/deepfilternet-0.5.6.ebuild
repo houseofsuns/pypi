@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	eval? ( dev-python/pystoi[${PYTHON_USEDEP}] )
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	eval? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
-	soundfile? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	soundfile? ( <dev-python/soundfile-0.13[${PYTHON_USEDEP}] )
 	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

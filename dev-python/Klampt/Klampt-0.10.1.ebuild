@@ -16,8 +16,8 @@ DESCRIPTION="Python API to Klamp't, a package for robot modeling, simulating, pl
 
 HOMEPAGE="https://github.com/krishauser/Klampt"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp36/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/89/e5/b9365967f51b88868fc6f961f90b16fb672a337b88e52d28018d6bffa57b/klampt-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="klampt-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	lancedb? ( dev-python/lancedb[${PYTHON_USEDEP}] )
 	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
-	whisper? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	whisper? ( >=dev-python/soundfile-0.12.0[${PYTHON_USEDEP}] )
 	whisper? ( dev-python/soxr[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
 	postgres? ( ~dev-python/psycopg-3.1.17[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	full? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/psycopg-3.1.17[${PYTHON_USEDEP}] )
 	full? ( dev-python/pgvector[${PYTHON_USEDEP}] )
-	full? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/soundfile-0.12.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/soxr[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

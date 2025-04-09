@@ -174,7 +174,7 @@ DEPENDENCIES="~dev-python/cattrs-22.2[${PYTHON_USEDEP}]
 	audiolm? ( dev-python/crfm-helm[${PYTHON_USEDEP}] )
 	audiolm? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	audiolm? ( ~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}] )
-	audiolm? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	audiolm? ( ~dev-python/soundfile-0.12[${PYTHON_USEDEP}] )
 	audiolm? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	audiolm? ( dev-python/einops[${PYTHON_USEDEP}] )
 	audiolm? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )

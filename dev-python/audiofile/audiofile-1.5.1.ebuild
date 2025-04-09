@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/audeer[${PYTHON_USEDEP}]
 	dev-python/audmath[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]"
+	>=dev-python/soundfile-0.12.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

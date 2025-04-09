@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.10.11[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.13.0[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	>=dev-python/soundfile-0.10.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.13.7[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )

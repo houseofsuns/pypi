@@ -30,6 +30,6 @@ DEPENDENCIES="~dev-python/matplotlib-3.10[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.15[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.13[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]"
+	~dev-python/soundfile-0.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

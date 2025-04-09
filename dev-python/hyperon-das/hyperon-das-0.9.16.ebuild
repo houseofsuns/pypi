@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Query Engine API for Distributed AtomSpace [top-max 0.9.17]"
+DESCRIPTION="Query Engine API for Distributed AtomSpace [top-max 0.10.0]"
 
 HOMEPAGE=""
 LICENSE=""

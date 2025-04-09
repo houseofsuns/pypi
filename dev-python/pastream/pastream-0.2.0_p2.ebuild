@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="numpy"
 DEPENDENCIES="dev-python/pa-ringbuffer[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.0.0[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	>=dev-python/soundfile-0.9.0[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

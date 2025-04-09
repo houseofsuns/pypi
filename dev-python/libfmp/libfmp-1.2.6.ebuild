@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/ipython-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pretty_midi[${PYTHON_USEDEP}]
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	<dev-python/soundfile-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

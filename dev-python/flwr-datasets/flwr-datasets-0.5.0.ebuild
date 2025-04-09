@@ -27,7 +27,7 @@ IUSE="audio vision"
 DEPENDENCIES="<dev-python/numpy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	vision? ( >=dev-python/pillow-6.2.1[${PYTHON_USEDEP}] )
-	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/soundfile-0.12.1[${PYTHON_USEDEP}] )
 	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]

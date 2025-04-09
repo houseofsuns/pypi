@@ -31,7 +31,7 @@ DEPENDENCIES="dev? ( ~dev-python/black-18.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/parameterized-0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
-	dev-python/soundfile[${PYTHON_USEDEP}]
+	~dev-python/soundfile-0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

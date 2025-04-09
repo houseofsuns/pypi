@@ -28,11 +28,11 @@ DEPENDENCIES=">=dev-python/pika-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pywagglemsg[${PYTHON_USEDEP}]
 	all? ( >=dev-python/numpy-1.18.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/SoundCard[${PYTHON_USEDEP}] )
-	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/soundfile-0.9.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	audio? ( >=dev-python/numpy-1.18.0[${PYTHON_USEDEP}] )
 	audio? ( dev-python/SoundCard[${PYTHON_USEDEP}] )
-	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/soundfile-0.9.0[${PYTHON_USEDEP}] )
 	vision? ( >=dev-python/numpy-1.18.0[${PYTHON_USEDEP}] )
 	vision? ( dev-python/opencv-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

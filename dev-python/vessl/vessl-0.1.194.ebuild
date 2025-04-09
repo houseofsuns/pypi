@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/boto3-1.18.9[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	media? ( <dev-python/pillow-11.0.0[${PYTHON_USEDEP}] )
-	media? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	media? ( <dev-python/soundfile-0.13.0[${PYTHON_USEDEP}] )
 	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]

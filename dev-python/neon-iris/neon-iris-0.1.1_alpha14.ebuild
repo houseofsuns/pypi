@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
 	gradio? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	gradio? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	gradio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
+	gradio? ( ~dev-python/soundfile-0.12[${PYTHON_USEDEP}] )
 	web-sat? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	web-sat? ( ~dev-python/uvicorn-0.24.0_p1[${PYTHON_USEDEP}] )
 	web-sat? ( ~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}] )

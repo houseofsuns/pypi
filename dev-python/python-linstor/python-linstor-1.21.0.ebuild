@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Linstor python api [top-max 1.25.2]"
+DESCRIPTION="Linstor python api [top-max 1.25.3]"
 
 HOMEPAGE="https://www.linbit.com"
 LICENSE="LGPL-3"

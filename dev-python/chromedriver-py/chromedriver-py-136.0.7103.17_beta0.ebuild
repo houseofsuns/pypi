@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="chromedriver binaries for all platforms"
+DESCRIPTION="chromedriver binaries for all platforms [top-max 136.0.7103.25_beta0]"
 
 HOMEPAGE="http://github.com/breuerfelix/chromedriver-py"
 LICENSE=""

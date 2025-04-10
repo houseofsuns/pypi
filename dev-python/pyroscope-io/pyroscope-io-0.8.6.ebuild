@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pyroscope Python integration [top-max 0.8.8]"
+DESCRIPTION="Pyroscope Python integration [top-max 0.8.9]"
 
 HOMEPAGE="https://pyroscope.io"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Official Python client for the ComplyCube API"
+DESCRIPTION="Official Python client for the ComplyCube API [top-max 1.1.7]"
 
 HOMEPAGE=""
 LICENSE="MIT"

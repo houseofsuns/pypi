@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A plugin to use Qulacs with QURI Parts"
+DESCRIPTION="A plugin to use Qulacs with QURI Parts [new-max 2025-04-10 08:41:12.910930+00:00]"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE="Apache-2.0"

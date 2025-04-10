@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CMSIS-DSP Python API [top-max 1.9.9]"
+DESCRIPTION="CMSIS-DSP Python API [top-max 1.10.0]"
 
 HOMEPAGE="https://github.com/ARM-software/CMSIS-DSP"
 LICENSE="License :: OSI Approved :: Apache Software License"

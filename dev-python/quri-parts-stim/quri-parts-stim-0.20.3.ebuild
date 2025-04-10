@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A plugin to use Stim with QURI Parts"
+DESCRIPTION="A plugin to use Stim with QURI Parts [new-max 2025-04-10 08:41:28.803920+00:00]"
 
 HOMEPAGE="https://github.com/QunaSys/quri-parts"
 LICENSE="Apache-2.0"

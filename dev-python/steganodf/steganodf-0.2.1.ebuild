@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for hiding a secret message on tabulated data [top-max 0.2.3]"
+DESCRIPTION="A library for hiding a secret message on tabulated data [top-max 0.2.5]"
 
 HOMEPAGE=""
 LICENSE=""

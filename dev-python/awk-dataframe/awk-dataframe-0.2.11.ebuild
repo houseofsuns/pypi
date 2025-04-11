@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wrapper around awk to use as a dataframe implementation in python"
+DESCRIPTION="Wrapper around awk to use as a dataframe implementation in python [top-max 0.2.12]"
 
 HOMEPAGE=""
 LICENSE="MIT"

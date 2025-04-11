@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for Asynchronous data source connections Collection of asyncio drivers. [top-max 2.11.4]"
+DESCRIPTION="Library for Asynchronous data source connections Collection of asyncio drivers. [top-max 2.11.5]"
 
 HOMEPAGE="https://github.com/phenobarbital/asyncdb"
 LICENSE="BSD"

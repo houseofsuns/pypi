@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dask and Distributed version pinning for RAPIDS [new-max 2025-02-14 17:25:14.434603+00:00]"
+DESCRIPTION="Dask and Distributed version pinning for RAPIDS [new-max 2025-04-10 14:01:54.774981+00:00]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

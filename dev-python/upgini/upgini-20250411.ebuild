@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1.2.71a3832.dev13"
+REALVERSION="1.2.71a3810.dev5"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Intelligent data search & enrichment for Machine Learning [badver 1.2.71a3832.dev13]"
+DESCRIPTION="Intelligent data search & enrichment for Machine Learning [badver 1.2.71a3810.dev5]"
 
 HOMEPAGE="https://upgini.com/"
 LICENSE=""
@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fastparquet[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/catboost[${PYTHON_USEDEP}]
+	dev-python/fastparquet[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-8.1.0[${PYTHON_USEDEP}]
 	dev-python/jarowinkler[${PYTHON_USEDEP}]
 	dev-python/Levenshtein[${PYTHON_USEDEP}]
-	dev-python/lightgbm[${PYTHON_USEDEP}]
-	<dev-python/numpy-3.0.0[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	dev-python/python-bidi[${PYTHON_USEDEP}]
@@ -40,7 +40,6 @@ DEPENDENCIES="dev-python/fastparquet[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
-	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/xhtml2pdf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

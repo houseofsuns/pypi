@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Orm support asyncio and sync"
+DESCRIPTION="A Orm support asyncio and sync [top-max 1.2.4]"
 
 HOMEPAGE="https://gitee.com/otonashi-4/python_async_orm"
 LICENSE=""

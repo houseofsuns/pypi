@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helpers to work with the chemiscope interactive structure/property explorer for materials and molecules"
+DESCRIPTION="Helpers to work with the chemiscope interactive structure/property explorer for materials and molecules [top-max 0.8.5]"
 
 HOMEPAGE="https://chemiscope.org"
 LICENSE="BSD"

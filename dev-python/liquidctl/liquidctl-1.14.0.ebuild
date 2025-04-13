@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cross-platform tool and drivers for liquid coolers and other devices"
+DESCRIPTION="Cross-platform tool and drivers for liquid coolers and other devices [top-max 1.15.0]"
 
 HOMEPAGE="https://github.com/liquidctl/liquidctl"
 LICENSE=""

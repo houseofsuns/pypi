@@ -16,8 +16,8 @@ DESCRIPTION="Create standalone executables from Python scripts"
 
 HOMEPAGE=""
 LICENSE="# Licensing"
-SRC_URI="https://files.pythonhosted.org/packages/95/01/e5fc16ac1c3911917ca2a3f069d724f5a2facdf41c83b66146dc4754bfac/cx_freeze-${REALVERSION}.tar.gz"
-SOURCEFILE="cx_freeze-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

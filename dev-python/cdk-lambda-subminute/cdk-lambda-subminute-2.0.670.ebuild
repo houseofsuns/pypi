@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A construct for deploying a Lambda function that can be invoked every time unit less than one minute."
+DESCRIPTION="A construct for deploying a Lambda function that can be invoked every time unit less than one minute. [top-max 2.0.671]"
 
 HOMEPAGE="https://github.com/HsiehShuJeng/cdk-lambda-subminute.git"
 LICENSE="Apache-2.0"

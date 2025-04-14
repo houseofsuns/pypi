@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An open-source Python package to unify raw MS data access and storage."
+DESCRIPTION="An open-source Python package to unify raw MS data access and storage. [top-max 0.4.8]"
 
 HOMEPAGE=""
 LICENSE="Apache License"

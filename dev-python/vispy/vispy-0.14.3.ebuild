@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interactive visualization in Python"
+DESCRIPTION="Interactive visualization in Python [top-max 0.15.0]"
 
 HOMEPAGE="http://vispy.org"
 LICENSE="BSD"

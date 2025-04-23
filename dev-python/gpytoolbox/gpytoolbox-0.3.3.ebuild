@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gpytoolbox: A Python Geometry Processing Toolbox."
+DESCRIPTION="Gpytoolbox: A Python Geometry Processing Toolbox. [top-max 0.3.4]"
 
 HOMEPAGE="https://gpytoolbox.org"
 LICENSE="MIT"

@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-2.2.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/spdx-tools-0.8.0_rc1[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/spdx-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

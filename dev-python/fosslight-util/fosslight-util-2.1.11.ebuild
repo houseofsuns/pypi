@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
 	>=dev-python/pygit2-1.10.1[${PYTHON_USEDEP}]
-	~dev-python/spdx-tools-0.8[${PYTHON_USEDEP}]
+	dev-python/spdx-tools[${PYTHON_USEDEP}]
 	dev-python/cyclonedx-python-lib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

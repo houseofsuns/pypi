@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/beautifulsoup4-4.13[${PYTHON_USEDEP}]
 	dev-python/django-eventtools[${PYTHON_USEDEP}]
-	~dev-python/django-bootstrap5-24.3[${PYTHON_USEDEP}]
+	dev-python/django-bootstrap5[${PYTHON_USEDEP}]
 	<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev-python/geocoder[${PYTHON_USEDEP}]
 	~dev-python/icalendar-6.1[${PYTHON_USEDEP}]

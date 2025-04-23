@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dash connectivity viewer for CAVE data"
+DESCRIPTION="Dash connectivity viewer for CAVE data [top-max 2.2.7]"
 
 HOMEPAGE="https://github.com/ceesem/dash-connectivity-viewer"
 LICENSE=""

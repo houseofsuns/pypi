@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Official Infisical SDK for Python (New)"
+DESCRIPTION="Official Infisical SDK for Python (New) [top-max 2.3.6]"
 
 HOMEPAGE=""
 LICENSE=""

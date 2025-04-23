@@ -27,7 +27,7 @@ IUSE="dev docs"
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-7.0[${PYTHON_USEDEP}]
 	dev-python/dimi[${PYTHON_USEDEP}]
-	<dev-python/django-bootstrap5-25.0[${PYTHON_USEDEP}]
+	dev-python/django-bootstrap5[${PYTHON_USEDEP}]
 	dev-python/dulwich[${PYTHON_USEDEP}]
 	<dev-python/jq-2.0[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]

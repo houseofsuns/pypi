@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scour[${PYTHON_USEDEP}]
-	<dev-python/spdx-tools-0.9.0[${PYTHON_USEDEP}]
+	dev-python/spdx-tools[${PYTHON_USEDEP}]
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torchxrayvision? ( dev-python/torch[${PYTHON_USEDEP}] )
 	monai? ( dev-python/torch[${PYTHON_USEDEP}] )

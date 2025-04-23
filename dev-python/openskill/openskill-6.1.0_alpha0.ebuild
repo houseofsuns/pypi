@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Multiplayer Rating System. No Friction."
+DESCRIPTION="Multiplayer Rating System. No Friction. [top-max 6.1.0_alpha1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

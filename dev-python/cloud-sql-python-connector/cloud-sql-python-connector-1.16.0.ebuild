@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Cloud SQL Python Connector is a library that can be used alongside a database driver to allow users with sufficient permissions to connect to a Cloud SQL database without having to manually allowlist IPs or manage SSL certificates. [top-max 1.18.0]"
+DESCRIPTION="The Cloud SQL Python Connector is a library that can be used alongside a database driver to allow users with sufficient permissions to connect to a Cloud SQL database without having to manually allowlist IPs or manage SSL certificates. [top-max 1.18.1]"
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/cloud-sql-python-connector"
 LICENSE="Apache-2.0"

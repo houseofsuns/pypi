@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cython wrapper for Klondike-Solver."
+DESCRIPTION="Cython wrapper for Klondike-Solver. [top-max 0.0.13]"
 
 HOMEPAGE="https://github.com/tcdude/py-klondike-solver"
 LICENSE=""

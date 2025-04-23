@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A self-contained Python driver for communicating with MySQL servers, using an API that is compliant with the Python Database API Specification v2.0 (PEP 249). [top-max 9.2.0]"
+DESCRIPTION="A self-contained Python driver for communicating with MySQL servers, using an API that is compliant with the Python Database API Specification v2.0 (PEP 249). [top-max 9.3.0]"
 
 HOMEPAGE="https://dev.mysql.com/doc/connector-python/en/"
 LICENSE="GNU GPLv2 with FOSS License Exception"

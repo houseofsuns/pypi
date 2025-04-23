@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to Ansys Dynamic Reporting"
+DESCRIPTION="Python interface to Ansys Dynamic Reporting [top-max 0.10.1]"
 
 HOMEPAGE="https://github.com/ansys/pydynamicreporting"
 LICENSE="MIT"

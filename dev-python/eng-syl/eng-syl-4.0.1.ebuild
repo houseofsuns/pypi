@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="English word syllabifier and extended syllable analysis tool [top-max 4.0.7]"
+DESCRIPTION="English word syllabifier and extended syllable analysis tool [top-max 4.0.8.2]"
 
 HOMEPAGE="https://github.com/ellipse-liu/eng-syl"
 LICENSE="MIT"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES=">=dev-python/pip-run-8.5[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pip-run[${PYTHON_USEDEP}]
 	>=dev-python/tempora-4.1[${PYTHON_USEDEP}]
 	dev-python/jaraco-functools[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]

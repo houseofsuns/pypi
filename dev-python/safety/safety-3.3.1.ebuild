@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	gitlab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
-	spdx? ( >=dev-python/spdx-tools-0.8.2[${PYTHON_USEDEP}] )"
+	spdx? ( dev-python/spdx-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

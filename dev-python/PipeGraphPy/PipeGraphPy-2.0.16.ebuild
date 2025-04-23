@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="核心算法框架 [top-max 2.0.19]"
+DESCRIPTION="核心算法框架 [top-max 2.0.20]"
 
 HOMEPAGE=""
 LICENSE="Private"

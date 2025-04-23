@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Python language bindings for the bitcoindevkit [top-max 1.1.0]"
+DESCRIPTION="The Python language bindings for the bitcoindevkit [top-max 1.2.0]"
 
 HOMEPAGE="https://github.com/thunderbiscuit/bdk-python"
 LICENSE="MIT or Apache 2.0"

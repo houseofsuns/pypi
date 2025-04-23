@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Applitools Python SDK. Images package [top-max 6.1.1]"
+DESCRIPTION="Applitools Python SDK. Images package [top-max 6.1.2]"
 
 HOMEPAGE="http://www.applitools.com"
 LICENSE=""

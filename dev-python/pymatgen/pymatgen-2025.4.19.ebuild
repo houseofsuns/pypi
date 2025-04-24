@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Materials Genomics is a robust materials analysis code that defines core object representations for structures [top-max 2025.4.20]"
+DESCRIPTION="Python Materials Genomics is a robust materials analysis code that defines core object representations for structures [top-max 2025.4.24]"
 
 HOMEPAGE="https://pymatgen.org"
 LICENSE="MIT"

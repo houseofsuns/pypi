@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for making fun pictures [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1a329d1e00>)]"
+DESCRIPTION="Python package for making fun pictures [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1a92483f40>)]"
 
 HOMEPAGE="https://github.com/MemeCrafters/meme-generator"
 LICENSE="MIT"

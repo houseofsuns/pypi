@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nion UI framework. [top-max 9.0.1]"
+DESCRIPTION="Nion UI framework. [top-max 10.0.0]"
 
 HOMEPAGE="https://github.com/nion-software/nionui"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A high performance build system [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f769bfc50e0>)]"
+DESCRIPTION="A high performance build system [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1a32684dd0>)]"
 
 HOMEPAGE="https://mesonbuild.com"
 LICENSE="Apache-2.0"

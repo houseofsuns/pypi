@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants"
+DESCRIPTION="Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants [top-max 3.1.16]"
 
 HOMEPAGE="https://github.com/ethanfurman/aenum"
 LICENSE="BSD"

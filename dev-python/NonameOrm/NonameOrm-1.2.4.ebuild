@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Orm support asyncio and sync [wheel]"
+DESCRIPTION="A Orm support asyncio and sync"
 
 HOMEPAGE="https://gitee.com/otonashi-4/python_async_orm"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-win_amd64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -28,7 +28,6 @@ DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/astor[${PYTHON_USEDEP}]
 	dev-python/case-convert[${PYTHON_USEDEP}]
 	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	dev-python/pydantic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

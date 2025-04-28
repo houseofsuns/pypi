@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core of vaex [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe76c7a5930>)]"
+DESCRIPTION="Core of vaex [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fedd5722500>)]"
 
 HOMEPAGE="https://www.github.com/maartenbreddels/vaex"
 LICENSE="MIT"

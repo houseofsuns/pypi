@@ -16,8 +16,8 @@ DESCRIPTION="The python wrapper for the Basler pylon Camera Software Suite. [whe
 
 HOMEPAGE="https://github.com/basler/pypylon"
 LICENSE="Other/Proprietary License"
-SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp39-abi3-macosx_14_0_arm64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp39-abi3-macosx_14_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp39-abi3-manylinux_2_31_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp39-abi3-manylinux_2_31_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="easy-to-use SDK for Tencent QQ guild robot [top-max 4.3.4]"
+DESCRIPTION="easy-to-use SDK for Tencent QQ guild robot [top-max 4.3.6]"
 
 HOMEPAGE="https://github.com/GLGDLY/qg_botsdk"
 LICENSE=""

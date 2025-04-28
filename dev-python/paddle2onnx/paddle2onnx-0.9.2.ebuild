@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a toolkit for converting trained model of PaddlePaddle to ONNX. [top-max 2.0.1]"
+DESCRIPTION="a toolkit for converting trained model of PaddlePaddle to ONNX. [top-max 2.0.2_rc1]"
 
 HOMEPAGE="https://github.com/PaddlePaddle/paddle2onnx"
 LICENSE="Apache-2.0"

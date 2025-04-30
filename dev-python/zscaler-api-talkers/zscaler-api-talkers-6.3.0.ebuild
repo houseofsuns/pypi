@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unofficial Zscaler API python SDK for ZIA, ZPA and Zscaler Client Connector [top-max 6.3.3]"
+DESCRIPTION="Unofficial Zscaler API python SDK for ZIA, ZPA and Zscaler Client Connector [top-max 6.4.0]"
 
 HOMEPAGE=""
 LICENSE=""

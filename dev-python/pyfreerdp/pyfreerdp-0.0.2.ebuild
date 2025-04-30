@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for FreeRDP"
+DESCRIPTION="Python wrapper for FreeRDP [top-max 0.0.4]"
 
 HOMEPAGE="https://github.com/LeeEirc"
 LICENSE=""

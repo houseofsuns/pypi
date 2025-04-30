@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [new-max 2025-04-30 18:34:05.670369+00:00]"
 
 HOMEPAGE="https://developers.google.com/protocol-buffers/"
 LICENSE="3-Clause BSD License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python client library for connecting securely to your Google Cloud AlloyDB instances."
+DESCRIPTION="A Python client library for connecting securely to your Google Cloud AlloyDB instances. [top-max 1.8.1_pre0]"
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/alloydb-python-connector"
 LICENSE="Apache-2.0"

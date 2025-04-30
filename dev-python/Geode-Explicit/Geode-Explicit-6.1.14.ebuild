@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Geode-solutions OpenGeode module for building explicit models [top-max 6.1.38]"
+DESCRIPTION="Geode-solutions OpenGeode module for building explicit models [top-max 6.1.39]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

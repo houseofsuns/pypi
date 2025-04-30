@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extensive Testing for Estimation of Data Count Models [new-max 2025-04-22 02:53:37.304256+00:00]"
+DESCRIPTION="Extensive Testing for Estimation of Data Count Models [new-max 2025-04-30 07:31:48.203706+00:00]"
 
 HOMEPAGE="https://github.com/zahern/CountDataEstimation"
 LICENSE="MIT"

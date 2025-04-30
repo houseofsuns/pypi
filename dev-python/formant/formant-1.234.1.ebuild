@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Formant python package [top-max 1.248.1]"
+DESCRIPTION="Formant python package [top-max 1.250.0]"
 
 HOMEPAGE="https://formant.io"
 LICENSE="MIT"

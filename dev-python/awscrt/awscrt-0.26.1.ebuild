@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A common runtime for AWS Python projects"
+DESCRIPTION="A common runtime for AWS Python projects [top-max 0.27.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

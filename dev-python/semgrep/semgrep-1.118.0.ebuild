@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. [top-max 1.120.0]"
+DESCRIPTION="Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. [top-max 1.120.1]"
 
 HOMEPAGE="https://github.com/returntocorp/semgrep"
 LICENSE=""

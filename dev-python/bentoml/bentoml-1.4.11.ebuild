@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BentoML: The easiest way to serve AI apps and models"
+DESCRIPTION="BentoML: The easiest way to serve AI apps and models [top-max 1.4.12]"
 
 HOMEPAGE="https://bentoml.com"
 LICENSE="Apache-2.0"

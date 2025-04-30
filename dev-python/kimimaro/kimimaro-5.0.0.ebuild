@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Skeletonize densely labeled image volumes."
+DESCRIPTION="Skeletonize densely labeled image volumes. [top-max 5.1.0]"
 
 HOMEPAGE="https://github.com/seung-lab/kimimaro/"
 LICENSE="License :: OSI Approved :: GNU General Public License v3 or later GPLv3+"

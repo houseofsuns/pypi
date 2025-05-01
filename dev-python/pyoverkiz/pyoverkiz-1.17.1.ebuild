@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-26.0[${PYTHON_USEDEP}]
 	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
-	<dev-python/backports-strenum-2.0.0[${PYTHON_USEDEP}]
+	dev-python/backports-strenum[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/warrant-lite[${PYTHON_USEDEP}]"

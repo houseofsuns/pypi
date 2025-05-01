@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs pcode testing"
-DEPENDENCIES=">=dev-python/backports-strenum-1.2.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

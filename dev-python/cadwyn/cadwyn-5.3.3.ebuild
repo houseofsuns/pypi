@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="standard"
-DEPENDENCIES="<dev-python/backports-strenum-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]

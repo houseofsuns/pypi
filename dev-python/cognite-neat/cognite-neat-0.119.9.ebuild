@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs google lxml pyoxigraph"
-DEPENDENCIES="<dev-python/backports-strenum-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	<dev-python/elementpath-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]

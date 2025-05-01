@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/backports-strenum-1.2.8[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	dev-python/beet[${PYTHON_USEDEP}]
 	dev-python/mecha[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]

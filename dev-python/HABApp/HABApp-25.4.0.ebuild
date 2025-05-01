@@ -40,6 +40,6 @@ DEPENDENCIES="~dev-python/aiohttp-3.11.18[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.13.2[${PYTHON_USEDEP}]
 	dev-python/aiohttp-sse-client[${PYTHON_USEDEP}]
 	dev-python/javaproperties[${PYTHON_USEDEP}]
-	~dev-python/taskgroup-0.2.2[${PYTHON_USEDEP}]"
+	dev-python/taskgroup[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/macaroonbakery[${PYTHON_USEDEP}]
 	dev-python/hvac[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	>=dev-python/backports-strenum-1.3.1[${PYTHON_USEDEP}]
+	dev-python/backports-strenum[${PYTHON_USEDEP}]
 	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
 	dev? ( dev-python/typing-inspect[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

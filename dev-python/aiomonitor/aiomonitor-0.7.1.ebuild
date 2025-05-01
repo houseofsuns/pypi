@@ -35,6 +35,6 @@ DEPENDENCIES=">=dev-python/attrs-20.0[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]
 	dev-python/telnetlib3[${PYTHON_USEDEP}]
-	>=dev-python/backports-strenum-1.2.4[${PYTHON_USEDEP}]"
+	dev-python/backports-strenum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

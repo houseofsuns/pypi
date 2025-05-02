@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easily call Slang functions and integrate with PyTorch auto diff directly from Python."
+DESCRIPTION="Easily call Slang functions and integrate with PyTorch auto diff directly from Python. [new-max 2025-05-02 18:42:46.710296+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Programmatically author, schedule and monitor data pipelines"
+DESCRIPTION="Programmatically author, schedule and monitor data pipelines [new-max 2025-05-02 13:52:10.244504+00:00]"
 
 HOMEPAGE="https://airflow.apache.org/"
 LICENSE=""

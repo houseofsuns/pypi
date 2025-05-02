@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tool for modeling vehicle powertrains [top-max 2.1.3]"
+DESCRIPTION="Tool for modeling vehicle powertrains [top-max 3.0.0]"
 
 HOMEPAGE="https://www.nrel.gov/transportation/fastsim.html"
 LICENSE="Apache-2.0"

@@ -16,8 +16,8 @@ DESCRIPTION="Snap Machine Learning [wheel]"
 
 HOMEPAGE="https://www.zurich.ibm.com/snapml/"
 LICENSE="Proprietary"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_28_ppc64le.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_28_ppc64le.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

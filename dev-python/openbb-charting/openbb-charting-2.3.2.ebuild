@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Charting extension for OpenBB"
+DESCRIPTION="Charting extension for OpenBB [top-max 2.3.4]"
 
 HOMEPAGE=""
 LICENSE="AGPL-3"

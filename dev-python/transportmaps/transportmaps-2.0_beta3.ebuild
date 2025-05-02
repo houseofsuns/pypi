@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for the construction of transport maps [top-max 3.1.0]"
+DESCRIPTION="Tools for the construction of transport maps [top-max 3.1.1]"
 
 HOMEPAGE="http://transportmaps.mit.edu"
 LICENSE="COPYING.LESSER"

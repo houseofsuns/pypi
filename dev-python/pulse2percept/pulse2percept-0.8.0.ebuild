@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python-based simulation framework for bionic vision [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f784184f990>)]"
+DESCRIPTION="A Python-based simulation framework for bionic vision [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb9968d60a0>)]"
 
 HOMEPAGE="https://github.com/pulse2percept/pulse2percept"
 LICENSE="new BDS"

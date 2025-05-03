@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A complete web automation framework for end-to-end testing."
+DESCRIPTION="A complete web automation framework for end-to-end testing. [top-max 4.38.0]"
 
 HOMEPAGE="https://github.com/seleniumbase/SeleniumBase"
 LICENSE="MIT"

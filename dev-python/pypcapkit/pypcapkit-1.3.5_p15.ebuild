@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyPCAPKit: comprehensive network packet analysis library"
+DESCRIPTION="PyPCAPKit: comprehensive network packet analysis library [top-max 1.3.5_p16]"
 
 HOMEPAGE="https://jarryshaw.github.io/PyPCAPKit/"
 LICENSE="BSD 3-Clause License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Web/WSGI micro-framework [top-max 3.5.0]"
+DESCRIPTION="A Web/WSGI micro-framework [top-max 3.6.0]"
 
 HOMEPAGE="https://ollycope.com/software/fresco/latest/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Web apps in pure Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb991326180>)]"
+DESCRIPTION="Web apps in pure Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f300f691150>)]"
 
 HOMEPAGE="https://reflex.dev"
 LICENSE="Apache-2.0"

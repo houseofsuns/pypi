@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An efficient dice notation parser with extended notation [top-max 4.5.3]"
+DESCRIPTION="An efficient dice notation parser with extended notation [top-max 4.5.5]"
 
 HOMEPAGE="https://github.com/ianfhunter/gnoll"
 LICENSE=""

@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="rocketsim"
 REALVERSION="2.1.1.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is Rocket League!"
+DESCRIPTION="This is Rocket League! [top-max 2.1.1_p3]"
 
 HOMEPAGE=""
 LICENSE=""

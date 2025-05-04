@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FHIR to pandas.dataframe for AI and ML [new-max 2025-05-01 16:03:55.731823+00:00]"
+DESCRIPTION="FHIR to pandas.dataframe for AI and ML [new-max 2025-05-04 14:34:02.950468+00:00]"
 
 HOMEPAGE="https://nuchange.ca"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fastest Url parser in the world"
+DESCRIPTION="Fastest Url parser in the world [top-max 1.6.0]"
 
 HOMEPAGE="https://github.com/mohammadraziei/liburlparser"
 LICENSE=""

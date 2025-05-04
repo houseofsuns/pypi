@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FHIR to pd.Dataframe [top-max 4.1.3]"
+DESCRIPTION="FHIR to pd.Dataframe [top-max 4.2.1]"
 
 HOMEPAGE="https://github.com/dermatologist/fhiry"
 LICENSE=""

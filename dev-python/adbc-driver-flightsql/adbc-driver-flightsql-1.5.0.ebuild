@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An ADBC driver for working with Apache Arrow Flight SQL."
+DESCRIPTION="An ADBC driver for working with Apache Arrow Flight SQL. [top-max 1.6.0]"
 
 HOMEPAGE="https://arrow.apache.org/adbc/"
 LICENSE="Apache-2.0"

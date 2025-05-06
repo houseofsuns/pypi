@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provide high-level Python APIs to access Furiosa AI's NPUs and its eco-system [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8c9f429150>)]"
+DESCRIPTION="Provide high-level Python APIs to access Furiosa AI's NPUs and its eco-system [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa248fa4f90>)]"
 
 HOMEPAGE=""
 LICENSE=""

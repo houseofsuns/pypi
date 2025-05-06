@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Non-uniform fast Fourier transforms on the GPU"
+DESCRIPTION="Non-uniform fast Fourier transforms on the GPU [top-max 2.4.0_beta1]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Snappi Open Traffic Generator Python Package"
+DESCRIPTION="The Snappi Open Traffic Generator Python Package [top-max 1.30.1]"
 
 HOMEPAGE="https://github.com/open-traffic-generator/snappi"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A toolkit for molecular dynamics simulations [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8c94ac6180>)]"
+DESCRIPTION="A toolkit for molecular dynamics simulations [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa23eb304a0>)]"
 
 HOMEPAGE="https://www.lockhartlab.org"
 LICENSE=""

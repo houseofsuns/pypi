@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package with a built-in web application [top-max 1.3.4]"
+DESCRIPTION="A Python package with a built-in web application [top-max 1.4.0]"
 
 HOMEPAGE="https://github.com/langflow-ai/langflow"
 LICENSE="MIT"

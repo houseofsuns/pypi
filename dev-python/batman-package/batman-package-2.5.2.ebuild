@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast transit light curve modeling"
+DESCRIPTION="Fast transit light curve modeling [top-max 2.5.3]"
 
 HOMEPAGE="https://github.com/lkreidberg/batman"
 LICENSE="GNU GPLv3"

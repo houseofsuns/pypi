@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloudsmith Command-Line Interface (CLI) [top-max 1.8.0]"
+DESCRIPTION="Cloudsmith Command-Line Interface (CLI) [top-max 1.8.1]"
 
 HOMEPAGE="https://github.com/cloudsmith-io/cloudsmith-cli"
 LICENSE="Apache-2.0"

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/datashader[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	optional? ( dev-python/awkward[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/awkward-1.4[${PYTHON_USEDEP}] )
 	optional? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	optional? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	optional? ( dev-python/spatialpandas[${PYTHON_USEDEP}] )

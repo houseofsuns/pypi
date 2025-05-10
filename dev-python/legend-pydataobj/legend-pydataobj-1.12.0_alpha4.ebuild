@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
-DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/awkward-2.0[${PYTHON_USEDEP}]
 	dev-python/awkward-pandas[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.10[${PYTHON_USEDEP}]

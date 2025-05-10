@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	boost? ( dev-python/boost-histogram[${PYTHON_USEDEP}] )
 	rich? ( >=dev-python/rich-12.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	uproot? ( dev-python/awkward[${PYTHON_USEDEP}] )
+	uproot? ( >=dev-python/awkward-1.0[${PYTHON_USEDEP}] )
 	uproot? ( dev-python/uproot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

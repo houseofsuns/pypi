@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/awkward-2.1.1[${PYTHON_USEDEP}]
 	dev-python/boost-histogram[${PYTHON_USEDEP}]
 	dev-python/hist[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]

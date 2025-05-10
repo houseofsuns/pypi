@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python helper modules to read networks, parse output data and do other useful stuff related to the traffic simulation Eclipse SUMO [top-max 1.23.0]"
+DESCRIPTION="Python helper modules to read networks, parse output data and do other useful stuff related to the traffic simulation Eclipse SUMO [top-max 1.23.1]"
 
 HOMEPAGE="https://sumo.dlr.de/docs/Tools/Sumolib.html"
 LICENSE="EPL-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Turbocharge a PubMed literature search using citation data from the NIH [top-max 0.0.48]"
+DESCRIPTION="Turbocharge a PubMed literature search using citation data from the NIH [top-max 0.0.49]"
 
 HOMEPAGE="http://github.com/dvklopfenstein/pmidcite"
 LICENSE=""

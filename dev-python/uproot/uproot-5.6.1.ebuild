@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="http s3 xrootd"
-DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/awkward-2.4.6[${PYTHON_USEDEP}]
 	>=dev-python/cramjam-2.5.0[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

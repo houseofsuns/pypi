@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark jupyter mlflow simulation test"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	>=dev-python/awkward-2.6.8[${PYTHON_USEDEP}]
 	dev-python/gseapy[${PYTHON_USEDEP}]
 	dev-python/kneed[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provides access to Capella MBSE projects in Python [top-max 0.6.16]"
+DESCRIPTION="Provides access to Capella MBSE projects in Python [top-max 0.6.17]"
 
 HOMEPAGE="https://github.com/DSD-DBS/py-capellambse"
 LICENSE="Apache-2.0"

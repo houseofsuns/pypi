@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for the Asphodel C library [top-max 1.4.0]"
+DESCRIPTION="Python wrapper for the Asphodel C library [top-max 1.4.1]"
 
 HOMEPAGE="https://bitbucket.org/suprocktech/asphodel_py"
 LICENSE=""

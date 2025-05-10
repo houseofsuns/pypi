@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dask dev parsl rucio spark"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	>=dev-python/awkward-2.6.7[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-1.2.3[${PYTHON_USEDEP}]
 	dev-python/correctionlib[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]
-	dev-python/vector[${PYTHON_USEDEP}]
+	>=dev-python/vector-1.4.1[${PYTHON_USEDEP}]
 	dask? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

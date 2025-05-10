@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/babelfish-0.7.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	<dev-python/pymediainfo-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
-	dev-python/trakit[${PYTHON_USEDEP}]"
+	<dev-python/trakit-0.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

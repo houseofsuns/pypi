@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dewloosh-core[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	>=dev-python/awkward-2.0.8[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.11.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

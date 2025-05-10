@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sequence and chromatin dataloader for deep learning"
+DESCRIPTION="Sequence and chromatin dataloader for deep learning [top-max 0.8.5]"
 
 HOMEPAGE="https://github.com/yztxwd/seqchromloader"
 LICENSE=""

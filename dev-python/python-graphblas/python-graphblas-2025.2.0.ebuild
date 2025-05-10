@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	repr? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
 	io? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
 	io? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
-	io? ( dev-python/awkward[${PYTHON_USEDEP}] )
+	io? ( >=dev-python/awkward-2.0[${PYTHON_USEDEP}] )
 	io? ( dev-python/sparse[${PYTHON_USEDEP}] )
 	io? ( dev-python/fast-matrix-market[${PYTHON_USEDEP}] )
 	viz? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )

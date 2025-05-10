@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/mplhep[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/pyAMI-atlas[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	<=dev-python/awkward-2.4.4[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]

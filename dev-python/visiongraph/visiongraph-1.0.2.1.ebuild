@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all depthai faiss fbs media mediapipe mot numba onnx onnx-directml onnx-gpu openvino realsense"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/vector[${PYTHON_USEDEP}]
+	~dev-python/vector-1.5.2[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

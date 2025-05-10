@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/uproot[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	>=dev-python/awkward-1.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/wfsim[${PYTHON_USEDEP}]

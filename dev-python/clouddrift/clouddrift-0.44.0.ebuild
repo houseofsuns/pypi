@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs plotting"
 DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	>=dev-python/awkward-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.3.0[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	>=dev-python/netcdf4-1.6.4[${PYTHON_USEDEP}]

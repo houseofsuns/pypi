@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/zfit[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	>=dev-python/iminuit-2.20.0[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	~dev-python/awkward-2.4.6[${PYTHON_USEDEP}]
 	dev-python/particle[${PYTHON_USEDEP}]
 	dev-python/vector[${PYTHON_USEDEP}]
 	dev-python/pdg[${PYTHON_USEDEP}]"

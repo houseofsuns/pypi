@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for RtMidi written in Cython. Allows sending raw messages, multi-port input and sending multiple messages in one call."
+DESCRIPTION="Python wrapper for RtMidi written in Cython. Allows sending raw messages, multi-port input and sending multiple messages in one call. [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/gesellkammer/rtmidi2"
 LICENSE="MIT"

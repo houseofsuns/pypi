@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/airr[${PYTHON_USEDEP}]
 	docs? ( <dev-python/readthedocs-sphinx-ext-2.2.6[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/recommonmark-0.7.2[${PYTHON_USEDEP}] )
 	scirpy? ( dev-python/scirpy[${PYTHON_USEDEP}] )
-	scirpy? ( dev-python/awkward[${PYTHON_USEDEP}] )
+	scirpy? ( <dev-python/awkward-2.7.5[${PYTHON_USEDEP}] )
 	scirpy? ( dev-python/mudata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

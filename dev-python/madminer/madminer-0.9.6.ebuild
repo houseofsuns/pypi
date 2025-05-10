@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/uproot3[${PYTHON_USEDEP}]
-	dev-python/vector[${PYTHON_USEDEP}]
+	>=dev-python/vector-0.8.4[${PYTHON_USEDEP}]
 	>=dev-python/sympy-0.7.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )

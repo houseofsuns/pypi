@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/awkward-2.8.0[${PYTHON_USEDEP}]
 	dev-python/decaylanguage[${PYTHON_USEDEP}]
 	dev-python/hepstats[${PYTHON_USEDEP}]
 	dev-python/hepunits[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/pylhe[${PYTHON_USEDEP}]
 	dev-python/resample[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]
-	dev-python/vector[${PYTHON_USEDEP}]
+	~dev-python/vector-1.6.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

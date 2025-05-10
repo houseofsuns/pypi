@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop lint test"
-DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/awkward-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.12.0[${PYTHON_USEDEP}]
 	dev-python/particle[${PYTHON_USEDEP}]
-	dev-python/vector[${PYTHON_USEDEP}]
+	>=dev-python/vector-0.8.1[${PYTHON_USEDEP}]
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )

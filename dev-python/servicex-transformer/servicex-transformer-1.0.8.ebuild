@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	~dev-python/awkward-1.10.1[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]

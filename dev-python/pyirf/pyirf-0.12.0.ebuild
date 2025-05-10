@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	all? ( dev-python/gammapy[${PYTHON_USEDEP}] )
-	all? ( dev-python/awkward[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/awkward-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/awkward1[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev? ( dev-python/gammapy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ogadf-schema[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uproot[${PYTHON_USEDEP}] )
-	dev? ( dev-python/awkward[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/awkward-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -70,6 +70,6 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	tests? ( dev-python/gammapy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ogadf-schema[${PYTHON_USEDEP}] )
 	tests? ( dev-python/uproot[${PYTHON_USEDEP}] )
-	tests? ( dev-python/awkward[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/awkward-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

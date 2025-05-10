@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="awkward dev docs numba sympy test test-extras"
 DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
-	awkward? ( dev-python/awkward[${PYTHON_USEDEP}] )
-	dev? ( dev-python/awkward[${PYTHON_USEDEP}] )
+	awkward? ( >=dev-python/awkward-2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/awkward-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numba[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/awkward[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/awkward-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/myst-parser-0.13[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

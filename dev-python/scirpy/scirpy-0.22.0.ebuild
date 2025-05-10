@@ -27,7 +27,7 @@ IUSE="cupy dandelion dev diversity doc parasail rpack test"
 DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/airr[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	>=dev-python/awkward-2.1.0[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.3.1[${PYTHON_USEDEP}]
 	dev-python/logomaker[${PYTHON_USEDEP}]

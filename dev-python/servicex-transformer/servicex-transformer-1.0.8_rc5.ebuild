@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/uproot[${PYTHON_USEDEP}]
-	dev-python/awkward[${PYTHON_USEDEP}]
+	~dev-python/awkward-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]

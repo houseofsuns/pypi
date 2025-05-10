@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The pure python version of the TraCI API to communicate with the traffic simulation Eclipse SUMO [top-max 1.23.0]"
+DESCRIPTION="The pure python version of the TraCI API to communicate with the traffic simulation Eclipse SUMO [top-max 1.23.1]"
 
 HOMEPAGE="https://sumo.dlr.de/docs/TraCI/Interfacing_TraCI_from_Python.html"
 LICENSE="EPL-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-snowflake for Apache Airflow"
+DESCRIPTION="Provider package apache-airflow-providers-snowflake for Apache Airflow [top-max 6.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

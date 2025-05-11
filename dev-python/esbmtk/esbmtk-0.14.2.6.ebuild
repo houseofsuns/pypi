@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Earth Science Box Modeling Toolkit"
+DESCRIPTION="The Earth Science Box Modeling Toolkit [top-max 0.14.2.7]"
 
 HOMEPAGE="https://github.com/uliw/esbmtk"
 LICENSE="GPL-3+"

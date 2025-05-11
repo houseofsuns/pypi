@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="finmind"
 REALVERSION="1.2.1.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="financial mining [new-max 2025-05-10 05:11:37.814243+00:00]"
+DESCRIPTION="financial mining [new-max 2025-05-10 08:57:47.271270+00:00]"
 
 HOMEPAGE="https://github.com/linsamtw"
 LICENSE=""

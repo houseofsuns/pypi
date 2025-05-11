@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python module for accessing the Kaltura API. [top-max 21.14.0]"
+DESCRIPTION="A Python module for accessing the Kaltura API. [top-max 21.15.0]"
 
 HOMEPAGE="https://github.com/kaltura/KalturaGeneratedAPIClientsPython"
 LICENSE="AGPL-3+"

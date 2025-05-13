@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for metaheuristic optimization in Python."
+DESCRIPTION="A package for metaheuristic optimization in Python. [top-max 0.9.147]"
 
 HOMEPAGE="https://thomasweise.github.io/moptipy"
 LICENSE="GPL 3.0"

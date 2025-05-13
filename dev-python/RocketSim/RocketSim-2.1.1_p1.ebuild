@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is Rocket League! [top-max 2.1.1_p3]"
+DESCRIPTION="This is Rocket League! [top-max 2.1.1_p4]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Glasswall Python Wrapper [top-max 5.7.0]"
+DESCRIPTION="Glasswall Python Wrapper [top-max 5.7.1]"
 
 HOMEPAGE="https://github.com/gw-engineering/glasswall-python-wrapper"
 LICENSE=""

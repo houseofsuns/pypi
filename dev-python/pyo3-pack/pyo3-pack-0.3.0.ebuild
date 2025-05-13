@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build and publish crates with pyo3 bindings as python packages [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f776b435fc0>)]"
+DESCRIPTION="Build and publish crates with pyo3 bindings as python packages [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f67d2d42ce0>)]"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"

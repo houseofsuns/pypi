@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Glue to stick OptionParser and ConfigParser together [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f7788b84ac0>)]"
+DESCRIPTION="Glue to stick OptionParser and ConfigParser together [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f67f0e635a0>)]"
 
 HOMEPAGE="https://launchpad.net/configglue"
 LICENSE="BSD"

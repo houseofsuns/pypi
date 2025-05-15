@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="a KLU solver for JAX [top-max 0.4.2]"
+DESCRIPTION="a KLU solver for JAX [top-max 0.4.3]"
 
 HOMEPAGE="https://github.com/flaport/klujax"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Oracle Cloud Infrastructure CLI [top-max 3.55.0]"
+DESCRIPTION="Oracle Cloud Infrastructure CLI [top-max 3.56.0]"
 
 HOMEPAGE="https://docs.cloud.oracle.com/iaas/Content/API/Concepts/cliconcepts.htm"
 LICENSE="Universal Permissive License 1.0 or Apache License 2.0"

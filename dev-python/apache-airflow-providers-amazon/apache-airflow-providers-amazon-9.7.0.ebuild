@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-amazon for Apache Airflow [wheel]"
+DESCRIPTION="Provider package apache-airflow-providers-amazon for Apache Airflow"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -58,7 +58,6 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	s3fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	salesforce? ( dev-python/apache-airflow-providers-salesforce[${PYTHON_USEDEP}] )
 	ssh? ( dev-python/apache-airflow-providers-ssh[${PYTHON_USEDEP}] )
-	standard? ( dev-python/apache-airflow-providers-standard[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	standard? ( dev-python/apache-airflow-providers-standard[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

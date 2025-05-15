@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Micropython stdlib is a reduced and augmented copy of typeshed's stdlib for use by MicroPython stub packages [top-max 1.24.1_p2]"
+DESCRIPTION="Micropython stdlib is a reduced and augmented copy of typeshed's stdlib for use by MicroPython stub packages [top-max 1.25.0]"
 
 HOMEPAGE="https://github.com/josverl/micropython-stubs#micropython-stubs"
 LICENSE=""

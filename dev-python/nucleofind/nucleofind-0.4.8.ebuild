@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NucleoFind: A Deep-Learning Network for Interpreting Nucleic Acid Electron Density [top-max 1.1.0]"
+DESCRIPTION="NucleoFind: A Deep-Learning Network for Interpreting Nucleic Acid Electron Density [top-max 1.2.0]"
 
 HOMEPAGE=""
 LICENSE=""

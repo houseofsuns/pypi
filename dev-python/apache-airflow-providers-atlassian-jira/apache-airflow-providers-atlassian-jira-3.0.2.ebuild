@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-atlassian-jira for Apache Airflow [top-max 3.1.0_alpha1]"
+DESCRIPTION="Provider package apache-airflow-providers-atlassian-jira for Apache Airflow"
 
 HOMEPAGE=""
 LICENSE=""

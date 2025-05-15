@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Provider package apache-airflow-providers-snowflake for Apache Airflow [wheel]"
+DESCRIPTION="Provider package apache-airflow-providers-snowflake for Apache Airflow"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -32,7 +32,6 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/snowflake-snowpark-python[${PYTHON_USEDEP}]
-	openlineage? ( dev-python/apache-airflow-providers-openlineage[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	openlineage? ( dev-python/apache-airflow-providers-openlineage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

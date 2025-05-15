@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extensions for a Python package for                               GPU-accelerated estimation of mixed logit models. [top-max 0.3.151]"
+DESCRIPTION="Extensions for a Python package for                               GPU-accelerated estimation of mixed logit models. [new-max 2025-05-15 06:55:07.425242+00:00]"
 
 HOMEPAGE="https://github.com/RyanJafefKelly/searchlogit"
 LICENSE="MIT"

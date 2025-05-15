@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Easily dockerize your Git repository"
+DESCRIPTION="Easily dockerize your Git repository [top-max 2.4.1]"
 
 HOMEPAGE="http://github.com/Stratoscale/skipper"
 LICENSE="Apache-2.0"

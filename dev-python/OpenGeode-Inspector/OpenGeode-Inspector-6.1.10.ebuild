@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open source framework for inspecting the validity of geometric models [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ef659a5c040>)]"
+DESCRIPTION="Open source framework for inspecting the validity of geometric models [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f0902ff2500>)]"
 
 HOMEPAGE=""
 LICENSE="MIT"

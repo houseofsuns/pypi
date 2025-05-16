@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for managing file upload/download via selected file system."
+DESCRIPTION="Python package for managing file upload/download via selected file system. [top-max 1.7.2]"
 
 HOMEPAGE=""
 LICENSE=""

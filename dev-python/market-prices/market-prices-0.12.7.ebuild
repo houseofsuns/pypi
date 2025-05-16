@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Meaningful OHLCV datasets"
+DESCRIPTION="Meaningful OHLCV datasets [top-max 0.12.8]"
 
 HOMEPAGE="https://github.com/maread99/market_prices"
 LICENSE="MIT"

@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="13.0.0b3.dev10"
+REALVERSION="13.0.0b3.dev11"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Invenio Research Data Management. [badver 13.0.0b3.dev10]"
+DESCRIPTION="Invenio Research Data Management. [badver 13.0.0b3.dev11]"
 
 HOMEPAGE="https://github.com/inveniosoftware/invenio-app-rdm"
 LICENSE="MIT"

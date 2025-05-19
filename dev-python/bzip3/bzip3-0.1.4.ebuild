@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="bz3 compress and decompress [top-max 0.1.6]"
+DESCRIPTION="bz3 compress and decompress [top-max 0.1.8]"
 
 HOMEPAGE="https://github.com/synodriver/python-bz3"
 LICENSE="LGPL-3"

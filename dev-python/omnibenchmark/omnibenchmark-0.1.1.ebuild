@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An tool for automated scientific benchmarking"
+DESCRIPTION="An tool for automated scientific benchmarking [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/omnibenchmark/omni-py"
 LICENSE=""

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/analytics-python[${PYTHON_USEDEP}]
 	dev-python/token-bucket[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/xxhash-4.0.0[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	<dev-python/furl-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

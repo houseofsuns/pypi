@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pandas test"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	>=dev-python/furl-2.1.3[${PYTHON_USEDEP}]
 	dev-python/GelReportModels[${PYTHON_USEDEP}]
 	pandas? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )

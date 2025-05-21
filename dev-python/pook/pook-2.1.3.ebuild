@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/furl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/furl-0.5.6[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

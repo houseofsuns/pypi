@@ -33,6 +33,6 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0.0[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]"
+	<dev-python/furl-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

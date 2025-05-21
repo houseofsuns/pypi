@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pyhamcrest-2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.28[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.9[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	>=dev-python/furl-2.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

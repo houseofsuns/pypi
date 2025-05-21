@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	test-all? ( >=dev-python/docutils-0.10[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/flake8-2.4.0[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/flexmock-0.9.7[${PYTHON_USEDEP}] )
-	test-all? ( dev-python/furl[${PYTHON_USEDEP}] )
+	test-all? ( >=dev-python/furl-0.4.1[${PYTHON_USEDEP}] )
 	test-all? ( dev-python/intervals[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
 	test-all? ( <dev-python/passlib-2.0[${PYTHON_USEDEP}] )
@@ -74,6 +74,6 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	test-all? ( >=dev-python/python-dateutil-2.6[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/pytz-2014.2[${PYTHON_USEDEP}] )
 	timezone? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	url? ( dev-python/furl[${PYTHON_USEDEP}] )"
+	url? ( >=dev-python/furl-0.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -44,6 +44,6 @@ DEPENDENCIES=">=dev-python/pyhamcrest-2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/contexttimer[${PYTHON_USEDEP}] )
 	test? ( dev-python/brunns-builder[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/trustme-0.9[${PYTHON_USEDEP}] )
-	test? ( dev-python/furl[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/furl-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

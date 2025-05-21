@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/distlib-0.3.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/orderedmultidict[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/orderedmultidict-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep517[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pip-23.2.1[${PYTHON_USEDEP}] )

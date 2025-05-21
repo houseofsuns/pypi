@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/azure-functions[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]"
+	>=dev-python/furl-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azure gs s3"
 DEPENDENCIES=">=dev-python/attrs-18.0[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	>=dev-python/furl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/humanfriendly-2.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/attrs-23.2.0[${PYTHON_USEDEP}]
 	dev-python/binapy[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	>=dev-python/furl-2.1.2[${PYTHON_USEDEP}]
 	dev-python/jwskate[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

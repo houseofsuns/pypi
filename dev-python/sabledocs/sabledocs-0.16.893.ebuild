@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	dev-python/lunr[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]"
+	<dev-python/furl-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/pymongo-4.4.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/call-throttle[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	~dev-python/furl-2.1.2[${PYTHON_USEDEP}]
 	dev-python/ndjson[${PYTHON_USEDEP}]
 	~dev-python/anyascii-0.3.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]

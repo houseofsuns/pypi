@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.17.0[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	<dev-python/furl-3.0.0[${PYTHON_USEDEP}]
 	dev-python/avajana[${PYTHON_USEDEP}]
 	<dev-python/parse-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/path-16.0.0[${PYTHON_USEDEP}]

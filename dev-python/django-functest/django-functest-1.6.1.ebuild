@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/django-webtest[${PYTHON_USEDEP}]
 	>=dev-python/webtest-3.0[${PYTHON_USEDEP}]
 	>=dev-python/selenium-4.0[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	>=dev-python/furl-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyquery-1.2.10[${PYTHON_USEDEP}]
 	>=dev-python/django-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

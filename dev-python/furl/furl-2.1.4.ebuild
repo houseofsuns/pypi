@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/six-1.8.0[${PYTHON_USEDEP}]
-	dev-python/orderedmultidict[${PYTHON_USEDEP}]"
+	>=dev-python/orderedmultidict-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

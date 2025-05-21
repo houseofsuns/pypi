@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/orderedmultidict[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	~dev-python/orderedmultidict-0.7.11[${PYTHON_USEDEP}]
+	~dev-python/furl-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	~dev-python/requests-2.5.1[${PYTHON_USEDEP}]
 	dev-python/terminaltables[${PYTHON_USEDEP}]

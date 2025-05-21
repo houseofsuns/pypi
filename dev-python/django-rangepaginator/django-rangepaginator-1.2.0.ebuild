@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/django-1.7[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	>=dev-python/furl-1.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-3.0.1[${PYTHON_USEDEP}] )

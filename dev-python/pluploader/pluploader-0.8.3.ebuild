@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
-	dev-python/furl[${PYTHON_USEDEP}]
+	<dev-python/furl-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]

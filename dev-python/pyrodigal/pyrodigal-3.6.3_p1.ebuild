@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="isal lz4 zst"
 DEPENDENCIES="dev-python/archspec[${PYTHON_USEDEP}]
-	isal? ( dev-python/isal[${PYTHON_USEDEP}] )
+	isal? ( ~dev-python/isal-1.1[${PYTHON_USEDEP}] )
 	lz4? ( ~dev-python/lz4-4.0[${PYTHON_USEDEP}] )
 	zst? ( ~dev-python/zstandard-0.22[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

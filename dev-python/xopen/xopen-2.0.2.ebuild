@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev zstd"
-DEPENDENCIES="dev-python/isal[${PYTHON_USEDEP}]
-	dev-python/zlib-ng[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/isal-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/zlib-ng-0.4.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	zstd? ( <dev-python/zstandard-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

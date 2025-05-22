@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.0.1a99.dev1"
+REALVERSION="0.0.1a99.dev3"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DataJunction server library for running to a DataJunction server [badver 0.0.1a99.dev1]"
+DESCRIPTION="DataJunction server library for running to a DataJunction server [badver 0.0.1a99.dev3]"
 
 HOMEPAGE="https://datajunction.io"
 LICENSE="MIT"

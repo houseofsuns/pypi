@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="INSPIRE-specific rules to transform from MARCXML to JSON and back. [top-max 63.2.31]"
+DESCRIPTION="INSPIRE-specific rules to transform from MARCXML to JSON and back. [top-max 63.2.32]"
 
 HOMEPAGE="https://github.com/inspirehep/inspire-dojson"
 LICENSE="GPL-3"

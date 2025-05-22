@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="isal"
 DEPENDENCIES=">=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
-	isal? ( dev-python/isal[${PYTHON_USEDEP}] )
-	dev-python/zlib-ng[${PYTHON_USEDEP}]"
+	isal? ( >=dev-python/isal-1.5.3[${PYTHON_USEDEP}] )
+	>=dev-python/zlib-ng-0.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

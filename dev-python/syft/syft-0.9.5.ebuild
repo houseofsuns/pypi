@@ -27,7 +27,7 @@ IUSE="data-science dev telemetry test-plugins"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.1.2[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.34.56[${PYTHON_USEDEP}]
-	dev-python/forbiddenfruit[${PYTHON_USEDEP}]
+	~dev-python/forbiddenfruit-0.1.4[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-17.0.0[${PYTHON_USEDEP}]
 	dev-python/pycapnp[${PYTHON_USEDEP}]

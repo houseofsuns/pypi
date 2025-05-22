@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/exceptiongroup-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
 	trio? ( >=dev-python/trio-0.26.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	test? ( dev-python/blockbuster[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/blockbuster-1.5.23[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/hypothesis-4.0[${PYTHON_USEDEP}] )

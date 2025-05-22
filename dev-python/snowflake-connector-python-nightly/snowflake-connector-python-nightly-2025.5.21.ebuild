@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nigthly build of Snowflake Connector for Python"
+DESCRIPTION="Nigthly build of Snowflake Connector for Python [top-max 2025.5.22]"
 
 HOMEPAGE="https://www.snowflake.com/"
 LICENSE="Apache-2.0"

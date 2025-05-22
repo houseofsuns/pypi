@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.11.11[${PYTHON_USEDEP}]
-	dev-python/isal[${PYTHON_USEDEP}]
+	~dev-python/isal-1.7.1[${PYTHON_USEDEP}]
 	dev-python/aiohttp-fast-zlib[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.18.3[${PYTHON_USEDEP}]

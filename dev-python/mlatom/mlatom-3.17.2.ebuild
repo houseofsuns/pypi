@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Package for AI-enhanced computational chemistry"
+DESCRIPTION="A Package for AI-enhanced computational chemistry [top-max 3.17.3]"
 
 HOMEPAGE="http://mlatom.com"
 LICENSE="MIT modified"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Object-oriented B-Spline and NURBS evaluation library"
+DESCRIPTION="Object-oriented B-Spline and NURBS evaluation library [top-max 5.4.0]"
 
 HOMEPAGE="https://github.com/orbingol/NURBS-Python"
 LICENSE="MIT"

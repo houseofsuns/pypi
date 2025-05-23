@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Base classes and helpers for common data pipeline tasks"
+DESCRIPTION="Base classes and helpers for common data pipeline tasks [top-max 0.50]"
 
 HOMEPAGE="https://github.com/JiscDACT/mario"
 LICENSE="all rights reserved"

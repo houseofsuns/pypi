@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zoho Catalyst SDK for Python"
+DESCRIPTION="Zoho Catalyst SDK for Python [top-max 1.0.0]"
 
 HOMEPAGE="https://catalyst.zoho.com/"
 LICENSE="Apache-2.0"

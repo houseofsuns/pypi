@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple Django app which allows you to upload a image and it renders a wide variety for html link tags to display the favicon"
+DESCRIPTION="Simple Django app which allows you to upload a image and it renders a wide variety for html link tags to display the favicon [top-max 1.2.1]"
 
 HOMEPAGE="https://edugit.org/AlekSIS/libs/django-favicon-plus"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An open-source Python package for automated and scalable statistical analysis of mass spectrometry-based proteomics"
+DESCRIPTION="An open-source Python package for automated and scalable statistical analysis of mass spectrometry-based proteomics [top-max 0.7.0]"
 
 HOMEPAGE="https://github.com/MannLabs/alphastats"
 LICENSE="Apache-2.0"

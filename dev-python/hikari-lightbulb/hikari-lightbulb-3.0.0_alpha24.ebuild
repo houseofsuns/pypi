@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple, elegant, and powerful command handler for Hikari."
+DESCRIPTION="A simple, elegant, and powerful command handler for Hikari. [top-max 3.0.0_alpha25]"
 
 HOMEPAGE="https://github.com/tandemdude/hikari-lightbulb"
 LICENSE=""

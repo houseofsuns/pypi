@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Astronomical N-body/SPH analysis for python"
+DESCRIPTION="Astronomical N-body/SPH analysis for python [top-max 2.1.2]"
 
 HOMEPAGE="https://github.com/pynbody/pynbody/releases"
 LICENSE=""

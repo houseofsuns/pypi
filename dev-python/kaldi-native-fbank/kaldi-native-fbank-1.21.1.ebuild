@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [top-max 1.21.2]"
 
 HOMEPAGE="https://github.com/csukuangfj/kaldi-native-fbank"
 LICENSE="Apache licensed, as found in the LICENSE file"

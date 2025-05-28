@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client API for openEO [new-max 2025-05-14 08:26:30.829576+00:00]"
+DESCRIPTION="Client API for openEO [new-max 2025-05-28 09:13:14.801849+00:00]"
 
 HOMEPAGE="https://github.com/Open-EO/openeo-python-client"
 LICENSE=""

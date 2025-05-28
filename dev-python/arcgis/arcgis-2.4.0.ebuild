@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ArcGIS API for Python [top-max 2.4.1]"
+DESCRIPTION="ArcGIS API for Python [top-max 2.4.1.1]"
 
 HOMEPAGE="https://developers.arcgis.com/python/"
 LICENSE="Esri Master License Agreement MLA - http://www.esri.com/LEGAL/pdfs/mla_e204_e300/english.pdf"

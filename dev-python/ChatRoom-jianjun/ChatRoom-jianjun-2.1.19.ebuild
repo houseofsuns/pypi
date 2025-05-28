@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python分布式交互框架！快速建立可靠的网络连接！ [top-max 3.3.1]"
+DESCRIPTION="Python分布式交互框架！快速建立可靠的网络连接！ [top-max 3.3.2]"
 
 HOMEPAGE="https://github.com/EVA-JianJun/ChatRoom"
 LICENSE=""

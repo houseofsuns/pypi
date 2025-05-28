@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The py-dss-interface is a Python package that provides a Python interface to the OFFICIAL version of OpenDSS (Open-source Distribution System Simulator) software. OpenDSS is a free, open-source software for simulating and analyzing power distribution systems. [top-max 2.1.0]"
+DESCRIPTION="The py-dss-interface is a Python package that provides a Python interface to the OFFICIAL version of OpenDSS (Open-source Distribution System Simulator) software. OpenDSS is a free, open-source software for simulating and analyzing power distribution systems. [top-max 2.1.1]"
 
 HOMEPAGE="https://github.com/PauloRadatz/py_dss_interface"
 LICENSE="MIT"

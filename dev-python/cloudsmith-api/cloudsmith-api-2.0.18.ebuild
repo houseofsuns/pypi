@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cloudsmith API (v1) [wheel]"
+DESCRIPTION="Cloudsmith API (v1)"
 
 HOMEPAGE="https://api.cloudsmith.io/?format&#x3D;openapi"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py2.py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py2.py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py2.py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -27,7 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.23[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	>=dev-python/urllib3-1.23[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

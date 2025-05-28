@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Send messages to the macOS unified logging system (os_log)"
+DESCRIPTION="Send messages to the macOS unified logging system (os_log) [top-max 1.2.0]"
 
 HOMEPAGE="https://github.com/simonrob/pyoslog"
 LICENSE="Apache-2.0"

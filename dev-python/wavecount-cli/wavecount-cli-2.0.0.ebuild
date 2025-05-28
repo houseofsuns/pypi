@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wavecount cli [top-max 2.3.2]"
+DESCRIPTION="Wavecount cli [top-max 2.3.3]"
 
 HOMEPAGE=""
 LICENSE="ISC"

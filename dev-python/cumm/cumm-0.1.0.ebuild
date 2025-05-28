@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CUda Matrix Multiply library [top-max 0.8.1]"
+DESCRIPTION="CUda Matrix Multiply library [top-max 0.8.2]"
 
 HOMEPAGE="https://github.com/FindDefinition/cumm"
 LICENSE="MIT"

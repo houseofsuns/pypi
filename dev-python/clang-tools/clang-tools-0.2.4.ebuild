@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Install clang-tools (clang-format, clang-tidy) with pip [top-max 0.14.0]"
+DESCRIPTION="Install clang-tools (clang-format, clang-tidy) with pip [top-max 0.15.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

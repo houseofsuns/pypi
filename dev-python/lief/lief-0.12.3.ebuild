@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library to instrument executable formats [top-max 0.16.5]"
+DESCRIPTION="Library to instrument executable formats [top-max 0.16.6]"
 
 HOMEPAGE="https://github.com/lief-project/LIEF"
 LICENSE="Apache-2.0"

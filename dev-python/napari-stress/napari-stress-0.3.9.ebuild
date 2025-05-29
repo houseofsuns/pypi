@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interactive surface analysis in napari for measuring mechanical stresses in biological tissues"
+DESCRIPTION="Interactive surface analysis in napari for measuring mechanical stresses in biological tissues [top-max 0.4.0]"
 
 HOMEPAGE=""
 LICENSE="Copyright c 2022, Johannes Mller, DFG Cluster of Excellence Physics of Life, TU Dresden, Dresden, Germany & The Regents of the University of California"

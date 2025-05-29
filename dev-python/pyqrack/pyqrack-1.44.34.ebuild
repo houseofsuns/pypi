@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pyqrack - Pure Python vm6502q/qrack Wrapper"
+DESCRIPTION="pyqrack - Pure Python vm6502q/qrack Wrapper [top-max 1.44.35]"
 
 HOMEPAGE="https://github.com/vm6502q/pyqrack"
 LICENSE="MIT"

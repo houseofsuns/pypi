@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Creates user interfaces (websites and desktop apps) from HTML easily [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f11ff140a50>)]"
+DESCRIPTION="Creates user interfaces (websites and desktop apps) from HTML easily [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4d4f9c04a0>)]"
 
 HOMEPAGE=""
 LICENSE=""

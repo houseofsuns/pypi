@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Efficient, vectorized geospatial operations in Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f121ded5a10>)]"
+DESCRIPTION="Efficient, vectorized geospatial operations in Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4d6e6af3e0>)]"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"

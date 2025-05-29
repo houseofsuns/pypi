@@ -16,8 +16,8 @@ DESCRIPTION="Enable advanced processing for multibeam and singlebeam echosounder
 
 HOMEPAGE="https://github.com/themachinethatgoesping"
 LICENSE="Mozilla Public License Version 2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="5.0.0a8.dev59"
+REALVERSION="5.0.0a8.dev61"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Allow the automatic tracking of issues using Sentry. [badver 5.0.0a8.dev59]"
+DESCRIPTION="Allow the automatic tracking of issues using Sentry. [badver 5.0.0a8.dev61]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

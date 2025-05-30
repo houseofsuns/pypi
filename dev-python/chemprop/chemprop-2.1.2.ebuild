@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Molecular Property Prediction with Message Passing Neural Networks"
+DESCRIPTION="Molecular Property Prediction with Message Passing Neural Networks [top-max 2.2.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

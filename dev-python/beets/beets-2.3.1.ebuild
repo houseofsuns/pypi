@@ -41,7 +41,7 @@ DEPENDENCIES="aura? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev-python/jellyfish[${PYTHON_USEDEP}]
 	fetchart? ( dev-python/langdetect[${PYTHON_USEDEP}] )
 	lyrics? ( dev-python/langdetect[${PYTHON_USEDEP}] )
-	dev-python/lap[${PYTHON_USEDEP}]
+	>=dev-python/lap-0.5.12[${PYTHON_USEDEP}]
 	autobpm? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	>=dev-python/mediafile-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/musicbrainzngs-0.4[${PYTHON_USEDEP}]

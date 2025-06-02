@@ -28,6 +28,6 @@ DEPENDENCIES="~dev-python/pydantic-2.10.0[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/arguably[${PYTHON_USEDEP}]
 	dev-python/pytubefix[${PYTHON_USEDEP}]
-	dev-python/audioop-lts[${PYTHON_USEDEP}]"
+	~dev-python/audioop-lts-0.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

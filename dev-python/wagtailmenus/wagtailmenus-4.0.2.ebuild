@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An app to help you manage menus in your Wagtail projects more consistently."
+DESCRIPTION="An app to help you manage menus in your Wagtail projects more consistently. [top-max 4.0.3]"
 
 HOMEPAGE="https://github.com/jazzband/wagtailmenus/tree/stable/4.0.x"
 LICENSE="MIT"

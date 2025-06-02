@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="James Iter's common library by python. [top-max 3.9.5]"
+DESCRIPTION="James Iter's common library by python. [top-max 3.9.6]"
 
 HOMEPAGE="https://github.com/jamesiter/jimitlib-py.git"
 LICENSE="BSD"

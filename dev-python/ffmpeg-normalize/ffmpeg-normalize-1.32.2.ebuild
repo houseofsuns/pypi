@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Normalize audio via ffmpeg"
+DESCRIPTION="Normalize audio via ffmpeg [top-max 1.32.3]"
 
 HOMEPAGE="https://github.com/slhck/ffmpeg-normalize"
 LICENSE="MIT"

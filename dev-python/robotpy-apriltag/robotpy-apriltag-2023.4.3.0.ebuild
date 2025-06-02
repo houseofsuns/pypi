@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RobotPy bindings for WPILib's AprilTag library [top-max 2025.3.2.2]"
+DESCRIPTION="RobotPy bindings for WPILib's AprilTag library [top-max 2025.3.2.3]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-cscore"
 LICENSE="BSD"

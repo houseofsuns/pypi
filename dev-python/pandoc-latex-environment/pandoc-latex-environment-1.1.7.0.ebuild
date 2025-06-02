@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pandoc filter for adding LaTeX environement on specific div [top-max 1.2.0.0]"
+DESCRIPTION="A pandoc filter for adding LaTeX environement on specific div [top-max 1.2.1.0]"
 
 HOMEPAGE="https://github.com/chdemko/pandoc-latex-environment"
 LICENSE="BSD"

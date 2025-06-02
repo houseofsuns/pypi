@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django rest framework resources for social auth [top-max 8.4.0]"
+DESCRIPTION="Django rest framework resources for social auth [top-max 9.0.0]"
 
 HOMEPAGE="https://github.com/st4lk/django-rest-social-auth"
 LICENSE="MIT"

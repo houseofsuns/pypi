@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/service-identity[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	>=dev-python/ipaddr-2.1.10[${PYTHON_USEDEP}]
+	dev-python/ipaddr[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.5.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.6.0[${PYTHON_USEDEP}]

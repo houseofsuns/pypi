@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python software packaged designed for reduction of neutron powder and single crystal diffraction data from DMC at PSI."
+DESCRIPTION="Python software packaged designed for reduction of neutron powder and single crystal diffraction data from DMC at PSI. [top-max 1.0.3]"
 
 HOMEPAGE="https://www.psi.ch/en/sinq/dmc/"
 LICENSE="MPL-2.0"

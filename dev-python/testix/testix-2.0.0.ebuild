@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Mocking framework Python with *exact* Scenarios [top-max 12.0.1]"
+DESCRIPTION="Mocking framework Python with *exact* Scenarios [top-max 12.1.0]"
 
 HOMEPAGE="https://github.com/haarcuba/testix"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A list-like structure which implements collections.abc.MutableSequence"
+DESCRIPTION="A list-like structure which implements collections.abc.MutableSequence [top-max 1.6.1]"
 
 HOMEPAGE="https://github.com/aio-libs/frozenlist"
 LICENSE="Apache-2.0"

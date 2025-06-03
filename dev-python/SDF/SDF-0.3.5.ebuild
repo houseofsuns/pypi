@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Work with Scientific Data Format files in Python [top-max 0.3.6]"
+DESCRIPTION="Work with Scientific Data Format files in Python [top-max 0.3.7]"
 
 HOMEPAGE="https://github.com/ScientificDataFormat/SDF-Python"
 LICENSE="Standard 3-clause BSD"

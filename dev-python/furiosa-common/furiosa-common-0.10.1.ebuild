@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Furiosa SDK common utilities [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f9771a3d2a0>)]"
+DESCRIPTION="Furiosa SDK common utilities [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb88edd90e0>)]"
 
 HOMEPAGE=""
 LICENSE=""

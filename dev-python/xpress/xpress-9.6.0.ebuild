@@ -16,8 +16,8 @@ DESCRIPTION="FICO Xpress Optimizer Python interface [wheel]"
 
 HOMEPAGE="https://www.fico.com/en/products/fico-xpress-optimization"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux1_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux1_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-1-cp311-cp311-manylinux1_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-1-cp311-cp311-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight Open BMW Software Traceability Evidence Report [top-max 0.12.2]"
+DESCRIPTION="Lightweight Open BMW Software Traceability Evidence Report [top-max 0.13.0]"
 
 HOMEPAGE="https://github.com/bmw-software-engineering/lobster"
 LICENSE="AGPL-3"

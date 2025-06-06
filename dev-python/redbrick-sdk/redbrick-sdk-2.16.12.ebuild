@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RedBrick platform Python SDK! [top-max 2.27.2]"
+DESCRIPTION="RedBrick platform Python SDK! [top-max 2.27.3]"
 
 HOMEPAGE="https://www.redbrickai.com"
 LICENSE=""

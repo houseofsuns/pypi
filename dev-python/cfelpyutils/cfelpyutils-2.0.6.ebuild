@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility functions and classes for CFEL software projects [top-max 2.1.0]"
+DESCRIPTION="Utility functions and classes for CFEL software projects [top-max 2.2.0]"
 
 HOMEPAGE="https://gitlab.desy.de/cfel-sc-public/cfelpyutils"
 LICENSE="GNU General Public License v3.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python projection of Windows Runtime (WinRT) APIs"
+DESCRIPTION="Python projection of Windows Runtime (WinRT) APIs [top-max 3.2.1]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CDK Constructs that syncs your sops secrets into AWS SecretsManager secrets."
+DESCRIPTION="CDK Constructs that syncs your sops secrets into AWS SecretsManager secrets. [top-max 2.2.0]"
 
 HOMEPAGE="https://constructs.dev/packages/cdk-sops-secrets"
 LICENSE="Apache-2.0"

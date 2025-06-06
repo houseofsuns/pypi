@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LOBSTER Tool for Codebeamer [top-max 0.12.2]"
+DESCRIPTION="LOBSTER Tool for Codebeamer [top-max 0.13.0]"
 
 HOMEPAGE="https://github.com/bmw-software-engineering/lobster"
 LICENSE="AGPL-3"

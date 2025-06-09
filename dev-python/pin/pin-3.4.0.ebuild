@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives"
+DESCRIPTION="A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives [top-max 3.7.0]"
 
 HOMEPAGE="https://github.com/cmake-wheel/pinocchio"
 LICENSE=""

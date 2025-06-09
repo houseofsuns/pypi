@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Cython based binding for modern libpcap"
+DESCRIPTION="A Cython based binding for modern libpcap [top-max 0.6.2]"
 
 HOMEPAGE="https://github.com/segevfiner/cypcap"
 LICENSE="BSD"

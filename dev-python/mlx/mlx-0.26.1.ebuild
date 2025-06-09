@@ -16,8 +16,8 @@ DESCRIPTION="A framework for machine learning on Apple silicon. [wheel]"
 
 HOMEPAGE="https://github.com/ml-explore/mlx"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/63/93/97c0a149cba1ad3fbfb01be4c6b293b4cb9d11e41d4b54735048e3d671bd/${REALNAME}-${REALVERSION}-cp311-cp311-macosx_13_0_arm64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-macosx_13_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/72/a7/b4611911540e15ffd5c5b039ff4a83f43ef64a7ebc51df499b4456815470/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_31_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_31_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

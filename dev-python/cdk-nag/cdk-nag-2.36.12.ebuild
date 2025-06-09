@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Check CDK v2 applications for best practices using a combination on available rule packs."
+DESCRIPTION="Check CDK v2 applications for best practices using a combination on available rule packs. [top-max 2.36.13]"
 
 HOMEPAGE="https://github.com/cdklabs/cdk-nag.git"
 LICENSE="Apache-2.0"

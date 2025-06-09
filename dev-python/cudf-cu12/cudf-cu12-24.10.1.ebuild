@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cuDF - GPU Dataframe [top-max 25.4.0]"
+DESCRIPTION="cuDF - GPU Dataframe [top-max 25.6.0]"
 
 HOMEPAGE="https://github.com/rapidsai/cudf"
 LICENSE="Apache-2.0"

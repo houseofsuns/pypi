@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sphinx extension for thumbnails"
+DESCRIPTION="Sphinx extension for thumbnails [top-max 1.0.1]"
 
 HOMEPAGE="https://github.com/sphinx-contrib/images"
 LICENSE="Apache-2.0"

@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="floris"
+LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -16,8 +16,8 @@ DESCRIPTION="A controls-oriented engineering wake model."
 
 HOMEPAGE="https://github.com/NREL/floris"
 LICENSE="BSD 3-Clause License"
-SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/13/5c/6da814c753da2736c117c128eec24c864ca066549b5b0d660fddfe3a051a/floris-${REALVERSION}.tar.gz"
+SOURCEFILE="floris-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Confluent's Python client for Apache Kafka"
+DESCRIPTION="Confluent's Python client for Apache Kafka [top-max 2.10.1_rc1]"
 
 HOMEPAGE="https://github.com/confluentinc/confluent-kafka-python"
 LICENSE=""

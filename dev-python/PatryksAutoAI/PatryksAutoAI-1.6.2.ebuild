@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/scipy-1.7.2[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	>=dev-python/emoji-2.2.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/pyspellchecker[${PYTHON_USEDEP}]
+	>=dev-python/pyspellchecker-0.7.2[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

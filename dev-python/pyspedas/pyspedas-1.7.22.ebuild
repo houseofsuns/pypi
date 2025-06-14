@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Space Physics Environment Data Analysis Software (pySPEDAS)"
+DESCRIPTION="Python Space Physics Environment Data Analysis Software (pySPEDAS) [top-max 1.7.23]"
 
 HOMEPAGE="https://github.com/spedas/pyspedas"
 LICENSE="MIT"

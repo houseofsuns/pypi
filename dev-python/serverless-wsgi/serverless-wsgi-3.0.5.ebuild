@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Amazon AWS API Gateway WSGI wrapper"
+DESCRIPTION="Amazon AWS API Gateway WSGI wrapper [top-max 3.1.0]"
 
 HOMEPAGE="https://github.com/logandk/serverless-wsgi"
 LICENSE=""

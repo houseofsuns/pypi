@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Cloud SQL Python Connector library [wheel]"
+DESCRIPTION="Google Cloud SQL Python Connector library"
 
 HOMEPAGE="https://github.com/GoogleCloudPlatform/cloud-sql-python-connector"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -33,7 +33,6 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	pymysql? ( >=dev-python/pymysql-1.1.0[${PYTHON_USEDEP}] )
 	pg8000? ( dev-python/pg8000[${PYTHON_USEDEP}] )
 	pytds? ( dev-python/python-tds[${PYTHON_USEDEP}] )
-	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

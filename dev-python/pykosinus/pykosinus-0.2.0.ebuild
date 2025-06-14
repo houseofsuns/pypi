@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyspellchecker[${PYTHON_USEDEP}]
+	~dev-python/pyspellchecker-0.7.2[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

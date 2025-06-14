@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.40[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
-	dev-python/pyspellchecker[${PYTHON_USEDEP}]
+	>=dev-python/pyspellchecker-0.6[${PYTHON_USEDEP}]
 	dev-python/quantiphy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )

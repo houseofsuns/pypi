@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Furiosa serving framework, easy to use inference server. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f5c32fb5690>)]"
+DESCRIPTION="Furiosa serving framework, easy to use inference server. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f7f8c19fc30>)]"
 
 HOMEPAGE=""
 LICENSE=""

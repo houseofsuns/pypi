@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Custom Development python API libraries [top-max 3.18.3]"
+DESCRIPTION="Custom Development python API libraries [top-max 3.19.2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BanditPAM: A state-of-the-art,             high-performance k-medoids algorithm."
+DESCRIPTION="BanditPAM: A state-of-the-art,             high-performance k-medoids algorithm. [top-max 6.0.0]"
 
 HOMEPAGE="https://github.com/motiwari/BanditPAM"
 LICENSE=""

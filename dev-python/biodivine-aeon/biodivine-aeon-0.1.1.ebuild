@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the tool AEON. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f81957b4040>)]"
+DESCRIPTION="Python bindings for the tool AEON. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f223dc2cc10>)]"
 
 HOMEPAGE=""
 LICENSE=""

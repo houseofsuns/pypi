@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="All-in-One Development Tool based on PaddlePaddle. [top-max 3.0.1]"
+DESCRIPTION="All-in-One Development Tool based on PaddlePaddle. [top-max 3.0.2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Unity extraction and patching package"
+DESCRIPTION="A Unity extraction and patching package [top-max 1.23.0]"
 
 HOMEPAGE="https://github.com/K0lb3/UnityPy"
 LICENSE="MIT"

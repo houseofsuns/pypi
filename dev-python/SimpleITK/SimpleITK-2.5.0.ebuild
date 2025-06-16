@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="simpleitk"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,12 +12,12 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SimpleITK is a simplified interface to the Insight Toolkit (ITK) for image registration and segmentation"
+DESCRIPTION="SimpleITK is a simplified interface to the Insight Toolkit (ITK) for image registration and segmentation [top-max 2.5.2]"
 
 HOMEPAGE="http://simpleitk.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/80/65/67069b823abce4ed0c6e1378d57634eb10b4050987d926bd4d8c070db2cf/simpleitk-${REALVERSION}.tar.gz"
-SOURCEFILE="simpleitk-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

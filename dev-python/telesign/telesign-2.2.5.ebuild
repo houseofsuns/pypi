@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TeleSign SDK [top-max 2.2.7]"
+DESCRIPTION="TeleSign SDK [top-max 2.3.0]"
 
 HOMEPAGE="https://github.com/telesign/python_telesign"
 LICENSE="MIT"

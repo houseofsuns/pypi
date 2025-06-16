@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for LongPort Open API [top-max 3.0.6]"
+DESCRIPTION="A Python library for LongPort Open API [top-max 3.0.7]"
 
 HOMEPAGE="https://open.longportapp.com/en/"
 LICENSE="MIT OR Apache-2.0"

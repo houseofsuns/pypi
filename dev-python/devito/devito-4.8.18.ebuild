@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pip-9.0.1[${PYTHON_USEDEP}]
 	dev-python/cgen[${PYTHON_USEDEP}]
 	dev-python/codepy[${PYTHON_USEDEP}]
 	<dev-python/multidict-6.3[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	<=dev-python/anytree-2.13.0[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-3.1.2[${PYTHON_USEDEP}]
 	<dev-python/packaging-25.1[${PYTHON_USEDEP}]
 	mpi? ( <dev-python/mpi4py-4.0.4[${PYTHON_USEDEP}] )

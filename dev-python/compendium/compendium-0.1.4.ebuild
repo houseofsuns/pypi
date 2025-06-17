@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs xml"
-DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-1.0[${PYTHON_USEDEP}]

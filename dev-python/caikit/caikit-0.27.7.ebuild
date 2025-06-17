@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all all-dev dev-build dev-docs dev-fmt dev-proto3 dev-test interfaces-ts interfaces-ts-pyspark interfaces-vision runtime-client runtime-grpc runtime-http runtime-trace"
 DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	dev-python/alchemy-logging[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	<dev-python/anytree-3.0[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	<dev-python/ijson-3.3.0[${PYTHON_USEDEP}]

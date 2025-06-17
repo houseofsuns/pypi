@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Zibanu library for django projects"
+DESCRIPTION="Zibanu library for django projects [top-max 2.0.3]"
 
 HOMEPAGE=""
 LICENSE=""

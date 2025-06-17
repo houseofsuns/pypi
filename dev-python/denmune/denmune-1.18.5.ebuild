@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/ngt[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	~dev-python/anytree-2.8[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

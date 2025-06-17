@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/POT[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	<dev-python/anytree-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/beartype-0.19.0[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/graspologic-native[${PYTHON_USEDEP}]

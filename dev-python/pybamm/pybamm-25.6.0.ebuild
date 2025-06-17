@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bpx cite dev docs examples jax plot tqdm"
-DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]
 	dev-python/casadi[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]

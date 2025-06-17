@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="code-check dev test"
 DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	dev-python/alchemy-logging[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	>=dev-python/anytree-2.7.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/ijson-3.1.0[${PYTHON_USEDEP}]

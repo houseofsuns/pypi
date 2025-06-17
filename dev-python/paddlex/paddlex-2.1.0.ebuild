@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PaddlePaddle End-to-End Development Toolkit [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc32319b290>)]"
+DESCRIPTION="PaddlePaddle End-to-End Development Toolkit [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa42be8ee30>)]"
 
 HOMEPAGE="https://github.com/PaddlePaddle/PaddleX"
 LICENSE="Apache-2.0"

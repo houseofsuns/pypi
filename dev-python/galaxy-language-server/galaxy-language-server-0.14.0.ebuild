@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pygls[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.3.2[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	~dev-python/anytree-2.12.1[${PYTHON_USEDEP}]
 	dev-python/galaxy-tool-util[${PYTHON_USEDEP}]
 	dev-python/edam-ontology[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

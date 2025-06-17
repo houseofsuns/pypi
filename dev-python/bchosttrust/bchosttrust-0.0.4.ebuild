@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/anytree-2.12.1[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/lazy_loader[${PYTHON_USEDEP}]
 	~dev-python/plyvel-1.5.0[${PYTHON_USEDEP}]

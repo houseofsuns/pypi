@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs jit phylo-extra release testing"
 DEPENDENCIES="dev-python/alifedata-phyloinformatics-convert[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	>=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/bitarray-2.6.2[${PYTHON_USEDEP}]
 	>=dev-python/bitstring-3.1.9[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/anytree-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/graphviz-0.10.1[${PYTHON_USEDEP}]
 	~dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simulate Functional Mockup Units (FMUs) in Python [top-max 0.3.23]"
+DESCRIPTION="Simulate Functional Mockup Units (FMUs) in Python [top-max 0.3.25]"
 
 HOMEPAGE="https://github.com/CATIA-Systems/FMPy"
 LICENSE="Standard 3-clause BSD"

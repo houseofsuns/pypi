@@ -27,7 +27,7 @@ IUSE="docs examples extra profilers"
 DEPENDENCIES="<dev-python/scipy-1.13.0[${PYTHON_USEDEP}]
 	dev-python/thegolem[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	>=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]

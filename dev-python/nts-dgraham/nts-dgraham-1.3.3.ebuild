@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/prompt-toolkit-3.0.24[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.15.88[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]"
+	>=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

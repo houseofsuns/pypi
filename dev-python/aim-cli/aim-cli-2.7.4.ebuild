@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]
+	>=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]
 	dev-python/pyrser[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]

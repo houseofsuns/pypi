@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python toolkit for Histopathology Image Analysis"
+DESCRIPTION="A Python toolkit for Histopathology Image Analysis [new-max 2025-06-16 19:37:10.514476+00:00]"
 
 HOMEPAGE="https://github.com/DigitalSlideArchive/HistomicsTK"
 LICENSE="Apache Software License 2.0"

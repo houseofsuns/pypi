@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/neo4j[${PYTHON_USEDEP}]
-	dev-python/anytree[${PYTHON_USEDEP}]"
+	>=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

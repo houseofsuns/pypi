@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="VMware vSphere Python SDK"
+DESCRIPTION="VMware vSphere Python SDK [top-max 9.0.0.0]"
 
 HOMEPAGE="https://github.com/vmware/pyvmomi"
 LICENSE="License :: OSI Approved :: Apache Software License"

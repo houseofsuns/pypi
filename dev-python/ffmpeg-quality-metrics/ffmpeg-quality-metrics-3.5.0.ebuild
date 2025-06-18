@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Calculate video quality metrics with FFmpeg (SSIM, PSNR, VMAF)"
+DESCRIPTION="Calculate video quality metrics with FFmpeg (SSIM, PSNR, VMAF) [top-max 3.5.1]"
 
 HOMEPAGE="https://github.com/slhck/ffmpeg-quality-metrics"
 LICENSE="MIT"

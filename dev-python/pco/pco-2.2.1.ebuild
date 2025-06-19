@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This class provides methods for using pco cameras. [top-max 2.4.0]"
+DESCRIPTION="This class provides methods for using pco cameras. [top-max 2.4.1]"
 
 HOMEPAGE="https://www.excelitas.com/de/product/pco-software-development-kits/"
 LICENSE="MIT"

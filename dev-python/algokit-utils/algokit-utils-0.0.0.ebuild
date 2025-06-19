@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for Algorand development for use by AlgoKit [top-max 4.1.0_beta4]"
+DESCRIPTION="Utilities for Algorand development for use by AlgoKit [top-max 4.1.1_beta1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

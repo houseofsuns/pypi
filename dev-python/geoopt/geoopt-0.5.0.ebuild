@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Unofficial implementation for “Riemannian Adaptive Optimization Methods” ICLR2019 and more"
+DESCRIPTION="Unofficial implementation for “Riemannian Adaptive Optimization Methods” ICLR2019 and more [top-max 0.5.1]"
 
 HOMEPAGE="https://github.com/geoopt/geoopt"
 LICENSE="Apache-2.0"

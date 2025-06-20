@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python implementation of Gate Set Tomography [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f46bc645bd0>)]"
+DESCRIPTION="A python implementation of Gate Set Tomography [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3639743b50>)]"
 
 HOMEPAGE="http://www.pygsti.info"
 LICENSE=""

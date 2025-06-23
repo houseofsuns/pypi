@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/frictionless[${PYTHON_USEDEP}]
 	>=dev-python/black-20.8_beta1[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.11.1[${PYTHON_USEDEP}]
 	signing? ( dev-python/authsign[${PYTHON_USEDEP}] )
 	signing? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

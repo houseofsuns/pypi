@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.4[${PYTHON_USEDEP}]
 	dev-python/banal[${PYTHON_USEDEP}]
 	dev-python/normality[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]

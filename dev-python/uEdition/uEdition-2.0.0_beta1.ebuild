@@ -37,6 +37,6 @@ DEPENDENCIES="<dev-python/httpx-0.29[${PYTHON_USEDEP}]
 	<dev-python/sphinx-9.0[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.14[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

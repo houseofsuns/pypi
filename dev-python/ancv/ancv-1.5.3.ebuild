@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/gidgethub[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.5.0[${PYTHON_USEDEP}]
 	>=dev-python/humanize-4.11.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.9.3[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.5[${PYTHON_USEDEP}]
 	dev-python/Babel[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

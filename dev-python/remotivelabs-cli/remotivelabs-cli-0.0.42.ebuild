@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/trogon[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.12.5[${PYTHON_USEDEP}]
 	dev-python/remotivelabs-broker[${PYTHON_USEDEP}]
 	<dev-python/rich-13.8.0[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]

@@ -46,6 +46,6 @@ DEPENDENCIES="<=dev-python/greenlet-2.0.1[${PYTHON_USEDEP}]
 	<dev-python/redis-4.3[${PYTHON_USEDEP}]
 	~dev-python/regex-2022.1.18[${PYTHON_USEDEP}]
 	dev-python/sqla-wrapper[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

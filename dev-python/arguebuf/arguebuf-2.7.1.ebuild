@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/arg-services[${PYTHON_USEDEP}]
 	<dev-python/graphviz-1.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/arguebuf[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/typer-1.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/deepl[${PYTHON_USEDEP}] )
 	graphviz? ( <dev-python/pygraphviz-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

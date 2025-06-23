@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/confuse-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]

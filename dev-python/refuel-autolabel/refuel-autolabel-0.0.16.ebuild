@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/loguru-0.5.0[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-8.0.6[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/bumpver[${PYTHON_USEDEP}] )

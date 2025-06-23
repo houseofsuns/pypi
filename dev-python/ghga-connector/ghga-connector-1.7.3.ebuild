@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/typer-0.15[${PYTHON_USEDEP}]
 	dev-python/crypt4gh[${PYTHON_USEDEP}]
 	dev-python/ghga-service-commons[${PYTHON_USEDEP}]
 	dev-python/hexkit[${PYTHON_USEDEP}]

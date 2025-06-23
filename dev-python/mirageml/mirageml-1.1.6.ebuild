@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/rich-13.5.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
 	dev-python/qdrant-client[${PYTHON_USEDEP}]
 	dev-python/ctransformers[${PYTHON_USEDEP}]

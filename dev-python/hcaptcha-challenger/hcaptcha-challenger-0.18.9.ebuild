@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/google-genai[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-9.1.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.4[${PYTHON_USEDEP}]
 	camoufox? ( dev-python/camoufox[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/typer[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )"

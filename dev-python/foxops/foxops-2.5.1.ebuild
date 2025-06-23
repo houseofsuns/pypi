@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/structlog-25.0.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-10.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.32.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

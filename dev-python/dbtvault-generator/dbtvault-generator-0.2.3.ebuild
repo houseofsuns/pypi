@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/dbt-artifacts-parser[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
 	>=dev-python/schema-0.7.5[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

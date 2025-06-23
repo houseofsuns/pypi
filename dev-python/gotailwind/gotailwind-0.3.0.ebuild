@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.8[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.9[${PYTHON_USEDEP}] )
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.126.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

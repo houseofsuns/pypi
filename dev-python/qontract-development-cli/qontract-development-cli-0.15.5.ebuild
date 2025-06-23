@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.9[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/rich-14.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	~dev-python/watchfiles-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

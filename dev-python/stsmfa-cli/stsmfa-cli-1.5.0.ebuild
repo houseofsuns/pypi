@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

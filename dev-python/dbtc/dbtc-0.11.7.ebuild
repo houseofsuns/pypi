@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

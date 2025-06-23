@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/pypdf-3.8.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]

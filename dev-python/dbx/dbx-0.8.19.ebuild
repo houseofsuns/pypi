@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.2[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-2.1.0[${PYTHON_USEDEP}]
 	aws? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )

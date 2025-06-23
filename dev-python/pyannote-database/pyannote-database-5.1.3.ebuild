@@ -27,7 +27,7 @@ IUSE="doc testing"
 DEPENDENCIES="dev-python/pyannote-core[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.19[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.1[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-2.2.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/ipython-7.16.3[${PYTHON_USEDEP}] )

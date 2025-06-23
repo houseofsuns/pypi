@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/lorem-text[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.5.3[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/snoop[${PYTHON_USEDEP}]
@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/lorem-text[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-material-9.4.7[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	cli? ( >=dev-python/typer-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

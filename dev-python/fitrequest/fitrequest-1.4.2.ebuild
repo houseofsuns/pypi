@@ -38,6 +38,6 @@ DEPENDENCIES=">=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.9.4[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

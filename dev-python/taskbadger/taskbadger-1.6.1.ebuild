@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.28.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.12.5[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

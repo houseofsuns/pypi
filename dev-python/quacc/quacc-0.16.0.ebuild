@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.40[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.1[${PYTHON_USEDEP}]
 	covalent? ( dev-python/covalent-cloud[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-jobqueue[${PYTHON_USEDEP}] )

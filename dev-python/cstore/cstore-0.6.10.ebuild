@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/rich-13.4.2[${PYTHON_USEDEP}]
 	dev-python/cryptocode[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.16[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.8[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	dev-python/clipboard[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

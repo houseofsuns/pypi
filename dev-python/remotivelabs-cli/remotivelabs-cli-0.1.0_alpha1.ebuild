@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	dev-python/remotivelabs-broker[${PYTHON_USEDEP}]
 	<dev-python/rich-13.8.0[${PYTHON_USEDEP}]
 	dev-python/trogon[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.12.5[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-2.0[${PYTHON_USEDEP}]
 	<dev-python/zeroconf-0.128.0[${PYTHON_USEDEP}]"

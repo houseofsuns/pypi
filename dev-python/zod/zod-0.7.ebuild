@@ -40,8 +40,8 @@ DEPENDENCIES="dev-python/dataclass-wizard[${PYTHON_USEDEP}]
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pandas-1.3[${PYTHON_USEDEP}] )
 	all? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/typer[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/typer-0.15.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/dropbox[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	cli? ( >=dev-python/typer-0.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

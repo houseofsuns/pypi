@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	>=dev-python/rfc3986-1.4[${PYTHON_USEDEP}]
 	>=dev-python/simpleeval-0.9.11[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.3[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.18[${PYTHON_USEDEP}]
 	aws? ( >=dev-python/boto3-1.9[${PYTHON_USEDEP}] )

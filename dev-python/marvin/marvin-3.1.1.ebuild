@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.10.6[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.9.4[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.36[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	audio? ( >=dev-python/pyaudio-0.2.14[${PYTHON_USEDEP}] )
 	mcp? ( dev-python/fastmcp[${PYTHON_USEDEP}] )
 	slackbot? ( dev-python/numpy[${PYTHON_USEDEP}] )

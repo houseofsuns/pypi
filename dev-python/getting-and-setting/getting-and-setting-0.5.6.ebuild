@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/keyring-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

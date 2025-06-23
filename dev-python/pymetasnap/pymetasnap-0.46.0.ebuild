@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/ghapi[${PYTHON_USEDEP}]
 	<dev-python/rich-15.0.0[${PYTHON_USEDEP}]
 	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

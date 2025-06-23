@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/typer-0.11.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]

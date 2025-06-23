@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/bleach-4.1.0[${PYTHON_USEDEP}]
 	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.15.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.3[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
 	elasticsearch? ( <dev-python/elasticsearch-7.18.0[${PYTHON_USEDEP}] )
 	elasticsearch? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )

@@ -37,6 +37,6 @@ DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	dev-python/pymp4[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.4[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

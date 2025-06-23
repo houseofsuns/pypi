@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/hoppr-cyclonedx-models[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

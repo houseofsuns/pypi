@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/daiquiri[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.5[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.34.0[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

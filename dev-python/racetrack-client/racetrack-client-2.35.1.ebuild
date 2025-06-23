@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.2[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

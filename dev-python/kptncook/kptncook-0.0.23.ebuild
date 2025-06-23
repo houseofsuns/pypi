@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/httpx-0.22[${PYTHON_USEDEP}]
 	>=dev-python/rich-11.1.0[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]"

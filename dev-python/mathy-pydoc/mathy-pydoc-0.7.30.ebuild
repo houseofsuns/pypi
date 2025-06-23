@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.6.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

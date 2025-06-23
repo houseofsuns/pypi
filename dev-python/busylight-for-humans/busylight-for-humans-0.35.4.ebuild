@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/bitvector-for-humans[${PYTHON_USEDEP}]
 	>=dev-python/hidapi-0.14.0_p4[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.3[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.4[${PYTHON_USEDEP}]
 	>=dev-python/webcolors-24.11.1[${PYTHON_USEDEP}]
 	webapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	webapi? ( >=dev-python/uvicorn-0.34.2[${PYTHON_USEDEP}] )"

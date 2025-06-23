@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/aiopath[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	dev-python/unpackable[${PYTHON_USEDEP}]
 	<dev-python/watchfiles-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

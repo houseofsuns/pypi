@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	~dev-python/emoji-2.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.1[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.20[${PYTHON_USEDEP}]
 	dev-python/sqlcipher3-wheels[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

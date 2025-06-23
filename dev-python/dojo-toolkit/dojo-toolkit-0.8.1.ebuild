@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyglet-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pgi[${PYTHON_USEDEP}]
 	<dev-python/clint-0.6.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

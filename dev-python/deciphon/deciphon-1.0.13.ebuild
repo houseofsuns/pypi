@@ -42,6 +42,6 @@ DEPENDENCIES="~dev-python/cffi-1.17[${PYTHON_USEDEP}]
 	<dev-python/psutil-7.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.9[${PYTHON_USEDEP}]
 	~dev-python/rich-13.8[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

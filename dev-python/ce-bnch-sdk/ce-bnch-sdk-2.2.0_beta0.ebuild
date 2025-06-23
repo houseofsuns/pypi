@@ -27,7 +27,7 @@ IUSE="app-scaffold"
 DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
-	app-scaffold? ( dev-python/typer[${PYTHON_USEDEP}] )
+	app-scaffold? ( <dev-python/typer-0.5.0[${PYTHON_USEDEP}] )
 	<=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
 	<=dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]

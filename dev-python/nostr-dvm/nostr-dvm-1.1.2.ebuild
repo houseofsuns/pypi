@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/nostr-sdk[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.3[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.13.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

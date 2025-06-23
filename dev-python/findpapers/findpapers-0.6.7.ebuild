@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/edlib[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

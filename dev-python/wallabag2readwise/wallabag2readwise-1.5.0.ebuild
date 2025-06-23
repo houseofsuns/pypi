@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/readwise[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	~dev-python/rich-13.3.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

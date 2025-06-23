@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/iterfzf[${PYTHON_USEDEP}]
 	>=dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/trogon[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/black-25.0[${PYTHON_USEDEP}]

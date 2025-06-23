@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/mosaicml[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-10.0[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/coverage-7.8.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

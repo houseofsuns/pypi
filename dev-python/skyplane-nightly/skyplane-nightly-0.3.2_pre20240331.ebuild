@@ -35,7 +35,7 @@ DEPENDENCIES="aws? ( >=dev-python/boto3-1.16.0[${PYTHON_USEDEP}] )
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sshtunnel-0.3.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-mgmt-authorization[${PYTHON_USEDEP}] )

@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/aiofiles-25.0[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 	cli? ( dev-python/aiomqtt[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	cli? ( <dev-python/typer-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

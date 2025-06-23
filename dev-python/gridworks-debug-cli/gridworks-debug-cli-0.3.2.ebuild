@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/pytimeparse2[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	dev-python/types-aiobotocore[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]"

@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/rich-13.3.2[${PYTHON_USEDEP}]
 	~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

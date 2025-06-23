@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.0[${PYTHON_USEDEP}]
 	dev-python/translitcodec[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.3.2[${PYTHON_USEDEP}]
 	>=dev-python/ujson-4.0.1[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

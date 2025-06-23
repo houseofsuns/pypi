@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	~dev-python/sqlitedict-2.1[${PYTHON_USEDEP}]
 	~dev-python/structlog-24.1[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	grib? ( dev-python/cfgrib[${PYTHON_USEDEP}] )
 	grib? ( dev-python/eccodes[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	min-reqs? ( ~dev-python/sqlitedict-2.1.0[${PYTHON_USEDEP}] )
 	min-reqs? ( ~dev-python/structlog-24.1.0[${PYTHON_USEDEP}] )
 	min-reqs? ( ~dev-python/tenacity-8.4.1[${PYTHON_USEDEP}] )
-	min-reqs? ( dev-python/typer[${PYTHON_USEDEP}] )
+	min-reqs? ( ~dev-python/typer-0.12.0[${PYTHON_USEDEP}] )
 	min-reqs? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	minicechunk? ( dev-python/icechunk[${PYTHON_USEDEP}] )
 	minicechunk? ( ~dev-python/numpy-1.25[${PYTHON_USEDEP}] )

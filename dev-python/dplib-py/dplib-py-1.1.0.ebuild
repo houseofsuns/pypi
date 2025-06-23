@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/rich-10.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.12[${PYTHON_USEDEP}] )
 	dcat? ( >=dev-python/rdflib-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

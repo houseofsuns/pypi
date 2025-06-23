@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/attrs-23.0.0[${PYTHON_USEDEP}]
 	<dev-python/cattrs-23.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/teradatasql[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/netcdf4-2.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.10.6[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.40[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.1[${PYTHON_USEDEP}]
 	csv? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	plot? ( >=dev-python/matplotlib-3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

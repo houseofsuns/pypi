@@ -27,6 +27,6 @@ IUSE="cli"
 DEPENDENCIES=">=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.10.6[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/rich-13.7.1[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	cli? ( >=dev-python/typer-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

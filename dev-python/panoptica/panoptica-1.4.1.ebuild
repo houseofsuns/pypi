@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/connected-components_3d[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/scikit-image-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs sphinx testing toml type-check"
 DEPENDENCIES="dev-python/rstcheck-core[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.0[${PYTHON_USEDEP}]
 	sphinx? ( >=dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	toml? ( >=dev-python/tomli-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )

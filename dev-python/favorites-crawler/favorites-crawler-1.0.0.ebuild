@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	~dev-python/pykakasi-2.2.1[${PYTHON_USEDEP}]
 	dev-python/gppt[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

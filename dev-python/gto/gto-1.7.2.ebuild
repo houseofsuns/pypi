@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/entrypoints[${PYTHON_USEDEP}]
 	dev-python/scmrepo[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pygit2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

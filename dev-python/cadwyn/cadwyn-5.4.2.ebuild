@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-inspection-0.4.0[${PYTHON_USEDEP}]
 	standard? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	standard? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	standard? ( >=dev-python/typer-0.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

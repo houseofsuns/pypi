@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.41[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.15.4[${PYTHON_USEDEP}]
 	db-migration? ( ~dev-python/alembic-1.16.1[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/uvicorn-0.34.0[${PYTHON_USEDEP}] )
 	sync? ( ~dev-python/beautifulsoup4-4.13.4[${PYTHON_USEDEP}] )

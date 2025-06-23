@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	<dev-python/botocore-1.21.0[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.17.23[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.5.0[${PYTHON_USEDEP}]
 	datahub? ( dev-python/acryl-datahub[${PYTHON_USEDEP}] )
 	datahub? ( dev-python/great-expectations[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]

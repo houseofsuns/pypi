@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
 	dev-python/polyfactory[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

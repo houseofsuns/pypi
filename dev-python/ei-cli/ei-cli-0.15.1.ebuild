@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/boto3-1.26.42[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	devel? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )

@@ -56,7 +56,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	app-template? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	all? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

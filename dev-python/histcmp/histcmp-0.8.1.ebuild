@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/hist[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.9.4[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.14.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

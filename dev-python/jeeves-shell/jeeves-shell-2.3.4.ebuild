@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typer-0.12.4[${PYTHON_USEDEP}]
 	dev-python/documented[${PYTHON_USEDEP}]
 	>=dev-python/funcy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.5[${PYTHON_USEDEP}]

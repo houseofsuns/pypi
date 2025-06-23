@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/poetry-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ygka[${PYTHON_USEDEP}]
 	dev-python/revchatgptauth[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/deciphon-schema[${PYTHON_USEDEP}]
 	<dev-python/psutil-7.0[${PYTHON_USEDEP}]
 	<dev-python/python-daemon-4.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-10.0[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	cli? ( <dev-python/typer-0.16[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

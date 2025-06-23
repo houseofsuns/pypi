@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/auth-aws4[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
 	dev-python/ryaml[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/changelog-gen[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/freezegun-1.2.1[${PYTHON_USEDEP}] )

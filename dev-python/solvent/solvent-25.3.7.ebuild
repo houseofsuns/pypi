@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pomace[${PYTHON_USEDEP}]
 	dev-python/caffeine[${PYTHON_USEDEP}]
 	dev-python/flet[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

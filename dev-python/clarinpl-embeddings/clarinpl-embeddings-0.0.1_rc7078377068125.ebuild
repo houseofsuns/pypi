@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	>=dev-python/types-setuptools-57.4.11[${PYTHON_USEDEP}]
 	developer? ( >=dev-python/typing-extensions-4.0.1.0[${PYTHON_USEDEP}] )

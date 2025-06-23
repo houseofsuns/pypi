@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	dev-python/py-app-dev[${PYTHON_USEDEP}]
 	dev-python/pypeline-runner[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dev fastapi fastapidev"
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]
 	<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytailwindcss[${PYTHON_USEDEP}] )
 	fastapidev? ( dev-python/pytailwindcss[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watchgod[${PYTHON_USEDEP}] )

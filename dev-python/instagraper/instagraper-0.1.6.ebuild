@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/typer-0.10.0[${PYTHON_USEDEP}] )
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

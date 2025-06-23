@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/python-mylog[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.5[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

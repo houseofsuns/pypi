@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/decamelize[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/protobuf2pydantic[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.7[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

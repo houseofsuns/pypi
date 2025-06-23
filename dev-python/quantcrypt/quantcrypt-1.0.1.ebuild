@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.8.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.0[${PYTHON_USEDEP}]
 	dev-python/types-zxcvbn[${PYTHON_USEDEP}]
 	dev-python/zxcvbn[${PYTHON_USEDEP}]
 	compiler? ( >=dev-python/cffi-1.17.0[${PYTHON_USEDEP}] )

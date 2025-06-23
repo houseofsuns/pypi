@@ -72,7 +72,7 @@ DEPENDENCIES="os? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/anthropic[${PYTHON_USEDEP}]
 	os? ( dev-python/PyAutoGUI[${PYTHON_USEDEP}] )
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( <dev-python/uvicorn-0.31.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

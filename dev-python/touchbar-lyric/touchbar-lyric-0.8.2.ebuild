@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/applescript[${PYTHON_USEDEP}]
 	dev-python/qqmusic-api[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/strsimpy[${PYTHON_USEDEP}]
 	<dev-python/coverage-6.0[${PYTHON_USEDEP}]

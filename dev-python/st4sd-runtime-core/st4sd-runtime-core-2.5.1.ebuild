@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/reactivex[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.3[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	deploy? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )

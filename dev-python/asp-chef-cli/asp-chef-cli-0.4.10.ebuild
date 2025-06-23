@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pytest-playwright[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 	dev-python/dumbo-asp[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.31.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]"

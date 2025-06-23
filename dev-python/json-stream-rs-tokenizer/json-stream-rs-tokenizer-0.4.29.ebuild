@@ -28,7 +28,7 @@ DEPENDENCIES="benchmark? ( dev-python/json-stream-to-standard-types[${PYTHON_USE
 	benchmark? ( <dev-python/tqdm-5.0[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/contexttimer[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/si-prefix[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/typer[${PYTHON_USEDEP}] )
+	benchmark? ( <dev-python/typer-0.7[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/json-stream-rs-tokenizer[${PYTHON_USEDEP}] )
 	test? ( dev-python/json-stream[${PYTHON_USEDEP}] )"

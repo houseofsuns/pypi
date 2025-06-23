@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure gcs s3 test"
 DEPENDENCIES="dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pathlib-abc[${PYTHON_USEDEP}]
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )

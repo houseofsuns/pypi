@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	dev-python/sly[${PYTHON_USEDEP}]
 	>=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.55.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

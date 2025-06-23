@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.1.16[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

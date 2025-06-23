@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/watchfiles-1.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-12.0[${PYTHON_USEDEP}]"

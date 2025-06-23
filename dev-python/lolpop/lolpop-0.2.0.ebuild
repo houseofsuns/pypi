@@ -86,7 +86,7 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/openai[${PYTHON_USEDEP}] )
 	cli? ( dev-python/openai[${PYTHON_USEDEP}] )
 	cli? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/typer-0.8.0[${PYTHON_USEDEP}] )
 	timeseries? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	timeseries? ( dev-python/stumpy[${PYTHON_USEDEP}] )
 	alibi? ( <dev-python/protobuf-5.0[${PYTHON_USEDEP}] )

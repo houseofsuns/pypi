@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/odd-models[${PYTHON_USEDEP}]
 	<dev-python/funcy-3.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/dbt-postgres[${PYTHON_USEDEP}]
 	dev-python/dbt-snowflake[${PYTHON_USEDEP}]"

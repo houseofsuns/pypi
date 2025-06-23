@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/ast-grep-cli[${PYTHON_USEDEP}]
 	>=dev-python/lxml-5.3.0[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
 	>=dev-python/soupsieve-2.6[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

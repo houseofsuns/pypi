@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="~dev-python/cryptography-40.0.2[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	test? ( dev-python/hatchling[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"

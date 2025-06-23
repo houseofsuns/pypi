@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/PyInquirer[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

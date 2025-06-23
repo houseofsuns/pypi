@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

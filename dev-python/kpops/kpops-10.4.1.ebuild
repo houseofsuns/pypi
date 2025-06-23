@@ -37,6 +37,6 @@ DEPENDENCIES=">=dev-python/anyio-4.3.0[${PYTHON_USEDEP}]
 	dev-python/python-schema-registry-client[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.4.4[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.12.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

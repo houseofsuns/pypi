@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/azure-cli[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.13[${PYTHON_USEDEP}]
 	>=dev-python/twine-4.0.2[${PYTHON_USEDEP}]
 	>=dev-python/typeguard-3.0.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/types-google-cloud-ndb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

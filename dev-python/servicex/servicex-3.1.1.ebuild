@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/aioboto3[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.18.7[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.1[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	develop? ( dev-python/asyncmock[${PYTHON_USEDEP}] )

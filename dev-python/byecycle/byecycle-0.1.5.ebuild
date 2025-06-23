@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="draw"
 DEPENDENCIES=">=dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	dev-python/chextra[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3[${PYTHON_USEDEP}]
 	draw? ( >=dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

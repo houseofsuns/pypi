@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}]
 	dev-python/systembridgeconnector[${PYTHON_USEDEP}]
 	dev-python/systembridgemodels[${PYTHON_USEDEP}]
 	dev-python/systembridgeshared[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.12.3[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.30.6[${PYTHON_USEDEP}]
 	~dev-python/zeroconf-0.132.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

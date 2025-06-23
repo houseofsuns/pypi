@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	<dev-python/pysimdjson-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-70.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

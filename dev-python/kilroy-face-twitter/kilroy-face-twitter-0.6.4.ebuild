@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.7[${PYTHON_USEDEP}]
 	dev-python/kilroy-face-server-py-sdk[${PYTHON_USEDEP}]
 	dev-python/tweepy[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.24[${PYTHON_USEDEP}]

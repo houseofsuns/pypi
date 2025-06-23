@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.9.2[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
 	dev-python/simple-toml-settings[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.5[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.34.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

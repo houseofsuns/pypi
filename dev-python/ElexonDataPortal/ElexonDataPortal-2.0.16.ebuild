@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/fastcore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typer-0.3.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moepy[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiofiles-25.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.29.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-avroschema[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.16[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

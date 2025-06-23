@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/beartype-0.20.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/reportlab-4.4.0[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.15.2[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.13.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

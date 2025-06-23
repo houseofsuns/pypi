@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	~dev-python/tornado-6.4.1[${PYTHON_USEDEP}]
 	cli? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/msgpack-0.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/biothings-client[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typer-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	hub? ( dev-python/biothings-client[${PYTHON_USEDEP}] )
 	hub? ( >=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}] )
 	hub? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	hub? ( dev-python/typer[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/typer-0.9.0[${PYTHON_USEDEP}] )
 	hub? ( <dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	opensearch? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	opensearch? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )

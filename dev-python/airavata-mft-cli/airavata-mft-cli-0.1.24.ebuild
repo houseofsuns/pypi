@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.46.3[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typer-0.5.0[${PYTHON_USEDEP}]
 	dev-python/zxpy[${PYTHON_USEDEP}]
 	dev-python/slumber[${PYTHON_USEDEP}]
 	dev-python/cloudflare[${PYTHON_USEDEP}]

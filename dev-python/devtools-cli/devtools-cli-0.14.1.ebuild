@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

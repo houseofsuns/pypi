@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs linting testing"
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typer-0.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.8[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.8[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]

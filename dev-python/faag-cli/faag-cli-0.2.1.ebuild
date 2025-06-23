@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/python-box-8.0.0[${PYTHON_USEDEP}]
 	dev-python/python-semantic-release[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

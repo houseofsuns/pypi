@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.5.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-67.4.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

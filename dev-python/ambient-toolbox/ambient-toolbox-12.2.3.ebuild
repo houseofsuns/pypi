@@ -27,7 +27,7 @@ IUSE="bleacher dev drf gitlab-coverage graphql sentry view-layer"
 DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
 	bleacher? ( <dev-python/nh3-1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typer-0.12[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.9[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.14[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.6[${PYTHON_USEDEP}] )

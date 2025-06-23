@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/loguru-0.8[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-1.1[${PYTHON_USEDEP}]
 	<dev-python/pytz-2024.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10[${PYTHON_USEDEP}]
 	develop? ( <dev-python/black-24.3[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/isort-5.14[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/mypy-1.10[${PYTHON_USEDEP}] )

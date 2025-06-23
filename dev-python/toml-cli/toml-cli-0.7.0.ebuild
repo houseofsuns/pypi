@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typer-0.3.2[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.12.1[${PYTHON_USEDEP}]
 	>=dev-python/regex-2020.7.14[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

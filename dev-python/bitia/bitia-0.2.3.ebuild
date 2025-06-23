@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/validators-0.21.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

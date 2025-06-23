@@ -33,6 +33,6 @@ DEPENDENCIES="<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

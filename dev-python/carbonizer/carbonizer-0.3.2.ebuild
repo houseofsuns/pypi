@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pyppeteer[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]

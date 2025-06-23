@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	>=dev-python/natsort-8.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

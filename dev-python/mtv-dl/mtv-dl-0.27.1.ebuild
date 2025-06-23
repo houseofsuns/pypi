@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/iso8601-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	~dev-python/certifi-2025.4.26[${PYTHON_USEDEP}]
 	~dev-python/ijson-3.4.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	dev-python/typer-config[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

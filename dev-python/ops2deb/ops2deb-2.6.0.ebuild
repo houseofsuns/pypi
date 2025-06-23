@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
 	~dev-python/semver-3.0.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.6.1[${PYTHON_USEDEP}]
 	dev-python/unix-ar[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

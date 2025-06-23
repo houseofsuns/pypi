@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/case-converter[${PYTHON_USEDEP}]
 	~dev-python/setuptools-80.7.1[${PYTHON_USEDEP}]
 	dev-python/splight-lib[${PYTHON_USEDEP}]
 	<dev-python/toposort-2.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.15.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

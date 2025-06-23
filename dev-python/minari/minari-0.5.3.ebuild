@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all arrow create gcs hdf5 hf integrations testing"
 DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )

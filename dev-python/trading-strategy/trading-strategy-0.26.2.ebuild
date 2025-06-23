@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	qstrader? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
 	backtrader? ( dev-python/trading-strategy-backtrader[${PYTHON_USEDEP}] )
 	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
-	direct-feed? ( dev-python/typer[${PYTHON_USEDEP}] )
+	direct-feed? ( <dev-python/typer-0.8.0[${PYTHON_USEDEP}] )
 	direct-feed? ( dev-python/dash[${PYTHON_USEDEP}] )
 	<dev-python/zstandard-0.24.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]"

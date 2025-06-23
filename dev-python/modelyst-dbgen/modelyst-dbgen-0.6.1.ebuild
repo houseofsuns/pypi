@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydasher[${PYTHON_USEDEP}]
 	<dev-python/rich-12.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc test"
 DEPENDENCIES="dev-python/manifestoo-core[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.3.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/textual[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

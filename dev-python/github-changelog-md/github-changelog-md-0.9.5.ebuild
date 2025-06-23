@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
 	dev-python/simple-toml-settings[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

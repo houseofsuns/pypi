@@ -27,7 +27,7 @@ IUSE="all dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/Colr[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]
 	dev-python/mathy-core[${PYTHON_USEDEP}]
 	dev-python/mathy-envs[${PYTHON_USEDEP}]

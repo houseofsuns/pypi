@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/nbdev[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}]
 	~dev-python/mkdocstrings-0.18.1[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-material-8.5.11[${PYTHON_USEDEP}]

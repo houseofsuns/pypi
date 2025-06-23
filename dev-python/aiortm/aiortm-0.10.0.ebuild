@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.7[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	cli? ( <dev-python/typer-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

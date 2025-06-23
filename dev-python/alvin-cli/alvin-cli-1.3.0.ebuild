@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/alvin-api-client[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.4.1[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.25.7[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.12[${PYTHON_USEDEP}]"

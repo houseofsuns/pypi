@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/dependency-injector[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.11.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.4[${PYTHON_USEDEP}]
 	>=dev-python/ujson-5.10.0[${PYTHON_USEDEP}]
 	finplot? ( dev-python/finplot[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/jupyterlab-4.0[${PYTHON_USEDEP}] )

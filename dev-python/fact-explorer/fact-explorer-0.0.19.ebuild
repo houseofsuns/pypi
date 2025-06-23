@@ -29,7 +29,7 @@ DEPENDENCIES="docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]
 	<dev-python/rich-11.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]

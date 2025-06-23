@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	>=dev-python/pip-22.2[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.1[${PYTHON_USEDEP}]
 	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-toml[${PYTHON_USEDEP}] )

@@ -31,11 +31,11 @@ DEPENDENCIES=">=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	dev-python/pymmcore[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.2.0[${PYTHON_USEDEP}]
 	dev-python/tensorstore[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	dev-python/useq-schema[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/rich-10.2.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.4.2[${PYTHON_USEDEP}] )
 	io? ( >=dev-python/tifffile-2021.6.14[${PYTHON_USEDEP}] )
 	io? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.11[${PYTHON_USEDEP}]
 	<dev-python/rich-13.8[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

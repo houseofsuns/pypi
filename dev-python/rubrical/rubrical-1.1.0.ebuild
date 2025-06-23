@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/dom-toml[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-76.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

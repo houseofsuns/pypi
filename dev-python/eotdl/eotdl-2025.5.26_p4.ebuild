@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	dev-python/stac-geoparquet[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.67.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.15.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

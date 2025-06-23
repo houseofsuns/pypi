@@ -30,7 +30,7 @@ DEPENDENCIES="<=dev-python/setuptools-78.1.1[${PYTHON_USEDEP}]
 	<dev-python/retrying-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	wizard? ( dev-python/typer[${PYTHON_USEDEP}] )
+	wizard? ( <dev-python/typer-0.7.0[${PYTHON_USEDEP}] )
 	wizard? ( dev-python/questionary[${PYTHON_USEDEP}] )
 	wizard? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build dev doc test"
 DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-1.1.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10[${PYTHON_USEDEP}]
 	<dev-python/websockets-12.0[${PYTHON_USEDEP}]
 	build? ( ~dev-python/hatch-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.5.0[${PYTHON_USEDEP}] )

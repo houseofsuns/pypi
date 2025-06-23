@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/aiomqtt[${PYTHON_USEDEP}]
 	<dev-python/python-multipart-2.0[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-10.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-2.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/testcontainers-core[${PYTHON_USEDEP}] )
 	testing? ( dev-python/testcontainers-minio[${PYTHON_USEDEP}] )

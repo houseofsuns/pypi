@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/isort-5.10.1[${PYTHON_USEDEP}]
 	>=dev-python/autopep8-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/numpydoc-1.1.0[${PYTHON_USEDEP}]

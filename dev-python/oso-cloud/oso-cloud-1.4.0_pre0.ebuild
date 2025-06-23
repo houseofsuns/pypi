@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Oso Cloud Python client [top-max 2.5.0_pre1]"
+DESCRIPTION="Oso Cloud Python client [top-max 2.5.0]"
 
 HOMEPAGE="https://www.osohq.com"
 LICENSE="Apache-2.0"

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/bip-utils[${PYTHON_USEDEP}]
 	dev-python/terra-proto[${PYTHON_USEDEP}]
 	dev-python/terra-sdk[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

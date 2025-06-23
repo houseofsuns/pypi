@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/agentpy[${PYTHON_USEDEP}]
 	~dev-python/shapely-2.0[${PYTHON_USEDEP}]
 	dev-python/statannot[${PYTHON_USEDEP}]
 	~dev-python/tables-3.8[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

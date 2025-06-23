@@ -47,6 +47,6 @@ DEPENDENCIES="~dev-python/boltons-23.0.0[${PYTHON_USEDEP}]
 	~dev-python/distlib-0.3.6[${PYTHON_USEDEP}]
 	dev-python/micropython-stubber[${PYTHON_USEDEP}]
 	~dev-python/libcst-0.4.10[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

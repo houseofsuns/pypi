@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/deepdiff-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/rfc3986-validator-0.2.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.15.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

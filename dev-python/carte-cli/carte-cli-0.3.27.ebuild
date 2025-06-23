@@ -27,7 +27,7 @@ IUSE="postgres"
 DEPENDENCIES="dev-python/amundsen-databuilder[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
 	<dev-python/boto3-1.25.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.5.0[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgres? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/black-23.0.0[${PYTHON_USEDEP}]
 	dev-python/benchling-sdk[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

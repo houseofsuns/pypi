@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/boto3-1.20.10[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.19.1[${PYTHON_USEDEP}]
 	>=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.12.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-21.10_beta0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )

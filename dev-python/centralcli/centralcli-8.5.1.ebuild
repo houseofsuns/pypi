@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hook-proxy speedups"
 DEPENDENCIES=">=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.11.0[${PYTHON_USEDEP}]
 	dev-python/pylibyaml[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]

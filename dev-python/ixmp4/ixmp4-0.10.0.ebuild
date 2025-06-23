@@ -40,6 +40,6 @@ DEPENDENCIES=">=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Continuum[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

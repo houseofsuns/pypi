@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.64.3[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.11[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-7.0.1[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-codeblocks-0.16[${PYTHON_USEDEP}] )

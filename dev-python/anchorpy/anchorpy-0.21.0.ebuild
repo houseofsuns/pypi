@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/anchorpy-core[${PYTHON_USEDEP}]
 	cli? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/genpy[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/typer-0.4.1[${PYTHON_USEDEP}] )
 	pytest? ( <dev-python/py-2.0[${PYTHON_USEDEP}] )
 	pytest? ( <dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}] )
 	pytest? ( <dev-python/pytest-xprocess-0.19[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cli"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.15.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi-cli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

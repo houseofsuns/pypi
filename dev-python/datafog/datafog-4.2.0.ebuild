@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/requests-2.30.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.12.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
 	crypto? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-2.30.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/typer[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/typer-0.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

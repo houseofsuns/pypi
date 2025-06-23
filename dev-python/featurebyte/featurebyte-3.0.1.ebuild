@@ -66,7 +66,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/sqlglot-26.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
 	>=dev-python/typeguard-4.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4.1[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	server? ( >=dev-python/uvicorn-0.21.1[${PYTHON_USEDEP}] )
 	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]

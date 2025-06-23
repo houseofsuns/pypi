@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.4.2[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-67.8.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.36[${PYTHON_USEDEP}]
 	dev? ( dev-python/asgi-lifespan[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-21.10[${PYTHON_USEDEP}] )

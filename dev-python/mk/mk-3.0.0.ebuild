@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/build-0.3.1_p1[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/twine-3.4.1[${PYTHON_USEDEP}]
 	dev-python/typer-config[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/markdown-exec-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )

@@ -57,6 +57,6 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	viz? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

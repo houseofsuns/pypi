@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytz-2021.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.51[${PYTHON_USEDEP}]
 	<dev-python/cython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0.0[${PYTHON_USEDEP}]"

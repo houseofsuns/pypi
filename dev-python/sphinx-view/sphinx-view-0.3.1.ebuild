@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/livereload-3.0.0[${PYTHON_USEDEP}]
 	dev-python/py-buzz[${PYTHON_USEDEP}]
 	<dev-python/sphinx-5.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

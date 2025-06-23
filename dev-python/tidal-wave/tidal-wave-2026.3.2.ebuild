@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.20.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
-	all? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/typer-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

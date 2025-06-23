@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/InstructorEmbedding[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/unstructured[${PYTHON_USEDEP}]
 	gptq? ( dev-python/auto-gptq[${PYTHON_USEDEP}] )

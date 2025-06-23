@@ -67,8 +67,8 @@ DEPENDENCIES="vision? ( dev-python/colpali-engine[${PYTHON_USEDEP}] )
 	vision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	ct2? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	server? ( dev-python/typer[${PYTHON_USEDEP}] )
-	all? ( dev-python/typer[${PYTHON_USEDEP}] )
+	server? ( <dev-python/typer-0.13.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/typer-0.13.0[${PYTHON_USEDEP}] )
 	server? ( <dev-python/uvicorn-0.33.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/uvicorn-0.33.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

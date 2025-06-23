@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/aiodns-3.2[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.5[${PYTHON_USEDEP}]
 	dev-python/substrate-interface[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.15.2[${PYTHON_USEDEP}]
 	cosmos? ( dev-python/cosmospy[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-plantuml-0.30[${PYTHON_USEDEP}] )
 	ethereum? ( dev-python/eth-account[${PYTHON_USEDEP}] )

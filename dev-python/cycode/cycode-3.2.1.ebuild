@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/arrow-1.4.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/tenacity-9.1.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.19[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

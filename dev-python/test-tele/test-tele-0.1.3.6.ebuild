@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	dev-python/verlat[${PYTHON_USEDEP}]
 	dev-python/watermark-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

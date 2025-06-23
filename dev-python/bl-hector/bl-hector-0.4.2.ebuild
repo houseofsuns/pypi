@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/isbnlib[${PYTHON_USEDEP}]
 	dev-python/jinja2-fragments[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	dev-python/bl3d[${PYTHON_USEDEP}]
 	dev-python/fluent-runtime[${PYTHON_USEDEP}]
 	webauthn? ( dev-python/webauthn[${PYTHON_USEDEP}] )

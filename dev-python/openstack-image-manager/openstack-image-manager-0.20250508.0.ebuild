@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/loguru-0.7.3[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.10[${PYTHON_USEDEP}]
 	~dev-python/setuptools-80.3.1[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.15.3[${PYTHON_USEDEP}]
 	dev-python/yamale[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

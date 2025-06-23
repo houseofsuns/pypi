@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="outdated"
 DEPENDENCIES="<dev-python/build-1.3[${PYTHON_USEDEP}]
 	<dev-python/setuptools-76.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	outdated? ( dev-python/lastversion[${PYTHON_USEDEP}] )
 	outdated? ( <dev-python/packaging-25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

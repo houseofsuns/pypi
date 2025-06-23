@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/pypdf-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/reportlab-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

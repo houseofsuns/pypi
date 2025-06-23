@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/sendgrid[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.4.1[${PYTHON_USEDEP}]
 	dev-python/uWSGI[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
 	all? ( dev-python/trend-app-protect[${PYTHON_USEDEP}] )

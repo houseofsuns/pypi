@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/litellm[${PYTHON_USEDEP}]
 	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/typer-cli[${PYTHON_USEDEP}] )
-	doc? ( dev-python/typer[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/typer-0.8.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/anyio-4.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )

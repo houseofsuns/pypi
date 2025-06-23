@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/pyquaternion[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/open3d[${PYTHON_USEDEP}] )
 	all? ( dev-python/polyscope[${PYTHON_USEDEP}] )
 	all? ( dev-python/ouster-sdk[${PYTHON_USEDEP}] )

@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	~dev-python/rich-13.9.4[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.9.2[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

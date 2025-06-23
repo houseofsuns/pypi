@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	~dev-python/waitress-1.4.3[${PYTHON_USEDEP}]
 	dev-python/django-spa[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.1.1[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

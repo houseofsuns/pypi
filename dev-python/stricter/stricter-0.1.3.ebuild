@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/black-23.1.0[${PYTHON_USEDEP}]
 	>=dev-python/mypy-1.1.1[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

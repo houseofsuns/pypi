@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	~dev-python/rich-12.5.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.6.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasette[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipykernel-6.9.1[${PYTHON_USEDEP}] )

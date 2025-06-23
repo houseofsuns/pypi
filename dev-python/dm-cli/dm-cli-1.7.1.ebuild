@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

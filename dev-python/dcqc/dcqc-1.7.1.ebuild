@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev testing"
 DEPENDENCIES="~dev-python/fs-2.4[${PYTHON_USEDEP}]
 	dev-python/fs-synapse[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/rdflib-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )

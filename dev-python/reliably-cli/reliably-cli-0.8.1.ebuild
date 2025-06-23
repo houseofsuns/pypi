@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bin-builder chaostoolkit"
 DEPENDENCIES=">=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.6.2[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]

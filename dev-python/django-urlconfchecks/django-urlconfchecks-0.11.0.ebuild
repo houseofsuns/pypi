@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/tox-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/twine-6.0.0[${PYTHON_USEDEP}] )
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

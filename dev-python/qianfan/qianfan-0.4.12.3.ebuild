@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/requests-2.24[${PYTHON_USEDEP}]
 	local-data-clean? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0.38[${PYTHON_USEDEP}]
 	local-data-clean? ( dev-python/torch[${PYTHON_USEDEP}] )

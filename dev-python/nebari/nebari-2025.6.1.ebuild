@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.6[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.11.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

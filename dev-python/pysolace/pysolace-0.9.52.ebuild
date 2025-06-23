@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.3[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.3.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+DEPENDENCIES="cli? ( >=dev-python/typer-0.7.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/rich-13.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

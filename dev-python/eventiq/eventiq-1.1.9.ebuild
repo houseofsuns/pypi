@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-asyncapi[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]
 	kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	nats? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )

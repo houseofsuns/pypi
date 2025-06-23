@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/aiokafka[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	avro? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )

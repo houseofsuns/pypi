@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/typer-0.4.1[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/rich-12.3.0[${PYTHON_USEDEP}]

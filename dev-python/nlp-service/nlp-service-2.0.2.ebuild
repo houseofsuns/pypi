@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/arg-services[${PYTHON_USEDEP}]
 	dev-python/cbrkit[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cbrkit[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/atom[${PYTHON_USEDEP}]
 	<dev-python/termcolor-3.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.17[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

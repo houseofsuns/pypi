@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/typer-0.16[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flit-3.12[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/keyring-25.6[${PYTHON_USEDEP}] )

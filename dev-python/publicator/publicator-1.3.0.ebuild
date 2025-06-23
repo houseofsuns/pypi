@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/parse-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	dev-python/semmy[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	dev-python/safe-assert[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

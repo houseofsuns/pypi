@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/coolname[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/xxhash-3.4.1[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]

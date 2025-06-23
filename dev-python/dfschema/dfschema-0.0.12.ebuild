@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	all? ( ~dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandera[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
-	all? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/typer-0.7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/typer-0.7.0[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/databricks-sdk[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/delta-spark[${PYTHON_USEDEP}] )
-	it? ( dev-python/typer[${PYTHON_USEDEP}] )
+	it? ( ~dev-python/typer-0.6.1[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

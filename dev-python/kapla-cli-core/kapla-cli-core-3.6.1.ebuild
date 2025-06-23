@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/colorama-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/stdlib-list[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

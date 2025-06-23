@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="train"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/imageio-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]

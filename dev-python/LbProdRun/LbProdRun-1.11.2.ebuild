@@ -27,7 +27,7 @@ IUSE="mypy testing"
 DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/LbEnv[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/LbCondaWrappers[${PYTHON_USEDEP}]

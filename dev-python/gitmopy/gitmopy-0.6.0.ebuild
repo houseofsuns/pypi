@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/emoji-2.14.1[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/wcwidth-0.2.13[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )

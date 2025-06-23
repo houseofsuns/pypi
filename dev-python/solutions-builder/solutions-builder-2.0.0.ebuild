@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/copier[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/jinja2-time-0.3.0[${PYTHON_USEDEP}]
 	dev-python/copier-templates-extensions[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]

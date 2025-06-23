@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/bitmath[${PYTHON_USEDEP}]
 	dev-python/sending[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/structlog[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	cli? ( <dev-python/typer-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

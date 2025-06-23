@@ -205,7 +205,7 @@ DEPENDENCIES="~dev-python/aiohappyeyeballs-2.6.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/setuptools-80.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/shellingham-1.5.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/six-1.17.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typer-0.15.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/typing-extensions-4.13.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tzdata-2025.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/urllib3-2.4.0[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.67.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	dev-python/znfields[${PYTHON_USEDEP}]
 	dev-python/znflow[${PYTHON_USEDEP}]
 	dev-python/znjson[${PYTHON_USEDEP}]"

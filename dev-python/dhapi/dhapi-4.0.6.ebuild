@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
 	dev-python/mailjet-rest[${PYTHON_USEDEP}]
 	~dev-python/pytz-2024.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.8[${PYTHON_USEDEP}]"

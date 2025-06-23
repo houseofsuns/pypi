@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="typer"
 DEPENDENCIES="dev-python/textual[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	typer? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	typer? ( >=dev-python/typer-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

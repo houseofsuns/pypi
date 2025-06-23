@@ -27,7 +27,7 @@ IUSE="agent all cli notebooks rag"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.3[${PYTHON_USEDEP}]
 	dev-python/pyprojroot[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/litellm[${PYTHON_USEDEP}]

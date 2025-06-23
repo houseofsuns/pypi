@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/tblib-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
 	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	argilla? ( dev-python/argilla[${PYTHON_USEDEP}] )

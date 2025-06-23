@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.12.3[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	<dev-python/rich-15.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

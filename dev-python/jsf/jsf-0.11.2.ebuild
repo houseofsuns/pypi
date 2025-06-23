@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/rstr[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	cli? ( >=dev-python/typer-0.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

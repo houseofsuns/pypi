@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/cython-0.29.23[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.3[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

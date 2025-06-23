@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/deciphon-intervals[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-10.2[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.7[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

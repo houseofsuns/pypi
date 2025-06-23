@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	>dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>dev-python/typer-0.6[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.9[${PYTHON_USEDEP}]
 	backup? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
 	backup? ( dev-python/asyncify[${PYTHON_USEDEP}] )

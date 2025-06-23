@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	~dev-python/natsort-8.3.1[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]

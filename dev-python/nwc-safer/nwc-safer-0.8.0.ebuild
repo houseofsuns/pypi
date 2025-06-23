@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/xarray-2024.0.0[${PYTHON_USEDEP}]
 	<dev-python/netcdf4-2.0.0[${PYTHON_USEDEP}]

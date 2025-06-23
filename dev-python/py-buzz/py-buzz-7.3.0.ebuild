@@ -27,6 +27,6 @@ IUSE="demo"
 DEPENDENCIES="demo? ( dev-python/auto-name-enum[${PYTHON_USEDEP}] )
 	demo? ( >=dev-python/rich-13.9.4[${PYTHON_USEDEP}] )
 	demo? ( dev-python/snick[${PYTHON_USEDEP}] )
-	demo? ( dev-python/typer[${PYTHON_USEDEP}] )"
+	demo? ( >=dev-python/typer-0.15.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

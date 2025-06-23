@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]
 	<dev-python/nbformat-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/nbconvert-8.0.0[${PYTHON_USEDEP}]"

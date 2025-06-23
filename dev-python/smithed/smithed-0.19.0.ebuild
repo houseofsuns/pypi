@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	dev-python/tokenstream[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

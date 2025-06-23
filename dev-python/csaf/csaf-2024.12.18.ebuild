@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/referencing-0.35.1[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-75.6.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )

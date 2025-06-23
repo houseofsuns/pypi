@@ -35,6 +35,6 @@ DEPENDENCIES="<dev-python/cfgv-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

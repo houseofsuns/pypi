@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
 	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/systembridgeconnector[${PYTHON_USEDEP}]
 	dev-python/systembridgeshared[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

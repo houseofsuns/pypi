@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/act-atmos[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tsdat[${PYTHON_USEDEP}] )

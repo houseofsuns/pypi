@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.3.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.4[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

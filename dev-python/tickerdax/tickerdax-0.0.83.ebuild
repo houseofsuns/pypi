@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]

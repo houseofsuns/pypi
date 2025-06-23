@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/attrs-20.0.0[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/cutie[${PYTHON_USEDEP}]
 	<dev-python/cerberus-2.0.0[${PYTHON_USEDEP}]"

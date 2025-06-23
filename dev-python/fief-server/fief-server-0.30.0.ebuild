@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/aiomysql[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.36[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.12.5[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.32.0[${PYTHON_USEDEP}]
 	~dev-python/wtforms-3.2.1[${PYTHON_USEDEP}]
 	dev-python/zxcvbn-rs-py[${PYTHON_USEDEP}]"

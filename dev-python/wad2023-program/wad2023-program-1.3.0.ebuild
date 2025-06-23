@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.12.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.4.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )

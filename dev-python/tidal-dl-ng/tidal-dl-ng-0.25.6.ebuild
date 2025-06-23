@@ -35,7 +35,7 @@ DEPENDENCIES="gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	dev-python/mpegdash[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	dev-python/tidalapi[${PYTHON_USEDEP}]
 	dev-python/python-ffmpeg[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pikepdf-9.8.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.67.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

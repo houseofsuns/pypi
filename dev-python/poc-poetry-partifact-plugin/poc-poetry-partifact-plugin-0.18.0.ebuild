@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/parse-2.0.0[${PYTHON_USEDEP}]
 	dev-python/partifact[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

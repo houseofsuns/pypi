@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="evaluation"
 DEPENDENCIES="<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	evaluation? ( dev-python/musdb[${PYTHON_USEDEP}] )
 	evaluation? ( dev-python/museval[${PYTHON_USEDEP}] )
 	dev-python/tensorflow-io-gcs-filesystem[${PYTHON_USEDEP}]

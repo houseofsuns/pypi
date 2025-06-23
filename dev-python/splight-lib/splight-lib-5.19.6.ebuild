@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

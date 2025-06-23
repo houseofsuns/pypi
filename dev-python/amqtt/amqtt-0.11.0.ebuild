@@ -27,7 +27,7 @@ IUSE="ci"
 DEPENDENCIES="~dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/transitions-0.9.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.15.4[${PYTHON_USEDEP}]
 	~dev-python/websockets-15.0.1[${PYTHON_USEDEP}]
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

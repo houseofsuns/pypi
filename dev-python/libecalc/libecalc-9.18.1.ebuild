@@ -37,6 +37,6 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/rich-15.0[${PYTHON_USEDEP}]
 	notebooks? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
 	notebooks? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

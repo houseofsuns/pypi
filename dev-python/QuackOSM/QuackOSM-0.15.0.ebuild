@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	dev-python/rq-geo-toolkit[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.9.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/python-geohash[${PYTHON_USEDEP}] )
 	cli? ( dev-python/s2sphere[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

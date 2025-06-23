@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

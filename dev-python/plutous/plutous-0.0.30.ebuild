@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/sqlalchemy-2.0.12[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.10.4[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]

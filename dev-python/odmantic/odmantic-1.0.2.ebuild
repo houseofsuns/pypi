@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-4.1.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/semver-2.13.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typer-0.4.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipython-7.16.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/mkdocs-material-9.5.2[${PYTHON_USEDEP}] )

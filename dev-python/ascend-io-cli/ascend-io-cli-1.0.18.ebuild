@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/ascend-io-sdk[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	~dev-python/shellingham-1.5.4[${PYTHON_USEDEP}]
 	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

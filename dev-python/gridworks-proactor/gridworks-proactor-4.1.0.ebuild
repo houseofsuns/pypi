@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	<dev-python/rich-15.0.0[${PYTHON_USEDEP}]
-	tests? ( dev-python/typer[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/typer-0.16.0[${PYTHON_USEDEP}] )
 	dev-python/xdg[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

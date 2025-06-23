@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-0.16.0[${PYTHON_USEDEP}]
 	dev-python/read-version[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/validators-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

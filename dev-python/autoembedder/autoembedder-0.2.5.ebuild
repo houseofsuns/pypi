@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/pytorch-ignite[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

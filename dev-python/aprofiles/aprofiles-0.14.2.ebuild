@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/matplotlib-3.9[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/typer-0.16.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-9.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-25.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )

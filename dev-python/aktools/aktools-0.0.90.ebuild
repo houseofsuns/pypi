@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/akshare[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/python-multipart-0.0.9[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

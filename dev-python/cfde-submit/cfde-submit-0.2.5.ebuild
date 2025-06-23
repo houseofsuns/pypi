@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

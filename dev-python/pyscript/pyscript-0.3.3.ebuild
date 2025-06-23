@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/pluggy-1.5.0[${PYTHON_USEDEP}]
 	<=dev-python/rich-13.7.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-4.3[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/coverage-7.3[${PYTHON_USEDEP}] )

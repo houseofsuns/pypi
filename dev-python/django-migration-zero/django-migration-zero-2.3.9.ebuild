@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
-	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typer-0.12[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-django-4.9[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-mock-3.14[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.6[${PYTHON_USEDEP}] )

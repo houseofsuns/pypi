@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	dev-python/taxopy[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.6[${PYTHON_USEDEP}]
 	all? ( dev-python/biom-format[${PYTHON_USEDEP}] )
 	all? ( dev-python/odfpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )

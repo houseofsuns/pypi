@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/fastcore[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.3.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/awscli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-mgmt-storage[${PYTHON_USEDEP}] )

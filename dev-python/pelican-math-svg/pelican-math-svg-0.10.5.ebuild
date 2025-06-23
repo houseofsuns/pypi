@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	markdown? ( <dev-python/markdown-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/pelican[${PYTHON_USEDEP}]
 	<dev-python/setuptools-69.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

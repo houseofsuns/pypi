@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.12.1[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.67.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

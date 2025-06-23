@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	cicd? ( dev-python/configparser[${PYTHON_USEDEP}] )
-	cicd? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cicd? ( >=dev-python/typer-0.3.2[${PYTHON_USEDEP}] )
 	research? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
 	research? ( >=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )
 	research? ( dev-python/entsoe-py[${PYTHON_USEDEP}] )

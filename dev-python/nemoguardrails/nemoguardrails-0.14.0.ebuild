@@ -67,7 +67,7 @@ DEPENDENCIES="tracing? ( >=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}] )
 	eval? ( >=dev-python/tornado-6.5.0[${PYTHON_USEDEP}] )
 	eval? ( <dev-python/tqdm-5.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tqdm-5.0[${PYTHON_USEDEP}] )
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.8[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.23[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	jailbreak? ( <dev-python/yara-python-5.0.0[${PYTHON_USEDEP}] )

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pytest-reportlog[${PYTHON_USEDEP}]
 	dev-python/clumper[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.19.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -51,6 +51,6 @@ DEPENDENCIES="<dev-python/bandit-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-inline-tabs-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/sphinx_design[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

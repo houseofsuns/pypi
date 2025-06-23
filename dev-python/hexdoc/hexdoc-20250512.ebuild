@@ -46,7 +46,7 @@ DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31[${PYTHON_USEDEP}]
 	~dev-python/rich-13.3.4[${PYTHON_USEDEP}]
 	~dev-python/svglib-1.5.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.12[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.6[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/copier_template_tester[${PYTHON_USEDEP}] )

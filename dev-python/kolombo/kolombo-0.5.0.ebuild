@@ -32,6 +32,6 @@ DEPENDENCIES="~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	dev-python/ormar[${PYTHON_USEDEP}]
 	~dev-python/rich-10.10.0[${PYTHON_USEDEP}]
 	~dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

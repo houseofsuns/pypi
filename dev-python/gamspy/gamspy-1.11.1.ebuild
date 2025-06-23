@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/gamsapi[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2022.9.14[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

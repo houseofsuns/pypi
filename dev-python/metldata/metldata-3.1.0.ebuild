@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/hexkit[${PYTHON_USEDEP}]
 	dev-python/ghga-service-commons[${PYTHON_USEDEP}]
 	dev-python/ghga-event-schemas[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.2[${PYTHON_USEDEP}]
 	dev-python/linkml[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]
 	dev-python/linkml-validator[${PYTHON_USEDEP}]

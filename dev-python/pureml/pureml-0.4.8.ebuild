@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/boto3-1.34.147[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/structlog-24.4.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.3[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.30.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastparquet[${PYTHON_USEDEP}] )

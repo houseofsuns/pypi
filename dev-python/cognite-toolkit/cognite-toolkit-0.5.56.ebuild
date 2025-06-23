@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	sql? ( >=dev-python/sqlparse-0.5.3[${PYTHON_USEDEP}] )
 	table? ( >=dev-python/pyarrow-20.0.0[${PYTHON_USEDEP}] )"

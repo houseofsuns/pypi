@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/httpx-0.15.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/rich-11.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	dev-python/check-jsonschema[${PYTHON_USEDEP}]"

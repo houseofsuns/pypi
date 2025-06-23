@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/build-1.1[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	cli? ( dev-python/toml[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.9[${PYTHON_USEDEP}] )
 	format? ( >=dev-python/black-24.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

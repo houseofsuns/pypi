@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/github3-py-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/slack-webhook[${PYTHON_USEDEP}] )
 	slack-notifications? ( dev-python/slack-webhook[${PYTHON_USEDEP}] )
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/ujson-5.0[${PYTHON_USEDEP}] )
 	ujson? ( <dev-python/ujson-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dependency Injection Container Library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f36494c0f20>)]"
+DESCRIPTION="Dependency Injection Container Library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7eff1bfb3300>)]"
 
 HOMEPAGE="https://github.com/pyfony/injecta"
 LICENSE="MIT"

@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	dev-python/pydasher[${PYTHON_USEDEP}]
 	<dev-python/rich-12.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

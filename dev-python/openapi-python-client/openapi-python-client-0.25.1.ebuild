@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
 	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.17[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

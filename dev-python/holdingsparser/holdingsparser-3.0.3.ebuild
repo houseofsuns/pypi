@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.4.0[${PYTHON_USEDEP}]
 	dev-python/requests-random-user-agent[${PYTHON_USEDEP}]
 	<dev-python/untangle-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

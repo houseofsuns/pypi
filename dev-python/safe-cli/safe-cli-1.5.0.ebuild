@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/art[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/safe-eth-py[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.14.0[${PYTHON_USEDEP}]
 	ledger? ( dev-python/ledgereth[${PYTHON_USEDEP}] )
 	trezor? ( dev-python/trezor[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

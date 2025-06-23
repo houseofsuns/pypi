@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
 	<dev-python/toolz-2.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.17[${PYTHON_USEDEP}]
 	dev? ( dev-python/kfactory[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.15.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/python-jose-4.0[${PYTHON_USEDEP}]
 	<dev-python/respx-1.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-9.0[${PYTHON_USEDEP}]
 	dev-python/auto-name-enum[${PYTHON_USEDEP}]
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/typer-0.13[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/loguru-0.6.0[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pendulum[${PYTHON_USEDEP}] )

@@ -90,7 +90,7 @@ DEPENDENCIES="alchemy? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	<dev-python/tenacity-10.0.0[${PYTHON_USEDEP}]
 	dev-python/tf-playwright-stealth[${PYTHON_USEDEP}]
 	tqdm? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
-	dev-python/typer[${PYTHON_USEDEP}]
+	<dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]
 	xmltodict? ( <dev-python/xmltodict-0.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

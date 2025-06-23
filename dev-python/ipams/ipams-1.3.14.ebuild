@@ -29,6 +29,6 @@ DEPENDENCIES="~dev-python/pydantic-2.9.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	~dev-python/rich-13.9.3[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.12.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

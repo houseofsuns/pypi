@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	>=dev-python/poetry-1.3.2[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

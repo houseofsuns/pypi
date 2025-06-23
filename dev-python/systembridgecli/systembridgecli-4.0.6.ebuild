@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/incremental-24.7.2[${PYTHON_USEDEP}]
 	~dev-python/shellingham-1.5.4[${PYTHON_USEDEP}]
 	dev-python/systembridgeconnector[${PYTHON_USEDEP}]
 	dev-python/systembridgeshared[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.12.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	~dev-python/simpleeval-0.9.13[${PYTHON_USEDEP}]
 	~dev-python/starlette-0.26.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.21.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

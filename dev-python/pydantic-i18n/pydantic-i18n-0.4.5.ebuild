@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/markdown-3.7[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/typer[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/typer-0.12.5[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-8.3.3[${PYTHON_USEDEP}] )

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	laszip? ( dev-python/laszip[${PYTHON_USEDEP}] )
 	pyproj? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/typer-0.8.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/rich-10.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

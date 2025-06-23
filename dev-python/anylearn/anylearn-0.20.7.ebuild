@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.11.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/apache-iotdb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

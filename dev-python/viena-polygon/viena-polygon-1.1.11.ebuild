@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.3.2[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	~dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-6.2.4[${PYTHON_USEDEP}]

@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/pyglet-2.1.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typer-0.12.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	testing-libraries? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing-libraries? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

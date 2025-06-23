@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.4[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/beartype-0.19.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )

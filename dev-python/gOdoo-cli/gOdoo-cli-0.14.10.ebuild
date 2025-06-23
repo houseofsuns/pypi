@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	dev-python/typer-common-functions[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	odoo-dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	odoo-dev? ( dev-python/inotify[${PYTHON_USEDEP}] )
 	odoo-dev? ( >=dev-python/ipdb-0.13.9[${PYTHON_USEDEP}] )

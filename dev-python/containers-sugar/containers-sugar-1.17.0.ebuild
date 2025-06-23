@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.21.1[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	tui? ( >=dev-python/rich-10.11.0[${PYTHON_USEDEP}] )
 	tui? ( dev-python/textual[${PYTHON_USEDEP}] )
 	tui? ( dev-python/plotille[${PYTHON_USEDEP}] )

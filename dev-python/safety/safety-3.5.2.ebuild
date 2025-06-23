@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	gitlab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )

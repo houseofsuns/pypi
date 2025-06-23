@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/gradio-client[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.6.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]"
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

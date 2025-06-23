@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/feedgen[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.4[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.2.0[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	~dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	dev-python/whenever[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

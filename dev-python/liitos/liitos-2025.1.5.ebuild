@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/shellingham-1.5.4[${PYTHON_USEDEP}]
 	dev-python/taksonomia[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
-	dev-python/typer[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.15.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )

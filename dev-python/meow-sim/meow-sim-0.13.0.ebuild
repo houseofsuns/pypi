@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modeling of Eigenmodes and Overlaps in Waveguide Structures [top-max 0.14.0]"
+DESCRIPTION="Modeling of Eigenmodes and Overlaps in Waveguide Structures [top-max 0.14.1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

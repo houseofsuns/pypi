@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Nonlinear finite element analysis. [top-max 0.1.20]"
+DESCRIPTION="Nonlinear finite element analysis. [top-max 0.1.21]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MCH Py-ART: Python ARM Radar Toolkit - MeteoSwiss version"
+DESCRIPTION="MCH Py-ART: Python ARM Radar Toolkit - MeteoSwiss version [top-max 2.1.0]"
 
 HOMEPAGE="https://github.com/MeteoSwiss/pyart"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Run an ffmpeg command with progress"
+DESCRIPTION="Run an ffmpeg command with progress [top-max 1.0.1]"
 
 HOMEPAGE="https://github.com/slhck/ffmpeg-progress-yield"
 LICENSE="MIT"

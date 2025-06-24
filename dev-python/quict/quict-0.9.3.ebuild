@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quantum Compute Platform of Institute of Computing Technology [top-max 1.0.2]"
+DESCRIPTION="Quantum Compute Platform of Institute of Computing Technology [top-max 1.0.4]"
 
 HOMEPAGE="https://e.gitee.com/quictucas/repos/quictucas/quict"
 LICENSE="Apache-2.0"

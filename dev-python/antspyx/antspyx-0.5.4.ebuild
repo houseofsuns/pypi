@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast medical imaging analysis library in Python with algorithms for registration, segmentation, and more."
+DESCRIPTION="A fast medical imaging analysis library in Python with algorithms for registration, segmentation, and more. [top-max 0.6.0]"
 
 HOMEPAGE="https://github.com/antsx/antspy"
 LICENSE=""

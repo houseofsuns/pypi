@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A trading framework for cryptocurrencies"
+DESCRIPTION="A trading framework for cryptocurrencies [top-max 1.9.3]"
 
 HOMEPAGE="https://jesse.trade"
 LICENSE=""

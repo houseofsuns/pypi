@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="easy operate OFD"
+DESCRIPTION="easy operate OFD [top-max 0.5.3]"
 
 HOMEPAGE="https://github.com/renoyuan/easyofd"
 LICENSE=""

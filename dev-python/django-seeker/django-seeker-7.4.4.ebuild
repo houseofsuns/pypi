@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python package for mapping and querying Django models in Elasticsearch/OpenSearch."
+DESCRIPTION="A python package for mapping and querying Django models in Elasticsearch/OpenSearch. [top-max 7.5.0]"
 
 HOMEPAGE="https://github.com/imsweb/django-seeker"
 LICENSE="BSD"

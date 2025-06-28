@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Atila Framework [top-max 0.27.0]"
+DESCRIPTION="Atila Framework [top-max 0.27.2]"
 
 HOMEPAGE="https://gitlab.com/hansroh/atila"
 LICENSE="MIT"

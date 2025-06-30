@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="energysystemmodels"
 REALVERSION="0.1.17.post33"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Energy systems models are the mathematical models that are developed in order to represent as reliably as possible various energy-related problems. [top-max 0.1.25_p13]"
+DESCRIPTION="Energy systems models are the mathematical models that are developed in order to represent as reliably as possible various energy-related problems. [top-max 20250630004]"
 
 HOMEPAGE="https://github.com/ZoheirHADID/EnergySystemModels"
 LICENSE=""

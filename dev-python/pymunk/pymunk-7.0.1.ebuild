@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pymunk is a easy-to-use pythonic 2D physics library"
+DESCRIPTION="Pymunk is a easy-to-use pythonic 2D physics library [top-max 7.1.0]"
 
 HOMEPAGE="https://www.pymunk.org"
 LICENSE=""

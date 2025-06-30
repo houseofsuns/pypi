@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python library for reading and writing collada documents"
+DESCRIPTION="python library for reading and writing collada documents [top-max 0.9.1]"
 
 HOMEPAGE="http://pycollada.readthedocs.org/"
 LICENSE="BSD"

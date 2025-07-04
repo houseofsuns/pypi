@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/alive-progress[${PYTHON_USEDEP}]
 	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/rich-argparse[${PYTHON_USEDEP}]
+	<dev-python/rich-argparse-2.0.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

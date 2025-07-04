@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dramatic[${PYTHON_USEDEP}]
 	~dev-python/pygame-2.6.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	~dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/rich-argparse[${PYTHON_USEDEP}]
+	~dev-python/rich-argparse-1.7.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/bandit-1.8.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.2.2_p1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.8.0[${PYTHON_USEDEP}] )

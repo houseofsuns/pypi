@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="K-Means clustering constrained with minimum and maximum cluster size [top-max 0.7.5]"
+DESCRIPTION="K-Means clustering constrained with minimum and maximum cluster size [top-max 0.7.6]"
 
 HOMEPAGE="https://github.com/joshlk/k-means-constrained"
 LICENSE="BSD 3-Clause"

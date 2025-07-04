@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data and Algorithm Work-flow Generation, Introspection, and Execution (DAWGIE) [top-max 1.4.6_rc6]"
+DESCRIPTION="Data and Algorithm Work-flow Generation, Introspection, and Execution (DAWGIE) [top-max 1.4.6_rc8]"
 
 HOMEPAGE="https://github.com/al-niessner/DAWGIE"
 LICENSE="see LICENSE file for details"

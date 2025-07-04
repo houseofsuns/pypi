@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MDO Lab sphinx theme [top-max 1.4.2]"
+DESCRIPTION="MDO Lab sphinx theme [top-max 1.4.3]"
 
 HOMEPAGE="https://github.com/mdolab/sphinx_mdolab_theme"
 LICENSE="MIT"

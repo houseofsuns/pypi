@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The official GUI for angr"
+DESCRIPTION="The official GUI for angr [top-max 9.2.163]"
 
 HOMEPAGE="https://angr.io"
 LICENSE="BSD-2"

@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
-	dev-python/rich-argparse[${PYTHON_USEDEP}]
+	<dev-python/rich-argparse-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	<dev-python/uv-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

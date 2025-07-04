@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CLE Loads Everything (at least, many binary formats!) and provides a pythonic interface to analyze what they are and what they would look like in memory."
+DESCRIPTION="CLE Loads Everything (at least, many binary formats!) and provides a pythonic interface to analyze what they are and what they would look like in memory. [top-max 9.2.163]"
 
 HOMEPAGE="https://api.angr.io/projects/cle/en/latest/"
 LICENSE="BSD-2"

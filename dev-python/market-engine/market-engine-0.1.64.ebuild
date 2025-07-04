@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Engine for easily getting the orders, statistics, and other stats from warframe.market."
+DESCRIPTION="Engine for easily getting the orders, statistics, and other stats from warframe.market. [top-max 0.1.65]"
 
 HOMEPAGE=""
 LICENSE=""

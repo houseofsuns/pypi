@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.13.1[${PYTHON_USEDEP}]
-	dev-python/rich-argparse[${PYTHON_USEDEP}]
+	<dev-python/rich-argparse-2.0.0[${PYTHON_USEDEP}]
 	dev-python/modified-logger[${PYTHON_USEDEP}]
 	>=dev-python/pytest-8.3.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.9.4[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Target-centric program analysis."
+DESCRIPTION="Target-centric program analysis. [top-max 9.2.163]"
 
 HOMEPAGE="https://github.com/angr/archr"
 LICENSE="BSD-2"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for performing common tasks on solar PV data signals"
+DESCRIPTION="Tools for performing common tasks on solar PV data signals [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/slacgismo/solar-data-tools"
 LICENSE="BSD 2-Clause License"

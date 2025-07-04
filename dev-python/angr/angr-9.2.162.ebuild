@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A multi-architecture binary analysis toolkit, with the ability to perform dynamic symbolic execution and various static analyses on binaries"
+DESCRIPTION="A multi-architecture binary analysis toolkit, with the ability to perform dynamic symbolic execution and various static analyses on binaries [top-max 9.2.163]"
 
 HOMEPAGE="https://angr.io/"
 LICENSE="BSD-2"

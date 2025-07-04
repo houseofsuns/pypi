@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="rich"
 DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	rich? ( dev-python/rich-argparse[${PYTHON_USEDEP}] )"
+	rich? ( >=dev-python/rich-argparse-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

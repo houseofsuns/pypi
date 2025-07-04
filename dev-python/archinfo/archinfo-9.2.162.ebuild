@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Classes with architecture-specific information useful to other projects."
+DESCRIPTION="Classes with architecture-specific information useful to other projects. [top-max 9.2.163]"
 
 HOMEPAGE="https://api.angr.io/projects/archinfo/en/latest/"
 LICENSE="BSD-2"

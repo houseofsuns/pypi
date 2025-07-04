@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich-argparse[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/rich-argparse-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/rich-13.0.1[${PYTHON_USEDEP}]
 	~dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
 	~dev-python/chardet-5.1.0[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An abstraction layer for constraint solvers"
+DESCRIPTION="An abstraction layer for constraint solvers [top-max 9.2.163]"
 
 HOMEPAGE="https://github.com/angr/claripy"
 LICENSE="BSD-2"

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/rich-argparse[${PYTHON_USEDEP}]
+	<dev-python/rich-argparse-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/uv-0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

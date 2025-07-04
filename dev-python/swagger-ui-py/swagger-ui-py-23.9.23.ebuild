@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Swagger UI for Python web framework, such as Tornado, Flask, Quart, Sanic and Falcon."
+DESCRIPTION="Swagger UI for Python web framework, such as Tornado, Flask, Quart, Sanic and Falcon. [top-max 25.7.1]"
 
 HOMEPAGE="https://github.com/PWZER/swagger-ui-py"
 LICENSE="Apache-2.0"

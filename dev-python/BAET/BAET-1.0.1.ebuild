@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/rich-argparse[${PYTHON_USEDEP}]
+	<dev-python/rich-argparse-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

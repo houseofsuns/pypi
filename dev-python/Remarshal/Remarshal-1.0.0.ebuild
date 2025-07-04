@@ -30,6 +30,6 @@ DEPENDENCIES="<dev-python/cbor2-6.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-0.14.0[${PYTHON_USEDEP}]
 	<dev-python/u-msgpack-python-3.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
-	dev-python/rich-argparse[${PYTHON_USEDEP}]"
+	<dev-python/rich-argparse-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

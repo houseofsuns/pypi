@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tooling to create and maintain stubs for MicroPython [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3d2104ab20>)]"
+DESCRIPTION="Tooling to create and maintain stubs for MicroPython [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe239d64200>)]"
 
 HOMEPAGE="https://github.com/Josverl/micropython-stubber#readme"
 LICENSE="MIT"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/geojson-pydantic[${PYTHON_USEDEP}]
 	~dev-python/pyproj-3.7.0[${PYTHON_USEDEP}]
-	dev-python/rich-argparse[${PYTHON_USEDEP}]
+	~dev-python/rich-argparse-1.3[${PYTHON_USEDEP}]
 	~dev-python/shapely-2.0.6[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

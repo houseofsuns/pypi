@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc full license"
 DEPENDENCIES="<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
 	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
-	dev-python/b2sdk[${PYTHON_USEDEP}]
+	<dev-python/b2sdk-3.0[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.18.1[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/phx-class-registry[${PYTHON_USEDEP}]

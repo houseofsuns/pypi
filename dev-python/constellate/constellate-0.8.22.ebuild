@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/decorator-5.1.0[${PYTHON_USEDEP}]
 	numba? ( dev-python/numba-progress[${PYTHON_USEDEP}] )
 	sparql? ( >=dev-python/rdflib-6.3.0[${PYTHON_USEDEP}] )
 	sparql? ( dev-python/SPARQL-Burger[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/pyzstd[${PYTHON_USEDEP}] )
+	zstd? ( >=dev-python/pyzstd-0.15.10[${PYTHON_USEDEP}] )
 	logging? ( dev-python/narration[${PYTHON_USEDEP}] )
 	logging? ( >=dev-python/colorlog-6.8.2[${PYTHON_USEDEP}] )
 	concurrencypebble? ( >=dev-python/pebble-4.6.3[${PYTHON_USEDEP}] )

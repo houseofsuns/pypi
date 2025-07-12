@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Set of tools and utilities for the Confidential Consortium Framework (CCF) [top-max 6.0.8]"
+DESCRIPTION="Set of tools and utilities for the Confidential Consortium Framework (CCF) [top-max 7.0.0_pre0]"
 
 HOMEPAGE="https://github.com/microsoft/CCF/python/ccf"
 LICENSE="Apache-2.0"

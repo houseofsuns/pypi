@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/alembic-1.11.2[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/b2sdk[${PYTHON_USEDEP}]
+	>=dev-python/b2sdk-1.22.1[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.26.132[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.29.132[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.3.1[${PYTHON_USEDEP}]

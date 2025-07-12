@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/importlib-resources-5.12[${PYTHON_USEDEP}]
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyzstd[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyzstd-0.14.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
@@ -53,6 +53,6 @@ DEPENDENCIES=">=dev-python/importlib-resources-5.12[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	typing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/pyzstd[${PYTHON_USEDEP}] )"
+	zstd? ( >=dev-python/pyzstd-0.14.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

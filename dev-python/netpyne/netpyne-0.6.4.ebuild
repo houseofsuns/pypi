@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package to develop, simulate and analyse biological neuronal networks in NEURON. [top-max 1.0.7]"
+DESCRIPTION="A Python package to develop, simulate and analyse biological neuronal networks in NEURON. [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/Neurosim-lab/netpyne"
 LICENSE="MIT"

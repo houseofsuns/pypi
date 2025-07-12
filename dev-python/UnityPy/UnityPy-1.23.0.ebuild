@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Unity extraction and patching package [wheel]"
+DESCRIPTION="A Unity extraction and patching package"
 
 HOMEPAGE="https://github.com/K0lb3/UnityPy"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/5d/46/fe6b3b2ab7d0bf767678e093768d8766449fbf73354070907a1107f1a019/unitypy-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="unitypy-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/c9/8d/b5f68af949762edad75b3fb2eb304640ebd2b919eb2f3594f8ae865b0ca4/unitypy-${REALVERSION}.tar.gz"
+SOURCEFILE="unitypy-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -40,7 +40,6 @@ DEPENDENCIES="dev-python/lz4[${PYTHON_USEDEP}]
 	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/UnityPy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/UnityPy[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	dev? ( dev-python/UnityPy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

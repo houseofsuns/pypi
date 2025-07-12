@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NHSDigital mesh sandbox, a locally testable version of the MESH api [top-max 1.0.26]"
+DESCRIPTION="NHSDigital mesh sandbox, a locally testable version of the MESH api [top-max 1.0.27]"
 
 HOMEPAGE=""
 LICENSE="MIT"

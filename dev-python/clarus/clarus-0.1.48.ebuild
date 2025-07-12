@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Clarus Microservices [top-max 0.1.104]"
+DESCRIPTION="Clarus Microservices [top-max 0.1.105]"
 
 HOMEPAGE="http://www.clarusft.com"
 LICENSE=""

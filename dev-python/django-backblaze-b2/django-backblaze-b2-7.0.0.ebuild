@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/b2sdk[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/b2sdk-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

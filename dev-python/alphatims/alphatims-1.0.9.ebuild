@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	stable? ( dev-python/numba[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/psutil-5.9.4[${PYTHON_USEDEP}] )
-	stable? ( dev-python/pyzstd[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/pyzstd-0.15.3[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

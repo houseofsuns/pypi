@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface to the Exact integer linear programming solver [top-max 2.1.2]"
+DESCRIPTION="A Python interface to the Exact integer linear programming solver [top-max 2.2.1]"
 
 HOMEPAGE="https://gitlab.com/JoD/exact"
 LICENSE="AGPL-3"

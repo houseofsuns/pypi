@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implicit feedback-based recommender systems, packed for practitioners."
+DESCRIPTION="Implicit feedback-based recommender systems, packed for practitioners. [top-max 0.4.0]"
 
 HOMEPAGE="https://irspack.readthedocs.io/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Basic period detection and fitting routines for astronomical time series."
+DESCRIPTION="Basic period detection and fitting routines for astronomical time series. [top-max 0.3.3]"
 
 HOMEPAGE="https://github.com/keatonb/Pyriod"
 LICENSE=""

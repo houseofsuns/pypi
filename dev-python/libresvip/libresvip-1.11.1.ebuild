@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	upath? ( dev-python/universal-pathlib[${PYTHON_USEDEP}] )
 	webui? ( dev-python/nicegui[${PYTHON_USEDEP}] )
 	webui? ( dev-python/universal-pathlib[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/pyzstd[${PYTHON_USEDEP}] )
+	zstd? ( <dev-python/pyzstd-1.0.0[${PYTHON_USEDEP}] )
 	zstd? ( <dev-python/zstandard-0.23.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

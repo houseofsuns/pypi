@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Super Fast Async Python Web Framework with a Rust runtime. [top-max 0.70.0]"
+DESCRIPTION="A Super Fast Async Python Web Framework with a Rust runtime. [top-max 0.71.1]"
 
 HOMEPAGE="https://github.com/sparckles/robyn"
 LICENSE="BSD License BSD"

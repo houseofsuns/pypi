@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Yet another Bayesian factorization machines. [new-max 2023-04-19 02:54:05.891465+00:00]"
+DESCRIPTION="Yet another Bayesian factorization machines. [new-max 2025-07-11 14:05:13.591902+00:00]"
 
 HOMEPAGE="https://github.com/tohtsky/myfm"
 LICENSE=""

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="b2 gdrive s3 sftp vault"
 DEPENDENCIES="~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.14.0[${PYTHON_USEDEP}]
-	b2? ( dev-python/b2sdk[${PYTHON_USEDEP}] )
+	b2? ( ~dev-python/b2sdk-1.7[${PYTHON_USEDEP}] )
 	b2? ( ~dev-python/python-magic-0.4[${PYTHON_USEDEP}] )
 	gdrive? ( dev-python/PyDrive[${PYTHON_USEDEP}] )
 	gdrive? ( ~dev-python/python-magic-0.4[${PYTHON_USEDEP}] )

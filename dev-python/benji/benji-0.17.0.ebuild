@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/prettytable-1.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-3.0.6[${PYTHON_USEDEP}]
 	<dev-python/attrs-22.0[${PYTHON_USEDEP}]
-	b2? ( dev-python/b2sdk[${PYTHON_USEDEP}] )
+	b2? ( <dev-python/b2sdk-2.0[${PYTHON_USEDEP}] )
 	compression? ( >=dev-python/zstandard-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )

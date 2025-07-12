@@ -16,8 +16,8 @@ DESCRIPTION="Official Saxonica python package for the SaxonC-PE 12.8.0 processor
 
 HOMEPAGE="https://www.saxonica.com/saxon-c/index.xml"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-macosx_10_11_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-macosx_10_11_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_24_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_24_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

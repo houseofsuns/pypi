@@ -38,6 +38,6 @@ DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
-	dev-python/pyzstd[${PYTHON_USEDEP}]"
+	<dev-python/pyzstd-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

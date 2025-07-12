@@ -47,7 +47,7 @@ DEPENDENCIES="<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/montydb[${PYTHON_USEDEP}]
 	ros? ( <dev-python/flatdict-5.0.0[${PYTHON_USEDEP}] )
 	ros2? ( <dev-python/flatdict-5.0.0[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/pyzstd[${PYTHON_USEDEP}] )
+	zstd? ( <dev-python/pyzstd-0.16.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	ros2? ( <dev-python/lark-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]

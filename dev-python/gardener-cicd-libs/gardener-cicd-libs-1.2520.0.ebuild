@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gardener CI/CD Libraries [top-max 1.2657.0]"
+DESCRIPTION="Gardener CI/CD Libraries [top-max 1.2666.0]"
 
 HOMEPAGE=""
 LICENSE=""

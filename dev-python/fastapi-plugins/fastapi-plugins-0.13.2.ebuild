@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Plugins for FastAPI framework"
+DESCRIPTION="Plugins for FastAPI framework [top-max 0.14.0]"
 
 HOMEPAGE="https://github.com/madkote/fastapi-plugins"
 LICENSE="MIT"

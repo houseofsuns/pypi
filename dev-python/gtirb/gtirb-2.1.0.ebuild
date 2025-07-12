@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GrammaTech Intermediate Representation for Binaries"
+DESCRIPTION="GrammaTech Intermediate Representation for Binaries [top-max 2.3.0]"
 
 HOMEPAGE="https://github.com/grammatech/gtirb"
 LICENSE="MIT"

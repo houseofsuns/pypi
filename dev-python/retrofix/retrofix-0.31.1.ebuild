@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="retrofix"
+DESCRIPTION="retrofix [top-max 0.32.0]"
 
 HOMEPAGE="http://www.NaN-tic.com/"
 LICENSE="GPL-3"

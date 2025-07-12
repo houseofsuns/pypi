@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="常用模块的集合，为了多平台，多电脑调用方便!"
+DESCRIPTION="常用模块的集合，为了多平台，多电脑调用方便! [new-max 2025-07-11 04:02:21.484175+00:00]"
 
 HOMEPAGE="https://github.com/ldsxp/ilds"
 LICENSE="GNU GPL 3"

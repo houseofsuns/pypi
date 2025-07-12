@@ -27,7 +27,7 @@ IUSE="lmdb postgres rdkit zstd"
 DEPENDENCIES="dev-python/chython[${PYTHON_USEDEP}]
 	lmdb? ( <dev-python/lmdb-2.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/pyzstd[${PYTHON_USEDEP}] )
+	zstd? ( <dev-python/pyzstd-0.16.0[${PYTHON_USEDEP}] )
 	rdkit? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple N-body code for Python"
+DESCRIPTION="Simple N-body code for Python [top-max 1.2.0]"
 
 HOMEPAGE="https://github.com/jbailinua/gravhopper"
 LICENSE="BSD"

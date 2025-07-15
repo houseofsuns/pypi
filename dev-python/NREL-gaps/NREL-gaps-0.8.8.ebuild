@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/click-8.1.8[${PYTHON_USEDEP}]
 	dev-python/sphinx-click[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]
+	>=dev-python/sphinxcontrib-mermaid-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )

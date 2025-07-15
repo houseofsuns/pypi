@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-mermaid-0.8.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/requests-2.32.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/zipp-3.19.1[${PYTHON_USEDEP}] )

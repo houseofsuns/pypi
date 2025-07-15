@@ -63,7 +63,7 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/software-patterns[${PYTHON_USEDEP}]
 	docslive? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docslive? ( ~dev-python/sphinx-inline-tabs-2023.4.21[${PYTHON_USEDEP}] )
-	docslive? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docslive? ( ~dev-python/sphinxcontrib-mermaid-0.9.2[${PYTHON_USEDEP}] )
 	docslive? ( <dev-python/sphinxcontrib-spelling-8.0.0[${PYTHON_USEDEP}] )
 	docslive? ( <dev-python/tornado-7.0.0[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )

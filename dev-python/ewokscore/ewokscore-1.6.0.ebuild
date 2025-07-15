@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ewokscore[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-mermaid-0.7[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-autodoc-typehints-1.16[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )

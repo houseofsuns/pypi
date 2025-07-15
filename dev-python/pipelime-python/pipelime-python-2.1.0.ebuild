@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-mermaid-0.7.1[${PYTHON_USEDEP}] )
 	draw? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

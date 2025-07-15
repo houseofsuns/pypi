@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-mermaid-0.8.1[${PYTHON_USEDEP}] )
 	experiments? ( dev-python/scikit-bio[${PYTHON_USEDEP}] )
 	experiments? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	experiments? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )"

@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/sphinx-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/notebook-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydata-sphinx-theme-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]
+	<dev-python/sphinxcontrib-mermaid-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

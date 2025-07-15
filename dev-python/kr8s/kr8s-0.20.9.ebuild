@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-mermaid-0.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/kubernetes-validate[${PYTHON_USEDEP}] )
 	test? ( dev-python/kubernetes[${PYTHON_USEDEP}] )

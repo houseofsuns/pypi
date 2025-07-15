@@ -57,7 +57,7 @@ DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/julearn[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-copybutton-0.5.3[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/towncrier-24.7.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-mermaid-0.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

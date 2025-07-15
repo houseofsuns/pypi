@@ -56,6 +56,6 @@ DEPENDENCIES="dev-python/colorcet[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.40.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinxcontrib-mermaid-0.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

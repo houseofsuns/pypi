@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/furo-2024.8.6[${PYTHON_USEDEP}]
 	dev-python/sphinx_subfigure[${PYTHON_USEDEP}]
 	dev-python/sphinx-togglebutton[${PYTHON_USEDEP}]
 	dev-python/sphinxext-opengraph[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]
+	<dev-python/sphinxcontrib-mermaid-2.0[${PYTHON_USEDEP}]
 	<dev-python/sphinxcontrib-plantuml-1.0[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

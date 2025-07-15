@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the NEST noble element simulations [top-max 2.0.4]"
+DESCRIPTION="Python bindings for the NEST noble element simulations [top-max 2.0.5]"
 
 HOMEPAGE=""
 LICENSE=""

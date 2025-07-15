@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="2D planar geometry library for Python."
+DESCRIPTION="2D planar geometry library for Python. [top-max 0.5.0]"
 
 HOMEPAGE="http://bitbucket.org/caseman/planar/"
 LICENSE="BSD"

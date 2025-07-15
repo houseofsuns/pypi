@@ -28,7 +28,7 @@ DEPENDENCIES="docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2023.0.0[${PYTHON_USEDEP}] )
 	<dev-python/lxml-6.0[${PYTHON_USEDEP}]
 	dev-python/minisignxml[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-mermaid-0.8.0[${PYTHON_USEDEP}] )
 	>=dev-python/yarl-1.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

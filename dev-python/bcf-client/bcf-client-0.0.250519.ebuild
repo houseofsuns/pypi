@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BCF-XML file handler."
+DESCRIPTION="BCF-XML file handler. [new-max 2025-07-13 09:54:00.731225+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

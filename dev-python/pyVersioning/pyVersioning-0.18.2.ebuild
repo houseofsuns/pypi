@@ -27,7 +27,7 @@ IUSE="all doc test"
 DEPENDENCIES="~dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
 	dev-python/pyTooling[${PYTHON_USEDEP}]
 	doc? ( dev-python/autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-mermaid-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinxcontrib-autoprogram-0.1.9[${PYTHON_USEDEP}] )
 	doc? ( dev-python/docutils-stubs[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
 	all? ( ~dev-python/mypy-1.15[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/docutils-0.21[${PYTHON_USEDEP}] )
 	all? ( dev-python/autoapi[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinxcontrib-mermaid-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pytest-8.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )

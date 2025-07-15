@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
 	docs? ( dev-python/pep517[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-argparse-0.3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-mermaid-0.7.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

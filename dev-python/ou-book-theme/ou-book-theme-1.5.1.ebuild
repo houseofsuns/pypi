@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/livereload-3.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
 	dev-python/sphinx_design[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]
+	<dev-python/sphinxcontrib-mermaid-1.0.0[${PYTHON_USEDEP}]
 	dev-python/webvtt-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

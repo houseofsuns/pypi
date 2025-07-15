@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/columnar[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-bibtex-2.6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-mermaid-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/quantify-scheduler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )

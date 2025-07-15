@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/sphinx_collapse[${PYTHON_USEDEP}]
 	dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}]
 	<dev-python/sphinx-notfound-page-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-80.0.0[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]"
+	<dev-python/sphinxcontrib-mermaid-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -92,7 +92,7 @@ DEPENDENCIES="<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/databricks-connect[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/delta-spark[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]
+	<dev-python/sphinxcontrib-mermaid-0.10.0[${PYTHON_USEDEP}]
 	dev-python/python-pptx[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

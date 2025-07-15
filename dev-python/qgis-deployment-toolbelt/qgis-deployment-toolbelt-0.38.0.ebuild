@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/distro-1.9[${PYTHON_USEDEP}]
 	doc? ( <dev-python/sphinx-copybutton-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-mermaid-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/pyinstaller-hooks-contrib[${PYTHON_USEDEP}] )

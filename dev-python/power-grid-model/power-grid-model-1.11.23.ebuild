@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-mermaid-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-tikz[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )

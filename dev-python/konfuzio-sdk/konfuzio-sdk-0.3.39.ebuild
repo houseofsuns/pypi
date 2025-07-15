@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/bentoml[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-3.0.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxcontrib-mermaid-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

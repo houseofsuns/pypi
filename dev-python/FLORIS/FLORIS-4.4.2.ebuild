@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-autoyaml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-mermaid-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )

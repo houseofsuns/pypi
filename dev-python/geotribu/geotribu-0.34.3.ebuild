@@ -51,7 +51,7 @@ DEPENDENCIES="<dev-python/imagesize-1.5[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-autodoc-typehints-3.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-copybutton-1.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-mermaid-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	img-local? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )

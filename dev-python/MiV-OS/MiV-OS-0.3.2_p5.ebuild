@@ -69,7 +69,7 @@ DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-mermaid-1.0.0[${PYTHON_USEDEP}] )
 	experiment? ( >=dev-python/pyserial-3.5[${PYTHON_USEDEP}] )
 	mpi? ( >=dev-python/mpi4py-4.0.1[${PYTHON_USEDEP}] )
 	sortingextension? ( dev-python/dtaidistance[${PYTHON_USEDEP}] )"

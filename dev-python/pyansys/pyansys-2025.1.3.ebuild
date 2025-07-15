@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/ansys-acp-core[${PYTHON_USEDEP}]
 	doc? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-mermaid-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	fluent-all? ( dev-python/ansys-fluent-visualization[${PYTHON_USEDEP}] )
 	mapdl-all? ( dev-python/ansys-mapdl-reader[${PYTHON_USEDEP}] )

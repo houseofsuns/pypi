@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Highly scalable, extremely fast, easy-to-use embeddable graph database"
+DESCRIPTION="Highly scalable, extremely fast, easy-to-use embeddable graph database [top-max 0.11.1_pre3]"
 
 HOMEPAGE="https://github.com/kuzudb/kuzu"
 LICENSE="MIT"

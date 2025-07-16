@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="pennylane"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PennyLane is a Python quantum machine learning library by Xanadu Inc. [top-max 0.41.1]"
+DESCRIPTION="PennyLane is a Python quantum machine learning library by Xanadu Inc. [top-max 0.42.0]"
 
 HOMEPAGE="https://github.com/XanaduAI/pennylane"
 LICENSE="Apache-2.0"

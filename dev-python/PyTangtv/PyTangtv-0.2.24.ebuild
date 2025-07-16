@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LLNL DIII-D diagnostic image tools [top-max 1.0.27]"
+DESCRIPTION="LLNL DIII-D diagnostic image tools [top-max 1.0.31]"
 
 HOMEPAGE=""
 LICENSE="LLNL"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Input/Output formats for OpenGeode-Geosciences [top-max 5.4.3]"
+DESCRIPTION="Input/Output formats for OpenGeode-Geosciences [top-max 5.5.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

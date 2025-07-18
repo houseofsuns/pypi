@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Observability and DevTool Platform for AI Agents"
+DESCRIPTION="Observability and DevTool Platform for AI Agents [top-max 0.4.18]"
 
 HOMEPAGE="https://github.com/AgentOps-AI/agentops"
 LICENSE=""

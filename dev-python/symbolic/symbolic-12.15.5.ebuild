@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library for dealing with symbol files and more."
+DESCRIPTION="A python library for dealing with symbol files and more. [top-max 12.16.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

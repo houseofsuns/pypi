@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Autograd and XLA for S-parameters [top-max 0.15.11]"
+DESCRIPTION="Autograd and XLA for S-parameters [top-max 0.15.12]"
 
 HOMEPAGE=""
 LICENSE=""

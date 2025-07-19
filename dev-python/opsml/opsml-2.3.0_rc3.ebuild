@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python MLOPs quality control tooling for your production ML workflows [new-max 2025-07-10 18:57:23.930637+00:00]"
+DESCRIPTION="Python MLOPs quality control tooling for your production ML workflows [new-max 2025-07-18 21:18:01.084844+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

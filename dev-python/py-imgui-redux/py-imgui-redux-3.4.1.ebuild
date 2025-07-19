@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python wrapper for DearImGUI and popular extensions"
+DESCRIPTION="A python wrapper for DearImGUI and popular extensions [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/alagyn/py-imgui-redux"
 LICENSE=""

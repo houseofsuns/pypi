@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python3 bindings and utils for CloudCIX API."
+DESCRIPTION="Python3 bindings and utils for CloudCIX API. [top-max 1.0.0]"
 
 HOMEPAGE="https://python-cloudcix.readthedocs.io/en/latest/"
 LICENSE="Copyright 2015 CloudCIX"

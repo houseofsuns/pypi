@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="agently"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -16,8 +16,8 @@ DESCRIPTION="Agently, a framework to build applications based on language model 
 
 HOMEPAGE="https://github.com/Maplemx/Agently"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/7f/f0/e9fd5cc238c08041f14310708c3deeef10db7543c8914846005aa03468d5/agently-${REALVERSION}.tar.gz"
-SOURCEFILE="agently-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

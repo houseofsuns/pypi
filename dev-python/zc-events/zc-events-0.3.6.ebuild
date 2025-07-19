@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shared code for ZeroCater microservices events [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1ec5486730>)]"
+DESCRIPTION="Shared code for ZeroCater microservices events [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f626eed8eb0>)]"
 
 HOMEPAGE="https://github.com/ZeroCater/zc_events"
 LICENSE="MIT"

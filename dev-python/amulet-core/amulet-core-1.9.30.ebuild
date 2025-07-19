@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for reading/writing Minecraft's various save formats. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1ef9dfc2e0>)]"
+DESCRIPTION="A Python library for reading/writing Minecraft's various save formats. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f62a3876a40>)]"
 
 HOMEPAGE="https://www.amuletmc.com"
 LICENSE=""

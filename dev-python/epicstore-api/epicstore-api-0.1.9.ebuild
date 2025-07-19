@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An API wrapper for Epic Games Store written in Python"
+DESCRIPTION="An API wrapper for Epic Games Store written in Python [top-max 0.2.0]"
 
 HOMEPAGE="https://github.com/SD4RK/epicstore_api"
 LICENSE="MIT"

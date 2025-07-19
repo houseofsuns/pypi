@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="General purpose prebuilt functions for any project that I work on [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f629b6e6c00>)]"
+DESCRIPTION="General purpose prebuilt functions for any project that I work on [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f17f3a114d0>)]"
 
 HOMEPAGE=""
 LICENSE=""

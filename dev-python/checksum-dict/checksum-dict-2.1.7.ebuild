@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="checksum_dict's objects handle the simple but repetitive task of checksumming addresses before setting/getting dictionary values. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f17f5cd9cb0>)]"
+DESCRIPTION="checksum_dict's objects handle the simple but repetitive task of checksumming addresses before setting/getting dictionary values. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4cf9cff1b0>)]"
 
 HOMEPAGE="https://github.com/BobTheBuidler/checksum_dict"
 LICENSE=""

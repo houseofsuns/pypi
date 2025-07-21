@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The accelerated Python SNMP client library"
+DESCRIPTION="The accelerated Python SNMP client library [top-max 0.8.2]"
 
 HOMEPAGE="https://github.com/gufolabs/gufo_snmp/"
 LICENSE="BSD 3-Clause License"

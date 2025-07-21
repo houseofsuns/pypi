@@ -4,26 +4,26 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="Pypubsub"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Publish-Subscribe Package [wheel]"
+DESCRIPTION="Python Publish-Subscribe Package"
 
 HOMEPAGE="https://github.com/schollii/pypubsub"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/1a/41/a0aceb552d8ec63bb1e8223d130f9dd0f736470036d75d708183b104a2cb/Pypubsub-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="Pypubsub-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/23/64/e7907a632cfbd76fd17e86ed6279422345958cf9fdc8216d95d13d9fee1b/pypubsub-${REALVERSION}.tar.gz"
+SOURCEFILE="pypubsub-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="virtual/allow-pypi-wheels"
+DEPENDENCIES=""
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

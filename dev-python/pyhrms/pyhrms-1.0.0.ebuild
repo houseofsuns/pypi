@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A powerful GC/LC-HRMS data analysis tool [top-max 1.0.5]"
+DESCRIPTION="A powerful GC/LC-HRMS data analysis tool [top-max 1.0.6]"
 
 HOMEPAGE="https://github.com/WangRui5/PyHRMS.git"
 LICENSE=""

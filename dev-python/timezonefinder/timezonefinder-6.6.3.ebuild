@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python package for finding the timezone of any point on earth (coordinates) offline"
+DESCRIPTION="python package for finding the timezone of any point on earth (coordinates) offline [top-max 7.0.0]"
 
 HOMEPAGE="https://timezonefinder.michelfe.it/gui"
 LICENSE="The MIT License MIT"

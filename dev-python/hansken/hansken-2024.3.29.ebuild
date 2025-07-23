@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API to the Hansken REST endpoint [top-max 2025.6.24.1]"
+DESCRIPTION="Python API to the Hansken REST endpoint [top-max 2025.7.22]"
 
 HOMEPAGE="https://hansken.org/"
 LICENSE=""

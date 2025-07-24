@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="一个对Android SDK相关的命令封装的库 [top-max 0.3.0]"
+DESCRIPTION="一个对Android SDK相关的命令封装的库 [top-max 0.3.1]"
 
 HOMEPAGE=""
 LICENSE=""

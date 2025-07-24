@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Molecules, crystals, promolecule and Hirshfeld surfaces using python. [top-max 1.1.7]"
+DESCRIPTION="Molecules, crystals, promolecule and Hirshfeld surfaces using python. [top-max 1.1.8]"
 
 HOMEPAGE="https://github.com/peterspackman/chmpy"
 LICENSE="GPL-3+"

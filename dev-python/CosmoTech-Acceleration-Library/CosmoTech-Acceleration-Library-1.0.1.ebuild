@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="cosmotech-acceleration-library"
+LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
@@ -16,8 +16,8 @@ DESCRIPTION="Acceleration libraries for CosmoTech cloud based solution developme
 
 HOMEPAGE="https://www.cosmotech.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/bf/8169627d9e37f0c153e04ec8748fc7b3a25f262fd3f3288c150a24a6ae41/cosmotech_acceleration_library-${REALVERSION}.tar.gz"
+SOURCEFILE="cosmotech_acceleration_library-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

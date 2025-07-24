@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binary wrapper for FRC wpinet library [top-max 2025.3.2.3]"
+DESCRIPTION="Binary wrapper for FRC wpinet library [top-max 2027.0.0_alpha2]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-wpinet"
 LICENSE="BSD"

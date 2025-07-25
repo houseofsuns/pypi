@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pulumi package for creating and managing Amazon Web Services (AWS) cloud resources."
+DESCRIPTION="A Pulumi package for creating and managing Amazon Web Services (AWS) cloud resources. [top-max 7.2.0_alpha1753465067]"
 
 HOMEPAGE="https://pulumi.io"
 LICENSE="Apache-2.0"

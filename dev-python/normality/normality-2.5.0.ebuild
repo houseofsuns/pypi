@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Micro-library to normalize text strings [top-max 2.6.1]"
+DESCRIPTION="Micro-library to normalize text strings [top-max 3.0.0]"
 
 HOMEPAGE="http://github.com/pudo/normality"
 LICENSE="MIT"

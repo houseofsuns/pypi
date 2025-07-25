@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for the Ising model and QUBO."
+DESCRIPTION="Framework for the Ising model and QUBO. [top-max 0.10.17]"
 
 HOMEPAGE="https://www.openjij.org"
 LICENSE="Apache-2.0"

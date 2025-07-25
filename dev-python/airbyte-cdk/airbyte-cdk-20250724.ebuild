@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="6.60.0.post21.dev16487663551"
+REALVERSION="6.60.0.post35.dev16509779638"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework for writing Airbyte Connectors. [badver 6.60.0.post21.dev16487663551]"
+DESCRIPTION="A framework for writing Airbyte Connectors. [badver 6.60.0.post35.dev16509779638]"
 
 HOMEPAGE="https://airbyte.com"
 LICENSE="MIT"
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev file-based sql vector-db-based"
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	dev-python/airbyte-protocol-models-dataclasses[${PYTHON_USEDEP}]
+	dev-python/airbyte-protocol-models-pdv2[${PYTHON_USEDEP}]
 	<dev-python/anyascii-0.4.0[${PYTHON_USEDEP}]
 	file-based? ( dev-python/avro[${PYTHON_USEDEP}] )
 	dev-python/backoff[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	vector-db-based? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	<dev-python/cryptography-46.0.0[${PYTHON_USEDEP}]
+	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/dunamai[${PYTHON_USEDEP}]

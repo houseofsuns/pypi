@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Test upload package [top-max 0.26.5]"
+DESCRIPTION="Test upload package [top-max 0.27.1]"
 
 HOMEPAGE="https://github.com/pypa/sampleproject"
 LICENSE=""

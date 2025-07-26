@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Programmer for FPGA boards using the TinyFPGA USB Bootloader (http://tinyfpga.com) [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ef81b157d10>)]"
+DESCRIPTION="Programmer for FPGA boards using the TinyFPGA USB Bootloader (http://tinyfpga.com) [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1be1a5e420>)]"
 
 HOMEPAGE="https://github.com/tinyfpga/TinyFPGA-Bootloader/"
 LICENSE=""

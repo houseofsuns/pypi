@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Qalsadi Arabic Morphological Analyzer and lemmatizer for Python [top-max 0.5]"
+DESCRIPTION="Qalsadi Arabic Morphological Analyzer and lemmatizer for Python [top-max 0.5.1]"
 
 HOMEPAGE="http://qalsadi.sourceforge.net/"
 LICENSE="GPL-3"

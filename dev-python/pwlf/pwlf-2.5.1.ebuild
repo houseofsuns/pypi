@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="fit piecewise linear functions to data"
+DESCRIPTION="fit piecewise linear functions to data [top-max 2.5.2]"
 
 HOMEPAGE="https://github.com/cjekel/piecewise_linear_fit_py"
 LICENSE="MIT"

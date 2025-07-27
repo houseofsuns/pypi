@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Encrypted backup using rsync algorithm"
+DESCRIPTION="Encrypted backup using rsync algorithm [top-max 3.0.6_pre6]"
 
 HOMEPAGE="http://duplicity.us"
 LICENSE=""

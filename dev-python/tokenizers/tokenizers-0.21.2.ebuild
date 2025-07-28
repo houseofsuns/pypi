@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f545470be60>)]"
 
 HOMEPAGE="https://github.com/huggingface/tokenizers"
 LICENSE=""

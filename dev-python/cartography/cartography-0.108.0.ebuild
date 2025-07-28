@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/backoff-2.1.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.15.1[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.18.1[${PYTHON_USEDEP}]
 	>=dev-python/dnspython-1.15.0[${PYTHON_USEDEP}]

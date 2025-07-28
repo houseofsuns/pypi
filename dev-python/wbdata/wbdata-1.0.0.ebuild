@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	pandas? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	dev-python/shelved-cache[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	<dev-python/decorator-6.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )

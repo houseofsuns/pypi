@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-2.14.5[${PYTHON_USEDEP}] )

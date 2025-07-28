@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="faker jwt msgspec parquet s3 ssh testing"
-DEPENDENCIES=">=dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2024.9.0[${PYTHON_USEDEP}]

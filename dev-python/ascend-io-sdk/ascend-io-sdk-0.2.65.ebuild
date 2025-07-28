@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
-	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev-python/glog[${PYTHON_USEDEP}]
 	~dev-python/googleapis-common-protos-1.56.4[${PYTHON_USEDEP}]

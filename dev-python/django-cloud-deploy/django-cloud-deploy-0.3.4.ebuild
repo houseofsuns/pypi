@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	>=dev-python/django-2.1.5[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/docker-3.4.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.9.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
 	dev-python/reverse-geocode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

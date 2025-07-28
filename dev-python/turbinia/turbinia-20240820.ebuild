@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="worker"
 DEPENDENCIES="dev-python/acstore[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/debugpy[${PYTHON_USEDEP}]
 	worker? ( dev-python/dfdewey[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure azure-servicebus caching databases datadog excel hashicorp ml snowflake storage trino"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-36.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-7.0[${PYTHON_USEDEP}]

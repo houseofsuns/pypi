@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all test"
 DEPENDENCIES="<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-35.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-4.4[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/sty[${PYTHON_USEDEP}]

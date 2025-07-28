@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/fw-utils[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]

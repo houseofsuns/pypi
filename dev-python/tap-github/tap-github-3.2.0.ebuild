@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/singer-python[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.4[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-2.6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose[${PYTHON_USEDEP}] )

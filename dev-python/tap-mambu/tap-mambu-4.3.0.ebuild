@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mambu-performance mambu-tests"
-DEPENDENCIES="~dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]

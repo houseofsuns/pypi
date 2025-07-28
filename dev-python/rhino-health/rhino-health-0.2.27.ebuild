@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev kaplan-meier lint test"
 DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-2.3[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/funcy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-1.10[${PYTHON_USEDEP}]
 	<dev-python/ratelimit-2.3[${PYTHON_USEDEP}]

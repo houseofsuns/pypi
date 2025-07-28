@@ -27,7 +27,7 @@ IUSE="passport sqlalchemy sqlite"
 DEPENDENCIES="dev-python/aiofreqlimit[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
 	dev-python/aiojobs[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/frozenlist[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]

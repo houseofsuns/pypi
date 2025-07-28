@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/kiwixstorage[${PYTHON_USEDEP}]
 	<dev-python/python-snappy-1.0[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/cchardet[${PYTHON_USEDEP}]
-	~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]"
+	dev-python/backoff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

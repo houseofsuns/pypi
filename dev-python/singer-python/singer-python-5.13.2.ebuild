@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pytz-2018.4[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.11.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

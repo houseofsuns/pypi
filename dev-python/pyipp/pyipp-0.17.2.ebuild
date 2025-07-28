@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
 	dev-python/awesomeversion[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

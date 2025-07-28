@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/multidict-7.0.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	dev-python/awesomeversion[${PYTHON_USEDEP}]"

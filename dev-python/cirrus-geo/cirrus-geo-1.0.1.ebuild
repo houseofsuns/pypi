@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/boto3-1.34.96[${PYTHON_USEDEP}]
 	~dev-python/s3transfer-0.10.1[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.2.1[${PYTHON_USEDEP}]
-	cli? ( ~dev-python/backoff-2.2.1[${PYTHON_USEDEP}] )
+	cli? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	cli? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	cli? ( ~dev-python/click-option-group-0.5.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

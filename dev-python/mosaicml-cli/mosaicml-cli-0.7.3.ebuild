@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev sphinx"
 DEPENDENCIES=">=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/arrow-1.2.2[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0.29[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-3.20.0[${PYTHON_USEDEP}]

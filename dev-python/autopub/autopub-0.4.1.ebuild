@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/tomlkit-0.5[${PYTHON_USEDEP}]
 	>=dev-python/build-0.10.0[${PYTHON_USEDEP}]
 	>=dev-python/twine-4.0.2[${PYTHON_USEDEP}]
 	dev-python/dunamai[${PYTHON_USEDEP}]
-	github? ( <dev-python/backoff-2.2.0[${PYTHON_USEDEP}] )
+	github? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	github? ( dev-python/click[${PYTHON_USEDEP}] )
 	github? ( dev-python/LinkHeader[${PYTHON_USEDEP}] )
 	github? ( dev-python/requests[${PYTHON_USEDEP}] )

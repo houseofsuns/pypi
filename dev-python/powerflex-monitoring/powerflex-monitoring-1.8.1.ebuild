@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pydantic2"
-DEPENDENCIES=">=dev-python/backoff-2.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/colorlog-6.0[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.14[${PYTHON_USEDEP}]

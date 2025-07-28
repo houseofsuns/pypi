@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.26.165[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.4.7[${PYTHON_USEDEP}]

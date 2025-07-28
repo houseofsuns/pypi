@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/case-converter[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	dev-python/printnanny-api-client[${PYTHON_USEDEP}]
 	dev-python/printnanny-octoprint-models[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

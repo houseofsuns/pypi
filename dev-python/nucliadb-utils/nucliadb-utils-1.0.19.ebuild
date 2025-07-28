@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	storages? ( dev-python/nucliadb-telemetry[${PYTHON_USEDEP}] )
 	storages? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	storages? ( >=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}] )
-	storages? ( >=dev-python/backoff-1.11.1[${PYTHON_USEDEP}] )
+	storages? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	storages? ( >=dev-python/google-auth-2.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

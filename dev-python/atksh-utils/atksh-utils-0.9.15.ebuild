@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	~dev-python/pypdf-3.17.2[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/latest-user-agents[${PYTHON_USEDEP}]
 	dev-python/json-repair[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-23.0.0[${PYTHON_USEDEP}] )

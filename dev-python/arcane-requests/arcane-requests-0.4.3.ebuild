@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/arcane-firebase[${PYTHON_USEDEP}]
 	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]"

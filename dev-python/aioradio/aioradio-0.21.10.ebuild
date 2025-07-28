@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	dev-python/aioboto3[${PYTHON_USEDEP}]
 	dev-python/aiojobs[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.1.2[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.37.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.37.1[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]

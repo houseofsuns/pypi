@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/arcane-core[${PYTHON_USEDEP}]
 	dev-python/arcane-datastore[${PYTHON_USEDEP}]
 	dev-python/arcane-requests[${PYTHON_USEDEP}]
 	dev-python/arcane-credentials[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/google-ads[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

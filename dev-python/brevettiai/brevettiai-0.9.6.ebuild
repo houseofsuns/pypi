@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/importlib-metadata-4.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.146[${PYTHON_USEDEP}]
 	dev-python/semidbm[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/tf2onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	export-gpu? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )

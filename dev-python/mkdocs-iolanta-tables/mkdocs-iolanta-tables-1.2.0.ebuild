@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
 	dev-python/owlrl[${PYTHON_USEDEP}]
 	dev-python/PyGithub[${PYTHON_USEDEP}]
-	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/funcy-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

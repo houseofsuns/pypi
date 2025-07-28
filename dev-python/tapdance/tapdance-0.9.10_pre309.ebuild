@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/docker-5.0.0[${PYTHON_USEDEP}]
 	dev-python/runnow[${PYTHON_USEDEP}]
 	dev-python/uio[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )

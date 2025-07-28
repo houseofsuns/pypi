@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.9.0_beta0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.11.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

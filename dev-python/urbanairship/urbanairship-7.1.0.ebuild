@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES=">=dev-python/requests-2.32[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )

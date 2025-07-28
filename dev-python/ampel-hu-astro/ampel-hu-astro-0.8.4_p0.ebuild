@@ -38,7 +38,7 @@ DEPENDENCIES="ligo? ( dev-python/ampel-ztf[${PYTHON_USEDEP}] )
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	panstarrs? ( dev-python/pymage[${PYTHON_USEDEP}] )

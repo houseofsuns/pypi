@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
-	~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	dev-python/docx2txt[${PYTHON_USEDEP}]
 	dev-python/e2b[${PYTHON_USEDEP}]

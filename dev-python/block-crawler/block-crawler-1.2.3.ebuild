@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/aioboto3[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-bloom[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
-	~dev-python/backoff-2.2[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	build? ( ~dev-python/build-0.10[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )

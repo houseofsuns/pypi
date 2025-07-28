@@ -27,7 +27,7 @@ IUSE="snowflake testing"
 DEPENDENCIES=">=dev-python/cython-0.29.26[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]

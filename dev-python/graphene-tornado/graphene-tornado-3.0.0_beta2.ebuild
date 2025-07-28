@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-tornado-0.8.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-tornado[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

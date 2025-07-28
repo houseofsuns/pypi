@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/boto3-1.18.42[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-compute[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-subscription[${PYTHON_USEDEP}]
 	>=dev-python/oauthlib-3.2.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.1.2[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/commentjson-0.9.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )

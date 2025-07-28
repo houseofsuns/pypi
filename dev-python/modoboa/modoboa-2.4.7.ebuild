@@ -68,7 +68,7 @@ DEPENDENCIES="~dev-python/django-5.2.4[${PYTHON_USEDEP}]
 	dev-python/sievelib[${PYTHON_USEDEP}]
 	dev-python/drf-nested-routers[${PYTHON_USEDEP}]
 	dev-python/vobject[${PYTHON_USEDEP}]
-	~dev-python/caldav-2.0.1[${PYTHON_USEDEP}]
+	dev-python/caldav[${PYTHON_USEDEP}]
 	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

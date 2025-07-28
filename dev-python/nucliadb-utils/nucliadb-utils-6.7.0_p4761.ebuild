@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.6[${PYTHON_USEDEP}]
 	storages? ( >=dev-python/google-api-python-client-2.37.0[${PYTHON_USEDEP}] )
 	storages? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	storages? ( >=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}] )
-	storages? ( >=dev-python/backoff-1.11.1[${PYTHON_USEDEP}] )
+	storages? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	storages? ( >=dev-python/google-auth-2.4.1[${PYTHON_USEDEP}] )
 	storages? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	storages? ( dev-python/azure-identity[${PYTHON_USEDEP}] )

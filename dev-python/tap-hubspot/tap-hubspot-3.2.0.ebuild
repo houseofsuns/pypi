@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/attrs-16.3.0[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/requests-mock-1.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose[${PYTHON_USEDEP}] )"

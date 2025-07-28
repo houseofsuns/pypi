@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bayes fp healpix kafka light-curve plot"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="all claude-code docs graph lint mcp ollama postgres reader rich schema tes
 DEPENDENCIES=">=dev-python/aiocache-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-4.8.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/json-repair[${PYTHON_USEDEP}]
 	>=dev-python/pillow-11.0.0[${PYTHON_USEDEP}]

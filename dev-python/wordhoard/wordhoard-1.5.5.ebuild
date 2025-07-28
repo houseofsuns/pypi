@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.2.2[${PYTHON_USEDEP}]
 	>=dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]

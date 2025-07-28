@@ -27,7 +27,7 @@ IUSE="all datasets docs embeddings fugue gcs image mlflow proc proc-mp s3 spark 
 DEPENDENCIES="viz? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	image? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
-	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/databricks-cli[${PYTHON_USEDEP}] )

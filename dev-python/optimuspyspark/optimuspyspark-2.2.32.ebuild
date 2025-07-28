@@ -51,7 +51,7 @@ DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	dev-python/h2o-pysparkling-2_4[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/kombu-4.6.1[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-3.1.1[${PYTHON_USEDEP}]
@@ -88,7 +88,7 @@ DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/humanize-0.5.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/h2o-pysparkling-2_4[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/psutil-5.7.2[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/backoff-1.10.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/kombu-4.6.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/ordered-set-3.1.1[${PYTHON_USEDEP}] )

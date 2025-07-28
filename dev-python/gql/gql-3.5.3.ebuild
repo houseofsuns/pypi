@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiohttp all botocore dev httpx requests test test-no-transport test_no_transport websockets"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )

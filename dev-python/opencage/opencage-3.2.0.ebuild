@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.4[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.7.4[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.10.5[${PYTHON_USEDEP}]"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deprecated-verify"
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-6.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	deprecated-verify? ( <dev-python/securesystemslib-1.0[${PYTHON_USEDEP}] )
 	deprecated-verify? ( >=dev-python/setuptools-60.0.0[${PYTHON_USEDEP}] )
 	deprecated-verify? ( <dev-python/sigstore-2.0[${PYTHON_USEDEP}] )"

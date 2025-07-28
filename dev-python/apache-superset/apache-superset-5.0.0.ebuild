@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="athena aurora-data-api bigquery clickhouse cockroachdb cors crate databend databricks db2 denodo development doris dremio drill druid duckdb dynamodb elasticsearch exasol excel firebird firebolt gevent gsheets hana hive impala kusto kylin mssql mysql netezza oceanbase ocient oracle parseable pinot playwright postgres presto prophet redshift rockset shillelagh snowflake solr spark starrocks teradata thumbnails trino vertica ydb"
-DEPENDENCIES=">=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]

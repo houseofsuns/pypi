@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/attrs-24.2.0[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/realit-singer-python[${PYTHON_USEDEP}]
 	dev-python/pymssql[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]"
+	dev-python/backoff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

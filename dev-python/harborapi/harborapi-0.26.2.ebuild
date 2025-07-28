@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rich"
-DEPENDENCIES=">=dev-python/backoff-2.1.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]

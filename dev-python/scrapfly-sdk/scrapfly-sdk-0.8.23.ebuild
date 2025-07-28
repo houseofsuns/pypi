@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/decorator-4.2.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.5[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	develop? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
 	develop? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )

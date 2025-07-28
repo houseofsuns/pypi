@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SQL Query Engine [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6a287b6f80>)]"
+DESCRIPTION="Python SQL Query Engine [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f760e29eb20>)]"
 
 HOMEPAGE="https://github.com/mabel-dev/opteryx/"
 LICENSE=""

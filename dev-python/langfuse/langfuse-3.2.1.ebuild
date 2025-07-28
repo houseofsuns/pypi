@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="langchain openai"
 DEPENDENCIES="<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
 	langchain? ( dev-python/langchain[${PYTHON_USEDEP}] )

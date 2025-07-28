@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/opentracing-instrumentation[${PYTHON_USEDEP}]
 	dev-python/grpcio-opentracing[${PYTHON_USEDEP}]
 	<dev-python/pytz-2020.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

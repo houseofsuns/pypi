@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.9[${PYTHON_USEDEP}]
 	dev-python/inject[${PYTHON_USEDEP}]
 	>=dev-python/asgiref-3.8[${PYTHON_USEDEP}]
 	>=dev-python/async-lru-2.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

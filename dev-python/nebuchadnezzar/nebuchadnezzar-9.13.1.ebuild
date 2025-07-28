@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/lxml-4.4.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.11.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	tasks? ( dev-python/neb-tasks[${PYTHON_USEDEP}] )
 	test? ( dev-python/pretend[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )

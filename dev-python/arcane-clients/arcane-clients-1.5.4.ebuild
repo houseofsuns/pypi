@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/arcane-requests[${PYTHON_USEDEP}]
 	dev-python/arcane-core[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]"
+	dev-python/backoff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

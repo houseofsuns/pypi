@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="opentracing profile"
-DEPENDENCIES=">=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.51.0[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-3.11.3[${PYTHON_USEDEP}]

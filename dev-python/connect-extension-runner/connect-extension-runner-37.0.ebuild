@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/websockets-13.0[${PYTHON_USEDEP}]
 	dev-python/connect-openapi-client[${PYTHON_USEDEP}]
 	dev-python/logzio-python-handler[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/connect-eaas-core[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.29[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.0[${PYTHON_USEDEP}]

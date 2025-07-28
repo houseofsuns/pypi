@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.5[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
 	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-1.9.3[${PYTHON_USEDEP}] )

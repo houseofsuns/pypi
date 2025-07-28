@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aiorun[${PYTHON_USEDEP}]
 	dev-python/aws-error-utils[${PYTHON_USEDEP}]
 	dev-python/awsserviceendpoints[${PYTHON_USEDEP}]
-	~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.34.144[${PYTHON_USEDEP}]
 	~dev-python/docker-7.1.0[${PYTHON_USEDEP}]
 	dev-python/echostream-node[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev gpu vllm"
 DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]

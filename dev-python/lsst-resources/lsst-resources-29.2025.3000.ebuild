@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gs https s3 test"
 DEPENDENCIES="dev-python/lsst-utils[${PYTHON_USEDEP}]
 	s3? ( >=dev-python/boto3-1.13[${PYTHON_USEDEP}] )
-	s3? ( >=dev-python/backoff-1.10[${PYTHON_USEDEP}] )
+	s3? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	https? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	https? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	https? ( >=dev-python/urllib3-1.25.10[${PYTHON_USEDEP}] )

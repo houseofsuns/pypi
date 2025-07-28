@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bench cov dev docs tests"
-DEPENDENCIES="<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	dev-python/harfile[${PYTHON_USEDEP}]

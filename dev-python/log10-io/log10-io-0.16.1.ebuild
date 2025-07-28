@@ -27,7 +27,7 @@ IUSE="autofeedback-icl cli gemini google-generativeai langchain litellm mistrala
 DEPENDENCIES=">=dev-python/aiohttp-3.11.10[${PYTHON_USEDEP}]
 	dev-python/anthropic[${PYTHON_USEDEP}]
 	>=dev-python/anyio-4.4.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.7.4[${PYTHON_USEDEP}]
 	cli? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/cryptography-43.0.1[${PYTHON_USEDEP}]

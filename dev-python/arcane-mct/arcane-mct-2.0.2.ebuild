@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/arcane-core[${PYTHON_USEDEP}]
 	dev-python/arcane-requests[${PYTHON_USEDEP}]
 	dev-python/arcane-credentials[${PYTHON_USEDEP}]
 	>=dev-python/google-api-python-client-2.149.0[${PYTHON_USEDEP}]
-	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]"
+	dev-python/backoff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

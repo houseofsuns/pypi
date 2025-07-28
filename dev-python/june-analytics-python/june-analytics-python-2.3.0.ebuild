@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="~dev-python/requests-2.7[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.10[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
 	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-2.8.0[${PYTHON_USEDEP}] )

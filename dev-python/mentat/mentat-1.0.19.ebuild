@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES=">=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
-	~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]

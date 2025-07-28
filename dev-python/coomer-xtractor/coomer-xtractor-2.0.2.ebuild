@@ -33,6 +33,6 @@ DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/Faker[${PYTHON_USEDEP}]
 	dev-python/cowsay[${PYTHON_USEDEP}]
-	~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]"
+	dev-python/backoff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

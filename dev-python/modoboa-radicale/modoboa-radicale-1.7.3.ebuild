@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/drf-nested-routers[${PYTHON_USEDEP}]
 	dev-python/django-webpack-loader[${PYTHON_USEDEP}]
-	~dev-python/caldav-1.3.9[${PYTHON_USEDEP}]
+	dev-python/caldav[${PYTHON_USEDEP}]
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/testfixtures-8.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/psycopg-3.1[${PYTHON_USEDEP}] )

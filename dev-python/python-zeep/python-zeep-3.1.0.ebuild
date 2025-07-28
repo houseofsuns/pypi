@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-3.1.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-mock-0.7.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-tornado-0.4.5[${PYTHON_USEDEP}] )
+	test? ( dev-python/pytest-tornado[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-4.2.15[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )

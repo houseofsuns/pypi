@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/python-dateutil-2.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.97[${PYTHON_USEDEP}]
 	~dev-python/progressbar2-3.55.0[${PYTHON_USEDEP}]
-	<=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.10.3[${PYTHON_USEDEP}]
 	>=dev-python/click-default-group-1.2.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

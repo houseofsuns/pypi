@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-3.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-1.6.4[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.4.3[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2018.4[${PYTHON_USEDEP}]
 	dev-python/git-url-parse[${PYTHON_USEDEP}]"

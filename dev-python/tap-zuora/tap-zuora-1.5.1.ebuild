@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/singer-python[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
-	~dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reduct Storage Client SDK for Python [top-max 1.15.0]"
+DESCRIPTION="Reduct Storage Client SDK for Python [top-max 1.16.0]"
 
 HOMEPAGE="https://github.com/reduct-storage/reduct-py"
 LICENSE=""

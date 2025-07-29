@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits. [top-max 1.7.0_pre20250725224902]"
+DESCRIPTION="A framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits. [top-max 1.7.0_pre20250728175235]"
 
 HOMEPAGE="http://github.com/quantumlib/cirq"
 LICENSE="Apache-2.0"

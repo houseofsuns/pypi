@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_10,3_11,3_12} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [wheel]"
+DESCRIPTION=""
 
 HOMEPAGE="https://github.com/huggingface/tokenizers"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -34,7 +34,6 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools-rust[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	dev? ( dev-python/tokenizers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

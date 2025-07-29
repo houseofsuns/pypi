@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DAQP: A dual active-set QP solver"
+DESCRIPTION="DAQP: A dual active-set QP solver [top-max 0.7.2]"
 
 HOMEPAGE="http://github.com/darnstrom/daqp"
 LICENSE="MIT"

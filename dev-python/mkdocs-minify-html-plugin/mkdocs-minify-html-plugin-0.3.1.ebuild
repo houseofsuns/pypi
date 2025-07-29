@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MkDocs plugin for minification using minify-html, an extremely fast and smart HTML + JS + CSS minifier"
+DESCRIPTION="MkDocs plugin for minification using minify-html, an extremely fast and smart HTML + JS + CSS minifier [top-max 0.3.3]"
 
 HOMEPAGE=""
 LICENSE="MIT"

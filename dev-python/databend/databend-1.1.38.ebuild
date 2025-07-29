@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 1.2.782]"
+DESCRIPTION=" [top-max 1.2.783]"
 
 HOMEPAGE="https://databend.rs"
 LICENSE="Apache-2.0"

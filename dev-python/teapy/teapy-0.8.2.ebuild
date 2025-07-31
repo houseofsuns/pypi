@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A blazingly fast datadict library"
+DESCRIPTION="A blazingly fast datadict library [top-max 0.9.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PyVelociraptor is the python binding for the Velociraptor API [top-max 0.1.9]"
+DESCRIPTION="PyVelociraptor is the python binding for the Velociraptor API [top-max 0.1.11]"
 
 HOMEPAGE="https://github.com/Velocidex/pyvelociraptor"
 LICENSE="GPL-3"

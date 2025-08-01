@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Some useful Python decorators for cleaner software development. [top-max 2.1.9]"
+DESCRIPTION="Some useful Python decorators for cleaner software development. [top-max 2.1.10]"
 
 HOMEPAGE="https://github.com/LostInDarkMath/pedantic-python-decorators"
 LICENSE="Apache-2.0 License"

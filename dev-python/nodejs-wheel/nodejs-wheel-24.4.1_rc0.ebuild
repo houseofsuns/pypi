@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="unoffical Node.js package"
+DESCRIPTION="unoffical Node.js package [top-max 24.5.0_rc0]"
 
 HOMEPAGE=""
 LICENSE="Copyright 2023 Jinzhe Zeng"

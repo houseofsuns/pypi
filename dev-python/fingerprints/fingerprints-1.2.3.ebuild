@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library to generate entity fingerprints. [top-max 1.3.0]"
+DESCRIPTION="A library to generate entity fingerprints. [top-max 1.3.1]"
 
 HOMEPAGE="http://github.com/alephdata/fingerprints"
 LICENSE="MIT"

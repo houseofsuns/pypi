@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Qrisp - A high level language for gate-based quantum computing"
+DESCRIPTION="Qrisp - A high level language for gate-based quantum computing [top-max 0.7.8]"
 
 HOMEPAGE="https://github.com/fraunhoferfokus/Qrisp"
 LICENSE=""

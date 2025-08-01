@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Read/write well data from Log ASCII Standard (LAS) files"
+DESCRIPTION="Read/write well data from Log ASCII Standard (LAS) files [top-max 0.32]"
 
 HOMEPAGE="https://github.com/kinverarity1/lasio"
 LICENSE="MIT"

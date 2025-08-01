@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Implementation of visualisation and reporting analytics for Quantitative Investment Strategies"
+DESCRIPTION="Implementation of visualisation and reporting analytics for Quantitative Investment Strategies [top-max 3.2.29]"
 
 HOMEPAGE=""
 LICENSE="LICENSE.txt"

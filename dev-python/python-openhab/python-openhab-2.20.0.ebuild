@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python library for accessing the openHAB REST API [top-max 2.20.1]"
+DESCRIPTION="python library for accessing the openHAB REST API [top-max 2.20.2]"
 
 HOMEPAGE="https://github.com/sim0nx/python-openhab"
 LICENSE="AGPL-3+"

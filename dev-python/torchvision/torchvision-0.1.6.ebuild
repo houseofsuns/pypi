@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="image and video datasets and models for torch deep learning [top-max 0.22.1]"
+DESCRIPTION="image and video datasets and models for torch deep learning [top-max 0.23.0]"
 
 HOMEPAGE="https://github.com/pytorch/vision"
 LICENSE="BSD"

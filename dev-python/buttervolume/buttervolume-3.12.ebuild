@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Docker plugin to manage Docker Volumes as BTRFS subvolumes"
+DESCRIPTION="Docker plugin to manage Docker Volumes as BTRFS subvolumes [top-max 3.13]"
 
 HOMEPAGE="https://github.com/ccomb/buttervolume"
 LICENSE="Apache-2.0"

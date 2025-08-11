@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
-	dev-python/uuid6[${PYTHON_USEDEP}]
+	<dev-python/uuid6-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

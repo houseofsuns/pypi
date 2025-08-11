@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ango-Hub SDK [top-max 1.3.41]"
+DESCRIPTION="Ango-Hub SDK [top-max 1.3.42]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -62,7 +62,7 @@ DEPENDENCIES="<dev-python/aiodns-3.6[${PYTHON_USEDEP}]
 	<dev-python/redis-5.3[${PYTHON_USEDEP}]
 	dev-python/tablib[${PYTHON_USEDEP}]
 	<dev-python/url-normalize-2.3[${PYTHON_USEDEP}]
-	dev-python/uuid6[${PYTHON_USEDEP}]
+	<=dev-python/uuid6-2025.0.1[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
 	<dev-python/yarl-1.21[${PYTHON_USEDEP}]
 	sftp? ( dev-python/django-storages[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="beartype"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
-	dev-python/uuid6[${PYTHON_USEDEP}]
+	>=dev-python/uuid6-2024.7.10[${PYTHON_USEDEP}]
 	beartype? ( dev-python/beartype[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

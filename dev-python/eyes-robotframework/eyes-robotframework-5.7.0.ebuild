@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Applitools Python SDK. Robot Framework package [top-max 6.3.0]"
+DESCRIPTION="Applitools Python SDK. Robot Framework package [top-max 6.4.0]"
 
 HOMEPAGE="http://www.applitools.com"
 LICENSE="Applitools SDK License"

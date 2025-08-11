@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An advanced measurement uncertainty calculator [top-max 2.8.4]"
+DESCRIPTION="An advanced measurement uncertainty calculator [top-max 2.9.0]"
 
 HOMEPAGE="https://www.metas.ch/unclib"
 LICENSE=""

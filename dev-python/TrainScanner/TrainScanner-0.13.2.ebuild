@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate a long image strip from a train video [top-max 0.29.0]"
+DESCRIPTION="Generate a long image strip from a train video [top-max 0.30.2]"
 
 HOMEPAGE="https://github.com/vitroid/TrainScanner/"
 LICENSE="MIT"

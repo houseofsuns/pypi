@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Repository for compiled code used by ESI projects. [top-max 1.2.1]"
+DESCRIPTION="Repository for compiled code used by ESI projects. [top-max 1.2.3]"
 
 HOMEPAGE="https://code.usgs.gov/ghsc/esi/esi-core"
 LICENSE="CC0 1.0"

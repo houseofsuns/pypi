@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/portalocker[${PYTHON_USEDEP}]
-	dev-python/uuid6[${PYTHON_USEDEP}]"
+	>=dev-python/uuid6-2024.7.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

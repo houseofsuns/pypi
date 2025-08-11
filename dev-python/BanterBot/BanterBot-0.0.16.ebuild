@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/uuid6[${PYTHON_USEDEP}]"
+	>=dev-python/uuid6-2024.1.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

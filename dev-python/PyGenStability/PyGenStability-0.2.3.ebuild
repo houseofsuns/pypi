@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python binding of generalised Louvain with Markov Stability [top-max 0.2.4]"
+DESCRIPTION="Python binding of generalised Louvain with Markov Stability [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/ImperialCollegeLondon/PyGenStability"
 LICENSE=""

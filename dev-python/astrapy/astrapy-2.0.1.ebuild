@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/deprecation-2.2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/uuid6[${PYTHON_USEDEP}]
+	>=dev-python/uuid6-2024.1.12[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Formatting utility for international postal addresses"
+DESCRIPTION="Formatting utility for international postal addresses [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/pudo/prefixdate"
 LICENSE="MIT"

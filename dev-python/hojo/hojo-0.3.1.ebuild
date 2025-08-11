@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/uuid6[${PYTHON_USEDEP}]
+	<dev-python/uuid6-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/pluralizer[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]

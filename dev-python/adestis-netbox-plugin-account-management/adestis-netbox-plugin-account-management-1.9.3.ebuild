@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ADESTIS Account Management"
+DESCRIPTION="ADESTIS Account Management [top-max 1.9.5]"
 
 HOMEPAGE="https://github.com/adestis/netbox-account-management"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Experimental OpenSSL wrapper for Python 2.7 / 3.4+ and SSLyze. [top-max 5.3.0]"
+DESCRIPTION="Experimental OpenSSL wrapper for Python 2.7 / 3.4+ and SSLyze. [top-max 5.3.1]"
 
 HOMEPAGE="https://github.com/nabla-c0d3/nassl"
 LICENSE=""

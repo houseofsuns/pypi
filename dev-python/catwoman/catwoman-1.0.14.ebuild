@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Transit modelling package for asymmetric light curves"
+DESCRIPTION="Transit modelling package for asymmetric light curves [top-max 1.0.15]"
 
 HOMEPAGE="https://github.com/KathrynJones1/catwoman"
 LICENSE="GNU GPLv3"

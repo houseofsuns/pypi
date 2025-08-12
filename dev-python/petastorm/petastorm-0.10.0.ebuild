@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Petastorm is a library enabling the use of Parquet storage from Tensorflow, Pytorch, and other Python-based ML training frameworks. [top-max 0.12.2_rc0]"
+DESCRIPTION="Petastorm is a library enabling the use of Parquet storage from Tensorflow, Pytorch, and other Python-based ML training frameworks. [top-max 0.13.0_rc0]"
 
 HOMEPAGE="https://github.com/uber/petastorm"
 LICENSE="Apache-2.0"

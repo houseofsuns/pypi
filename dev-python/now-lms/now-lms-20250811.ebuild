@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.0.1b4.dev20250810"
+REALVERSION="0.0.1b5.dev20250810"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple to {install, use, configure, mantain} learning management system. [badver 0.0.1b4.dev20250810]"
+DESCRIPTION="Create, deliver, and certify courses with ease. [badver 0.0.1b5.dev20250810]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="module for leveraging skyramp cli functionality"
+DESCRIPTION="module for leveraging skyramp cli functionality [top-max 1.2.13]"
 
 HOMEPAGE=""
 LICENSE=""

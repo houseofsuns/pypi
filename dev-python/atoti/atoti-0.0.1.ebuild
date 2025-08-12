@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Design, explore and deploy efficient and flexible data models [top-max 0.9.7]"
+DESCRIPTION="Design, explore and deploy efficient and flexible data models [top-max 0.9.8]"
 
 HOMEPAGE="https://www.atoti.io"
 LICENSE=""

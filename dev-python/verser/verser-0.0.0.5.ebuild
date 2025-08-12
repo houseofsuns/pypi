@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Automatic next version number for your project, you may keep tracks history of your package. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f0f6fb6f7d0>)]"
+DESCRIPTION="Automatic next version number for your project, you may keep tracks history of your package. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f662c0d9af0>)]"
 
 HOMEPAGE="https://github.com/SermetPekin/verser-repo"
 LICENSE="MIT"

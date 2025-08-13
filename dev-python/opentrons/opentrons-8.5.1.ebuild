@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Opentrons API is a simple framework designed to make writing automated biology lab protocols easy."
+DESCRIPTION="The Opentrons API is a simple framework designed to make writing automated biology lab protocols easy. [top-max 8.6.0_alpha1]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

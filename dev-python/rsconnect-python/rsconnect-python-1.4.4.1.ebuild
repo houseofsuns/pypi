@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python integration with RStudio Connect [top-max 1.27.0]"
+DESCRIPTION="Python integration with RStudio Connect [top-max 1.27.1]"
 
 HOMEPAGE="http://github.com/rstudio/rsconnect-python"
 LICENSE="GPL-2"

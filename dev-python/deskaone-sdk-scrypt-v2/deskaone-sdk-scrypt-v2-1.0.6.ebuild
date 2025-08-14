@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/install-jdk[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	<dev-python/pysocks-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/random-user-agent[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]

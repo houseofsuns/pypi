@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="John Snow Labs NLU provides state of the art algorithms for NLP&NLU with 20000+ of pretrained models in 200+ languages. It enables swift and simple development and research with its powerful Pythonic and Keras inspired API. It is powerd by John Snow Labs powerful Spark NLP library. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb11a6fc6d0>)]"
+DESCRIPTION="John Snow Labs NLU provides state of the art algorithms for NLP&NLU with 20000+ of pretrained models in 200+ languages. It enables swift and simple development and research with its powerful Pythonic and Keras inspired API. It is powerd by John Snow Labs powerful Spark NLP library. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37c2c65af0>)]"
 
 HOMEPAGE="http://nlu.johnsnowlabs.com"
 LICENSE=""

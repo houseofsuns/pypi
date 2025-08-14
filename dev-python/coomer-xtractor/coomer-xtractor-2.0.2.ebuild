@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-36.1.0[${PYTHON_USEDEP}]
 	dev-python/cowsay[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

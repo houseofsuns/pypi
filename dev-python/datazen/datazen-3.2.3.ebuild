@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/cerberus[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/vcorelib[${PYTHON_USEDEP}]
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,11 +40,11 @@ DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pathspec-0.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )

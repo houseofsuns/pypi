@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -117,7 +117,7 @@ DEPENDENCIES=">=dev-python/cryptography-43.0.1[${PYTHON_USEDEP}]
 	hazelcast? ( dev-python/hazelcast-python-client[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb-client[${PYTHON_USEDEP}] )
-	jdbc? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	jdbc? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	jdbc? ( dev-python/JayDeBeApi[${PYTHON_USEDEP}] )
 	mariadb? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	memcache? ( ~dev-python/pylibmc-1.6.3[${PYTHON_USEDEP}] )

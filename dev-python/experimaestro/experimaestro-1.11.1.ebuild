@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Arpeggio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/arpeggio-3.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/decorator-6.0[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	<dev-python/fasteners-1.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
 	dev-python/img2pdf[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-7.0.1[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/keyring-24.3.0[${PYTHON_USEDEP}]
 	dev-python/libgen-api[${PYTHON_USEDEP}]

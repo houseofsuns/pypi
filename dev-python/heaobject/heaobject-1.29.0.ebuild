@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/multidict-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-5.2[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.10.12[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.16.0[${PYTHON_USEDEP}]
 	~dev-python/pyxdg-0.28[${PYTHON_USEDEP}]
 	dev-python/types-pyxdg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

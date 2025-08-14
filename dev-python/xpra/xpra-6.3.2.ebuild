@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="cli gui"
 DEPENDENCIES="dev-python/pygobject[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyopengl_accelerate[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyopengl-accelerate[${PYTHON_USEDEP}] )
 	cli? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	cli? ( dev-python/cryptography[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pygobject[${PYTHON_USEDEP}]
 	cli? ( dev-python/aioquic[${PYTHON_USEDEP}] )
 	cli? ( dev-python/dbus[${PYTHON_USEDEP}] )
 	cli? ( dev-python/socks[${PYTHON_USEDEP}] )
-	cli? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	cli? ( dev-python/pysocks[${PYTHON_USEDEP}] )
 	cli? ( dev-python/netifaces[${PYTHON_USEDEP}] )
 	cli? ( dev-python/dns[${PYTHON_USEDEP}] )
 	cli? ( dev-python/avahi[${PYTHON_USEDEP}] )

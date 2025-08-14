@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.4.4[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	dev-python/jinja2schema[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/netifaces-0.10.9[${PYTHON_USEDEP}]

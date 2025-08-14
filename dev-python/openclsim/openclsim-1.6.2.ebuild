@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
 	testing? ( dev-python/contextily[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	testing? ( dev-python/faker[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/folium[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/ipywidgets-7.0[${PYTHON_USEDEP}] )

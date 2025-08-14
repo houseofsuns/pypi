@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="cython? ( <dev-python/cython-0.30[${PYTHON_USEDEP}] )
 	cocos2d? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	cocos2d? ( dev-python/cocos2d[${PYTHON_USEDEP}] )
 	cocos2d? ( >=dev-python/pyglet-1.5.6[${PYTHON_USEDEP}] )
-	full? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	full? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	full? ( <dev-python/cython-0.30[${PYTHON_USEDEP}] )
 	full? ( dev-python/pygame[${PYTHON_USEDEP}] )
@@ -45,6 +45,6 @@ DEPENDENCIES="cython? ( <dev-python/cython-0.30[${PYTHON_USEDEP}] )
 	pyglet? ( dev-python/pyglet[${PYTHON_USEDEP}] )
 	pyglet? ( >=dev-python/pyglet-1.5.6[${PYTHON_USEDEP}] )
 	sdl2? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
-	sdl2? ( dev-python/PySDL2[${PYTHON_USEDEP}] )"
+	sdl2? ( dev-python/pysdl2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

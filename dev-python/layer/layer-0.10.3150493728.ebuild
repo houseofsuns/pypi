@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.16.24[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/nvsmi[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.4.8[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]"
+	~dev-python/lazy-loader-0.1_rc3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

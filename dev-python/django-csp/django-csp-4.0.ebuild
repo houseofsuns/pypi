@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="dev jinja2 tests typing"
 DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-2.9.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -39,14 +39,14 @@ DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja2? ( >=dev-python/jinja2-2.9.6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/jinja2-2.9.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-ruff[${PYTHON_USEDEP}] )
 	typing? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
-	typing? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/jinja2-2.9.6[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pytest-django[${PYTHON_USEDEP}] )

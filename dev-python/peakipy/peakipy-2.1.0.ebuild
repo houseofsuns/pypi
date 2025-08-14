@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/scikit-image-0.22.0[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jedi-0.20.0[${PYTHON_USEDEP}]
 	<dev-python/typer-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]

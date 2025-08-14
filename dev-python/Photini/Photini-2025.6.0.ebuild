@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,17 +41,17 @@ DEPENDENCIES=">=dev-python/cachetools-3.0[${PYTHON_USEDEP}]
 	keyring? ( >=dev-python/keyring-7.0[${PYTHON_USEDEP}] )
 	requests-oauthlib? ( >=dev-python/requests-oauthlib-1.0[${PYTHON_USEDEP}] )
 	requests-toolbelt? ( >=dev-python/requests-toolbelt-0.9[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/pyqt5-5.9[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/Photini[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/Photini[${PYTHON_USEDEP}] )
-	pyqt6-linux? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyqt6-linux? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
-	pyqt6-windows? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyqt6-windows? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	pyqt6-linux? ( >=dev-python/pyqt6-6.2[${PYTHON_USEDEP}] )
+	pyqt6-linux? ( >=dev-python/pyqt6-webengine-6.2[${PYTHON_USEDEP}] )
+	pyqt6-windows? ( >=dev-python/pyqt6-6.2[${PYTHON_USEDEP}] )
+	pyqt6-windows? ( >=dev-python/pyqt6-webengine-6.2[${PYTHON_USEDEP}] )
 	pyqt6-darwin? ( dev-python/PyQt6-Qt6[${PYTHON_USEDEP}] )
 	pyqt6-darwin? ( dev-python/PyQt6-WebEngine-Qt6[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/Photini[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/Photini[${PYTHON_USEDEP}] )
 	pyside6-linux? ( dev-python/pyside6[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,10 +27,10 @@ IUSE="sendgrid serializers sms"
 DEPENDENCIES=">=dev-python/django-3.1[${PYTHON_USEDEP}]
 	serializers? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
 	sendgrid? ( dev-python/sendgrid[${PYTHON_USEDEP}] )
-	sendgrid? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	sendgrid? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	sendgrid? ( dev-python/relattrs[${PYTHON_USEDEP}] )
 	sms? ( dev-python/django-sms[${PYTHON_USEDEP}] )
-	sms? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	sms? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	sms? ( dev-python/relattrs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

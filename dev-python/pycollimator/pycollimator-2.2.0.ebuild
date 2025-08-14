@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,6 @@ DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
 	dev-python/brax[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32[${PYTHON_USEDEP}]
-	dev-python/StrEnum[${PYTHON_USEDEP}]
 	dev-python/jaxlite[${PYTHON_USEDEP}]
 	nmpc? ( dev-python/cyipopt[${PYTHON_USEDEP}] )
 	nmpc? ( dev-python/osqp[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,10 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs google lxml oxi"
-DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
-	dev-python/cognite-sdk[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	<dev-python/elementpath-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath-python[${PYTHON_USEDEP}]
 	dev-python/mixpanel[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0.0[${PYTHON_USEDEP}]
@@ -40,8 +38,6 @@ DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	<dev-python/rdflib-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mistune-3.0.2[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-autorefs-1.0.0[${PYTHON_USEDEP}] )

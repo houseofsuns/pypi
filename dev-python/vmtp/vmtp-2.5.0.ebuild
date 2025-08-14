@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pbr-2.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	>=dev-python/babel-1.3[${PYTHON_USEDEP}]
 	dev-python/attrdict[${PYTHON_USEDEP}]
 	>=dev-python/lxml-3.4.0[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-1.14.0[${PYTHON_USEDEP}]

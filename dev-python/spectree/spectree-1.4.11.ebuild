@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	falcon? ( dev-python/falcon[${PYTHON_USEDEP}] )
 	starlette? ( >=dev-python/starlette-0.16[${PYTHON_USEDEP}] )
 	flask? ( >=dev-python/flask-2.0[${PYTHON_USEDEP}] )
-	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )"
+	quart? ( >=dev-python/quart-0.16[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/hdbcli[${PYTHON_USEDEP}]
 	>=dev-python/plotly-4.14.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

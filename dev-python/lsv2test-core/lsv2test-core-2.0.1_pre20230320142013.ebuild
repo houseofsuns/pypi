@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.1.dev20230320142013"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -81,7 +81,7 @@ DEPENDENCIES=">=dev-python/boto3-1.25.0[${PYTHON_USEDEP}]
 	full? ( dev-python/pproxy[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pymongo-4.2.0[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/quart-0.17[${PYTHON_USEDEP}] )
 	full? ( dev-python/readerwriterlock[${PYTHON_USEDEP}] )
 	full? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	full? ( dev-python/vosk[${PYTHON_USEDEP}] )
@@ -112,7 +112,7 @@ DEPENDENCIES=">=dev-python/boto3-1.25.0[${PYTHON_USEDEP}]
 	runtime? ( dev-python/pproxy[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/pymongo-4.2.0[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	runtime? ( ~dev-python/quart-0.17[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/readerwriterlock[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/vosk[${PYTHON_USEDEP}] )

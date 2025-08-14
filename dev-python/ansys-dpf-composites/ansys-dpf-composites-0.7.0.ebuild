@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,8 +37,8 @@ DEPENDENCIES="all? ( >=dev-python/sphinx-5.0.1[${PYTHON_USEDEP}] )
 	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
 	pre-commit? ( >=dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
+	pre-commit? ( >=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	all? ( >=dev-python/numpydoc-1.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.5[${PYTHON_USEDEP}] )

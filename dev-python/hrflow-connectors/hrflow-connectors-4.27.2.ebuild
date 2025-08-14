@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="s3"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/hrflow[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	<dev-python/msgspec-0.19.0[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	<dev-python/puremagic-2.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]

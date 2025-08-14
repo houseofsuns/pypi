@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="dashboard dill docs testing"
 DEPENDENCIES=">=dev-python/pygments-2.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.27[${PYTHON_USEDEP}]
 	dashboard? ( dev-python/flask[${PYTHON_USEDEP}] )
-	dill? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
 	dill? ( >=dev-python/multiprocess-0.70.15[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
@@ -38,7 +37,6 @@ DEPENDENCIES=">=dev-python/pygments-2.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/rich[${PYTHON_USEDEP}] )
-	testing? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/multiprocess-0.70.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

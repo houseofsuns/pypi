@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/qwak-core[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-2.1.0[${PYTHON_USEDEP}]
 	batch? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	feedback? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	local-deployment? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )

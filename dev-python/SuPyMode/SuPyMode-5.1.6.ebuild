@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/MPSPlots[${PYTHON_USEDEP}]
 	development? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )
 	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	development? ( dev-python/pyfibermodes[${PYTHON_USEDEP}] )
+	development? ( dev-python/PyFiberModes[${PYTHON_USEDEP}] )
 	documentation? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
 	documentation? ( >dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	documentation? ( ~dev-python/sphinx-gallery-0.11.1[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/MPSPlots[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyfibermodes[${PYTHON_USEDEP}] )
+	testing? ( dev-python/PyFiberModes[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -41,11 +41,11 @@ DEPENDENCIES="dev-python/practicuscore[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.10.3[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.9.0[${PYTHON_USEDEP}]
 	<dev-python/croniter-3.0[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	~dev-python/pyqt6-6.7.1[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Charts[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Charts-Qt6[${PYTHON_USEDEP}]
-	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
+	~dev-python/pyqt6-webengine-6.7.0[${PYTHON_USEDEP}]
 	dev-python/PyQt6-WebEngine-Qt6[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

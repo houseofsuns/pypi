@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="docs? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	readme? ( <dev-python/path-18.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/allpairspy-2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/click-6.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/faker-1.0.8[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

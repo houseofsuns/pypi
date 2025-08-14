@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,6 +37,7 @@ DEPENDENCIES="<dev-python/pymongo-5.0[${PYTHON_USEDEP}]
 	ocsp? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	snappy? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/aiohttp-3.8.7[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cffi-1.17.0_rc1[${PYTHON_USEDEP}] )
 	test? ( dev-python/mockupdb[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

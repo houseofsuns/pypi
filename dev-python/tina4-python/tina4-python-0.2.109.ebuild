@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/asyncer[${PYTHON_USEDEP}]
 	<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-45.0.0[${PYTHON_USEDEP}]
 	<dev-python/hypercorn-0.18.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/libsass-0.24.0[${PYTHON_USEDEP}]
 	dev-python/litequeue[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]

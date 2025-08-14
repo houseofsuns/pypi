@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.18.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-resources-5.8.0[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

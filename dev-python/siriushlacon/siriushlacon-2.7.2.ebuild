@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyqt5-5.12.3[${PYTHON_USEDEP}]
 	dev-python/conscommon[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.11.4[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pyepics[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-1.9.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/siriuspy[${PYTHON_USEDEP}]"

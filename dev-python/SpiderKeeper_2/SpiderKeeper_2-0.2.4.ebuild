@@ -7,7 +7,7 @@ REALNAME="SpiderKeeper-2"
 LITERALNAME="SpiderKeeper-2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/aniso8601-1.2.0[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.3.1[${PYTHON_USEDEP}]
 	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/demjson[${PYTHON_USEDEP}]
 	~dev-python/flask-0.12.1[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/aniso8601-1.2.0[${PYTHON_USEDEP}]
 	dev-python/flask-restful-swagger[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.2[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-0.24[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.9.6[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.0[${PYTHON_USEDEP}]
 	~dev-python/pymysql-0.7.11[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]

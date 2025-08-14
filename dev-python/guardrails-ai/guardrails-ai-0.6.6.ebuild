@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,7 @@ DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	docs-build? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	dev-python/langchain-core[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	<dev-python/faker-26.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonref-2.0.0[${PYTHON_USEDEP}]
 	huggingface? ( dev-python/jsonformer[${PYTHON_USEDEP}] )
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]

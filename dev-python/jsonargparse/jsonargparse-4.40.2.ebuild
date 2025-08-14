@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	all? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	signatures? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
-	signatures? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	signatures? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	signatures? ( dev-python/typeshed-client[${PYTHON_USEDEP}] )
 	jsonschema? ( >=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	jsonnet? ( dev-python/jsonnet[${PYTHON_USEDEP}] )

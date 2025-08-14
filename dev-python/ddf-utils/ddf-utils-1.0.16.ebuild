@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2025.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.44[${PYTHON_USEDEP}]
 	dev-python/hy[${PYTHON_USEDEP}]
 	~dev-python/attrs-25.3.0[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.5.0[${PYTHON_USEDEP}]

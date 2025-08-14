@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.1.191b0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,6 @@ DEPENDENCIES=">=dev-python/googleapis-common-protos-1.57[${PYTHON_USEDEP}]
 	dev-python/flytekit[${PYTHON_USEDEP}]
 	dev-python/flyteidl[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	dev-python/unionai-actor[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

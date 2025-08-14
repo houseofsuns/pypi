@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/juliacall[${PYTHON_USEDEP}]
 	dev-python/juliapkg[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

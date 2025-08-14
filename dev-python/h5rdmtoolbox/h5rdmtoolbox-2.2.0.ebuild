@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	snt? ( <=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	snt? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	snt? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/pyqt5-5.15.10[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-8.3.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
@@ -95,7 +95,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	complete? ( <=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
-	complete? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pyqt5-5.15.10[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/pytest-8.3.3[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pylint[${PYTHON_USEDEP}] )
@@ -112,7 +112,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	complete? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	complete? ( <=dev-python/pymongo-4.10.1[${PYTHON_USEDEP}] )
 	complete-with-docs? ( <=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
-	complete-with-docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	complete-with-docs? ( ~dev-python/pyqt5-5.15.10[${PYTHON_USEDEP}] )
 	complete-with-docs? ( >=dev-python/pytest-8.3.3[${PYTHON_USEDEP}] )
 	complete-with-docs? ( >=dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	complete-with-docs? ( dev-python/pylint[${PYTHON_USEDEP}] )

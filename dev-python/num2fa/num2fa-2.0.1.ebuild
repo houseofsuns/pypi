@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,14 +44,14 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/keyring-24.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/more-itertools-10.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nh3-0.2.15[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-23.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}] )

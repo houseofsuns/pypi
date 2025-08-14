@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mssql"
 DEPENDENCIES=">=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-1.0[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.9.0[${PYTHON_USEDEP}]
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

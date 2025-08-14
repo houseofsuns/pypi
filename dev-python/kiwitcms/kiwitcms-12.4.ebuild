@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/django-simple-captcha[${PYTHON_USEDEP}]
 	dev-python/django-uuslug[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4.3[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.58.2[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.15.1[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	~dev-python/python-redmine-2.4.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="downloader"
 DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	<dev-python/faker-22.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
 	downloader? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

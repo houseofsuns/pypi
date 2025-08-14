@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/azure-ai-formrecognizer[${PYTHON_USEDEP}]
 	>=dev-python/pypng-0.20220715.0[${PYTHON_USEDEP}]
 	<dev-python/pytesseract-0.4[${PYTHON_USEDEP}]
 	dev-python/python-gdcm[${PYTHON_USEDEP}]
+	dev-python/spacy[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

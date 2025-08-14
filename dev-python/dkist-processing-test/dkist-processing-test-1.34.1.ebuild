@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,14 +50,14 @@ DEPENDENCIES="dev-python/dkist-processing-common[${PYTHON_USEDEP}]
 	frozen? ( ~dev-python/flask-2.2.5[${PYTHON_USEDEP}] )
 	frozen? ( dev-python/Flask-AppBuilder[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}] )
-	frozen? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
+	frozen? ( ~dev-python/flask-caching-2.3.1[${PYTHON_USEDEP}] )
 	frozen? ( dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}] )
 	frozen? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/flask-login-0.6.3[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}] )
 	frozen? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
 	frozen? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )
-	frozen? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	frozen? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/mako-1.3.10[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/markupsafe-3.0.2[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}] )
@@ -99,7 +99,7 @@ DEPENDENCIES="dev-python/dkist-processing-common[${PYTHON_USEDEP}]
 	frozen? ( dev-python/astropy-iers-data[${PYTHON_USEDEP}] )
 	frozen? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/attrs-25.3.0[${PYTHON_USEDEP}] )
-	frozen? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	frozen? ( ~dev-python/babel-2.17.0[${PYTHON_USEDEP}] )
 	frozen? ( dev-python/billiard[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/blinker-1.9.0[${PYTHON_USEDEP}] )
 	frozen? ( ~dev-python/boto3-1.40.7[${PYTHON_USEDEP}] )

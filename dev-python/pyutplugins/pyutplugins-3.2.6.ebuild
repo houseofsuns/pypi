@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/codeallybasic[${PYTHON_USEDEP}]
 	test? ( dev-python/html-testRunner[${PYTHON_USEDEP}] )
 	test? ( dev-python/buildlackey[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-1.14.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/typing-extensions-4.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/click-8.1.8[${PYTHON_USEDEP}] )

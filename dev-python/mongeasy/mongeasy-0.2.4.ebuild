@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -58,7 +58,7 @@ DEPENDENCIES="~dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/pywin32-ctypes[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/pyyaml_env_tag[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-env-tag-0.1[${PYTHON_USEDEP}]
 	~dev-python/readme-renderer-37.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]

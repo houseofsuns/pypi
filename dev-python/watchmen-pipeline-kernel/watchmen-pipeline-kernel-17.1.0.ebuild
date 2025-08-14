@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mongodb mssql mysql oracle postgresql standard-ext-writer"
 DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/watchmen-data-kernel[${PYTHON_USEDEP}]
 	mysql? ( dev-python/watchmen-storage-mysql[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/watchmen-storage-oracle[${PYTHON_USEDEP}] )

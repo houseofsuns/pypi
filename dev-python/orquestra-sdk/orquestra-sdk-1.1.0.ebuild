@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.3.2[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/furo-2023.7.26[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2023.7.26[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autoapi-2.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )

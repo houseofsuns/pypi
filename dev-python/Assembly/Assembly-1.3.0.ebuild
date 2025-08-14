@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/flask-1.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-KVSession[${PYTHON_USEDEP}]
 	dev-python/Flask-S3[${PYTHON_USEDEP}]
 	dev-python/Flask-Mail[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	>=dev-python/flask-caching-1.7.2[${PYTHON_USEDEP}]
 	dev-python/Flask-Cloudy[${PYTHON_USEDEP}]
 	dev-python/Flask-SeaSurf[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}]

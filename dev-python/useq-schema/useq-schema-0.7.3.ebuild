@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,6 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="plot yaml"
 DEPENDENCIES=">=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.6[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	plot? ( >=dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )

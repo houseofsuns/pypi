@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
 	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	~dev-python/elementpath-4.4.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.5[${PYTHON_USEDEP}]
 	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]

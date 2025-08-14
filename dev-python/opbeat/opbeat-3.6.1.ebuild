@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/urllib3-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/twisted[${PYTHON_USEDEP}] )

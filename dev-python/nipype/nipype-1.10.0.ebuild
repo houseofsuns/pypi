@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/click-6.6.0[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	duecredit? ( dev-python/duecredit[${PYTHON_USEDEP}] )
-	maint? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	maint? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	maint? ( dev-python/fuzzywuzzy[${PYTHON_USEDEP}] )
 	nipy? ( dev-python/nitime[${PYTHON_USEDEP}] )
 	nipy? ( dev-python/nilearn[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES=">=dev-python/click-6.6.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs full mlflow postgres tests"
 DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/scikeras[${PYTHON_USEDEP}]
@@ -64,7 +64,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/asttokens-2.4.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/async-lru-2.0.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/attrs-24.2.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/babel-2.16.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/black-24.4.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/bleach-6.1.0[${PYTHON_USEDEP}] )
@@ -92,7 +92,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/ipython-8.27.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jedi-0.19.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/json5-0.9.25[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonpointer-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )
@@ -111,7 +111,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/mistune-3.0.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mock-5.1.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mypy-1.11.2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/nbclient-0.10.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/nbconvert-7.16.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/nbformat-5.10.4[${PYTHON_USEDEP}] )

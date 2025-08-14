@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,6 +31,7 @@ DEPENDENCIES="dev-python/argon2-cffi[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-0.24[${PYTHON_USEDEP}]
 	dev-python/lazy[${PYTHON_USEDEP}]
+	dev-python/legacy-cgi[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]

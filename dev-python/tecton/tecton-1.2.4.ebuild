@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="athena databricks-connect databricks-connect10 databricks-connect11 databr
 DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-45.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/pathspec[${PYTHON_USEDEP}]
 	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/pex[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	>=dev-python/rich-click-1.0[${PYTHON_USEDEP}]
 	dev-python/deltalake[${PYTHON_USEDEP}]
 	<dev-python/uv-1.0[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="all all-dev dev-build dev-docs dev-fmt dev-test interfaces-ts interfaces-t
 DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	dev-python/alchemy-logging[${PYTHON_USEDEP}]
 	<dev-python/anytree-3.0[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	<dev-python/grpcio-3.0[${PYTHON_USEDEP}]
 	<dev-python/ijson-3.3.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="all? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	database? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	<dev-python/aiohttp-3.11.0[${PYTHON_USEDEP}]
 	dev-python/aiomysql[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
+	<dev-python/dbutils-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
 	database? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
 	dev-python/itemadapter[${PYTHON_USEDEP}]

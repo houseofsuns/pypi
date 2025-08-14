@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/crds[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/gitpython-3.1.44[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/textual[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

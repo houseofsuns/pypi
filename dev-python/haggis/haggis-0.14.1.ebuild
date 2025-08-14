@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	all? ( >dev-python/scipy-0.16[${PYTHON_USEDEP}] )
 	docx? ( dev-python/python-docx[${PYTHON_USEDEP}] )
 	plot? ( >=dev-python/matplotlib-1.5[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	qt? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	scio? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	scio? ( >dev-python/scipy-0.16[${PYTHON_USEDEP}] )
 	xlsx? ( >=dev-python/openpyxl-2.4.8[${PYTHON_USEDEP}] )"

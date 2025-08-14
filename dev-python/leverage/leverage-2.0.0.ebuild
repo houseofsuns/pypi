@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/boto3-1.33.2[${PYTHON_USEDEP}]
 	~dev-python/docker-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/dockerpty-0.4.1[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.1[${PYTHON_USEDEP}]
 	dev-python/python-hcl2[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31[${PYTHON_USEDEP}]

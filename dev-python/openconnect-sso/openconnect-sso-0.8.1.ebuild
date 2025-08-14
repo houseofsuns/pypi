@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,9 +34,9 @@ DEPENDENCIES=">=dev-python/attrs-18.2[${PYTHON_USEDEP}]
 	>=dev-python/structlog-20.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>dev-python/setuptools-40.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
-	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
+	<dev-python/pysocks-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyqt6-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyqt6-webengine-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyotp-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

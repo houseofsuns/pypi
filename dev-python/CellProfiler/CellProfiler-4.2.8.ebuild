@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/boto3-1.12.28[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.5[${PYTHON_USEDEP}]
 	<dev-python/inflect-7.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11.2[${PYTHON_USEDEP}]
 	>=dev-python/joblib-0.13[${PYTHON_USEDEP}]
 	dev-python/mahotas[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]

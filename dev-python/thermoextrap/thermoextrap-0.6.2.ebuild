@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="accel all gpr mbar openmm parallel viz"
 DEPENDENCIES=">=dev-python/attrs-24.1.0[${PYTHON_USEDEP}]
 	dev-python/cmomy[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	dev-python/lazy-loader[${PYTHON_USEDEP}]
 	dev-python/module-utilities[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/attrs-24.1.0[${PYTHON_USEDEP}]
 	gpr? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	mbar? ( dev-python/jax[${PYTHON_USEDEP}] )
 	mbar? ( dev-python/pymbar[${PYTHON_USEDEP}] )
-	openmm? ( dev-python/openmm[${PYTHON_USEDEP}] )
+	openmm? ( dev-python/OpenMM[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/dask[${PYTHON_USEDEP}] )
 	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

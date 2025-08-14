@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.15.4[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2023.9.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/watchdog-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipython-8.5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
+	docs? ( dev-python/ipython-genutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbconvert-7.14.0[${PYTHON_USEDEP}] )

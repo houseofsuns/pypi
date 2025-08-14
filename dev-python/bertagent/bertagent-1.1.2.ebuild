@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev setup test"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/gitpython-3.1.31[${PYTHON_USEDEP}]
 	>=dev-python/blessed-1.20.0[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/gitpython-3.1.31[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/blessed-1.20.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/srsly[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )

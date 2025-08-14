@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.20.0rc9.dev1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2019.7.26[${PYTHON_USEDEP}]
 	>=dev-python/pywavelets-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.1[${PYTHON_USEDEP}]
 	build? ( >=dev-python/meson-python-0.13.0_rc0[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/setuptools-67.0[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	default? ( >=dev-python/tifffile-2019.7.26[${PYTHON_USEDEP}] )
 	default? ( >=dev-python/pywavelets-1.1.1[${PYTHON_USEDEP}] )
 	default? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
-	default? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/lazy-loader-0.1[${PYTHON_USEDEP}] )
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	developer? ( dev-python/rtoml[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-5.2[${PYTHON_USEDEP}] )

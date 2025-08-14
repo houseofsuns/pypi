@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/boto3-1.24.22[${PYTHON_USEDEP}]
 	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/decorator-5.0.9[${PYTHON_USEDEP}]
 	~dev-python/idna-2.10[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/py-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]

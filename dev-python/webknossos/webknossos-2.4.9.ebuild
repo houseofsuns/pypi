@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.10.5[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.5.0[${PYTHON_USEDEP}]
 	tifffile? ( <dev-python/tifffile-2025.5.21[${PYTHON_USEDEP}] )
 	imagecodecs? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
-	bioformats? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	bioformats? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	czi? ( dev-python/pylibCZIrw[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fastremap[${PYTHON_USEDEP}] )
 	examples? ( ~dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )

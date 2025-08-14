@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="docs testing typing"
+IUSE="docs testing"
 DEPENDENCIES="docs? ( >=dev-python/furo-2024.8.6[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-8.1.3[${PYTHON_USEDEP}] )
@@ -35,7 +35,6 @@ DEPENDENCIES="docs? ( >=dev-python/furo-2024.8.6[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-mock-3.14[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-timeout-2.3.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-8.3.4[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/virtualenv-20.28.1[${PYTHON_USEDEP}] )
-	typing? ( >=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/virtualenv-20.28.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

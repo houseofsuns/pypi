@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	~dev-python/pyqt6-6.8.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="console? ( dev-python/aioconsole[${PYTHON_USEDEP}] )
 	slack? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
 	slack? ( >=dev-python/emoji-1.6.2[${PYTHON_USEDEP}] )
 	sync? ( >=dev-python/emoji-1.2.1[${PYTHON_USEDEP}] )
-	sync? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	sync? ( >=dev-python/jinja2-2.6[${PYTHON_USEDEP}] )
 	telegram? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
 	telegram? ( dev-python/Telethon[${PYTHON_USEDEP}] )
 	uv? ( >=dev-python/uvloop-0.12.0[${PYTHON_USEDEP}] )

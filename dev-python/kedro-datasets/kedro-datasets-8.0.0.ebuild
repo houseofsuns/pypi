@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all api api-apidataset biosequence biosequence-biosequencedataset darts darts-torch-model-dataset dask dask-csvdataset dask-parquetdataset databricks databricks-externaltabledataset databricks-managedtabledataset delta-base docs experimental geopandas geopandas-genericdataset hdfs-base holoviews holoviews-holoviewswriter huggingface huggingface-hfdataset huggingface-hftransformerpipelinedataset ibis ibis-athena ibis-bigquery ibis-clickhouse ibis-dask ibis-databricks ibis-datafusion ibis-druid ibis-duckdb ibis-exasol ibis-flink ibis-impala ibis-mssql ibis-mysql ibis-oracle ibis-pandas ibis-polars ibis-postgres ibis-pyspark ibis-risingwave ibis-snowflake ibis-sqlite ibis-trino json langchain langchain-chatanthropicdataset langchain-chatcoheredataset langchain-chatopenaidataset langchain-openaiembeddingsdataset lint matlab matlab-matlabdataset matplotlib matplotlib-matplotlibdataset matplotlib-matplotlibwriter netcdf netcdf-netcdfdataset networkx networkx-base networkx-gmldataset networkx-graphmldataset networkx-jsondataset openxml openxml-docxdataset optuna optuna-studydataset pandas pandas-base pandas-csvdataset pandas-deltatabledataset pandas-exceldataset pandas-featherdataset pandas-gbqquerydataset pandas-gbqtabledataset pandas-genericdataset pandas-hdfdataset pandas-jsondataset pandas-parquetdataset pandas-sqlquerydataset pandas-sqltabledataset pandas-xmldataset pickle pickle-pickledataset pillow pillow-imagedataset plotly plotly-base plotly-htmldataset plotly-jsondataset plotly-plotlydataset polars polars-base polars-csvdataset polars-eagerpolarsdataset polars-lazypolarsdataset prophet prophet-dataset pytorch pytorch-dataset redis redis-pickledataset rioxarray rioxarray-geotiffdataset s3fs-base safetensors safetensors-safetensorsdataset snowflake snowflake-snowparktabledataset spark spark-base spark-deltatabledataset spark-sparkdataset spark-sparkhivedataset spark-sparkjdbcdataset spark-sparkstreamingdataset svmlight svmlight-svmlightdataset tensorflow tensorflow-tensorflowmodeldataset test text video video-videodataset yaml yaml-yamldataset"
 DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	dev-python/lazy-loader[${PYTHON_USEDEP}]
 	pandas-base? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	spark-base? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	hdfs-base? ( dev-python/hdfs[${PYTHON_USEDEP}] )
@@ -187,7 +187,7 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocstrings-python-0.29.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/LinkChecker[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	test? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	test? ( dev-python/behave[${PYTHON_USEDEP}] )
@@ -207,7 +207,7 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	test? ( dev-python/holoviews[${PYTHON_USEDEP}] )
 	test? ( dev-python/ibis-framework[${PYTHON_USEDEP}] )
 	test? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jinja2-3.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/joblib-0.14[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
@@ -222,10 +222,8 @@ DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/polars[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pyarrow-1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyarrow-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-mock-2.0[${PYTHON_USEDEP}] )

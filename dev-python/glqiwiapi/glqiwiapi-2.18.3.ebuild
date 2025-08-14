@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/tzdata-2023.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2023.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-prompt-2.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/towncrier-22.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/pymdown-extensions-10.0[${PYTHON_USEDEP}] )

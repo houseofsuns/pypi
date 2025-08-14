@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.2a17"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -79,7 +79,7 @@ DEPENDENCIES="~dev-python/amqp-2.4.2[${PYTHON_USEDEP}]
 	dev-python/draftjs-exporter[${PYTHON_USEDEP}]
 	~dev-python/entrypoints-0.3[${PYTHON_USEDEP}]
 	~dev-python/execnet-1.6.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-1.0.5[${PYTHON_USEDEP}]
 	~dev-python/flake8-3.7.7[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/greenlet-0.4.15[${PYTHON_USEDEP}]
@@ -91,11 +91,11 @@ DEPENDENCIES="~dev-python/amqp-2.4.2[${PYTHON_USEDEP}]
 	~dev-python/idna-2.7[${PYTHON_USEDEP}]
 	~dev-python/incremental-17.5.0[${PYTHON_USEDEP}]
 	~dev-python/ipython-7.3.0[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/isort-4.3.4[${PYTHON_USEDEP}]
 	dev-python/itypes[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.13.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.10.1[${PYTHON_USEDEP}]
 	~dev-python/kombu-4.5.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.1.0[${PYTHON_USEDEP}]

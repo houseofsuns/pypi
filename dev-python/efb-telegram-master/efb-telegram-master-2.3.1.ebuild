@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/ehforwarderbot[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	tests? ( dev-python/doit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pysocks[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	tgs? ( dev-python/lottie[${PYTHON_USEDEP}] )

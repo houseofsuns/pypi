@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/asttokens-2.4.1[${PYTHON_USEDEP}]
 	dev-python/attr[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.13.1[${PYTHON_USEDEP}]
 	~dev-python/boltons-23.1.1[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/brotlicffi-1.1.0.0[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-8.1.1[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.19.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jupyterlab-widgets-3.0.9[${PYTHON_USEDEP}]
 	~dev-python/keyring-24.3.0[${PYTHON_USEDEP}]
 	~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]

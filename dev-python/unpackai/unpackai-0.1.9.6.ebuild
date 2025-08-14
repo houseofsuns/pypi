@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/fastai[${PYTHON_USEDEP}]
 	pdf? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	deploy? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

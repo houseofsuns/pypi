@@ -7,7 +7,7 @@ REALNAME="dune.xt"
 LITERALNAME="dune.xt"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	all? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest_notebook[${PYTHON_USEDEP}] )
 	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	all? ( dev-python/bokeh[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	infrastructure? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	infrastructure? ( dev-python/pytest_notebook[${PYTHON_USEDEP}] )
 	infrastructure? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	infrastructure? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	infrastructure? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	infrastructure? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	infrastructure? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/bokeh[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 DEPENDENCIES=">=dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jinja2-3.1.5[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-3.0.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-8.1.3[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/nbsphinx-0.9.6[${PYTHON_USEDEP}] )

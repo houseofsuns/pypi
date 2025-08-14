@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	dev-python/sse-starlette[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
@@ -75,7 +75,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
@@ -125,7 +125,7 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}] )

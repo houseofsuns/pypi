@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/aiomysql[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
+	~dev-python/dbutils-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.20.1[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-6.6.0[${PYTHON_USEDEP}]

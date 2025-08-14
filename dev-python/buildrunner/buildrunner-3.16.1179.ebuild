@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/annotated-types-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.21.2[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.12[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.44[${PYTHON_USEDEP}]
 	dev-python/graphlib-backport[${PYTHON_USEDEP}]
 	~dev-python/id-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/idna-3.10[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="~dev-python/annotated-types-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.4.0[${PYTHON_USEDEP}]
 	~dev-python/jaraco-context-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/jaraco-functools-4.1.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/keyring-25.6.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-3.0.2[${PYTHON_USEDEP}]

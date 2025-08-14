@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="3.4.0a1.post3"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/networkx-2.2[${PYTHON_USEDEP}]
 	>=dev-python/pydot-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/ipython-5.0.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/sphinxcontrib-programoutput-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

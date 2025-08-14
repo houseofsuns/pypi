@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -80,7 +80,7 @@ DEPENDENCIES="all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
 	pickle? ( <dev-python/structlog-24.0[${PYTHON_USEDEP}] )
 	pretty? ( <dev-python/rich-14.0[${PYTHON_USEDEP}] )
 	pth? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
-	repo? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	repo? ( <dev-python/gitpython-4.0[${PYTHON_USEDEP}] )
 	requests? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
 	requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	requests? ( dev-python/urllib3[${PYTHON_USEDEP}] )

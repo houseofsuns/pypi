@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="8.12.1.4b1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,6 @@ DEPENDENCIES=">=dev-python/setuptools-76.1.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/rich-13.9.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/ebcdic[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-8.3.5[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/cryptography-44.0.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/multipart-1.2.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/websockets-15.0.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/psutil-7.0.0[${PYTHON_USEDEP}] )"

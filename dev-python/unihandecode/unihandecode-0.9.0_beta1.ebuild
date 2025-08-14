@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.9.0b1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,9 +33,9 @@ DEPENDENCIES=">=dev-python/pykakasi-2.0.1[${PYTHON_USEDEP}]
 	check? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	check? ( dev-python/isort[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-py3doc-enhanced-theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_py3doc_enhanced_theme[${PYTHON_USEDEP}] )
 	mypy? ( ~dev-python/mypy-0.770[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	mypy? ( ~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}] )
 	mypy? ( >=dev-python/pykakasi-2.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

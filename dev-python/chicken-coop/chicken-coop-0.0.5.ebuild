@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/babel-2.12.1[${PYTHON_USEDEP}]
 	dev-python/Farama-Notifications[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/Keras-Preprocessing[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.4.4[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/pywavelets-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.15.1[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-2.3.1[${PYTHON_USEDEP}]
 	~dev-python/send2trash-1.8.2[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}]
 	~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
@@ -103,7 +103,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/importlab[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.25.0[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.14.0[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-8.0.7[${PYTHON_USEDEP}]
 	~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}]
@@ -128,11 +128,11 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.4.4[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	~dev-python/lazy-loader-0.3[${PYTHON_USEDEP}]
 	dev-python/libclang[${PYTHON_USEDEP}]
 	~dev-python/libcst-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/lit-16.0.6[${PYTHON_USEDEP}]
-	dev-python/logging_tree[${PYTHON_USEDEP}]
+	dev-python/logging-tree[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	~dev-python/lz4-4.3.2[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
@@ -144,7 +144,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]
 	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/mypy-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/nbclient-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/nbconvert-7.7.3[${PYTHON_USEDEP}]

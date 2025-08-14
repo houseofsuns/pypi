@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dialog socks"
 DEPENDENCIES=">=dev-python/tomlkit-0.13.2[${PYTHON_USEDEP}]
 	dialog? ( >=dev-python/pythondialog-3.5.3[${PYTHON_USEDEP}] )
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
+	socks? ( >=dev-python/pysocks-1.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

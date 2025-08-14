@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.13.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-3.0.0[${PYTHON_USEDEP}]
 	dev-python/coremltools[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	dev-python/python-bidi[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/cython-0.28.4[${PYTHON_USEDEP}]
 	~dev-python/decorator-4.3.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/idna-2.7[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-core-4.4.0[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.0.1[${PYTHON_USEDEP}]

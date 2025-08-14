@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.11.3[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-2.0.2[${PYTHON_USEDEP}]
-	>=dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]
 	dev-python/neuro-admin-client[${PYTHON_USEDEP}]
 	dev-python/neuro-config-client[${PYTHON_USEDEP}]"

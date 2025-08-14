@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/altgraph[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.20.1[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/exceptiongroup-1.1.2[${PYTHON_USEDEP}]
 	~dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	~dev-python/h11-0.14.0[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/altgraph[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/keyring-24.2.0[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/altgraph[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]
 	dev-python/pyinstaller-hooks-contrib[${PYTHON_USEDEP}]
 	~dev-python/pyproject-hooks-1.0.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	dev-python/pywin32-ctypes[${PYTHON_USEDEP}]

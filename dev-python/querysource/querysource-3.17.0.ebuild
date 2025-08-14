@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12,3_10} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/LivePopularTimes[${PYTHON_USEDEP}]
 	~dev-python/odfpy-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/reportlab-4.1.0[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<dev-python/apscheduler-3.12.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/simple-salesforce[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]

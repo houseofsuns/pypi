@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,6 @@ DEPENDENCIES="graylog? ( dev-python/graypy[${PYTHON_USEDEP}] )
 	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	dev-python/scandir[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-5.0[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

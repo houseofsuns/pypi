@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/click-aliases[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/minestrone[${PYTHON_USEDEP}]
 	>=dev-python/mistune-3.0[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	<dev-python/msgspec-1.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.7.3[${PYTHON_USEDEP}]
 	>dev-python/python-dotenv-0.17[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
 	dev-python/pywatchman[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	<dev-python/rich-click-2.0[${PYTHON_USEDEP}]
 	angles? ( dev-python/dj-angles[${PYTHON_USEDEP}] )
 	compressor? ( dev-python/django-compressor[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/gunicorn[${PYTHON_USEDEP}] )

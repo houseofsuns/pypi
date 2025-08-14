@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pysb[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	reports? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	reports? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	combine? ( dev-python/python-libcombine[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-3.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )

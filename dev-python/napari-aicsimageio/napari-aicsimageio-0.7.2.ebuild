@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-qt-4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )

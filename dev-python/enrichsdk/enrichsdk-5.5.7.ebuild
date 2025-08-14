@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/ruptures[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	dev-python/pytest-cov[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.9.10[${PYTHON_USEDEP}]
 	<dev-python/prompt-toolkit-3.1.0[${PYTHON_USEDEP}]
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/ruptures[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
 	dev-python/pykafka[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/logstash_formatter[${PYTHON_USEDEP}]
 	dev-python/PyHive[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
@@ -85,7 +85,7 @@ DEPENDENCIES="dev-python/ruptures[${PYTHON_USEDEP}]
 	dev-python/sqllineage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	dev-python/faker[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="binharness bintrace docs pyinstaller testing"
 DEPENDENCIES="dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	dev-python/PySide6-QtAds[${PYTHON_USEDEP}]
 	~dev-python/qtawesome-1.4.0[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/angr[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/cle[${PYTHON_USEDEP}]

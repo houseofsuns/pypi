@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-rerunfailures-11.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/mock-3.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/faker-14.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pyopenssl-19.0.0[${PYTHON_USEDEP}] )

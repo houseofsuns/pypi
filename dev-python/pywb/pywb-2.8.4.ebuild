@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/warcio[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/redis-2.10.6[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/surt[${PYTHON_USEDEP}]
 	dev-python/brotlipy[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
 	dev-python/Py3AMF[${PYTHON_USEDEP}]
-	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	i18n? ( dev-python/babel[${PYTHON_USEDEP}] )
 	i18n? ( dev-python/translate-toolkit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

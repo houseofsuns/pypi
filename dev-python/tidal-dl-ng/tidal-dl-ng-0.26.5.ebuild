@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
 DEPENDENCIES="gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtdarktheme-fork[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQtDarkTheme-fork[${PYTHON_USEDEP}] )
 	<dev-python/requests-2.33.0[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]

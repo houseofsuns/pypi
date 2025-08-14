@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
 	~dev-python/elasticsearch-8.19.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	~dev-python/environs-14.3.0[${PYTHON_USEDEP}]
-	dev-python/Events[${PYTHON_USEDEP}]
+	~dev-python/events-0.5[${PYTHON_USEDEP}]
 	~dev-python/greenlet-3.2.3[${PYTHON_USEDEP}]
 	~dev-python/idna-3.10[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]

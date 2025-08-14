@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/gitpython-2.0.8[${PYTHON_USEDEP}]
+	>=dev-python/pysocks-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.3.0[${PYTHON_USEDEP}]
 	dev-python/opentimestamps[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

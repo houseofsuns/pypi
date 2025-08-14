@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -75,8 +75,8 @@ DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	wxgui? ( dev-python/wxmplot[${PYTHON_USEDEP}] )
 	wxgui? ( dev-python/wxutils[${PYTHON_USEDEP}] )
 	wxgui? ( dev-python/darkdetect[${PYTHON_USEDEP}] )
-	qtgui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qtgui? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	qtgui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	qtgui? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	qtgui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	epics? ( dev-python/pyepics[${PYTHON_USEDEP}] )
 	epics? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

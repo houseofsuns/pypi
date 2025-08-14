@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="carto jupyter"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja2-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	carto? ( dev-python/pydeck-carto[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )

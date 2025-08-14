@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,6 +45,7 @@ DEPENDENCIES="datadoc? ( dev-python/tripper[${PYTHON_USEDEP}] )
 	testing? ( dev-python/DLite-Python[${PYTHON_USEDEP}] )
 	testing? ( dev-python/EMMOntoPy[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/graphviz-0.20.2[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/numpy-2.1.0[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/rdflib-7.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/SPARQLWrapper[${PYTHON_USEDEP}] )
 	testing-core? ( ~dev-python/pytest-8.3.4[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	complete? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	cuda? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	cuda? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/numba[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	testing? ( <dev-python/pytest-9.0.0[${PYTHON_USEDEP}] )

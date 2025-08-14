@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/apache-sedona[${PYTHON_USEDEP}]
 	dev-python/geotiff[${PYTHON_USEDEP}]
 	dev-python/h3[${PYTHON_USEDEP}]
 	dev-python/hvplot[${PYTHON_USEDEP}]
-	dev-python/hypercoast[${PYTHON_USEDEP}]
+	dev-python/HyperCoast[${PYTHON_USEDEP}]
 	dev-python/ipygany[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]
 	dev-python/laspy[${PYTHON_USEDEP}]

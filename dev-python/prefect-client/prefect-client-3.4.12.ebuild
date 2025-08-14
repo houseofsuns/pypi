@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -63,6 +63,7 @@ DEPENDENCIES="<dev-python/anyio-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.14.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-16.0[${PYTHON_USEDEP}]
+	dev-python/whenever[${PYTHON_USEDEP}]
 	notifications? ( <dev-python/apprise-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

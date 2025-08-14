@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/bandit-1.8.5[${PYTHON_USEDEP}]
 	<dev-python/termcolor-4.0[${PYTHON_USEDEP}]
 	black? ( ~dev-python/black-25.1.0[${PYTHON_USEDEP}] )
 	browser? ( dev-python/logikal-browser[${PYTHON_USEDEP}] )
-	django? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/babel-2.17[${PYTHON_USEDEP}] )
 	django? ( ~dev-python/django-5.2[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-migration-linter[${PYTHON_USEDEP}] )

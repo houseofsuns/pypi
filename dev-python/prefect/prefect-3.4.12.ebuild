@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="<dev-python/aiosqlite-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23[${PYTHON_USEDEP}]
 	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2-humanize-extension[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}]
@@ -77,6 +77,7 @@ DEPENDENCIES="<dev-python/aiosqlite-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/uv-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.14.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-16.0[${PYTHON_USEDEP}]
+	dev-python/whenever[${PYTHON_USEDEP}]
 	aws? ( dev-python/prefect-aws[${PYTHON_USEDEP}] )
 	azure? ( dev-python/prefect-azure[${PYTHON_USEDEP}] )
 	bitbucket? ( dev-python/prefect-bitbucket[${PYTHON_USEDEP}] )

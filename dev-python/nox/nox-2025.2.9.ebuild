@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,9 +29,8 @@ DEPENDENCIES="<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0[${PYTHON_USEDEP}]
 	>=dev-python/dependency-groups-1.1[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	>=dev-python/virtualenv-20.14.1[${PYTHON_USEDEP}]
-	tox-to-nox? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tox-to-nox? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tox-to-nox? ( >=dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	uv? ( >=dev-python/uv-0.1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

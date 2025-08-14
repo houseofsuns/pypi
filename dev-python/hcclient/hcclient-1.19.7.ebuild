@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/linkify-it-py-2.0.3[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/mdit-py-plugins-0.4.2[${PYTHON_USEDEP}]
-	dev-python/notify-py[${PYTHON_USEDEP}]
+	dev-python/notify_py[${PYTHON_USEDEP}]
 	~dev-python/packaging-24.2[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-3.0.48[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.18.0[${PYTHON_USEDEP}]

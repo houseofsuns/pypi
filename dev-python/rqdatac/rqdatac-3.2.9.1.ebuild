@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	esg? ( dev-python/rqdatac-esg[${PYTHON_USEDEP}] )
 	fund? ( dev-python/rqdatac-fund[${PYTHON_USEDEP}] )
 	news? ( dev-python/rqdatac-news[${PYTHON_USEDEP}] )
-	proxy? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	proxy? ( dev-python/pysocks[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/python-socks[${PYTHON_USEDEP}] )
 	subscribe? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

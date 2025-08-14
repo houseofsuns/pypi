@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.23[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy-serializer[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy-serializer[${PYTHON_USEDEP}]
 	~dev-python/shapely-1.8.5[${PYTHON_USEDEP}]
 	dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]

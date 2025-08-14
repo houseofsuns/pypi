@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,11 +27,11 @@ IUSE="all docs sql testing voice web"
 DEPENDENCIES="<dev-python/aiohttp-3.12.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-socks-0.11[${PYTHON_USEDEP}]
 	<dev-python/typeguard-2.14[${PYTHON_USEDEP}]
-	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/tkinter-async-execute[${PYTHON_USEDEP}]
 	dev-python/asyncio-event-hub[${PYTHON_USEDEP}]
 	dev-python/TkClassWiz[${PYTHON_USEDEP}]
 	dev-python/ttkbootstrap[${PYTHON_USEDEP}]
+	~dev-python/audioop-lts-0.2.1[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.2.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-8.2.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )

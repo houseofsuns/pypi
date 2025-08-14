@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dev-nn"
-DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/docstring_parser[${PYTHON_USEDEP}]
 	>=dev-python/rich-11.1.0[${PYTHON_USEDEP}]
 	>=dev-python/shtab-1.5.6[${PYTHON_USEDEP}]
 	>=dev-python/typeguard-4.0.0[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eval-type-backport[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ml-collections[${PYTHON_USEDEP}] )
-	dev? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/msgspec-0.18.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-nn? ( dev-python/eval-type-backport[${PYTHON_USEDEP}] )
 	dev-nn? ( dev-python/flax[${PYTHON_USEDEP}] )
 	dev-nn? ( dev-python/ml-collections[${PYTHON_USEDEP}] )
-	dev-nn? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	dev-nn? ( >=dev-python/msgspec-0.18.6[${PYTHON_USEDEP}] )
 	dev-nn? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	dev-nn? ( >=dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )
 	dev-nn? ( dev-python/omegaconf[${PYTHON_USEDEP}] )

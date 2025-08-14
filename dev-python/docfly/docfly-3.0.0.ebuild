@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	dev? ( <dev-python/build-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/furo-2024.8.6[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/ipython-8.19.0[${PYTHON_USEDEP}] )
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	doc? ( <dev-python/nbsphinx-1.0.0[${PYTHON_USEDEP}] )
 	dev-python/pathlib-mate[${PYTHON_USEDEP}]
 	doc? ( <dev-python/pygments-3.0.0[${PYTHON_USEDEP}] )

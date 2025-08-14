@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	dev-python/isosurfaces[${PYTHON_USEDEP}]
 	jupyterlab? ( >=dev-python/jupyterlab-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/ManimPango[${PYTHON_USEDEP}]
-	dev-python/mapbox_earcut[${PYTHON_USEDEP}]
+	>=dev-python/mapbox-earcut-1.0.0[${PYTHON_USEDEP}]
 	dev-python/moderngl[${PYTHON_USEDEP}]
 	dev-python/moderngl-window[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
@@ -41,9 +41,11 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.1[${PYTHON_USEDEP}]
 	<dev-python/pycairo-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
+	>=dev-python/audioop-lts-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
 	dev-python/skia-pathops[${PYTHON_USEDEP}]
 	>=dev-python/srt-3.0.0[${PYTHON_USEDEP}]

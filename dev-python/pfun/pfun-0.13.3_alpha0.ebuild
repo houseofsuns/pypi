@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.13.3a0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,6 @@ DEPENDENCIES="http? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	test? ( <dev-python/hypothesis-7.0.0[${PYTHON_USEDEP}] )
 	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
-	<dev-python/typing-extensions-4.0.0.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

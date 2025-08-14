@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,6 @@ DEPENDENCIES=">=dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/pplpy-0.8.6[${PYTHON_USEDEP}]
 	dev-python/primecountpy[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.9.0[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]

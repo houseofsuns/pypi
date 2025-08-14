@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/asn1crypto-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	<dev-python/babel-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/certifi-2025.0.0[${PYTHON_USEDEP}]
 	<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cfgv-4.0.0[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/jaraco-classes-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jeepney-0.9.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-specifications-2024.0.0[${PYTHON_USEDEP}]
 	<dev-python/keyring-25.0.0[${PYTHON_USEDEP}]
@@ -78,7 +78,7 @@ DEPENDENCIES="<dev-python/typer-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/multidict-7.0.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	<dev-python/mypy-extensions-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/nodeenv-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0.0[${PYTHON_USEDEP}]

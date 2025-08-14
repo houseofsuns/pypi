@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-rtd-theme-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	gha? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
 	align? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	align? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -57,12 +57,12 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	charts? ( dev-python/matplotlib-venn[${PYTHON_USEDEP}] )
 	charts? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	charts? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	charts? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	charts? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	health? ( dev-python/click-default-group[${PYTHON_USEDEP}] )
 	health? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	health? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	health? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	health? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	health? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	web? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	web? ( dev-python/rdflib[${PYTHON_USEDEP}] )
 	web? ( dev-python/rdflib-jsonld[${PYTHON_USEDEP}] )

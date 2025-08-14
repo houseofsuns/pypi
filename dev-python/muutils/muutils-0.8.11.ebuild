@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,6 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="array array-no-torch notebook parallel"
 DEPENDENCIES="array? ( dev-python/jaxtyping[${PYTHON_USEDEP}] )
 	array? ( >dev-python/numpy-1.24.4[${PYTHON_USEDEP}] )
+	array? ( dev-python/torch[${PYTHON_USEDEP}] )
 	array? ( dev-python/torch[${PYTHON_USEDEP}] )
 	array-no-torch? ( dev-python/jaxtyping[${PYTHON_USEDEP}] )
 	array-no-torch? ( >dev-python/numpy-1.24.4[${PYTHON_USEDEP}] )

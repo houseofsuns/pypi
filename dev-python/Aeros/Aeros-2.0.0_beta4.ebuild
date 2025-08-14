@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0b4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/asgiref-3.3.1[${PYTHON_USEDEP}]
 	~dev-python/uvicorn-0.13.4[${PYTHON_USEDEP}]
-	dev-python/Quart[${PYTHON_USEDEP}]
+	~dev-python/quart-0.14.1[${PYTHON_USEDEP}]
 	dev-python/quart-compress[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

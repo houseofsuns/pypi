@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/cachetools-5.5.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipinfo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/litellm[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/markdown2-2.5.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.17.1[${PYTHON_USEDEP}] )

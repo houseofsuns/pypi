@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.10[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.7.0[${PYTHON_USEDEP}]
 	dev-python/pikav0[${PYTHON_USEDEP}]
 	dev-python/pikav1[${PYTHON_USEDEP}]
 	dev-python/redis2[${PYTHON_USEDEP}]

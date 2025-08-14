@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,6 @@ DEPENDENCIES="dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/freezegun-1.5.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.13.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-8.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-3.0.2[${PYTHON_USEDEP}] )

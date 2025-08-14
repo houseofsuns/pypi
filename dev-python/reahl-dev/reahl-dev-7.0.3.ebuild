@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/reahl-component[${PYTHON_USEDEP}]
 	dev-python/reahl-tofu[${PYTHON_USEDEP}]
 	dev-python/reahl-stubble[${PYTHON_USEDEP}]
 	dev-python/reahl-sqlalchemysupport[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	<dev-python/babel-2.14.999[${PYTHON_USEDEP}]
 	<dev-python/pygments-2.17.999[${PYTHON_USEDEP}]
 	<dev-python/twine-4.0.9999[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.34.0[${PYTHON_USEDEP}]

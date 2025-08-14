@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.1.1a0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -64,7 +64,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )
 	test? ( <dev-python/freezegun-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
-	dev-python/TA-Lib[${PYTHON_USEDEP}]
+	dev-python/ta-lib[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.7.2b4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,10 +28,15 @@ DEPENDENCIES="requests? ( dev-python/advocate[${PYTHON_USEDEP}] )
 	>=dev-python/boto3-1.28.27[${PYTHON_USEDEP}]
 	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
+	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	dev-python/formenergy-observability[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
+	dev-python/gevent[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.66.2[${PYTHON_USEDEP}]
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )
 	amqp? ( >=dev-python/kombu-5.3.3[${PYTHON_USEDEP}] )
+	dev-python/legacy-cgi[${PYTHON_USEDEP}]
 	refcycle? ( >=dev-python/objgraph-3.6.0[${PYTHON_USEDEP}] )
 	<dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
@@ -44,6 +49,8 @@ DEPENDENCIES="requests? ( dev-python/advocate[${PYTHON_USEDEP}] )
 	>=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	psycopg2? ( dev-python/psycogreen[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
+	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-core-2.20.0[${PYTHON_USEDEP}]
 	memcache? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
 	pyramid? ( dev-python/pyramid[${PYTHON_USEDEP}] )
 	<dev-python/pyrate-limiter-4.0.0[${PYTHON_USEDEP}]

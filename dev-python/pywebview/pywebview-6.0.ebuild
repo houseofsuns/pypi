@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,26 +29,26 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-WebKit[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Security[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/proxy_tools[${PYTHON_USEDEP}]
 	dev-python/bottle[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	cef? ( dev-python/cefpython3[${PYTHON_USEDEP}] )
 	gtk? ( ~dev-python/pygobject-3.50.0[${PYTHON_USEDEP}] )
 	gtk? ( dev-python/PyGObject-stubs[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	pyside6? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
-	qt5? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qt5? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
-	qt6? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	qt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	qt6? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	qt? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	qt? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
+	qt5? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	qt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	qt5? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
+	qt6? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	qt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	qt6? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
 	android? ( dev-python/Kivy[${PYTHON_USEDEP}] )
 	android? ( dev-python/jnius[${PYTHON_USEDEP}] )
 	ssl? ( dev-python/cryptography[${PYTHON_USEDEP}] )"

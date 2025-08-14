@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,9 +29,7 @@ DEPENDENCIES=">dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/proxystore[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/aiortc[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
@@ -39,7 +37,7 @@ DEPENDENCIES=">dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	endpoints? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/pystun3[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/python-daemon[${PYTHON_USEDEP}] )
-	endpoints? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	endpoints? ( >=dev-python/quart-0.18.0[${PYTHON_USEDEP}] )
 	endpoints? ( >=dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
 	endpoints? ( >=dev-python/websockets-14.0[${PYTHON_USEDEP}] )
 	extensions? ( dev-python/proxystore-ex[${PYTHON_USEDEP}] )

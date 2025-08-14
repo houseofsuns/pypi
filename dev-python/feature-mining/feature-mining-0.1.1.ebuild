@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	~dev-python/parse-1.9.0[${PYTHON_USEDEP}]
-	dev-python/parse_type[${PYTHON_USEDEP}]
+	~dev-python/parse-type-0.4.2[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
 	dev-python/preshed[${PYTHON_USEDEP}]
 	dev-python/pyreadline[${PYTHON_USEDEP}]

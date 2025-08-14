@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/deep-translator[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-13.4.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/bandit-1.7.1[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -57,7 +57,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pydantic-2.11.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/uvicorn-0.35.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/gitpython-3.1.42[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
@@ -84,11 +84,11 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	simulator? ( <dev-python/humanize-5.0[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
-	alipan? ( dev-python/alipcs-py[${PYTHON_USEDEP}] )
+	alipan? ( dev-python/AliPCS-Py[${PYTHON_USEDEP}] )
 	hf? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mosaicml-cli[${PYTHON_USEDEP}] )
-	all? ( dev-python/alipcs-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/AliPCS-Py[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/gitpython-3.1.42[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/altair[${PYTHON_USEDEP}] )
 	all? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )

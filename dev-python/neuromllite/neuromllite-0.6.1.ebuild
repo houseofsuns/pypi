@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/libNeuroML[${PYTHON_USEDEP}]
 	extras? ( dev-python/PyNN[${PYTHON_USEDEP}] )
 	extras? ( dev-python/bmtk[${PYTHON_USEDEP}] )
 	extras? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	extras? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	extras? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pyelectro[${PYTHON_USEDEP}] )
 	extras? ( dev-python/NEURON[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/libNeuroML[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	doc? ( dev-python/bmtk[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	doc? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyelectro[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )

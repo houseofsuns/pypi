@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alibi alibi-detect all monai torch torchvision torchxrayvision xgboost"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	alibi-detect? ( dev-python/alibi-detect[${PYTHON_USEDEP}] )
 	all? ( dev-python/alibi-detect[${PYTHON_USEDEP}] )
 	alibi? ( dev-python/alibi[${PYTHON_USEDEP}] )

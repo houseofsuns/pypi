@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,7 +52,7 @@ DEPENDENCIES="~dev-python/fastjsonschema-2.19[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/fakeredis-2.23[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-redis[${PYTHON_USEDEP}] )

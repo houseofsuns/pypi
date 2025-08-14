@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="pennylane-lightning-kokkos"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/PennyLane[${PYTHON_USEDEP}]
 	dev-python/PennyLane-Lightning[${PYTHON_USEDEP}]
 	gpu? ( dev-python/PennyLane-Lightning-GPU[${PYTHON_USEDEP}] )
 	kokkos? ( dev-python/PennyLane-Lightning-Kokkos[${PYTHON_USEDEP}] )
-	tensor? ( dev-python/pennylane-lightning-tensor[${PYTHON_USEDEP}] )"
+	tensor? ( dev-python/PennyLane-Lightning-Tensor[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

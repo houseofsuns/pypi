@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/scipy-1.11[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
 	>=dev-python/lmfit-1.3[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.7[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	>=dev-python/configargparse-1.7[${PYTHON_USEDEP}]
 	fast? ( dev-python/numba[${PYTHON_USEDEP}] )
 	faster? ( dev-python/AegeanTools[${PYTHON_USEDEP}] )
 	faster? ( >=dev-python/mpi4py-4.1[${PYTHON_USEDEP}] )

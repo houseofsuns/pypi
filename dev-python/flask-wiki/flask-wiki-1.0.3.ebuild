@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,15 +27,15 @@ IUSE=""
 DEPENDENCIES="dev-python/Bootstrap-Flask[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	>=dev-python/babel-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/flask-babel-3.0.0[${PYTHON_USEDEP}]
 	dev-python/wtforms[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.15[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/markdown-3.4.0[${PYTHON_USEDEP}]
 	<dev-python/py-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/whoosh-reloaded[${PYTHON_USEDEP}]"
+	dev-python/Whoosh-Reloaded[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

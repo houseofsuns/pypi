@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_collapse[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/pexpect[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

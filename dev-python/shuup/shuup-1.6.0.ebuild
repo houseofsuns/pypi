@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="coding-style docs everything testing"
 DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.5.3[${PYTHON_USEDEP}]
 	~dev-python/cryptography-1.7.1[${PYTHON_USEDEP}]
 	<dev-python/django-1.10[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
 	dev-python/django-parler-rest[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	<dev-python/django-polymorphic-0.10[${PYTHON_USEDEP}]
 	dev-python/django-registration-redux[${PYTHON_USEDEP}]
 	<dev-python/django-timezone-field-2.0[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-3.6[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-swagger[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
 	dev-python/fake-factory[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-2.9[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
 	~dev-python/keyring-10.2[${PYTHON_USEDEP}]
 	~dev-python/keyrings-alt-2.0[${PYTHON_USEDEP}]

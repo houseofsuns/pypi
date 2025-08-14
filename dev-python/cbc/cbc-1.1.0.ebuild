@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/absl-py-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	dev-python/astunparse[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.10.1[${PYTHON_USEDEP}]
 	~dev-python/bleach-5.0.0[${PYTHON_USEDEP}]
 	~dev-python/build-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="~dev-python/absl-py-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/Keras-Preprocessing[${PYTHON_USEDEP}]
 	~dev-python/keyring-23.5.1[${PYTHON_USEDEP}]

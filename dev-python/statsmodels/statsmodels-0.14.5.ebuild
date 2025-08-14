@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	develop? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	develop? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	develop? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

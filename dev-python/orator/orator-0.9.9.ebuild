@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/backpack[${PYTHON_USEDEP}]
 	<dev-python/blinker-2.0[${PYTHON_USEDEP}]
 	<dev-python/cleo-0.7[${PYTHON_USEDEP}]
 	<dev-python/inflection-0.4[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	<dev-python/faker-0.9[${PYTHON_USEDEP}]
 	<dev-python/lazy-object-proxy-2.0[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
 	<dev-python/pyaml-17.0[${PYTHON_USEDEP}]

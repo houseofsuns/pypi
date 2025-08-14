@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="allure appium dev docs playwright pyotp requests selenium test"
 DEPENDENCIES=">=dev-python/pyhamcrest-2.0.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	dev? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -50,7 +50,6 @@ DEPENDENCIES=">=dev-python/pyhamcrest-2.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

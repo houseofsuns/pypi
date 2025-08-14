@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="3.2.3rc6"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/cloudpathlib[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0.3[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-69.0.0[${PYTHON_USEDEP}]
-	dev-python/space_packet_parser[${PYTHON_USEDEP}]
+	dev-python/space-packet-parser[${PYTHON_USEDEP}]
 	dev-python/spiceypy[${PYTHON_USEDEP}]
 	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/watchtower[${PYTHON_USEDEP}]

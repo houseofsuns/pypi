@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/dxfgrabber[${PYTHON_USEDEP}]
 	dev-python/pyopengl[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/qtinter[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/meshcut[${PYTHON_USEDEP}]
 	dev-python/freetype-py[${PYTHON_USEDEP}]
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

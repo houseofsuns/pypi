@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="Vlt-Comm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/minimalmodbus[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	~dev-python/pyqtgraph-0.12.3[${PYTHON_USEDEP}]
-	dev-python/pyside2[${PYTHON_USEDEP}]
+	dev-python/PySide2[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/opster[${PYTHON_USEDEP}]
 	test? ( ~dev-python/sqlalchemy-1.4.52[${PYTHON_USEDEP}] )
 	test? ( dev-python/prysk[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

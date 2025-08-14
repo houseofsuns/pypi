@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="<dev-python/django-5.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/legacy-cgi[${PYTHON_USEDEP}]
+	<dev-python/django-5.3[${PYTHON_USEDEP}]
 	<dev-python/twisted-25.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
 	<dev-python/djangorestframework-3.15[${PYTHON_USEDEP}]
@@ -54,6 +55,6 @@ DEPENDENCIES="<dev-python/django-5.3[${PYTHON_USEDEP}]
 	extra? ( >=dev-python/ipython-7.19.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	extra? ( ~dev-python/scipy-1.15.1[${PYTHON_USEDEP}] )
-	extra? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
+	extra? ( >=dev-python/gitpython-3.1.27[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

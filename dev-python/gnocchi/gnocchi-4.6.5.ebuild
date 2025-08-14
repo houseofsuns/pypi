@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -70,7 +70,7 @@ DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/reno-1.6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pifpaf[${PYTHON_USEDEP}] )
 	test? ( dev-python/gabbi[${PYTHON_USEDEP}] )

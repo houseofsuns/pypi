@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="~dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
-	~dev-python/cryptography-45.0.1[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cryptography-45.0.1[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.15.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
@@ -47,7 +46,7 @@ DEPENDENCIES="~dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.4.0[${PYTHON_USEDEP}]
 	dev-python/CairoSVG[${PYTHON_USEDEP}]
 	~dev-python/freetype-py-2.5.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/kconfiglib-13.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]

@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.25.0.post2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tooling to create and maintain stubs for MicroPython [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb11dfe6b20>)]"
+DESCRIPTION="Tooling to create and maintain stubs for MicroPython [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37c635d9a0>)]"
 
 HOMEPAGE="https://github.com/Josverl/micropython-stubber#readme"
 LICENSE="MIT"
@@ -38,12 +38,11 @@ DEPENDENCIES="dev-python/python-minifier[${PYTHON_USEDEP}]
 	dev-python/mypy-gitlab-code-quality[${PYTHON_USEDEP}]
 	<dev-python/packaging-25.0[${PYTHON_USEDEP}]
 	<dev-python/pipx-2.0.0[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	<dev-python/pygithub-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/pypi-simple[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	<dev-python/rich-click-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typed-config[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]

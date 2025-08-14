@@ -7,7 +7,7 @@ REALNAME="bigdl-core-xe-21"
 LITERALNAME="bigdl-core-xe-21"
 REALVERSION="2.6.0b20250329.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi

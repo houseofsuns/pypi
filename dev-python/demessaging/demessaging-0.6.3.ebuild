@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="backend dev docs testsite"
 DEPENDENCIES="<dev-python/websocket-client-1.8[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/deprogressapi[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	backend? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )

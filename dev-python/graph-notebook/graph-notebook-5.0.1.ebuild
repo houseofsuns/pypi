@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="<dev-python/async-timeout-5.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}]
 	dev-python/itables[${PYTHON_USEDEP}]
 	<=dev-python/jedi-0.18.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	dev-python/json-repair[${PYTHON_USEDEP}]
 	<dev-python/jupyter-client-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-proxy-5.0.0[${PYTHON_USEDEP}]

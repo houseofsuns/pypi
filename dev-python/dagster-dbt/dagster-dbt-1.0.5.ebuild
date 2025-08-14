@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/agate[${PYTHON_USEDEP}]
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/dbt-rpc[${PYTHON_USEDEP}] )
 	test? ( dev-python/dbt-postgres[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

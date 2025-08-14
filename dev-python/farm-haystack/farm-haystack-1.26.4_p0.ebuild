@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.26.4.post0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-gpu audio aws colab crawler dev docstores docstores-gpu elasticsearch elasticsearch7 elasticsearch8 faiss faiss-gpu file-conversion formatting inference metrics mongodb ocr only-faiss only-faiss-gpu only-pinecone onnx onnx-gpu opensearch pinecone preprocessing ray sql weaviate"
 DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
-	dev-python/Events[${PYTHON_USEDEP}]
+	dev-python/events[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/lazy-imports[${PYTHON_USEDEP}]

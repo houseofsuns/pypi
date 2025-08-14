@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,10 +27,12 @@ IUSE=""
 DEPENDENCIES=">=dev-python/aiohttp-3.11.10[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.3[${PYTHON_USEDEP}]
 	dev-python/mpyq[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]
 	<dev-python/protobuf-4.0.0[${PYTHON_USEDEP}]
 	dev-python/s2clientprotocol[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.14.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

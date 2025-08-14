@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,14 +32,14 @@ DEPENDENCIES="~dev-python/asgiref-3.3.2[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.2[${PYTHON_USEDEP}]
 	~dev-python/cycler-0.10.0[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/GoogleNews[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	~dev-python/idna-2.10[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/jdcal-1.4.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/dunamai[${PYTHON_USEDEP}]
 	>=dev-python/funcy-1.17[${PYTHON_USEDEP}]
 	dev-python/jinja2-ansible-filters[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.3.6[${PYTHON_USEDEP}]
@@ -36,7 +36,6 @@ DEPENDENCIES=">=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
-	dev-python/questionary[${PYTHON_USEDEP}]
-	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
+	dev-python/questionary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

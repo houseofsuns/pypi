@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs solvers"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/bottleneck[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
@@ -61,7 +60,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	solvers? ( dev-python/Mosek[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/mindoptpy[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/coptpy[${PYTHON_USEDEP}] )
-	solvers? ( dev-python/xpress[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/PySCIPOpt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/jsonpickle-1.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	~dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.2[${PYTHON_USEDEP}]
 	dev-python/fbmessenger[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,12 +28,12 @@ DEPENDENCIES="~dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/sockjs[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jrpc[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
 	dev-python/aiohttp-sse[${PYTHON_USEDEP}]
 	dev-python/aiohttp-utils[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/aiohttp-cors[${PYTHON_USEDEP}]
-	locale? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	locale? ( ~dev-python/babel-2.9.1[${PYTHON_USEDEP}] )
 	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

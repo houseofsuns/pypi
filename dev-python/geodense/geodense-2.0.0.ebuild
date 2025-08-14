@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/geojson-pydantic[${PYTHON_USEDEP}]
 	dev? ( dev-python/cli-test-helpers[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.5.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.10.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-8.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-env-1.1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

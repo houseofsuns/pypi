@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/apscheduler-3.6[${PYTHON_USEDEP}]
 	~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/cachetools-4.0[${PYTHON_USEDEP}]
 	~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/h5py-2.8[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-0.15[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.25[${PYTHON_USEDEP}]

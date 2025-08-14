@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all archive aria av benchmarks browscap bs4 cache cholesky compat config cv downloadmanager encoder fileformats filesdb fingerprinting flask gensim html http huggingface image json lda markdown math mediainfo metrics mongo msgpack net networkx nlp nltk numba numpy object pandas parquet pdf pillow polars powerpoint rasa regression resizing rich salesforce scene-change-detection scene_change_detection scipy scrapy sklearn spark sparql statistics sudoku tensorflow tests text text-summarization tls toml torch torrent tqdm twisted unicode unqlite videofile widgets wsgi xsl yaml"
+IUSE="all archive aria av benchmarks browscap bs4 cache cholesky compat config cv downloadmanager encoder fileformats filesdb fingerprinting flask gensim html http huggingface image json lda markdown math mediainfo metrics mongo msgpack net networkx nlp nltk numpy object pandas parquet pdf pillow polars powerpoint rasa regression resizing rich salesforce scene-change-detection scene_change_detection scipy scrapy sklearn spark sparql statistics sudoku tensorflow tests text text-summarization tls toml torch torrent tqdm twisted unicode unqlite videofile widgets wsgi xsl yaml"
 DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
@@ -87,7 +87,6 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/werkzeug-0.11.11[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/wxpython-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/wxasync[${PYTHON_USEDEP}] )
-	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( dev-python/av[${PYTHON_USEDEP}] )
 	all? ( dev-python/polars[${PYTHON_USEDEP}] )
 	archive? ( dev-python/py7zr[${PYTHON_USEDEP}] )
@@ -96,14 +95,12 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	av? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	av? ( dev-python/av[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	benchmarks? ( dev-python/numba[${PYTHON_USEDEP}] )
 	browscap? ( dev-python/re2[${PYTHON_USEDEP}] )
 	bs4? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	cache? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	cache? ( >=dev-python/msgpack-0.6.0[${PYTHON_USEDEP}] )
 	cache? ( dev-python/simplejson[${PYTHON_USEDEP}] )
 	cholesky? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	cholesky? ( dev-python/numba[${PYTHON_USEDEP}] )
 	compat? ( dev-python/gmpy2[${PYTHON_USEDEP}] )
 	config? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	config? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
@@ -157,7 +154,6 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	nltk? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	object? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	object? ( dev-python/simplejson[${PYTHON_USEDEP}] )
@@ -232,7 +228,6 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/tls-property[${PYTHON_USEDEP}] )
 	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/werkzeug-0.11.11[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numba[${PYTHON_USEDEP}] )
 	tests? ( dev-python/av[${PYTHON_USEDEP}] )
 	tests? ( dev-python/polars[${PYTHON_USEDEP}] )
 	text? ( dev-python/jsonschema[${PYTHON_USEDEP}] )

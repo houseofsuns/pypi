@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/pysingleton[${PYTHON_USEDEP}]
 	>=dev-python/colorful-0.3.11[${PYTHON_USEDEP}]
 	dev-python/tag-expressions[${PYTHON_USEDEP}]
-	dev-python/parse_type[${PYTHON_USEDEP}]
+	>dev-python/parse-type-0.4.0[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	bddxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	ipython-debugger? ( dev-python/ipython[${PYTHON_USEDEP}] )

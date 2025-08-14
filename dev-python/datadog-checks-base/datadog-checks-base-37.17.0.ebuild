@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="db? ( dev-python/mmh3[${PYTHON_USEDEP}] )
 	deps? ( ~dev-python/cryptography-45.0.4[${PYTHON_USEDEP}] )
 	deps? ( dev-python/ddtrace[${PYTHON_USEDEP}] )
 	deps? ( ~dev-python/jellyfish-1.2.0[${PYTHON_USEDEP}] )
-	deps? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
+	deps? ( ~dev-python/lazy-loader-0.4[${PYTHON_USEDEP}] )
 	deps? ( ~dev-python/prometheus-client-0.22.1[${PYTHON_USEDEP}] )
 	deps? ( ~dev-python/protobuf-6.31.1[${PYTHON_USEDEP}] )
 	deps? ( ~dev-python/pydantic-2.11.7[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="db? ( dev-python/mmh3[${PYTHON_USEDEP}] )
 	http? ( ~dev-python/oauthlib-3.3.1[${PYTHON_USEDEP}] )
 	http? ( ~dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}] )
 	http? ( ~dev-python/pyopenssl-25.1.0[${PYTHON_USEDEP}] )
-	http? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	http? ( ~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}] )
 	http? ( ~dev-python/requests-kerberos-0.15.0[${PYTHON_USEDEP}] )
 	http? ( ~dev-python/requests-ntlm-1.3.0[${PYTHON_USEDEP}] )
 	http? ( ~dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}] )

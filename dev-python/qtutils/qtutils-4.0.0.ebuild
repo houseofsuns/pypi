@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs pyqt5 pyside6"
 DEPENDENCIES=">=dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}]
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	docs? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )

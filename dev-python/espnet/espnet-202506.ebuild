@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc recipe test train"
 DEPENDENCIES="<dev-python/setuptools-74.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	>=dev-python/configargparse-1.2.1[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
@@ -79,7 +79,7 @@ DEPENDENCIES="<dev-python/setuptools-74.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	all? ( dev-python/praatio[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/sphinx-9.0.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/argue[${PYTHON_USEDEP}]
 	dev-python/quaac[${PYTHON_USEDEP}]
 	>=dev-python/reportlab-3.3[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.18[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.25[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.0[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-3.8[${PYTHON_USEDEP}]
@@ -45,7 +46,7 @@ DEPENDENCIES="dev-python/argue[${PYTHON_USEDEP}]
 	developer? ( >=dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	developer? ( >=dev-python/pytest-xdist-3.6.1[${PYTHON_USEDEP}] )
 	developer? ( >=dev-python/pytest-8.3.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2024.8.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )

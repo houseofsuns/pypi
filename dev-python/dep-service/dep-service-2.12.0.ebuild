@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/dep-spec[${PYTHON_USEDEP}]
 	dev-python/flake8-docstrings[${PYTHON_USEDEP}]
 	dev-python/python-i18n[${PYTHON_USEDEP}]
 	<dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-httpx-0.22.0[${PYTHON_USEDEP}]

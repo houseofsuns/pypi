@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -106,7 +106,7 @@ DEPENDENCIES="dev-python/xoscar[${PYTHON_USEDEP}]
 	all? ( dev-python/FlagEmbedding[${PYTHON_USEDEP}] )
 	all? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	all? ( dev-python/controlnet-aux[${PYTHON_USEDEP}] )
-	all? ( dev-python/deepcache[${PYTHON_USEDEP}] )
+	all? ( dev-python/DeepCache[${PYTHON_USEDEP}] )
 	all? ( dev-python/verovio[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
@@ -205,7 +205,7 @@ DEPENDENCIES="dev-python/xoscar[${PYTHON_USEDEP}]
 	rerank? ( dev-python/FlagEmbedding[${PYTHON_USEDEP}] )
 	image? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	image? ( dev-python/controlnet-aux[${PYTHON_USEDEP}] )
-	image? ( dev-python/deepcache[${PYTHON_USEDEP}] )
+	image? ( dev-python/DeepCache[${PYTHON_USEDEP}] )
 	image? ( dev-python/verovio[${PYTHON_USEDEP}] )
 	image? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	image? ( dev-python/tiktoken[${PYTHON_USEDEP}] )

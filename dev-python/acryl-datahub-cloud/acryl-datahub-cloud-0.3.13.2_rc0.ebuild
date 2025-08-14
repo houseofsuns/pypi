@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.3.13.2rc0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/avro-gen3[${PYTHON_USEDEP}]
 	acryl-cs-issues? ( dev-python/openai[${PYTHON_USEDEP}] )
 	acryl-cs-issues? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	acryl-cs-issues? ( dev-python/zenpy[${PYTHON_USEDEP}] )
-	acryl-cs-issues? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	acryl-cs-issues? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	datahub-forms-notifications? ( dev-python/tenacity[${PYTHON_USEDEP}] )
 	all? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/avro-gen3[${PYTHON_USEDEP}]
 	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	all? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/opensearch-py-2.4.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/termcolor-2.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/avro-gen3[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/scipy-1.14.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/polars[${PYTHON_USEDEP}] )
 	dev? ( dev-python/acryl-datahub[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/opensearch-py-2.4.2[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pyarrow-18.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/elasticsearch-7.13.4[${PYTHON_USEDEP}] )

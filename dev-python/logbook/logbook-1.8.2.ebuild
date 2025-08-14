@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="Logbook"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
 	zmq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	compression? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/logbook[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )"

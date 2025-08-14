@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_12,3_11} )
+PYTHON_COMPAT=( python{3_12,3_13,3_14,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/rich-10.7.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.6[${PYTHON_USEDEP}]"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="colordiff dev fastimport fuzzing https merge paramiko pgp"
 DEPENDENCIES=">=dev-python/urllib3-1.25[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	fastimport? ( dev-python/fastimport[${PYTHON_USEDEP}] )
 	https? ( >=dev-python/urllib3-1.24.1[${PYTHON_USEDEP}] )
 	pgp? ( dev-python/gpg[${PYTHON_USEDEP}] )

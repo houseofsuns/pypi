@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="azure_devops dev dev-build dev-docs dev-licenses dev-lint dev-security dev-test dev-types github"
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -37,7 +37,6 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/ghapi[${PYTHON_USEDEP}]
 	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	azure_devops? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
 	azure_devops? ( dev-python/azure-devops-artifacts-helpers[${PYTHON_USEDEP}] )
@@ -73,7 +72,6 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev-types? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev-types? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	github? ( dev-python/ghapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

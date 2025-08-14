@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/related[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
 	<=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	develop? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	develop? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	develop? ( dev-python/jedi[${PYTHON_USEDEP}] )
 	develop? ( dev-python/epc[${PYTHON_USEDEP}] )

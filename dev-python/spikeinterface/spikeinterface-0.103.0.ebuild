@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,6 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs extractors full preprocessing qualitymetrics streaming-extractors test test-core test-extractors test-preprocessing widgets"
 DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/threadpoolctl-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
@@ -85,6 +86,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	test? ( dev-python/ibllib[${PYTHON_USEDEP}] )
 	test? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	test? ( dev-python/pynapple[${PYTHON_USEDEP}] )
+	test? ( dev-python/numba[${PYTHON_USEDEP}] )
 	test? ( dev-python/numba[${PYTHON_USEDEP}] )
 	test? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
 	test? ( dev-python/sortingview[${PYTHON_USEDEP}] )

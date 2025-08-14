@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all build docs test"
 DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.8.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.6.4[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.8[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.13.2[${PYTHON_USEDEP}]
-	dev-python/steam-materials[${PYTHON_USEDEP}]
+	dev-python/STEAM-materials[${PYTHON_USEDEP}]
 	dev-python/steam-magnetic-calculations[${PYTHON_USEDEP}]
 	~dev-python/svglib-1.5.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	~dev-python/sympy-1.13.3[${PYTHON_USEDEP}]
 	all? ( dev-python/gmsh[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/matplotlib-3.8.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpy-1.26.4[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pandas-2.2.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pydantic-2.6.4[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
 	all? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/ruamel-yaml-clib-0.2.8[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/seaborn-0.13.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/steam-materials[${PYTHON_USEDEP}] )
+	all? ( dev-python/STEAM-materials[${PYTHON_USEDEP}] )
 	all? ( dev-python/steam-magnetic-calculations[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/svglib-1.5.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )

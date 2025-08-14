@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/zmq[${PYTHON_USEDEP}]
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	web? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	web? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	web? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	all? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )

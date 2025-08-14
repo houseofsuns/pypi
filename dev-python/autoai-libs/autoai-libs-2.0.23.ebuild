@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/gensim[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoai-libs[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )
-	onnx? ( dev-python/onnxruntime-extensions[${PYTHON_USEDEP}] )
+	onnx? ( dev-python/onnxruntime_extensions[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnxmltools[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnxconverter-common[${PYTHON_USEDEP}] )

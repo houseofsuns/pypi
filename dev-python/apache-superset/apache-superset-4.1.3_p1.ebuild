@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="4.1.3.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/deprecation-2.2.0[${PYTHON_USEDEP}]
 	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-AppBuilder[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	<dev-python/flask-caching-3.0[${PYTHON_USEDEP}]
 	<dev-python/flask-compress-2.0[${PYTHON_USEDEP}]
 	dev-python/flask-talisman[${PYTHON_USEDEP}]
 	<dev-python/flask-login-1.0[${PYTHON_USEDEP}]
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	dremio? ( dev-python/sqlalchemy-dremio[${PYTHON_USEDEP}] )
 	drill? ( dev-python/sqlalchemy-drill[${PYTHON_USEDEP}] )
 	druid? ( dev-python/pydruid[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	dynamodb? ( dev-python/PyDynamoDB[${PYTHON_USEDEP}] )
 	solr? ( dev-python/sqlalchemy-solr[${PYTHON_USEDEP}] )
 	elasticsearch? ( dev-python/elasticsearch-dbapi[${PYTHON_USEDEP}] )
@@ -114,7 +114,6 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	gsheets? ( dev-python/shillelagh[${PYTHON_USEDEP}] )
 	hana? ( dev-python/hdbcli[${PYTHON_USEDEP}] )
 	hana? ( dev-python/sqlalchemy-hana[${PYTHON_USEDEP}] )
-	hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	hive? ( dev-python/tableschema[${PYTHON_USEDEP}] )
 	hive? ( <dev-python/thrift-1.0.0[${PYTHON_USEDEP}] )
@@ -139,7 +138,6 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	rockset? ( dev-python/rockset-sqlalchemy[${PYTHON_USEDEP}] )
 	shillelagh? ( dev-python/shillelagh[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	spark? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	spark? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	spark? ( dev-python/tableschema[${PYTHON_USEDEP}] )
 	spark? ( <dev-python/thrift-1.0[${PYTHON_USEDEP}] )

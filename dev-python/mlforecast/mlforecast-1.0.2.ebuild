@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-24.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasetsforecast[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruff[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	treeplot? ( dev-python/ete3[${PYTHON_USEDEP}] )
-	treeplot? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	treeplot? ( ~dev-python/pyqt5-5.12[${PYTHON_USEDEP}] )
 	treeplot? ( dev-python/sourmash[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,8 +27,8 @@ IUSE="numpy"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/oracledb[${PYTHON_USEDEP}]
-	numpy? ( >=dev-python/numpy-1.22.4[${PYTHON_USEDEP}] )
 	numpy? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	numpy? ( >=dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )"
+	numpy? ( >=dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
+	numpy? ( >=dev-python/numpy-2.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

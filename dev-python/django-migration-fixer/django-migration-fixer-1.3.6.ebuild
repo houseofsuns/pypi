@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy development docs lint test"
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
 	deploy? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	development? ( dev-python/django[${PYTHON_USEDEP}] )
-	development? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	development? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	development? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )

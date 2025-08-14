@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,6 @@ DEPENDENCIES="dev-python/typed-argument-parser[${PYTHON_USEDEP}]
 	>=dev-python/pymdown-extensions-9.0[${PYTHON_USEDEP}]
 	dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}]
 	dev-python/mkdocs-mermaid2-plugin[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	complexity-check? ( >=dev-python/radon-5.1[${PYTHON_USEDEP}] )
 	coverage-check? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	doc-gen? ( >=dev-python/mkdocs-1.4.0[${PYTHON_USEDEP}] )

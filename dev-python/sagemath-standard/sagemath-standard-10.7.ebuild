@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12,3_10} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,15 +30,12 @@ DEPENDENCIES=">=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/cysignals-1.10.2[${PYTHON_USEDEP}]
 	<dev-python/cython-4.0[${PYTHON_USEDEP}]
 	~dev-python/gmpy2-2.1_beta999[${PYTHON_USEDEP}]
-	>=dev-python/importlib-metadata-4.13[${PYTHON_USEDEP}]
-	>=dev-python/importlib-resources-5.7[${PYTHON_USEDEP}]
 	~dev-python/lrcalc-2.1[${PYTHON_USEDEP}]
 	dev-python/memory-allocator[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	dev-python/pkgconfig[${PYTHON_USEDEP}]
 	>=dev-python/primecountpy-0.1.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.13.0[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-9.0[${PYTHON_USEDEP}]

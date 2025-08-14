@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/dulwich-0.20.50[${PYTHON_USEDEP}]
 	~dev-python/paramiko-2.12.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-5.15.7[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	~dev-python/watchdog-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/pyopengl-3.1.6[${PYTHON_USEDEP}]"

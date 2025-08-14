@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -123,7 +123,7 @@ DEPENDENCIES="dev-python/adal[${PYTHON_USEDEP}]
 	~dev-python/deepmerge-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.12[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.44[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.37.0[${PYTHON_USEDEP}]
 	dev-python/hashmerge[${PYTHON_USEDEP}]
 	dev-python/himl[${PYTHON_USEDEP}]
@@ -131,7 +131,7 @@ DEPENDENCIES="dev-python/adal[${PYTHON_USEDEP}]
 	~dev-python/idna-3.10[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.7.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/lru_cache[${PYTHON_USEDEP}]

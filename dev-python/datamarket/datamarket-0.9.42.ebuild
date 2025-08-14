@@ -52,7 +52,7 @@ DEPENDENCIES="alchemy? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	httpx? ( <dev-python/httpx-0.29.0[${PYTHON_USEDEP}] )
 	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/jellyfish-2.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	json5? ( <dev-python/json5-0.11.0[${PYTHON_USEDEP}] )
 	lxml? ( <dev-python/lxml-6.0.0[${PYTHON_USEDEP}] )
 	nodriver? ( dev-python/nodriver[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="alchemy? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	pymupdf? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	pyproj? ( <dev-python/pyproj-4.0.0[${PYTHON_USEDEP}] )
 	pyrate-limiter? ( <dev-python/pyrate-limiter-4.0.0[${PYTHON_USEDEP}] )
-	pysocks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	pysocks? ( <dev-python/pysocks-2.0.0[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	pytest? ( <dev-python/pytest-9.0.0[${PYTHON_USEDEP}] )
 	dev-python/python-string-utils[${PYTHON_USEDEP}]

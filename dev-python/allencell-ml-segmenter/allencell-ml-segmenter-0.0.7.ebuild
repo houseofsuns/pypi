@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/allencell-ml-segmenter[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyqt5-5.15.9[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.33.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	project? ( dev-python/napari[${PYTHON_USEDEP}] )
@@ -41,8 +41,8 @@ DEPENDENCIES="dev-python/allencell-ml-segmenter[${PYTHON_USEDEP}]
 	test_lint? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test_lint? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test_lint? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test_lint? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	test_lint? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	test_lint? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	test_lint? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	test_lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test_lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	test_lint? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )"

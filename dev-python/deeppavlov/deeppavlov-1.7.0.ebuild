@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,18 +36,13 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	<dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	<dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/ipykernel-5.5.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/nbsphinx-0.8.4[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )

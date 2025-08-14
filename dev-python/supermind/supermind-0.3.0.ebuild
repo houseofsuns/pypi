@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,6 @@ DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.9[${PYTHON_USEDEP}]
 	~dev-python/python-snappy-0.6[${PYTHON_USEDEP}]
 	~dev-python/send2trash-1.8.2[${PYTHON_USEDEP}]
-	~dev-python/numpy-1.22.1[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-14.0.2[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.1.4[${PYTHON_USEDEP}]

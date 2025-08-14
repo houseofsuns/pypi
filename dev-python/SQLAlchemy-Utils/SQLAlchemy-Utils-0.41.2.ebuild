@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="arrow babel color encrypted intervals password pendulum phone test test-all timezone url"
 DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	arrow? ( >=dev-python/arrow-0.3.4[${PYTHON_USEDEP}] )
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( >=dev-python/babel-1.3[${PYTHON_USEDEP}] )
 	color? ( >=dev-python/colour-0.0.4[${PYTHON_USEDEP}] )
 	encrypted? ( >=dev-python/cryptography-0.6[${PYTHON_USEDEP}] )
 	intervals? ( dev-python/intervals[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	phone? ( >=dev-python/phonenumbers-5.9.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pygments-1.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jinja2-2.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/docutils-0.10[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flexmock-0.9.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/psycopg-3.1.8[${PYTHON_USEDEP}] )
@@ -48,8 +48,8 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flake8-2.4.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	test-all? ( dev-python/Babel[${PYTHON_USEDEP}] )
-	test-all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test-all? ( >=dev-python/babel-1.3[${PYTHON_USEDEP}] )
+	test-all? ( >=dev-python/jinja2-2.3[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/pygments-1.2[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/arrow-0.3.4[${PYTHON_USEDEP}] )
 	test-all? ( >=dev-python/colour-0.0.4[${PYTHON_USEDEP}] )

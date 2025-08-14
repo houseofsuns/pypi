@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/pyyaml-3.0.3[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>=dev-python/pyqt5-5.9[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.10.0[${PYTHON_USEDEP}]
 	>dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.5.0[${PYTHON_USEDEP}]

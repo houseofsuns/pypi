@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.28.0[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.18.1[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.19.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jupyter-client-8.6.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-core-5.6.0[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.4.5[${PYTHON_USEDEP}]

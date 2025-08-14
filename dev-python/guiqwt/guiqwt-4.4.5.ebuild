@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.3[${PYTHON_USEDEP}]
 	dev-python/guidata[${PYTHON_USEDEP}]
 	dev-python/PythonQwt[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-1.3[${PYTHON_USEDEP}]
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-1.1[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

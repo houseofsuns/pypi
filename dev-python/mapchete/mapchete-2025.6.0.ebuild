@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	complete? ( dev-python/memray[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pystac[${PYTHON_USEDEP}] )
 	complete? ( dev-python/requests[${PYTHON_USEDEP}] )
-	complete? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	complete? ( dev-python/rtree[${PYTHON_USEDEP}] )
 	complete? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tilebench[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/werkzeug-0.15[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	serve? ( dev-python/flask-rangerequest[${PYTHON_USEDEP}] )
 	serve? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
 	serve? ( >=dev-python/werkzeug-0.15[${PYTHON_USEDEP}] )
-	spatial-index? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	spatial-index? ( dev-python/rtree[${PYTHON_USEDEP}] )
 	stac? ( dev-python/pystac-client[${PYTHON_USEDEP}] )
 	stac? ( dev-python/pystac[${PYTHON_USEDEP}] )
 	vrt? ( dev-python/lxml[${PYTHON_USEDEP}] )"

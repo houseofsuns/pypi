@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/anyio-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/astor-0.8.1[${PYTHON_USEDEP}]
 	dev-python/attrdict[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.14.0[${PYTHON_USEDEP}]
 	dev-python/bce-python-sdk[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.7.0[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/anyio-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/cython-3.0.7[${PYTHON_USEDEP}]
 	~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.20.1[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
@@ -63,10 +63,10 @@ DEPENDENCIES="~dev-python/anyio-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-6.1.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/keyring-24.3.0[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.4.5[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	~dev-python/lazy-loader-0.3[${PYTHON_USEDEP}]
 	~dev-python/lmdb-1.4.1[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
@@ -102,9 +102,9 @@ DEPENDENCIES="~dev-python/anyio-4.2.0[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.1.1[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-5.15.10[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
-	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-sip-12.13.0[${PYTHON_USEDEP}]
 	dev-python/PyRect[${PYTHON_USEDEP}]
 	dev-python/PyScreeze[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]

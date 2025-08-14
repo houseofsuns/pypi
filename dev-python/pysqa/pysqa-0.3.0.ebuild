@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="remote sge twofactor"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.3.1[${PYTHON_USEDEP}]
 	<=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	remote? ( <=dev-python/paramiko-3.5.1[${PYTHON_USEDEP}] )

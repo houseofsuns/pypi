@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="devel devel-docs devel-test devel-types toml yaml"
+IUSE="devel devel-docs devel-test devel-types yaml"
 DEPENDENCIES="devel? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	devel? ( dev-python/mkchangelog[${PYTHON_USEDEP}] )
 	devel? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
@@ -38,7 +38,6 @@ DEPENDENCIES="devel? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	devel-test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	devel-test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devel-types? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

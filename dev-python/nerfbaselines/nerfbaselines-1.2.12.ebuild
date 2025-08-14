@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	web? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/livereload-2.7.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	web? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/typeguard-4.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/livereload-2.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )

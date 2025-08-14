@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,15 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="athena az bigquery cli clickhouse databricks dbml deltalake dremio duckdb filesystem gcp gs lancedb motherduck mssql parquet postgis postgres pyiceberg qdrant redshift s3 sftp snowflake sql-database sqlalchemy synapse weaviate workspace"
 DEPENDENCIES=">=dev-python/click-7.1[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2022.4.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.29[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
 	>=dev-python/humanize-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.10.1[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.1[${PYTHON_USEDEP}]
 	>=dev-python/pathvalidate-2.5.2[${PYTHON_USEDEP}]
+	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
@@ -70,6 +72,7 @@ DEPENDENCIES=">=dev-python/click-7.1[${PYTHON_USEDEP}]
 	clickhouse? ( >=dev-python/pyarrow-16.0.0[${PYTHON_USEDEP}] )
 	clickhouse? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
+	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	dbml? ( dev-python/pydbml[${PYTHON_USEDEP}] )
 	deltalake? ( dev-python/deltalake[${PYTHON_USEDEP}] )

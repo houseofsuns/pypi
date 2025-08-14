@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,6 +31,6 @@ DEPENDENCIES="<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}]
 	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]"
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

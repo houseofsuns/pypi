@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="centernet torch"
 DEPENDENCIES="dev-python/smqtk-core[${PYTHON_USEDEP}]
 	dev-python/smqtk-classifier[${PYTHON_USEDEP}]
 	dev-python/smqtk-dataprovider[${PYTHON_USEDEP}]
-	dev-python/smqtk-image-io[${PYTHON_USEDEP}]
 	dev-python/smqtk-image-io[${PYTHON_USEDEP}]
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	centernet? ( dev-python/torch[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/annotated-types-0.8[${PYTHON_USEDEP}]
 	<dev-python/click-log-0.5[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/exchange-calendars[${PYTHON_USEDEP}]
-	dev-python/ib-async[${PYTHON_USEDEP}]
+	dev-python/ib_async[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-11.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	dev-python/polyfactory[${PYTHON_USEDEP}]

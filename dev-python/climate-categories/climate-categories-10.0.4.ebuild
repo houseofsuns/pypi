@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,13 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES=">=dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
 	>=dev-python/natsort-8.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.2[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.1[${PYTHON_USEDEP}]
 	>=dev-python/immutables-0.20[${PYTHON_USEDEP}]
+	>=dev-python/immutables-0.21[${PYTHON_USEDEP}]
 	>=dev-python/black-22.1[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.1.3[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-8.3.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/xdoctest-1.2[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/cache-to-disk[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/duckdb_engine[${PYTHON_USEDEP}]
+	dev-python/duckdb-engine[${PYTHON_USEDEP}]
 	dev-python/entsoe-py[${PYTHON_USEDEP}]
 	app-template? ( dev-python/geojson-rewind[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/geojson-rewind[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	app-template? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
+	<dev-python/levenshtein-0.23.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]

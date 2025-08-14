@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.28[${PYTHON_USEDEP}]
 	~dev-python/flask-1.0[${PYTHON_USEDEP}]
 	~dev-python/httplib2-0.12[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-2.1[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.9[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
 	~dev-python/pandas-0.23[${PYTHON_USEDEP}]
@@ -59,7 +59,7 @@ DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-containerregistry[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-resource[${PYTHON_USEDEP}]
 	<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-kms[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

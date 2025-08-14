@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}]
 	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]

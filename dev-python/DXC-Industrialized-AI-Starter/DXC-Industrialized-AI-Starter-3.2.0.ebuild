@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/TPOT[${PYTHON_USEDEP}]
 	dev-python/pyaf[${PYTHON_USEDEP}]
 	dev-python/pandas-profiling[${PYTHON_USEDEP}]
 	dev-python/datacleaner[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.27[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.16.1[${PYTHON_USEDEP}]
 	dev-python/raiwidgets[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/TPOT[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}]
 	~dev-python/dnspython-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-6.0.1[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	dev-python/pygithub[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

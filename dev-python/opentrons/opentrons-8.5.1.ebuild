@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Opentrons API is a simple framework designed to make writing automated biology lab protocols easy. [top-max 8.6.0_alpha1]"
+DESCRIPTION="The Opentrons API is a simple framework designed to make writing automated biology lab protocols easy. [top-max 8.6.0_alpha2]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

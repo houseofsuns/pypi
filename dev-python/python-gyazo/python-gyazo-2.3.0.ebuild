@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs mypy test"
 DEPENDENCIES=">=dev-python/python-dateutil-2.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.7[${PYTHON_USEDEP}]
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/markupsafe-2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )

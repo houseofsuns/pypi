@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,6 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	>=dev-python/commonmark-0.9.1[${PYTHON_USEDEP}]
 	dev-python/monotable[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

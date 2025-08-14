@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
 	yellowbrick? ( <dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	scikit-learn? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0[${PYTHON_USEDEP}]
 	<dev-python/anytree-3.0.0[${PYTHON_USEDEP}]
 	google? ( ~dev-python/google-auth-2.16.1[${PYTHON_USEDEP}] )
 	google? ( <dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}] )
@@ -90,7 +90,6 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	timeseries? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	timeseries? ( dev-python/stumpy[${PYTHON_USEDEP}] )
 	alibi? ( <dev-python/protobuf-5.0[${PYTHON_USEDEP}] )
-	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	alibi? ( <dev-python/scikit-image-0.21[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

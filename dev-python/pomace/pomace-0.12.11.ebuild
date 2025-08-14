@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/cleo-3.0[${PYTHON_USEDEP}]
 	dev-python/datafiles[${PYTHON_USEDEP}]
 	dev-python/gitman[${PYTHON_USEDEP}]
 	<dev-python/parse-2.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-22.0[${PYTHON_USEDEP}]
 	dev-python/zipcodes[${PYTHON_USEDEP}]
 	dev-python/us[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]

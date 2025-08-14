@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs openapi test"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/babel-2.10[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/json5-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	docs? ( dev-python/autodoc-traits[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-3.2.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mistune-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )

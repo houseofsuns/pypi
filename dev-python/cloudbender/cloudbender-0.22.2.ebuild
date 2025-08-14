@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="~dev-python/boto3-1.39.0[${PYTHON_USEDEP}]
 	~dev-python/cfn-lint-1.36.1[${PYTHON_USEDEP}]
 	~dev-python/click-8.2.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/mock-5.2.0[${PYTHON_USEDEP}]
 	~dev-python/pexpect-4.9.0[${PYTHON_USEDEP}]
 	dev-python/pulumi-aws-native[${PYTHON_USEDEP}]

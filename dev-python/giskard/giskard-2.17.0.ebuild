@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/cloudpickle-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/xxhash-3.2.0[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
@@ -63,7 +63,6 @@ DEPENDENCIES=">=dev-python/cloudpickle-1.1.1[${PYTHON_USEDEP}]
 	talk? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )"
+	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

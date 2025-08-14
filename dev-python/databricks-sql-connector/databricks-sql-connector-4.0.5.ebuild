@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,9 @@ DEPENDENCIES="<dev-python/lz4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.3.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.3.0[${PYTHON_USEDEP}]
 	pyarrow? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
+	pyarrow? ( >=dev-python/pyarrow-18.0.0[${PYTHON_USEDEP}] )
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/thrift-0.21.0[${PYTHON_USEDEP}]

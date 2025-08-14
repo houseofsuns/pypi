@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/fasteners-0.18[${PYTHON_USEDEP}]
 	dev-python/fileformats-extras[${PYTHON_USEDEP}]
 	dev-python/fileformats[${PYTHON_USEDEP}]
-	dev-python/flit_scm[${PYTHON_USEDEP}]
+	>=dev-python/flit-scm-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/hatch-vcs-0.3.0[${PYTHON_USEDEP}]
 	>=dev-python/hatchling-1.12.2[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-1.4[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev? ( dev-python/autoapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jaxtyping[${PYTHON_USEDEP}] )
 	dev? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Nuitka[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nuitka-1.2.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numba[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandera[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev? ( dev-python/autoapi[${PYTHON_USEDEP}] )
 	test? ( dev-python/jaxtyping[${PYTHON_USEDEP}] )
 	test? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
-	test? ( dev-python/Nuitka[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nuitka-1.2.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/numba[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandera[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="dev? ( dev-python/autoapi[${PYTHON_USEDEP}] )
 	test-tox? ( dev-python/jaxtyping[${PYTHON_USEDEP}] )
 	test-tox? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	test-tox? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
-	test-tox? ( dev-python/Nuitka[${PYTHON_USEDEP}] )
+	test-tox? ( >=dev-python/nuitka-1.2.6[${PYTHON_USEDEP}] )
 	test-tox? ( dev-python/numba[${PYTHON_USEDEP}] )
 	test-tox? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test-tox? ( dev-python/pandera[${PYTHON_USEDEP}] )

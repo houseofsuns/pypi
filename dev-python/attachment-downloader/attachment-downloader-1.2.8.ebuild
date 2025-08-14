@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/assertpy[${PYTHON_USEDEP}]
 	dev-python/imbox[${PYTHON_USEDEP}]
 	~dev-python/iso8601-2.1.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	~dev-python/pylint-3.3.1[${PYTHON_USEDEP}]
 	~dev-python/pytest-8.3.3[${PYTHON_USEDEP}]

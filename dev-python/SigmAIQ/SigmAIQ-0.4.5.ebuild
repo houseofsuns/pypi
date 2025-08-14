@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/pySigma[${PYTHON_USEDEP}]
 	dev-python/pysigma-backend-crowdstrike[${PYTHON_USEDEP}]
 	dev-python/pySigma-backend-elasticsearch[${PYTHON_USEDEP}]
 	dev-python/pysigma-backend-insightidr[${PYTHON_USEDEP}]
-	dev-python/pysigma-backend-kusto[${PYTHON_USEDEP}]
+	dev-python/pySigma-backend-kusto[${PYTHON_USEDEP}]
 	dev-python/pysigma-backend-loki[${PYTHON_USEDEP}]
 	dev-python/pysigma-backend-netwitness[${PYTHON_USEDEP}]
 	dev-python/pySigma-backend-opensearch[${PYTHON_USEDEP}]

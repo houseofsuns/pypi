@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-10.1.0[${PYTHON_USEDEP}]
 	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
 	~dev-python/mypy-1.7.1[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/nh3-0.2.15[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}]

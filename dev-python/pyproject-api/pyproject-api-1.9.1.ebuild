@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES=">=dev-python/packaging-25.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.2.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/furo-2024.8.6[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autodoc-typehints-3.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/covdefaults[${PYTHON_USEDEP}] )

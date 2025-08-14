@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/accept-types[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.23.0[${PYTHON_USEDEP}]
 	~dev-python/pycurl-7.45.2[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	dev-python/python-geoip-geolite2-yplan[${PYTHON_USEDEP}]
 	dev-python/python-geoip-yplan[${PYTHON_USEDEP}]

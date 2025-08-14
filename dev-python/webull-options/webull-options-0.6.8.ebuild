@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -101,7 +101,7 @@ DEPENDENCIES="~dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-6.1.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/jsonpatch-1.33[${PYTHON_USEDEP}]
 	~dev-python/jsonpickle-3.0.2[${PYTHON_USEDEP}]
@@ -134,7 +134,7 @@ DEPENDENCIES="~dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
 	dev-python/multitasking[${PYTHON_USEDEP}]
 	dev-python/music21[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	dev-python/namex[${PYTHON_USEDEP}]
 	~dev-python/natsort-8.4.0[${PYTHON_USEDEP}]
 	~dev-python/nh3-0.2.14[${PYTHON_USEDEP}]
@@ -177,7 +177,7 @@ DEPENDENCIES="~dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/PyPika[${PYTHON_USEDEP}]
 	dev-python/pyreadline3[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
@@ -188,7 +188,7 @@ DEPENDENCIES="~dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/pywin32-ctypes[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
-	dev-python/Quart[${PYTHON_USEDEP}]
+	~dev-python/quart-0.19.4[${PYTHON_USEDEP}]
 	~dev-python/readme-renderer-42.0[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]

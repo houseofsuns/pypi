@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,6 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	>=dev-python/starlette-0.26.1[${PYTHON_USEDEP}]
 	>=dev-python/websockets-10.0.0[${PYTHON_USEDEP}]
 	dev-python/loro[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-2.0.0[${PYTHON_USEDEP}]

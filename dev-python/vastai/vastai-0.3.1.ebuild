@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/xdg[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.2.3[${PYTHON_USEDEP}]
 	dev-python/poetry-dynamic-versioning[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/curlify[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]

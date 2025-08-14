@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/twisted-24.11.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-44.0.0[${PYTHON_USEDEP}]
 	~dev-python/autobahn-24.4.2[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.36[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy_schemadisplay[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy-schemadisplay[${PYTHON_USEDEP}]
 	~dev-python/pydot-3.0.4[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/flask-3.1.0[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="~dev-python/twisted-24.11.0[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-8.0.4[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-8.3.4[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
 	~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
 	dev-python/PyQRCode[${PYTHON_USEDEP}]

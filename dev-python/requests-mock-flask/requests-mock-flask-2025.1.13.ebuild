@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/httpretty-1.1.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-8.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-spelling-8.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sybil-9.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sybil-extras[${PYTHON_USEDEP}] )

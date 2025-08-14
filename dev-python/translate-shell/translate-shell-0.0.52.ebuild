@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="color dev keyring langdetect llama lsp notification openai po repl rich stardict wakatime yaml"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	color? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	dev? ( dev-python/neovim[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pexpect[${PYTHON_USEDEP}] )
@@ -33,11 +32,11 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	keyring? ( dev-python/keyring[${PYTHON_USEDEP}] )
 	langdetect? ( dev-python/langdetect[${PYTHON_USEDEP}] )
-	llama? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	llama? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	llama? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
 	lsp? ( dev-python/pygls[${PYTHON_USEDEP}] )
 	notification? ( dev-python/py-notifier[${PYTHON_USEDEP}] )
-	openai? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	openai? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	openai? ( dev-python/opneai[${PYTHON_USEDEP}] )
 	po? ( dev-python/polib[${PYTHON_USEDEP}] )
 	po? ( dev-python/tqdm[${PYTHON_USEDEP}] )

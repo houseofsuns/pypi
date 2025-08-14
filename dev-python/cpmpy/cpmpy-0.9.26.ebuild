@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/ortools[${PYTHON_USEDEP}]
 	all? ( dev-python/PySDD[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-sat[${PYTHON_USEDEP}] )
 	all? ( dev-python/docplex[${PYTHON_USEDEP}] )
-	all? ( dev-python/exact[${PYTHON_USEDEP}] )
+	all? ( dev-python/Exact[${PYTHON_USEDEP}] )
 	all? ( dev-python/z3-solver[${PYTHON_USEDEP}] )
 	all? ( dev-python/gurobipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/gcspy[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/ortools[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
-	exact? ( dev-python/exact[${PYTHON_USEDEP}] )
+	exact? ( dev-python/Exact[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcspy[${PYTHON_USEDEP}] )
 	gurobi? ( dev-python/gurobipy[${PYTHON_USEDEP}] )
 	minizinc? ( dev-python/minizinc[${PYTHON_USEDEP}] )

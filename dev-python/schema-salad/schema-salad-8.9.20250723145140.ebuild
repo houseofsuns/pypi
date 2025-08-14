@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-1.0[${PYTHON_USEDEP}]
 	<dev-python/rdflib-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/mistune-3.1[${PYTHON_USEDEP}]
 	<dev-python/cachecontrol-0.15[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	dev-python/mypy-extensions[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/pytest-9.0[${PYTHON_USEDEP}] )

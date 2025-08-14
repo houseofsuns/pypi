@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/argon2-cffi-bindings-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/asttokens-2.0.7[${PYTHON_USEDEP}]
 	~dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.10.3[${PYTHON_USEDEP}]
 	dev-python/backcall[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	~dev-python/bleach-5.0.1[${PYTHON_USEDEP}]
@@ -55,10 +55,10 @@ DEPENDENCIES="~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.15.1[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.4.0[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-7.7.1[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.17.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/json5-0.9.9[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.9.1[${PYTHON_USEDEP}]
 	~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
@@ -111,7 +111,7 @@ DEPENDENCIES="~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-23.2.0[${PYTHON_USEDEP}]
 	~dev-python/qtconsole-5.3.1[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.9.0[${PYTHON_USEDEP}]

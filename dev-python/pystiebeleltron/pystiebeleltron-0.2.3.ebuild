@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/pymodbus[${PYTHON_USEDEP}]
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-asyncio-0.26.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-mock-3.14.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-8.3.5[${PYTHON_USEDEP}] )

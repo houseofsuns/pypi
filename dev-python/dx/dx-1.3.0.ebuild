@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocstrings-0.21[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocstrings-python-0.9.0[${PYTHON_USEDEP}] )
-	dev-python/duckdb_engine[${PYTHON_USEDEP}]
+	dev-python/duckdb-engine[${PYTHON_USEDEP}]
 	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -59,7 +59,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	~dev-python/httplib2-0.22.0[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.40[${PYTHON_USEDEP}]
 	dev-python/zhipuai[${PYTHON_USEDEP}]
 	~dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	~dev-python/nbclient-0.9.0[${PYTHON_USEDEP}]

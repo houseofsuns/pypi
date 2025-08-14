@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jinja2-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	all? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )

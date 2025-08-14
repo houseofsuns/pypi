@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	example? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	example? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	example? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	gui? ( dev-python/tkeasygui[${PYTHON_USEDEP}] )
+	gui? ( dev-python/TkEasyGUI[${PYTHON_USEDEP}] )
 	optional? ( dev-python/colorlog[${PYTHON_USEDEP}] )
 	optional? ( dev-python/torch[${PYTHON_USEDEP}] )
 	optional? ( dev-python/torchvision[${PYTHON_USEDEP}] )

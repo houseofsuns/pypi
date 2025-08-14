@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-compute[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	dev-python/openshift-cluster-management-python-wrapper[${PYTHON_USEDEP}]
 	dev-python/openshift-python-utilities[${PYTHON_USEDEP}]
 	dev-python/openshift-python-wrapper[${PYTHON_USEDEP}]

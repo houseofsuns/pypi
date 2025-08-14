@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,14 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/pydantic-1.5.1[${PYTHON_USEDEP}]
 	dev-python/acryl-datahub[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	>=dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	>dev-python/botocore-1.23.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pydantic-1.5.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.16.0[${PYTHON_USEDEP}] )
@@ -48,7 +46,7 @@ DEPENDENCIES=">=dev-python/pydantic-1.5.1[${PYTHON_USEDEP}]
 	dev? ( >dev-python/botocore-1.23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-freezegun[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

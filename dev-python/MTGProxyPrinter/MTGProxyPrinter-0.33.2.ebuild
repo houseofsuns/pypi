@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,15 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev package"
 DEPENDENCIES=">=dev-python/platformdirs-2.6.0[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	>=dev-python/ijson-3.1.0[${PYTHON_USEDEP}]
+	dev-python/pyqt5[${PYTHON_USEDEP}]
 	>=dev-python/ijson-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/ijson-3.2.1[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/delegateto[${PYTHON_USEDEP}]
 	>=dev-python/pyhamcrest-2.0[${PYTHON_USEDEP}]
 	dev-python/truststore[${PYTHON_USEDEP}]
-	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

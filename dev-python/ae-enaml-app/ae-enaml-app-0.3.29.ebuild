@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev tests"
 DEPENDENCIES="dev-python/atom[${PYTHON_USEDEP}]
 	dev-python/enaml[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/ae-files[${PYTHON_USEDEP}]
 	dev-python/ae-gui[${PYTHON_USEDEP}]
 	dev? ( dev-python/aedev-tpl-project[${PYTHON_USEDEP}] )

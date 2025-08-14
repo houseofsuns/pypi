@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/towncrier-25.0[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/quart-1.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	build? ( <dev-python/build-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

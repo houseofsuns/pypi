@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/aircot[${PYTHON_USEDEP}]
 	dev-python/pytak[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/websockets-11.0.0[${PYTHON_USEDEP}]
-	with-pymodes? ( dev-python/pymodes[${PYTHON_USEDEP}] )
+	with-pymodes? ( dev-python/pyModeS[${PYTHON_USEDEP}] )
 	with-takproto? ( dev-python/takproto[${PYTHON_USEDEP}] )
 	with-asyncinotify? ( dev-python/asyncinotify[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

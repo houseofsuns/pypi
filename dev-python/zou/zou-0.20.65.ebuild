@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint monitoring prod test"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/babel-2.17.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.2.1[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
 	~dev-python/email-validator-2.2.0[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/fido2-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/flasgger-0.9.7.1[${PYTHON_USEDEP}]
 	dev-python/Flask-Bcrypt[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-2.3.1[${PYTHON_USEDEP}]
 	dev-python/Flask-Fixtures[${PYTHON_USEDEP}]
 	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	dev-python/Flask-Principal[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/isoweek[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/ldap3-2.9.1[${PYTHON_USEDEP}]
 	~dev-python/matterhook-0.2[${PYTHON_USEDEP}]
 	dev-python/meilisearch[${PYTHON_USEDEP}]

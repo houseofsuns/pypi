@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="app"
 DEPENDENCIES="dev-python/build[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	app? ( dev-python/cmake[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.0.0b11"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,14 +50,14 @@ DEPENDENCIES="dev-python/azure-ai-resources[${PYTHON_USEDEP}]
 	index? ( dev-python/tika[${PYTHON_USEDEP}] )
 	index? ( <dev-python/pypdf-4.0[${PYTHON_USEDEP}] )
 	index? ( dev-python/unstructured[${PYTHON_USEDEP}] )
-	index? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	index? ( <dev-python/gitpython-4.0[${PYTHON_USEDEP}] )
 	index? ( dev-python/azure-search-documents[${PYTHON_USEDEP}] )
 	promptflow? ( dev-python/promptflow[${PYTHON_USEDEP}] )
 	promptflow? ( dev-python/promptflow-tools[${PYTHON_USEDEP}] )
 	qa-generation? ( dev-python/openai[${PYTHON_USEDEP}] )
 	simulator? ( >=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/aiohttp-retry[${PYTHON_USEDEP}] )
-	simulator? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	simulator? ( <dev-python/jinja2-4.0[${PYTHON_USEDEP}] )
 	simulator? ( <dev-python/json5-1.0[${PYTHON_USEDEP}] )
 	simulator? ( <dev-python/jsonpath-ng-2.0[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/msal[${PYTHON_USEDEP}] )

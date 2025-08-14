@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="peewee sqlalchemy yaml"
 DEPENDENCIES="dev-python/muffin[${PYTHON_USEDEP}]
 	dev-python/muffin-rest[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	peewee? ( dev-python/muffin-peewee-aio[${PYTHON_USEDEP}] )
 	peewee? ( dev-python/marshmallow-peewee[${PYTHON_USEDEP}] )

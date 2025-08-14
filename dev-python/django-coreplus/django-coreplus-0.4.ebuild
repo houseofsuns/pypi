@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="<=dev-python/django-4.2.3[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/django-notifications-hq[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	dev-python/django-polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-push-notifications[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="<=dev-python/django-4.2.3[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular-sidecar[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	dev-python/easy-thumbnails[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	<=dev-python/mistune-2.0.4[${PYTHON_USEDEP}]

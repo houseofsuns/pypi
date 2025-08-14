@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
 	extras? ( dev-python/bilby[${PYTHON_USEDEP}] )
 	extras? ( dev-python/coloredlogs[${PYTHON_USEDEP}] )
-	extras? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	extras? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	extras? ( dev-python/gwosc[${PYTHON_USEDEP}] )
 	extras? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	extras? ( dev-python/ligo-em-bright[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="anthropic argilla cohere dev docs faiss-cpu faiss-gpu groq hf-inference-endpoints hf-transformers instructor litellm llama-cpp minhash mistralai mlx ollama openai outlines ray sentence-transformers tests text-clustering vertexai vision vllm"
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.25.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/multiprocess-0.70[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]

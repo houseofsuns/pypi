@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/onnxsim[${PYTHON_USEDEP}]
 	>=dev-python/pebble-5.0[${PYTHON_USEDEP}]
 	dev-python/praat-parselmouth[${PYTHON_USEDEP}]
-	dev-python/pysimplegui-4-foss[${PYTHON_USEDEP}]
+	dev-python/PySimpleGUI-4-foss[${PYTHON_USEDEP}]
 	dev-python/pyworld[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]

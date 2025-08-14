@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/zope-interface-5.1.2[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-httpexample[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-2.11.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/colorlog-2.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/certifi[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/fiona[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.19.1[${PYTHON_USEDEP}]
 	dev-python/atlas[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]"
+	>=dev-python/rtree-0.8.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

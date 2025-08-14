@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,6 +45,7 @@ DEPENDENCIES=">=dev-python/zope-interface-5.5.2[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}] )
 	parallel? ( >=dev-python/ipyparallel-8.4.1[${PYTHON_USEDEP}] )
 	pyfftw? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
+	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	perf? ( >=dev-python/numexpr-2.8.1[${PYTHON_USEDEP}] )
 	perf? ( >=dev-python/cython-3.0.11[${PYTHON_USEDEP}] )

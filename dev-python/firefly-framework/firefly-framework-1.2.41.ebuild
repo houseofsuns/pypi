@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/dirsync[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	dev-python/jinjasql[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.10.3[${PYTHON_USEDEP}]
@@ -39,6 +39,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/websockets-8.0.2[${PYTHON_USEDEP}]
 	dev-python/firefly-dependency-injection[${PYTHON_USEDEP}]
 	openapi_generation? ( >=dev-python/apispec-3.3.0[${PYTHON_USEDEP}] )
-	openapi_generation? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )"
+	openapi_generation? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

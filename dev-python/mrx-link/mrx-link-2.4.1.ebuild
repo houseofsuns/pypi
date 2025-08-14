@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<=dev-python/black-22.12[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.19[${PYTHON_USEDEP}]
 	>=dev-python/isort-5.7[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	<dev-python/jupyterlab-4.3[${PYTHON_USEDEP}]
 	dev-python/mrx-link-core[${PYTHON_USEDEP}]
@@ -47,7 +47,6 @@ DEPENDENCIES="<=dev-python/black-22.12[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-mock-3.6[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/websockets-9.1[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

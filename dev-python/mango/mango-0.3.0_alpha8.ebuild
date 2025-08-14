@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.3.0a8"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli dashboard data gcloud models plot shap"
 DEPENDENCIES="<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
 	<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	<dev-python/et-xmlfile-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/idna-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]

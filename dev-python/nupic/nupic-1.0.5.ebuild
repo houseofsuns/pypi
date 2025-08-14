@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="viz"
-DEPENDENCIES="dev-python/DBUtils[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dbutils-1.1[${PYTHON_USEDEP}]
 	~dev-python/pymysql-0.6.2[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	~dev-python/asteval-0.9.1[${PYTHON_USEDEP}]

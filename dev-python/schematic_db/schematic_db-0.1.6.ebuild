@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-extensions-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pylint-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )

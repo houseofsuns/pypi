@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docsauto? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-salt-factories-1.0.0_rc21[${PYTHON_USEDEP}] )

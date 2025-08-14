@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,6 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/imutils[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/pytesseract[${PYTHON_USEDEP}]
@@ -35,6 +36,7 @@ DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/scikit-image-0.25.0[${PYTHON_USEDEP}]
 	dev-python/wand[${PYTHON_USEDEP}]
 	dev-python/pylibdmtx[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]

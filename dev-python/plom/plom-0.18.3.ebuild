@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/arrow-1.1.1[${PYTHON_USEDEP}]
 	dev-python/django-htmx[${PYTHON_USEDEP}]
 	dev-python/django-mathfilters[${PYTHON_USEDEP}]
 	dev-python/django-huey[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	>=dev-python/django-polymorphic-3.1.0[${PYTHON_USEDEP}]
 	dev-python/django-reset-migrations[${PYTHON_USEDEP}]
 	dev-python/django-session-timeout[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES=">=dev-python/arrow-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-qt-4.2.0[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-6.2.0[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.1.8[${PYTHON_USEDEP}]
 	dev-python/random-username[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -66,7 +66,6 @@ DEPENDENCIES=">=dev-python/arrow-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-74.0[${PYTHON_USEDEP}]
 	dev-python/stdiomask[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.11.7[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.63.2[${PYTHON_USEDEP}]
 	>=dev-python/weasyprint-57.0[${PYTHON_USEDEP}]

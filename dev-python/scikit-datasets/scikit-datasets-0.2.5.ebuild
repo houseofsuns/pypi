@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	utils-experiments? ( dev-python/sacred[${PYTHON_USEDEP}] )
 	utils-experiments? ( dev-python/incense[${PYTHON_USEDEP}] )
 	utils-scores? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	utils-scores? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	utils-scores? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

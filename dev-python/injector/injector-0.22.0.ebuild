@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-23.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/platformdirs-4.1.0[${PYTHON_USEDEP}] )

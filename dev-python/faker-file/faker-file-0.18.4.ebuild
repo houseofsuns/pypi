@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure bmp common data-augmentation django docx epub gcs gif images mp3 odp ods odt pdf pptx s3 sftp sqlalchemy tiff xlsx"
-DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
-	all? ( dev-python/Faker[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
+	all? ( dev-python/faker[${PYTHON_USEDEP}] )
 	all? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	all? ( dev-python/imgkit[${PYTHON_USEDEP}] )
 	all? ( dev-python/odfpy[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
 	azure? ( dev-python/pathy[${PYTHON_USEDEP}] )
 	bmp? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	bmp? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	common? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	common? ( dev-python/faker[${PYTHON_USEDEP}] )
 	common? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	common? ( dev-python/imgkit[${PYTHON_USEDEP}] )
 	common? ( dev-python/odfpy[${PYTHON_USEDEP}] )

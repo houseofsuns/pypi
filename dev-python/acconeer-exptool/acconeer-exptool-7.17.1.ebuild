@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/attributes-doc[${PYTHON_USEDEP}]
 	app? ( ~dev-python/pyqtgraph-0.13.7[${PYTHON_USEDEP}] )
 	app? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	app? ( dev-python/qtawesome[${PYTHON_USEDEP}] )
-	app? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	app? ( >=dev-python/qtpy-2.3.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )

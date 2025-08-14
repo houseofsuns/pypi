@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/faker-12.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/lorem[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-spec[${PYTHON_USEDEP}] )

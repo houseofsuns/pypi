@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_12,3_11} )
+PYTHON_COMPAT=( python{3_12,3_13,3_14,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,18 +30,18 @@ DEPENDENCIES="dev-python/atom[${PYTHON_USEDEP}]
 	dev-python/pegen[${PYTHON_USEDEP}]
 	ipython-qt? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
 	matplotlib-qt? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	qt5-pyqt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	qt5-pyqt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qt5-pyside? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	qt5-pyside? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	qt6-pyqt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	qt6-pyqt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	qt6-pyside? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	qt5-pyqt? ( >=dev-python/qtpy-2.1.0[${PYTHON_USEDEP}] )
+	qt5-pyqt? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	qt5-pyside? ( >=dev-python/qtpy-2.1.0[${PYTHON_USEDEP}] )
+	qt5-pyside? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	qt6-pyqt? ( >=dev-python/qtpy-2.1.0[${PYTHON_USEDEP}] )
+	qt6-pyqt? ( >=dev-python/pyqt6-6.3.1[${PYTHON_USEDEP}] )
+	qt6-pyside? ( >=dev-python/qtpy-2.3.0[${PYTHON_USEDEP}] )
 	qt6-pyside? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	scintilla-qt5-pyqt? ( dev-python/QScintilla[${PYTHON_USEDEP}] )
+	scintilla-qt5-pyqt? ( dev-python/qscintilla[${PYTHON_USEDEP}] )
 	scintilla-qt6-pyqt? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
 	vtk-qt? ( dev-python/vtk[${PYTHON_USEDEP}] )
-	webview-qt5-pyqt? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
-	webview-qt6-pyqt? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )"
+	webview-qt5-pyqt? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
+	webview-qt6-pyqt? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

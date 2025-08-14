@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Glue to stick OptionParser and ConfigParser together [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb1310fbb50>)]"
+DESCRIPTION="Glue to stick OptionParser and ConfigParser together [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37d9c3cf90>)]"
 
 HOMEPAGE="https://launchpad.net/configglue"
 LICENSE="BSD"

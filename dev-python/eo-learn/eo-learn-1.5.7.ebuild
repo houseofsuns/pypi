@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/graphviz-0.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/moto-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/graphviz-0.10.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	extra? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	extra? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/graphviz-0.10.1[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	full? ( dev-python/numba[${PYTHON_USEDEP}] )
 	full? ( dev-python/pygments[${PYTHON_USEDEP}] )
@@ -92,7 +92,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	full? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	visualization? ( >=dev-python/graphviz-0.10.1[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	visualization? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/s3fs[${PYTHON_USEDEP}] )

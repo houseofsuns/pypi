@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE=""
 DEPENDENCIES="<dev-python/absl-py-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-4.25.2[${PYTHON_USEDEP}]
-	<dev-python/protobuf-4.22[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,7 +54,7 @@ DEPENDENCIES="all? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
 	all? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter-bokeh[${PYTHON_USEDEP}] )
+	all? ( dev-python/jupyter_bokeh[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnx2torch[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scikit-image-0.25.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/richfile[${PYTHON_USEDEP}] )
@@ -90,7 +90,7 @@ DEPENDENCIES="all? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
 	all-latest? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )
 	all-latest? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	all-latest? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	all-latest? ( dev-python/jupyter-bokeh[${PYTHON_USEDEP}] )
+	all-latest? ( dev-python/jupyter_bokeh[${PYTHON_USEDEP}] )
 	all-latest? ( dev-python/onnx2torch[${PYTHON_USEDEP}] )
 	all-latest? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all-latest? ( dev-python/richfile[${PYTHON_USEDEP}] )
@@ -123,7 +123,7 @@ DEPENDENCIES="all? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
 	classification? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	classification? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	classification? ( dev-python/holoviews[${PYTHON_USEDEP}] )
-	classification? ( dev-python/jupyter-bokeh[${PYTHON_USEDEP}] )
+	classification? ( dev-python/jupyter_bokeh[${PYTHON_USEDEP}] )
 	classification? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	classification? ( ~dev-python/matplotlib-3.10.5[${PYTHON_USEDEP}] )
 	classification? ( dev-python/mat73[${PYTHON_USEDEP}] )

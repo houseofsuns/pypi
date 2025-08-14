@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/datatypes[${PYTHON_USEDEP}]
 	tests? ( dev-python/testdata[${PYTHON_USEDEP}] )
 	tests? ( dev-python/daphne[${PYTHON_USEDEP}] )
 	websockets? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
-	templates? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	templates? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

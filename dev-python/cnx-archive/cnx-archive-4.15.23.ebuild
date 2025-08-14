@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
 	dev-python/cnx-transforms[${PYTHON_USEDEP}]
 	dev-python/hupper[${PYTHON_USEDEP}]
 	~dev-python/idna-2.10[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.4.3[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]

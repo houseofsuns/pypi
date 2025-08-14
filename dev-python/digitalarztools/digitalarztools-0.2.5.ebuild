@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/dotenv[${PYTHON_USEDEP}]
 	dev-python/earthengine-api[${PYTHON_USEDEP}]
 	dev-python/eccodes[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-2.0.0[${PYTHON_USEDEP}]
 	dev-python/findlibs[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
 	~dev-python/flatbuffers-24.3.25[${PYTHON_USEDEP}]
@@ -85,11 +85,11 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.4.0[${PYTHON_USEDEP}]
 	~dev-python/jaraco-context-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/jaraco-functools-4.1.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.4.2[${PYTHON_USEDEP}]
 	~dev-python/keyring-25.5.0[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	~dev-python/lazy-loader-0.4[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.3.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-3.0.2[${PYTHON_USEDEP}]
@@ -139,7 +139,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/rio-cogeo[${PYTHON_USEDEP}]
 	dev-python/rio-tiler[${PYTHON_USEDEP}]
 	~dev-python/rsa-4.9[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	~dev-python/rtree-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/s3transfer-0.10.4[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.24.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.5.2[${PYTHON_USEDEP}]

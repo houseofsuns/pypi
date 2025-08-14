@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -65,7 +65,7 @@ DEPENDENCIES=">=dev-python/numpy-2.0.2[${PYTHON_USEDEP}]
 	full? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	full? ( dev-python/kivymd[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pyqt5-5.15.9[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/tox-4.11.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/markdownify[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"

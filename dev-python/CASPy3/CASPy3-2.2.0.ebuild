@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyqt5-5.15.0[${PYTHON_USEDEP}]
+	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pyperclip-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]

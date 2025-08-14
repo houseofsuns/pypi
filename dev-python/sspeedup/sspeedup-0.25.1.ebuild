@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,9 +35,9 @@ DEPENDENCIES="<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	ability-word-split? ( ~dev-python/httpx-0.0[${PYTHON_USEDEP}] )
 	api-sanic? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )
 	api-sanic? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
-	config? ( dev-python/msgspec[${PYTHON_USEDEP}] )
-	feishu-bitable? ( dev-python/msgspec[${PYTHON_USEDEP}] )
-	api-litestar? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	config? ( ~dev-python/msgspec-0.0[${PYTHON_USEDEP}] )
+	feishu-bitable? ( ~dev-python/msgspec-0.0[${PYTHON_USEDEP}] )
+	api-litestar? ( ~dev-python/msgspec-0.0[${PYTHON_USEDEP}] )
 	api-litestar? ( dev-python/litestar[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

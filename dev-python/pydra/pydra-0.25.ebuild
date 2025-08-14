@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES=">=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fileformats[${PYTHON_USEDEP}]
-	>=dev-python/importlib-resources-5.7[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pydra[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )

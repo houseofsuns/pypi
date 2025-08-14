@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="dev doc tests"
 DEPENDENCIES=">=dev-python/filelock-3.12.3[${PYTHON_USEDEP}]
 	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<=dev-python/setuptools-80.9.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	dev-python/patchelf[${PYTHON_USEDEP}]
 	dev-python/patchelf[${PYTHON_USEDEP}]
 	dev-python/patchelf[${PYTHON_USEDEP}]

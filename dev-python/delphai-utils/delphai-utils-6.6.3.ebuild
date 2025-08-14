@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="streaming? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	grpc? ( <dev-python/hypercorn-0.11.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/validate_email[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/ipaddress[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/starlette-prometheus[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -47,11 +47,11 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	mp? ( dev-python/mp-api[${PYTHON_USEDEP}] )
 	crystal-space? ( dev-python/SMACT[${PYTHON_USEDEP}] )
-	crystal-space? ( dev-python/elementembeddings[${PYTHON_USEDEP}] )
+	crystal-space? ( dev-python/ElementEmbeddings[${PYTHON_USEDEP}] )
 	crystal-space? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	crystal-space? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	featurisers? ( dev-python/matminer[${PYTHON_USEDEP}] )
-	featurisers? ( dev-python/elementembeddings[${PYTHON_USEDEP}] )
+	featurisers? ( dev-python/ElementEmbeddings[${PYTHON_USEDEP}] )
 	visualisation? ( >=dev-python/seaborn-0.13.2[${PYTHON_USEDEP}] )
 	visualisation? ( dev-python/pymatviz[${PYTHON_USEDEP}] )
 	visualisation? ( dev-python/dash[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	optional? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	optional? ( dev-python/ase[${PYTHON_USEDEP}] )
 	optional? ( dev-python/llvmlite[${PYTHON_USEDEP}] )
-	optional? ( dev-python/elementembeddings[${PYTHON_USEDEP}] )
+	optional? ( dev-python/ElementEmbeddings[${PYTHON_USEDEP}] )
 	optional? ( dev-python/dash[${PYTHON_USEDEP}] )
 	optional? ( dev-python/SMACT[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pandarallel[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	strict? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	strict? ( dev-python/ase[${PYTHON_USEDEP}] )
 	strict? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	strict? ( dev-python/elementembeddings[${PYTHON_USEDEP}] )
+	strict? ( dev-python/ElementEmbeddings[${PYTHON_USEDEP}] )
 	strict? ( dev-python/dash[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

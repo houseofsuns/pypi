@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="~dev-python/pytz-2025.2[${PYTHON_USEDEP}]
 	<dev-python/django-4.3[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.15.2[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-13.15.0[${PYTHON_USEDEP}]
 	~dev-python/pylint-3.3.7[${PYTHON_USEDEP}]
 	~dev-python/setuptools-80.9.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.5.2[${PYTHON_USEDEP}]

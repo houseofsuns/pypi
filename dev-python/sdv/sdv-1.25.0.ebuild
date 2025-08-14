@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,9 +30,10 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.13.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
-	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.29[${PYTHON_USEDEP}]
 	dev-python/copulas[${PYTHON_USEDEP}]
 	dev-python/ctgan[${PYTHON_USEDEP}]
@@ -54,7 +55,7 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	test? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	test? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	pomegranate? ( dev-python/pomegranate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sdv[${PYTHON_USEDEP}] )
@@ -70,7 +71,7 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/markupsafe-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/lxml-html-clean-0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja2-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-1.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )

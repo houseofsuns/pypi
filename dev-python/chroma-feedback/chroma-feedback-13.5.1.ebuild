@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/busylight-for-humans[${PYTHON_USEDEP}]
 	dev-python/nanoleafapi[${PYTHON_USEDEP}]
 	dev-python/phue[${PYTHON_USEDEP}]
 	dev-python/python-magichue[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	~dev-python/pyqt6-6.9.1[${PYTHON_USEDEP}]
 	dev-python/pywizlight[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	dev-python/streamdeck[${PYTHON_USEDEP}]

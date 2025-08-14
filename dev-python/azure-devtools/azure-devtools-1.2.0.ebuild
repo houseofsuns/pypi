@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci_tools"
-DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/configargparse-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/vcrpy-1.11.0[${PYTHON_USEDEP}]
-	ci_tools? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
-	ci_tools? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	ci_tools? ( >=dev-python/pygithub-1.40[${PYTHON_USEDEP}] )
+	ci_tools? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	ci_tools? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

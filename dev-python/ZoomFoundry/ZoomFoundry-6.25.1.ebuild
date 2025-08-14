@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pymysql-0.10.1[${PYTHON_USEDEP}]
 	>=dev-python/passlib-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/markdown-2.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pillow-1.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	dev-python/faker[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	<=dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
 	dev-python/croniter[${PYTHON_USEDEP}]

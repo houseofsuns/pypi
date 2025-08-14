@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="examples graphql"
 DEPENDENCIES="examples? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	examples? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	examples? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	examples? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	examples? ( dev-python/bson[${PYTHON_USEDEP}] )
 	examples? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pydantic[${PYTHON_USEDEP}] )

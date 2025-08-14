@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="format_js format_python"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	format_js? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	format_python? ( dev-python/black[${PYTHON_USEDEP}] )"

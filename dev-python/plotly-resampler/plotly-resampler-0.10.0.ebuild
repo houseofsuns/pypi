@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,6 @@ DEPENDENCIES="inline-persistent? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
 	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	inline-persistent? ( <dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}] )

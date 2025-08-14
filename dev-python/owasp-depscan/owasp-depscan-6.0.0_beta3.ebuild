@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="6.0.0b3"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/appthreat-vulnerability-db[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
 	dev-python/cvss[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.2.1[${PYTHON_USEDEP}]
@@ -41,16 +41,16 @@ DEPENDENCIES="dev-python/appthreat-vulnerability-db[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-8.3.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/httpretty-1.1.4[${PYTHON_USEDEP}] )
-	server? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/quart-0.20.0[${PYTHON_USEDEP}] )
 	ext? ( dev-python/atom-tools[${PYTHON_USEDEP}] )
 	ext? ( dev-python/blint[${PYTHON_USEDEP}] )
 	ext? ( dev-python/pdfkit[${PYTHON_USEDEP}] )
 	perf? ( >=dev-python/hishel-0.1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/atom-tools[${PYTHON_USEDEP}] )
 	all? ( dev-python/blint[${PYTHON_USEDEP}] )
-	all? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/quart-0.20.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdfkit[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pygithub-2.6.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/hishel-0.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

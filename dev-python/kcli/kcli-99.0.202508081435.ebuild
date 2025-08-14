@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="all aws azure gcp hcloud ibm openstack ovirt proxmox vsphere"
 DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	>=dev-python/libvirt-python-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pyghmi[${PYTHON_USEDEP}] )
 	all? ( dev-python/podman[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,13 +46,14 @@ DEPENDENCIES="<dev-python/aiofiles-24.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-8.0.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/towncrier-24.8.0[${PYTHON_USEDEP}] )
 	fast? ( >=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}] )
 	fast? ( >=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
-	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	fast? ( >=dev-python/uvloop-0.21.0[${PYTHON_USEDEP}] )
+	i18n? ( <dev-python/babel-3.0[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/motor[${PYTHON_USEDEP}] )
 	proxy? ( ~dev-python/aiohttp-socks-0.8.3[${PYTHON_USEDEP}] )
 	redis? ( <dev-python/redis-5.3.0[${PYTHON_USEDEP}] )

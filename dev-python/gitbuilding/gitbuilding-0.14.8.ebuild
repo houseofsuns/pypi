@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/latex2mathml[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.22[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	>=dev-python/regex-2022.1.18[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev? ( dev-python/curlylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydeps[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

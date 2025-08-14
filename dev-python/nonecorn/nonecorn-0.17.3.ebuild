@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,8 +29,6 @@ DEPENDENCIES="dev-python/h11[${PYTHON_USEDEP}]
 	dev-python/priority[${PYTHON_USEDEP}]
 	>=dev-python/exceptiongroup-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/wsproto-0.14.0[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/taskgroup[${PYTHON_USEDEP}]
 	h3? ( <dev-python/aioquic-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )

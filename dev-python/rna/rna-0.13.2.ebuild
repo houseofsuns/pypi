@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="config? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	pyqtgraph? ( dev-python/PyQt5-Qt5[${PYTHON_USEDEP}] )
-	pyqtgraph? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqtgraph? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	config? ( dev-python/omegaconf[${PYTHON_USEDEP}] )

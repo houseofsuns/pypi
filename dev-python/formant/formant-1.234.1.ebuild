@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,6 @@ DEPENDENCIES="~dev-python/grpcio-status-1.37.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.37.1[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	<=dev-python/protobuf-3.19.5[${PYTHON_USEDEP}]
-	<=dev-python/googleapis-common-protos-1.63.1[${PYTHON_USEDEP}]"
+	<=dev-python/protobuf-3.19.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

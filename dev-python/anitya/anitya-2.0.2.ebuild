@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
-	dev-python/anitya-schema[${PYTHON_USEDEP}]
+	dev-python/anitya_schema[${PYTHON_USEDEP}]
 	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/flask-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/flask-login-0.7.0[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.1.7[${PYTHON_USEDEP}]
 	<dev-python/ordered-set-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-26.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.33[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2022.8.12[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.4[${PYTHON_USEDEP}]
 	build? ( >=dev-python/meson-python-0.16[${PYTHON_USEDEP}] )
 	build? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/cython-3.0.8[${PYTHON_USEDEP}] )
@@ -42,7 +42,6 @@ DEPENDENCIES=">=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	data? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	developer? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	developer? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-gallery-0.18[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.7[${PYTHON_USEDEP}] )

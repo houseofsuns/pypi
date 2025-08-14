@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/dacite[${PYTHON_USEDEP}]
 	jax? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	jax? ( dev-python/tf2onnx[${PYTHON_USEDEP}] )
 	jax? ( <dev-python/protobuf-3.21.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/gitpython-3.1.30[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )
@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/dacite[${PYTHON_USEDEP}]
 	test? ( ~dev-python/tenacity-8.4.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tox-3.23.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}] )
-	doc? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/gitpython-3.1.30[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-htmlproofer-plugin-0.8.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-material-8.5.6[${PYTHON_USEDEP}] )

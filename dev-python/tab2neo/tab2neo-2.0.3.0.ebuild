@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	~dev-python/cryptography-38.0.3[${PYTHON_USEDEP}]
 	dev-python/datacompy[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
 	dev-python/JayDeBeApi[${PYTHON_USEDEP}]
-	dev-python/JPype1[${PYTHON_USEDEP}]
+	dev-python/jpype1[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/msal-extensions[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	~dev-python/portalocker-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.55[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pyreadr[${PYTHON_USEDEP}]

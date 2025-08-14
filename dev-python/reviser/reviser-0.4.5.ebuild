@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="shell"
 DEPENDENCIES="shell? ( >=dev-python/boto3-1.35.88[${PYTHON_USEDEP}] )
 	shell? ( >=dev-python/colorama-0.4.4[${PYTHON_USEDEP}] )
-	shell? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	shell? ( >=dev-python/jinja2-2.11.2[${PYTHON_USEDEP}] )
 	shell? ( >=dev-python/prompt-toolkit-3.0.8[${PYTHON_USEDEP}] )
 	shell? ( >=dev-python/pyyaml-5.3.0[${PYTHON_USEDEP}] )
 	shell? ( dev-python/pipper[${PYTHON_USEDEP}] )

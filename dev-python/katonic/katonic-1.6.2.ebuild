@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -88,7 +88,7 @@ DEPENDENCIES="~dev-python/boto3-1.19.12[${PYTHON_USEDEP}]
 	fe? ( ~dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}] )
 	filemanager? ( >=dev-python/boto3-1.19.12[${PYTHON_USEDEP}] )
 	filemanager? ( dev-python/minio[${PYTHON_USEDEP}] )
-	fs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	fs? ( <dev-python/jinja2-4.0[${PYTHON_USEDEP}] )
 	fs? ( <dev-python/sqlalchemy-1.4.32[${PYTHON_USEDEP}] )
 	fs? ( dev-python/delta[${PYTHON_USEDEP}] )
 	fs? ( dev-python/delta-spark[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/certifi-2024.8.30[${PYTHON_USEDEP}]
 	dev-python/cruft[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.27[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-6.25.2[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-client-8.3.1[${PYTHON_USEDEP}]
 	dev-python/kvakk-git-tools[${PYTHON_USEDEP}]
 	>=dev-python/poetry-2.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	>=dev-python/pygithub-1.55[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]

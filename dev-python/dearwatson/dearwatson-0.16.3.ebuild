@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/pillow-11.2.1[${PYTHON_USEDEP}]
-	dev-python/pytransit[${PYTHON_USEDEP}]
+	dev-python/PyTransit[${PYTHON_USEDEP}]
 	~dev-python/reportlab-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	dev-python/triceratops[${PYTHON_USEDEP}]"

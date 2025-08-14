@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/wheel-0.22[${PYTHON_USEDEP}]
 	dev-python/spambind[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/docutils-0.16[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/wheel-0.22[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-pyproject[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	graphical? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	graphical? ( >=dev-python/pyqt5-5.14.2[${PYTHON_USEDEP}] )
 	graphical? ( dev-python/qimage2ndarray[${PYTHON_USEDEP}] )
 	all? ( dev-python/spam[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

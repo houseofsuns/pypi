@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES=">=dev-python/colorama-0.3.4[${PYTHON_USEDEP}]
 	tests? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	tests? ( dev-python/twine[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	typing? ( dev-python/mypy-extensions[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypytools[${PYTHON_USEDEP}] )
 	typing? ( dev-python/typed-ast[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

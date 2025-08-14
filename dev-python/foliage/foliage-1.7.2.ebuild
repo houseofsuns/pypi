@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-5.15.9[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.5[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plac[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyqt5-5.15.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-decouple[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/rich-13.3.5[${PYTHON_USEDEP}] )

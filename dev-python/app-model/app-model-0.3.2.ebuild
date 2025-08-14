@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,19 +30,19 @@ DEPENDENCIES="dev-python/in-n-out[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.18[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12[${PYTHON_USEDEP}]
 	pyqt5? ( dev-python/PyQt5-Qt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/pyqt5-5.15.10[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/qtpy-2.4.0[${PYTHON_USEDEP}] )
 	pyqt5? ( >=dev-python/superqt-0.7.2[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	pyqt6? ( >=dev-python/pyqt6-6.4.0[${PYTHON_USEDEP}] )
+	pyqt6? ( >=dev-python/qtpy-2.4.0[${PYTHON_USEDEP}] )
 	pyqt6? ( >=dev-python/superqt-0.7.2[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	pyside2? ( >=dev-python/qtpy-2.4.0[${PYTHON_USEDEP}] )
 	pyside2? ( >=dev-python/superqt-0.7.2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	pyside6? ( >=dev-python/qtpy-2.4.0[${PYTHON_USEDEP}] )
 	pyside6? ( >=dev-python/superqt-0.7.2[${PYTHON_USEDEP}] )
-	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	qt? ( >=dev-python/qtpy-2.4.0[${PYTHON_USEDEP}] )
 	qt? ( >=dev-python/superqt-0.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="battery-upower? ( dev-python/dbus-python[${PYTHON_USEDEP}] )
 	cpu? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	cpu2? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	currency? ( dev-python/requests[${PYTHON_USEDEP}] )
-	currency? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	currency? ( dev-python/babel[${PYTHON_USEDEP}] )
 	docker-ps? ( dev-python/docker[${PYTHON_USEDEP}] )
 	getcrypto? ( dev-python/requests[${PYTHON_USEDEP}] )
 	git? ( dev-python/pygit2[${PYTHON_USEDEP}] )

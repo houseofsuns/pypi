@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/gitpython-3.1.43[${PYTHON_USEDEP}]
 	dev-python/btest[${PYTHON_USEDEP}]
 	>=dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )

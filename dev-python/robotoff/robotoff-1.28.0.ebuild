@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-3.20.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<dev-python/apscheduler-3.9.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-8.10.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
 	<dev-python/typer-0.8.0[${PYTHON_USEDEP}]

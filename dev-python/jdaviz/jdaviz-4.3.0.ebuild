@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/pysiaf[${PYTHON_USEDEP}] )
 	all? ( dev-python/strauss[${PYTHON_USEDEP}] )
-	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	all? ( dev-python/roman-datamodels[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	roman? ( dev-python/roman-datamodels[${PYTHON_USEDEP}] )
 	strauss? ( dev-python/strauss[${PYTHON_USEDEP}] )
-	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	qt? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

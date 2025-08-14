@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/EXtra-data[${PYTHON_USEDEP}]
 	dev-python/PyCifRW[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	<dev-python/pyqt6-7.0[${PYTHON_USEDEP}]
+	<dev-python/qtpy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	<dev-python/lmfit-2.0.0[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/EXtra-data[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pyFAI[${PYTHON_USEDEP}]
 	<dev-python/pyopengl-4.0.0[${PYTHON_USEDEP}]
-	dev-python/pyopengl_accelerate[${PYTHON_USEDEP}]
+	<dev-python/pyopengl-accelerate-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyqtgraph-0.14.0[${PYTHON_USEDEP}]
 	dev-python/pyshortcuts[${PYTHON_USEDEP}]
 	dev-python/qt-material[${PYTHON_USEDEP}]

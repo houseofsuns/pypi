@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	asyncio? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/aiortc[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	asyncio? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	asyncio? ( >=dev-python/msgpack-1.1.0_rc1[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
 	asyncio? ( >=dev-python/mss-9.0.1[${PYTHON_USEDEP}] )

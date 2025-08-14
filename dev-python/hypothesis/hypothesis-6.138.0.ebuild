@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli codemods crosshair dateutil django dpcontracts ghostwriter lark numpy pandas pytest pytz redis watchdog"
 DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
-	>=dev-python/exceptiongroup-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )

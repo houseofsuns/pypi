@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -63,13 +63,12 @@ DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/texext[${PYTHON_USEDEP}] )
-	doc? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-gallery-0.10.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/grg-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/asv[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pyperf[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"

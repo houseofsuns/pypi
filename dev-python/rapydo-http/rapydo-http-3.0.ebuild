@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev types"
 DEPENDENCIES="~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	dev-python/flask-apispec[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.29[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.13.1[${PYTHON_USEDEP}]
@@ -64,7 +64,7 @@ DEPENDENCIES="~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-timeout-2.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-sugar-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/faker-24.14.0[${PYTHON_USEDEP}] )
 	types? ( dev-python/rapydo-http[${PYTHON_USEDEP}] )
 	types? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
 	types? ( ~dev-python/lxml-5.2.1[${PYTHON_USEDEP}] )

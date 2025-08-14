@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<=dev-python/numpy-2.3.0[${PYTHON_USEDEP}]
 	<=dev-python/packaging-25.0[${PYTHON_USEDEP}]
 	<=dev-python/pyarrow-20.0.0[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.3.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	<=dev-python/faker-37.3.0[${PYTHON_USEDEP}]
 	<=dev-python/numexpr-2.10.2[${PYTHON_USEDEP}]
 	~dev-python/setuptools-scm-8.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

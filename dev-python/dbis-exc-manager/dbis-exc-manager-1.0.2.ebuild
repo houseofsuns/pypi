@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build test"
 DEPENDENCIES="~dev-python/ipython-8.4[${PYTHON_USEDEP}]
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
+	~dev-python/levenshtein-0.23[${PYTHON_USEDEP}]
 	~dev-python/requests-2.27[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	test? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )

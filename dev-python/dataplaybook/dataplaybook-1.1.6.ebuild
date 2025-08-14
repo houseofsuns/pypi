@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Office365-REST-Python-Client[${PYTHON_USEDEP}]
 	<dev-python/cattrs-26.0[${PYTHON_USEDEP}]
 	dev-python/colordict[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.1.5[${PYTHON_USEDEP}]
 	~dev-python/beartype-0.20.2[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]

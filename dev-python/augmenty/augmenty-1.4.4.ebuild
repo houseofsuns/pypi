@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	tutorials? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/Faker[${PYTHON_USEDEP}] )"
+	tutorials? ( ~dev-python/faker-13.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

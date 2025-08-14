@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/asttokens-2.4.1[${PYTHON_USEDEP}]
 	~dev-python/async-lru-2.0.4[${PYTHON_USEDEP}]
 	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.13.1[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/black-23.11.0[${PYTHON_USEDEP}]
 	~dev-python/bleach-6.1.0[${PYTHON_USEDEP}]
@@ -69,7 +69,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-8.1.1[${PYTHON_USEDEP}]
 	~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.19.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/json5-0.9.14[${PYTHON_USEDEP}]
 	~dev-python/jsonpointer-2.4[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
@@ -94,7 +94,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/mistune-3.0.2[${PYTHON_USEDEP}]
 	~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/nbclient-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/nbconvert-7.11.0[${PYTHON_USEDEP}]
 	~dev-python/nbformat-5.9.2[${PYTHON_USEDEP}]
@@ -145,7 +145,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-25.1.1[${PYTHON_USEDEP}]
 	~dev-python/qtconsole-5.5.1[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-2.4.1[${PYTHON_USEDEP}]
 	~dev-python/referencing-0.31.0[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bq full pandas sheets simulator sqlalchemy"
 DEPENDENCIES="dev-python/google-ads[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/google-ads[${PYTHON_USEDEP}]
 	bq? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pandas-1.3.4[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	simulator? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	simulator? ( dev-python/faker[${PYTHON_USEDEP}] )
 	sheets? ( dev-python/gspread[${PYTHON_USEDEP}] )
 	full? ( dev-python/google-ads-api-report-fetcher[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

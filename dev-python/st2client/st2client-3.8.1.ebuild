@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/argcomplete-1.12.3[${PYTHON_USEDEP}]
 	~dev-python/prettytable-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-1.0.15[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-23.1.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	dev-python/pysocks[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	~dev-python/python-editor-1.0.4[${PYTHON_USEDEP}]
 	~dev-python/pytz-2021.1[${PYTHON_USEDEP}]

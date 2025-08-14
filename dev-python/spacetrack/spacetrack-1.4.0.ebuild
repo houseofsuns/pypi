@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES=">=dev-python/filelock-3.17.0[${PYTHON_USEDEP}]
 	>=dev-python/logbook-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/outcome-1.3.0_p0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.3.6[${PYTHON_USEDEP}]
-	>=dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	dev-python/Represent[${PYTHON_USEDEP}]
 	dev-python/rush[${PYTHON_USEDEP}]
 	>=dev-python/sniffio-1.3.1[${PYTHON_USEDEP}]"

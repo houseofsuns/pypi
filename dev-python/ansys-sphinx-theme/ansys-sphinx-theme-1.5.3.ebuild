@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="autoapi changelog doc"
 DEPENDENCIES=">=dev-python/sphinx-6.1.0[${PYTHON_USEDEP}]
 	<dev-python/pydata-sphinx-theme-0.17[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
 	autoapi? ( ~dev-python/sphinx-autoapi-3.6.0[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/sphinx-6.1.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/pillow-9.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/plotly-6.1.2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pygithub-2.6.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/requests-2.32.3[${PYTHON_USEDEP}] )

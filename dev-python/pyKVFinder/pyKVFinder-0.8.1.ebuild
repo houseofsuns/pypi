@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,6 +35,6 @@ DEPENDENCIES="~dev-python/numpy-2.2.5[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-8.0.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-3.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-video[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
+	plugins? ( ~dev-python/pyqt5-5.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

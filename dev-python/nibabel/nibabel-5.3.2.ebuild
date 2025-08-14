@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,6 @@ DEPENDENCIES=">=dev-python/importlib-resources-5.12[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/texext[${PYTHON_USEDEP}] )
-	doc? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	doctest? ( dev-python/tox[${PYTHON_USEDEP}] )
 	minc2? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	spm? ( dev-python/scipy[${PYTHON_USEDEP}] )

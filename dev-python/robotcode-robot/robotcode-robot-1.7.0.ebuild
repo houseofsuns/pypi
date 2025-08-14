@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/platformdirs-4.4.0[${PYTHON_USEDEP}]
 	dev-python/robotcode-core[${PYTHON_USEDEP}]
-	dev-python/robotframework[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]"
+	dev-python/robotframework[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

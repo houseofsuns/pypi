@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/colorama-0.4.5[${PYTHON_USEDEP}] )
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/griffe-1.4.0[${PYTHON_USEDEP}] )
 	<dev-python/jinja2-time-1.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,9 +39,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	devio-full? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
 	extra? ( dev-python/rpyc[${PYTHON_USEDEP}] )
 	extra? ( dev-python/numba[${PYTHON_USEDEP}] )
-	gui-pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui-pyqt5? ( >=dev-python/pyqt5-5.9[${PYTHON_USEDEP}] )
 	gui-pyqt5? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
-	gui-pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	gui-pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	gui-pyside2? ( dev-python/shiboken2[${PYTHON_USEDEP}] )
 	gui-pyside2? ( >dev-python/pyqtgraph-0.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/etcd3gw[${PYTHON_USEDEP}]
 	dev-python/graphlib-backport[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.20.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
 	>=dev-python/munch-2.4.0[${PYTHON_USEDEP}]
 	dev-python/pretty-traceback[${PYTHON_USEDEP}]

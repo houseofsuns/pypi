@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/boto3-1.9.47[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-2.13.5[${PYTHON_USEDEP}]
 	dev-python/swag-client[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.6.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	tests? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-3.1.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	dev-python/lazr-uri[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	>=dev-python/msgspec-0.18.6[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.10.3[${PYTHON_USEDEP}]
 	>=dev-python/referencing-0.35.1[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]

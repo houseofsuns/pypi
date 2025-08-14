@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -53,12 +53,10 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mashumaro[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydantic-2.10.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/attrs-24.3.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/tomli-3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-8.1.3[${PYTHON_USEDEP}] )
 	dotenv? ( <dev-python/python-dotenv-2.0[${PYTHON_USEDEP}] )
 	timedelta? ( >=dev-python/pytimeparse-1.1.7[${PYTHON_USEDEP}] )
 	toml? ( <dev-python/tomli-w-2.0[${PYTHON_USEDEP}] )
-	toml? ( <dev-python/tomli-3.0[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

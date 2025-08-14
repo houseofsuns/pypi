@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="gui"
 DEPENDENCIES="dev-python/pymodbus[${PYTHON_USEDEP}]
 	dev-python/ethernetip[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

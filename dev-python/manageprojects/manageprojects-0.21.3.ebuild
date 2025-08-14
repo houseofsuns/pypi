@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
 	dev-python/codespell[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/darker[${PYTHON_USEDEP}]
-	dev-python/EditorConfig[${PYTHON_USEDEP}]
+	dev-python/editorconfig[${PYTHON_USEDEP}]
 	dev-python/flake8[${PYTHON_USEDEP}]
 	dev-python/flake8-bugbear[${PYTHON_USEDEP}]
 	dev-python/mypy[${PYTHON_USEDEP}]

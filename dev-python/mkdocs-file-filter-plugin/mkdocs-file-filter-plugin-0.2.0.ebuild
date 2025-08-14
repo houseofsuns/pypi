@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/igittigitt[${PYTHON_USEDEP}]
 	<dev-python/schema-0.8.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	dev-python/pyyaml_env_tag[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-env-tag-0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

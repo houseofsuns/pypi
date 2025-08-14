@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/asgiref-3.2.7[${PYTHON_USEDEP}]
 	>=dev-python/hypercorn-0.9.5[${PYTHON_USEDEP}]
-	dev-python/Quart[${PYTHON_USEDEP}]
+	>=dev-python/quart-0.11.5[${PYTHON_USEDEP}]
 	dev-python/aioquic[${PYTHON_USEDEP}]
 	dev-python/quart-compress[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]"
+	dev-python/flask-caching[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

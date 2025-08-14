@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.35.0rc0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	all? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
 	all? ( dev-python/jedi[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pytest-8.2.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jedi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-8.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
@@ -123,7 +123,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	testing? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	testing? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jedi[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	testing? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/pytest-8.2.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-env[${PYTHON_USEDEP}] )

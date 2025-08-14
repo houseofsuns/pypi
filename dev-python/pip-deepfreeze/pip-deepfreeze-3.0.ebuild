@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="mypy test uv"
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	>=dev-python/pip-22.2[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.12.1[${PYTHON_USEDEP}]
 	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )

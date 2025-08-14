@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,11 +34,11 @@ DEPENDENCIES=">=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/libpass[${PYTHON_USEDEP}]
 	>=dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-resources-5.10.0[${PYTHON_USEDEP}]
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( >=dev-python/babel-2.12.1[${PYTHON_USEDEP}] )
 	babel? ( >=dev-python/flask-babel-4.0.0[${PYTHON_USEDEP}] )
 	common? ( >=dev-python/argon2-cffi-21.3.0[${PYTHON_USEDEP}] )
 	common? ( >=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}] )
-	common? ( dev-python/flask-mailman[${PYTHON_USEDEP}] )
+	common? ( dev-python/Flask-Mailman[${PYTHON_USEDEP}] )
 	common? ( >=dev-python/bleach-6.0.0[${PYTHON_USEDEP}] )
 	fsqla? ( >=dev-python/flask-sqlalchemy-3.1.0[${PYTHON_USEDEP}] )
 	fsqla? ( >=dev-python/sqlalchemy-2.0.18[${PYTHON_USEDEP}] )
@@ -47,22 +47,21 @@ DEPENDENCIES=">=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	low? ( ~dev-python/flask-sqlalchemy-3.1.0[${PYTHON_USEDEP}] )
 	low? ( dev-python/flask-sqlalchemy-lite[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/flask-babel-4.0.0[${PYTHON_USEDEP}] )
-	low? ( dev-python/flask-mailman[${PYTHON_USEDEP}] )
+	low? ( dev-python/Flask-Mailman[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/flask-login-0.6.3[${PYTHON_USEDEP}] )
 	low? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/peewee-3.17.9[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/argon2-cffi-21.3.0[${PYTHON_USEDEP}] )
 	low? ( dev-python/Authlib[${PYTHON_USEDEP}] )
-	low? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/babel-2.12.1[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/bleach-6.0.0[${PYTHON_USEDEP}] )
 	low? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	low? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
 	low? ( dev-python/mongoengine[${PYTHON_USEDEP}] )
 	low? ( dev-python/mongomock[${PYTHON_USEDEP}] )
-	low? ( dev-python/pony[${PYTHON_USEDEP}] )
 	low? ( dev-python/phonenumberslite[${PYTHON_USEDEP}] )
 	low? ( ~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}] )
 	low? ( dev-python/requests[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs recipes web"
-DEPENDENCIES="web? ( dev-python/jinja[${PYTHON_USEDEP}] )
+DEPENDENCIES="web? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/bioc[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="web? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	dev-python/litellm[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
 	<dev-python/numpy-2.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/oaklib[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.4.0[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
@@ -49,6 +50,7 @@ DEPENDENCIES="web? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-cache-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.31[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-autodoc-typehints-1.19.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )

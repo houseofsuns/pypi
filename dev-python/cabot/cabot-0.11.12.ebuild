@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/amqp-2.1.4[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
 	~dev-python/django-filter-1.0.4[${PYTHON_USEDEP}]
 	dev-python/django-jsonify[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	~dev-python/django-polymorphic-1.3[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.6.2[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	~dev-python/greenlet-0.4.12[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/amqp-2.1.4[${PYTHON_USEDEP}]
 	~dev-python/icalendar-3.11.3[${PYTHON_USEDEP}]
 	dev-python/itypes[${PYTHON_USEDEP}]
 	dev-python/python-jenkins[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.9.6[${PYTHON_USEDEP}]
 	~dev-python/kombu-4.0.2[${PYTHON_USEDEP}]
 	~dev-python/markdown-2.6.8[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.0[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES="~dev-python/amqp-2.1.4[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-2.2.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.6.7[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2017.2[${PYTHON_USEDEP}]
 	dev-python/rcssmin[${PYTHON_USEDEP}]

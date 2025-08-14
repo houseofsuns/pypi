@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="4.0.0b1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,6 @@ DEPENDENCIES="dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	<dev-python/isodate-1.0.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
-	<dev-python/async-timeout-5.0[${PYTHON_USEDEP}]
 	kerberos? ( <dev-python/kerberos-2.0.0[${PYTHON_USEDEP}] )
 	ujson? ( >=dev-python/ujson-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

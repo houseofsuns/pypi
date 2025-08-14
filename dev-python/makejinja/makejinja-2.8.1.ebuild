@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	<dev-python/rich-click-2.0[${PYTHON_USEDEP}]
 	dev-python/typed-settings[${PYTHON_USEDEP}]
 	<dev-python/immutables-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,8 +35,8 @@ DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	dev-python/fastremap[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/omnipose-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/superqt[${PYTHON_USEDEP}] )
@@ -54,8 +54,8 @@ DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	gui? ( >=dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gui? ( dev-python/omnipose-theme[${PYTHON_USEDEP}] )
 	gui? ( dev-python/superqt[${PYTHON_USEDEP}] )

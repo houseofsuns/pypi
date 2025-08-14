@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/wheel-0.36.2[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.9.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	>=dev-python/babel-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/mypy-0.800[${PYTHON_USEDEP}]
 	dev-python/schema-entry[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
@@ -34,10 +34,10 @@ DEPENDENCIES=">=dev-python/wheel-0.36.2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.5[${PYTHON_USEDEP}]
 	>=dev-python/pyaml-20.4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-3.5[${PYTHON_USEDEP}]
 	>=dev-python/coverage-5.5[${PYTHON_USEDEP}]
 	>=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/babel-2.5.3[${PYTHON_USEDEP}]
 	~dev-python/bleach-3.1.5[${PYTHON_USEDEP}]
 	<dev-python/django-2.3[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]
@@ -35,14 +35,14 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/django-jinja[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	~dev-python/django-polymorphic-2.1.2[${PYTHON_USEDEP}]
 	dev-python/django-registration-redux[${PYTHON_USEDEP}]
 	dev-python/django-reversion[${PYTHON_USEDEP}]
 	~dev-python/django-timezone-field-3.1[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.11[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
 	dev-python/fake-factory[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.8.1[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
 	>=dev-python/keyring-23.0[${PYTHON_USEDEP}]
 	>=dev-python/keyrings-alt-4.0[${PYTHON_USEDEP}]

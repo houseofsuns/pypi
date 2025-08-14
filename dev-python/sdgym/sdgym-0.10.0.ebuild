@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,11 +32,9 @@ DEPENDENCIES=">=dev-python/appdirs-1.3[${PYTHON_USEDEP}]
 	>=dev-python/humanfriendly-8.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
-	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.7[${PYTHON_USEDEP}]
-	>=dev-python/scikit-learn-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.1.3[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.2[${PYTHON_USEDEP}]
@@ -51,7 +49,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.3[${PYTHON_USEDEP}]
 	dev-python/sdv[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	realtabformer? ( dev-python/REaLTabFormer[${PYTHON_USEDEP}] )
+	realtabformer? ( dev-python/realtabformer[${PYTHON_USEDEP}] )
 	realtabformer? ( dev-python/torch[${PYTHON_USEDEP}] )
 	realtabformer? ( dev-python/torch[${PYTHON_USEDEP}] )
 	test? ( dev-python/sdgym[${PYTHON_USEDEP}] )

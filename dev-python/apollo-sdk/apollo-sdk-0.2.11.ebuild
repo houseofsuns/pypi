@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -70,14 +70,14 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	~dev-python/identify-2.5.22[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/libcst-0.4.9[${PYTHON_USEDEP}]
 	dev-python/macholib[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
 	dev-python/model-bakery[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]
 	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	~dev-python/nodeenv-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]

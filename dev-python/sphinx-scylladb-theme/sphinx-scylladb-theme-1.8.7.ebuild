@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/sphinx_collapse[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-tabs-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}]
+	dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}]
 	<dev-python/sphinx-notfound-page-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/setuptools-80.0.0[${PYTHON_USEDEP}]
 	<dev-python/sphinxcontrib-mermaid-2.0.0[${PYTHON_USEDEP}]"

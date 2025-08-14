@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	notebook? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	opt? ( dev-python/Platypus-Opt[${PYTHON_USEDEP}] )
 	opt? ( dev-python/pygmo[${PYTHON_USEDEP}] )"

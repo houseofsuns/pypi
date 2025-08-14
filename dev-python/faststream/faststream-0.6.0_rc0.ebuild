@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.6.0rc0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,6 +29,7 @@ DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	cli? ( <=dev-python/typer-0.16.0[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/watchfiles-1.2.0[${PYTHON_USEDEP}] )
+	confluent? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	confluent? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	nats? ( dev-python/nats-py[${PYTHON_USEDEP}] )

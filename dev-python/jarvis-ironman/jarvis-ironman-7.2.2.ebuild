@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/SpeechRecognition[${PYTHON_USEDEP}]
 	~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev-python/ics[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	dev-python/googlehomepush[${PYTHON_USEDEP}]
 	~dev-python/pychromecast-2.3.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tango? ( dev-python/pytango[${PYTHON_USEDEP}] )
 	demo? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	demo? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	demo? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	demo? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ophyd-async[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ophyd-async[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ophyd-async[${PYTHON_USEDEP}] )

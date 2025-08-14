@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all data metrics models plot"
-DEPENDENCIES="models? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+DEPENDENCIES="models? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
 	models? ( <dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )
 	models? ( dev-python/fairlearn[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="models? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	all? ( dev-python/folktables[${PYTHON_USEDEP}] )
 	models? ( dev-python/gitdb2[${PYTHON_USEDEP}] )
 	all? ( dev-python/gitdb2[${PYTHON_USEDEP}] )
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	plot? ( >=dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )

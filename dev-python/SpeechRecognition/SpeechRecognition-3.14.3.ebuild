@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,6 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="assemblyai audio dev faster-whisper google-cloud groq openai pocketsphinx whisper-local"
 DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+	dev-python/standard-aifc[${PYTHON_USEDEP}]
+	dev-python/audioop-lts[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	dev? ( dev-python/respx[${PYTHON_USEDEP}] )

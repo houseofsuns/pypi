@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/alembic-1.5.2[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	~dev-python/hypercorn-0.11.1[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-4.0.1[${PYTHON_USEDEP}]
-	dev-python/Quart[${PYTHON_USEDEP}]
+	~dev-python/quart-0.14.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]"

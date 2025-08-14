@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
 	~dev-python/jsonref-0.2[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.8.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	~dev-python/proto-plus-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/protobuf-3.13.0[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
@@ -68,7 +68,7 @@ DEPENDENCIES="~dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.20[${PYTHON_USEDEP}]
 	~dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.2[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.25.10[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]

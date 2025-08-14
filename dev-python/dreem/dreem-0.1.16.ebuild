@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	dev-python/async_generator[${PYTHON_USEDEP}]
 	~dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	dev-python/autoreload[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.11.0[${PYTHON_USEDEP}]
 	dev-python/backcall[${PYTHON_USEDEP}]
 	~dev-python/binaryornot-0.4.4[${PYTHON_USEDEP}]
 	~dev-python/bleach-5.0.1[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	dev-python/dms-ci[${PYTHON_USEDEP}]
 	dev-python/dnaio[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
-	dev-python/EditorConfig[${PYTHON_USEDEP}]
+	~dev-python/editorconfig-0.12.3[${PYTHON_USEDEP}]
 	~dev-python/entrypoints-0.4[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
 	~dev-python/exceptiongroup-1.0.4[${PYTHON_USEDEP}]
@@ -72,7 +72,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.2.3[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.18.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jinja2-time-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/jsbeautifier[${PYTHON_USEDEP}]
@@ -111,7 +111,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.13.0[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]

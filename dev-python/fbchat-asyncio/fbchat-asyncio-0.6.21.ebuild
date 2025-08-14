@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.5[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
 	proxy? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )
-	proxy? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
+	proxy? ( dev-python/pysocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

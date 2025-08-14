@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	>dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]
 	<dev-python/openpyxl-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.14[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-18.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/country-converter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES=">=dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( dev-python/faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -195,7 +195,7 @@ DEPENDENCIES="~dev-python/cattrs-22.2[${PYTHON_USEDEP}]
 	audiolm? ( ~dev-python/rapidfuzz-3.10[${PYTHON_USEDEP}] )
 	audiolm? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	codeinsights? ( ~dev-python/clang-20.1[${PYTHON_USEDEP}] )
-	codeinsights? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
+	codeinsights? ( ~dev-python/levenshtein-0.27[${PYTHON_USEDEP}] )
 	lmkt? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/crfm-helm[${PYTHON_USEDEP}] )
 	all? ( dev-python/crfm-helm[${PYTHON_USEDEP}] )

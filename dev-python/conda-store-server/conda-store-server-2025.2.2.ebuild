@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/conda-lock[${PYTHON_USEDEP}]
 	dev-python/conda-pack[${PYTHON_USEDEP}]
 	dev-python/conda-package-handling[${PYTHON_USEDEP}]
-	dev-python/conda-package-streaming[${PYTHON_USEDEP}]
+	dev-python/conda_package_streaming[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0_alpha0[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]

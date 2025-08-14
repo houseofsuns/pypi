@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws azure datacrunch gateway gcp kubernetes lambda nebius oci server"
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apscheduler-4.0[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-3.5.0[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/cursor[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/gpuhunt[${PYTHON_USEDEP}]
 	dev-python/ignore-python[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	all? ( dev-python/google-cloud-tpu[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	all? ( dev-python/nebius[${PYTHON_USEDEP}] )
 	all? ( dev-python/oci[${PYTHON_USEDEP}] )
@@ -107,7 +107,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	aws? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	aws? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	aws? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	aws? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	aws? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	aws? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	aws? ( dev-python/python-dxf[${PYTHON_USEDEP}] )
 	aws? ( >=dev-python/python-json-logger-3.1.0[${PYTHON_USEDEP}] )
@@ -135,7 +135,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	azure? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	azure? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	azure? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	azure? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	azure? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	azure? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	azure? ( dev-python/python-dxf[${PYTHON_USEDEP}] )
 	azure? ( >=dev-python/python-json-logger-3.1.0[${PYTHON_USEDEP}] )
@@ -157,7 +157,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	datacrunch? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	datacrunch? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	datacrunch? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	datacrunch? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	datacrunch? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	datacrunch? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	datacrunch? ( dev-python/python-dxf[${PYTHON_USEDEP}] )
 	datacrunch? ( >=dev-python/python-json-logger-3.1.0[${PYTHON_USEDEP}] )
@@ -171,7 +171,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	gateway? ( dev-python/aiorwlock[${PYTHON_USEDEP}] )
 	gateway? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	gateway? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	gateway? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	gateway? ( >=dev-python/starlette-0.26.0[${PYTHON_USEDEP}] )
 	gateway? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/aiocache[${PYTHON_USEDEP}] )
@@ -192,7 +192,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	gcp? ( dev-python/google-cloud-tpu[${PYTHON_USEDEP}] )
 	gcp? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	gcp? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/python-dxf[${PYTHON_USEDEP}] )
 	gcp? ( >=dev-python/python-json-logger-3.1.0[${PYTHON_USEDEP}] )
@@ -213,7 +213,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	kubernetes? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	kubernetes? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	kubernetes? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/python-dxf[${PYTHON_USEDEP}] )
@@ -237,7 +237,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	lambda? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	lambda? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	lambda? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	lambda? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	lambda? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	lambda? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	lambda? ( dev-python/python-dxf[${PYTHON_USEDEP}] )
 	lambda? ( >=dev-python/python-json-logger-3.1.0[${PYTHON_USEDEP}] )
@@ -258,7 +258,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	nebius? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	nebius? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	nebius? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	nebius? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	nebius? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	nebius? ( dev-python/nebius[${PYTHON_USEDEP}] )
 	nebius? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	nebius? ( dev-python/python-dxf[${PYTHON_USEDEP}] )
@@ -281,7 +281,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	oci? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	oci? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	oci? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	oci? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	oci? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	oci? ( dev-python/oci[${PYTHON_USEDEP}] )
 	oci? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	oci? ( >=dev-python/pyopenssl-23.2.0[${PYTHON_USEDEP}] )
@@ -304,7 +304,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/grpcio-1.50[${PYTHON_USEDEP}] )
 	server? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	server? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	server? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	server? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	server? ( dev-python/python-dxf[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/python-json-logger-3.1.0[${PYTHON_USEDEP}] )

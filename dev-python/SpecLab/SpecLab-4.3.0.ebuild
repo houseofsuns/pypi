@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-2.1.3[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	~dev-python/pyqt6-6.5.1[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]
 	~dev-python/pyqtgraph-0.13.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

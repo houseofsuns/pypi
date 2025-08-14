@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.5.0b2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,11 +27,10 @@ IUSE="docs test"
 DEPENDENCIES="~dev-python/distlib-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	~dev-python/pyproject-metadata-0.9.1[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
 	<dev-python/lark-2.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/nox-2026.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-8.2.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/aiofiles-25.0[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/flake8-7.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/mypy-1.13.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/psutil-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pycodestyle-2.12.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )

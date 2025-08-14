@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.9.6b6"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.7.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/tenacity-8.3.0[${PYTHON_USEDEP}]
 	~dev-python/nh3-0.2.17[${PYTHON_USEDEP}]
 	~dev-python/psycopg-3.1.19[${PYTHON_USEDEP}]
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/distro[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dynaconf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
@@ -130,7 +130,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	test-plugins? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	test-plugins? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	test-plugins? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test-plugins? ( dev-python/faker[${PYTHON_USEDEP}] )
 	test-plugins? ( dev-python/distro[${PYTHON_USEDEP}] )
 	test-plugins? ( dev-python/dynaconf[${PYTHON_USEDEP}] )
 	test-plugins? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/assemblyline[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	updater? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	updater? ( dev-python/flask[${PYTHON_USEDEP}] )
-	updater? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	updater? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	updater? ( dev-python/git-remote-codecommit[${PYTHON_USEDEP}] )
 	updater? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,7 @@ DEPENDENCIES=">=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/twine-1.14.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.2.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc-binary[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/phylotrackpy[${PYTHON_USEDEP}] )

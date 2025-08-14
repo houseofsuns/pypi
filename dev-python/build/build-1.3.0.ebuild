@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,9 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="uv virtualenv"
 DEPENDENCIES=">=dev-python/packaging-19.1[${PYTHON_USEDEP}]
 	dev-python/pyproject-hooks[${PYTHON_USEDEP}]
-	>=dev-python/importlib-metadata-4.6[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	uv? ( >=dev-python/uv-0.1.18[${PYTHON_USEDEP}] )
-	virtualenv? ( >=dev-python/virtualenv-20.17[${PYTHON_USEDEP}] )"
+	virtualenv? ( >=dev-python/virtualenv-20.17[${PYTHON_USEDEP}] )
+	virtualenv? ( >=dev-python/virtualenv-20.31[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

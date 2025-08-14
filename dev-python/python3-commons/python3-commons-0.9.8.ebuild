@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python3_13 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/fastapi-users[${PYTHON_USEDEP}]
 	~dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.1.1[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	~dev-python/msgspec-0.19.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.11.7[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	~dev-python/python-jose-3.5.0[${PYTHON_USEDEP}]

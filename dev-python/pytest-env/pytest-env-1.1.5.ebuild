@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES=">=dev-python/pytest-8.3.3[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	testing? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/coverage-7.6.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-mock-3.14[${PYTHON_USEDEP}] )"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	procinfo? ( >=dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	profiling? ( >=dev-python/line-profiler-4.1.1[${PYTHON_USEDEP}] )
-	publish? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	publish? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )

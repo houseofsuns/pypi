@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/transitions-0.10[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	yaml? ( <dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}] )
 	lsp? ( dev-python/pygls[${PYTHON_USEDEP}] )
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

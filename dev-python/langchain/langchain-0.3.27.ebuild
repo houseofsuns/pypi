@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,6 @@ DEPENDENCIES="dev-python/langchain-core[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
-	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
 	community? ( dev-python/langchain-community[${PYTHON_USEDEP}] )
 	anthropic? ( dev-python/langchain-anthropic[${PYTHON_USEDEP}] )
 	openai? ( dev-python/langchain-openai[${PYTHON_USEDEP}] )

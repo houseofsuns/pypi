@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyaudio-0.2.11[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-6.6.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pysofaconventions[${PYTHON_USEDEP}]
 	>=dev-python/netcdf4-1.0.0[${PYTHON_USEDEP}]"

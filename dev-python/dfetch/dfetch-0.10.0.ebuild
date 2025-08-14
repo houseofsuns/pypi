@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,6 @@ DEPENDENCIES="~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/patch-ng-1.18.1[${PYTHON_USEDEP}]
 	dev-python/cyclonedx-python-lib[${PYTHON_USEDEP}]
 	dev-python/infer-license[${PYTHON_USEDEP}]
-	dev-python/infer-license[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	development? ( ~dev-python/black-25.1.0[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/doc8-1.1.2[${PYTHON_USEDEP}] )
@@ -50,7 +49,6 @@ DEPENDENCIES="~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	development? ( dev-python/pyroma[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/isort-6.0.1[${PYTHON_USEDEP}] )
 	development? ( ~dev-python/pylint-3.3.4[${PYTHON_USEDEP}] )
-	development? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	development? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-8.2.3[${PYTHON_USEDEP}] )

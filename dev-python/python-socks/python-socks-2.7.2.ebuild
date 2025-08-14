@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,9 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="anyio asyncio curio trio"
-DEPENDENCIES="asyncio? ( >=dev-python/async-timeout-4.0[${PYTHON_USEDEP}] )
-	trio? ( >=dev-python/trio-0.24[${PYTHON_USEDEP}] )
+IUSE="anyio curio trio"
+DEPENDENCIES="trio? ( >=dev-python/trio-0.24[${PYTHON_USEDEP}] )
 	curio? ( dev-python/curio[${PYTHON_USEDEP}] )
 	anyio? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

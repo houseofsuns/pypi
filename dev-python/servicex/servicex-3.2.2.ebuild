@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,9 +41,8 @@ DEPENDENCIES="dev-python/aioboto3[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.12.1[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	develop? ( dev-python/asyncmock[${PYTHON_USEDEP}] )
-	develop? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	develop? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	develop? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	develop? ( dev-python/func-adl-servicex-xaodr22[${PYTHON_USEDEP}] )
@@ -63,7 +62,7 @@ DEPENDENCIES="dev-python/aioboto3[${PYTHON_USEDEP}]
 	develop? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/sphinx-tabs-3.4.5[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/sphinx-8.2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
 	docs? ( dev-python/func-adl-servicex-xaodr22[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2023.5.20[${PYTHON_USEDEP}] )

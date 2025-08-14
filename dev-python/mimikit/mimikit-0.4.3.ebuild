@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/pyamg[${PYTHON_USEDEP}]
 	dev-python/pypbind[${PYTHON_USEDEP}]
-	dev-python/peaksjs-widget[${PYTHON_USEDEP}]
+	dev-python/peaksjs_widget[${PYTHON_USEDEP}]
 	dev-python/qgrid[${PYTHON_USEDEP}]
 	colab? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )

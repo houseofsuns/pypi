@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,6 @@ DEPENDENCIES=">=dev-python/ply-3.10[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pluggy-0.13.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/decorator-4.0.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/FormEncode[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/lxml-4.6.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/virtualenv-20.15.0[${PYTHON_USEDEP}] )

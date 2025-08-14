@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.7.3[${PYTHON_USEDEP}]
 	dev-python/minimal-activitypub[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	~dev-python/msgspec-0.19.0[${PYTHON_USEDEP}]
 	dev-python/stamina[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.2.1[${PYTHON_USEDEP}]

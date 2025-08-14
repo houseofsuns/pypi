@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	dev-python/hyperscript[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	dev? ( dev-python/dbt-databricks[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dbt-redshift[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dbt-trino[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-auth[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	dev? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyAthena[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pygithub-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyperf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	dbt? ( dev-python/dbt-core[${PYTHON_USEDEP}] )
 	dlt? ( dev-python/dlt[${PYTHON_USEDEP}] )
 	gcppostgres? ( dev-python/cloud-sql-python-connector[${PYTHON_USEDEP}] )
-	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	github? ( >=dev-python/pygithub-2.6.0[${PYTHON_USEDEP}] )
 	llm? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	llm? ( dev-python/openai[${PYTHON_USEDEP}] )
 	motherduck? ( dev-python/duckdb[${PYTHON_USEDEP}] )

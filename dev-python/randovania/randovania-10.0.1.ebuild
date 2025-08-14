@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
 	exporters? ( dev-python/mp2hudcolor[${PYTHON_USEDEP}] )
 	exporters? ( dev-python/open-samus-returns-rando[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PySide6-Essentials[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtdarktheme-fork[${PYTHON_USEDEP}] )
+	gui? ( dev-python/PyQtDarkTheme-fork[${PYTHON_USEDEP}] )
 	gui? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	gui? ( dev-python/qasync[${PYTHON_USEDEP}] )
 	gui? ( dev-python/natsort[${PYTHON_USEDEP}] )
@@ -75,6 +75,7 @@ DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
 	server? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
 	server? ( dev-python/cachetools[${PYTHON_USEDEP}] )
 	server? ( dev-python/py-cord[${PYTHON_USEDEP}] )
+	server? ( dev-python/audioop-lts[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

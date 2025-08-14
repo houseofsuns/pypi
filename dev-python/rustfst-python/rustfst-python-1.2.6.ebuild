@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python{3_13,3_11} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi

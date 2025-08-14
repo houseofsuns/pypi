@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-socks-0.9.0[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	>=dev-python/msgspec-0.18.0[${PYTHON_USEDEP}]
 	dev-python/aiolimiter[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.0[${PYTHON_USEDEP}]
 	dev-python/python-ffmpeg[${PYTHON_USEDEP}]

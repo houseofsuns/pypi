@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	torch? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	torch? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	torch? ( dev-python/onnxruntime-extensions[${PYTHON_USEDEP}] )
+	torch? ( dev-python/onnxruntime_extensions[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

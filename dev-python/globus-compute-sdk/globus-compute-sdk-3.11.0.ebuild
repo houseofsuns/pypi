@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="dev docs test"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
 	dev-python/globus-compute-common[${PYTHON_USEDEP}]
-	~dev-python/dill-0.3.5.1[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.9[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.1[${PYTHON_USEDEP}]
 	>=dev-python/pika-1.2[${PYTHON_USEDEP}]

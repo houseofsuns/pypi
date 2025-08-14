@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/webob-1.10.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/raven[${PYTHON_USEDEP}] )
 	testing? ( dev-python/Beaker[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	testing? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/Ming[${PYTHON_USEDEP}] )
 	testing? ( dev-python/kajiki[${PYTHON_USEDEP}] )
 	testing? ( dev-python/FormEncode[${PYTHON_USEDEP}] )"

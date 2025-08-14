@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
-	testing? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/astunparse[${PYTHON_USEDEP}] )
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	testing? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}] )

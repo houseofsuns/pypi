@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/lmdb[${PYTHON_USEDEP}]
 	test? ( dev-python/pytablewriter[${PYTHON_USEDEP}] )
 	test? ( dev-python/lmdbm[${PYTHON_USEDEP}] )
 	test? ( dev-python/rich[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( dev-python/faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/zpz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

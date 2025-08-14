@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/aiocache-0.12.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-4.8.0[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.0[${PYTHON_USEDEP}]
 	dev-python/json-repair[${PYTHON_USEDEP}]
 	>=dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-7.0.0[${PYTHON_USEDEP}]

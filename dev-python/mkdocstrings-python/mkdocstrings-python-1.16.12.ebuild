@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/mkdocstrings-0.28.3[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-autorefs-1.4[${PYTHON_USEDEP}]
-	>=dev-python/griffe-1.6.2[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]"
+	>=dev-python/griffe-1.6.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

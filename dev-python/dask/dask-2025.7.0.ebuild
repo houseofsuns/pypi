@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dataframe? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	diagnostics? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	diagnostics? ( >=dev-python/jinja2-2.10.3[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/lz4-4.3.2[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,11 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="annotated-types attrs brotli cli cryptography full jinja jwt mako minijinja opentelemetry piccolo picologging prometheus pydantic redis sqlalchemy standard structlog valkey"
 DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	>=dev-python/exceptiongroup-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.22[${PYTHON_USEDEP}]
 	dev-python/litestar-htmx[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	>=dev-python/msgspec-0.18.2[${PYTHON_USEDEP}]
 	>=dev-python/multidict-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/multipart-1.2.0[${PYTHON_USEDEP}]
 	dev-python/polyfactory[${PYTHON_USEDEP}]
@@ -52,8 +50,8 @@ DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	full? ( dev-python/email-validator[${PYTHON_USEDEP}] )
 	full? ( dev-python/fast-query-parsers[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/mako-1.2.4[${PYTHON_USEDEP}] )
 	full? ( dev-python/minijinja[${PYTHON_USEDEP}] )
@@ -69,7 +67,7 @@ DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	full? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/uvloop-0.18.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/valkey[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	jwt? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	jwt? ( >=dev-python/pyjwt-2.9.0[${PYTHON_USEDEP}] )
 	mako? ( >=dev-python/mako-1.2.4[${PYTHON_USEDEP}] )
@@ -84,7 +82,7 @@ DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	redis? ( <dev-python/redis-5.3[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/advanced-alchemy[${PYTHON_USEDEP}] )
 	standard? ( dev-python/fast-query-parsers[${PYTHON_USEDEP}] )
-	standard? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	standard? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	standard? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	standard? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/uvloop-0.18.0[${PYTHON_USEDEP}] )

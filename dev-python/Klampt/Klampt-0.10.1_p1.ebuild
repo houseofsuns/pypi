@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.10.1.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gui"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	gui? ( dev-python/imageio[${PYTHON_USEDEP}] )

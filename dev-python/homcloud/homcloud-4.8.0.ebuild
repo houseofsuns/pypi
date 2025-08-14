@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	unittest? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	recommended? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="5.6.0b2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="azureservicebus azurestoragequeues confluentkafka consul gcpubsub librabbitmq mongodb msgpack pyro qpid redis slmq sqlalchemy sqs yaml zookeeper"
+IUSE="azureservicebus azurestoragequeues confluentkafka consul gcpubsub mongodb msgpack pyro qpid redis slmq sqlalchemy sqs yaml zookeeper"
 DEPENDENCIES="<dev-python/amqp-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/vine-5.1.0[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2025.2[${PYTHON_USEDEP}]
@@ -41,7 +41,6 @@ DEPENDENCIES="<dev-python/amqp-6.0.0[${PYTHON_USEDEP}]
 	gcpubsub? ( ~dev-python/protobuf-5.29.5[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )
 	sqlalchemy? ( <dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}] )
-	librabbitmq? ( dev-python/librabbitmq[${PYTHON_USEDEP}] )
 	pyro? ( dev-python/Pyro4[${PYTHON_USEDEP}] )
 	slmq? ( dev-python/softlayer_messaging[${PYTHON_USEDEP}] )
 	azurestoragequeues? ( dev-python/azure-storage-queue[${PYTHON_USEDEP}] )

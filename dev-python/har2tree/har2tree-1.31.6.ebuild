@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,6 @@ DEPENDENCIES="docs? ( >=dev-python/sphinx-8.2.3[${PYTHON_USEDEP}] )
 	>=dev-python/filetype-1.2.0[${PYTHON_USEDEP}]
 	dev-python/json-stream[${PYTHON_USEDEP}]
 	<dev-python/multipart-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/numpy-2.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.3.2[${PYTHON_USEDEP}]
 	dev-python/publicsuffixlist[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/six-1.17.0[${PYTHON_USEDEP}] )

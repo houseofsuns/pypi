@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/pydicom[${PYTHON_USEDEP}]
 	all? ( ~dev-python/tox-3.24[${PYTHON_USEDEP}] )
 	all? ( dev-python/build[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/python-magic-0.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.1[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/pydicom[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-4.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	magic? ( ~dev-python/python-magic-0.4[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	pandas? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )

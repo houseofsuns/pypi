@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/attrs-24.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.14.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyqt5-5.15.11[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/dask[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-check-2.4.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-timeout-2.3.1[${PYTHON_USEDEP}] )

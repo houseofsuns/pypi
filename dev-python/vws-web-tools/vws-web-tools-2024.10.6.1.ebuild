@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/beartype-0.18.5[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-8.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-spelling-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )

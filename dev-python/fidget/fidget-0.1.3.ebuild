@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyqt pyqt5 pyside pyside2 pyside6 qt"
-DEPENDENCIES="pyqt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+DEPENDENCIES="pyqt? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	qt? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

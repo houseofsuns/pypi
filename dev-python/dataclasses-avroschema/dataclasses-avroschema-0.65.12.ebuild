@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli faker faust pydantic"
 DEPENDENCIES="dev-python/fastavro[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	faker? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	faker? ( <dev-python/faker-37.0.0[${PYTHON_USEDEP}] )
 	faust? ( dev-python/faust-streaming[${PYTHON_USEDEP}] )
 	dev-python/casefy[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]

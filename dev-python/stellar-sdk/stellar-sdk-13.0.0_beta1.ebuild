@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="13.0.0b1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/mnemonic[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	dev-python/requests-sse[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/xdrlib3[${PYTHON_USEDEP}]
 	aiohttp? ( >=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}] )

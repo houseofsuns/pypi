@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/numpy-1.8.2[${PYTHON_USEDEP}]
 	lxml? ( >=dev-python/scipy-0.13.3[${PYTHON_USEDEP}] )
 	sympy? ( <=dev-python/sympy-1.11[${PYTHON_USEDEP}] )
 	sympy? ( >=dev-python/scipy-0.13.3[${PYTHON_USEDEP}] )
-	sympy? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	sympy? ( >=dev-python/jinja2-2.10.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	examples? ( dev-python/control[${PYTHON_USEDEP}] )

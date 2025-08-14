@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build"
-DEPENDENCIES=">=dev-python/tomli-2.1.0[${PYTHON_USEDEP}]
-	build? ( dev-python/cmake[${PYTHON_USEDEP}] )
+DEPENDENCIES="build? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	build? ( dev-python/git-archive-all[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/packaging-24.2[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/wheel-0.45.1[${PYTHON_USEDEP}] )"

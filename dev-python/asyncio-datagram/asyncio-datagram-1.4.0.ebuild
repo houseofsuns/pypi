@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( >=dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )

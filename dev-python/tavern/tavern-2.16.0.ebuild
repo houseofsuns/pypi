@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/simpleeval-1.0.3[${PYTHON_USEDEP}]
 	<dev-python/stevedore-5.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/allure-pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/colorlog[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/antlr4-python3-runtime-4.13.2[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.7.0[${PYTHON_USEDEP}]
 	>=dev-python/confuse-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.43[${PYTHON_USEDEP}]
+	>=dev-python/msgspec-0.19.0[${PYTHON_USEDEP}]
 	test? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	hdf5? ( >=dev-python/h5py-3.11.0[${PYTHON_USEDEP}] )

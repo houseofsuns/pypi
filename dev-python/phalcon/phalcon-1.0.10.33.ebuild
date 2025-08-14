@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,14 +32,14 @@ DEPENDENCIES="~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
 	~dev-python/docker-6.1.3[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.11[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.40[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	dev-python/pfzy[${PYTHON_USEDEP}]
 	~dev-python/prompt-toolkit-3.0.39[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]

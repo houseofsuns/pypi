@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci debug dev"
 DEPENDENCIES="dev-python/pygls[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
-	dev-python/Random-Word[${PYTHON_USEDEP}]
+	dev-python/random_word[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	dev-python/jinja2-simple-tags[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	ci? ( ~dev-python/build-1.1.1[${PYTHON_USEDEP}] )

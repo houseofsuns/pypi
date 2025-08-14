@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,11 +28,11 @@ DEPENDENCIES="~dev-python/argon2-cffi-21.3.0[${PYTHON_USEDEP}]
 	~dev-python/bleach-5.0.1[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-2.0.1[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	dev-python/misaka[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.1.3[${PYTHON_USEDEP}]

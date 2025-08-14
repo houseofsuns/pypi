@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,14 +28,12 @@ DEPENDENCIES="dev-python/meson[${PYTHON_USEDEP}]
 	dev-python/meson[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	>=dev-python/pyproject-metadata-0.9.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/build[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/cython-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2024.8.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-8.1.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )

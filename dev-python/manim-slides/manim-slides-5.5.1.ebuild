@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}]
 	>=dev-python/click-default-group-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.1[${PYTHON_USEDEP}]
 	dev-python/python-pptx[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-2.4.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.3.2[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/nbsphinx-0.9.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/pygments-2.19[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pyqt6-6.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
@@ -63,11 +63,11 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	magic? ( dev-python/manim[${PYTHON_USEDEP}] )
 	manim? ( dev-python/manim[${PYTHON_USEDEP}] )
 	manimgl? ( dev-python/manimgl[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6? ( >=dev-python/pyqt6-6.7.0[${PYTHON_USEDEP}] )
 	pyqt6-full? ( >=dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
 	pyqt6-full? ( >=dev-python/ipython-8.12.2[${PYTHON_USEDEP}] )
 	pyqt6-full? ( dev-python/manim[${PYTHON_USEDEP}] )
-	pyqt6-full? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6-full? ( >=dev-python/pyqt6-6.7.0[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	pyside6-full? ( >=dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
 	pyside6-full? ( >=dev-python/ipython-8.12.2[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/ipython-8.12.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/manim[${PYTHON_USEDEP}] )
 	tests? ( dev-python/manimgl[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyqt6-6.7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-env-0.8.2[${PYTHON_USEDEP}] )

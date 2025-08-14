@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,9 +41,9 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
+	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	nwb? ( dev-python/pynwb[${PYTHON_USEDEP}] )
 	io? ( dev-python/paramiko[${PYTHON_USEDEP}] )
@@ -58,9 +58,9 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pynwb[${PYTHON_USEDEP}] )
 	tests? ( >dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt6-sip[${PYTHON_USEDEP}] )
+	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/pynwb[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )

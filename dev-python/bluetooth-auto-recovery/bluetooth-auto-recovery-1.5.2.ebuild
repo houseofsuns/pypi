@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/PyRIC[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
-	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bluetooth-adapters[${PYTHON_USEDEP}]
 	dev-python/btsocket[${PYTHON_USEDEP}]
 	docs? ( <dev-python/myst-parser-3.1[${PYTHON_USEDEP}] )

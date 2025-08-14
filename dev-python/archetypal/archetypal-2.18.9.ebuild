@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,6 @@ DEPENDENCIES="<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/path-17.1.0[${PYTHON_USEDEP}]
-	<dev-python/numpy-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	<=dev-python/beautifulsoup4-4.8[${PYTHON_USEDEP}]
 	<dev-python/contourpy-2.0.0[${PYTHON_USEDEP}]

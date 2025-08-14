@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
 DEPENDENCIES=">=dev-python/tox-4.0[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-6.4[${PYTHON_USEDEP}] )
 	lint? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )

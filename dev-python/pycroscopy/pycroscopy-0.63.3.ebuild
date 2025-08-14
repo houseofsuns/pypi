@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
 	dev-python/sidpy[${PYTHON_USEDEP}]
 	dev-python/pysptools[${PYTHON_USEDEP}]
 	>=dev-python/cvxopt-1.2.7[${PYTHON_USEDEP}]
-	dev-python/scifireaders[${PYTHON_USEDEP}]
+	dev-python/SciFiReaders[${PYTHON_USEDEP}]
 	dev-python/pywget[${PYTHON_USEDEP}]
 	dev-python/pyTEMlib[${PYTHON_USEDEP}]
 	dev-python/ipympl[${PYTHON_USEDEP}]"

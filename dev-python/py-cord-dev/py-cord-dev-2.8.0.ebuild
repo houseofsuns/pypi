@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs speed voice"
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
-	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-8.0.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-websupport-2.0.0[${PYTHON_USEDEP}] )
@@ -36,8 +35,8 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-autodoc-typehints-2.2.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
-	speed? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/levenshtein-0.25.1[${PYTHON_USEDEP}] )
+	speed? ( ~dev-python/msgspec-0.18.6[${PYTHON_USEDEP}] )
 	speed? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	voice? ( <dev-python/pynacl-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

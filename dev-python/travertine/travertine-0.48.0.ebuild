@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/xotless[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]
 	dev-python/immutables[${PYTHON_USEDEP}]
 	dev-python/xotl-tools[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	<dev-python/babel-3.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/hypothesis-6.50.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/beziers[${PYTHON_USEDEP}]
 	dev-python/dehinter[${PYTHON_USEDEP}]
 	>=dev-python/fonttools-4.47.0[${PYTHON_USEDEP}]
 	<dev-python/freetype-py-2.4.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}]
 	dev-python/munkres[${PYTHON_USEDEP}]
 	dev-python/opentypespec[${PYTHON_USEDEP}]
 	dev-python/opentype-sanitizer[${PYTHON_USEDEP}]
@@ -40,7 +40,6 @@ DEPENDENCIES="dev-python/beziers[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/ufolint[${PYTHON_USEDEP}]
 	dev-python/ufo2ft[${PYTHON_USEDEP}]
 	dev-python/uharfbuzz[${PYTHON_USEDEP}]

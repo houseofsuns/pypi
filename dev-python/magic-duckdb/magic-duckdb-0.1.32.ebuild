@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ai"
 DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}]
 	ai? ( dev-python/openai[${PYTHON_USEDEP}] )"

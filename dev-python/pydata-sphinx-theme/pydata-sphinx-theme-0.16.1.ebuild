@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="a11y dev doc i18n test"
 DEPENDENCIES=">=dev-python/sphinx-6.1[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	>dev-python/docutils-0.17.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	dev-python/babel[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.7[${PYTHON_USEDEP}]
 	dev-python/accessible-pygments[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
@@ -68,7 +68,7 @@ DEPENDENCIES=">=dev-python/sphinx-6.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-theme-builder[${PYTHON_USEDEP}] )
 	a11y? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )
-	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
-	i18n? ( dev-python/jinja[${PYTHON_USEDEP}] )"
+	i18n? ( dev-python/babel[${PYTHON_USEDEP}] )
+	i18n? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

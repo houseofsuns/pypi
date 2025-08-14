@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -60,7 +60,6 @@ DEPENDENCIES="test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/packaging-24.2[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/more-itertools-8.8[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/jaraco-text-3.7[${PYTHON_USEDEP}] )
-	core? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/wheel-0.43.0[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/platformdirs-4.2.2[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/jaraco-functools-4.0[${PYTHON_USEDEP}] )

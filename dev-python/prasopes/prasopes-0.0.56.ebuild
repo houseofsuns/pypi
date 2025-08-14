@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
 	dev-python/rawprasslib[${PYTHON_USEDEP}]
 	dev-python/opentims-bruker-bridge[${PYTHON_USEDEP}]
 	dev-python/opentimspy[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
+	dev-python/pyqt5[${PYTHON_USEDEP}]
+	dev-python/pyqt5-sip[${PYTHON_USEDEP}]
 	raw_parameters_readout? ( dev-python/rawautoparams[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

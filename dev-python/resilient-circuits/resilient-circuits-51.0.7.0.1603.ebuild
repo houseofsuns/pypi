@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/resilient[${PYTHON_USEDEP}]
 	dev-python/resilient-lib[${PYTHON_USEDEP}]
 	~dev-python/stomp-py-8.2[${PYTHON_USEDEP}]
 	dev-python/circuits[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.6[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.2[${PYTHON_USEDEP}]
 	~dev-python/watchdog-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/pandas-0.25.1[${PYTHON_USEDEP}]
 	dev-python/mplfinance[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.2.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/tdqm[${PYTHON_USEDEP}]
 	dev-python/jgtfxcon[${PYTHON_USEDEP}]

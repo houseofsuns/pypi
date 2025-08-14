@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="YAML-based automated rapid prototyping framework for deep learning experiments [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb11528ea40>)]"
+DESCRIPTION="YAML-based automated rapid prototyping framework for deep learning experiments [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37bd2f0190>)]"
 
 HOMEPAGE="https://github.com/lighter/lighter"
 LICENSE="MIT"

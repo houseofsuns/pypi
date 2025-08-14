@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all drivers-embedding-amazon-bedrock drivers-embedding-amazon-sagemaker drivers-embedding-cohere drivers-embedding-google drivers-embedding-huggingface drivers-embedding-ollama drivers-embedding-voyageai drivers-event-listener-amazon-iot drivers-event-listener-amazon-sqs drivers-event-listener-pusher drivers-file-manager-amazon-s3 drivers-image-generation-huggingface drivers-memory-conversation-amazon-dynamodb drivers-memory-conversation-redis drivers-observability-datadog drivers-observability-griptape-cloud drivers-observability-opentelemetry drivers-prompt-amazon-bedrock drivers-prompt-amazon-sagemaker drivers-prompt-anthropic drivers-prompt-cohere drivers-prompt-google drivers-prompt-huggingface-hub drivers-prompt-huggingface-pipeline drivers-prompt-ollama drivers-rerank-cohere drivers-sql drivers-sql-amazon-redshift drivers-sql-snowflake drivers-text-to-speech-elevenlabs drivers-vector-amazon-opensearch drivers-vector-astra-db drivers-vector-marqo drivers-vector-mongodb drivers-vector-opensearch drivers-vector-pgai drivers-vector-pgvector drivers-vector-pinecone drivers-vector-qdrant drivers-vector-redis drivers-web-scraper-markdownify drivers-web-scraper-trafilatura drivers-web-search-duckduckgo drivers-web-search-exa drivers-web-search-tavily loaders-email loaders-image loaders-pdf loaders-sql"
 DEPENDENCIES=">=dev-python/attrs-24.3.0[${PYTHON_USEDEP}]
 	>=dev-python/filetype-1.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	dev-python/marshmallow-enum[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]

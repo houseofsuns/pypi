@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	taurus-qt? ( >=dev-python/ply-2.3[${PYTHON_USEDEP}] )
 	taurus-qt? ( >=dev-python/lxml-2.1[${PYTHON_USEDEP}] )
-	taurus-qt? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	taurus-qt? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	taurus-qt? ( dev-python/guiqwt[${PYTHON_USEDEP}] )
 	taurus-qt? ( dev-python/PythonQwt[${PYTHON_USEDEP}] )
 	taurus-tango? ( dev-python/pytango[${PYTHON_USEDEP}] )

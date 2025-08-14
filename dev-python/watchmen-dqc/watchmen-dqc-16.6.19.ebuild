@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="mongodb mssql mysql oracle postgresql"
 DEPENDENCIES="<dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pandas-profiling[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/watchmen-meta[${PYTHON_USEDEP}]
 	dev-python/watchmen-data-kernel[${PYTHON_USEDEP}]
 	dev-python/watchmen-pipeline-kernel[${PYTHON_USEDEP}]

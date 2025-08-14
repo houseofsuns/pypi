@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/bib-dedupe[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	>=dev-python/dictdiffer-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/docker-7.1.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.29[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
 	dev-python/ImageHash[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/lingua-language-detector[${PYTHON_USEDEP}]
 	>=dev-python/lxml-5.2.0[${PYTHON_USEDEP}]
 	dev-python/nameparser[${PYTHON_USEDEP}]

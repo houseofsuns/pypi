@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0b27"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -47,7 +47,7 @@ DEPENDENCIES="~dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/grpcio-1.34.0[${PYTHON_USEDEP}]
 	~dev-python/idna-2.10[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.6.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]

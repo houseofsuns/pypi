@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="<=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	>=dev-python/six-1.1.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.8[${PYTHON_USEDEP}]
+	>=dev-python/configargparse-0.11.0[${PYTHON_USEDEP}]
 	tests? ( <=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/six-1.1.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/jinja2-2.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/configargparse-0.11.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

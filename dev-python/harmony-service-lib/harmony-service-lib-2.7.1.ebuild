@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/boto3-1.14[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/autopep8-1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/faker-8.1.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/freezegun-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipython-8.10.0[${PYTHON_USEDEP}] )

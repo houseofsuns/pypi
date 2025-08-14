@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,19 +29,19 @@ DEPENDENCIES="<dev-python/starlette-0.48.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	standard? ( dev-python/fastapi-cli[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
-	standard? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/python-multipart-0.0.18[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )
 	standard-no-fastapi-cloud-cli? ( dev-python/fastapi-cli[${PYTHON_USEDEP}] )
 	standard-no-fastapi-cloud-cli? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
-	standard-no-fastapi-cloud-cli? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	standard-no-fastapi-cloud-cli? ( >=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}] )
 	standard-no-fastapi-cloud-cli? ( >=dev-python/python-multipart-0.0.18[${PYTHON_USEDEP}] )
 	standard-no-fastapi-cloud-cli? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )
 	standard-no-fastapi-cloud-cli? ( >=dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi-cli[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/python-multipart-0.0.18[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )

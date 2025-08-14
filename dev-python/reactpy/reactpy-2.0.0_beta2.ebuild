@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0b2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/asgi-tools[${PYTHON_USEDEP}] )
 	all? ( dev-python/asgiref[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja2-simple-tags[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	all? ( dev-python/pip[${PYTHON_USEDEP}] )
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	asgi? ( dev-python/pip[${PYTHON_USEDEP}] )
 	asgi? ( dev-python/servestatic[${PYTHON_USEDEP}] )
 	jinja? ( dev-python/jinja2-simple-tags[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

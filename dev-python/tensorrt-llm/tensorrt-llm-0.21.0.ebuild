@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -113,7 +113,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	devel? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	devel? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	devel? ( dev-python/lm-eval[${PYTHON_USEDEP}] )
-	devel? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	devel? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	devel? ( dev-python/genai-perf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

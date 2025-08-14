@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="docs speedups"
 DEPENDENCIES="~dev-python/aiohttp-3.10.10[${PYTHON_USEDEP}]
 	~dev-python/async-lru-2.0.4[${PYTHON_USEDEP}]
 	~dev-python/semver-3.0.2[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-8.1.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinxcontrib-websupport-2.0.0[${PYTHON_USEDEP}] )

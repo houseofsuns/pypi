@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/dependency-injector[${PYTHON_USEDEP}]
 	~dev-python/elasticsearch-7.15.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-11.3.0[${PYTHON_USEDEP}]
 	~dev-python/flake8-4.0.1[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	~dev-python/flit-3.6.0[${PYTHON_USEDEP}]

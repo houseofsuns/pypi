@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/ophyd[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyopengl[${PYTHON_USEDEP}]
-	dev-python/pyopengl_accelerate[${PYTHON_USEDEP}]
+	dev-python/pyopengl-accelerate[${PYTHON_USEDEP}]
 	dev-python/pyqode-core[${PYTHON_USEDEP}]
 	dev-python/pyqode-python[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/qtconsole[${PYTHON_USEDEP}]
 	dev-python/qtmodern[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )

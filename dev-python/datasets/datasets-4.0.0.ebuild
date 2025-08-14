@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	audio? ( >=dev-python/soundfile-0.12.1[${PYTHON_USEDEP}] )
-	audio? ( dev-python/torchcodec[${PYTHON_USEDEP}] )
+	audio? ( dev-python/TorchCodec[${PYTHON_USEDEP}] )
 	audio? ( dev-python/torch[${PYTHON_USEDEP}] )
 	vision? ( >=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev? ( dev-python/polars[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/soundfile-0.12.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/torchcodec[${PYTHON_USEDEP}] )
+	dev? ( dev-python/TorchCodec[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -111,7 +111,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	tests? ( dev-python/polars[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/soundfile-0.12.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/torchcodec[${PYTHON_USEDEP}] )
+	tests? ( dev-python/TorchCodec[${PYTHON_USEDEP}] )
 	tests-numpy2? ( dev-python/numba[${PYTHON_USEDEP}] )
 	tests-numpy2? ( dev-python/absl-py[${PYTHON_USEDEP}] )
 	tests-numpy2? ( dev-python/decorator[${PYTHON_USEDEP}] )
@@ -140,7 +140,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	tests-numpy2? ( dev-python/polars[${PYTHON_USEDEP}] )
 	tests-numpy2? ( >=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
 	tests-numpy2? ( >=dev-python/soundfile-0.12.1[${PYTHON_USEDEP}] )
-	tests-numpy2? ( dev-python/torchcodec[${PYTHON_USEDEP}] )
+	tests-numpy2? ( dev-python/TorchCodec[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/torch[${PYTHON_USEDEP}] )

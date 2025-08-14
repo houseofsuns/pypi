@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,6 +29,6 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	orjson? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	ujson? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )
 	jwt? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

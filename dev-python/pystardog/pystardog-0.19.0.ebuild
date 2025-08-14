@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/build-1.0.0[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/twine-6.1.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

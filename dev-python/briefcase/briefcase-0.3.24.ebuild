@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,13 +32,12 @@ DEPENDENCIES=">=dev-python/packaging-24.2[${PYTHON_USEDEP}]
 	>=dev-python/truststore-0.10.1[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/dmgbuild[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-8.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	<dev-python/rich-15.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/coverage-7.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage-conditional-plugin[${PYTHON_USEDEP}] )

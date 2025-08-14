@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -74,7 +74,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/gitpython-3.1.44[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/moto-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock-ssh-server[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cryptography-44.0.3[${PYTHON_USEDEP}] )
@@ -139,7 +139,7 @@ DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pycocotools[${PYTHON_USEDEP}] )
 	all? ( <dev-python/moto-6.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sphinxcontrib-applehelp-1.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/gitpython-3.1.44[${PYTHON_USEDEP}] )
 	all? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/neptune[${PYTHON_USEDEP}] )
 	all? ( dev-python/peft[${PYTHON_USEDEP}] )

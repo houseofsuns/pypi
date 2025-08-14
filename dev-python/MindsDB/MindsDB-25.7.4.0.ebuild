@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -240,7 +240,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	github? ( ~dev-python/pygithub-2.6.1[${PYTHON_USEDEP}] )
 	gitlab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	gmail? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	google-analytics? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
@@ -606,7 +606,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	all-handlers-extras? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )
 	all-handlers-extras? ( dev-python/phoenixdb[${PYTHON_USEDEP}] )
 	all-handlers-extras? ( dev-python/databend-sqlalchemy[${PYTHON_USEDEP}] )
-	all-handlers-extras? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all-handlers-extras? ( ~dev-python/pygithub-2.6.1[${PYTHON_USEDEP}] )
 	all-handlers-extras? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	all-handlers-extras? ( dev-python/tweepy[${PYTHON_USEDEP}] )
 	all-handlers-extras? ( dev-python/pyodbc[${PYTHON_USEDEP}] )

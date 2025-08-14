@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,6 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/morecontext[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	<dev-python/python-dotenv-2.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0[${PYTHON_USEDEP}]"
+	<dev-python/python-dotenv-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

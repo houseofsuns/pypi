@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.7.4[${PYTHON_USEDEP}]
-	dev-python/Events[${PYTHON_USEDEP}]
+	dev-python/events[${PYTHON_USEDEP}]
 	develop? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	develop? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/black-24.3.0[${PYTHON_USEDEP}] )
-	develop? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	develop? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

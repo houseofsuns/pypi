@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/nbformat-5.7.0[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	dev-python/configargparse[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]

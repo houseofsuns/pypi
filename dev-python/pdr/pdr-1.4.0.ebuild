@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/dustgoggles[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	pvl? ( dev-python/pvl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	fuzzy? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )"
+	fuzzy? ( dev-python/levenshtein[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

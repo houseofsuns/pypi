@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.9.18.post2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	<=dev-python/ruamel-yaml-0.17.16[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/bytecode[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
 	az? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	notebooks? ( <dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	notebooks? ( <dev-python/nbconvert-6.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/nteract-scrapbook[${PYTHON_USEDEP}] )

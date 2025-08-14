@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,12 +44,12 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-ApplicationServices[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Automator[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-BackgroundAssets[${PYTHON_USEDEP}]
-	dev-python/pyobjc-framework-browserenginekit[${PYTHON_USEDEP}]
+	dev-python/pyobjc-framework-BrowserEngineKit[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-BusinessChat[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CFNetwork[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CalendarStore[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CallKit[${PYTHON_USEDEP}]
-	dev-python/pyobjc-framework-carbon[${PYTHON_USEDEP}]
+	dev-python/pyobjc-framework-Carbon[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Cinematic[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-ClassKit[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CloudKit[${PYTHON_USEDEP}]
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CryptoTokenKit[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-DataDetection[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-DeviceCheck[${PYTHON_USEDEP}]
-	dev-python/pyobjc-framework-devicediscoveryextension[${PYTHON_USEDEP}]
+	dev-python/pyobjc-framework-DeviceDiscoveryExtension[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-DictionaryServices[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-DiscRecording[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-DiscRecordingUI[${PYTHON_USEDEP}]
@@ -113,7 +113,7 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-MailKit[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-MapKit[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-MediaAccessibility[${PYTHON_USEDEP}]
-	dev-python/pyobjc-framework-mediaextension[${PYTHON_USEDEP}]
+	dev-python/pyobjc-framework-MediaExtension[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-MediaLibrary[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-MediaPlayer[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-MediaToolbox[${PYTHON_USEDEP}]
@@ -203,12 +203,12 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	allbindings? ( dev-python/pyobjc-framework-ApplicationServices[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-Automator[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-BackgroundAssets[${PYTHON_USEDEP}] )
-	allbindings? ( dev-python/pyobjc-framework-browserenginekit[${PYTHON_USEDEP}] )
+	allbindings? ( dev-python/pyobjc-framework-BrowserEngineKit[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-BusinessChat[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-CFNetwork[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-CalendarStore[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-CallKit[${PYTHON_USEDEP}] )
-	allbindings? ( dev-python/pyobjc-framework-carbon[${PYTHON_USEDEP}] )
+	allbindings? ( dev-python/pyobjc-framework-Carbon[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-Cinematic[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-ClassKit[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-CloudKit[${PYTHON_USEDEP}] )
@@ -235,7 +235,7 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	allbindings? ( dev-python/pyobjc-framework-CryptoTokenKit[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-DataDetection[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-DeviceCheck[${PYTHON_USEDEP}] )
-	allbindings? ( dev-python/pyobjc-framework-devicediscoveryextension[${PYTHON_USEDEP}] )
+	allbindings? ( dev-python/pyobjc-framework-DeviceDiscoveryExtension[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-DictionaryServices[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-DiscRecording[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-DiscRecordingUI[${PYTHON_USEDEP}] )
@@ -272,7 +272,7 @@ DEPENDENCIES="dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	allbindings? ( dev-python/pyobjc-framework-MailKit[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-MapKit[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-MediaAccessibility[${PYTHON_USEDEP}] )
-	allbindings? ( dev-python/pyobjc-framework-mediaextension[${PYTHON_USEDEP}] )
+	allbindings? ( dev-python/pyobjc-framework-MediaExtension[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-MediaLibrary[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-MediaPlayer[${PYTHON_USEDEP}] )
 	allbindings? ( dev-python/pyobjc-framework-MediaToolbox[${PYTHON_USEDEP}] )

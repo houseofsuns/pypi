@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/honeybee-core[${PYTHON_USEDEP}]
 	dev-python/honeybee-energy[${PYTHON_USEDEP}]
 	dev-python/ladybug-rhino[${PYTHON_USEDEP}]
-	dev-python/PH-units[${PYTHON_USEDEP}]
+	dev-python/ph-units[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.24.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

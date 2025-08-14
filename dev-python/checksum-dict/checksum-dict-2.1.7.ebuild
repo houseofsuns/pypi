@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="checksum_dict's objects handle the simple but repetitive task of checksumming addresses before setting/getting dictionary values. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb1329250e0>)]"
+DESCRIPTION="checksum_dict's objects handle the simple but repetitive task of checksumming addresses before setting/getting dictionary values. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37db53a570>)]"
 
 HOMEPAGE="https://github.com/BobTheBuidler/checksum_dict"
 LICENSE=""
@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cchecksum[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]"
+	>=dev-python/mypy-extensions-0.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

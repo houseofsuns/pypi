@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	vbu? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/aiohttp-session[${PYTHON_USEDEP}] )
-	vbu? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	vbu? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	vbu? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	voice? ( <dev-python/pynacl-1.5[${PYTHON_USEDEP}] )"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,6 +54,6 @@ DEPENDENCIES="dev-python/brainglobe-utils[${PYTHON_USEDEP}]
 	napari? ( dev-python/napari-plugin-engine[${PYTHON_USEDEP}] )
 	napari? ( dev-python/napari[${PYTHON_USEDEP}] )
 	napari? ( >=dev-python/pooch-1.0[${PYTHON_USEDEP}] )
-	napari? ( dev-python/QtPy[${PYTHON_USEDEP}] )"
+	napari? ( dev-python/qtpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

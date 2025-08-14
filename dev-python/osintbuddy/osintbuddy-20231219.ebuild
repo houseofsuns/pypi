@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.0.4rc51.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/selenium-4.9.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/mando-0.7.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/platformdirs-3.5.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}] )

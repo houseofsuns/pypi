@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/werkzeug-3.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	<dev-python/protobuf-5.0[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-3.0[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	>=dev-python/pygithub-1.51[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-1.10.0[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0a7"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/cython-0.25.2[${PYTHON_USEDEP}]
 	dev-python/xphyle[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	bamnostic? ( dev-python/bamnostic[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	khmer? ( dev-python/khmer[${PYTHON_USEDEP}] )
 	progressbar? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
 	sra? ( dev-python/ngstream[${PYTHON_USEDEP}] )

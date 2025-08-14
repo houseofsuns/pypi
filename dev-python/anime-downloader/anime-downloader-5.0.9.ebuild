@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pySmartDL[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.8.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyqt5-5.15.1[${PYTHON_USEDEP}] )
 	gui? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	selescrape? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	unpacker? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/backcall[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/ipython-7.13.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	dev-python/janus[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.16.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.1[${PYTHON_USEDEP}]
 	~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/parso-0.6.2[${PYTHON_USEDEP}]

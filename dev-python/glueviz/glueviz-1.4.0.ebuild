@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,6 +27,6 @@ IUSE="qt"
 DEPENDENCIES="dev-python/glue-core[${PYTHON_USEDEP}]
 	dev-python/glue-qt[${PYTHON_USEDEP}]
 	dev-python/glue-vispy-viewers[${PYTHON_USEDEP}]
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
+	qt? ( >=dev-python/pyqt5-5.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="3.0.0.dev24"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.2[${PYTHON_USEDEP}]
 	~dev-python/docker-5.0.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.17[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-1.12.8[${PYTHON_USEDEP}]
 	~dev-python/google-auth-1.30.1[${PYTHON_USEDEP}]
 	dev-python/google-cloud[${PYTHON_USEDEP}]

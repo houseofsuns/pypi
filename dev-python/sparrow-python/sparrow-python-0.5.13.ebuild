@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	cli? ( dev-python/asciinema[${PYTHON_USEDEP}] )
 	cli? ( dev-python/docker[${PYTHON_USEDEP}] )
-	cli? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	cli? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	cli? ( dev-python/httpie[${PYTHON_USEDEP}] )
 	cli? ( dev-python/icrawler[${PYTHON_USEDEP}] )
 	cli? ( dev-python/objprint[${PYTHON_USEDEP}] )
@@ -55,15 +55,15 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	cli? ( dev-python/twine[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	cli? ( dev-python/viztracer[${PYTHON_USEDEP}] )
-	crawl? ( dev-python/crawl4ai[${PYTHON_USEDEP}] )
+	crawl? ( dev-python/Crawl4AI[${PYTHON_USEDEP}] )
 	crawl? ( dev-python/icrawler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asciinema[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/concurrent-log-handler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fake-headers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/faker-13.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gpustat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/icrawler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ordered-set[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	ml? ( dev-python/ray[${PYTHON_USEDEP}] )
 	ml? ( >=dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/jionlp[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
+	nlp? ( dev-python/levenshtein[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/rouge-chinese[${PYTHON_USEDEP}] )
 	other? ( dev-python/aiortc[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="templates test"
 DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
-	templates? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	templates? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	templates? ( dev-python/click[${PYTHON_USEDEP}] )
 	templates? ( dev-python/inquirerpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

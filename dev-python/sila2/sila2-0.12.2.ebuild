@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]
 	codegen? ( dev-python/black[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/isort[${PYTHON_USEDEP}] )
-	codegen? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	codegen? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/typer[${PYTHON_USEDEP}] )
 	cryptography? ( >=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	full? ( dev-python/black[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/isort[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	full? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

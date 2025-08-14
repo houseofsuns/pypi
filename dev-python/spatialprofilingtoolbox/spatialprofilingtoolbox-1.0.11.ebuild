@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -77,7 +77,7 @@ DEPENDENCIES="~dev-python/psycopg-3.1.19[${PYTHON_USEDEP}]
 	workflow? ( dev-python/pyshp[${PYTHON_USEDEP}] )
 	workflow? ( ~dev-python/pydantic-2.7.2[${PYTHON_USEDEP}] )
 	workflow? ( ~dev-python/pandas-2.2.2[${PYTHON_USEDEP}] )
-	workflow? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	workflow? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	workflow? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	workflow? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
 	workflow? ( ~dev-python/tables-3.9.2[${PYTHON_USEDEP}] )
@@ -87,7 +87,7 @@ DEPENDENCIES="~dev-python/psycopg-3.1.19[${PYTHON_USEDEP}]
 	all? ( ~dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/uvicorn-0.30.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pandas-2.2.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpy-1.26.4[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scipy-1.13.1[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	~dev-python/outcome-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	~dev-python/prettytable-3.5.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	~dev-python/regex-2022.10.31[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]

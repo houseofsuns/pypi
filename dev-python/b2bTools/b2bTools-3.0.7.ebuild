@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,18 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
-	~dev-python/cython-0.29.37[${PYTHON_USEDEP}]
-	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
-	~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
-	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
-	dev-python/pomegranate[${PYTHON_USEDEP}]
-	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
-	~dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
-	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/torchvision[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
-	dev-python/biopython[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.8.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]

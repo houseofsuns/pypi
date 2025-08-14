@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,6 +31,7 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-access-context-manager[${PYTHON_USEDEP}]
 	dev-python/google-cloud-os-config[${PYTHON_USEDEP}]
-	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]"
+	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

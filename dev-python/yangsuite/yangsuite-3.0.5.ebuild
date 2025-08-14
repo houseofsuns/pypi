@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	dev-python/pygithub[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	>dev-python/markupsafe-2.1[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
@@ -62,7 +62,7 @@ DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.6.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-2.1.9[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
@@ -75,7 +75,7 @@ DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]
 	dev-python/xeger[${PYTHON_USEDEP}]
 	dev-python/pyang[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.6.0[${PYTHON_USEDEP}]

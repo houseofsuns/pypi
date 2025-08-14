@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
 	all? ( dev-python/cookiecutter-project-upgrader[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
@@ -61,12 +61,12 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cookiecutter-project-upgrader[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
-	pyqtgraph? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqtgraph? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

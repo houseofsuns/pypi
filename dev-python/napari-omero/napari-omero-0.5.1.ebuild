@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/omero-marshal[${PYTHON_USEDEP}]
 	dev-python/omero-py[${PYTHON_USEDEP}]
 	dev-python/omero-rois[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-1.10.0[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.6.7[${PYTHON_USEDEP}]
 	all? ( dev-python/napari[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

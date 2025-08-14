@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	report? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	report? ( >=dev-python/jupyter-client-7.4.0[${PYTHON_USEDEP}] )
 	report? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	report? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	report? ( >=dev-python/jinja2-2.11.0[${PYTHON_USEDEP}] )
 	report? ( dev-python/phik[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	lightgbm? ( dev-python/lightgbm[${PYTHON_USEDEP}] )

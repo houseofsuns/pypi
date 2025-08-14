@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/weconnect[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-3.0.4[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/flask-login-0.6.3[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/wtforms-3.1.2[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-3.1.1[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/awesomeversion[${PYTHON_USEDEP}]
 	>=dev-python/svgwrite-1.4.3[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/click-8.2.1[${PYTHON_USEDEP}] )
-	cli? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	png? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	termgraphics? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

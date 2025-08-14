@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,11 +27,10 @@ IUSE="jinja test uvloop"
 DEPENDENCIES=">=dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	dev-python/async-wrapper[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	>=dev-python/tblib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/httpx-0.27.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-3.6.1[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="amr ud"
 DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.31.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	>=dev-python/configargparse-0.14.0[${PYTHON_USEDEP}]
 	dev-python/UCCA[${PYTHON_USEDEP}]
 	amr? ( dev-python/Penman[${PYTHON_USEDEP}] )
 	amr? ( dev-python/smatch[${PYTHON_USEDEP}] )

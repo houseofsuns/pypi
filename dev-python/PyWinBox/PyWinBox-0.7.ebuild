@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
 	>=dev-python/python-xlib-0.21[${PYTHON_USEDEP}]
-	dev-python/ewmhlib[${PYTHON_USEDEP}]
+	dev-python/EWMHlib[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/types-setuptools-65.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pywin32[${PYTHON_USEDEP}] )

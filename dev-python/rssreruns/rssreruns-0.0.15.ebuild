@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/certifi-2025.4.26[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/lxml-5.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nodeenv-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )

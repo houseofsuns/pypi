@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0a1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc medical plot style test typing window"
 DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.4.0[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/data-science-types[${PYTHON_USEDEP}] )
 	all? ( dev-python/dipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-rfb[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.9.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -48,16 +48,14 @@ DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
 	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-6.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/texext[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/matplotlib-3.9.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-6.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/texext[${PYTHON_USEDEP}] )
-	doc? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	medical? ( dev-python/dipy[${PYTHON_USEDEP}] )
 	medical? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	plot? ( >=dev-python/matplotlib-3.9.0[${PYTHON_USEDEP}] )

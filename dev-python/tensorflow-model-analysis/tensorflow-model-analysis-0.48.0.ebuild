@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -26,13 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/apache-beam[${PYTHON_USEDEP}]
-	dev-python/apache-beam[${PYTHON_USEDEP}]
 	<dev-python/ipython-8.0[${PYTHON_USEDEP}]
 	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
-	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-11.0[${PYTHON_USEDEP}]
 	dev-python/rouge-score[${PYTHON_USEDEP}]

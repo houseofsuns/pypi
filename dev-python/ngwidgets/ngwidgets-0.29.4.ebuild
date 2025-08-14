@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,12 +36,12 @@ DEPENDENCIES="dev-python/anthropic[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.10[${PYTHON_USEDEP}]
 	dev-python/pybasemkit[${PYTHON_USEDEP}]
 	>=dev-python/pydevd-2.10.0[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	>=dev-python/pygithub-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/tdqm[${PYTHON_USEDEP}]
-	mbus? ( dev-python/pymeterbus[${PYTHON_USEDEP}] )
+	mbus? ( dev-python/pyMeterBus[${PYTHON_USEDEP}] )
 	sso? ( dev-python/py-3rdparty-mediawiki[${PYTHON_USEDEP}] )
 	test? ( dev-python/green[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

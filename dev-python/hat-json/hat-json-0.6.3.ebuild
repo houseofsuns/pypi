@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/hat-util[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	~dev-python/referencing-0.35.1[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.2.0[${PYTHON_USEDEP}]
 	rs? ( dev-python/jsonschema-rs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hat-doit[${PYTHON_USEDEP}] )

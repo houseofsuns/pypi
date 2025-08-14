@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/xmlsec-1.3.13[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2018.1.18[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/suds-community[${PYTHON_USEDEP}]
 	dev-python/suds-requests4[${PYTHON_USEDEP}]
 	dev-python/reportlab[${PYTHON_USEDEP}]

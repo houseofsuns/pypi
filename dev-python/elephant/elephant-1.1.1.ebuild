@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/neo[${PYTHON_USEDEP}]
 	docs? ( <dev-python/matplotlib-3.9.0[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/scikit-learn-0.23.2[${PYTHON_USEDEP}] )
 	extras? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
-	extras? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/jinja2-2.11.2[${PYTHON_USEDEP}] )
 	opencl? ( >=dev-python/pyopencl-2020.2.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nixio[${PYTHON_USEDEP}] )

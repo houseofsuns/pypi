@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="pdf sign test"
 DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/xsdata[${PYTHON_USEDEP}]
 	sign? ( dev-python/erpbrasil-assinatura[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/brazilfiscalreport[${PYTHON_USEDEP}] )
+	pdf? ( dev-python/BrazilFiscalReport[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	test? ( dev-python/erpbrasil-assinatura[${PYTHON_USEDEP}] )
-	test? ( dev-python/brazilfiscalreport[${PYTHON_USEDEP}] )"
+	test? ( dev-python/BrazilFiscalReport[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

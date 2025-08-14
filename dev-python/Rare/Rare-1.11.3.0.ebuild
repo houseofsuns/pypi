@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,10 +38,10 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyside6-stubs[${PYTHON_USEDEP}] )
+	dev? ( dev-python/PySide6-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/qstylizer[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/cx-Freeze[${PYTHON_USEDEP}] )
-	packaging? ( dev-python/Nuitka[${PYTHON_USEDEP}] )
+	packaging? ( dev-python/nuitka[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

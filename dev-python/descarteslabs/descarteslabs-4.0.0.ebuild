@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,6 @@ DEPENDENCIES=">=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.3[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.19[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/ipyleaflet[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/freezegun-0.3.12[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.2.3[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.18.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/keyring-23.13.1[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-2.2.0[${PYTHON_USEDEP}]

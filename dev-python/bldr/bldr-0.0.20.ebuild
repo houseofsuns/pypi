@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/certifi-2025.6.15[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/iniconfig-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.14.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-25.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pluggy-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycodestyle-2.12.1[${PYTHON_USEDEP}] )

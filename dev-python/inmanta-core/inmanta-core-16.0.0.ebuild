@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/crontab[${PYTHON_USEDEP}]
 	<dev-python/cryptography-46.0[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	<dev-python/email-validator-3.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-11.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-25.1[${PYTHON_USEDEP}]
 	>=dev-python/pip-21.3[${PYTHON_USEDEP}]
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinxcontrib-redoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
 	debug? ( dev-python/rpdb[${PYTHON_USEDEP}] )
 	pytest-inmanta-extensions? ( dev-python/pytest-inmanta-extensions[${PYTHON_USEDEP}] )
 	datatrace? ( dev-python/graphviz[${PYTHON_USEDEP}] )

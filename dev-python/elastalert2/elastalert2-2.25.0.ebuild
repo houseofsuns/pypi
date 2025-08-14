@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apscheduler-4.0[${PYTHON_USEDEP}]
 	dev-python/aws-requests-auth[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.34.54[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.16.0[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	~dev-python/elasticsearch-7.10.1[${PYTHON_USEDEP}]
 	dev-python/envparse[${PYTHON_USEDEP}]
 	dev-python/exotel[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	>=dev-python/jsonpointer-2.4[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.21.1[${PYTHON_USEDEP}]

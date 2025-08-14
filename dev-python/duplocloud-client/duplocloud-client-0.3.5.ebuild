@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,8 +39,8 @@ DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	build? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	build? ( dev-python/toml[${PYTHON_USEDEP}] )
 	build? ( dev-python/semver[${PYTHON_USEDEP}] )
-	build? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	build? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	build? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	build? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/pip-audit[${PYTHON_USEDEP}] )

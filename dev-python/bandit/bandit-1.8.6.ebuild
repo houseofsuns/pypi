@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,11 +23,11 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="baseline sarif test toml yaml"
+IUSE="baseline sarif test yaml"
 DEPENDENCIES=">=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	baseline? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	baseline? ( >=dev-python/gitpython-3.1.30[${PYTHON_USEDEP}] )
 	sarif? ( >=dev-python/sarif-om-1.0.4[${PYTHON_USEDEP}] )
 	sarif? ( >=dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
@@ -38,7 +38,6 @@ DEPENDENCIES=">=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/testtools-2.3.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-1.9.4[${PYTHON_USEDEP}] )
-	toml? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

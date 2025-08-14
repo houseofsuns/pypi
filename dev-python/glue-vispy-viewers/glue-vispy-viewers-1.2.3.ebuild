@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,10 +38,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )
 	test? ( dev-python/objgraph[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	pyqt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	pyqt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/glue-qt[${PYTHON_USEDEP}] )
-	pyqt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyside? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	pyqt? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	pyside? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/glue-qt[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/glue-jupyter[${PYTHON_USEDEP}] )

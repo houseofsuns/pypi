@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/webvtt-py[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.32.2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-6.2.2[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	dev-python/attr[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-2.0.9[${PYTHON_USEDEP}]

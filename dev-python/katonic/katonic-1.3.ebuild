@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -60,7 +60,7 @@ DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	all? ( dev-python/delta[${PYTHON_USEDEP}] )
 	all? ( dev-python/delta-spark[${PYTHON_USEDEP}] )
 	all? ( dev-python/google[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jinja2-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/kfp[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	all? ( <dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
@@ -109,7 +109,7 @@ DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	fs? ( dev-python/delta-spark[${PYTHON_USEDEP}] )
 	fs? ( dev-python/google[${PYTHON_USEDEP}] )
 	fs? ( ~dev-python/protobuf-3.19.4[${PYTHON_USEDEP}] )
-	fs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	fs? ( <dev-python/jinja2-4.0[${PYTHON_USEDEP}] )
 	fs? ( dev-python/mmh3[${PYTHON_USEDEP}] )
 	fs? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	fs? ( dev-python/pyspark[${PYTHON_USEDEP}] )

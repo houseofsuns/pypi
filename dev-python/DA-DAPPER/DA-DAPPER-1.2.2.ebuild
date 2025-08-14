@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,8 +40,8 @@ DEPENDENCIES=">=dev-python/scipy-1.1[${PYTHON_USEDEP}]
 	dev-python/struct-tools[${PYTHON_USEDEP}]
 	dev-python/multiprocessing_on_dill[${PYTHON_USEDEP}]
 	~dev-python/threadpoolctl-1.0.0[${PYTHON_USEDEP}]
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	qt? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
 	build? ( dev-python/jupytext[${PYTHON_USEDEP}] )

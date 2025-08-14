@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="faker jwt msgspec parquet s3 ssh testing"
 DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2024.9.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
@@ -43,10 +42,10 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	faker? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	faker? ( >=dev-python/faker-22.5[${PYTHON_USEDEP}] )
 	jwt? ( >=dev-python/cryptography-3.4.6[${PYTHON_USEDEP}] )
 	jwt? ( >=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}] )
-	msgspec? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	msgspec? ( >=dev-python/msgspec-0.19.0[${PYTHON_USEDEP}] )
 	parquet? ( >=dev-python/pyarrow-15.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	ssh? ( >=dev-python/paramiko-3.3.0[${PYTHON_USEDEP}] )

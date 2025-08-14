@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.10.0rc21"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,10 +23,9 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="alibaba-oss all api azure-blob-storage azure-key-vault complete complete-api dask databricks-sdk dev-postgres google-cloud graphviz kafka kfp18 mlflow plotly redis s3 snowflake sqlalchemy tdengine"
-DEPENDENCIES=">=dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-2.5.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+IUSE="alibaba-oss all api azure-blob-storage azure-key-vault complete complete-api dask databricks-sdk dev-postgres google-cloud graphviz kafka mlflow plotly redis s3 snowflake sqlalchemy tdengine"
+DEPENDENCIES=">=dev-python/urllib3-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.11[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]
 	~dev-python/click-8.1[${PYTHON_USEDEP}]
@@ -43,7 +42,6 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.15[${PYTHON_USEDEP}]
 	~dev-python/mergedeep-1.3[${PYTHON_USEDEP}]
 	dev-python/v3io-frames[${PYTHON_USEDEP}]
-	dev-python/v3io-frames[${PYTHON_USEDEP}]
 	~dev-python/semver-3.0[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
 	<dev-python/fsspec-2024.7[${PYTHON_USEDEP}]
@@ -53,11 +51,11 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-75.2[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
 	dev-python/mlrun-pipelines-kfp-common[${PYTHON_USEDEP}]
 	dev-python/mlrun-pipelines-kfp-v1_8[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
 	s3? ( <dev-python/boto3-1.36[${PYTHON_USEDEP}] )
 	s3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
@@ -84,17 +82,14 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
 	sqlalchemy? ( ~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	alibaba-oss? ( dev-python/ossfs[${PYTHON_USEDEP}] )
 	alibaba-oss? ( dev-python/oss2[${PYTHON_USEDEP}] )
 	tdengine? ( dev-python/taos-ws-py[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	dev-postgres? ( dev-python/pytest-mock-resources[${PYTHON_USEDEP}] )
-	kfp18? ( dev-python/mlrun-pipelines-kfp-v1_8[${PYTHON_USEDEP}] )
 	api? ( ~dev-python/uvicorn-0.32.1[${PYTHON_USEDEP}] )
 	api? ( dev-python/dask-kubernetes[${PYTHON_USEDEP}] )
-	api? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	api? ( <dev-python/apscheduler-4.0[${PYTHON_USEDEP}] )
 	api? ( ~dev-python/objgraph-3.6[${PYTHON_USEDEP}] )
 	api? ( dev-python/igz-mgmt[${PYTHON_USEDEP}] )
 	api? ( ~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}] )
@@ -118,9 +113,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}] )
 	all? ( <dev-python/boto3-1.36[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
@@ -148,9 +141,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
 	complete? ( dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}] )
 	complete? ( <dev-python/boto3-1.36[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
-	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
 	complete? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
-	complete? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	complete? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
@@ -174,7 +165,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
 	complete-api? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/aiosmtplib[${PYTHON_USEDEP}] )
 	complete-api? ( ~dev-python/alembic-1.14[${PYTHON_USEDEP}] )
-	complete-api? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	complete-api? ( <dev-python/apscheduler-4.0[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/avro[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
@@ -182,9 +173,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.20[${PYTHON_USEDEP}]
 	complete-api? ( <dev-python/boto3-1.36[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/dask-kubernetes[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/dask[${PYTHON_USEDEP}] )
-	complete-api? ( dev-python/dask[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
-	complete-api? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	complete-api? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

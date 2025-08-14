@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.38.4[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.10.1[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
 	~dev-python/emoji-2.2.0[${PYTHON_USEDEP}]
 	dev-python/aiogram[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	dev-python/onesignal-sdk[${PYTHON_USEDEP}]
 	dev-python/pyo365[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	dev-python/pyshorteners[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	dev-python/tweepy[${PYTHON_USEDEP}]

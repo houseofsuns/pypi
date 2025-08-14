@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/dparse-0.6.4[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.16.1[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.15.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
@@ -40,11 +40,10 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/safety-schemas[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
-	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	github? ( >=dev-python/pygithub-1.43.3[${PYTHON_USEDEP}] )
 	gitlab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	spdx? ( dev-python/spdx-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

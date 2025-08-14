@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="4.1.0.dev1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev-python/django-celery-results[${PYTHON_USEDEP}]
 	dev-python/django-celery-beat[${PYTHON_USEDEP}]
 	dev-python/django-celery-email[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	<dev-python/django-polymorphic-5.0.0[${PYTHON_USEDEP}]
 	dev-python/django-colorfield[${PYTHON_USEDEP}]
 	dev-python/django-bleach[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]

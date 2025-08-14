@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/brain-indexer[${PYTHON_USEDEP}]
 	>=dev-python/importlib-resources-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/libsonata[${PYTHON_USEDEP}]
-	dev-python/MorphIO[${PYTHON_USEDEP}]
+	dev-python/morphio[${PYTHON_USEDEP}]
 	dev-python/morph-tool[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	>=dev-python/xarray-0.19.0[${PYTHON_USEDEP}]
 	>dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/lmfit-1.0.3[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>dev-python/pyqt5-5.15.2[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/adaptive[${PYTHON_USEDEP}]

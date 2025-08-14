@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="json passport socks"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	>=dev-python/tornado-6.1[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.6.3[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2018.6[${PYTHON_USEDEP}]
 	~dev-python/cachetools-4.2.2[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	json? ( dev-python/ujson[${PYTHON_USEDEP}] )
 	passport? ( >dev-python/cryptography-3.4[${PYTHON_USEDEP}] )
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
+	socks? ( dev-python/pysocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="berkeleydb html lxml networkx orjson"
-DEPENDENCIES="<dev-python/isodate-1.0.0[${PYTHON_USEDEP}]
-	<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
 	berkeleydb? ( dev-python/berkeleydb[${PYTHON_USEDEP}] )
 	networkx? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
 	html? ( dev-python/html5rdf[${PYTHON_USEDEP}] )

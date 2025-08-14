@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,6 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cartopy cloudpath dev docs excel gurobipy hdf5"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.14.1[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
@@ -65,7 +66,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/nbsphinx-0.9.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/scikit-learn-1.6.1[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipython-9.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipykernel-6.29.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

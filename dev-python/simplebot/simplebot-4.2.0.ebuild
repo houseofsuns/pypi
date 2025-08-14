@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,14 +27,14 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/deltachat[${PYTHON_USEDEP}]
 	>=dev-python/py-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-11.1.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-8.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/xkcd[${PYTHON_USEDEP}] )
 	test? ( dev-python/wikiquote[${PYTHON_USEDEP}] )
 	dev? ( dev-python/deltachat[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pillow-11.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-8.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xkcd[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wikiquote[${PYTHON_USEDEP}] )

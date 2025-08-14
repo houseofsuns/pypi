@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/requests-2.25[${PYTHON_USEDEP}]
 	flask? ( >=dev-python/flask-2.2[${PYTHON_USEDEP}] )
 	flask? ( >=dev-python/docker-5.0[${PYTHON_USEDEP}] )
 	flask? ( >=dev-python/requests-toolbelt-0.9[${PYTHON_USEDEP}] )
-	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	quart? ( >=dev-python/quart-0.18.0[${PYTHON_USEDEP}] )
 	quart? ( >=dev-python/docker-5.0[${PYTHON_USEDEP}] )
 	quart? ( >=dev-python/requests-toolbelt-0.9[${PYTHON_USEDEP}] )
 	quality? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )

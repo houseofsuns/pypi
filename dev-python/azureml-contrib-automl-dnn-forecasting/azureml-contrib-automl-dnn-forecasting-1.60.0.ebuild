@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-train-automl-client[${PYTHON_USEDEP}]
 	dev-python/azureml-train-automl-runtime[${PYTHON_USEDEP}]
 	dev-python/azureml-dataset-runtime[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.37[${PYTHON_USEDEP}]
 	~dev-python/overrides-6.1.0[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]

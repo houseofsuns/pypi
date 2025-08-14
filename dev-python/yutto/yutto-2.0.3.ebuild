@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES=">=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}]
 	>=dev-python/dict2xml-1.7.6[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.11.2[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

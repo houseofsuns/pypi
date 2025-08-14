@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs speedup"
 DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	dev-python/pymediainfo-pyrofork[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/hatch-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/tornado-6.3.3[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/tgcrypto-pyrofork[${PYTHON_USEDEP}] )
+	speedup? ( dev-python/TgCrypto-pyrofork[${PYTHON_USEDEP}] )
 	speedup? ( >=dev-python/uvloop-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

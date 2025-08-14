@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,6 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all console dev docs jurigged sentry speedup tests voice"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.1[${PYTHON_USEDEP}]
+	dev-python/audioop-lts[${PYTHON_USEDEP}]
 	dev-python/croniter[${PYTHON_USEDEP}]
 	dev-python/discord-typings[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
 	google-genai? ( dev-python/google-genai[${PYTHON_USEDEP}] )
 	>=dev-python/httpcore-1.0.9[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/myst-parser-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/nanoid[${PYTHON_USEDEP}]

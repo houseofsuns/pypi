@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -34,9 +34,6 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/kwarray[${PYTHON_USEDEP}]
 	dev-python/kwimage[${PYTHON_USEDEP}]
 	dev-python/torch-liberator[${PYTHON_USEDEP}]
-	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/torchvision[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	>dev-python/imageio-2.6.0[${PYTHON_USEDEP}]
@@ -75,13 +72,6 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	all-strict? ( dev-python/kwcoco[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/colormath[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
@@ -95,13 +85,6 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/seaborn-0.10.0[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/torch-optimizer[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
@@ -132,10 +115,6 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	optional-strict? ( dev-python/ndsampler[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/kwcoco[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/colormath[${PYTHON_USEDEP}] )
-	optional-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	optional-strict? ( ~dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
-	optional-strict? ( ~dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
-	optional-strict? ( ~dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	optional-strict? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	optional-strict? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	optional-strict? ( ~dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
@@ -144,10 +123,6 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	optional-strict? ( ~dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	optional-strict? ( ~dev-python/seaborn-0.10.0[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/torch-optimizer[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
@@ -166,9 +141,6 @@ DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	runtime-strict? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/kwimage[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/torch-liberator[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/torch[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/torch[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( >dev-python/imageio-2.6.0[${PYTHON_USEDEP}] )

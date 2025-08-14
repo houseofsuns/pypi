@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,8 +51,8 @@ DEPENDENCIES="all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	s3? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	all? ( dev-python/func-timeout[${PYTHON_USEDEP}] )
 	quicksight? ( dev-python/func-timeout[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	looker? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
+	looker? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )

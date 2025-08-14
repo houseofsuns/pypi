@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="Genshi"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="i18n plugin"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	i18n? ( >=dev-python/babel-0.8[${PYTHON_USEDEP}] )
 	plugin? ( >=dev-python/setuptools-0.6_alpha2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

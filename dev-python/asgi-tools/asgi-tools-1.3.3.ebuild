@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,6 @@ DEPENDENCIES="dev-python/http-router[${PYTHON_USEDEP}]
 	>=dev-python/multidict-6.6.3[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.8.2[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
 	tests? ( dev-python/aiofile[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-aio[${PYTHON_USEDEP}] )
@@ -36,14 +35,13 @@ DEPENDENCIES="dev-python/http-router[${PYTHON_USEDEP}]
 	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ujson[${PYTHON_USEDEP}] )
 	tests? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )
 	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	examples? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	examples? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	examples? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

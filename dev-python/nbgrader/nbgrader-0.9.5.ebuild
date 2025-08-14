@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="dev docs tests"
 DEPENDENCIES=">=dev-python/alembic-1.7[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.6[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-client-9.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-server-2.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="comics gdrive gmail goodreads kobo ldap metadata oauth"
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apscheduler-3.11.0[${PYTHON_USEDEP}]
+	<dev-python/babel-3.0[${PYTHON_USEDEP}]
 	<dev-python/flask-babel-4.1.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Principal[${PYTHON_USEDEP}]
 	<dev-python/flask-3.1.0[${PYTHON_USEDEP}]

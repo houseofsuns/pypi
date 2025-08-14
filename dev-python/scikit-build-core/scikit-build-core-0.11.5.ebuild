@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,10 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cov dev docs test test-hatchling test-meta test-numpy test-schema wheel-free-setuptools wheels"
-DEPENDENCIES=">=dev-python/exceptiongroup-1.0[${PYTHON_USEDEP}]
-	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.10.1[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.2.2[${PYTHON_USEDEP}]
 	cov? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
@@ -44,6 +42,7 @@ DEPENDENCIES=">=dev-python/exceptiongroup-1.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/build-0.8[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/cattrs-22.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pip-23.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pip-24.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pybind11-2.11[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-subprocess-1.5[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-3.1[${PYTHON_USEDEP}] )
@@ -56,7 +55,6 @@ DEPENDENCIES=">=dev-python/exceptiongroup-1.0[${PYTHON_USEDEP}]
 	test-meta? ( >=dev-python/hatch-fancy-pypi-readme-22.3[${PYTHON_USEDEP}] )
 	test-meta? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	test-numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test-numpy? ( ~dev-python/numpy-2.2.0[${PYTHON_USEDEP}] )
 	test-schema? ( dev-python/fastjsonschema[${PYTHON_USEDEP}] )
 	test-schema? ( dev-python/validate-pyproject[${PYTHON_USEDEP}] )
 	wheel-free-setuptools? ( >=dev-python/setuptools-70.1[${PYTHON_USEDEP}] )

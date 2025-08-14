@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,12 +29,12 @@ DEPENDENCIES="dev-python/msal[${PYTHON_USEDEP}]
 	all-for-docs? ( <dev-python/django-6.0[${PYTHON_USEDEP}] )
 	all-for-docs? ( dev-python/flask[${PYTHON_USEDEP}] )
 	all-for-docs? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
-	all-for-docs? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	all-for-docs? ( dev-python/quart[${PYTHON_USEDEP}] )
 	all-for-docs? ( dev-python/Quart-Session[${PYTHON_USEDEP}] )
 	django? ( <dev-python/django-6.0[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	flask? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
-	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	quart? ( dev-python/quart[${PYTHON_USEDEP}] )
 	quart? ( dev-python/Quart-Session[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

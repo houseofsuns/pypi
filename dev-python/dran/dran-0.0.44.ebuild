@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	dev-python/pyerfa[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.1.1[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-5.12.2[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
-	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-sip-12.13.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]

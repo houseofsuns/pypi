@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -39,8 +39,8 @@ DEPENDENCIES=">=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
-	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	all? ( dev-python/pynput[${PYTHON_USEDEP}] )
 	all? ( dev-python/screeninfo[${PYTHON_USEDEP}] )
@@ -59,8 +59,8 @@ DEPENDENCIES=">=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
 	api? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	api? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
 	api? ( dev-python/st-img-pastebutton[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pynput[${PYTHON_USEDEP}] )
 	gui? ( dev-python/screeninfo[${PYTHON_USEDEP}] )

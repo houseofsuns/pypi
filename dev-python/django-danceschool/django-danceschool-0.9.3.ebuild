@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-ical[${PYTHON_USEDEP}]
 	dev-python/django-imagekit[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	>=dev-python/django-polymorphic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/django-sekizai[${PYTHON_USEDEP}]
 	dev-python/django-utils-six[${PYTHON_USEDEP}]
 	dev-python/djangocms-admin-style[${PYTHON_USEDEP}]

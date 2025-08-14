@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	jupyter? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
 	core-addons? ( >=dev-python/pandas-1.5[${PYTHON_USEDEP}] )
 	core-addons? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
-	core-addons? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	core-addons? ( <dev-python/pyqt5-6.0[${PYTHON_USEDEP}] )
 	pytcf? ( dev-python/pytcf[${PYTHON_USEDEP}] )
 	core-addons? ( dev-python/ipympl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

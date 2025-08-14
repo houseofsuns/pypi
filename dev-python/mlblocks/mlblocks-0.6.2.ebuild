@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/graphviz-1.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-6.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinxcontrib-applehelp-1.0.8[${PYTHON_USEDEP}] )

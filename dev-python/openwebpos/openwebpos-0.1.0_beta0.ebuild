@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.1.0b0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/flask-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/email-validator-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
 	<dev-python/flask-sqlalchemy-4.0.0[${PYTHON_USEDEP}]
-	dev-python/flask-mailman[${PYTHON_USEDEP}]
+	dev-python/Flask-Mailman[${PYTHON_USEDEP}]
 	dev-python/python-usernames[${PYTHON_USEDEP}]
 	<dev-python/pytz-2025.0[${PYTHON_USEDEP}]
 	dev-python/better-profanity[${PYTHON_USEDEP}]"

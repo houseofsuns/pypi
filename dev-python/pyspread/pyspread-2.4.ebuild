@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="matplotlib openpyxl pip plotnine py-moneyed pycel pyenchant python-dateutil rpy2"
-DEPENDENCIES="dev-python/PyQt6[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyqt6-6.4[${PYTHON_USEDEP}]
 	>=dev-python/markdown2-2.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-40.0[${PYTHON_USEDEP}]

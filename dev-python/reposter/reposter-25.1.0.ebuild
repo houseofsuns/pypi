@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build tests"
 DEPENDENCIES="dev-python/tortoise-orm[${PYTHON_USEDEP}]
-	dev-python/tgcrypto-pyrofork[${PYTHON_USEDEP}]
+	dev-python/TgCrypto-pyrofork[${PYTHON_USEDEP}]
 	dev-python/pyrofork[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	tests? ( dev-python/pyright[${PYTHON_USEDEP}] )

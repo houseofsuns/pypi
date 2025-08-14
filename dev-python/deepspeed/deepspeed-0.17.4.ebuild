@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	1bit-mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	readthedocs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	readthedocs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/hjson[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/packaging[${PYTHON_USEDEP}] )
@@ -125,7 +125,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	all? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	all? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	all? ( dev-python/deepspeed-kernels[${PYTHON_USEDEP}] )

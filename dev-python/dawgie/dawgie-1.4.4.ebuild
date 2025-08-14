@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data and Algorithm Work-flow Generation, Introspection, and Execution (DAWGIE) [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb12f132f80>)]"
+DESCRIPTION="Data and Algorithm Work-flow Generation, Introspection, and Execution (DAWGIE) [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37d77d8c80>)]"
 
 HOMEPAGE="https://github.com/al-niessner/DAWGIE"
 LICENSE="see LICENSE file for details"
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.7.80[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
 	dev-python/dawgie-pydot3[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-2.1.11[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
 	<dev-python/psycopg-3.2.0[${PYTHON_USEDEP}]

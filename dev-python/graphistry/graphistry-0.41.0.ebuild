@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
@@ -105,7 +105,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/docutils-0.21.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipython-8.28[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipykernel-6.29.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.9.5[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/pygments-2.10[${PYTHON_USEDEP}] )

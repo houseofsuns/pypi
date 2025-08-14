@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="mpi test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/intel-fortran-rt[${PYTHON_USEDEP}]
 	dev-python/mkl[${PYTHON_USEDEP}]
-	dev-python/multiclass-interface[${PYTHON_USEDEP}]
+	dev-python/Multiclass-interface[${PYTHON_USEDEP}]
 	test? ( dev-python/h2lib-tests[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

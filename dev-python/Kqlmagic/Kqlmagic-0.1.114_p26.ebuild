@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.1.114.post26"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -65,7 +65,7 @@ DEPENDENCIES=">=dev-python/psutil-5.4.7[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-docstyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flakes[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	tests? ( dev-python/pyqt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

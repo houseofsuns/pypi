@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.0.0[${PYTHON_USEDEP}]
 	dev-python/intbitset[${PYTHON_USEDEP}]
 	dev-python/jaraco-functools[${PYTHON_USEDEP}]
 	dev-python/javaproperties[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.7.0[${PYTHON_USEDEP}]
 	dev-python/jsonstreams[${PYTHON_USEDEP}]
 	>=dev-python/license-expression-30.4.1[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
@@ -69,7 +69,6 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.0.0[${PYTHON_USEDEP}]
 	dev-python/urlpy[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]
 	dev-python/typecode[${PYTHON_USEDEP}]
-	>=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-5.1.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )

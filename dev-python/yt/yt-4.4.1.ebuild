@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12,3_10} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,6 @@ DEPENDENCIES="dev-python/cmyt[${PYTHON_USEDEP}]
 	>=dev-python/tomli-w-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-3.4.0[${PYTHON_USEDEP}]
 	dev-python/unyt[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.2.3[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	netcdf4? ( >=dev-python/netcdf4-1.5.3[${PYTHON_USEDEP}] )
 	fortran? ( dev-python/f90nml[${PYTHON_USEDEP}] )

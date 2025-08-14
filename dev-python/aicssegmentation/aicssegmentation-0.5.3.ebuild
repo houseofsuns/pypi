@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	all? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )

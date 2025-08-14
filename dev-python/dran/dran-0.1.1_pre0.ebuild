@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.1.1.dev0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.12.1[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-specifications-2023.7.1[${PYTHON_USEDEP}]
@@ -81,15 +81,15 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	dev-python/pyerfa[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
-	dev-python/PyQt-builder[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyqt-builder-1.15.2[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-5.15.9[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
-	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-sip-12.11.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-25.1.1[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-2.3.1[${PYTHON_USEDEP}]
 	~dev-python/readme-renderer-40.0[${PYTHON_USEDEP}]
 	~dev-python/referencing-0.30.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]

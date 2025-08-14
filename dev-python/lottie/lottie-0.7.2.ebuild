@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="trace? ( dev-python/glaxnimate[${PYTHON_USEDEP}] )
 	video? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	video? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	emoji? ( dev-python/grapheme[${PYTHON_USEDEP}] )
-	gui? ( dev-python/QScintilla[${PYTHON_USEDEP}] )
+	gui? ( dev-python/qscintilla[${PYTHON_USEDEP}] )
 	animatedsvg? ( dev-python/glaxnimate[${PYTHON_USEDEP}] )
 	aep? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	aep? ( dev-python/esprima[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="trace? ( dev-python/glaxnimate[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	all? ( dev-python/glaxnimate[${PYTHON_USEDEP}] )
 	all? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
-	all? ( dev-python/QScintilla[${PYTHON_USEDEP}] )
+	all? ( dev-python/qscintilla[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/escodegen[${PYTHON_USEDEP}] )
 	all? ( dev-python/fonttools[${PYTHON_USEDEP}] )

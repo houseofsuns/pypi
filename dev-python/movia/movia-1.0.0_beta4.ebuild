@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.0.0b4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,12 +36,12 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	gui? ( dev-python/black[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	optional? ( dev-python/black[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	optional? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	optional? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

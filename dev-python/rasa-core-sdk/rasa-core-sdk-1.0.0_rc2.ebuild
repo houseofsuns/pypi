@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.0.0rc2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	~dev-python/configargparse-0.14[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	~dev-python/flask-1.0[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0[${PYTHON_USEDEP}]

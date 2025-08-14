@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="brotli h2 socks zstd"
 DEPENDENCIES="brotli? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	brotli? ( >=dev-python/brotlicffi-0.8.0[${PYTHON_USEDEP}] )
 	h2? ( <dev-python/h2-5.0[${PYTHON_USEDEP}] )
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	socks? ( <dev-python/pysocks-2.0[${PYTHON_USEDEP}] )
 	zstd? ( >=dev-python/zstandard-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

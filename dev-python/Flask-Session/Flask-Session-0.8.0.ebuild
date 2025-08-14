@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cachelib memcached mongodb redis sqlalchemy"
 DEPENDENCIES=">=dev-python/flask-2.2[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	>=dev-python/msgspec-0.18.6[${PYTHON_USEDEP}]
 	dev-python/cachelib[${PYTHON_USEDEP}]
 	all? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
 	cachelib? ( >=dev-python/cachelib-0.10.2[${PYTHON_USEDEP}] )

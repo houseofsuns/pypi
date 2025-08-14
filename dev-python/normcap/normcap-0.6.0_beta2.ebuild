@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.6.0b2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/jeepney-0.9.0[${PYTHON_USEDEP}]
 	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	dev-python/shiboken6[${PYTHON_USEDEP}]
 	dev-python/zxing-cpp[${PYTHON_USEDEP}]
-	build? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	build? ( dev-python/babel[${PYTHON_USEDEP}] )
 	build? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -71,9 +71,9 @@ DEPENDENCIES=">=dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/distlib-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/docker-6.0.1[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	>=dev-python/entrypoints-0.4[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	>=dev-python/et-xmlfile-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/executing-1.2.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/fastjsonschema-2.16.2[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/sympy-1.12.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.13.1[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.8[${PYTHON_USEDEP}]
 	>=dev-python/graphviz-0.20.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	dev-python/qwasm[${PYTHON_USEDEP}]
 	zx? ( dev-python/numba[${PYTHON_USEDEP}] )

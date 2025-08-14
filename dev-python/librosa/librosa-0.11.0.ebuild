@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,8 +35,10 @@ DEPENDENCIES=">=dev-python/audioread-2.1.9[${PYTHON_USEDEP}]
 	>=dev-python/pooch-1.1[${PYTHON_USEDEP}]
 	dev-python/soxr[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.1[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-1.0[${PYTHON_USEDEP}]
+	dev-python/standard-aifc[${PYTHON_USEDEP}]
+	dev-python/standard-sunau[${PYTHON_USEDEP}]
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/sphinx-1.3.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )

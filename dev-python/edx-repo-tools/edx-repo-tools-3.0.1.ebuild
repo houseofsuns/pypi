@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/fissix[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.11[${PYTHON_USEDEP}]
 	~dev-python/github3-py-4.0.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.43[${PYTHON_USEDEP}]
 	~dev-python/idna-3.7[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
 	dev-python/lazy[${PYTHON_USEDEP}]
@@ -141,12 +141,12 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/ghapi[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/gitdb-4.0.11[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/github3-py-4.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/gitpython-3.1.43[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/greenlet-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/idna-3.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/kiwisolver-1.4.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lazy[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )
@@ -172,7 +172,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pluggy-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycparser-2.22[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyee[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pygithub-2.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pygments-2.18.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-celery[${PYTHON_USEDEP}] )
@@ -236,7 +236,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	pull-request-creator? ( ~dev-python/idna-3.7[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/packaging-24.1[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/pycparser-2.22[${PYTHON_USEDEP}] )
-	pull-request-creator? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	pull-request-creator? ( ~dev-python/pygithub-2.3.0[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}] )
 	pull-request-creator? ( ~dev-python/requests-2.32.3[${PYTHON_USEDEP}] )

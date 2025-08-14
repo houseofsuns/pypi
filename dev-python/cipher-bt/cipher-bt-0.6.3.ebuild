@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="finplot jupyter talib yfinance"
 DEPENDENCIES="dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	dev-python/mplfinance[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.11.4[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/dependency-injector[${PYTHON_USEDEP}]
 	>=dev-python/ujson-5.10.0[${PYTHON_USEDEP}]
 	finplot? ( dev-python/finplot[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/jupyterlab-4.0[${PYTHON_USEDEP}] )
-	talib? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	talib? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	yfinance? ( dev-python/yfinance[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

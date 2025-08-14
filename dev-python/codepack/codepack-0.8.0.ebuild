@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/dill-0.3.4[${PYTHON_USEDEP}]
 	all? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/boto3-1.19.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
-	all? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/apscheduler-3.8.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/docker-5.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )

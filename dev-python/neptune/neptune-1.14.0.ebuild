@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="airflow aws detectron2 fastai kedro lightgbm mlflow mosaicml optuna prophet pytorch pytorch-lightning sacred sklearn tensorboard tensorflow-keras transformers xgboost zenml"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/gitpython-2.0.8[${PYTHON_USEDEP}]
 	>=dev-python/pillow-1.1.6[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.28.0[${PYTHON_USEDEP}]

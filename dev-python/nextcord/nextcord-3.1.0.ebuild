@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,6 +28,7 @@ DEPENDENCIES="speed? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	voice? ( <dev-python/pynacl-1.5[${PYTHON_USEDEP}] )
 	speed? ( >dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/audioop-lts-0.3.0[${PYTHON_USEDEP}]
 	speed? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
 	speed? ( >=dev-python/orjson-3.5.4[${PYTHON_USEDEP}] )
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"

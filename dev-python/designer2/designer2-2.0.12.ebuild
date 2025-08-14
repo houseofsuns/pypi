@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/antspyx[${PYTHON_USEDEP}]
 	~dev-python/imageio-2.34.1[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.4.2[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.4.5[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	~dev-python/lazy-loader-0.4[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.9.0[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.3[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]

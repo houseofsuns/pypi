@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev django tests"
 DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.18.0[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/environs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -35,7 +34,6 @@ DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	django? ( dev-python/django-cache-url[${PYTHON_USEDEP}] )
 	tests? ( dev-python/environs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	tests? ( dev-python/backports-strenum[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

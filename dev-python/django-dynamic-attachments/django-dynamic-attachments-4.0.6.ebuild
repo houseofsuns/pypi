@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bootstrap"
-DEPENDENCIES="dev-python/pyClamd[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyclamd[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	bootstrap? ( dev-python/ims-bootstrap[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

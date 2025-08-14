@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="app server"
 DEPENDENCIES="dev-python/dtw-python[${PYTHON_USEDEP}]
-	app? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	app? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	app? ( dev-python/PyQtChart[${PYTHON_USEDEP}] )
-	app? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	app? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	app? ( dev-python/pyqtlet[${PYTHON_USEDEP}] )
 	app? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	app? ( dev-python/fitparse[${PYTHON_USEDEP}] )

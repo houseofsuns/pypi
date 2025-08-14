@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anitya-schema[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/anitya_schema[${PYTHON_USEDEP}]
 	dev-python/fedora-messaging[${PYTHON_USEDEP}]
 	dev-python/fedora-messaging-the-new-hotness-schema[${PYTHON_USEDEP}]
 	dev-python/koji[${PYTHON_USEDEP}]

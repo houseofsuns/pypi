@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/jira[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-0.22.2_p1[${PYTHON_USEDEP}]
 	dev-python/auto_ml[${PYTHON_USEDEP}]
 	dev-python/algorithmia[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/flatten-json[${PYTHON_USEDEP}]
 	dev-python/pyjanitor[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cov dev doc i18n test"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
 	cov? ( <dev-python/coverage-7.7.0[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	doc? ( <dev-python/mkdocs-static-i18n-1.3[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/mkdocstrings-0.27.0[${PYTHON_USEDEP}] )
-	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	i18n? ( >=dev-python/babel-2.13.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	test? ( <dev-python/aiosqlite-0.21.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/arrow-1.4.0[${PYTHON_USEDEP}] )

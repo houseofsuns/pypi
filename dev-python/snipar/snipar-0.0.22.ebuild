@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
 	~dev-python/pooch-1.5.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.24[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	~dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]

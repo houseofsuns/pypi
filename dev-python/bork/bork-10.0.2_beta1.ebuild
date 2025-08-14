@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="10.0.2b1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,6 @@ DEPENDENCIES="~dev-python/build-1.2[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.8[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.2[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/mypy-1.11.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-8.3.2[${PYTHON_USEDEP}] )

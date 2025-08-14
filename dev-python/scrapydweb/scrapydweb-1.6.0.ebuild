@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/apscheduler-3.6.0[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/flask-2.0.0[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.4.0[${PYTHON_USEDEP}]
 	~dev-python/idna-2.7[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.0[${PYTHON_USEDEP}]
 	dev-python/logparser[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/pexpect-4.7.0[${PYTHON_USEDEP}]

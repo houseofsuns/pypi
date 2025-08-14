@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,10 +42,10 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/structlog-26.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pygithub-2.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	datasets? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
-	datasets? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	datasets? ( >=dev-python/pygithub-2.5.0[${PYTHON_USEDEP}] )
 	pyvis? ( dev-python/pyvis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.1.1.post3"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.9.4[${PYTHON_USEDEP}]
 	>=dev-python/idna-3.7[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.2.2[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.2.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.43[${PYTHON_USEDEP}]
 	dev-python/ghapi[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.11[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]

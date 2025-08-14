@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,11 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="<dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}]
 	<=dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<=dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-status-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-status-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/nox-2022.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/jetpytools[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.10.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.3.1[${PYTHON_USEDEP}]
-	dev-python/PyQt6-sip[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-sip-13.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-6.9.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/qdarkstyle-3.2.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]

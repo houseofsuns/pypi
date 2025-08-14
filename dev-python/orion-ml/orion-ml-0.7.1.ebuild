@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pydata-sphinx-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinxcontrib-applehelp-1.0.8[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinxcontrib-devhelp-1.0.6[${PYTHON_USEDEP}] )

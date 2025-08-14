@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/boto3-1.24.73[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.2[${PYTHON_USEDEP}]
 	~dev-python/rich-13.6.0[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	~dev-python/rich-click-1.5.2[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
 	~dev-python/zstandard-0.23.0[${PYTHON_USEDEP}]"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/pymongo-3.10[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.4[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1[${PYTHON_USEDEP}]
 	dev-python/thesmuggler[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1[${PYTHON_USEDEP}]

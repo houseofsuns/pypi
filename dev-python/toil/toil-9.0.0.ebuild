@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all aws cwl encryption google htcondor kubernetes mesos server wdl"
+IUSE="all aws cwl encryption google htcondor kubernetes server wdl"
 DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	<dev-python/docker-8.0[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
 	dev-python/enlighten[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	<dev-python/configargparse-2.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.15[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
@@ -73,7 +73,6 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	server? ( dev-python/wes-service[${PYTHON_USEDEP}] )
 	server? ( <dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}] )
 	htcondor? ( dev-python/htcondor[${PYTHON_USEDEP}] )
-	mesos? ( dev-python/pymesos[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy-boto3-iam[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy-boto3-s3[${PYTHON_USEDEP}] )
@@ -106,7 +105,6 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	all? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
 	all? ( dev-python/wes-service[${PYTHON_USEDEP}] )
-	all? ( <dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymesos[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

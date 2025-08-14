@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/electrumsv-node[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.3.2[${PYTHON_USEDEP}]
 	dev-python/psutil-wheels[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-49.6.0[${PYTHON_USEDEP}]
-	dev-python/aiorpcX[${PYTHON_USEDEP}]
+	>=dev-python/aiorpcx-0.22.1[${PYTHON_USEDEP}]
 	dev-python/bitcoinX[${PYTHON_USEDEP}]
 	>=dev-python/peewee-3.13.3[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]

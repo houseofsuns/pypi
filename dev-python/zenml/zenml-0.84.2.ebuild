@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="<=dev-python/alembic-1.15.2[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-3.0[${PYTHON_USEDEP}]
 	<dev-python/distro-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/docker-7.2.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-24.1[${PYTHON_USEDEP}]
 	<dev-python/passlib-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="<=dev-python/alembic-1.15.2[${PYTHON_USEDEP}]
 	server? ( <dev-python/python-multipart-0.1.0[${PYTHON_USEDEP}] )
 	server? ( ~dev-python/pyjwt-2.7[${PYTHON_USEDEP}] )
 	server? ( <dev-python/orjson-3.11.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	server? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	server? ( dev-python/ipinfo[${PYTHON_USEDEP}] )
 	server? ( dev-python/secure[${PYTHON_USEDEP}] )
 	server? ( <dev-python/tldextract-5.2.0[${PYTHON_USEDEP}] )

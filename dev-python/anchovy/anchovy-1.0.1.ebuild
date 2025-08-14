@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all base cq css include jinja markdown minify pillow pretty toml web yaml"
+IUSE="all base cq css include jinja markdown minify pillow pretty web yaml"
 DEPENDENCIES="all? ( dev-python/anchovy[${PYTHON_USEDEP}] )
 	base? ( dev-python/anchovy[${PYTHON_USEDEP}] )
 	base? ( dev-python/anchovy[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="all? ( dev-python/anchovy[${PYTHON_USEDEP}] )
 	css? ( dev-python/anchovy-css[${PYTHON_USEDEP}] )
 	include? ( >=dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	include? ( dev-python/anchovy[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	markdown? ( dev-python/anchovy[${PYTHON_USEDEP}] )
 	markdown? ( dev-python/anchovy[${PYTHON_USEDEP}] )
 	markdown? ( dev-python/anchovy[${PYTHON_USEDEP}] )
@@ -50,7 +50,6 @@ DEPENDENCIES="all? ( dev-python/anchovy[${PYTHON_USEDEP}] )
 	minify? ( dev-python/tdewolff-minify[${PYTHON_USEDEP}] )
 	pillow? ( >=dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	pretty? ( >=dev-python/rich-12.5.1[${PYTHON_USEDEP}] )
-	toml? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	web? ( dev-python/anchovy[${PYTHON_USEDEP}] )
 	web? ( dev-python/anchovy[${PYTHON_USEDEP}] )
 	web? ( dev-python/anchovy[${PYTHON_USEDEP}] )

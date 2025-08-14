@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="arbor bluepyopt neuron parallel"
 DEPENDENCIES="~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/errr[${PYTHON_USEDEP}]
-	dev-python/MorphIO[${PYTHON_USEDEP}]
+	dev-python/morphio[${PYTHON_USEDEP}]
 	dev-python/bsb-core[${PYTHON_USEDEP}]
 	arbor? ( dev-python/arbor[${PYTHON_USEDEP}] )
 	arbor? ( dev-python/nmodl-glia[${PYTHON_USEDEP}] )

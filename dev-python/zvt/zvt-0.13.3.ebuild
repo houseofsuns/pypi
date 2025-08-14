@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/requests-2.32.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.5.2[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-pagination[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.10.4[${PYTHON_USEDEP}]
 	dev-python/eastmoneypy[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.10.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-2.1.3[${PYTHON_USEDEP}]"

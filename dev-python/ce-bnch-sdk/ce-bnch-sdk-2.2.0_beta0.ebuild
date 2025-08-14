@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.2.0b0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	<=dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	app-scaffold? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
-	app-scaffold? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	app-scaffold? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	app-scaffold? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev-python/benchling-api-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,6 @@ DEPENDENCIES=">=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]
 	>dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
-	<=dev-python/numpy-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	<=dev-python/pyproj-3.4.1[${PYTHON_USEDEP}]
 	>=dev-python/pyproj-3.6.1[${PYTHON_USEDEP}]

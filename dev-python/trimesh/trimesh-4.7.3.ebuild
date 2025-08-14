@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,13 +35,13 @@ DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	easy? ( dev-python/pycollada[${PYTHON_USEDEP}] )
 	easy? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	easy? ( dev-python/xxhash[${PYTHON_USEDEP}] )
-	easy? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	easy? ( dev-python/rtree[${PYTHON_USEDEP}] )
 	easy? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	easy? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	easy? ( dev-python/embreex[${PYTHON_USEDEP}] )
 	easy? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	easy? ( dev-python/vhacdx[${PYTHON_USEDEP}] )
-	easy? ( dev-python/mapbox_earcut[${PYTHON_USEDEP}] )
+	easy? ( >=dev-python/mapbox-earcut-1.0.2[${PYTHON_USEDEP}] )
 	recommend? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	recommend? ( dev-python/meshio[${PYTHON_USEDEP}] )
 	recommend? ( <dev-python/pyglet-2.0[${PYTHON_USEDEP}] )

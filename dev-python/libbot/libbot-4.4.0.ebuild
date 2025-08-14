@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,9 +38,9 @@ DEPENDENCIES=">=dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/twine-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
-	pycord? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	pycord? ( ~dev-python/apscheduler-3.11.0[${PYTHON_USEDEP}] )
 	pycord? ( dev-python/py-cord[${PYTHON_USEDEP}] )
-	pyrogram? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	pyrogram? ( ~dev-python/apscheduler-3.11.0[${PYTHON_USEDEP}] )
 	pyrogram? ( dev-python/pyrofork[${PYTHON_USEDEP}] )
 	speed? ( ~dev-python/ujson-5.10.0[${PYTHON_USEDEP}] )
 	cache? ( dev-python/pymemcache[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	dev-python/wfdb[${PYTHON_USEDEP}]
 	dev-python/mne[${PYTHON_USEDEP}]
 	dev-python/Eel[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	dev-python/altgraph[${PYTHON_USEDEP}]

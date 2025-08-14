@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/area-detector-handlers[${PYTHON_USEDEP}]
 	dev? ( dev-python/mongomock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/anyascii-0.3.2[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2023.6.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
 	dev-python/jq[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	>=dev-python/msgspec-0.14.2[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.2.0[${PYTHON_USEDEP}]
@@ -73,7 +73,6 @@ DEPENDENCIES=">=dev-python/anyascii-0.3.2[${PYTHON_USEDEP}]
 	trafilatura? ( dev-python/dolma[${PYTHON_USEDEP}] )
 	trafilatura? ( dev-python/trafilatura[${PYTHON_USEDEP}] )
 	trafilatura? ( dev-python/Brotli[${PYTHON_USEDEP}] )
-	trafilatura? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	trafilatura? ( >=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}] )
 	trafilatura? ( dev-python/htmldate[${PYTHON_USEDEP}] )
 	trafilatura? ( dev-python/py3langid[${PYTHON_USEDEP}] )

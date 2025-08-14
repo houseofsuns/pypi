@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	tests-allianceauth-latest? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests-allianceauth-latest? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
-	tests-allianceauth-latest? ( dev-python/Faker[${PYTHON_USEDEP}] )"
+	tests-allianceauth-latest? ( dev-python/faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

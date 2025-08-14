@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.34.7rc1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	pipeline? ( dev-python/azureml-pipeline-core[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/azure-ml-component[${PYTHON_USEDEP}] )
 	pipeline? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	pipeline? ( ~dev-python/gitpython-3.1[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
 	pipeline? ( ~dev-python/jsonpath-ng-1.5[${PYTHON_USEDEP}] )
@@ -60,13 +60,13 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	build? ( ~dev-python/rsa-4.7[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/semver-2.13[${PYTHON_USEDEP}] )
-	build? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/gitpython-3.1[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/jsonpath-ng-1.5[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/chardet-4.0[${PYTHON_USEDEP}] )
 	build? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/opencensus-ext-azure[${PYTHON_USEDEP}] )
 	dev? ( dev-python/argparse-dataclass[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/gitpython-3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/rsa-4.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}] )

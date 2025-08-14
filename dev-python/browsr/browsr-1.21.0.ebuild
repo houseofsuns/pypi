@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/art[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	~dev-python/rich-click-1.7.4[${PYTHON_USEDEP}]
 	dev-python/rich-pixels[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.1[${PYTHON_USEDEP}]
 	dev-python/textual-universal-directorytree[${PYTHON_USEDEP}]

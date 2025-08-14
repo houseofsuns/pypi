@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/apscheduler-3.9.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/eurekapy[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/absl-py-1.4.0[${PYTHON_USEDEP}] )

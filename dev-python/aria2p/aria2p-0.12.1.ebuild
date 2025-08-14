@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="tui"
 DEPENDENCIES=">=dev-python/loguru-0.5[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.2[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.58[${PYTHON_USEDEP}]
 	tui? ( dev-python/asciimatics[${PYTHON_USEDEP}] )
 	tui? ( >=dev-python/pyperclip-1.8[${PYTHON_USEDEP}] )"

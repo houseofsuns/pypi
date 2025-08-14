@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
 	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
-	loader? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	loader? ( >=dev-python/apscheduler-3.10.4[${PYTHON_USEDEP}] )
 	loader? ( dev-python/cloudevents[${PYTHON_USEDEP}] )
 	loader? ( dev-python/inuits-policy-based-auth[${PYTHON_USEDEP}] )
 	loader? ( >=dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )

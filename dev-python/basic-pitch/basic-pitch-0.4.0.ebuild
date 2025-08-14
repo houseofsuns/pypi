@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,6 @@ DEPENDENCIES="dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/coremltools[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
-	dev-python/tflite-runtime[${PYTHON_USEDEP}]
 	coreml? ( dev-python/coremltools[${PYTHON_USEDEP}] )
 	data? ( dev-python/basic-pitch[${PYTHON_USEDEP}] )
 	data? ( dev-python/apache-beam[${PYTHON_USEDEP}] )

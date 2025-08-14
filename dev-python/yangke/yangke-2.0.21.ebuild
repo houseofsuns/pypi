@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,12 +28,12 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
 	>=dev-python/json5-0.8.5[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	>=dev-python/babel-2.9[${PYTHON_USEDEP}]
 	dev-python/pathlib2[${PYTHON_USEDEP}]
 	>=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	dev-python/apscheduler[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	>dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
 	dev-python/pykriging[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/pyecharts[${PYTHON_USEDEP}]
 	dev-python/iapws[${PYTHON_USEDEP}]
 	dev-python/qt-material[${PYTHON_USEDEP}]
-	all? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/dbutils-1.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}] )
@@ -68,15 +68,15 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/waitress[${PYTHON_USEDEP}] )
 	all? ( dev-python/boost[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
 	all? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )
 	all? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	database? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
-	database? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	database? ( >=dev-python/dbutils-1.3[${PYTHON_USEDEP}] )
 	database? ( >=dev-python/cryptography-3.1.1[${PYTHON_USEDEP}] )
 	database? ( dev-python/python-docx[${PYTHON_USEDEP}] )
 	database? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
@@ -99,13 +99,13 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	imagerecognition? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
 	performance? ( dev-python/iapws[${PYTHON_USEDEP}] )
 	performance? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	performance? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	performance? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	performance? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	performance? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
 	performance? ( dev-python/pyqt6-qscintillapyqt6-webengine[${PYTHON_USEDEP}] )
 	stock? ( dev-python/tushare[${PYTHON_USEDEP}] )
 	stock? ( dev-python/Scrapy[${PYTHON_USEDEP}] )
 	stock? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
-	stock? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	stock? ( >=dev-python/dbutils-1.3[${PYTHON_USEDEP}] )
 	stock? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
 	stock? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	stock? ( >=dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}] )
@@ -113,7 +113,7 @@ DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	ugly? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	ugly? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	ugly? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/pyWinhook[${PYTHON_USEDEP}] )
 	ugly? ( >=dev-python/scikit-image-0.19.3[${PYTHON_USEDEP}] )
 	ugly? ( >=dev-python/lmdb-1.3.0[${PYTHON_USEDEP}] )

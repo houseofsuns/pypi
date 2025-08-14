@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/platformdirs-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/flexcache[${PYTHON_USEDEP}]
 	dev-python/flexparser[${PYTHON_USEDEP}]
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( <=dev-python/babel-2.8[${PYTHON_USEDEP}] )
 	bench? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	bench? ( dev-python/pytest-codspeed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )

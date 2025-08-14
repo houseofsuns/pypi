@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/sain[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.11.11[${PYTHON_USEDEP}]
-	~dev-python/attrs-24.3.0[${PYTHON_USEDEP}]
-	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]"
+	~dev-python/attrs-24.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

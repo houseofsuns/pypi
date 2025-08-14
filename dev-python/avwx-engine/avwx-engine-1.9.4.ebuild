@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="all fuzz scipy shape"
 DEPENDENCIES="dev-python/geopy[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.26[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.12[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.13[${PYTHON_USEDEP}]
 	all? ( >=dev-python/numpy-1.26[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/rapidfuzz-3.6[${PYTHON_USEDEP}] )

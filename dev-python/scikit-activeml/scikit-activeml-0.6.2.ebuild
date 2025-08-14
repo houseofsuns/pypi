@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/joblib-1.4.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-gallery-0.11[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pybtex-0.23[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pydata-sphinx-theme-0.12[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	max? ( <=dev-python/joblib-1.5.0[${PYTHON_USEDEP}] )
 	max? ( <=dev-python/numpy-2.2.3[${PYTHON_USEDEP}] )

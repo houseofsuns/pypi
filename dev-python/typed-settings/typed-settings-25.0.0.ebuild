@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,18 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all attrs cattrs click jinja option-groups pydantic"
-DEPENDENCIES=">=dev-python/exceptiongroup-1.3.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
-	all? ( >=dev-python/attrs-23.1[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/attrs-23.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cattrs-24.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/click-option-group[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	attrs? ( >=dev-python/attrs-23.1[${PYTHON_USEDEP}] )
 	cattrs? ( >=dev-python/cattrs-24.1[${PYTHON_USEDEP}] )
 	click? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	option-groups? ( dev-python/click-option-group[${PYTHON_USEDEP}] )
 	option-groups? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	pydantic? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )"

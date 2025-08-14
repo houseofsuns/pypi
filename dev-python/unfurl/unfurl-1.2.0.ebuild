@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,12 +30,12 @@ DEPENDENCIES="~dev-python/pipenv-2024.0.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	dev-python/ansible-core[${PYTHON_USEDEP}]
 	~dev-python/rich-12.4.4[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	>=dev-python/rich-click-1.8.0[${PYTHON_USEDEP}]
 	<=dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
 	~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	<=dev-python/flask-caching-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-5.0.0[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/pipenv-2024.0.0[${PYTHON_USEDEP}]
 	<=dev-python/stevedore-5.1.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.41[${PYTHON_USEDEP}]
 	full? ( dev-python/docker[${PYTHON_USEDEP}] )
 	full? ( <dev-python/requests-2.32.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/kubernetes[${PYTHON_USEDEP}] )

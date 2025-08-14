@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/torch-max-mem[${PYTHON_USEDEP}]
 	dev-python/torch-ppr[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	templating? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	templating? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	wordcloud? ( dev-python/wordcloud[${PYTHON_USEDEP}] )

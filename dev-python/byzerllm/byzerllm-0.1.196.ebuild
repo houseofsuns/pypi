@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="default local saas"
 DEPENDENCIES="dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}]
 	default? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	default? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	default? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	default? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	default? ( dev-python/rich[${PYTHON_USEDEP}] )
 	default? ( dev-python/ray[${PYTHON_USEDEP}] )
 	default? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/contextlib2[${PYTHON_USEDEP}]
 	default? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	local? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	local? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	local? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	local? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	local? ( dev-python/rich[${PYTHON_USEDEP}] )
 	local? ( dev-python/ray[${PYTHON_USEDEP}] )
 	local? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
@@ -144,7 +144,7 @@ DEPENDENCIES="dev-python/contextlib2[${PYTHON_USEDEP}]
 	local? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	saas? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	saas? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	saas? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	saas? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	saas? ( dev-python/rich[${PYTHON_USEDEP}] )
 	saas? ( dev-python/ray[${PYTHON_USEDEP}] )
 	saas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,11 +44,11 @@ DEPENDENCIES="~dev-python/isort-4.3.4[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/gitchangelog[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-2.1.8[${PYTHON_USEDEP}]
 	~dev-python/hypothesis-3.45.3[${PYTHON_USEDEP}]
 	~dev-python/idna-2.6[${PYTHON_USEDEP}]
 	~dev-python/ipython-6.2.1[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]
 	dev-python/mimesis[${PYTHON_USEDEP}]
 	dev-python/mockito[${PYTHON_USEDEP}]

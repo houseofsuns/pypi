@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/click-8.0.2[${PYTHON_USEDEP}]
 	>dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.5.8[${PYTHON_USEDEP}]
-	dev-python/Pyro5[${PYTHON_USEDEP}]
+	>=dev-python/pyro5-5.10[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.16.2[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]

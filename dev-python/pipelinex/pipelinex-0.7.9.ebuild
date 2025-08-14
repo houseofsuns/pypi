@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-3.5.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.5.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )

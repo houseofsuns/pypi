@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/QuantStats[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-tools? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
-	mkdocs? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	mkdocs? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	dev-tools? ( dev-python/pandas-ta[${PYTHON_USEDEP}] )
 	tools? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pytest-watcher[${PYTHON_USEDEP}] )

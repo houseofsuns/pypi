@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,6 @@ DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/graphene-django-query-optimizer[${PYTHON_USEDEP}]
 	dev-python/django-settings-holder[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-23.5[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.12.1[${PYTHON_USEDEP}]
 	translation? ( dev-python/django-modeltranslation[${PYTHON_USEDEP}] )
 	files? ( >=dev-python/pillow-10.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -80,7 +80,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-changelog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-globalsubs[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/matplotlib-3.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/astropy[${PYTHON_USEDEP}] )

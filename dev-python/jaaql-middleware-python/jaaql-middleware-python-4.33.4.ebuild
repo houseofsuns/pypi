@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/jaaql-monitor[${PYTHON_USEDEP}]
 	~dev-python/twine-5.0.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/jwcrypto-1.5.6[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/idna-3.10[${PYTHON_USEDEP}]
 	~dev-python/certifi-2025.1.31[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

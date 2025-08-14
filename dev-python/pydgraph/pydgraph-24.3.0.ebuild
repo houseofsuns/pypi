@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,6 +27,7 @@ IUSE="dev"
 DEPENDENCIES="<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/build-1.2.2_p1[${PYTHON_USEDEP}] )
+	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-8.3.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

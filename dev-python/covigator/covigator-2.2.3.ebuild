@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/pycountry-convert[${PYTHON_USEDEP}]
 	~dev-python/tenacity-6.3.1[${PYTHON_USEDEP}]
 	dev-python/dash-bio[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-8.8.0[${PYTHON_USEDEP}]
 	dev-python/colorlover[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	~dev-python/lz4-3.1.3[${PYTHON_USEDEP}]

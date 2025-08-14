@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/watchdog[${PYTHON_USEDEP}]
 	build-sphinx? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	build-sphinx? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	build-sphinx? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( dev-python/babel[${PYTHON_USEDEP}] )
 	babel? ( dev-python/BabelGladeExtractor[${PYTHON_USEDEP}] )
 	babel? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	vlc-video? ( dev-python/python-vlc[${PYTHON_USEDEP}] )"

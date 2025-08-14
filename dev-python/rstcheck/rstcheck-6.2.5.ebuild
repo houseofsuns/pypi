@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,11 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs sphinx testing toml type-check"
+IUSE="dev docs sphinx testing type-check"
 DEPENDENCIES="dev-python/rstcheck-core[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.12.0[${PYTHON_USEDEP}]
 	sphinx? ( >=dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
-	toml? ( >=dev-python/tomli-2.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/coverage-6.0[${PYTHON_USEDEP}] )

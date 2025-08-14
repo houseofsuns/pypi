@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.0.0rc89"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/DBUtils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dbutils-2.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	>=dev-python/flask-compress-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]

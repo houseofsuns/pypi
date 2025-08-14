@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	dev-python/augmenty[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
+	~dev-python/levenshtein-0.23.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/absl-py-2.1.0[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/hydra-colorlog[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.37[${PYTHON_USEDEP}]
 	~dev-python/black-23.7.0[${PYTHON_USEDEP}]
 	~dev-python/isort-5.12.0[${PYTHON_USEDEP}]
 	~dev-python/mypy-1.5.1[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="3.0.2a0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_12,3_11} )
+PYTHON_COMPAT=( python{3_12,3_13,3_14,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi

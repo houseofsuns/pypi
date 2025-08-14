@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	ulid? ( dev-python/python-ulid[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2024.8.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipython-9.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/myst-parser-4.0.1[${PYTHON_USEDEP}] )
@@ -40,7 +40,6 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-8.1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/moto-5.1.5[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-6.1.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-8.4.0[${PYTHON_USEDEP}] )

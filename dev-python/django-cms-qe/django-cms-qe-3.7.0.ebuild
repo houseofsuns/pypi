@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -75,7 +75,7 @@ DEPENDENCIES="dev-python/django-cms[${PYTHON_USEDEP}]
 	test? ( dev-python/django-simple-captcha[${PYTHON_USEDEP}] )
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/tzdata[${PYTHON_USEDEP}] )
-	build? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	build? ( <dev-python/jinja2-3.1.0[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
 	psql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	mysql? ( ~dev-python/mysqlclient-2.2[${PYTHON_USEDEP}] )

@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tracking and config of machine learning runs [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb11d75fdf0>)]"
+DESCRIPTION="Tracking and config of machine learning runs [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37c5b68e40>)]"
 
 HOMEPAGE="https://github.com/mlrun/mlrun"
 LICENSE="MIT"
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.0.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-2.1.0[${PYTHON_USEDEP}]
 	dev-python/nuclio-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

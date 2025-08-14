@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="aws cli gcp inference sagemaker testing"
 DEPENDENCIES="cli? ( dev-python/appdirs[${PYTHON_USEDEP}] )
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/environs[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	dev-python/pygithub[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	aws? ( dev-python/pyarrow[${PYTHON_USEDEP}] )

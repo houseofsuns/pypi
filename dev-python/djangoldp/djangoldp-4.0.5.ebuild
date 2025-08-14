@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/django-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.0[${PYTHON_USEDEP}]
 	dev-python/django-brotli[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-guardian[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-14.2.0[${PYTHON_USEDEP}]
 	crypto? ( dev-python/pycryptodomex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/validators[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )"

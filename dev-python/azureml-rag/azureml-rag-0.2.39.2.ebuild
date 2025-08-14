@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	document-parsing? ( dev-python/tika[${PYTHON_USEDEP}] )
 	document-parsing? ( ~dev-python/pypdf-3.17.1[${PYTHON_USEDEP}] )
 	document-parsing? ( dev-python/unstructured[${PYTHON_USEDEP}] )
-	document-parsing? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	document-parsing? ( >=dev-python/gitpython-3.1[${PYTHON_USEDEP}] )
 	document-parsing? ( dev-python/azure-ai-formrecognizer[${PYTHON_USEDEP}] )
 	data-generation? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	data-generation? ( ~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}] )

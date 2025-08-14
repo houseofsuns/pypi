@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -56,7 +56,7 @@ DEPENDENCIES="all? ( >=dev-python/astroid-2.11.0[${PYTHON_USEDEP}] )
 	lint? ( <dev-python/typeguard-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage-conditional-plugin[${PYTHON_USEDEP}] )
-	test? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	test? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )"

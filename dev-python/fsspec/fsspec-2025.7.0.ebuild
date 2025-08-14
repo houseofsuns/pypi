@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -96,7 +96,7 @@ DEPENDENCIES="abfs? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	test-full? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	test-full? ( dev-python/fusepy[${PYTHON_USEDEP}] )
 	test-full? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	test-full? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test-full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	test-full? ( dev-python/kerchunk[${PYTHON_USEDEP}] )
 	test-full? ( dev-python/libarchive-c[${PYTHON_USEDEP}] )
 	test-full? ( dev-python/lz4[${PYTHON_USEDEP}] )

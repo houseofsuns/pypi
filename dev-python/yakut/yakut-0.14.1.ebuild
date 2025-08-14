@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pycyphal[${PYTHON_USEDEP}]
 	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.8[${PYTHON_USEDEP}]
-	joystick? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	joystick? ( <dev-python/pysdl2-2.0[${PYTHON_USEDEP}] )
 	joystick? ( ~dev-python/mido-1.2[${PYTHON_USEDEP}] )
 	joystick? ( ~dev-python/python-rtmidi-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

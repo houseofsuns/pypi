@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/equinox[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/markdown-3.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/markupsafe-1.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-1.2[${PYTHON_USEDEP}] )

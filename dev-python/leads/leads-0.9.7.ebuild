@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	gpio? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	gpio? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	gpio? ( dev-python/pynmea2[${PYTHON_USEDEP}] )
-	gpio? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	gpio? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
 	gpio? ( dev-python/pysdl2-dll[${PYTHON_USEDEP}] )
 	gpio? ( dev-python/pyserial[${PYTHON_USEDEP}] )
 	gpio? ( dev-python/screeninfo[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	standard? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	standard? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	standard? ( dev-python/pynmea2[${PYTHON_USEDEP}] )
-	standard? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	standard? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
 	standard? ( dev-python/pysdl2-dll[${PYTHON_USEDEP}] )
 	standard? ( dev-python/pyserial[${PYTHON_USEDEP}] )
 	standard? ( dev-python/screeninfo[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	vec? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	vec? ( dev-python/pynmea2[${PYTHON_USEDEP}] )
 	vec? ( dev-python/pynput[${PYTHON_USEDEP}] )
-	vec? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	vec? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
 	vec? ( dev-python/pysdl2-dll[${PYTHON_USEDEP}] )
 	vec? ( dev-python/pyserial[${PYTHON_USEDEP}] )
 	vec? ( dev-python/screeninfo[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	vec-dp? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	vec-dp? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	vec-dp? ( dev-python/pynmea2[${PYTHON_USEDEP}] )
-	vec-dp? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	vec-dp? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
 	vec-dp? ( dev-python/pysdl2-dll[${PYTHON_USEDEP}] )
 	vec-dp? ( dev-python/pyserial[${PYTHON_USEDEP}] )
 	vec-dp? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	vec-no-gpio? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	vec-no-gpio? ( dev-python/pynmea2[${PYTHON_USEDEP}] )
 	vec-no-gpio? ( dev-python/pynput[${PYTHON_USEDEP}] )
-	vec-no-gpio? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	vec-no-gpio? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
 	vec-no-gpio? ( dev-python/pysdl2-dll[${PYTHON_USEDEP}] )
 	vec-no-gpio? ( dev-python/pyserial[${PYTHON_USEDEP}] )
 	vec-no-gpio? ( dev-python/screeninfo[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	vec-rc? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	vec-rc? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	vec-rc? ( dev-python/pynmea2[${PYTHON_USEDEP}] )
-	vec-rc? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	vec-rc? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
 	vec-rc? ( dev-python/pysdl2-dll[${PYTHON_USEDEP}] )
 	vec-rc? ( dev-python/pyserial[${PYTHON_USEDEP}] )
 	vec-rc? ( dev-python/screeninfo[${PYTHON_USEDEP}] )"

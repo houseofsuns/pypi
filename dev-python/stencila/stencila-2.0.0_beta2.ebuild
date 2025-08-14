@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0b2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/StrEnum[${PYTHON_USEDEP}]
-	~dev-python/beartype-0.18.5[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beartype-0.18.5[${PYTHON_USEDEP}]
 	~dev-python/cattrs-23.2.3[${PYTHON_USEDEP}]
 	dev-python/stencila-types[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

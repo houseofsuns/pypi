@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="docs? ( >=dev-python/sphinx-8.2.3[${PYTHON_USEDEP}] )
-	>=dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
 	dev-python/defang[${PYTHON_USEDEP}]
 	>=dev-python/dnspython-2.7.0[${PYTHON_USEDEP}]
 	dev-python/PlaywrightCapture[${PYTHON_USEDEP}]

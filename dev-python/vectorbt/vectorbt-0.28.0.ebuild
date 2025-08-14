@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,6 @@ DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
@@ -40,7 +39,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	dev-python/mypy-extensions[${PYTHON_USEDEP}]
 	full? ( dev-python/yfinance[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-binance[${PYTHON_USEDEP}] )
 	full? ( dev-python/ccxt[${PYTHON_USEDEP}] )
@@ -48,7 +47,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	full? ( dev-python/ray[${PYTHON_USEDEP}] )
 	full? ( dev-python/ta[${PYTHON_USEDEP}] )
 	full? ( dev-python/pandas-ta[${PYTHON_USEDEP}] )
-	full? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	full? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
 	full? ( dev-python/QuantStats[${PYTHON_USEDEP}] )
 	full-no-talib? ( dev-python/yfinance[${PYTHON_USEDEP}] )

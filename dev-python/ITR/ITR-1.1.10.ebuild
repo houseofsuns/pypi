@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/autoapi[${PYTHON_USEDEP}]
 	dev-python/Pint-Pandas[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.7.1[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.55[${PYTHON_USEDEP}]
 	~dev-python/pyproject-hooks-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-8.1.1[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]

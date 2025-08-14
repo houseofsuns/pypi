@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/pdm-2.22.4[${PYTHON_USEDEP}]
 	>=dev-python/annotated-types-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.13.2[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pyproject-metadata-0.9.1[${PYTHON_USEDEP}]
 	dev-python/pdm-pfsc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

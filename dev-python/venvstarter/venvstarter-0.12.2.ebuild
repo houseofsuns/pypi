@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="tests? ( dev-python/noseOfYeti[${PYTHON_USEDEP}] )
+DEPENDENCIES="tests? ( ~dev-python/noseofyeti-2.4.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-helpers-namespace-2021.12.29[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-parallel[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"

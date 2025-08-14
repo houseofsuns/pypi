@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -49,13 +49,13 @@ DEPENDENCIES="dev-python/PyLEMS[${PYTHON_USEDEP}]
 	vispy-common? ( dev-python/vispy[${PYTHON_USEDEP}] )
 	vispy-common? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	vispy-common? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
-	vispy-common? ( dev-python/pyopengl_accelerate[${PYTHON_USEDEP}] )
+	vispy-common? ( dev-python/pyopengl-accelerate[${PYTHON_USEDEP}] )
 	vispy-common? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	vispy-common? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	vispy-qt5? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )
-	vispy-qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	vispy-qt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	vispy? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )
-	vispy? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	vispy? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter-rfb[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/pyNeuroML[${PYTHON_USEDEP}] )

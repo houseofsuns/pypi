@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/pylibCZIrw[${PYTHON_USEDEP}]
 	all? ( dev-python/magicgui[${PYTHON_USEDEP}] )
 	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/colormap[${PYTHON_USEDEP}] )
 	all? ( dev-python/ngff-zarr[${PYTHON_USEDEP}] )

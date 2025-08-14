@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/asttokens-2.0.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/attrs-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/automat-20.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/babel-2.10.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/backcall[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bleach-5.0.1[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jedi-0.18.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/keyring-23.8.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/loguru-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markdown-it-py-2.1.0[${PYTHON_USEDEP}] )
@@ -71,7 +71,7 @@ DEPENDENCIES="~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mdit-py-plugins-0.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/parso-0.8.3[${PYTHON_USEDEP}] )
@@ -94,7 +94,7 @@ DEPENDENCIES="~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytz-2022.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Random-Word[${PYTHON_USEDEP}] )
+	dev? ( dev-python/random_word[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/readme-renderer-37.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}] )

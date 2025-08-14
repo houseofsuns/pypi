@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/boto3-1.12.31[${PYTHON_USEDEP}]
 	django? ( >=dev-python/django-5.1[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-assets[${PYTHON_USEDEP}] )
 	django? ( >=dev-python/djangorestframework-3.15.2[${PYTHON_USEDEP}] )
-	django? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/jinja2-2.8.1[${PYTHON_USEDEP}] )
 	django? ( dev-python/monotonic[${PYTHON_USEDEP}] )
 	flask? ( >=dev-python/flask-0.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

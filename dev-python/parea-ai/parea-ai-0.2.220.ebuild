@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	dev-python/pysbd[${PYTHON_USEDEP}]
 	>=dev-python/cattrs-22.1.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
+	>=dev-python/levenshtein-0.26.1[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2024.2[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.17.2[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,10 +27,9 @@ IUSE="develop docs formatters testing"
 DEPENDENCIES="dev-python/cucumber-tag-expressions[${PYTHON_USEDEP}]
 	dev-python/cucumber-expressions[${PYTHON_USEDEP}]
 	>=dev-python/parse-1.18.0[${PYTHON_USEDEP}]
-	dev-python/parse_type[${PYTHON_USEDEP}]
+	>=dev-python/parse-type-0.6.0[${PYTHON_USEDEP}]
 	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/colorama-0.3.7[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	develop? ( >=dev-python/build-0.5.1[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
 	develop? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )

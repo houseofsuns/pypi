@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto cryptodome dev docs full image"
-DEPENDENCIES=">=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+DEPENDENCIES="crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	cryptodome? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )

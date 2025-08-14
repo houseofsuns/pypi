@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipykernel-6.30[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipywidgets-8.1.7[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbsphinx-0.9.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nox-2025.5.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.7[${PYTHON_USEDEP}] )

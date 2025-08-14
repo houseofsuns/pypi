@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,10 +23,8 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all all-strict ipython ipython-strict optional optional-strict runtime-strict tests tests-strict"
-DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
-	all? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+IUSE="all all-strict ipython ipython-strict optional optional-strict tests tests-strict"
+DEPENDENCIES="all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
@@ -42,7 +40,6 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	all? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	all? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	all? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
-	all? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
@@ -53,7 +50,6 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/xdoctest-1.1.3[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/rich-12.3.0[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
@@ -70,8 +66,6 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	all-strict? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
-	runtime-strict? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )

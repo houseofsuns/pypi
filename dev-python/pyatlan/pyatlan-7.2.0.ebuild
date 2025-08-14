@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/requests-2.32.4[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.11.7[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/tenacity-9.1.2[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	~dev-python/lazy-loader-0.4[${PYTHON_USEDEP}]
 	dev-python/nanoid[${PYTHON_USEDEP}]
 	~dev-python/pytz-2025.2[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bioformats test write"
-DEPENDENCIES="bioformats? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+DEPENDENCIES="bioformats? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	dev-python/SimpleITK-SimpleElastix[${PYTHON_USEDEP}]
 	dev-python/czifile[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]

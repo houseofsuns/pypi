@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,14 +37,14 @@ DEPENDENCIES="dev-python/alqtendpy[${PYTHON_USEDEP}]
 	<=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/dulwich-0.20.6[${PYTHON_USEDEP}]
 	dev-python/fab[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-2.1.15[${PYTHON_USEDEP}]
 	dev-python/graham[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-2.16.3[${PYTHON_USEDEP}]
 	~dev-python/natsort-5.5.0[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-1.4.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	~dev-python/pyelftools-0.26[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>=dev-python/pyqt5-5.13.0[${PYTHON_USEDEP}]
 	dev-python/qt5reactor[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.7.5[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]

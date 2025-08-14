@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	develop? ( <dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	develop? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"

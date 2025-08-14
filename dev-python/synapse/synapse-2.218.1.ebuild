@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -66,6 +66,6 @@ DEPENDENCIES="<dev-python/pyopenssl-24.3.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-9.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-notfound-page-2.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

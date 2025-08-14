@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,11 +30,13 @@ DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	cli? ( <=dev-python/typer-0.16.0[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/watchfiles-1.2.0[${PYTHON_USEDEP}] )
 	confluent? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
+	confluent? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bandit-1.8.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
+	dev? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	dev? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	dev? ( dev-python/confluent-kafka-stubs[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.9.2[${PYTHON_USEDEP}] )
@@ -98,6 +100,7 @@ DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	lint? ( ~dev-python/bandit-1.8.6[${PYTHON_USEDEP}] )
 	lint? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	lint? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
+	lint? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	lint? ( dev-python/confluent-kafka-stubs[${PYTHON_USEDEP}] )
 	lint? ( ~dev-python/mypy-1.16.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/nats-py[${PYTHON_USEDEP}] )
@@ -119,6 +122,7 @@ DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	nats? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	optionals? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	optionals? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
+	optionals? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	optionals? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	optionals? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	optionals? ( <dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}] )
@@ -147,6 +151,7 @@ DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/uvicorn-0.34.3[${PYTHON_USEDEP}] )
 	types? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	types? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
+	types? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	types? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	types? ( dev-python/confluent-kafka-stubs[${PYTHON_USEDEP}] )
 	types? ( ~dev-python/mypy-1.16.1[${PYTHON_USEDEP}] )

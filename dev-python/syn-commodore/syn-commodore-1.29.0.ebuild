@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
 	dev-python/kapitan[${PYTHON_USEDEP}]
 	~dev-python/click-8.2.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.45[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.4[${PYTHON_USEDEP}]
 	~dev-python/url-normalize-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.1.1[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cruft[${PYTHON_USEDEP}]
 	~dev-python/oauthlib-3.3.1[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-2.6.1[${PYTHON_USEDEP}]
 	dev-python/reclass-rs[${PYTHON_USEDEP}]
 	dev-python/gojsonnet[${PYTHON_USEDEP}]
 	dev-python/pygobuildinfo[${PYTHON_USEDEP}]"

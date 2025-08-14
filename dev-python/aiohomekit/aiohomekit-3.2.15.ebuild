@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/aiocoap[${PYTHON_USEDEP}]
 	>=dev-python/aiohappyeyeballs-2.3.0[${PYTHON_USEDEP}]
 	dev-python/async-interrupt[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305[${PYTHON_USEDEP}]

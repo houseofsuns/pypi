@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -179,7 +179,6 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	llm? ( >=dev-python/pandas-1.3[${PYTHON_USEDEP}] )
 	llm? ( >=dev-python/opentelemetry-sdk-1.30.0[${PYTHON_USEDEP}] )
 	llm? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	llm? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
 	llm? ( dev-python/py-spy[${PYTHON_USEDEP}] )
 	llm? ( >=dev-python/grpcio-1.42.0[${PYTHON_USEDEP}] )
 	llm? ( dev-python/py-spy[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/edk2-pytool-library[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pefile-2023.2.7[${PYTHON_USEDEP}]
 	>=dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.30[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/xlsxwriter-3.0.9[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]

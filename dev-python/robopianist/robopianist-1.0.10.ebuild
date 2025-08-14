@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/dm-control[${PYTHON_USEDEP}]
 	dev-python/note-seq[${PYTHON_USEDEP}]
 	dev-python/pretty_midi[${PYTHON_USEDEP}]
 	>=dev-python/pyaudio-0.2.12[${PYTHON_USEDEP}]
-	dev-python/pyFluidSynth[${PYTHON_USEDEP}]
+	dev-python/pyfluidsynth[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

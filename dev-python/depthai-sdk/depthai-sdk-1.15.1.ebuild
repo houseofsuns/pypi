@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	replay? ( dev-python/mcap-ros1-support[${PYTHON_USEDEP}] )
 	replay? ( dev-python/rosbags[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	visualize? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	visualize? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	visualize? ( dev-python/Qt-py[${PYTHON_USEDEP}] )
 	visualize? ( dev-python/depthai-viewer[${PYTHON_USEDEP}] )
 	visualize? ( dev-python/open3d[${PYTHON_USEDEP}] )

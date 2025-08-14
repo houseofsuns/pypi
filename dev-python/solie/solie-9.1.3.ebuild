@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	~dev-python/faust-cchardet-2.1.19[${PYTHON_USEDEP}]
 	~dev-python/aiodns-3.1.1[${PYTHON_USEDEP}]
 	~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.10.4[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.17.1[${PYTHON_USEDEP}]
 	~dev-python/yapf-0.32.0[${PYTHON_USEDEP}]
 	dev-python/getmac[${PYTHON_USEDEP}]

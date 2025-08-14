@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,11 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs msgspec pydantic"
 DEPENDENCIES="dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/Quart[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/quart-0.19.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-tabs-3.4.4[${PYTHON_USEDEP}] )
-	msgspec? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	msgspec? ( >=dev-python/msgspec-0.18[${PYTHON_USEDEP}] )
 	pydantic? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

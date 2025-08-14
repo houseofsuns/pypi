@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aiohttp cron dev-interactive dev-lint dev-test interactive prometheus sentry toml web"
+IUSE="aiohttp cron dev-interactive dev-lint dev-test interactive prometheus sentry web"
 DEPENDENCIES="aiohttp? ( dev-python/aioworkers-aiohttp[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	cron? ( dev-python/crontab[${PYTHON_USEDEP}] )
@@ -45,7 +45,6 @@ DEPENDENCIES="aiohttp? ( dev-python/aioworkers-aiohttp[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/aioworkers-prometheus[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/aioworkers-sentry[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	web? ( dev-python/httptools[${PYTHON_USEDEP}] )
 	web? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	web? ( dev-python/uvloop[${PYTHON_USEDEP}] )"

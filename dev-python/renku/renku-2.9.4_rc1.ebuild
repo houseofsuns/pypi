@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.9.4rc1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,12 +38,12 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-6.8.0[${PYTHON_USEDEP}]
 	<dev-python/deepmerge-1.2.0[${PYTHON_USEDEP}]
 	<dev-python/docker-6.0.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-3.2.0[${PYTHON_USEDEP}]
 	dev-python/grandalf[${PYTHON_USEDEP}]
 	<dev-python/humanize-4.10.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-resources-6.2[${PYTHON_USEDEP}]
 	dev-python/inject[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.2.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.2[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/pathspec-0.12[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	>=dev-python/flask-2.3.2[${PYTHON_USEDEP}]
-	dev-python/IPy[${PYTHON_USEDEP}]
+	>=dev-python/ipy-1.0[${PYTHON_USEDEP}]
 	dev-python/pyTenable[${PYTHON_USEDEP}]
 	>=dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.48[${PYTHON_USEDEP}]

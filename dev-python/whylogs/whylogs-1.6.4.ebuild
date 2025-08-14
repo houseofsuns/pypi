@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="viz? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	viz? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/ipython-genutils-0.3.0[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
 	all? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
@@ -50,10 +50,6 @@ DEPENDENCIES="viz? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	image? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	embeddings? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	viz? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	image? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	embeddings? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	proc? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	proc-mp? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
@@ -70,12 +66,8 @@ DEPENDENCIES="viz? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
-	embeddings? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/scikit-learn-2.0.0[${PYTHON_USEDEP}] )
 	embeddings? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
-	viz? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
 	viz? ( >=dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	noviz? ( dev-python/pvextractor[${PYTHON_USEDEP}] )
 	noviz? ( dev-python/reproject[${PYTHON_USEDEP}] )
 	noviz? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	viz? ( dev-python/aplpy[${PYTHON_USEDEP}] )
+	viz? ( dev-python/APLpy[${PYTHON_USEDEP}] )
 	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	viz? ( dev-python/reproject[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pvextractor[${PYTHON_USEDEP}] )

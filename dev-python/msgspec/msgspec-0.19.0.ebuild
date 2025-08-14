@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test toml yaml"
 DEPENDENCIES="yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	toml? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
@@ -36,7 +35,6 @@ DEPENDENCIES="yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	test? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -51,7 +49,6 @@ DEPENDENCIES="yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli-w[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

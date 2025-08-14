@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,10 +39,10 @@ DEPENDENCIES="dev-python/requirements-parser[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-2.3[${PYTHON_USEDEP}]
 	dev-python/ttkbootstrap[${PYTHON_USEDEP}]
 	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-24.4.0[${PYTHON_USEDEP}]
 	dev-python/rapidfuzz[${PYTHON_USEDEP}]
 	dev-python/tkhtmlview[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/nodriver[${PYTHON_USEDEP}]
 	dev-python/reqdriver[${PYTHON_USEDEP}]

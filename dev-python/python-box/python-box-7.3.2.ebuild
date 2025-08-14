@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,6 @@ DEPENDENCIES="all? ( >=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
 	yaml? ( >=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
 	ruamel-yaml? ( >=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
 	pyyaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tomli? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	tomli? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )"

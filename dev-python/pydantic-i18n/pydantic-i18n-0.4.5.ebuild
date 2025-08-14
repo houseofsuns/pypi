@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,6 +42,6 @@ DEPENDENCIES=">=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/flake8-7.1.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-24.8.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/Babel[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/babel-2.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

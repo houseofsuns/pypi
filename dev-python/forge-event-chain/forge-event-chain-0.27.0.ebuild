@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/flask-0.12.4[${PYTHON_USEDEP}]
 	dev-python/Flask-AppBuilder[${PYTHON_USEDEP}]
 	~dev-python/flask-babel-0.11.1[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/flask-compress-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/flask-login-0.2.11[${PYTHON_USEDEP}]
 	~dev-python/flask-migrate-2.2.1[${PYTHON_USEDEP}]

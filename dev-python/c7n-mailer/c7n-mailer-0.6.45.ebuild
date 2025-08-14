@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="azure gcp"
 DEPENDENCIES="~dev-python/boto3-1.39.4[${PYTHON_USEDEP}]
 	dev-python/datadog[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-8.7.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/jsonpatch-1.33[${PYTHON_USEDEP}]
 	~dev-python/jsonpointer-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.24.0[${PYTHON_USEDEP}]

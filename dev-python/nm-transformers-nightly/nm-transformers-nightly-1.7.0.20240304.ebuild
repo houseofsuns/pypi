@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -92,7 +92,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	deepspeed-testing? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	deepspeed-testing? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	deepspeed-testing? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	deepspeed-testing? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	deepspeed-testing? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	deepspeed-testing? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	deepspeed-testing? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	deepspeed-testing? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
@@ -143,7 +143,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rjieba[${PYTHON_USEDEP}] )
@@ -175,7 +175,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev-tensorflow? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	dev-tensorflow? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	dev-tensorflow? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	dev-tensorflow? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev-tensorflow? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	dev-tensorflow? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	dev-tensorflow? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev-tensorflow? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
@@ -215,7 +215,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	dev-torch? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	dev-torch? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	dev-torch? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	dev-torch? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev-torch? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	dev-torch? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	dev-torch? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev-torch? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
@@ -316,7 +316,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	quality? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	quality? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	quality? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	quality? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	quality? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
@@ -349,7 +349,7 @@ DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
 	testing? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	testing? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	testing? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	testing? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	testing? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sacremoses[${PYTHON_USEDEP}] )

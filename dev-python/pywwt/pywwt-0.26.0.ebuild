@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -49,12 +49,12 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
-	qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	qt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	qt6? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
-	qt6? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	qt? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	qt? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
+	qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
+	qt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	qt6? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
+	qt6? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/wwt-kernel-data-relay[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	lab? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )

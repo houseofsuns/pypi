@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,6 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="meter zstd"
 DEPENDENCIES="meter? ( dev-python/audiometer[${PYTHON_USEDEP}] )
-	zstd? ( <dev-python/zstandard-0.24.0[${PYTHON_USEDEP}] )"
+	zstd? ( <dev-python/zstandard-0.24.0[${PYTHON_USEDEP}] )
+	<dev-python/audioop-lts-0.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

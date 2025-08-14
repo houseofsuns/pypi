@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,12 +48,12 @@ DEPENDENCIES="~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2023.5.0[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.31[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-6.6.0[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.2.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/keyring-23.13.1[${PYTHON_USEDEP}]
 	~dev-python/kiwisolver-1.4.4[${PYTHON_USEDEP}]

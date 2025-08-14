@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/pyparsing-2.0.1[${PYTHON_USEDEP}]
 	draw? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	draw? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	draw? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	draw5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	draw5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	draw5? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	draw5? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	draw5? ( dev-python/pillow[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/pyparsing-2.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
-	dev5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	dev5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	dev5? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev5? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev5? ( dev-python/cython[${PYTHON_USEDEP}] )

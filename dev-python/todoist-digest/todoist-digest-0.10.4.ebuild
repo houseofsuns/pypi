@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/todoist-api-python[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/markdown2-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/whatever-0.8[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/css-inline[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/structlog-25.0.0[${PYTHON_USEDEP}]
 	dev-python/python-decouple-typed[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.4rc1590080566"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	~dev-python/argon2-cffi-19.2.0[${PYTHON_USEDEP}]
 	~dev-python/asgiref-3.2.7[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
 	~dev-python/bleach-3.1.5[${PYTHON_USEDEP}]
 	~dev-python/certifi-2020.4.5.1[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	~dev-python/idna-2.9[${PYTHON_USEDEP}]
 	~dev-python/imagesize-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.2[${PYTHON_USEDEP}]
 	~dev-python/keyring-21.2.1[${PYTHON_USEDEP}]
 	dev-python/lorem[${PYTHON_USEDEP}]
 	~dev-python/markdown2-2.3.8[${PYTHON_USEDEP}]

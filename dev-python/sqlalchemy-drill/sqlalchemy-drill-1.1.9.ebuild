@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="jdbc odbc"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ijson[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	jdbc? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	jdbc? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	jdbc? ( dev-python/JayDeBeApi[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.10.11[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.38.0[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
 	~dev-python/ijson-2.6.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.1.1[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.10.11[${PYTHON_USEDEP}]
 	develop? ( ~dev-python/boto3-1.34.68[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/github3-py-3.2.0[${PYTHON_USEDEP}] )
-	develop? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/gitpython-3.1.30[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/mypy-1.15.0[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/nox-2024.3.2[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

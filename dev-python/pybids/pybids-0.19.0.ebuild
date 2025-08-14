@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,10 +48,10 @@ DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	test? ( dev-python/altair[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-2.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	model-reports? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	model-reports? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	model-reports? ( dev-python/altair[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tutorial? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/ipykernel[${PYTHON_USEDEP}] )

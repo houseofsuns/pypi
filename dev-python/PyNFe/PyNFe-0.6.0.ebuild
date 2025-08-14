@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,6 +30,6 @@ DEPENDENCIES=">=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	dev-python/signxml[${PYTHON_USEDEP}]
 	nfse? ( dev-python/suds-community[${PYTHON_USEDEP}] )
 	nfse? ( dev-python/PyXB-X[${PYTHON_USEDEP}] )
-	impressao? ( dev-python/brazilfiscalreport[${PYTHON_USEDEP}] )"
+	impressao? ( dev-python/BrazilFiscalReport[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

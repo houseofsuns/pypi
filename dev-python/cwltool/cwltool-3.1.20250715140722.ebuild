@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/requests-2.6.1[${PYTHON_USEDEP}]
 	<dev-python/rdflib-7.2.0[${PYTHON_USEDEP}]
 	dev-python/schema-salad[${PYTHON_USEDEP}]
 	dev-python/prov[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	dev-python/mypy-extensions[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.6[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	>=dev-python/pydot-1.4.1[${PYTHON_USEDEP}]

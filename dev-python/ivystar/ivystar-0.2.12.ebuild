@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -126,7 +126,7 @@ DEPENDENCIES="~dev-python/absl-py-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-5.3.4[${PYTHON_USEDEP}]
 	~dev-python/ipython-7.13.0[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}]
 	dev-python/itemadapter[${PYTHON_USEDEP}]
 	dev-python/itemloaders[${PYTHON_USEDEP}]
@@ -136,7 +136,7 @@ DEPENDENCIES="~dev-python/absl-py-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.15.2[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.6.0[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.2[${PYTHON_USEDEP}]
 	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/joblib-0.16.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
@@ -232,7 +232,7 @@ DEPENDENCIES="~dev-python/absl-py-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-20.0.1[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	dev-python/pyppeteer[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-5.14.1[${PYTHON_USEDEP}]
 	~dev-python/pyquery-1.4.3[${PYTHON_USEDEP}]
 	~dev-python/pyrfc3339-1.1[${PYTHON_USEDEP}]
 	~dev-python/pyrsistent-0.15.5[${PYTHON_USEDEP}]
@@ -246,7 +246,7 @@ DEPENDENCIES="~dev-python/absl-py-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-19.0.2[${PYTHON_USEDEP}]
 	~dev-python/qtconsole-4.7.7[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/queuelib[${PYTHON_USEDEP}]
 	~dev-python/readme-renderer-29.0[${PYTHON_USEDEP}]
 	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]

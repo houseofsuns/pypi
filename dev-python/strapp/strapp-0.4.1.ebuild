@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="click datadog dramatiq flask http sentry sqlalchemy"
-DEPENDENCIES=">=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
-	click? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES="click? ( dev-python/click[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/requests[${PYTHON_USEDEP}] )

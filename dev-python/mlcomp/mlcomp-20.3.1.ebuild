@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/pillow-7.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.2[${PYTHON_USEDEP}]
 	dev-python/GPUtil[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.5.9[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	>=dev-python/apscheduler-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.3.4[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/kaggle[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/pillow-7.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.0.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-3.0.6[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy-serializer[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy-serializer[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.21.2[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/tiffile[${PYTHON_USEDEP}]

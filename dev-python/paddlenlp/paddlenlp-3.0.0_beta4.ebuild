@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="3.0.0b4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
 	dev-python/fast-dataindex[${PYTHON_USEDEP}]
 	dev-python/aistudio-sdk[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	<=dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/h11-0.13[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
@@ -122,7 +122,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/h11-0.13[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )

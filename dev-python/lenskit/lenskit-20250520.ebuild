@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2025.3.0a3.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/typing-extensions-4.12[${PYTHON_USEDEP}]
 	~dev-python/humanize-4.2[${PYTHON_USEDEP}]
 	~dev-python/prettytable-3.14[${PYTHON_USEDEP}]
 	dev-python/xopen[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.4[${PYTHON_USEDEP}]
 	sklearn? ( ~dev-python/scikit-learn-1.2[${PYTHON_USEDEP}] )
 	hpf? ( dev-python/hpfrec[${PYTHON_USEDEP}] )
 	implicit? ( dev-python/implicit[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/datacompy[${PYTHON_USEDEP}]
 	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/datacompy[${PYTHON_USEDEP}]
 	all? ( dev-python/ribasim-testmodels[${PYTHON_USEDEP}] )
 	all? ( dev-python/teamcity-messages[${PYTHON_USEDEP}] )
 	all? ( dev-python/xugrid[${PYTHON_USEDEP}] )
-	delwaq? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	delwaq? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	delwaq? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	delwaq? ( dev-python/xugrid[${PYTHON_USEDEP}] )
 	netcdf? ( dev-python/xugrid[${PYTHON_USEDEP}] )

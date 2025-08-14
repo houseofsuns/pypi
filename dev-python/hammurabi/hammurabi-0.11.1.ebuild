@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,9 +29,9 @@ DEPENDENCIES="<dev-python/github3-py-2.0.0[${PYTHON_USEDEP}]
 	yaml? ( <dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/configupdater-2.0.0[${PYTHON_USEDEP}] )
 	ini? ( <dev-python/configupdater-2.0.0[${PYTHON_USEDEP}] )
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	templating? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
+	templating? ( <dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/slack-webhook[${PYTHON_USEDEP}] )
 	slack-notifications? ( dev-python/slack-webhook[${PYTHON_USEDEP}] )

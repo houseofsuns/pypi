@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="all? ( dev-python/scoop[${PYTHON_USEDEP}] )
 	dev-python/efel[${PYTHON_USEDEP}]
 	dev-python/ipyparallel[${PYTHON_USEDEP}]
 	>=dev-python/pickleshare-0.7.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.8[${PYTHON_USEDEP}]
 	>=dev-python/pebble-4.6.0[${PYTHON_USEDEP}]
 	dev-python/NEURON[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

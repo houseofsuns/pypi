@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,9 +54,9 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/mtscomp[${PYTHON_USEDEP}]
 	dev-python/ONE-api[${PYTHON_USEDEP}]
 	dev-python/phylib[${PYTHON_USEDEP}]
-	dev-python/psychofit[${PYTHON_USEDEP}]
-	dev-python/slidingrp[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	dev-python/Psychofit[${PYTHON_USEDEP}]
+	dev-python/slidingRP[${PYTHON_USEDEP}]
+	dev-python/pyqt5[${PYTHON_USEDEP}]
 	dev-python/ibl-style[${PYTHON_USEDEP}]
 	wfield? ( dev-python/wfield[${PYTHON_USEDEP}] )
 	wfield? ( dev-python/labcams[${PYTHON_USEDEP}] )"

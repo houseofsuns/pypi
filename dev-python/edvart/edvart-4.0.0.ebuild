@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,6 @@ DEPENDENCIES="dev-python/colorlover[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.14[${PYTHON_USEDEP}]
 	>dev-python/statsmodels-0.10.2[${PYTHON_USEDEP}]
-	dev-python/StrEnum[${PYTHON_USEDEP}]
 	umap? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

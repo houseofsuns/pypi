@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/wiliot-core[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
 	dev-python/tinytuya[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.31[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/wiliot-core[${PYTHON_USEDEP}]
 	dev-python/mplcursors[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.8.4[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.14.1[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}]

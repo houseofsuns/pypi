@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="odoo-dev"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/gitpython-3.1.27[${PYTHON_USEDEP}]
 	dev-python/godoo-rpc[${PYTHON_USEDEP}]
 	dev-python/openupgradelib[${PYTHON_USEDEP}]
 	>=dev-python/passlib-1.7.3[${PYTHON_USEDEP}]

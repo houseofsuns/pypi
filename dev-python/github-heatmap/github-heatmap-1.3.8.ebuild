@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	all? ( dev-python/garminconnect[${PYTHON_USEDEP}] )
 	all? ( dev-python/gpxpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/stravalib[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	all? ( dev-python/sdf-fork[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	garmin? ( dev-python/garminconnect[${PYTHON_USEDEP}] )
-	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	github? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	gpx? ( dev-python/gpxpy[${PYTHON_USEDEP}] )
 	skyline? ( dev-python/sdf-fork[${PYTHON_USEDEP}] )
 	strava? ( dev-python/stravalib[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
 	dev-python/fastobo[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	>=dev-python/lxml-5.3[${PYTHON_USEDEP}]
 	dev-python/pronto[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.10.4[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests toml xml yaml"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
+	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	toml? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	toml? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	xml? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	xml? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	xml? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	yaml? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

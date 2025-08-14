@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/elasticsearch-7.16[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
-	dev-python/pyDes[${PYTHON_USEDEP}]
+	dev-python/dbutils[${PYTHON_USEDEP}]
+	dev-python/pydes[${PYTHON_USEDEP}]
 	dev-python/crypto[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/tld[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/elasticsearch-7.16[${PYTHON_USEDEP}]
 	dev-python/pika[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.5.2[${PYTHON_USEDEP}]
-	dev-python/IPy[${PYTHON_USEDEP}]
+	>=dev-python/ipy-1.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

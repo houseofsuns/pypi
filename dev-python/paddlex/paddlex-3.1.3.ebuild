@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	base? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	base? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	base? ( dev-python/imagesize[${PYTHON_USEDEP}] )
-	base? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	base? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	base? ( dev-python/joblib[${PYTHON_USEDEP}] )
 	base? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	base? ( dev-python/langchain-community[${PYTHON_USEDEP}] )
@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	multimodal? ( dev-python/einops[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
-	multimodal? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	multimodal? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/pypdfium2[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/regex[${PYTHON_USEDEP}] )
@@ -117,7 +117,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	ocr? ( dev-python/einops[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/imagesize[${PYTHON_USEDEP}] )
-	ocr? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	ocr? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
@@ -130,7 +130,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	ocr? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
 	speech? ( dev-python/ftfy[${PYTHON_USEDEP}] )
-	speech? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	speech? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	speech? ( dev-python/regex[${PYTHON_USEDEP}] )
 	speech? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	speech? ( dev-python/tqdm[${PYTHON_USEDEP}] )
@@ -166,7 +166,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	all? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	all? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	all? ( dev-python/imagesize[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
 	all? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	all? ( dev-python/langchain-community[${PYTHON_USEDEP}] )

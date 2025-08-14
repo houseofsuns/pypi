@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="athena postgres pyspark spark"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
+	dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	athena? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
 	dev-python/duckdb[${PYTHON_USEDEP}]
@@ -33,6 +34,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	>dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )

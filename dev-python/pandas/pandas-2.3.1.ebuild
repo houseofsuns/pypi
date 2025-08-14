@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws clipboard compression computation consortium-standard excel feather fss gcp hdf5 html mysql output-formatting parquet performance plot postgresql pyarrow spss sql-other test xml"
-DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
@@ -66,10 +65,10 @@ DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	html? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	xml? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	plot? ( >=dev-python/matplotlib-3.6.3[${PYTHON_USEDEP}] )
-	output-formatting? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	output-formatting? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	output-formatting? ( >=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
-	clipboard? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	clipboard? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	clipboard? ( >=dev-python/pyqt5-5.15.9[${PYTHON_USEDEP}] )
+	clipboard? ( >=dev-python/qtpy-2.3.0[${PYTHON_USEDEP}] )
 	compression? ( >=dev-python/zstandard-0.19.0[${PYTHON_USEDEP}] )
 	consortium-standard? ( dev-python/dataframe-api-compat[${PYTHON_USEDEP}] )
 	all? ( dev-python/adbc-driver-postgresql[${PYTHON_USEDEP}] )
@@ -82,7 +81,7 @@ DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/hypothesis-6.46.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.6.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
@@ -93,13 +92,13 @@ DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyqt5-5.15.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyreadstat[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-xdist-2.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-calamine[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyxlsb[${PYTHON_USEDEP}] )
-	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/qtpy-2.3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/babel-2.12.1[${PYTHON_USEDEP}]
 	dev-python/backcall[${PYTHON_USEDEP}]
 	dev-python/backports[${PYTHON_USEDEP}]
 	dev-python/alsa-lib[${PYTHON_USEDEP}]
@@ -93,11 +93,11 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.25.1[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.12.2[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-8.1.0[${PYTHON_USEDEP}]
 	~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.19.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/json5-0.9.14[${PYTHON_USEDEP}]
 	~dev-python/jsonpointer-2.0[${PYTHON_USEDEP}]
@@ -215,11 +215,11 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
 	dev-python/pyqt[${PYTHON_USEDEP}]
 	dev-python/pyqt-impl[${PYTHON_USEDEP}]
-	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-sip-4.19.18[${PYTHON_USEDEP}]
 	dev-python/PyQtChart[${PYTHON_USEDEP}]
-	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
+	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
 	dev-python/pyreadr[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	dev-python/python[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/python-fastjsonschema[${PYTHON_USEDEP}]
@@ -234,7 +234,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/qt[${PYTHON_USEDEP}]
 	~dev-python/qtconsole-5.4.3[${PYTHON_USEDEP}]
 	dev-python/qtconsole-base[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-2.3.1[${PYTHON_USEDEP}]
 	dev-python/readline[${PYTHON_USEDEP}]
 	~dev-python/referencing-0.30.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]

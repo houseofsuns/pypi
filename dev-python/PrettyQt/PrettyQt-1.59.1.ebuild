@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,10 +37,10 @@ DEPENDENCIES="dev-python/anyenv[${PYTHON_USEDEP}]
 	addons? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	addons? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	addons? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6-Charts[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/PySide6-Addons[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ddddocr[${PYTHON_USEDEP}]
 	dev-python/ed2k[${PYTHON_USEDEP}]
-	dev-python/glob-pattern[${PYTHON_USEDEP}]
-	dev-python/http-response[${PYTHON_USEDEP}]
+	dev-python/glob_pattern[${PYTHON_USEDEP}]
+	dev-python/http_response[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/httpx-request[${PYTHON_USEDEP}]
+	dev-python/httpx_request[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/multidict[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]

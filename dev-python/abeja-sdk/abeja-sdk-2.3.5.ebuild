@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/retrying-1.3.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/guzzle_sphinx_theme[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/importlib-metadata-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/virtualenv-20.0.34[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

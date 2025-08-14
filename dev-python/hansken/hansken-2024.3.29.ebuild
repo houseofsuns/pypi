@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	all? ( dev-python/fusepy[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
 	mount? ( dev-python/fusepy[${PYTHON_USEDEP}] )
-	report? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	report? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	report? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	shell? ( dev-python/ipython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

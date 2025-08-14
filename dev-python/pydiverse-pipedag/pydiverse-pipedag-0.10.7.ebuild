@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12,3_10} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/attrs-26.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-46.0[${PYTHON_USEDEP}]
-	dev-python/duckdb_engine[${PYTHON_USEDEP}]
+	dev-python/duckdb-engine[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
 	<dev-python/fsspec-2026.0[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]

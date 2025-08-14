@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
 	>dev-python/pyproj-3.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	>=dev-python/rtree-0.9[${PYTHON_USEDEP}]
 	<dev-python/scikit-learn-1.6[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.60[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

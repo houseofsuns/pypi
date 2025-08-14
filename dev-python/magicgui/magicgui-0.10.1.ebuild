@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="image jupyter pyqt5 pyqt6 pyside2 pyside6 quantity tqdm"
-DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.7.2[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.6[${PYTHON_USEDEP}]
 	image? ( >=dev-python/pillow-10.4[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/pyqt5-5.15.8[${PYTHON_USEDEP}] )
+	pyqt6? ( >=dev-python/pyqt6-6.4.0[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	quantity? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	tqdm? ( >=dev-python/tqdm-4.30.0[${PYTHON_USEDEP}] )"

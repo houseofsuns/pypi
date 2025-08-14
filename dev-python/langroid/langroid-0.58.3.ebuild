@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,20 +30,20 @@ DEPENDENCIES="dev-python/adb-cloud-connector[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/cerebras-cloud-sdk[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/duckduckgo-search[${PYTHON_USEDEP}]
 	dev-python/exa-py[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	<dev-python/faker-19.0.0[${PYTHON_USEDEP}]
 	<dev-python/fakeredis-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastmcp[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
 	dev-python/google-genai[${PYTHON_USEDEP}]
 	dev-python/groq[${PYTHON_USEDEP}]
 	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	dev-python/json-repair[${PYTHON_USEDEP}]
 	<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/adb-cloud-connector[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	<dev-python/pygithub-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pymupdf4llm[${PYTHON_USEDEP}]
 	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
@@ -107,7 +107,7 @@ DEPENDENCIES="dev-python/adb-cloud-connector[${PYTHON_USEDEP}]
 	chainlit? ( dev-python/chainlit[${PYTHON_USEDEP}] )
 	chainlit? ( dev-python/python-socketio[${PYTHON_USEDEP}] )
 	chromadb? ( dev-python/chromadb[${PYTHON_USEDEP}] )
-	crawl4ai? ( dev-python/crawl4ai[${PYTHON_USEDEP}] )
+	crawl4ai? ( dev-python/Crawl4AI[${PYTHON_USEDEP}] )
 	db? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	db? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	db? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )

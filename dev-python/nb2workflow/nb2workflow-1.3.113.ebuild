@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,16 +36,16 @@ DEPENDENCIES="dev-python/papermill[${PYTHON_USEDEP}]
 	~dev-python/validators-0.28.3[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
 	dev-python/oda-api[${PYTHON_USEDEP}]
 	service? ( ~dev-python/flask-2.0.3[${PYTHON_USEDEP}] )
 	service? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
-	service? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
+	service? ( dev-python/flask-caching[${PYTHON_USEDEP}] )
 	service? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	service? ( dev-python/flasgger[${PYTHON_USEDEP}] )
 	service? ( dev-python/python-consul[${PYTHON_USEDEP}] )
-	service? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	service? ( dev-python/apscheduler[${PYTHON_USEDEP}] )
 	service? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	rdf? ( dev-python/rdflib[${PYTHON_USEDEP}] )
 	rdf? ( dev-python/owlready2[${PYTHON_USEDEP}] )
@@ -53,13 +53,13 @@ DEPENDENCIES="dev-python/papermill[${PYTHON_USEDEP}]
 	cwl? ( dev-python/cwlgen[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
 	docker? ( dev-python/checksumdir[${PYTHON_USEDEP}] )
-	docker? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docker? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	domains? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	domains? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	domains? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	domains? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	k8s? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	k8s? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	k8s? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	galaxy? ( >=dev-python/bibtexparser-2.0.0_beta3[${PYTHON_USEDEP}] )
 	galaxy? ( dev-python/pypandoc-binary[${PYTHON_USEDEP}] )
 	galaxy? ( dev-python/black[${PYTHON_USEDEP}] )

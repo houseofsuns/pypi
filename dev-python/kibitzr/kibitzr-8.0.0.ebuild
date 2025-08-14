@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="locked"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/cachecontrol[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/httpcore-1.0.9[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/httpx-0.28.1[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/idna-3.10[${PYTHON_USEDEP}] )
-	locked? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	locked? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/lazy-object-proxy-1.11.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/lxml-5.4.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/markupsafe-3.0.2[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/propcache-0.3.1[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/psutil-7.0.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}] )
-	locked? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	locked? ( ~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}] )
 	locked? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pytimeparse-1.1.8[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )

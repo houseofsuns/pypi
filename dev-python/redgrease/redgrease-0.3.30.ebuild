@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="all? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis-py-cluster[${PYTHON_USEDEP}] )
 	all? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	all? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
+	all? ( dev-python/configargparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	cli? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	cli? ( dev-python/redis[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="all? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	cli? ( dev-python/redis-py-cluster[${PYTHON_USEDEP}] )
 	cli? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	cli? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
+	cli? ( dev-python/configargparse[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	client? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	client? ( dev-python/redis[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,6 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mcp oauth"
 DEPENDENCIES="<dev-python/aiofiles-25.0[${PYTHON_USEDEP}]
 	<dev-python/anyio-5.0[${PYTHON_USEDEP}]
+	<dev-python/audioop-lts-1.0[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/ffmpy[${PYTHON_USEDEP}]
@@ -33,7 +34,7 @@ DEPENDENCIES="<dev-python/aiofiles-25.0[${PYTHON_USEDEP}]
 	dev-python/groovy[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-4.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.0[${PYTHON_USEDEP}]

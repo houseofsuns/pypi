@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.4.0b0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-3.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-0.21.2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	examples? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )"

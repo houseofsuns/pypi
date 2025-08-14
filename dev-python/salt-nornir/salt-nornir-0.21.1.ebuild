@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -90,8 +90,8 @@ DEPENDENCIES="dev-python/nornir[${PYTHON_USEDEP}]
 	dataprocessor? ( <dev-python/lxml-5.1.0[${PYTHON_USEDEP}] )
 	prodminminion? ( dev-python/textfsm[${PYTHON_USEDEP}] )
 	prodmaxminion? ( dev-python/textfsm[${PYTHON_USEDEP}] )
-	prodminminion? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	prodmaxminion? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	prodminminion? ( ~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
+	prodmaxminion? ( ~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	prodminmaster? ( ~dev-python/rich-13.7.0[${PYTHON_USEDEP}] )
 	prodmaxmaster? ( ~dev-python/rich-13.7.0[${PYTHON_USEDEP}] )
 	prodmaxmaster? ( dev-python/n2g[${PYTHON_USEDEP}] )

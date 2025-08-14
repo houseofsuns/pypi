@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,8 +29,8 @@ DEPENDENCIES=">=dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.10.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.15.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-6.7.0[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.7.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]

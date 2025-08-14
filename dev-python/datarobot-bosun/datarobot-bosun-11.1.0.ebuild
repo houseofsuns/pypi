@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	azureml? ( dev-python/datarobot-mlops-stats-aggregator[${PYTHON_USEDEP}] )
 	docker? ( dev-python/requests[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	kubernetes? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/requests[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/boto3-1.11.4[${PYTHON_USEDEP}] )

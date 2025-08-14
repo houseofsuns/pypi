@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/rich-13.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}]
 	~dev-python/jupyter-core-4.11.1[${PYTHON_USEDEP}]
 	~dev-python/qtconsole-5.4.3[${PYTHON_USEDEP}]
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( dev-python/faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/lorem-text[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

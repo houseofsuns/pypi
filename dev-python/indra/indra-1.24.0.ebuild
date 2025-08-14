@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pysb[${PYTHON_USEDEP}]
 	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/ndex2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/protmapper[${PYTHON_USEDEP}]
 	dev-python/obonet[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/pysb[${PYTHON_USEDEP}]
 	api? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )
 	api? ( dev-python/flask-restx[${PYTHON_USEDEP}] )
 	api? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
-	api? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	api? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	api? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	sklearn-belief? ( <dev-python/scikit-learn-1.5.0[${PYTHON_USEDEP}] )
 	owl? ( dev-python/pronto[${PYTHON_USEDEP}] )
@@ -100,7 +100,7 @@ DEPENDENCIES="dev-python/pysb[${PYTHON_USEDEP}]
 	all? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	all? ( dev-python/gilda[${PYTHON_USEDEP}] )
 	all? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
-	all? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	all? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	all? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-restx[${PYTHON_USEDEP}] )"

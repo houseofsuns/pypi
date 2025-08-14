@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/glob-pattern[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/glob_pattern[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
-	dev-python/http-response[${PYTHON_USEDEP}]
-	dev-python/path-ignore-pattern[${PYTHON_USEDEP}]
+	dev-python/http_response[${PYTHON_USEDEP}]
+	dev-python/path_ignore_pattern[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/python-argtools[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-download[${PYTHON_USEDEP}]
 	dev-python/python-filewrap[${PYTHON_USEDEP}]
 	dev-python/python-httpfile[${PYTHON_USEDEP}]
-	dev-python/python-http-request[${PYTHON_USEDEP}]
+	dev-python/python-http_request[${PYTHON_USEDEP}]
 	dev-python/python-urlopen[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

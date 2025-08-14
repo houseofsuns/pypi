@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/mlrun[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.17.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/redis-5.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/mlrun[${PYTHON_USEDEP}]
 	dev-python/avro[${PYTHON_USEDEP}]
 	dev? ( dev-python/mlrun[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-0.17.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/scikit-learn-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )

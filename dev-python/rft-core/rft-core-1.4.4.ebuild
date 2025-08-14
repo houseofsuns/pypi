@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -86,8 +86,8 @@ DEPENDENCIES="~dev-python/atomicwrites-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/decorator-4.4.0[${PYTHON_USEDEP}]
 	dev-python/Dialogs[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.14[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/faker-1.0.7[${PYTHON_USEDEP}]
 	~dev-python/idna-2.8[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	~dev-python/jdcal-1.4.1[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-2.97.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.22.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-6.0.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	dev-python/kfp[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	dev-python/pipreqs[${PYTHON_USEDEP}]

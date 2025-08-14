@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/docker-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/docker-pycreds[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.11[${PYTHON_USEDEP}]
 	~dev-python/moto-1.3.14[${PYTHON_USEDEP}]
 	~dev-python/diskcache-3.1.1[${PYTHON_USEDEP}]
 	~dev-python/croniter-0.3.31[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/docker-4.2.0[${PYTHON_USEDEP}]
 	<dev-python/statsd-4.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.15[${PYTHON_USEDEP}]
 	~dev-python/flatdict-3.4.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-2.11.0[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}]

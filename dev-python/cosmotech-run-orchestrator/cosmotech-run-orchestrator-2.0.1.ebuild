@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc test"
-DEPENDENCIES="dev-python/flowpipe[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/Flowpipe[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.21.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/python-logging-loki[${PYTHON_USEDEP}]
 	dev-python/i18nice[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	~dev-python/rich-click-1.7.3[${PYTHON_USEDEP}]
 	~dev-python/click-log-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/mkdocs-1.6.1[${PYTHON_USEDEP}] )

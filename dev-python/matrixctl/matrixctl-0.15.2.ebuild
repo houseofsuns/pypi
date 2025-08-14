@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/ansible-runner[${PYTHON_USEDEP}]
 	>=dev-python/attrs-23.2.0[${PYTHON_USEDEP}]
 	<dev-python/coloredlogs-16.0.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.27.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-24.2[${PYTHON_USEDEP}]
 	<dev-python/paramiko-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/psycopg-4.0.0[${PYTHON_USEDEP}]
@@ -40,13 +40,11 @@ DEPENDENCIES="dev-python/ansible-runner[${PYTHON_USEDEP}]
 	<dev-python/sshtunnel-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	dev-python/xdg-base-dirs[${PYTHON_USEDEP}]
-	docs? ( >=dev-python/exceptiongroup-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-autodoc-typehints-3.3[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-rtd-theme-4.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-9.0.0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/tomli-2.0.2[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="microeye"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES="~dev-python/autopep8-2.2.0[${PYTHON_USEDEP}]
 	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
 	dev-python/pyueye[${PYTHON_USEDEP}]
 	~dev-python/qdarkstyle-3.2.3[${PYTHON_USEDEP}]
-	dev-python/QScintilla[${PYTHON_USEDEP}]
+	~dev-python/qscintilla-2.14.1[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.22.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.14.1[${PYTHON_USEDEP}]

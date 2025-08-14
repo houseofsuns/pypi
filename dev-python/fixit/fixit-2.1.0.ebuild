@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,6 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/libcst-0.3.18[${PYTHON_USEDEP}]
 	dev-python/moreorless[${PYTHON_USEDEP}]
 	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	dev-python/trailrunner[${PYTHON_USEDEP}]
 	dev? ( dev-python/attribution[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
@@ -37,7 +36,7 @@ DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ufmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_mdinclude[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-7.0.1[${PYTHON_USEDEP}] )
 	pretty? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	advance? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	advance? ( dev-python/PySimpleGUI[${PYTHON_USEDEP}] )
 	advance? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	advance? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	advance? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	advance? ( dev-python/pygubu[${PYTHON_USEDEP}] )
 	advance? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	advance? ( dev-python/bokeh[${PYTHON_USEDEP}] )

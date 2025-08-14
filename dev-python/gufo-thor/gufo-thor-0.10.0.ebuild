@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="docs ipython lint test"
 DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/gufo-loader[${PYTHON_USEDEP}]
 	dev-python/gufo-acme[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mkdocs-material-9.5.44[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-0.27.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )

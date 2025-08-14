@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	<dev-python/loky-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	dev-python/modal[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	embeddings? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	cohere? ( dev-python/cohere[${PYTHON_USEDEP}] )

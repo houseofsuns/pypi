@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/asttokens-2.0.5[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/attrs-22.1.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/babel-2.10.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/backcall[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bleach-5.0.1[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/ipython-8.18.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jedi-0.18.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jsonschema-4.8.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jupyter-client-7.3.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jupyter-core-4.11.2[${PYTHON_USEDEP}] )

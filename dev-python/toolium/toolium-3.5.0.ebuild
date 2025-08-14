@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/requests-2.27[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.1[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.1[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-25.9[${PYTHON_USEDEP}]
 	~dev-python/phonenumbers-8.13[${PYTHON_USEDEP}]
 	playwright? ( dev-python/playwright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

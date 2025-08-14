@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bootstrap dev docs test"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/clldutils[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid-mako[${PYTHON_USEDEP}]
@@ -35,6 +35,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	>=dev-python/rdflib-4.1.1[${PYTHON_USEDEP}]
 	dev-python/nameparser[${PYTHON_USEDEP}]
+	>=dev-python/legacy-cgi-2.6[${PYTHON_USEDEP}]
 	bootstrap? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	bootstrap? ( dev-python/pycldf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )

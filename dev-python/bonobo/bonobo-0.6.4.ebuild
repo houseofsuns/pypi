@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docker jupyter sqlalchemy"
 DEPENDENCIES="~dev-python/fs-2.0[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.9[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.9[${PYTHON_USEDEP}]
 	dev-python/mondrian[${PYTHON_USEDEP}]
 	~dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.4[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,13 +27,12 @@ IUSE="dev docs test"
 DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	<dev-python/paramiko-4.0[${PYTHON_USEDEP}]
 	>dev-python/click-2.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/pywinrm[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
 	<dev-python/distro-2.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-16.1[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/click-8.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-8.3.5[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.7.1[${PYTHON_USEDEP}] )

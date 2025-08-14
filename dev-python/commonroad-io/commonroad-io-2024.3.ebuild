@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.13.0[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.2.2[${PYTHON_USEDEP}]
@@ -33,7 +35,7 @@ DEPENDENCIES=">=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.4.0[${PYTHON_USEDEP}]
 	dev-python/iso3166[${PYTHON_USEDEP}]
 	dev-python/commonroad-vehicle-models[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	>=dev-python/rtree-0.8.3[${PYTHON_USEDEP}]
 	~dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.64[${PYTHON_USEDEP}]"

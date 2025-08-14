@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mongodb mssql mysql oracle postgresql standard-ext-writer"
 DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/watchmen-data-kernel[${PYTHON_USEDEP}]
 	mysql? ( dev-python/watchmen-storage-mysql[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/watchmen-storage-oracle[${PYTHON_USEDEP}] )

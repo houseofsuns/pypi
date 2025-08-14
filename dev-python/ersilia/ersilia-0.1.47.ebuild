@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/inputimeout[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( <dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox[${PYTHON_USEDEP}] )
 	test? ( dev-python/rich[${PYTHON_USEDEP}] )

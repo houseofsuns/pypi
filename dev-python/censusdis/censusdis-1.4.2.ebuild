@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/divintseg[${PYTHON_USEDEP}]
 	dev-python/logargparser[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-19.0.0[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	<dev-python/rtree-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/divintseg[${PYTHON_USEDEP}]
 	explore? ( dev-python/folium[${PYTHON_USEDEP}] )
 	dev-python/pyogrio[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	jupyterlab? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )
 	jupyterlab? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
 	<dev-python/numpy-3.0.0[${PYTHON_USEDEP}]

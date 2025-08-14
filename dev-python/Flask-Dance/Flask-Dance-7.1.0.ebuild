@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/sqlalchemy-1.3.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask-login[${PYTHON_USEDEP}] )
-	test? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
+	test? ( dev-python/flask-caching[${PYTHON_USEDEP}] )
 	test? ( dev-python/betamax[${PYTHON_USEDEP}] )
 	test? ( dev-python/oauthlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

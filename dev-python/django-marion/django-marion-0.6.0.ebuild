@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hypothesis-6.86.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-material-9.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )

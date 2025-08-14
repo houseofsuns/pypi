@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/stdlb[${PYTHON_USEDEP}]
 	all? ( dev-python/click[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	all? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	all? ( dev-python/memray[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
@@ -51,8 +51,8 @@ DEPENDENCIES="dev-python/stdlb[${PYTHON_USEDEP}]
 	dt? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	dt? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	git? ( dev-python/click[${PYTHON_USEDEP}] )
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	git? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	git? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	mem? ( dev-python/memray[${PYTHON_USEDEP}] )
 	pd? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	pd? ( dev-python/pandas[${PYTHON_USEDEP}] )

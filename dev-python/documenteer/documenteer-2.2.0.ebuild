@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="guide technote"
 DEPENDENCIES=">=dev-python/docutils-0.20[${PYTHON_USEDEP}]
 	<dev-python/sphinx-8.2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/sphinxcontrib-bibtex-2.6.5[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/docutils-0.20[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/pylatexenc[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
-	guide? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	guide? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	guide? ( <dev-python/pydata-sphinx-theme-0.17.0[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )

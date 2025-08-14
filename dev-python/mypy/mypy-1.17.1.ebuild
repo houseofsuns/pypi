@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,9 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dmypy faster-cache install-types mypyc reports"
 DEPENDENCIES=">=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	>=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	dmypy? ( >=dev-python/psutil-4.0[${PYTHON_USEDEP}] )
 	mypyc? ( >=dev-python/setuptools-50.0[${PYTHON_USEDEP}] )
 	reports? ( dev-python/lxml[${PYTHON_USEDEP}] )

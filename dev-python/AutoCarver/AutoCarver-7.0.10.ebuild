@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="tests? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.9.6[${PYTHON_USEDEP}] )
 	<dev-python/numpy-2.1[${PYTHON_USEDEP}]

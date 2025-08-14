@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-24.0.1[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	~dev-python/tables-3.7.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/schema-0.7.5[${PYTHON_USEDEP}]
 	~dev-python/rich-12.6.0[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.3.2[${PYTHON_USEDEP}]

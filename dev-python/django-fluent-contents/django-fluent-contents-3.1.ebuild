@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="code disquscommentsarea formdesignerlink markup oembeditem tests text twitterfeed"
 DEPENDENCIES="dev-python/django-fluent-utils[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	>=dev-python/django-polymorphic-2.1.2[${PYTHON_USEDEP}]
 	dev-python/django-tag-parser[${PYTHON_USEDEP}]
 	dev-python/django-template-analyzer[${PYTHON_USEDEP}]
 	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]

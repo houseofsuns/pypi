@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all container dev doc docs duecredit maint telemetry test tests"
 DEPENDENCIES="dev-python/acres[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	>=dev-python/apscheduler-3.10[${PYTHON_USEDEP}]
 	dev-python/codecarbon[${PYTHON_USEDEP}]
 	>=dev-python/looseversion-1.3[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]

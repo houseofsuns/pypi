@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	test_full? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test_full? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
-	test_full? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	test_full? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	test_full? ( dev-python/numpy-stl[${PYTHON_USEDEP}] )
 	test_full? ( dev-python/namegenerator[${PYTHON_USEDEP}] )
 	test_full? ( dev-python/pillow[${PYTHON_USEDEP}] )

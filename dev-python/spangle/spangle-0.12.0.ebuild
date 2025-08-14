@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/multipart-0.3.0[${PYTHON_USEDEP}]
 	<dev-python/parse-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/starlette-0.18.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.3.5.post25"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,6 @@ DEPENDENCIES="dev-python/dictdumper[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/tbtrim[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	cli? ( dev-python/emoji[${PYTHON_USEDEP}] )
 	dpkt? ( dev-python/dpkt[${PYTHON_USEDEP}] )
 	scapy? ( dev-python/scapy[${PYTHON_USEDEP}] )
@@ -47,6 +46,6 @@ DEPENDENCIES="dev-python/dictdumper[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/mypy-extensions[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/sip[${PYTHON_USEDEP}] )
 	optional? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	pyqt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/sip[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

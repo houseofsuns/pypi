@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="ci dist fix lint test"
 DEPENDENCIES="<dev-python/pathvalidate-3.4.0[${PYTHON_USEDEP}]
 	dev-python/ozi-core[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	ci? ( >dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/tox-gh[${PYTHON_USEDEP}] )
 	fix? ( dev-python/black[${PYTHON_USEDEP}] )

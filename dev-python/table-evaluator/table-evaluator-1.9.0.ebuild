@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,6 @@ DEPENDENCIES="~dev-python/pyarrow-17.0.0[${PYTHON_USEDEP}]
 	dev-python/m2r2[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/build-1.2.2_p1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipykernel-6.29.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipywidgets-8.1.7[${PYTHON_USEDEP}] )

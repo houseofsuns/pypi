@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/gcode-machine[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	~dev-python/pyopengl-3.1[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]"
+	~dev-python/pyqt6-6.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

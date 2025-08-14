@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.0.3a27"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-3.1.6[${PYTHON_USEDEP}]
 	>=dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-1.0.7[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.1.1[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

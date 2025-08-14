@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12,3_10} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/borax[${PYTHON_USEDEP}]
 	dev-python/pytomlpp[${PYTHON_USEDEP}]
 	~dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.4.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.43[${PYTHON_USEDEP}]
 	~dev-python/watchdog-4.0.2[${PYTHON_USEDEP}]
 	dev-python/hachiko[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}]
@@ -98,7 +98,7 @@ DEPENDENCIES="dev-python/borax[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]
 	dev-python/duckduckgo-search[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<dev-python/apscheduler-3.12.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/pyheif[${PYTHON_USEDEP}]
 	~dev-python/filetype-1.2.0[${PYTHON_USEDEP}]

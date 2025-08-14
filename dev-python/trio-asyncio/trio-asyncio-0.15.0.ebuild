@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE=""
 DEPENDENCIES=">=dev-python/trio-0.22.0[${PYTHON_USEDEP}]
 	dev-python/outcome[${PYTHON_USEDEP}]
 	>=dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	>=dev-python/exceptiongroup-1.0.0[${PYTHON_USEDEP}]"
+	dev-python/greenlet[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

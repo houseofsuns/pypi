@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/siliconcompiler[${PYTHON_USEDEP}]
 	test? ( dev-python/tclint[${PYTHON_USEDEP}] )
 	test? ( dev-python/lambdalib[${PYTHON_USEDEP}] )
 	test? ( dev-python/sc-leflib[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

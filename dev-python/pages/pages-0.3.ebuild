@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	chameleon? ( dev-python/chameleon[${PYTHON_USEDEP}] )
 	genshi? ( dev-python/genshi[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	kajiki? ( dev-python/kajiki[${PYTHON_USEDEP}] )
 	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

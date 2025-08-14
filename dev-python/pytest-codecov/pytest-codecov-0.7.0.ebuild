@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,6 +28,6 @@ DEPENDENCIES=">=dev-python/pytest-4.6.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-2.11.0[${PYTHON_USEDEP}]
 	>=dev-python/coverage-5.2.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
+	git? ( >=dev-python/gitpython-3.1.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

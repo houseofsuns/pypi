@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,12 +31,12 @@ DEPENDENCIES="~dev-python/alembic-1.2[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.0[${PYTHON_USEDEP}]
 	dev-python/disk_objectstore[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	~dev-python/graphviz-0.19[${PYTHON_USEDEP}]
 	dev-python/plumpy[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.0[${PYTHON_USEDEP}]
 	<dev-python/jedi-0.19[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	dev-python/kiwipy[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21[${PYTHON_USEDEP}]

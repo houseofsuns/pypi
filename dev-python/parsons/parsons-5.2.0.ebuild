@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,7 +52,8 @@ DEPENDENCIES="dev-python/pyairtable[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.5.1[${PYTHON_USEDEP}]
 	dev-python/petl[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
+	~dev-python/pygithub-2.6.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.4[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
@@ -67,7 +68,7 @@ DEPENDENCIES="dev-python/pyairtable[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.19[${PYTHON_USEDEP}]
 	dev-python/validate_email[${PYTHON_USEDEP}]
 	~dev-python/xmltodict-0.14.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.2[${PYTHON_USEDEP}]
 	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/us[${PYTHON_USEDEP}]
 	~dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}]"

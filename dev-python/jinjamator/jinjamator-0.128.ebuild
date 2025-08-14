@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	dev-python/ipcalc[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
 	dev-python/textfsmplus[${PYTHON_USEDEP}]
@@ -52,13 +52,13 @@ DEPENDENCIES="~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy-serializer[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy-serializer[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/jinjamator-flask-restx[${PYTHON_USEDEP}]
 	dev-python/argon2-cffi[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	dev-python/configargparse[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/python-status[${PYTHON_USEDEP}]

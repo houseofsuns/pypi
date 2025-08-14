@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,10 +27,10 @@ IUSE="all extra-types rich"
 DEPENDENCIES="<dev-python/packaging-25.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	rich? ( dev-python/rich-click[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich-click[${PYTHON_USEDEP}] )
+	rich? ( <dev-python/rich-click-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/rich-click-2.0.0[${PYTHON_USEDEP}] )
 	extra-types? ( dev-python/pydantic-extra-types[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic-extra-types[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

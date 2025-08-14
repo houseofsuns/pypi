@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -60,10 +60,10 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	ase-ext? ( dev-python/tblite[${PYTHON_USEDEP}] )
 	openmm? ( dev-python/MDAnalysis[${PYTHON_USEDEP}] )
 	openmm? ( dev-python/openmm-mdanalysis-reporter[${PYTHON_USEDEP}] )
-	openmm? ( dev-python/openmm[${PYTHON_USEDEP}] )
+	openmm? ( dev-python/OpenMM[${PYTHON_USEDEP}] )
 	fireworks? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/furo-2024.8.6[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipython-8.34.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
@@ -105,7 +105,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	strict-openff? ( dev-python/MDAnalysis[${PYTHON_USEDEP}] )
 	strict-openff? ( dev-python/monty[${PYTHON_USEDEP}] )
 	strict-openff? ( dev-python/openmm-mdanalysis-reporter[${PYTHON_USEDEP}] )
-	strict-openff? ( dev-python/openmm[${PYTHON_USEDEP}] )
+	strict-openff? ( dev-python/OpenMM[${PYTHON_USEDEP}] )
 	strict-openff? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
 	strict-forcefields? ( dev-python/calorine[${PYTHON_USEDEP}] )
 	strict-forcefields? ( dev-python/chgnet[${PYTHON_USEDEP}] )

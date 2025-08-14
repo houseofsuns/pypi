@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,6 @@ DEPENDENCIES=">=dev-python/cattrs-23.1.2[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-24.2[${PYTHON_USEDEP}]
 	dev-python/logdecorator[${PYTHON_USEDEP}]
 	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
-	~dev-python/pygit2-1.9[${PYTHON_USEDEP}]
 	~dev-python/pygit2-1.14[${PYTHON_USEDEP}]
 	ci? ( >=dev-python/bandit-1.6.0[${PYTHON_USEDEP}] )
 	ci? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
@@ -49,7 +48,7 @@ DEPENDENCIES=">=dev-python/cattrs-23.1.2[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/freezegun-0.3.15[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-mock-3.14[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	yubikey? ( dev-python/yubikey-manager[${PYTHON_USEDEP}] )

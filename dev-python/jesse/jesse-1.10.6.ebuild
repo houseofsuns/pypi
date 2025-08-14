@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,6 +54,7 @@ DEPENDENCIES="~dev-python/arrow-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/cryptography-42.0.5[${PYTHON_USEDEP}]
 	>=dev-python/ecdsa-0.16.0[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
+	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.1.0[${PYTHON_USEDEP}]
 	dev-python/starkbank-ecdsa[${PYTHON_USEDEP}]

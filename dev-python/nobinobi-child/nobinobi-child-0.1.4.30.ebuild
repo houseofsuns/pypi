@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,7 +52,7 @@ DEPENDENCIES="~dev-python/annotated-types-0.5.0[${PYTHON_USEDEP}]
 	~dev-python/django-3.2.25[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-datatables[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.15.1[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/fonttools-4.38.0[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	dev-python/MarkupPy[${PYTHON_USEDEP}]

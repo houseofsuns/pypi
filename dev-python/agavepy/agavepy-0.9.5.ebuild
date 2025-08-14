@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
-	dev-python/backports-ssl_match_hostname[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja2-2.7.3[${PYTHON_USEDEP}]
+	>=dev-python/backports-ssl-match-hostname-3.4.0.2[${PYTHON_USEDEP}]
 	>=dev-python/py-1.4.26[${PYTHON_USEDEP}]
 	>=dev-python/pytest-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]

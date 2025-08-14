@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/keyring-24.3.0[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.5.1[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="~dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
-	dev-python/pyyaml_env_tag[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-env-tag-0.1[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/responses-0.24.1[${PYTHON_USEDEP}]

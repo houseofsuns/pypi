@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}]
 	dev-python/DAWG[${PYTHON_USEDEP}]
-	dev-python/Pyro5[${PYTHON_USEDEP}]
+	>=dev-python/pyro5-5.12[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.1.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]

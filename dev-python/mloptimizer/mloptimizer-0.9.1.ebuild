@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/catboost[${PYTHON_USEDEP}]
 	dev? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ucimlrepo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-github-changelog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-contributors[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx_contributors[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	docs? ( dev-python/deap[${PYTHON_USEDEP}] )
@@ -100,7 +100,7 @@ DEPENDENCIES="dev-python/catboost[${PYTHON_USEDEP}]
 	docs? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-github-changelog[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-contributors[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_contributors[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

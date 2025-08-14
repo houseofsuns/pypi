@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -56,7 +56,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( >dev-python/jinja2-3.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}] )
 	all? ( dev-python/BlackBoxAuditing[${PYTHON_USEDEP}] )
 	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	all? ( dev-python/POT[${PYTHON_USEDEP}] )
 	all? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/jinja2-3.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/fairlearn[${PYTHON_USEDEP}] )
 	infairness? ( dev-python/skorch[${PYTHON_USEDEP}] )

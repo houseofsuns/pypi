@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.dev8"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,6 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.15[${PYTHON_USEDEP}]
 	dev-python/aspect-stable[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	full? ( dev-python/asdf[${PYTHON_USEDEP}] )
 	full? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	full? ( dev-python/mplcursors[${PYTHON_USEDEP}] )

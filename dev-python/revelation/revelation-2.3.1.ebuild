@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-4.3.8[${PYTHON_USEDEP}]
 	~dev-python/typer-0.16.0[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-3.1.3[${PYTHON_USEDEP}]"

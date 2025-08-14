@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	doc? ( dev-python/intake-xarray[${PYTHON_USEDEP}] )
 	doc? ( dev-python/intake[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsite[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/networkx-2.6.3[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	examples? ( dev-python/intake-xarray[${PYTHON_USEDEP}] )
 	examples? ( dev-python/intake[${PYTHON_USEDEP}] )
 	examples? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	examples? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	examples? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/networkx-2.6.3[${PYTHON_USEDEP}] )
 	examples? ( >=dev-python/notebook-5.4[${PYTHON_USEDEP}] )
@@ -114,7 +114,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	examples-tests? ( dev-python/intake-xarray[${PYTHON_USEDEP}] )
 	examples-tests? ( dev-python/intake[${PYTHON_USEDEP}] )
 	examples-tests? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	examples-tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	examples-tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	examples-tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	examples-tests? ( dev-python/nbval[${PYTHON_USEDEP}] )
 	examples-tests? ( >=dev-python/networkx-2.6.3[${PYTHON_USEDEP}] )
@@ -136,7 +136,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	examples-tests? ( >=dev-python/xarray-0.18.2[${PYTHON_USEDEP}] )
 	examples-tests? ( dev-python/xyzservices[${PYTHON_USEDEP}] )
 	fugue-sql? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
-	fugue-sql? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	fugue-sql? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	fugue-sql? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	fugue-sql? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
 	geo? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
@@ -164,7 +164,7 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	tests? ( dev-python/fugue[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ibis-framework[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tests? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )

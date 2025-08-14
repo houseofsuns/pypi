@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/django-1.8[${PYTHON_USEDEP}]
-	dev-python/django_admin_ordering[${PYTHON_USEDEP}]
+	dev-python/django-admin-ordering[${PYTHON_USEDEP}]
 	dev-python/django-ckeditor[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.11.2[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.9.6[${PYTHON_USEDEP}]
 	<dev-python/python-magic-1.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	>=dev-python/responses-0.13.4[${PYTHON_USEDEP}]
 	analysis? ( dev-python/autoprotocol[${PYTHON_USEDEP}] )
 	analysis? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )

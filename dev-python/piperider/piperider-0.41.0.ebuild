@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/portalocker[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	athena? ( dev-python/PyAthena[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
 	csv? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	csv? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	csv? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	csv? ( >=dev-python/chardet-5.0.0[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
@@ -53,10 +53,10 @@ DEPENDENCIES="<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	duckdb? ( >=dev-python/chardet-5.0.0[${PYTHON_USEDEP}] )
 	parquet? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	parquet? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	parquet? ( >=dev-python/chardet-5.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )

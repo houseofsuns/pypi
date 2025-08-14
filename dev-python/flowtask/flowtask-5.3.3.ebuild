@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/borax[${PYTHON_USEDEP}]
 	dev-python/pytomlpp[${PYTHON_USEDEP}]
 	~dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8.5[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.41[${PYTHON_USEDEP}]
 	~dev-python/watchdog-4.0.2[${PYTHON_USEDEP}]
 	dev-python/hachiko[${PYTHON_USEDEP}]
 	~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}]

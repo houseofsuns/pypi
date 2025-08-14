@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/astroid-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/coloredlogs-9.0[${PYTHON_USEDEP}]
 	~dev-python/humanfriendly-4.8[${PYTHON_USEDEP}]
 	~dev-python/isort-4.2.15[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	~dev-python/jsmin-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/lazy-object-proxy-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/libsass-0.13.7[${PYTHON_USEDEP}]

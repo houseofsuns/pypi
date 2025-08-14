@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/anchorpy[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-inline-0.1.6[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-8.14.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/OSlash[${PYTHON_USEDEP}]
 	~dev-python/packaging-22.0[${PYTHON_USEDEP}]

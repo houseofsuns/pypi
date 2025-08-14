@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,10 +27,10 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	dev-python/github-traffic-stats[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.55[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )

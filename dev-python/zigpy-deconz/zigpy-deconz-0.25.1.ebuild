@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/voluptuous[${PYTHON_USEDEP}]
 	dev-python/zigpy[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )

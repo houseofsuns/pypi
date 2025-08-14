@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.14.2[${PYTHON_USEDEP}]
 	api? ( dev-python/asyncio[${PYTHON_USEDEP}] )
 	api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	api? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	api? ( >=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	api? ( >=dev-python/opentelemetry-api-1.34.1[${PYTHON_USEDEP}] )
 	api? ( dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}] )
 	api? ( >=dev-python/opentelemetry-sdk-1.34.1[${PYTHON_USEDEP}] )

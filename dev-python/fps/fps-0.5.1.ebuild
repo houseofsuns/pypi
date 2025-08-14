@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="anycorn click fastapi"
 DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	<dev-python/anyioutils-0.8.0[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
 	dev-python/structlog[${PYTHON_USEDEP}]
 	anycorn? ( dev-python/anycorn[${PYTHON_USEDEP}] )
 	click? ( <dev-python/click-9.0[${PYTHON_USEDEP}] )

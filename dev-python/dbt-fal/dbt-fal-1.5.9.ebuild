@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	trino? ( dev-python/trino[${PYTHON_USEDEP}] )
 	teleport? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]

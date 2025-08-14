@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test vector xla"
 DEPENDENCIES=">dev-python/numpy-1.20[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	vector? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	vector? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	xla? ( dev-python/gymnasium[${PYTHON_USEDEP}] )

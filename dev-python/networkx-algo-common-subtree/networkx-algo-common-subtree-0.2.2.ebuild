@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-strict build build-strict docs docs-strict runtime runtime-strict tests tests-strict"
 DEPENDENCIES=">=dev-python/networkx-2.7[${PYTHON_USEDEP}]
-	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
-	all? ( >=dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/xdoctest-1.1.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
@@ -40,7 +38,6 @@ DEPENDENCIES=">=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	all? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	all? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cython-0.29.24[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/xdoctest-1.1.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
@@ -63,7 +60,6 @@ DEPENDENCIES=">=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/xdoctest-1.1.3[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
@@ -76,7 +72,6 @@ DEPENDENCIES=">=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	all-strict? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/cython-0.29.24[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/xdoctest-1.1.3[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )

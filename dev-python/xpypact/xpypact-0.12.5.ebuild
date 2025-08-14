@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.1.3[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-18.0.0[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]"
+	>=dev-python/msgspec-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

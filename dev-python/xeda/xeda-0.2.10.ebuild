@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,9 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	~dev-python/python-box-7.2[${PYTHON_USEDEP}]
 	<dev-python/attrs-26.0[${PYTHON_USEDEP}]
 	<dev-python/cattrs-26.0[${PYTHON_USEDEP}]
@@ -46,7 +45,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	~dev-python/psutil-7.0[${PYTHON_USEDEP}]
 	dev-python/pyvcd[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	~dev-python/execnet-2.1[${PYTHON_USEDEP}]
 	dev-python/devtools[${PYTHON_USEDEP}]
@@ -54,7 +53,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

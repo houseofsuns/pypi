@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.75.5.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="caching extra-proxy mlflow proxy semantic-router utils"
 DEPENDENCIES="proxy? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	>=dev-python/aiohttp-3.10[${PYTHON_USEDEP}]
-	proxy? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	proxy? ( <dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	extra-proxy? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	extra-proxy? ( dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="proxy? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	proxy? ( dev-python/litellm-enterprise[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/litellm-proxy-extras[${PYTHON_USEDEP}] )

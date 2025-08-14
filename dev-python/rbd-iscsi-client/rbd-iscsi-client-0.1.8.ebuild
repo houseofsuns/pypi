@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/babel-2.3.4[${PYTHON_USEDEP}]
 	>=dev-python/oslo-i18n-3.24.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-log-3.44.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-utils-3.34.0[${PYTHON_USEDEP}]

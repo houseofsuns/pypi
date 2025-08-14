@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,9 +27,9 @@ IUSE="gunicorn hubspot locale memcache uvloop"
 DEPENDENCIES="~dev-python/cython-3.0.11[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/aiosocks[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]
@@ -49,17 +49,17 @@ DEPENDENCIES="~dev-python/cython-3.0.11[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]
 	~dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/aiormq[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-22.2.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.1.0[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	<=dev-python/babel-2.17.0[${PYTHON_USEDEP}]
 	gunicorn? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	hubspot? ( dev-python/hubspot-api-client[${PYTHON_USEDEP}] )
-	locale? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	locale? ( ~dev-python/babel-2.9.1[${PYTHON_USEDEP}] )
 	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	uvloop? ( ~dev-python/uvloop-0.21.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

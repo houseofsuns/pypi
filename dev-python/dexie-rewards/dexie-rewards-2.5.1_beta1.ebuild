@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.5.1b1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich-click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rich-click-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aiomisc[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.10.4[${PYTHON_USEDEP}]
 	dev-python/based58[${PYTHON_USEDEP}]

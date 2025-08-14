@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="async"
 DEPENDENCIES="<dev-python/pillow-12.0.0[${PYTHON_USEDEP}]
 	async? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	async? ( dev-python/asyncio[${PYTHON_USEDEP}] )
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	<dev-python/msgspec-0.20.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

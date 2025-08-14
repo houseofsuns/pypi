@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -60,7 +60,7 @@ DEPENDENCIES=">=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/aiohttp-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiohttp-sse-client[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/aiostream-0.3.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	dev? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
@@ -72,6 +72,6 @@ DEPENDENCIES=">=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-1.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	studies? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )"
+	studies? ( dev-python/ta-lib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

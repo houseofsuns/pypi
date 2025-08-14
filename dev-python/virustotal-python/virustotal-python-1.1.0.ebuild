@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_12,3_10,3_11} )
+PYTHON_COMPAT=( python{3_12,3_13,3_14,3_11} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="socks"
 DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
+	socks? ( <dev-python/pysocks-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

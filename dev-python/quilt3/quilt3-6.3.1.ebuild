@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -47,7 +47,7 @@ DEPENDENCIES=">=dev-python/platformdirs-2.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/responses[${PYTHON_USEDEP}] )
 	tests? ( dev-python/git-pylint-commit-hook[${PYTHON_USEDEP}] )
-	catalog? ( dev-python/quilt3-local[${PYTHON_USEDEP}] )
+	catalog? ( dev-python/quilt3_local[${PYTHON_USEDEP}] )
 	catalog? ( <dev-python/uvicorn-0.18[${PYTHON_USEDEP}] )
 	catalog? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

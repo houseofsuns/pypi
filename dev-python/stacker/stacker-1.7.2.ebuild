@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.13_beta1[${PYTHON_USEDEP}]
 	dev-python/awacs[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/gitpython-3.0[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	dev-python/schematics[${PYTHON_USEDEP}]
 	dev-python/formic2[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]

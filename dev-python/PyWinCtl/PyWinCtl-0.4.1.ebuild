@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/PyMonCtl[${PYTHON_USEDEP}]
 	dev-python/PyWinBox[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
-	dev-python/ewmhlib[${PYTHON_USEDEP}]
+	dev-python/EWMHlib[${PYTHON_USEDEP}]
 	>=dev-python/python-xlib-0.21[${PYTHON_USEDEP}]
-	dev? ( dev-python/ewmhlib[${PYTHON_USEDEP}] )
+	dev? ( dev-python/EWMHlib[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-xlib[${PYTHON_USEDEP}] )

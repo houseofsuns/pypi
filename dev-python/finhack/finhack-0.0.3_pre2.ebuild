@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.0.3.dev2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/bottleneck-1.3.5[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	~dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.19[${PYTHON_USEDEP}]
-	dev-python/TA-Lib[${PYTHON_USEDEP}]
+	dev-python/ta-lib[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	dev-python/tushare[${PYTHON_USEDEP}]

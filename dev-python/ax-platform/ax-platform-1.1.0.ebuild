@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mysql notebook tutorial unittest unittest-minimal"
 DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	mysql? ( ~dev-python/sqlalchemy-1.4.17[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	unittest? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	unittest? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
 	unittest? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -85,7 +85,7 @@ DEPENDENCIES="dev-python/botorch[${PYTHON_USEDEP}]
 	unittest-minimal? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	unittest-minimal? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tutorial? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
 	tutorial? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

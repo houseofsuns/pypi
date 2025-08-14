@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,15 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="spelling testutils"
 DEPENDENCIES="<=dev-python/astroid-3.4.0_pre0[${PYTHON_USEDEP}]
-	>=dev-python/dill-0.2[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	<dev-python/isort-7.0[${PYTHON_USEDEP}]
 	<dev-python/mccabe-0.8[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.2[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.1[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.10.1[${PYTHON_USEDEP}]
 	spelling? ( ~dev-python/pyenchant-3.2[${PYTHON_USEDEP}] )
-	testutils? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
+	testutils? ( >dev-python/gitpython-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

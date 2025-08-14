@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/bump2version[${PYTHON_USEDEP}]
 	~dev-python/pyproj-2.6.1_p1[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	~dev-python/rtree-0.8.3[${PYTHON_USEDEP}]
 	~dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}]
 	~dev-python/tox-3.14.0[${PYTHON_USEDEP}]

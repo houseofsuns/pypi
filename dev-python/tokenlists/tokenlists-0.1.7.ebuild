@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pygithub-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis-jsonschema[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pygithub-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis-jsonschema[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

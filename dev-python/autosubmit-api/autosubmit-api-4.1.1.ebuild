@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	~dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}]
 	dev-python/autosubmitconfigparser[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.10.4[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/scipy-1.11.4[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/autosubmitconfigparser[${PYTHON_USEDEP}] )
-	all? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/apscheduler-3.10.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pydantic-2.5.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}] )

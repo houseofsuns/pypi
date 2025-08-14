@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,6 @@ DEPENDENCIES=">=dev-python/doit-0.36.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-timeout-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-8.2.3[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-6.0.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

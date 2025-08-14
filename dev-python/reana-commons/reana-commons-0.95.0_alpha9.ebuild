@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.95.0a9"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,8 +48,6 @@ DEPENDENCIES="dev-python/bravado[${PYTHON_USEDEP}]
 	yadage? ( <dev-python/jsonschema-4.10.0[${PYTHON_USEDEP}] )
 	cwl? ( dev-python/cwltool[${PYTHON_USEDEP}] )
 	snakemake? ( dev-python/snakemake[${PYTHON_USEDEP}] )
-	snakemake? ( dev-python/PuLP[${PYTHON_USEDEP}] )
-	snakemake? ( dev-python/snakemake[${PYTHON_USEDEP}] )
 	snakemake-xrootd? ( dev-python/snakemake-storage-plugin-xrootd[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-1.5.1[${PYTHON_USEDEP}] )
@@ -62,8 +60,6 @@ DEPENDENCIES="dev-python/bravado[${PYTHON_USEDEP}]
 	all? ( <dev-python/jsonschema-4.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cwltool[${PYTHON_USEDEP}] )
 	all? ( dev-python/snakemake[${PYTHON_USEDEP}] )
-	all? ( dev-python/PuLP[${PYTHON_USEDEP}] )
-	all? ( dev-python/snakemake[${PYTHON_USEDEP}] )
 	all? ( dev-python/snakemake-storage-plugin-xrootd[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-1.5.1[${PYTHON_USEDEP}] )
@@ -75,8 +71,6 @@ DEPENDENCIES="dev-python/bravado[${PYTHON_USEDEP}]
 	all? ( dev-python/yadage-schemas[${PYTHON_USEDEP}] )
 	all? ( <dev-python/jsonschema-4.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cwltool[${PYTHON_USEDEP}] )
-	all? ( dev-python/snakemake[${PYTHON_USEDEP}] )
-	all? ( dev-python/PuLP[${PYTHON_USEDEP}] )
 	all? ( dev-python/snakemake[${PYTHON_USEDEP}] )
 	all? ( dev-python/snakemake-storage-plugin-xrootd[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,6 @@ DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/google-auth-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/google-auth-oauthlib-0.5.0[${PYTHON_USEDEP}] )
-	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-iot[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
@@ -51,7 +50,6 @@ DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	gateway? ( dev-python/mcp9600[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	gateway? ( <dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}] )
 	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]

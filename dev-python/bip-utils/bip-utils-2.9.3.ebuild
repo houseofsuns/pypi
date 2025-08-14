@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,8 +30,6 @@ DEPENDENCIES="<dev-python/cbor2-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.15[${PYTHON_USEDEP}]
 	~dev-python/pynacl-1.5[${PYTHON_USEDEP}]
 	dev-python/ed25519-blake2b[${PYTHON_USEDEP}]
-	dev-python/coincurve[${PYTHON_USEDEP}]
-	dev-python/py-sr25519-bindings[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
 	dev-python/py-sr25519-bindings[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]

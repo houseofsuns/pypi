@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,6 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	extras? ( dev-python/loky[${PYTHON_USEDEP}] )
-	extras? ( >dev-python/loky-3.5.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	extras? ( dev-python/mpmath[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
@@ -51,7 +50,6 @@ DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	full? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	full? ( dev-python/loky[${PYTHON_USEDEP}] )
-	full? ( >dev-python/loky-3.5.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	full? ( dev-python/mpmath[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

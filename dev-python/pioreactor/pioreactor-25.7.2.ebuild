@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-2.1.0[${PYTHON_USEDEP}]
 	dev-python/JSON-log-formatter[${PYTHON_USEDEP}]
 	~dev-python/colorlog-6.7.0[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	~dev-python/msgspec-0.19.0[${PYTHON_USEDEP}]
 	dev-python/crudini[${PYTHON_USEDEP}]
 	~dev-python/iniparse-0.5[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.9.0[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/flup6[${PYTHON_USEDEP}]
 	dev-python/huey[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.5[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-3.1.0[${PYTHON_USEDEP}]

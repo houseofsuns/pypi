@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.15.2[${PYTHON_USEDEP}]
 	dev-python/anonip[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.17.0[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.9.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.4.2[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/fpdf2[${PYTHON_USEDEP}]
 	~dev-python/h5py-3.13.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/jsonref-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/kombu-5.5.3[${PYTHON_USEDEP}]
 	~dev-python/ldap3-2.9.1[${PYTHON_USEDEP}]
@@ -94,7 +94,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-7.4.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-inline-tabs-2023.4.21[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-rtd-theme-3.0.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-httpdomain-1.8.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tomli-2.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-6.1.0[${PYTHON_USEDEP}] )

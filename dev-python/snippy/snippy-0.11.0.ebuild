@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	devel? ( ~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	devel? ( ~dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
 	devel? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
-	devel? ( dev-python/logging_tree[${PYTHON_USEDEP}] )
+	devel? ( dev-python/logging-tree[${PYTHON_USEDEP}] )
 	devel? ( ~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pprintpp[${PYTHON_USEDEP}] )
 	devel? ( ~dev-python/pyflakes-2.1.1[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	test? ( ~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
-	test? ( dev-python/logging_tree[${PYTHON_USEDEP}] )
+	test? ( dev-python/logging-tree[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pprintpp[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pyflakes-2.1.1[${PYTHON_USEDEP}] )

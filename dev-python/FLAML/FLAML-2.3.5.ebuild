@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,14 +44,12 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	blendsearch? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	blendsearch? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	catboost? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	catboost? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	forecast? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	forecast? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	forecast? ( >=dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}] )
 	forecast? ( dev-python/hcrystalball[${PYTHON_USEDEP}] )
 	forecast? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	forecast? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	forecast? ( dev-python/pytorch-forecasting[${PYTHON_USEDEP}] )
 	hf? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	hf? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	hf? ( dev-python/nltk[${PYTHON_USEDEP}] )
@@ -122,8 +120,6 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	test? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	test? ( dev-python/wolframalpha[${PYTHON_USEDEP}] )
 	test? ( dev-python/dill[${PYTHON_USEDEP}] )
-	test? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytorch-forecasting[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pandas-1.1.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	ts-forecast? ( dev-python/holidays[${PYTHON_USEDEP}] )

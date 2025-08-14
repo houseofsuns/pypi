@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="filecache flask toml yaml"
 DEPENDENCIES="dev-python/BTrees[${PYTHON_USEDEP}]
 	~dev-python/cachecontrol-0.12.14[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.5[${PYTHON_USEDEP}]
 	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	yaml? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/BTrees[${PYTHON_USEDEP}]
 	~dev-python/flask-3.0.2[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.11[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.41[${PYTHON_USEDEP}]
 	dev-python/grandalf[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/humanize-4.9.0[${PYTHON_USEDEP}]
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/BTrees[${PYTHON_USEDEP}]
 	dev-python/inject[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/lazy-object-proxy-1.10.0[${PYTHON_USEDEP}]
 	filecache? ( ~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )
 	~dev-python/lxml-5.1.0[${PYTHON_USEDEP}]
@@ -89,7 +89,7 @@ DEPENDENCIES="dev-python/BTrees[${PYTHON_USEDEP}]
 	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
 	~dev-python/mistune-2.0.5[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.0.7[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.9.13[${PYTHON_USEDEP}]

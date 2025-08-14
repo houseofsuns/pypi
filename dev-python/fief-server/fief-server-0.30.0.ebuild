@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aiomysql[${PYTHON_USEDEP}]
 	~dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.14.0[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.10.4[${PYTHON_USEDEP}]
 	~dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}]
 	dev-python/asgi-babel[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/aiomysql[${PYTHON_USEDEP}]
 	~dev-python/furl-2.1.3[${PYTHON_USEDEP}]
 	dev-python/httpx-oauth[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/jwcrypto-1.5.6[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	<dev-python/phonenumbers-8.14[${PYTHON_USEDEP}]

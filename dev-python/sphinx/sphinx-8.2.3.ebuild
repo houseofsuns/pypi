@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="Sphinx"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,11 +30,11 @@ DEPENDENCIES=">=dev-python/sphinxcontrib-applehelp-1.0.7[${PYTHON_USEDEP}]
 	>=dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/sphinxcontrib-qthelp-1.0.6[${PYTHON_USEDEP}]
 	>=dev-python/sphinxcontrib-serializinghtml-1.1.9[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.17[${PYTHON_USEDEP}]
 	<dev-python/docutils-0.22[${PYTHON_USEDEP}]
 	>=dev-python/snowballstemmer-2.2[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	>=dev-python/babel-2.13[${PYTHON_USEDEP}]
 	>=dev-python/alabaster-0.7.14[${PYTHON_USEDEP}]
 	>=dev-python/imagesize-1.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.30.0[${PYTHON_USEDEP}]

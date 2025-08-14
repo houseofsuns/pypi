@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES=">=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/recommonmark-0.4.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/nbsphinx-0.4.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/configargparse-1.2.1[${PYTHON_USEDEP}] )
 	llm? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	llm? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	llm? ( dev-python/tiktoken[${PYTHON_USEDEP}] )

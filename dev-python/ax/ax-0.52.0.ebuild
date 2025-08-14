@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/sanic[${PYTHON_USEDEP}]
 	<=dev-python/aiocache-0.11.1[${PYTHON_USEDEP}]
 	dev-python/aiopubsub[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	<=dev-python/apscheduler-3.6.3[${PYTHON_USEDEP}]
 	<=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	<=dev-python/ruamel-yaml-0.16.7[${PYTHON_USEDEP}]
 	<=dev-python/loguru-0.4.1[${PYTHON_USEDEP}]

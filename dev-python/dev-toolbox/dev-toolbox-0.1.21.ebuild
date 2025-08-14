@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	types? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	types? ( dev-python/pyrefly[${PYTHON_USEDEP}] )
@@ -37,7 +36,6 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	types? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	types? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	types? ( dev-python/requests[${PYTHON_USEDEP}] )
-	types? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	types? ( dev-python/ty[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	types? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"

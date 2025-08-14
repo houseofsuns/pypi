@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,8 +31,6 @@ DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/sqlparams[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
-	<=dev-python/typing-extensions-4.13.2[${PYTHON_USEDEP}]
 	dataframe? ( dev-python/ibis-singlestoredb[${PYTHON_USEDEP}] )
 	dbt? ( dev-python/dbt-singlestore[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )

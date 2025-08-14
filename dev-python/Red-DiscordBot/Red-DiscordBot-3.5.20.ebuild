@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
 	~dev-python/apsw-3.46.1.0[${PYTHON_USEDEP}]
 	~dev-python/attrs-25.3.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.17.0[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.8[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
@@ -73,7 +73,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pylint-3.2.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-asyncio-0.21.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytz-2025.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/dill-0.4.0[${PYTHON_USEDEP}] )
@@ -98,7 +98,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-prompt-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
@@ -110,7 +110,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/importlib-metadata-8.5.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/markupsafe-2.1.5[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pytz-2025.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/requests-2.32.3[${PYTHON_USEDEP}] )
@@ -130,7 +130,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/zipp-3.20.2[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
-	style? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/mypy-extensions-1.1.0[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/tomli-2.2.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/astroid-3.2.4[${PYTHON_USEDEP}] )

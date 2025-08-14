@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.2.0b3.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="charts dev docs exts visualize"
 DEPENDENCIES=">=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	exts? ( dev-python/py-ballisticcalc-exts[${PYTHON_USEDEP}] )
 	charts? ( >=dev-python/matplotlib-3.9[${PYTHON_USEDEP}] )
 	charts? ( >=dev-python/pandas-2.3.0[${PYTHON_USEDEP}] )

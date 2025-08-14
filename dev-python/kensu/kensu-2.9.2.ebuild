@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	gitpython? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	gitpython? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	airflow-google? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	airflow-google? ( <=dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	airflow-google? ( dev-python/fsspec[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	all? ( >=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}] )
 	all? ( <=dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/twine-3.4.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	all-but-test? ( dev-python/pysftp[${PYTHON_USEDEP}] )
 	all-but-test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	all-but-test? ( >=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}] )
 	all-but-test? ( <=dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	all-but-test? ( >=dev-python/twine-3.4.1[${PYTHON_USEDEP}] )
-	all-but-test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all-but-test? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all-but-test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	boto? ( dev-python/sqllineage[${PYTHON_USEDEP}] )
 	boto? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -94,7 +94,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	gbq? ( >=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}] )
 	gbq? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	gcsfs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	google-cloud-bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	numpy? ( >=dev-python/numpy-1.19.5[${PYTHON_USEDEP}] )

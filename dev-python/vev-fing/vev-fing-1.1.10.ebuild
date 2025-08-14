@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}]
 	~dev-python/pillow-7.1.2[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-0.22.2_p1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-5.15[${PYTHON_USEDEP}]
 	dev-python/PyQtChart[${PYTHON_USEDEP}]
 	~dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]

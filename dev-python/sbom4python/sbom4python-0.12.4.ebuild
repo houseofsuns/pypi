@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,6 @@ DEPENDENCIES="dev-python/lib4package[${PYTHON_USEDEP}]
 	dev-python/lib4sbom[${PYTHON_USEDEP}]
 	dev-python/sbom2dot[${PYTHON_USEDEP}]
 	dev-python/sbom4files[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

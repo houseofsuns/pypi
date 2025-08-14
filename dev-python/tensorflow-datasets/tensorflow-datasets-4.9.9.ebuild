@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,11 +23,10 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aflw2k3d beir ble-wind-field c4 c4-wsrs cats-vs-dogs colorectal-histology common-voice dev duke-ultrasound eurosat groove gtzan huggingface imagenet2012-corrupted librispeech locomotion lsun matplotlib nsynth ogbg-molpcba pet-finder qm9 robonet robosuite-panda-pick-place-can smartwatch-gestures speech-commands svhn tensorflow tensorflow-data-validation tests-all tf-nightly the300w-lp wake-vision wider-face wiki-dialog wikipedia wsc273 youtube-vis"
+IUSE="aflw2k3d beir ble-wind-field c4 c4-wsrs cats-vs-dogs colorectal-histology common-voice dev duke-ultrasound eurosat groove gtzan huggingface imagenet2012-corrupted librispeech lsun matplotlib nsynth ogbg-molpcba pet-finder qm9 robonet smartwatch-gestures speech-commands svhn tensorflow tensorflow-data-validation tests-all tf-nightly the300w-lp wake-vision wider-face wiki-dialog wikipedia wsc273 youtube-vis"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/array-record[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
-	dev-python/etils[${PYTHON_USEDEP}]
 	dev-python/etils[${PYTHON_USEDEP}]
 	dev-python/immutabledict[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -88,8 +87,6 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	tests-all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	tests-all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	tests-all? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	tests-all? ( dev-python/envlogger[${PYTHON_USEDEP}] )
-	tests-all? ( dev-python/envlogger[${PYTHON_USEDEP}] )
 	tests-all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	tests-all? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	tests-all? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -156,8 +153,6 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	huggingface? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	huggingface? ( dev-python/envlogger[${PYTHON_USEDEP}] )
-	huggingface? ( dev-python/envlogger[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -203,8 +198,6 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	pet-finder? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	qm9? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	robonet? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	locomotion? ( dev-python/envlogger[${PYTHON_USEDEP}] )
-	robosuite-panda-pick-place-can? ( dev-python/envlogger[${PYTHON_USEDEP}] )
 	smartwatch-gestures? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	speech-commands? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	svhn? ( dev-python/scipy[${PYTHON_USEDEP}] )

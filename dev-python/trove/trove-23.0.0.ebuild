@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES=">=dev-python/alembic-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/python-glanceclient-2.8.0[${PYTHON_USEDEP}]
 	dev-python/python-troveclient[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-3.1[${PYTHON_USEDEP}]
 	>=dev-python/oslo-config-6.8.0[${PYTHON_USEDEP}]
 	>=dev-python/oslo-context-4.0.0[${PYTHON_USEDEP}]

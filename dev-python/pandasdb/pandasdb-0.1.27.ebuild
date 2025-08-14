@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/gspread[${PYTHON_USEDEP}]
 	~dev-python/google-auth-oauthlib-0.4.4[${PYTHON_USEDEP}]
 	~dev-python/sphinx-2.4.3[${PYTHON_USEDEP}]
 	~dev-python/ujson-4.0.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-2.12.0[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-2.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-1.7[${PYTHON_USEDEP}]
 	<dev-python/attrs-21.0[${PYTHON_USEDEP}]

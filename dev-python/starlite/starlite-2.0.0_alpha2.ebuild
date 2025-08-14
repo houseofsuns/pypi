@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0a2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,9 +36,9 @@ DEPENDENCIES="sqlalchemy? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	dev-python/fast-query-parsers[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.22[${PYTHON_USEDEP}]
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	standard? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	standard? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	full? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )

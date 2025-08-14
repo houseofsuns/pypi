@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="git pandas web"
 DEPENDENCIES="web? ( >=dev-python/requests-2.29.0[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
+	git? ( >=dev-python/gitpython-3.1.30[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

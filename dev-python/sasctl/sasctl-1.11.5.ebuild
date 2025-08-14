@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	swat? ( dev-python/swat[${PYTHON_USEDEP}] )
-	gitpython? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	gitpython? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/kerberos[${PYTHON_USEDEP}] )
 	all? ( dev-python/swat[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( dev-python/kerberos[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

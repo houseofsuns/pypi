@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="bert server viz"
 DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	>=dev-python/cython-0.29[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.32.2[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	>=dev-python/configargparse-0.14.0[${PYTHON_USEDEP}]
 	dev-python/UCCA[${PYTHON_USEDEP}]
 	dev-python/SEMSTR[${PYTHON_USEDEP}]
 	dev-python/dyNET[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	server? ( >=dev-python/flask-0.12.2[${PYTHON_USEDEP}] )
 	server? ( dev-python/Flask-Assets[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/flask-compress-1.4.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/jinja2-2.9.6[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/networkx-1.11[${PYTHON_USEDEP}] )
 	server? ( dev-python/webassets[${PYTHON_USEDEP}] )

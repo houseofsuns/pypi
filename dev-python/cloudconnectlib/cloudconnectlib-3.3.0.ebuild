@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/munch-3.0.0[${PYTHON_USEDEP}]
 	dev-python/splunktaucclib[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	<dev-python/pysocks-2.0.0[${PYTHON_USEDEP}]
 	dev-python/solnlib[${PYTHON_USEDEP}]
 	dev-python/splunktalib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

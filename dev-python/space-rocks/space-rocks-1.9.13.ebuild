@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/numpy-1.24[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.2[${PYTHON_USEDEP}]
 	>=dev-python/faust-cchardet-2.1.7[${PYTHON_USEDEP}]
@@ -36,7 +35,7 @@ DEPENDENCIES=">=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.2[${PYTHON_USEDEP}]
 	>=dev-python/nest-asyncio-1.5.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
+	>=dev-python/levenshtein-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.6.2[${PYTHON_USEDEP}]
 	>=dev-python/rapidfuzz-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

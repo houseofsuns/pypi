@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	~dev-python/attrs-23.2.0[${PYTHON_USEDEP}]
 	dev-python/avro-python3[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.14.0[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	~dev-python/black-23.12.1[${PYTHON_USEDEP}]
 	~dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
@@ -83,7 +83,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	dev-python/Flask-AppBuilder[${PYTHON_USEDEP}]
 	~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-2.1.0[${PYTHON_USEDEP}]
 	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
 	~dev-python/flask-login-0.6.3[${PYTHON_USEDEP}]
@@ -111,7 +111,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.3.0[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/jsonpickle-3.0.2[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.21.1[${PYTHON_USEDEP}]
@@ -136,7 +136,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-10.1.0[${PYTHON_USEDEP}]
 	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
 	~dev-python/mypy-1.8.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
 	~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-api-1.22.0[${PYTHON_USEDEP}]

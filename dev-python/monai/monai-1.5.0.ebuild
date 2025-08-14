@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all clearml cucim einops fire gdown h5py huggingface-hub ignite imagecodecs itk jsonschema lmdb lpips matplotlib mlflow nibabel ninja nni onnx openslide optuna packaging pandas pillow polygraphy psutil pyamg pydicom pynrrd pynvml pyyaml scipy skimage tensorboard tensorboardx tifffile torchio torchvision tqdm transformers zarr"
+IUSE="all clearml einops fire gdown h5py huggingface-hub ignite imagecodecs itk jsonschema lmdb lpips matplotlib mlflow nibabel ninja nni onnx openslide optuna packaging pandas pillow polygraphy psutil pyamg pydicom pynrrd pynvml pyyaml scipy skimage tensorboard tensorboardx tifffile torchio torchvision tqdm zarr"
 DEPENDENCIES="<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/clearml[${PYTHON_USEDEP}] )
@@ -61,14 +61,10 @@ DEPENDENCIES="<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	all? ( dev-python/nni[${PYTHON_USEDEP}] )
-	all? ( dev-python/cucim-cu12[${PYTHON_USEDEP}] )
 	all? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	all? ( dev-python/tifffile[${PYTHON_USEDEP}] )
-	all? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/scipy-1.12.0[${PYTHON_USEDEP}] )
 	clearml? ( dev-python/clearml[${PYTHON_USEDEP}] )
-	cucim? ( dev-python/cucim-cu12[${PYTHON_USEDEP}] )
 	einops? ( dev-python/einops[${PYTHON_USEDEP}] )
 	fire? ( dev-python/fire[${PYTHON_USEDEP}] )
 	gdown? ( dev-python/gdown[${PYTHON_USEDEP}] )
@@ -86,7 +82,6 @@ DEPENDENCIES="<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	ninja? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	nni? ( dev-python/nni[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	onnx? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	openslide? ( dev-python/openslide-bin[${PYTHON_USEDEP}] )
 	openslide? ( dev-python/openslide-python[${PYTHON_USEDEP}] )
 	optuna? ( dev-python/optuna[${PYTHON_USEDEP}] )
@@ -108,7 +103,6 @@ DEPENDENCIES="<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	torchio? ( dev-python/torchio[${PYTHON_USEDEP}] )
 	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	tqdm? ( >=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

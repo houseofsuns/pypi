@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python-based simulation framework for bionic vision [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb114c06420>)]"
+DESCRIPTION="A Python-based simulation framework for bionic vision [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37bd18f610>)]"
 
 HOMEPAGE="https://github.com/pulse2percept/pulse2percept"
 LICENSE="new BDS"

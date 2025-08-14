@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -74,7 +74,7 @@ DEPENDENCIES=">=dev-python/cftime-1.4.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/tox-4.26.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/watchdog-4.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/birdhouse-birdy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Cartopy[${PYTHON_USEDEP}] )

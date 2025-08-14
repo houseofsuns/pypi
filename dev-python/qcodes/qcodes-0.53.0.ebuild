@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/broadbean[${PYTHON_USEDEP}]
 	test? ( dev-python/qcodes-loop[${PYTHON_USEDEP}] )
 	test? ( dev-python/zhinst-qcodes[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/libcst-1.2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/PyVISA-sim[${PYTHON_USEDEP}] )
@@ -90,7 +90,7 @@ DEPENDENCIES="dev-python/broadbean[${PYTHON_USEDEP}]
 	docs? ( <dev-python/towncrier-25.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/scipy-1.10.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/qcodes-loop[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	refactor? ( >=dev-python/libcst-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

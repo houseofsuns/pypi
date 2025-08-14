@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/amqp-2.6.1[${PYTHON_USEDEP}]
 	~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.6.3[${PYTHON_USEDEP}]
 	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/autobahn-21.3.1[${PYTHON_USEDEP}]
 	~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
@@ -66,7 +66,7 @@ DEPENDENCIES="~dev-python/amqp-2.6.1[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.6.0[${PYTHON_USEDEP}]
 	~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/kombu-4.6.11[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]

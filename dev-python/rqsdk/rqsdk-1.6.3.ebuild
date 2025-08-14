@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/rqdatac-fund[${PYTHON_USEDEP}]
 	rqfactor? ( ~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}] )
 	rqfactor? ( >=dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
 	rqfactor? ( dev-python/requests[${PYTHON_USEDEP}] )
-	rqfactor? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	rqfactor? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	rqfactor? ( >=dev-python/scipy-1.11.2[${PYTHON_USEDEP}] )
 	rqfactor? ( >dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}] )
 	rqfactor? ( >=dev-python/pandas-1.3.1[${PYTHON_USEDEP}] )
@@ -85,7 +85,6 @@ DEPENDENCIES="dev-python/rqdatac-fund[${PYTHON_USEDEP}]
 	rqoptimizer? ( dev-python/wcwidth[${PYTHON_USEDEP}] )
 	rqoptimizer? ( >=dev-python/patsy-0.5.1[${PYTHON_USEDEP}] )
 	rqoptimizer? ( >=dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
-	rqoptimizer? ( dev-python/osqp[${PYTHON_USEDEP}] )
 	rqoptimizer? ( ~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}] )
 	rqoptimizer? ( >=dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
 	rqoptimizer? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -103,7 +102,7 @@ DEPENDENCIES="dev-python/rqdatac-fund[${PYTHON_USEDEP}]
 	rqalpha-plus? ( <=dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	rqalpha-plus? ( dev-python/wcwidth[${PYTHON_USEDEP}] )
 	rqalpha-plus? ( >=dev-python/patsy-0.5.1[${PYTHON_USEDEP}] )
-	rqalpha-plus? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	rqalpha-plus? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	rqalpha-plus? ( >dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}] )
 	rqalpha-plus? ( >=dev-python/pandas-1.3.1[${PYTHON_USEDEP}] )
 	rqalpha-plus? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )

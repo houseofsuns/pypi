@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/docker-3.6[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	~dev-python/websockets-7.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-1.6.4[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-2.1[${PYTHON_USEDEP}]
 	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/ml-crypto[${PYTHON_USEDEP}]
 	~dev-python/autobahn-17.10[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/docker-3.6[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.7[${PYTHON_USEDEP}]
 	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	~dev-python/netifaces-0.10.9[${PYTHON_USEDEP}]
 	dev-python/ml-legit[${PYTHON_USEDEP}]

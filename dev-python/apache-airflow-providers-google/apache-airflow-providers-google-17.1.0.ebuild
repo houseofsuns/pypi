@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -85,8 +85,10 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/looker-sdk[${PYTHON_USEDEP}]
 	dev-python/pandas-gbq[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.26.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-16.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-18.0.0[${PYTHON_USEDEP}]
 	>=dev-python/python-slugify-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}]

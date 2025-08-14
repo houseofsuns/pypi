@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="QDarkStyle"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs example"
-DEPENDENCIES="dev-python/QtPy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/qtpy-2.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/qtsass[${PYTHON_USEDEP}] )
 	develop? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	example? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	example? ( dev-python/pyside2[${PYTHON_USEDEP}] )"
+	example? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	example? ( dev-python/PySide2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,12 +46,12 @@ DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/capturer[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( dev-python/logging2[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/openbabel[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyjnius[${PYTHON_USEDEP}] )
 	all? ( dev-python/quilt3[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -72,8 +72,8 @@ DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-googleanalytics[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxprettysearchresults[${PYTHON_USEDEP}] )
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	git? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
+	git? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	logging? ( dev-python/logging2[${PYTHON_USEDEP}] )
 	protonation? ( dev-python/pyjnius[${PYTHON_USEDEP}] )
 	quilt? ( dev-python/boto3[${PYTHON_USEDEP}] )

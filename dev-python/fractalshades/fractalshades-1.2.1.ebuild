@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	>=dev-python/mpmath-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/gmpy2-2.1.2[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.37.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

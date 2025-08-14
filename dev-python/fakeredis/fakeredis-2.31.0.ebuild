@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bf cf json lua probabilistic valkey"
 DEPENDENCIES=">=dev-python/redis-4.3[${PYTHON_USEDEP}]
 	<dev-python/sortedcontainers-3.0[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
 	bf? ( dev-python/pyprobables[${PYTHON_USEDEP}] )
 	cf? ( dev-python/pyprobables[${PYTHON_USEDEP}] )
 	json? ( ~dev-python/jsonpath-ng-1.6[${PYTHON_USEDEP}] )

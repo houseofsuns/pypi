@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	all? ( ~dev-python/scipy-1.13.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	all? ( dev-python/tf2onnx[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="~dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	data-science? ( dev-python/nfft[${PYTHON_USEDEP}] )
 	data-science? ( ~dev-python/scipy-1.13.1[${PYTHON_USEDEP}] )
 	data-science? ( dev-python/shap[${PYTHON_USEDEP}] )
-	data-science? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	data-science? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	data-science? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

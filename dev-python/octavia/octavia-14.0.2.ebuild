@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/alembic-0.9.6[${PYTHON_USEDEP}]
 	>=dev-python/python-novaclient-9.1.0[${PYTHON_USEDEP}]
 	>=dev-python/python-cinderclient-3.3.0[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	dev-python/taskflow[${PYTHON_USEDEP}]
 	dev-python/castellan[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-5.0.4[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/jellyfin-apiclient-python[${PYTHON_USEDEP}]
 	dev-python/python-mpv-jsonipc[${PYTHON_USEDEP}]
 	>=dev-python/python-mpv-1.0.7[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/pypresence[${PYTHON_USEDEP}] )
 	all? ( dev-python/pystray[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/jellyfin-apiclient-python[${PYTHON_USEDEP}]
 	discord? ( dev-python/pypresence[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pystray[${PYTHON_USEDEP}] )
-	mirror? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	mirror? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	mirror? ( dev-python/pywebview[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

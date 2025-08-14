@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/platformdirs-4.2[${PYTHON_USEDEP}]
 	dev-python/dependency-injector-fork[${PYTHON_USEDEP}]
 	>=dev-python/pygdbmi-0.11[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	deployment? ( dev-python/pynsist[${PYTHON_USEDEP}] )
 	deployment? ( >=dev-python/twine-5.0[${PYTHON_USEDEP}] )
 	deployment? ( >=dev-python/build-1.2[${PYTHON_USEDEP}] )

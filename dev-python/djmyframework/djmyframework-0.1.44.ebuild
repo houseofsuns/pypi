@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/2to3[${PYTHON_USEDEP}]
 	~dev-python/djangorestframework-3.12.2[${PYTHON_USEDEP}]
 	dev-python/drf-dynamic-fields[${PYTHON_USEDEP}]
 	dev-python/drf-yasg[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-1.0.5[${PYTHON_USEDEP}]
 	~dev-python/arrow-0.13.2[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/mako-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.1.1[${PYTHON_USEDEP}]

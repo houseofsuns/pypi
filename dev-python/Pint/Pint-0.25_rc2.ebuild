@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.25rc2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/flexcache[${PYTHON_USEDEP}]
 	dev-python/flexparser[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
-	all? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/babel-2.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/mip[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/flexcache[${PYTHON_USEDEP}]
 	all? ( dev-python/Pint-Pandas[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/uncertainties-3.1.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( <=dev-python/babel-2.8[${PYTHON_USEDEP}] )
 	codspeed? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	codspeed? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	codspeed? ( dev-python/pytest-codspeed[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/flexcache[${PYTHON_USEDEP}]
 	codspeed? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	codspeed? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	docs? ( dev-python/babel[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/commonmark-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )

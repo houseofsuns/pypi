@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	dev-python/cognite-sdk-experimental[${PYTHON_USEDEP}]
 	<dev-python/croniter-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-custom-exit-code-0.4.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pygithub-2.0[${PYTHON_USEDEP}]
 	<dev-python/cerberus-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.0.0[${PYTHON_USEDEP}]
 	dev-python/cognite-air-sdk[${PYTHON_USEDEP}]
 	<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

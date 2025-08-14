@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/consecution[${PYTHON_USEDEP}]
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
 	complete? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete? ( dev-python/fake-useragent[${PYTHON_USEDEP}] )
-	complete? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/kombu-4.5.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/numpydoc-0.9.2[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/consecution[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-xprocess-0.13.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-2.3.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	rq? ( ~dev-python/rq-1.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

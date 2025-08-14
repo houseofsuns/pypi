@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/asynq[${PYTHON_USEDEP}]
 	dev-python/codemod[${PYTHON_USEDEP}]
 	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	tests? ( dev-python/mypy-extensions[${PYTHON_USEDEP}] )
 	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/annotated-types[${PYTHON_USEDEP}] )"

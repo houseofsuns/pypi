@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="faster-parsing"
 DEPENDENCIES="dev-python/radish-bdd[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.0.5[${PYTHON_USEDEP}]
 	>=dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
 	>=dev-python/colorful-0.5.4[${PYTHON_USEDEP}]
 	>=dev-python/filetype-1.0.5[${PYTHON_USEDEP}]

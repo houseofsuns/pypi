@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="azure dev docker fs fsspec gcs git init k8s-async numpy s3 sandbox sidecar
 DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/clipped[${PYTHON_USEDEP}]
 	dev-python/vents[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.2[${PYTHON_USEDEP}]
@@ -52,9 +52,9 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	fsspec? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	init? ( dev-python/docker[${PYTHON_USEDEP}] )
-	init? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	init? ( <dev-python/gitpython-3.2.0[${PYTHON_USEDEP}] )
 	init? ( ~dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}] )
 	k8s-async? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
 	k8s-async? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )

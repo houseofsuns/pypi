@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/black-21.12_beta0[${PYTHON_USEDEP}]
 	dev-python/codespell[${PYTHON_USEDEP}]
 	dev-python/docformatter[${PYTHON_USEDEP}]
 	>=dev-python/flake8-3.7.7[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pylint-2.5.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]

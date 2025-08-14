@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,10 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="jinjafmt sqlfmt-primer"
 DEPENDENCIES="jinjafmt? ( dev-python/black[${PYTHON_USEDEP}] )
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
-	sqlfmt-primer? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev-python/jinja[${PYTHON_USEDEP}]
+	sqlfmt-primer? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

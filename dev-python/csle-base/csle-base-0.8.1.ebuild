@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/grpcio-1.69.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mypy-1.16.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="aws azure gcp test tuner"
 DEPENDENCIES=">=dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-keyvault[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-kms[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/faker-20.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/openai[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-3.3.1[${PYTHON_USEDEP}] )

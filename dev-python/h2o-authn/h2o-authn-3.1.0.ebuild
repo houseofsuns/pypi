@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,6 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="discovery"
 DEPENDENCIES=">=dev-python/httpx-0.23[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
 	discovery? ( dev-python/h2o-cloud-discovery[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

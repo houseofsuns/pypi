@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.20[${PYTHON_USEDEP}]
 	>=dev-python/furl-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.18.4[${PYTHON_USEDEP}]
 	>=dev-python/pillow-8.4[${PYTHON_USEDEP}]

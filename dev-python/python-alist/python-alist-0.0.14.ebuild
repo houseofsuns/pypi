@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ed2k[${PYTHON_USEDEP}]
-	dev-python/glob-pattern[${PYTHON_USEDEP}]
-	dev-python/http-response[${PYTHON_USEDEP}]
+	dev-python/glob_pattern[${PYTHON_USEDEP}]
+	dev-python/http_response[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/httpx-request[${PYTHON_USEDEP}]
+	dev-python/httpx_request[${PYTHON_USEDEP}]
 	dev-python/multidict[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/p115qrcode[${PYTHON_USEDEP}]
-	dev-python/path-ignore-pattern[${PYTHON_USEDEP}]
+	dev-python/path_ignore_pattern[${PYTHON_USEDEP}]
 	dev-python/python-argtools[${PYTHON_USEDEP}]
 	dev-python/python-asynctools[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/ed2k[${PYTHON_USEDEP}]
 	dev-python/python-download[${PYTHON_USEDEP}]
 	dev-python/python-filewrap[${PYTHON_USEDEP}]
 	dev-python/python-httpfile[${PYTHON_USEDEP}]
-	dev-python/python-http-request[${PYTHON_USEDEP}]
+	dev-python/python-http_request[${PYTHON_USEDEP}]
 	dev-python/python-iterutils[${PYTHON_USEDEP}]
 	dev-python/python-property[${PYTHON_USEDEP}]
 	dev-python/python-retrytools[${PYTHON_USEDEP}]

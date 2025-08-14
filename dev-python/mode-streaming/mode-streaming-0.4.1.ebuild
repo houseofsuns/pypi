@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="eventlet gevent uvloop"
 DEPENDENCIES="<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/croniter-3.0.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	dev-python/mypy-extensions[${PYTHON_USEDEP}]
 	eventlet? ( dev-python/faust-aioeventlet[${PYTHON_USEDEP}] )
 	eventlet? ( dev-python/dnspython[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/asyncio-gevent[${PYTHON_USEDEP}] )

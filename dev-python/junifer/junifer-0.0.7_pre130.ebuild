@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.0.7.dev130"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
 	<dev-python/tqdm-4.67.0[${PYTHON_USEDEP}]
 	dev-python/templateflow[${PYTHON_USEDEP}]
 	dev-python/lapy[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	~dev-python/lazy-loader-0.4[${PYTHON_USEDEP}]
 	~dev-python/looseversion-1.3.0[${PYTHON_USEDEP}]
 	dev-python/junifer-data[${PYTHON_USEDEP}]
 	all? ( dev-python/bctpy[${PYTHON_USEDEP}] )

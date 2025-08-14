@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -62,7 +62,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.26.11[${PYTHON_USEDEP}]
 	pure-eval? ( dev-python/asttokens[${PYTHON_USEDEP}] )
 	pymongo? ( >=dev-python/pymongo-3.1[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	quart? ( >=dev-python/quart-0.16.1[${PYTHON_USEDEP}] )
 	quart? ( >=dev-python/blinker-1.1[${PYTHON_USEDEP}] )
 	rq? ( >=dev-python/rq-0.6[${PYTHON_USEDEP}] )
 	sanic? ( dev-python/sanic[${PYTHON_USEDEP}] )

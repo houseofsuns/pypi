@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -55,7 +55,7 @@ DEPENDENCIES=">=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/recommonmark-0.7.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	viz? ( ~dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )"

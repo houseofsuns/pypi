@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aiohttp asgi chalice channels cli debug debug-server django fastapi flask litestar opentelemetry pydantic pyinstrument quart sanic"
+IUSE="aiohttp asgi chalice channels cli debug debug-server django fastapi flask opentelemetry pydantic pyinstrument quart sanic"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	channels? ( dev-python/channels[${PYTHON_USEDEP}] )
 	channels? ( <dev-python/asgiref-4.0[${PYTHON_USEDEP}] )
 	flask? ( >=dev-python/flask-1.1[${PYTHON_USEDEP}] )
-	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	quart? ( >=dev-python/quart-0.19.3[${PYTHON_USEDEP}] )
 	opentelemetry? ( <dev-python/opentelemetry-api-2.0[${PYTHON_USEDEP}] )
 	opentelemetry? ( <dev-python/opentelemetry-sdk-2.0[${PYTHON_USEDEP}] )
 	pydantic? ( >dev-python/pydantic-1.6.1[${PYTHON_USEDEP}] )
@@ -59,7 +59,6 @@ DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	cli? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/rich-12.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/libcst[${PYTHON_USEDEP}] )
-	litestar? ( dev-python/litestar[${PYTHON_USEDEP}] )
 	pyinstrument? ( dev-python/pyinstrument[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

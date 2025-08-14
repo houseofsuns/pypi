@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.1.0.dev4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bandit docs lint test"
 DEPENDENCIES="~dev-python/cloudpickle-3.1.1[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.29.5[${PYTHON_USEDEP}]
 	~dev-python/jsonref-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-client-8.6.3[${PYTHON_USEDEP}]

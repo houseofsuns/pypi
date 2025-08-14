@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
 	snmp? ( dev-python/pysnmp-lextudio[${PYTHON_USEDEP}] )
 	sparklines? ( dev-python/sparklines[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	web? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	web? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	web? ( dev-python/requests[${PYTHON_USEDEP}] )
 	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	wifi? ( dev-python/wifi[${PYTHON_USEDEP}] )"

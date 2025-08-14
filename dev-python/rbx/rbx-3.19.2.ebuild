@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-tasks[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sh-2.0.6[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/starlette-0.38.2[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	buildtools? ( dev-python/bump-my-version[${PYTHON_USEDEP}] )
 	buildtools? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	buildtools? ( dev-python/fabric[${PYTHON_USEDEP}] )
-	buildtools? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	buildtools? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	buildtools? ( dev-python/twine[${PYTHON_USEDEP}] )
 	notifications? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="dev requirements"
 DEPENDENCIES=">=dev-python/setuptools-44.1.0[${PYTHON_USEDEP}]
 	requirements? ( ~dev-python/alembic-1.13.2[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	requirements? ( ~dev-python/babel-2.15.0[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/bleach-6.1.0[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/blinker-1.8.2[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/cachelib-0.13.0[${PYTHON_USEDEP}] )
@@ -45,14 +45,14 @@ DEPENDENCIES=">=dev-python/setuptools-44.1.0[${PYTHON_USEDEP}]
 	requirements? ( ~dev-python/idna-3.7[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	requirements? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/lxml-5.2.2[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/mako-1.3.5[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/markdown-3.6[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/markupsafe-2.1.5[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	requirements? ( ~dev-python/msgspec-0.18.6[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/mypy-1.10.1[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	requirements? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/packaging-24.1[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/polib-1.2.0[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES=">=dev-python/setuptools-44.1.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/faker-26.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask-DebugToolbar[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/freezegun-1.5.1[${PYTHON_USEDEP}] )

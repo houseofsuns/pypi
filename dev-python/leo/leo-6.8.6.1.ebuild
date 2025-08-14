@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES=">=dev-python/build-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/twine-5.1.0[${PYTHON_USEDEP}]
 	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	dev-python/mypy-extensions[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/types-docutils[${PYTHON_USEDEP}]
 	dev-python/types-Markdown[${PYTHON_USEDEP}]
@@ -56,8 +56,8 @@ DEPENDENCIES=">=dev-python/build-1.2.1[${PYTHON_USEDEP}]
 	dev-python/tk[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-6.6[${PYTHON_USEDEP}]
 	dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}]
-	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]"
+	dev-python/pyqt6-webengine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

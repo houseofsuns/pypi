@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="docs test"
 DEPENDENCIES="~dev-python/certifi-2025.8.3[${PYTHON_USEDEP}]
 	~dev-python/cli-ui-0.19.0[${PYTHON_USEDEP}]
 	dev-python/ez-yaml[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	dev-python/luddite[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-3.0.2[${PYTHON_USEDEP}]
 	~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/certifi-2025.8.3[${PYTHON_USEDEP}]
 	test? ( ~dev-python/cryptography-45.0.5[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/deepdiff-8.5.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-1.17.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-extensions-1.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-8.4.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-6.2.1[${PYTHON_USEDEP}] )

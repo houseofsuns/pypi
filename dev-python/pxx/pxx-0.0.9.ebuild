@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="chromadb openai"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.25.1[${PYTHON_USEDEP}]

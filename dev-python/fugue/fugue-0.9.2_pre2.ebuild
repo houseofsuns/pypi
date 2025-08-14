@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.9.2.dev2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/triad[${PYTHON_USEDEP}]
 	all? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	all? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask-sql[${PYTHON_USEDEP}] )
@@ -49,13 +49,13 @@ DEPENDENCIES="dev-python/triad[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	ibis? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	ibis? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	ibis? ( dev-python/ibis-framework[${PYTHON_USEDEP}] )
 	ibis? ( <dev-python/pandas-2.2[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -70,6 +70,6 @@ DEPENDENCIES="dev-python/triad[${PYTHON_USEDEP}]
 	sql? ( dev-python/qpd[${PYTHON_USEDEP}] )
 	sql? ( dev-python/fugue-sql-antlr[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	sql? ( dev-python/jinja[${PYTHON_USEDEP}] )"
+	sql? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

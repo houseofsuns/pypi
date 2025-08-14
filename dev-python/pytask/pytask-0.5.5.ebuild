@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,8 +33,6 @@ DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.8.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.31[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

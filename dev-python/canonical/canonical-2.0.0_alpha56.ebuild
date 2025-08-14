@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0a56"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,12 +42,12 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	all? ( dev-python/iso3166[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	config? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	config? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	config? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/aorta[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/httpx[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	iso3166? ( dev-python/iso3166[${PYTHON_USEDEP}] )
 	jose? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
-	templates? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	templates? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	templates? ( dev-python/jinja-markdown[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

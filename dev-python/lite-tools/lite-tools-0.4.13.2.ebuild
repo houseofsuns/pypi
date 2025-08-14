@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	net? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	net? ( dev-python/usepy[${PYTHON_USEDEP}] )
 	net? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	net? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	net? ( dev-python/dbutils[${PYTHON_USEDEP}] )
 	net? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	all? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	all? ( dev-python/usepy[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	all? ( dev-python/dbutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-multipart[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

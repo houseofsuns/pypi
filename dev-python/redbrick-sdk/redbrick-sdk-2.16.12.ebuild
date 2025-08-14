@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -47,7 +47,7 @@ DEPENDENCIES="<=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
 	dev? ( <=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/black-24.1.1[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( <=dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )

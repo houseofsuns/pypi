@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="colorlog? ( dev-python/colorlog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/guzzle_sphinx_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	generate? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
 	mustache? ( dev-python/pystache[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )

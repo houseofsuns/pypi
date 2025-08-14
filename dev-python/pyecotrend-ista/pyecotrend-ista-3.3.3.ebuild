@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="pyEcoTrend-ista"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc publish test"
 DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	doc? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/babel-2.17.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/cachetools-6.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/certifi-2025.4.26[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/chardet-5.2.0[${PYTHON_USEDEP}] )
@@ -38,11 +38,11 @@ DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/filelock-3.18.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/ghp-import-2.1.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/gitdb-4.0.12[${PYTHON_USEDEP}] )
-	doc? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/gitpython-3.1.44[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/griffe-1.7.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/htmlmin2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/idna-3.10[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/jsmin-3.0.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/markdown-3.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/markdown-callouts[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pytz-2025.2[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyyaml_env_tag[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pyyaml-env-tag-1.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/regex-2024.11.6[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/requests-2.32.3[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/six-1.17.0[${PYTHON_USEDEP}] )

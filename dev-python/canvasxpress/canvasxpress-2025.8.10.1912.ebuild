@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,33 +25,33 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all core dash jupyter rstudio shiny streamlit"
 DEPENDENCIES="dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]
 	core? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	core? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/gitpython-3.0[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
 	dash? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	dash? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dash? ( >=dev-python/gitpython-3.0[${PYTHON_USEDEP}] )
 	dash? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	dash? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	dash? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	dash? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	streamlit? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	streamlit? ( >=dev-python/gitpython-3.0[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	streamlit? ( >=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/gitpython-3.0[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/deepdiff[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/requests[${PYTHON_USEDEP}] )
 	shiny? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	shiny? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	shiny? ( >=dev-python/gitpython-3.0[${PYTHON_USEDEP}] )
 	shiny? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	shiny? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	shiny? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/deepdiff[${PYTHON_USEDEP}]
 	shiny? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	shiny? ( dev-python/shinywidgets[${PYTHON_USEDEP}] )
 	rstudio? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	rstudio? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	rstudio? ( >=dev-python/gitpython-3.0[${PYTHON_USEDEP}] )
 	rstudio? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	rstudio? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	rstudio? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES="dev-python/deepdiff[${PYTHON_USEDEP}]
 	rstudio? ( dev-python/requests[${PYTHON_USEDEP}] )
 	rstudio? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	all? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/gitpython-3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )

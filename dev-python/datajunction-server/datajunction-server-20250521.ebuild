@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.0.1a99.dev3"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/alembic-1.10.3[${PYTHON_USEDEP}]
 	>=dev-python/google-api-python-client-2.95.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	>=dev-python/line-profiler-4.0.3[${PYTHON_USEDEP}]
 	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/nbformat-5.10.4[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/async-property[${PYTHON_USEDEP}]
 	development? ( >=dev-python/ruamel-yaml-0.17.4[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/tox-3.23.0[${PYTHON_USEDEP}] )
 	development? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
-	development? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	development? ( <=dev-python/faker-15.0.0[${PYTHON_USEDEP}] )
 	development? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )

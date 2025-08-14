@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,14 +29,13 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/lazy-model[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/pygments-2.8.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/markdown-3.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-1.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	queue? ( dev-python/beanie-batteries-queue[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
+	queue? ( dev-python/beanie_batteries_queue[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )

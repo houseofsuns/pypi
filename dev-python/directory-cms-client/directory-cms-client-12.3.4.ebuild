@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/directory-client-core[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	test? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/setuptools-50.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/twine[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aiostream[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/donfig[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	dev-python/mypy-extensions[${PYTHON_USEDEP}]
 	dev-python/ndindex[${PYTHON_USEDEP}]
 	>dev-python/networkx-2.8.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/aiostream[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	diagnostics? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	diagnostics? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	diagnostics? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

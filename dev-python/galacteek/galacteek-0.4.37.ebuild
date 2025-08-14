@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,8 +42,8 @@ DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	dev-python/feedgen[${PYTHON_USEDEP}]
 	>=dev-python/feedparser-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.0.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-2.1.11[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10.1[${PYTHON_USEDEP}]
 	dev-python/json-traverse[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/jwcrypto-0.8[${PYTHON_USEDEP}]
@@ -64,9 +64,9 @@ DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyLD[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
 	dev-python/PyPika[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyqt5-5.13.2[${PYTHON_USEDEP}]
 	dev-python/PyQtChart[${PYTHON_USEDEP}]
-	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
+	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
 	>=dev-python/python-magic-0.4.15[${PYTHON_USEDEP}]
 	dev-python/python3-crdt[${PYTHON_USEDEP}]
 	dev-python/py-multibase[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,6 @@ DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-enabler[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/cssselect[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/jaraco-test-5.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/jaraco-test-5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

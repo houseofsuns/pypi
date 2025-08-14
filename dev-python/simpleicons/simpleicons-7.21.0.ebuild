@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,6 +29,6 @@ DEPENDENCIES="imaging? ( <dev-python/reportlab-4.0.0[${PYTHON_USEDEP}] )
 	imaging? ( <dev-python/svglib-2.0.0[${PYTHON_USEDEP}] )
 	auto-update? ( <dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}] )
 	auto-update? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
-	auto-update? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
+	auto-update? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

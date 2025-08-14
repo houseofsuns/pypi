@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,8 +48,8 @@ DEPENDENCIES=">=dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/gitpython-3.1.31[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pygithub-1.58.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/requests-2.29.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	docs-minimal? ( dev-python/sphinx[${PYTHON_USEDEP}] )

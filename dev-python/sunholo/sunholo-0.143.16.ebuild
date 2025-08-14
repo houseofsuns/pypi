@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12,3_10} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -116,7 +116,7 @@ DEPENDENCIES="dev-python/a2a-python[${PYTHON_USEDEP}]
 	database? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	database? ( dev-python/lancedb[${PYTHON_USEDEP}] )
 	database? ( dev-python/tantivy[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	pipeline? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/lark[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/langchain-unstructured[${PYTHON_USEDEP}] )

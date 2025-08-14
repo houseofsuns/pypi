@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,8 +32,8 @@ DEPENDENCIES=">=dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
 	dev-python/django-crum[${PYTHON_USEDEP}]
 	>=dev-python/django-filter-2.3.0[${PYTHON_USEDEP}]
 	dev-python/django-money[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
+	>=dev-python/faker-4.0.3[${PYTHON_USEDEP}]
 	dev-python/Khayyam[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]

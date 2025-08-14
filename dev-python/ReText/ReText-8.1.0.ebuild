@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="encoding-detection spellcheck webengine"
 DEPENDENCIES=">=dev-python/markups-4.0[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	dev-python/pyqt6[${PYTHON_USEDEP}]
 	spellcheck? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
 	encoding-detection? ( dev-python/chardet[${PYTHON_USEDEP}] )
-	webengine? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )"
+	webengine? ( dev-python/pyqt6-webengine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES=">=dev-python/asgiref-3.5.2[${PYTHON_USEDEP}]
 	>=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-15.3.3[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
 	dev-python/ofxtools[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]

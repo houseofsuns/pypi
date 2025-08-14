@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/verde[${PYTHON_USEDEP}]
 	dev-python/scikit-fmm[${PYTHON_USEDEP}]
 	dev-python/discretize[${PYTHON_USEDEP}]
-	dev-python/SimPEG[${PYTHON_USEDEP}]
+	dev-python/simpeg[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/properties[${PYTHON_USEDEP}]"

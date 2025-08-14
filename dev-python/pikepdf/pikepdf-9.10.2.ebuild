@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,6 @@ DEPENDENCIES=">=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-requests[${PYTHON_USEDEP}] )
@@ -53,7 +52,6 @@ DEPENDENCIES=">=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/python-xmp-toolkit-2.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/python-xmp-toolkit-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

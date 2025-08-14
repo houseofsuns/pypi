@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/snakemake[${PYTHON_USEDEP}]
-	dev-python/snakemake[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.10.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/boutiques[${PYTHON_USEDEP}]
@@ -40,7 +39,7 @@ DEPENDENCIES="dev-python/pybids[${PYTHON_USEDEP}]
 	>=dev-python/jinja2-time-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.2[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.3[${PYTHON_USEDEP}]
 	>dev-python/docutils-0.21_p1[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	notebook? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupysql[${PYTHON_USEDEP}] )
 	server? ( dev-python/starlette[${PYTHON_USEDEP}] )

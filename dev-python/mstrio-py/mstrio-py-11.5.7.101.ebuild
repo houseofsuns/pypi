@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -85,7 +85,7 @@ DEPENDENCIES=">=dev-python/packaging-24.2[${PYTHON_USEDEP}]
 	pre-commit? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/isort[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	strict? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	strict? ( >=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}] )
 	strict? ( >=dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	strict? ( >=dev-python/packaging-24.2[${PYTHON_USEDEP}] )
 	strict? ( >=dev-python/pandas-2.0[${PYTHON_USEDEP}] )

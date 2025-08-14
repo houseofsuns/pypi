@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/pydata-sphinx-theme-0.14.1[${PYTHON_USEDEP}] )
-	doc? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	doc? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
@@ -58,10 +58,10 @@ DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	gui? ( dev-python/h5netcdf[${PYTHON_USEDEP}] )
 	gui? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	gui? ( dev-python/mne-qt-browser[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )
-	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	gui? ( dev-python/sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	test? ( dev-python/mne-connectivity[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/statsmodels[${PYTHON_USEDEP}] )"

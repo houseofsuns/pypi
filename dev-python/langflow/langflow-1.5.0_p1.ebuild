@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.5.0.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -46,8 +46,9 @@ DEPENDENCIES="dev-python/aiofile[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
+	dev-python/fastavro[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.18.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.43[${PYTHON_USEDEP}]
 	~dev-python/google-api-python-client-2.154.0[${PYTHON_USEDEP}]
 	dev-python/google-search-results[${PYTHON_USEDEP}]
 	dev-python/graph-retriever[${PYTHON_USEDEP}]

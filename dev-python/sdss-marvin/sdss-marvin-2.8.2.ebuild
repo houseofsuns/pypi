@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/sdsstools[${PYTHON_USEDEP}]
 	web? ( >=dev-python/flask-compress-1.4[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
 	web? ( dev-python/flask_profiler[${PYTHON_USEDEP}] )
-	web? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/flask-caching-1.4.0[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/flask-login-0.4.1[${PYTHON_USEDEP}] )
 	web? ( >=dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )

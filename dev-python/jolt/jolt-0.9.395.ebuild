@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/markupsafe[${PYTHON_USEDEP}]
 	~dev-python/jaraco-context-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/jaraco-functools-4.0.2[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/keyring-25.4.1[${PYTHON_USEDEP}]
 	~dev-python/keyrings-alt-5.0.2[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.3.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/json-merge-patch[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/requests-cache-1.0[${PYTHON_USEDEP}]
 	>dev-python/cattrs-22.1.0[${PYTHON_USEDEP}]
-	cli? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	cli? ( dev-python/babel[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/myst-parser-0.13.5[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ocds-babel[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )

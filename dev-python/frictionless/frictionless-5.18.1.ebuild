@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0[${PYTHON_USEDEP}]
 	>=dev-python/humanize-4.2[${PYTHON_USEDEP}]
 	>=dev-python/isodate-0.6[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.20[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]
 	dev-python/petl[${PYTHON_USEDEP}]
@@ -65,14 +65,14 @@ DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yattag[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	duckdb? ( <=dev-python/sqlalchemy-2.0.35[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )
 	excel? ( dev-python/tableschema-to-template[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/xlrd-1.2[${PYTHON_USEDEP}] )
 	excel? ( >=dev-python/xlwt-1.2[${PYTHON_USEDEP}] )
-	github? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	github? ( >=dev-python/pygithub-1.50[${PYTHON_USEDEP}] )
 	gsheets? ( dev-python/pygsheets[${PYTHON_USEDEP}] )
 	html? ( >=dev-python/pyquery-1.4[${PYTHON_USEDEP}] )
 	json? ( >=dev-python/ijson-3.0[${PYTHON_USEDEP}] )

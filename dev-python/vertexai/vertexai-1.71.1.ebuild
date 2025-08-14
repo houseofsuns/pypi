@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
 	cloud-profiler? ( dev-python/tensorboard-plugin-profile[${PYTHON_USEDEP}] )
 	cloud-profiler? ( <dev-python/werkzeug-2.1.0_pre0[${PYTHON_USEDEP}] )
 	cloud-profiler? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	datasets? ( <dev-python/pyarrow-8.0_pre0[${PYTHON_USEDEP}] )
 	datasets? ( >=dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}] )
 	datasets? ( >=dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
 	endpoint? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
@@ -59,8 +58,6 @@ DEPENDENCIES="dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
 	full? ( <dev-python/cloudpickle-3.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/nest-asyncio-1.6.0[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/docker-5.0.3[${PYTHON_USEDEP}] )
-	full? ( <dev-python/pyarrow-8.0_pre0[${PYTHON_USEDEP}] )
-	full? ( dev-python/ray[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/ray[${PYTHON_USEDEP}] )
@@ -97,7 +94,6 @@ DEPENDENCIES="dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
 	ray? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	ray? ( dev-python/immutabledict[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
-	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	ray-testing? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	ray-testing? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	ray-testing? ( <dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
@@ -111,7 +107,6 @@ DEPENDENCIES="dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
 	ray-testing? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ray-testing? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	ray-testing? ( dev-python/xgboost-ray[${PYTHON_USEDEP}] )
-	ray_testing? ( dev-python/ray[${PYTHON_USEDEP}] )
 	ray_testing? ( dev-python/ray[${PYTHON_USEDEP}] )
 	reasoningengine? ( <dev-python/cloudpickle-3.0[${PYTHON_USEDEP}] )
 	reasoningengine? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
@@ -155,8 +150,6 @@ DEPENDENCIES="dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
 	testing? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/pyarrow-8.0_pre0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ray[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	testing? ( dev-python/torch[${PYTHON_USEDEP}] )

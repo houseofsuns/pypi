@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	full? ( dev-python/gamma-config[${PYTHON_USEDEP}] )
 	full? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/jinja2-2.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	sql? ( >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

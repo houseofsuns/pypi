@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,9 +48,9 @@ DEPENDENCIES="dev-python/herre[${PYTHON_USEDEP}]
 	extended? ( dev-python/omero-ark[${PYTHON_USEDEP}] )
 	kluster? ( dev-python/kluster[${PYTHON_USEDEP}] )
 	extended? ( dev-python/kluster[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich-click[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich-click[${PYTHON_USEDEP}] )
-	extended? ( dev-python/rich-click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-click-1.6.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rich-click-1.6.1[${PYTHON_USEDEP}] )
+	extended? ( >=dev-python/rich-click-1.6.1[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/watchfiles-0.18.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/watchfiles-0.18.1[${PYTHON_USEDEP}] )
 	extended? ( >=dev-python/watchfiles-0.18.1[${PYTHON_USEDEP}] )

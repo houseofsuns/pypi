@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/pandas-datareader[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-80.9.0[${PYTHON_USEDEP}]
 	reports? ( dev-python/pybloqs[${PYTHON_USEDEP}] )
-	reports? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	reports? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	visualization? ( >=dev-python/plotly-5.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/notebook-6.5.0[${PYTHON_USEDEP}] )

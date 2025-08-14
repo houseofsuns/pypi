@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/mypythontools[${PYTHON_USEDEP}]
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbmake[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/mypythontools[${PYTHON_USEDEP}]
 	cicd? ( dev-python/twine[${PYTHON_USEDEP}] )
 	cicd? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	cicd? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	cicd? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	cicd? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	cicd? ( dev-python/black[${PYTHON_USEDEP}] )
 	cicd? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	cicd? ( dev-python/nbmake[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/mypythontools[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	misc? ( dev-python/black[${PYTHON_USEDEP}] )
 	packages? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nbmake[${PYTHON_USEDEP}] )

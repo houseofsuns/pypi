@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,17 +42,17 @@ DEPENDENCIES="dev-python/bip-utils[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	speculos? ( dev-python/speculos[${PYTHON_USEDEP}] )
 	speculos? ( dev-python/mnemonic[${PYTHON_USEDEP}] )
 	ledgercomm? ( dev-python/ledgercomm[${PYTHON_USEDEP}] )
 	ledgercomm? ( dev-python/ledgercomm[${PYTHON_USEDEP}] )
-	ledgercomm? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	ledgercomm? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	ledgercomm? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
 	ledgercomm? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	ledgerwallet? ( dev-python/ledgerwallet[${PYTHON_USEDEP}] )
-	ledgerwallet? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	ledgerwallet? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	ledgerwallet? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
 	ledgerwallet? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all-backends? ( dev-python/ragger[${PYTHON_USEDEP}] )

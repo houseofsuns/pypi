@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.13.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/cfn-flip[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.37[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.4.1[${PYTHON_USEDEP}]
 	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.13.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/httplib2-0.19.0[${PYTHON_USEDEP}]
 	~dev-python/dnspython-2.4.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]

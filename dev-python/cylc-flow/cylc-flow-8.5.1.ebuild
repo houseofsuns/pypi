@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,11 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all graph main-loop-log-data-store main-loop-log-db main-loop-log-main-loop main-loop-log-memory report-timings tests tutorials"
 DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	dev-python/metomi-isodatetime[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	<dev-python/protobuf-4.25.0[${PYTHON_USEDEP}]
@@ -37,7 +36,6 @@ DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-22.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
 	<dev-python/urwid-3.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	graph? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	main-loop-log-data-store? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	main-loop-log-data-store? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

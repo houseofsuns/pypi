@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binary Python3 bindings for the G'MIC C++ image processing library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb12687a2d0>)]"
+DESCRIPTION="Binary Python3 bindings for the G'MIC C++ image processing library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37cf01be60>)]"
 
 HOMEPAGE="https://github.com/dtschump/gmic-py"
 LICENSE=""

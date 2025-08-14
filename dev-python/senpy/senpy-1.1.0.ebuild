@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,13 +41,13 @@ DEPENDENCIES=">=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]
 	evaluation? ( dev-python/gsitk[${PYTHON_USEDEP}] )
 	evaluation? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
-	evaluation? ( dev-python/Pattern[${PYTHON_USEDEP}] )
+	evaluation? ( dev-python/pattern[${PYTHON_USEDEP}] )
 	evaluation? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
 	evaluation? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	evaluation? ( dev-python/textblob[${PYTHON_USEDEP}] )
 	extras? ( dev-python/gsitk[${PYTHON_USEDEP}] )
 	extras? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
-	extras? ( dev-python/Pattern[${PYTHON_USEDEP}] )
+	extras? ( dev-python/pattern[${PYTHON_USEDEP}] )
 	extras? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
 	extras? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	extras? ( dev-python/textblob[${PYTHON_USEDEP}] )"

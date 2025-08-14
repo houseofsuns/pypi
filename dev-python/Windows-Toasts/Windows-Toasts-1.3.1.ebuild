@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/winrt-runtime[${PYTHON_USEDEP}]
-	dev-python/winrt-windows-data-xml-dom[${PYTHON_USEDEP}]
+	dev-python/winrt-Windows-Data-Xml-Dom[${PYTHON_USEDEP}]
 	dev-python/winrt-Windows-Foundation[${PYTHON_USEDEP}]
 	dev-python/winrt-Windows-Foundation-Collections[${PYTHON_USEDEP}]
-	dev-python/winrt-windows-ui-notifications[${PYTHON_USEDEP}]"
+	dev-python/winrt-Windows-UI-Notifications[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

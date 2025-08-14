@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,14 +31,13 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/dhash[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.4.0[${PYTHON_USEDEP}]
-	~dev-python/networkx-3.4.2[${PYTHON_USEDEP}]
 	~dev-python/networkx-3.5[${PYTHON_USEDEP}]
 	~dev-python/pefile-2024.8.26[${PYTHON_USEDEP}]
 	~dev-python/pillow-11.2.1[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
 	dev-python/pylibemu[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.13.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	~dev-python/rarfile-4.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.3[${PYTHON_USEDEP}]

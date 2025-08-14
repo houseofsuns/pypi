@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="adodbapi fdb firebirdsql kinterbasdb mariadb mysql mysql-connector mysql-connector-python odbc pg8000 postgres postgresql psycopg psycopg-c psycopg2 psycopg2-binary pygresql pymssql pymysql pyodbc pypyodbc sapdb sybase zope-dt"
 DEPENDENCIES="dev-python/PyDispatcher[${PYTHON_USEDEP}]
 	dev-python/FormEncode[${PYTHON_USEDEP}]
+	dev-python/FormEncode[${PYTHON_USEDEP}]
 	adodbapi? ( dev-python/adodbapi[${PYTHON_USEDEP}] )
 	fdb? ( dev-python/fdb[${PYTHON_USEDEP}] )
 	firebirdsql? ( dev-python/firebirdsql[${PYTHON_USEDEP}] )
 	kinterbasdb? ( dev-python/kinterbasdb[${PYTHON_USEDEP}] )
 	mariadb? ( dev-python/mariadb[${PYTHON_USEDEP}] )
 	mysql-connector? ( dev-python/mysql-connector[${PYTHON_USEDEP}] )
-	mysql-connector-python? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	mysql-connector-python? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )

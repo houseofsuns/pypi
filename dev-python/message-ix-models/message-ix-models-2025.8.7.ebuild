@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	iea-web? ( dev-python/dask[${PYTHON_USEDEP}] )
 	material? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	migrate? ( dev-python/git-filter-repo[${PYTHON_USEDEP}] )
-	migrate? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	migrate? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	report? ( dev-python/plotnine[${PYTHON_USEDEP}] )
 	report? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
 	tests? ( dev-python/message-ix[${PYTHON_USEDEP}] )

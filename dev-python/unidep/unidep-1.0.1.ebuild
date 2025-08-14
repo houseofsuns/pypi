@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,16 +23,14 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all conda-lock docs pip-compile pytest rich test toml"
+IUSE="all conda-lock docs pip-compile pytest rich test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	conda-lock? ( dev-python/conda-lock[${PYTHON_USEDEP}] )
 	conda-lock? ( dev-python/conda-package-handling[${PYTHON_USEDEP}] )
 	pip-compile? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	pytest? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	pytest? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/unidep[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

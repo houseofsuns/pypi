@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.2.0b25"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	docs? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	docs? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	docs? ( dev-python/azure-storage-common[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/babel-2.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/backcall[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bleach-3.2.1[${PYTHON_USEDEP}] )
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/flit-3.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/flit-core-3.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/gitdb-4.0.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/gitpython-3.1.12[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/html5lib-1.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/idna-2.10[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ijson-2.6.1[${PYTHON_USEDEP}] )
@@ -79,11 +79,11 @@ DEPENDENCIES="dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipykernel-5.4.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipython-7.19.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/ipywidgets-7.6.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/isodate-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jedi-0.18.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-2.11.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-cache[${PYTHON_USEDEP}] )

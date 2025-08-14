@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -25,6 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all blosc-compression bslz4-compression encryption image-processing lz4-compression"
 DEPENDENCIES=">=dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.1[${PYTHON_USEDEP}]
 	image-processing? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	image-processing? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	image-processing? ( dev-python/hdf5plugin[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/matplotlib-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	codegen? ( dev-python/boltons[${PYTHON_USEDEP}] )
-	codegen? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	codegen? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/modflow-devtools[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
@@ -43,11 +43,11 @@ DEPENDENCIES=">=dev-python/matplotlib-1.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/jupyter-client-8.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES=">=dev-python/matplotlib-1.4.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	doc? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	doc? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	doc? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	doc? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	doc? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -120,7 +120,7 @@ DEPENDENCIES=">=dev-python/matplotlib-1.4.0[${PYTHON_USEDEP}]
 	optional? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	optional? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	optional? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	optional? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	optional? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	optional? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	optional? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	optional? ( dev-python/netcdf4[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	dev? ( dev-python/babel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/validate-pyproject[${PYTHON_USEDEP}] )
 	all-plugins? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	all-plugins? ( dev-python/gntp[${PYTHON_USEDEP}] )

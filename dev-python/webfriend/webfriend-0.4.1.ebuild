@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/click-6.7[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/textX[${PYTHON_USEDEP}]
+	<dev-python/textx-1.6[${PYTHON_USEDEP}]
 	dev-python/urlnorm[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="<dev-python/click-default-group-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	<dev-python/validators-0.21.0[${PYTHON_USEDEP}]
 	<dev-python/agate-excel-0.3.0[${PYTHON_USEDEP}]
-	dev-python/Quart[${PYTHON_USEDEP}]
+	<dev-python/quart-0.19.0[${PYTHON_USEDEP}]
 	dev-python/quart-cors[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/cchardet[${PYTHON_USEDEP}]

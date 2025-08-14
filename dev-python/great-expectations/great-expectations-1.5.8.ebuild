@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="arrow athena aws-secrets azure azure-secrets bigquery clickhouse cloud databricks dremio excel gcp gx-redshift hive mssql mysql pagerduty postgresql redshift s3 snowflake spark spark-connect teradata test trino vertica"
 DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
@@ -64,7 +64,6 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	redshift? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	snowflake? ( <dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	snowflake? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	spark-connect? ( >=dev-python/googleapis-common-protos-1.56.4[${PYTHON_USEDEP}] )
@@ -85,7 +84,6 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/pandas-gbq[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
@@ -131,7 +129,7 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	test? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	test? ( dev-python/feather-format[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	aws-secrets? ( >=dev-python/boto3-1.17.106[${PYTHON_USEDEP}] )
@@ -142,7 +140,6 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	gcp? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/pandas-gbq[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )

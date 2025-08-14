@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/scipy-1.16[${PYTHON_USEDEP}]
 	<=dev-python/matplotlib-3.10[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.2[${PYTHON_USEDEP}]
 	dev-python/visions[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.2[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="<dev-python/scipy-1.16[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-autodoc-typehints-1.10.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-multiversion-0.2.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	dev? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-1.7.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-material-extensions-2.0.0[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,9 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES=">=dev-python/exceptiongroup-1.1.0[${PYTHON_USEDEP}]
-	>=dev-python/hypercorn-0.12.0[${PYTHON_USEDEP}]
-	dev-python/Quart[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/hypercorn-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/quart-0.19[${PYTHON_USEDEP}]
 	>=dev-python/trio-0.19.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -68,7 +68,7 @@ DEPENDENCIES=">=dev-python/absl-py-1.3.0[${PYTHON_USEDEP}]
 	dev-python/itk-registration[${PYTHON_USEDEP}]
 	dev-python/itk-segmentation[${PYTHON_USEDEP}]
 	dev-python/itk[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	>=dev-python/kiwisolver-1.4.4[${PYTHON_USEDEP}]

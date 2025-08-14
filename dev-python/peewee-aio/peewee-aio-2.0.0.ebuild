@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiomysql aiopg aiosqlite asyncpg trio-mysql triopg"
 DEPENDENCIES="<dev-python/peewee-4.0[${PYTHON_USEDEP}]
 	dev-python/aio-databases[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	aiopg? ( dev-python/aiopg[${PYTHON_USEDEP}] )
 	aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/trimesh-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8.6[${PYTHON_USEDEP}]
 	<dev-python/shapely-3.0[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	<dev-python/rtree-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.10.0[${PYTHON_USEDEP}]
 	dev-python/scikit-spatial[${PYTHON_USEDEP}]
 	dev-python/circle-fit[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/sphinx-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]
 	dev-python/CProfileV[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.54.1[${PYTHON_USEDEP}]
 	<dev-python/pylint-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/coverage-7.2.7[${PYTHON_USEDEP}]

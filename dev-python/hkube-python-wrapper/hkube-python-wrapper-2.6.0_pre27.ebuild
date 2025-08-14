@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.6.0.dev27"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Events[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/events-0.4[${PYTHON_USEDEP}]
 	~dev-python/websocket-client-0.57.0[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.17.2[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.10.1[${PYTHON_USEDEP}]

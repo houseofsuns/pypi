@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.29.0a20241001"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -45,7 +45,6 @@ DEPENDENCIES=">=dev-python/cython-3.0.0_beta3[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/simple-parsing[${PYTHON_USEDEP}]
 	dev-python/graphscope-flex[${PYTHON_USEDEP}]
-	<dev-python/pysimdjson-6.0[${PYTHON_USEDEP}]
 	>=dev-python/pysimdjson-6.0[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.8.0[${PYTHON_USEDEP}]
@@ -56,7 +55,7 @@ DEPENDENCIES=">=dev-python/cython-3.0.0_beta3[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/myst-parser-0.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )

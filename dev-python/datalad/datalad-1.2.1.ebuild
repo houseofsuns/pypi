@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.32.0[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/annexremote[${PYTHON_USEDEP}]
 	dev-python/looseversion[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
@@ -51,7 +50,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	core? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	core? ( dev-python/patool[${PYTHON_USEDEP}] )
 	core? ( >=dev-python/tqdm-4.32.0[${PYTHON_USEDEP}] )
-	core? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	core? ( dev-python/annexremote[${PYTHON_USEDEP}] )
 	core? ( dev-python/looseversion[${PYTHON_USEDEP}] )
 	downloaders? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -83,7 +81,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	full? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	full? ( dev-python/patool[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/tqdm-4.32.0[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/annexremote[${PYTHON_USEDEP}] )
 	full? ( dev-python/looseversion[${PYTHON_USEDEP}] )
 	full? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -125,7 +122,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	devel? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	devel? ( dev-python/patool[${PYTHON_USEDEP}] )
 	devel? ( >=dev-python/tqdm-4.32.0[${PYTHON_USEDEP}] )
-	devel? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/annexremote[${PYTHON_USEDEP}] )
 	devel? ( dev-python/looseversion[${PYTHON_USEDEP}] )
 	devel? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -157,7 +153,6 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	devel? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	devel? ( dev-python/patool[${PYTHON_USEDEP}] )
 	devel? ( >=dev-python/tqdm-4.32.0[${PYTHON_USEDEP}] )
-	devel? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/annexremote[${PYTHON_USEDEP}] )
 	devel? ( dev-python/looseversion[${PYTHON_USEDEP}] )
 	devel? ( dev-python/boto3[${PYTHON_USEDEP}] )

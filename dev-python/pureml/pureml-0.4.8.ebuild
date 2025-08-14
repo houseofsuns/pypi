@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -62,8 +62,6 @@ DEPENDENCIES=">=dev-python/boto3-1.34.147[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/scikit-image-0.24.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/scikit-learn-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/scipy-1.14.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ydata-profiling[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

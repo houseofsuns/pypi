@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/django-5.3[${PYTHON_USEDEP}]
 	dev-python/django-ical[${PYTHON_USEDEP}]
 	dev-python/django-libsass[${PYTHON_USEDEP}]
 	dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	<dev-python/django-polymorphic-5.0[${PYTHON_USEDEP}]
 	dev-python/django-select2[${PYTHON_USEDEP}]
 	dev-python/django-statici18n[${PYTHON_USEDEP}]
 	dev-python/django-webpush[${PYTHON_USEDEP}]

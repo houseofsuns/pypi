@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="recaptcha"
 DEPENDENCIES="recaptcha? ( dev-python/SpeechRecognition[${PYTHON_USEDEP}] )
 	>=dev-python/aiohttp-socks-0.10.1[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.12.14[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.13.4[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]

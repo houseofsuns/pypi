@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="async"
 DEPENDENCIES="dev-python/azureml-inference-server-http[${PYTHON_USEDEP}]
 	dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev-python/azureml-dataset-runtime[${PYTHON_USEDEP}]
-	async? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	async? ( <=dev-python/quart-0.13.1[${PYTHON_USEDEP}] )
 	async? ( ~dev-python/uvicorn-0.12.3[${PYTHON_USEDEP}] )
 	async? ( ~dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )
 	async? ( ~dev-python/httptools-0.1.1[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="desktop? ( dev-python/bezier[${PYTHON_USEDEP}] )
 	desktop? ( ~dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
 	desktop? ( ~dev-python/pygame-2.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bezier[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nose2-0.14.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )

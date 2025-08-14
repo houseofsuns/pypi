@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.12.13[${PYTHON_USEDEP}]
 	dev-python/amiyahttp[${PYTHON_USEDEP}]
 	dev-python/amiyalog[${PYTHON_USEDEP}]
 	dev-python/amiyautils[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.11.0[${PYTHON_USEDEP}]
 	dev-python/dhash[${PYTHON_USEDEP}]
 	dev-python/graiax-silkcoder[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
@@ -36,6 +36,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.12.13[${PYTHON_USEDEP}]
 	~dev-python/pillow-11.2.1[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	~dev-python/pymysql-1.1.1[${PYTHON_USEDEP}]
+	~dev-python/audioop-lts-0.2.1[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

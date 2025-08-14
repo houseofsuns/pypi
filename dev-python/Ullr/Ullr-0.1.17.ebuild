@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/astroid-2.8.5[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.8.2[${PYTHON_USEDEP}]
 	~dev-python/isort-5.10.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/lazy-object-proxy-1.6.0[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]

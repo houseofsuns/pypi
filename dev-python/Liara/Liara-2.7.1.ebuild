@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
 	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	~dev-python/libsass-0.21[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.1[${PYTHON_USEDEP}]
 	~dev-python/mako-1.3[${PYTHON_USEDEP}]
@@ -40,7 +40,6 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
 	~dev-python/python-slugify-8.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-5.2[${PYTHON_USEDEP}]
 	~dev-python/watchfiles-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

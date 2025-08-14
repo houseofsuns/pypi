@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clip cpu cu118 cu121 cu124 dev docs full loggers notebooks openvino rocm test video vlm xpu"
-DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/FrEIA[${PYTHON_USEDEP}]
 	dev-python/jsonargparse[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev? ( dev-python/comet-ml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
@@ -99,7 +99,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	full? ( dev-python/av[${PYTHON_USEDEP}] )
 	full? ( dev-python/comet-ml[${PYTHON_USEDEP}] )
-	full? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	full? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	full? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
@@ -120,7 +120,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	loggers? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	loggers? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	loggers? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	notebooks? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/notebook[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	alldev? ( dev-python/ipyopt[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/jax[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	alldev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	alldev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/mplhep[${PYTHON_USEDEP}] )
@@ -107,7 +107,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipyopt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jax[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mplhep[${PYTHON_USEDEP}] )
@@ -147,7 +147,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	doc? ( dev-python/asdf[${PYTHON_USEDEP}] )
 	doc? ( dev-python/awkward-pandas[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipyopt[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mplhep[${PYTHON_USEDEP}] )
@@ -168,7 +168,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	docs? ( dev-python/asdf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/awkward-pandas[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipyopt[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mplhep[${PYTHON_USEDEP}] )

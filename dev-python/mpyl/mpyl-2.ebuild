@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/jsonschema-4.17.0[${PYTHON_USEDEP}]
 	~dev-python/mypy-0.991[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.29[${PYTHON_USEDEP}]
 	~dev-python/docker-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]"

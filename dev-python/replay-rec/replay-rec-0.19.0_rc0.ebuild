@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.19.0rc0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/d3rlpy[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/hnswlib[${PYTHON_USEDEP}]
 	dev-python/implicit[${PYTHON_USEDEP}]
-	dev-python/lightautoml[${PYTHON_USEDEP}]
+	dev-python/LightAutoML[${PYTHON_USEDEP}]
 	dev-python/lightfm[${PYTHON_USEDEP}]
 	torch? ( dev-python/lightning[${PYTHON_USEDEP}] )
 	torch-openvino? ( dev-python/lightning[${PYTHON_USEDEP}] )
@@ -46,8 +46,6 @@ DEPENDENCIES="dev-python/d3rlpy[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}]
-	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	torch? ( dev-python/pytorch-ranger[${PYTHON_USEDEP}] )

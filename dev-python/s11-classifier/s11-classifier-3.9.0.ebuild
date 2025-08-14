@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/boto3-1.37.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/rasterstats[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	~dev-python/rtree-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.67.0[${PYTHON_USEDEP}]
 	~dev-python/xarray-2025.1.2[${PYTHON_USEDEP}]

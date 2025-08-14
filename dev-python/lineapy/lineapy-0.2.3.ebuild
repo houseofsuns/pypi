@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/asttokens[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	<dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asttokens[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipython-7.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -103,7 +103,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	graph? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	graph? ( dev-python/asttokens[${PYTHON_USEDEP}] )
 	graph? ( >=dev-python/ipython-7.0.0[${PYTHON_USEDEP}] )
-	graph? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	graph? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	graph? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	graph? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	graph? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -124,7 +124,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	minimal? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/asttokens[${PYTHON_USEDEP}] )
 	minimal? ( >=dev-python/ipython-7.0.0[${PYTHON_USEDEP}] )
-	minimal? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	minimal? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	minimal? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -141,7 +141,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/asttokens[${PYTHON_USEDEP}] )
 	mlflow? ( >=dev-python/ipython-7.0.0[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	mlflow? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	mlflow? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -161,7 +161,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	postgres? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asttokens[${PYTHON_USEDEP}] )
 	postgres? ( >=dev-python/ipython-7.0.0[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	postgres? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	postgres? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -181,7 +181,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	s3? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	s3? ( dev-python/asttokens[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/ipython-7.0.0[${PYTHON_USEDEP}] )
-	s3? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	s3? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	s3? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	s3? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/requests[${PYTHON_USEDEP}] )

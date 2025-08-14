@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -101,7 +101,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	all? ( dev-python/petab-select[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/gitpython-3.1.7[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-rerunfailures-9.1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/autograd[${PYTHON_USEDEP}] )
 	all? ( dev-python/libroadrunner[${PYTHON_USEDEP}] )
@@ -184,7 +184,7 @@ DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	select? ( dev-python/petab-select[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/gitpython-3.1.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-rerunfailures-9.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/autograd[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

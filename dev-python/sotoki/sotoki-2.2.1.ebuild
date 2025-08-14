@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,11 +31,11 @@ DEPENDENCIES="dev-python/kiwixstorage[${PYTHON_USEDEP}]
 	dev-python/cli-formatter[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.2[${PYTHON_USEDEP}]
 	<dev-python/redis-5.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-4.10[${PYTHON_USEDEP}]
-	dev-python/jinja2_pluralize[${PYTHON_USEDEP}]
+	<dev-python/jinja2-pluralize-0.4[${PYTHON_USEDEP}]
 	<dev-python/tld-0.14[${PYTHON_USEDEP}]
 	<dev-python/mistune-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-2.9[${PYTHON_USEDEP}]

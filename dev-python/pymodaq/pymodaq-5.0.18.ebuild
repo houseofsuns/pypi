@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,15 +31,15 @@ DEPENDENCIES="dev-python/bayesian-optimization[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pyleco[${PYTHON_USEDEP}]
-	dev-python/pymodaq-data[${PYTHON_USEDEP}]
-	dev-python/pymodaq-gui[${PYTHON_USEDEP}]
+	dev-python/pymodaq_data[${PYTHON_USEDEP}]
+	dev-python/pymodaq_gui[${PYTHON_USEDEP}]
 	dev-python/pymodaq-plugin-manager[${PYTHON_USEDEP}]
-	dev-python/pymodaq-plugins-mock[${PYTHON_USEDEP}]
-	dev-python/pymodaq-utils[${PYTHON_USEDEP}]
+	dev-python/pymodaq_plugins_mock[${PYTHON_USEDEP}]
+	dev-python/pymodaq_utils[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.12[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/qtconsole[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-60.0[${PYTHON_USEDEP}]
 	dev-python/simple-pid[${PYTHON_USEDEP}]
@@ -47,8 +47,8 @@ DEPENDENCIES="dev-python/bayesian-optimization[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

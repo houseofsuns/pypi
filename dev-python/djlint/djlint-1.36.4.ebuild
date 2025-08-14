@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,8 +32,6 @@ DEPENDENCIES=">=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.12[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	>=dev-python/regex-2023.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
-	>=dev-python/tqdm-4.62.2[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-3.6.6[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.62.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

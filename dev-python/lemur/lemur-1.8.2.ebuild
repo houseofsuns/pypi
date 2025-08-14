@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}]
 	dev-python/click-repl[${PYTHON_USEDEP}]
 	dev-python/cloudflare[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	~dev-python/configargparse-1.7[${PYTHON_USEDEP}]
 	~dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
 	~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
@@ -84,7 +84,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
 	dev-python/javaobj-py3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/josepy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
@@ -183,7 +183,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/configargparse-1.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.4.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}] )
@@ -198,7 +198,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/faker-25.4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/fakeredis-2.23.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/filelock-3.13.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
@@ -237,7 +237,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/jaraco-functools-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -268,7 +268,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nh3-0.2.17[${PYTHON_USEDEP}] )
@@ -386,7 +386,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/attrs-23.2.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/aws-sam-translator-1.87.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/aws-xray-sdk-2.13.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/babel-2.14.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bandit-1.7.8[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bcrypt-4.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/billiard[${PYTHON_USEDEP}] )
@@ -407,7 +407,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/configargparse-1.7[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/coverage-7.4.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}] )
@@ -421,7 +421,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/faker-25.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/fakeredis-2.23.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Flask-Bcrypt[${PYTHON_USEDEP}] )
@@ -453,7 +453,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -481,7 +481,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nose[${PYTHON_USEDEP}] )
@@ -618,7 +618,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/click-repl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cloudflare[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/configargparse-1.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/coverage-7.4.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/cryptography-42.0.7[${PYTHON_USEDEP}] )
@@ -631,7 +631,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/faker-25.4.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/fakeredis-2.23.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask-Bcrypt[${PYTHON_USEDEP}] )
@@ -662,7 +662,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/javaobj-py3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/josepy-1.14.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}] )
@@ -690,7 +690,7 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/multipart-0.2.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ndg-httpsclient[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )

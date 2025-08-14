@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/python-gnupg-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
-	dev-python/IPy[${PYTHON_USEDEP}]
+	~dev-python/ipy-1.1[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	dev-python/beautifultable[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="~dev-python/python-gnupg-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.11.3[${PYTHON_USEDEP}]
 	~dev-python/ujson-5.8.0[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.41.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/imia[${PYTHON_USEDEP}]
 	dev-python/Starlette-WTF[${PYTHON_USEDEP}]

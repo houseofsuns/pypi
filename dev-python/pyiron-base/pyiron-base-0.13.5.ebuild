@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,8 +42,8 @@ DEPENDENCIES="<=dev-python/cloudpickle-3.1.1[${PYTHON_USEDEP}]
 	<=dev-python/traitlets-5.14.3[${PYTHON_USEDEP}]
 	conda? ( dev-python/conda[${PYTHON_USEDEP}] )
 	conda? ( dev-python/conda-subprocess[${PYTHON_USEDEP}] )
-	devel? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	flux? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	devel? ( ~dev-python/gitpython-3.1.45[${PYTHON_USEDEP}] )
+	flux? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	stats? ( dev-python/Pint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/click-6.5[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	<dev-python/pathspec-1.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	>=dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	d? ( >=dev-python/aiohttp-3.3.2[${PYTHON_USEDEP}] )
 	d? ( dev-python/aiohttp-cors[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

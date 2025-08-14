@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">=dev-python/six-1.13[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-3.8.0[${PYTHON_USEDEP}]
 	ssl_backport? ( dev-python/backports-ssl[${PYTHON_USEDEP}] )
-	ssl_backport? ( dev-python/backports-ssl_match_hostname[${PYTHON_USEDEP}] )
+	ssl_backport? ( dev-python/backports-ssl-match-hostname[${PYTHON_USEDEP}] )
 	ssl_backport? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
 	dev-python/siuba[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	dev-python/pandas-gbq[${PYTHON_USEDEP}]

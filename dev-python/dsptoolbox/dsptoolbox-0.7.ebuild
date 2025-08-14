@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,10 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="use-numba"
 DEPENDENCIES="~dev-python/matplotlib-3.10[${PYTHON_USEDEP}]
 	~dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-2.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.15[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.13[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	~dev-python/soundfile-0.13[${PYTHON_USEDEP}]
+	use-numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	use-numba? ( dev-python/numba[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

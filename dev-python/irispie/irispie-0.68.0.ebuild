@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/daqp[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.8[${PYTHON_USEDEP}]
 	dev-python/documark[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	dev-python/neqs[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.2[${PYTHON_USEDEP}]

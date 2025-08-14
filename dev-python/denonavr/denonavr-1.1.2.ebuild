@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,6 @@ DEPENDENCIES=">=dev-python/asyncstdlib-3.10.2[${PYTHON_USEDEP}]
 	>=dev-python/ftfy-6.1.1[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
 	>=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

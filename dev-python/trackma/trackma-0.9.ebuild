@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,8 +35,8 @@ DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	ui? ( <dev-python/pygobject-4.0.0[${PYTHON_USEDEP}] )
 	trackers? ( <dev-python/pyinotify-0.10.0[${PYTHON_USEDEP}] )
 	discord-rpc? ( <dev-python/pypresence-5.0.0[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	ui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt? ( <dev-python/pyqt5-6.0.0[${PYTHON_USEDEP}] )
+	ui? ( <dev-python/pyqt5-6.0.0[${PYTHON_USEDEP}] )
 	twitter? ( <dev-python/requests-oauthlib-3.0.0[${PYTHON_USEDEP}] )
 	twitter? ( dev-python/twitter[${PYTHON_USEDEP}] )
 	curses? ( <dev-python/urwid-3.0.0[${PYTHON_USEDEP}] )

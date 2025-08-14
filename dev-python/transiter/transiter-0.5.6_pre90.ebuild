@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.5.6.dev90"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/alembic-1.5.7[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.6.3[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	~dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/alembic-1.5.7[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-0.23[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/protobuf-3.18.3[${PYTHON_USEDEP}]

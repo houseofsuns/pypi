@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc gui mongo test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -44,8 +44,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	test? ( dev-python/pcdsdevices[${PYTHON_USEDEP}] )
 	test? ( dev-python/mongomock[${PYTHON_USEDEP}] )
 	test? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	test? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	test? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/docs-versions-menu[${PYTHON_USEDEP}] )
 	doc? ( dev-python/doctr[${PYTHON_USEDEP}] )
@@ -53,8 +53,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

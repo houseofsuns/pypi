@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	docs? ( dev-python/diskcache[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dlt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	docs? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lxml[${PYTHON_USEDEP}] )

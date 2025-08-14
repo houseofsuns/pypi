@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/paco-models[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
 	dev-python/awacs[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-4.3.2[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/parliament[${PYTHON_USEDEP}]
 	dev-python/chameleon[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-1.3.5[${PYTHON_USEDEP}] )

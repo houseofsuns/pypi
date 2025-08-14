@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/Beaker[${PYTHON_USEDEP}]
 	>=dev-python/decorator-3.0.1[${PYTHON_USEDEP}]
 	dev-python/FormEncode[${PYTHON_USEDEP}]
 	>=dev-python/html2text-2.35[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.5[${PYTHON_USEDEP}]
 	>=dev-python/markdown2-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/paste-1.7[${PYTHON_USEDEP}]
 	dev-python/PasteScript[${PYTHON_USEDEP}]

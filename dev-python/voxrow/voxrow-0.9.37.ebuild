@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="airflow? ( dev-python/apache-airflow-providers-docker[${PYTHON_USE
 	geospatial? ( dev-python/requests[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	query? ( ~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
-	query? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	query? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	query? ( >=dev-python/cryptography-3.2.1[${PYTHON_USEDEP}] )
 	query? ( dev-python/sshtunnel[${PYTHON_USEDEP}] )
 	scrape? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )

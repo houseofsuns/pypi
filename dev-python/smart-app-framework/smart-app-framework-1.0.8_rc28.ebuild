@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.0.8rc28"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.10.5[${PYTHON_USEDEP}]
 	dev-python/DAWG[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.3[${PYTHON_USEDEP}]
 	dev-python/ics[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/lazy[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]

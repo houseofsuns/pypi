@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,28 +26,28 @@ KEYWORDS="~amd64 ~x86"
 IUSE="i18n min-versions"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/ghp-import-1.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11.1[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.3.6[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
 	>=dev-python/mkdocs-get-deps-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.5[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.11.1[${PYTHON_USEDEP}]
-	dev-python/pyyaml_env_tag[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-env-tag-0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-2.0[${PYTHON_USEDEP}]
-	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	i18n? ( >=dev-python/babel-2.9.0[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/babel-2.9.0[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/click-7.0[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/ghp-import-1.0[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/jinja2-2.11.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/markdown-3.3.6[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/mkdocs-get-deps-0.2.0[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/packaging-20.5[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/pathspec-0.11.1[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/pyyaml_env_tag[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/pyyaml-env-tag-0.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	min-versions? ( ~dev-python/watchdog-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

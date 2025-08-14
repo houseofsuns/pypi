@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,6 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="img speedup"
 DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-7.0[${PYTHON_USEDEP}]
 	<dev-python/lxml-7.0[${PYTHON_USEDEP}]
@@ -33,8 +34,6 @@ DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-7.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-41.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-46.0[${PYTHON_USEDEP}]
-	<dev-python/async-timeout-6.0[${PYTHON_USEDEP}]
-	dev-python/StrEnum[${PYTHON_USEDEP}]
 	img? ( dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}] )
 	img? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
 	speedup? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )

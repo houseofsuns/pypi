@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/whoosh-2.7.4[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
 	>=dev-python/starlette-0.27.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	build? ( ~dev-python/tox-3.24.3[${PYTHON_USEDEP}] )
 	build? ( dev-python/tox-conda[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )

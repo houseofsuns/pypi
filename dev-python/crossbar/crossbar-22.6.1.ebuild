@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -49,7 +49,7 @@ DEPENDENCIES=">=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
 	>=dev-python/incremental-17.5.0[${PYTHON_USEDEP}]
 	>=dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
 	dev-python/jinja2-highlight[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10.1[${PYTHON_USEDEP}]
 	>=dev-python/lmdb-1.1.1[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-2.0[${PYTHON_USEDEP}]
 	>=dev-python/mistune-0.8.4[${PYTHON_USEDEP}]

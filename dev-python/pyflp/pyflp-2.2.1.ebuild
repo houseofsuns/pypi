@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="dev"
 DEPENDENCIES="dev-python/construct-typing[${PYTHON_USEDEP}]
 	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.6.1[${PYTHON_USEDEP}]
-	dev-python/f-enum[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-7.2.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )

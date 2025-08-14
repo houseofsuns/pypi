@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,9 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	>=dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-16.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-18.0.0[${PYTHON_USEDEP}]
 	azure-identity? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	fab? ( dev-python/apache-airflow-providers-fab[${PYTHON_USEDEP}] )
 	sdk? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )

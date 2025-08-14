@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/jaxtyping[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter-bokeh[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jupyter_bokeh[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/jupyter-packaging-0.7.9[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )

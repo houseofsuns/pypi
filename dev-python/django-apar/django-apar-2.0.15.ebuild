@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	~dev-python/django-2.2[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	dev-python/django-polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-rest-polymorphic[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.9.7[${PYTHON_USEDEP}]
 	dev-python/django-s3direct[${PYTHON_USEDEP}]
@@ -39,12 +39,12 @@ DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/fcm-django[${PYTHON_USEDEP}]
 	dev-python/zeep[${PYTHON_USEDEP}]
 	dev-python/django-dynamic-raw-id[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	dev-python/apscheduler[${PYTHON_USEDEP}]
 	~dev-python/django-filter-2.1.0[${PYTHON_USEDEP}]
 	dev-python/django-ckeditor[${PYTHON_USEDEP}]
 	dev-python/django-tagulous[${PYTHON_USEDEP}]
 	dev-python/django-colorfield[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	dev-python/faker[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/django-enumfield[${PYTHON_USEDEP}]

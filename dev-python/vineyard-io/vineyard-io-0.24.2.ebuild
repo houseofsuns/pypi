@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,6 @@ DEPENDENCIES=">=dev-python/fsspec-2022.10.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/vineyard[${PYTHON_USEDEP}]
 	dev-python/zstd[${PYTHON_USEDEP}]
-	>=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

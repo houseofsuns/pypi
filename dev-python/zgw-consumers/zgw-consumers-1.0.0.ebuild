@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	db? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	drf? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
 	setup-configuration? ( dev-python/django-setup-configuration[${PYTHON_USEDEP}] )
-	testutils? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	testutils? ( >=dev-python/faker-0.7.0[${PYTHON_USEDEP}] )
 	testutils? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	testutils? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	testutils? ( dev-python/pyyaml[${PYTHON_USEDEP}] )

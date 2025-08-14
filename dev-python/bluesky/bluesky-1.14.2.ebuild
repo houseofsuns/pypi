@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lmfit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mongoquery[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pydata-sphinx-theme-0.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyepics[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	dev? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )
@@ -99,7 +99,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	streamz? ( dev-python/streamz[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	cmd? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	olog? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	olog? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	old-persistentdict? ( dev-python/zict[${PYTHON_USEDEP}] )
 	all? ( dev-python/bluesky[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

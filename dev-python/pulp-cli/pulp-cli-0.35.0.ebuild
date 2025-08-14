@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/pulp-glue[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	<dev-python/schema-0.8[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-2.1[${PYTHON_USEDEP}]
 	password-manager? ( <dev-python/secretstorage-3.4[${PYTHON_USEDEP}] )
 	pygments? ( <dev-python/pygments-2.20[${PYTHON_USEDEP}] )
 	shell? ( dev-python/click-shell[${PYTHON_USEDEP}] )"

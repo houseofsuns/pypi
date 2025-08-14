@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -64,7 +64,7 @@ DEPENDENCIES=">=dev-python/nox-2022.11.21[${PYTHON_USEDEP}]
 	dev-pytest? ( ~dev-python/pytest-8.3.5[${PYTHON_USEDEP}] )
 	dev-pytest? ( ~dev-python/pylint-3.3.7[${PYTHON_USEDEP}] )
 	dev-pytest? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	dev-pytest? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev-pytest? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev-pytest? ( <dev-python/sybil-10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

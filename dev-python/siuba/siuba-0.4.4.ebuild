@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	test? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	test? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	test? ( dev-python/duckdb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

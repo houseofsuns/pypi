@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-7.0.1[${PYTHON_USEDEP}]
 	>=dev-python/importlib-resources-6.1.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/mypy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/jaraco-context-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jaraco-functools-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jeepney-0.9.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/keyring-25.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}] )
@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/more-itertools-10.7.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.15.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nh3-0.2.21[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}] )

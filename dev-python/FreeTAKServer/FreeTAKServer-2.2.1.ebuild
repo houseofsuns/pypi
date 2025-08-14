@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/bitarray[${PYTHON_USEDEP}]
 	~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/testresources-2.0.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.5[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/bitarray[${PYTHON_USEDEP}]
 	dev-python/DigitalPy[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
-	ui? ( dev-python/FreeTAKServer-UI[${PYTHON_USEDEP}] )
+	ui? ( dev-python/freetakserver-ui[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytak[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-asyncio-0.20.1[${PYTHON_USEDEP}] )"

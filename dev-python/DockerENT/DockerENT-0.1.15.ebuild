@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}]
 	~dev-python/docker-4.2.1[${PYTHON_USEDEP}]
 	~dev-python/idna-2.9[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]
 	dev-python/pprintpp[${PYTHON_USEDEP}]

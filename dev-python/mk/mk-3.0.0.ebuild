@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES=">=dev-python/build-0.3.1_p1[${PYTHON_USEDEP}]
 	>=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.26[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	>=dev-python/pip-21.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-1.5.0[${PYTHON_USEDEP}]
@@ -35,7 +35,6 @@ DEPENDENCIES=">=dev-python/build-0.3.1_p1[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/shellingham-1.5.4[${PYTHON_USEDEP}]
 	>=dev-python/subprocess-tee-0.4.1[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/twine-3.4.1[${PYTHON_USEDEP}]
 	dev-python/typer-config[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.16.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,6 @@ DEPENDENCIES="dev-python/distlib[${PYTHON_USEDEP}]
 	dev-python/pytest-repeat[${PYTHON_USEDEP}]
 	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
 	<dev-python/setuptools-80.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )

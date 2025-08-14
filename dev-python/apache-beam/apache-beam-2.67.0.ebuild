@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,6 +30,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	<dev-python/fasteners-1.0[${PYTHON_USEDEP}]
 	<dev-python/grpcio-1.66.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.67.0[${PYTHON_USEDEP}]
 	dev-python/hdfs[${PYTHON_USEDEP}]
 	<dev-python/httplib2-0.23.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
@@ -53,18 +54,18 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	dev-python/pymilvus[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-19.0.0[${PYTHON_USEDEP}]
 	dev-python/pyarrow-hotfix[${PYTHON_USEDEP}]
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-3.2[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	docs? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/pandas-2.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/openai[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/virtualenv-clone-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/cloud-sql-python-connector[${PYTHON_USEDEP}] )
-	test? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	test? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/freezegun-0.3.12[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jinja2-3.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/joblib-1.0.1[${PYTHON_USEDEP}] )
 	test? ( <dev-python/mock-6.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pandas-2.3.0[${PYTHON_USEDEP}] )
@@ -88,6 +89,7 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	gcp? ( <dev-python/cachetools-7.0[${PYTHON_USEDEP}] )
 	gcp? ( <dev-python/google-api-core-3.0[${PYTHON_USEDEP}] )
+	gcp? ( dev-python/google-apitools[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-apitools[${PYTHON_USEDEP}] )
 	gcp? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
 	gcp? ( <dev-python/google-auth-httplib2-0.3.0[${PYTHON_USEDEP}] )
@@ -155,8 +157,8 @@ DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
 	dataframe? ( <dev-python/pandas-2.3[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	yaml? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/jinja2-3.2[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/virtualenv-clone-1.0[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/js2py-1.0[${PYTHON_USEDEP}] )
 	yaml? ( <dev-python/pandas-2.3[${PYTHON_USEDEP}] )

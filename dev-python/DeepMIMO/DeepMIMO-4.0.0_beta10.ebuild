@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="4.0.0b10"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,14 +50,12 @@ DEPENDENCIES=">=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	insite? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	insite? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	insite? ( dev-python/bpy[${PYTHON_USEDEP}] )
-	insite? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	insite? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	insite? ( dev-python/plyfile[${PYTHON_USEDEP}] )
 	sionna? ( dev-python/utm[${PYTHON_USEDEP}] )
 	sionna? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	sionna? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	sionna? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	sionna? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	sionna? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	sionna? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	sionna? ( dev-python/sionna-rt[${PYTHON_USEDEP}] )
@@ -66,7 +64,6 @@ DEPENDENCIES=">=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	sionna019? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	sionna019? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	sionna019? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	sionna019? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	sionna019? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	sionna019? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	sionna019? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
@@ -98,7 +95,6 @@ DEPENDENCIES=">=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	all? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	all? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/plyfile[${PYTHON_USEDEP}] )

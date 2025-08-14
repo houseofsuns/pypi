@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	>=dev-python/lmdb-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	>=dev-python/msgspec-0.18.4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]
 	dev-python/plyvel-ci[${PYTHON_USEDEP}]
@@ -36,7 +36,6 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	client? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	server? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	server? ( dev-python/hypercorn[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/aiokafka[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/time-machine-2.16.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/documenteer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	dev? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	gcs? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/aiokafka[${PYTHON_USEDEP}]
 	testcontainers? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
 	uws? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
 	uws? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	uws? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	uws? ( <dev-python/jinja2-4.0[${PYTHON_USEDEP}] )
 	uws? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
 	uws? ( dev-python/safir-arq[${PYTHON_USEDEP}] )
 	uws? ( dev-python/vo-models[${PYTHON_USEDEP}] )"

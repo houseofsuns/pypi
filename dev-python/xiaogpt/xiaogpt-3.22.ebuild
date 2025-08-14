@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -47,7 +47,6 @@ DEPENDENCIES="dev-python/miservice-fork[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/aiosignal-1.4.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/anyio-4.3.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/attrs-23.2.0[${PYTHON_USEDEP}] )
 	locked? ( dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/beautifulsoup4-4.13.4[${PYTHON_USEDEP}] )
@@ -61,7 +60,6 @@ DEPENDENCIES="dev-python/miservice-fork[${PYTHON_USEDEP}]
 	locked? ( dev-python/dataclasses-json[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/distro-1.9.0[${PYTHON_USEDEP}] )
 	locked? ( dev-python/edge-tts[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/frozenlist-1.4.1[${PYTHON_USEDEP}] )
 	locked? ( dev-python/google-ai-generativelanguage[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/google-api-core-2.15.0[${PYTHON_USEDEP}] )
@@ -100,7 +98,7 @@ DEPENDENCIES="dev-python/miservice-fork[${PYTHON_USEDEP}]
 	locked? ( dev-python/miservice-fork[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/multidict-6.0.5[${PYTHON_USEDEP}] )
 	locked? ( dev-python/mutagen[${PYTHON_USEDEP}] )
-	locked? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	locked? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/numexpr-2.10.2[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/numpy-1.26.3[${PYTHON_USEDEP}] )
 	locked? ( dev-python/openai[${PYTHON_USEDEP}] )

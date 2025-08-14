@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -31,14 +31,14 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
 	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	cli? ( dev-python/pywebview[${PYTHON_USEDEP}] )
 	cli? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	cli? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	cli? ( dev-python/flask[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/cryptography-43.0.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich-click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-click-1.8.3[${PYTHON_USEDEP}] )
 	qlib? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	qlib? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	qlib? ( dev-python/joblib[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-exclude-search[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	dev? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipykernel-6.29.5[${PYTHON_USEDEP}] )
 	brokers? ( dev-python/shioaji[${PYTHON_USEDEP}] )

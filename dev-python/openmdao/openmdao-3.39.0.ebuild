@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
 	all? ( dev-python/jax[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	all? ( >dev-python/websockets-8.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/idna-3.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )

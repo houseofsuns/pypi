@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,11 +27,11 @@ IUSE="docs test visualtest"
 DEPENDENCIES="dev-python/glue-core[${PYTHON_USEDEP}]
 	dev-python/glue-vispy-viewers[${PYTHON_USEDEP}]
 	>=dev-python/notebook-4.0[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	>=dev-python/ipython-genutils-0.2[${PYTHON_USEDEP}]
 	dev-python/ipympl[${PYTHON_USEDEP}]
 	dev-python/ipyvolume[${PYTHON_USEDEP}]
 	dev-python/ipyvolume[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	>=dev-python/ipython-genutils-0.2[${PYTHON_USEDEP}]
 	>=dev-python/ipywidgets-7.4.0[${PYTHON_USEDEP}]
 	dev-python/ipyvue[${PYTHON_USEDEP}]
 	dev-python/ipyvuetify[${PYTHON_USEDEP}]

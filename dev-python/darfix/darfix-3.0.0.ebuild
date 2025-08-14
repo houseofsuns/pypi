@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	full-noqt? ( dev-python/ewoksorange[${PYTHON_USEDEP}] )
 	full-noqt? ( dev-python/hdf5plugin[${PYTHON_USEDEP}] )
 	full? ( dev-python/darfix[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	test? ( dev-python/darfix[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darfix[${PYTHON_USEDEP}] )

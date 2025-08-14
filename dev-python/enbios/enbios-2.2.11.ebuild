@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/annotated-types-0.5.0[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/contourpy-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/cycler-0.11.0[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-1.1.0[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	~dev-python/fonttools-4.47.2[${PYTHON_USEDEP}]
 	dev-python/frictionless[${PYTHON_USEDEP}]

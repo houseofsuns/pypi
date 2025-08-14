@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,8 +28,8 @@ DEPENDENCIES=">=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2019.11.17[${PYTHON_USEDEP}]
-	grpc? ( >=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/grpcio-1.59.0[${PYTHON_USEDEP}] )
+	grpc? ( >=dev-python/grpcio-1.68.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/googleapis-common-protos-1.66.0[${PYTHON_USEDEP}] )
 	grpc? ( >=dev-python/lz4-3.1.3[${PYTHON_USEDEP}] )
 	grpc? ( <dev-python/protobuf-6.0[${PYTHON_USEDEP}] )

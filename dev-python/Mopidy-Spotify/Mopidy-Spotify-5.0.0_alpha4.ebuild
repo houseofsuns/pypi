@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="mopidy-spotify"
 REALVERSION="5.0.0a4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Mopidy[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/mopidy[${PYTHON_USEDEP}]
 	>=dev-python/pykka-4.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

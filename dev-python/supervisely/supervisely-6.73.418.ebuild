@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="<=dev-python/cachetools-5.5.0[${PYTHON_USEDEP}]
 	<=dev-python/anyio-4.2.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	<=dev-python/websockets-13.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}]
@@ -62,7 +62,7 @@ DEPENDENCIES="<=dev-python/cachetools-5.5.0[${PYTHON_USEDEP}]
 	dev-python/numerize[${PYTHON_USEDEP}]
 	~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	<=dev-python/python-multipart-0.0.12[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -78,7 +78,7 @@ DEPENDENCIES="<=dev-python/cachetools-5.5.0[${PYTHON_USEDEP}]
 	apps? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
 	apps? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	apps? ( <=dev-python/websockets-13.1[${PYTHON_USEDEP}] )
-	apps? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/jsonpatch-2.0[${PYTHON_USEDEP}] )
 	apps? ( <dev-python/markupsafe-3.0.0[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES="<=dev-python/cachetools-5.5.0[${PYTHON_USEDEP}]
 	aug? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	aug? ( dev-python/imagecorruptions[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-autodoc-typehints-1.15.3[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -62,7 +62,7 @@ DEPENDENCIES="~dev-python/pillow-10.4.0[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]
 	dev-python/django-downloadview[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	~dev-python/django-polymorphic-3.1.0[${PYTHON_USEDEP}]
 	dev-python/django-tastypie[${PYTHON_USEDEP}]
 	dev-python/django-tinymce[${PYTHON_USEDEP}]
 	dev-python/django-grappelli[${PYTHON_USEDEP}]

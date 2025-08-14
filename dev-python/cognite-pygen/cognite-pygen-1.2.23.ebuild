@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli format"
 DEPENDENCIES="dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	>=dev-python/inflect-6.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.7[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.14.0[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/build-1.1[${PYTHON_USEDEP}] )

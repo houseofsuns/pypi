@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/splunk-sdk[${PYTHON_USEDEP}]
 	bash? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	fully-loaded? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	fully-loaded? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/splunk-sdk[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/splunk-sdk[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/htmler[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
 	<=dev-python/jsmin-2.99999.99999[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<=dev-python/jinja2-2.99999.99999[${PYTHON_USEDEP}]
 	<=dev-python/lxml-4.99999.99999[${PYTHON_USEDEP}]
 	<=dev-python/pymongo-3.99999.99999[${PYTHON_USEDEP}]
 	<=dev-python/python-magic-0.99999.99999[${PYTHON_USEDEP}]

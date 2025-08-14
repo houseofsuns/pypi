@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.4.2.dev20181124173755"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-2.1.8[${PYTHON_USEDEP}]
 	~dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	~dev-python/requests-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	<dev-python/cryptography-3.0[${PYTHON_USEDEP}]

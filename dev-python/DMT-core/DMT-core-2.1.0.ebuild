@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/colormath[${PYTHON_USEDEP}]
 	hdf5? ( dev-python/tables[${PYTHON_USEDEP}] )
 	develop? ( dev-python/black[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	full? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	full? ( dev-python/black[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -59,9 +59,9 @@ DEPENDENCIES="dev-python/colormath[${PYTHON_USEDEP}]
 	latex? ( dev-python/pylatex[${PYTHON_USEDEP}] )
 	latex? ( dev-python/pylatexenc[${PYTHON_USEDEP}] )
 	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	remote? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	remote? ( dev-python/scp[${PYTHON_USEDEP}] )

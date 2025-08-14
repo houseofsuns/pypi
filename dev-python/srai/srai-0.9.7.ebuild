@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	osm? ( >=dev-python/pillow-8.0.0[${PYTHON_USEDEP}] )
 	osm? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	osm? ( dev-python/QuackOSM[${PYTHON_USEDEP}] )
-	overturemaps? ( dev-python/overturemaestro[${PYTHON_USEDEP}] )
+	overturemaps? ( dev-python/OvertureMaestro[${PYTHON_USEDEP}] )
 	voronoi? ( dev-python/pymap3d[${PYTHON_USEDEP}] )
 	voronoi? ( dev-python/haversine[${PYTHON_USEDEP}] )
 	voronoi? ( >=dev-python/scipy-1.10.0[${PYTHON_USEDEP}] )

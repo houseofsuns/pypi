@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="obj ply pyqt5 pyqt6 pyside6 stl"
-DEPENDENCIES="dev-python/PyGLM[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/pyglm[${PYTHON_USEDEP}]
 	dev-python/moderngl[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
@@ -34,8 +34,8 @@ DEPENDENCIES="dev-python/PyGLM[${PYTHON_USEDEP}]
 	dev-python/pnprint[${PYTHON_USEDEP}]
 	<dev-python/freetype-py-3.0[${PYTHON_USEDEP}]
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	ply? ( dev-python/plyfile[${PYTHON_USEDEP}] )
 	stl? ( dev-python/numpy-stl[${PYTHON_USEDEP}] )
 	obj? ( dev-python/PyWavefront[${PYTHON_USEDEP}] )"

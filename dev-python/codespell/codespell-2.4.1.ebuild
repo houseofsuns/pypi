@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev hard-encoding-detection toml types"
+IUSE="dev hard-encoding-detection types"
 DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -35,7 +35,6 @@ DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	hard-encoding-detection? ( dev-python/chardet[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	types? ( >=dev-python/chardet-5.1.0[${PYTHON_USEDEP}] )
 	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	types? ( dev-python/pytest[${PYTHON_USEDEP}] )

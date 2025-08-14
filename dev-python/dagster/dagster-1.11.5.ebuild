@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,11 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docker mypy pyright ruff test test-components"
 DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
 	<=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	>=dev-python/alembic-1.2.1[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
-	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-6.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
@@ -44,7 +43,7 @@ DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	>=dev-python/toposort-1.0[${PYTHON_USEDEP}]
 	<dev-python/watchdog-6.0[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]

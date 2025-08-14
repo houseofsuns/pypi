@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ephfile[${PYTHON_USEDEP}]
 	dev-python/mystring[${PYTHON_USEDEP}]
 	dev-python/fs[${PYTHON_USEDEP}]
 	all? ( dev-python/splych[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/gett[${PYTHON_USEDEP}] )
 	all? ( dev-python/mystring[${PYTHON_USEDEP}] )
@@ -54,12 +54,12 @@ DEPENDENCIES="dev-python/ephfile[${PYTHON_USEDEP}]
 	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	face? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	face? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	ghub? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	ghub? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	ghub? ( dev-python/requests[${PYTHON_USEDEP}] )
 	ghub? ( dev-python/gett[${PYTHON_USEDEP}] )
 	ghub? ( dev-python/mystring[${PYTHON_USEDEP}] )
 	glab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
-	q-ghub? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	q-ghub? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	q-ghub? ( dev-python/requests[${PYTHON_USEDEP}] )
 	q-ghub? ( dev-python/gett[${PYTHON_USEDEP}] )
 	q-ghub? ( dev-python/waybackpy[${PYTHON_USEDEP}] )

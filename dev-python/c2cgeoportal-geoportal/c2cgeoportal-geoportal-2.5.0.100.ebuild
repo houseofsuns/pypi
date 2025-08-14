@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="c2cgeoportal geoportal [top-max 2.9.0.243]"
+DESCRIPTION="c2cgeoportal geoportal [top-max 2.9.0.247]"
 
 HOMEPAGE="http://www.camptocamp.com/solutions/geospatial/"
 LICENSE=""

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	samples? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	samples? ( dev-python/netifaces[${PYTHON_USEDEP}] )
 	samples? ( dev-python/plyfile[${PYTHON_USEDEP}] )
-	samples? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	samples? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	samples? ( dev-python/uuid[${PYTHON_USEDEP}] )
 	samples? ( dev-python/vispy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

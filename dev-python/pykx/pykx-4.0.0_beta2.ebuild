@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="4.0.0b2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.3.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.3.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.3.0[${PYTHON_USEDEP}]
 	<=dev-python/pandas-2.3.0[${PYTHON_USEDEP}]

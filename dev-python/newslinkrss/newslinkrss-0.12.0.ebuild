@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyRSS2Gen[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyrss2gen-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/cssselect-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.6.1[${PYTHON_USEDEP}]

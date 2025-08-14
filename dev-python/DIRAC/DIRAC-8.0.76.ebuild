@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/cwltool[${PYTHON_USEDEP}]
 	dev-python/diraccfg[${PYTHON_USEDEP}]
-	dev-python/db12[${PYTHON_USEDEP}]
+	dev-python/DB12[${PYTHON_USEDEP}]
 	dev-python/fts3[${PYTHON_USEDEP}]
 	dev-python/gfal2-python[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/dominate[${PYTHON_USEDEP}]
 	server? ( dev-python/CMRESHandler[${PYTHON_USEDEP}] )
 	server? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
-	server? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	server? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	server? ( dev-python/ldap3[${PYTHON_USEDEP}] )
 	server? ( dev-python/apache-libcloud[${PYTHON_USEDEP}] )
 	server? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

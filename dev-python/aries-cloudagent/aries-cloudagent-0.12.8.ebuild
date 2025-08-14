@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="askar bbs indy"
-DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/configargparse-1.6.0[${PYTHON_USEDEP}]
 	<dev-python/markdown-3.6.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-apispec[${PYTHON_USEDEP}]

@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility functions for numpy, written in cython [top-max 1.5.1]"
+DESCRIPTION="Utility functions for numpy, written in cython [top-max 1.5.2]"
 
 HOMEPAGE="https://github.com/gesellkammer/numpyx"
 LICENSE="GPL v3"

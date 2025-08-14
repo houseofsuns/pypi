@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( ~dev-python/jinja2-3.1.5[${PYTHON_USEDEP}] )
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/commentjson[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )
 	~dev-python/docutils-0.18.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/immutabledict[${PYTHON_USEDEP}]
 	docs? ( dev-python/lxml-html-clean[${PYTHON_USEDEP}] )

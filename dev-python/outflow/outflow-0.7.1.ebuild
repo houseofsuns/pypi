@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES=">dev-python/networkx-2.6[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	<dev-python/alembic-1.7[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	dev-python/simple-slurm[${PYTHON_USEDEP}]
 	>dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}]
 	<dev-python/black-22.7.0[${PYTHON_USEDEP}]

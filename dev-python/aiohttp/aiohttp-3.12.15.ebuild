@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="speedups"
 DEPENDENCIES=">=dev-python/aiohappyeyeballs-2.5.0[${PYTHON_USEDEP}]
 	>=dev-python/aiosignal-1.4.0[${PYTHON_USEDEP}]
-	<dev-python/async-timeout-6.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
 	>=dev-python/frozenlist-1.1.1[${PYTHON_USEDEP}]
 	<dev-python/multidict-7.0[${PYTHON_USEDEP}]

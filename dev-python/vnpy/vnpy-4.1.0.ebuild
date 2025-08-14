@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/deap[${PYTHON_USEDEP}]
 	dev-python/pyside6[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-26.3.0[${PYTHON_USEDEP}]
 	>=dev-python/qdarkstyle-3.2.3[${PYTHON_USEDEP}]
-	dev-python/TA-Lib[${PYTHON_USEDEP}]
+	dev-python/ta-lib[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.67.1[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
 	alpha? ( dev-python/alphalens-reloaded[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/deap[${PYTHON_USEDEP}]
 	alpha? ( >=dev-python/scikit-learn-1.6.1[${PYTHON_USEDEP}] )
 	alpha? ( >=dev-python/scipy-1.15.2[${PYTHON_USEDEP}] )
 	alpha? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/babel-2.17.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/hatchling-1.27.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

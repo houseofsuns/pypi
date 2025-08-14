@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/lazy-object-proxy-1.6[${PYTHON_USEDEP}]
 	build? ( ~dev-python/build-1.2.1[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/flit-3.9.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-py3doc-enhanced-theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_py3doc_enhanced_theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/testfixtures-6.18[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )

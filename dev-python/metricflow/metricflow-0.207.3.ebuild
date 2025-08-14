@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dbt-semantic-interfaces[${PYTHON_USEDEP}]
 	dev-python/dbt-semantic-interfaces[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.7.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-10.2.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-2.10.0[${PYTHON_USEDEP}]

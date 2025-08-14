@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="all store"
 DEPENDENCIES="<=dev-python/fastjsonschema-3.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/packaging-24.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/trove-classifiers-2021.10.20[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/tomli-1.2.1[${PYTHON_USEDEP}] )
 	store? ( dev-python/validate-pyproject-schema-store[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

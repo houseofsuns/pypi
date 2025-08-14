@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-0.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-2.4.2[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	>=dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/wsproto-0.14[${PYTHON_USEDEP}]
 	>=dev-python/zstandard-0.14.1[${PYTHON_USEDEP}]

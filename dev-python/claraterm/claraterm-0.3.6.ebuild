@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.25.2[${PYTHON_USEDEP}]
 	~dev-python/idna-3.6[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jsonpatch-1.33[${PYTHON_USEDEP}]
 	~dev-python/jsonpointer-2.4[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
 	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.2[${PYTHON_USEDEP}]

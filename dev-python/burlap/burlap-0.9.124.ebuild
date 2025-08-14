@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/fab-classic[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
 	>=dev-python/lockfile-0.9.1[${PYTHON_USEDEP}]
 	dev-python/requirements-parser[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.8[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

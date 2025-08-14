@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,9 +27,8 @@ IUSE="docs tests tui"
 DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	<dev-python/black-25.0.0[${PYTHON_USEDEP}]
-	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}] )
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
 	<dev-python/markdown-it-py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/mdformat[${PYTHON_USEDEP}]

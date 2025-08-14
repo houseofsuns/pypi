@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	~dev-python/regex-2022.10.31[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/black-23.9.1[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	dev-python/pygls[${PYTHON_USEDEP}]
@@ -46,12 +46,11 @@ DEPENDENCIES="~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	~dev-python/wheel-0.42.0[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.4[${PYTHON_USEDEP}]
 	>=dev-python/coverage-6.0[${PYTHON_USEDEP}]
 	>=dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]
 	~dev-python/mypy-1.1.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pycodestyle-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pyflakes-2.4[${PYTHON_USEDEP}]
 	>=dev-python/build-1.0.0[${PYTHON_USEDEP}]
@@ -68,7 +67,7 @@ DEPENDENCIES="~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	doc? ( ~dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.9[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-contributors[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_contributors[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-simplepdf[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/furo-2024.5.6[${PYTHON_USEDEP}] )

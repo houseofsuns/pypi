@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,12 +37,12 @@ DEPENDENCIES="<dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/pyparsing-2.2[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/pytest-5.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pytest-asyncio-0.10.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/faker-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
 	test_plans? ( ~dev-python/pyparsing-2.2[${PYTHON_USEDEP}] )
 	test_plans? ( <dev-python/pytest-5.4[${PYTHON_USEDEP}] )
 	test_plans? ( ~dev-python/pytest-asyncio-0.10.0[${PYTHON_USEDEP}] )
-	test_plans? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test_plans? ( ~dev-python/faker-5.0.0[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/freezegun-0.3[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="<dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/pytest-asyncio-0.10.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/faker-5.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )

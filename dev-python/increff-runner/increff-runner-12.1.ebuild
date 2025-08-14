@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,8 +29,8 @@ DEPENDENCIES="~dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	dev-python/azure-functions[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.6.3[${PYTHON_USEDEP}]
+	~dev-python/pygithub-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/pymongo-4.6.1[${PYTHON_USEDEP}]
 	dev-python/azure-eventgrid[${PYTHON_USEDEP}]
 	dev-python/logging-increff[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="av dev docs draco glfw imgui pdf pygame pygame-ce pyqt5 pysdl2 pyside2 pyw
 DEPENDENCIES="dev-python/moderngl[${PYTHON_USEDEP}]
 	>=dev-python/pyglet-2.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/PyGLM[${PYTHON_USEDEP}]
+	dev-python/pyglm[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -47,10 +47,10 @@ DEPENDENCIES="dev-python/moderngl[${PYTHON_USEDEP}]
 	tk? ( dev-python/pyopengltk[${PYTHON_USEDEP}] )
 	trimesh? ( >=dev-python/trimesh-3.2.6[${PYTHON_USEDEP}] )
 	pywavefront? ( dev-python/PyWavefront[${PYTHON_USEDEP}] )
-	pysdl2? ( dev-python/PySDL2[${PYTHON_USEDEP}] )
+	pysdl2? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
 	glfw? ( dev-python/glfw[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pdf? ( >=dev-python/reportlab-1.2[${PYTHON_USEDEP}] )
 	av? ( dev-python/av[${PYTHON_USEDEP}] )
 	draco? ( dev-python/DracoPy[${PYTHON_USEDEP}] )"

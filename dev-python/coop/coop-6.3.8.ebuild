@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache mailchimp s3 vite webpack"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
-	s3? ( dev-python/collectfasta[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/jinja2-3.1.0[${PYTHON_USEDEP}]
+	s3? ( dev-python/Collectfasta[${PYTHON_USEDEP}] )
 	cache? ( <dev-python/diskcache-5.3.0[${PYTHON_USEDEP}] )
 	<dev-python/django-5.1[${PYTHON_USEDEP}]
 	dev-python/django-htmx[${PYTHON_USEDEP}]

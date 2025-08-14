@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	openai? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	openai? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	openai? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	openai? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	openai? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	openai? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	openai? ( dev-python/scipy[${PYTHON_USEDEP}] )

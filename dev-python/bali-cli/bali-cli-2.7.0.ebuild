@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/decamelize[${PYTHON_USEDEP}]
 	<=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/gitpython-3.2_pre0[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/protobuf2pydantic[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.7[${PYTHON_USEDEP}]

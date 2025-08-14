@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,15 +23,13 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dotenv json5 toml validation yaml"
+IUSE="all dotenv json5 validation yaml"
 DEPENDENCIES="all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/json-five[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	json5? ( dev-python/json-five[${PYTHON_USEDEP}] )
-	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	validation? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="base classes that are used together with the rest of MDO Lab tools. [top-max 1.8.2]"
+DESCRIPTION="base classes that are used together with the rest of MDO Lab tools. [top-max 1.8.3]"
 
 HOMEPAGE="https://github.com/mdolab/baseclasses"
 LICENSE="Apache License Version 2.0"

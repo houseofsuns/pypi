@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.0.1a22"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
-	dev-python/freesimplegui[${PYTHON_USEDEP}]
+	dev-python/FreeSimpleGUI[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
 	>=dev-python/lmfit-1.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.1.1[${PYTHON_USEDEP}]"

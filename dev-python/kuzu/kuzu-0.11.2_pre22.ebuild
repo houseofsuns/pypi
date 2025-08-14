@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.11.2.dev22"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Highly scalable, extremely fast, easy-to-use embeddable graph database"
+DESCRIPTION="Highly scalable, extremely fast, easy-to-use embeddable graph database [top-max 0.11.2_pre23]"
 
 HOMEPAGE="https://github.com/kuzudb/kuzu"
 LICENSE="MIT"

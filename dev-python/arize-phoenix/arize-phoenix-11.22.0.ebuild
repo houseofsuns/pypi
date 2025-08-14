@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/aioitertools[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	>dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openinference-instrumentation[${PYTHON_USEDEP}]
 	dev-python/openinference-semantic-conventions[${PYTHON_USEDEP}]
@@ -88,7 +88,7 @@ DEPENDENCIES="dev-python/aioitertools[${PYTHON_USEDEP}]
 	dev? ( dev-python/arize[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asgi-lifespan[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/faker-30.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpc-interceptor[${PYTHON_USEDEP}] )

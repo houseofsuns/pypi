@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -76,14 +76,14 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-5.12.0[${PYTHON_USEDEP}]
 	~dev-python/ipykernel-6.23.1[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.13.2[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/ipywidgets-8.0.6[${PYTHON_USEDEP}]
 	~dev-python/isoduration-20.11.0[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.2.3[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.18.2[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
 	dev-python/jina-hubble-sdk[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/jsonpointer-2.3[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
@@ -110,7 +110,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
 	~dev-python/multiprocess-0.70.14[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/nbclassic-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/nbclient-0.8.0[${PYTHON_USEDEP}]
 	~dev-python/nbconvert-7.4.0[${PYTHON_USEDEP}]
@@ -174,7 +174,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/pyzmq-25.1.0[${PYTHON_USEDEP}]
 	~dev-python/qtconsole-5.4.3[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-2.3.1[${PYTHON_USEDEP}]
 	dev-python/ratelim[${PYTHON_USEDEP}]
 	~dev-python/readme-renderer-40.0[${PYTHON_USEDEP}]
 	~dev-python/regex-2023.5.5[${PYTHON_USEDEP}]

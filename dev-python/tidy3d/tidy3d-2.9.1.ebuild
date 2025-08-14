@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -54,8 +54,8 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	adjoint? ( dev-python/jax[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	adjoint? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -98,8 +98,8 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/responses[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
-	dev? ( dev-python/Rtree[${PYTHON_USEDEP}] )
-	trimesh? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/rtree-1.2.0[${PYTHON_USEDEP}] )
+	trimesh? ( ~dev-python/rtree-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	ruff? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sax[${PYTHON_USEDEP}] )

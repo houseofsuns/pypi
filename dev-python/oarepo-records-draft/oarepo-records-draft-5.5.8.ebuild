@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/wrapt-1.11.2[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]
 	dev-python/NamedAtomicLock[${PYTHON_USEDEP}]
 	dev? ( dev-python/oarepo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	dev? ( dev-python/babel[${PYTHON_USEDEP}] )
 	tests? ( dev-python/oarepo[${PYTHON_USEDEP}] )
 	tests_files? ( dev-python/invenio-files-rest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

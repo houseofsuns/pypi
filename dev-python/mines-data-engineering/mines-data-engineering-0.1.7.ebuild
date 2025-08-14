@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/xattr[${PYTHON_USEDEP}]
 	dev-python/imdb-sqlite[${PYTHON_USEDEP}]
 	dev-python/otter-grader[${PYTHON_USEDEP}]
 	<dev-python/prettytable-1.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]"
+	<dev-python/faker-17.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

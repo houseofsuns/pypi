@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,6 @@ DEPENDENCIES="dev-python/ephem[${PYTHON_USEDEP}]
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/build-1.2.2_p1[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/twine-6.1.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-7.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-8.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-3.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

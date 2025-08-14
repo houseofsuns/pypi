@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/cython[${PYTHON_USEDEP}]
 	all? ( >=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
 	all? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/mlstatpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/onnxruntime-extensions[${PYTHON_USEDEP}] )
+	all? ( dev-python/onnxruntime_extensions[${PYTHON_USEDEP}] )
 	npy? ( >=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
 	npy? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )
 	onnx_conv? ( >=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
@@ -59,6 +59,6 @@ DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	sklapi? ( dev-python/joblib[${PYTHON_USEDEP}] )
 	sklapi? ( dev-python/threadpoolctl[${PYTHON_USEDEP}] )
 	sklapi? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	sklapi? ( dev-python/onnxruntime-extensions[${PYTHON_USEDEP}] )"
+	sklapi? ( dev-python/onnxruntime_extensions[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

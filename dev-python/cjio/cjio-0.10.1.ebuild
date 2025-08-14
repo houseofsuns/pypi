@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	export? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	export? ( dev-python/mapbox_earcut[${PYTHON_USEDEP}] )
+	export? ( dev-python/mapbox-earcut[${PYTHON_USEDEP}] )
 	export? ( dev-python/triangle2[${PYTHON_USEDEP}] )
 	validate? ( dev-python/cjvalpy[${PYTHON_USEDEP}] )
 	reproject? ( >=dev-python/pyproj-3.0.0[${PYTHON_USEDEP}] )"

@@ -7,7 +7,7 @@ REALNAME="mt-940"
 LITERALNAME="mt-940"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="docs? ( >=dev-python/sphinx-1.7.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/gitpython-2.1.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx2rst[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

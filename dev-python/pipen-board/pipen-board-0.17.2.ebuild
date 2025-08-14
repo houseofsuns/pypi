@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all diagram filters report"
-DEPENDENCIES="dev-python/Quart[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/quart-0.21[${PYTHON_USEDEP}]
 	<dev-python/psutil-8.0[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-2.0[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-9.0[${PYTHON_USEDEP}]

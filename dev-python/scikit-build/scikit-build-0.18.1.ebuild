@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="cov docs doctest test"
 DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-42.0.0[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	>=dev-python/wheel-0.32.0[${PYTHON_USEDEP}]
 	cov? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
 	cov? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="all blosc-compression bslz4-compression lz4-compression"
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pvapy[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.12[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	dev-python/pyqt5[${PYTHON_USEDEP}]
 	blosc-compression? ( dev-python/blosc[${PYTHON_USEDEP}] )
 	lz4-compression? ( dev-python/lz4[${PYTHON_USEDEP}] )
 	bslz4-compression? ( dev-python/bitshuffle[${PYTHON_USEDEP}] )

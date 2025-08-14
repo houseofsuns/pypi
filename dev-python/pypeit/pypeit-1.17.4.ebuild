@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,10 +38,10 @@ DEPENDENCIES=">=dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.0.0[${PYTHON_USEDEP}]
 	dev-python/ginga[${PYTHON_USEDEP}]
 	dev-python/linetools[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-2.2.0[${PYTHON_USEDEP}]
+	dev-python/pygithub[${PYTHON_USEDEP}]
 	dev-python/bottleneck[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	dev-python/pyqt6[${PYTHON_USEDEP}]
 	scikit-image? ( >=dev-python/scikit-image-0.23[${PYTHON_USEDEP}] )
 	specutils? ( dev-python/specutils[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygit2[${PYTHON_USEDEP}] )

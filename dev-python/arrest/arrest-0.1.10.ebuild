@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.28.0[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	openapi? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	openapi? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/argcomplete-4.0.0[${PYTHON_USEDEP}]
 	openapi? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )
 	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]"

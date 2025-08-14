@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	sql? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	duckdb? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/openai[${PYTHON_USEDEP}]
-	duckdb? ( dev-python/duckdb_engine[${PYTHON_USEDEP}] )
+	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	duckduckgo? ( dev-python/duckduckgo-search[${PYTHON_USEDEP}] )
 	dev-python/usearch[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]

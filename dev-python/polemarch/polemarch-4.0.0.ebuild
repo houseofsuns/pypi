@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="ansible-core ansible29 mysql postgresql production test"
 DEPENDENCIES="dev-python/vstutils[${PYTHON_USEDEP}]
 	~dev-python/markdown2-2.4.10[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.20.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.32[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]

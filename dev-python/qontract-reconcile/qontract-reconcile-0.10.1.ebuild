@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/anymarkup[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	<dev-python/hvac-0.8.0[${PYTHON_USEDEP}]
 	dev-python/jenkins-job-builder[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.2.0[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	~dev-python/jsonpatch-1.33[${PYTHON_USEDEP}]
 	~dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/anymarkup[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.8[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	<dev-python/pygithub-1.59[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.7[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-23.0[${PYTHON_USEDEP}]
 	dev-python/pypd[${PYTHON_USEDEP}]

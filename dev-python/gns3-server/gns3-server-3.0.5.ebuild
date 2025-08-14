@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,9 +30,8 @@ DEPENDENCIES="~dev-python/uvicorn-0.34.2[${PYTHON_USEDEP}]
 	~dev-python/python-multipart-0.0.20[${PYTHON_USEDEP}]
 	~dev-python/websockets-15.0.1[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-3.12[${PYTHON_USEDEP}]
-	~dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-25.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.2[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	>=dev-python/psutil-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/async-timeout-5.1[${PYTHON_USEDEP}]

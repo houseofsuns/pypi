@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,30 +37,30 @@ DEPENDENCIES="dev-python/generic-parser[${PYTHON_USEDEP}]
 	>=dev-python/tables-3.10.1[${PYTHON_USEDEP}]
 	dev-python/tfs-pandas[${PYTHON_USEDEP}]
 	dev-python/turn-by-turn[${PYTHON_USEDEP}]
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	all? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/gitpython-3.1[${PYTHON_USEDEP}] )
+	all? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/kerberos-1.3.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylogbook[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	all? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-2.9[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-timeout-1.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytimber[${PYTHON_USEDEP}] )
-	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/qtpy-2.3.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
-	cern? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	cern? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	cern? ( >=dev-python/kerberos-1.3.1[${PYTHON_USEDEP}] )
 	cern? ( dev-python/pylogbook[${PYTHON_USEDEP}] )
 	cern? ( dev-python/pytimber[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	optional? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	test? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	optional? ( dev-python/PySide2[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/qtpy-2.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/gitpython-3.1[${PYTHON_USEDEP}] )
+	test? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-2.9[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-timeout-1.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"

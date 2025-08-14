@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/MechanicalSoup[${PYTHON_USEDEP}] )
+	tests? ( dev-python/mechanicalsoup[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests-wsgi-adapter[${PYTHON_USEDEP}] )
 	tests? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/html5lib[${PYTHON_USEDEP}] )

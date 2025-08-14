@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -140,7 +140,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev? ( dev-python/pystiche[${PYTHON_USEDEP}] )
 	dev? ( dev-python/icedata[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fiftyone[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-copybutton-0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/filelock[${PYTHON_USEDEP}] )
@@ -173,7 +173,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-mockautodoc[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	graph? ( dev-python/class-resolver[${PYTHON_USEDEP}] )
 	graph? ( dev-python/torch-sparse[${PYTHON_USEDEP}] )
@@ -224,7 +224,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	serve? ( >dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
 	serve? ( >dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )
 	serve? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	serve? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	serve? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	serve? ( >=dev-python/graphviz-0.19[${PYTHON_USEDEP}] )
 	serve? ( >dev-python/pydantic-1.8.1[${PYTHON_USEDEP}] )
 	tabular? ( dev-python/omegaconf[${PYTHON_USEDEP}] )

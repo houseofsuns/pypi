@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,12 +41,12 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	training? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	training? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	training? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	training? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	training? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	training? ( dev-python/peft[${PYTHON_USEDEP}] )
 	test? ( dev-python/compel[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	test? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	test? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
 	test? ( dev-python/k-diffusion[${PYTHON_USEDEP}] )
 	test? ( dev-python/librosa[${PYTHON_USEDEP}] )
@@ -80,9 +80,9 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/compel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/k-diffusion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/librosa[${PYTHON_USEDEP}] )
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/peft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )

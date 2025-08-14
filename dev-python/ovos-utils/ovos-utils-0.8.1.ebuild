@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="~dev-python/pexpect-4.9[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
 	dev-python/combo-lock[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	~dev-python/rich-click-1.7[${PYTHON_USEDEP}]
 	~dev-python/rich-13.7[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	extras? ( <dev-python/rapidfuzz-4.0[${PYTHON_USEDEP}] )

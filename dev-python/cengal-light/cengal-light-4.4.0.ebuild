@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all cengal-build-tools-build-extensions cengal-build-tools-gather-docs cengal-build-tools-packages-create cengal-data-manipulation-serialization cengal-file-system-app-fs-structure-app-dir-path cengal-parallel-execution-coroutines cengal-parallel-execution-coroutines-coro-standard-services-db cengal-parallel-execution-coroutines-coro-standard-services-lmdb cengal-parallel-execution-coroutines-coro-standard-services-log cengal-parallel-execution-coroutines-coro-standard-services-loop-yield cengal-parallel-execution-coroutines-coro-standard-services-read-write-locker cengal-parallel-execution-coroutines-coro-standard-services-tkinter cengal-parallel-execution-coroutines-coro-tools-loop-administration-admin-tk cengal-text-processing-encoding-detection cengal-time-management-relative-time-relativedelta cengal-user-interface-console-chooser cengal-user-interface-console-colorama-helpers cengal-user-interface-gui-tkinter cengal-web-tools-help-tools cengal_data_manipulation_serialization cengal_file_system_app_fs_structure_app_dir_path cengal_parallel_execution_coroutines_coro_standard_services_db cengal_parallel_execution_coroutines_coro_standard_services_lmdb cengal_parallel_execution_coroutines_coro_standard_services_log cengal_text_processing_encoding_detection cengal_web_tools_help_tools entities-asm-functions full hardware-info-cpu-versions-v-0 hardware-info-cpu-versions-v-1 hardware_info_cpu_versions_v_1 setuprequires"
+IUSE="all cengal-build-tools-build-extensions cengal-build-tools-gather-docs cengal-build-tools-packages-create cengal-data-manipulation-serialization cengal-file-system-app-fs-structure-app-dir-path cengal-parallel-execution-coroutines cengal-parallel-execution-coroutines-coro-standard-services-db cengal-parallel-execution-coroutines-coro-standard-services-lmdb cengal-parallel-execution-coroutines-coro-standard-services-log cengal-parallel-execution-coroutines-coro-standard-services-loop-yield cengal-parallel-execution-coroutines-coro-standard-services-read-write-locker cengal-parallel-execution-coroutines-coro-standard-services-tkinter cengal-parallel-execution-coroutines-coro-tools-loop-administration-admin-tk cengal-text-processing-encoding-detection cengal-time-management-relative-time-relativedelta cengal-user-interface-console-chooser cengal-user-interface-console-colorama-helpers cengal-user-interface-gui-tkinter cengal-web-tools-help-tools cengal_data_manipulation_serialization cengal_file_system_app_fs_structure_app_dir_path cengal_parallel_execution_coroutines_coro_standard_services_db cengal_parallel_execution_coroutines_coro_standard_services_lmdb cengal_parallel_execution_coroutines_coro_standard_services_log cengal_text_processing_encoding_detection entities-asm-functions full hardware-info-cpu-versions-v-0 hardware-info-cpu-versions-v-1 hardware_info_cpu_versions_v_1 setuprequires"
 DEPENDENCIES="all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/py-cpuinfo-7.0.0[${PYTHON_USEDEP}] )
@@ -45,8 +45,6 @@ DEPENDENCIES="all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgpack-pypy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyobjc[${PYTHON_USEDEP}] )
 	all? ( dev-python/lmdb[${PYTHON_USEDEP}] )
-	all? ( dev-python/http-parser[${PYTHON_USEDEP}] )
-	all? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	all? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgspec[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
@@ -86,7 +84,6 @@ DEPENDENCIES="all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	cengal-parallel-execution-coroutines-coro-tools-loop-administration-admin-tk? ( dev-python/ttkbootstrap[${PYTHON_USEDEP}] )
 	cengal-parallel-execution-coroutines-coro-tools-loop-administration-admin-tk? ( dev-python/pprintpp[${PYTHON_USEDEP}] )
 	cengal-text-processing-encoding-detection? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	cengal_text_processing_encoding_detection? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	cengal_text_processing_encoding_detection? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
 	cengal-time-management-relative-time-relativedelta? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	cengal-time-management-relative-time-relativedelta? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
@@ -98,7 +95,6 @@ DEPENDENCIES="all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	cengal-user-interface-gui-tkinter? ( dev-python/ttkbootstrap[${PYTHON_USEDEP}] )
 	cengal-web-tools-help-tools? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	cengal-web-tools-help-tools? ( dev-python/requests[${PYTHON_USEDEP}] )
-	cengal_web_tools_help_tools? ( dev-python/http-parser[${PYTHON_USEDEP}] )
 	entities-asm-functions? ( >=dev-python/py-cpuinfo-7.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	full? ( dev-python/pdoc[${PYTHON_USEDEP}] )
@@ -120,8 +116,6 @@ DEPENDENCIES="all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	full? ( dev-python/msgpack-pypy[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyobjc[${PYTHON_USEDEP}] )
 	full? ( dev-python/lmdb[${PYTHON_USEDEP}] )
-	full? ( dev-python/http-parser[${PYTHON_USEDEP}] )
-	full? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	full? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
 	full? ( dev-python/msgspec[${PYTHON_USEDEP}] )
 	full? ( dev-python/msgpack[${PYTHON_USEDEP}] )
@@ -134,7 +128,6 @@ DEPENDENCIES="all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	setuprequires? ( >=dev-python/cython-0.29.34[${PYTHON_USEDEP}] )
 	setuprequires? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	setuprequires? ( dev-python/PyBindGen[${PYTHON_USEDEP}] )
-	setuprequires? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	setuprequires? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,12 +45,12 @@ DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
 	all? ( <dev-python/scipy-1.11[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/faker-20.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pylint-3.3.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )

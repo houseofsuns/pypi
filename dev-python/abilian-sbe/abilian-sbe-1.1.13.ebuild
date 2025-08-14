@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-24.2.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	<dev-python/bleach-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/blinker-1.6.2[${PYTHON_USEDEP}]
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	<dev-python/html2text-2025.0[${PYTHON_USEDEP}]
 	>=dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.2.0[${PYTHON_USEDEP}]
 	dev-python/jsmin[${PYTHON_USEDEP}]
 	dev-python/langid[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-2.2.0[${PYTHON_USEDEP}]
 	dev-python/maxminddb[${PYTHON_USEDEP}]
-	dev-python/mmdb-writer[${PYTHON_USEDEP}]
+	dev-python/mmdb_writer[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
@@ -87,7 +87,7 @@ DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/validate_email[${PYTHON_USEDEP}]
 	dev-python/webassets[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-3.2[${PYTHON_USEDEP}]
-	dev-python/whoosh-reloaded[${PYTHON_USEDEP}]
+	dev-python/Whoosh-Reloaded[${PYTHON_USEDEP}]
 	dev-python/WTForms-Alchemy[${PYTHON_USEDEP}]
 	dev-python/WTForms-SQLAlchemy[${PYTHON_USEDEP}]
 	~dev-python/wtforms-3.1.2[${PYTHON_USEDEP}]

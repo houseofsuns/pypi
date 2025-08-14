@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/fontPens[${PYTHON_USEDEP}]
 	notebook? ( dev-python/tdqm[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
 	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	website? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	website? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	website? ( dev-python/python-frontmatter[${PYTHON_USEDEP}] )
 	website? ( dev-python/livereload[${PYTHON_USEDEP}] )
 	website? ( dev-python/markdown[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="charting extras jinja2 test"
 DEPENDENCIES="charting? ( dev-python/pygal[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	extras? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	test? ( >dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )"

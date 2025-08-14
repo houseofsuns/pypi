@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,9 +35,9 @@ DEPENDENCIES=">=dev-python/boltons-23.0.0[${PYTHON_USEDEP}]
 	dev-python/ensureconda[${PYTHON_USEDEP}]
 	<dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.30[${PYTHON_USEDEP}]
 	<dev-python/installer-0.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	<dev-python/keyring-26.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/pkginfo-2.0[${PYTHON_USEDEP}]
@@ -51,7 +51,6 @@ DEPENDENCIES=">=dev-python/boltons-23.0.0[${PYTHON_USEDEP}]
 	<dev-python/semver-4.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	<dev-python/shellingham-2.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/trove-classifiers-2022.5.19[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.6.1[${PYTHON_USEDEP}]

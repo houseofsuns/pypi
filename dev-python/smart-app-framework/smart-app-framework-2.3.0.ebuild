@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.10.5[${PYTHON_USEDEP}]
 	~dev-python/croniter-1.3.7[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	dev-python/ics[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	ml? ( dev-python/keras[${PYTHON_USEDEP}] )
 	dev-python/nltk[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
@@ -45,7 +45,6 @@ DEPENDENCIES="~dev-python/aiohttp-3.10.5[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/rusenttokenize[${PYTHON_USEDEP}]
-	ml? ( ~dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}] )
 	ml? ( ~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
 	~dev-python/setuptools-75.2.0[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]

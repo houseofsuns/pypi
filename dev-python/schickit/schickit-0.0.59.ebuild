@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
+	>=dev-python/levenshtein-0.21.1[${PYTHON_USEDEP}]
 	>=dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]

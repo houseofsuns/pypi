@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/graph-scheduler[${PYTHON_USEDEP}]
 	optional? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pytorch-sphinx-theme[${PYTHON_USEDEP}] )
 	optional? ( dev-python/sphinxcontrib-versioning[${PYTHON_USEDEP}] )
-	optional? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	optional? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	optional? ( dev-python/torchviz[${PYTHON_USEDEP}] )
 	optional? ( dev-python/netron[${PYTHON_USEDEP}] )
 	optional? ( dev-python/torch[${PYTHON_USEDEP}] )

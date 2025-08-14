@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc full full-no-qt full-pyqt6 full-pyside6 hdf5 test test-extra"
 DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.3[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -69,7 +69,6 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml-sort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
@@ -128,13 +127,13 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	full? ( dev-python/pybv[${PYTHON_USEDEP}] )
 	full? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	full? ( >dev-python/pyqt6-6.6.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyQt6-Qt6[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-picard[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )
 	full? ( >dev-python/qdarkstyle-3.2.2[${PYTHON_USEDEP}] )
-	full? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	full? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/sip[${PYTHON_USEDEP}] )
 	full? ( dev-python/snirf[${PYTHON_USEDEP}] )
@@ -180,7 +179,7 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	full-no-qt? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	full-no-qt? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )
 	full-no-qt? ( >dev-python/qdarkstyle-3.2.2[${PYTHON_USEDEP}] )
-	full-no-qt? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	full-no-qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	full-no-qt? ( >=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	full-no-qt? ( dev-python/sip[${PYTHON_USEDEP}] )
 	full-no-qt? ( dev-python/snirf[${PYTHON_USEDEP}] )
@@ -222,13 +221,13 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	full-pyqt6? ( dev-python/pybv[${PYTHON_USEDEP}] )
 	full-pyqt6? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
 	full-pyqt6? ( dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}] )
-	full-pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	full-pyqt6? ( >dev-python/pyqt6-6.6.0[${PYTHON_USEDEP}] )
 	full-pyqt6? ( dev-python/PyQt6-Qt6[${PYTHON_USEDEP}] )
 	full-pyqt6? ( dev-python/python-picard[${PYTHON_USEDEP}] )
 	full-pyqt6? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	full-pyqt6? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )
 	full-pyqt6? ( >dev-python/qdarkstyle-3.2.2[${PYTHON_USEDEP}] )
-	full-pyqt6? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	full-pyqt6? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	full-pyqt6? ( >=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	full-pyqt6? ( dev-python/sip[${PYTHON_USEDEP}] )
 	full-pyqt6? ( dev-python/snirf[${PYTHON_USEDEP}] )
@@ -275,7 +274,7 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	full-pyside6? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	full-pyside6? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )
 	full-pyside6? ( >dev-python/qdarkstyle-3.2.2[${PYTHON_USEDEP}] )
-	full-pyside6? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	full-pyside6? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	full-pyside6? ( >=dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}] )
 	full-pyside6? ( dev-python/sip[${PYTHON_USEDEP}] )
 	full-pyside6? ( dev-python/snirf[${PYTHON_USEDEP}] )
@@ -301,7 +300,6 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/toml-sort[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	test? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
@@ -331,7 +329,6 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	test-extra? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	test-extra? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	test-extra? ( dev-python/toml-sort[${PYTHON_USEDEP}] )
-	test-extra? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	test-extra? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test-extra? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	test-extra? ( dev-python/wheel[${PYTHON_USEDEP}] )"

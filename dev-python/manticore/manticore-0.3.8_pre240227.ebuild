@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.3.8.dev240227"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-5.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-xdist-1.30.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-0.790[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-evm[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-noks? ( >=dev-python/pytest-5.3.0[${PYTHON_USEDEP}] )
 	dev-noks? ( >=dev-python/pytest-xdist-1.30.0[${PYTHON_USEDEP}] )
 	dev-noks? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
-	dev-noks? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev-noks? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev-noks? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	dev-noks? ( ~dev-python/mypy-0.790[${PYTHON_USEDEP}] )
 	dev-noks? ( dev-python/py-evm[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,10 +28,15 @@ DEPENDENCIES="all? ( dev-python/jax[${PYTHON_USEDEP}] )
 	all? ( dev-python/jax[${PYTHON_USEDEP}] )
 	all? ( dev-python/jax[${PYTHON_USEDEP}] )
 	all? ( dev-python/jax[${PYTHON_USEDEP}] )
+	all? ( dev-python/jax[${PYTHON_USEDEP}] )
+	all? ( dev-python/jax[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
+	all? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
+	all? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-3.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/numpy-3.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/packaging-26.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )

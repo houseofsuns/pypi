@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES=">dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/lightning-utilities[${PYTHON_USEDEP}]
 	audio? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	audio? ( dev-python/gammatone[${PYTHON_USEDEP}] )
+	audio? ( dev-python/Gammatone[${PYTHON_USEDEP}] )
 	audio? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pesq[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pystoi[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES=">dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	visual? ( dev-python/SciencePlots[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	all? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	all? ( dev-python/gammatone[${PYTHON_USEDEP}] )
+	all? ( dev-python/Gammatone[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	all? ( dev-python/pesq[${PYTHON_USEDEP}] )
 	all? ( dev-python/pystoi[${PYTHON_USEDEP}] )
@@ -104,7 +104,7 @@ DEPENDENCIES=">dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	all? ( dev-python/SciencePlots[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gammatone[${PYTHON_USEDEP}] )
+	dev? ( dev-python/Gammatone[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pesq[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pystoi[${PYTHON_USEDEP}] )
@@ -161,7 +161,7 @@ DEPENDENCIES=">dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev? ( >dev-python/scipy-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fast-bss-eval[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sewar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dists-pytorch[${PYTHON_USEDEP}] )
+	dev? ( dev-python/DISTS-pytorch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lpips[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/scikit-image-0.19.0[${PYTHON_USEDEP}] )

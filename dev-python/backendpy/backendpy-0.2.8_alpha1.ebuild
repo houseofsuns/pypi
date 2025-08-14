@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.2.8a1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	full? ( >=dev-python/ujson-5.1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/sqlalchemy-1.4.31[${PYTHON_USEDEP}] )
-	full? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

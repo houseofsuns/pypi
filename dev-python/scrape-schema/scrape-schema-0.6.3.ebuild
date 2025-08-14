@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="ci codegen dev docs"
 DEPENDENCIES="dev-python/chompjs[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	ci? ( dev-python/black[${PYTHON_USEDEP}] )
 	ci? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	ci? ( dev-python/isort[${PYTHON_USEDEP}] )
@@ -35,7 +34,7 @@ DEPENDENCIES="dev-python/chompjs[${PYTHON_USEDEP}]
 	ci? ( dev-python/parsel[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	ci? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	codegen? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	codegen? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )

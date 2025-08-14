@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,7 +52,7 @@ DEPENDENCIES="<dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	online? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	online? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	online? ( dev-python/newrelic[${PYTHON_USEDEP}] )
-	online? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	online? ( <dev-python/gitpython-3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( <dev-python/coverage-6.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )

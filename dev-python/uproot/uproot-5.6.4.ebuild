@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES=">=dev-python/awkward-2.4.6[${PYTHON_USEDEP}]
 	>dev-python/fsspec-2025.7.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
 	gds-cu11? ( dev-python/kvikio-cu11[${PYTHON_USEDEP}] )
 	gds-cu12? ( dev-python/kvikio-cu12[${PYTHON_USEDEP}] )

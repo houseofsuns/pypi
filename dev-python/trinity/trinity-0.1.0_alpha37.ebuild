@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.1.0a37"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
 	<dev-python/ipython-7.10.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev-python/lahja[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	<dev-python/mypy-extensions-0.5.0[${PYTHON_USEDEP}]
 	~dev-python/plyvel-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}]
 	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
@@ -97,7 +97,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/ipython-7.10.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/jsonschema-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lahja[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-extensions-0.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/plyvel-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
@@ -182,7 +182,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
 	trinity? ( <dev-python/ipython-7.10.0[${PYTHON_USEDEP}] )
 	trinity? ( <dev-python/jsonschema-4.0[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/lahja[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/mypy-extensions-0.5.0[${PYTHON_USEDEP}] )
 	trinity? ( ~dev-python/plyvel-1.2.0[${PYTHON_USEDEP}] )
 	trinity? ( ~dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}] )
 	trinity? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )

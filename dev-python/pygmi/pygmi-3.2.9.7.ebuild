@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/fiona[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.25.2[${PYTHON_USEDEP}]
 	dev-python/shapelysmooth[${PYTHON_USEDEP}]
-	dev-python/SimPEG[${PYTHON_USEDEP}]
+	dev-python/simpeg[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.13.4[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

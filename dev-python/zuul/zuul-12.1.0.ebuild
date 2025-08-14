@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,16 +30,16 @@ DEPENDENCIES=">=dev-python/pbr-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/github3-py-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}]
 	>=dev-python/paramiko-2.0.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-2.1.8[${PYTHON_USEDEP}]
 	>=dev-python/python-daemon-2.0.4[${PYTHON_USEDEP}]
 	dev-python/extras[${PYTHON_USEDEP}]
 	>=dev-python/statsd-3.0[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.10.2[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	>=dev-python/apscheduler-3.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-3.0[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	>=dev-python/babel-1.0[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
 	dev-python/kazoo[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]

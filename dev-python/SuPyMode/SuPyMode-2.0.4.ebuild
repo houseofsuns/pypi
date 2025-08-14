@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -32,13 +32,13 @@ DEPENDENCIES=">=dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}]
 	dev-python/PyFinitDiff[${PYTHON_USEDEP}]
 	dev-python/FiberFusing[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
-	dev-python/pyfibermodes[${PYTHON_USEDEP}]
+	dev-python/PyFiberModes[${PYTHON_USEDEP}]
 	dev-python/pathvalidate[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-0.6[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-json-report[${PYTHON_USEDEP}] )
 	testing? ( ~dev-python/coverage-7.6.10[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/pyfibermodes[${PYTHON_USEDEP}] )
+	documentation? ( dev-python/PyFiberModes[${PYTHON_USEDEP}] )
 	documentation? ( ~dev-python/numpydoc-1.8.0[${PYTHON_USEDEP}] )
 	documentation? ( >=dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
 	documentation? ( ~dev-python/sphinx-gallery-0.18.0[${PYTHON_USEDEP}] )

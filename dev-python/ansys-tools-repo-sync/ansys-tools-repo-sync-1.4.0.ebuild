@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc tests"
 DEPENDENCIES=">=dev-python/click-8.0.4[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/pygithub-1.58[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/numpydoc-1.9.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-8.2.3[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-8.4.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-6.2.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/click-8.2.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
-	tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pygithub-2.6.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/gitpython-3.1.44[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

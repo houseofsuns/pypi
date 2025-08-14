@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.9.1.dev1734"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	dev-python/frformat[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-33.0.0[${PYTHON_USEDEP}]
 	dev-python/rstr[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-8.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/responses-0.25.0[${PYTHON_USEDEP}] )

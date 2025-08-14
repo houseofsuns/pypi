@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,9 +34,9 @@ DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
 	all? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
 	all? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	all? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	all? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	jdbc? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	jdbc? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/aioodbc[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )

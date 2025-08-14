@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,14 +31,14 @@ DEPENDENCIES=">=dev-python/pip-22.3.1[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/botocore-2.0[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	<dev-python/configargparse-2.0[${PYTHON_USEDEP}]
 	<dev-python/cython-0.30[${PYTHON_USEDEP}]
 	dev-python/dataframe-image[${PYTHON_USEDEP}]
 	<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/edit-distance[${PYTHON_USEDEP}]
 	<dev-python/elasticsearch-9.0[${PYTHON_USEDEP}]
 	dev-python/environment[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0[${PYTHON_USEDEP}]
 	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
 	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
@@ -75,6 +75,6 @@ DEPENDENCIES=">=dev-python/pip-22.3.1[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	<dev-python/unidecode-2.0[${PYTHON_USEDEP}]
 	dev-python/wikipedia[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]"
+	<dev-python/babel-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

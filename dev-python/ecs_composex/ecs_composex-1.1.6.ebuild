@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="ecrscan"
 DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
 	ecrscan? ( dev-python/ecr-scan-reporter[${PYTHON_USEDEP}] )
-	dev-python/compose-x-render[${PYTHON_USEDEP}]
+	dev-python/compose_x_render[${PYTHON_USEDEP}]
 	dev-python/compose_x_common[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.21[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	<dev-python/importlib-resources-7.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/retry2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/docker-8.0[${PYTHON_USEDEP}]
 	dev-python/troposphere-awscommunity-applicationautoscaling-scheduledaction[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

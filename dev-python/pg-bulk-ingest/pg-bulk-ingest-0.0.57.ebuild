@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,10 +29,12 @@ DEPENDENCIES="dev-python/pg-force-execute[${PYTHON_USEDEP}]
 	dev-python/to-file-like-obj[${PYTHON_USEDEP}]
 	ci? ( dev-python/pg-force-execute[${PYTHON_USEDEP}] )
 	ci? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
+	ci? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	ci? ( dev-python/to-file-like-obj[${PYTHON_USEDEP}] )
 	ci-sqlalchemy1-with-pg-arrow? ( dev-python/adbc-driver-postgresql[${PYTHON_USEDEP}] )
 	ci-sqlalchemy1-with-pg-arrow? ( ~dev-python/numpy-1.26.2[${PYTHON_USEDEP}] )
 	ci-sqlalchemy1-with-pg-arrow? ( ~dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	ci-sqlalchemy1-with-pg-arrow? ( ~dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	ci-sqlalchemy1-with-pg-arrow? ( dev-python/pgarrow[${PYTHON_USEDEP}] )
 	ci-sqlalchemy1-with-pg-arrow? ( dev-python/polars[${PYTHON_USEDEP}] )
 	ci-sqlalchemy1-with-pg-arrow? ( ~dev-python/psycopg-3.2.0[${PYTHON_USEDEP}] )
@@ -42,11 +44,14 @@ DEPENDENCIES="dev-python/pg-force-execute[${PYTHON_USEDEP}]
 	ci-sqlalchemy2-with-pg-arrow? ( dev-python/adbc-driver-postgresql[${PYTHON_USEDEP}] )
 	ci-sqlalchemy2-with-pg-arrow? ( ~dev-python/numpy-1.26.2[${PYTHON_USEDEP}] )
 	ci-sqlalchemy2-with-pg-arrow? ( ~dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	ci-sqlalchemy2-with-pg-arrow? ( ~dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	ci-sqlalchemy2-with-pg-arrow? ( dev-python/pgarrow[${PYTHON_USEDEP}] )
 	ci-sqlalchemy2-with-pg-arrow? ( dev-python/polars[${PYTHON_USEDEP}] )
 	ci-sqlalchemy2-with-pg-arrow? ( ~dev-python/pyarrow-18.0.0[${PYTHON_USEDEP}] )
+	ci-sqlalchemy2-with-pg-arrow? ( ~dev-python/sqlalchemy-2.0.41[${PYTHON_USEDEP}] )
 	ci-sqlalchemy2-with-pg-arrow? ( ~dev-python/sqlalchemy-2.0.7[${PYTHON_USEDEP}] )
 	ci-sqlalchemy2-without-pg-arrow? ( ~dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	ci-sqlalchemy2-without-pg-arrow? ( ~dev-python/sqlalchemy-2.0.31[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mypy-1.16.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pgvector[${PYTHON_USEDEP}] )

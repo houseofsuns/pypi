@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -73,7 +73,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	dev-python/ipfshttpclient[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	dev-python/jaeger-client[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
@@ -85,7 +85,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	dev-python/mirakuru[${PYTHON_USEDEP}]
 	dev-python/multiaddr[${PYTHON_USEDEP}]
 	~dev-python/multidict-5.1.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	~dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
 	~dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
 	~dev-python/objgraph-3.5.0[${PYTHON_USEDEP}]

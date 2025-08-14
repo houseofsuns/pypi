@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,12 +50,12 @@ DEPENDENCIES=">=dev-python/asttokens-2.2.1[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	>=dev-python/jedi-0.19.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	>=dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/ldap3-2.9.1[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-inline-0.1.6[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	>=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	dev-python/n2g[${PYTHON_USEDEP}]
@@ -71,10 +71,10 @@ DEPENDENCIES=">=dev-python/asttokens-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
 	>=dev-python/pyftpdlib-1.5.9[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-6.5.1[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
-	dev-python/PyQt6-sip[${PYTHON_USEDEP}]
-	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-sip-13.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pyqt6-webengine-6.5.0[${PYTHON_USEDEP}]
 	dev-python/PyQt6-WebEngine-Qt6[${PYTHON_USEDEP}]
 	dev-python/pyqtdarktheme[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
@@ -89,7 +89,7 @@ DEPENDENCIES=">=dev-python/asttokens-2.2.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.20[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-orm[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy-serializer[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy-serializer[${PYTHON_USEDEP}]
 	>=dev-python/stack-data-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/svgwrite-1.4.3[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]

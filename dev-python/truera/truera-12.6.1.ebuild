@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -59,7 +59,7 @@ DEPENDENCIES=">=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	nlp? ( >=dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	nlp? ( ~dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	nlp? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	nlp? ( >=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}] )
 	nlp? ( >=dev-python/networkx-2.5.1[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES=">=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	rnn? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	rnn? ( >=dev-python/diskcache-5.4.0[${PYTHON_USEDEP}] )
 	rnn? ( ~dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )
-	rnn? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	rnn? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	rnn? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
 	rnn? ( >=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	rnn? ( >=dev-python/networkx-2.5.1[${PYTHON_USEDEP}] )

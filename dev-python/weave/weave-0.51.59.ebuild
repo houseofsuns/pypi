@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -98,7 +98,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	presidio? ( dev-python/presidio-analyzer[${PYTHON_USEDEP}] )
 	presidio? ( dev-python/presidio-anonymizer[${PYTHON_USEDEP}] )
 	scorers? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	scorers? ( dev-python/Levenshtein[${PYTHON_USEDEP}] )
+	scorers? ( >=dev-python/levenshtein-0.26.0[${PYTHON_USEDEP}] )
 	scorers? ( dev-python/litellm[${PYTHON_USEDEP}] )
 	scorers? ( >dev-python/numpy-1.21.0[${PYTHON_USEDEP}] )
 	scorers? ( >=dev-python/pip-20.0[${PYTHON_USEDEP}] )

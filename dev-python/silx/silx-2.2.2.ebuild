@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	full? ( dev-python/hdf5plugin[${PYTHON_USEDEP}] )
 	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	full? ( dev-python/pillow[${PYTHON_USEDEP}] )

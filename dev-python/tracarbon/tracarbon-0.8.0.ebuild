@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -58,7 +58,7 @@ DEPENDENCIES="<dev-python/loguru-0.8[${PYTHON_USEDEP}]
 	dev? ( <dev-python/radon-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	dev? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uv[${PYTHON_USEDEP}] )
 	all? ( dev-python/tracarbon[${PYTHON_USEDEP}] )
 	all? ( dev-python/tracarbon[${PYTHON_USEDEP}] )

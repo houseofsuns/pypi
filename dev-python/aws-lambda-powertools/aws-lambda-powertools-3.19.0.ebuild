@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="kafka-consumer-avro? ( dev-python/avro[${PYTHON_USEDEP}] )
 	tracer? ( <dev-python/aws-xray-sdk-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/aws-xray-sdk-3.0.0[${PYTHON_USEDEP}] )
 	aws-sdk? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
-	datadog? ( dev-python/datadog-lambda[${PYTHON_USEDEP}] )
+	datadog? ( dev-python/datadog_lambda[${PYTHON_USEDEP}] )
 	validation? ( <dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}] )
 	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]

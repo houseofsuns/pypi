@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,12 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="colorama d jupyter uvloop"
 DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	>=dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
 	colorama? ( >=dev-python/colorama-0.4.3[${PYTHON_USEDEP}] )
 	d? ( >=dev-python/aiohttp-3.10[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/ipython-7.8.0[${PYTHON_USEDEP}] )

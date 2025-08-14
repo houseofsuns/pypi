@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,12 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev readme test tutorials"
 DEPENDENCIES=">=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
-	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.10.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.12.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.14.1[${PYTHON_USEDEP}]
 	tutorials? ( >=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	tutorials? ( >=dev-python/scikit-learn-0.24[${PYTHON_USEDEP}] )
 	tutorials? ( >=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}] )
@@ -56,7 +59,7 @@ DEPENDENCIES=">=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	dev? ( <dev-python/sphinxcontrib-qthelp-2.1[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/alabaster-0.8[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/lxml-html-clean-0.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja2-3.2[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/myst-parser-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-1.10.0[${PYTHON_USEDEP}] )

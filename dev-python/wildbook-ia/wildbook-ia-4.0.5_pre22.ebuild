@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="4.0.5.dev22"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
 	~dev-python/docker-6.0.0[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-2.0.1[${PYTHON_USEDEP}]
 	dev-python/Flask-CAS[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	~dev-python/flask-login-0.5.0[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	dev-python/flask-swagger[${PYTHON_USEDEP}]
 	dev-python/GDM[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.27[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	~dev-python/ipython-7.34.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
@@ -139,7 +139,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}] )
 	all? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/docker-6.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flask-caching-2.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask-CAS[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/flask-login-0.5.0[${PYTHON_USEDEP}] )
@@ -150,7 +150,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	all? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )
 	all? ( dev-python/GDM[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/gitpython-3.1.27[${PYTHON_USEDEP}] )
 	all? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/ipython-7.34.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
@@ -259,7 +259,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	runtime? ( ~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/docker-6.0.0[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
+	runtime? ( ~dev-python/flask-caching-2.0.1[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/Flask-CAS[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/flask-login-0.5.0[${PYTHON_USEDEP}] )
@@ -270,7 +270,7 @@ DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	runtime? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/GDM[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	runtime? ( ~dev-python/gitpython-3.1.27[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/ipython-7.34.0[${PYTHON_USEDEP}] )
 	runtime? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )

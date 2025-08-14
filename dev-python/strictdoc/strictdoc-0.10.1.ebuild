@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/html2pdf4doc[${PYTHON_USEDEP}]
 	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11.2[${PYTHON_USEDEP}]
 	>=dev-python/lark-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.0[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
 	dev-python/reqif[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/spdx-tools[${PYTHON_USEDEP}]
-	dev-python/textX[${PYTHON_USEDEP}]
+	~dev-python/textx-4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/tree-sitter[${PYTHON_USEDEP}]
 	dev-python/tree-sitter-cpp[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="~dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
 	~dev-python/xlsxwriter-1.0[${PYTHON_USEDEP}]
 	development? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	development? ( >=dev-python/tox-4.4.8[${PYTHON_USEDEP}] )
-	nuitka? ( dev-python/Nuitka[${PYTHON_USEDEP}] )
+	nuitka? ( dev-python/nuitka[${PYTHON_USEDEP}] )
 	nuitka? ( dev-python/ordered-set[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

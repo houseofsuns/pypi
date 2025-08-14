@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	test? ( >=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
 	test? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/ujson-4.0.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )"

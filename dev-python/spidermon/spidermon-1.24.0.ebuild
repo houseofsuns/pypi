@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="monitoring"
 DEPENDENCIES=">=dev-python/jsonschema-4.21.0[${PYTHON_USEDEP}]
 	dev-python/python-slugify[${PYTHON_USEDEP}]
-	monitoring? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	monitoring? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/boto[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/itemadapter[${PYTHON_USEDEP}] )

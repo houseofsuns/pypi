@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
 	zstandard? ( dev-python/zstandard[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiosonic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/glom[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-bdd-6.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

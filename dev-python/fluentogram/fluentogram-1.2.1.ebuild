@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiogram cli dev nats stubs"
 DEPENDENCIES="dev-python/fluent-compiler[${PYTHON_USEDEP}]
-	stubs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	stubs? ( <dev-python/jinja2-4.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/fluentogram[${PYTHON_USEDEP}] )
 	cli? ( >=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
 	aiogram? ( dev-python/aiogram[${PYTHON_USEDEP}] )

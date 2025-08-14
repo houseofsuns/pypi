@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/txl_cell[${PYTHON_USEDEP}]
-	dev-python/txl_console[${PYTHON_USEDEP}]
-	dev-python/txl_editors[${PYTHON_USEDEP}]
-	dev-python/txl_file_browser[${PYTHON_USEDEP}]
-	dev-python/txl_image_viewer[${PYTHON_USEDEP}]
-	dev-python/txl_jpterm[${PYTHON_USEDEP}]
-	dev-python/txl_kernel[${PYTHON_USEDEP}]
-	dev-python/txl_launcher[${PYTHON_USEDEP}]
-	dev-python/txl_local_contents[${PYTHON_USEDEP}]
-	dev-python/txl_local_kernels[${PYTHON_USEDEP}]
-	dev-python/txl_local_terminals[${PYTHON_USEDEP}]
-	dev-python/txl_markdown_viewer[${PYTHON_USEDEP}]
-	dev-python/txl_notebook_editor[${PYTHON_USEDEP}]
-	dev-python/txl_remote_contents[${PYTHON_USEDEP}]
-	dev-python/txl_remote_kernels[${PYTHON_USEDEP}]
-	dev-python/txl_remote_terminals[${PYTHON_USEDEP}]
-	dev-python/txl_terminal[${PYTHON_USEDEP}]
-	dev-python/txl_text_editor[${PYTHON_USEDEP}]
-	dev-python/txl_widgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rich-click-1.6.0[${PYTHON_USEDEP}]
+	dev-python/txl-cell[${PYTHON_USEDEP}]
+	dev-python/txl-console[${PYTHON_USEDEP}]
+	dev-python/txl-editors[${PYTHON_USEDEP}]
+	dev-python/txl-file-browser[${PYTHON_USEDEP}]
+	dev-python/txl-image-viewer[${PYTHON_USEDEP}]
+	dev-python/txl-jpterm[${PYTHON_USEDEP}]
+	dev-python/txl-kernel[${PYTHON_USEDEP}]
+	dev-python/txl-launcher[${PYTHON_USEDEP}]
+	dev-python/txl-local-contents[${PYTHON_USEDEP}]
+	dev-python/txl-local-kernels[${PYTHON_USEDEP}]
+	dev-python/txl-local-terminals[${PYTHON_USEDEP}]
+	dev-python/txl-markdown-viewer[${PYTHON_USEDEP}]
+	dev-python/txl-notebook-editor[${PYTHON_USEDEP}]
+	dev-python/txl-remote-contents[${PYTHON_USEDEP}]
+	dev-python/txl-remote-kernels[${PYTHON_USEDEP}]
+	dev-python/txl-remote-terminals[${PYTHON_USEDEP}]
+	dev-python/txl-terminal[${PYTHON_USEDEP}]
+	dev-python/txl-text-editor[${PYTHON_USEDEP}]
+	dev-python/txl-widgets[${PYTHON_USEDEP}]
 	dev-python/txl[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="standard"
 DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	>=dev-python/h11-0.8[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	standard? ( >=dev-python/httptools-0.6.3[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/python-dotenv-0.13[${PYTHON_USEDEP}] )
 	standard? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,8 +43,8 @@ DEPENDENCIES="<dev-python/deepdiff-8.0.0[${PYTHON_USEDEP}]
 	atari? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
 	mujoco-py? ( >=dev-python/cython-0.27.2[${PYTHON_USEDEP}] )
-	argparse? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
-	eval? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	argparse? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
+	eval? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	envpool? ( dev-python/envpool[${PYTHON_USEDEP}] )
 	robotics? ( dev-python/gymnasium-robotics[${PYTHON_USEDEP}] )
 	mujoco? ( >=dev-python/imageio-2.14.1[${PYTHON_USEDEP}] )

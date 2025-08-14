@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/acachecontrol[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.18.0[${PYTHON_USEDEP}]
 	~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.12[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.30[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.9.1[${PYTHON_USEDEP}]
 	~dev-python/greenlet-1.1.3_p0[${PYTHON_USEDEP}]
 	dev-python/gremlinpython[${PYTHON_USEDEP}]
@@ -100,7 +100,7 @@ DEPENDENCIES="dev-python/acachecontrol[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.7.2[${PYTHON_USEDEP}]
 	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-specifications-2024.10.1[${PYTHON_USEDEP}]
@@ -129,7 +129,7 @@ DEPENDENCIES="dev-python/acachecontrol[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-modules-0.2.8[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.58[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.14.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]

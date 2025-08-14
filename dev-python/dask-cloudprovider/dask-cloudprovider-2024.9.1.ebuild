@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="all aws azure digitalocean gcp hetzner ibm openstack"
 DEPENDENCIES=">=dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	>=dev-python/tornado-5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/ibm-code-engine-sdk[${PYTHON_USEDEP}] )

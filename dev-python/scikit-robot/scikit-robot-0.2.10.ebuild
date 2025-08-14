@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	>=dev-python/pycollada-0.8[${PYTHON_USEDEP}]
 	<dev-python/pyglet-2.0[${PYTHON_USEDEP}]
 	dev-python/pysdfgen[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	dev-python/rtree[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.24.0[${PYTHON_USEDEP}]
 	dev-python/scikit-robot-pyrender[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]

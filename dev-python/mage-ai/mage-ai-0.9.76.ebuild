@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ai airtable all azure bigquery chroma clickhouse dbt google-cloud-storage hdf5 mysql oracle postgres qdrant redshift s3 snowflake spark streaming"
 DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/faker-4.14.0[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.41[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	~dev-python/pillow-10.3.0[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.59.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}]
@@ -109,9 +109,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dbt? ( dev-python/trino[${PYTHON_USEDEP}] )
 	google-cloud-storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	google-cloud-storage? ( dev-python/gspread[${PYTHON_USEDEP}] )
-	hdf5? ( ~dev-python/tables-3.7.0[${PYTHON_USEDEP}] )
 	hdf5? ( ~dev-python/tables-3.10.1[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
@@ -139,7 +137,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	streaming? ( ~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
 	streaming? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	streaming? ( ~dev-python/stomp-py-8.1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pygithub-1.59.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/astor-0.8.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/aws-secretsmanager-caching[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-eventhub[${PYTHON_USEDEP}] )

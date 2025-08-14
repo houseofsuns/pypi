@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="pygsti"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	diamond-norm? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	evolutionary-optimization? ( dev-python/deap[${PYTHON_USEDEP}] )
 	extensions? ( dev-python/cython[${PYTHON_USEDEP}] )
-	html-reports? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	html-reports? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	html-reports? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
 	interpygate? ( dev-python/csaps[${PYTHON_USEDEP}] )
 	linting? ( dev-python/autopep8[${PYTHON_USEDEP}] )

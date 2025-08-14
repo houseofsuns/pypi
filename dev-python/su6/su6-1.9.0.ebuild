@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/configuraptor[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	all? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/contextlib-chdir[${PYTHON_USEDEP}] )
 	all? ( dev-python/genbadge[${PYTHON_USEDEP}] )
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -46,7 +45,6 @@ DEPENDENCIES="dev-python/configuraptor[${PYTHON_USEDEP}]
 	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	prettier? ( dev-python/su6-plugin-prettier[${PYTHON_USEDEP}] )
 	pydocstyle? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	pytest? ( dev-python/contextlib-chdir[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/genbadge[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12,3_10} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/black-25.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	>=dev-python/xarray-2025.1.2[${PYTHON_USEDEP}]
-	dev? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	dev? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autograd[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoimport[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-25.1.0[${PYTHON_USEDEP}] )

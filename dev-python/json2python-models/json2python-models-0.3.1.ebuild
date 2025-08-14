@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES=">=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
 	>=dev-python/inflection-0.3[${PYTHON_USEDEP}]
 	>=dev-python/unidecode-1.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )

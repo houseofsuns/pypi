@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pygithub-1.43[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-django-5.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pytest-9.0[${PYTHON_USEDEP}] )

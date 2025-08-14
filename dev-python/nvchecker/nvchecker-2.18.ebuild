@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="awesomeversion htmlparser jq pypi rpmrepo vercmp"
-DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/structlog[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	>=dev-python/tornado-6.0[${PYTHON_USEDEP}]
 	dev-python/pycurl[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mssql"
 DEPENDENCIES="~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.9.1_p1[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.1[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
@@ -40,10 +40,10 @@ DEPENDENCIES="~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
 	dev-python/fideslang[${PYTHON_USEDEP}]
 	dev-python/fideslog[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.27[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
 	~dev-python/hvac-0.11.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.6[${PYTHON_USEDEP}]
 	dev-python/multidimensional_urlencode[${PYTHON_USEDEP}]
 	dev-python/okta[${PYTHON_USEDEP}]

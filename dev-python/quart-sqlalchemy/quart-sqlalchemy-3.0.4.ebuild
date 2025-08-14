@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Quart[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/quart-0.20.0[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-3.1.0[${PYTHON_USEDEP}]
 	<dev-python/blinker-1.7[${PYTHON_USEDEP}]
 	<dev-python/sqlalchemy-2.1.0[${PYTHON_USEDEP}]

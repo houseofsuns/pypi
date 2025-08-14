@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( <dev-python/plotly-5.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/selenium-4.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	all? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plotting? ( <dev-python/plotly-5.0[${PYTHON_USEDEP}] )
 	plotting? ( <dev-python/selenium-4.0[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	plotting? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

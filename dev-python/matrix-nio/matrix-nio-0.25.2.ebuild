@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,9 +37,9 @@ DEPENDENCIES="~dev-python/aiohttp-3.10[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/hpack-4.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hyperframe-6.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hypothesis-6.8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/faker-8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.11[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-8.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-asyncio-0.24[${PYTHON_USEDEP}] )

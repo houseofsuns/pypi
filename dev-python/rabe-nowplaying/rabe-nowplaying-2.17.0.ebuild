@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	<dev-python/configargparse-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/cherrypy-19.0.0[${PYTHON_USEDEP}]
 	<dev-python/cachelib-0.11.0[${PYTHON_USEDEP}]
 	<dev-python/cachecontrol-0.14.0[${PYTHON_USEDEP}]

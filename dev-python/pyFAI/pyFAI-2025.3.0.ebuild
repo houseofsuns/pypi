@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,9 +31,9 @@ DEPENDENCIES=">=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	>dev-python/numexpr-2.8.6[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	opencl? ( dev-python/pyopencl[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyopencl[${PYTHON_USEDEP}] )
 	all? ( dev-python/hdf5plugin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

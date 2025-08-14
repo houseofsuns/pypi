@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs qa testing"
 DEPENDENCIES="<dev-python/parso-0.9.0[${PYTHON_USEDEP}]
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-2.11.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/pygments-2.8.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
-	docs? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/babel-2.9.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/chardet-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/commonmark-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )

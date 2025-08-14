@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,6 @@ DEPENDENCIES=">=dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.2.2[${PYTHON_USEDEP}]
 	>=dev-python/sqlglot-23.6.4[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/toolz-0.11.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]

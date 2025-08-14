@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="aiohttp quart starlette"
 DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/quantile-python[${PYTHON_USEDEP}]
 	aiohttp? ( >=dev-python/aiohttp-3.3.2[${PYTHON_USEDEP}] )
-	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	quart? ( >=dev-python/quart-0.15.1[${PYTHON_USEDEP}] )
 	starlette? ( >=dev-python/starlette-0.14.2[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

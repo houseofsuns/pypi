@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="<=dev-python/diskcache-5.6.3[${PYTHON_USEDEP}]
 	test? ( <=dev-python/coverage-7.10.1[${PYTHON_USEDEP}] )
 	test? ( <=dev-python/hypothesis-6.136.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter-bokeh[${PYTHON_USEDEP}] )
+	test? ( dev-python/jupyter_bokeh[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	test? ( dev-python/pip[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

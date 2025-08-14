@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,13 +44,13 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	all? ( >=dev-python/mkdocs-material-8.1.11[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytkdocs[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-genutils-0.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-bibtex[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/nbconvert-6.4.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/numpydoc-1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-20.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
@@ -70,13 +70,13 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-material-8.1.11[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipython-genutils-0.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-bibtex[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbconvert-6.4.2[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/numpydoc-1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/black-20.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -89,7 +89,7 @@ DEPENDENCIES="~dev-python/amqp-5.0.9[${PYTHON_USEDEP}]
 	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]
 	~dev-python/black-24.3.0[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-13.3.1[${PYTHON_USEDEP}]
 	dev-python/faker-file[${PYTHON_USEDEP}]
 	~dev-python/flake8-5.0.4[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.19[${PYTHON_USEDEP}]

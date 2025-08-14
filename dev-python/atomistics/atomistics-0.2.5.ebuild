@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	phonopy? ( dev-python/structuretoolkit[${PYTHON_USEDEP}] )
 	gpaw? ( dev-python/gpaw[${PYTHON_USEDEP}] )
 	lammps? ( dev-python/pylammpsmpi[${PYTHON_USEDEP}] )
-	lammps? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	lammps? ( <=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	lammps? ( <=dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	lammps? ( dev-python/pyiron-lammps[${PYTHON_USEDEP}] )
 	lammps-phonons? ( dev-python/pylammpsmpi[${PYTHON_USEDEP}] )
-	lammps-phonons? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	lammps-phonons? ( <=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	lammps-phonons? ( <=dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	lammps-phonons? ( dev-python/dynaphopy[${PYTHON_USEDEP}] )
 	lammps-phonons? ( dev-python/pyiron-lammps[${PYTHON_USEDEP}] )

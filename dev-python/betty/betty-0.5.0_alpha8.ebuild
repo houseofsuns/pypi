@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.5.0a8"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci development setuptools test"
 DEPENDENCIES="~dev-python/aiofiles-24.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.12[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.16[${PYTHON_USEDEP}]
 	~dev-python/furo-2025.7.19[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	~dev-python/lxml-6.0[${PYTHON_USEDEP}]

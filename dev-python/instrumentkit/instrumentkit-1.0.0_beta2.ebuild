@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.0.0b2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,6 +32,7 @@ DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/PyVISA[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
+	dev-python/standard-xdrlib[${PYTHON_USEDEP}]
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/hypothesis-6.98.2[${PYTHON_USEDEP}] )

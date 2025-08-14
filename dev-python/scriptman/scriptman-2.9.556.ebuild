@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/tqdm-4.67.1[${PYTHON_USEDEP}]
 	etl? ( >=dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	etl? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	pyodbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	scheduler? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	scheduler? ( >=dev-python/apscheduler-3.11.0[${PYTHON_USEDEP}] )
 	scheduler? ( >=dev-python/pydantic-2.10.6[${PYTHON_USEDEP}] )
 	selenium? ( >=dev-python/selenium-4.28.1[${PYTHON_USEDEP}] )
 	selenium? ( >=dev-python/requests-2.32.3[${PYTHON_USEDEP}] )

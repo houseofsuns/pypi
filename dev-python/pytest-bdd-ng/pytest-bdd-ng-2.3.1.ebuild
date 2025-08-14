@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,13 +41,12 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/parse_type[${PYTHON_USEDEP}]
+	>=dev-python/parse-type-0.6.0[${PYTHON_USEDEP}]
 	dev-python/pathvalidate[${PYTHON_USEDEP}]
 	dev-python/py[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.3[${PYTHON_USEDEP}]
 	>=dev-python/pytest-5.2[${PYTHON_USEDEP}]
 	dev-python/cucumber-tag-expressions[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	allure? ( dev-python/allure-python-commons[${PYTHON_USEDEP}] )
 	allure? ( dev-python/allure-pytest[${PYTHON_USEDEP}] )
 	doc-gen? ( dev-python/docopt-ng[${PYTHON_USEDEP}] )
@@ -63,7 +62,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	struct-bdd? ( dev-python/hjson[${PYTHON_USEDEP}] )
 	struct-bdd? ( dev-python/json5[${PYTHON_USEDEP}] )
 	struct-bdd? ( dev-python/pyhocon[${PYTHON_USEDEP}] )
-	struct-bdd? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	struct-bdd? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	struct-bdd? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/allure-python-commons-test[${PYTHON_USEDEP}] )

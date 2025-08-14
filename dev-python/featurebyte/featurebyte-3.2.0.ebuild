@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="<dev-python/aiofiles-25.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/lazy-object-proxy-2.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/motor[${PYTHON_USEDEP}] )
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]

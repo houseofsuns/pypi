@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
 	dev-python/python-datamodel[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-3.1.0[${PYTHON_USEDEP}]
 	<dev-python/emoji-2.15.0[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	all? ( dev-python/O365[${PYTHON_USEDEP}] )
 	all? ( dev-python/Office365-REST-Python-Client[${PYTHON_USEDEP}] )
 	all? ( dev-python/msal[${PYTHON_USEDEP}] )
-	all? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyshorteners[${PYTHON_USEDEP}] )
 	all? ( dev-python/twilio[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/slixmpp-1.10.0[${PYTHON_USEDEP}] )

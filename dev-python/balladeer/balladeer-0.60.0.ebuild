@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,6 @@ DEPENDENCIES="dev-python/busker[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/speechmark[${PYTHON_USEDEP}]
 	>=dev-python/starlette-0.42.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	classic? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	classic? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	classic? ( dev-python/turberfield-catchphrase[${PYTHON_USEDEP}] )

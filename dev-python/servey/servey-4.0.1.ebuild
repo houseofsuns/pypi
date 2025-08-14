@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
 	dev-python/schemey[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pytest-xdist-3.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/starlette-0.19[${PYTHON_USEDEP}] )
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
@@ -64,6 +64,6 @@ DEPENDENCIES="~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
 	serverless? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	serverless? ( ~dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
 	serverless? ( dev-python/strawberry-graphql[${PYTHON_USEDEP}] )
-	web_page? ( dev-python/jinja[${PYTHON_USEDEP}] )"
+	web_page? ( ~dev-python/jinja2-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

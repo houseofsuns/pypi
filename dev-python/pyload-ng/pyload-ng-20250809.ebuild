@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.5.0b3.dev91"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="all build plugins"
 DEPENDENCIES="dev-python/cheroot[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-babel[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-1.9[${PYTHON_USEDEP}]
 	~dev-python/flask-compress-1.8[${PYTHON_USEDEP}]
 	dev-python/Flask-Session[${PYTHON_USEDEP}]
 	dev-python/Flask-Themes2[${PYTHON_USEDEP}]
@@ -48,10 +48,10 @@ DEPENDENCIES="dev-python/cheroot[${PYTHON_USEDEP}]
 	all? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
 	all? ( dev-python/slixmpp[${PYTHON_USEDEP}] )
 	all? ( dev-python/send2trash[${PYTHON_USEDEP}] )
-	all? ( dev-python/Babel[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	build? ( dev-python/Babel[${PYTHON_USEDEP}] )
-	build? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/babel[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
+	build? ( dev-python/babel[${PYTHON_USEDEP}] )
+	build? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/colorlog[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/pillow[${PYTHON_USEDEP}] )

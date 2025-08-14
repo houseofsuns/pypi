@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,9 +52,9 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/user-agents[${PYTHON_USEDEP}] )
-	all? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	all? ( dev-python/pysocks[${PYTHON_USEDEP}] )
 	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	all? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	all? ( dev-python/apscheduler[${PYTHON_USEDEP}] )
 	all? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	all? ( dev-python/rule-engine[${PYTHON_USEDEP}] )
@@ -81,8 +81,8 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	http? ( dev-python/requests[${PYTHON_USEDEP}] )
 	http? ( dev-python/user-agents[${PYTHON_USEDEP}] )
-	net? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	net? ( dev-python/pysocks[${PYTHON_USEDEP}] )
 	net? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	scheduler? ( dev-python/APScheduler[${PYTHON_USEDEP}] )"
+	scheduler? ( dev-python/apscheduler[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

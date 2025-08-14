@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torch-scatter[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.61.1[${PYTHON_USEDEP}]
 	dev-python/pygeos[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	~dev-python/rtree-0.9.7[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	~dev-python/cython-0.29.24[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]

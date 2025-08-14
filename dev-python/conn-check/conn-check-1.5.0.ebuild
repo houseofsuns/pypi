@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,12 +37,12 @@ DEPENDENCIES=">=dev-python/characteristic-14.0[${PYTHON_USEDEP}]
 	>=dev-python/txrequests-0.9.6[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	all? ( dev-python/txAMQP[${PYTHON_USEDEP}] )
+	all? ( dev-python/txamqp[${PYTHON_USEDEP}] )
 	all? ( dev-python/txredis[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all? ( dev-python/txmongo[${PYTHON_USEDEP}] )
 	all? ( dev-python/netaddr[${PYTHON_USEDEP}] )
-	amqp? ( dev-python/txAMQP[${PYTHON_USEDEP}] )
+	amqp? ( dev-python/txamqp[${PYTHON_USEDEP}] )
 	fwutil? ( dev-python/netaddr[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/txmongo[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

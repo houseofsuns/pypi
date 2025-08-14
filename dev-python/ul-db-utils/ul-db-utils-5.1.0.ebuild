@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="~dev-python/flask-3.1.0[${PYTHON_USEDEP}]
 	~dev-python/flask-migrate-4.1.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.29[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy-serializer[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy-serializer[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.14.1[${PYTHON_USEDEP}]
 	dev-python/flask-mongoengine_3[${PYTHON_USEDEP}]
 	~dev-python/redis-5.2.1[${PYTHON_USEDEP}]

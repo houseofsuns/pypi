@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
 	dev? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
 	rpi? ( dev-python/RPi-GPIO[${PYTHON_USEDEP}] )
 	ui? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	ui? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	ui? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	ui? ( ~dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

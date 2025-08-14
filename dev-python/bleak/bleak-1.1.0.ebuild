@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pythonista"
-DEPENDENCIES=">=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
-	pythonista? ( dev-python/bleak-pythonista[${PYTHON_USEDEP}] )
+DEPENDENCIES="pythonista? ( dev-python/bleak-pythonista[${PYTHON_USEDEP}] )
 	>=dev-python/dbus-fast-1.83.0[${PYTHON_USEDEP}]
 	dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CoreBluetooth[${PYTHON_USEDEP}]

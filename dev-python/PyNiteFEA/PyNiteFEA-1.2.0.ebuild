@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/trame-jupyter-extension[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdfkit[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	vtk? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	vtk? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	pyvista? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	pyvista? ( dev-python/trame-jupyter-extension[${PYTHON_USEDEP}] )
 	pyvista? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	reporting? ( dev-python/pdfkit[${PYTHON_USEDEP}] )
-	reporting? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	reporting? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	derivations? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	derivations? ( dev-python/sympy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

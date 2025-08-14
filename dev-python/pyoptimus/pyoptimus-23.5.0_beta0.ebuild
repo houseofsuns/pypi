@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="23.5.0b0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/fastnumbers[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-50.3.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.1[${PYTHON_USEDEP}]
 	>=dev-python/humanize-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/deepdiff-5.5.0[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]

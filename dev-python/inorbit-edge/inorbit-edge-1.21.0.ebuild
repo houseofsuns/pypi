@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/rdp2[${PYTHON_USEDEP}]
 	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	<dev-python/pyaml-24.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	<dev-python/pysocks-2.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.2[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/idna-2.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pysocks-1.5.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
 	security? ( >=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}] )
 	security? ( >=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}] )
 	security? ( >=dev-python/idna-2.0.0[${PYTHON_USEDEP}] )
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
+	socks? ( >=dev-python/pysocks-1.5.6[${PYTHON_USEDEP}] )
 	speedups? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )

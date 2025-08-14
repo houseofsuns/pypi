@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/azure-functions[${PYTHON_USEDEP}]
 	dev-python/adbc-driver-sqlite[${PYTHON_USEDEP}]
 	dev-python/adbc-driver-postgresql[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	~dev-python/rich-click-1.7.3[${PYTHON_USEDEP}]
 	~dev-python/click-log-0.4.0[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.67.1[${PYTHON_USEDEP}]
 	~dev-python/openpyxl-3.1[${PYTHON_USEDEP}]

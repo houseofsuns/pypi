@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.1.0a0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="async extra"
 DEPENDENCIES="extra? ( >=dev-python/msgpack-0.5.6[${PYTHON_USEDEP}] )
 	extra? ( >=dev-python/cbor2-5.2.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	extra? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/dbutils-3.0.0[${PYTHON_USEDEP}] )
 	async? ( >=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}] )
 	async? ( >=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

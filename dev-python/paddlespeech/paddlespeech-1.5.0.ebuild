@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/pattern-singleton[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
-	develop? ( dev-python/ConfigArgParse[${PYTHON_USEDEP}] )
+	develop? ( dev-python/configargparse[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	develop? ( dev-python/gpustat[${PYTHON_USEDEP}] )
 	develop? ( dev-python/paddlespeech-ctcdecoders[${PYTHON_USEDEP}] )

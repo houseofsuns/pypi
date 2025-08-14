@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,6 +27,6 @@ IUSE="extra"
 DEPENDENCIES="extra? ( >=dev-python/msgpack-0.5.6[${PYTHON_USEDEP}] )
 	extra? ( >=dev-python/cbor2-5.2.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	extra? ( dev-python/DBUtils[${PYTHON_USEDEP}] )"
+	extra? ( <dev-python/dbutils-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

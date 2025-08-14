@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="15.0.0.post1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lazy-imports[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/debugpy[${PYTHON_USEDEP}]
+	dev-python/lazy-imports[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
-	<dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.5[${PYTHON_USEDEP}]
 	dev-python/ptvsd[${PYTHON_USEDEP}]
 	<dev-python/pythonnet-4.0.0[${PYTHON_USEDEP}]

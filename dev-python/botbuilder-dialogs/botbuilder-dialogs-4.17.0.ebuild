@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/regex-2022.1.18[${PYTHON_USEDEP}]
 	dev-python/recognizers-text-number[${PYTHON_USEDEP}]
 	dev-python/recognizers-text[${PYTHON_USEDEP}]
 	dev-python/recognizers-text-choice[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.9.1[${PYTHON_USEDEP}]
 	dev-python/botbuilder-schema[${PYTHON_USEDEP}]
 	dev-python/botframework-connector[${PYTHON_USEDEP}]
 	dev-python/botbuilder-core[${PYTHON_USEDEP}]

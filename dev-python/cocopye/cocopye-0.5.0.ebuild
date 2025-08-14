@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,6 +41,6 @@ DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	web? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
 	web? ( ~dev-python/websockets-11.0.3[${PYTHON_USEDEP}] )
 	web? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	web? ( dev-python/jinja[${PYTHON_USEDEP}] )"
+	web? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

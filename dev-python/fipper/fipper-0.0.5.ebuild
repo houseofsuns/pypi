@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fipper - Telegram MTProto API Client Library for Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb128e04200>)]"
+DESCRIPTION="Fipper - Telegram MTProto API Client Library for Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37d16103c0>)]"
 
 HOMEPAGE="https://github.com/AyiinXd/fipper"
 LICENSE="GNU Lesser General Public License v3.0 LGPL-3.0"

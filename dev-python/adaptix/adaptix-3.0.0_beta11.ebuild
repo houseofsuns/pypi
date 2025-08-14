@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="3.0.0b11"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,14 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="attrs attrs-strict msgspec msgspec-strict pydantic pydantic-strict sqlalchemy sqlalchemy-strict"
-DEPENDENCIES=">=dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}]
-	attrs? ( >=dev-python/attrs-21.3.0[${PYTHON_USEDEP}] )
+DEPENDENCIES="attrs? ( >=dev-python/attrs-21.3.0[${PYTHON_USEDEP}] )
 	attrs-strict? ( <=dev-python/attrs-24.2.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( >=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	sqlalchemy-strict? ( <=dev-python/sqlalchemy-2.0.40[${PYTHON_USEDEP}] )
 	pydantic? ( >=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	pydantic-strict? ( <=dev-python/pydantic-2.11.3[${PYTHON_USEDEP}] )
-	msgspec? ( dev-python/msgspec[${PYTHON_USEDEP}] )
-	msgspec-strict? ( dev-python/msgspec[${PYTHON_USEDEP}] )"
+	msgspec? ( >=dev-python/msgspec-0.18.5[${PYTHON_USEDEP}] )
+	msgspec-strict? ( <=dev-python/msgspec-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

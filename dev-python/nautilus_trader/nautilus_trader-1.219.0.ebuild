@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dydx? ( dev-python/bech32[${PYTHON_USEDEP}] )
 	dydx? ( <dev-python/ecdsa-1.0.0[${PYTHON_USEDEP}] )
 	<dev-python/fsspec-2026.0.0[${PYTHON_USEDEP}]
 	dydx? ( ~dev-python/grpcio-1.68.1[${PYTHON_USEDEP}] )
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	<dev-python/msgspec-1.0.0[${PYTHON_USEDEP}]
 	ib? ( dev-python/nautilus-ibapi[${PYTHON_USEDEP}] )
 	>=dev-python/numpy-1.26.4[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]

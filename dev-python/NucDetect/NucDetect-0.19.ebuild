@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	>dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	>dev-python/scikit-image-0.16.2[${PYTHON_USEDEP}]
 	>dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>dev-python/pyqt5-5.14.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	>dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	>dev-python/qtawesome-0.6.1[${PYTHON_USEDEP}]

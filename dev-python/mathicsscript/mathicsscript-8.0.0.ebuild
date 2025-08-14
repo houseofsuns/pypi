@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/Mathics-Scanner[${PYTHON_USEDEP}]
 	dev-python/term-background[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	full? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	full? ( dev-python/cson[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

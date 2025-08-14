@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="decompress"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
 	<dev-python/lxml-7.0[${PYTHON_USEDEP}]
 	dev-python/pycountry[${PYTHON_USEDEP}]
 	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	>=dev-python/pysocks-1.5.6[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/trio-1.0[${PYTHON_USEDEP}]
 	<dev-python/trio-1.0[${PYTHON_USEDEP}]
 	<dev-python/trio-websocket-1.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]

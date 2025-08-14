@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,9 +31,9 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/pgcolorbar[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.2.0[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>=dev-python/pyqt5-5.15.10[${PYTHON_USEDEP}]
 	>=dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	~dev-python/qtpy-2.4.1[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

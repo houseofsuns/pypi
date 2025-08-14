@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	<dev-python/cryptography-44.0.0[${PYTHON_USEDEP}]
 	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/gitdb-5.0.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
 	gojsonnet? ( dev-python/gojsonnet[${PYTHON_USEDEP}] )
 	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/hvac-2.3.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonnet[${PYTHON_USEDEP}]
 	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]

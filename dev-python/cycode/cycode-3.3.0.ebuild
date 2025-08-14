@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="<dev-python/arrow-1.4.0[${PYTHON_USEDEP}]
 	<dev-python/binaryornot-0.5.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-3.2.0[${PYTHON_USEDEP}]
 	<dev-python/marshmallow-3.23.0[${PYTHON_USEDEP}]
 	dev-python/mcp[${PYTHON_USEDEP}]
 	~dev-python/patch-ng-1.18.1[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="3.0.0a24"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/IsoSpecPy[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	dev-python/PypeR[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.9[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-3.1.5[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}]

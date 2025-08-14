@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gtk3 gtk4 pyside2 pyside6 qt5 qt6 recommended test tk web"
 DEPENDENCIES=">=dev-python/numpy-1.26[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-2.4.1[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	>=dev-python/puremagic-1.28[${PYTHON_USEDEP}]
 	>=dev-python/pillow-11.1.0[${PYTHON_USEDEP}]
@@ -52,9 +52,9 @@ DEPENDENCIES=">=dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	gtk3? ( >=dev-python/pygobject-3.48.1[${PYTHON_USEDEP}] )
 	gtk4? ( dev-python/pycairo[${PYTHON_USEDEP}] )
 	gtk4? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	qt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	qt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	tk? ( dev-python/pycairo[${PYTHON_USEDEP}] )
 	web? ( dev-python/tornado[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/acryl-datahub[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
 	~dev-python/anyascii-0.3.2[${PYTHON_USEDEP}]
 	~dev-python/anyio-3.7.1[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.9.1_p1[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.26.1[${PYTHON_USEDEP}]
 	~dev-python/certifi-2024.8.30[${PYTHON_USEDEP}]
@@ -48,13 +48,13 @@ DEPENDENCIES="dev-python/acryl-datahub[${PYTHON_USEDEP}]
 	dev-python/fideslog[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
 	dev-python/flower[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.41[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
 	~dev-python/hvac-0.11.2[${PYTHON_USEDEP}]
 	dev-python/iab-tcf[${PYTHON_USEDEP}]
 	~dev-python/immutables-0.20[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-5.12.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/multidimensional_urlencode[${PYTHON_USEDEP}]
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/acryl-datahub[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/pyahocorasick[${PYTHON_USEDEP}]
 	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	~dev-python/rich-click-1.6.1[${PYTHON_USEDEP}]
 	dev-python/sendgrid[${PYTHON_USEDEP}]
 	dev-python/scylla-driver[${PYTHON_USEDEP}]
 	dev-python/slowapi[${PYTHON_USEDEP}]

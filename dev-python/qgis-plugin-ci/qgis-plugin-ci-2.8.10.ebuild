@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/gitpython-3.2[${PYTHON_USEDEP}]
+	<dev-python/pygithub-2.6[${PYTHON_USEDEP}]
+	<dev-python/pyqt5-5.16[${PYTHON_USEDEP}]
 	dev-python/pyqt5ac[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-8.1[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]

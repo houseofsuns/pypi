@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="all? ( dev-python/Faker[${PYTHON_USEDEP}] )
-	dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="all? ( <dev-python/faker-18.11.0[${PYTHON_USEDEP}] )
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/sqlalchemy-2.0.17[${PYTHON_USEDEP}] )
 	all? ( dev-python/aioredis[${PYTHON_USEDEP}] )

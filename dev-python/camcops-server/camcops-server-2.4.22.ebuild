@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="~dev-python/alembic-1.14.1[${PYTHON_USEDEP}]
 	~dev-python/distro-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/dogpile-cache-0.9.2[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-4.1.1[${PYTHON_USEDEP}]
 	dev-python/fhirclient[${PYTHON_USEDEP}]
 	~dev-python/flake8-5.0.4[${PYTHON_USEDEP}]
 	dev-python/flower[${PYTHON_USEDEP}]
@@ -71,7 +71,7 @@ DEPENDENCIES="~dev-python/alembic-1.14.1[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.5.0[${PYTHON_USEDEP}]
 	~dev-python/wand-0.6.1[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.9.1[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}]

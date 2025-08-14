@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,9 +34,8 @@ DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	admin? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
-	admin? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	admin? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	admin? ( dev-python/lilya[${PYTHON_USEDEP}] )
 	admin? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
 	admin? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
@@ -46,10 +45,10 @@ DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/databasez[${PYTHON_USEDEP}] )
 	all? ( dev-python/databasez[${PYTHON_USEDEP}] )
 	all? ( dev-python/esmerald[${PYTHON_USEDEP}] )
-	all? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/faker-33.3.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/lilya[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/ptpython[${PYTHON_USEDEP}] )
@@ -65,7 +64,7 @@ DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	postgres? ( dev-python/databasez[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/databasez[${PYTHON_USEDEP}] )
 	test? ( dev-python/esmerald[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/faker-33.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	testing? ( <dev-python/anyio-5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/asyncpg[${PYTHON_USEDEP}] )

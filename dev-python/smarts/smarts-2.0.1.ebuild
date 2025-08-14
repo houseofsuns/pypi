@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	dev-python/pybullet[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-1.3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/av2[${PYTHON_USEDEP}] )
-	all? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rtree-0.9.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/Panda3D[${PYTHON_USEDEP}] )
 	all? ( dev-python/panda3d-gltf[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
@@ -87,7 +87,7 @@ DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/visdom[${PYTHON_USEDEP}] )
 	all? ( <dev-python/protobuf-4.0.0[${PYTHON_USEDEP}] )
 	argoverse? ( dev-python/av2[${PYTHON_USEDEP}] )
-	argoverse? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	argoverse? ( >=dev-python/rtree-0.9.7[${PYTHON_USEDEP}] )
 	camera-obs? ( dev-python/Panda3D[${PYTHON_USEDEP}] )
 	camera-obs? ( dev-python/panda3d-gltf[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
@@ -112,13 +112,13 @@ DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	examples? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	examples? ( dev-python/eclipse-sumo[${PYTHON_USEDEP}] )
-	examples? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/rtree-0.9.7[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pynput[${PYTHON_USEDEP}] )
 	gif-recorder? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	gymnasium? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	opendrive? ( >dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
 	opendrive? ( dev-python/opendrive2lanelet[${PYTHON_USEDEP}] )
-	opendrive? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	opendrive? ( >=dev-python/rtree-0.9.7[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	rllib? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	rllib? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
@@ -127,7 +127,7 @@ DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	ros? ( dev-python/catkin-pkg[${PYTHON_USEDEP}] )
 	ros? ( dev-python/rospkg[${PYTHON_USEDEP}] )
 	sumo? ( dev-python/eclipse-sumo[${PYTHON_USEDEP}] )
-	sumo? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	sumo? ( >=dev-python/rtree-0.9.7[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
@@ -142,7 +142,7 @@ DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	visdom? ( dev-python/visdom[${PYTHON_USEDEP}] )
 	waymo? ( >=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}] )
 	waymo? ( <dev-python/protobuf-4.0.0[${PYTHON_USEDEP}] )
-	waymo? ( dev-python/Rtree[${PYTHON_USEDEP}] )
+	waymo? ( >=dev-python/rtree-0.9.7[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

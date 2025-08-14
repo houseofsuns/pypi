@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,10 +28,10 @@ DEPENDENCIES="serving? ( >=dev-python/django-4.2.15[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/django-4.2.15[${PYTHON_USEDEP}] )
 	serving? ( >=dev-python/flask-2.3.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/flask-2.3.2[${PYTHON_USEDEP}] )
-	feature-monitoring? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	report? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	serving? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	feature-monitoring? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
+	report? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
+	serving? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}] )
 	interpretation? ( dev-python/alibi[${PYTHON_USEDEP}] )
 	all? ( dev-python/alibi[${PYTHON_USEDEP}] )
 	dev-python/catboost[${PYTHON_USEDEP}]

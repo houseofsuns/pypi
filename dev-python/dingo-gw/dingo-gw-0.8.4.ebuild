@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="dev pyseobnr"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/bilby[${PYTHON_USEDEP}]
 	dev-python/bilby-pipe[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	dev-python/configargparse[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	dev-python/glasflow[${PYTHON_USEDEP}]
 	dev-python/gwpy[${PYTHON_USEDEP}]

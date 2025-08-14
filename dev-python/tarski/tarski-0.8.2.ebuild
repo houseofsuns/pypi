@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/multipledispatch[${PYTHON_USEDEP}]
 	arithmetic? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	arithmetic? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	clingo? ( dev-python/clingo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )

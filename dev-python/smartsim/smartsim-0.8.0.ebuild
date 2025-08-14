@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,13 +31,13 @@ DEPENDENCIES=">=dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	>=dev-python/redis-4.5[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.50.2[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.4.2[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<=dev-python/gitpython-3.1.43[${PYTHON_USEDEP}]
 	<=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	<dev-python/watchdog-5.0[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-25.1.2[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	>=dev-python/pygithub-2.3.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/smartredis[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/black-24.1_alpha1[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/torch[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )

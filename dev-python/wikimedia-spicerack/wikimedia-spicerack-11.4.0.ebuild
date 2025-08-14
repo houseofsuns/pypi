@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="flake8 format prospector tests"
 DEPENDENCIES="dev-python/conftool[${PYTHON_USEDEP}]
 	dev-python/cumin[${PYTHON_USEDEP}]
 	~dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-3.1.14[${PYTHON_USEDEP}]
 	dev-python/kafka-python[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

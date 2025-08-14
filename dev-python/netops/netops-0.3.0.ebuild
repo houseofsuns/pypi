@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
 	dev-python/junos-eznc[${PYTHON_USEDEP}]
 	~dev-python/lxml-4.9.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	dev-python/ncclient[${PYTHON_USEDEP}]
 	~dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]

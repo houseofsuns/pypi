@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,12 +37,12 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/lazy-loader-0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lazy-loader-0.3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pygments-2.9.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-autoapi-1.8.4[${PYTHON_USEDEP}] )
@@ -72,10 +72,10 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.4[${PYTHON_USEDEP}]
 	tests-strict? ( ~dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests-strict? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
+	tests-strict? ( ~dev-python/lazy-loader-0.3[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/lazy-loader-0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

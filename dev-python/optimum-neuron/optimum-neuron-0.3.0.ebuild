@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	tests? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	tests? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	tests? ( dev-python/mediapipe[${PYTHON_USEDEP}] )
 	tests? ( dev-python/timm[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )
-	tests? ( dev-python/torchcodec[${PYTHON_USEDEP}] )
+	tests? ( dev-python/TorchCodec[${PYTHON_USEDEP}] )
 	training? ( dev-python/trl[${PYTHON_USEDEP}] )
 	training? ( dev-python/peft[${PYTHON_USEDEP}] )
 	training? ( dev-python/evaluate[${PYTHON_USEDEP}] )

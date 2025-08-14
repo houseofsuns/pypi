@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,11 +27,11 @@ IUSE="all dev ipynb ldap oauth pdf"
 DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.10.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.18[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/cooked-input[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
+	dev-python/ipython-genutils[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
 	<=dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}]
 	<=dev-python/flask-2.1.2[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Mail[${PYTHON_USEDEP}]
 	dev-python/flask-migrate[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.37[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	<=dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]

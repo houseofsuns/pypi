@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="dev kafka-python"
 DEPENDENCIES=">=dev-python/boto3-1.17.102[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	~dev-python/fastjsonschema-2.15[${PYTHON_USEDEP}]
-	~dev-python/orjson-3.6.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.7.7[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.0[${PYTHON_USEDEP}] )

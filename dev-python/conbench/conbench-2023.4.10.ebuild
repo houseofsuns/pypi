@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="dev? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask-Bootstrap[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-login[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -91,7 +91,7 @@ DEPENDENCIES="dev? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
 	server? ( dev-python/flask-login[${PYTHON_USEDEP}] )
 	server? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
 	server? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )
-	server? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	server? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	server? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
 	server? ( dev-python/numpy[${PYTHON_USEDEP}] )

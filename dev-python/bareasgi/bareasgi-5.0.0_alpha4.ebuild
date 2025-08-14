@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="bareASGI"
 REALVERSION="5.0.0a4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi

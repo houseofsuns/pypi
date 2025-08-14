@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	dev-python/autodocsumm[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/azure-eventhub[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.10.3[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}]
 	~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
@@ -81,7 +81,7 @@ DEPENDENCIES="~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	dev-python/ipynbname[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.18.1[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.19.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/jupyter-client-7.2.0[${PYTHON_USEDEP}]
 	~dev-python/jupyter-core-5.7.2[${PYTHON_USEDEP}]
@@ -185,7 +185,7 @@ DEPENDENCIES="~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	complete? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	complete? ( dev-python/azure-eventhub[${PYTHON_USEDEP}] )
-	complete? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/babel-2.10.3[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}] )
@@ -223,7 +223,7 @@ DEPENDENCIES="~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/ipynbname[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/ipython-8.18.1[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/jedi-0.19.1[${PYTHON_USEDEP}] )
-	complete? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/joblib-1.3.2[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/jupyter-client-7.2.0[${PYTHON_USEDEP}] )
 	complete? ( ~dev-python/jupyter-core-5.7.2[${PYTHON_USEDEP}] )

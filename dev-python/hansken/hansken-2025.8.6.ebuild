@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-1.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	mount? ( dev-python/fusepy[${PYTHON_USEDEP}] )
-	report? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	report? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	report? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
 	shell? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/hansken[${PYTHON_USEDEP}] )

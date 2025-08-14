@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ai-rev dev webpage"
 DEPENDENCIES="dev-python/errorhandler[${PYTHON_USEDEP}]
 	dev-python/isbnlib[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/panflute[${PYTHON_USEDEP}]
@@ -35,7 +35,6 @@ DEPENDENCIES="dev-python/errorhandler[${PYTHON_USEDEP}]
 	<dev-python/pyrate-limiter-3.0[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	ai-rev? ( dev-python/manubot-ai-editor[${PYTHON_USEDEP}] )
 	dev? ( dev-python/portray[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

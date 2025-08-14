@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/django-4.0.6[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	>=dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]
 	dev-python/model-bakery[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/faker-13.3.4[${PYTHON_USEDEP}]
 	>=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/validate-docbr[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]"

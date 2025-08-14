@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="all docs qtpdf qtpng serve test webpdf"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	>dev-python/bleach-5.0.0[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-core-4.7[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-pygments[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.0[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	all? ( >=dev-python/nbsphinx-0.2.12[${PYTHON_USEDEP}] )
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
@@ -58,8 +58,8 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	qtpdf? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
-	qtpng? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	qtpdf? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
+	qtpng? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	serve? ( >=dev-python/tornado-6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )

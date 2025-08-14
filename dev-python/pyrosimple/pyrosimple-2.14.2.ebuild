@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="torque"
 DEPENDENCIES="dev-python/bencode-py[${PYTHON_USEDEP}]
-	torque? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
-	dev-python/jinja[${PYTHON_USEDEP}]
+	torque? ( <dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/python-daemon-4.0.0[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
@@ -35,7 +35,6 @@ DEPENDENCIES="dev-python/bencode-py[${PYTHON_USEDEP}]
 	<dev-python/shtab-2.0.0[${PYTHON_USEDEP}]
 	torque? ( dev-python/inotify[${PYTHON_USEDEP}] )
 	<dev-python/python-box-8.0.0[${PYTHON_USEDEP}]
-	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

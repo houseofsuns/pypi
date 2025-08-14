@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/llama-index[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	readers? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	readers? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
-	readers? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	readers? ( ~dev-python/gitpython-3.1.41[${PYTHON_USEDEP}] )
 	readers? ( dev-python/docx2txt[${PYTHON_USEDEP}] )
 	readers? ( dev-python/EbookLib[${PYTHON_USEDEP}] )
 	readers? ( dev-python/html2text[${PYTHON_USEDEP}] )

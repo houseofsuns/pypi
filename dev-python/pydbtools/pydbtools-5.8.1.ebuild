@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,8 +28,8 @@ DEPENDENCIES=">=dev-python/boto3-1.7.4[${PYTHON_USEDEP}]
 	>=dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	dev-python/awswrangler[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.0[${PYTHON_USEDEP}]
 	dev-python/sql_metadata[${PYTHON_USEDEP}]
-	dev-python/arrow_pd_parser[${PYTHON_USEDEP}]"
+	dev-python/arrow-pd-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

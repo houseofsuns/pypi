@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	~dev-python/aiosignal-1.3.2[${PYTHON_USEDEP}]
 	~dev-python/annotated-types-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
-	~dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
 	~dev-python/attrs-25.3.0[${PYTHON_USEDEP}]
 	dev-python/atxm[${PYTHON_USEDEP}]
 	~dev-python/autobahn-24.4.2[${PYTHON_USEDEP}]
@@ -47,7 +46,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/constant-sorrow[${PYTHON_USEDEP}]
 	~dev-python/constantly-23.10.4[${PYTHON_USEDEP}]
-	~dev-python/cryptography-43.0.3[${PYTHON_USEDEP}]
 	~dev-python/cryptography-44.0.2[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
@@ -68,7 +66,7 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	~dev-python/idna-3.10[${PYTHON_USEDEP}]
 	~dev-python/incremental-24.7.2[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/jsonpath-ng-1.7.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-specifications-2024.10.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
@@ -115,7 +113,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	~dev-python/six-1.17.0[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/time-machine-2.16.0[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.2.1[${PYTHON_USEDEP}]
 	~dev-python/toolz-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/twisted-24.11.0[${PYTHON_USEDEP}]
 	~dev-python/txaio-23.1.1[${PYTHON_USEDEP}]
@@ -137,7 +134,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( dev-python/ape-solidity[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/asttokens-3.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/attrs-25.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/atxm[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/autobahn-24.4.2[${PYTHON_USEDEP}] )
@@ -157,7 +153,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( dev-python/constant-sorrow[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/constantly-23.10.4[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/coverage-7.7.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/cryptography-43.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cryptography-44.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cytoolz[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-8.3.5[${PYTHON_USEDEP}] )
@@ -181,7 +176,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( dev-python/ethpm-types[${PYTHON_USEDEP}] )
 	dev? ( dev-python/evm-trace[${PYTHON_USEDEP}] )
 	dev? ( dev-python/evmchains[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/exceptiongroup-1.2.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/executing-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/filelock-3.18.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/flask-3.1.0[${PYTHON_USEDEP}] )
@@ -196,11 +190,10 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/ijson-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/incremental-24.7.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/iniconfig-2.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/ipython-8.18.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ipython-8.34.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jedi-0.19.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jsonpath-ng-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jsonschema-specifications-2024.10.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )
@@ -216,7 +209,7 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( dev-python/mnemonic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/morphys[${PYTHON_USEDEP}] )
 	dev? ( dev-python/msgpack-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/msgspec-0.19.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/multidict-6.2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/nodeenv-1.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nucypher-core[${PYTHON_USEDEP}] )
@@ -229,7 +222,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/parso-0.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-baseconv[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pexpect-4.9.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/platformdirs-4.3.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pluggy-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/ply-3.11[${PYTHON_USEDEP}] )
@@ -238,7 +230,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/prompt-toolkit-3.0.50[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/propcache-0.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/protobuf-6.30.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/ptyprocess-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pure-eval-0.2.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-cid[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-ecc[${PYTHON_USEDEP}] )
@@ -286,8 +277,6 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/stack-data-0.6.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/time-machine-2.16.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/tomli-2.2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/toolz-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tqdm-4.67.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/traitlets-5.14.3[${PYTHON_USEDEP}] )

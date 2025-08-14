@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="~dev-python/python-dateutil-2.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/responses-0.25.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/curlify[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/load-dotenv[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/nbconvert-7.10.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/progressbar2-4.2.0[${PYTHON_USEDEP}] )

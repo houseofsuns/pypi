@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	all? ( dev-python/ezodf[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastxor[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/jira[${PYTHON_USEDEP}] )
 	all? ( dev-python/keras[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	jinja2? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	network? ( dev-python/tldextract[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/ezodf[${PYTHON_USEDEP}] )

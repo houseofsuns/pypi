@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/uv[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lamindb_setup[${PYTHON_USEDEP}] )
-	doc-changes? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	doc-changes? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	doc-changes? ( >=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	doc-changes? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
 	doc-changes? ( <dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
 	doc-changes? ( dev-python/email-validator[${PYTHON_USEDEP}] )
-	doc-changes? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc-changes? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	run-notebooks? ( dev-python/nbproject_test[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

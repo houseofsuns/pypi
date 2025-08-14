@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,6 @@ DEPENDENCIES="dev-python/falcon[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/wsproto[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
 	lmdb? ( dev-python/lmdb[${PYTHON_USEDEP}] )
 	lmdb? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	lmdb? ( dev-python/whoosh[${PYTHON_USEDEP}] )

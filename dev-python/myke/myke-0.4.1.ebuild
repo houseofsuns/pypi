@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -52,13 +52,11 @@ DEPENDENCIES="dev-python/yapx[${PYTHON_USEDEP}]
 	extras? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	extras? ( <dev-python/tabulate-1.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/ppqueue[${PYTHON_USEDEP}] )
-	extras? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	io? ( ~dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	io? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	io? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	io? ( <dev-python/tabulate-1.0[${PYTHON_USEDEP}] )
 	io? ( dev-python/ppqueue[${PYTHON_USEDEP}] )
-	io? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
@@ -72,7 +70,6 @@ DEPENDENCIES="dev-python/yapx[${PYTHON_USEDEP}]
 	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/tabulate-1.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ppqueue[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/ppqueue[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

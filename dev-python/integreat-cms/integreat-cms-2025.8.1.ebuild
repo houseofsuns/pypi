@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/django-debug-toolbar[${PYTHON_USEDEP}]
 	dev-python/django-import-export[${PYTHON_USEDEP}]
 	dev-python/django-linkcheck[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	dev-python/django-polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-redis[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
 	dev-python/django-webpack-loader[${PYTHON_USEDEP}]
@@ -132,12 +132,12 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/django-debug-toolbar-4.4.6[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-import-export[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-linkcheck[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/django_polymorphic[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/django-polymorphic-3.1.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/django-redis-5.4.0[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-treebeard[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-webpack-loader[${PYTHON_USEDEP}] )
 	pinned? ( dev-python/django-widget-tweaks[${PYTHON_USEDEP}] )
-	pinned? ( dev-python/et_xmlfile[${PYTHON_USEDEP}] )
+	pinned? ( ~dev-python/et-xmlfile-1.1.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/executing-2.1.0[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/feedparser-6.0.11[${PYTHON_USEDEP}] )
 	pinned? ( ~dev-python/frozenlist-1.4.1[${PYTHON_USEDEP}] )
@@ -227,7 +227,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	pinned? ( ~dev-python/yarl-1.13.1[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/alabaster-0.7.16[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/astroid-3.3.4[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/babel-2.16.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/backports-tarfile-1.2.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/build-1.2.2[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/bumpver[${PYTHON_USEDEP}] )
@@ -240,7 +240,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-pinned? ( ~dev-python/distlib-0.3.8[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/djlint[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/EditorConfig[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/editorconfig-0.12.4[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/execnet-2.1.1[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/filelock-3.16.1[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/freezegun-1.5.1[${PYTHON_USEDEP}] )
@@ -256,7 +256,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-pinned? ( ~dev-python/jaraco-context-6.0.1[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/jaraco-functools-4.1.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	dev-pinned? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/json5-0.9.25[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/keyring-25.4.1[${PYTHON_USEDEP}] )
@@ -268,7 +268,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-pinned? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/more-itertools-10.5.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/mypy-1.11.2[${PYTHON_USEDEP}] )
-	dev-pinned? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev-pinned? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/nh3-0.2.18[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/nodeenv-1.9.1[${PYTHON_USEDEP}] )
 	dev-pinned? ( ~dev-python/packaging-24.2[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,8 +27,8 @@ IUSE="all dev"
 DEPENDENCIES="~dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.14.0[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/pygithub-1.32[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.43[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pytest-8.3.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/coverage-7.6.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )

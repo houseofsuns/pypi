@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="b2 bundle bundler dev devdb files locust multipass pip pip-compile plugins
 DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/diceware[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/ewok[${PYTHON_USEDEP}]
 	<dev-python/humanize-5.0[${PYTHON_USEDEP}]
 	<dev-python/more-itertools-11.0[${PYTHON_USEDEP}]

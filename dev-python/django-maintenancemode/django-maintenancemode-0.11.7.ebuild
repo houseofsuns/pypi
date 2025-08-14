@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop test"
 DEPENDENCIES="dev-python/django-appconf[${PYTHON_USEDEP}]
 	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
-	dev-python/IPy[${PYTHON_USEDEP}]
+	dev-python/ipy[${PYTHON_USEDEP}]
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
 	develop? ( dev-python/django[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-django[${PYTHON_USEDEP}] )

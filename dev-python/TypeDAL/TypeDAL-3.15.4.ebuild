@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,6 +27,7 @@ IUSE="all dev migrations py4web"
 DEPENDENCIES="dev-python/configurable-json[${PYTHON_USEDEP}]
 	dev-python/configuraptor[${PYTHON_USEDEP}]
 	<dev-python/dill-1.0[${PYTHON_USEDEP}]
+	dev-python/legacy-cgi[${PYTHON_USEDEP}]
 	dev-python/pydal[${PYTHON_USEDEP}]
 	<dev-python/python-slugify-9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/edwh-migrate[${PYTHON_USEDEP}] )

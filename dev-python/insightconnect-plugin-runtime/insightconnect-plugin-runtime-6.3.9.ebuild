@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="~dev-python/requests-2.32.4[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/structlog-25.4.0[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	~dev-python/opentelemetry-sdk-1.36.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-flask[${PYTHON_USEDEP}]

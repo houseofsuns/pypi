@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	>=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	dev-python/netspresso-trainer[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	>=dev-python/pygithub-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.4[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]

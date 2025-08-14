@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.0.2a27"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/oauthlib[${PYTHON_USEDEP}]
 	~dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-cogwheels[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap4[${PYTHON_USEDEP}]
-	dev-python/django_polymorphic[${PYTHON_USEDEP}]
+	~dev-python/django-polymorphic-3.1.0[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	~dev-python/phonenumbers-8.12.45[${PYTHON_USEDEP}]

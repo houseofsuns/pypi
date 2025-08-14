@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.8.6rc3"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/setuptools-74.1.0[${PYTHON_USEDEP}]
 	dev-python/python-statemachine[${PYTHON_USEDEP}]
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.8.0[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	>=dev-python/rich-click-1.8.4[${PYTHON_USEDEP}]
 	>=dev-python/ipython-8.27.0[${PYTHON_USEDEP}]
 	dev-python/abx-pkg[${PYTHON_USEDEP}]
 	dev-python/supervisor[${PYTHON_USEDEP}]
@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/setuptools-74.1.0[${PYTHON_USEDEP}]
 	dev-python/typeid-python[${PYTHON_USEDEP}]
 	dev-python/base32-crockford[${PYTHON_USEDEP}]
 	>=dev-python/blake3-1.0.0[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	>=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	dev-python/django-stubs[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	dev-python/sonic-client[${PYTHON_USEDEP}]

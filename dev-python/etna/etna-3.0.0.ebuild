@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -110,8 +110,8 @@ DEPENDENCIES="<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]
 	all-dev? ( <dev-python/pydata-sphinx-theme-0.14.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	all-dev? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )

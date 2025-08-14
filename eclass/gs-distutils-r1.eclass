@@ -44,11 +44,6 @@
 # For more information, please see the Python Guide:
 # https://projects.gentoo.org/python/guide/
 
-case ${EAPI} in
-	7|8) ;;
-	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
-esac
-
 # @ECLASS_VARIABLE: DISTUTILS_EXT
 # @PRE_INHERIT
 # @DEFAULT_UNSET
@@ -78,6 +73,11 @@ esac
 # for your package (using ${PYTHON_DEPS}) and to either call
 # distutils-r1 default phase functions or call the build system
 # manually.
+#
+# Note that if DISTUTILS_SINGLE_IMPL is used, python-single-r1 exports
+# pkg_setup() function.  In that case, it is necessary to redefine
+# pkg_setup() to call python-single-r1_pkg_setup over correct
+# conditions.
 
 # @ECLASS_VARIABLE: DISTUTILS_SINGLE_IMPL
 # @DEFAULT_UNSET
@@ -94,7 +94,7 @@ esac
 # @PRE_INHERIT
 # @DEFAULT_UNSET
 # @DESCRIPTION:
-# Enable the PEP 517 mode for the specified build system.  In this mode,
+# Enable the PEP517 mode for the specified build system.  In this mode,
 # the complete build and install is done in python_compile(),
 # a venv-style install tree is provided to python_test(),
 # and python_install() just merges the temporary install tree
@@ -123,8 +123,6 @@ esac
 # - no - no PEP517 build system (see below)
 #
 # - pbr - pbr backend
-#
-# - pdm - pdm.pep517 backend
 #
 # - pdm-backend - pdm.backend backend
 #
@@ -179,7 +177,7 @@ esac
 # This is an eclass-generated build-time dependency string for the build
 # system packages.  This string is automatically appended to BDEPEND
 # unless DISTUTILS_OPTIONAL is used.  This variable is available only
-# in PEP 517 mode.
+# in PEP517 mode.
 #
 # Example use:
 # @CODE
@@ -191,11 +189,48 @@ esac
 #     ${DISTUTILS_DEPS}"
 # @CODE
 
+# @ECLASS_VARIABLE: DISTUTILS_ALLOW_WHEEL_REUSE
+# @USER_VARIABLE
+# @DESCRIPTION:
+# If set to a non-empty value, the eclass is allowed to reuse a wheel
+# that was built for a prior Python implementation, provided that it is
+# compatible with the current one, rather than building a new one.
+#
+# This is an optimization that can avoid the overhead of calling into
+# the build system in pure Python packages and packages using the stable
+# Python ABI.
+: ${DISTUTILS_ALLOW_WHEEL_REUSE=1}
+
+# @ECLASS_VARIABLE: BUILD_DIR
+# @OUTPUT_VARIABLE
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# The current build directory. In global scope, it is supposed to
+# contain an initial build directory; if unset, it defaults to ${S}.
+#
+# When running in multi-impl mode, the BUILD_DIR variable is set
+# by python-r1.eclass.  Otherwise, it is set by distutils-r1.eclass
+# for consistency.
+#
+# Example value:
+# @CODE
+# ${WORKDIR}/foo-1.3-python3_12
+# @CODE
+
 if [[ -z ${_DISTUTILS_R1_ECLASS} ]]; then
 _DISTUTILS_R1_ECLASS=1
 
+case ${EAPI} in
+	7|8) ;;
+	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
+esac
+
 inherit flag-o-matic
 inherit multibuild multilib multiprocessing ninja-utils toolchain-funcs
+
+if [[ ${DISTUTILS_USE_PEP517} == meson-python ]]; then
+	inherit meson
+fi
 
 if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
 	inherit python-r1
@@ -221,12 +256,12 @@ _distutils_set_globals() {
 				;;
 			flit_scm)
 				bdep+='
-					>=dev-python/flit_scm-1.7.0[${PYTHON_USEDEP}]
+					>=dev-python/flit-scm-1.7.0[${PYTHON_USEDEP}]
 				'
 				;;
 			hatchling)
 				bdep+='
-					>=dev-python/hatchling-1.17.0[${PYTHON_USEDEP}]
+					>=dev-python/hatchling-1.21.1[${PYTHON_USEDEP}]
 				'
 				;;
 			jupyter)
@@ -236,7 +271,7 @@ _distutils_set_globals() {
 				;;
 			maturin)
 				bdep+='
-					>=dev-util/maturin-1.0.1[${PYTHON_USEDEP}]
+					>=dev-util/maturin-1.7.4[${PYTHON_USEDEP}]
 				'
 				;;
 			no)
@@ -245,42 +280,37 @@ _distutils_set_globals() {
 				;;
 			meson-python)
 				bdep+='
-					>=dev-python/meson-python-0.13.1[${PYTHON_USEDEP}]
+					>=dev-python/meson-python-0.15.0[${PYTHON_USEDEP}]
 				'
 				;;
 			pbr)
 				bdep+='
-					>=dev-python/pbr-5.11.1[${PYTHON_USEDEP}]
-				'
-				;;
-			pdm)
-				bdep+='
-					>=dev-python/pdm-pep517-1.1.4[${PYTHON_USEDEP}]
+					>=dev-python/pbr-6.0.0[${PYTHON_USEDEP}]
 				'
 				;;
 			pdm-backend)
 				bdep+='
-					>=dev-python/pdm-backend-2.1.0[${PYTHON_USEDEP}]
+					>=dev-python/pdm-backend-2.1.8[${PYTHON_USEDEP}]
 				'
 				;;
 			poetry)
 				bdep+='
-					>=dev-python/poetry-core-1.6.1[${PYTHON_USEDEP}]
+					>=dev-python/poetry-core-1.9.0[${PYTHON_USEDEP}]
 				'
 				;;
 			scikit-build-core)
 				bdep+='
-					>=dev-python/scikit-build-core-0.4.6[${PYTHON_USEDEP}]
+					>=dev-python/scikit-build-core-0.9.4[${PYTHON_USEDEP}]
 				'
 				;;
 			setuptools)
 				bdep+='
-					>=dev-python/setuptools-67.8.0-r1[${PYTHON_USEDEP}]
+					>=dev-python/setuptools-69.0.3[${PYTHON_USEDEP}]
 				'
 				;;
 			sip)
 				bdep+='
-					>=dev-python/sip-6.7.9[${PYTHON_USEDEP}]
+					>=dev-python/sip-6.8.3[${PYTHON_USEDEP}]
 				'
 				;;
 			standalone)
@@ -297,7 +327,7 @@ _distutils_set_globals() {
 			eqawarn "is enabled."
 		fi
 	else
-		local setuptools_dep='>=dev-python/setuptools-67.8.0-r1[${PYTHON_USEDEP}]'
+		local setuptools_dep='>=dev-python/setuptools-69.0.3[${PYTHON_USEDEP}]'
 
 		case ${DISTUTILS_USE_SETUPTOOLS:-bdepend} in
 			no|manual)
@@ -357,54 +387,9 @@ _distutils_set_globals() {
 _distutils_set_globals
 unset -f _distutils_set_globals
 
-# @ECLASS_VARIABLE: PATCHES
-# @DEFAULT_UNSET
-# @DESCRIPTION:
-# An array containing patches to be applied to the sources before
-# copying them.
-#
-# If unset, no custom patches will be applied.
-#
-# Please note, however, that at some point the eclass may apply
-# additional distutils patches/quirks independently of this variable.
-#
-# Example:
-# @CODE
-# PATCHES=( "${FILESDIR}"/${P}-make-gentoo-happy.patch )
-# @CODE
-
-# @ECLASS_VARIABLE: DOCS
-# @DEFAULT_UNSET
-# @DESCRIPTION:
-# An array containing documents installed using dodoc. The files listed
-# there must exist in the directory from which
-# distutils-r1_python_install_all() is run (${S} by default).
-#
-# If unset, the function will instead look up files matching default
-# filename pattern list (from the Package Manager Specification),
-# and install those found.
-#
-# Example:
-# @CODE
-# DOCS=( NEWS README )
-# @CODE
-
-# @ECLASS_VARIABLE: HTML_DOCS
-# @DEFAULT_UNSET
-# @DESCRIPTION:
-# An array containing documents installed using dohtml. The files
-# and directories listed there must exist in the directory from which
-# distutils-r1_python_install_all() is run (${S} by default).
-#
-# If unset, no HTML docs will be installed.
-#
-# Example:
-# @CODE
-# HTML_DOCS=( doc/html/. )
-# @CODE
-
 # @ECLASS_VARIABLE: DISTUTILS_IN_SOURCE_BUILD
 # @DEFAULT_UNSET
+# @DEPRECATED: (none)
 # @DESCRIPTION:
 # If set to a non-null value, in-source builds will be enabled.
 # If unset, the default is to use in-source builds when python_prepare()
@@ -418,6 +403,9 @@ unset -f _distutils_set_globals
 # on the sources directly, prepending setup.py arguments with
 # 'build --build-base ${BUILD_DIR}' to enforce keeping & using built
 # files in the specific root.
+#
+# In-source builds are deprecated and no longer supported in PEP517
+# mode.
 
 # @ECLASS_VARIABLE: DISTUTILS_ALL_SUBPHASE_IMPLS
 # @DEFAULT_UNSET
@@ -452,6 +440,15 @@ unset -f _distutils_set_globals
 # @DESCRIPTION:
 # An array containing options to be passed to the build system.
 # Supported by a subset of build systems used by the eclass.
+#
+# For maturin, the arguments will be passed as `maturin build`
+# arguments.
+#
+# For meson-python, the arguments will be passed as `meson setup`
+# arguments.
+#
+# For scikit-build-core, the arguments will be passed as `cmake`
+# options (e.g. `-DFOO=BAR` form should be used).
 #
 # For setuptools, the arguments will be passed as first parameters
 # to setup.py invocations (via esetup.py), as well as to the PEP517
@@ -498,7 +495,7 @@ unset -f _distutils_set_globals
 # python_compile_all(), you can call the original implementation
 # as sphinx_compile_all.
 distutils_enable_sphinx() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	[[ ${#} -ge 1 ]] || die "${FUNCNAME} takes at least one arg: <subdir>"
 
 	_DISTUTILS_SPHINX_SUBDIR=${1}
@@ -506,7 +503,7 @@ distutils_enable_sphinx() {
 	_DISTUTILS_SPHINX_PLUGINS=( "${@}" )
 
 	local deps autodoc=1 d
-	deps=">=dev-python/sphinx-5.3.0[\${PYTHON_USEDEP}]"
+	deps=">=dev-python/sphinx-7.2.6[\${PYTHON_USEDEP}]"
 	for d; do
 		if [[ ${d} == --no-autodoc ]]; then
 			autodoc=
@@ -530,7 +527,7 @@ distutils_enable_sphinx() {
 			use doc || return 0
 
 			local p
-			for p in ">=dev-python/sphinx-5.3.0" \
+			for p in ">=dev-python/sphinx-7.2.6" \
 				"${_DISTUTILS_SPHINX_PLUGINS[@]}"
 			do
 				python_has_version "${p}[${PYTHON_USEDEP}]" ||
@@ -538,7 +535,7 @@ distutils_enable_sphinx() {
 			done
 		}
 	else
-		deps=">=dev-python/sphinx-5.3.0"
+		deps=">=dev-python/sphinx-7.2.6"
 	fi
 
 	sphinx_compile_all() {
@@ -571,23 +568,20 @@ distutils_enable_sphinx() {
 }
 
 # @FUNCTION: distutils_enable_tests
-# @USAGE: [--install] <test-runner>
+# @USAGE: <test-runner>
 # @DESCRIPTION:
 # Set up IUSE, RESTRICT, BDEPEND and python_test() for running tests
 # with the specified test runner.  Also copies the current value
 # of RDEPEND to test?-BDEPEND.  The test-runner argument must be one of:
 #
-# - nose: nosetests (dev-python/nose)
+# - import-check: `pytest --import-check` fallback (for use when there are
+#   no tests to run)
 #
 # - pytest: dev-python/pytest
 #
 # - setup.py: setup.py test (no deps included)
 #
 # - unittest: for built-in Python unittest module
-#
-# Additionally, if --install is passed as the first parameter,
-# 'distutils_install_for_testing --via-root' is called before running
-# the test suite.
 #
 # This function is meant as a helper for common use cases, and it only
 # takes care of basic setup.  You still need to list additional test
@@ -597,45 +591,48 @@ distutils_enable_sphinx() {
 # This function must be called in global scope, after RDEPEND has been
 # declared.  Take care not to overwrite the variables set by it.
 distutils_enable_tests() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
-	_DISTUTILS_TEST_INSTALL=
 	case ${1} in
 		--install)
-			if [[ ${DISTUTILS_USE_PEP517} ]]; then
-				die "${FUNCNAME} --install is not implemented in PEP517 mode"
-			fi
-			_DISTUTILS_TEST_INSTALL=1
-			shift
+			die "${FUNCNAME} --install is no longer supported"
 			;;
 	esac
 
 	[[ ${#} -eq 1 ]] || die "${FUNCNAME} takes exactly one argument: test-runner"
 
 	local test_deps=${RDEPEND}
-	local test_pkgs
+	local test_pkgs=
 	case ${1} in
-		nose)
-			test_pkgs='>=dev-python/nose-1.3.7_p20221026[${PYTHON_USEDEP}]'
-			;;
+		import-check)
+			test_pkgs+=' dev-python/pytest-import-check[${PYTHON_USEDEP}]'
+			;&
 		pytest)
-			test_pkgs='>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]'
+			test_pkgs+=' >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}]'
 			if [[ -n ${EPYTEST_TIMEOUT} ]]; then
 				test_pkgs+=' dev-python/pytest-timeout[${PYTHON_USEDEP}]'
 			fi
 			if [[ ${EPYTEST_XDIST} ]]; then
 				test_pkgs+=' dev-python/pytest-xdist[${PYTHON_USEDEP}]'
 			fi
+
+			if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
+				test_deps+=" ${test_pkgs//'${PYTHON_USEDEP}'/${PYTHON_USEDEP}}"
+			else
+				test_deps+=" $(python_gen_cond_dep "
+					${test_pkgs}
+				")"
+			fi
 			;;
 		setup.py)
 			;;
 		unittest)
 			# unittest-or-fail is needed in py<3.12
-			test_deps+="
-				$(python_gen_cond_dep '
+			local test_pkgs="$(python_gen_cond_dep '
 					dev-python/unittest-or-fail[${PYTHON_USEDEP}]
-				' 3.10 3.11)
-			"
+				' 3.10 3.11
+			)"
+			[[ -n ${test_pkgs} ]] && test_deps+=" ${test_pkgs}"
 			;;
 		*)
 			die "${FUNCNAME}: unsupported argument: ${1}"
@@ -644,15 +641,6 @@ distutils_enable_tests() {
 	_DISTUTILS_TEST_RUNNER=${1}
 	python_test() { gs-distutils-r1_python_test; }
 
-	if [[ -n ${test_pkgs} ]]; then
-		if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
-			test_deps+=" ${test_pkgs//'${PYTHON_USEDEP}'/${PYTHON_USEDEP}}"
-		else
-			test_deps+=" $(python_gen_cond_dep "
-				${test_pkgs}
-			")"
-		fi
-	fi
 	if [[ -n ${test_deps} ]]; then
 		IUSE+=" test"
 		RESTRICT+=" !test? ( test )"
@@ -684,7 +672,7 @@ distutils_enable_tests() {
 #
 # This command dies on failure.
 esetup.py() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	_python_check_EPYTHON
 
@@ -725,123 +713,12 @@ esetup.py() {
 }
 
 # @FUNCTION: distutils_install_for_testing
-# @USAGE: [--via-root|--via-home|--via-venv] [<args>...]
+# @DEPRECATED: DISTUTILS_USE_PEP517=...
 # @DESCRIPTION:
-# Install the package into a temporary location for running tests.
-# Update PYTHONPATH appropriately and set TEST_DIR to the test
-# installation root. The Python packages will be installed in 'lib'
-# subdir, and scripts in 'scripts' subdir (like in BUILD_DIR).
-#
-# Please note that this function should be only used if package uses
-# namespaces (and therefore proper install needs to be done to enforce
-# PYTHONPATH) or tests rely on the results of install command.
-# For most of the packages, tests built in BUILD_DIR are good enough.
-#
-# The function supports three install modes.  These are:
-#
-# --via-root (the default) that uses 'setup.py install --root=...'
-# combined with PYTHONPATH and is recommended for the majority
-# of packages.
-#
-# --via-venv that creates a (non-isolated) venv and installs the package
-# into it via 'setup.py install'.  This mode does not use PYTHONPATH
-# but requires python to be called via PATH.  It may solve a few corner
-# cases that --via-root do not support.
-#
-# --via-home that uses 'setup.py install --home=...'.  This is
-# a historical mode that was mostly broken by setuptools 50.3.0+.
-# If your package does not work with the other two modes but works with
-# this one, please report a bug.
-#
-# Please note that in order to test the solution properly you need
-# to unmerge the package first.
-#
-# This function is not available in PEP517 mode.  The eclass provides
-# a venv-style install unconditionally and therefore it should no longer
-# be necessary.
+# This function used to provide an installed package for running tests.
+# It is no longer implemented, PEP517 mode must be used instead.
 distutils_install_for_testing() {
-	debug-print-function ${FUNCNAME} "${@}"
-
-	if [[ ${DISTUTILS_USE_PEP517} ]]; then
-		die "${FUNCNAME} is not implemented in PEP517 mode"
-	fi
-
-	# A few notes about --via-home mode:
-	# 1) 'install --home' is terribly broken on pypy, so we need
-	#    to override --install-lib and --install-scripts,
-	# 2) non-root 'install' complains about PYTHONPATH and missing dirs,
-	#    so we need to set it properly and mkdir them,
-	# 3) it runs a bunch of commands which write random files to cwd,
-	#    in order to avoid that, we add the necessary path overrides
-	#    in _distutils-r1_create_setup_cfg.
-
-	local install_method=root
-	case ${1} in
-		--via-home)
-			[[ ${EAPI} == 7 ]] || die "${*} is banned in EAPI ${EAPI}"
-			install_method=home
-			shift
-			;;
-		--via-root)
-			install_method=root
-			shift
-			;;
-		--via-venv)
-			install_method=venv
-			shift
-			;;
-	esac
-
-	TEST_DIR=${BUILD_DIR}/test
-	local add_args=()
-
-	if [[ ${install_method} == venv ]]; then
-		# create a quasi-venv
-		mkdir -p "${TEST_DIR}"/bin || die
-		ln -s "${PYTHON}" "${TEST_DIR}/bin/${EPYTHON}" || die
-		ln -s "${EPYTHON}" "${TEST_DIR}/bin/python3" || die
-		ln -s "${EPYTHON}" "${TEST_DIR}/bin/python" || die
-		cat > "${TEST_DIR}"/pyvenv.cfg <<-EOF || die
-			include-system-site-packages = true
-		EOF
-
-		# we only do the minimal necessary subset of activate script
-		PATH=${TEST_DIR}/bin:${PATH}
-		# unset PYTHONPATH in order to prevent BUILD_DIR from overriding
-		# venv packages
-		unset PYTHONPATH
-
-		# force root-style install (note: venv adds TEST_DIR to prefixes,
-		# so we need to pass --root=/)
-		add_args=(
-			--root=/
-		)
-	else
-		local bindir=${TEST_DIR}/scripts
-		local libdir=${TEST_DIR}/lib
-		PATH=${bindir}:${PATH}
-		PYTHONPATH=${libdir}:${PYTHONPATH}
-
-		case ${install_method} in
-			home)
-				add_args=(
-					--home="${TEST_DIR}"
-					--install-lib="${libdir}"
-					--install-scripts="${bindir}"
-				)
-				mkdir -p "${libdir}" || die
-				;;
-			root)
-				add_args=(
-					--root="${TEST_DIR}"
-					--install-lib=lib
-					--install-scripts=scripts
-				)
-				;;
-		esac
-	fi
-
-	esetup.py install "${add_args[@]}" "${@}"
+	die "${FUNCNAME} has been removed, please use PEP517 mode instead"
 }
 
 # @FUNCTION: distutils_write_namespace
@@ -854,7 +731,7 @@ distutils_install_for_testing() {
 # This function must only be used in python_test().  The created file
 # will automatically be removed upon leaving the test phase.
 distutils_write_namespace() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	if [[ ! ${DISTUTILS_USE_PEP517:-no} != no ]]; then
 		die "${FUNCNAME} is available only in PEP517 mode"
@@ -961,7 +838,7 @@ _distutils-r1_print_package_versions() {
 			flit_scm)
 				packages+=(
 					dev-python/flit-core
-					dev-python/flit_scm
+					dev-python/flit-scm
 					dev-python/setuptools-scm
 				)
 				;;
@@ -998,12 +875,6 @@ _distutils-r1_print_package_versions() {
 					dev-python/pbr
 					dev-python/setuptools
 					dev-python/wheel
-				)
-				;;
-			pdm)
-				packages+=(
-					dev-python/pdm-pep517
-					dev-python/setuptools
 				)
 				;;
 			pdm-backend)
@@ -1066,7 +937,8 @@ _distutils-r1_print_package_versions() {
 # At some point in the future, it may also apply eclass-specific
 # distutils patches and/or quirks.
 gs-distutils-r1_python_prepare_all() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
+	_python_sanity_checks
 	_distutils-r1_check_all_phase_mismatch
 
 	if [[ ! ${DISTUTILS_OPTIONAL} ]]; then
@@ -1152,7 +1024,7 @@ _distutils-r1_create_setup_cfg() {
 			[install]
 			compile = True
 			optimize = 2
-			root = ${D%/}
+			root = ${D}
 		_EOF_
 
 		if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
@@ -1187,7 +1059,7 @@ _distutils-r1_copy_egg_info() {
 # Print the DISTUTILS_USE_PEP517 value corresponding to the backend
 # passed as the only argument.
 _distutils-r1_backend_to_key() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	local backend=${1}
 	case ${backend} in
@@ -1212,11 +1084,8 @@ _distutils-r1_backend_to_key() {
 		pbr.build)
 			echo pbr
 			;;
-		pdm.backend)
+		pdm.backend|pdm.pep517.api)
 			echo pdm-backend
-			;;
-		pdm.pep517.api)
-			echo pdm
 			;;
 		poetry.core.masonry.api|poetry.masonry.api)
 			echo poetry
@@ -1242,7 +1111,7 @@ _distutils-r1_backend_to_key() {
 # Read (or guess, in case of setuptools) the build-backend
 # for the package in the current directory.
 _distutils-r1_get_backend() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	local build_backend legacy_fallback
 	if [[ -f pyproject.toml ]]; then
@@ -1282,6 +1151,9 @@ _distutils-r1_get_backend() {
 			flit.buildapi)
 				new_backend=flit_core.buildapi
 				;;
+			pdm.pep517.api)
+				new_backend=pdm.backend
+				;;
 			poetry.masonry.api)
 				new_backend=poetry.core.masonry.api
 				;;
@@ -1313,7 +1185,7 @@ _distutils-r1_get_backend() {
 #
 # This function is intended for expert use only.
 distutils_wheel_install() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	if [[ ${#} -ne 2 ]]; then
 		die "${FUNCNAME} takes exactly two arguments: <root> <wheel>"
 	fi
@@ -1336,27 +1208,41 @@ distutils_wheel_install() {
 	printf '%s\n' "${cmd[*]}"
 	"${cmd[@]}" || die "Wheel install failed"
 
-	# remove installed licenses
+	# remove installed licenses and other junk
 	find "${root}$(python_get_sitedir)" -depth \
-		\( -path '*.dist-info/COPYING*' \
-		-o -path '*.dist-info/LICENSE*' \
+		\( -ipath '*.dist-info/AUTHORS*' \
+		-o -ipath '*.dist-info/CHANGELOG*' \
+		-o -ipath '*.dist-info/CODE_OF_CONDUCT*' \
+		-o -ipath '*.dist-info/COPYING*' \
+		-o -ipath '*.dist-info/*LICEN[CS]E*' \
+		-o -ipath '*.dist-info/NOTICE*' \
+		-o -ipath '*.dist-info/*Apache*' \
+		-o -ipath '*.dist-info/*GPL*' \
+		-o -ipath '*.dist-info/*MIT*' \
+		-o -path '*.dist-info/RECORD' \
 		-o -path '*.dist-info/license_files/*' \
 		-o -path '*.dist-info/license_files' \
 		-o -path '*.dist-info/licenses/*' \
 		-o -path '*.dist-info/licenses' \
+		-o -path '*.dist-info/zip-safe' \
 		\) -delete || die
 }
+
+# @VARIABLE: DISTUTILS_WHEEL_PATH
+# @DESCRIPTION:
+# Path to the wheel created by distutils_pep517_install.
 
 # @FUNCTION: distutils_pep517_install
 # @USAGE: <root>
 # @DESCRIPTION:
-# Build the wheel for the package in the current directory using PEP 517
+# Build the wheel for the package in the current directory using PEP517
 # backend and install it into <root>.
 #
 # This function is intended for expert use only.  It does not handle
-# wrapping executables.
+# wrapping executables.  The wheel path is returned
+# in DISTUTILS_WHEEL_PATH variable.
 distutils_pep517_install() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	[[ ${#} -eq 1 ]] || die "${FUNCNAME} takes exactly one argument: root"
 
 	if [[ ! ${DISTUTILS_USE_PEP517:-no} != no ]]; then
@@ -1372,14 +1258,26 @@ distutils_pep517_install() {
 		die "mydistutilsargs are banned in PEP517 mode (use DISTUTILS_ARGS)"
 	fi
 
-	local config_settings=
+	local cmd=() config_settings=
+	if has cargo ${INHERITED} && [[ ${_CARGO_GEN_CONFIG_HAS_RUN} ]]; then
+		cmd+=( cargo_env )
+	fi
+
+	# set it globally in case we were using "standalone" wrapper
+	local -x HATCH_METADATA_CLASSIFIERS_NO_VERIFY=1
+	local -x VALIDATE_PYPROJECT_NO_NETWORK=1
+	local -x VALIDATE_PYPROJECT_NO_TROVE_CLASSIFIERS=1
+	if in_iuse debug && use debug; then
+		local -x SETUPTOOLS_RUST_CARGO_PROFILE=dev
+	fi
+
 	case ${DISTUTILS_USE_PEP517} in
 		maturin)
 			# `maturin pep517 build-wheel --help` for options
 			local maturin_args=(
 				"${DISTUTILS_ARGS[@]}"
+				--auditwheel=skip # see bug #831171
 				--jobs="$(makeopts_jobs)"
-				--skip-auditwheel # see bug #831171
 				$(in_iuse debug && usex debug '--profile=dev' '')
 			)
 
@@ -1392,9 +1290,19 @@ distutils_pep517_install() {
 			)
 			;;
 		meson-python)
+			# variables defined by setup_meson_src_configure
+			local MESONARGS=() BOOST_INCLUDEDIR BOOST_LIBRARYDIR NM READELF
+			# it also calls filter-lto
+			local x
+			for x in $(all-flag-vars); do
+				local -x "${x}=${!x}"
+			done
+
+			setup_meson_src_configure "${DISTUTILS_ARGS[@]}"
+
 			local -x NINJAOPTS=$(get_NINJAOPTS)
 			config_settings=$(
-				"${EPYTHON}" - "${DISTUTILS_ARGS[@]}" <<-EOF || die
+				"${EPYTHON}" - "${MESONARGS[@]}" <<-EOF || die
 					import json
 					import os
 					import shlex
@@ -1409,10 +1317,51 @@ distutils_pep517_install() {
 				EOF
 			)
 			;;
+		scikit-build-core)
+			# TODO: split out the config/toolchain logic from cmake.eclass
+			# for now, we copy the most important bits
+			local CMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE:-RelWithDebInfo}
+			cat >> "${BUILD_DIR}"/config.cmake <<- _EOF_ || die
+				set(CMAKE_ASM_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+				set(CMAKE_ASM-ATT_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+				set(CMAKE_C_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+				set(CMAKE_CXX_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+				set(CMAKE_Fortran_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+				set(CMAKE_EXE_LINKER_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+				set(CMAKE_MODULE_LINKER_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+				set(CMAKE_SHARED_LINKER_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+				set(CMAKE_STATIC_LINKER_FLAGS_${CMAKE_BUILD_TYPE^^} "" CACHE STRING "")
+			_EOF_
+
+			# hack around CMake ignoring CPPFLAGS
+			local -x CFLAGS="${CFLAGS} ${CPPFLAGS}"
+			local -x CXXFLAGS="${CXXFLAGS} ${CPPFLAGS}"
+
+			local cmake_args=(
+				"-C${BUILD_DIR}/config.cmake"
+				"${DISTUTILS_ARGS[@]}"
+			)
+
+			local -x NINJAOPTS=$(get_NINJAOPTS)
+			config_settings=$(
+				"${EPYTHON}" - "${cmake_args[@]}" <<-EOF || die
+					import json
+					import os
+					import shlex
+					import sys
+
+					ninjaopts = shlex.split(os.environ["NINJAOPTS"])
+					print(json.dumps({
+						"build.tool-args": ninjaopts,
+						"cmake.args": ";".join(sys.argv[1:]),
+						"cmake.build-type": "${CMAKE_BUILD_TYPE}",
+						"cmake.verbose": True,
+						"install.strip": False,
+					}))
+				EOF
+			)
+			;;
 		setuptools)
-			if in_iuse debug && use debug; then
-				local -x SETUPTOOLS_RUST_CARGO_PROFILE=dev
-			fi
 			if [[ -n ${DISTUTILS_ARGS[@]} ]]; then
 				config_settings=$(
 					"${EPYTHON}" - "${DISTUTILS_ARGS[@]}" <<-EOF || die
@@ -1455,9 +1404,14 @@ distutils_pep517_install() {
 			;;
 	esac
 
+	# https://pyo3.rs/latest/building-and-distribution.html#cross-compiling
+	if tc-is-cross-compiler; then
+		local -x PYO3_CROSS_LIB_DIR=${SYSROOT}/$(python_get_stdlib)
+	fi
+
 	local build_backend=$(_distutils-r1_get_backend)
 	einfo "  Building the wheel for ${PWD#${WORKDIR}/} via ${build_backend}"
-	local cmd=(
+	cmd+=(
 		"${EPYTHON}" -m gpep517 build-wheel
 			--prefix="${EPREFIX}/usr"
 			--backend "${build_backend}"
@@ -1477,7 +1431,18 @@ distutils_pep517_install() {
 	[[ -n ${wheel} ]] || die "No wheel name returned"
 
 	distutils_wheel_install "${root}" "${WHEEL_BUILD_DIR}/${wheel}"
+
+	DISTUTILS_WHEEL_PATH=${WHEEL_BUILD_DIR}/${wheel}
 }
+
+# @VARIABLE: DISTUTILS_WHEELS
+# @DESCRIPTION:
+# An associative array of wheels created as a result
+# of distutils-r1_python_compile invocations, mapped to the source
+# directories.  Note that this includes only wheels implicitly created
+# by the eclass, and not wheels created as a result of direct
+# distutils_pep517_install calls in the ebuild.
+declare -g -A DISTUTILS_WHEELS=()
 
 # @FUNCTION: distutils-r1_python_compile
 # @USAGE: [additional-args...]
@@ -1488,48 +1453,79 @@ distutils_pep517_install() {
 #
 # If DISTUTILS_USE_PEP517 is set to any other value, builds a wheel
 # using the PEP517 backend and installs it into ${BUILD_DIR}/install.
+# Path to the wheel is then added to DISTUTILS_WHEELS array.
 #
 # In legacy mode, runs 'esetup.py build'. Any parameters passed to this
 # function will be appended to setup.py invocation, i.e. passed
 # as options to the 'build' command.
 gs-distutils-r1_python_compile() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	_python_check_EPYTHON
 
-	case ${DISTUTILS_USE_PEP517:-setuptools} in
-		setuptools)
-			# call setup.py build when using setuptools (either via PEP517
-			# or in legacy mode)
-
-			# distutils is parallel-capable since py3.5
-			local jobs=$(makeopts_jobs "${MAKEOPTS} ${*}")
-
-			if [[ ${DISTUTILS_USE_PEP517} ]]; then
-				mkdir -p "${BUILD_DIR}" || die
-				local -x DIST_EXTRA_CONFIG="${BUILD_DIR}/extra-setup.cfg"
-				cat > "${DIST_EXTRA_CONFIG}" <<-EOF || die
-					[build]
-					build_base = ${BUILD_DIR}/build
-
-					[build_ext]
-					parallel = ${jobs}
-				EOF
-			else
-				_distutils-r1_copy_egg_info
-				esetup.py build -j "${jobs}" "${@}"
-			fi
-			;;
+	case ${DISTUTILS_USE_PEP517:-unset} in
 		no)
 			return
+			;;
+		unset)
+			# legacy mode
+			_distutils-r1_copy_egg_info
+			esetup.py build -j "$(makeopts_jobs "${MAKEOPTS} ${*}")" "${@}"
+			;;
+		*)
+			# we do this for all build systems, since other backends
+			# and custom hooks may wrap setuptools
+			mkdir -p "${BUILD_DIR}" || die
+			local -x DIST_EXTRA_CONFIG="${BUILD_DIR}/extra-setup.cfg"
+			cat > "${DIST_EXTRA_CONFIG}" <<-EOF || die
+				[build]
+				build_base = ${BUILD_DIR}/build
+
+				[build_ext]
+				parallel = $(makeopts_jobs "${MAKEOPTS} ${*}")
+			EOF
 			;;
 	esac
 
 	if [[ ${DISTUTILS_USE_PEP517} ]]; then
+		if [[ ${DISTUTILS_ALLOW_WHEEL_REUSE} ]]; then
+			local whl
+			for whl in "${!DISTUTILS_WHEELS[@]}"; do
+				# use only wheels corresponding to the current directory
+				if [[ ${PWD} != ${DISTUTILS_WHEELS["${whl}"]} ]]; then
+					continue
+				fi
+
+				# 1. Use pure Python wheels only if we're not expected
+				# to build extensions.  Otherwise, we may end up
+				# not building the extension at all when e.g. PyPy3
+				# is built without one.
+				#
+				# 2. For CPython, we can reuse stable ABI wheels.  Note
+				# that this relies on the assumption that we're building
+				# from the oldest to the newest implementation,
+				# and the wheels are forward-compatible.
+				if [[
+					( ! ${DISTUTILS_EXT} && ${whl} == *py3-none-any* ) ||
+					(
+						${EPYTHON} == python* &&
+						# freethreading does not support stable ABI
+						# at the moment
+						${EPYTHON} != *t &&
+						${whl} == *-abi3-*
+					)
+				]]; then
+					distutils_wheel_install "${BUILD_DIR}/install" "${whl}"
+					return
+				fi
+			done
+		fi
+
 		if [[ ${DISTUTILS_USE_PEP517} == "wheel" ]]; then
 			distutils_wheel_install "${BUILD_DIR}/install" "${WORKDIR}/${SOURCEFILE}"
 		else
 			distutils_pep517_install "${BUILD_DIR}/install"
+			DISTUTILS_WHEELS+=( "${DISTUTILS_WHEEL_PATH}" "${PWD}" )
 		fi
 	fi
 }
@@ -1540,7 +1536,7 @@ gs-distutils-r1_python_compile() {
 # @DESCRIPTION:
 # Moves and wraps all installed scripts/executables as necessary.
 _distutils-r1_wrap_scripts() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	[[ ${#} -eq 1 ]] || die "usage: ${FUNCNAME} <bindir>"
 	local bindir=${1}
@@ -1548,10 +1544,10 @@ _distutils-r1_wrap_scripts() {
 	local scriptdir=$(python_get_scriptdir)
 	local f python_files=() non_python_files=()
 
-	if [[ -d ${D%/}${scriptdir} ]]; then
-		for f in "${D%/}${scriptdir}"/*; do
+	if [[ -d ${D}${scriptdir} ]]; then
+		for f in "${D}${scriptdir}"/*; do
 			[[ -d ${f} ]] && die "Unexpected directory: ${f}"
-			debug-print "${FUNCNAME}: found executable at ${f#${D%/}/}"
+			debug-print "${FUNCNAME}: found executable at ${f#${D}/}"
 
 			local shebang
 			read -r shebang < "${f}"
@@ -1563,7 +1559,7 @@ _distutils-r1_wrap_scripts() {
 				non_python_files+=( "${f}" )
 			fi
 
-			mkdir -p "${D%/}${bindir}" || die
+			mkdir -p "${D}${bindir}" || die
 		done
 
 		for f in "${python_files[@]}"; do
@@ -1579,8 +1575,8 @@ _distutils-r1_wrap_scripts() {
 		for f in "${non_python_files[@]}"; do
 			local basename=${f##*/}
 
-			debug-print "${FUNCNAME}: moving ${f#${D%/}/} to ${bindir}/${basename}"
-			mv "${f}" "${D%/}${bindir}/${basename}" || die
+			debug-print "${FUNCNAME}: moving ${f#${D}/} to ${bindir}/${basename}"
+			mv "${f}" "${D}${bindir}/${basename}" || die
 		done
 	fi
 }
@@ -1594,7 +1590,7 @@ _distutils-r1_wrap_scripts() {
 #
 # This function is used only if distutils_enable_tests is called.
 gs-distutils-r1_python_test() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	if [[ -z ${_DISTUTILS_TEST_RUNNER} ]]; then
 		die "${FUNCNAME} can be only used after calling distutils_enable_tests"
@@ -1602,13 +1598,9 @@ gs-distutils-r1_python_test() {
 
 	_python_check_EPYTHON
 
-	if [[ ${_DISTUTILS_TEST_INSTALL} ]]; then
-		distutils_install_for_testing
-	fi
-
 	case ${_DISTUTILS_TEST_RUNNER} in
-		nose)
-			"${EPYTHON}" -m nose -v "${@}"
+		import-check)
+			epytest --import-check "${BUILD_DIR}/install$(python_get_sitedir)"
 			;;
 		pytest)
 			epytest
@@ -1641,7 +1633,7 @@ gs-distutils-r1_python_test() {
 # Any parameters passed to this function will be appended
 # to the setup.py invocation (i.e. as options to the 'install' command).
 gs-distutils-r1_python_install() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	_python_check_EPYTHON
 
@@ -1692,8 +1684,8 @@ gs-distutils-r1_python_install() {
 		find "${BUILD_DIR}"/install -type d -empty -delete || die
 		[[ -d ${BUILD_DIR}/install ]] && merge_root=1
 	else
-		local root=${D%/}/_${EPYTHON}
-		[[ ${DISTUTILS_SINGLE_IMPL} ]] && root=${D%/}
+		local root=${D}/_${EPYTHON}
+		[[ ${DISTUTILS_SINGLE_IMPL} ]] && root=${D}
 
 		# inline DISTUTILS_ARGS logic from esetup.py in order to make
 		# argv overwriting easier
@@ -1747,7 +1739,7 @@ gs-distutils-r1_python_install() {
 	fi
 
 	if [[ ${merge_root} ]]; then
-		multibuild_merge_root "${root}" "${D%/}"
+		multibuild_merge_root "${root}" "${D}"
 	fi
 	if [[ ! ${DISTUTILS_SINGLE_IMPL} ]]; then
 		_distutils-r1_wrap_scripts "${scriptdir}"
@@ -1758,7 +1750,7 @@ gs-distutils-r1_python_install() {
 # @DESCRIPTION:
 # The default python_install_all(). It installs the documentation.
 gs-distutils-r1_python_install_all() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	_distutils-r1_check_all_phase_mismatch
 
 	einstalldocs
@@ -1778,7 +1770,7 @@ gs-distutils-r1_python_install_all() {
 # holding the per-implementation copy of sources. BUILD_DIR points
 # to the 'build' subdirectory.
 gs-distutils-r1_run_phase() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	if [[ ${DISTUTILS_IN_SOURCE_BUILD} ]]; then
 		[[ ${DISTUTILS_USE_PEP517} ]] &&
@@ -1798,9 +1790,7 @@ gs-distutils-r1_run_phase() {
 	else
 		local -x PYTHONPATH="${BUILD_DIR}/lib:${PYTHONPATH}"
 
-		# make PATH local for distutils_install_for_testing calls
-		# it makes little sense to let user modify PATH in per-impl phases
-		# and _all() already localizes it
+		# make PATH local (for historical reasons)
 		local -x PATH=${PATH}
 
 		if _python_impl_matches "${EPYTHON}" 3.{9..11}; then
@@ -1822,12 +1812,13 @@ gs-distutils-r1_run_phase() {
 	local -x AR=${AR} CC=${CC} CPP=${CPP} CXX=${CXX}
 	tc-export AR CC CPP CXX
 
-	if [[ ${DISTUTILS_EXT} ]]; then
-		if [[ ${BDEPEND} == *dev-python/cython* ]] ; then
-			# Workaround for https://github.com/cython/cython/issues/2747 (bug #918983)
-			local -x CFLAGS="${CFLAGS} $(test-flags-CC -Wno-error=incompatible-pointer-types)"
-		fi
-
+	# Perform additional environment modifications only for python_compile
+	# phase.  This is the only phase where we expect to be calling the Python
+	# build system.  We want to localize the altered variables to avoid them
+	# leaking to other parts of multi-language ebuilds.  However, we want
+	# to avoid localizing them in other phases, particularly
+	# python_configure_all, where the ebuild may wish to alter them globally.
+	if [[ ${DISTUTILS_EXT} && ( ${1} == *compile* || ${1} == *test* ) ]]; then
 		local -x CPPFLAGS="${CPPFLAGS} $(usex debug '-UNDEBUG' '-DNDEBUG')"
 		# always generate .c files from .pyx files to ensure we get latest
 		# bug fixes from Cython (this works only when setup.py is using
@@ -1837,12 +1828,6 @@ gs-distutils-r1_run_phase() {
 
 	# silence warnings when pydevd is loaded on Python 3.11+
 	local -x PYDEVD_DISABLE_FILE_VALIDATION=1
-
-	# Rust extensions are incompatible with C/C++ LTO compiler
-	# see e.g. https://bugs.gentoo.org/910220
-	if has cargo ${INHERITED}; then
-		filter-lto
-	fi
 
 	# How to build Python modules in different worlds...
 	local ldopts
@@ -1906,7 +1891,7 @@ _distutils-r1_run_common_phase() {
 # Run the given phase for each implementation if multiple implementations
 # are enabled, once otherwise.
 _distutils-r1_run_foreach_impl() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	# store for restoring after distutils-r1_run_phase.
 	local _DISTUTILS_INITIAL_CWD=${PWD}
@@ -1927,7 +1912,7 @@ _distutils-r1_run_foreach_impl() {
 }
 
 gs-distutils-r1_src_prepare() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	local ret=0
 	local _DISTUTILS_DEFAULT_CALLED
 
@@ -1961,7 +1946,7 @@ gs-distutils-r1_src_prepare() {
 }
 
 gs-distutils-r1_src_configure() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	local ret=0
 
 	if declare -f python_configure >/dev/null; then
@@ -1975,13 +1960,51 @@ gs-distutils-r1_src_configure() {
 	return ${ret}
 }
 
+# @FUNCTION: _distutils-r1_compare_installed_files
+# @INTERNAL
+# @DESCRIPTION:
+# Verify the the match between files installed between this and previous
+# implementation.
+_distutils-r1_compare_installed_files() {
+	debug-print-function ${FUNCNAME} "$@"
+
+	# QA check requires diff(1).
+	if ! type -P diff &>/dev/null; then
+		return
+	fi
+
+	# Perform the check only if at least one potentially reusable wheel
+	# has been produced.  Nonpure packages (e.g. NumPy) may install
+	# interpreter configuration details into sitedir.
+	if [[ ${!DISTUTILS_WHEELS[*]} != *py3-none-any.whl* &&
+			${!DISTUTILS_WHEELS[*]} != *-abi3-*.whl ]]; then
+		return
+	fi
+
+	local sitedir=${BUILD_DIR}/install$(python_get_sitedir)
+	if [[ -n ${_DISTUTILS_PREVIOUS_SITE} ]]; then
+		diff -dur \
+			--exclude=__pycache__ \
+			--exclude='*.dist-info' \
+			--exclude="*$(get_modname)" \
+			"${_DISTUTILS_PREVIOUS_SITE}" "${sitedir}"
+		if [[ ${?} -ne 0 ]]; then
+			eqawarn "Package creating at least one pure Python wheel installs different"
+			eqawarn "Python files between implementations.  See diff in build log, above"
+			eqawarn "this message."
+		fi
+	fi
+
+	_DISTUTILS_PREVIOUS_SITE=${sitedir}
+}
+
 # @FUNCTION: _distutils-r1_post_python_compile
 # @INTERNAL
 # @DESCRIPTION:
 # Post-phase function called after python_compile.  In PEP517 mode,
 # it adjusts the install tree for venv-style usage.
 _distutils-r1_post_python_compile() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	local root=${BUILD_DIR}/install
 	if [[ ${DISTUTILS_USE_PEP517} && -d ${root} ]]; then
@@ -2009,11 +2032,13 @@ _distutils-r1_post_python_compile() {
 		find "${bindir}" -type f -exec sed -i \
 			-e "1s@^#!\(${EPREFIX}/usr/bin/\(python\|pypy\)\)@#!${root}\1@" \
 			{} + || die
+
+		_distutils-r1_compare_installed_files
 	fi
 }
 
 gs-distutils-r1_src_compile() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	local ret=0
 
 	if declare -f python_compile >/dev/null; then
@@ -2048,7 +2073,7 @@ _distutils-r1_clean_egg_info() {
 # @DESCRIPTION:
 # Post-phase function called after python_test.
 _distutils-r1_post_python_test() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	if [[ ! ${DISTUTILS_USE_PEP517} ]]; then
 		_distutils-r1_clean_egg_info
@@ -2056,7 +2081,7 @@ _distutils-r1_post_python_test() {
 }
 
 gs-distutils-r1_src_test() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	local ret=0
 
 	if declare -f python_test >/dev/null; then
@@ -2077,7 +2102,7 @@ gs-distutils-r1_src_test() {
 # Find and remove setuptools-style namespaces in the specified
 # directory.
 _distutils-r1_strip_namespace_packages() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
 	local sitedir=${1}
 	local f ns had_any=
@@ -2106,9 +2131,9 @@ _distutils-r1_strip_namespace_packages() {
 # Post-phase function called after python_install.  Performs QA checks.
 # In PEP517 mode, additionally optimizes installed Python modules.
 _distutils-r1_post_python_install() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 
-	local sitedir=${D%/}$(python_get_sitedir)
+	local sitedir=${D}$(python_get_sitedir)
 	if [[ -d ${sitedir} ]]; then
 		_distutils-r1_strip_namespace_packages "${sitedir}"
 
@@ -2119,8 +2144,10 @@ _distutils-r1_post_python_install() {
 		local strays=()
 		local p
 		mapfile -d $'\0' -t strays < <(
+			# jar for jpype, https://bugs.gentoo.org/937642
 			find "${sitedir}" -maxdepth 1 -type f '!' '(' \
 					-name '*.egg-info' -o \
+					-name '*.jar' -o \
 					-name '*.pth' -o \
 					-name '*.py' -o \
 					-name '*.pyi' -o \
@@ -2167,13 +2194,13 @@ _distutils-r1_check_namespace_pth() {
 
 	while IFS= read -r -d '' f; do
 		pth+=( "${f}" )
-	done < <(find "${ED%/}" -name '*-nspkg.pth' -print0)
+	done < <(find "${ED}" -name '*-nspkg.pth' -print0)
 
 	if [[ ${pth[@]} ]]; then
 		eerror "The following *-nspkg.pth files were found installed:"
 		eerror
 		for f in "${pth[@]}"; do
-			eerror "  ${f#${ED%/}}"
+			eerror "  ${f#${ED}}"
 		done
 		eerror
 		eerror "The presence of those files may break namespaces in Python 3.5+. Please"
@@ -2187,7 +2214,7 @@ _distutils-r1_check_namespace_pth() {
 }
 
 gs-distutils-r1_src_install() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function ${FUNCNAME} "$@"
 	local ret=0
 
 	if declare -f python_install >/dev/null; then

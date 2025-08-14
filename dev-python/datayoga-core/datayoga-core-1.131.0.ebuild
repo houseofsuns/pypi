@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="azure cassandra db2 http mysql oracle parquet pg redis sqlserver test"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]

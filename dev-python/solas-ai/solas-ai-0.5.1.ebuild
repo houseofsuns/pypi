@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	>=dev-python/importlib-resources-5.10.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	>=dev-python/markdown-3.3.7[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.5.2[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	>=dev-python/rtree-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.3[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/mypy-0.981[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbmake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbstripout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Nuitka[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nuitka-1.8.5[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"

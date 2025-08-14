@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,11 +39,11 @@ DEPENDENCIES=">=dev-python/ecdsa-0.9[${PYTHON_USEDEP}]
 	extra? ( >=dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/hidapi-0.7.99_p20[${PYTHON_USEDEP}] )
 	full? ( dev-python/web3[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	full? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/stellar-sdk[${PYTHON_USEDEP}] )
 	hidapi? ( >=dev-python/hidapi-0.7.99_p20[${PYTHON_USEDEP}] )
-	qt-widgets? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt-widgets? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	stellar? ( dev-python/stellar-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

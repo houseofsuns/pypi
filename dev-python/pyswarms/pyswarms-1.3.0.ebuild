@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	test? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/attrs-18.1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/babel-2.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/backcall[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/bleach-3.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
@@ -51,10 +51,10 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	test? ( ~dev-python/imagesize-1.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/ipykernel-5.1.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipython_genutils[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/ipython-genutils-0.2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/ipython-7.5.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jedi-0.13.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jinja2-2.10[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/joblib-0.13.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jupyter-client-5.2.4[${PYTHON_USEDEP}] )

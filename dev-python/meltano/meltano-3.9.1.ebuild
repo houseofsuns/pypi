@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,6 @@ IUSE="azure gcs mssql postgres psycopg2 s3"
 DEPENDENCIES="dev-python/aiodocker[${PYTHON_USEDEP}]
 	<dev-python/alembic-2.0[${PYTHON_USEDEP}]
 	<dev-python/anyio-5.0[${PYTHON_USEDEP}]
-	dev-python/backports-strenum[${PYTHON_USEDEP}]
 	dev-python/check-jsonschema[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/click-default-group-2.0[${PYTHON_USEDEP}]
@@ -36,7 +35,7 @@ DEPENDENCIES="dev-python/aiodocker[${PYTHON_USEDEP}]
 	<dev-python/fasteners-0.20[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-26.0[${PYTHON_USEDEP}]
 	~dev-python/pip-25.1[${PYTHON_USEDEP}]

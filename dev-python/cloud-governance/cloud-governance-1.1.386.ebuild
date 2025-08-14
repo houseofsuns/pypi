@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -53,7 +53,7 @@ DEPENDENCIES="~dev-python/aiohttp-3.10.11[${PYTHON_USEDEP}]
 	~dev-python/oauthlib-3.1.1[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/PyAthena[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.55[${PYTHON_USEDEP}]
 	~dev-python/python-ldap-3.4.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.2[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]

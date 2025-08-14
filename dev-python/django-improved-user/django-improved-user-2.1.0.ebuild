@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="factory"
 DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	factory? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	factory? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	factory? ( >=dev-python/faker-0.8[${PYTHON_USEDEP}] )
 	factory? ( >=dev-python/python-dateutil-2.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

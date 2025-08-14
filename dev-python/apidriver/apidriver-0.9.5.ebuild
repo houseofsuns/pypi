@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/allure-pytest[${PYTHON_USEDEP}]
 	~dev-python/docutils-0.19[${PYTHON_USEDEP}]
 	~dev-python/exceptiongroup-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/execnet-2.0.2[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-16.6.1[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	~dev-python/h11-0.14.0[${PYTHON_USEDEP}]
 	~dev-python/h2-4.1.0[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/allure-pytest[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/jaraco-classes-3.2.3[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/jsonpath[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	~dev-python/kaitaistruct-0.10[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/allure-pytest[${PYTHON_USEDEP}]
 	~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
 	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
 	dev-python/mitmproxy[${PYTHON_USEDEP}]
-	dev-python/mitmproxy_wireguard[${PYTHON_USEDEP}]
+	~dev-python/mitmproxy-wireguard-0.1.23[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
 	~dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]
 	~dev-python/packaging-23.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -45,14 +45,14 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/furo-2022.3.4[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinxemoji-0.1.8[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/markdown-3.4.0[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )

@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/alembic-1.14.0[${PYTHON_USEDEP}]
 	~dev-python/asttokens-3.0.0[${PYTHON_USEDEP}]
 	~dev-python/attrs-24.2.0[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.16.0[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.2.1[${PYTHON_USEDEP}]
 	dev-python/billiard[${PYTHON_USEDEP}]
 	~dev-python/bleach-6.2.0[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="~dev-python/alembic-1.14.0[${PYTHON_USEDEP}]
 	~dev-python/executing-2.1.0[${PYTHON_USEDEP}]
 	dev-python/feedgen[${PYTHON_USEDEP}]
 	~dev-python/flask-babel-4.0.0[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	~dev-python/flask-caching-2.3.0[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-6.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
 	dev-python/flask-marshmallow[${PYTHON_USEDEP}]
@@ -82,7 +82,7 @@ DEPENDENCIES="~dev-python/alembic-1.14.0[${PYTHON_USEDEP}]
 	~dev-python/ipython-8.30.0[${PYTHON_USEDEP}]
 	~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/jedi-0.19.2[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-specifications-2024.10.1[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
 	~dev-python/kombu-5.4.2[${PYTHON_USEDEP}]
@@ -98,7 +98,7 @@ DEPENDENCIES="~dev-python/alembic-1.14.0[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.23.1[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-inline-0.1.7[${PYTHON_USEDEP}]
 	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	~dev-python/packaging-24.2[${PYTHON_USEDEP}]
 	~dev-python/parso-0.8.4[${PYTHON_USEDEP}]
@@ -166,7 +166,7 @@ DEPENDENCIES="~dev-python/alembic-1.14.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/anyio-4.7.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/atpublic-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/attrs-24.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/babel-2.16.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/blinker-1.9.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.2.2_p1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/certifi-2024.8.30[${PYTHON_USEDEP}] )
@@ -188,7 +188,7 @@ DEPENDENCIES="~dev-python/alembic-1.14.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markupsafe-3.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/migra[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mirakuru[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	>=dev-python/msgpack-0.6.2[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-16.0.2[${PYTHON_USEDEP}]
 	dev-python/geventhttpclient[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	>=dev-python/configargparse-1.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.7[${PYTHON_USEDEP}]
 	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
 	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]"

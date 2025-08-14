@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.8.0[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.17[${PYTHON_USEDEP}]
 	~dev-python/botocore-1.20.0[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	~dev-python/idna-2.8[${PYTHON_USEDEP}]
 	~dev-python/imagesize-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-2.11.1[${PYTHON_USEDEP}]
 	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	~dev-python/jsonpointer-2.0[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.6.0[${PYTHON_USEDEP}]

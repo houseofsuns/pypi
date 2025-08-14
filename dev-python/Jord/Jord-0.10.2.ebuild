@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/Apppath[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pip-22.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyqt6-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.33.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/black-21.5_beta0[${PYTHON_USEDEP}] )
@@ -72,17 +72,17 @@ DEPENDENCIES="dev-python/Apppath[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-4.0.1[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	qt? ( >=dev-python/pyqt6-6.0.0[${PYTHON_USEDEP}] )
 	shapely? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	shapely? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	cad? ( dev-python/ezdxf[${PYTHON_USEDEP}] )
-	qgis? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	qgis? ( >=dev-python/pyqt6-6.0.0[${PYTHON_USEDEP}] )
 	pdal? ( >=dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )
 	pdal? ( dev-python/pdal[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyqt6-6.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	tests? ( dev-python/osmnx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/geopandas[${PYTHON_USEDEP}] )
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/Apppath[${PYTHON_USEDEP}]
 	all? ( >=dev-python/sphinx-4.0.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pip-22.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyqt6-6.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/wheel-0.33.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/black-21.5_beta0[${PYTHON_USEDEP}] )

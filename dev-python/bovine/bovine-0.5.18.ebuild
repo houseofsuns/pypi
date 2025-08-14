@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jcs[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/http-sf[${PYTHON_USEDEP}]
-	server? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	server? ( <dev-python/quart-0.21.0[${PYTHON_USEDEP}] )
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	media? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	media? ( <dev-python/pillow-12.0.0[${PYTHON_USEDEP}] )

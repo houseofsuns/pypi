@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	dev-python/memory-tempfile[${PYTHON_USEDEP}]
 	<dev-python/progressbar2-4.0.0[${PYTHON_USEDEP}]
-	dev-python/requests_download[${PYTHON_USEDEP}]
+	<dev-python/requests-download-0.2.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]

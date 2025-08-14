@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="matplotlib notebooks"
 DEPENDENCIES="dev-python/imglyb[${PYTHON_USEDEP}]
 	dev-python/jgo[${PYTHON_USEDEP}]
-	dev-python/JPype1[${PYTHON_USEDEP}]
+	dev-python/jpype1[${PYTHON_USEDEP}]
 	dev-python/labeling[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scyjava[${PYTHON_USEDEP}]

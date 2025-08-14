@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="5.0.0rc0"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/abch-tree-sitter-solidity[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.19.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	<dev-python/rich-click-2.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	<dev-python/sarif-om-2.0[${PYTHON_USEDEP}]
 	<dev-python/tblib-2.0[${PYTHON_USEDEP}]
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/abch-tree-sitter-solidity[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pymdown-extensions-11.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/gitpython-4.0[${PYTHON_USEDEP}] )
 	tests? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

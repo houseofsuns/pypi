@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cuda dev"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	cuda? ( dev-python/nvidia-cuda-runtime-cu11[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/nvidia-cublas-cu11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gpt4all[${PYTHON_USEDEP}] )

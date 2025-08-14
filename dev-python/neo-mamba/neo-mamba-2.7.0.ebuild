@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/aiodns-3.2.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.10.5[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	~dev-python/bitarray-2.9.2[${PYTHON_USEDEP}]
-	dev-python/Events[${PYTHON_USEDEP}]
+	~dev-python/events-0.5[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}]
 	~dev-python/lz4-4.3.3[${PYTHON_USEDEP}]
 	dev-python/neo3crypto[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="~dev-python/aiodns-3.2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-1.4.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-material-8.5.7[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocs-material-extensions-1.1[${PYTHON_USEDEP}] )

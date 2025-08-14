@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/hbutils[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyquery[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	dev-python/pygithub[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )

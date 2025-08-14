@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,6 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
 	aws? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
-	ci? ( <dev-python/tomli-3.0.0[${PYTHON_USEDEP}] )
 	ci? ( <dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/requests[${PYTHON_USEDEP}] )
 	ci? ( dev-python/types-requests[${PYTHON_USEDEP}] )
@@ -39,11 +38,11 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-1.4[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	encryption? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
 	gssapi? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
 	ocsp? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
-	queue? ( dev-python/beanie-batteries-queue[${PYTHON_USEDEP}] )
+	queue? ( dev-python/beanie_batteries_queue[${PYTHON_USEDEP}] )
 	snappy? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-8.3.3[${PYTHON_USEDEP}] )

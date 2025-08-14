@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	<dev-python/pyarrow-13.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	<dev-python/loguru-0.7[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]
+	<dev-python/msgspec-0.15[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/eth-abi-lite[${PYTHON_USEDEP}]
 	<dev-python/idna-4.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-extensions-1.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-asyncio-0.18.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )

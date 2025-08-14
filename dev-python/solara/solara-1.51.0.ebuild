@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -61,9 +61,6 @@ DEPENDENCIES="dev-python/solara-server[${PYTHON_USEDEP}]
 	all? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/vaex-core[${PYTHON_USEDEP}] )
-	all? ( dev-python/vaex-hdf5[${PYTHON_USEDEP}] )
-	all? ( dev-python/vaex-jupyter[${PYTHON_USEDEP}] )
 	all? ( dev-python/vega-datasets[${PYTHON_USEDEP}] )
 	assets? ( dev-python/solara-assets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bqplot[${PYTHON_USEDEP}] )
@@ -91,9 +88,6 @@ DEPENDENCIES="dev-python/solara-server[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/vaex-core[${PYTHON_USEDEP}] )
-	dev? ( dev-python/vaex-hdf5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/vaex-jupyter[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/altair[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/bqplot[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/folium[${PYTHON_USEDEP}] )
@@ -105,8 +99,6 @@ DEPENDENCIES="dev-python/solara-server[${PYTHON_USEDEP}]
 	documentation? ( dev-python/openai[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/vaex-core[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/vaex-hdf5[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/vega-datasets[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest-ipywidgets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

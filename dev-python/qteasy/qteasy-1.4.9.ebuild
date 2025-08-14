@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,15 +29,15 @@ DEPENDENCIES=">=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/tushare[${PYTHON_USEDEP}]
 	>=dev-python/pymysql-1.1.1[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
+	>=dev-python/dbutils-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mplfinance[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	talib? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	talib? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	feather? ( >=dev-python/pyarrow-3.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
+	dev? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pymysql-1.1.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/dbutils-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyarrow-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

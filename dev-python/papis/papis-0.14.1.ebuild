@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/arxiv[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	lsp? ( dev-python/python-lsp-server[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/chardet-3.0.2[${PYTHON_USEDEP}] )
-	optional? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/markdownify[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/whoosh-2.7.4[${PYTHON_USEDEP}] )
 	windows? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )"

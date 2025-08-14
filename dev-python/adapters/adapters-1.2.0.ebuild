@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rjieba[${PYTHON_USEDEP}] )
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/docutils-0.16.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/sphinx-multiversion-0.2.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/docutils-0.16.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jinja2-3.1.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	quality? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
 	quality? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	quality? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	quality? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	sentencepiece? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	sentencepiece? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -97,7 +97,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	testing? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	testing? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	testing? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	testing? ( dev-python/rjieba[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )

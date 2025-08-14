@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -25,35 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Typhoon-HIL-API[${PYTHON_USEDEP}]
-	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-2.2.3[${PYTHON_USEDEP}]
-	~dev-python/scipy-1.13.1[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.15.2[${PYTHON_USEDEP}]
 	dev-python/PeakUtils[${PYTHON_USEDEP}]
-	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-5.0[${PYTHON_USEDEP}]
-	>=dev-python/pytest-5.0[${PYTHON_USEDEP}]
-	<dev-python/pluggy-1.0[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
-	>=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
-	<dev-python/matplotlib-3.10[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.10.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/asammdf[${PYTHON_USEDEP}]
 	dev-python/npTDMS[${PYTHON_USEDEP}]
-	dev-python/npTDMS[${PYTHON_USEDEP}]
 	dev-python/pytest-assume[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	~dev-python/lz4-4.3.3[${PYTHON_USEDEP}]
 	~dev-python/lz4-4.4.3[${PYTHON_USEDEP}]
-	~dev-python/svglib-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/svglib-1.5.1[${PYTHON_USEDEP}]
-	~dev-python/reportlab-3.6.12[${PYTHON_USEDEP}]
 	~dev-python/reportlab-4.3.1[${PYTHON_USEDEP}]
-	dev-python/xhtml2pdf[${PYTHON_USEDEP}]
 	dev-python/xhtml2pdf[${PYTHON_USEDEP}]
 	dev-python/comtrade[${PYTHON_USEDEP}]
 	dev-python/html2image[${PYTHON_USEDEP}]
@@ -61,8 +48,7 @@ DEPENDENCIES="dev-python/Typhoon-HIL-API[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/xlwt[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
-	~dev-python/tables-3.8.0[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	~dev-python/tables-3.10.2[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/duckduckgo-search[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/litellm[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	all? ( dev-python/astor[${PYTHON_USEDEP}] )
 	all? ( dev-python/case-converter[${PYTHON_USEDEP}] )
 	all? ( dev-python/docker[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( dev-python/ics[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	all? ( dev-python/lancedb[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	all? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
 	cli? ( dev-python/astor[${PYTHON_USEDEP}] )
 	cli? ( dev-python/case-converter[${PYTHON_USEDEP}] )
-	cli? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	cli? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	cli? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	cli? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pyperclip[${PYTHON_USEDEP}] )

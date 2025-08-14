@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/pydantic-1.9[${PYTHON_USEDEP}]
 	upload? ( <dev-python/requests-toolbelt-0.11.0[${PYTHON_USEDEP}] )
 	upload? ( <dev-python/filetype-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/Brotli[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	sql? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	sql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )

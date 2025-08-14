@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,12 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bson cbor2 msgpack msgspec orjson pyyaml tomlkit ujson"
 DEPENDENCIES=">=dev-python/attrs-24.3.0[${PYTHON_USEDEP}]
-	>=dev-python/exceptiongroup-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	bson? ( >=dev-python/pymongo-4.4.0[${PYTHON_USEDEP}] )
 	cbor2? ( >=dev-python/cbor2-5.4.6[${PYTHON_USEDEP}] )
 	msgpack? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )
-	msgspec? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+	msgspec? ( >=dev-python/msgspec-0.19.0[${PYTHON_USEDEP}] )
 	orjson? ( >=dev-python/orjson-3.10.7[${PYTHON_USEDEP}] )
 	pyyaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	tomlkit? ( >=dev-python/tomlkit-0.11.8[${PYTHON_USEDEP}] )

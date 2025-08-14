@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -55,12 +55,12 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	plotting? ( dev-python/datashader[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/hvplot[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	plotting? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	plotting-stable? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	plotting-stable? ( dev-python/datashader[${PYTHON_USEDEP}] )
 	plotting-stable? ( dev-python/hvplot[${PYTHON_USEDEP}] )
 	plotting-stable? ( ~dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
-	plotting-stable? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	plotting-stable? ( ~dev-python/jinja2-3.0.2[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/h5py-3.8.0[${PYTHON_USEDEP}] )
 	stable? ( dev-python/numba[${PYTHON_USEDEP}] )

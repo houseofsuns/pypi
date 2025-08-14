@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	dev? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/dbutils-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
@@ -49,9 +49,9 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/dbutils-3.0.0[${PYTHON_USEDEP}] )
 	pg? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	pg? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	pg? ( >=dev-python/dbutils-3.0.0[${PYTHON_USEDEP}] )
 	rabbit? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )

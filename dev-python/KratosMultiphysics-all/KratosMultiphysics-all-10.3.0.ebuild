@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/KratosMultiphysics[${PYTHON_USEDEP}]
 	dev-python/KratosLinearSolversApplication[${PYTHON_USEDEP}]
 	dev-python/KratosMappingApplication[${PYTHON_USEDEP}]
 	dev-python/KratosMeshingApplication[${PYTHON_USEDEP}]
-	dev-python/kratosmpmapplication[${PYTHON_USEDEP}]
+	dev-python/KratosMPMApplication[${PYTHON_USEDEP}]
 	dev-python/KratosPoromechanicsApplication[${PYTHON_USEDEP}]
 	dev-python/KratosShallowWaterApplication[${PYTHON_USEDEP}]
 	dev-python/KratosStructuralMechanicsApplication[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,6 @@ DEPENDENCIES="mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	psycopg? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	toml? ( <dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}] )
-	toml? ( <dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}] )
 	dev-python/tortoise-orm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

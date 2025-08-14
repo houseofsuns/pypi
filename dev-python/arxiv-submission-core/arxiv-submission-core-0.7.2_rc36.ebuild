@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.7.2rc36"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/arxiv-base[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	~dev-python/kombu-4.1.0[${PYTHON_USEDEP}]
 	~dev-python/redis-2.10.6[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-0.4.1[${PYTHON_USEDEP}]
 	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	~dev-python/semver-2.8.1[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]

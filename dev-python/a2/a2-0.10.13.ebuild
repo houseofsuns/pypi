@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,7 @@ DEPENDENCIES="notebooks? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
 	deberta-tf? ( <dev-python/bottleneck-2.0.0[${PYTHON_USEDEP}] )
 	deberta? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	deberta? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	dev-python/logging_tree[${PYTHON_USEDEP}]
+	dev-python/logging-tree[${PYTHON_USEDEP}]
 	xarray-extra? ( <dev-python/netcdf4-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/tf-keras[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]

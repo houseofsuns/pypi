@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy dev docs fmt security-analysis static-analysis test"
 DEPENDENCIES="dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/tomli-2.2.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	deploy? ( >=dev-python/build-1.2.2[${PYTHON_USEDEP}] )
 	deploy? ( >=dev-python/setuptools-75.1.0[${PYTHON_USEDEP}] )
 	deploy? ( >=dev-python/twine-5.1.1[${PYTHON_USEDEP}] )

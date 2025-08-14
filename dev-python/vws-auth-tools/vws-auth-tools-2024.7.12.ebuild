@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev? ( dev-python/actionlint-py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-7.3.7[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-prompt-1.8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
+	dev? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinxcontrib-spelling-8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sybil-6.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/altgraph[${PYTHON_USEDEP}]
 	~dev-python/anyio-4.9.0[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	~dev-python/apscheduler-3.11.0[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.3.0[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.9.0[${PYTHON_USEDEP}]
 	~dev-python/certifi-2025.1.31[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/altgraph[${PYTHON_USEDEP}]
 	~dev-python/cryptography-44.0.2[${PYTHON_USEDEP}]
 	~dev-python/cython-3.0.7[${PYTHON_USEDEP}]
 	~dev-python/environs-10.0.0[${PYTHON_USEDEP}]
-	dev-python/et_xmlfile[${PYTHON_USEDEP}]
+	~dev-python/et-xmlfile-2.0.0[${PYTHON_USEDEP}]
 	dev-python/getmac[${PYTHON_USEDEP}]
 	~dev-python/h11-0.14.0[${PYTHON_USEDEP}]
 	~dev-python/httpcore-1.0.8[${PYTHON_USEDEP}]

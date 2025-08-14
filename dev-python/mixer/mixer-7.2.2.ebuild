@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/faker-12.1[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/django-3.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/flask-1.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/marshmallow-3.9[${PYTHON_USEDEP}] )

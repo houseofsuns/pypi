@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/tomorrow3[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
 	dev-python/chained-mode-time-tool[${PYTHON_USEDEP}]
 	dev-python/nb-libs[${PYTHON_USEDEP}]
-	dev-python/logging_tree[${PYTHON_USEDEP}]
+	dev-python/logging-tree[${PYTHON_USEDEP}]
 	all? ( ~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
 	all? ( dev-python/kafka-python[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2016.10[${PYTHON_USEDEP}]
 	dev-python/circuitbreaker[${PYTHON_USEDEP}]
-	adk? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	adk? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	adk? ( >=dev-python/pydantic-2.10.6[${PYTHON_USEDEP}] )
 	adk? ( >=dev-python/rich-13.9.4[${PYTHON_USEDEP}] )
 	adk? ( dev-python/mcp[${PYTHON_USEDEP}] )"

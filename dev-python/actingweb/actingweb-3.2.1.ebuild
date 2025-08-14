@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,9 +36,9 @@ DEPENDENCIES="dev-python/pynamodb[${PYTHON_USEDEP}]
 	all? ( <dev-python/flask-4.0.0[${PYTHON_USEDEP}] )
 	flask? ( <dev-python/werkzeug-4.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/werkzeug-4.0.0[${PYTHON_USEDEP}] )
-	flask? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	fastapi? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )

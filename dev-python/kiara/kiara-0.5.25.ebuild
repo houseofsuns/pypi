@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/airium[${PYTHON_USEDEP}]
 	dev-python/dag-cbor[${PYTHON_USEDEP}]
 	<dev-python/deepdiff-9.0.0[${PYTHON_USEDEP}]
 	>=dev-python/distro-1.6.0[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	>=dev-python/email-validator-2.1.0_p1[${PYTHON_USEDEP}]
 	>=dev-python/fasteners-0.18[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/airium[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	>=dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	>=dev-python/importlib-metadata-3.0.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.1[${PYTHON_USEDEP}]
 	>=dev-python/mistune-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
 	dev-python/multiformats-config[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/airium[${PYTHON_USEDEP}]
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
 	>=dev-python/regex-2022.4.0[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	>=dev-python/rich-click-1.8.9[${PYTHON_USEDEP}]
 	>=dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	<dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}]
 	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs onnx-cpu onnx-gpu pyqt5 pyside2 pyside6 test wandb"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/qtpy[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.19.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2022.2.9[${PYTHON_USEDEP}]
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pydensecrf2[${PYTHON_USEDEP}]
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	onnx-cpu? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	onnx-cpu? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )

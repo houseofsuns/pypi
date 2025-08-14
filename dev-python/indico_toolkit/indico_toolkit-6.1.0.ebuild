@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="full test"
 DEPENDENCIES="dev-python/indico-client[${PYTHON_USEDEP}]
 	~dev-python/plotly-5.2.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.50.0[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/faker-13.3.3[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )

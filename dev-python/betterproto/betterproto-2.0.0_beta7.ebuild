@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0b7"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="compiler rust-codec"
 DEPENDENCIES="compiler? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	<dev-python/grpclib-0.5.0[${PYTHON_USEDEP}]
-	compiler? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	compiler? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	compiler? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]

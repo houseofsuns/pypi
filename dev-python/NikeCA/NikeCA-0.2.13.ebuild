@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	~dev-python/filelock-3.9.0[${PYTHON_USEDEP}]
 	~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}]
 	~dev-python/github3-py-3.2.0[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/gitpython-3.1.31[${PYTHON_USEDEP}]
 	~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	~dev-python/idna-3.4[${PYTHON_USEDEP}]
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	~dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}]
 	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/pygithub-1.58.0[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	~dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]

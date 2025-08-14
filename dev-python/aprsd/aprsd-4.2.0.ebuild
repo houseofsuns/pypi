@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/aprslib[${PYTHON_USEDEP}]
 	~dev-python/markdown-it-py-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.26.1[${PYTHON_USEDEP}]
 	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	~dev-python/mypy-extensions-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/netaddr-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/oslo-config-10.0.0[${PYTHON_USEDEP}]
 	~dev-python/oslo-i18n-6.5.1[${PYTHON_USEDEP}]
@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/aprslib[${PYTHON_USEDEP}]
 	~dev-python/wrapt-1.17.3[${PYTHON_USEDEP}]
 	~dev-python/zipp-3.23.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/alabaster-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/babel-2.17.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/cachetools-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/certifi-2025.8.3[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES="dev-python/aprslib[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/identify-2.6.13[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/idna-3.10[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markupsafe-3.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )

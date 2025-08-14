@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all scipp test"
-DEPENDENCIES="dev-python/lazy_loader[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lazy-loader-0.4[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
 	scipp? ( dev-python/scipp[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipp[${PYTHON_USEDEP}] )

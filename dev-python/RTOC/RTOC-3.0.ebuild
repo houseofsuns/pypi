@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -31,10 +31,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/markdown2[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	all? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/ezodf[${PYTHON_USEDEP}] )
@@ -47,10 +47,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-metrics[${PYTHON_USEDEP}] )
 	all? ( dev-python/patsy[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	gui? ( dev-python/markdown2[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	gui? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	gui? ( dev-python/ezodf[${PYTHON_USEDEP}] )

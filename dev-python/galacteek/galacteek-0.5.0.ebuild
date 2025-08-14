@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -48,8 +48,8 @@ DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	dev-python/feedgen[${PYTHON_USEDEP}]
 	>=dev-python/feedparser-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.0.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/gitpython-2.1.11[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10.1[${PYTHON_USEDEP}]
 	dev-python/json-traverse[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/jwcrypto-0.8[${PYTHON_USEDEP}]
@@ -88,12 +88,12 @@ DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
 	markdown-extensions? ( dev-python/mdx-unimoji[${PYTHON_USEDEP}] )
 	markdown-extensions? ( dev-python/mkdocs-blog-plugin[${PYTHON_USEDEP}] )
-	ui-pyqt-5-13? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	ui-pyqt-5-13? ( ~dev-python/pyqt5-5.13.2[${PYTHON_USEDEP}] )
 	ui-pyqt-5-13? ( dev-python/PyQtChart[${PYTHON_USEDEP}] )
-	ui-pyqt-5-13? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
-	ui-pyqt-5-15? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	ui-pyqt-5-13? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
+	ui-pyqt-5-15? ( >=dev-python/pyqt5-5.15.2[${PYTHON_USEDEP}] )
 	ui-pyqt-5-15? ( dev-python/PyQtChart[${PYTHON_USEDEP}] )
-	ui-pyqt-5-15? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	ui-pyqt-5-15? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

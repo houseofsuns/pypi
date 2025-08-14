@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="codeqa coverage dev formatters test toml typing"
+IUSE="codeqa coverage dev formatters test typing"
 DEPENDENCIES="dev-python/annotated-types[${PYTHON_USEDEP}]
 	dev-python/antsibull-docutils[${PYTHON_USEDEP}]
 	dev-python/antsibull-fileutils[${PYTHON_USEDEP}]
@@ -55,7 +55,6 @@ DEPENDENCIES="dev-python/annotated-types[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-error-for-skips[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="epam.indigo"
 LITERALNAME="epam.indigo"
 REALVERSION="1.35.0rc1"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi

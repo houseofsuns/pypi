@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="25.8b3"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs examples test"
-DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
-	>=dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/uqbar[${PYTHON_USEDEP}]
 	docs? ( dev-python/supriya[${PYTHON_USEDEP}] )
@@ -39,6 +38,8 @@ DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
+	docs? ( dev-python/standard-aifc[${PYTHON_USEDEP}] )
+	docs? ( dev-python/standard-sunau[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pynput[${PYTHON_USEDEP}] )
 	examples? ( dev-python/python-rtmidi[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -53,6 +54,8 @@ DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
+	test? ( dev-python/standard-aifc[${PYTHON_USEDEP}] )
+	test? ( dev-python/standard-sunau[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-psutil[${PYTHON_USEDEP}] )

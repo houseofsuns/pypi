@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,8 +33,6 @@ DEPENDENCIES="dev-python/geocoder[${PYTHON_USEDEP}]
 	~dev-python/keyring-25.6.0[${PYTHON_USEDEP}]
 	~dev-python/cffi-1.17.1[${PYTHON_USEDEP}]
 	~dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	~dev-python/exceptiongroup-1.3.0[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.14.0[${PYTHON_USEDEP}]
 	~dev-python/backports-tarfile-1.2.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	~dev-python/croniter-6.0.0[${PYTHON_USEDEP}]

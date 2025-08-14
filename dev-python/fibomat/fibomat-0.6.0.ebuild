@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/Splipy[${PYTHON_USEDEP}]
 	dev-python/frozenlist[${PYTHON_USEDEP}]
 	dev-python/pyhershey[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	exporting? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	exporting? ( dev-python/svgwrite[${PYTHON_USEDEP}] )
 	exporting? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	exporting? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	io? ( dev-python/svgelements[${PYTHON_USEDEP}] )
 	io? ( dev-python/ezdxf[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	gui? ( dev-python/vispy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

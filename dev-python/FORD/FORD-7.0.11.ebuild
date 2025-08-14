@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,12 +28,11 @@ DEPENDENCIES="~dev-python/markdown-3.4.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-include-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/python-markdown-math-0.8[${PYTHON_USEDEP}]
 	~dev-python/toposort-1.7.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.11[${PYTHON_USEDEP}]
 	~dev-python/pygments-2.12[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.5.1[${PYTHON_USEDEP}]
 	~dev-python/graphviz-0.20.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.66.3[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/pcpp[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-5.3[${PYTHON_USEDEP}] )

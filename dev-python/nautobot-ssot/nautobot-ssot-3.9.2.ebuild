@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aci all aristacv bootstrap citrix-adm device42 dna-center infoblox ipfabric meraki nautobot-device-lifecycle-mgmt pysnow servicenow slurpit"
-DEPENDENCIES="all? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	servicenow? ( dev-python/jinja[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/jinja2-2.11.3[${PYTHON_USEDEP}] )
+	servicenow? ( >=dev-python/jinja2-2.11.3[${PYTHON_USEDEP}] )
 	>dev-python/markdown-3.3.5[${PYTHON_USEDEP}]
 	aci? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
@@ -77,8 +77,8 @@ DEPENDENCIES="all? ( dev-python/jinja[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/six-1.13.0[${PYTHON_USEDEP}] )
 	pysnow? ( >=dev-python/six-1.13.0[${PYTHON_USEDEP}] )
 	servicenow? ( >=dev-python/six-1.13.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/slurpit-sdk[${PYTHON_USEDEP}] )
-	slurpit? ( dev-python/slurpit-sdk[${PYTHON_USEDEP}] )
+	all? ( dev-python/slurpit_sdk[${PYTHON_USEDEP}] )
+	slurpit? ( dev-python/slurpit_sdk[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/urllib3-2.2.3[${PYTHON_USEDEP}] )
 	citrix-adm? ( >=dev-python/urllib3-2.2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

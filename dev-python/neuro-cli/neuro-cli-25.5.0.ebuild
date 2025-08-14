@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,6 @@ DEPENDENCIES=">=dev-python/python-jose-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]
 	>=dev-python/prompt-toolkit-3.0.13[${PYTHON_USEDEP}]
 	>=dev-python/rich-11.0.0[${PYTHON_USEDEP}]
-	>=dev-python/jedi-0.16[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]"
+	>=dev-python/jedi-0.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,7 +46,7 @@ DEPENDENCIES="~dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/timezonefinder[${PYTHON_USEDEP}]
 	dev-python/iso4217[${PYTHON_USEDEP}]
 	dev-python/forex-python[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.8[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	~dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	~dev-python/sympy-1.7[${PYTHON_USEDEP}]

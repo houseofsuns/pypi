@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	p_checks? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	p_checks? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	p_checks? ( ~dev-python/quart-trio-0.10.0[${PYTHON_USEDEP}] )
-	p_checks? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	p_checks? ( ~dev-python/quart-0.18.3[${PYTHON_USEDEP}] )
 	p_checks? ( >=dev-python/towncrier-21.3.0[${PYTHON_USEDEP}] )
 	p_checks? ( ~dev-python/click-8.1[${PYTHON_USEDEP}] )
 	p_checks? ( ~dev-python/httpcore-0.16[${PYTHON_USEDEP}] )
@@ -66,15 +66,15 @@ DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	p_tests? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/pytest-xdist-2.2[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/quart-trio-0.10.0[${PYTHON_USEDEP}] )
-	p_tests? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	p_tests? ( ~dev-python/quart-0.18.3[${PYTHON_USEDEP}] )
 	p_tests? ( ~dev-python/pytest-xvfb-2.0[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt5? ( ~dev-python/pyqt5-5.15.1[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5-stubs[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	s_pytest? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	s_pytest_trio? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )
 	s_quart_trio? ( ~dev-python/quart-trio-0.10.0[${PYTHON_USEDEP}] )
-	s_quart_trio? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	s_quart_trio? ( ~dev-python/quart-0.18.3[${PYTHON_USEDEP}] )
 	s_towncrier? ( >=dev-python/towncrier-21.3.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/WMI[${PYTHON_USEDEP}]
 	dev-python/extract-zip[${PYTHON_USEDEP}]
 	dev-python/text-editor[${PYTHON_USEDEP}]
 	dev-python/tuspy[${PYTHON_USEDEP}]
-	dev-python/requests_download[${PYTHON_USEDEP}]
+	dev-python/requests-download[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/send2trash[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]

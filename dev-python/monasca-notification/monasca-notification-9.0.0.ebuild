@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,8 +36,8 @@ DEPENDENCIES=">=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
 	>=dev-python/simplejson-3.8.1[${PYTHON_USEDEP}]
-	jira_plugin? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	test? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	jira_plugin? ( >=dev-python/jinja2-2.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/babel-2.3.4[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/sqlalchemy-1.0.10[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )

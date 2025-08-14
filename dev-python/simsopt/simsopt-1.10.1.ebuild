@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,7 +40,7 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	spec? ( >=dev-python/h5py-3.1.0[${PYTHON_USEDEP}] )
 	mpi? ( >=dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )
 	vis? ( dev-python/vtk[${PYTHON_USEDEP}] )
-	vis? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	vis? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	vis? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	vis? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

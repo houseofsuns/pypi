@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="Mako"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="babel lingua testing"
 DEPENDENCIES=">=dev-python/markupsafe-0.9.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( dev-python/babel[${PYTHON_USEDEP}] )
 	lingua? ( dev-python/lingua[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

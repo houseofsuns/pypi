@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bufr cratedb duckdb eccodes excel explorer export influxdb interpolation matplotlib mysql plotting postgresql radar radarplus restapi sql"
-DEPENDENCIES="dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
-	<dev-python/click-9.0[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
 	<dev-python/diskcache-6.0[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-2023.1[${PYTHON_USEDEP}]

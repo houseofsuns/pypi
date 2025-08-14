@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,6 @@ DEPENDENCIES="~dev-python/aiohttp-3.12.14[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.14.1[${PYTHON_USEDEP}]
 	dev-python/aiohttp-sse-client[${PYTHON_USEDEP}]
-	dev-python/javaproperties[${PYTHON_USEDEP}]
-	dev-python/taskgroup[${PYTHON_USEDEP}]"
+	dev-python/javaproperties[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

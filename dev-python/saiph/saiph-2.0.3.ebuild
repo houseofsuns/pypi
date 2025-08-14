@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,6 +31,6 @@ DEPENDENCIES=">=dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
 	<dev-python/toolz-2.0.0[${PYTHON_USEDEP}]
 	matplotlib? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
-	dev-python/msgspec[${PYTHON_USEDEP}]"
+	<dev-python/msgspec-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

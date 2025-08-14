@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="~dev-python/cliff-2.14.1[${PYTHON_USEDEP}]
 	dev-python/RESTEasy[${PYTHON_USEDEP}]
 	~dev-python/marshmallow-3.0.0_rc4[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/Docify[${PYTHON_USEDEP}]
+	dev-python/docify[${PYTHON_USEDEP}]
 	develop? ( ~dev-python/pip-19.0.3[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/setuptools-40.8.0[${PYTHON_USEDEP}] )
 	develop? ( ~dev-python/wheel-0.33.1[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	~dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
 	dev-python/dot2tex[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}]
 	dev-python/uncertainty-calibration[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	~dev-python/scikit-image-0.21.0[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.8.7[${PYTHON_USEDEP}]
 	~dev-python/scikit-learn-1.3.2[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	~dev-python/lazy-loader-0.2[${PYTHON_USEDEP}]
 	dev-python/fe-pycocotools[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]

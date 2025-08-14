@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/broadcaster[${PYTHON_USEDEP}]
 	dev-doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	dev-doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	docs? ( dev-python/apidaora[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	docs? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	gcloud-pubsub? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )

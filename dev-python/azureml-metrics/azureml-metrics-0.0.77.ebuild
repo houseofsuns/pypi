@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -89,7 +89,7 @@ DEPENDENCIES="<=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	qa? ( dev-python/torch[${PYTHON_USEDEP}] )
 	qa? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	qa? ( dev-python/openai[${PYTHON_USEDEP}] )
-	qa? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	qa? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	qa? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
 	qa? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	qa? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
@@ -153,7 +153,7 @@ DEPENDENCIES="<=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	text? ( dev-python/torch[${PYTHON_USEDEP}] )
 	text? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	text? ( dev-python/openai[${PYTHON_USEDEP}] )
-	text? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	text? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	text? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
 	text? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	text? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
@@ -194,10 +194,7 @@ DEPENDENCIES="<=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	image? ( dev-python/azureml-telemetry[${PYTHON_USEDEP}] )
 	image? ( dev-python/azureml-core[${PYTHON_USEDEP}] )
 	video? ( dev-python/mmcv-full[${PYTHON_USEDEP}] )
-	video? ( dev-python/mmcv-full[${PYTHON_USEDEP}] )
 	video? ( dev-python/mmdet[${PYTHON_USEDEP}] )
-	video? ( dev-python/mmdet[${PYTHON_USEDEP}] )
-	video? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	video? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	video? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	video? ( dev-python/azureml-telemetry[${PYTHON_USEDEP}] )
@@ -217,7 +214,7 @@ DEPENDENCIES="<=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	evaluate? ( dev-python/azureml-core[${PYTHON_USEDEP}] )
 	prompt-flow? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	prompt-flow? ( dev-python/openai[${PYTHON_USEDEP}] )
-	prompt-flow? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	prompt-flow? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	prompt-flow? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
 	prompt-flow? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
 	prompt-flow? ( dev-python/azureml-telemetry[${PYTHON_USEDEP}] )
@@ -254,7 +251,7 @@ DEPENDENCIES="<=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	multimodal? ( dev-python/torch[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/openai[${PYTHON_USEDEP}] )
-	multimodal? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	multimodal? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	multimodal? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	multimodal? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
@@ -308,7 +305,7 @@ DEPENDENCIES="<=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	multimodal? ( dev-python/azureml-core[${PYTHON_USEDEP}] )
 	generative-ai? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	generative-ai? ( dev-python/openai[${PYTHON_USEDEP}] )
-	generative-ai? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	generative-ai? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	generative-ai? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
 	generative-ai? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
 	generative-ai? ( dev-python/toml[${PYTHON_USEDEP}] )
@@ -369,7 +366,7 @@ DEPENDENCIES="<=dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	all? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )

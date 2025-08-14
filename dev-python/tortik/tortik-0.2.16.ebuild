@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<=dev-python/tornado-5.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pycurl-7.19.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-2.2.8[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

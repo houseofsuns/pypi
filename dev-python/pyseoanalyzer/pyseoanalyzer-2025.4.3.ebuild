@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/beautifulsoup4-4.13.3[${PYTHON_USEDEP}]
 	~dev-python/certifi-2025.1.31[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	dev-python/langchain-anthropic[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	~dev-python/lxml-5.3.1[${PYTHON_USEDEP}]

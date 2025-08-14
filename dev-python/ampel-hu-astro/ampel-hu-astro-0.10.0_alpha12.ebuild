@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.10.0a12"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -49,6 +49,7 @@ DEPENDENCIES="dev-python/ampel-plot[${PYTHON_USEDEP}]
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	elasticc? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	elasticc? ( dev-python/astro-parsnip[${PYTHON_USEDEP}] )
+	dev-python/torch[${PYTHON_USEDEP}]
 	elasticc? ( <dev-python/timeout-decorator-0.6[${PYTHON_USEDEP}] )
 	notebook? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]

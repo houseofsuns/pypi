@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/anthropic[${PYTHON_USEDEP}]
 	dev-python/GoogleNews[${PYTHON_USEDEP}]
 	dev-python/groq[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/more-itertools-10.0[${PYTHON_USEDEP}]
 	dev-python/ollama[${PYTHON_USEDEP}]
 	dev-python/progressbar[${PYTHON_USEDEP}]

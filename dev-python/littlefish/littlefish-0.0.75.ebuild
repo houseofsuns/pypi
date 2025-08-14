@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="celery pdfsigner redis"
 DEPENDENCIES=">=dev-python/flask-sqlalchemy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/flask-0.12.0[${PYTHON_USEDEP}]
-	dev-python/IPy[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/ipy-0.83[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyMarkovChain[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]

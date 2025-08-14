@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-3.1.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-fortran[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,6 +28,7 @@ DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
+	dev-python/CoolProp[${PYTHON_USEDEP}]
 	dev-python/CoolProp[${PYTHON_USEDEP}]
 	dev-python/adsorption-file-parser[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.1[${PYTHON_USEDEP}]

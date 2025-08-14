@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.3.3.post4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build directml source tensorrt xformers"
 DEPENDENCIES="source? ( dev-python/latent-diffusion[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
-	build? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	build? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	build? ( <dev-python/types-setuptools-68.0[${PYTHON_USEDEP}] )

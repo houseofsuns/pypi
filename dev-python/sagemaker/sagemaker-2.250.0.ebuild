@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -92,7 +92,7 @@ DEPENDENCIES="<dev-python/attrs-26.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/flake8-7.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
 	test? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	test? ( <dev-python/jsonpickle-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/lexicon[${PYTHON_USEDEP}] )
 	test? ( dev-python/mlflow[${PYTHON_USEDEP}] )
@@ -101,7 +101,7 @@ DEPENDENCIES="<dev-python/attrs-26.0[${PYTHON_USEDEP}]
 	test? ( dev-python/mypy-boto3-rds[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy-boto3-redshift-data[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy-boto3-s3[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/mypy-1.9.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/nbformat-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )

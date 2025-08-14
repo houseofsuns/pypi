@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -122,7 +122,7 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	system? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	bluetooth? ( dev-python/bleak[${PYTHON_USEDEP}] )
 	bluetooth? ( dev-python/bluetooth-numbers[${PYTHON_USEDEP}] )
-	bluetooth? ( dev-python/TheengsDecoder[${PYTHON_USEDEP}] )
+	bluetooth? ( dev-python/theengsdecoder[${PYTHON_USEDEP}] )
 	bluetooth? ( dev-python/pydbus[${PYTHON_USEDEP}] )
 	pwm-pca9685? ( dev-python/adafruit-circuitpython-pca9685[${PYTHON_USEDEP}] )
 	light-hue? ( dev-python/phue[${PYTHON_USEDEP}] )

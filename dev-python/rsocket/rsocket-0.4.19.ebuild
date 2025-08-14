@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="aiohttp asyncwebsockets channels cli cloudevents fastapi graphql optimized
 DEPENDENCIES="rx? ( dev-python/Rx[${PYTHON_USEDEP}] )
 	reactivex? ( dev-python/reactivex[${PYTHON_USEDEP}] )
 	aiohttp? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
-	quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
+	quart? ( >=dev-python/quart-0.15.0[${PYTHON_USEDEP}] )
 	quic? ( >=dev-python/aioquic-0.9.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/asyncclick[${PYTHON_USEDEP}] )
 	optimized? ( dev-python/cbitstruct[${PYTHON_USEDEP}] )

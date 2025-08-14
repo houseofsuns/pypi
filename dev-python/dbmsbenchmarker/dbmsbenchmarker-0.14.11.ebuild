@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/JayDeBeApi[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.28.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.0[${PYTHON_USEDEP}]
-	dev-python/JPype1[${PYTHON_USEDEP}]
+	dev-python/jpype1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/colour-0.1.5[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/JayDeBeApi[${PYTHON_USEDEP}]
 	dev-python/dash-renderer[${PYTHON_USEDEP}]
 	dev-python/dash-table[${PYTHON_USEDEP}]
 	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	dev-python/flask-caching[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.9[${PYTHON_USEDEP}]
 	>=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/JayDeBeApi[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-78.1.1[${PYTHON_USEDEP}]
 	>=dev-python/fonttools-4.43.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.3[${PYTHON_USEDEP}]
 	>=dev-python/bottleneck-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/zipp-3.19.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

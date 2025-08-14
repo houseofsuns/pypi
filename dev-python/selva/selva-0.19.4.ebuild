@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/asgikit[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.6[${PYTHON_USEDEP}]
 	~dev-python/structlog-25.1.0[${PYTHON_USEDEP}]
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( ~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}] )
 	mako? ( ~dev-python/mako-1.3.8[${PYTHON_USEDEP}] )
 	sqlalchemy? ( ~dev-python/sqlalchemy-2.0.36[${PYTHON_USEDEP}] )
 	redis? ( ~dev-python/redis-5.2.1[${PYTHON_USEDEP}] )

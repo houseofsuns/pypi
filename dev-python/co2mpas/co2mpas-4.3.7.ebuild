@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	plot? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	plot? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	plot? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	plot? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	plot? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	plot? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	io? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	all? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	all? ( dev-python/asteval[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/dill[${PYTHON_USEDEP}] )
 	all? ( dev-python/regex[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
@@ -96,7 +96,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asteval[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
 	dev? ( dev-python/regex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.11.0a305"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -31,7 +31,7 @@ DEPENDENCIES="<=dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
 	<=dev-python/cryptography-43.0.0[${PYTHON_USEDEP}]
 	<=dev-python/filelock-3.13.1[${PYTHON_USEDEP}]
 	<=dev-python/idna-3.7[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	<=dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
 	<=dev-python/numpy-2.1.3[${PYTHON_USEDEP}]
 	<=dev-python/opentelemetry-api-1.23.0[${PYTHON_USEDEP}]

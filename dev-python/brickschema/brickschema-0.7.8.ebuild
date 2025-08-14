@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/importlib-resources-6.5.2[${PYTHON_USEDEP}]
 	allegro? ( >=dev-python/docker-7.1.0[${PYTHON_USEDEP}] )
 	bacnet? ( dev-python/BAC0[${PYTHON_USEDEP}] )
 	brickify? ( dev-python/click-spinner[${PYTHON_USEDEP}] )
-	brickify? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	brickify? ( >=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	brickify? ( >=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )
 	brickify? ( >=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	brickify? ( >=dev-python/typer-0.16.0[${PYTHON_USEDEP}] )

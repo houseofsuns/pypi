@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="msgpack numbin redis validation"
-DEPENDENCIES="validation? ( dev-python/msgspec[${PYTHON_USEDEP}] )
+DEPENDENCIES="validation? ( >=dev-python/msgspec-0.19.0[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/redis-5.2.1[${PYTHON_USEDEP}] )
 	msgpack? ( >=dev-python/msgpack-1.1.0[${PYTHON_USEDEP}] )
 	numbin? ( dev-python/numbin[${PYTHON_USEDEP}] )"

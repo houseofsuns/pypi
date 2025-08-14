@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all frozendict headers jinja prometheus-client pydantic sentry"
 DEPENDENCIES="~dev-python/more-itertools-9.1.0[${PYTHON_USEDEP}]
-	jinja? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	jinja? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	pydantic? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	sentry? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	headers? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )

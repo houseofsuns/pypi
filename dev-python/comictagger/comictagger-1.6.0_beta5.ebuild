@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="1.6.0b5"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -42,8 +42,8 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	dev-python/wordninja[${PYTHON_USEDEP}]
 	7z? ( dev-python/py7zr[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	all? ( dev-python/comicinfoxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/gcd-talker[${PYTHON_USEDEP}] )
 	all? ( dev-python/metron-talker[${PYTHON_USEDEP}] )
@@ -57,19 +57,19 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	cbr? ( >=dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	cix? ( dev-python/comicinfoxml[${PYTHON_USEDEP}] )
 	gcd? ( dev-python/gcd-talker[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	icu? ( dev-python/pyicu[${PYTHON_USEDEP}] )
 	jxl? ( dev-python/pillow-jxl-plugin[${PYTHON_USEDEP}] )
 	metron? ( dev-python/metron-talker[${PYTHON_USEDEP}] )
-	pyinstaller? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyinstaller? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
+	pyinstaller? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	pyinstaller? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/comicinfoxml[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/pillow-avif-plugin[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/pillow-jxl-plugin[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/py7zr[${PYTHON_USEDEP}] )
 	pyinstaller? ( >=dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/pyicu[${PYTHON_USEDEP}] )
-	qtw? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qtw? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )"
+	qtw? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
+	qtw? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/Flask-Caching[${PYTHON_USEDEP}]
+	dev-python/flask-caching[${PYTHON_USEDEP}]
 	dev-python/Flask-CAS[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/flask-login[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/flask-swagger[${PYTHON_USEDEP}]
 	dev-python/GDM[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
@@ -132,7 +132,7 @@ DEPENDENCIES="dev-python/shapely[${PYTHON_USEDEP}]
 	all? ( dev-python/deprecated[${PYTHON_USEDEP}] )
 	all? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	all? ( dev-python/docker[${PYTHON_USEDEP}] )
-	all? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
+	all? ( dev-python/flask-caching[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask-CAS[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-login[${PYTHON_USEDEP}] )
@@ -143,7 +143,7 @@ DEPENDENCIES="dev-python/shapely[${PYTHON_USEDEP}]
 	all? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )
 	all? ( dev-python/GDM[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	all? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -230,7 +230,7 @@ DEPENDENCIES="dev-python/shapely[${PYTHON_USEDEP}]
 	pinned? ( <dev-python/werkzeug-0.16[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	problematic? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
-	problematic? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	problematic? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	problematic? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/ansi2html[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/autopep8[${PYTHON_USEDEP}] )
@@ -245,7 +245,7 @@ DEPENDENCIES="dev-python/shapely[${PYTHON_USEDEP}]
 	runtime? ( dev-python/deprecated[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/docker[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/Flask-Caching[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/flask-caching[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/Flask-CAS[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/flask-login[${PYTHON_USEDEP}] )
@@ -256,7 +256,7 @@ DEPENDENCIES="dev-python/shapely[${PYTHON_USEDEP}]
 	runtime? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/GDM[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	runtime? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/jupyter[${PYTHON_USEDEP}] )

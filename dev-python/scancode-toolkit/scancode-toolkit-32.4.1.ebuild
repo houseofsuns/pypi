@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.13.0[${PYTHON_USEDEP}]
 	dev-python/intbitset[${PYTHON_USEDEP}]
 	dev-python/jaraco-functools[${PYTHON_USEDEP}]
 	dev-python/javaproperties[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.7.0[${PYTHON_USEDEP}]
 	dev-python/jsonstreams[${PYTHON_USEDEP}]
 	>=dev-python/license-expression-30.4.4[${PYTHON_USEDEP}]
 	>=dev-python/lxml-5.4.0[${PYTHON_USEDEP}]
@@ -70,7 +70,6 @@ DEPENDENCIES=">=dev-python/beautifulsoup4-4.13.0[${PYTHON_USEDEP}]
 	dev-python/typecode[${PYTHON_USEDEP}]
 	dev-python/typecode[${PYTHON_USEDEP}]
 	dev-python/extractcode[${PYTHON_USEDEP}]
-	>=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	>=dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )

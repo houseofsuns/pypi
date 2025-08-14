@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,8 +29,7 @@ DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/construct[${PYTHON_USEDEP}]
 	dev-python/construct-typing[${PYTHON_USEDEP}]
 	dev-python/drawsvg[${PYTHON_USEDEP}]
-	<dev-python/importlib-resources-7.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jyutping[${PYTHON_USEDEP}]
 	dev-python/ko-pron[${PYTHON_USEDEP}]
 	<dev-python/loguru-1.0.0[${PYTHON_USEDEP}]
@@ -46,8 +45,8 @@ DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	<=dev-python/pymediainfo-7.0.1[${PYTHON_USEDEP}]
 	dev-python/pypinyin[${PYTHON_USEDEP}]
 	<dev-python/pysubs2-2.0.0[${PYTHON_USEDEP}]
+	dev-python/pyyaml-ft[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	dev-python/repro-zipfile[${PYTHON_USEDEP}]
 	dev-python/retrie[${PYTHON_USEDEP}]
 	<dev-python/rich-14.1.1[${PYTHON_USEDEP}]
 	dev-python/tatsu-lts[${PYTHON_USEDEP}]

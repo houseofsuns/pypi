@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -44,7 +44,6 @@ DEPENDENCIES=">=dev-python/pydantic-1.10.17[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pybars3-wheel[${PYTHON_USEDEP}]
-	dev-python/backports-strenum[${PYTHON_USEDEP}]
 	wikitext? ( dev-python/mwparserfromhell[${PYTHON_USEDEP}] )
 	db? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	db? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	web-backend? ( dev-python/uWSGI[${PYTHON_USEDEP}] )
 	web-backend? ( dev-python/python-jenkins[${PYTHON_USEDEP}] )
 	web-backend? ( ~dev-python/python-slugify-6.1.1[${PYTHON_USEDEP}] )
-	web-backend? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	web-backend? ( >=dev-python/pygithub-2.6.1[${PYTHON_USEDEP}] )
 	web-backend? ( ~dev-python/boto3-1.38.9[${PYTHON_USEDEP}] )
 	docker-image? ( dev-python/supervisor[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-8.3.5[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	dev-python/PartSegCore-compiled-backend[${PYTHON_USEDEP}]
 	dev-python/PartSegData[${PYTHON_USEDEP}]
 	>=dev-python/qtawesome-1.0.3[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/czifile[${PYTHON_USEDEP}]
@@ -64,7 +64,7 @@ DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	>=dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/xlsxwriter-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/PartSeg[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docs? ( >dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-qt-documentation[${PYTHON_USEDEP}] )
@@ -73,12 +73,12 @@ DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	pyinstaller-base? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	pyinstaller-base? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/PartSeg[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/pyqt5-5.12.3[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/napari[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/napari[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PartSeg[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/napari[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/napari[${PYTHON_USEDEP}] )

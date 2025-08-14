@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	api? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	api? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	api? ( dev-python/python-socketio[${PYTHON_USEDEP}] )
 	api? ( >=dev-python/starlette-0.40.0[${PYTHON_USEDEP}] )
 	api? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitlint-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep440[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-6.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep440[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )

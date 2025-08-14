@@ -7,12 +7,12 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An opinionated yaml formatter based on ruamel.yaml"
+DESCRIPTION="An opinionated yaml formatter based on ruamel.yaml [top-max 0.11.1]"
 
 HOMEPAGE="https://github.com/looztra/yamkix"
 LICENSE="Apache-2.0"

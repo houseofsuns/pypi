@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -35,16 +35,16 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	gui-pyqt5? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	gui-pyqt5? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	gui-pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui-pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	gui-pyqt5? ( dev-python/vtk[${PYTHON_USEDEP}] )
-	gui-pyqt5? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	gui-pyqt5? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	gui-pyqt5? ( <dev-python/imageio-3.0[${PYTHON_USEDEP}] )
 	gui-pyqt5? ( >=dev-python/pillow-5.2.0[${PYTHON_USEDEP}] )
 	gui-pyside2? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	gui-pyside2? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	gui-pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	gui-pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	gui-pyside2? ( dev-python/vtk[${PYTHON_USEDEP}] )
-	gui-pyside2? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	gui-pyside2? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	gui-pyside2? ( <dev-python/imageio-3.0[${PYTHON_USEDEP}] )
 	gui-pyside2? ( >=dev-python/pillow-5.2.0[${PYTHON_USEDEP}] )
 	nogui? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )

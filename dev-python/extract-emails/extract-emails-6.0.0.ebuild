@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/aiocsv[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.11.7[${PYTHON_USEDEP}]
 	all? ( >=dev-python/httpx-0.28.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-autorefs-1.4.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-material-9.6.14[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mkdocs-1.6.1[${PYTHON_USEDEP}] )

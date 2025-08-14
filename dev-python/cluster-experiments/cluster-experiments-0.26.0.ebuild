@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -50,7 +50,7 @@ DEPENDENCIES=">=dev-python/pip-22.2.2[${PYTHON_USEDEP}]
 	dev? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocstrings-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plotnine[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES=">=dev-python/pip-22.2.2[${PYTHON_USEDEP}]
 	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/mkdocstrings-1.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/plotnine[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )"

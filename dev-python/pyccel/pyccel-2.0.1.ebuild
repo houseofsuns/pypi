@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/filelock-3.4.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.2[${PYTHON_USEDEP}]
 	>=dev-python/termcolor-1.0.0[${PYTHON_USEDEP}]
-	dev-python/textX[${PYTHON_USEDEP}]
+	>=dev-python/textx-2.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-3.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/numpydoc-1.8.0[${PYTHON_USEDEP}] )

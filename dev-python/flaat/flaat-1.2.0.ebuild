@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiohttp fastapi flask test"
 DEPENDENCIES="dev-python/aarc-entitlement[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.0[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	~dev-python/configargparse-1.0[${PYTHON_USEDEP}]
 	~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	dev-python/liboidcagent[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31[${PYTHON_USEDEP}]

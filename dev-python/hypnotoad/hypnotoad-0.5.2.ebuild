@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/boututils[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-argparse-0.3.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/texttable-1.6.7[${PYTHON_USEDEP}] )
-	gui-pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	gui-pyside? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	gui-pyqt5? ( ~dev-python/pyqt5-5.12[${PYTHON_USEDEP}] )
+	gui-pyside? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

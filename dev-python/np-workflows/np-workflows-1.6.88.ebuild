@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/np-services[${PYTHON_USEDEP}]
 	dev-python/np-codeocean[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
 	dev-python/aind-session[${PYTHON_USEDEP}]
-	dev-python/jupyter-bokeh[${PYTHON_USEDEP}]
+	dev-python/jupyter_bokeh[${PYTHON_USEDEP}]
 	dev? ( dev-python/blue[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )

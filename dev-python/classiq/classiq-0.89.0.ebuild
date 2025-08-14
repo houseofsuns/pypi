@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="analyzer-sdk chemistry qml"
-DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/configargparse-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Pyomo[${PYTHON_USEDEP}]
 	<dev-python/black-25.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-1.0[${PYTHON_USEDEP}]

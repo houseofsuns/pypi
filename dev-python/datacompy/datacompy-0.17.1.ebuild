@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,9 +28,8 @@ DEPENDENCIES="<=dev-python/pandas-2.3.1[${PYTHON_USEDEP}]
 	<=dev-python/numpy-2.2.6[${PYTHON_USEDEP}]
 	<=dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}]
 	fugue? ( dev-python/fugue[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-snowpark-python[${PYTHON_USEDEP}] )

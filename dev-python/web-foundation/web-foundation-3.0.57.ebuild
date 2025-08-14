@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	database? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
 	database? ( dev-python/aerich[${PYTHON_USEDEP}] )
-	shcheduler? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	shcheduler? ( <dev-python/apscheduler-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
 	rest? ( dev-python/sanic[${PYTHON_USEDEP}] )
 	rest? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )

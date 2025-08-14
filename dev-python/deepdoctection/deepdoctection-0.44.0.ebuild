@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -111,7 +111,7 @@ DEPENDENCIES="dev-python/catalogue[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/griffe-0.25.0[${PYTHON_USEDEP}] )

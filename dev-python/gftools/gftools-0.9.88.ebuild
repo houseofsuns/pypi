@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/gflanguages[${PYTHON_USEDEP}]
 	dev-python/gfsubsets[${PYTHON_USEDEP}]
 	dev-python/glyphsets[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	dev-python/pygithub[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	<dev-python/protobuf-4.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -41,6 +41,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/opentype-sanitizer[${PYTHON_USEDEP}]
 	dev-python/vttLib[${PYTHON_USEDEP}]
 	~dev-python/pygit2-1.15.0[${PYTHON_USEDEP}]
+	~dev-python/pygit2-1.16.0[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
 	dev-python/fontmake[${PYTHON_USEDEP}]
 	dev-python/skia-pathops[${PYTHON_USEDEP}]
@@ -49,7 +50,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/babelfont[${PYTHON_USEDEP}]
 	dev-python/ttfautohint-py[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/fontFeatures[${PYTHON_USEDEP}]
 	dev-python/vharfbuzz[${PYTHON_USEDEP}]
 	dev-python/bumpfontversion[${PYTHON_USEDEP}]
@@ -64,7 +65,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
 	dev-python/ufomerge[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	qa? ( dev-python/fontbakery[${PYTHON_USEDEP}] )
 	qa? ( dev-python/diffenator2[${PYTHON_USEDEP}] )
 	qa? ( dev-python/pycairo[${PYTHON_USEDEP}] )

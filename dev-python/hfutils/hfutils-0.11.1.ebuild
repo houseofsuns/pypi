@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/hbutils[${PYTHON_USEDEP}]
 	build? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	build? ( <dev-python/setuptools-70.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/hbutils[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	doc? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )

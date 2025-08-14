@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.1.0b19"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	pipeline? ( dev-python/azure-ai-ml[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	pipeline? ( ~dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
 	promptflow? ( dev-python/promptflow[${PYTHON_USEDEP}] )

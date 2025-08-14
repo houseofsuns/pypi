@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,14 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.12[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.3[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.7[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.11.0[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	>=dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.2.1[${PYTHON_USEDEP}]
 	dev-python/typer-slim[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

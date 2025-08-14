@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -38,6 +38,7 @@ DEPENDENCIES="dev-python/rns[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/pycodec2[${PYTHON_USEDEP}]
 	dev-python/pyaudio[${PYTHON_USEDEP}]
-	dev-python/pyobjus[${PYTHON_USEDEP}]"
+	dev-python/pyobjus[${PYTHON_USEDEP}]
+	>=dev-python/audioop-lts-0.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

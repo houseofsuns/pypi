@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-2.0[${PYTHON_USEDEP}]
 	~dev-python/jsonpath-ng-1.5[${PYTHON_USEDEP}]
 	~dev-python/click-8.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	~dev-python/redis-4.0[${PYTHON_USEDEP}]
 	~dev-python/wrapt-1.12[${PYTHON_USEDEP}]
 	~dev-python/python-jose-3.2[${PYTHON_USEDEP}]

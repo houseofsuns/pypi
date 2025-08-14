@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -53,12 +53,12 @@ DEPENDENCIES="domains? ( dev-python/Cartopy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyRDDLGym[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/pyrddlgym-gurobi[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyrddlgym-gurobi[${PYTHON_USEDEP}] )
-	solvers? ( dev-python/pyrddlgym-jax[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyrddlgym-jax[${PYTHON_USEDEP}] )
+	solvers? ( dev-python/pyRDDLGym-jax[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyRDDLGym-jax[${PYTHON_USEDEP}] )
 	domains? ( dev-python/pyrddlgym-rl[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyrddlgym-rl[${PYTHON_USEDEP}] )
-	domains? ( dev-python/PyGeodesy[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyGeodesy[${PYTHON_USEDEP}] )
+	domains? ( dev-python/pygeodesy[${PYTHON_USEDEP}] )
+	all? ( dev-python/pygeodesy[${PYTHON_USEDEP}] )
 	domains? ( dev-python/pygrib[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygrib[${PYTHON_USEDEP}] )
 	domains? ( dev-python/pygrib[${PYTHON_USEDEP}] )

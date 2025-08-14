@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -46,11 +46,11 @@ DEPENDENCIES="dev-python/texttable[${PYTHON_USEDEP}]
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-py3doc-enhanced-theme[${PYTHON_USEDEP}] )
+	docs? ( dev-python/sphinx_py3doc_enhanced_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-a4doc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	check? ( >=dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	check? ( >=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	check? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	check? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

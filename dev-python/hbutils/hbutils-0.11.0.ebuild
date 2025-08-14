@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/bitmath[${PYTHON_USEDEP}]
 	<dev-python/chardet-5.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.0.0[${PYTHON_USEDEP}]
-	doc? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
@@ -54,7 +54,6 @@ DEPENDENCIES=">=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	test? ( >=dev-python/testtools-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/numpy-1.20[${PYTHON_USEDEP}] )
-	test? ( dev-python/torch[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )"
+	test? ( dev-python/faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

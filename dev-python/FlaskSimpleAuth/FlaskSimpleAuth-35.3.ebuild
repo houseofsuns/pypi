@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -58,9 +58,11 @@ DEPENDENCIES=">=dev-python/flask-3.0[${PYTHON_USEDEP}]
 	password? ( dev-python/scrypt[${PYTHON_USEDEP}] )
 	password? ( dev-python/pyotp[${PYTHON_USEDEP}] )
 	password? ( dev-python/passlib[${PYTHON_USEDEP}] )
+	password? ( dev-python/crypt-r[${PYTHON_USEDEP}] )
 	passwrd? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
 	passwrd? ( dev-python/pyotp[${PYTHON_USEDEP}] )
 	passwrd? ( dev-python/passlib[${PYTHON_USEDEP}] )
+	passwrd? ( dev-python/crypt-r[${PYTHON_USEDEP}] )
 	ldap? ( dev-python/ldap3[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pymemcache[${PYTHON_USEDEP}] )

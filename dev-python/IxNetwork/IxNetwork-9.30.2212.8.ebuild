@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/backports-ssl[${PYTHON_USEDEP}]
-	dev-python/backports-ssl_match_hostname[${PYTHON_USEDEP}]
+	>=dev-python/backports-ssl-match-hostname-3.5.0.1[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.47.0[${PYTHON_USEDEP}]

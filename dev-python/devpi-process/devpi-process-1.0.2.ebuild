@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/devpi-client[${PYTHON_USEDEP}]
 	dev-python/devpi-server[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/httpx-0.27.2[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )

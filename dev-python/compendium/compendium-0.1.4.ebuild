@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/anytree-2.8.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-24.1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/flake8-3.8.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pyfakefs-5.4.1[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pylint-2.9.5[${PYTHON_USEDEP}] )

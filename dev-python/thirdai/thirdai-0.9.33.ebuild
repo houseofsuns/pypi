@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -157,7 +157,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/ray[${PYTHON_USEDEP}] )
 	test? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	test? ( dev-python/unstructured[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( dev-python/faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytrie[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	test? ( dev-python/langchain[${PYTHON_USEDEP}] )

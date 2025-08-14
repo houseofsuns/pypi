@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,9 +40,9 @@ DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	app? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	admin? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	app? ( <dev-python/uvicorn-0.35.0[${PYTHON_USEDEP}] )
-	app? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	tasks? ( dev-python/jinja[${PYTHON_USEDEP}] )
-	legacy? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	app? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
+	tasks? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
+	legacy? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/ansible-runner[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/ansible-runner[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/mypy-0.960[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
@@ -75,7 +75,7 @@ DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	dev-no-parser? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev-no-parser? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev-no-parser? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	dev-no-parser? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	dev-no-parser? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev-no-parser? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev-no-parser? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev-no-parser? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )

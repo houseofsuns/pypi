@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="6.1.0a4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyqt5-5.16[${PYTHON_USEDEP}]
+	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
 	<dev-python/qtconsole-5.7.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11.2[${PYTHON_USEDEP}]
 	dev-python/applaunchservices[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pickleshare-0.4[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.3[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	>=dev-python/pygithub-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.0[${PYTHON_USEDEP}]
 	<dev-python/pylint-4.0[${PYTHON_USEDEP}]
 	>=dev-python/pylint-venv-3.0.2[${PYTHON_USEDEP}]
@@ -64,8 +64,8 @@ DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	<dev-python/qdarkstyle-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/qstylizer-0.2.2[${PYTHON_USEDEP}]
 	<dev-python/qtawesome-1.5.0[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
-	dev-python/Rtree[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-2.4.0[${PYTHON_USEDEP}]
+	>=dev-python/rtree-0.9.7[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-0.6.6[${PYTHON_USEDEP}]
 	<dev-python/spyder-kernels-3.2.0[${PYTHON_USEDEP}]
 	<dev-python/superqt-1.0.0[${PYTHON_USEDEP}]

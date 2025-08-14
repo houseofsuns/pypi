@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/OctoPrint-FileCheck[${PYTHON_USEDEP}]
 	dev-python/OctoPrint-FirmwareCheck[${PYTHON_USEDEP}]
 	dev-python/OctoPrint-PiSupport[${PYTHON_USEDEP}]
 	>=dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	<dev-python/babel-2.17[${PYTHON_USEDEP}]
 	<dev-python/cachelib-0.14[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/colorlog-7.0[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/mapbox_earcut[${PYTHON_USEDEP}] )
+	all? ( dev-python/mapbox-earcut[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/meshkernel[${PYTHON_USEDEP}] )
 	all? ( dev-python/netcdf4[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="secrets.env"
 LITERALNAME="secrets.env"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,6 @@ DEPENDENCIES="all? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pexpect-5.0.0[${PYTHON_USEDEP}] )
 	teleport? ( <dev-python/pexpect-5.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-	all? ( <dev-python/shellingham-2.0.0[${PYTHON_USEDEP}] )
-	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]"
+	all? ( <dev-python/shellingham-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

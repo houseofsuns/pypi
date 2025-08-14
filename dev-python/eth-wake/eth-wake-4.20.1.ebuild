@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
 	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
-	dev-python/rich-click[${PYTHON_USEDEP}]
+	<dev-python/rich-click-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	<dev-python/pathvalidate-3.0[${PYTHON_USEDEP}]
 	<dev-python/intervaltree-4.0[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2024.2.2[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
-	tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/mkdocstrings-0.27[${PYTHON_USEDEP}] )

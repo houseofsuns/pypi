@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="all? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
 	>=dev-python/fsspec-2022.8.2[${PYTHON_USEDEP}]
 	dev-python/bioformats-jar[${PYTHON_USEDEP}]
 	dev-python/bfio[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/bioio[${PYTHON_USEDEP}]
 	dev-python/bioio-ome-tiff[${PYTHON_USEDEP}]
 	dev-python/bioio-czi[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="all? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/fsspec-2022.8.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/bioformats-jar[${PYTHON_USEDEP}] )
 	all? ( dev-python/bfio[${PYTHON_USEDEP}] )
-	all? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/bioio[${PYTHON_USEDEP}] )
 	all? ( dev-python/bioio-ome-tiff[${PYTHON_USEDEP}] )
 	all? ( dev-python/bioio-czi[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES="all? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/quilt3[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	all? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	all? ( dev-python/gitchangelog[${PYTHON_USEDEP}] )
@@ -107,6 +107,6 @@ DEPENDENCIES="all? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/quilt3[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

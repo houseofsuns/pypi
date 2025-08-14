@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-2.2.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pygments-1.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jinja2-2.3[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/docutils-0.10[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/flexmock-0.9.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

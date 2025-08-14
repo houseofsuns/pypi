@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/azure-common[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/typing-extensions-5.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/zstandard-0.21.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
+	docs? ( dev-python/autodoc_pydantic[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

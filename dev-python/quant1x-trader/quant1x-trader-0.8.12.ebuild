@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -40,6 +40,6 @@ DEPENDENCIES="~dev-python/setuptools-78.0.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
 	~dev-python/python-multipart-0.0.19[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]"
+	~dev-python/apscheduler-3.10.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dbt-bigquery gcs redash s3"
 DEPENDENCIES=">dev-python/pyyaml-5.4.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.10.3[${PYTHON_USEDEP}]
 	s3? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/boto3-1.24.14[${PYTHON_USEDEP}] )
 	dbt-bigquery? ( dev-python/dbt-adapters[${PYTHON_USEDEP}] )

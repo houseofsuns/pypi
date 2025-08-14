@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/allure-behave[${PYTHON_USEDEP}]
 	dev-python/Andreani-QA-Parameters[${PYTHON_USEDEP}]
 	dev-python/Andreani-QA-Functions[${PYTHON_USEDEP}]
 	dev-python/andreani-qa-debugger[${PYTHON_USEDEP}]
-	dev-python/andreani-qa-api[${PYTHON_USEDEP}]
+	dev-python/Andreani-QA-Api[${PYTHON_USEDEP}]
 	dev-python/andreani-qa-jmeter[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	~dev-python/selenium-4.16.0[${PYTHON_USEDEP}]

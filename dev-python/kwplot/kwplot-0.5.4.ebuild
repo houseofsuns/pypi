@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,24 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-strict docs docs-strict graphics graphics-strict headless headless-strict linting linting-strict optional optional-strict qt qt-strict runtime runtime-strict tests tests-strict types types-strict"
 DEPENDENCIES=">=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}]
-	>=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	dev-python/kwarray[${PYTHON_USEDEP}]
 	dev-python/kwimage[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/scriptconfig[${PYTHON_USEDEP}]
 	all? ( >=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwimage[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/coverage-5.3.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/xdoctest-1.1.1[${PYTHON_USEDEP}] )
@@ -51,11 +49,8 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}]
 	all? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwutil[${PYTHON_USEDEP}] )
 	headless? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	headless? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	graphics? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	graphics? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-5.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
@@ -69,18 +64,16 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}]
 	optional? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	optional? ( dev-python/kwutil[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt? ( >=dev-python/pyqt5-5.10[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/kwimage[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-5.3.1[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/xdoctest-1.1.1[${PYTHON_USEDEP}] )
@@ -88,14 +81,13 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	types? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/ubelt-1.3.6[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwimage[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/coverage-5.3.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/xdoctest-1.1.1[${PYTHON_USEDEP}] )
@@ -104,11 +96,8 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/kwutil[${PYTHON_USEDEP}] )
 	headless-strict? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	headless-strict? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	graphics-strict? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	graphics-strict? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	docs-strict? ( ~dev-python/sphinx-5.0.1[${PYTHON_USEDEP}] )
 	docs-strict? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
@@ -122,18 +111,16 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}]
 	optional-strict? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	optional-strict? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	optional-strict? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	optional-strict? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	optional-strict? ( dev-python/kwutil[${PYTHON_USEDEP}] )
-	qt-strict? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt-strict? ( ~dev-python/pyqt5-5.10[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/ubelt-1.3.6[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/kwimage[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/coverage-5.3.1[${PYTHON_USEDEP}] )
 	tests-strict? ( ~dev-python/xdoctest-1.1.1[${PYTHON_USEDEP}] )

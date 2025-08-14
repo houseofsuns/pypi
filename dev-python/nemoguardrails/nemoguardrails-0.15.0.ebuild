@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -33,7 +33,7 @@ DEPENDENCIES="tracing? ( >=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-language[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-language[${PYTHON_USEDEP}] )
 	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/langchain-community[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]
@@ -47,6 +47,8 @@ DEPENDENCIES="tracing? ( >=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	eval? ( >=dev-python/numpy-1.26[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.26[${PYTHON_USEDEP}] )
+	eval? ( >=dev-python/numpy-2.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-2.1.0[${PYTHON_USEDEP}] )
 	tracing? ( <dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}] )
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]

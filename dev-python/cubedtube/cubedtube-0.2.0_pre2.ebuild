@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.2.0.dev2"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	>=dev-python/boto3-1.17.97[${PYTHON_USEDEP}]
 	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	>=dev-python/peewee-3.13.3[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.11.0[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]

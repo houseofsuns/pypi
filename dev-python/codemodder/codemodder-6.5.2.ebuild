@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure complexity openai semgrep test"
 DEPENDENCIES="<dev-python/boltons-25.1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0[${PYTHON_USEDEP}]
 	<dev-python/isort-6.1[${PYTHON_USEDEP}]
 	<dev-python/libcst-1.9[${PYTHON_USEDEP}]
 	<dev-python/packaging-25.1[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="<dev-python/boltons-25.1[${PYTHON_USEDEP}]
 	test? ( dev-python/types-WTForms[${PYTHON_USEDEP}] )
 	test? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/httpx-0.27[${PYTHON_USEDEP}] )
-	test? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/jsonschema-4.25.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/lxml-6.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/openai[${PYTHON_USEDEP}] )
@@ -66,7 +66,6 @@ DEPENDENCIES="<dev-python/boltons-25.1[${PYTHON_USEDEP}]
 	test? ( dev-python/security[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	test? ( <dev-python/django-6.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/numpy-2.2.6[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/numpy-2.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )
 	test? ( dev-python/fickling[${PYTHON_USEDEP}] )

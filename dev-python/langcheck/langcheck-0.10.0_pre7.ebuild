@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="0.10.0.dev7"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all anthropic dev gemini ja ja-optional local-llm no-local-llm zh"
 DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/jaconv[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/nlpaug[${PYTHON_USEDEP}]
 	dev-python/eval-type-backport[${PYTHON_USEDEP}]
 	dev-python/instructor[${PYTHON_USEDEP}]
@@ -40,7 +40,6 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/rouge-score[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]

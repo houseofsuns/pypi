@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -39,7 +39,7 @@ DEPENDENCIES=">=dev-python/awkward-0.8.4[${PYTHON_USEDEP}]
 	spark? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	spark? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	spark? ( dev-python/lz4[${PYTHON_USEDEP}] )
-	spark? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	spark? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

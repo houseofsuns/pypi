@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,12 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES=">=dev-python/exceptiongroup-1.0[${PYTHON_USEDEP}]
-	>=dev-python/iniconfig-1.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/iniconfig-1.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.7.2[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/attrs-19.2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/hypothesis-3.56[${PYTHON_USEDEP}] )

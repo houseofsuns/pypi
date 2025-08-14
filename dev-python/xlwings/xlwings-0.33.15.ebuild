@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all reports vba-edit"
 DEPENDENCIES=">=dev-python/psutil-2.0.0[${PYTHON_USEDEP}]
 	dev-python/appscript[${PYTHON_USEDEP}]
-	reports? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	reports? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	reports? ( dev-python/pdfrw[${PYTHON_USEDEP}] )
 	reports? ( dev-python/mistune[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )

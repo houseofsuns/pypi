@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="arangodb auth azureblockblob brotli cassandra consul cosmosdbsql couchdb django dynamodb elasticsearch gcs gevent librabbitmq memcache mongodb msgpack pydantic pymemcache pyro pytest redis s3 slmq solar sqlalchemy sqs tblib yaml zookeeper zstd"
+IUSE="arangodb auth azureblockblob brotli cassandra consul cosmosdbsql couchdb django dynamodb elasticsearch gcs gevent memcache mongodb msgpack pydantic pymemcache pytest redis s3 slmq solar sqlalchemy sqs tblib yaml zookeeper zstd"
 DEPENDENCIES="dev-python/billiard[${PYTHON_USEDEP}]
 	<dev-python/kombu-5.6[${PYTHON_USEDEP}]
 	<dev-python/vine-6.0[${PYTHON_USEDEP}]
@@ -50,13 +50,11 @@ DEPENDENCIES="dev-python/billiard[${PYTHON_USEDEP}]
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	gcs? ( ~dev-python/grpcio-1.67.0[${PYTHON_USEDEP}] )
-	librabbitmq? ( dev-python/librabbitmq[${PYTHON_USEDEP}] )
 	memcache? ( ~dev-python/pylibmc-1.6.3[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	msgpack? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	pymemcache? ( >=dev-python/python-memcached-1.61[${PYTHON_USEDEP}] )
 	pydantic? ( >=dev-python/pydantic-2.4[${PYTHON_USEDEP}] )
-	pyro? ( dev-python/Pyro4[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest-celery[${PYTHON_USEDEP}] )
 	redis? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/boto3-1.26.143[${PYTHON_USEDEP}] )

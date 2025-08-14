@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development development-stable gui gui-stable stable"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	gui-stable? ( dev-python/panel[${PYTHON_USEDEP}] )
 	gui-stable? ( dev-python/dash[${PYTHON_USEDEP}] )
 	gui-stable? ( ~dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
-	stable? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
 	stable? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
 	stable? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	stable? ( dev-python/dask[${PYTHON_USEDEP}] )

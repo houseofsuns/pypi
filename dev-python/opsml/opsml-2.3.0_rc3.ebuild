@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.3.0rc3"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,7 @@ DEPENDENCIES="server? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
-	server? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	server? ( <dev-python/jinja2-4.0.0[${PYTHON_USEDEP}] )
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	tf-onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	sklearn-onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )

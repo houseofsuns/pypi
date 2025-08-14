@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -33,13 +33,13 @@ DEPENDENCIES=">=dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	>=dev-python/tornado-6.4.2[${PYTHON_USEDEP}]
 	pendera? ( dev-python/pandera[${PYTHON_USEDEP}] )
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	git? ( >=dev-python/gitpython-3.1.31[${PYTHON_USEDEP}] )
 	ipython? ( >=dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
 	ipython? ( >=dev-python/ipywidgets-8.0.7[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/gitpython-3.1.31[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ipywidgets-8.0.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandera[${PYTHON_USEDEP}] )"

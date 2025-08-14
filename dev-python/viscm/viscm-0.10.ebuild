@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/colorspacious[${PYTHON_USEDEP}]
 	~dev-python/scipy-1.8[${PYTHON_USEDEP}]
-	pyqt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

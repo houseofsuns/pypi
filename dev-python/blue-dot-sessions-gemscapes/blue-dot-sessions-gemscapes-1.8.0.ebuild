@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/cython-0.30.0[${PYTHON_USEDEP}]
-	dev-python/eyeD3[${PYTHON_USEDEP}]
+	<dev-python/eyed3-0.10.0[${PYTHON_USEDEP}]
 	<dev-python/colour-0.2.0[${PYTHON_USEDEP}]
 	<dev-python/scikit-image-0.17.0[${PYTHON_USEDEP}]
 	<dev-python/pyclipper-2.0.0[${PYTHON_USEDEP}]

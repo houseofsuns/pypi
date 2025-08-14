@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="builtin-yosys remote-build"
 DEPENDENCIES="dev-python/jschon[${PYTHON_USEDEP}]
 	dev-python/pyvcd[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	builtin-yosys? ( dev-python/amaranth-yosys[${PYTHON_USEDEP}] )
 	remote-build? ( ~dev-python/paramiko-2.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

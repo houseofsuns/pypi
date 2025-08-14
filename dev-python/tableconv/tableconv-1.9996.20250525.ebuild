@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -51,7 +51,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.11.18[${PYTHON_USEDEP}]
 	~dev-python/pymysql-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
-	dev-python/Remarshal[${PYTHON_USEDEP}]
+	dev-python/remarshal[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.9.4[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.38[${PYTHON_USEDEP}]
 	~dev-python/tables-3.10.2[${PYTHON_USEDEP}]

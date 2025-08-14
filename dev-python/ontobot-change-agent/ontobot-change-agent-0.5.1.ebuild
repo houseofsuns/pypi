@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="llm"
-DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pygithub-3.0.0[${PYTHON_USEDEP}]
 	llm? ( dev-python/llm-change-agent[${PYTHON_USEDEP}] )
 	dev-python/oaklib[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-70.1.1[${PYTHON_USEDEP}]"

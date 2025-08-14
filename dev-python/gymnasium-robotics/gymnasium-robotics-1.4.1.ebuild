@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/mujoco[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/pettingzoo[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	testing? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mujoco-py-cython3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
 	mujoco-py? ( dev-python/mujoco-py-cython3[${PYTHON_USEDEP}] )
 	mujoco-py-original? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
 	mujoco-py-original? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )"

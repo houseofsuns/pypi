@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )

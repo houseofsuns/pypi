@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pyDigitalWaveTools[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-contributors[${PYTHON_USEDEP}] )
+	doc? ( dev-python/sphinx_contributors[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-github-changelog[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	hgq? ( dev-python/hgq[${PYTHON_USEDEP}] )
+	hgq? ( dev-python/HGQ[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	optimization? ( dev-python/keras-tuner[${PYTHON_USEDEP}] )
 	optimization? ( dev-python/ortools[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	quartus-report? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	sr? ( >=dev-python/sympy-1.13.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/calmjs-parse[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hgq[${PYTHON_USEDEP}] )
+	testing? ( dev-python/HGQ[${PYTHON_USEDEP}] )
 	testing? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	>=dev-python/contourpy-1.3.1[${PYTHON_USEDEP}]
 	dev-python/d3graph[${PYTHON_USEDEP}]
-	dev-python/docstring-parser[${PYTHON_USEDEP}]
+	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/fair-esm[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]

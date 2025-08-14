@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -35,7 +35,6 @@ DEPENDENCIES=">=dev-python/h5py-2.10[${PYTHON_USEDEP}]
 	bridge? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
 	complete? ( dev-python/EXtra-data[${PYTHON_USEDEP}] )
-	complete? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	complete? ( dev-python/zlib-into[${PYTHON_USEDEP}] )
 	docs? ( dev-python/EXtra-data[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )

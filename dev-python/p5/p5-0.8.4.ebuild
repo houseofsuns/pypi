@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	~dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
-	dev-python/pyopengl_accelerate[${PYTHON_USEDEP}]
+	~dev-python/pyopengl-accelerate-3.1.7[${PYTHON_USEDEP}]
 	~dev-python/pyopengl-3.1.6[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/skia-python[${PYTHON_USEDEP}]"

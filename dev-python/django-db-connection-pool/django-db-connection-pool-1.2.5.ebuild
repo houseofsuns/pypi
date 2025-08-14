@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,14 +28,14 @@ DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	>=dev-python/sqlalchemy-1.4.24[${PYTHON_USEDEP}]
 	dev-python/sqlparams[${PYTHON_USEDEP}]
 	all? ( >=dev-python/django-2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	all? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/sqlalchemy-1.4.24[${PYTHON_USEDEP}] )
 	all? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mysqlclient-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlparams[${PYTHON_USEDEP}] )
-	jdbc? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	jdbc? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	mysql? ( >=dev-python/mysqlclient-1.3.0[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )

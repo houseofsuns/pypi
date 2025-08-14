@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,29 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-strict docs docs-strict linting linting-strict optional optional-strict runtime runtime-strict tests tests-strict"
-DEPENDENCIES=">=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	>=dev-python/ubelt-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
-	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
-	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/scriptconfig[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
 	>=dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}]
+	all? ( >=dev-python/numpy-2.1.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ubelt-1.3.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/networkx-2.8[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/rich-12.5.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}] )
@@ -58,16 +56,15 @@ DEPENDENCIES=">=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	all? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pint[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/numpy-2.1.0[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/ubelt-1.3.0[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/networkx-2.8[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/rich-12.5.1[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	runtime? ( >=dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}] )
@@ -88,16 +85,15 @@ DEPENDENCIES=">=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
 	linting? ( >=dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/numpy-2.1.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/ubelt-1.3.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/networkx-2.8[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/rich-12.5.1[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}] )
@@ -109,16 +105,15 @@ DEPENDENCIES=">=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	all-strict? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	all-strict? ( dev-python/Pint[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/numpy-2.1.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/numpy-1.23.2[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/ubelt-1.3.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/networkx-2.8[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/networkx-2.7[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/rich-12.5.1[${PYTHON_USEDEP}] )
+	runtime-strict? ( ~dev-python/pandas-2.2.3[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	runtime-strict? ( dev-python/scriptconfig[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	runtime-strict? ( ~dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}] )

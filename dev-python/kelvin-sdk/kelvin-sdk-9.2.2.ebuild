@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -42,7 +42,7 @@ DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
 	~dev-python/humanize-4.6[${PYTHON_USEDEP}]
 	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	~dev-python/typeguard-4.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1[${PYTHON_USEDEP}]
 	dev-python/docker-image-py[${PYTHON_USEDEP}]
 	~dev-python/importlib-resources-5.12[${PYTHON_USEDEP}]
 	dev-python/kelvin-python-sdk[${PYTHON_USEDEP}]
@@ -72,7 +72,7 @@ DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
 	format? ( ~dev-python/black-25.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/coverage-6.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/faker-9.8[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-asyncio-0.16[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )

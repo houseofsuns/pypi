@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -40,14 +40,14 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	>=dev-python/pymongo-3.6.0[${PYTHON_USEDEP}]
 	dev-python/checksumdir[${PYTHON_USEDEP}]
 	>=dev-python/semver-2.7.8[${PYTHON_USEDEP}]
-	dev-python/backports-ssl_match_hostname[${PYTHON_USEDEP}]
+	>=dev-python/backports-ssl-match-hostname-3.5.0.1[${PYTHON_USEDEP}]
 	>=dev-python/timeout-decorator-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/cerberus-1.2[${PYTHON_USEDEP}]
 	~dev-python/pytest-3.0.4[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.5.6[${PYTHON_USEDEP}]
 	>=dev-python/psutil-4.4.2[${PYTHON_USEDEP}]
 	>=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-2.7.3[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-0.23[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-0.9.6[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}]

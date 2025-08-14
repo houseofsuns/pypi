@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
 	~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.9.1[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.6.5[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/cryptography-3.4.7[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/babel-2.9.1[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/alembic-1.6.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fire[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}] )

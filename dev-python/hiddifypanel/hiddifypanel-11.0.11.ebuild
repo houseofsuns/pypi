@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python3_12 )
+PYTHON_COMPAT=( python{3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/APIFlask[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	~dev-python/babel-2.16.0[${PYTHON_USEDEP}]
 	~dev-python/bleach-6.2.0[${PYTHON_USEDEP}]
 	dev-python/Bootstrap-Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]
@@ -75,7 +75,7 @@ DEPENDENCIES="dev-python/APIFlask[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	<dev-python/json5-1.0.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	<=dev-python/marshmallow-3.26.1[${PYTHON_USEDEP}]
 	dev-python/psutils[${PYTHON_USEDEP}]
 	dev-python/dotenv[${PYTHON_USEDEP}]

@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli remote"
 DEPENDENCIES=">dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	<dev-python/qtpy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/koil[${PYTHON_USEDEP}]
 	remote? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	remote? ( >dev-python/certifi-2021.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich-click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-click-0.3[${PYTHON_USEDEP}] )
 	cli? ( <dev-python/netifaces-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

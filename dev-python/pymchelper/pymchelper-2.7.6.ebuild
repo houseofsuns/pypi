@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -24,8 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dicom excel full hdf image pytrip"
-DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
-	>=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
 	dicom? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -40,13 +39,9 @@ DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	full? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
 	hdf? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	image? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	pytrip? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	pytrip? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
-	pytrip? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
 	pytrip? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
 	pytrip? ( dev-python/pytrip98[${PYTHON_USEDEP}] )
 	pytrip? ( dev-python/pytrip98[${PYTHON_USEDEP}] )"

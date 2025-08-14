@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,7 +27,7 @@ IUSE="dev docs docs-screenshots test upgrade-extension"
 DEPENDENCIES=">=dev-python/async-lru-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-6.5.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	dev-python/jupyter-core[${PYTHON_USEDEP}]
 	>=dev-python/jupyter-lsp-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
@@ -35,7 +35,6 @@ DEPENDENCIES=">=dev-python/async-lru-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/notebook-shim-0.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-41.1.0[${PYTHON_USEDEP}]
-	>=dev-python/tomli-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/tornado-6.2.0[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )

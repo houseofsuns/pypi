@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs qtplot slack test"
 DEPENDENCIES="dev-python/qcodes[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.1[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/qcodes[${PYTHON_USEDEP}]
 	dev-python/hickle[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.31.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pyqt5-5.15.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/sphinx-9.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/qcodes[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-xdist-2.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-mock-3.0.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyqt5-5.15.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )"

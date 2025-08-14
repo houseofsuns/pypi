@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -29,12 +29,12 @@ DEPENDENCIES=">=dev-python/matplotlib-3.9.2[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
 	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	>=dev-python/python-slugify-8.0.4[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-2.4.2[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.6.7[${PYTHON_USEDEP}]
 	>=dev-python/tifffile-2024.8.30[${PYTHON_USEDEP}]
-	cli? ( dev-python/rich-click[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	full? ( dev-python/rich-click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-click-1.8.3[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pyqt5-5.15.11[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/rich-click-1.8.3[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

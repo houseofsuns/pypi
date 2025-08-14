@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -28,7 +28,7 @@ DEPENDENCIES=">=dev-python/aiohttp-3.7.1[${PYTHON_USEDEP}]
 	dev-python/bios[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/Events[${PYTHON_USEDEP}]
+	>=dev-python/events-0.3[${PYTHON_USEDEP}]
 	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/pygatt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

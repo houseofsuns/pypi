@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all all-optional bermuda build dev docs gallery optional optional-base optional-numba partsegcore pyqt pyqt5 pyqt6 pyside pyside2 pyside6 qt release testing testing-extra"
+IUSE="all all-optional bermuda build dev docs gallery optional optional-base optional-numba partsegcore pyqt pyqt5 pyqt6 pyside pyside6 qt release testing testing-extra"
 DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/app-model[${PYTHON_USEDEP}]
 	dev-python/cachey[${PYTHON_USEDEP}]
@@ -31,7 +31,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	>=dev-python/imageio-2.20[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
+	>=dev-python/lazy-loader-0.3[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/napari-console[${PYTHON_USEDEP}]
 	dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/pygments-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopengl-3.1.5[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/qtpy-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/scikit-image-0.19.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	>=dev-python/superqt-0.7.4[${PYTHON_USEDEP}]
@@ -58,12 +58,11 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.13.3[${PYTHON_USEDEP}]
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6? ( >dev-python/pyqt6-6.5[${PYTHON_USEDEP}] )
+	pyqt6? ( >dev-python/pyqt6-6.6.1[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/napari[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/pyqt5-5.15.8[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/napari[${PYTHON_USEDEP}] )
 	qt? ( dev-python/napari[${PYTHON_USEDEP}] )
 	all? ( dev-python/napari[${PYTHON_USEDEP}] )
@@ -76,14 +75,14 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	partsegcore? ( dev-python/PartSegCore-compiled-backend[${PYTHON_USEDEP}] )
 	all-optional? ( dev-python/napari[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )
-	testing? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/babel-2.9.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/fsspec-2023.10.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/hypothesis-6.8.0[${PYTHON_USEDEP}] )
 	testing? ( >dev-python/lxml-5.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
 	testing? ( >dev-python/coverage-7.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
+	testing? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pretend-1.0.9[${PYTHON_USEDEP}] )
 	testing? ( dev-python/PyAutoGUI[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-qt-4.3.1[${PYTHON_USEDEP}] )
@@ -131,9 +130,9 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/bermuda[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
-	release? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	release? ( >=dev-python/pygithub-1.46[${PYTHON_USEDEP}] )
 	release? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
-	release? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	release? ( >=dev-python/gitpython-3.1.0[${PYTHON_USEDEP}] )
 	release? ( >=dev-python/requests-cache-0.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
@@ -143,6 +142,6 @@ DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox-min-req[${PYTHON_USEDEP}] )
 	dev? ( dev-python/napari[${PYTHON_USEDEP}] )
 	build? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	build? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
+	build? ( dev-python/pyqt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

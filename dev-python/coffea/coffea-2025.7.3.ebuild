@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	parsl? ( dev-python/parsl[${PYTHON_USEDEP}] )
 	rucio? ( dev-python/rucio-clients[${PYTHON_USEDEP}] )
 	spark? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	spark? ( dev-python/jinja[${PYTHON_USEDEP}] )
+	spark? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	xrootd? ( dev-python/fsspec-xrootd[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

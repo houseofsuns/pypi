@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -23,17 +23,16 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="pyqt pyqt5 pyqt6 pyside pyside2 pyside6-experimental qt testing"
+IUSE="pyqt pyqt5 pyqt6 pyside pyside6-experimental qt testing"
 DEPENDENCIES=">=dev-python/ipython-7.7.0[${PYTHON_USEDEP}]
 	>=dev-python/ipykernel-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/qtconsole-4.5.1[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	>=dev-python/qtpy-1.7.0[${PYTHON_USEDEP}]
 	pyside6-experimental? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6? ( >dev-python/pyqt6-6.5[${PYTHON_USEDEP}] )
+	pyqt6? ( >dev-python/pyqt6-6.6.1[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/napari-console[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/pyqt5-5.13.2[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/napari-console[${PYTHON_USEDEP}] )
 	qt? ( dev-python/napari-console[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )"

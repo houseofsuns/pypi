@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -27,12 +27,11 @@ IUSE="interactive"
 DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/commisery[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/gitpython-4.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	<dev-python/typeguard-2.11[${PYTHON_USEDEP}]
-	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
 	interactive? ( <dev-python/keyring-22.0[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/netstruct[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

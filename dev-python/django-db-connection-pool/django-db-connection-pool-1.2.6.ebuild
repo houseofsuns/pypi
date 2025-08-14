@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	all? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	all? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	all? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	all? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	psycopg3? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	jdbc? ( dev-python/JPype1[${PYTHON_USEDEP}] )
+	jdbc? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

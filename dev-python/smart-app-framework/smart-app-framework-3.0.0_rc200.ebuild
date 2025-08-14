@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="3.0.0rc200"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11} )
+PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
@@ -24,13 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ml"
-DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	dev-python/boto[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.3.0[${PYTHON_USEDEP}]
 	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
-	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	~dev-python/croniter-1.3.7[${PYTHON_USEDEP}]
 	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]
@@ -53,7 +52,6 @@ DEPENDENCIES="dev-python/jinja[${PYTHON_USEDEP}]
 	~dev-python/python-json-logger-0.1.11[${PYTHON_USEDEP}]
 	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/rusenttokenize[${PYTHON_USEDEP}]
-	ml? ( ~dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}] )
 	ml? ( ~dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
 	~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]

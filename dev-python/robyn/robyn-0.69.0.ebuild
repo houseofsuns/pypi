@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/rustimport[${PYTHON_USEDEP}]
 	~dev-python/uvloop-0.21.0[${PYTHON_USEDEP}]
 	~dev-python/watchdog-4.0.1[${PYTHON_USEDEP}]
-	templating? ( dev-python/jinja[${PYTHON_USEDEP}] )"
+	templating? ( ~dev-python/jinja2-3.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

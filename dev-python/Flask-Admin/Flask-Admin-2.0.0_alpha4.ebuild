@@ -7,7 +7,7 @@ REALNAME="${PN}"
 LITERALNAME="${PN}"
 REALVERSION="2.0.0a4"
 DIGEST_SOURCES="yes"
-PYTHON_COMPAT=( python{3_10,3_11,3_12} )
+PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure-blob-storage export geoalchemy images peewee pymongo rediscli s3 sqlalchemy sqlalchemy-with-utils translation"
 DEPENDENCIES=">=dev-python/flask-2.0[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-3.0[${PYTHON_USEDEP}]
 	>=dev-python/markupsafe-2.0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-2.0[${PYTHON_USEDEP}]
 	>=dev-python/wtforms-2.3[${PYTHON_USEDEP}]

@@ -16,8 +16,8 @@ DESCRIPTION="Fast tool for gaining insights from large image repositories. [whee
 
 HOMEPAGE="https://github.com/visualdatabase/fastdup"
 LICENSE="Non commercial"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-macosx_11_0_arm64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-macosx_11_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_31_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_31_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

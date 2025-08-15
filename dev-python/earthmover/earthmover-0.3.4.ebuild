@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Transforms tabular data sources into text-based data via YAML configuration [top-max 0.4.5]"
+DESCRIPTION="Transforms tabular data sources into text-based data via YAML configuration [top-max 0.4.6]"
 
 HOMEPAGE="https://github.com/edanalytics/earthmover"
 LICENSE="Apache-2.0"

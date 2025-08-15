@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for reading and writing fasta/fastq files [top-max 0.1.5]"
+DESCRIPTION="A package for reading and writing fasta/fastq files [top-max 0.1.6]"
 
 HOMEPAGE=""
 LICENSE=""

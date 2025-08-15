@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Emmett framework core libraries"
+DESCRIPTION="Emmett framework core libraries [top-max 1.3.7]"
 
 HOMEPAGE="https://github.com/emmett-framework/core"
 LICENSE="BSD"

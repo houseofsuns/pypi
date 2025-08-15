@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AWS EC2 CLI"
+DESCRIPTION="AWS EC2 CLI [top-max 4.1.2]"
 
 HOMEPAGE="https://github.com/seek-oss/aec"
 LICENSE="MIT"

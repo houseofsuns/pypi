@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rust libary extensions for Python PECOS. [top-max 0.7.0_pre2]"
+DESCRIPTION="Rust libary extensions for Python PECOS. [top-max 0.7.0_pre4]"
 
 HOMEPAGE="https://pecos.io"
 LICENSE="Apache-2.0"

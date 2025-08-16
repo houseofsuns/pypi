@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [top-max 0.23.4]"
 
 HOMEPAGE="https://github.com/hexs/hexss"
 LICENSE="MIT"

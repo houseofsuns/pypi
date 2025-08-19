@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PHP grammar for tree-sitter"
+DESCRIPTION="PHP grammar for tree-sitter [top-max 0.24.1]"
 
 HOMEPAGE="https://github.com/tree-sitter/tree-sitter-php"
 LICENSE="MIT"

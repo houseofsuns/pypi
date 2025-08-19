@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flet Desktop client in Flutter [top-max 0.70.0_pre5403]"
+DESCRIPTION="Flet Desktop client in Flutter [top-max 0.70.0_pre5463]"
 
 HOMEPAGE="https://flet.dev"
 LICENSE="Apache-2.0"

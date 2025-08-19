@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open Mathematical prograMming eXchange (OMMX) [top-max 2.0.5]"
+DESCRIPTION="Open Mathematical prograMming eXchange (OMMX) [top-max 2.0.6]"
 
 HOMEPAGE="https://github.com/Jij-Inc/ommx"
 LICENSE=""

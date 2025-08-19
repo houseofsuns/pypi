@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HW accelerated video reading for ML Inference (CPU version). [top-max 0.7.1]"
+DESCRIPTION="HW accelerated video reading for ML Inference (CPU version). [top-max 0.7.3]"
 
 HOMEPAGE="https://github.com/Trentonom0r3/celux"
 LICENSE="AGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Standard Development Kit for interacting with the Rhino Health Federated Learning Platform [top-max 2.1.3]"
+DESCRIPTION="Standard Development Kit for interacting with the Rhino Health Federated Learning Platform [top-max 2.1.4]"
 
 HOMEPAGE="https://www.rhinohealth.com/"
 LICENSE=""

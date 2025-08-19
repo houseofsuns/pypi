@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RocksDB wrapper implemented in Cython. [top-max 0.5.2]"
+DESCRIPTION="RocksDB wrapper implemented in Cython. [top-max 0.5.3_pre8]"
 
 HOMEPAGE=""
 LICENSE=""

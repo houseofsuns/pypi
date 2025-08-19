@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for CTPAPI [top-max 6.7.7.0]"
+DESCRIPTION="A package for CTPAPI [top-max 6.7.11.0]"
 
 HOMEPAGE=""
 LICENSE=""

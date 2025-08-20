@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="dingo-store python sdk [top-max 0.3_rc1, badver 0.1rc8.post1]"
+DESCRIPTION="dingo-store python sdk [top-max 0.3, badver 0.1rc8.post1]"
 
 HOMEPAGE="https://www.dingodb.com/"
 LICENSE="Apache-2.0"

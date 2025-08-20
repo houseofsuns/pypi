@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Soft asserts for pytest [top-max 1.2.1]"
+DESCRIPTION="Soft asserts for pytest [top-max 1.2.2]"
 
 HOMEPAGE="https://github.com/etuzon/python-nrt-pytest-soft-asserts"
 LICENSE=""

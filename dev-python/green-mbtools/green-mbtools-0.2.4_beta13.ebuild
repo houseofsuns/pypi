@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Collection of Python tools for quantum many-body simulation using Green Software Package"
+DESCRIPTION="Collection of Python tools for quantum many-body simulation using Green Software Package [top-max 0.3.0]"
 
 HOMEPAGE="https://green-phys.org"
 LICENSE=""

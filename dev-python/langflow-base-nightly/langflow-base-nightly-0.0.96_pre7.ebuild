@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package with a built-in web application [top-max 0.5.0_pre33]"
+DESCRIPTION="A Python package with a built-in web application [top-max 0.5.0_pre35]"
 
 HOMEPAGE=""
 LICENSE=""

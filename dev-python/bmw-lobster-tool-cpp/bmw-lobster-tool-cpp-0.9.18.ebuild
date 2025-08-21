@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LOBSTER Tool for ISO C/C++ [top-max 0.14.0]"
+DESCRIPTION="LOBSTER Tool for ISO C/C++ [top-max 0.14.2]"
 
 HOMEPAGE="https://github.com/bmw-software-engineering/lobster"
 LICENSE="AGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client to submit payment orders to the Redsys service. [top-max 0.2.7]"
+DESCRIPTION="A client to submit payment orders to the Redsys service. [top-max 0.3.0]"
 
 HOMEPAGE="http://www.zikzakmedia.com"
 LICENSE="General Public Licence 2"

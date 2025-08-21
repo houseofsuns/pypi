@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package to extract binary files into pandas dataframes"
+DESCRIPTION="Package to extract binary files into pandas dataframes [top-max 0.1.5.6]"
 
 HOMEPAGE=""
 LICENSE=""

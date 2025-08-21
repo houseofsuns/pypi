@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Free utilities from FeatureByte [top-max 0.2.22]"
+DESCRIPTION="Free utilities from FeatureByte [top-max 0.2.23]"
 
 HOMEPAGE="https://github.com/featurebyte/freeware"
 LICENSE="Apache Software License 2.0"

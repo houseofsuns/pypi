@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Model Compression Toolkit for neural networks"
+DESCRIPTION="A Model Compression Toolkit for neural networks [top-max 2.4.0.20250821.511]"
 
 HOMEPAGE=""
 LICENSE=""

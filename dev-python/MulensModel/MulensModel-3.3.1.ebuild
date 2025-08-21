@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="package for modeling gravitational microlensing events"
+DESCRIPTION="package for modeling gravitational microlensing events [top-max 3.4.0]"
 
 HOMEPAGE="https://github.com/rpoleski/MulensModel"
 LICENSE=""

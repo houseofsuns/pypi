@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An opinionated yaml formatter based on ruamel.yaml [top-max 0.12.0]"
+DESCRIPTION="An opinionated yaml formatter based on ruamel.yaml [top-max 0.13.0]"
 
 HOMEPAGE="https://github.com/looztra/yamkix"
 LICENSE="Apache-2.0"

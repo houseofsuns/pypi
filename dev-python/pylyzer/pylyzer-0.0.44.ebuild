@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast static code analyzer & language server for Python [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fbe584f4c80>)]"
+DESCRIPTION="A fast static code analyzer & language server for Python [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feecc706650>)]"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IDL for Flyte Platform"
+DESCRIPTION="IDL for Flyte Platform [top-max 2.0.0_alpha1]"
 
 HOMEPAGE="https://github.com/flyteorg/flyte/tree/master/flyteidl"
 LICENSE="Apache-2.0"

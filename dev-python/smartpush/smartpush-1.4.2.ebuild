@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="用于smartpush自动化测试工具包 [top-max 1.7.1]"
+DESCRIPTION="用于smartpush自动化测试工具包 [top-max 1.7.3]"
 
 HOMEPAGE=""
 LICENSE=""

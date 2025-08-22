@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An api testing framework [top-max 3.0.1]"
+DESCRIPTION="An api testing framework [top-max 3.0.2]"
 
 HOMEPAGE="https://github.com/ae86sen/aomaker"
 LICENSE=""

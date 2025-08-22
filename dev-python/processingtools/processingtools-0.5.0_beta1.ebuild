@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A tool for image/video processing"
+DESCRIPTION="A tool for image/video processing [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/ysy9997/ProcessingTools.git"
 LICENSE="MIT"

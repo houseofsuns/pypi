@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple command line tool to filter data by using python-like syntax [top-max 0.3.6]"
+DESCRIPTION="A simple command line tool to filter data by using python-like syntax [top-max 0.4.1]"
 
 HOMEPAGE="https://github.com/dwpeng/filterx"
 LICENSE="MIT"

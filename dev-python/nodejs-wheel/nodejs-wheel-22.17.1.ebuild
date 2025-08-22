@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="unoffical Node.js package [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fbe5fe49d90>)]"
+DESCRIPTION="unoffical Node.js package [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feed3bc5620>)]"
 
 HOMEPAGE=""
 LICENSE="Copyright 2023 Jinzhe Zeng"

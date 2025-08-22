@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [top-max 1.4.2]"
 
 HOMEPAGE="https://github.com/gnox/devcontainer-manager"
 LICENSE="MIT"

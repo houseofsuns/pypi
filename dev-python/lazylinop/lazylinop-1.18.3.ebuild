@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/array-api-compat-1.12.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.13[${PYTHON_USEDEP}]
 	>=dev-python/sympy-1.14[${PYTHON_USEDEP}]

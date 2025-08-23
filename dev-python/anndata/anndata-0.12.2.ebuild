@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cu11 cu12 dask dev dev-doc doc gpu lazy test test-min"
-DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/array-api-compat-1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/h5py-3.8[${PYTHON_USEDEP}]
 	dev-python/legacy-api-wrap[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]

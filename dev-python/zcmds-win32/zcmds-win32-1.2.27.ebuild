@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cross platform(ish) productivity commands written in python."
+DESCRIPTION="Cross platform(ish) productivity commands written in python. [top-max 1.2.28]"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/array-api-compat[${PYTHON_USEDEP}]
+	~dev-python/array-api-compat-1.10.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.8[${PYTHON_USEDEP}]
 	~dev-python/contourpy-1.3.0[${PYTHON_USEDEP}]
 	~dev-python/cycler-0.12.1[${PYTHON_USEDEP}]

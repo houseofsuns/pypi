@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for Lunary, the open-source platform where GenAI teams manage and improve LLM chatbots."
+DESCRIPTION="Python SDK for Lunary, the open-source platform where GenAI teams manage and improve LLM chatbots. [top-max 1.4.27]"
 
 HOMEPAGE="https://lunary.ai/docs/py"
 LICENSE=""

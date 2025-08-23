@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for finite-difference time domain computation for light propagation. [top-max 0.4.1]"
+DESCRIPTION="A package for finite-difference time domain computation for light propagation. [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/MartinPdeS/LightWave2D"
 LICENSE="MIT"

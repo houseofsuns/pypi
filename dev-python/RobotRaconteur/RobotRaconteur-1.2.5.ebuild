@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="robotraconteur"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -16,8 +16,8 @@ DESCRIPTION="Robot Raconteur Python Library [wheel]"
 
 HOMEPAGE="http://robotraconteur.com/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/f1/b7/995cb01e2ea18585df43ba40be9155ce12a46d88100ba56d5bb700f41ad7/robotraconteur-${REALVERSION}-cp311-cp311-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl"
-SOURCEFILE="robotraconteur-${REALVERSION}-cp311-cp311-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

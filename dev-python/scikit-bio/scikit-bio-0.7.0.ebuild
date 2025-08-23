@@ -34,7 +34,7 @@ DEPENDENCIES=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/biom-format[${PYTHON_USEDEP}]
 	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	>=dev-python/patsy-0.5.0[${PYTHON_USEDEP}]
-	dev-python/array-api-compat[${PYTHON_USEDEP}]
+	>=dev-python/array-api-compat-1.3[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )

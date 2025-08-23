@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pacote de integração de produtos, preço, estoque e pedidos com o sistema OkVendas da Openk"
+DESCRIPTION="Pacote de integração de produtos, preço, estoque e pedidos com o sistema OkVendas da Openk [top-max 4.4.19]"
 
 HOMEPAGE=""
 LICENSE=""

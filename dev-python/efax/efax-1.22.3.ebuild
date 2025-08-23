@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/array-api-compat-1.10[${PYTHON_USEDEP}]
 	dev-python/array-api-extra[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.25[${PYTHON_USEDEP}]

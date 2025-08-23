@@ -29,7 +29,7 @@ DEPENDENCIES="<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/alibi-detect[${PYTHON_USEDEP}] )
 	alibi? ( dev-python/alibi[${PYTHON_USEDEP}] )
 	all? ( dev-python/alibi[${PYTHON_USEDEP}] )
-	dev-python/array-api-compat[${PYTHON_USEDEP}]
+	~dev-python/array-api-compat-1.6[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]

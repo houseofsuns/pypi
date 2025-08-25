@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Routines for computation of hessian affine keypoints in images."
+DESCRIPTION="Routines for computation of hessian affine keypoints in images. [top-max 2.1.3]"
 
 HOMEPAGE="https://github.com/Erotemic/pyhesaff"
 LICENSE="Apache-2.0"

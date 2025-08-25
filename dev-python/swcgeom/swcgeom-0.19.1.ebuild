@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Neuron geometry library for swc format [top-max 0.19.4]"
+DESCRIPTION="Neuron geometry library for swc format [top-max 0.20.0]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Runner for the Certora Prover"
+DESCRIPTION="Runner for the Certora Prover [top-max 20250823.20.37.770434]"
 
 HOMEPAGE="https://pypi.org/project/certora-cli-alpha-master"
 LICENSE="GPL-3"

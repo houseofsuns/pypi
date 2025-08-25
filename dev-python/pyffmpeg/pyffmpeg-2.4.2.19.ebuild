@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FFmpeg wrapper for python [top-max 2.4.3]"
+DESCRIPTION="FFmpeg wrapper for python [top-max 2.5.0.2]"
 
 HOMEPAGE="https://github.com/deuteronomy-works/pyffmpeg"
 LICENSE=""

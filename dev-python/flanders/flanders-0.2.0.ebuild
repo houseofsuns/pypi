@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast 2D nearest neighbor search with an angle. [top-max 0.3.1]"
+DESCRIPTION="Fast 2D nearest neighbor search with an angle. [top-max 0.3.2]"
 
 HOMEPAGE="https://github.com/bast/flanders"
 LICENSE="MPL-2.0"

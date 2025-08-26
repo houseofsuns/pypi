@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A comic archive web server."
+DESCRIPTION="A comic archive web server. [top-max 1.8.12]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

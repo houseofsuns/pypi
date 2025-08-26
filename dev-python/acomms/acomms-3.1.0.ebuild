@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WHOI Micromodem Interface Library and Tools"
+DESCRIPTION="WHOI Micromodem Interface Library and Tools [top-max 3.1.1]"
 
 HOMEPAGE="http://acomms.whoi.edu"
 LICENSE="LGPL-3+"

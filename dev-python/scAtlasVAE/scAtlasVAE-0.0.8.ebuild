@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="scAtlasVAE: a deep learning framework for atlas-scale scRNA-seq integration and analysis [top-max 1.0.5.9]"
+DESCRIPTION="scAtlasVAE: a deep learning framework for atlas-scale scRNA-seq integration and analysis [top-max 1.0.6_alpha4]"
 
 HOMEPAGE=""
 LICENSE=""

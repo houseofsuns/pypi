@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the liblo OSC library"
+DESCRIPTION="Python bindings for the liblo OSC library [top-max 0.16.4]"
 
 HOMEPAGE="https://github.com/gesellkammer/pyliblo3"
 LICENSE="LGPL-3"

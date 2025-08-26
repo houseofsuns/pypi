@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CMS to build learning portals for open education"
+DESCRIPTION="A CMS to build learning portals for open education [top-max 3.1.3_pre38]"
 
 HOMEPAGE="https://github.com/openfun/richie"
 LICENSE="MIT"

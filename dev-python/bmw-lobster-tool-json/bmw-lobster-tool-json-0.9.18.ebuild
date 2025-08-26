@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LOBSTER Tool for JSON [top-max 0.14.2]"
+DESCRIPTION="LOBSTER Tool for JSON [top-max 0.14.3]"
 
 HOMEPAGE="https://github.com/bmw-software-engineering/lobster"
 LICENSE="AGPL-3"

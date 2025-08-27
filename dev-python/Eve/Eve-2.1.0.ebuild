@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python REST API for Humans. [top-max 2.2.1]"
+DESCRIPTION="Python REST API for Humans. [top-max 2.2.3]"
 
 HOMEPAGE="http://python-eve.org"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 6.7.2_p4862]"
+DESCRIPTION=" [top-max 6.7.2_p4868]"
 
 HOMEPAGE="https://nuclia.com"
 LICENSE="BSD"

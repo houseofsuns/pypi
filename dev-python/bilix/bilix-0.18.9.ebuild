@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	dev-python/anyio[${PYTHON_USEDEP}]
-	>=dev-python/browser-cookie3-0.17.1[${PYTHON_USEDEP}]
+	dev-python/browser-cookie3[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/danmakuC[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all ds9 ephemeris influxdb kubernetes netmiko slack"
 DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
-	>=dev-python/aiocache-0.12.3[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11.11[${PYTHON_USEDEP}]
 	dev-python/asyncudp[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.5.0[${PYTHON_USEDEP}]

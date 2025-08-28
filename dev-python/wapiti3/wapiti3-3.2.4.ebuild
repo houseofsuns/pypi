@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="~dev-python/aiocache-0.12.2[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aiocache[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.10.11[${PYTHON_USEDEP}]
 	~dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}]
 	dev-python/wapiti-arsenic[${PYTHON_USEDEP}]
 	~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}]
-	~dev-python/browser-cookie3-0.19.1[${PYTHON_USEDEP}]
+	dev-python/browser-cookie3[${PYTHON_USEDEP}]
 	~dev-python/dnspython-2.6.1[${PYTHON_USEDEP}]
 	~dev-python/h11-0.14.0[${PYTHON_USEDEP}]
 	~dev-python/httpcore-1.0.4[${PYTHON_USEDEP}]
@@ -44,10 +44,10 @@ DEPENDENCIES="~dev-python/aiocache-0.12.2[${PYTHON_USEDEP}]
 	~dev-python/packaging-24.1[${PYTHON_USEDEP}]
 	~dev-python/pyasn1-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-2.0.40[${PYTHON_USEDEP}]
-	~dev-python/tld-0.13[${PYTHON_USEDEP}]
+	dev-python/tld[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.12.0[${PYTHON_USEDEP}]
 	~dev-python/urwid-2.6.15[${PYTHON_USEDEP}]
-	~dev-python/yaswfp-0.9.3[${PYTHON_USEDEP}]
+	dev-python/yaswfp[${PYTHON_USEDEP}]
 	dev-python/wapiti-swagger[${PYTHON_USEDEP}]
 	test? ( ~dev-python/humanize-4.9.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-8.0.2[${PYTHON_USEDEP}] )

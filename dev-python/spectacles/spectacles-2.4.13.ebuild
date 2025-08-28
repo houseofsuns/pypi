@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
-	<dev-python/aiocache-0.13.0[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/httpcore-1.0.3[${PYTHON_USEDEP}]

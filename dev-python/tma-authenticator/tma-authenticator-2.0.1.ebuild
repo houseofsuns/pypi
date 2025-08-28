@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	>=dev-python/aiocache-0.12.3[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
 	>=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

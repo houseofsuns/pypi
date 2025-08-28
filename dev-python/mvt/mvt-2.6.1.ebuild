@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="~dev-python/click-8.2.1[${PYTHON_USEDEP}]
 	~dev-python/rich-14.0.0[${PYTHON_USEDEP}]
-	~dev-python/tld-0.13.1[${PYTHON_USEDEP}]
+	dev-python/tld[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.2[${PYTHON_USEDEP}]
 	~dev-python/simplejson-3.20.1[${PYTHON_USEDEP}]
 	~dev-python/packaging-25.0[${PYTHON_USEDEP}]

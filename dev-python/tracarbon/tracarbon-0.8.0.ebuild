@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all datadog dev kubernetes prometheus"
 DEPENDENCIES="<dev-python/loguru-0.8[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/aiocache-0.13.0[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
 	<dev-python/aiofiles-25.0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.9.8[${PYTHON_USEDEP}]
 	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]

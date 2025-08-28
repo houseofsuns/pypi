@@ -30,7 +30,7 @@ DEPENDENCIES=">=dev-python/icalendar-4.0.7[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-cov[${PYTHON_USEDEP}]
 	>=dev-python/python-magic-0.4.18[${PYTHON_USEDEP}]
-	>=dev-python/tld-0.12.2[${PYTHON_USEDEP}]
+	dev-python/tld[${PYTHON_USEDEP}]
 	>=dev-python/validators-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

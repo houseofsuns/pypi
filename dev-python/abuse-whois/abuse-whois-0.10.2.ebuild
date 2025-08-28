@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/aiometer[${PYTHON_USEDEP}]
 	dev-python/returns[${PYTHON_USEDEP}]
 	dev-python/stamina[${PYTHON_USEDEP}]
 	<dev-python/starlette-0.46.0[${PYTHON_USEDEP}]
-	~dev-python/tld-0.13[${PYTHON_USEDEP}]
+	dev-python/tld[${PYTHON_USEDEP}]
 	~dev-python/validators-0.34[${PYTHON_USEDEP}]
 	api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	api? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"

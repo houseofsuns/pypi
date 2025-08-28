@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/aiohttp-3.10.10[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2024.2[${PYTHON_USEDEP}]
-	~dev-python/aiocache-0.12.3[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
 	dev-python/pkce[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/aiodns-4.0[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	<dev-python/browser-cookie3-1.0[${PYTHON_USEDEP}]
+	dev-python/browser-cookie3[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]

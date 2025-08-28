@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="browser-cookie3"
 DEPENDENCIES=">=dev-python/requests-2.25[${PYTHON_USEDEP}]
-	browser-cookie3? ( >=dev-python/browser-cookie3-0.19.1[${PYTHON_USEDEP}] )"
+	browser-cookie3? ( dev-python/browser-cookie3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

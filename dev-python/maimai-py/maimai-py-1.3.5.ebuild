@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/httpx-0.29.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-38.0[${PYTHON_USEDEP}]
 	dev-python/maimai-ffi[${PYTHON_USEDEP}]
-	<dev-python/aiocache-0.13.0[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
 	<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpcore-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-10.0.0[${PYTHON_USEDEP}]"

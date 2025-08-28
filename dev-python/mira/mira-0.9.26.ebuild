@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for simplifying object detection [top-max 0.9.27]"
+DESCRIPTION="A package for simplifying object detection [top-max 0.9.28]"
 
 HOMEPAGE="https://github.com/faustomorales/mira"
 LICENSE=""

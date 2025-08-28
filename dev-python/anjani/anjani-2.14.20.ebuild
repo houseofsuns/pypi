@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all uvloop"
 DEPENDENCIES="<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/TgCrypto[${PYTHON_USEDEP}]
-	<dev-python/aiocache-0.13.0[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/aiopath[${PYTHON_USEDEP}]
 	dev-python/aiorun[${PYTHON_USEDEP}]

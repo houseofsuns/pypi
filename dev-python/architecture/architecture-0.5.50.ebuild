@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/aiocache-0.12.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aiocache[${PYTHON_USEDEP}]
 	>=dev-python/jinja2-3.1.5[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	>=dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]

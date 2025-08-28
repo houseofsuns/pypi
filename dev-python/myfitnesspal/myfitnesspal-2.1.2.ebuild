@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/blessed-2.0[${PYTHON_USEDEP}]
 	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	<dev-python/rich-13.0[${PYTHON_USEDEP}]
-	<dev-python/browser-cookie3-1.0[${PYTHON_USEDEP}]
+	dev-python/browser-cookie3[${PYTHON_USEDEP}]
 	<dev-python/cloudscraper-2.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

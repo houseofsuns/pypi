@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/faapi[${PYTHON_USEDEP}]
 	<dev-python/click-help-colors-0.10.0[${PYTHON_USEDEP}]
 	dev-python/pretty-errors[${PYTHON_USEDEP}]
 	<dev-python/wcwidth-0.3.0[${PYTHON_USEDEP}]
-	<dev-python/browser-cookie3-0.20.0[${PYTHON_USEDEP}]"
+	dev-python/browser-cookie3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

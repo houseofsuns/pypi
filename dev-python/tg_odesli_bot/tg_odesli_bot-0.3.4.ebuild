@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="<dev-python/aiocache-0.13.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aiocache[${PYTHON_USEDEP}]
 	dev-python/aiogram[${PYTHON_USEDEP}]
 	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]

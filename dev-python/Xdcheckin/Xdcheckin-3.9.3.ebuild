@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="image"
-DEPENDENCIES=">=dev-python/aiocache-0.12.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aiocache[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/aiohttp-session[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.9.4[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES=">=dev-python/aiocache-0.12.3[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aiocache[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11.18[${PYTHON_USEDEP}]
 	>=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	dev-python/dotenv[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-5.0.0[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
-	<dev-python/aiocache-0.13.0[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
 	dev-python/facebook-business[${PYTHON_USEDEP}]
 	<dev-python/sqlglot-27.0.0[${PYTHON_USEDEP}]
 	dev-python/google-analytics-admin[${PYTHON_USEDEP}]

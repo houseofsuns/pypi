@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all claude-code graph mcp ollama postgres reader rich schema sqlite tools unstructured xml"
-DEPENDENCIES=">=dev-python/aiocache-0.12.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/aiocache[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11.0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-4.7.0[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]

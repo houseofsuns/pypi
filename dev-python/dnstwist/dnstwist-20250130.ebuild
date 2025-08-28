@@ -29,6 +29,6 @@ DEPENDENCIES="full? ( >=dev-python/dnspython-1.16.0[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/idna-2.8[${PYTHON_USEDEP}] )
 	full? ( dev-python/ppdeep[${PYTHON_USEDEP}] )
 	full? ( dev-python/py-tlsh[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/tld-0.9.1[${PYTHON_USEDEP}] )"
+	full? ( dev-python/tld[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

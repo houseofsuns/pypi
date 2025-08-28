@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Odoo Client Library allows to easily interact with Odoo in Python. [top-max 1.2.4]"
+DESCRIPTION="Odoo Client Library allows to easily interact with Odoo in Python. [top-max 2.0.0]"
 
 HOMEPAGE=""
 LICENSE="BSD"

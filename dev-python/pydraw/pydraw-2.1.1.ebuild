@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package designed to make graphics with Python simple and easy! [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8df3b39000>)]"
+DESCRIPTION="A package designed to make graphics with Python simple and easy! [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f298c71b3e0>)]"
 
 HOMEPAGE="https://github.com/pydraw/pydraw"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Homfly polynomials of knots/links with libhomfly"
+DESCRIPTION="passagemath: Homfly polynomials of knots/links with libhomfly [top-max 10.6.11]"
 
 HOMEPAGE=""
 LICENSE=""

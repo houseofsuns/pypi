@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TriMap: Large-scale Dimensionality Reduction Using Triplets [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8de7ae98c0>)]"
+DESCRIPTION="TriMap: Large-scale Dimensionality Reduction Using Triplets [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f2980384740>)]"
 
 HOMEPAGE="http://github.com/eamid/trimap"
 LICENSE="LICENSE.txt"

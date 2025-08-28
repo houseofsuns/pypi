@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Turning PySpark Into a Universal DataFrame API"
+DESCRIPTION="Turning PySpark Into a Universal DataFrame API [top-max 3.39.4]"
 
 HOMEPAGE="https://github.com/eakmanrq/sqlframe"
 LICENSE="MIT"

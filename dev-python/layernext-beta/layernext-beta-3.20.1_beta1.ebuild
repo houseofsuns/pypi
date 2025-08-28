@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="LayerNext Python SDK"
+DESCRIPTION="LayerNext Python SDK [top-max 3.20.4_beta2]"
 
 HOMEPAGE=""
 LICENSE=""

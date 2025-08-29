@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A semantic layer for your data."
+DESCRIPTION="A semantic layer for your data. [top-max 0.21.2]"
 
 HOMEPAGE="https://github.com/Datawheel/tesseract-olap"
 LICENSE="Proprietary"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Sage objects, elements, parents, categories, coercion, metaclasses"
+DESCRIPTION="passagemath: Sage objects, elements, parents, categories, coercion, metaclasses [top-max 10.6.12]"
 
 HOMEPAGE=""
 LICENSE=""

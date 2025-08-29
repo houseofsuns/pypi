@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools to process MCNP models and results"
+DESCRIPTION="Tools to process MCNP models and results [top-max 0.8.6]"
 
 HOMEPAGE="https://github.com/MC-kit/mckit"
 LICENSE="GPL-3"

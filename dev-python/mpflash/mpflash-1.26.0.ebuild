@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Flash and download tool for MicroPython firmwares"
+DESCRIPTION="Flash and download tool for MicroPython firmwares [top-max 1.26.1]"
 
 HOMEPAGE="https://github.com/Josverl/mpflash/blob/main/README.md"
 LICENSE="MIT"

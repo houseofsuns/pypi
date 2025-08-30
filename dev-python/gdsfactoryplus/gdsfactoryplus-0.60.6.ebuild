@@ -16,8 +16,8 @@ DESCRIPTION="GDSFactory+: adds powerful features such as foundry PDKs, simulatio
 
 HOMEPAGE=""
 LICENSE="PROPRIETARY AND CONFIDENTIAL"
-SRC_URI="https://files.pythonhosted.org/packages/cp312/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp312-cp312-macosx_11_0_arm64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp312-cp312-macosx_11_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp312/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

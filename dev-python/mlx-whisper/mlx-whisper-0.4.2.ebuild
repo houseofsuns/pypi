@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenAI Whisper on Apple silicon with MLX and the Hugging Face Hub"
+DESCRIPTION="OpenAI Whisper on Apple silicon with MLX and the Hugging Face Hub [top-max 0.4.3]"
 
 HOMEPAGE="https://github.com/ml-explore/mlx-examples"
 LICENSE="MIT"

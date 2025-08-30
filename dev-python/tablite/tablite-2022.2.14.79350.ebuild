@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A table crunching library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f5ad50005f0>)]"
+DESCRIPTION="A table crunching library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8302003140>)]"
 
 HOMEPAGE="https://github.com/root-11/tablite"
 LICENSE="MIT"

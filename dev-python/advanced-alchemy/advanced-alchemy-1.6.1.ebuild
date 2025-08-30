@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ready-to-go SQLAlchemy concoctions."
+DESCRIPTION="Ready-to-go SQLAlchemy concoctions. [top-max 1.6.2]"
 
 HOMEPAGE="https://docs.advanced-alchemy.litestar.dev/latest/"
 LICENSE="MIT"

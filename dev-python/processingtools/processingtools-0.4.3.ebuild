@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="https://github.com/ysy9997/ProcessingTools.git [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f30fa1cc270>)]"
+DESCRIPTION="https://github.com/ysy9997/ProcessingTools.git [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa722b55620>)]"
 
 HOMEPAGE="https://github.com/ysy9997/ProcessingTools.git"
 LICENSE="MIT"

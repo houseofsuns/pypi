@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Post-processing software for gridded weather forecasts [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f310ab88f90>)]"
+DESCRIPTION="Post-processing software for gridded weather forecasts [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa73391d460>)]"
 
 HOMEPAGE="https://github.com/metno/gridpp"
 LICENSE="LGPL-3"

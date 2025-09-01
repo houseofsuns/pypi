@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Read and write Minecraft NBT and SNBT data. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f89fdec6570>)]"
+DESCRIPTION="Read and write Minecraft NBT and SNBT data. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ff3178429d0>)]"
 
 HOMEPAGE="https://www.amuletmc.com"
 LICENSE=""

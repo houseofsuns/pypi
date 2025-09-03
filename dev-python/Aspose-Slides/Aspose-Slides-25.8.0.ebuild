@@ -16,8 +16,8 @@ DESCRIPTION="Aspose.Slides for Python via .NET is a presentation file formats pr
 
 HOMEPAGE="https://products.aspose.com/slides/python-net/"
 LICENSE="https://company.aspose.com/legal/eula"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}-py3-none-macosx_10_14_x86_64.whl"
-SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}-py3-none-macosx_10_14_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

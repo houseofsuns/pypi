@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GAMS Python API"
+DESCRIPTION="GAMS Python API [top-max 51.0.0_rc1]"
 
 HOMEPAGE="https://www.gams.com/"
 LICENSE="MIT"

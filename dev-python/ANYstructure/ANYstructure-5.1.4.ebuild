@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A plate field optimization tool for offshore structures calculated according to DNV standards"
+DESCRIPTION="A plate field optimization tool for offshore structures calculated according to DNV standards [top-max 5.2.0]"
 
 HOMEPAGE="https://github.com/audunarn/ANYstructure"
 LICENSE="MIT"

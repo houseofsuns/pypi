@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rey's WeChat method set. [top-max 1.0.66]"
+DESCRIPTION="Rey's WeChat method set. [top-max 1.0.67]"
 
 HOMEPAGE="https://github.com/reyxbo/reywechat/"
 LICENSE="Copyright 2025 ReyXBo"

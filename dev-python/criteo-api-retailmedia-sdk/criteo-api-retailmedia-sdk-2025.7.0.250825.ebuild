@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Criteo API SDK"
+DESCRIPTION="Criteo API SDK [top-max 2025.7.0.250902]"
 
 HOMEPAGE="https://github.com/criteo/criteo-api-python-sdk"
 LICENSE=""

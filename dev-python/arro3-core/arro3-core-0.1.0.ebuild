@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core library for representing Arrow data in Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ff3162de570>)]"
+DESCRIPTION="Core library for representing Arrow data in Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fab6aa90eb0>)]"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"

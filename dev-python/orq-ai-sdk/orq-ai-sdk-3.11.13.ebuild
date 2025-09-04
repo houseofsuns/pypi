@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Client SDK for the Orq API."
+DESCRIPTION="Python Client SDK for the Orq API. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f335ad292a0>)]"
 
 HOMEPAGE="https://github.com/orq-ai/orq-python.git"
 LICENSE=""

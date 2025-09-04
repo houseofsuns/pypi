@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alith Python SDK [top-max 0.12.2]"
+DESCRIPTION="Alith Python SDK [top-max 0.12.3]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

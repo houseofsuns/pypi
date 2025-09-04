@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for the ingestion of 4D STEM data. [top-max 3.4.0]"
+DESCRIPTION="A package for the ingestion of 4D STEM data. [top-max 3.4.1]"
 
 HOMEPAGE="https://github.com/OpenChemistry/stempy"
 LICENSE="BSD 3-Clause"

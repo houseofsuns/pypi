@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Bitcoin Cash made easier. [top-max 1.0.2]"
+DESCRIPTION="Bitcoin Cash made easier. [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/pybitcash/bitcash"
 LICENSE="MIT"

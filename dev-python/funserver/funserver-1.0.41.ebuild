@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="funserver [top-max 1.0.51]"
+DESCRIPTION="funserver [top-max 1.0.53]"
 
 HOMEPAGE=""
 LICENSE=""

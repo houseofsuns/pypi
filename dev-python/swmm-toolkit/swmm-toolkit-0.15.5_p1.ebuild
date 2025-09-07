@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PySWMM SWMM Python Toolkit"
+DESCRIPTION="PySWMM SWMM Python Toolkit [top-max 0.16.0]"
 
 HOMEPAGE="https://github.com/pyswmm/swmm-python"
 LICENSE="CC0-1.0"

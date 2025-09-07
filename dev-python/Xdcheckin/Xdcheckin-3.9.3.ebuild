@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Chaoxing Checkin Tool for XDU. [top-max 4.1.10]"
+DESCRIPTION="Chaoxing Checkin Tool for XDU. [top-max 4.2.3]"
 
 HOMEPAGE="https://github.com/Pairman/Xdcheckin"
 LICENSE="GNU General Public License v3 GPLv3"

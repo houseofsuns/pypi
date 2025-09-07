@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package your python code into one zip file, even a virtual environment."
+DESCRIPTION="Package your python code into one zip file, even a virtual environment. [top-max 2025.9.4]"
 
 HOMEPAGE=""
 LICENSE=""

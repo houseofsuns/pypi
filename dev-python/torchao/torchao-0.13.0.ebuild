@@ -16,8 +16,8 @@ DESCRIPTION="Package for applying ao techniques to GPU models [wheel]"
 
 HOMEPAGE="https://github.com/pytorch/ao"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-1-py3-none-any.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-1-py3-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"

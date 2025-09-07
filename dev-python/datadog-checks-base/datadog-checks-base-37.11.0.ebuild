@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Datadog Check Toolkit [top-max 37.18.1]"
+DESCRIPTION="The Datadog Check Toolkit [top-max 37.19.0]"
 
 HOMEPAGE=""
 LICENSE=""

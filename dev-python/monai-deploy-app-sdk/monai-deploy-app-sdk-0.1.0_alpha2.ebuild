@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework and associated tools to design, verify and analyze performance of MONAI apps [top-max 3.0.0]"
+DESCRIPTION="A framework and associated tools to design, verify and analyze performance of MONAI apps [top-max 3.1.0]"
 
 HOMEPAGE="https://monai.io/"
 LICENSE="Apache-2.0"

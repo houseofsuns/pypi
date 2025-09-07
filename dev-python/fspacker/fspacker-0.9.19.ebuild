@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast & Simple Packer toolset for python."
+DESCRIPTION="Fast & Simple Packer toolset for python. [top-max 0.9.22]"
 
 HOMEPAGE=""
 LICENSE="MIT"

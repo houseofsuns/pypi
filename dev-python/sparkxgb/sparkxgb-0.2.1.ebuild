@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="sparkxgb module (fix)"
+DESCRIPTION="sparkxgb module (fix) [top-max 0.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

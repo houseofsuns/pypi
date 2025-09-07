@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This library provides a simple Python interface for implementing erasure codes.  To obtain the best possible performance, the underlying erasure code algorithms are written in C."
+DESCRIPTION="This library provides a simple Python interface for implementing erasure codes.  To obtain the best possible performance, the underlying erasure code algorithms are written in C. [top-max 1.7.0]"
 
 HOMEPAGE="https://opendev.org/openstack/pyeclib"
 LICENSE="BSD"

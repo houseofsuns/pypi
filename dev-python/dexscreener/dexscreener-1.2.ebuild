@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for the 'dexscreener.com' API"
+DESCRIPTION="Python wrapper for the 'dexscreener.com' API [top-max 1.3]"
 
 HOMEPAGE="https://github.com/nixonjoshua98/dexscreener"
 LICENSE="MIT"

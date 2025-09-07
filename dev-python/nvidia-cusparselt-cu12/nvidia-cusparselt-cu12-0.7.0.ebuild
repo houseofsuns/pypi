@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NVIDIA cuSPARSELt [top-max 0.8.0]"
+DESCRIPTION="NVIDIA cuSPARSELt [top-max 0.8.1]"
 
 HOMEPAGE="https://developer.nvidia.com/cusparselt"
 LICENSE="NVIDIA Proprietary Software"

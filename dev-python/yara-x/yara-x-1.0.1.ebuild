@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for YARA-X [top-max 1.5.0]"
+DESCRIPTION="Python bindings for YARA-X [top-max 1.6.0]"
 
 HOMEPAGE="https://virustotal.github.io/yara-x"
 LICENSE="BSD"

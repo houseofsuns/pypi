@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ricequant Data SDK [top-max 3.2.12]"
+DESCRIPTION="Ricequant Data SDK [top-max 3.2.13]"
 
 HOMEPAGE="https://www.ricequant.com/doc/rqdata-institutional#research-version"
 LICENSE=""

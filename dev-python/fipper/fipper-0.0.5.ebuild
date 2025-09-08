@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fipper - Telegram MTProto API Client Library for Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f43da78de70>)]"
+DESCRIPTION="Fipper - Telegram MTProto API Client Library for Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f49128aeff0>)]"
 
 HOMEPAGE="https://github.com/AyiinXd/fipper"
 LICENSE="GNU Lesser General Public License v3.0 LGPL-3.0"

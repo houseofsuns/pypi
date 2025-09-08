@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DepthAI Python Library"
+DESCRIPTION="DepthAI Python Library [top-max 3.0.0]"
 
 HOMEPAGE="https://github.com/luxonis/depthai-core/bindings/python"
 LICENSE="MIT"

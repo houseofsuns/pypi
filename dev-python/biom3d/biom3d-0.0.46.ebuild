@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Biom3d. Framework for easy-to-use biomedical image segmentation."
+DESCRIPTION="Biom3d. Framework for easy-to-use biomedical image segmentation. [top-max 0.1.1]"
 
 HOMEPAGE="https://github.com/GuillaumeMougeot/biom3d"
 LICENSE=""

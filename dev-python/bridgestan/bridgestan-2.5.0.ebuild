@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Access the methods of a Stan model in Python. [top-max 2.6.2]"
+DESCRIPTION="Access the methods of a Stan model in Python. [top-max 2.7.0]"
 
 HOMEPAGE="https://github.com/roualdes/bridgestan"
 LICENSE="BSD"

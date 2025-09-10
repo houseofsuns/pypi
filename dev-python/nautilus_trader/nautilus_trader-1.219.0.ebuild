@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A high-performance algorithmic trading platform and event-driven backtester"
+DESCRIPTION="A high-performance algorithmic trading platform and event-driven backtester [top-max 1.220.0]"
 
 HOMEPAGE="https://nautilustrader.io"
 LICENSE="LGPL-3+"

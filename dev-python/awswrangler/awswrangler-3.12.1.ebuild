@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pandas on AWS."
+DESCRIPTION="Pandas on AWS. [top-max 3.13.0]"
 
 HOMEPAGE="https://aws-sdk-pandas.readthedocs.io/"
 LICENSE="Apache-2.0"

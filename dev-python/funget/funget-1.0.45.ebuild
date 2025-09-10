@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="funget [top-max 1.0.46]"
+DESCRIPTION="funget [top-max 1.0.47]"
 
 HOMEPAGE=""
 LICENSE=""

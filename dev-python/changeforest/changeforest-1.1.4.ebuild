@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Random Forests for Change Point Detection"
+DESCRIPTION="Random Forests for Change Point Detection [top-max 1.2.0]"
 
 HOMEPAGE="https://github.com/mlondschien/changeforest/"
 LICENSE=""

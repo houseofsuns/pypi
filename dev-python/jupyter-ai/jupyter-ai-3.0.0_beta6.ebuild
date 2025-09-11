@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A generative AI extension for JupyterLab"
+DESCRIPTION="A generative AI extension for JupyterLab [top-max 3.0.0_beta7]"
 
 HOMEPAGE="https://github.com/jupyterlab/jupyter-ai"
 LICENSE="BSD 3-Clause License"

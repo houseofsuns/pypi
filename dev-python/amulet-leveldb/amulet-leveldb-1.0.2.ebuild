@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Cython wrapper for Mojang's custom LevelDB. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1d30366c70>)]"
+DESCRIPTION="A Cython wrapper for Mojang's custom LevelDB. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb7e7daf450>)]"
 
 HOMEPAGE="https://www.amuletmc.com"
 LICENSE=""

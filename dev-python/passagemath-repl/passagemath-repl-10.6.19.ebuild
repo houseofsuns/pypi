@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: IPython kernel, Sage preparser, doctester"
+DESCRIPTION="passagemath: IPython kernel, Sage preparser, doctester [top-max 10.6.20]"
 
 HOMEPAGE=""
 LICENSE=""

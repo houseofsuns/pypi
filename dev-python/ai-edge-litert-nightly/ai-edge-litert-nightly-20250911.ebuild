@@ -16,8 +16,8 @@ DESCRIPTION="LiteRT is for mobile and embedded devices. [badver 2.0.3a1.dev20250
 
 HOMEPAGE="https://www.tensorflow.org/lite/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp310-cp310-manylinux_2_27_aarch64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp310-cp310-manylinux_2_27_aarch64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_12_0_arm64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_12_0_arm64.whl"
 RESTRICT="test"
 
 SLOT="0"

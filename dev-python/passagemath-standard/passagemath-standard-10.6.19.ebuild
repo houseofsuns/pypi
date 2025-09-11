@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Standard Python Library"
+DESCRIPTION="passagemath: Standard Python Library [top-max 10.6.20]"
 
 HOMEPAGE=""
 LICENSE=""

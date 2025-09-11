@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: SageNB worksheet converter"
+DESCRIPTION="passagemath: SageNB worksheet converter [top-max 10.6.20]"
 
 HOMEPAGE="https://www.sagemath.org"
 LICENSE="GNU General Public License GPL v3 or later"

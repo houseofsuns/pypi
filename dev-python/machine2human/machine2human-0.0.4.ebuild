@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Make machine more friendly to you! Convert seconds to a human string and back!"
+DESCRIPTION="Make machine more friendly to you! Convert seconds to a human string and back! [top-max 0.1.1]"
 
 HOMEPAGE="https://github.com/andrew000/machine2human"
 LICENSE="MIT"

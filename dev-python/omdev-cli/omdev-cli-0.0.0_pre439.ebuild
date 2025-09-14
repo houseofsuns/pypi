@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="omdev"
+DESCRIPTION="omdev [top-max 0.0.0_pre440]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Create LLM agents with long-term memory and custom tools [top-max 0.11.7_pre20250911104039]"
+DESCRIPTION="Create LLM agents with long-term memory and custom tools [top-max 0.11.7_pre20250913103940]"
 
 HOMEPAGE=""
 LICENSE="Apache License"

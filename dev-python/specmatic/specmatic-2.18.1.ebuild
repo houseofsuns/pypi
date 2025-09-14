@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python module for using the Specmatic Library."
+DESCRIPTION="A Python module for using the Specmatic Library. [top-max 2.21.2]"
 
 HOMEPAGE="https://github.com/specmatic/specmatic-python-extensions"
 LICENSE=""

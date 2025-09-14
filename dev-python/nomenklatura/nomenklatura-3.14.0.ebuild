@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Make record linkages in followthemoney data. [top-max 4.1.4]"
+DESCRIPTION="Make record linkages in followthemoney data. [top-max 4.1.5]"
 
 HOMEPAGE="https://github.com/opensanctions/nomenklatura"
 LICENSE="MIT"

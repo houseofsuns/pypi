@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simplex remeshing Geode-solutions OpenGeode module [top-max 9.8.0_rc1]"
+DESCRIPTION="Simplex remeshing Geode-solutions OpenGeode module [top-max 9.8.0]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

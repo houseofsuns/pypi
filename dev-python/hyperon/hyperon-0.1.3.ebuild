@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hyperon API in Python [top-max 0.2.7]"
+DESCRIPTION="Hyperon API in Python [top-max 0.2.8]"
 
 HOMEPAGE=""
 LICENSE=""

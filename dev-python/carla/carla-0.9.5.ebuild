@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for communicating with the CARLA server. [top-max 0.9.15]"
+DESCRIPTION="Python API for communicating with the CARLA server. [top-max 0.9.16]"
 
 HOMEPAGE="https://github.com/carla-simulator/carla"
 LICENSE="MIT"

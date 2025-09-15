@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shaken Fist: an opinionated minimal cloud"
+DESCRIPTION="Shaken Fist: an opinionated minimal cloud [top-max 0.8]"
 
 HOMEPAGE="https://madebymikal.com/shakenfist"
 LICENSE="License :: OSI Approved :: Apache Software License"

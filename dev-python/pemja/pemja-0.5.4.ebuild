@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PemJa"
+DESCRIPTION="PemJa [new-max 2025-09-15 03:58:34.388208+00:00]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

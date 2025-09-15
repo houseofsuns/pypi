@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Algebraic combinatorics, combinatorial representation theory [wheel]"
+DESCRIPTION="passagemath: Algebraic combinatorics, combinatorial representation theory [top-max 10.6.23]"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win_amd64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -36,7 +36,6 @@ DEPENDENCIES="~dev-python/gmpy2-2.1_beta999[${PYTHON_USEDEP}]
 	graphs? ( dev-python/passagemath-graphs[${PYTHON_USEDEP}] )
 	modules? ( dev-python/passagemath-modules[${PYTHON_USEDEP}] )
 	findstat? ( >=dev-python/requests-2.13.0[${PYTHON_USEDEP}] )
-	standard? ( dev-python/passagemath-combinat[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	standard? ( dev-python/passagemath-combinat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

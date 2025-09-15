@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=standalone
+DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Delfino core plugin"
+DESCRIPTION="Delfino core plugin [wheel]"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"
@@ -47,6 +47,7 @@ DEPENDENCIES="dev-python/delfino[${PYTHON_USEDEP}]
 	verify? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	verify? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	verify? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	verify? ( dev-python/ruff[${PYTHON_USEDEP}] )"
+	verify? ( dev-python/ruff[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

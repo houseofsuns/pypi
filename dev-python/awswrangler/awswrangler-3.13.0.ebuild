@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pandas on AWS. [wheel]"
+DESCRIPTION="Pandas on AWS."
 
 HOMEPAGE="https://aws-sdk-pandas.readthedocs.io/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -52,7 +52,6 @@ DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	redshift? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
 	sparql? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	sparql? ( dev-python/SPARQLWrapper[${PYTHON_USEDEP}] )
-	sqlserver? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	sqlserver? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

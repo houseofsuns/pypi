@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Spark Time Series Utility Package [top-max 0.1.29]"
+DESCRIPTION="Spark Time Series Utility Package [top-max 0.1.30]"
 
 HOMEPAGE="https://github.com/databrickslabs/tempo"
 LICENSE=""

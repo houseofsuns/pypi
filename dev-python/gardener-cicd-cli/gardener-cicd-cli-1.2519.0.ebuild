@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Gardener CI/CD Command Line Interface [top-max 1.2699.0]"
+DESCRIPTION="Gardener CI/CD Command Line Interface [top-max 1.2700.0]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An in-guest agent for instances running on Shaken Fist [top-max 0.9.1]"
+DESCRIPTION="An in-guest agent for instances running on Shaken Fist [top-max 0.9.2]"
 
 HOMEPAGE="https://madebymikal.com/shakenfist"
 LICENSE="Apache-2.0"

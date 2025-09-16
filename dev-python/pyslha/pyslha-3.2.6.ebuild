@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parsing, manipulating, and visualising SUSY Les Houches Accord data"
+DESCRIPTION="Parsing, manipulating, and visualising SUSY Les Houches Accord data [top-max 3.3.0]"
 
 HOMEPAGE="http://www.insectnation.org/projects/pyslha"
 LICENSE="GPL-3"

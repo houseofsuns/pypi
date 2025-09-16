@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A High-Performance Graph Library for Python [wheel]"
+DESCRIPTION="A High-Performance Graph Library for Python"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp39/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -28,7 +28,6 @@ DEPENDENCIES="<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	mpl? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	graphviz? ( >=dev-python/pillow-5.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pillow-5.4[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	all? ( >=dev-python/pillow-5.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

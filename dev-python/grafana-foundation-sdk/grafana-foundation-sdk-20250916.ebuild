@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="1758024029!10.1.0"
+REALVERSION="1758040377!10.1.0"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A set of tools, types and libraries for building and manipulating Grafana objects. [badver 1758024029!10.1.0]"
+DESCRIPTION="A set of tools, types and libraries for building and manipulating Grafana objects. [badver 1758040377!10.1.0]"
 
 HOMEPAGE="https://github.com/grafana/grafana-foundation-sdk"
 LICENSE=""

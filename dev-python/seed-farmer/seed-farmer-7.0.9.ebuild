@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The AWS Professional Services CLI tool SeedFarmer for GitOps support"
+DESCRIPTION="The AWS Professional Services CLI tool SeedFarmer for GitOps support [top-max 7.0.10]"
 
 HOMEPAGE="https://github.com/awslabs/seed-farmer"
 LICENSE="Apache-2.0"

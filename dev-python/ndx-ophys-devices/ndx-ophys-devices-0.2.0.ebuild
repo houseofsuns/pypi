@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This is an NWB extension for storing metadata of devices used in optical experimental setup (microscopy, fiber photometry, optogenetic stimulation etc.)"
+DESCRIPTION="This is an NWB extension for storing metadata of devices used in optical experimental setup (microscopy, fiber photometry, optogenetic stimulation etc.) [top-max 0.3.0]"
 
 HOMEPAGE="https://github.com/catalystneuro/ndx-ophys-devices"
 LICENSE="BSD"

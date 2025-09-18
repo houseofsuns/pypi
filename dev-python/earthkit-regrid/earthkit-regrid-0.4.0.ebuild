@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ECMWF python regridding toolkit"
+DESCRIPTION="ECMWF python regridding toolkit [top-max 0.4.2]"
 
 HOMEPAGE="https://github.com/ecmwf/earthkit-regrid/"
 LICENSE="Apache License Version 2.0"

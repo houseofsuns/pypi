@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/neo4j[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/dulwich-0.23.0[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]
+	~dev-python/whenever-0.7.3[${PYTHON_USEDEP}]
 	dev-python/netutils[${PYTHON_USEDEP}]
 	dev-python/copier[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

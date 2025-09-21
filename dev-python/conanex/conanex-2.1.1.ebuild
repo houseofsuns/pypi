@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Conan Extended C/C++ package manager [top-max 2.2.5]"
+DESCRIPTION="Conan Extended C/C++ package manager [top-max 2.3.0]"
 
 HOMEPAGE="https://github.com/redradist/conanex"
 LICENSE="MIT"

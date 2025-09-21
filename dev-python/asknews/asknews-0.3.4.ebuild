@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for AskNews [top-max 0.11.29]"
+DESCRIPTION="Python SDK for AskNews [top-max 0.11.32]"
 
 HOMEPAGE="https://gitlab.com/asknews/python-sdk"
 LICENSE="MIT"

@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/tzdata[${PYTHON_USEDEP}]
 	dev-python/utitools[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]
+	>=dev-python/whenever-0.8.3[${PYTHON_USEDEP}]
 	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/wurlitzer-4.0.0[${PYTHON_USEDEP}]
 	dev-python/xdg-base-dirs[${PYTHON_USEDEP}]"

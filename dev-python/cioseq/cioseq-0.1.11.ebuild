@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Manage sequences of frame numbers. [top-max 0.5.1]"
+DESCRIPTION="Manage sequences of frame numbers. [top-max 0.5.2]"
 
 HOMEPAGE="https://github.com/ConductorTechnologies/cioseq"
 LICENSE=""

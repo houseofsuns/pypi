@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library and CLI tool to check density and densify (GeoJSON) geometries using the geodesic (ellipsoidal great-circle) calculation for accurate CRS transformations [top-max 2.0.2]"
+DESCRIPTION="Python library and CLI tool to check density and densify (GeoJSON) geometries using the geodesic (ellipsoidal great-circle) calculation for accurate CRS transformations [top-max 2.1.0_rc1]"
 
 HOMEPAGE=""
 LICENSE="MIT"

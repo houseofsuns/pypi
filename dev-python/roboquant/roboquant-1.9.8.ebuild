@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast algorithmic trading platform with support for AI based strategies"
+DESCRIPTION="A fast algorithmic trading platform with support for AI based strategies [top-max 1.9.10]"
 
 HOMEPAGE="https://roboquant.org"
 LICENSE=""

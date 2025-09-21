@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/whenever[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/whenever-0.8.8[${PYTHON_USEDEP}]
 	dev-python/astral[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="kmertools is a k-mer based feature extraction tool designed to support metagenomics and other bioinformatics analytics. [top-max 0.1.5]"
+DESCRIPTION="kmertools is a k-mer based feature extraction tool designed to support metagenomics and other bioinformatics analytics. [top-max 0.2.1]"
 
 HOMEPAGE=""
 LICENSE=""

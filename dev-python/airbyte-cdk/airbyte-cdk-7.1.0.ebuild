@@ -85,7 +85,7 @@ DEPENDENCIES="<dev-python/jinja2-3.2.0[${PYTHON_USEDEP}]
 	file-based? ( dev-python/unstructured[${PYTHON_USEDEP}] )
 	manifest-server? ( >=dev-python/uvicorn-0.35.0[${PYTHON_USEDEP}] )
 	~dev-python/wcmatch-10.0[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]
+	<dev-python/whenever-0.9.0[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-0.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

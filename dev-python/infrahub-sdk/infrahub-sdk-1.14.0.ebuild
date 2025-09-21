@@ -51,7 +51,7 @@ DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	tests? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	<dev-python/dulwich-0.22.0[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]
+	<dev-python/whenever-0.8.0[${PYTHON_USEDEP}]
 	dev-python/netutils[${PYTHON_USEDEP}]
 	ctl? ( ~dev-python/click-8.1[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/click-8.1[${PYTHON_USEDEP}] )

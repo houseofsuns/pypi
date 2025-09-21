@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/feedgen[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.5[${PYTHON_USEDEP}]
 	~dev-python/tomli-w-1.2.0[${PYTHON_USEDEP}]
 	~dev-python/typer-0.17.4[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]
+	~dev-python/whenever-0.8.8[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

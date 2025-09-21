@@ -37,7 +37,7 @@ DEPENDENCIES="<dev-python/attrs-26.0[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/typeguard-4.4.2[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]
+	<dev-python/whenever-0.9[${PYTHON_USEDEP}]
 	all? ( <dev-python/lxml-7.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-pptx[${PYTHON_USEDEP}] )"

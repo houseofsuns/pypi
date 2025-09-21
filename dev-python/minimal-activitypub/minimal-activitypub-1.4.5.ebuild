@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="~dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	~dev-python/h11-0.16.0[${PYTHON_USEDEP}]
 	~dev-python/h2-4.3.0[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]"
+	~dev-python/whenever-0.8.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

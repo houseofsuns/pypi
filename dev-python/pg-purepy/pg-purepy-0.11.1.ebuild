@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/scramp[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-4.3.0[${PYTHON_USEDEP}]
 	>=dev-python/structlog-24.1.0[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]"
+	>=dev-python/whenever-0.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES=">=dev-python/typer-0.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.2[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/hishel-0.0[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]
+	>=dev-python/whenever-0.6[${PYTHON_USEDEP}]
 	>=dev-python/gitpython-3.1[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )

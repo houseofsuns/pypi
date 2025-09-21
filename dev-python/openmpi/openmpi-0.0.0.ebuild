@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open MPI - https://www.open-mpi.org/ [new-max 2025-06-25 07:30:26.399535+00:00]"
+DESCRIPTION="Open MPI - https://www.open-mpi.org/ [new-max 2025-09-21 09:03:44.040947+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

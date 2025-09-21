@@ -29,6 +29,6 @@ DEPENDENCIES=">=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.9.2[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.13.2[${PYTHON_USEDEP}]
 	<dev-python/uv-0.8.0[${PYTHON_USEDEP}]
-	dev-python/whenever[${PYTHON_USEDEP}]"
+	>=dev-python/whenever-0.6.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

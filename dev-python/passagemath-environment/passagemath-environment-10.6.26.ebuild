@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: System and software environment [wheel]"
+DESCRIPTION="passagemath: System and software environment"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -34,7 +34,6 @@ DEPENDENCIES=">=dev-python/packaging-24.2[${PYTHON_USEDEP}]
 	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	rst2ipynb? ( dev-python/rst2ipynb[${PYTHON_USEDEP}] )
 	tox? ( >=dev-python/tox-4.11[${PYTHON_USEDEP}] )
-	sws2rst? ( dev-python/passagemath-sws2rst[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	sws2rst? ( dev-python/passagemath-sws2rst[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

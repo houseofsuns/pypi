@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Reverse search for vertex enumeration and convex hulls with lrslib [wheel]"
+DESCRIPTION="passagemath: Reverse search for vertex enumeration and convex hulls with lrslib"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_13_0_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_13_0_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -26,7 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="test? ( dev-python/passagemath-flint[${PYTHON_USEDEP}] )
 	test? ( dev-python/passagemath-polyhedra[${PYTHON_USEDEP}] )
-	test? ( dev-python/passagemath-repl[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	test? ( dev-python/passagemath-repl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

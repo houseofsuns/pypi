@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Standard Python Library [wheel]"
+DESCRIPTION="passagemath: Standard Python Library"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -77,7 +77,6 @@ DEPENDENCIES="dev-python/passagemath-standard-no-symbolics[${PYTHON_USEDEP}]
 	sirocco? ( dev-python/passagemath-sirocco[${PYTHON_USEDEP}] )
 	sympow? ( dev-python/passagemath-sympow[${PYTHON_USEDEP}] )
 	tdlib? ( dev-python/passagemath-tdlib[${PYTHON_USEDEP}] )
-	topcom? ( dev-python/passagemath-topcom[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	topcom? ( dev-python/passagemath-topcom[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

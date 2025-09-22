@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Schemes, varieties, elliptic curves, algebraic Riemann surfaces, modular forms, arithmetic dynamics [wheel]"
+DESCRIPTION="passagemath: Schemes, varieties, elliptic curves, algebraic Riemann surfaces, modular forms, arithmetic dynamics"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_14_0_arm64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_14_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -72,7 +72,6 @@ DEPENDENCIES="~dev-python/gmpy2-2.1_beta999[${PYTHON_USEDEP}]
 	toric? ( dev-python/passagemath-graphs[${PYTHON_USEDEP}] )
 	padics? ( dev-python/passagemath-schemes[${PYTHON_USEDEP}] )
 	database-kohel? ( dev-python/passagemath-database-kohel[${PYTHON_USEDEP}] )
-	standard? ( dev-python/passagemath-schemes[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	standard? ( dev-python/passagemath-schemes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Symbolic calculus [wheel]"
+DESCRIPTION="passagemath: Symbolic calculus"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_14_0_arm64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_14_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -42,7 +42,6 @@ DEPENDENCIES="~dev-python/gmpy2-2.1_beta999[${PYTHON_USEDEP}]
 	fricas? ( dev-python/passagemath-fricas[${PYTHON_USEDEP}] )
 	giac? ( dev-python/passagemath-giac[${PYTHON_USEDEP}] )
 	primecount? ( dev-python/passagemath-primesieve-primecount[${PYTHON_USEDEP}] )
-	plot? ( dev-python/passagemath-plot[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	plot? ( dev-python/passagemath-plot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

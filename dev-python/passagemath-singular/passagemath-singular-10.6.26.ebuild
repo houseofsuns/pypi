@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Computer algebra, algebraic geometry, singularity theory with Singular [wheel]"
+DESCRIPTION="passagemath: Computer algebra, algebraic geometry, singularity theory with Singular"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_14_0_arm64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_14_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -38,7 +38,6 @@ DEPENDENCIES="dev-python/passagemath-pari[${PYTHON_USEDEP}]
 	jupyterlab? ( dev-python/passagemath-singular[${PYTHON_USEDEP}] )
 	jupyterlab? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/passagemath-singular[${PYTHON_USEDEP}] )
-	notebook? ( >=dev-python/notebook-6.1.1[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	notebook? ( >=dev-python/notebook-6.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Module for RELAP post-processing [top-max 2.0.15]"
+DESCRIPTION="Module for RELAP post-processing [top-max 2.0.16]"
 
 HOMEPAGE=""
 LICENSE=""

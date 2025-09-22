@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Computational Group Theory with GAP [wheel]"
+DESCRIPTION="passagemath: Computational Group Theory with GAP"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_13_0_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-macosx_13_0_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -90,7 +90,6 @@ DEPENDENCIES=">=dev-python/cysignals-1.11.2[${PYTHON_USEDEP}]
 	standard? ( dev-python/passagemath-gap[${PYTHON_USEDEP}] )
 	standard? ( dev-python/passagemath-pari[${PYTHON_USEDEP}] )
 	standard? ( dev-python/passagemath-singular[${PYTHON_USEDEP}] )
-	full? ( dev-python/passagemath-gap[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	full? ( dev-python/passagemath-gap[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

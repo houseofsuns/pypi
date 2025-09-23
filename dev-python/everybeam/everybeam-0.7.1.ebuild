@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EveryBeam [top-max 0.7.2]"
+DESCRIPTION="EveryBeam [top-max 0.7.4]"
 
 HOMEPAGE="https://git.astron.nl/RD/EveryBeam/"
 LICENSE="GPL-3+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="clingwrap: wrap up CI artefacts and post them to Google Storage [new-max 2025-09-15 09:15:25.519384+00:00]"
+DESCRIPTION="clingwrap: wrap up CI artefacts and post them to Google Storage [new-max 2025-09-24 08:32:51.071782+00:00]"
 
 HOMEPAGE="https://shakenfist.com/clingwrap"
 LICENSE="Apache-2.0"

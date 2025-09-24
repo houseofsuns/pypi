@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the OntoEnv Rust library. Manages ontology-based environments for building knowledge graphs."
+DESCRIPTION="Python bindings for the OntoEnv Rust library. Manages ontology-based environments for building knowledge graphs. [top-max 0.4.0_alpha5]"
 
 HOMEPAGE="https://github.com/gtfierro/ontoenv-rs"
 LICENSE=""

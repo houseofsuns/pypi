@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for a narrow subset of espeak [top-max 0.1.8]"
+DESCRIPTION="Python bindings for a narrow subset of espeak [top-max 0.1.9]"
 
 HOMEPAGE=""
 LICENSE=""

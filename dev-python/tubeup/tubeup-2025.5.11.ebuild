@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="VOD service to Archive.org uploader"
+DESCRIPTION="VOD service to Archive.org uploader [top-max 2025.9.23]"
 
 HOMEPAGE=""
 LICENSE="GNU GENERAL PUBLIC LICENSE"

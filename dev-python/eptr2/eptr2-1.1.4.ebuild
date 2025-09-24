@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="EPIAS Transparency Platform v2.0 Python client by Robokami Data [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc6ae267450>)]"
+DESCRIPTION="EPIAS Transparency Platform v2.0 Python client by Robokami Data [prod-max (True, <g_sorcery.g_collections.Version object at 0x7efc22279af0>)]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

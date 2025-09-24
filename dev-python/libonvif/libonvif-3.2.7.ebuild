@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python module for communicating with onvif cameras"
+DESCRIPTION="A python module for communicating with onvif cameras [top-max 3.2.8]"
 
 HOMEPAGE="https://github.com/sr99622/libonvif"
 LICENSE=""

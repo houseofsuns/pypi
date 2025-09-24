@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Beer-garden plugin and utility library"
+DESCRIPTION="Beer-garden plugin and utility library [top-max 3.30.0]"
 
 HOMEPAGE="https://beer-garden.io/"
 LICENSE="MIT"

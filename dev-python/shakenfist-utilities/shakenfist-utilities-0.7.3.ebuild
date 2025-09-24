@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Shaken Fist utility libraries [top-max 0.8.1]"
+DESCRIPTION="Shaken Fist utility libraries [top-max 0.8.2]"
 
 HOMEPAGE="https://github.com/shakenfist/library-utilities"
 LICENSE="Apache-2.0"

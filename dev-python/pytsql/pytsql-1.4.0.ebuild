@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="\`Pytsql\` allows to run mssql sripts, typically run via GUIs, via CLI."
+DESCRIPTION="\`Pytsql\` allows to run mssql sripts, typically run via GUIs, via CLI. [top-max 1.5.1]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -16,8 +16,8 @@ DESCRIPTION="Module qat-comm [bbc6d44] - Compiled by Eviden [wheel]"
 
 HOMEPAGE="https://atos.net/en/lp/myqlm"
 LICENSE="Eviden myQLM EULA"
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_34_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_34_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Python Risk Identification Tool for LLMs (PyRIT) is a library used to assess the robustness of LLMs [prod-max (True, <g_sorcery.g_collections.Version object at 0x7efc09360510>)]"
+DESCRIPTION="The Python Risk Identification Tool for LLMs (PyRIT) is a library used to assess the robustness of LLMs [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ef8802818c0>)]"
 
 HOMEPAGE=""
 LICENSE=""

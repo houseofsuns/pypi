@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="CERC Hub consist of a set of classes (Central data model), importers and exporters to help researchers to create better and more sustainable cities [top-max 0.3.1.0]"
+DESCRIPTION="CERC Hub consist of a set of classes (Central data model), importers and exporters to help researchers to create better and more sustainable cities [top-max 0.3.1.1]"
 
 HOMEPAGE=""
 LICENSE="LGPL-2.1+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aaware Python development libraries [top-max 2.2.4]"
+DESCRIPTION="Aaware Python development libraries [top-max 2.3.0]"
 
 HOMEPAGE="https://aaware.com"
 LICENSE="GPL-3"

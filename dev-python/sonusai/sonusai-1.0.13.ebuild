@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Framework for building deep neural network models for sound, speech, and voice AI [top-max 1.0.18]"
+DESCRIPTION="Framework for building deep neural network models for sound, speech, and voice AI [top-max 1.1.0]"
 
 HOMEPAGE="https://aaware.com"
 LICENSE="GPL-3"

@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="2.1.11rc1.dev202509250955"
+REALVERSION="2.1.11rc1.dev202509251308"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Source implementation for Pinterest. [badver 2.1.11rc1.dev202509250955]"
+DESCRIPTION="Source implementation for Pinterest. [badver 2.1.11rc1.dev202509251308]"
 
 HOMEPAGE="https://airbyte.com"
 LICENSE="ELv2"

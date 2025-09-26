@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="produce NPU instructions [top-max 1.6.3_rc2]"
+DESCRIPTION="produce NPU instructions [top-max 1.6.3_rc3]"
 
 HOMEPAGE="http://www.gxdnn.org/"
 LICENSE="MIT Licence"

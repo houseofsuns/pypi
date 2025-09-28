@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 3.2.0]"
+DESCRIPTION=" [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/Final2x/Final2x-core"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OTPme: A flexible One-Time-Password system"
+DESCRIPTION="OTPme: A flexible One-Time-Password system [top-max 0.3.0_alpha132]"
 
 HOMEPAGE="https://www.otpme.org/redmine"
 LICENSE="GNU GENERAL PUBLIC LICENSE"

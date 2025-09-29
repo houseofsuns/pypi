@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A comprehensive toolkit for digital watermarking research and development."
+DESCRIPTION="A comprehensive toolkit for digital watermarking research and development. [top-max 0.1.0]"
 
 HOMEPAGE="https://github.com/chenoly/watermarklab"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A pulse-level composer for neutral-atom quantum devices. [top-max 1.5.6]"
+DESCRIPTION="A pulse-level composer for neutral-atom quantum devices. [top-max 1.6.0]"
 
 HOMEPAGE="https://github.com/pasqal-io/Pulser"
 LICENSE="Apache-2.0"

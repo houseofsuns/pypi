@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dataframe-based interactive knowledge graph construction"
+DESCRIPTION="Dataframe-based interactive knowledge graph construction [top-max 0.17.8]"
 
 HOMEPAGE="https://github.com/DataTreehouse/maplib"
 LICENSE=""

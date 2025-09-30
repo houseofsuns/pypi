@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client and utilities for tierkreis."
+DESCRIPTION="Python client and utilities for tierkreis. [top-max 2.0.3]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This Python library facilitates communication with Hoymiles HMS microinverters, specifically targeting the HMS-XXXXW-T2 series. [top-max 0.5.1]"
+DESCRIPTION="This Python library facilitates communication with Hoymiles HMS microinverters, specifically targeting the HMS-XXXXW-T2 series. [top-max 0.5.2]"
 
 HOMEPAGE="https://github.com/suaveolent/hoymiles-wifi"
 LICENSE=""

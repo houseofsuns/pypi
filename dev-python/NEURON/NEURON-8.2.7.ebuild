@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="neuron"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -16,8 +16,8 @@ DESCRIPTION="Empirically-based simulator for modeling neurons and networks of ne
 
 HOMEPAGE="https://neuron.yale.edu/neuron/"
 LICENSE="Copyright c Michael Hines BSD compatible"
-SRC_URI="https://files.pythonhosted.org/packages/3e/de/e56e0beca201b0c5fab32f1f4a999d3aba0550fc0e066034a4cc49ca9504/neuron-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="neuron-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

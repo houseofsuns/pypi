@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="k-bit optimizers and matrix multiplication routines. [top-max 0.47.0]"
+DESCRIPTION="k-bit optimizers and matrix multiplication routines. [top-max 0.48.0]"
 
 HOMEPAGE="https://github.com/TimDettmers/bitsandbytes"
 LICENSE="MIT"

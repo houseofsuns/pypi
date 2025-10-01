@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ket quantum programming language interpreter and library"
+DESCRIPTION="Ket quantum programming language interpreter and library [top-max 0.9.1.1]"
 
 HOMEPAGE="https://quantumket.org"
 LICENSE="Apache-2.0"

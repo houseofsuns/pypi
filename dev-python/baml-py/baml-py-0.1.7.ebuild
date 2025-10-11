@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BAML python bindings (pyproject.toml) [top-max 0.211.0]"
+DESCRIPTION="BAML python bindings (pyproject.toml) [top-max 0.211.1]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Front end for wormhole, easier and more secure! [top-max 1.1.5]"
+DESCRIPTION="Front end for wormhole, easier and more secure! [top-max 1.1.6]"
 
 HOMEPAGE="https://github.com/zackees/tx"
 LICENSE="BSD 3-Clause License"

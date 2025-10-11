@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Support code for communicating with eGauge hardware. [top-max 0.9.8]"
+DESCRIPTION="Support code for communicating with eGauge hardware. [top-max 0.9.9]"
 
 HOMEPAGE="https://bitbucket.org/egauge/python/"
 LICENSE="MIT"

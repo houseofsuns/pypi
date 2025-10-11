@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/lsprotocol[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lsprotocol-2023.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	dev-python/pygls[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]

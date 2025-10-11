@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fi [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb683f41a10>)]"
+DESCRIPTION="Fi [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f9d515c73e0>)]"
 
 HOMEPAGE=""
 LICENSE="MIT"

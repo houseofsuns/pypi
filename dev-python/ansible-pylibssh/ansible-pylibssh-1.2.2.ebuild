@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for libssh client specific to Ansible use case"
+DESCRIPTION="Python bindings for libssh client specific to Ansible use case [top-max 1.3.0_alpha0]"
 
 HOMEPAGE="https://github.com/ansible/pylibssh"
 LICENSE="LGPL-2+"

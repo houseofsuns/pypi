@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/lark-2.0.0[${PYTHON_USEDEP}]
-	dev-python/lsprotocol[${PYTHON_USEDEP}]
+	<dev-python/lsprotocol-2024.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0.0[${PYTHON_USEDEP}]
 	dev-python/pygls[${PYTHON_USEDEP}]
 	dev-python/vyper[${PYTHON_USEDEP}]"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ChRIS client built on aiohttp [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb694c5f6f0>)]"
+DESCRIPTION="ChRIS client built on aiohttp [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f9d6223d000>)]"
 
 HOMEPAGE=""
 LICENSE="MIT"

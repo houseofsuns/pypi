@@ -28,6 +28,6 @@ DEPENDENCIES="<dev-python/jedi-0.20.0[${PYTHON_USEDEP}]
 	dev-python/pygls[${PYTHON_USEDEP}]
 	>=dev-python/cattrs-23.1.2[${PYTHON_USEDEP}]
 	~dev-python/docstring-to-markdown-0.0[${PYTHON_USEDEP}]
-	dev-python/lsprotocol[${PYTHON_USEDEP}]"
+	>=dev-python/lsprotocol-2023.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

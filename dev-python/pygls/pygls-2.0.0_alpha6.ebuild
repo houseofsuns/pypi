@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ws"
 DEPENDENCIES=">=dev-python/attrs-24.3.0[${PYTHON_USEDEP}]
 	>=dev-python/cattrs-23.1.2[${PYTHON_USEDEP}]
-	dev-python/lsprotocol[${PYTHON_USEDEP}]
+	~dev-python/lsprotocol-2025.0.0[${PYTHON_USEDEP}]
 	ws? ( >=dev-python/websockets-13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

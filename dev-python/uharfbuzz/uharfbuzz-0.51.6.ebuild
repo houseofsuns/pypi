@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Streamlined Cython bindings for the harfbuzz shaping engine"
+DESCRIPTION="Streamlined Cython bindings for the harfbuzz shaping engine [top-max 0.51.7_beta2]"
 
 HOMEPAGE="https://github.com/trufont/uharfbuzz"
 LICENSE="Apache-2.0"

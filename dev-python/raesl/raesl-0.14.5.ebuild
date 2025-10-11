@@ -35,7 +35,7 @@ DEPENDENCIES=">=dev-python/click-log-0.4.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/jupyter-client-8.6.3[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/jupyter-server-2.15.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	all? ( dev-python/lsprotocol[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lsprotocol-2023.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandoc-fignos[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pluggy-1.5.0[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES=">=dev-python/click-log-0.4.0[${PYTHON_USEDEP}]
 	pygments? ( >=dev-python/pygments-2.19.1[${PYTHON_USEDEP}] )
 	rich? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	rich? ( >=dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/lsprotocol[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/lsprotocol-2023.0.1[${PYTHON_USEDEP}] )
 	server? ( dev-python/pygls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

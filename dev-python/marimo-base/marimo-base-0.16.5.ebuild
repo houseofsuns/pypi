@@ -50,7 +50,7 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openai[${PYTHON_USEDEP}] )
 	lsp? ( >=dev-python/python-lsp-server-1.13.0[${PYTHON_USEDEP}] )
-	lsp? ( dev-python/python-lsp-ruff[${PYTHON_USEDEP}] )
+	lsp? ( >=dev-python/python-lsp-ruff-2.0.0[${PYTHON_USEDEP}] )
 	mcp? ( dev-python/mcp[${PYTHON_USEDEP}] )
 	mcp? ( >dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/duckdb[${PYTHON_USEDEP}] )

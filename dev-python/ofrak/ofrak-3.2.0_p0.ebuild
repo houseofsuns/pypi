@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A binary analysis and modification platform [top-max 3.3.0_rc14]"
+DESCRIPTION="A binary analysis and modification platform [top-max 3.3.0]"
 
 HOMEPAGE="https://ofrak.com/"
 LICENSE="Proprietary"

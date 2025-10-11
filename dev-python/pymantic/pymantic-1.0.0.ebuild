@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Semantic Web and RDF library for Python"
+DESCRIPTION="Semantic Web and RDF library for Python [top-max 1.0.1]"
 
 HOMEPAGE="https://github.com/norcalrdf/pymantic/"
 LICENSE="BSD"

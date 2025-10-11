@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Databricks Feature Engineering Client [top-max 0.13.0]"
+DESCRIPTION="Databricks Feature Engineering Client [top-max 0.13.1_alpha1]"
 
 HOMEPAGE=""
 LICENSE="Databricks Proprietary License"

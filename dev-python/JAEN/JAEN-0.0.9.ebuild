@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="차별화된 자체 교육 콘텐츠와 실무 중심 교육 [top-max 1.1.4]"
+DESCRIPTION="차별화된 자체 교육 콘텐츠와 실무 중심 교육 [top-max 1.1.5]"
 
 HOMEPAGE="https://github.com/BAEM1N/JAEN"
 LICENSE=""

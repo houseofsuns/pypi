@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Probe WAVE files for all metadata"
+DESCRIPTION="Probe WAVE files for all metadata [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/iluvcapra/wavinfo"
 LICENSE="MIT"

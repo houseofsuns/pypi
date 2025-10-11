@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utilities for binary analysis using vivisect. [top-max 0.8.0]"
+DESCRIPTION="Utilities for binary analysis using vivisect. [top-max 0.8.1]"
 
 HOMEPAGE="https://github.com/williballenthin/viv-utils"
 LICENSE=""

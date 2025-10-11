@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all polars r6 test"
 DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/rpy2-robjects[${PYTHON_USEDEP}]
+	>=dev-python/rpy2-robjects-3.6.2[${PYTHON_USEDEP}]
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )

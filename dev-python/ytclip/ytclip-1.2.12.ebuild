@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command to download a video and cut out a clip."
+DESCRIPTION="Command to download a video and cut out a clip. [top-max 1.2.15]"
 
 HOMEPAGE="https://github.com/zackees/ytclip"
 LICENSE="MIT"

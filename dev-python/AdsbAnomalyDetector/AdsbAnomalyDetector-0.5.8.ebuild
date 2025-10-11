@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Low altitude aircraft anomaly detector [top-max 0.8.4]"
+DESCRIPTION="Low altitude aircraft anomaly detector [top-max 0.9]"
 
 HOMEPAGE=""
 LICENSE=""

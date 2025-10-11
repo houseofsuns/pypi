@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="RAFT: Reusable Algorithms Functions and other Tools [top-max 25.8.0]"
+DESCRIPTION="RAFT: Reusable Algorithms Functions and other Tools [top-max 25.10.0]"
 
 HOMEPAGE="https://github.com/rapidsai/raft"
 LICENSE="Apache-2.0"

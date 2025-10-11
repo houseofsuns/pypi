@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Functional Coverage and Constrained Randomization Extensions for Cocotb"
+DESCRIPTION="Functional Coverage and Constrained Randomization Extensions for Cocotb [top-max 2.0]"
 
 HOMEPAGE="https://github.com/mciepluc/cocotb-coverage"
 LICENSE="BSD"

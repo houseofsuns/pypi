@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="bgm.tv wiki syntax parser [top-max 0.0.30]"
+DESCRIPTION="bgm.tv wiki syntax parser [top-max 0.0.33]"
 
 HOMEPAGE=""
 LICENSE="MIT"

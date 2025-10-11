@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Reading and writing for ISIS muon experiments. [top-max 0.9.2_beta8]"
+DESCRIPTION="Reading and writing for ISIS muon experiments. [top-max 0.9.2_beta9]"
 
 HOMEPAGE=""
 LICENSE="BSD"

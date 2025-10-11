@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generate HTML reports from Junit results [top-max 31.0.2]"
+DESCRIPTION="Generate HTML reports from Junit results [top-max 31.0.3]"
 
 HOMEPAGE="https://gitlab.com/inorton/junit2html"
 LICENSE="License :: OSI Approved :: MIT License"

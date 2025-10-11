@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Uses Whisper AI to transcribe speech from video and audio files. Also accepts URLs for YouTube, Rumble, BitChute, clear file links, etc. [top-max 3.2.3]"
+DESCRIPTION="Uses Whisper AI to transcribe speech from video and audio files. Also accepts URLs for YouTube, Rumble, BitChute, clear file links, etc. [top-max 3.2.4]"
 
 HOMEPAGE="https://github.com/zackees/transcribe-anything"
 LICENSE="BSD"

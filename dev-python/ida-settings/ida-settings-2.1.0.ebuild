@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fetch and set configuration values in IDA Pro IDAPython scripts"
+DESCRIPTION="Fetch and set configuration values in IDA Pro IDAPython scripts [top-max 3.0.0]"
 
 HOMEPAGE="https://github.com/williballenthin/ida-settings"
 LICENSE="Apache-2.0"

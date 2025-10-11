@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="MeCab binding for many OSs (Windows, macOS, and Linux) [top-max 0.996.11]"
+DESCRIPTION="MeCab binding for many OSs (Windows, macOS, and Linux) [top-max 0.996.12]"
 
 HOMEPAGE="https://github.com/ikegami-yukino/mecab/tree/master/mecab/python"
 LICENSE="BSD, GPL or LGPL"

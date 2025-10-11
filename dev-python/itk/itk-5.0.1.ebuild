@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ITK is an open-source toolkit for multidimensional image analysis [top-max 6.0_beta1]"
+DESCRIPTION="ITK is an open-source toolkit for multidimensional image analysis [top-max 6.0]"
 
 HOMEPAGE="https://itk.org/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cuML - RAPIDS ML Algorithms"
+DESCRIPTION="cuML - RAPIDS ML Algorithms [top-max 25.10.0]"
 
 HOMEPAGE="https://github.com/rapidsai/cuml"
 LICENSE="Apache-2.0"

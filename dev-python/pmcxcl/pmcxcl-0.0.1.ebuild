@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for Monte Carlo eXtreme photon transport simulator [top-max 0.3.5]"
+DESCRIPTION="Python bindings for Monte Carlo eXtreme photon transport simulator [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/fangq/mcxcl"
 LICENSE="GPL-3+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Placeholder for pylibcudf-cu12 [top-max 25.8.0, badver 0.0.0a0.dev0]"
+DESCRIPTION="Placeholder for pylibcudf-cu12 [top-max 25.10.0, badver 0.0.0a0.dev0]"
 
 HOMEPAGE=""
 LICENSE=""

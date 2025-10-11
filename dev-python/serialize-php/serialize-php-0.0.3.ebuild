@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="handle contents of serialize/deserialize in php"
+DESCRIPTION="handle contents of serialize/deserialize in php [top-max 0.0.4]"
 
 HOMEPAGE="https://github.com/trim21/php-serialize-py"
 LICENSE="MIT"

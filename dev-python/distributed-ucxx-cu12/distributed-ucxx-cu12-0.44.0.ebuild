@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UCX communication module for Dask Distributed [top-max 0.45.1]"
+DESCRIPTION="UCX communication module for Dask Distributed [top-max 0.46.0]"
 
 HOMEPAGE="https://github.com/rapidsai/ucxx"
 LICENSE="BSD"

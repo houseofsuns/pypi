@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Command Line Interface for managing PROS projects [top-max 3.5.5]"
+DESCRIPTION="Command Line Interface for managing PROS projects [top-max 3.5.6]"
 
 HOMEPAGE="https://github.com/purduesigbots/pros-cli"
 LICENSE="MPL-2.0"

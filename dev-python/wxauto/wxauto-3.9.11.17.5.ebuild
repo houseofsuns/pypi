@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple wechat automation tool [top-max 39.1.17]"
+DESCRIPTION="A simple wechat automation tool [top-max 39.1.18]"
 
 HOMEPAGE=""
 LICENSE=""

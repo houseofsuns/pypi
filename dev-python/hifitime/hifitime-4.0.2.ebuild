@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ultra-precise date and time handling in Rust for scientific applications with leap second support [top-max 4.2.0]"
+DESCRIPTION="Ultra-precise date and time handling in Rust for scientific applications with leap second support [top-max 4.2.1]"
 
 HOMEPAGE="https://nyxspace.com/"
 LICENSE="MPL-2.0"

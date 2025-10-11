@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc numpy pandas test test-minimal types"
-DEPENDENCIES="dev-python/rpy2-rinterface[${PYTHON_USEDEP}]
-	dev-python/rpy2-robjects[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rpy2-rinterface-3.6.3[${PYTHON_USEDEP}]
+	>=dev-python/rpy2-robjects-3.6.3[${PYTHON_USEDEP}]
 	doc? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test-minimal? ( >=dev-python/pytest-8.0[${PYTHON_USEDEP}] )

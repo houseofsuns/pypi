@@ -1,0 +1,16 @@
+BDEPEND=matplotlib? ( dev-python/matplotlib[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?,python_targets_python3_14(-)?] ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) python_targets_python3_14? ( dev-lang/python:3.14 ) >=dev-python/gpep517-15[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?,python_targets_python3_14(-)?]
+DEFINED_PHASES=compile configure install prepare test unpack
+DESCRIPTION=A collection of modern themes with code that makes it easy to integrate into a tkinter project.
+EAPI=8
+HOMEPAGE=https://github.com/RobertJN64/TKinterModernThemes
+INHERIT=python-r1 gs-pypi
+IUSE=matplotlib python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 python_targets_python3_14
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=matplotlib? ( dev-python/matplotlib[python_targets_python3_11(-)?,python_targets_python3_12(-)?,python_targets_python3_13(-)?,python_targets_python3_14(-)?] ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) python_targets_python3_14? ( dev-lang/python:3.14 )
+REQUIRED_USE=|| ( python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 python_targets_python3_14 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/0f/d2/f8cb632fc150975f2fee0d9804d4a56e80e5896da72e2b1e408763ab5f27/tkintermodernthemes-1.10.5.tar.gz
+_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	python-utils-r1	8a006695bc0db22490452dd06914dda5	python-r1	0e15b2ab9cfc87d7474678201d6bca38	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multilib	b2a329026f2e404e9e371097dda47f96	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	gs-distutils-r1	2d17b343ea8be9931b076b8dffaab9d2	g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	gs-pypi	1ce6ce880db2f1f1e7842a13bd058366
+_md5_=cb5fb53db3abd4e77f52ccf6b8014a68

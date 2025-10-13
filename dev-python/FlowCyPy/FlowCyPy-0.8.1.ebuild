@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for flow-cytometry simulations. [new-max 2025-09-05 14:10:26.946208+00:00]"
+DESCRIPTION="A package for flow-cytometry simulations. [new-max 2025-10-13 10:02:07.211259+00:00]"
 
 HOMEPAGE="https://github.com/MartinPdeS/FlowCyPy"
 LICENSE="MIT"

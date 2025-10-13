@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DB-API interface to Microsoft SQL Server for Python. (new Cython-based version)"
+DESCRIPTION="DB-API interface to Microsoft SQL Server for Python. (new Cython-based version) [top-max 2.3.8]"
 
 HOMEPAGE="https://github.com/pymssql/pymssql"
 LICENSE=""

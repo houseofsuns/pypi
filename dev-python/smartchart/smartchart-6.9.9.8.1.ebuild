@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A NoBI Product Connect Data to You！未经授权禁示非法使用、破解及修改相关代码 [top-max 7.5.3]"
+DESCRIPTION="A NoBI Product Connect Data to You！未经授权禁示非法使用、破解及修改相关代码 [top-max 7.5.4]"
 
 HOMEPAGE="https://www.smartchart.cn/"
 LICENSE=""

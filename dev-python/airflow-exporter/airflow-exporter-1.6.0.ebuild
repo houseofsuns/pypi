@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Airflow plugin to export dag and task based metrics to Prometheus."
+DESCRIPTION="Airflow plugin to export dag and task based metrics to Prometheus. [top-max 1.7.0_pre1]"
 
 HOMEPAGE="https://github.com/epoch8/airflow-exporter"
 LICENSE=""

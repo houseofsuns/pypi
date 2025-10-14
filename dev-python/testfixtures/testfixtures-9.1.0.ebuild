@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of helpers and mock objects for unit tests and doc tests."
+DESCRIPTION="A collection of helpers and mock objects for unit tests and doc tests. [top-max 9.2.0]"
 
 HOMEPAGE="https://github.com/Simplistix/testfixtures"
 LICENSE="MIT"

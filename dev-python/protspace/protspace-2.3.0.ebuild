@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A visualisation tool for protein embeddings from pLMs"
+DESCRIPTION="A visualisation tool for protein embeddings from pLMs [top-max 3.0.0]"
 
 HOMEPAGE=""
 LICENSE=""

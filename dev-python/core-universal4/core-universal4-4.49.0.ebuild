@@ -8,22 +8,22 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Applitools Eyes Core SDK Server [wheel]"
+DESCRIPTION="Applitools Eyes Core SDK Server"
 
 HOMEPAGE="http://www.applitools.com"
 LICENSE="-  -"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-manylinux1_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="virtual/allow-pypi-wheels"
+DEPENDENCIES=""
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

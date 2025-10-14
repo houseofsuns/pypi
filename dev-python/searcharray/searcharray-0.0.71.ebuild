@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Searchable pandas text extension arrays for prototyping search [top-max 0.0.72]"
+DESCRIPTION="Searchable pandas text extension arrays for prototyping search [top-max 0.0.73]"
 
 HOMEPAGE="https://github.com/softwaredoug/searcharray"
 LICENSE=""

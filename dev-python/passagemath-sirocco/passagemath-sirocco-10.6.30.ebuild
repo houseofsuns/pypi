@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Certified root continuation with sirocco"
+DESCRIPTION="passagemath: Certified root continuation with sirocco [top-max 10.6.30_p1]"
 
 HOMEPAGE=""
 LICENSE=""

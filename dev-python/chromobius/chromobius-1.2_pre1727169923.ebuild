@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast implementation of the mobius color code decoder."
+DESCRIPTION="A fast implementation of the mobius color code decoder. [top-max 1.2_pre1760419877]"
 
 HOMEPAGE="https://github.com/quantumlib/chromobius"
 LICENSE=""

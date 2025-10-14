@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Hot Module Reload and Fine-grained Reactive Programming for Python"
+DESCRIPTION="Hot Module Reload and Fine-grained Reactive Programming for Python [top-max 0.7.2]"
 
 HOMEPAGE="https://pyth-on-line.promplate.dev/hmr"
 LICENSE=""

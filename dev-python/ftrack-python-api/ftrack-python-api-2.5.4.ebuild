@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for ftrack. [top-max 3.0.5_rc2]"
+DESCRIPTION="Python API for ftrack. [top-max 3.0.5]"
 
 HOMEPAGE="https://github.com/ftrackhq/ftrack-python"
 LICENSE="Apache-2.0"

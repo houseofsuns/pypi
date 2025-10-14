@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Helpers for using Pinecone with notebooks [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f25f61134c0>)]"
+DESCRIPTION="Helpers for using Pinecone with notebooks [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8218c5d380>)]"
 
 HOMEPAGE="https://www.pinecone.io"
 LICENSE="Apache-2.0"

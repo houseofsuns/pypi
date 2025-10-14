@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pythonic interface for MEDS datasets"
+DESCRIPTION="A Pythonic interface for MEDS datasets [top-max 0.1.15]"
 
 HOMEPAGE="https://github.com/som-shahlab/meds_reader"
 LICENSE="Apache-2.0"

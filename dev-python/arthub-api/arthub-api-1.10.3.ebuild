@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ArHhub Python SDK [wheel]"
+DESCRIPTION="ArHhub Python SDK"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py2/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py2-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py2-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -28,7 +28,6 @@ DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	~dev-python/platformdirs-2.0.2[${PYTHON_USEDEP}]
 	~dev-python/six-1.16[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.16.0[${PYTHON_USEDEP}]
-	>=dev-python/tenacity-8.0[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	>=dev-python/tenacity-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

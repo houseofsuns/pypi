@@ -166,7 +166,7 @@ DEPENDENCIES="~dev-python/amqp-5.3.1[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-order-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xdist-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytokens[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytokens-0.1.10[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytz-2025.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyvirtualdisplay-3.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}] )

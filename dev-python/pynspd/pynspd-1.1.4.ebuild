@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/geojson-pydantic[${PYTHON_USEDEP}]
 	cli? ( >=dev-python/typer-0.15.2[${PYTHON_USEDEP}] )
 	redis? ( ~dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
 	socks? ( >=dev-python/socksio-1.0.0[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/anysqlite[${PYTHON_USEDEP}] )"
+	sqlite? ( >=dev-python/anysqlite-0.0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

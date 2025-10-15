@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WebPush publication library"
+DESCRIPTION="WebPush publication library [top-max 2.1.1]"
 
 HOMEPAGE="https://github.com/web-push-libs/pywebpush"
 LICENSE="MPL-2.0"

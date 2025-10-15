@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast, memory-efficient 2D spatial indexes for Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8229f8c7b0>)]"
+DESCRIPTION="Fast, memory-efficient 2D spatial indexes for Python. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4f5c635ee0>)]"
 
 HOMEPAGE=""
 LICENSE="MIT OR Apache-2.0"

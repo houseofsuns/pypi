@@ -156,7 +156,7 @@ DEPENDENCIES="~dev-python/asgiref-3.9.2[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-xdist-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytokens[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytokens-0.1.10[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytz-2025.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}] )

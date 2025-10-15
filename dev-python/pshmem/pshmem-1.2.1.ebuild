@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Parallel shared memory and locking with MPI"
+DESCRIPTION="Parallel shared memory and locking with MPI [top-max 1.3.1]"
 
 HOMEPAGE=""
 LICENSE=""

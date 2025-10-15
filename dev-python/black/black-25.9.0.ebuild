@@ -29,7 +29,7 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.0[${PYTHON_USEDEP}]
-	dev-python/pytokens[${PYTHON_USEDEP}]
+	>=dev-python/pytokens-0.1.10[${PYTHON_USEDEP}]
 	colorama? ( >=dev-python/colorama-0.4.3[${PYTHON_USEDEP}] )
 	d? ( >=dev-python/aiohttp-3.10[${PYTHON_USEDEP}] )
 	jupyter? ( >=dev-python/ipython-7.8.0[${PYTHON_USEDEP}] )

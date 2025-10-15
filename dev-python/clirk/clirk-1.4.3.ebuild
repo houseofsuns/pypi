@@ -16,8 +16,8 @@ DESCRIPTION="project description [wheel]"
 
 HOMEPAGE="https://gitee.com"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp312/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp312-abi3-macosx_10_9_universal2.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp312-abi3-macosx_10_9_universal2.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp312/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp312-abi3-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp312-abi3-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

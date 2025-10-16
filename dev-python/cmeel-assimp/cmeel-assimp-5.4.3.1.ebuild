@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cmeel distribution for assimp, Open-Asset-Importer-Library Repository"
+DESCRIPTION="cmeel distribution for assimp, Open-Asset-Importer-Library Repository [top-max 6.0.2]"
 
 HOMEPAGE="https://github.com/cmake-wheel/cmeel-assimp"
 LICENSE=""

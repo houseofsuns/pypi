@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Geode-solutions OpenGeode module for building background meshes [top-max 9.6.10]"
+DESCRIPTION="Geode-solutions OpenGeode module for building background meshes [top-max 9.6.11]"
 
 HOMEPAGE=""
 LICENSE="Proprietary"

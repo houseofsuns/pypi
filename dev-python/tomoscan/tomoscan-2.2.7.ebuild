@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Utility to access tomography data at ESRF [wheel]"
+DESCRIPTION="Utility to access tomography data at ESRF"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -60,7 +60,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Glymur[${PYTHON_USEDEP}] )
 	doc? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/tifffile-2023.7.4[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	doc? ( >=dev-python/tifffile-2023.7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

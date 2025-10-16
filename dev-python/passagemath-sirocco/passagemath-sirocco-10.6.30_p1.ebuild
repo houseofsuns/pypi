@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="10.6.30.post1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Certified root continuation with sirocco [wheel]"
+DESCRIPTION="passagemath: Certified root continuation with sirocco"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -31,7 +31,6 @@ DEPENDENCIES=">=dev-python/cysignals-1.11.2[${PYTHON_USEDEP}]
 	test? ( dev-python/passagemath-groups[${PYTHON_USEDEP}] )
 	test? ( dev-python/passagemath-polyhedra[${PYTHON_USEDEP}] )
 	test? ( dev-python/passagemath-repl[${PYTHON_USEDEP}] )
-	test? ( dev-python/passagemath-schemes[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	test? ( dev-python/passagemath-schemes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

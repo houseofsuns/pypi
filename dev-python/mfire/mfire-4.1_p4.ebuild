@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Code for PROMETHEE project [top-max 4.2]"
+DESCRIPTION="Code for PROMETHEE project [top-max 4.2_p1]"
 
 HOMEPAGE="https://git.meteo.fr/deep_learning/ftap_autom"
 LICENSE="All rights reserved"

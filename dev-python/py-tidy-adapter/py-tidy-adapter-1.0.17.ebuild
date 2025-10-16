@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="python adapter to use with tidy server [top-max 1.1.24]"
+DESCRIPTION="python adapter to use with tidy server [top-max 1.1.25]"
 
 HOMEPAGE=""
 LICENSE=""

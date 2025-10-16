@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Robot Framework Browser library powered by Playwright. Aiming for speed, reliability and visibility. [top-max 19.10.0]"
+DESCRIPTION="Robot Framework Browser library powered by Playwright. Aiming for speed, reliability and visibility. [top-max 19.10.1]"
 
 HOMEPAGE="https://robotframework-browser.org/"
 LICENSE=""

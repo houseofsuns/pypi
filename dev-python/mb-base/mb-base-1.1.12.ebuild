@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Meta Package for mb_* packages"
+DESCRIPTION="Meta Package for mb_* packages [top-max 1.1.19]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ratio1 Core is the backbone of the Ratio1 Edge Protocol."
+DESCRIPTION="Ratio1 Core is the backbone of the Ratio1 Edge Protocol. [top-max 7.7.196]"
 
 HOMEPAGE="https://github.com/Ratio1/naeural_core"
 LICENSE=""

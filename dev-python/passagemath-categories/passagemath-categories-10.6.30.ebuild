@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Sage categories and basic rings [top-max 10.6.31_rc1]"
+DESCRIPTION="passagemath: Sage categories and basic rings"
 
 HOMEPAGE=""
 LICENSE=""

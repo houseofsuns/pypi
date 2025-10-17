@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FMS HF Tuning [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8a160329d0>)]"
+DESCRIPTION="FMS HF Tuning [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fcc124c6b20>)]"
 
 HOMEPAGE="https://github.com/foundation-model-stack/fms-hf-tuning"
 LICENSE="Apache-2.0"

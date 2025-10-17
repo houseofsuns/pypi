@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="10.6.31rc1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Graphs, posets, hypergraphs, designs, abstract complexes, combinatorial polyhedra, abelian sandpiles, quivers [wheel]"
+DESCRIPTION="passagemath: Graphs, posets, hypergraphs, designs, abstract complexes, combinatorial polyhedra, abelian sandpiles, quivers"
 
 HOMEPAGE=""
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win_amd64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-win_amd64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -59,7 +59,6 @@ DEPENDENCIES="~dev-python/gmpy2-2.1_beta999[${PYTHON_USEDEP}]
 	repl? ( dev-python/passagemath-repl[${PYTHON_USEDEP}] )
 	sat? ( dev-python/passagemath-combinat[${PYTHON_USEDEP}] )
 	standard? ( dev-python/passagemath-graphs[${PYTHON_USEDEP}] )
-	standard? ( dev-python/passagemath-plot[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	standard? ( dev-python/passagemath-plot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

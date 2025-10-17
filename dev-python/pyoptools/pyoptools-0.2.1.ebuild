@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Optical ray tracing simulation system [top-max 0.3.6]"
+DESCRIPTION="Optical ray tracing simulation system [top-max 0.3.7]"
 
 HOMEPAGE="https://github.com/cihologramas/pyoptools/"
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client SDK for App Mesh [top-max 2.0.2]"
+DESCRIPTION="Client SDK for App Mesh [top-max 2.0.3]"
 
 HOMEPAGE="https://github.com/laoshanxi/app-mesh"
 LICENSE="MIT"

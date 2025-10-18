@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A JupyterLab extension for displaying GPU usage dashboards [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f2d8d0f15b0>)]"
+DESCRIPTION="A JupyterLab extension for displaying GPU usage dashboards [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ef5c0eea650>)]"
 
 HOMEPAGE="https://github.com/rapidsai/jupyterlab-nvdashboard"
 LICENSE="BSD"

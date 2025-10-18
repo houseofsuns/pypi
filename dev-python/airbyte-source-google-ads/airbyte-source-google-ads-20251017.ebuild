@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="4.1.0rc7.dev202510171337"
+REALVERSION="4.1.0rc7.dev202510171521"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python3_11 )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Source implementation for Google Ads. [badver 4.1.0rc7.dev202510171337]"
+DESCRIPTION="Source implementation for Google Ads. [badver 4.1.0rc7.dev202510171521]"
 
 HOMEPAGE="https://airbyte.com"
 LICENSE="Elv2"

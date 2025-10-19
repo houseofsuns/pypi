@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/giving[${PYTHON_USEDEP}]
 	>=dev-python/psutil-7.0.0[${PYTHON_USEDEP}]
 	dev-python/ptera[${PYTHON_USEDEP}]
 	>=dev-python/rich-13.9.4[${PYTHON_USEDEP}]
-	cuda? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )"
+	cuda? ( >=dev-python/nvidia-ml-py-12.570.86[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

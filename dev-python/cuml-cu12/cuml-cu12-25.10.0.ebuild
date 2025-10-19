@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/cuda-python[${PYTHON_USEDEP}]
 	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	test? ( <dev-python/numpydoc-1.9[${PYTHON_USEDEP}] )
-	test? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nvidia-ml-py-12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pynndescent[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )

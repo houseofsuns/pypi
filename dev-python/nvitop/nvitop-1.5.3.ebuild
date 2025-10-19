@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda10 cuda11 cuda12 cuda13 lint"
-DEPENDENCIES="dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/nvidia-ml-py-13.581.0_alpha0[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.6.6[${PYTHON_USEDEP}]
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	cuda10? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
-	cuda11? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
-	cuda12? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
-	cuda13? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )"
+	cuda10? ( ~dev-python/nvidia-ml-py-11.450.51[${PYTHON_USEDEP}] )
+	cuda11? ( <=dev-python/nvidia-ml-py-11.525.150[${PYTHON_USEDEP}] )
+	cuda12? ( <=dev-python/nvidia-ml-py-12.575.51[${PYTHON_USEDEP}] )
+	cuda13? ( ~dev-python/nvidia-ml-py-13.580.65[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

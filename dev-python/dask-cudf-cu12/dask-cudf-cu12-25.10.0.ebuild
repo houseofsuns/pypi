@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/cudf-cu12[${PYTHON_USEDEP}]
 	dev-python/cupy-cuda12x[${PYTHON_USEDEP}]
 	>=dev-python/fsspec-0.6.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0_alpha0[${PYTHON_USEDEP}]
-	dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
+	>=dev-python/nvidia-ml-py-12.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-2.4.0_pre0[${PYTHON_USEDEP}]
 	dev-python/rapids-dask-dependency[${PYTHON_USEDEP}]
 	test? ( dev-python/dask-cuda[${PYTHON_USEDEP}] )

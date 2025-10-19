@@ -33,7 +33,7 @@ DEPENDENCIES="<=dev-python/loguru-0.7.3[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
-	dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
+	<=dev-python/nvidia-ml-py-13.580.82[${PYTHON_USEDEP}]
 	<=dev-python/pillow-11.3.0[${PYTHON_USEDEP}]
 	dev-python/compressed-tensors[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )

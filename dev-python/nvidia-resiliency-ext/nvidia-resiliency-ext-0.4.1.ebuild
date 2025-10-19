@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
+	>=dev-python/nvidia-ml-py-12.570.86[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]

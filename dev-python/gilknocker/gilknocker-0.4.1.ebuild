@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Knock on the Python GIL, determine how busy it is."
+DESCRIPTION="Knock on the Python GIL, determine how busy it is. [top-max 0.4.2]"
 
 HOMEPAGE="https://github.com/milesgranger/gilknocker"
 LICENSE="MIT"

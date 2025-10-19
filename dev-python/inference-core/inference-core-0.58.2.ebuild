@@ -82,7 +82,7 @@ DEPENDENCIES="dev-python/aiortc[${PYTHON_USEDEP}]
 	dev-python/supervision[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
+	<dev-python/nvidia-ml-py-13.0.0[${PYTHON_USEDEP}]
 	~dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}]
 	<=dev-python/aiohttp-3.10.11[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
@@ -101,7 +101,7 @@ DEPENDENCIES="dev-python/aiortc[${PYTHON_USEDEP}]
 	clip? ( dev-python/rf-clip[${PYTHON_USEDEP}] )
 	easy-ocr? ( dev-python/easyocr[${PYTHON_USEDEP}] )
 	cpu? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	cpu? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
+	cpu? ( <dev-python/nvidia-ml-py-13.0.0[${PYTHON_USEDEP}] )
 	gaze? ( dev-python/mediapipe[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
 	grounding-dino? ( dev-python/rf-groundingdino[${PYTHON_USEDEP}] )

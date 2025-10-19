@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/libucxx-cu12[${PYTHON_USEDEP}]
 	dev-python/numba-cuda[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0_alpha0[${PYTHON_USEDEP}]
-	dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
+	>=dev-python/nvidia-ml-py-12.0[${PYTHON_USEDEP}]
 	dev-python/rmm-cu12[${PYTHON_USEDEP}]
 	test? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	test? ( dev-python/cudf-cu12[${PYTHON_USEDEP}] )

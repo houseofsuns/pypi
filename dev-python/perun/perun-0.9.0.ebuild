@@ -41,7 +41,7 @@ DEPENDENCIES=">=dev-python/h5py-3.5.9[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	mpi? ( >=dev-python/mpi4py-3.1[${PYTHON_USEDEP}] )
-	nvidia? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
+	nvidia? ( >=dev-python/nvidia-ml-py-12.535.77[${PYTHON_USEDEP}] )
 	rocm? ( dev-python/amdsmi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

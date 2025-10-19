@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docker-ros plugins"
-DEPENDENCIES="dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/nvidia-ml-py-12.570.86[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	docker-ros? ( dev-python/docker-run-docker-ros[${PYTHON_USEDEP}] )

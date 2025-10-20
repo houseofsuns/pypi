@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binary Python3 bindings for the G'MIC C++ image processing library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f23f4a5c820>)]"
+DESCRIPTION="Binary Python3 bindings for the G'MIC C++ image processing library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f2e4de35000>)]"
 
 HOMEPAGE="https://github.com/dtschump/gmic-py"
 LICENSE=""

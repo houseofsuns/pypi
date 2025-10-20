@@ -16,8 +16,8 @@ DESCRIPTION="Hikyuu Quant Framework for System Trading Analysis and backtester [
 
 HOMEPAGE="http://hikyuu.org/"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-macosx_11_0_arm64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-macosx_11_0_arm64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-manylinux2014_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-manylinux2014_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

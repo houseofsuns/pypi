@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple framework for room acoustics and audio processing in Python."
+DESCRIPTION="A simple framework for room acoustics and audio processing in Python. [top-max 0.8.5]"
 
 HOMEPAGE="https://github.com/LCAV/pyroomacoustics"
 LICENSE="MIT"

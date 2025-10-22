@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cron expression parser and evaluator"
+DESCRIPTION="Cron expression parser and evaluator [top-max 2.7]"
 
 HOMEPAGE="https://github.com/cuu508/cronsim"
 LICENSE="BSD"

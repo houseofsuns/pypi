@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library for using the Saleae Logic 2 Automation API"
+DESCRIPTION="Library for using the Saleae Logic 2 Automation API [new-max 2025-10-22 04:16:18.472336+00:00]"
 
 HOMEPAGE="https://github.com/saleae/logic2-automation"
 LICENSE=""

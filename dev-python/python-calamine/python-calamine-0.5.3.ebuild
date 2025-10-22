@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python binding for Rust's library for reading excel and odf file - calamine"
+DESCRIPTION="Python binding for Rust's library for reading excel and odf file - calamine [top-max 0.5.4]"
 
 HOMEPAGE="https://github.com/dimastbk/python-calamine"
 LICENSE=""

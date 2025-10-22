@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES=">=dev-python/starlette-0.22.0[${PYTHON_USEDEP}]
-	dev-python/backports-zstd[${PYTHON_USEDEP}]"
+	>=dev-python/backports-zstd-0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

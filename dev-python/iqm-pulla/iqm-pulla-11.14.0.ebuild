@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client library for pulse-level access to an IQM quantum computer"
+DESCRIPTION="Client library for pulse-level access to an IQM quantum computer [top-max 11.14.1]"
 
 HOMEPAGE="https://pypi.org/project/iqm-pulla/"
 LICENSE="Apache License"

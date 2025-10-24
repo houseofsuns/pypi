@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/base58-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/more-itertools-8.6.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )

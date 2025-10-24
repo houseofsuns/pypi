@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all gui invoice serial tests wallet"
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/base58-3.0[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305[${PYTHON_USEDEP}]
 	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/crypto-licensing[${PYTHON_USEDEP}]

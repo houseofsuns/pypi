@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	>=dev-python/base58-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/multipledispatch-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/pynacl-1.3.0[${PYTHON_USEDEP}]
 	dev-python/PyQRCode[${PYTHON_USEDEP}]

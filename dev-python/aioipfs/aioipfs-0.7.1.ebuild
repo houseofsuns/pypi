@@ -27,7 +27,7 @@ IUSE="bohort car dev docs orjson"
 DEPENDENCIES=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	>=dev-python/base58-1.0.2[${PYTHON_USEDEP}]
 	dev-python/gitignore-parser[${PYTHON_USEDEP}]
 	dev-python/multiaddr[${PYTHON_USEDEP}]
 	dev-python/py-multibase[${PYTHON_USEDEP}]

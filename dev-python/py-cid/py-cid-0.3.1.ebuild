@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/base58-2.0[${PYTHON_USEDEP}]
 	dev-python/py-multibase[${PYTHON_USEDEP}]
 	dev-python/py-multicodec[${PYTHON_USEDEP}]
 	dev-python/morphys[${PYTHON_USEDEP}]

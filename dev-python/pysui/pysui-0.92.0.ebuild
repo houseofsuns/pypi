@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/betterproto2[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/typing-utils[${PYTHON_USEDEP}]
 	dev-python/canoser[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-2.2.0[${PYTHON_USEDEP}]
 	<dev-python/deprecated-1.3.0[${PYTHON_USEDEP}]
 	dev-python/pysui-fastcrypto[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"

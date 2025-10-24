@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/aiohttp-retry[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.11.16[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	>=dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	<dev-python/nest-asyncio-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.10.3[${PYTHON_USEDEP}]

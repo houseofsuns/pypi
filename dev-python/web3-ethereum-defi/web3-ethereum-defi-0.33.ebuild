@@ -58,7 +58,7 @@ DEPENDENCIES=">=dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/zope-dottedname[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/furo-2023.0.0.0[${PYTHON_USEDEP}] )
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-3.0.0[${PYTHON_USEDEP}]
 	hypersync? ( dev-python/hypersync[${PYTHON_USEDEP}] )
 	web3v6? ( dev-python/web3[${PYTHON_USEDEP}] )
 	dev-python/eth-tester[${PYTHON_USEDEP}]

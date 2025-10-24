@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli test-tools"
 DEPENDENCIES="<dev-python/semver-3.0.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-4.25.0[${PYTHON_USEDEP}]

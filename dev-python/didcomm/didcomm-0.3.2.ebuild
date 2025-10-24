@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-3.0[${PYTHON_USEDEP}]
 	dev-python/varint[${PYTHON_USEDEP}]
 	<dev-python/attrs-23.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-24.0[${PYTHON_USEDEP}]

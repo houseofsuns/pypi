@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES=">=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
 	>=dev-python/autobahn-22.6.1[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	>=dev-python/base58-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/bcrypt-3.1.6[${PYTHON_USEDEP}]
 	>=dev-python/bitstring-3.1.5[${PYTHON_USEDEP}]
 	>=dev-python/cbor2-5.2.0[${PYTHON_USEDEP}]

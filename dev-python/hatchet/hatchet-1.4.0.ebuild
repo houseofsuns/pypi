@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for analyzing hierarchical performance data"
+DESCRIPTION="A Python library for analyzing hierarchical performance data [top-max 1.4.1]"
 
 HOMEPAGE="https://github.com/hatchet/hatchet"
 LICENSE="MIT"

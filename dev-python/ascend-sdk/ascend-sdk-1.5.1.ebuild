@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Client SDK for Apex Ascend Platform [top-max 1.7.2]"
+DESCRIPTION="Python Client SDK for Apex Ascend Platform [top-max 1.8.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/aiodns-3.2[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.11.13[${PYTHON_USEDEP}]
 	dev-python/aleph-message[${PYTHON_USEDEP}]
 	dev-python/aleph-sdk-python[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	<dev-python/click-8.2[${PYTHON_USEDEP}]
 	dev-python/py-sr25519-bindings[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="~dev-python/aiodns-3.2[${PYTHON_USEDEP}]
 	ethereum? ( dev-python/eth-account[${PYTHON_USEDEP}] )
 	nuls2? ( dev-python/aleph-nuls2[${PYTHON_USEDEP}] )
 	polkadot? ( dev-python/substrate-interface[${PYTHON_USEDEP}] )
-	solana? ( dev-python/base58[${PYTHON_USEDEP}] )
+	solana? ( ~dev-python/base58-2.1.1[${PYTHON_USEDEP}] )
 	solana? ( ~dev-python/pynacl-1.5[${PYTHON_USEDEP}] )
 	tezos? ( dev-python/aleph-pytezos[${PYTHON_USEDEP}] )
 	tezos? ( ~dev-python/pynacl-1.5[${PYTHON_USEDEP}] )"

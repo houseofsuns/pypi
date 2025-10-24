@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/aries-askar[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-2.2.0[${PYTHON_USEDEP}]
 	dev-python/jsoncanon[${PYTHON_USEDEP}]
 	dev-python/multiformats[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

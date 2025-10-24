@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/base58-3.0[${PYTHON_USEDEP}]
 	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]
 	<dev-python/pynacl-2.0[${PYTHON_USEDEP}]

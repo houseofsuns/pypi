@@ -28,7 +28,7 @@ DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
 	dev-python/solana[${PYTHON_USEDEP}]
 	dev-python/borsh-construct[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/rich-13.1.0[${PYTHON_USEDEP}]
 	dev-python/ledgerblue[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/base58-3.0.0[${PYTHON_USEDEP}]
 	dev-python/ECPy[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]

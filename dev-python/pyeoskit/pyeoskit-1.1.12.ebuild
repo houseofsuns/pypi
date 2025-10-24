@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES=">=dev-python/requests-unixsocket-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	>=dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	dev-python/asn1[${PYTHON_USEDEP}]
 	dev-python/ledgerblue[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

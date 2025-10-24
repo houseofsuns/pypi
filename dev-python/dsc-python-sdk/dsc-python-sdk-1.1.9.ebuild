@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/asn1crypto-1.5.1[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.0.0[${PYTHON_USEDEP}]
 	dev-python/base58check[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
 	dev-python/bip32[${PYTHON_USEDEP}]

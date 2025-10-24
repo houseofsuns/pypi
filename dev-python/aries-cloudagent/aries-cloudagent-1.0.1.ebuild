@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/configargparse-1.8[${PYTHON_USEDEP}]
 	<dev-python/apispec-7.0.0[${PYTHON_USEDEP}]
 	askar? ( dev-python/aries-askar[${PYTHON_USEDEP}] )
 	<dev-python/async-timeout-4.1.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-2.2.0[${PYTHON_USEDEP}]
 	<dev-python/canonicaljson-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/deepmerge-0.4.0[${PYTHON_USEDEP}]
 	dev-python/did-peer_2[${PYTHON_USEDEP}]

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/mautrix[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	<dev-python/jinja2-4.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	encryption? ( dev-python/base58[${PYTHON_USEDEP}] )
+	encryption? ( <dev-python/base58-3.0[${PYTHON_USEDEP}] )
 	encryption? ( <dev-python/pycryptodome-4.0[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/python-olm[${PYTHON_USEDEP}] )
 	encryption? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/mautrix[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	legacydb? ( <dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	all? ( <dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
-	all? ( dev-python/base58[${PYTHON_USEDEP}] )
+	all? ( <dev-python/base58-3.0[${PYTHON_USEDEP}] )
 	all? ( <dev-python/pycryptodome-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

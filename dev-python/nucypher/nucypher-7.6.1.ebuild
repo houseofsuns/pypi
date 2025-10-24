@@ -139,7 +139,7 @@ DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
 	dev? ( dev-python/atxm[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/autobahn-24.4.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/automat-25.4.16[${PYTHON_USEDEP}] )
-	dev? ( dev-python/base58[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/base58-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bitarray-3.7.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/blinker-1.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bytestring-splitter[${PYTHON_USEDEP}] )

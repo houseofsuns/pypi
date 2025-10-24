@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/base58-2.0.1[${PYTHON_USEDEP}]
 	~dev-python/ecdsa-0.15[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
 	~dev-python/msgpack-0.6.2[${PYTHON_USEDEP}]

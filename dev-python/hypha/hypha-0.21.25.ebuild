@@ -110,7 +110,7 @@ DEPENDENCIES=">=dev-python/websockets-14.0[${PYTHON_USEDEP}]
 	server-apps? ( dev-python/aiortc[${PYTHON_USEDEP}] )
 	server-apps? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	server-apps? ( dev-python/base58[${PYTHON_USEDEP}] )
+	server-apps? ( >=dev-python/base58-2.1.0[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/pymultihash[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/fastuuid[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

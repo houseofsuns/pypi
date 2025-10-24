@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="client"
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/base58-2.2.0[${PYTHON_USEDEP}]
 	client? ( <dev-python/structlog-22.4.0[${PYTHON_USEDEP}] )
 	client? ( <dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}] )
 	<dev-python/cryptography-42.1.0[${PYTHON_USEDEP}]

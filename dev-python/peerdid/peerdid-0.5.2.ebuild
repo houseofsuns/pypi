@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/base58-2.1.0[${PYTHON_USEDEP}]
 	dev-python/pydid[${PYTHON_USEDEP}]
 	dev-python/varint[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Pythonic interface to the HepMC3 C++ library licensed under LGPL-v3."
+DESCRIPTION="Pythonic interface to the HepMC3 C++ library licensed under LGPL-v3. [top-max 2.15.1]"
 
 HOMEPAGE=""
 LICENSE="BSD 3-Clause License"

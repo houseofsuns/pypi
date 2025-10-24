@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/planetmint-cryptoconditions[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-3.0.0[${PYTHON_USEDEP}]
 	dev-python/planetmint-py-cid[${PYTHON_USEDEP}]
 	dev-python/planetmint-ipld[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]

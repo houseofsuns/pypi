@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="askar authlib did-peer legacy nacl"
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	dev-python/pydid[${PYTHON_USEDEP}]
 	askar? ( dev-python/aries-askar[${PYTHON_USEDEP}] )
 	did-peer? ( dev-python/did-peer_2[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pyPEG2[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/libnacl-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pyaes-2.0.0[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/varint[${PYTHON_USEDEP}]
 	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/morphys[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]"
+	<dev-python/base58-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

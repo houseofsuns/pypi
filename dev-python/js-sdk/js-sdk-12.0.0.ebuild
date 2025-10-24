@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/pygithub-2.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Beaker[${PYTHON_USEDEP}]
 	dev-python/certbot-nginx[${PYTHON_USEDEP}]
 	<dev-python/certifi-2020.0[${PYTHON_USEDEP}]

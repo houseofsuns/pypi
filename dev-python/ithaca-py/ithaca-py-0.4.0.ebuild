@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
 	<dev-python/cryptography-43.0.0[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]

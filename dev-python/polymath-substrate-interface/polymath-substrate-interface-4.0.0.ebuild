@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="~dev-python/websocket-client-0.58.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.0.1[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2020.11.8[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.8[${PYTHON_USEDEP}]
 	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]

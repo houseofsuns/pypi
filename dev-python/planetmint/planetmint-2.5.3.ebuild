@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]

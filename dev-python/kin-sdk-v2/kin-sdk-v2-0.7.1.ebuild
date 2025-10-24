@@ -30,7 +30,7 @@ DEPENDENCIES="~dev-python/grpcio-1.34.1[${PYTHON_USEDEP}]
 	dev-python/pure25519[${PYTHON_USEDEP}]
 	~dev-python/protobuf-3.12.2[${PYTHON_USEDEP}]
 	~dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.0.1[${PYTHON_USEDEP}]
 	dev-python/ed25519[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

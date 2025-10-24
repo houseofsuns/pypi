@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/bit[${PYTHON_USEDEP}]
 	dev-python/bip32utils[${PYTHON_USEDEP}]
 	~dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
 	~dev-python/pbkdf2-1.3[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]"
+	~dev-python/base58-2.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

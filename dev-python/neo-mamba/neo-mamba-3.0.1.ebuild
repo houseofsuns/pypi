@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs examples"
 DEPENDENCIES="~dev-python/aiodns-3.5.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.10[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	~dev-python/bitarray-2.9.2[${PYTHON_USEDEP}]
 	~dev-python/events-0.5[${PYTHON_USEDEP}]
 	~dev-python/jsonschema-4.25.1[${PYTHON_USEDEP}]

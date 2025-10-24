@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/funget[${PYTHON_USEDEP}]
 	alipan? ( dev-python/fundrive-alipan[${PYTHON_USEDEP}] )
 	oss? ( dev-python/oss2[${PYTHON_USEDEP}] )
 	webdav? ( dev-python/webdav4[${PYTHON_USEDEP}] )
-	wenshushu? ( dev-python/base58[${PYTHON_USEDEP}] )
+	wenshushu? ( >=dev-python/base58-2.1.1[${PYTHON_USEDEP}] )
 	wenshushu? ( dev-python/pycryptodomex[${PYTHON_USEDEP}] )
 	baidu? ( dev-python/fundrive-baidu[${PYTHON_USEDEP}] )
 	lanzou? ( dev-python/fundrive-lanzou[${PYTHON_USEDEP}] )"

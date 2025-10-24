@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/pynacl[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-0.2.5[${PYTHON_USEDEP}]
 	~dev-python/ecdsa-0.17.0[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	~dev-python/freezegun-1.1.0[${PYTHON_USEDEP}]

@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/ecdsa-1.0[${PYTHON_USEDEP}]
 	dev-python/ed25519-blake2b[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
 	<dev-python/pynacl-2.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-3.0[${PYTHON_USEDEP}]
 	<dev-python/cbor2-6.0[${PYTHON_USEDEP}]
 	cli? ( <dev-python/click-9.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click-aliases[${PYTHON_USEDEP}] )

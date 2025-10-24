@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-44.0.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.10.6[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/click-8.2.0[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	<dev-python/base58-2.2.0[${PYTHON_USEDEP}]
 	<dev-python/build-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/ecdsa-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

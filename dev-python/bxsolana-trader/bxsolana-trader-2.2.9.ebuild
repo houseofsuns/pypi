@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	~dev-python/grpclib-0.4.3[${PYTHON_USEDEP}]
 	~dev-python/aiounittest-1.4.1[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.1.1[${PYTHON_USEDEP}]
 	dev-python/solana[${PYTHON_USEDEP}]
 	dev-python/solders[${PYTHON_USEDEP}]
 	dev-python/bx-jsonrpc-py[${PYTHON_USEDEP}]

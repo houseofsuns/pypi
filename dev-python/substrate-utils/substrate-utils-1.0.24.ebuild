@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="~dev-python/websockets-8.1[${PYTHON_USEDEP}]
 	dev-python/scalecodec[${PYTHON_USEDEP}]
-	dev-python/base58[${PYTHON_USEDEP}]
+	~dev-python/base58-2.0.1[${PYTHON_USEDEP}]
 	dev-python/py-bip39-bindings[${PYTHON_USEDEP}]
 	dev-python/py-sr25519-bindings[${PYTHON_USEDEP}]
 	~dev-python/xxhash-1.4.3[${PYTHON_USEDEP}]

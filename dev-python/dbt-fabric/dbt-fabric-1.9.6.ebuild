@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Microsoft Fabric Synapse Data Warehouse adapter plugin for dbt"
+DESCRIPTION="A Microsoft Fabric Synapse Data Warehouse adapter plugin for dbt [top-max 1.9.7]"
 
 HOMEPAGE="https://github.com/microsoft/dbt-fabric"
 LICENSE="MIT"

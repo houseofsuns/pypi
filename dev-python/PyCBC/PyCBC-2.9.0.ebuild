@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core library to analyze gravitational-wave data, find signals, and study their parameters."
+DESCRIPTION="Core library to analyze gravitational-wave data, find signals, and study their parameters. [top-max 2.10.0]"
 
 HOMEPAGE="http://pycbc.org/"
 LICENSE=""

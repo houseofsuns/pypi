@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="question handling engine for OVOS"
+DESCRIPTION="question handling engine for OVOS [top-max 1.1.9_alpha3]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-common-query-pipeline-plugin"
 LICENSE="Apache-2.0"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="~dev-python/spur-0.3.23[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/spur[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-3.6.2.1[${PYTHON_USEDEP}]
 	dev-python/icontract[${PYTHON_USEDEP}]
 	dev-python/temppathlib[${PYTHON_USEDEP}]

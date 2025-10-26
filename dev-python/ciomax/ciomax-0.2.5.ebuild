@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Max plugin for Conductor Cloud Rendering Platform. [top-max 0.7.0_beta2]"
+DESCRIPTION="Max plugin for Conductor Cloud Rendering Platform. [top-max 0.7.0_beta4]"
 
 HOMEPAGE="https://github.com/AtomicConductor/conductor-max"
 LICENSE=""

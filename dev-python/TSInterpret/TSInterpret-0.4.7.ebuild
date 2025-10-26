@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0[${PYTHON_USEDEP}]
 	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
-	~dev-python/partd-1.2.0[${PYTHON_USEDEP}]
+	dev-python/partd[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
@@ -61,7 +61,7 @@ DEPENDENCIES="~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	dev? ( <dev-python/joblib-2.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/markdown-3.3.4[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/partd-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/partd[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytz-2021.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/shap[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -96,7 +96,7 @@ DEPENDENCIES="~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/joblib-2.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/markdown-3.3.4[${PYTHON_USEDEP}] )
 	test? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/partd-1.2.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/partd[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytz-2021.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/shap[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -148,7 +148,7 @@ DEPENDENCIES="~dev-python/scikit-learn-1.3.0[${PYTHON_USEDEP}]
 	all? ( <dev-python/joblib-2.0[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/markdown-3.3.4[${PYTHON_USEDEP}] )
 	all? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/partd-1.2.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/partd[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytz-2021.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/shap[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/simplejson-3.11.1[${PYTHON_USEDEP}]
-	~dev-python/spur-0.3.22[${PYTHON_USEDEP}]
+	dev-python/spur[${PYTHON_USEDEP}]
 	~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

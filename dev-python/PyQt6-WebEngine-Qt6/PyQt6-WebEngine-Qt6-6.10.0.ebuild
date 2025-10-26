@@ -16,8 +16,8 @@ DESCRIPTION="The subset of a Qt installation needed by PyQt6-WebEngine. [wheel]"
 
 HOMEPAGE="https://www.riverbankcomputing.com/software/pyqt/"
 LICENSE="LGPL v3"
-SRC_URI="https://files.pythonhosted.org/packages/eb/12/63be8fa2c81811b414efab618661469fee1a2285dbc09a22db38dc87fa86/pyqt6_webengine_qt6-${REALVERSION}-py3-none-macosx_10_14_x86_64.whl"
-SOURCEFILE="pyqt6_webengine_qt6-${REALVERSION}-py3-none-macosx_10_14_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/27/08/0618de6b347a6caef932cc4f54223d34f5d092cd22e702c583f445007417/pyqt6_webengine_qt6-${REALVERSION}-py3-none-manylinux_2_34_x86_64.whl"
+SOURCEFILE="pyqt6_webengine_qt6-${REALVERSION}-py3-none-manylinux_2_34_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

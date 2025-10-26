@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scientific Computing Package [top-max 2.0.0]"
+DESCRIPTION="Scientific Computing Package [top-max 2.1.0]"
 
 HOMEPAGE="https://www.pebytes.com"
 LICENSE=""

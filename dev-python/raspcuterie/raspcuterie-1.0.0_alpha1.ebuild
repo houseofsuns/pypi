@@ -30,7 +30,7 @@ DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	dev-python/RPi-GPIO[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/timeout-decorator-0.6.0[${PYTHON_USEDEP}]
+	dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/RPi-bme280[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

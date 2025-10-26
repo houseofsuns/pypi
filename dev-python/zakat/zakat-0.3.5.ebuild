@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python Library for Islamic Financial Management."
+DESCRIPTION="A Python Library for Islamic Financial Management. [top-max 0.3.6]"
 
 HOMEPAGE="https://github.com/vzool/zakat"
 LICENSE=""

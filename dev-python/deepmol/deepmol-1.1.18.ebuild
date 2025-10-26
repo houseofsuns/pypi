@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	~dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}]
+	dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	rdkit? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	test? ( dev-python/joblib[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	deep-learning? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	deep-learning? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	deep-learning? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	deep-learning? ( ~dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}] )
+	deep-learning? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
 	deep-learning? ( dev-python/torch[${PYTHON_USEDEP}] )
 	deep-learning? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	deep-learning? ( dev-python/deepchem[${PYTHON_USEDEP}] )
@@ -83,7 +83,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	machine-learning? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	machine-learning? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	machine-learning? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	machine-learning? ( ~dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}] )
+	machine-learning? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
 	machine-learning? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	machine-learning? ( dev-python/joblib[${PYTHON_USEDEP}] )
 	machine-learning? ( dev-python/Boruta[${PYTHON_USEDEP}] )
@@ -111,7 +111,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	preprocessing? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	preprocessing? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	preprocessing? ( ~dev-python/dill-0.3.6[${PYTHON_USEDEP}] )
-	preprocessing? ( ~dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}] )
+	preprocessing? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
 	preprocessing? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	preprocessing? ( <=dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	preprocessing? ( dev-python/Boruta[${PYTHON_USEDEP}] )
@@ -137,7 +137,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	kaleido? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	chembl-structure-pipeline? ( dev-python/chembl-structure-pipeline[${PYTHON_USEDEP}] )
-	timeout-decorator? ( ~dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}] )
+	timeout-decorator? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
 	biosynfoni? ( dev-python/biosynfoni[${PYTHON_USEDEP}] )
 	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -165,7 +165,7 @@ DEPENDENCIES="dev-python/rdkit[${PYTHON_USEDEP}]
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}] )
+	all? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/shap[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )

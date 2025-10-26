@@ -59,7 +59,7 @@ DEPENDENCIES="~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}]
 	ml? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tensorflow-aarch64[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
-	~dev-python/timeout-decorator-0.4.1[${PYTHON_USEDEP}]
+	dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	~dev-python/twisted-22.10.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]

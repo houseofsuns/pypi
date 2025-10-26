@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DataForSEO API documentation"
+DESCRIPTION="DataForSEO API documentation [top-max 2.0.12]"
 
 HOMEPAGE="https://github.com/dataforseo/PythonClient"
 LICENSE=""

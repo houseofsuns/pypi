@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python library for sending messages to DingTalk chatbot"
+DESCRIPTION="A Python library for sending messages to DingTalk chatbot [top-max 0.24.3]"
 
 HOMEPAGE="https://github.com/open-dingtalk/dingtalk-stream-sdk-python"
 LICENSE="MIT"

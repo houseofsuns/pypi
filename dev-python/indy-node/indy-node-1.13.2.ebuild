@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/indy-plenum[${PYTHON_USEDEP}]
 	~dev-python/importlib-metadata-3.10.1[${PYTHON_USEDEP}]
-	>=dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}]
+	dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	~dev-python/distro-1.7.0[${PYTHON_USEDEP}]
 	tests? ( >=dev-python/attrs-20.3.0[${PYTHON_USEDEP}] )
 	tests? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )

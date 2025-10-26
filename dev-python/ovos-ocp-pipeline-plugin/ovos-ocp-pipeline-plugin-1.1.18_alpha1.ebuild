@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="media intent parser for OVOS"
+DESCRIPTION="media intent parser for OVOS [top-max 1.1.18_alpha3]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-ocp-pipeline-plugin"
 LICENSE="Apache-2.0"

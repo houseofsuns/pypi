@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Large Language Models Tools"
+DESCRIPTION="Large Language Models Tools [top-max 1.7.1]"
 
 HOMEPAGE="https://github.com/Equiron-AI/contextflow"
 LICENSE=""

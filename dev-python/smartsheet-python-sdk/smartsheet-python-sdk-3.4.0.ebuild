@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library that uses Python to connect to Smartsheet services (using API 2.0)."
+DESCRIPTION="Library that uses Python to connect to Smartsheet services (using API 2.0). [top-max 3.5.0]"
 
 HOMEPAGE="http://smartsheet-platform.github.io/api-docs/"
 LICENSE="Apache-2.0"

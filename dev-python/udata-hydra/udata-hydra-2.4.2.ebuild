@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Async crawler and parsing service for data.gouv.fr [new-max 2025-10-21 07:44:29.294429+00:00]"
+DESCRIPTION="Async crawler and parsing service for data.gouv.fr [new-max 2025-10-23 12:37:51.522546+00:00]"
 
 HOMEPAGE=""
 LICENSE="MIT"

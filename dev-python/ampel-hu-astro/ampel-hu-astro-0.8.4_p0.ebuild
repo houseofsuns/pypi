@@ -49,7 +49,7 @@ DEPENDENCIES="ligo? ( dev-python/ampel-ztf[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	elasticc? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	elasticc? ( dev-python/astro-parsnip[${PYTHON_USEDEP}] )
-	elasticc? ( <dev-python/timeout-decorator-0.6[${PYTHON_USEDEP}] )
+	elasticc? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
 	notebook? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
 	voevent? ( dev-python/voevent-parse[${PYTHON_USEDEP}] )
 	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]

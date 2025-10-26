@@ -33,7 +33,7 @@ DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/python-snappy-0.6.1[${PYTHON_USEDEP}]
 	dev-python/multitasking[${PYTHON_USEDEP}]
-	>=dev-python/partd-1.4.0[${PYTHON_USEDEP}]
+	dev-python/partd[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )

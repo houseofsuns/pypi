@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A framework for creating AWS Lambda Async Workflows. - Unstable Branch"
+DESCRIPTION="A framework for creating AWS Lambda Async Workflows. - Unstable Branch [top-max 0.5.8]"
 
 HOMEPAGE=""
 LICENSE=""

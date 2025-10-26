@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Configuration tools for NeXDaTaS Tango Servers"
+DESCRIPTION="Configuration tools for NeXDaTaS Tango Servers [top-max 4.29.0]"
 
 HOMEPAGE="http://github.com/nexdatas/nxstools"
 LICENSE="GNU GENERAL PUBLIC LICENSE version 3"

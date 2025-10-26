@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/drake[${PYTHON_USEDEP}]
 	all? ( >=dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	>=dev-python/pydot-1.3.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/scipy-1.10.0[${PYTHON_USEDEP}] )
-	grader? ( >=dev-python/timeout-decorator-0.4.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/timeout-decorator-0.4.1[${PYTHON_USEDEP}] )"
+	grader? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
+	all? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

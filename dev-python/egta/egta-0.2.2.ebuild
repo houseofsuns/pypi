@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/gameanalysis[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-xdist-2.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-6.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/timeout-decorator-0.4[${PYTHON_USEDEP}] )
+	dev? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/twine-3.2[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/wheel-0.35[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

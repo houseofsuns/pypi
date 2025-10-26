@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tree-sitter-languages[${PYTHON_USEDEP}]
 	dev-python/neo4j[${PYTHON_USEDEP}]
-	<dev-python/timeout-decorator-0.6.0[${PYTHON_USEDEP}]
+	dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	dev-python/llama-index-packs-code-hierarchy-blar[${PYTHON_USEDEP}]
 	<dev-python/json5-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

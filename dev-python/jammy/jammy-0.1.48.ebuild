@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/stackprinter[${PYTHON_USEDEP}]
-	>=dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}]
+	dev-python/timeout-decorator[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.11.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/h5py-3.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightning[${PYTHON_USEDEP}] )

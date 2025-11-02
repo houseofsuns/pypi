@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binance REST API python implementation"
+DESCRIPTION="Binance REST API python implementation [top-max 1.0.31]"
 
 HOMEPAGE="https://github.com/sammchardy/python-binance"
 LICENSE="MIT"

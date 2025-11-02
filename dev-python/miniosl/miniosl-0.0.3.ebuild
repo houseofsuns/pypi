@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python interface to miniosl (shogi library) [top-max 0.1.6]"
+DESCRIPTION="A python interface to miniosl (shogi library) [top-max 0.1.7]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Thingsboard Gateway for IoT devices."
+DESCRIPTION="Thingsboard Gateway for IoT devices. [top-max 3.7.9]"
 
 HOMEPAGE="https://github.com/thingsboard/thingsboard-gateway"
 LICENSE="Apache Software License Apache Software License 2.0"

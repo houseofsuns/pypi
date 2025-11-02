@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tencent Cloud SDK for Python"
+DESCRIPTION="Tencent Cloud SDK for Python [top-max 3.0.1295]"
 
 HOMEPAGE="https://github.com/TencentCloud/tencentcloud-sdk-python-intl-en"
 LICENSE="Apache-2.0"

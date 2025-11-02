@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ThingsBoard python client SDK"
+DESCRIPTION="ThingsBoard python client SDK [top-max 1.13.11]"
 
 HOMEPAGE="https://github.com/thingsboard/thingsboard-python-client-sdk"
 LICENSE="Apache Software License Apache Software License 2.0"

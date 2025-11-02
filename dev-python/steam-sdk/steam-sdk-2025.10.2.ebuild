@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Source code for APIs for STEAM tools."
+DESCRIPTION="Source code for APIs for STEAM tools. [top-max 2025.10.3]"
 
 HOMEPAGE="https://gitlab.cern.ch/steam/steam_sdk"
 LICENSE=""

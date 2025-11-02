@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Customized uWSGI server for Envoxy"
+DESCRIPTION="Customized uWSGI server for Envoxy [top-max 0.4.14]"
 
 HOMEPAGE="https://github.com/habitio/envoxy"
 LICENSE=""

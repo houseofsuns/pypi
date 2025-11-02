@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Feedback Data Latency model for PQSC, SHF- and HDAWG systems. [top-max 25.7.0]"
+DESCRIPTION="Feedback Data Latency model for PQSC, SHF- and HDAWG systems. [top-max 25.10.0]"
 
 HOMEPAGE=""
 LICENSE=""

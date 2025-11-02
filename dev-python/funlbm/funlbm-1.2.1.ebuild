@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="funlbm [top-max 1.2.53]"
+DESCRIPTION="funlbm [top-max 1.2.87]"
 
 HOMEPAGE=""
 LICENSE=""

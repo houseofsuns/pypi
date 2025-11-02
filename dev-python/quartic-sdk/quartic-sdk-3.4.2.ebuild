@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QuarticSDK is the SDK package which exposes the APIs to the user"
+DESCRIPTION="QuarticSDK is the SDK package which exposes the APIs to the user [top-max 3.5.0]"
 
 HOMEPAGE="https://github.com/Quarticai/QuarticSDK/"
 LICENSE="MIT"

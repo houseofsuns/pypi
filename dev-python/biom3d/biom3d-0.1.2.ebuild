@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=standalone
+DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Biom3d. Framework for easy-to-use biomedical image segmentation."
+DESCRIPTION="Biom3d. Framework for easy-to-use biomedical image segmentation. [wheel]"
 
 HOMEPAGE="https://github.com/GuillaumeMougeot/biom3d"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-2-py3-none-any.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-2-py3-none-any.whl"
 RESTRICT="test"
 
 SLOT="0"
@@ -55,6 +55,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytorch-sphinx-theme[${PYTHON_USEDEP}] )
 	gui? ( dev-python/omero-py[${PYTHON_USEDEP}] )
-	gui? ( dev-python/ezomero[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/ezomero[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

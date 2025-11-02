@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [top-max 11.4]"
+DESCRIPTION=" [top-max 11.4.2]"
 
 HOMEPAGE="https://github.com/VDOO-Connected-Trust/ghidra-pyi-generator"
 LICENSE=""

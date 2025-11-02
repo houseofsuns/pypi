@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Konga client library [top-max 2.0.3]"
+DESCRIPTION="Konga client library [top-max 2.0.4]"
 
 HOMEPAGE="https://github.com/easybyte-software/kongalib"
 LICENSE="LGPL-3"

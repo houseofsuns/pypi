@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alibaba Cloud dataworks-public (20240518) SDK Library for Python"
+DESCRIPTION="Alibaba Cloud dataworks-public (20240518) SDK Library for Python [top-max 7.4.1]"
 
 HOMEPAGE="https://github.com/aliyun/alibabacloud-python-sdk"
 LICENSE="Apache-2.0"

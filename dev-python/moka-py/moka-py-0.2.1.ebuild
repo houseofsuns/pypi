@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A high performance caching library for Python written in Rust"
+DESCRIPTION="A high performance caching library for Python written in Rust [top-max 0.2.4]"
 
 HOMEPAGE="https://github.com/deliro/moka-py"
 LICENSE=""

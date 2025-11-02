@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for PVM [top-max 1.9.5]"
+DESCRIPTION="Python library for PVM [top-max 1.9.10]"
 
 HOMEPAGE=""
 LICENSE=""

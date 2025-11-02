@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Client for Xinference"
+DESCRIPTION="Client for Xinference [top-max 1.12.0]"
 
 HOMEPAGE="https://github.com/xorbitsai/inference-client"
 LICENSE="Apache-2.0"

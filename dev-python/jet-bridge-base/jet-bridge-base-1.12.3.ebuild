@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [top-max 1.12.4]"
 
 HOMEPAGE="https://github.com/jet-admin/jet-bridge-base"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Collection of useful functionalities used across the Fink ecosystem."
+DESCRIPTION="Collection of useful functionalities used across the Fink ecosystem. [top-max 0.44.0]"
 
 HOMEPAGE="https://github.com/astrolabsoftware/fink-utils"
 LICENSE=""

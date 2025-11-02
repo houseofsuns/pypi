@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="types-PySide2"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The most accurate stubs for PySide2"
+DESCRIPTION="The most accurate stubs for PySide2 [top-max 5.15.2.1.8]"
 
 HOMEPAGE="https://github.com/LumaPictures/cg-stubs"
 LICENSE="MIT"

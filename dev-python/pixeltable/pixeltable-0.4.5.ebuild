@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AI Data Infrastructure: Declarative, Multimodal, and Incremental [top-max 0.4.18]"
+DESCRIPTION="AI Data Infrastructure: Declarative, Multimodal, and Incremental [top-max 0.4.19]"
 
 HOMEPAGE="https://pixeltable.com/"
 LICENSE="Apache-2.0"

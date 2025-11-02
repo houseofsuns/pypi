@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Programming tools for programming geoscan pioneer drone"
+DESCRIPTION="Programming tools for programming geoscan pioneer drone [top-max 0.6.0]"
 
 HOMEPAGE="https://github.com/geoscan/pioneer_sdk"
 LICENSE="MIT"

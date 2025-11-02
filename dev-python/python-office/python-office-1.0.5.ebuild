@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="www.python-office.com"
+DESCRIPTION="www.python-office.com [top-max 1.0.6]"
 
 HOMEPAGE="https://github.com/CoderWanFeng/python-office"
 LICENSE="Apache-2.0 license"

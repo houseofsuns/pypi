@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library to work with raw data and metadata from the Murchison Widefield Array (MWA) [top-max 1.8.7]"
+DESCRIPTION="A library to work with raw data and metadata from the Murchison Widefield Array (MWA) [top-max 1.9.0]"
 
 HOMEPAGE="https://github.com/MWATelescope/mwalib"
 LICENSE="MPL-2.0"

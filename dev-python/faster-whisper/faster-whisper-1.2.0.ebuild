@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Faster Whisper transcription with CTranslate2"
+DESCRIPTION="Faster Whisper transcription with CTranslate2 [top-max 1.2.1]"
 
 HOMEPAGE="https://github.com/SYSTRAN/faster-whisper"
 LICENSE="MIT"

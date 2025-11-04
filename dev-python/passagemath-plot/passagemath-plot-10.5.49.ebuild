@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Plotting and graphics with Matplotlib, Three.JS, etc."
+DESCRIPTION="passagemath: Plotting and graphics with Matplotlib, Three.JS, etc. [new-max 2025-11-04 08:16:33.743427+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

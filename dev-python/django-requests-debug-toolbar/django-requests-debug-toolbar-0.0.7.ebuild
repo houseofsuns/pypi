@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Django Debug Toolbar panel for Requests"
+DESCRIPTION="A Django Debug Toolbar panel for Requests [top-max 0.0.8]"
 
 HOMEPAGE="https://github.com/marceltschoppch/django-requests-debug-toolbar"
 LICENSE="MIT"

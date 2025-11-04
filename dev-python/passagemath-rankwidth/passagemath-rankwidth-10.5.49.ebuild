@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Rankwidth and rank decompositions of graphs with rw"
+DESCRIPTION="passagemath: Rankwidth and rank decompositions of graphs with rw [new-max 2025-11-04 08:16:39.631825+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

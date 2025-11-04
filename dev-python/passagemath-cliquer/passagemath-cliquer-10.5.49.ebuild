@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Finding cliques in graphs with cliquer"
+DESCRIPTION="passagemath: Finding cliques in graphs with cliquer [new-max 2025-11-04 08:15:23.480218+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="XProf Profiler Plugin [top-max 2.20.9]"
+DESCRIPTION="XProf Profiler Plugin [top-max 2.21.0]"
 
 HOMEPAGE="https://github.com/openxla/xprof"
 LICENSE="Apache-2.0"

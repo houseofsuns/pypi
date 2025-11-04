@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The official Aliyun SDK for Python."
+DESCRIPTION="The official Aliyun SDK for Python. [top-max 3.7.862]"
 
 HOMEPAGE="https://github.com/alipay/alipay-sdk-python-all"
 LICENSE="Apache-2.0"

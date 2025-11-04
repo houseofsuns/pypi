@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python library for Luminesce [top-max 1.0.520]"
+DESCRIPTION="Python library for Luminesce [top-max 1.0.522]"
 
 HOMEPAGE=""
 LICENSE="MIT"

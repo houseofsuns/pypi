@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Polynomial system solving through algebraic methods with cddlib"
+DESCRIPTION="passagemath: Polynomial system solving through algebraic methods with cddlib [new-max 2025-11-04 08:15:17.741491+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

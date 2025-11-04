@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="scripts for calculating likelihood ratios [top-max 1.0.0]"
+DESCRIPTION="scripts for calculating likelihood ratios [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/NetherlandsForensicInstitute/lir"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Graph planarity with the edge addition planarity suite"
+DESCRIPTION="passagemath: Graph planarity with the edge addition planarity suite [new-max 2025-11-04 08:16:28.910378+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

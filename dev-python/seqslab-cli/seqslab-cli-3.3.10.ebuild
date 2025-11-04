@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Atgenomix SeqsLab Command Line Tool"
+DESCRIPTION="Atgenomix SeqsLab Command Line Tool [top-max 3.3.11]"
 
 HOMEPAGE="https://github.com/AnomeGAP/seqslab-cli"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Securities Investment Analysis Tools (siat) [top-max 3.33.9]"
+DESCRIPTION="Securities Investment Analysis Tools (siat) [top-max 3.33.11]"
 
 HOMEPAGE="https://pypi.org/project/siat/"
 LICENSE="Copyright C WANG Dehong, 2025. For educational purpose only"

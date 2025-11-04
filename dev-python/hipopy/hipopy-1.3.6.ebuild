@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UpROOT-Like I/O Interface for CLAS12 HIPO Files"
+DESCRIPTION="UpROOT-Like I/O Interface for CLAS12 HIPO Files [top-max 2.0.1]"
 
 HOMEPAGE="https://github.com/mfmceneaney/hipopy.git"
 LICENSE="MIT"

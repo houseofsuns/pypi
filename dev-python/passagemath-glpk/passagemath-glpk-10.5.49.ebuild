@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Linear and mixed integer linear optimization backend using GLPK"
+DESCRIPTION="passagemath: Linear and mixed integer linear optimization backend using GLPK [new-max 2025-11-04 08:15:49.045380+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

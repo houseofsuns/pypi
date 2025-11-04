@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Algebraic combinatorics, combinatorial representation theory"
+DESCRIPTION="passagemath: Algebraic combinatorics, combinatorial representation theory [new-max 2025-11-04 08:15:39.703348+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

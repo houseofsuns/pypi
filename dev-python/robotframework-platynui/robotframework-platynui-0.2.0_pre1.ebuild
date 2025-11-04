@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cross-platform UI automation toolkit for Robot Framework with XPath-based element selection [new-max 2025-10-23 15:46:01.085316+00:00]"
+DESCRIPTION="Cross-platform UI automation toolkit for Robot Framework with XPath-based element selection [new-max 2025-11-04 08:11:49.702438+00:00]"
 
 HOMEPAGE="https://github.com/imbus/robotframework-PlatynUI"
 LICENSE="Apache-2.0"

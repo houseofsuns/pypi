@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper around NXP LIBUSBSIO library"
+DESCRIPTION="Python wrapper around NXP LIBUSBSIO library [top-max 2.2.0]"
 
 HOMEPAGE=""
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The nas module of Aliyun Python sdk."
+DESCRIPTION="The nas module of Aliyun Python sdk. [top-max 3.14.5]"
 
 HOMEPAGE="http://develop.aliyun.com/sdk/python"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ExtremeCloud IQ API"
+DESCRIPTION="ExtremeCloud IQ API [top-max 25.5.1_p15]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

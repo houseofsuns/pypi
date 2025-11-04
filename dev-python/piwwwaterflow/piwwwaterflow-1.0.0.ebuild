@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Raspberry Pi Waterflow resilient system"
+DESCRIPTION="Raspberry Pi Waterflow resilient system [top-max 1.2.5]"
 
 HOMEPAGE="https://github.com/Phornee/piwwwaterflow"
 LICENSE=""

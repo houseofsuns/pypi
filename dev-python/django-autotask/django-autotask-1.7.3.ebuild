@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django app for working with Autotask. Defines models (tickets, members, companies, etc.) and callbacks."
+DESCRIPTION="Django app for working with Autotask. Defines models (tickets, members, companies, etc.) and callbacks. [top-max 1.7.4]"
 
 HOMEPAGE="https://github.com/KerkhoffTechnologies/django-autotask"
 LICENSE="MIT"

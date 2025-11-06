@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Sentence segmenter that supports ~300 languages"
+DESCRIPTION="Sentence segmenter that supports ~300 languages [top-max 1.0.6]"
 
 HOMEPAGE="https://github.com/wikimedia/sentencex"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FastLED Wasm Compiler [top-max 1.4.50]"
+DESCRIPTION="FastLED Wasm Compiler [top-max 1.4.51]"
 
 HOMEPAGE="https://github.com/zackees/fastled-wasm"
 LICENSE="BSD 3-Clause License"

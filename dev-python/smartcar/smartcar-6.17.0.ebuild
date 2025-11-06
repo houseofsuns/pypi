@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Smartcar Python SDK"
+DESCRIPTION="Smartcar Python SDK [top-max 6.18.3]"
 
 HOMEPAGE="https://github.com/smartcar/python-sdk"
 LICENSE="MIT"

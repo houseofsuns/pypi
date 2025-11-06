@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Object-relational zero-copy in-memory database layer for LMDB."
+DESCRIPTION="Object-relational zero-copy in-memory database layer for LMDB. [top-max 25.10.1]"
 
 HOMEPAGE="https://github.com/crossbario/zlmdb"
 LICENSE="MIT"

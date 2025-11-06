@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Delta Chat JSON-RPC server"
+DESCRIPTION="Delta Chat JSON-RPC server [top-max 2.25.0]"
 
 HOMEPAGE=""
 LICENSE=""

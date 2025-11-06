@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Confluent's Python client for Apache Kafka [wheel]"
+DESCRIPTION="Confluent's Python client for Apache Kafka"
 
 HOMEPAGE="https://github.com/confluentinc/confluent-kafka-python"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_28_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -308,7 +308,6 @@ DEPENDENCIES="schemaregistry? ( >=dev-python/attrs-21.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/orjson-3.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/googleapis-common-protos[${PYTHON_USEDEP}] )
-	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Interact with Coiote DM API"
+DESCRIPTION="Interact with Coiote DM API [top-max 2.15.0]"
 
 HOMEPAGE=""
 LICENSE=""

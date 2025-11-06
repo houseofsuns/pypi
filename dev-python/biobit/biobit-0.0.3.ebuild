@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Rust-powered Python library for biological data analysis [top-max 0.0.8]"
+DESCRIPTION="Rust-powered Python library for biological data analysis [top-max 0.0.9]"
 
 HOMEPAGE="https://github.com/terabio"
 LICENSE="MIT"

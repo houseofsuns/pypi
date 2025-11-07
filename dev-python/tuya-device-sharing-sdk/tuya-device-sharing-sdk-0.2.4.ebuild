@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official"
+DESCRIPTION="A Python sdk for Tuya Open API, which provides IoT capabilities, maintained by Tuya official [top-max 0.2.5]"
 
 HOMEPAGE="https://github.com/tuya/tuya-device-sharing-sdk"
 LICENSE="MIT"

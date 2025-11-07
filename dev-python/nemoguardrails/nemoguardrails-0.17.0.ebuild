@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems."
+DESCRIPTION="NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems. [top-max 0.18.0]"
 
 HOMEPAGE="https://github.com/NVIDIA/nemo-guardrails"
 LICENSE="LICENSE.md"

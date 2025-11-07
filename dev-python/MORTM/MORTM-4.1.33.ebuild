@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="mortm"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -16,8 +16,8 @@ DESCRIPTION="旋律生成、コード推定、マルチタスクな音楽生成�
 
 HOMEPAGE="https://github.com/Ayato964"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/d1/904f815fa9deb5d76736a530d2299cc6cac820b460fc8513dd9848e4b803/mortm-${REALVERSION}.tar.gz"
-SOURCEFILE="mortm-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

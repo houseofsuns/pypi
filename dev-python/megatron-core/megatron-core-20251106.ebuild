@@ -5,14 +5,14 @@ EAPI=8
 
 REALNAME="${PN}"
 LITERALNAME="${PN}"
-REALVERSION="0.16.0rc0.dev116413"
+REALVERSION="0.16.0rc0.dev119171"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
 DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Megatron Core - a library for efficient and scalable training of transformer based models [badver 0.16.0rc0.dev116413]"
+DESCRIPTION="Megatron Core - a library for efficient and scalable training of transformer based models [badver 0.16.0rc0.dev119171]"
 
 HOMEPAGE="https://github.com/NVIDIA/Megatron-LM/megatron/core"
 LICENSE="Apache-2.0"
@@ -54,9 +54,16 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	lts? ( dev-python/einops[${PYTHON_USEDEP}] )
 	lts? ( dev-python/tensorstore[${PYTHON_USEDEP}] )
 	lts? ( dev-python/nvtx[${PYTHON_USEDEP}] )
-	lts? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	lts? ( dev-python/zarr[${PYTHON_USEDEP}] )
+	lts? ( dev-python/multi-storage-client[${PYTHON_USEDEP}] )
+	lts? ( ~dev-python/opentelemetry-api-1.33.1[${PYTHON_USEDEP}] )
 	lts? ( <dev-python/setuptools-80.0.0[${PYTHON_USEDEP}] )
-	lts? ( dev-python/wget[${PYTHON_USEDEP}] )"
+	lts? ( dev-python/mamba-ssm[${PYTHON_USEDEP}] )
+	lts? ( dev-python/causal-conv1d[${PYTHON_USEDEP}] )
+	lts? ( dev-python/nv-grouped-gemm[${PYTHON_USEDEP}] )
+	lts? ( dev-python/megatron-energon[${PYTHON_USEDEP}] )
+	lts? ( dev-python/av[${PYTHON_USEDEP}] )
+	lts? ( dev-python/flashinfer-python[${PYTHON_USEDEP}] )
+	lts? ( dev-python/wget[${PYTHON_USEDEP}] )
+	lts? ( dev-python/onnxscript[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

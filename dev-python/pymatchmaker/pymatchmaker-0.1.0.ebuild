@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A package for real-time music alignment [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f716fc31a80>)]"
+DESCRIPTION="A package for real-time music alignment [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f96a93d8660>)]"
 
 HOMEPAGE="https://github.com/pymatchmaker/matchmaker"
 LICENSE="Apache-2.0"

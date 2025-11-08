@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Thin wrapper for pandoc."
+DESCRIPTION="Thin wrapper for pandoc. [top-max 1.16]"
 
 HOMEPAGE="https://github.com/JessicaTegner/pypandoc"
 LICENSE="MIT"

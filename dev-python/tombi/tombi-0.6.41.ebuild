@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="🦅 TOML Toolkit 🦅"
+DESCRIPTION="🦅 TOML Toolkit 🦅 [top-max 0.6.42]"
 
 HOMEPAGE=""
 LICENSE=""

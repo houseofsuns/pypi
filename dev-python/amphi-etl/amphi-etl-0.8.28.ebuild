@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Open-source and Python-based ETL [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f96cfdfec00>)]"
+DESCRIPTION="Open-source and Python-based ETL [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3622640740>)]"
 
 HOMEPAGE=""
 LICENSE="ELv2"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Install my app, not for all people"
+DESCRIPTION="Install my app, not for all people [top-max 0.0.33]"
 
 HOMEPAGE="http://gitea:8000/datlt4/fortifai_monitoring"
 LICENSE=""

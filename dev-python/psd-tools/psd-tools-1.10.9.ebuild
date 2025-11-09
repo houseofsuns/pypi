@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package for working with Adobe Photoshop PSD files [top-max 1.10.13]"
+DESCRIPTION="Python package for working with Adobe Photoshop PSD files [top-max 1.11.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

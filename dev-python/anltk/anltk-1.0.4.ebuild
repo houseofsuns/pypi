@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Arabic language processing toolkit"
+DESCRIPTION="Arabic language processing toolkit [top-max 1.0.8]"
 
 HOMEPAGE="https://github.com/Abdullah-AlAttar/anltk"
 LICENSE=""

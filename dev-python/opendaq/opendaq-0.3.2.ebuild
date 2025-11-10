@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python binding for openDAQ hardware [top-max 3.20.4]"
+DESCRIPTION="Python binding for openDAQ hardware [top-max 3.30.0]"
 
 HOMEPAGE="http://github.com/opendaq/python-opendaq"
 LICENSE="LGPL-3"

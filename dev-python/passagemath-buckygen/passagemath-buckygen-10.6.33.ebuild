@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Generation of nonisomorphic fullerenes with buckygen"
+DESCRIPTION="passagemath: Generation of nonisomorphic fullerenes with buckygen [top-max 10.6.34]"
 
 HOMEPAGE=""
 LICENSE=""

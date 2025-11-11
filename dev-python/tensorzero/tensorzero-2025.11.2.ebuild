@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The Python client for TensorZero"
+DESCRIPTION="The Python client for TensorZero [top-max 2025.11.3]"
 
 HOMEPAGE="https://tensorzero.com/"
 LICENSE=""

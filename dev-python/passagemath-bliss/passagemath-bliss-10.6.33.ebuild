@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Graph (iso/auto)morphisms with bliss"
+DESCRIPTION="passagemath: Graph (iso/auto)morphisms with bliss [top-max 10.6.34]"
 
 HOMEPAGE=""
 LICENSE=""

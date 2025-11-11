@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=standalone
+DISTUTILS_USE_PEP517=wheel
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API of Dynamic Animation and Robotics Toolkit. [top-max 7.0.0_pre0]"
+DESCRIPTION="Python API of Dynamic Animation and Robotics Toolkit. [wheel]"
 
 HOMEPAGE="https://github.com/dartsim/dart.git"
 LICENSE="BSD 2-Clause"
-SRC_URI="https://files.pythonhosted.org/packages/57/dc/c5e96357910c6de8659e16d00b808a880b42b0e626cccdfea900d3986bd7/${REALNAME}-${REALVERSION}.tar.gz"
-SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/5a/1210ec3ac25630a20109c16b6ddf9edc9ef17bb90c6c4e7cfe6cdf7bb650/${REALNAME}-${REALVERSION}-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+SOURCEFILE="${REALNAME}-${REALVERSION}-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"
@@ -25,6 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

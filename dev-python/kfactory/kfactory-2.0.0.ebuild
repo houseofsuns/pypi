@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocstrings-0.29.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/pymdown-extensions-10.14.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/griffe-pydantic[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe-inherited-docstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/griffe-inherited-docstrings-1.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/griffe-warnings-deprecated[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	ci? ( >=dev-python/pytest-8.3.5[${PYTHON_USEDEP}] )

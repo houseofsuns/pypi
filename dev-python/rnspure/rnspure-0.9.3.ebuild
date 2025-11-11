@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Self-configuring, encrypted and resilient mesh networking stack for LoRa, packet radio, WiFi and everything in between [top-max 1.0.1]"
+DESCRIPTION="Self-configuring, encrypted and resilient mesh networking stack for LoRa, packet radio, WiFi and everything in between [top-max 1.0.2]"
 
 HOMEPAGE="https://reticulum.network/"
 LICENSE=""

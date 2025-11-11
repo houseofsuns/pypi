@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/numpy-2.1.1[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/griffe-1.7.3[${PYTHON_USEDEP}] )
-	doc? ( dev-python/griffe-inherited-docstrings[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/griffe-inherited-docstrings-1.1.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/mkdocs-1.6.1[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/mkdocs-material-9.4.0[${PYTHON_USEDEP}] )
 	doc? ( ~dev-python/mkdocstrings-0.29.1[${PYTHON_USEDEP}] )

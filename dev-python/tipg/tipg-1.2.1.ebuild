@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump-my-version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/black-23.10.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe-inherited-docstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/griffe-inherited-docstrings-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-material-9.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.25.1[${PYTHON_USEDEP}] )

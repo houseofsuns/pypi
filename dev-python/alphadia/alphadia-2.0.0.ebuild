@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A novel proteomics search engine for DIA data based on end-to-end transfer learning."
+DESCRIPTION="A novel proteomics search engine for DIA data based on end-to-end transfer learning. [top-max 2.0.1]"
 
 HOMEPAGE="https://www.alphapept.org"
 LICENSE="Apache License"

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/hikari[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/mkdocs-1.6.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/mkdocstrings-python-1.10.9[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/black-24.8.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe-inherited-docstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/griffe-inherited-docstrings-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-glightbox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

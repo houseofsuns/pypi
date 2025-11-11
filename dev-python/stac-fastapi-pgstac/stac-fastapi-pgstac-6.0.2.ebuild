@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-material-9.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe-inherited-docstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/griffe-inherited-docstrings-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.25.1[${PYTHON_USEDEP}] )
 	server? ( ~dev-python/uvicorn-0.36.0[${PYTHON_USEDEP}] )
 	awslambda? ( dev-python/mangum[${PYTHON_USEDEP}] )

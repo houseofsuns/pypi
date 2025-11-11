@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/titiler-core[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-material-9.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe-inherited-docstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/griffe-inherited-docstrings-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocstrings-0.25.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

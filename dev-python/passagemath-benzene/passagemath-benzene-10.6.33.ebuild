@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Generate fusene and benzenoid graphs with benzene"
+DESCRIPTION="passagemath: Generate fusene and benzenoid graphs with benzene [top-max 10.6.34]"
 
 HOMEPAGE=""
 LICENSE=""

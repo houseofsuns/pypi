@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Boolean Ring Algebra with BRiAl"
+DESCRIPTION="passagemath: Boolean Ring Algebra with BRiAl [top-max 10.6.34]"
 
 HOMEPAGE=""
 LICENSE=""

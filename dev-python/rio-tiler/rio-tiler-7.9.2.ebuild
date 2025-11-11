@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump-my-version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe-inherited-docstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/griffe-inherited-docstrings-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-material-9.5[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )

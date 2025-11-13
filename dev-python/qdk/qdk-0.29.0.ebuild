@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Quantum Development Kit [top-max 1.22.1_pre0]"
+DESCRIPTION="Quantum Development Kit [top-max 1.22.3_pre0]"
 
 HOMEPAGE="https://github.com/microsoft/azure-quantum-python"
 LICENSE="MIT"

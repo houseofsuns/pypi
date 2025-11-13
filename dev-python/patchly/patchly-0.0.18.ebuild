@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A grid sampler for N-dimensional images"
+DESCRIPTION="A grid sampler for N-dimensional images [new-max 2025-11-11 13:29:16.519990+00:00]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

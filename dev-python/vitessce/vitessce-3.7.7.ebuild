@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Jupyter widget facilitating interactive visualization of spatial single-cell data with Vitessce [top-max 3.7.8]"
+DESCRIPTION="Jupyter widget facilitating interactive visualization of spatial single-cell data with Vitessce [top-max 3.7.9]"
 
 HOMEPAGE=""
 LICENSE="MIT"

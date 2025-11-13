@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A cookiecutter clone. A command-line utility that creates projects from templates. [top-max 2.0.0_beta1]"
+DESCRIPTION="A cookiecutter clone. A command-line utility that creates projects from templates."
 
 HOMEPAGE="https://gitlab.com/cappysan/mk-scaffold"
 LICENSE="MIT"

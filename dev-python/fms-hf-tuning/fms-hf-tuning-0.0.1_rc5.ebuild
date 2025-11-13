@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FMS HF Tuning [new-max 2025-11-10 20:30:03.878399+00:00]"
+DESCRIPTION="FMS HF Tuning [new-max 2025-11-11 18:14:30.951554+00:00]"
 
 HOMEPAGE="https://github.com/foundation-model-stack/fms-hf-tuning"
 LICENSE="Apache-2.0"

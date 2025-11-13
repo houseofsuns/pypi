@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="robotframework-PlatynUI"
 REALVERSION="0.2.0.dev1"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Cross-platform UI automation toolkit for Robot Framework with XPath-based element selection [new-max 2025-11-04 08:11:49.702438+00:00]"
+DESCRIPTION="Cross-platform UI automation toolkit for Robot Framework with XPath-based element selection [new-max 2025-11-11 15:09:27.983471+00:00]"
 
 HOMEPAGE="https://github.com/imbus/robotframework-PlatynUI"
 LICENSE="Apache-2.0"

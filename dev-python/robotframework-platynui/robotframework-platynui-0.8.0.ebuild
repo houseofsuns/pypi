@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="robotframework-PlatynUI"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="PlatynUI is a library for Robot Framework that enables easy and cross-platform desktop UI automation with a comprehensive set of keywords for interacting with desktop applications. [top-max 0.12.0_pre5]"
+DESCRIPTION="PlatynUI is a library for Robot Framework that enables easy and cross-platform desktop UI automation with a comprehensive set of keywords for interacting with desktop applications. [top-max 0.12.0_pre6]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Vertical Profile Data Retrieval and Analysis Tool For Python [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f9b4c2a4cf0>)]"
+DESCRIPTION="Vertical Profile Data Retrieval and Analysis Tool For Python [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feebb3c1c40>)]"
 
 HOMEPAGE=""
 LICENSE=""

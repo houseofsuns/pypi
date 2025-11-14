@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Library of helper modules for common data tasks using AWS resources such as S3, SQS, MTurk and others [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feed0fe1620>)]"
+DESCRIPTION="Library of helper modules for common data tasks using AWS resources such as S3, SQS, MTurk and others [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc82d7b9620>)]"
 
 HOMEPAGE="https://github.com/dschultz0/larry"
 LICENSE=""

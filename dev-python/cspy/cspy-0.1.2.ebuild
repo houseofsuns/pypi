@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of algorithms for the (Resource) Constrained Shortest Path Problem [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc83d4d7ca0>)]"
+DESCRIPTION="A collection of algorithms for the (Resource) Constrained Shortest Path Problem [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fef7a0d3ca0>)]"
 
 HOMEPAGE="https://github.com/torressa/cspy"
 LICENSE="MIT"

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/ansible-builder[${PYTHON_USEDEP}]
 	dev-python/pytest-ansible[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-80.9.0[${PYTHON_USEDEP}]
 	dev-python/tox-ansible[${PYTHON_USEDEP}]
-	container? ( dev-python/ansible-pylibssh[${PYTHON_USEDEP}] )
+	container? ( ~dev-python/ansible-pylibssh-1.3.0[${PYTHON_USEDEP}] )
 	server? ( <dev-python/django-6.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/openapi-core-0.19.1[${PYTHON_USEDEP}] )"

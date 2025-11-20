@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AWS Embedded Metrics Package"
+DESCRIPTION="AWS Embedded Metrics Package [top-max 3.3.1]"
 
 HOMEPAGE="https://github.com/awslabs/aws-embedded-metrics-python"
 LICENSE=""

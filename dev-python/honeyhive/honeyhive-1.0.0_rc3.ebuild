@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="HoneyHive Python SDK - LLM Observability and Evaluation Platform"
+DESCRIPTION="HoneyHive Python SDK - LLM Observability and Evaluation Platform [top-max 1.0.0_rc4]"
 
 HOMEPAGE="https://honeyhive.ai"
 LICENSE="MIT"

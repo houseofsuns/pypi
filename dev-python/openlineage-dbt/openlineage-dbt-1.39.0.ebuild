@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenLineage integration with dbt"
+DESCRIPTION="OpenLineage integration with dbt [top-max 1.40.1]"
 
 HOMEPAGE=""
 LICENSE=""

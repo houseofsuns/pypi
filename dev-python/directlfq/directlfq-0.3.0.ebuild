@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An open-source Python package of the AlphaPept ecosystem [top-max 0.3.2]"
+DESCRIPTION="An open-source Python package of the AlphaPept ecosystem [top-max 0.3.3]"
 
 HOMEPAGE="https://github.com/MannLabs/directlfq"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Temporal.io Python SDK"
+DESCRIPTION="Temporal.io Python SDK [top-max 1.19.0]"
 
 HOMEPAGE="https://github.com/temporalio/sdk-python"
 LICENSE=""

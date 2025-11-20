@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CLI app to interact with AIcrowd"
+DESCRIPTION="A CLI app to interact with AIcrowd [top-max 0.1.17]"
 
 HOMEPAGE="https://gitlab.aicrowd.com/aicrowd/aicrowd-cli"
 LICENSE="MIT"

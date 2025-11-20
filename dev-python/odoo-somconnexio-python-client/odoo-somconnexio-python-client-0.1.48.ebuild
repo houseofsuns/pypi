@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for SomConnexio's Odoo (using REST API)"
+DESCRIPTION="Python wrapper for SomConnexio's Odoo (using REST API) [top-max 0.1.49]"
 
 HOMEPAGE="https://gitlab.com/coopdevs/odoo-somconnexio-python-client"
 LICENSE=""

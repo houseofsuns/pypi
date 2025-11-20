@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scientific Graphics and GUI Library for Python"
+DESCRIPTION="Scientific Graphics and GUI Library for Python [top-max 0.14.0]"
 
 HOMEPAGE="http://www.pyqtgraph.org"
 LICENSE="MIT"

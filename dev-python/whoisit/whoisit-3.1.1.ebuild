@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python client to RDAP WHOIS-like services for internet resources."
+DESCRIPTION="A Python client to RDAP WHOIS-like services for internet resources. [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/meeb/whoisit"
 LICENSE="BSD"

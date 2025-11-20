@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="fast base16384 encode and decode [top-max 0.3.8]"
+DESCRIPTION="fast base16384 encode and decode [top-max 0.3.9]"
 
 HOMEPAGE="https://github.com/synodriver/pybase16384"
 LICENSE="GPL-3"

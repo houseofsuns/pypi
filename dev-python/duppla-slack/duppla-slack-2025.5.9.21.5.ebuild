@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Custom implementation for Slack API [top-max 2025.8.11.9.38]"
+DESCRIPTION="Custom implementation for Slack API [top-max 2025.11.15.14.53]"
 
 HOMEPAGE=""
 LICENSE=""

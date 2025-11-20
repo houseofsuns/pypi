@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The paifeaturestore module of Aliyun Python sdk."
+DESCRIPTION="The paifeaturestore module of Aliyun Python sdk. [top-max 1.0.19]"
 
 HOMEPAGE="http://develop.aliyun.com/sdk/python"
 LICENSE="Apache-2.0"

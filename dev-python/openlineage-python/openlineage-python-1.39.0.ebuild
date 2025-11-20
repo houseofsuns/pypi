@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenLineage Python Client"
+DESCRIPTION="OpenLineage Python Client [top-max 1.40.1]"
 
 HOMEPAGE=""
 LICENSE=""

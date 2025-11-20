@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Structured object import/export for Django ORM"
+DESCRIPTION="Structured object import/export for Django ORM [top-max 0.1.0]"
 
 HOMEPAGE="https://github.com/elements-storage/haul"
 LICENSE="MIT"

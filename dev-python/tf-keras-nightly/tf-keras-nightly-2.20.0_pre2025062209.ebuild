@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Deep learning for humans. [top-max 2.21.0_pre2025111310]"
+DESCRIPTION="Deep learning for humans. [top-max 2.21.0_pre2025111910]"
 
 HOMEPAGE="https://keras.io/"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A faster python pickle replacement [top-max 1.4.6]"
+DESCRIPTION="A faster python pickle replacement [top-max 1.4.7]"
 
 HOMEPAGE="https://github.com/kochelmonster/larch-pickle"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Live Chatbots based on Langchain chatbots and Agents     Integrated into Navigator Framework or used into any aiohttp applications. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f7a540d4040>)]"
+DESCRIPTION="Live Chatbots based on Langchain chatbots and Agents     Integrated into Navigator Framework or used into any aiohttp applications. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe17b624040>)]"
 
 HOMEPAGE="https://github.com/phenobarbital/ai-parrot"
 LICENSE="MIT"

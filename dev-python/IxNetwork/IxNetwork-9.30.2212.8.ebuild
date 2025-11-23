@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/backports-ssl[${PYTHON_USEDEP}]
-	>=dev-python/backports-ssl-match-hostname-3.5.0.1[${PYTHON_USEDEP}]
+	dev-python/backports-ssl-match-hostname[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.47.0[${PYTHON_USEDEP}]

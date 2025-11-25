@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TMG data library"
+DESCRIPTION="TMG data library [top-max 0.3.5]"
 
 HOMEPAGE="https://github.com/telegraph/tmg-data"
 LICENSE="Apache-2.0"

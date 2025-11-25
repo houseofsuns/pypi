@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Seamless embedding generation and retrieval. [top-max 0.3.0_rc145]"
+DESCRIPTION="Seamless embedding generation and retrieval. [top-max 0.3.0_rc146]"
 
 HOMEPAGE=""
 LICENSE=""

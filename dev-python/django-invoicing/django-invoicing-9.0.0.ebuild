@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django app for invoicing. [top-max 9.0.1]"
+DESCRIPTION="Django app for invoicing. [top-max 10.0.0]"
 
 HOMEPAGE="https://github.com/PragmaticMates/django-invoicing"
 LICENSE="GPL License"

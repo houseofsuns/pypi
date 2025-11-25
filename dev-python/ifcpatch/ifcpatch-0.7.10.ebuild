@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="IFC patching utility [top-max 0.8.3]"
+DESCRIPTION="IFC patching utility [top-max 0.8.4]"
 
 HOMEPAGE="http://ifcopenshell.org"
 LICENSE=""

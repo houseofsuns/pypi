@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SimpleITK is a simplified interface to the Insight Toolkit (ITK) for image registration and segmentation [top-max 2.5.2]"
+DESCRIPTION="SimpleITK is a simplified interface to the Insight Toolkit (ITK) for image registration and segmentation [top-max 2.5.3]"
 
 HOMEPAGE="http://simpleitk.org/"
 LICENSE="Apache-2.0"

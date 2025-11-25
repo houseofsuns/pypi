@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python implementation of the flat-file streaming database"
+DESCRIPTION="A python implementation of the flat-file streaming database [top-max 2.5.2]"
 
 HOMEPAGE="https://github.com/hardaker/pyfsdb"
 LICENSE="MIT"

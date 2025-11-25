@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="sqlobject"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -16,8 +16,8 @@ DESCRIPTION="Object-Relational Manager, aka database wrapper"
 
 HOMEPAGE="http://sqlobject.org/"
 LICENSE="LGPL-3"
-SRC_URI="https://files.pythonhosted.org/packages/c0/d2/9865025dc0db5748380b0fd89ee4aafd8ea270d3d4ceacc0f58f1105c65e/sqlobject-${REALVERSION}.tar.gz"
-SOURCEFILE="sqlobject-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

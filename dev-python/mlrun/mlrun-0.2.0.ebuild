@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tracking and config of machine learning runs [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f98b65c2b90>)]"
+DESCRIPTION="Tracking and config of machine learning runs [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f3e2c986b90>)]"
 
 HOMEPAGE="https://github.com/mlrun/mlrun"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A flexible build system assistant. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc656714c10>)]"
+DESCRIPTION="A flexible build system assistant. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f98cd320c10>)]"
 
 HOMEPAGE="https://bulgogi.dev"
 LICENSE=""

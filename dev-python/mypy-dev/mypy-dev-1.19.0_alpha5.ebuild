@@ -27,7 +27,7 @@ IUSE="dmypy faster-cache install-types mypyc reports"
 DEPENDENCIES=">=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
 	>=dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
-	dev-python/librt[${PYTHON_USEDEP}]
+	>=dev-python/librt-0.4.0[${PYTHON_USEDEP}]
 	dmypy? ( >=dev-python/psutil-4.0[${PYTHON_USEDEP}] )
 	mypyc? ( >=dev-python/setuptools-50.0[${PYTHON_USEDEP}] )
 	reports? ( dev-python/lxml[${PYTHON_USEDEP}] )

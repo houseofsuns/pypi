@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python interface of Scalable Bayesian Rule List [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fb4a0c3e5e0>)]"
+DESCRIPTION="A python interface of Scalable Bayesian Rule List [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f8b27a0a5e0>)]"
 
 HOMEPAGE="https://github.com/myaooo/pysbrl"
 LICENSE=""

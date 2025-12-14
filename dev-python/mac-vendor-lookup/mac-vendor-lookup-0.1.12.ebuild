@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Find the vendor for a given MAC address [top-max 0.1.13]"
+DESCRIPTION="Find the vendor for a given MAC address [top-max 0.1.15]"
 
 HOMEPAGE="https://github.com/bauerj/mac_vendor_lookup"
 LICENSE=""

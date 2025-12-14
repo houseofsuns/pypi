@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A drop in replacement for sksparse for sparse Cholseky factorization"
+DESCRIPTION="A drop in replacement for sksparse for sparse Cholseky factorization [top-max 0.3]"
 
 HOMEPAGE="https://github.com/tansey-lab/sksparse_minimal"
 LICENSE=""

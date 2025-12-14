@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Feature Store Client for Python [new-max 2025-11-14 19:57:55.912696+00:00]"
+DESCRIPTION="Feature Store Client for Python [new-max 2025-12-09 16:52:35.123359+00:00]"
 
 HOMEPAGE="https://docs.h2o.ai/feature-store/latest-stable/docs/index.html"
 LICENSE="Apache v2"

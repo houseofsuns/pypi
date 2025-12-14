@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for RocksDB [top-max 0.0.6]"
+DESCRIPTION="Python bindings for RocksDB [top-max 0.0.7]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

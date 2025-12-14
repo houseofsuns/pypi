@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python wrapper for interfacing to IntrepidCS Hardware. [top-max 921.16.2]"
+DESCRIPTION="Python wrapper for interfacing to IntrepidCS Hardware. [top-max 922.16]"
 
 HOMEPAGE="https://intrepidcs.com"
 LICENSE=""

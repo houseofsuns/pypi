@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The vod module of Aliyun Python sdk."
+DESCRIPTION="The vod module of Aliyun Python sdk. [top-max 2.16.32]"
 
 HOMEPAGE="http://develop.aliyun.com/sdk/python"
 LICENSE="Apache-2.0"

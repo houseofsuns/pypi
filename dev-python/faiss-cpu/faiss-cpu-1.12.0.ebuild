@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library for efficient similarity search and clustering of dense vectors. [top-max 1.13.0]"
+DESCRIPTION="A library for efficient similarity search and clustering of dense vectors. [top-max 1.13.1]"
 
 HOMEPAGE=""
 LICENSE=""

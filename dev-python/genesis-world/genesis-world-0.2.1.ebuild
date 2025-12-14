@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A universal and generative physics engine [top-max 0.3.7]"
+DESCRIPTION="A universal and generative physics engine [top-max 0.3.8]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Datalayer Core [top-max 1.1.7]"
+DESCRIPTION="Datalayer Core [top-max 1.1.14]"
 
 HOMEPAGE="https://github.com/datalayer/core"
 LICENSE=""

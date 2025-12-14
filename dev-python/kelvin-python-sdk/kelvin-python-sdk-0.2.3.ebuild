@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Kelvin Python SDK [top-max 0.3.1]"
+DESCRIPTION="Kelvin Python SDK [top-max 0.3.2]"
 
 HOMEPAGE=""
 LICENSE=""

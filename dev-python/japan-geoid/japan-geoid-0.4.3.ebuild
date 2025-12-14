@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Calculate geoid heights for Japan using GSI's geoid model. [top-max 0.5.1]"
+DESCRIPTION="Calculate geoid heights for Japan using GSI's geoid model. [top-max 0.6.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

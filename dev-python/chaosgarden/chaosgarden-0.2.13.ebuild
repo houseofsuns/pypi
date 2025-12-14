@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Generic cloud provider zone outage and Kubernetes pod disruption simulations with specific support for Gardener"
+DESCRIPTION="Generic cloud provider zone outage and Kubernetes pod disruption simulations with specific support for Gardener [top-max 0.2.14]"
 
 HOMEPAGE="https://github.com/gardener/chaos-engineering"
 LICENSE="License :: OSI Approved :: Apache Software License"

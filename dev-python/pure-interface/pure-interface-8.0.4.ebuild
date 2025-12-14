@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python interface library that disallows function body content on interfaces and supports adaption."
+DESCRIPTION="A Python interface library that disallows function body content on interfaces and supports adaption. [top-max 8.1.0]"
 
 HOMEPAGE="https://pypi.org/project/pure-interface/"
 LICENSE=""

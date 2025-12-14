@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Metaclass for subclassable extension types"
+DESCRIPTION="Metaclass for subclassable extension types [top-max 6.2.1_alpha2]"
 
 HOMEPAGE=""
 LICENSE=""

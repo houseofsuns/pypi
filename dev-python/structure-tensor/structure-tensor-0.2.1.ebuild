@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast and simple to use 2D and 3D structure tensor implementation for Python. [top-max 0.3.2]"
+DESCRIPTION="Fast and simple to use 2D and 3D structure tensor implementation for Python. [top-max 0.3.4]"
 
 HOMEPAGE="https://github.com/Skielex/structure-tensor"
 LICENSE=""

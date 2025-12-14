@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Ory APIs [top-max 1.22.11]"
+DESCRIPTION="Ory APIs [top-max 1.22.16]"
 
 HOMEPAGE="https://github.com/ory/sdk"
 LICENSE="Apache-2.0"

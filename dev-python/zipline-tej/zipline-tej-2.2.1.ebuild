@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pythonic backtester for trading algorithms"
+DESCRIPTION="A Pythonic backtester for trading algorithms [top-max 2.2.2]"
 
 HOMEPAGE="https://tquant.tejwin.com/"
 LICENSE="Apache-2.0"

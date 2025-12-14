@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Platform API"
+DESCRIPTION="Platform API [top-max 7.1.0]"
 
 HOMEPAGE=""
 LICENSE=""

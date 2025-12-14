@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KM3NeT TestData [top-max 0.4.27]"
+DESCRIPTION="KM3NeT TestData [top-max 0.4.28]"
 
 HOMEPAGE="https://git.km3net.de/km3py/km3net-testdata"
 LICENSE=""

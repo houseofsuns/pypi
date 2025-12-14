@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django-mptt-admin provides a nice Django Admin interface for Mptt models"
+DESCRIPTION="Django-mptt-admin provides a nice Django Admin interface for Mptt models [top-max 2.9.0]"
 
 HOMEPAGE="https://github.com/mbraak/django-mptt-admin"
 LICENSE="Apache-2.0"

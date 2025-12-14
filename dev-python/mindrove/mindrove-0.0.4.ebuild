@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Binding for MindRove [top-max 5.2.3]"
+DESCRIPTION="Python Binding for MindRove [top-max 5.2.4]"
 
 HOMEPAGE="https://github.com/MindRove/MindRoveSDK"
 LICENSE=""

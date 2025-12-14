@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simple & fast IO for SEG-Y files [top-max 1.9.13]"
+DESCRIPTION="Simple & fast IO for SEG-Y files [top-max 2.0.0_alpha1]"
 
 HOMEPAGE="https://github.com/equinor/segyio"
 LICENSE="LGPL-3"

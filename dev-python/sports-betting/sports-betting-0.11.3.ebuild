@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python sports betting toolbox."
+DESCRIPTION="Python sports betting toolbox. [top-max 0.12.1]"
 
 HOMEPAGE="https://georgedouzas.github.io/sports-betting"
 LICENSE="MIT"

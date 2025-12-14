@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Make \`pdm version\` like \`poetry version\`"
+DESCRIPTION="Make \`pdm version\` like \`poetry version\` [top-max 2.2.0]"
 
 HOMEPAGE="https://github.com/abersheeran/pdm-version"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="STV polling methods"
+DESCRIPTION="STV polling methods [top-max 0.5.6]"
 
 HOMEPAGE="https://github.com/VoteIT/STVPoll"
 LICENSE="GPL-3"

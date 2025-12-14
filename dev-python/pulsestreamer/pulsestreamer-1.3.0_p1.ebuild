@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A client software for Swabian Instrument's Pulse Streamer 8/2 [top-max 1.7.0]"
+DESCRIPTION="A client software for Swabian Instrument's Pulse Streamer 8/2 [top-max 2.1.0]"
 
 HOMEPAGE="https://www.swabianinstruments.com/pulse-streamer-8-2/"
 LICENSE="MIT"

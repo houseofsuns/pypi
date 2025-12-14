@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client sdk for eas inference service [top-max 0.32]"
+DESCRIPTION="Python client sdk for eas inference service [top-max 0.33]"
 
 HOMEPAGE="http://gitlab.alibaba-inc.com/eas/eas-python-sdk"
 LICENSE=""

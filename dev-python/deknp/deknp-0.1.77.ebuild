@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Extending from npm [top-max 0.1.98]"
+DESCRIPTION="Extending from npm [top-max 0.1.99]"
 
 HOMEPAGE=""
 LICENSE="MIT"

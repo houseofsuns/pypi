@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to PartMC [top-max 2.0.0_rc10]"
+DESCRIPTION="Python interface to PartMC [top-max 2.0.0_rc11]"
 
 HOMEPAGE=""
 LICENSE="GPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django-file-form helps you to write forms with a pretty ajax upload [top-max 3.9.1]"
+DESCRIPTION="Django-file-form helps you to write forms with a pretty ajax upload [top-max 4.0.0]"
 
 HOMEPAGE="https://github.com/mbraak/django-file-form"
 LICENSE="Apache-2.0"

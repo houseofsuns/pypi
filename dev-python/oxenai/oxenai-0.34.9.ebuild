@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data version control for machine learning [top-max 0.39.1]"
+DESCRIPTION="Data version control for machine learning [top-max 0.40.3]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A CLI to interact with AusTrakka [top-max 0.75.0]"
+DESCRIPTION="A CLI to interact with AusTrakka [top-max 0.76.1]"
 
 HOMEPAGE="https://github.com/AusTrakka/austrakka2-cli"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="testAUC is a library of tools to evaluate the true performance of ML/AI models"
+DESCRIPTION="testAUC is a library of tools to evaluate the true performance of ML/AI models [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/alonhzn/testAUC"
 LICENSE=""

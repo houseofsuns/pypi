@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Financial Technical Analysis Indicator Library. Python bindings for https://github.com/TulipCharts/tulipindicators"
+DESCRIPTION="Financial Technical Analysis Indicator Library. Python bindings for https://github.com/TulipCharts/tulipindicators [top-max 0.4.11_beta11]"
 
 HOMEPAGE="https://github.com/Drakkar-Software/tulipy"
 LICENSE="LGPL-3"

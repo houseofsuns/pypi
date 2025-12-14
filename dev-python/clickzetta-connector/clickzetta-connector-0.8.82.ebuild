@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="clickzetta python connector [top-max 1.0.5]"
+DESCRIPTION="clickzetta python connector [top-max 1.0.7]"
 
 HOMEPAGE="https://www.zettadecision.com/"
 LICENSE=""

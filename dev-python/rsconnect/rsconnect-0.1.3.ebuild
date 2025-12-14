@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A small meta-package to install package to use with RStudio Connect. [top-max 1.28.0]"
+DESCRIPTION="A small meta-package to install package to use with RStudio Connect. [top-max 1.28.2]"
 
 HOMEPAGE="https://github.com/sellorm/rsconnect"
 LICENSE=""

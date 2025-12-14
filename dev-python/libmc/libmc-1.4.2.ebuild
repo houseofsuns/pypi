@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Fast and light-weight memcached client for C++/Python [top-max 1.4.14]"
+DESCRIPTION="Fast and light-weight memcached client for C++/Python [top-max 1.4.15]"
 
 HOMEPAGE="https://github.com/douban/libmc"
 LICENSE="BSD"

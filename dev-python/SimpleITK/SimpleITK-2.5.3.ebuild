@@ -4,26 +4,26 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="simpleitk"
+LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="SimpleITK is a simplified interface to the Insight Toolkit (ITK) for image registration and segmentation [wheel]"
+DESCRIPTION="SimpleITK is a simplified interface to the Insight Toolkit (ITK) for image registration and segmentation"
 
 HOMEPAGE="http://simpleitk.org/"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
-SOURCEFILE="${LITERALNAME}-${REALVERSION}-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/6b/2b/6d48d5d8e9876edbd706b7da8a87ba5148e3458e98dfe2afa6af3b5e199e/simpleitk-${REALVERSION}.tar.gz"
+SOURCEFILE="simpleitk-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="virtual/allow-pypi-wheels"
+DEPENDENCIES=""
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

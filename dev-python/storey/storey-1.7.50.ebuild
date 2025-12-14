@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Async flows [new-max 2025-11-17 15:26:40.264949+00:00]"
+DESCRIPTION="Async flows [new-max 2025-12-09 04:39:26.647787+00:00]"
 
 HOMEPAGE="https://github.com/mlrun/storey"
 LICENSE="Apache-2.0"

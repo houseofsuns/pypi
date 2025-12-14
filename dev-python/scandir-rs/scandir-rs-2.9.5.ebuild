@@ -16,8 +16,8 @@ DESCRIPTION="A fast file tree scanner written in Rust [wheel]"
 
 HOMEPAGE="https://github.com/brmmm3/scandir-rs"
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/cp313/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp313-cp313-manylinux_2_34_x86_64.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp313-cp313-manylinux_2_34_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cp311/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_34_x86_64.whl"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-cp311-cp311-manylinux_2_34_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

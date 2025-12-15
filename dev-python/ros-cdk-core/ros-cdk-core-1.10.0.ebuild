@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Aliyun SDK Copyright (C) Alibaba Cloud Computing All rights reserved. http://www.aliyun.com"
+DESCRIPTION="Aliyun SDK Copyright (C) Alibaba Cloud Computing All rights reserved. http://www.aliyun.com [top-max 1.11.0]"
 
 HOMEPAGE="https://github.com/aliyun/Resource-Orchestration-Service-Cloud-Development-Kit.git"
 LICENSE="Apache-2.0"

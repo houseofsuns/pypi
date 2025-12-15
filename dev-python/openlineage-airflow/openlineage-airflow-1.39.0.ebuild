@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenLineage integration with Airflow [top-max 1.40.1]"
+DESCRIPTION="OpenLineage integration with Airflow [top-max 1.41.0]"
 
 HOMEPAGE=""
 LICENSE=""

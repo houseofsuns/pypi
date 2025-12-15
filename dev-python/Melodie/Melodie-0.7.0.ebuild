@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="melodie"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A general framework that can be used to establish agent-based models for specific uses. [top-max 1.0.1]"
+DESCRIPTION="A general framework that can be used to establish agent-based models for specific uses. [top-max 1.1.0]"
 
 HOMEPAGE="https://github.com/ABM4ALL/Melodie"
 LICENSE="BSD 3"

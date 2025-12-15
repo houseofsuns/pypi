@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Projeto criado para importação genérica de entidades"
+DESCRIPTION="Projeto criado para importação genérica de entidades [top-max 6.4]"
 
 HOMEPAGE="https://gitlab.ipirangacloud.com/clayton.monteiro.ext/ipiranga-inovai-project-lib"
 LICENSE="MIT"

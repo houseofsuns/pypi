@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="TianQin SDK - zq_otg lib [top-max 3.8.7]"
+DESCRIPTION="TianQin SDK - zq_otg lib [top-max 3.8.8]"
 
 HOMEPAGE="https://www.shinnytech.com/tqsdk"
 LICENSE=""

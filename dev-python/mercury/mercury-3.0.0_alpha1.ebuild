@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Run notebooks as web apps with Mercury inside JupyterLab. [top-max 3.0.0_alpha2]"
+DESCRIPTION="Run notebooks as web apps with Mercury inside JupyterLab. [top-max 3.0.0_alpha10]"
 
 HOMEPAGE="https://github.com/mljar/mercury-extension"
 LICENSE=""

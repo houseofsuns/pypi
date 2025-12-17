@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alternative python bindings for Geant4 via pybind11"
+DESCRIPTION="Alternative python bindings for Geant4 via pybind11 [top-max 0.1.1]"
 
 HOMEPAGE="https://github.com/HaarigerHarald/geant4_pybind"
 LICENSE="public-domain"

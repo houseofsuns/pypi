@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Wikirate for Python!"
+DESCRIPTION="Wikirate for Python! [top-max 2.0.5]"
 
 HOMEPAGE="https://github.com/wikirate/wikirate4py"
 LICENSE="GPL-3"

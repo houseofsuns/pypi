@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django app for working with ConnectWise. Defines models (tickets, members, companies, etc.) and callbacks. [top-max 1.13.5]"
+DESCRIPTION="Django app for working with ConnectWise. Defines models (tickets, members, companies, etc.) and callbacks. [top-max 1.13.6]"
 
 HOMEPAGE="https://github.com/KerkhoffTechnologies/django-connectwise"
 LICENSE="MIT"

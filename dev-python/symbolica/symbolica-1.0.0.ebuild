@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Community-enhanced version of Symbolica: a blazing fast computer algebra system [top-max 1.0.5]"
+DESCRIPTION="Community-enhanced version of Symbolica: a blazing fast computer algebra system [top-max 1.1.0]"
 
 HOMEPAGE="https://symbolica.io"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Bindings for the Unified Communication X library (UCX) [top-max 0.46.0]"
+DESCRIPTION="Python Bindings for the Unified Communication X library (UCX) [top-max 0.47.0]"
 
 HOMEPAGE="https://github.com/rapidsai/ucxx"
 LICENSE="BSD"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Enables execution of Ansible Task from Airflow"
+DESCRIPTION="Enables execution of Ansible Task from Airflow [top-max 0.6.0]"
 
 HOMEPAGE="https://github.com/liuzheng/airflow-ansible-provider"
 LICENSE=""

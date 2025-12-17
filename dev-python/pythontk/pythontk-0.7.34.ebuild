@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="*A collection of Python utility functions for file operations, text processing, and basic image/video manipulation. Provides helper classes and convenience functions for common programming tasks.* [top-max 0.7.50]"
+DESCRIPTION="*A collection of Python utility functions for file operations, text processing, and basic image/video manipulation. Provides helper classes and convenience functions for common programming tasks.* [top-max 0.7.52]"
 
 HOMEPAGE="https://github.com/m3trik/pythontk"
 LICENSE=""

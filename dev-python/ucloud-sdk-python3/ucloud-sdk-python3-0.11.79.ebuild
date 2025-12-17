@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UCloud Service Development Kit - Python"
+DESCRIPTION="UCloud Service Development Kit - Python [top-max 0.11.80]"
 
 HOMEPAGE="https://github.com/ucloud/ucloud-sdk-python3"
 LICENSE="Apache-2.0"

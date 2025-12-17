@@ -38,7 +38,7 @@ DEPENDENCIES=">=dev-python/sphinxcontrib-applehelp-1.0.7[${PYTHON_USEDEP}]
 	>=dev-python/alabaster-0.7.14[${PYTHON_USEDEP}]
 	>=dev-python/imagesize-1.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.30.0[${PYTHON_USEDEP}]
-	dev-python/roman-numerals[${PYTHON_USEDEP}]
+	>=dev-python/roman-numerals-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

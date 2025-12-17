@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Wrapper for the simpleicons (https://simpleicons.org) library [badver 1!15.20.0]"
+DESCRIPTION="Python Wrapper for the simpleicons (https://simpleicons.org) library [new-max 2025-12-16 16:26:46.428519+00:00, badver 1!15.20.0]"
 
 HOMEPAGE="https://github.com/carstencodes/simplepycons"
 LICENSE="MIT"

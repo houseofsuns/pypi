@@ -16,8 +16,8 @@ DESCRIPTION="OPUS File Converter module [wheel]"
 
 HOMEPAGE=""
 LICENSE="MIT"
-SRC_URI="https://files.pythonhosted.org/packages/e6/c4/aec3c5457726940d173954374dc006d4884fee09dead30f6acbe675e1d49/opusfc-${REALVERSION}-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-SOURCEFILE="opusfc-${REALVERSION}-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/cd/22/916d27e8e29db468512999e5adc3ddd700669b738e299d738adafaaea969/opusfc-${REALVERSION}-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl"
+SOURCEFILE="opusfc-${REALVERSION}-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl"
 RESTRICT="test"
 
 SLOT="0"

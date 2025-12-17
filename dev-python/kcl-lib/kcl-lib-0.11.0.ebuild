@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KCL Programming Language Python Lib [top-max 0.12.2]"
+DESCRIPTION="KCL Programming Language Python Lib [top-max 0.12.3]"
 
 HOMEPAGE="https://kcl-lang.io"
 LICENSE="Apache-2.0"

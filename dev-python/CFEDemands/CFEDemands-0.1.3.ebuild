@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tools for estimating and computing Constant Frisch Elasticity (CFE) demands. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f5df4a046d0>)]"
+DESCRIPTION="Tools for estimating and computing Constant Frisch Elasticity (CFE) demands. [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fbfc66186d0>)]"
 
 HOMEPAGE="https://bitbucket.org/ligonresearch/cfedemands"
 LICENSE="Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International license"

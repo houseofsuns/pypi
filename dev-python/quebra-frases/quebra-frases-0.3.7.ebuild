@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="quebra_frases chunks strings into byte sized pieces"
+DESCRIPTION="quebra_frases chunks strings into byte sized pieces [top-max 0.3.8_alpha1]"
 
 HOMEPAGE="https://github.com/OpenJarbas/quebra_frases"
 LICENSE="apache-2.0"

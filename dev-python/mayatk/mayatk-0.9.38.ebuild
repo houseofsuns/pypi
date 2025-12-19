@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="*mayatk is a collection of utility functions and helper classes for Autodesk Maya, providing convenience wrappers and common workflow patterns for Maya scripting.* [top-max 0.9.56]"
+DESCRIPTION="*mayatk is a collection of utility functions and helper classes for Autodesk Maya, providing convenience wrappers and common workflow patterns for Maya scripting.* [top-max 0.9.59]"
 
 HOMEPAGE="https://github.com/m3trik/mayatk"
 LICENSE=""

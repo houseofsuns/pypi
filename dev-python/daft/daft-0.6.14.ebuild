@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Distributed Dataframes for Multimodal Data [top-max 0.7.0]"
+DESCRIPTION="Distributed Dataframes for Multimodal Data [top-max 0.7.1]"
 
 HOMEPAGE="https://www.daft.ai"
 LICENSE=""

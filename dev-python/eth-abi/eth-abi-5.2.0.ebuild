@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="eth_abi: Python utilities for working with Ethereum ABI definitions, especially encoding and decoding"
+DESCRIPTION="eth_abi: Python utilities for working with Ethereum ABI definitions, especially encoding and decoding [top-max 6.0.0_beta1]"
 
 HOMEPAGE="https://github.com/ethereum/eth-abi"
 LICENSE="MIT"

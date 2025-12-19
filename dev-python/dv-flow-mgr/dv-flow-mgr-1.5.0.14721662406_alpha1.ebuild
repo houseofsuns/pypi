@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DV Flow Manager is a build system for silicon design [top-max 1.11.20256547040]"
+DESCRIPTION="DV Flow Manager is a build system for silicon design [top-max 1.11.20340069297]"
 
 HOMEPAGE=""
 LICENSE="Apache License"

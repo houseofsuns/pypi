@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Package for applying ao techniques to GPU models [top-max 0.14.1]"
+DESCRIPTION="Package for applying ao techniques to GPU models [top-max 0.15.0]"
 
 HOMEPAGE="https://github.com/pytorch-labs/ao"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper around the logging package to provide Alchemy Logging functionality"
+DESCRIPTION="A wrapper around the logging package to provide Alchemy Logging functionality [top-max 1.5.1]"
 
 HOMEPAGE="https://github.com/IBM/alchemy-logging"
 LICENSE="MIT"

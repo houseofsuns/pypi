@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python framework for high-performance simulation and graphics programming [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f79f242d310>)]"
+DESCRIPTION="A Python framework for high-performance simulation and graphics programming [prod-max (True, <g_sorcery.g_collections.Version object at 0x7facdbe99310>)]"
 
 HOMEPAGE="https://github.com/NVIDIA/warp"
 LICENSE="NVSCL"

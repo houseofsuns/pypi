@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Good Kiwi Common Library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7facfe1f0c10>)]"
+DESCRIPTION="Good Kiwi Common Library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1dada44c10>)]"
 
 HOMEPAGE=""
 LICENSE=""

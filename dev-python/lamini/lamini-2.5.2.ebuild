@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Build on large language models faster [prod-max (True, <g_sorcery.g_collections.Version object at 0x7facf8c0aea0>)]"
+DESCRIPTION="Build on large language models faster [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f1da845aea0>)]"
 
 HOMEPAGE=""
 LICENSE=""

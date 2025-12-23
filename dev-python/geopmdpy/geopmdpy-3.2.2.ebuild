@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dbus-xml grpc stats"
 DEPENDENCIES=">=dev-python/cffi-1.13.2[${PYTHON_USEDEP}]
-	dev-python/dasbus[${PYTHON_USEDEP}]
+	>=dev-python/dasbus-1.6[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	>=dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/psutil-5.4.8[${PYTHON_USEDEP}]

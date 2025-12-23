@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/behave-html-formatter[${PYTHON_USEDEP}]
 	dev-python/behave-html-pretty-formatter[${PYTHON_USEDEP}]
-	dev-python/dasbus[${PYTHON_USEDEP}]"
+	<=dev-python/dasbus-1.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

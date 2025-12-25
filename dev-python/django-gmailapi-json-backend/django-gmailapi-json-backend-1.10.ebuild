@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Email backend for Django which sends email via the Gmail API through a JSON credential"
+DESCRIPTION="Email backend for Django which sends email via the Gmail API through a JSON credential [top-max 1.11]"
 
 HOMEPAGE="https://github.com/innoveit/django-gmailapi-json-backend"
 LICENSE=""

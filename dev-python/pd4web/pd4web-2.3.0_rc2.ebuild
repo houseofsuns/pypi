@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="pd4web compiles PureData patches with external objects for Wasm, allowing to run entire patches in web browsers."
+DESCRIPTION="pd4web compiles PureData patches with external objects for Wasm, allowing to run entire patches in web browsers. [top-max 3.0.0_alpha3]"
 
 HOMEPAGE="https://charlesneimog.github.io/pd4web"
 LICENSE=""

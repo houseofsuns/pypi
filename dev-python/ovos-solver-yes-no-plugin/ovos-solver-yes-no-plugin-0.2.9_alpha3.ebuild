@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A question solver plugin for OVOS"
+DESCRIPTION="A question solver plugin for OVOS [top-max 0.2.12_alpha3]"
 
 HOMEPAGE="https://github.com/OpenVoiceOS/ovos-solver-YesNo-plugin"
 LICENSE="MIT"

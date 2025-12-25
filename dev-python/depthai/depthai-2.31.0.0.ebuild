@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DepthAI Python Library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fdd4f37d850>)]"
+DESCRIPTION="DepthAI Python Library [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc3e99c4350>)]"
 
 HOMEPAGE="https://github.com/luxonis/depthai-python"
 LICENSE="MIT"

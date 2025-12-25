@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Basic algo engine [top-max 0.9.1]"
+DESCRIPTION="Basic algo engine [top-max 0.9.4_p1]"
 
 HOMEPAGE="https://github.com/BolunHan/PyAlgoEngine"
 LICENSE=""

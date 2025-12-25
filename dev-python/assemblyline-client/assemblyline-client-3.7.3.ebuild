@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Assemblyline client library [top-max 4.9.8]"
+DESCRIPTION="Assemblyline client library [top-max 4.9.9]"
 
 HOMEPAGE="https://bitbucket.org/cse-assemblyline/assemblyline_client"
 LICENSE="MIT"

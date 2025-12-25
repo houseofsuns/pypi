@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="FURY - Free Unified Rendering in pYthon. A free and open-source software library for Scientific Visualization and 3D animations"
+DESCRIPTION="FURY - Free Unified Rendering in pYthon. A free and open-source software library for Scientific Visualization and 3D animations [top-max 2.0.0_alpha4]"
 
 HOMEPAGE=""
 LICENSE="Copyright c 20142025, FURY - Free Unified Rendering in Python. All rights reserved."

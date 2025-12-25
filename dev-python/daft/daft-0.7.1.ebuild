@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Distributed Dataframes for Multimodal Data [wheel]"
+DESCRIPTION="Distributed Dataframes for Multimodal Data"
 
 HOMEPAGE="https://www.daft.ai"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/cp310/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-cp310-abi3-macosx_10_12_x86_64.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-cp310-abi3-macosx_10_12_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -64,7 +64,6 @@ DEPENDENCIES="<dev-python/pyarrow-23.0.0[${PYTHON_USEDEP}]
 	unity? ( dev-python/deltalake[${PYTHON_USEDEP}] )
 	video? ( dev-python/av[${PYTHON_USEDEP}] )
 	audio? ( <dev-python/soundfile-0.14.0[${PYTHON_USEDEP}] )
-	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

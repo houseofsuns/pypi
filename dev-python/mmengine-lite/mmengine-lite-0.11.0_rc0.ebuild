@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Engine of OpenMMLab projects"
+DESCRIPTION="Engine of OpenMMLab projects [top-max 0.11.0_rc2]"
 
 HOMEPAGE="https://github.com/open-mmlab/mmengine"
 LICENSE=""

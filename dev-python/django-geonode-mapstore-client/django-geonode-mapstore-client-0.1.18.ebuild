@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Use GeoNode client in your django projects [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fdd4e3c5f50>)]"
+DESCRIPTION="Use GeoNode client in your django projects [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fc3e8868740>)]"
 
 HOMEPAGE="https://github.com/GeoNode/geonode-mapstore-client"
 LICENSE="BSD, see LICENSE file."

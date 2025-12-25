@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Surge Python SDK [top-max 1.5.19]"
+DESCRIPTION="Surge Python SDK [top-max 1.5.20]"
 
 HOMEPAGE="https://github.com/surge-ai/surge-python"
 LICENSE="MIT"

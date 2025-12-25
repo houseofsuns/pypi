@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The FlatBuffers serialization format for Python"
+DESCRIPTION="The FlatBuffers serialization format for Python [top-max 25.12.19]"
 
 HOMEPAGE="https://google.github.io/flatbuffers/"
 LICENSE="Apache-2.0"

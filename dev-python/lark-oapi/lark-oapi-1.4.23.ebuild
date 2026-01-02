@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lark OpenAPI SDK for Python [top-max 1.5.1]"
+DESCRIPTION="Lark OpenAPI SDK for Python [top-max 1.5.2]"
 
 HOMEPAGE="https://github.com/larksuite/oapi-sdk-python"
 LICENSE=""

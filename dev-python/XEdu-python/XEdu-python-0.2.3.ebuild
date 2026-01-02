@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="xedu-python"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="XEdu"
+DESCRIPTION="XEdu [top-max 2.0.0]"
 
 HOMEPAGE="https://github.com/OpenXLab-Edu/OpenMMLab-Edu"
 LICENSE="MIT"

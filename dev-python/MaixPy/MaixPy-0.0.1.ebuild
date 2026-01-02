@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="maixhub python toolkit [top-max 4.12.1]"
+DESCRIPTION="maixhub python toolkit [top-max 4.12.4]"
 
 HOMEPAGE="https://maixhub.com"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A cross-platform frameless window based on pyside6, support Win32, Linux and macOS."
+DESCRIPTION="A cross-platform frameless window based on pyside6, support Win32, Linux and macOS. [top-max 0.7.5]"
 
 HOMEPAGE="https://github.com/zhiyiYo/PyQt-Frameless-Window/tree/PySide6"
 LICENSE="LGPL-3"

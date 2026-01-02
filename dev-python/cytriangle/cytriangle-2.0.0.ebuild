@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Object-oriented Cython wrapper of Shewchuk's Triangle Library"
+DESCRIPTION="Object-oriented Cython wrapper of Shewchuk's Triangle Library [top-max 3.0.1]"
 
 HOMEPAGE="https://github.com/m-clare/cytriangle"
 LICENSE="LGPL 3.0"

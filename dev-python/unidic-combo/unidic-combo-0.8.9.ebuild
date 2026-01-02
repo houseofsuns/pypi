@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="UniDic2UD + COMBO-pytorch wrapper for spaCy [top-max 1.5.2]"
+DESCRIPTION="UniDic2UD + COMBO-pytorch wrapper for spaCy [top-max 1.5.4]"
 
 HOMEPAGE="https://github.com/KoichiYasuoka/UniDic-COMBO"
 LICENSE="GPL-3"

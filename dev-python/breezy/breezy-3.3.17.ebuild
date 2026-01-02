@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Friendly distributed version control system"
+DESCRIPTION="Friendly distributed version control system [top-max 3.3.20]"
 
 HOMEPAGE="https://www.breezy-vcs.org/"
 LICENSE=""

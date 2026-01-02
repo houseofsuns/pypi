@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="KIAM Astrodynamics Toolbox"
+DESCRIPTION="KIAM Astrodynamics Toolbox [top-max 6.0.2]"
 
 HOMEPAGE=""
 LICENSE=""

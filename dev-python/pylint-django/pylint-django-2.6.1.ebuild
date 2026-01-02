@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Pylint plugin to help Pylint understand the Django web framework"
+DESCRIPTION="A Pylint plugin to help Pylint understand the Django web framework [top-max 2.7.0]"
 
 HOMEPAGE="https://github.com/pylint-dev/pylint-django"
 LICENSE=""

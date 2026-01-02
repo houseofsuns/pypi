@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A collection of functions for Jupyter notebooks [top-max 0.3.58]"
+DESCRIPTION="A collection of functions for Jupyter notebooks [top-max 0.3.59]"
 
 HOMEPAGE="https://github.com/huluxiaohuowa/hdl"
 LICENSE=""

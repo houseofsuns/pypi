@@ -39,7 +39,7 @@ DEPENDENCIES="~dev-python/django-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
 	api? ( dev-python/django-ninja[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
-	hsm? ( dev-python/python-pkcs11[${PYTHON_USEDEP}] )
+	hsm? ( >=dev-python/python-pkcs11-0.9[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	postgres? ( >=dev-python/psycopg-3.1[${PYTHON_USEDEP}] )
 	redis? ( >=dev-python/hiredis-3.1.0[${PYTHON_USEDEP}] )

@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/asn1crypto-1.5.1[${PYTHON_USEDEP}]
 	qr? ( >=dev-python/qrcode-7.3.1[${PYTHON_USEDEP}] )
 	image-support? ( >=dev-python/pillow-7.2.0[${PYTHON_USEDEP}] )
 	image-support? ( dev-python/python-barcode[${PYTHON_USEDEP}] )
-	pkcs11? ( dev-python/python-pkcs11[${PYTHON_USEDEP}] )
+	pkcs11? ( ~dev-python/python-pkcs11-0.9.2[${PYTHON_USEDEP}] )
 	async-http? ( <dev-python/aiohttp-3.13[${PYTHON_USEDEP}] )
 	etsi? ( dev-python/xsdata[${PYTHON_USEDEP}] )
 	etsi? ( dev-python/signxml[${PYTHON_USEDEP}] )"

@@ -33,7 +33,7 @@ DEPENDENCIES="~dev-python/asn1crypto-1.5[${PYTHON_USEDEP}]
 	requests-mocker? ( >=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
 	web-api? ( >=dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}] )
 	web-api? ( >=dev-python/jinja2-2.11.3[${PYTHON_USEDEP}] )
-	pkcs11? ( dev-python/python-pkcs11[${PYTHON_USEDEP}] )
+	pkcs11? ( ~dev-python/python-pkcs11-0.7.0[${PYTHON_USEDEP}] )
 	testing-minimal? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
 	testing-minimal? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
 	testing-minimal? ( >=dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )

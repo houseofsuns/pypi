@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Beergarden Application [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f2cd45f8350>)]"
+DESCRIPTION="Beergarden Application [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f37a40e0350>)]"
 
 HOMEPAGE="https://beer-garden.io"
 LICENSE="MIT"

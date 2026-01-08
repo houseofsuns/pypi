@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ORY Keto [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f617825d230>)]"
+DESCRIPTION="ORY Keto [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f61617b5230>)]"
 
 HOMEPAGE="https://github.com/ory/sdk"
 LICENSE="Apache-2.0"

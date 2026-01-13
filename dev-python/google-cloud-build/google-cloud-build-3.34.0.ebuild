@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Cloud Build API client library"
+DESCRIPTION="Google Cloud Build API client library [top-max 3.35.0]"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-build"
 LICENSE="Apache-2.0"

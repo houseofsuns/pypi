@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Studying the topology and geometry of 3-manifolds, with a focus on hyperbolic structures."
+DESCRIPTION="Studying the topology and geometry of 3-manifolds, with a focus on hyperbolic structures. [top-max 3.3]"
 
 HOMEPAGE="http://snappy.computop.org"
 LICENSE="GPL-2+"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Education Tools for Teaching [top-max 24.5.29]"
+DESCRIPTION="Python Education Tools for Teaching [top-max 26.2.48]"
 
 HOMEPAGE="https://github.com/liluqun"
 LICENSE=""

@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Core library to analyze gravitational-wave data, find signals, and study their parameters. [wheel]"
+DESCRIPTION="Core library to analyze gravitational-wave data, find signals, and study their parameters."
 
 HOMEPAGE="http://pycbc.org/"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/33/91/d93becfe87295fa3ca0682bb7a19650c297893e1cab824cee3a6750190a1/pycbc-${REALVERSION}-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
-SOURCEFILE="pycbc-${REALVERSION}-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+SRC_URI="https://files.pythonhosted.org/packages/a8/3e/bd821e5760ceab12de6607a4a385e78f301951531c2453b21e167484e966/pycbc-${REALVERSION}.tar.gz"
+SOURCEFILE="pycbc-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -47,7 +47,6 @@ DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/pykerr[${PYTHON_USEDEP}]
 	cuda? ( >=dev-python/pycuda-2015.1[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/scikit-cuda[${PYTHON_USEDEP}] )
-	igwn? ( dev-python/ciecplib[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	igwn? ( dev-python/ciecplib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

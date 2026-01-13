@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python interface to generate executable Typst code."
+DESCRIPTION="Python interface to generate executable Typst code. [top-max 1.3.0]"
 
 HOMEPAGE=""
 LICENSE=""

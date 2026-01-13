@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Tensorflow Recommenders, a TensorFlow library for recommender systems."
+DESCRIPTION="Tensorflow Recommenders, a TensorFlow library for recommender systems. [top-max 0.7.6]"
 
 HOMEPAGE="https://github.com/tensorflow/recommenders"
 LICENSE="Apache-2.0"

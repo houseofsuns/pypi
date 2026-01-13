@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Cloud Container API client library"
+DESCRIPTION="Google Cloud Container API client library [top-max 2.62.0]"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-container"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lightweight Extensible Message Format for Reticulum"
+DESCRIPTION="Lightweight Extensible Message Format for Reticulum [top-max 0.9.4]"
 
 HOMEPAGE="https://github.com/markqvist/lxmf"
 LICENSE="Reticulum License"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=""
+DESCRIPTION=" [top-max 0.6.10]"
 
 HOMEPAGE="https://github.com/DataShades/ckanext-toolbelt"
 LICENSE="AGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Moshi is moshi"
+DESCRIPTION="Moshi is moshi [top-max 0.2.12]"
 
 HOMEPAGE=""
 LICENSE="MIT"

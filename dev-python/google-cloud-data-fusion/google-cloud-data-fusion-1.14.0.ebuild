@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Cloud Data Fusion API client library"
+DESCRIPTION="Google Cloud Data Fusion API client library [top-max 1.15.0]"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-data-fusion"
 LICENSE="Apache-2.0"

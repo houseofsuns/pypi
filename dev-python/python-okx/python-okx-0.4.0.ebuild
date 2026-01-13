@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python SDK for OKX"
+DESCRIPTION="Python SDK for OKX [top-max 0.4.1]"
 
 HOMEPAGE="https://okx.com/docs-v5/"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A library that implements fast statistical routines"
+DESCRIPTION="A library that implements fast statistical routines [top-max 0.4.0]"
 
 HOMEPAGE="https://github.com/CangyuanLi/rapidstats"
 LICENSE=""

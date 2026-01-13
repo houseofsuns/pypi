@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="QALITA Platform Command Line Interface"
+DESCRIPTION="QALITA Platform Command Line Interface [top-max 2.6.3]"
 
 HOMEPAGE=""
 LICENSE=""

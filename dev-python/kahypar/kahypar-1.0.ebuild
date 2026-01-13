@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python Inferface for the Karlsruhe Hypergraph Partitioning Framework (KaHyPar) [top-max 1.3.5]"
+DESCRIPTION="Python Inferface for the Karlsruhe Hypergraph Partitioning Framework (KaHyPar) [top-max 1.3.6]"
 
 HOMEPAGE="https://www.kahypar.org"
 LICENSE=""

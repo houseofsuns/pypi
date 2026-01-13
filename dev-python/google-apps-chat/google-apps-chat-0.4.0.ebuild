@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Apps Chat API client library"
+DESCRIPTION="Google Apps Chat API client library [top-max 0.5.0]"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-apps-chat"
 LICENSE="Apache-2.0"

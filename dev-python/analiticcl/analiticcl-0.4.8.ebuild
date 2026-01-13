@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Analiticcl is an approximate string matching or fuzzy-matching system that can be used to find variants for spelling correction or text normalisation"
+DESCRIPTION="Analiticcl is an approximate string matching or fuzzy-matching system that can be used to find variants for spelling correction or text normalisation [top-max 0.4.9]"
 
 HOMEPAGE="https://github.com/proycon/analiticcl"
 LICENSE="GPL-3+"

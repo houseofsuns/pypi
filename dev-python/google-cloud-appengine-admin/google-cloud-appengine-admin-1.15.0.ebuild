@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Cloud Appengine Admin API client library"
+DESCRIPTION="Google Cloud Appengine Admin API client library [top-max 1.16.0]"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-appengine-admin"
 LICENSE="Apache-2.0"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A full featured Tk-based knot and link editor"
+DESCRIPTION="A full featured Tk-based knot and link editor [top-max 2.4.7]"
 
 HOMEPAGE="https://github.com/3-manifolds/PLink"
 LICENSE="GPL-2+"

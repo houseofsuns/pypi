@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Spherical diagrams for 3-manifold topology"
+DESCRIPTION="Spherical diagrams for 3-manifold topology [top-max 2.4]"
 
 HOMEPAGE="https://github.com/3-manifolds/Spherogram"
 LICENSE="GPL-2+"

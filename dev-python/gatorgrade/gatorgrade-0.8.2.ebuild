@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="GatorGrade executes GatorGrader checks!"
+DESCRIPTION="GatorGrade executes GatorGrader checks! [top-max 0.8.3]"
 
 HOMEPAGE=""
 LICENSE=""

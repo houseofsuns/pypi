@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Cloud Channel API client library"
+DESCRIPTION="Google Cloud Channel API client library [top-max 1.26.0]"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-channel"
 LICENSE="Apache-2.0"

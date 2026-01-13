@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Simulateur RAC"
+DESCRIPTION="Simulateur RAC [top-max 0.1.21]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Numcodecs entry points for the imagecodecs package [top-max 2025.11.11]"
+DESCRIPTION="Numcodecs entry points for the imagecodecs package [top-max 2026.1.1]"
 
 HOMEPAGE="https://www.cgohlke.com"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NVIDIA DALI  for CUDA 12.0. Git SHA: 85806edb1242b50545ccf097a38c4d0696a1ef83"
+DESCRIPTION="NVIDIA DALI  for CUDA 12.0. Git SHA: 85806edb1242b50545ccf097a38c4d0696a1ef83 [top-max 1.53.0]"
 
 HOMEPAGE="https://github.com/NVIDIA/dali"
 LICENSE="Apache-2.0"

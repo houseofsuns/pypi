@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Area120 Tables API client library"
+DESCRIPTION="Google Area120 Tables API client library [top-max 0.13.0]"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-area120-tables"
 LICENSE="Apache-2.0"

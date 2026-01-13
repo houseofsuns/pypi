@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Ai Generativelanguage API client library"
+DESCRIPTION="Google Ai Generativelanguage API client library [top-max 0.10.0]"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-ai-generativelanguage"
 LICENSE="Apache-2.0"

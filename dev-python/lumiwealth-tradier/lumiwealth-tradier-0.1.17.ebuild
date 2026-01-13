@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="lumiwealth-tradier is a Python package that serves as a wrapper for the Tradier brokerage API. This package simplifies the process of making API requests, handling responses, and performing various trading and account management operations."
+DESCRIPTION="lumiwealth-tradier is a Python package that serves as a wrapper for the Tradier brokerage API. This package simplifies the process of making API requests, handling responses, and performing various trading and account management operations. [top-max 0.1.18]"
 
 HOMEPAGE="https://github.com/Lumiwealth/lumiwealth-tradier"
 LICENSE=""

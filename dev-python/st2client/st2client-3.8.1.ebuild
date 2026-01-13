@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client library and CLI for the StackStorm (st2) event-driven automation platform."
+DESCRIPTION="Python client library and CLI for the StackStorm (st2) event-driven automation platform. [top-max 3.9.0]"
 
 HOMEPAGE="https://stackstorm.com/"
 LICENSE=""

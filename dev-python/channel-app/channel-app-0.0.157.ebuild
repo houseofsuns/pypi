@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Channel app for Sales Channels"
+DESCRIPTION="Channel app for Sales Channels [top-max 0.0.158]"
 
 HOMEPAGE="https://github.com/akinon/channel_app"
 LICENSE=""

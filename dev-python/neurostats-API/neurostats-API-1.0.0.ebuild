@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="neurostats-api"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -16,8 +16,8 @@ DESCRIPTION="The service of NeuroStats website"
 
 HOMEPAGE="https://github.com/NeurowattStats/NeuroStats_API.git"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/81/9b/b8c0e86089b809bb8c077121d2da8d10aee8855678b3734703f935f0e82e/neurostats_api-${REALVERSION}.tar.gz"
-SOURCEFILE="neurostats_api-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

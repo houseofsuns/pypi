@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Computer vision models for PyTorch"
+DESCRIPTION="Computer vision models for PyTorch [top-max 0.0.74]"
 
 HOMEPAGE="https://github.com/osmr/pytorchcv"
 LICENSE="MIT"

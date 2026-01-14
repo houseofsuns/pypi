@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An abstraction layer for the cryptography used by Devolutions [top-max 0.9.2]"
+DESCRIPTION="An abstraction layer for the cryptography used by Devolutions [top-max 2026.1.13]"
 
 HOMEPAGE="https://github.com/devolutions/devolutions-crypto"
 LICENSE="MIT OR Apache-2.0"

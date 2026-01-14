@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="The SDK library and command-line interface to Geneea Interpretor, an NLP REST API."
+DESCRIPTION="The SDK library and command-line interface to Geneea Interpretor, an NLP REST API. [top-max 1.5.2]"
 
 HOMEPAGE="https://geneea.com"
 LICENSE=""

@@ -4,7 +4,7 @@
 EAPI=8
 
 REALNAME="${PN}"
-LITERALNAME="${PN}"
+LITERALNAME="keydnn"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
@@ -16,8 +16,8 @@ DESCRIPTION="Deep Learning Framework Implemented by Kevin Sheu."
 
 HOMEPAGE="https://github.com/keywind127/keydnn"
 LICENSE=""
-SRC_URI="https://files.pythonhosted.org/packages/a8/b2/adc62c4ff5e00e768af417a8ef3a19032feab47ad55504b42e810db5e0d7/keydnn-${REALVERSION}.tar.gz"
-SOURCEFILE="keydnn-${REALVERSION}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/source/${LITERALNAME::1}/${LITERALNAME}/${LITERALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${LITERALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"

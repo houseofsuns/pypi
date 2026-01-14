@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A performant read/write parser of Photoshop Files (*.psd and *.psb) [top-max 0.8.0]"
+DESCRIPTION="A performant read/write parser of Photoshop Files (*.psd and *.psb) [top-max 0.8.2]"
 
 HOMEPAGE="https://github.com/EmilDohne/PhotoshopAPI"
 LICENSE=""

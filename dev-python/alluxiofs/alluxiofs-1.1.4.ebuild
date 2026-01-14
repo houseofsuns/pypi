@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Alluxio Fsspec provides Alluxio filesystem spec implementation. [top-max 1.1.18_rc7]"
+DESCRIPTION="Alluxio Fsspec provides Alluxio filesystem spec implementation. [top-max 1.1.18_rc8]"
 
 HOMEPAGE="https://github.com/fsspec/alluxiofs"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="ANISE provides a toolkit and files for Attitude, Navigation, Instrument, Spacecraft, and Ephemeris data. It's a modern replacement of NAIF SPICE file."
+DESCRIPTION="ANISE provides a toolkit and files for Attitude, Navigation, Instrument, Spacecraft, and Ephemeris data. It's a modern replacement of NAIF SPICE file. [top-max 0.9.0]"
 
 HOMEPAGE="https://nyxspace.com/"
 LICENSE="MPL-2.0"

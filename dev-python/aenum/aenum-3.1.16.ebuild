@@ -8,22 +8,22 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants [wheel]"
+DESCRIPTION="Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants"
 
 HOMEPAGE="https://github.com/ethanfurman/aenum"
 LICENSE="BSD"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="virtual/allow-pypi-wheels"
+DEPENDENCIES=""
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

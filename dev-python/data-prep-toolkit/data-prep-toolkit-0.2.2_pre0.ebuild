@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Data Preparation Toolkit Library [top-max 1.1.7_pre4]"
+DESCRIPTION="Data Preparation Toolkit Library [top-max 1.1.7_pre5]"
 
 HOMEPAGE=""
 LICENSE="Apache-2.0"

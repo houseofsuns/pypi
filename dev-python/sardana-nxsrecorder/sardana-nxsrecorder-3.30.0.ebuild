@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="NeXus Sardana Scan Recorder"
+DESCRIPTION="NeXus Sardana Scan Recorder [top-max 3.30.1]"
 
 HOMEPAGE="https://github.com/nexdatas/sardana-nxs-filerecorder/"
 LICENSE="GNU GENERAL PUBLIC LICENSE v3"

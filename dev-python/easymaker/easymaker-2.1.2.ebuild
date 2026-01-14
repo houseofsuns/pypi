@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="AI EasyMaker SDK for Python. [top-max 2.1.3_alpha1]"
+DESCRIPTION="AI EasyMaker SDK for Python. [top-max 2.1.3_alpha2]"
 
 HOMEPAGE="https://www.nhncloud.com"
 LICENSE=""

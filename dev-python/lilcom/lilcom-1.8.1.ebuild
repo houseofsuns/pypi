@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lossy-compression utility for sequence data in NumPy"
+DESCRIPTION="Lossy-compression utility for sequence data in NumPy [top-max 1.8.2]"
 
 HOMEPAGE="https://github.com/danpovey/lilcom"
 LICENSE="MIT"

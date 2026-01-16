@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Django app that allows you to build reports from modals [top-max 1.2.8]"
+DESCRIPTION="Django app that allows you to build reports from modals [top-max 1.2.9]"
 
 HOMEPAGE="https://github.com/django-advance-utils/django-advanced-report-builder"
 LICENSE="MIT"

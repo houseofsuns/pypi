@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="another unofficial api for some financial visualization website"
+DESCRIPTION="another unofficial api for some financial visualization website [top-max 0.0.37]"
 
 HOMEPAGE="https://github.com/rdnve/finavis"
 LICENSE="MIT"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="passagemath: Polyhedral computation with cddlib"
+DESCRIPTION="passagemath: Polyhedral computation with cddlib [top-max 10.6.47]"
 
 HOMEPAGE=""
 LICENSE=""

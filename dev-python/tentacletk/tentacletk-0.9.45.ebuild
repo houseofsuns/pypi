@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [new-max 2025-12-20 16:41:23.150069+00:00]"
+DESCRIPTION=" [new-max 2026-01-15 06:03:26.226771+00:00]"
 
 HOMEPAGE="https://github.com/m3trik/tentacle"
 LICENSE="LGPL-3"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WPILib command framework v2 [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f0193cedb60>)]"
+DESCRIPTION="WPILib command framework v2 [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f547ffa9b60>)]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-commands-v2"
 LICENSE="BSD"

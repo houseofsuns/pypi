@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Vultr DNS authenticator plugin for Certbot [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f54a5b74510>)]"
+DESCRIPTION="Vultr DNS authenticator plugin for Certbot [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fa128f84510>)]"
 
 HOMEPAGE="https://github.com/lezgomatt/certbot-dns-vultr"
 LICENSE="Zlib"

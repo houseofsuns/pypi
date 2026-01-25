@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Turn Jupyter Notebook to Web App and share with non-technical users [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6ef7e1fa70>)]"
+DESCRIPTION="Turn Jupyter Notebook to Web App and share with non-technical users [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4ec96afa70>)]"
 
 HOMEPAGE="https://github.com/mljar/mercury"
 LICENSE=""

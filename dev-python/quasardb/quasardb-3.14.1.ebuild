@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python API for quasardb [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f6ee94245f0>)]"
+DESCRIPTION="Python API for quasardb [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f4ebacb05f0>)]"
 
 HOMEPAGE="https://www.quasardb.net/"
 LICENSE="BSD"

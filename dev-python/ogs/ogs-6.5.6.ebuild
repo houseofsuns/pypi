@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="OpenGeoSys Python wheel"
+DESCRIPTION="OpenGeoSys Python wheel [top-max 6.5.7_pre553]"
 
 HOMEPAGE="https://opengeosys.org"
 LICENSE="Copyright c 2012-2025, OpenGeoSys Community http://www.opengeosys.org"

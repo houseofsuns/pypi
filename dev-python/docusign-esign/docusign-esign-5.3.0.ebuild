@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Docusign eSignature REST API [top-max 5.4.0]"
+DESCRIPTION="Docusign eSignature REST API [top-max 6.0.0_rc1]"
 
 HOMEPAGE=""
 LICENSE=""

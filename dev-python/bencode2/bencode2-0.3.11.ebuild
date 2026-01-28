@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A fast and correct bencode serialize/deserialize library [top-max 0.3.28]"
+DESCRIPTION="A fast and correct bencode serialize/deserialize library [top-max 0.3.29]"
 
 HOMEPAGE="https://github.com/trim21/bencode-py"
 LICENSE="MIT"

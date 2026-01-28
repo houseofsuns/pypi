@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Apps Chat API client library [wheel]"
+DESCRIPTION="Google Apps Chat API client library"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-apps-chat"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -31,7 +31,6 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
-	dev-python/google-apps-card[${PYTHON_USEDEP}]
-	virtual/allow-pypi-wheels"
+	dev-python/google-apps-card[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

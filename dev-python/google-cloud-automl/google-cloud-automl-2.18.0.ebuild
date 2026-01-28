@@ -8,16 +8,16 @@ LITERALNAME="${PN}"
 REALVERSION="${PV}"
 DIGEST_SOURCES="yes"
 PYTHON_COMPAT=( python{3_11,3_12,3_13,3_14} )
-DISTUTILS_USE_PEP517=wheel
+DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Google Cloud Automl API client library [wheel]"
+DESCRIPTION="Google Cloud Automl API client library"
 
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-automl"
 LICENSE="Apache-2.0"
-SRC_URI="https://files.pythonhosted.org/packages/py3/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
-SOURCEFILE="${REALNAME//-/_}-${REALVERSION}-py3-none-any.whl"
+SRC_URI="https://files.pythonhosted.org/packages/source/${REALNAME::1}/${REALNAME}/${REALNAME//-/_}-${REALVERSION}.tar.gz"
+SOURCEFILE="${REALNAME//-/_}-${REALVERSION}.tar.gz"
 RESTRICT="test"
 
 SLOT="0"
@@ -33,7 +33,6 @@ DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
 	libcst? ( >=dev-python/libcst-0.2.5[${PYTHON_USEDEP}] )
 	pandas? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
-	storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	virtual/allow-pypi-wheels"
+	storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Scrive eSigning [prod-max (True, <g_sorcery.g_collections.Version object at 0x7fe1c1d69700>)]"
+DESCRIPTION="Scrive eSigning [prod-max (True, <g_sorcery.g_collections.Version object at 0x7ff1a4516e30>)]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An implementation of WebRTC and ORTC"
+DESCRIPTION="An implementation of WebRTC and ORTC [top-max 0.0.10]"
 
 HOMEPAGE="https://github.com/zujonow/vs-aiortc"
 LICENSE=""

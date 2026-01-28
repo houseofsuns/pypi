@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="WPILib command framework v2 [new-max 2026-01-09 05:26:48.882721+00:00]"
+DESCRIPTION="WPILib command framework v2 [new-max 2026-01-16 18:29:15.718161+00:00]"
 
 HOMEPAGE=""
 LICENSE=""

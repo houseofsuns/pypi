@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Check and fix URLs in text files [top-max 0.6.3]"
+DESCRIPTION="Check and fix URLs in text files [top-max 0.6.4]"
 
 HOMEPAGE=""
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Convert between CBOR, JSON, MessagePack, TOML, and YAML"
+DESCRIPTION="Convert between CBOR, JSON, MessagePack, TOML, and YAML [top-max 1.3.0]"
 
 HOMEPAGE="https://github.com/remarshal-project/remarshal"
 LICENSE="MIT"
